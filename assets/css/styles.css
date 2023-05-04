@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11451,3 +11452,41 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.colonnasinistra{
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align:justify;
+  height:80vh;
+  margin:auto;
+  padding:2em;
+}
+.colonnadestra{
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align:justify;
+  height:80vh;
+  margin:auto;
+  padding:2em;
+}
+
+.divisione{
+  overflow-y:scroll;
+  text-align:justify;
+  height:35vh;
+  padding: 2em;
+}
+
+.row{
+  padding: 2em;
+}
+
+.prova{
+  background-color: #badbcc;
+}
+/*!body{
+  height:100vh;
+  overflow: hidden;
+  margin:auto;
+
+} */
