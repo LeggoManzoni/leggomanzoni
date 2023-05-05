@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I Promessi Sposi (1840)</title>
+                <author xml:id="AM">Alessandro Manzoni</author>
+                <respStmt>
+                    <resp>Codifica introduzione e capitoli 1-2</resp>
+                    <persName xml:id="LT">Luca Tarozzi</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 3-8</resp>
+                    <persName xml:id="MB">Marianna Berti</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 9-11</resp>
+                    <persName xml:id="MG">Martina Gennari</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 12-14 e 30-32</resp>
+                    <persName xml:id="ECT">Elena Casadio Tozzi</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 15-17 e 24-26</resp>
+                    <persName xml:id="FS">Francesca Speranza</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 18-20 e 27-29</resp>
+                    <persName xml:id="CMB">Caterina Miracle Bragantini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica capitoli 21-23 e 36-38</resp>
+                    <persName xml:id="LN">Lucia Natalini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione</resp>
+                    <persName xml:id="LS">Lorenzo Sabatino</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione</resp>
+                    <persName xml:id="BN">Beatrice Nava</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Manzoni Online: carte, libri, edizioni, strumenti</publisher>
+                <pubPlace>Università di Bologna</pubPlace>
+                <date>2021</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o
+                        scientifico. Ogni uso commerciale è vietato</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>I promessi sposi</title>
+                    <author ref="#AM">Manzoni, Alessandro</author>
+                    <editor>Teresa Poggi Salani</editor>
+                    <publisher>Centro Nazionale Studi Manzoniani</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>2013</date>
+                    <note>In: Edizione nazionale ed europea delle opere di Alessandro Manzoni: testi
+                        criticamente riveduti e commentati, diretta da Giancarlo Vigorelli, Milano,
+                        Centro nazionale studi manzoniani, vol. 11.</note>
+                    <idno type="ISBN">9788887924275</idno>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <listBibl>
+                    <head>Opere citate</head>
+                    <bibl xml:id="pestebugati"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/esemplari/557">Bugati,
+                        Gaspare, I fatti di Milano, al contrasto della peste, over pestifero
+                        contagio: dal primo d'agosto 1576 fin a l'ultimo dell'anno 1577.
+                        Particolarmente cauati dall'Aggiunta dell'Historia del reuer. P. Bugato
+                        milanese, stringatamente posti In Milano: per P. Gottardo, &amp; Pacifico
+                        Pontij, fratelli, 1578.</bibl>
+                    <bibl xml:id="vitaborromeo"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=Vita+di+Federico+Borromeo"
+                        >Rivola, Francesco, Vita di Federico Borromeo, Cardinale del Titolo di Santa
+                        Maria degli Angeli ed Arcivescovo di Milano, Compilata da Francesco Rivola
+                        sacerdote milanese...In Milano, per Dionisio Gariboldi, 1656.</bibl>
+                    <bibl xml:id="historiaepatriae"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=Iosephi+Ripamontij+canonici+Scalensis"
+                        >Ripamonti, Giuseppe, Iosephi Ripamontij canonici Scalensis chronistae vrbis
+                        Mediolani, Historiae patriae decadis 5. libri 6. Mediolani, ex regio palatio
+                        apud Io. Baptistam, et Iulium Caesarem Malatestam regios typographos.</bibl>
+                    <bibl xml:id="depeste"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=De+peste+Mediolani+quae+fuit+anno+1630"
+                        >Ripamonti, Giuseppe, Josephi Ripamontii, canonici scalensis, chronistae
+                        urbis Mediolani, De peste Mediolani quae fuit anno 1630, libri V., 1640,
+                        apud Malatestas.</bibl>
+                    <bibl xml:id="memorielacroce"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=Memorie+delle+cose+notabili"
+                        >La Croce, Pio, Memorie delle cose notabili successe in Milano intorno al
+                        mal contaggioso l’anno 1630, Milano, Giuseppe Maganza, 1730.</bibl>
+                    <bibl xml:id="magianaturalis">Della Porta, Giovanni Battista, Magiae naturalis
+                        sive de miraculis rerum naturalium, 1558.</bibl>
+                    <bibl xml:id="desubtilitate">Cardano, Girolamo, De Subtilitate.</bibl>
+                    <bibl xml:id="derestitutione">Cardano, Girolamo, De restitutione temporum et
+                        motuum coelestium.</bibl>
+                    <bibl xml:id="duodecimgeniturarum">Cardano, Girolamo, Duodecim
+                        geniturarum</bibl>
+                    <bibl xml:id="historiaelapidum">Cardano, Girolamo, Historiae lapidum
+                        metallicorum et metallorum.</bibl>
+                    <bibl xml:id="historiaeanimalium">Cardano, Girolamo, Historiae animalium.</bibl>
+                    <bibl xml:id="historiaeplantarum">Cardano, Girolamo, Historiae plantarum.</bibl>
+                    <bibl xml:id="libersecretorum">Magno, Alberto, Liber Secretorum de virtutibus
+                        herbarum lapidum et animalium quorundam.</bibl>
+                    <bibl xml:id="ilprincipe">Machiavelli, Niccolò, Il Principe.</bibl>
+                    <bibl xml:id="discorsititolivio">Machiavelli, Niccolò, Discorsi sopra la prima
+                        Deca di Tito Livio.</bibl>
+                    <bibl xml:id="ragiondistato">Botero, Giovanni, Della ragion di Stato.</bibl>
+                    <bibl xml:id="statistaregnante">Castiglione, Valeriano, Statista
+                        Regnante.</bibl>
+                    <bibl xml:id="ilforno">Tasso, Torquato, Il forno overo della nobiltà</bibl>
+                    <bibl xml:id="gerusalemmeliberata"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=gerusalemme+liberata"
+                        >Tasso, Torquato, Gerusalemme Liberata.</bibl>
+                    <bibl xml:id="gerusalemmeconquistata"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=gerusalemme+conquistata"
+                        >Tasso, Torquato, Gerusalemme Conquistata.</bibl>
+                    <bibl xml:id="discorsicavallereschi">Birago, Francesco, Li discorsi
+                        cauallereschi del signor Francesco Birago, ... Ne' quali, con rifiutar la
+                        dottrina caualleresca del sig. Giouam battista Oleuano, s'insegna ad ...
+                        racchettar le querele, nate per cagion d'honore. Con la tauola delle cose
+                        notabili In Milano: per Gio.Battista Bidelli, 1628.</bibl>
+                    <bibl xml:id="bibliothecaI">Bibliotheca I.</bibl>
+                    <bibl xml:id="ragguaglio"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/esemplari/3197">Tadino,
+                        Alessandro, Raguaglio dell'origine et giornali successi della gran peste
+                        contagiosa, venefica et malefica, seguita nella città di Milano et suo
+                        Ducato dall'anno 1629 sino all'anno 1632, Milano, 1648.</bibl>
+                    <bibl xml:id="dottrinamorbo"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=morbo+petecchiale"
+                        >Acerbi, Enrico, Dottrina teorico-pratica del morbo petecchiale, con nuove
+                        ricerche intorno l'origine, l'indole, le cagioni predisponenti ed
+                        effettrici, la cura e la preservazione del morbo medesimo in particolare, e
+                        degli altri contagi in generale.</bibl>
+                    <bibl xml:id="storiafiorentina"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=storia+fiorentina"
+                        >Varchi, Benedetto, Storia Fiorentina.</bibl>
+                    <bibl xml:id="alleggiamento"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=alleggiamento"
+                        >Cavazzi della Somaglia, Carlo Girolamo, Alleggiamento dello stato di Milano
+                        per le imposte, e loro ripartimenti. Opera di Carlo Girolamo Cavatio
+                        prosapia de' conti della Somaglia ... In Milano: nella reg. duc. corte, per
+                        Gio. Battista, e Giulio Cesare fratelli Malatesta stampatori ...
+                        1653.</bibl>
+                    <bibl xml:id="pestilenzalampugnani">Lampugnani, Agostino, La pestilenza seguita
+                        in Milano l'anno 1630 raccontata da Agostino Lampugnano priore di S.
+                        Simpliciano...Mlano, 1634.</bibl>
+                    <bibl xml:id="disquisitionummagicarumlibri">Del Río, Martín Antonio,
+                        Disquisitionum magicarum libri sex.</bibl>
+                    <bibl xml:id="osservazionitortura"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=Scrittori+classici"
+                        >Scrittori classici italiani di economia politica Milano, nella Stamperia e
+                        Fonderia di G. G. Destefanis a S. Zeno, n.º 534, 1803-1816.</bibl>
+                    <bibl xml:id="storiamilano"
+                        sameAs="http://http://www.alessandromanzoni.org/biblioteca/esemplari/7406"
+                        >Verri, Pietro, Storia di Milano del Conte Pietro Verri, Milano,
+                        1824-1825.</bibl>
+                    <bibl xml:id="delgovernopeste"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?title=Del+governo+della+peste"
+                        >Muratori, Lodovico Antonio, Del governo della peste, e delle maniere di
+                        guardarsene, trattato di Lodovico Antonio Muratori ... diviso in politico,
+                        medico, et ecclesiastico ... In Modena: per Bartolomeo Soliani, 1714.</bibl>
+                    <bibl xml:id="guerrinmeschino">Da Barberino di Valdelsa, Andrea, Guerrin
+                        Meschino.</bibl>
+                    <bibl xml:id="realifrancia">Da Barberino di Valdelsa, Andrea, I Reali di
+                        Francia.</bibl>
+                    <bibl xml:id="rimeeprose"
+                        sameAs="http://www.alessandromanzoni.org/biblioteca/ricerca?author=Achillini"
+                        > Achillini, Claudio, Rime, e prose di Claudio Achillini, In Venetia: per
+                        Nicolo Pezzana, 1673.</bibl>
+                    <bibl xml:id="libroisaia">Libro di Isaia.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation marks="all"/>
+                <hyphenation>
+                    <p>I trattini di sillabazione a fine riga sono stati eliminati e le parole
+                        ricomposte</p>
+                </hyphenation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Il testo utilizzato per il progetto LeggoManzoni, quaranta commenti alla
+                    quarantana è stato digitalizzato nell'ambito del progetto PRIN 2015 Manzoni Online: carte, libri, edizioni e strumenti</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName xml:id="alcabizio" sameAs="">Alcabizio</persName>
+                        <persName xml:id="acerbi" sameAs="http://www.isni.org/isni/0000000079728694"
+                            >Acerbi, Francesco Enrico</persName>
+                        <persName xml:id="achillini"
+                            sameAs="http://www.isni.org/isni/000000006631066X">Achillini,
+                            Claudio</persName>
+                        <persName xml:id="aristotele"
+                            sameAs="http://www.isni.org/isni/0000000123748095">Aristotele</persName>
+                        <persName xml:id="barberino" sameAs="https://isni.org/isni/0000000108847845"
+                            >Barberino di Valdelsa, Andrea da</persName>
+                        <persName xml:id="birago" sameAs="http://www.isni.org/isni/000000006631357X"
+                            >Birago, Francesco</persName>
+                        <persName xml:id="botero" sameAs="http://www.isni.org/isni/0000000120955857"
+                            >Botero, Giovanni</persName>
+                        <persName xml:id="bugati" sameAs="https://isni.org/isni/0000000066299122"
+                            >Bugati, Gaspare</persName>
+                        <persName xml:id="cardano" sameAs="https://isni.org/isni/0000000081052996"
+                            >Cardano, Girolamo</persName>
+                        <persName xml:id="isaia" sameAs="http://www.isni.org/isni/0000000096742658"
+                            >Isaia</persName>
+                        <persName xml:id="castiglione"
+                            sameAs="http://www.isni.org/isni/0000000120250611">Castiglione,
+                            Valeriano</persName>
+                        <persName xml:id="cavazzi" sameAs="https://isni.org/isni/0000000062745850"
+                            >Cavazzi della Somaglia, Carlo Girolamo</persName>
+                        <persName xml:id="delrio" sameAs="http://www.isni.org/isni/0000000109401941"
+                            >Del Rio, Martìn Antonio</persName>
+                        <persName xml:id="porta" sameAs="https://isni.org/isni/0000000447725359"
+                            >Della Porta, Giovanni Battista</persName>
+                        <persName xml:id="diogenelaerzio">Diogene Laerzio</persName>
+                        <persName xml:id="croce" sameAs="http://viaf.org/viaf/256149717549510951215"
+                            >La Croce, Pio</persName>
+                        <persName xml:id="lampugnani"
+                            sameAs="https://isni.org/isni/0000000061359253">Lampugnani,
+                            Agostino</persName>
+                        <persName xml:id="machiavelli"
+                            sameAs="https://isni.org/isni/0000000121441233">Machiavelli,
+                            Niccolò</persName>
+                        <persName xml:id="magno" sameAs="https://isni.org/isni/0000000109226821"
+                            >Magno, Alberto</persName>
+                        <persName xml:id="muratori" sameAs="https://isni.org/isni/0000000121379855"
+                            >Muratori, Lodovico Antonio</persName>
+                        <persName xml:id="ripamonti" sameAs="https://isni.org/isni/0000000079723703"
+                            >Ripamonti, Giuseppe</persName>
+                        <persName xml:id="rivola" sameAs="https://isni.org/isni/000000006141905X"
+                            >Rivola, Francesco</persName>
+                        <persName xml:id="tadino" sameAs="https://isni.org/isni/0000000038009503"
+                            >Tadino, Alessandro</persName>
+                        <persName xml:id="tasso" sameAs="http://www.isni.org/isni/000000012118517X"
+                            >Tasso, Torquato</persName>
+                        <persName xml:id="varchi" sameAs="http://www.isni.org/isni/0000000121011049"
+                            >Varchi, Benedetto</persName>
+                        <persName xml:id="verri" sameAs="https://isni.org/isni/0000000121005327"
+                            >Verri, Pietro</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
