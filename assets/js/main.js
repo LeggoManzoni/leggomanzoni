@@ -60,9 +60,13 @@ window.addEventListener('DOMContentLoaded',  () => {
     function changepage(){
     var page = document.getElementById('whichpage').getAttribute("href"); //adpat to our different filenames
     };
+  
+    collectId();
+});
 
-    // function for splitting the id content 
-
+/* collect id */
+let collectId = () => {
+// function for splitting the id content 
     fetch('/extract-ids')
     .then(response => response.json())
     .then(idArray => {
@@ -72,4 +76,4 @@ window.addEventListener('DOMContentLoaded',  () => {
     .catch(error => {
         console.error('Error fetching the IDs:', error);
     });
-});
+};

@@ -16,24 +16,11 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="assets/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Leggo Manzoni</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="introduzione.html">Introduzione</a></li>
-                        <li class="nav-item"><a class="nav-link" href="commenti.html">Commenti</a></li>
-                        <li class="nav-item"><a class="nav-link" href="reader.html">Reader</a></li>
-                        <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <%- include ("partials/navbar"); %>        
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
@@ -50,7 +37,14 @@
             </div>
         </header>
         
-        
+        <!-- TRY -->
+        <ul class="d-none">
+        <% arrayN.forEach((el) => { %>
+            <li>Capitolo <%= el; %></li>
+        <% }); %>
+        </ul>
+        <!-- / -->
+
         <!-- Il progetto-->
         <div>
         <section class="page-section bg-primary" id="learnmore">
@@ -115,8 +109,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -124,8 +118,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -133,8 +127,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -142,8 +136,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -151,8 +145,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -160,8 +154,8 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <a class="portfolio-box" href="" title="Project Name">
+                            <img class="img-fluid" src="" alt="..." />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Project Name</div>
@@ -262,7 +256,7 @@ Morbi auctor pharetra orci quis vestibulum. Donec congue et orci vel rutrum. Viv
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
-        <script src="assets/js/scripts.js"></script>
+        <script src="/assets/js/main.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
