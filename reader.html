@@ -14,7 +14,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="assets/css/styles.css" rel="stylesheet" />
         <!-- jQuery-->
-        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/jquery-3.6.4.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
 
@@ -38,8 +38,8 @@
           <!-- Masthead-->
         <header>
             <div class="container px-4 px-lg-5 h-20">
-                        <h1 class="text-black text-center font-weight-bold">Reader</h1>
-                    </div>
+                        <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
+            </div>
         </header>
         <div class="container container1">
         <section class="box_testi">
@@ -50,9 +50,47 @@
                         Capitoli
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="">Capitolo 1</a></li>
-                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Capitolo 2</a></li>
-                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Capitolo 3</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="intro.xml">Introduzione</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap1.xml">Capitolo 1</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap2.xml">Capitolo 2</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap3.xml">Capitolo 3</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap4.xml">Capitolo 4</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap5.xml">Capitolo 5</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap6.xml">Capitolo 6</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap7.xml">Capitolo 7</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap8.xml">Capitolo 8</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap9.xml">Capitolo 9</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap10.xml">Capitolo 10</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap11.xml">Capitolo 11</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap12.xml">Capitolo 12</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap13.xml">Capitolo 13</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap14.xml">Capitolo 14</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap15.xml">Capitolo 15</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap16.xml">Capitolo 16</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap17.xml">Capitolo 17</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap18.xml">Capitolo 18</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap19.xml">Capitolo 19</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap20.xml">Capitolo 20</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap21.xml">Capitolo 21</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap22.xml">Capitolo 22</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap23.xml">Capitolo 23</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap24.xml">Capitolo 24</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap25.xml">Capitolo 25</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap26.xml">Capitolo 26</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap27.xml">Capitolo 27</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap28.xml">Capitolo 28</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap29.xml">Capitolo 29</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap30.xml">Capitolo 30</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap31.xml">Capitolo 31</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap32.xml">Capitolo 32</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap33.xml">Capitolo 33</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap34.xml">Capitolo 34</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap35.xml">Capitolo 35</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap36.xml">Capitolo 36</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap37.xml">Capitolo 37</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap38.xml">Capitolo 38</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap39.xml">Capitolo 39</a></li>
+                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="cap40.xml">Capitolo 40</a></li>
                       </ul>
                     <div class="text">
                         <div class="section" id="2b-intro">

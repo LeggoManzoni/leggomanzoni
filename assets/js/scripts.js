@@ -56,7 +56,16 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-function changepage(){
+    function changepage(){
     var page = document.getElementById('whichpage').getAttribute("href"); //adpat to our different filenames
     };
+
+
+    function selectId(url){
+        let testo = document.getElementsById('#D1');
+        let data = testo.getAttribute('span');
+
+        console.log('span');
+    }
+    selectId('reader.html')
 });
