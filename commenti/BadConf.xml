@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Commento a cura di Badini Confalonieri</title>
+                        <respStmt>
+                              <resp>Correzione e codifica</resp>
+                              <persName xml:id="ER">Ersilia Russo</persName>
+                              <note>Università di Bologna "Alma mater"</note>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                        <pubPlace>Università di Bologna "Alma mater"</pubPlace>
+                        <date>2023</date>
+                        <availability>
+                              <p>Questa risorsa digitale è liberamente accessibile per uso personale
+                                    o scientifico. Ogni uso commerciale è vietato.</p>
+                        </availability>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <author>Alessandro Manzoni</author>, <title>I Promessi Sposi</title>,
+                              a cura di <persName type="author" xml:id="BadConf">Luca Badini
+                                    Confalonieri</persName>, <pubPlace>Roma</pubPlace>,
+                                    <publisher>Salerno</publisher>, <date>2006</date>. </bibl>
+                  </sourceDesc>
+                  <sourceDesc>
+                        <listBibl>
+                              <bibl xml:id="letteremanzoni">Alessandro Manzoni, Lettere</bibl>
+                              <bibl xml:id="badconfps">Alessandro Manzoni, I promessi sposi, a cura
+                                    di Luca Badini Confalonieri, Roma, Salerno, 2006.</bibl>
+                              <bibl xml:id="aminta"> Torquato Tasso, Aminta</bibl>
+                              <bibl xml:id="nigrops">Alessandro Manzoni, I promessi sposi, a cura di
+                                    Salvatore Silvano Nigro.</bibl>
+                              <bibl xml:id="crusca">Vocabolario degli Accademici della Crusca</bibl>
+                              <bibl xml:id="encyclopedie">Encyclopédie méthodique. Grammaire et
+                                    littérature, 3 voll., Padova, s.e., 1784-1788.</bibl>
+                              <bibl xml:id="romanzostorico">Alessandro Manzoni, Discorso sul romanzo
+                                    storico.</bibl>
+                              <bibl xml:id="fermo">Alessandro Manzoni, Fermo e Lucia.</bibl>
+                              <bibl xml:id="sentirmessa">Alessandro Manzoni, Sentir messa.</bibl>
+                              <bibl xml:id="sli">Alessandro Manzoni, Scritti linguistici inediti, I,
+                                    prem. di Giovanni Nencioni, a cura di Angelo Stella e Maurizio
+                                    Vitale, Milano, Centro Nazionale Studi Manzoniani, 2000.</bibl>
+                              <bibl xml:id="calvino">Italo Calvino, ?</bibl>
+                              <bibl xml:id="atala">François-René de Chateaubriand, Atala.</bibl>
+                              <bibl xml:id="rene">François-René de Chateaubriand, René.</bibl>
+                              <bibl xml:id="compagniagesu">Daniello Bartoli, Istoria della Compagnia
+                                    di Gesù.</bibl>
+                              <bibl xml:id="viaggiodamilano">Carlo Amoretti, Viaggio da Milano ai
+                                    tre laghi [...] e ne’ monti che li circondano, Milano, Galeazzi,
+                                    1801.</bibl>
+                              <bibl xml:id="tramater">Tramater.</bibl>
+                              <bibl xml:id="cherubini1">Francesco Cherubini, Vocabolario
+                                    Milanese-Italiano, 2 voll., Milano, Stamperia Reale,
+                                    1814.</bibl>
+                              <bibl xml:id="cherubini2">Francesco Cherubini, Vocabolario
+                                    Milanese-Italiano, 4 voll., Milano, Stamperia Reale,
+                                    1839-1843.</bibl>
+                              <bibl xml:id="desgrazzi">C. Porta, Desgrazzi de Giovannin
+                                    Bongee.</bibl>
+                              <bibl xml:id="letteredazeglio">Massimo d'Azeglio, Epistolario.</bibl>
+                              <bibl xml:id="saggiodivoc">Alessandro Manzoni, Saggio di vocabolario
+                                    italiano secondo l’uso di Firenze compilato nel 1856 in
+                                    collaborazione con Gino Capponi</bibl>
+                        </listBibl>
+                  </sourceDesc>
+            </fileDesc>
+          <revisionDesc>
+              <change who="BN" when="2023-05-10">prima bozza di codifica capitolo 1</change>
+              <change who="ER" when="2023-05-11">codifica intro e capitolo 1</change>
+              <change who="ER" when="2023-05-11">illustrazioni linkate alla parola più vicina o a quella a cui si riferiscono</change>
+              <change who="BN" when="2023-05-12">aggiunti @xml:id per le note</change>
+              <change who="BN" when="2023-05-12">corretto BadConf_intr in BadConf_intro</change>
+                <change who="ER" when="2023-05-15">inseriti i riferimenti interni (rs)</change>
+          </revisionDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <div xml:id="BadConf_intro">
+                        <milestone unit="comma" n="1"/>
+                        <note xml:id="BadConf_intro-n1" target="quarantana/intro.xml#intro_10001">
+                              <ref rend="bold">5. [intestazione]</ref>: l’intestazione
+                              dell’introduzione, inizialmente non prevista (cfr. <bibl corresp="#letteremanzoni"><hi rend="italic">Lettere</hi>, to. 11
+                                    p. 161</bibl>), è quella del «genietto», che apre anche i <rs>capp. VI, XVII, XXIII e XXXVIII</rs>. «Il
+                              genietto regge due fiaccole. Una dà fiamme, l’altra dà fumo: a
+                              indicare accensione di passione, da una parte; e spegnimento e
+                              ritrosia, dall’altra. L’intestazione è da favola boschereccia. E
+                              prende a modello, dall'<bibl corresp="#aminta" rend="italic">Aminta</bibl> del Tasso, la disarmonia antiidillica introdotta
+                              dal Satiro con il suo attentato violento contro la vergine Silvia.
+                              L’intestazione compendia la violenza che è il presupposto del romanzo.
+                              E che sulla narrazione tutta incombe come minaccia, e come memento
+                              antiidillico» (<bibl corresp="#nigrops">Nigro</bibl>).</note>
+                        <note xml:id="BadConf_intro-n2" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10429">
+                              <ref rend="bold">5.1-7 L'Historia... accidenti:</ref> per questo
+                              inizio, in cui Manzoni abilmente imita lo stile secentesco, sono stati
+                              richiamati passi di Achillini, Bartoli, Boccalini, Brignole Sale,
+                              Ciampoli, Mascardi, Lampugnani, Tadino, Tasca, e anche il frontespizio
+                              del <bibl corresp="#crusca" rend="italic">Vocabolario della
+                                    Crusca</bibl> nell’ed. di Venezia 1612. Si notino il lessico
+                              arcaico, le ridondanze, il grande uso di metafore, la sintassi pesante
+                              per l’eccesso di subordinate, la grafia antiquata o addirittura
+                              scorretta (<hi rend="italic">u</hi> per <hi rend="italic">v</hi> e
+                              viceversa, <hi rend="italic">t</hi> o <hi rend="italic">tt</hi> per
+                                    <hi rend="italic">z</hi>; raddoppiamenti, maiuscole, <hi rend="italic">h</hi> iniziali, <hi rend="italic">j</hi> finali,
+                              apostrofi scorretti).</note>
+                        <note xml:id="BadConf_intro-n3" target="quarantana/intro.xml#intro_10006">
+                              <ref rend="bold">5.1 vna</ref>: su questa forma <hi rend="italic">vna</hi>, da Ghisalberti corretta in <hi rend="italic">una</hi>, cfr., in questo vol., la <rs rend="italic">Nota sul testo</rs>.</note>
+                        <note xml:id="BadConf_intro-n4" target="quarantana/intro.xml#intro_10013">
+                              <ref rend="bold">togliendoli</ref>: togliendogli.</note>
+                        <milestone unit="comma" n="2"/>
+                        <note xml:id="BadConf_intro-n5" target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040">
+                              <ref rend="bold">5.2 gl'illustri Campioni</ref>: gli storici
+                              famosi.</note>
+                        <note xml:id="BadConf_intro-n6" target="quarantana/intro.xml#intro_10044">
+                              <ref rend="bold">Arringo</ref>: battaglia. </note>
+                        <note xml:id="BadConf_intro-n7" target="quarantana/intro.xml#intro_10046" targetEnd="quarantana/intro.xml#intro_10046">
+                              <ref rend="bold">fanno messe</ref>: raccolgono. </note>
+                        <note xml:id="BadConf_intro-n8" target="quarantana/intro.xml#intro_10047" targetEnd="quarantana/intro.xml#intro_10050">
+                              <ref rend="bold">di Palme e d’Allori</ref>: sono i segni del trionfo e
+                              della gloria.</note>
+                        <note xml:id="BadConf_intro-n9" target="quarantana/intro.xml#intro_10051" targetEnd="quarantana/intro.xml#intro_10060">
+                              <ref rend="bold">rapiscono... brillanti</ref>: sottraggono solamente
+                              le spoglie più illustri (<hi rend="italic">solo che le sole</hi> è un
+                              bisticcio costruito su un pleonasmo).</note>
+                        <note xml:id="BadConf_intro-n10" target="quarantana/intro.xml#intro_10072">
+                              <ref rend="bold">qualificati</ref>: titolati.</note>
+                        <milestone unit="comma" n="3"/>
+                        <note xml:id="BadConf_intro-n11" target="quarantana/intro.xml#intro_10117" targetEnd="quarantana/intro.xml#intro_10118">
+                              <ref rend="bold">5.3 bellici Oricalchi</ref>: trombe di guerra (<hi rend="italic">oricalco</hi> è il nome della lega di rame e
+                              zinco, splendente come l’oro, con la quale si facevano le
+                              trombe).</note>
+                        <note xml:id="BadConf_intro-n12" target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136">
+                              <ref rend="bold">6.3 gente... affare</ref>: persone dedite a lavori
+                              manuali (cfr. anche <rs>71.24</rs>) e di umile
+                              condizione (cfr. invece, a <rs>482.23</rs>, la «coppia d’alto affare»
+                              costituita da don Ferrante e donna Prassede).</note>
+                        <note xml:id="BadConf_intro-n13" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150">
+                              <ref rend="bold">6.3 schietta e genuinamente</ref>: ‘schiettamente e
+                              genuinamente’: la costruzione della coppia di avverbi con un solo
+                              suffisso era diffusa nell’italiano secentesco per influsso dello
+                              spagnolo.</note>
+                        <milestone unit="comma" n="4"/>
+                        <note xml:id="BadConf_intro-n14" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">
+                              <ref rend="bold">6.4 Nella quale... diaboliche</ref>: Manzoni prende
+                              le distanze da questa interpretazione del male come risultato di «arte
+                              e fattura diabolica», soprattutto se si pensa che essa è avanzata
+                              perché coloro che governano lo farebbero cosi bene che la normale
+                              malizia umana non potrebbe loro resistere.</note>
+                        <milestone unit="comma" n="5"/>
+                        <note xml:id="BadConf_intro-n15" target="quarantana/intro.xml#intro_10187" targetEnd="quarantana/intro.xml#intro_10188">
+                              <ref rend="bold">6.5 nostri climi</ref>: nostri paesi. Parla del
+                              ducato di Milano.</note>
+                        <note xml:id="BadConf_intro-n16" target="quarantana/intro.xml#intro_10191">
+                              <ref rend="bold">amparo</ref>: protezione (spagnolismo).</note>
+                        <note xml:id="BadConf_intro-n17" target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194">
+                              <ref rend="bold">Re Cattolico</ref>: era il titolo che spettava al re
+                              di Spagna, che allora era Filippo IV.</note>
+                        <note xml:id="BadConf_intro-n18" target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10220">
+                              <ref rend="bold">l’Heroe... Prosapia</ref>: don Gonzalo Fernàndez de
+                              Córdoba (1585-1635), bisnipote del «Gran capitano» omonimo (cfr. 510.3
+                              e n.), governatore <hi rend="italic">ad interim</hi> (<hi rend="italic">pro tempore</hi>) dello Stato di Milano dal 1626
+                              al 1629, e dunque temporaneo rappresentante del re di Spagna (Milano
+                              fu sotto il dominio spagnolo dal 1535 al 1703).</note>
+                        <note xml:id="BadConf_intro-n19" target="quarantana/intro.xml#intro_10230" targetEnd="quarantana/intro.xml#intro_10240">
+                              <ref rend="bold">gl’Amplissimi... Pianeti</ref>: le metafore
+                              sottolineano l’inamovibilità dei senatori e la trasferibilità dei
+                              magistrati.</note>
+                        <note xml:id="BadConf_intro-n20" target="quarantana/intro.xml#intro_10255">
+                              <ref rend="bold">causale</ref>: causa.</note>
+                        <note xml:id="BadConf_intro-n21" target="quarantana/intro.xml#intro_10269">
+                              <ref rend="bold">sevitie</ref>: crudeltà.</note>
+                        <note xml:id="BadConf_intro-n22" target="quarantana/intro.xml#intro_10276" targetEnd="quarantana/intro.xml#intro_10282">
+                              <ref rend="bold">se non... diabolica</ref>: se non che sia opera del
+                              diavolo.</note>
+                        <note xml:id="BadConf_intro-n23" target="quarantana/intro.xml#intro_10298" targetEnd="quarantana/intro.xml#intro_10304">
+                              <ref rend="bold">con occhij... Briareo</ref>: il mitico Argo (il
+                              principe argivo che sorvegliava Io, amata da Giove) era dotato di
+                              cent’occhi e Briareo (il gigante, racconta sempre la mitologia,
+                              fulminato sotto l’Etna) aveva cento braccia.</note>
+                        <note xml:id="BadConf_intro-n24" target="quarantana/intro.xml#intro_10311">
+                              <ref rend="bold">6.6 emolumenti</ref>: profitti, guadagni.</note>
+                        <milestone unit="comma" n="6"/>
+                        <note xml:id="BadConf_intro-n25" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313">
+                              <ref rend="bold">Per locché</ref>: per la qual cosa.</note>
+                        <note xml:id="BadConf_intro-n26" target="quarantana/intro.xml#intro_10322" targetEnd="quarantana/intro.xml#intro_10323">
+                              <ref rend="bold">verde staggione</ref>: la giovinezza.</note>
+                        <note xml:id="BadConf_intro-n27" target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346">
+                              <ref rend="bold">con rendersi... Parche</ref>: essendo morti (avendo
+                              pagato il loro tributo alle Parche). Le Parche (<hi rend="italic">Moire</hi> in greco) erano le tre dee figlie della Notte da cui
+                              dipendeva il destino degli uomini. Cloto teneva la conocchia, Lachesi
+                              filava e Atropo recideva il filo della vita.</note>
+                        <note xml:id="BadConf_intro-n28" target="quarantana/intro.xml#intro_10370">
+                              <ref rend="bold">6.7 generaliter</ref>. ‘genericamente’ (è espressione
+                              latina e perciò è scritta in tondo).</note>
+                        <milestone unit="comma" n="7"/>
+                        <note xml:id="BadConf_intro-n29" target="quarantana/intro.xml#intro_10385">
+                              <ref rend="bold">Parto</ref>: prodotto, <hi rend="italic">purissimi
+                                    accidenti</hi>: nella terminologia della filosofia scolastica
+                                    <hi rend="italic">accidente</hi> si contrappone, come elemento
+                              esterno, contingente, a <hi rend="italic">sostanza</hi>, vale a dire
+                              all’essenza della cosa. Mutati i nomi, la «sostanza» della
+                              «Narratione» rimarrà invariata.</note>
+                        <milestone unit="comma" n="8"/>
+                        <note xml:id="BadConf_intro-n30" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446">
+                              <ref rend="bold">6.8 dilavato e graffiato</ref>: sbiadito e pieno di
+                              sgorbi.</note>
+                        <note xml:id="BadConf_intro-n31" target="quarantana/intro.xml#intro_10447">
+                              <ref rend="bold">autografo</ref>: manoscritto.</note>
+                        <note xml:id="BadConf_intro-n32" target="quarantana/intro.xml#intro_10504">
+                              <ref rend="bold">scartabellando</ref>: scorrendo le pagine del.</note>
+                        <note xml:id="BadConf_intro-n33" target="quarantana/intro.xml#intro_10514">
+                              <ref rend="bold">concettini</ref>: con il nome di «concetti» o
+                              «concertini» la retorica secentesca designava gli accostamenti
+                              ingegnosi di cose tra loro lontane, le immagini, come si diceva,
+                              «pellegrine e argute».</note>
+                        <note xml:id="BadConf_intro-n34" target="quarantana/intro.xml#intro_10517">
+                              <ref rend="bold">figure</ref>: sta per ‘figure retoriche’.</note>
+                        <milestone unit="comma" n="9"/>
+                        <note xml:id="BadConf_intro-n35" target="quarantana/intro.xml#intro_10567">
+                              <ref rend="bold">6.9 Idiotismi</ref>: espressioni dialettali.</note>
+                        <milestone unit="comma" n="10"/>
+                        <note xml:id="BadConf_intro-n36" target="quarantana/intro.xml#intro_10680">
+                              <ref rend="bold">7.10 solecismi</ref>: sgrammaticature (da <hi rend="italic">Sòloi</hi>, città del Cilicia dove si parlava
+                              malamente il greco). Si tratta in particolare di sgrammaticature
+                              sintattiche, come spiega l'<hi rend="italic">Encyclopédie</hi>: «Le
+                              Solécisme viole les loix de la Syntaxe, en transgressant les règles de
+                              la Déclination, ou de la Conjugaison, ou de la Concordance, ou du
+                              Régime» (<bibl corresp="#encyclopedie"><hi rend="italic">Encyclopédie
+                                          méthodique. Grammaire et littérature</hi>, 3 voll.,
+                                    Padova, s.e., 1784-1788, vol. III p. 403</bibl>: nella
+                              biblioteca manzoniana di Brusuglio).</note>
+                        <note xml:id="BadConf_intro-n37" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700">
+                              <ref rend="bold">in questo paese</ref>: in Lombardia.</note>
+                        <milestone unit="comma" n="11"/>
+                        <note xml:id="BadConf_intro-n38" target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10806">
+                              <ref rend="bold">7.11 Non essendosi... obiezion</ref>: su questa
+                              sconcordanza, che fa il paio con quella di 509.1, cfr. la <rs rend="italic">Nota sul testo</rs>. <hi rend="italic">con
+                                    un'ingenuità... importanza</hi>: se poca è l’importanza del
+                              libro, secondo la professione di modestia d’obbligo per Manzoni, poca
+                              è anche l’ingenuità della spiegazione sulla sua origine e dunque non
+                              c’è da crederci troppo (e il manoscritto non esiste). Se poi si
+                              concludesse invece che il libro è importante, al Manzoni si dovrebbe
+                              riconoscere il solo merito di essere stato, di una storia non da lui
+                              inventata, lo scopritore e il dicitore. La straordinaria intensità di
+                              questa frase manzoniana risiede nella sua ambivalenza. Parlando
+                              dell’antichità, il Manzoni del <bibl corresp="#romanzostorico" rend="italic">Discorso sul romanzo storico</bibl> (che viene
+                              pubblicato nel 1850), convinto ormai che, «dacché è divenuta studio
+                              d’eruditi filosofi, non può più esser materia da poeti», scriverà: «È
+                              come un manoscritto tarlato di qua, dilavato di là, ma nel quale,
+                              guardando attentamente, uno può leggere quello che rimane, e cercar di
+                              supplire a ciò che se n’è andato. L’invenzioni moderne sull’antichità
+                              sarebbero come gli scarabocchi che un ragazzo venisse a fare su quel
+                              manoscritto; o, se par meglio, come lo stampatello che ci scrivesse
+                              sopra un ragazzo grande».</note>
+                        <milestone unit="comma" n="13"/>
+                        <note xml:id="BadConf_intro-n39" target="quarantana/intro.xml#intro_11056">
+                              <ref rend="bold">7.13 contingenti</ref>: eventuali (è termine della
+                              filosofia scolastica).</note>
+                        <milestone unit="comma" n="11"/>
+                        <note xml:id="BadConf_intro-n40" target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211">
+                              <ref rend="bold">8.15 venivano... libro</ref>: «Il libro sulla lingua
+                              italiana che, secondo testimonianze di Giulia Beccaria, del figliastro
+                              Stefano Stampa, dell’amico Claude Fauriel, il Manzoni avrebbe scritto
+                              dopo la stesura del <bibl rend="italic">Fermo e Lucia</bibl> e poi
+                              distrutto, sembrava fino a poco tempo fa una leggenda alimentata
+                              dall’autore stesso (oppure veniva erroneamente identificato con il
+                                    <bibl rend="italic" corresp="#sentirmessa">Sentir messa</bibl>).
+                              Di recente è stato dimostrato, attraverso il rinvenimento e
+                              l’identificazione di sette fogli e foglietti (quattro soli contenenti
+                              lacerti di testo), riutilizzati dal Manzoni (nel verso rimasto bianco)
+                              per la riscrittura del romanzo, che il “libro d’avanzo” fu
+                              effettivamente scritto e consisteva di oltre quattrocento pagine»
+                              (Stella-Repossi). Cfr. ora l’ed. commentata di questi lacerti in <bibl corresp="#sli">A. MANZONI, <hi rend="italic">Scritti linguistici
+                                          inediti</hi>, I, prem. di G. NENCIONI, a cura di A. STELLA
+                                    e M. VITALE, Milano, Centro Nazionale Studi Manzoniani, 2000,
+                                    pp. 29-37.</bibl></note>
+                        <milestone unit="comma" n="15"/>
+                        <note xml:id="BadConf_intro-n41" target="quarantana/intro.xml#intro_11262">
+                              <ref rend="bold">8. [illustrazione]</ref>: l’introduzione dell’autore
+                              si apre e si chiude su due “autoritratti”: di Manzoni che legge e
+                              decifra il manoscritto dell’anonimo secentesco, a <rs>5.1</rs>, e,
+                              qui, seduto in poltrona, davanti al fuoco, nella biblioteca di casa,
+                              con in mano un volume su cui campeggia la parola «FINE». Questo
+                              secondo “autoritratto” presenta anche i segni del lavoro svolto, di
+                              lettura e di scrittura, compreso il cestino dei fogli scartati. Il
+                              volume in mano all’autore, prossimo magari a finire nel fuoco,
+                              potrebbe essere quello del «libro d’avanzo». Certo il «FINE» segna la
+                              conclusione dell’“a parte”, di questo prologo cartaceo e metanarrativo
+                              («tutto il romanzo - scriveva <bibl corresp="#calvino">Calvino</bibl>
+                              - si situa dentro una biblioteca») per l’apertura realistica della
+                              narrazione, per il “vero inizio” confermato tale, oltre al resto,
+                              dalla ripetizione del titolo a <rs>p. 9</rs>.</note>
+                  </div>
+
+
+                  <div xml:id="BadConf_cap1">
+                        <milestone unit="comma" n="1"/>
+                        <note xml:id="BadConf_cap1-n1" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10017">
+                              <ref rend="bold">9.1. Quel ramo... monti</ref>: è il ramo verso
+                              sud-est, in direzione di Lecco. Quello occidentale è rivolto verso
+                              Como. I monti sono a occidente quelli della Brianza, a oriente le Alpi
+                              Orobie. Per questa descrizione iniziale sono stati richiamati brani di
+                              Chateaubriand (<bibl corresp="#atala" rend="italic">Atala</bibl>,
+                                    <bibl corresp="#rene" rend="italic">René</bibl>) e, prima, di
+                              Bartoli (<bibl corresp="#compagniagesu" rend="italic">Istoria della
+                                    Compagnia di Gesù</bibl>). Ma non senza un qualche influsso
+                              dovettero essere anche le prospettive mobili e la precisione
+                              topografica di “guide” come il <bibl corresp="#viaggiodamilano"><hi rend="italic">Viaggio da Milano ai tre laghi [...] e ne’
+                                          monti che li circondano</hi> di Carlo Amoretti (1794; a
+                                    Brusuglio è la seconda ed., Milano, Galeazzi,
+                              1801)</bibl>.</note>
+                        <note xml:id="BadConf_cap1-n2" target="quarantana/cap1.xml#c1_10020">
+                              <ref rend="bold">seni</ref>: ‘insenature’: parti di lago che si
+                              insinuano dentro terra con non grande apertura (più anguste dei
+                              golfi).</note>
+                        <note xml:id="BadConf_cap1-n3" target="quarantana/cap1.xml#c1_10032">
+                              <ref rend="bold">quelli</ref>: riferito a «monti». Dopo l’indicazione
+                              iniziale del soggetto (con il deittico <hi rend="italic">quel</hi>),
+                              si noti il procedere parallelo dei membretti del periodo, uno riferito
+                              al lago e uno riferito ai monti. <hi rend="italic">a destra</hi>:
+                              rispetto alla corrente: quindi ad occidente. È la parte della porta
+                              d’accesso al ponte che si vede in primo piano nelle illustrazioni di
+                              p. 8 e di p. 11.</note>
+                        <note xml:id="BadConf_cap1-n4" target="quarantana/cap1.xml#c1_10055">
+                              <ref rend="bold">costiera</ref>: «pendio continuato di terra fra i
+                              monti e le acque» (<bibl corresp="#tramater">Tramater</bibl>). A
+                                    <rs>10.4</rs> Manzoni userà in questo senso anche
+                              «costa».</note>
+                        <note xml:id="BadConf_cap1-n5" target="quarantana/cap1.xml#c1_10059" targetEnd="quarantana/cap1.xml#c1_10060">
+                              <ref rend="bold">il ponte</ref>: fatto costruire da Azzone Visconti
+                              nella prima metà del Trecento.</note>
+                        <note xml:id="BadConf_cap1-n6" target="quarantana/cap1.xml#c1_10109" targetEnd="quarantana/cap1.xml#c1_10111">
+                              <ref rend="bold">in nuovi... seni</ref>: non molto dopo il ponte di
+                              Lecco l’Adda si allarga di nuovo a formare i laghetti di Pescarenico,
+                              Garlate e Olginate.</note>
+                        <milestone unit="comma" n="2"/>
+                        <note xml:id="BadConf_cap1-n7" target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120">
+                              <ref rend="bold">9.2. tre grossi torrenti</ref>: il Gerenzone, il
+                              Caldone e il Bione.</note>
+                        <note xml:id="BadConf_cap1-n8" target="quarantana/cap1.xml#c1_10137">
+                              <ref rend="bold">10.2 Resegone</ref>: «<hi rend="italic">Resegon</hi>:
+                              segone, sega grande. Noi trasportiamo la parola <hi rend="italic">Resegon</hi> a denotare certa catena di monti che soprastano al
+                              lago di Lecco, e che per le molte loro punte presentano in complesso
+                              la figura d’una gran sega» (<bibl corresp="#cherubini1">F. CHERUBINI,
+                                          <hi rend="italic">Vocabolario Milanese-Italiano</hi>,
+                                    Milano, Stamperia Reale, 1814, 2 voll.</bibl>: Manzoni lavorò
+                              lungamente intorno a questo vocabolario, annotandolo e facendolo
+                              annotare, anche nella <bibl corresp="#cherubini2">seconda edizione,
+                                    Milano, Imperial Regia Stamperia, 1839-1843, 4 voll.</bibl>
+                              Copie con postille di Manzoni e della sua cerchia sono possedute a
+                              Brera, in via Morone, e in una raccolta privata).</note>
+                        <milestone unit="comma" n="3"/>
+                        <note xml:id="BadConf_cap1-n9" target="quarantana/cap1.xml#c1_10260" targetEnd="quarantana/cap1.xml#c1_10264">
+                              <ref rend="bold">10.3. terre... ville... casali</ref>: paesi...
+                              villaggi... cascinali.</note>
+                        <milestone unit="comma" n="4"/>
+                        <note xml:id="BadConf_cap1-n10" target="quarantana/cap1.xml#c1_10338" targetEnd="quarantana/cap1.xml#c1_10339">
+                              <ref rend="bold">10.4. un castello</ref>: una fortezza
+                              militare.</note>
+                        <milestone unit="comma" n="5"/>
+                        <note xml:id="BadConf_cap1-n11" target="quarantana/cap1.xml#c1_10419">
+                              <ref rend="bold">10.5. tuttavia</ref>: tuttora.</note>
+                        <note xml:id="BadConf_cap1-n12" target="quarantana/cap1.xml#c1_10420">
+                              <ref rend="bold">11. [illustrazione]:</ref> la vignetta, passando ad
+                              una prospettiva più alta e più ampia di quella dell’intestazione di
+                                    <rs>p. 9</rs> (dal livello dell’acqua a quello del promontorio),
+                              presenta al lettore il profilo del monte di San Martino sviluppato
+                              dalle nuvole che lo nascondevano e, ai suoi piedi, il borgo di Lecco.
+                              L’inserzione a questo punto dell’illustrazione, opera del vedutista
+                              Luigi Riccardi (autore anche dell’intestazione di p. 9), stacca e
+                              isola in qualche modo l’<hi rend="italic">hors-d'oeuvre</hi> della
+                              descrizione iniziale dall’inizio vero e proprio della
+                              narrazione.</note>
+                        <milestone unit="comma" n="8"/>
+                        <note xml:id="BadConf_cap1-n13" target="quarantana/cap1.xml#c1_10685" targetEnd="quarantana/cap1.xml#c1_10688">
+                              <ref rend="bold">11.8. una... stradicciole</ref>: una stradicciola che
+                              il lettore deve quindi immaginarsi aldilà del ponte rappresentato,
+                              nella costiera dalla parte di Lecco, alle pendici del San Martino e
+                              del Resegone. Aldilà della «veduta» si è entrati nella storia.</note>
+                        <note xml:id="BadConf_cap1-n14" target="quarantana/cap1.xml#c1_10690" targetEnd="quarantana/cap1.xml#c1_10691">
+                              <ref rend="bold">bel bello</ref>: tranquillamente. La locuzione
+                              avverbiale è anche del dialetto milanese (ed è presente in <bibl corresp="#desgrazzi">C. PORTA, <hi rend="italic">Desgrazzi de
+                                          Giovannin Bongee</hi>, v. 8</bibl>).</note>
+                        <note xml:id="BadConf_cap1-n15" target="quarantana/cap1.xml#c1_10719">
+                              <ref rend="bold">casato</ref>: cognome.</note>
+                        <milestone unit="comma" n="9"/>
+                        <note xml:id="BadConf_cap1-n16" target="quarantana/cap1.xml#c1_10812">
+                              <ref rend="bold">12.9. fessi</ref>: fenditure.</note>
+                        <note xml:id="BadConf_cap1-n17" target="quarantana/cap1.xml#c1_10842">
+                              <ref rend="bold">squarcio</ref>: brano.</note>
+                        <note xml:id="BadConf_cap1-n18" target="quarantana/cap1.xml#c1_10846">
+                              <ref rend="bold">voltata</ref>: curva.</note>
+                        <milestone unit="comma" n="10"/>
+                        <note xml:id="BadConf_cap1-n19" target="quarantana/cap1.xml#c1_10897">
+                              <ref rend="bold">12.10. menava</ref>: portava.</note>
+                        <note xml:id="BadConf_cap1-n20" target="quarantana/cap1.xml#c1_10899">
+                              <ref rend="bold">cura</ref>: parrocchia, casa parrocchiale.</note>
+                        <note xml:id="BadConf_cap1-n21" target="quarantana/cap1.xml#c1_10989">
+                              <ref rend="bold">12.11. bigiognolo</ref>: grigiastro
+                              (toscanismo).</note>
+                        <milestone unit="comma" n="12"/>
+                        <note xml:id="BadConf_cap1-n22" target="quarantana/cap1.xml#c1_11168">
+                              <ref rend="bold">12.12. guardia</ref>: elsa della spada.</note>
+                        <note xml:id="BadConf_cap1-n23" target="quarantana/cap1.xml#c1_11192">
+                              <ref rend="bold">13.12. bravi</ref>: sgherri assoldati da un potente.
+                              Il termine deriverebbe da <hi rend="italic">barbarus</hi>, ‘incolto e
+                              feroce’ (contratto nel francese <hi rend="italic">brave</hi> e nel
+                              provenzale <hi rend="italic">brau</hi>).</note>
+                        <milestone unit="comma" n="14"/>
+                        <note xml:id="BadConf_cap1-n24" target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278">
+                              <ref rend="bold">13.14. Sua Maestà Cattolica</ref>: il re di Spagna,
+                              allora Filippo II.</note>
+                        <note xml:id="BadConf_cap1-n25" target="quarantana/cap1.xml#c1_11192">
+                              <ref rend="bold">[illustrazione]</ref>: il disegno di Gonin,
+                              consacrato alla «publicazion del bando», ovvero alla pubblica «lettura
+                              delle grida», si anima per la presenza in scena del personaggio contro
+                              il quale il proclama è stato pensato: il bravo con «intorno al capo
+                              una reticella» cadente «sull’omero sinistro» che, in primo piano,
+                              spalleggia un potente che si allontana. Sull’esecuzione
+                              dell’illustrazione cfr. gli accenni in tre lettere a Gonin del
+                              gennaio-marzo 1840 (<bibl corresp="#letteremanzoni"><hi rend="italic">Lettere</hi>, to. 11 pp. 123,126,136</bibl>).</note>
+                        <note xml:id="BadConf_cap1-n26" target="quarantana/cap1.xml#c1_11356" targetEnd="quarantana/cap1.xml#c1_11358">
+                              <ref rend="bold">per fargli spalle</ref>: per spalleggiarlo.</note>
+                        <milestone unit="comma" n="16"/>
+                        <note xml:id="BadConf_cap1-n27" target="quarantana/cap1.xml#c1_11449">
+                              <ref rend="bold">14.16. grida</ref>: proclama. La parola deriva dal
+                              verbo <hi rend="italic">gridare</hi> poiché questi bandi venivano
+                              letti ad alta voce nei luoghi pubblici.</note>
+                        <milestone unit="comma" n="17"/>
+                        <note xml:id="BadConf_cap1-n28" target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518">
+                              <ref rend="bold">14.17. alla corda et al tormento</ref>: alla tortura.
+                              Si legavano i polsi della vittima dietro le spalle e poi la si
+                              sollevava da terra con quella stessa corda per mezzo di carrucole
+                              tante volte quanti erano i «tratti di corda» inflittile.</note>
+                        <milestone unit="comma" n="22"/>
+                        <note xml:id="BadConf_cap1-n29" target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984">
+                              <ref rend="bold">15.22. Enrico IV</ref>: Enrico IV di Borbone
+                              (1553-1610), re di Navarra (1572-1610) e di Francia (1589-1610), capo
+                              degli ugonotti, fu designato da Enrico III (assassinato nel 1589) suo
+                              successore, ma potè entrare in Parigi soltanto dopo aver sconfitto la
+                              lega cattolica e avere pubblicamente abiurato (1594). Nel 1598 il
+                              paese era liberato dagli Spagnoli (pace di Vervins) e veniva sancita,
+                              con l’editto di Nantes, la libertà religiosa. Fu assassinato a Parigi
+                              nel 1610. <hi rend="italic">duca di Savoia</hi>: Carlo Emanuele I
+                              (1562-1630), duca della Savoia dal 1580 al 1630, entrò in guerra
+                              contro la Francia per la conquista del Marchesato di Saluzzo e lo
+                              ottenne con il trattato di Lione (1601), ma a prezzo della cessione di
+                              molte terre sul versante francese. <hi rend="italic">il duca di
+                                    Biron</hi>: Charles de Gontaut, generale di Enrico IV e
+                              governatore della Borgogna, istigato a tradire il suo re, fu da questi
+                              scoperto e fatto decapitare il 31 luglio 1602.</note>
+                        <milestone unit="comma" n="23"/>
+                        <note xml:id="BadConf_cap1-n30" target="quarantana/cap1.xml#c1_12077" targetEnd="quarantana/cap1.xml#c1_12081">
+                              <ref rend="bold">15.23. Pandolfo... Malatesti</ref>: i due Malatesti
+                              (padre e figlio) avevano ricevuto nel 1603 il privilegio di essere
+                              stampatori dei decreti della Regia Camera, l’organo di governo che si
+                              occupava degli affari interni e del fisco.</note>
+                        <milestone unit="comma" n="24"/>
+                        <note xml:id="BadConf_cap1-n31" target="quarantana/cap1.xml#c1_12146" targetEnd="quarantana/cap1.xml#c1_12149">
+                              <ref rend="bold">15.24. Gonzalo... Cordova</ref>: <rs>cfr. n.
+                              6.5</rs>.</note>
+                        <milestone unit="comma" n="25"/>
+                        <note xml:id="BadConf_cap1-n32" target="quarantana/cap1.xml#c1_12265" targetEnd="quarantana/cap1.xml#c1_12268">
+                              <ref rend="bold">16.25. c'era... tuttavia</ref>: c’erano ancora dei
+                              bravi.</note>
+                        <note xml:id="BadConf_cap1-n33" target="quarantana/cap1.xml#c1_12268">
+                              <ref rend="bold">16. [illustrazione]</ref>: rispetto alla descrizione
+                              statica data a 12.11-12 dei due bravi, qui, terminata la messa a punto
+                              storica, la narrazione riprende e l’immagine registra il momento in
+                              cui il bravo a sinistra, che stava «a cavalcioni sul muricciolo basso,
+                              con una gamba spenzolata al di fuori, e l’altro piede posato sul
+                              terreno della strada», si alza «tirando la sua gamba sulla strada». Le
+                              due sequenze successive («l’altro s’era staccato dal muro; e tutt’e
+                              due gli s’avviavano incontro») fanno parte dell’animazione che il
+                              lettore deve immaginarsi da sé nello scorrere la vignetta e nel
+                              cambiare di pagina. La contiguità con l’illustrazione di <rs>p.
+                                    17</rs> permette «di far vedere il curato
+                              <!-- come linkare le pagine? --> contemporaneamente di spalle e di
+                              faccia» (<bibl corresp="#nigrops">Nigro</bibl>). In effetti, rispetto
+                              alla precedente tradizione illustrativa (<rs>vd. tav. 39</rs>), che
+                              non aveva mai mancato di rappresentare l’incontro di don Abbondio con
+                              i bravi ma raffigurandoli sempre tutti e tre in piedi e di profilo,
+                              l’uno in faccia agli altri (e lo schema ritorna, con la variante
+                              rispetto alla tradizione di un don Abbondio a sinistra e non a destra,
+                              e con una concentrazione inedita sulle tre persone che può ignorare
+                              sfondo e tabernacolo, nella vignetta di <rs>p. 18</rs>), la
+                              successione d’immagini della quarantana può articolare, con attenta
+                              inserzione rispetto al testo, inquadrature differenti e complementari.
+                              Un disegno preparatorio documenta, per quest’immagine di p. 16, una
+                              prospettiva più laterale e un don Abbondio di profilo che cammina
+                              verso i bravi: prospettiva risolutamente abbandonata nella soluzione a
+                              inquadrature complementari di cui si è detto. Cfr., per l’esecuzione
+                              di queste xilografie, l’informazione e discussione precisa della
+                              lettera di Manzoni a Gonin del 14 febbraio 1840 (<bibl corresp="#letteremanzoni"><hi rend="italic">Lettere</hi>, to. 11
+                                    pp. 130-31</bibl>). Ma sull’«incontro di don Abbondio coi
+                              bravi», «che prende in vari modi due o tre vignette» cfr. già le prime
+                              sommarie indicazioni di Massimo d’Azeglio a Gonin in una lettera del
+                              28 ottobre 1839 (<bibl corresp="#letteredazeglio">d’AZEGLIO, <hi rend="italic">Epistolario</hi>, cit., vol. 1 pp.
+                                    435-36</bibl>).</note>
+                        <milestone unit="comma" n="26"/>
+                        <note xml:id="BadConf_cap1-n34" target="quarantana/cap1.xml#c1_12325" targetEnd="quarantana/cap1.xml#c1_12327">
+                              <ref rend="bold">16.26. a un tratto</ref>: simultaneamente.</note>
+                        <milestone unit="comma" n="31"/>
+                        <note xml:id="BadConf_cap1-n35" target="quarantana/cap1.xml#c1_12724">
+                              <ref rend="bold">18.31. comune</ref>: comunità.</note>
+                        <note xml:id="BadConf_cap1-n36" target="quarantana/cap1.xml#c1_12724">
+                              <ref rend="bold">18. [illustrazione]</ref>: mentre il bravo di
+                              sinistra è raffigurato nell’atto «minaccioso e iracondo» di
+                                    <rs>18.30,</rs> quello di destra riassume in un gesto eloquente
+                              la prescrizione di omertà che sarà data in <rs>20.36</rs>,
+                              prescrizione ripresa poi, in identico gesto, dal don Abbondio
+                              dell’illustrazione che chiude il capitolo (<rs>p. 30</rs>).</note>
+                        <note xml:id="BadConf_cap1-n37" target="quarantana/cap1.xml#c1_12724">
+                              <ref rend="bold">19. [illustrazione]</ref>: come accadrà più avanti
+                              per l’affacciarsi della protagonista nei pensieri di Renzo (<rs>cfr.
+                                    p. 43</rs>), le illustrazioni danno corpo non solo a realtà e
+                              personaggi direttamente in scena, ma anche a suggestive evocazioni,
+                              sempre attentamente disposte in relazione all’impaginato.</note>
+                        <milestone unit="comma" n="38"/>
+                        <note xml:id="BadConf_cap1-n38" target="quarantana/cap1.xml#c1_13062">
+                              <ref rend="bold">20.37. messere</ref>: era, nel Seicento, il titolo
+                              che spettava ai parroci.</note>
+                        <milestone unit="comma" n="39"/>
+                        <note xml:id="BadConf_cap1-n39" target="quarantana/cap1.xml#c1_13170">
+                              <ref rend="bold">20.39. naturale</ref>: carattere.</note>
+                        <milestone unit="comma" n="43"/>
+                        <note xml:id="BadConf_cap1-n40" target="quarantana/cap1.xml#c1_13414" targetEnd="quarantana/cap1.xml#c1_13415">
+                              <ref rend="bold">21.43. gli asili</ref>: chiese, conventi o case
+                              patrizie assicuravano l’impunità a chiunque vi si fosse
+                              rifugiato.</note>
+                        <note xml:id="BadConf_cap1-n41" target="quarantana/cap1.xml#c1_13434">
+                              <ref rend="bold">impugnati</ref>: contestati.</note>
+                        <milestone unit="comma" n="45"/>
+                        <note xml:id="BadConf_cap1-n42" target="quarantana/cap1.xml#c1_13599">
+                              <ref rend="bold">21.45. livrea</ref>: divisa.</note>
+                        <note xml:id="BadConf_cap1-n43" target="quarantana/cap1.xml#c1_13599">
+                              <ref rend="bold">22. [illustrazione]</ref>: in un biglietto non datato
+                              a Gaetano Cattaneo, Manzoni scriveva: «Vorrei trovare <hi rend="italic">costumi</hi> di qualche confratello di qualche <hi rend="italic">badia</hi>, se ognuno aveva <hi rend="italic">costumi</hi> particolari; e qualche <hi rend="italic">stendardo</hi>: tre o quattro basterebbero» (<bibl corresp="#letteremanzoni"><hi rend="italic">Lettere</hi>, to. 11
+                                    p. 148</bibl>).</note>
+                        <milestone unit="comma" n="51"/>
+                        <note xml:id="BadConf_cap1-n44" target="quarantana/cap1.xml#c1_14016">
+                              <ref rend="bold">23.51. dovizioso</ref>: ricco (dal latino <hi rend="italic">divitiae</hi>, ‘ricchezze’).</note>
+                        <milestone unit="comma" n="52"/>
+                        <note xml:id="BadConf_cap1-n45" target="quarantana/cap1.xml#c1_14078" targetEnd="quarantana/cap1.xml#c1_14081">
+                              <ref rend="bold">23.52. gli anni della discrezione</ref>: l’età del
+                              giudizio.</note>
+                        <note xml:id="BadConf_cap1-n46" target="quarantana/cap1.xml#c1_14110">
+                              <ref rend="bold">parenti</ref>: genitori (dal latino <hi rend="italic">parentes</hi>).</note>
+                        <milestone unit="comma" n="55"/>
+                        <note xml:id="BadConf_cap1-n47" target="quarantana/cap1.xml#c1_14342">
+                              <ref rend="bold">23.55. dissimulando</ref>: fingendo
+                              d’ignorare.</note>
+                        <milestone unit="comma" n="56"/>
+                        <note xml:id="BadConf_cap1-n48" target="quarantana/cap1.xml#c1_14499">
+                              <ref rend="bold">24.57. fantastico</ref>: stravagante. Cfr. con la
+                              definizione di <hi rend="italic">poeta</hi> di <rs>281.40</rs>.</note>
+                        <note xml:id="BadConf_cap1-n49" target="quarantana/cap1.xml#c1_14503">
+                              <ref rend="bold">[illustrazione]</ref>: la prescrizione manzoniana ai
+                              disegnatori indica a questo punto il tema: «Don Abbondio che disputa».
+                              L’illustrazione, di Paolo Riccardi, rappresenta i due interlocutori
+                              identici, perfettamente speculari: vorrà dire che di don Abbondi non
+                              ce n’è uno solo?</note>
+                        <milestone unit="comma" n="59"/>
+                        <note xml:id="BadConf_cap1-n50" target="quarantana/cap1.xml#c1_14697" targetEnd="quarantana/cap1.xml#c1_14699">
+                              <ref rend="bold">25.59. badi a sé</ref>: nel <bibl corresp="#saggiodivoc" rend="italic">Saggio di vocabolario
+                                    italiano secondo l’uso di Firenze</bibl> compilato nel 1856 in
+                              collaborazione con Gino Capponi, Manzoni annota: «<hi rend="italic">Badare a sé, badare a1 fatti suoi</hi> è stare a sé, non
+                              s’impicciare in quello che non ci riguarda».</note>
+                        <milestone unit="comma" n="65"/>
+                        <note xml:id="BadConf_cap1-n51" target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199">
+                              <ref rend="bold">27.65. l’età sinodale</ref>: l’età prescritta dal
+                              sinodo (qui il Concilio di Trento) come età minima per le domestiche
+                              dei sacerdoti.</note>
+                        <milestone unit="comma" n="75"/>
+                        <note xml:id="BadConf_cap1-n52" target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782">
+                              <ref rend="bold">29.75. il nostro arcivescovo</ref>: il Cardinal
+                              Federigo Borromeo: <rs>cfr. 411.1 e n.</rs></note>
+                        <milestone unit="comma" n="76"/>
+                        <note xml:id="BadConf_cap1-n53" target="quarantana/cap1.xml#c1_15940" targetEnd="quarantana/cap1.xml#c1_15841">
+                              <ref rend="bold">29.76. calar le...</ref>: calar le braghe: in
+                              milanese <hi rend="italic">lassa giò i bragh</hi>.</note>
+                  </div>
+            </body>
+      </text>
+</TEI>
+
