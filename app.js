@@ -93,3 +93,62 @@ app.get('/extract-ids', (req, res) => {
 /* port */
 const port = 8000;
 app.listen(port, () => console.log(`Quaranta commenti is listening on localhost:${port}`));
+
+// Function for converting XML to HTML
+
+const { DOMParser, XMLSerializer } = require('xmldom');
+
+function convertXmlToHtml(xmlFilePath, htmlFilePath) {
+  // Read the XML file
+  const xmlString = fs.readFileSync(xmlFilePath, 'utf8');
+
+  // Create a new DOMParser
+  const parser = new DOMParser();
+
+  // Parse the XML string to a Document object
+  const xmlDoc = parser.parseFromString(xmlString, 'quarantana/cap2.xml');
+
+  // Create a new HTML document
+  const htmlDoc = new DOMParser().parseFromString('<html></html>', 'text/html');
+
+  // Convert XML elements to HTML elements recursively
+  function convertElement(xmlElement, htmlParent) {
+    const htmlElement = htmlDoc.createElement(xmlElement.nodeName);
+
+    // Convert XML attributes to HTML attributes
+    const attributes = xmlElement.attributes;
+    for (let i = 0; i < attributes.length; i++) {
+      const attr = attributes.item(i);
+      htmlElement.setAttribute(attr.nodeName, attr.nodeValue);
+    }
+
+    // Convert child elements
+    for (let i = 0; i < xmlElement.childNodes.length; i++) {
+      const child = xmlElement.childNodes.item(i);
+      if (child.nodeType === 1) {
+        convertElement(child, htmlElement);
+      } else if (child.nodeType === 3) {
+        const textNode = htmlDoc.createTextNode(child.textContent);
+        htmlElement.appendChild(textNode);
+      }
+    }
+
+    htmlParent.appendChild(htmlElement);
+  }
+
+  // Convert the root XML element to the root HTML element
+  convertElement(xmlDoc.documentElement, htmlDoc.documentElement);
+
+  // Serialize the HTML document to an HTML string
+  const htmlString = new XMLSerializer().serializeToString(htmlDoc);
+
+  // Write the HTML string to a new HTML file
+  fs.writeFileSync(htmlFilePath, htmlString, 'utf8');
+}
+
+// Example usage
+const xmlFilePath = path.join(__dirname, 'quarantana/cap2.xml');
+const htmlFilePath = path.join(__dirname, 'quarantana/html/cap2.html');
+
+//variabili
+convertXmlToHtml('quarantana/cap2.xml', 'quarantana/html/cap2.html');
