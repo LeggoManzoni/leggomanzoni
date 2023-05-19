@@ -76,21 +76,40 @@ let collectId = () => {
     .catch(error => {
         console.error('Error fetching the IDs:', error);
     });
-
-    function splitColumn() {
-        var upperDiv = document.getElementById("D1");
-        var bottomDiv = document.getElementById("D2");
-      
-        if (upperDiv.style.display === "none") {
-          upperDiv.style.display = "block";
-          bottomDiv.style.display = "block";
-        } else {
-          upperDiv.style.display = "none";
-          bottomDiv.style.display = "none";
-        }
-      }
-
     var splitButton = document.getElementById("splitButton");
-    splitButton.addEventListener("click", splitColumn);
-    console.log("hello");
-};
+    splitButton.addEventListener("click", toggleColumn);
+
+    function toggleColumn(){
+        var column = document.getElementById("destra");
+        var bottomDiv = document.getElementById("bottomDiv");
+        var icon = document.getElementById("icon");
+      
+        if (bottomDiv.classList.contains("hide")) {
+          // Show the bottom div
+          bottomDiv.classList.remove("hide");
+          column.classList.remove("col-6");
+          column.classList.add("col-12");
+          icon.classList.remove("fa-plus");
+          icon.classList.add("fa-minus");
+        } else {
+          // Hide the bottom div
+          bottomDiv.classList.add("hide");
+          column.classList.remove("col-12");
+          column.classList.add("col-6");
+          icon.classList.remove("fa-minus");
+          icon.classList.add("fa-plus");
+        }
+      }; 
+    adjustFlexProperties();
+    }
+
+    function adjustFlexProperties() {
+    var column = document.getElementById("destra");
+    var bottomDiv = document.getElementById("bottomDiv");
+
+    if (bottomDiv.classList.contains("hide")) {
+        column.style.flex = "1"; // Set the first div to occupy 100% height
+    } else {
+        column.style.flex = ""; // Reset the flex property
+    }
+    };

@@ -11475,7 +11475,7 @@ header.masthead h1, header.masthead .h1 {
   overflow-y:scroll;
   text-align:justify;
   height:35vh;
-  padding: 2em;
+  padding: 1em; 
 }
 
 .row{
@@ -11540,7 +11540,25 @@ header.masthead h1, header.masthead .h1 {
 .plus-icon:before {
   transform: rotate(90deg);
 }
-
 .box-testi{
   padding-top: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the height of the row */
+}
+
+.col-6 {
+  flex: 1; /* Each column takes 50% height */
+  display: flex;
+}
+
+
+.hide {
+  display: none;
+}
+
+#D1{
+  flex: 100%; 
 }
