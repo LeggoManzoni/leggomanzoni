@@ -76,4 +76,21 @@ let collectId = () => {
     .catch(error => {
         console.error('Error fetching the IDs:', error);
     });
+
+    function splitColumn() {
+        var upperDiv = document.getElementById("D1");
+        var bottomDiv = document.getElementById("D2");
+      
+        if (upperDiv.style.display === "none") {
+          upperDiv.style.display = "block";
+          bottomDiv.style.display = "block";
+        } else {
+          upperDiv.style.display = "none";
+          bottomDiv.style.display = "none";
+        }
+      }
+
+    var splitButton = document.getElementById("splitButton");
+    splitButton.addEventListener("click", splitColumn);
+    console.log("hello");
 };

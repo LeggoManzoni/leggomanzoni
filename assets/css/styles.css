@@ -11326,7 +11326,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: grey;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11350,7 +11350,7 @@ hr.divider-light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: grey;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -11541,3 +11541,6 @@ header.masthead h1, header.masthead .h1 {
   transform: rotate(90deg);
 }
 
+.box-testi{
+  padding-top: 20px;
+}
