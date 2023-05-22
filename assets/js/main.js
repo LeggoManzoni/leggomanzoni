@@ -82,20 +82,21 @@ let collectId = () => {
     function toggleColumn(){
         var column = document.getElementById("destra");
         var bottomDiv = document.getElementById("bottomDiv");
+        var upperDiv = document.getElementById("upperDiv");
         var icon = document.getElementById("icon");
       
         if (bottomDiv.classList.contains("hide")) {
           // Show the bottom div
           bottomDiv.classList.remove("hide");
-          column.classList.remove("col-6");
-          column.classList.add("col-12");
+          column.classList.remove("oneText");
+          upperDiv.classList.remove("singularText");
           icon.classList.remove("fa-plus");
           icon.classList.add("fa-minus");
         } else {
           // Hide the bottom div
           bottomDiv.classList.add("hide");
-          column.classList.remove("col-12");
-          column.classList.add("col-6");
+          upperDiv.classList.add("singularText");
+          column.classList.add("oneText");
           icon.classList.remove("fa-minus");
           icon.classList.add("fa-plus");
         }
