@@ -76,6 +76,7 @@ let collectId = () => {
     .catch(error => {
         console.error('Error fetching the IDs:', error);
     });
+
     var splitButton = document.getElementById("splitButton");
     splitButton.addEventListener("click", toggleColumn);
 
@@ -90,27 +91,95 @@ let collectId = () => {
           bottomDiv.classList.remove("hide");
           column.classList.remove("oneText");
           upperDiv.classList.remove("singularText");
-          icon.classList.remove("fa-plus");
-          icon.classList.add("fa-minus");
+          icon.classList.remove("bi-plus-circle");
+          icon.classList.add("bi-dash-circle");
         } else {
           // Hide the bottom div
           bottomDiv.classList.add("hide");
           upperDiv.classList.add("singularText");
           column.classList.add("oneText");
-          icon.classList.remove("fa-minus");
-          icon.classList.add("fa-plus");
+          icon.classList.remove("bi-dash-circle");
+          icon.classList.add("bi-plus-circle");
         }
       }; 
-    adjustFlexProperties();
-    }
+   
+    var enlargerRight = document.getElementById("enlargerRight"); // Function for enlarging the right column and hiding the left one
+    enlargerRight.addEventListener("click", enlargeRightColumn);
 
-    function adjustFlexProperties() {
-    var column = document.getElementById("destra");
-    var bottomDiv = document.getElementById("bottomDiv");
+    function enlargeRightColumn(){
+        var columnToMantain = document.getElementById("colonnaD");
+        var icon = document.getElementById("enlargerRight");
+        var columnToDelete = document.getElementById("colonnaS");
+        var i = document.getElementById("enlargerRightI");
+      
+        if (columnToDelete.classList.contains("hide")) {
+          // Show the enlarged div
+          columnToDelete.classList.remove("hide");
+          columnToMantain.classList.remove("col-12");
+          columnToMantain.classList.add("col-6");
+          i.classList.add("bi-arrows-angle-expand");
+          i.classList.remove("bi-arrows-angle-contract");
+        } else {
+          // Hide the bottom div
+          columnToDelete.classList.add("hide");
+          columnToMantain.classList.remove("col-6");
+          columnToMantain.classList.add("col-12");
+          i.classList.add("bi-arrows-angle-contract");
+          i.classList.remove("bi-arrows-angle-expand");
+        }
+      }; 
 
-    if (bottomDiv.classList.contains("hide")) {
-        column.style.flex = "1"; // Set the first div to occupy 100% height
-    } else {
-        column.style.flex = ""; // Reset the flex property
-    }
+    var enlargerLeft = document.getElementById("enlargerLeft"); // Function for enlarging the left column and hiding the right one
+    enlargerLeft.addEventListener("click", enlargeLeftColumn);
+
+    function enlargeLeftColumn(){
+        var columnToMantain = document.getElementById("colonnaS");
+        var icon = document.getElementById("enlargerLeft");
+        var columnToDelete = document.getElementById("colonnaD");
+        var i = document.getElementById("enlargerLeftI");
+      
+        if (columnToDelete.classList.contains("hide")) {
+          // Show the bottom div
+          columnToDelete.classList.remove("hide");
+          columnToMantain.classList.remove("col-12");
+          columnToMantain.classList.add("col-6");
+          i.classList.add("bi-arrows-angle-expand");
+          i.classList.remove("bi-arrows-angle-contract");
+        } else {
+          // Hide the bottom div
+          columnToDelete.classList.add("hide");
+          columnToMantain.classList.remove("col-6");
+          columnToMantain.classList.add("col-12");
+          i.classList.add("bi-arrows-angle-contract");
+          i.classList.remove("bi-arrows-angle-expand");
+        }
+      }; 
     };
+
+    var button = document.getElementById("splitButton");
+    var popup = document.getElementById("popup");
+    button.addEventListener("mouseover", function() {
+    popup.style.display = "block";
+    });
+    button.addEventListener("mouseout", function() {
+    popup.style.display = "none";
+    });
+
+    var testoButton = document.getElementById("enlargerLeft");
+    var popup = document.getElementById("popupL");
+    testoButton.addEventListener("mouseover", function() {
+        popup.style.display = "block";
+        });
+        testoButton.addEventListener("mouseout", function() {
+    popup.style.display = "none";
+    });
+
+
+    var b = document.getElementById("enlargerLeft");
+    var popup = document.getElementById("popup");
+    b.addEventListener("mouseover", function() {
+        popupR.style.display = "block";
+        });
+    b.addEventListener("mouseout", function() {
+    popupR.style.display = "none";
+    });

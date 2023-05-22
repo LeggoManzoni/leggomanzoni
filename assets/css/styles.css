@@ -11489,7 +11489,7 @@ header.masthead h1, header.masthead .h1 {
   margin:auto;
 
 } */
-
+/*
 .add-button {
   width: 40px;
   height: 40px;
@@ -11502,39 +11502,14 @@ header.masthead h1, header.masthead .h1 {
   overflow: hidden;
   cursor: pointer;
   margin-left: 73%; 
-}
+}*/
 
-.plus-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: 18px;
-  height: 18px;
-  background-color: #ffffff;
-  border-radius: 50%;
-}
 
-.plus-icon:before,
-.plus-icon:after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background-color: grey;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-.plus-icon:before {
-  transform: rotate(90deg);
-}
 .row {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Set the height of the row */
+  padding-top: 3.5em; 
 }
 
 .col-6 {
@@ -11549,6 +11524,7 @@ header.masthead h1, header.masthead .h1 {
 #D1{
   height: 300px; /* Set the initial fixed height */
   transition: height 0.3s ease; /* Add a transition for smooth animation */
+  padding-bottom: 2em;
 }
 
 .fullscreen {
@@ -11557,4 +11533,32 @@ header.masthead h1, header.masthead .h1 {
 
 .singularText{
  height: 100vh;
+}
+
+.enlarger, .add-button{
+  background-color: transparent;
+  border: transparent;
+}
+
+#popup, #popupL, #popupR{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  font-size: small;
+  padding: 10px;
+  z-index: 1;
+  max-width: 25em;
+}
+
+#splitButton:hover + #popup {
+  display: block;
+}
+
+#enlargerLeft:hover + #popupL {
+  display: block;
+}
+
+#enlargerRight:hover + #popupR {
+  display: block;
 }

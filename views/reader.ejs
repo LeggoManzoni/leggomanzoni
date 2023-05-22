@@ -14,11 +14,15 @@
         <div class="container container1">
         <section class="box-testi">
             <div class="row">
-            <div class="col-6">
+            <div class="col-6" id="colonnaS">
                 <div class="colonnasinistra text-break" id="promessisposi">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
                         Capitoli
                       </button>
+                      <button class="enlarger" id="enlargerLeft">
+                        <i class="bi bi-arrows-angle-expand" id="enlargerLeftI"></i> <!-- Extension symbol -->
+                    </button>
+                    <div id="popupL">Clicca su questo bottone per visualizzare il testo  in modalità full-screen.</div>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <!-- per ogni item nell array = per ogni chapter in chapters -->
                         <% chapters.forEach((chapter) => { %>
@@ -350,7 +354,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6" id="colonnaD">
                         <div class="colonnadestra" id="destra">
                             <div class="divisione" id="upperDiv">
                                 <div class="header" id="2b-header">
@@ -361,7 +365,15 @@
                                         <li><a class="dropdown-item" onclick="changepage('whichpage')" href="">Commento 1</a></li>
                                         <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 2</a></li>
                                         <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 3</a></li>
-                                      </ul>
+                                      </ul>             
+                                    <button class="add-button" id="splitButton">
+                                        <i class="bi bi-dash-circle" id="icon"></i>
+                                    </button> 
+                                    <div id="popup">Clicca su questo bottone per visualizzare un solo commento.</div>
+                                    <button class="enlarger" id="enlargerRight">
+                                        <i class="bi bi-arrows-angle-expand" id="enlargerRightI"></i> <!-- Extension symbol -->
+                                    </button> 
+                                    <div id="popupR">Clicca su questo bottone per visualizzare il commento in modalità full-screen.</div>
                                     <h2 class="thing1_title" data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
                                         The Rise of the <span class="mention cuisinetype" about="gourmet" id="2b-0">Gourmet</span>
                                         <span class="mention food typesofburger" about="burger" id="2b-1">Hamburger</span>
@@ -477,12 +489,6 @@
                         </div>
         </div>
         </section>   
-       <!-- <button id="splitButton" onclick="toggleColumn()">
-                    <i id="icon" class="fas fa-plus"></i>
-                    </button> -->
-                    <button class="add-button" id="splitButton">
-                        <span class="plus-icon" id="icon"></span>
-                    </button> 
         </div>
         <!-- Footer-->
         <%- include("partials/footer"); %>
