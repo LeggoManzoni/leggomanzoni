@@ -11463,8 +11463,6 @@ header.masthead h1, header.masthead .h1 {
   padding:2em;
 }
 .colonnadestra{
-  overflow-y:scroll;
-  overflow-x:hidden;
   text-align:justify;
   height:80vh;
   margin:auto;
@@ -11474,7 +11472,7 @@ header.masthead h1, header.masthead .h1 {
 .divisione{
   overflow-y:scroll;
   text-align:justify;
-  height:35vh;
+  height:38vh;
   padding: 1em; 
 }
 
@@ -11532,15 +11530,21 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .singularText{
- height: 100vh;
+ height: 76.5vh;
 }
 
-.enlarger, .add-button{
+.enlarger, .add-button, .bottoneToggle{
   background-color: transparent;
   border: transparent;
 }
+.bottoneToggle {
+  font-size: 22px; /* Adjust the value as needed */
+}
 
-#popup, #popupL, #popupR{
+.bottoneToggle i {
+  font-size: inherit; /* Inherit the font-size from the parent button */
+}
+#popup, #popupL, #popupR, #popupScroll{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -11548,17 +11552,29 @@ header.masthead h1, header.masthead .h1 {
   font-size: small;
   padding: 10px;
   z-index: 1;
-  max-width: 25em;
+  max-width: 20em;
 }
 
 #splitButton:hover + #popup {
   display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 9%; 
 }
 
 #enlargerLeft:hover + #popupL {
   display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 7%; 
 }
 
 #enlargerRight:hover + #popupR {
   display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 11%; 
+}
+
+#scrollAuto:hover + #popupScroll {
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 13%; 
 }

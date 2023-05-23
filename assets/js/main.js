@@ -154,32 +154,59 @@ let collectId = () => {
           i.classList.remove("bi-arrows-angle-expand");
         }
       }; 
+
+    var scrollAuto = document.getElementById("scrollAuto"); // Function for changing the toggle button and blocking authomatic redirection, to be done later (maybe)
+    scrollAuto.addEventListener("click", blockRedirection);
+
+    function blockRedirection(){
+        var i = document.getElementById("scrollAutomatico");
+      
+        if (i.classList.contains("bi-toggle-on")) {
+          // Show the bottom div
+          i.classList.remove("bi-toggle-on");
+          i.classList.add("bi-toggle-off");
+        } else {
+          // Hide the bottom div
+          i.classList.remove("bi-toggle-off");
+          i.classList.add("bi-toggle-on");
+        }
+      }; 
+      var button = document.getElementById("splitButton");
+      var popup = document.getElementById("popup");
+      button.addEventListener("mouseover", function() {
+      popup.style.display = "block";
+      });
+      button.addEventListener("mouseout", function() {
+      popup.style.display = "none";
+      });
+
+      var testoButton = document.getElementById("enlargerLeft");
+      var popupL = document.getElementById("popupL");
+      testoButton.addEventListener("mouseover", function() {
+          popupL.style.display = "block";
+          });
+          testoButton.addEventListener("mouseout", function() {
+      popupL.style.display = "none";
+      });
+
+
+      var b = document.getElementById("enlargerRight");
+      var popupR = document.getElementById("popupR");
+      b.addEventListener("mouseover", function() {
+          popupR.style.display = "block";
+          });
+      b.addEventListener("mouseout", function() {
+      popupR.style.display = "none";
+      });
+
+      var toggleB = document.getElementById("scrollAuto");
+      var popupScroll = document.getElementById("popupScroll");
+      toggleB.addEventListener("mouseover", function() {
+          popupScroll.style.display = "block";
+          });
+      toggleB.addEventListener("mouseout", function() {
+      popupScroll.style.display = "none";
+      });
     };
 
-    var button = document.getElementById("splitButton");
-    var popup = document.getElementById("popup");
-    button.addEventListener("mouseover", function() {
-    popup.style.display = "block";
-    });
-    button.addEventListener("mouseout", function() {
-    popup.style.display = "none";
-    });
-
-    var testoButton = document.getElementById("enlargerLeft");
-    var popup = document.getElementById("popupL");
-    testoButton.addEventListener("mouseover", function() {
-        popup.style.display = "block";
-        });
-        testoButton.addEventListener("mouseout", function() {
-    popup.style.display = "none";
-    });
-
-
-    var b = document.getElementById("enlargerLeft");
-    var popup = document.getElementById("popup");
-    b.addEventListener("mouseover", function() {
-        popupR.style.display = "block";
-        });
-    b.addEventListener("mouseout", function() {
-    popupR.style.display = "none";
-    });
+    

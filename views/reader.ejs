@@ -23,12 +23,15 @@
                         <i class="bi bi-arrows-angle-expand" id="enlargerLeftI"></i> <!-- Extension symbol -->
                     </button>
                     <div id="popupL">Clicca su questo bottone per visualizzare il testo  in modalità full-screen.</div>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <!-- per ogni item nell array = per ogni chapter in chapters -->
-                        <% chapters.forEach((chapter) => { %>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <% chapters.forEach((chapter) => {
+                          if (!chapter.startsWith('1') && !chapter.startsWith('2') && !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5') && !chapter.startsWith('6') && !chapter.startsWith('7') && !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
+                            <li><a class="dropdown-item" href="<%= chapter %>.xml"><%= chapter.replace('Capitolo', '') %></a></li>
+                          <% } else { %>
                             <li><a class="dropdown-item" href="<%= chapter; %>.xml">Capitolo <%= chapter; %></a></li>
-                        <% }); %>
-                      </ul>
+                            <% }
+                        }); %>
+                      </ul> 
                     <div class="text" id="whichpage">
                         <div class="section" id="2b-intro">
                                     <div class="header" id="2b-header">
@@ -374,6 +377,10 @@
                                         <i class="bi bi-arrows-angle-expand" id="enlargerRightI"></i> <!-- Extension symbol -->
                                     </button> 
                                     <div id="popupR">Clicca su questo bottone per visualizzare il commento in modalità full-screen.</div>
+                                    <button class="bottoneToggle" id="scrollAuto">
+                                        <i class="bi bi-toggle-on" id="scrollAutomatico"></i></i>
+                                    </button> 
+                                    <div id="popupScroll">Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.</div>
                                     <h2 class="thing1_title" data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
                                         The Rise of the <span class="mention cuisinetype" about="gourmet" id="2b-0">Gourmet</span>
                                         <span class="mention food typesofburger" about="burger" id="2b-1">Hamburger</span>
