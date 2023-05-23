@@ -11467,13 +11467,14 @@ header.masthead h1, header.masthead .h1 {
   text-align:justify;
   height:80vh;
   margin:auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .divisione{
   overflow-y:scroll;
   text-align:justify;
   height:38vh;
-  padding: 1em; 
 }
 
 .dropdown-menu {
@@ -11519,10 +11520,13 @@ header.masthead h1, header.masthead .h1 {
   display: none;
 }
 
-#D1{
+#upperDiv{
   height: 300px; /* Set the initial fixed height */
   transition: height 0.3s ease; /* Add a transition for smooth animation */
-  padding-bottom: 2em;
+}
+
+#bottomDiv{
+  margin-top: 2.5em; 
 }
 
 .fullscreen {
