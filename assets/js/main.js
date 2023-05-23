@@ -79,7 +79,8 @@ let collectId = () => {
 
     var splitButton = document.getElementById("splitButton");
     splitButton.addEventListener("click", toggleColumn);
-
+    
+    // Function for modifying the right column and showing one or two comments at the same time
     function toggleColumn(){
         var column = document.getElementById("destra");
         var bottomDiv = document.getElementById("bottomDiv");
@@ -103,7 +104,8 @@ let collectId = () => {
         }
       }; 
    
-    var enlargerRight = document.getElementById("enlargerRight"); // Function for enlarging the right column and hiding the left one
+    // Function for enlarging the right column and hiding the left one
+    var enlargerRight = document.getElementById("enlargerRight"); 
     enlargerRight.addEventListener("click", enlargeRightColumn);
 
     function enlargeRightColumn(){
@@ -128,8 +130,9 @@ let collectId = () => {
           i.classList.remove("bi-arrows-angle-expand");
         }
       }; 
-
-    var enlargerLeft = document.getElementById("enlargerLeft"); // Function for enlarging the left column and hiding the right one
+    
+    // Function for enlarging the left column and hiding the right one
+    var enlargerLeft = document.getElementById("enlargerLeft"); 
     enlargerLeft.addEventListener("click", enlargeLeftColumn);
 
     function enlargeLeftColumn(){
@@ -155,7 +158,8 @@ let collectId = () => {
         }
       }; 
 
-    var scrollAuto = document.getElementById("scrollAuto"); // Function for changing the toggle button and blocking authomatic redirection, to be done later (maybe)
+    // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the first or only comment)
+    var scrollAuto = document.getElementById("scrollAuto"); 
     scrollAuto.addEventListener("click", blockRedirection);
 
     function blockRedirection(){
@@ -171,6 +175,28 @@ let collectId = () => {
           i.classList.add("bi-toggle-on");
         }
       }; 
+    
+    // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the second comment)
+    var scrollAuto2 = document.getElementById("scrollAuto2"); 
+    scrollAuto2.addEventListener("click", blockSecondRedirection);
+
+    function blockSecondRedirection(){
+        var i2 = document.getElementById("scrollAutomatico2");
+      
+        if (i2.classList.contains("bi-toggle-on")) {
+          // Show the bottom div
+          i2.classList.remove("bi-toggle-on");
+          i2.classList.add("bi-toggle-off");
+        } else {
+          // Hide the bottom div
+          i2.classList.remove("bi-toggle-off");
+          i2.classList.add("bi-toggle-on");
+        }
+      }; 
+
+    //Functions for showing through a popup the meaning of the buttons in the reading area: 
+   
+       // 1) popup for splitting in two comments or one;
       var button = document.getElementById("splitButton");
       var popup = document.getElementById("popup");
       button.addEventListener("mouseover", function() {
@@ -180,6 +206,7 @@ let collectId = () => {
       popup.style.display = "none";
       });
 
+      // 2) popup for enlarging the left column
       var testoButton = document.getElementById("enlargerLeft");
       var popupL = document.getElementById("popupL");
       testoButton.addEventListener("mouseover", function() {
@@ -189,7 +216,7 @@ let collectId = () => {
       popupL.style.display = "none";
       });
 
-
+      // 3) popup for enlarging the right column 
       var b = document.getElementById("enlargerRight");
       var popupR = document.getElementById("popupR");
       b.addEventListener("mouseover", function() {
@@ -199,6 +226,7 @@ let collectId = () => {
       popupR.style.display = "none";
       });
 
+      // 4) popup for blocking authomatic redirection for comment 1
       var toggleB = document.getElementById("scrollAuto");
       var popupScroll = document.getElementById("popupScroll");
       toggleB.addEventListener("mouseover", function() {
@@ -206,6 +234,16 @@ let collectId = () => {
           });
       toggleB.addEventListener("mouseout", function() {
       popupScroll.style.display = "none";
+      });
+
+      // 5) popup for blocking authomatic redirection for comment 2
+      var toggleSecond = document.getElementById("scrollAuto2");
+      var popupScroll2 = document.getElementById("popupScroll2");
+      toggleSecond.addEventListener("mouseover", function() {
+          popupScroll2.style.display = "block";
+          });
+      toggleSecond.addEventListener("mouseout", function() {
+      popupScroll2.style.display = "none";
       });
     };
 

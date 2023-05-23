@@ -11460,13 +11460,13 @@ header.masthead h1, header.masthead .h1 {
   text-align:justify;
   height:80vh;
   margin:auto;
-  padding:2em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .colonnadestra{
   text-align:justify;
   height:80vh;
   margin:auto;
-  padding:2em;
 }
 
 .divisione{
@@ -11533,18 +11533,18 @@ header.masthead h1, header.masthead .h1 {
  height: 76.5vh;
 }
 
-.enlarger, .add-button, .bottoneToggle{
+.enlarger, .add-button, .bottoneToggle, .buttonToggle{
   background-color: transparent;
   border: transparent;
 }
-.bottoneToggle {
+.bottoneToggle, .buttonToggle {
   font-size: 22px; /* Adjust the value as needed */
 }
 
-.bottoneToggle i {
+.bottoneToggle i, .buttonToggle i{
   font-size: inherit; /* Inherit the font-size from the parent button */
 }
-#popup, #popupL, #popupR, #popupScroll{
+#popup, #popupL, #popupR, #popupScroll, #popupScroll2{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -11577,4 +11577,10 @@ header.masthead h1, header.masthead .h1 {
   display: block;
   border-radius: 10px 10px 10px 10px;
   margin-left: 13%; 
+}
+
+#scrollAuto2:hover + #popupScroll2 {
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 9%; 
 }
