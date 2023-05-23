@@ -96,23 +96,20 @@ app.listen(port, () => console.log(`Quaranta commenti is listening on localhost:
 
 // Function for converting XML to HTML
 
-const { DOMParser, XMLSerializer } = require('xmldom');
+const { DOMParser, XMLSerializer } = require('xmldom'); // import the necessary modules from the 'xmldom' package
 
-function convertXmlToHtml(xmlFilePath, htmlFilePath) {
-  // Read the XML file
-  const xmlString = fs.readFileSync(xmlFilePath, 'utf8');
+function convertXmlToHtml(xmlFilePath, htmlFilePath) { //xmlFilePath (the path to the XML file) and htmlFilePath (the desired path for the generated HTML file).
+  
+  const xmlString = fs.readFileSync(xmlFilePath, 'utf8'); //The XML file is read synchronously using fs.readFileSync. The content of the file is stored in the xmlString variable.
 
-  // Create a new DOMParser
-  const parser = new DOMParser();
+  const parser = new DOMParser(); // Create a new DOMParser
 
-  // Parse the XML string to a Document object
-  const xmlDoc = parser.parseFromString(xmlString, 'quarantana/cap2.xml');
+  const xmlDoc = parser.parseFromString(xmlString, 'quarantana/cap2.xml');  // Parse the XML string to a Document object
 
-  // Create a new HTML document
-  const htmlDoc = new DOMParser().parseFromString('<html></html>', 'text/html');
+  const htmlDoc = new DOMParser().parseFromString('<html></html>', 'text/html'); // Create a new HTML document
 
-  // Convert XML elements to HTML elements recursively
-  function convertElement(xmlElement, htmlParent) {
+  function convertElement(xmlElement, htmlParent) { // Convert XML elements to HTML elements recursively
+                                                    
     const htmlElement = htmlDoc.createElement(xmlElement.nodeName);
 
     // Convert XML attributes to HTML attributes
