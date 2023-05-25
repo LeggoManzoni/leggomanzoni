@@ -2,7 +2,7 @@
 /*!
 * Start Bootstrap - Creative v7.0.6 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/st#f4623abs-primartbootstrap-creative/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -1398,8 +1398,10 @@ progress {
   }
 
   .col-lg-8 {
+    color: grey;
     flex: 0 0 auto;
     width: 66.66666667%;
+    margin-left: 40%;
   }
 
   .col-lg-9 {
@@ -7806,7 +7808,6 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -11390,7 +11391,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: #DDEBDD;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11435,7 +11436,6 @@ header.masthead h1, header.masthead .h1 {
   height: 100%;
   position: absolute;
   bottom: 0;
-  text-align: center;
   opacity: 0;
   color: #fff;
   background: rgba(244, 98, 58, 0.9);

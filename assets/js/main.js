@@ -76,6 +76,20 @@ let collectId = () => {
         console.error('Error fetching the IDs:', error);
     });
 
+    //Prova
+    /*class SplitButton {
+      constructor() {
+        this.splitButton = document.querySelector(".add-button");
+        this.splitButton.addEventListener("click", this.toggleColumn.bind(this));
+      }
+    
+      toggleColumn() {
+        var column = document.querySelector(".colonnadestra");
+        var bottomDiv = document.querySelector(".divisione1"); //bisogna cambiare la classe se scelgo questa soluzione perché per ora entrambe si chiamano divisione
+        var upperDiv = document.querySelector(".divisione2");
+        var icon = document.querySelector(".bi .bi-dash-circle"); //per il resto dopo prosegue uguale la funzione dall'if
+    */
+
     var splitButton = document.getElementById("splitButton");
     splitButton.addEventListener("click", toggleColumn);
     
@@ -157,7 +171,8 @@ let collectId = () => {
           i.classList.remove("bi-arrows-angle-expand");
         }
       }; 
-
+    
+    //vedi riga 79 come uniformare con class e query selector all perché per questi due scroll automatici può essere utile 
     // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the first or only comment)
     var scrollAuto = document.getElementById("scrollAuto"); 
     scrollAuto.addEventListener("click", blockRedirection);
