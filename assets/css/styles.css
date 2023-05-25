@@ -784,6 +784,7 @@ progress {
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
+  margin-top: 2em; 
 }
 
 .offset-1 {
@@ -11461,7 +11462,7 @@ header.masthead h1, header.masthead .h1 {
   height:80vh;
   margin:auto;
   padding-left: 2em;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 .colonnadestra{
   text-align:justify;
@@ -11475,6 +11476,7 @@ header.masthead h1, header.masthead .h1 {
   overflow-y:scroll;
   text-align:justify;
   height:38vh;
+  padding-right: 1em; 
 }
 
 .dropdown-menu {
@@ -11521,7 +11523,6 @@ header.masthead h1, header.masthead .h1 {
 }
 
 #upperDiv{
-  height: 300px; /* Set the initial fixed height */
   transition: height 0.3s ease; /* Add a transition for smooth animation */
 }
 
@@ -11534,7 +11535,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .singularText{
- height: 76.5vh;
+ height: 80.5vh;
 }
 
 .enlarger, .add-button, .bottoneToggle, .buttonToggle{
@@ -11588,3 +11589,24 @@ header.masthead h1, header.masthead .h1 {
   border-radius: 10px 10px 10px 10px;
   margin-left: 9%; 
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #849094 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #849094;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }

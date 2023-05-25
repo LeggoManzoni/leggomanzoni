@@ -8,7 +8,6 @@
 // 
 
 window.addEventListener('DOMContentLoaded',  () => {
-  enlargeRightColumn();
 
     // Navbar shrink function
     var navbarShrink = function () {
@@ -105,10 +104,10 @@ let collectId = () => {
       }; 
    
     // Function for enlarging the right column and hiding the left one
-    
+    var enlargerRight = document.getElementById("enlargerRight"); 
+    enlargerRight.addEventListener("click", enlargeRightColumn);
+
     function enlargeRightColumn(){
-      var enlargerRight = document.getElementById("enlargerRight"); 
-      enlargerRight.addEventListener("click", enlargeRightColumn);
         var columnToMantain = document.getElementById("colonnaD");
         var icon = document.getElementById("enlargerRight");
         var columnToDelete = document.getElementById("colonnaS");
@@ -129,6 +128,7 @@ let collectId = () => {
           i.classList.add("bi-arrows-angle-contract");
           i.classList.remove("bi-arrows-angle-expand");
         }
+        enlargeRightColumn();
       }; 
     
     // Function for enlarging the left column and hiding the right one
