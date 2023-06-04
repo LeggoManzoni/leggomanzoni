@@ -4,6 +4,8 @@ const path = require("path");
 const ejs = require('ejs');
 const fs = require('fs');
 
+const { convertXmlToHtml, convertCommentXMLToHtml } = require('./assets/js/convert.js');
+
 /* app */
 const app = express();
 
@@ -53,7 +55,7 @@ function extractIds(html) {
   }
 
   return idArray;
-  
+
 };
 
 app.get('/extract-ids', (req, res) => {
@@ -68,84 +70,47 @@ app.get('/extract-ids', (req, res) => {
     const idArray = extractIds(renderedHtml);
 
     res.json(idArray);
-   
+
   });
 });
 
-/* 
-app.get('/extract-ids', (req, res) => {
-  fs.readFile('./views/reader.ejs', 'utf8', (err, data) => {
+app.get('/get-chapter/:chapterName', function (req, res) {
+  var chapterName = req.params.chapterName;
+
+  if (chapterName === "Introduzione") {
+    chapterName = "intro";
+  } else if (chapterName === "Frontespizio") {
+    chapterName = "header";
+  }
+  converted_data = convertXmlToHtml(chapterName);
+  res.send(converted_data);
+});
+
+
+app.get('/get-commenti', function (req, res) {
+  const directoryPath = path.join(__dirname, './commenti/xml/In_lavorazione'); // Specify your directory here
+
+  // Read directory
+  fs.readdir(directoryPath, function (err, files) {
     if (err) {
-      console.error('Error reading the EJS file:', err);
-      res.status(500).send('Error reading the EJS file');
-      return;
+      res.status(500).send("Unable to scan directory: " + err);
+    } else {
+      // Filter XML files and remove extensions
+      const xmlFilenames = files.filter(file => path.extname(file) === '.xml').map(file => path.basename(file, '.xml'));
+
+      res.send(xmlFilenames);
     }
-
-    const renderedHtml = ejs.render(data);
-    const idArray = extractIds(renderedHtml);
-
-    res.json(idArray);
-   
   });
 });
-*/
+
+app.get('/get-comment/:authorName', function (req, res) {
+  var author = req.params.authorName;
+
+  converted_data = convertCommentXMLToHtml(author);
+  res.send(converted_data);
+});
 
 /* port */
 const port = 8000;
 app.listen(port, () => console.log(`Quaranta commenti is listening on localhost:${port}`));
 
-// Function for converting XML to HTML
-
-const { DOMParser, XMLSerializer } = require('xmldom'); // import the necessary modules from the 'xmldom' package
-
-function convertXmlToHtml(xmlFilePath, htmlFilePath) { //xmlFilePath (the path to the XML file) and htmlFilePath (the desired path for the generated HTML file).
-  
-  const xmlString = fs.readFileSync(xmlFilePath, 'utf8'); //The XML file is read synchronously using fs.readFileSync. The content of the file is stored in the xmlString variable.
-
-  const parser = new DOMParser(); // Create a new DOMParser
-
-  const xmlDoc = parser.parseFromString(xmlString, 'quarantana/cap2.xml');  // Parse the XML string to a Document object
-
-  const htmlDoc = new DOMParser().parseFromString('<html></html>', 'text/html'); // Create a new HTML document
-
-  function convertElement(xmlElement, htmlParent) { // Convert XML elements to HTML elements recursively
-                                                    
-    const htmlElement = htmlDoc.createElement(xmlElement.nodeName);
-
-    // Convert XML attributes to HTML attributes
-    const attributes = xmlElement.attributes;
-    for (let i = 0; i < attributes.length; i++) {
-      const attr = attributes.item(i);
-      htmlElement.setAttribute(attr.nodeName, attr.nodeValue);
-    }
-
-    // Convert child elements
-    for (let i = 0; i < xmlElement.childNodes.length; i++) {
-      const child = xmlElement.childNodes.item(i);
-      if (child.nodeType === 1) {
-        convertElement(child, htmlElement);
-      } else if (child.nodeType === 3) {
-        const textNode = htmlDoc.createTextNode(child.textContent);
-        htmlElement.appendChild(textNode);
-      }
-    }
-
-    htmlParent.appendChild(htmlElement);
-  }
-
-  // Convert the root XML element to the root HTML element
-  convertElement(xmlDoc.documentElement, htmlDoc.documentElement);
-
-  // Serialize the HTML document to an HTML string
-  const htmlString = new XMLSerializer().serializeToString(htmlDoc);
-
-  // Write the HTML string to a new HTML file
-  fs.writeFileSync(htmlFilePath, htmlString, 'utf8');
-}
-
-// Example usage
-const xmlFilePath = path.join(__dirname, 'quarantana/cap2.xml');
-const htmlFilePath = path.join(__dirname, 'quarantana/html/cap2.html');
-
-//variabili
-convertXmlToHtml('quarantana/cap2.xml', 'quarantana/html/cap2.html');

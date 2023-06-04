@@ -1,558 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Head-->
-    <%- include ("partials/head"); %>
+<!-- Head-->
+<%- include ("partials/head"); %>
+
     <body id="page-top">
         <!-- Navigation-->
         <%- include("partials/navbar"); %>
-        <!-- Masthead-->
-        <header>
-            <div class="container px-4 px-lg-5 h-20">
-                <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
-            </div>
-        </header>
-        <div class="container container1">
-        <section class="box-testi">
-            <div class="row">
-            <div class="col-6" id="colonnaS">
-                <div class="colonnasinistra text-break" id="promessisposi">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
-                        Capitoli
-                      </button>
-                      <button class="enlarger" id="enlargerLeft">
-                        <i class="bi bi-arrows-angle-expand" id="enlargerLeftI"></i> <!-- Extension symbol -->
-                    </button>
-                    <div id="popupL">Clicca su questo bottone per visualizzare il testo  in modalità full-screen.</div>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <% chapters.forEach((chapter) => {
-                          if (!chapter.startsWith('1') && !chapter.startsWith('2') && !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5') && !chapter.startsWith('6') && !chapter.startsWith('7') && !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
-                            <li><a class="dropdown-item" href="<%= chapter %>.xml"><%= chapter.replace('Capitolo', '') %></a></li>
-                          <% } else { %>
-                            <li><a class="dropdown-item" href="<%= chapter; %>.xml">Capitolo <%= chapter; %></a></li>
-                            <% }
-                        }); %>
-                      </ul> 
-                    <div class="text" id="whichpage">
-                        <div class="section" id="2b-intro">
+            <!-- Masthead-->
+            <header>
+                <div class="container px-4 px-lg-5 h-20">
+                    <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
+                </div>
+            </header>
+            <div class="container container1">
+                <section class="box-testi">
+                    <div class="row">
+                        <div class="col-6" id="colonnaS">
+                            <div class="colonnasinistra text-break" id="promessisposi">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                    Capitoli
+                                </button>
+                                <button class="enlarger" id="enlargerLeft">
+                                    <i class="bi bi-arrows-angle-expand" id="enlargerLeftI"></i>
+                                    <!-- Extension symbol -->
+                                </button>
+                                <div id="popupL">Clicca su questo bottone per visualizzare il testo in modalità
+                                    full-screen.</div>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <% chapters.forEach((chapter)=> {
+                                        if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
+                                        !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
+                                        &&
+                                        !chapter.startsWith('6') && !chapter.startsWith('7') &&
+                                        !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
+                                        <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
+                                                href="#">
+                                                <%= chapter.replace('Capitolo', '' ) %>
+                                            </a></li>
+                                        <% } else { %>
+                                            <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
+                                                    href="#">Capitolo <%= chapter %></a></li>
+                                            <% } }); %>
+                                </ul>
+
+                                <div class="text-chapter" id="whichpage">
+                                    <div class="section" id="2b-intro">
+                                        <div class="header" id="2b-header">
+                                        </div>
+                                        <script>
+                                            document.addEventListener('DOMContentLoaded', function () {
+                                                // Get the default chapter from the server-rendered variable
+                                                var defaultChapter = '<%= defaultChapter %>';
+
+                                                // Fetch and display the default chapter
+                                                fetch('/get-chapter/' + defaultChapter)
+                                                    .then(response => response.text())
+                                                    .then(data => {
+                                                        document.querySelector('.text-chapter').innerHTML = data;
+                                                    })
+                                                    .catch(error => console.error(error));
+                                            });
+
+                                            document.querySelectorAll('.chapter-link').forEach(function (link) {
+                                                link.addEventListener('click', function (event) {
+                                                    event.preventDefault(); // prevent the browser from following the link
+                                                    const chapter = event.target.getAttribute('data-chapter');
+
+                                                    fetch('/get-chapter/' + chapter)
+                                                        .then(response => response.text())
+                                                        .then(data => {
+                                                            document.querySelector('.text-chapter').innerHTML = data;
+                                                        })
+                                                        .catch(error => console.error(error));
+                                                });
+                                            });
+                                        </script>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6" id="colonnaD">
+                            <div class="colonnadestra" id="destra">
+                                <div class="divisione" id="upperDiv">
                                     <div class="header" id="2b-header">
-                                        <h3 class="thing4_publisher">
-                                            trends <br>social life in motion
-                                        </h3>
-                                        <h1 class="thing1_title" data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
-                                            The Rise of the <span class="mention cuisinetype" about="gourmet" id="2b-0">Gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-1">Hamburger</span>
-                                        </h1>
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                            Commenti
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <% commenti.forEach((comment)=> { %>
+                                                <li><a class="dropdown-item comment-link" data-comment="<%= comment %>"
+                                                        href="#">
+                                                        <%= comment %>
+                                                    </a></li>
+                                                <% }); %>
+                                        </ul>
+
+
+                                        <button class="add-button" id="splitButton">
+                                            <i class="bi bi-dash-circle" id="icon"></i>
+                                        </button>
+                                        <div id="popup">Clicca su questo bottone per visualizzare un solo commento.
+                                        </div>
+                                        <button class="enlarger" id="enlargerRight">
+                                            <i class="bi bi-arrows-angle-expand" id="enlargerRightI"></i>
+                                            <!-- Extension symbol -->
+                                        </button>
+                                        <div id="popupR">Clicca su questo bottone per visualizzare il commento in
+                                            modalità full-screen.</div>
+                                        <button class="bottoneToggle" id="scrollAuto">
+                                            <i class="bi bi-toggle-on" id="scrollAutomatico"></i></i>
+                                        </button>
+                                        <div id="popupScroll">Il reindirizzamento automatico tra testo e commento è
+                                            attivo. Clicca per disattivare.</div>
+                                    </div>
+                                    <div class="text-comment">
+                                    <script>
+                                        document.querySelectorAll('.comment-link').forEach(function (link) {
+                                            link.addEventListener('click', function (event) {
+                                                event.preventDefault(); // prevent the browser from following the link
+                                                const comment = event.target.getAttribute('data-comment');
+
+                                                fetch('/get-comment/' + comment)
+                                                    .then(response => response.text())
+                                                    .then(data => {
+                                                        document.querySelector('.text-comment').innerHTML = data;
+                                                    })
+                                                    .catch(error => console.error(error));
+                                            });
+                                        });
+
+                                    </script>
+                                    </div>
+                                </div>
+                                <div class="divisione" id="bottomDiv">
+                                    <div class="header" id="2b-header">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                            Commenti
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" onclick="changepage('whichpage')"
+                                                    href="">Commento 1</a></li>
+                                            <li><a class="dropdown-item" onclick="changepage('whichpage')"
+                                                    href="">Commento 2</a></li>
+                                            <li><a class="dropdown-item" onclick="changepage('whichpage')"
+                                                    href="">Commento 3</a></li>
+                                        </ul>
+                                        <button class="buttonToggle" id="scrollAuto2">
+                                            <i class="bi bi-toggle-on" id="scrollAutomatico2"></i></i>
+                                        </button>
+                                        <div id="popupScroll2">Il reindirizzamento automatico tra testo e commento è
+                                            attivo. Clicca per disattivare.</div>
+                                        <h2 class="thing1_title"
+                                            data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
+                                            The Rise of the <span class="mention cuisinetype" about="gourmet"
+                                                id="2b-0">Gourmet</span>
+                                            <span class="mention food typesofburger" about="burger"
+                                                id="2b-1">Hamburger</span>
+                                        </h2>
                                         <h2 class="thing2_authors">
-                                            by <span class="mention person" about="markCaldwell" id="2b-2">Mark Caldwell</span>
+                                            by <span class="mention person" about="markCaldwell" id="2b-2">Mark
+                                                Caldwell</span>
                                         </h2>
                                     </div>
                                     <div class="text">
                                         <div class="section" id="2b-intro">
                                             <p>
-                                                Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                                are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                                dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
+                                                Not all <span class="mention food typesofburger" about="burger"
+                                                    id="2b-3">hamburgers</span>
+                                                are created equal, and given the changes in the <span
+                                                    class="mention place" about="UnitedStatesofAmerica" id="2b-4"
+                                                    data-wikidata-id="Q30"
+                                                    data-label="United States of America">U.S.</span>
+                                                dietary landscape in the past 10 years, <span
+                                                    class="mention food typesofburger" about="burger"
+                                                    id="2b-5">hamburgers</span>
                                                 are only getting more unique. All across the country ”better
-                                <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                                ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                                and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-6">burger</span>
+                                                ” choices can now be found alongside <span class="mention company"
+                                                    about="BurgerKing" id="2b-7" data-wikidata-id="Q177054"
+                                                    data-label="Burger King">Burger King</span>
+                                                and <span class="mention company" about="McDonald's" id="2b-8"
+                                                    data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
                                                 . Better
-                                <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                                chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                                by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-9">burger</span>
+                                                chains aim to stand apart from typical <span class="mention cuisinetype"
+                                                    about="fastfood" id="2b-10">fast food</span>
+                                                by providing focused menus, novel items, and customizable options.
+                                                Chains such as <span class="mention company" about="In-N-OutBurger"
+                                                    id="2b-11">In-N-Out Burger</span>
                                                 ,
-                                <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
+                                                <span class="mention company" about="Smashburger"
+                                                    id="2b-12">Smashburger</span>
                                                 and
-                                <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                                aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
+                                                <span class="mention company" about="UmamiBurger" id="2b-13">Umami
+                                                    Burger</span>
+                                                aim to attract a growing number of consumers who want a <span
+                                                    class="mention cuisinetype" about="gourmet"
+                                                    id="2b-14">gourmet</span>
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-15">burger</span>
                                                 experience.
                                             </p>
                                             <p>
-                                                And the choices are considerable. How about a <span class="mention food typesofburger" about="burger" id="2b-16">hamburger</span>
-                                                with <span class="mention food" about="steak" id="2b-17">seared strip steak</span>
-                                                , <span class="mention food ingredients" about="oystermushrooms" id="2b-18">oyster mushrooms</span>
+                                                Not all <span class="mention food typesofburger" about="burger"
+                                                    id="2b-3">hamburgers</span>
+                                                are created equal, and given the changes in the <span
+                                                    class="mention place" about="UnitedStatesofAmerica" id="2b-4"
+                                                    data-wikidata-id="Q30"
+                                                    data-label="United States of America">U.S.</span>
+                                                dietary landscape in the past 10 years, <span
+                                                    class="mention food typesofburger" about="burger"
+                                                    id="2b-5">hamburgers</span>
+                                                are only getting more unique. All across the country ”better
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-6">burger</span>
+                                                ” choices can now be found alongside <span class="mention company"
+                                                    about="BurgerKing" id="2b-7" data-wikidata-id="Q177054"
+                                                    data-label="Burger King">Burger King</span>
+                                                and <span class="mention company" about="McDonald's" id="2b-8"
+                                                    data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
+                                                . Better
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-9">burger</span>
+                                                chains aim to stand apart from typical <span class="mention cuisinetype"
+                                                    about="fastfood" id="2b-10">fast food</span>
+                                                by providing focused menus, novel items, and customizable options.
+                                                Chains such as <span class="mention company" about="In-N-OutBurger"
+                                                    id="2b-11">In-N-Out Burger</span>
                                                 ,
-                                <span class="mention food ingredients" about="seaweed" id="2b-19">dried seaweed</span>
-                                                and <span class="mention food ingredients" about="fish" id="2b-20">fermented fish</span>
-                                                ? What about the <span class="mention food typesofburger" about="RooBurger" id="2b-21">“Roo Burger</span>
+                                                <span class="mention company" about="Smashburger"
+                                                    id="2b-12">Smashburger</span>
+                                                and
+                                                <span class="mention company" about="UmamiBurger" id="2b-13">Umami
+                                                    Burger</span>
+                                                aim to attract a growing number of consumers who want a <span
+                                                    class="mention cuisinetype" about="gourmet"
+                                                    id="2b-14">gourmet</span>
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-15">burger</span>
+                                                experience.
+                                            </p>
+                                            <p>
+                                                And the choices are considerable. How about a <span
+                                                    class="mention food typesofburger" about="burger"
+                                                    id="2b-16">hamburger</span>
+                                                with <span class="mention food" about="steak" id="2b-17">seared strip
+                                                    steak</span>
+                                                , <span class="mention food ingredients" about="oystermushrooms"
+                                                    id="2b-18">oyster mushrooms</span>
+                                                ,
+                                                <span class="mention food ingredients" about="seaweed" id="2b-19">dried
+                                                    seaweed</span>
+                                                and <span class="mention food ingredients" about="fish"
+                                                    id="2b-20">fermented fish</span>
+                                                ? What about the <span class="mention food typesofburger"
+                                                    about="RooBurger" id="2b-21">“Roo Burger</span>
                                                 ”, a
-                                <span class="mention food typesofburger" about="burger" id="2b-22">hamburger</span>
-                                                that combines <span class="mention animals ingredients" about="cows" id="2b-23">cow</span>
-                                                and 
+                                                <span class="mention food typesofburger" about="burger"
+                                                    id="2b-22">hamburger</span>
+                                                that combines <span class="mention animals ingredients" about="cows"
+                                                    id="2b-23">cow</span>
+                                                and
                                                 <span class="mention animals ingredients" about="kangoroo" id="2b-24">
                                                     kangaroo
-                                <span class="mention food ingredients" about="meat" id="2b-25">meat</span>
-                                                    into one <span class="mention food ingredients" about="patty" id="2b-26">patty</span>
-                                                    ? Or for a real heart-clogger, TGI Friday just rolled out its line of <span class="mention food typesofburger" about="burger" id="2b-27">“Stacked Burgers</span>
+                                                    <span class="mention food ingredients" about="meat"
+                                                        id="2b-25">meat</span>
+                                                    into one <span class="mention food ingredients" about="patty"
+                                                        id="2b-26">patty</span>
+                                                    ? Or for a real heart-clogger, TGI Friday just rolled out its line
+                                                    of <span class="mention food typesofburger" about="burger"
+                                                        id="2b-27">“Stacked Burgers</span>
                                                     ” with a whopping 1,400 calories per
-                                <span class="mention food" about="sandwich" id="2b-28">sandwich</span>
-                                                    . With a resurgence of <span class="mention diets" about="vegetarianism" id="2b-29">vegetarian</span>
+                                                    <span class="mention food" about="sandwich"
+                                                        id="2b-28">sandwich</span>
+                                                    . With a resurgence of <span class="mention diets"
+                                                        about="vegetarianism" id="2b-29">vegetarian</span>
                                                     <span class="mention diets" about="veganism" id="2b-30">vegan</span>
-                                                    cuisine combined with heightened public concerns about food safety issues, it would seem that offerings such as these would be waning rather than on the rise. But the trends in
-                                <span class="mention food ingredients" about="meat" id="2b-31">meat</span>
-                                                    consumption, and a new segment of <span class="mention cuisinetype" about="gourmet" id="2b-32">gourmet</span>
-                                                    <span class="mention food ingredients" about="meat" id="2b-33">meat</span>
-                                                    consumer, indicate that something different and sociological is underway.
+                                                    cuisine combined with heightened public concerns about food safety
+                                                    issues, it would seem that offerings such as these would be waning
+                                                    rather than on the rise. But the trends in
+                                                    <span class="mention food ingredients" about="meat"
+                                                        id="2b-31">meat</span>
+                                                    consumption, and a new segment of <span class="mention cuisinetype"
+                                                        about="gourmet" id="2b-32">gourmet</span>
+                                                    <span class="mention food ingredients" about="meat"
+                                                        id="2b-33">meat</span>
+                                                    consumer, indicate that something different and sociological is
+                                                    underway.
                                             </p>
-                                            <h2 class="blockquote">
-                                                <span class="mention food ingredients" about="beef" id="2b-34">Grass-fed beef</span>
-                                                , <span class="mention food ingredients" about="beef" id="2b-35">hormone-free beef</span>
-                                                , and <span class="mention food ingredients" about="beef" id="2b-36">steroid-free beef</span>
-                                                have become staples in the world of
-                                <span class="mention food typesofburger" about="burger" id="2b-37">hamburgers</span>
-                                                .
-                                            </h2>
-                                            <figure>
-                                                <img src="" width="220" class="images" id="nocircle5">
-                                                <figcaption>Simon Doggett</figcaption>
-                                            </figure>
-                                        </div>
-                                        <div class="section" id="2b-eatingdistinction">
-                                            <h3 class="section_heading">Eating Distinction</h3>
-                                            <p>
-                                                <span class="mention company" about="Technomic" id="2b-38">Technomic</span>
-                                                , the leading fact-based research firm for the <span class="mention company" about="foodindustry" id="2b-39">food industry</span>
-                                                , found in its 2011 <span class="mention report" about="BurgerConsumerTrendReport" id="2b-40">Burger Consumer Trend Report</span>
-                                                that nearly half of all consumers eat a
-                                <span class="mention food typesofburger" about="burger" id="2b-41">burger</span>
-                                                a week, up from 38 percent two years ago. Additional findings show that consumers—particularly young consumers—want more options in their <span class="mention food typesofburger" about="burger" id="2b-42">hamburger</span>
-                                                choices, including
-                                <span class="mention diets" about="vegetarianism" id="2b-43">vegetarian</span>
-                                                choices, and they are willing to pay more for these premiums. The top chart on page 73 illustrates Americans’ differential willingness to pay more for certain options. For instance, what <span class="mention animals ingredients" about="cows" id="2b-44">cows</span>
-                                                eat, how they are raised, and where they come from are important concerns for consumers today.
-                                            <p>
-                                            <p>
-                                                These desires have come about through changes in consumer behaviors as a direct result of food-based social movements. In their 2008 Adminstrative Science Quarterly article entitled <span class="mention report" about="ForageforThought" id="2b-45">“Forage for Thought: Mobilizing Codes in the Movement for Grass-fed Meat and Dairy Products</span>
-                                                ,” authors <span class="mention person" about="KlausWeber" id="2b-46">Klaus Weber</span>
-                                                , <span class="mention person" about="KathyrnHeinze" id="2b-47">Kathyrn Heinze</span>
-                                                and
-                                <span class="mention person" about="MichaelaDeSoucey" id="2b-48">Michaela DeSoucey</span>
-                                                show that social movements create cultural codes around the <span class="mention company" about="beefindustry" id="2b-49">beef industry</span>
-                                                that require producers to adjust their production standards, as well as provide consumers with ways to make ethical decisions in the marketplace. Through these demands, <span class="mention food ingredients" about="beef" id="2b-50">grass-fed beef</span>
-                                                , <span class="mention food ingredients" about="beef" id="2b-51">hormone-free beef
-                                </span>
-                                                , and <span class="mention food ingredients" about="beef" id="2b-52">steroid-free beef </span>
-                                                have become staples in the world of <span class="mention food typesofburger" about="burger" id="2b-53">hamburgers</span>
-                                                .
-                                            </p>
-                                            <p>
-                                                The surge in <span class="mention food typesofburger" about="burger" id="2b-54">hamburger</span>
-                                                consumption has been driven by the increased number of better <span class="mention food typesofburger" about="burger" id="2b-55">burger</span>
-                                                chains, and the growing availability of
-                                <span class="mention cuisinetype" about="gourmet" id="2b-56">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-57">hamburgers</span>
-                                                on menus of high-end restaurants across the country. Based on a 2011 report from <span class="mention company" about="Technomic" id="2b-148">Technomic
-                                </span>
-                                                , the other chart on this page shows the top 10 fastest growing better
-                                <span class="mention food typesofburger" about="burger" id="2b-58">burger</span>
-                                                chains. The rise of these better <span class="mention food typesofburger" about="burger" id="2b-59">burger</span>
-                                                chains is a direct response to consumer demand for more ethical and environmentally friendly <span class="mention food typesofburger" about="burger" id="2b-60">hamburgers</span>
-                                                .
-                                            </p>
-                                            <p>
-                                                The <span class="mention cuisinetype" about="gourmet" id="2b-61">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-62">hamburger</span>
-                                                , on the other hand, exemplifies an important concept in the sociology of culture, and more specifically food: the notion of <span class="mention diets" about="omnivore" id="2b-63">omnivorousness</span>
-                                                . Sociologists have described
-                                <span class="mention diets" about="omnivorousness" id="2b-64">omnivorousness</span>
-                                                as a type of cultural consumption that allows high-status groups to show off their distinction from other groups through their knowledge of a range of cultural forms, from low culture to high culture. These insights into the sociology of culture have been developed in part from
-                                <span class="mention person" about="PierreBourdie" id="2b-65" data-wikidata-id="Q156268" data-label="Pierre Bourdie">Pierre Bourdieu</span>
-                                                ’s seminal work Distinction, which showed how aesthetic preferences and cultural tastes were directly related to social class. <span class="mention person" about="PierreBourdie" id="2b-66" data-wikidata-id="Q156268" data-label="Pierre Bourdie">Bourdieu</span>
-                                                also found that certain cultural preferences were equated with “good taste” and those in privileged class postions often had access to these preferences, while those with less status and wealth did not. As food is a major element of culture in society, the
-                                <span class="mention food typesofburger" about="burger" id="2b-67">hamburger</span>
-                                                has become an important container for expressing these preferences in contemporary American cuisine.
-                            
-                                            </p>
-                                        </div>
-                                        <div class="section" id="2b-lowculture">
-                                            <h3 class="section_heading">Would Make Me More Likely to Purchase and Am Willing to Pay…</h3>
-                                            <figure>
-                                                <img src="" width="280" class="images_hist" id="2b-image1">
-                                                <figcaption>Source: Technomic Center of the Plate Beef &Pork Consumer Trend Report 2011</figcaption>
-                                            </figure>
-                                            <h3 class="section_heading">
-                                                Fastest Growing Better <span class="mention food typesofburger" about="burgerChain" id="2b-68">Burger Chains</span>
-                                            </h3>
-                                            <figure>
-                                                <img src="" width="280" class="images_hist" id="2b-image2">
-                                                <figcaption>Source: Technomic Top 75 Limited-Service Burger Chains Restaurant Report 2011</figcaption>
-                                            </figure>
-                                            <figure>
-                                                <img src="" width="220" class="images" id="2b-image3">
-                                                <figcaption>Cindy Kurman, Kurman Photography</figcaption>
-                                            </figure>
-                                            <h3 class="section_heading">
-                                                Low Culture, High Status <span class="mention food ingredients" about="beef" id="2b-69">Beef</span>
-                                            </h3>
-                                            <p>
-                                                In their book Foodies: Democracy and Distinction in the Gourmet Foodscape, sociologists <span class="mention person" about="JoséeJohnston" id="2b-70">Josée Johnston</span>
-                                                and <span class="mention person" about="ShyonBaumann" id="2b-71">Shyon Baumann</span>
-                                                examine <span class="mention diets" about="omnivore" id="2b-72">omnivorousness</span>
-                                                in American <span class="mention cuisinetype" about="gourmet" id="2b-73">gourmet
-                                </span>
-                                                food culture. They find that
-                                <span class="mention diets" about="omnivore" id="2b-74">omnivorousness</span>
-                                                operates based on a shared notion of what is legitimate or illegitimate as a <span class="mention cuisinetype" about="gourmet" id="2b-75">gourmet</span>
-                                                food item. Food legitimacy is based on two criteria: authenticity and exoticism. Authenticity refers to the simplicity of the dish, the geographic region it comes from, the personal connection to the consumer, ethnic connections, history and tradition. Exoticism refers to geographically distant, norm-breaking, and unusual elements of an item. Through the use of these critiria, “foodies” employ a range of cultural knowledge about the products they are consuming as a sign of status in their peer groups and throughout society. <span class="mention person" about="JoséeJohnston" id="2b-76">Johnston</span>
-                                                and <span class="mention person" about="ShyonBaumann" id="2b-77">Baumann
-                                </span>
-                                                provide a two-by-two figure (see chart on page 74) relating authenticity and exoticism in relation to certain types of foodstuffs.
-                                <span class="mention cuisinetype" about="fastfood" id="2b-78">Fast food</span>
-                                                is defined as both inauthentic and non-exotic based on these criteria.
-                            
-                                            </p>
-                                            <div class="table">
-                                                <h3 class="section_heading">Authenticity and Exoticism</h3>
-                                                <div class="table_1" id="2b-table">
-                                                    <table>
-                                                        <tr class="tableheader">
-                                                            <th></th>
-                                                            <th>Authentic</th>
-                                                            <th>Inauthentic</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Exotic</td>
-                                                            <td>
-                                                                <span class="mention food ingredients" about="FishSauce" id="2b-79">Vietnamese fish sauce from Phu Quoc</span>
-                                                            </td>
-                                                            <td>
-                                                                <span class="mention food ingredients" about="FishSauce" id="2b-80">Fish sauce mass-produced in China</span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Non-exotic</td>
-                                                            <td>
-                                                                <span class="mention food ingredients" about="HeirloomTomato" id="2b-81">Heirloom Tomato</span>
-                                                            </td>
-                                                            <td>
-                                                                <span class="mention cuisinetype" about="fastfood" id="2b-82">Fast Food</span>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <h5 class="source">Source: Johnston and Baumann, Foodies: Democracy and Distinction in the Gourmet Foodscape, pg. 99</h5>
-                                            <p>
-                                                This is what makes the a <span class="mention cuisinetype" about="gourmet" id="2b-83">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-84">hamburger</span>
-                                                such an attractive oxymoron of consumable culture. In one digestable package you have the low culture that comes from a <span class="mention cuisinetype" about="fastfood" id="2b-0000">fast-food</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-85">burger
-                                </span>
-                                                combined with the exotic and authentic elements of high-culture foodstuffs. A
-                                <span class="mention food typesofburger" about="burger" id="2b-86">hamburger</span>
-                                                might be more authentic if it has <span class="mention food ingredients" about="beef" id="2b-87">beef
-                                </span>
-                                                that comes from a certain region of the country, has been fed a diet of <span class="mention food ingredients" about="SeasonalGrasses" id="2b-88">seasonal grasses</span>
-                                                , or reared on a family farm, while exoticism might mean adding strange ingredients otherwise not found on a traditional
-                                <span class="mention food typesofburger" about="burger" id="2b-89">hamburger</span>
-                                                . For example at <span class="mention company" about="HubertKeller’sBurgerBar" id="2b-90">Hubert Keller’s Burger Bar</span>
-                                                in <span class="mention place" about="LasVegas" id="2b-91" data-wikidata-id="Q23768" data-label="Las Vegas">Las Vegas</span>
-                                                , the
-                                <span class="mention food typesofburger" about="burger" id="2b-92">“Rossini Burger”</span>
-                                                is
-                                <span class="mention food ingredients" about="KobeStyleWagyuBeef" id="2b-93">Kobe Style Wagyu Beef</span>
-                                                from <span class="mention place" about="Australia" id="2b-94" data-wikidata-id="Q408" data-label="Australia">Australia</span>
-                                                , <span class="mention food ingredients" about="sauteedFoieGras" id="2b-95">sauteed foie gras</span>
-                                                and
-                                <span class="mention food ingredients" about="shavedTruffle" id="2b-96">shaved truffles</span>
-                                                on an <span class="mention food ingredients" about="OnionBun" id="2b-97">onion bun</span>
-                                                . At $60, it provides a mouthful of exotic and authentic flavors through which the consumer can express high status, while still maintaining the low-culture connection so critical to the <span class="mention diets" about="omnivore" id="2b-98">omnivore</span>
-                                                .
-                                            </p>
-                                            <h2 class="blockquote">
-                                                In one digestable package you have the low culture that comes from a <span class="mention cuisinetype" about="fastfood" id="2b-0001">fast-food</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-99">burger</span>
-                                                combined with the exotic and authentic elements of high-culture foodstuffs.
-                                            </h2>
-                                        </div>
-                                        <div class="section" id="2b-placingdistinction">
-                                            <h3 class="section_heading">Placing Distinction</h3>
-                                            <p>
-                                                <span class="mention diets" about="omnivore" id="2b-100">Omnivorousness</span>
-                                                also includes the place where that $60 <span class="mention cuisinetype" about="gourmet" id="2b-101">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-102">hamburger</span>
-                                                was eaten. While the rise of the
-                                <span class="mention cuisinetype" about="gourmet" id="2b-103">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-104">hamburger</span>
-                                                has become ubiquitous throughout the consumptive landscape, where you eat matters more than ever.
-                                <span class="mention cuisinetype" about="fastfood" id="2b-105">Fast Food chains</span>
-                                                like <span class="mention company" about="RedRobin" id="2b-106">Red Robin</span>
-                                                and magazines such as Martha Stewart’s Living all advertise <span class="mention cuisinetype" about="gourmet" id="2b-107">gourmet</span>
-                                                <span class="mention food typesofburger" about="burger" id="2b-108">burgers</span>
-                                                as a new alternative to traditional
-                                <span class="mention food typesofburger" about="burger" id="2b-109">hamburgers</span>
-                                                . For consumers who want to remain distinct from the masses of low culture consumers, <span class="mention food typesofburger" about="burger" id="2b-110">hamburger</span>
-                                                gourmands must employ an additional dimension of <span class="mention diets" about="omnivore" id="2b-111">omnivorousness</span>
-                                                that involves space. In today’s
-                                <span class="mention cuisinetype" about="gourmet" id="2b-112">gourmet</span>
-                                                food landscape, where you dine is just as important as what you eat. Places like <span class="mention Company" about="DuMontBurger" id="2b-113">DuMont Burger
-                                </span>
-                                                in
-                                <span class="mention place" about="Brooklyn" id="2b-114" data-wikidata-id="Q18419" data-label="Brooklyn">Brooklyn</span>
-                                                , the 
-                                                <span class="mention company" about="LunchboxLaboratory" id="2b-115">
-                                                    Lunchbox Laboratory in <span class="mention place" about="Seattle" id="2b-116" data-wikidata-id="Q5083" data-label="Seattle">Seattle</span>
-                                                    , or
-                                <span class="mention company" about="Mr.Bartley’sGourmetBurgers" id="2b-117">Mr. Bartley’s Gourmet Burgers</span>
-                                                    in
-                                <span class="mention place" about="Boston" id="2b-118" data-wikidata-id="Q100" data-label="Boston">Boston</span>
-                                                    , provide name recognition with the <span class="mention food typesofburger" about="burger" id="2b-119">burger</span>
-                                                    they are serving. For consumers seeking the ultimate in gourmet
-                                <span class="mention food typesofburger" about="burger" id="2b-120">hamburgers</span>
-                                                    , not only does the meal have to be authentic and exotic, it also has to come from a place that is socially desirable or trendy. Contemporary gourmet <span class="mention food typesofburger" about="burger" id="2b-121">hamburgers</span>
-                                                    may be made with <span class="mention food ingredients" about="grassfedHormonfreeBeef" id="2b-122">grass-fed, hormone-free beef</span>
-                                                    , topped with a range of unique items (
-                                <span class="mention food ingredients" about="quailegg" id="2b-123">quail egg</span>
-                                                    , <span class="mention food ingredients" about="pickledbeets" id="2b-124">pickled beets</span>
-                                                    , <span class="mention food ingredients" about="roastedpigear" id="2b-125">roasted pig ear</span>
-                                                    ), and served in a variety of
-                                <span class="mention food ingredients" about="buns" id="2b-126">buns</span>
-                                                    (<span class="mention food ingredients" about="brioche" id="2b-127">brioche</span>
-                                                    , <span class="mention food ingredients" about="Kaiserroll" id="2b-128">Kaiser roll</span>
-                                                    ,
-                                <span class="mention food ingredients" about="sesame" id="2b-129">sesame</span>
-                                                    ); yet the most important element of <span class="mention diets" about="omnivore" id="2b-130">omnivorousness</span>
-                                                    for the <span class="mention food typesofburger" about="burger" id="2b-131">burger</span>
-                                                    gourmand is who made it and where it was made.
-                            
-                                            </p>
-                                            <p>
-                                                The gourmet <span class="mention food typesofburger" about="burger" id="2b-132">hamburger</span>
-                                                served at <span class="mention company" about="HolemanandFinchPublicHouse" id="2b-133">the Holeman and Finch Public House</span>
-                                                in <span class="mention place" about="Atlanta" id="2b-134" data-wikidata-id="Q23556" data-label="Atlanta">Atlanta</span>
-                                                ,
-                                <span class="mention place" about="Georgia" id="2b-135" data-wikidata-id="Q230" data-label="Georgia">Georgia</span>
-                                                , epitomizes the <span class="mention diets" about="omnivore" id="2b-136">omnivore</span>
-                                                ’s desire for something legitimate and exclusive. Each night only 24 handcrafted <span class="mention food typesofburger" about="burger" id="2b-137">hamburgers</span>
-                                                are made, and at 10 p.m. a bell rings, accompanied by someone shouting “Burger Time!” By 10:01 p.m. all 24
-                                 <span class="mention food typesofburger" about="burger" id="2b-138">burgers
-                                </span>
-                                                have been sold and to those lucky patrons who bought one, they get the distinction of a truly gourmet meal.
-                                            </p>
-                                            <p>
-                                                This is what separates “better <span class="mention food typesofburger" about="burger" id="2b-139">burger</span>
-                                                ” chains from individual high-end restaurants that serve gourmet <span class="mention food typesofburger" about="burger" id="2b-140">hamburgers</span>
-                                                . There is no barrier to entry at <span class="mention company" about="RedRobin" id="2b-141">Red Robins</span>
-                                                or
-                                
-                                                ; a consumer of any cultural level can indulge. What provides the distinction of high culture <span class="mention food typesofburger" about="burger" id="2b-143">hamburger</span>
-                                                consumption is getting access to <span class="mention company" about="Mr.Bartley’sGourmetBurgers" id="2b-144">Mr. Bartley’s</span>
-                                                or
-                                
-                                                , which usually includes a higher entry price and a reservation. These places mark the distinctiveness of the experience, making it truly high culture. Without this consumptive exclusivity, gourmet
-                                
-                                                are just a trendy amalgamation of low and high culture.
-                                            </p>
-                                        </div>
-                                        <div class="section" id="2b-biography">
-                                            <p>
-                                                <b>Mark Caldwell</b>
-                                                is in the sociology program at the <span class="mention place" about="UniversityOfWisconsin" id="2b-147" data-wikidata-id="Q1757318" data-label="University of Wisconsin-Milwaukee">University of Wisconsin-Milwaukee</span>
-                                                . He studies urban inequalities in health outcomes and the sociology of food.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6" id="colonnaD">
-                        <div class="colonnadestra" id="destra">
-                            <div class="divisione" id="upperDiv">
-                                <div class="header" id="2b-header">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
-                                        Commenti
-                                      </button>
-                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="">Commento 1</a></li>
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 2</a></li>
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 3</a></li>
-                                      </ul>             
-                                    <button class="add-button" id="splitButton">
-                                        <i class="bi bi-dash-circle" id="icon"></i>
-                                    </button> 
-                                    <div id="popup">Clicca su questo bottone per visualizzare un solo commento.</div>
-                                    <button class="enlarger" id="enlargerRight">
-                                        <i class="bi bi-arrows-angle-expand" id="enlargerRightI"></i> <!-- Extension symbol -->
-                                    </button> 
-                                    <div id="popupR">Clicca su questo bottone per visualizzare il commento in modalità full-screen.</div>
-                                    <button class="bottoneToggle" id="scrollAuto">
-                                        <i class="bi bi-toggle-on" id="scrollAutomatico"></i></i>
-                                    </button> 
-                                    <div id="popupScroll">Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.</div>
-                                    <h2 class="thing1_title" data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
-                                        The Rise of the <span class="mention cuisinetype" about="gourmet" id="2b-0">Gourmet</span>
-                                        <span class="mention food typesofburger" about="burger" id="2b-1">Hamburger</span>
-                                    </h2>
-                                    <h2 class="thing2_authors">
-                                        by <span class="mention person" about="markCaldwell" id="2b-2">Mark Caldwell</span>
-                                    </h2>
-                                </div>
-                                <div class="text">
-                                    <div class="section" id="2b-intro">
-                                        <p>
-                                            Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                            are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                            dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
-                                            are only getting more unique. All across the country ”better
-                                            <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                            ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                            and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
-                                            . Better
-                                            <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                            chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                            by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
-                                            ,
-                                            <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
-                                            and
-                                            <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                            aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
-                                            experience.
-                                            Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                            are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                            dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
-                                            are only getting more unique. All across the country ”better
-                                            <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                            ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                            and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
-                                            . Better
-                                            <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                            chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                            by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
-                                            ,
-                                            <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
-                                            and
-                                            <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                            aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
-                                            experience.
-                                            Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                            are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                            dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
-                                            are only getting more unique. All across the country ”better
-                                            <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                            ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                            and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
-                                            . Better
-                                            <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                            chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                            by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
-                                            ,
-                                            <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
-                                            and
-                                            <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                            aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
-                                            experience.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="divisione" id="bottomDiv">
-                                <div class="header" id="2b-header">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="issuesnav" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
-                                        Commenti
-                                      </button>
-                                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')" href="">Commento 1</a></li>
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 2</a></li>
-                                        <li><a class="dropdown-item" onclick="changepage('whichpage')"href="">Commento 3</a></li>
-                                      </ul>
-                                      <button class="buttonToggle" id="scrollAuto2">
-                                        <i class="bi bi-toggle-on" id="scrollAutomatico2"></i></i>
-                                    </button> 
-                                    <div id="popupScroll2">Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.</div>
-                                    <h2 class="thing1_title" data-src="https://journals.sagepub.com/doi/pdf/10.1177/1536504214545765">
-                                    The Rise of the <span class="mention cuisinetype" about="gourmet" id="2b-0">Gourmet</span>
-                                    <span class="mention food typesofburger" about="burger" id="2b-1">Hamburger</span>
-                                    </h2>
-                                    <h2 class="thing2_authors">
-                                    by <span class="mention person" about="markCaldwell" id="2b-2">Mark Caldwell</span>
-                                    </h2>
-                                </div>
-                                <div class="text">
-                                    <div class="section" id="2b-intro">
-                                        <p>
-                                            Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                            are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                            dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
-                                            are only getting more unique. All across the country ”better
-                                        <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                            ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                            and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
-                                            . Better
-                                        <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                            chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                            by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
-                                            ,
-                                        <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
-                                            and
-                                        <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                            aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
-                                            experience.
-                                        </p>
-                                        <p>
-                                            Not all <span class="mention food typesofburger" about="burger" id="2b-3">hamburgers</span>
-                                            are created equal, and given the changes in the <span class="mention place" about="UnitedStatesofAmerica" id="2b-4" data-wikidata-id="Q30" data-label="United States of America">U.S.</span>
-                                            dietary landscape in the past 10 years, <span class="mention food typesofburger" about="burger" id="2b-5">hamburgers</span>
-                                            are only getting more unique. All across the country ”better
-                            <span class="mention food typesofburger" about="burger" id="2b-6">burger</span>
-                                            ” choices can now be found alongside <span class="mention company" about="BurgerKing" id="2b-7" data-wikidata-id="Q177054" data-label="Burger King">Burger King</span>
-                                            and <span class="mention company" about="McDonald's" id="2b-8" data-wikidata-id="Q38076" data-label="McDonald's">McDonald’s</span>
-                                            . Better
-                            <span class="mention food typesofburger" about="burger" id="2b-9">burger</span>
-                                            chains aim to stand apart from typical <span class="mention cuisinetype" about="fastfood" id="2b-10">fast food</span>
-                                            by providing focused menus, novel items, and customizable options. Chains such as <span class="mention company" about="In-N-OutBurger" id="2b-11">In-N-Out Burger</span>
-                                            ,
-                            <span class="mention company" about="Smashburger" id="2b-12">Smashburger</span>
-                                            and
-                            <span class="mention company" about="UmamiBurger" id="2b-13">Umami Burger</span>
-                                            aim to attract a growing number of consumers who want a <span class="mention cuisinetype" about="gourmet" id="2b-14">gourmet</span>
-                                            <span class="mention food typesofburger" about="burger" id="2b-15">burger</span>
-                                            experience.
-                                        </p>
-                                        <p>
-                                            And the choices are considerable. How about a <span class="mention food typesofburger" about="burger" id="2b-16">hamburger</span>
-                                            with <span class="mention food" about="steak" id="2b-17">seared strip steak</span>
-                                            , <span class="mention food ingredients" about="oystermushrooms" id="2b-18">oyster mushrooms</span>
-                                            ,
-                            <span class="mention food ingredients" about="seaweed" id="2b-19">dried seaweed</span>
-                                            and <span class="mention food ingredients" about="fish" id="2b-20">fermented fish</span>
-                                            ? What about the <span class="mention food typesofburger" about="RooBurger" id="2b-21">“Roo Burger</span>
-                                            ”, a
-                            <span class="mention food typesofburger" about="burger" id="2b-22">hamburger</span>
-                                            that combines <span class="mention animals ingredients" about="cows" id="2b-23">cow</span>
-                                            and 
-                                            <span class="mention animals ingredients" about="kangoroo" id="2b-24">
-                                                kangaroo
-                            <span class="mention food ingredients" about="meat" id="2b-25">meat</span>
-                                                into one <span class="mention food ingredients" about="patty" id="2b-26">patty</span>
-                                                ? Or for a real heart-clogger, TGI Friday just rolled out its line of <span class="mention food typesofburger" about="burger" id="2b-27">“Stacked Burgers</span>
-                                                ” with a whopping 1,400 calories per
-                            <span class="mention food" about="sandwich" id="2b-28">sandwich</span>
-                                                . With a resurgence of <span class="mention diets" about="vegetarianism" id="2b-29">vegetarian</span>
-                                                <span class="mention diets" about="veganism" id="2b-30">vegan</span>
-                                                cuisine combined with heightened public concerns about food safety issues, it would seem that offerings such as these would be waning rather than on the rise. But the trends in
-                            <span class="mention food ingredients" about="meat" id="2b-31">meat</span>
-                                                consumption, and a new segment of <span class="mention cuisinetype" about="gourmet" id="2b-32">gourmet</span>
-                                                <span class="mention food ingredients" about="meat" id="2b-33">meat</span>
-                                                consumer, indicate that something different and sociological is underway.
-                                        </p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        </div>
-        </section>   
-        </div>
-        <!-- Footer-->
-        <%- include("partials/footer"); %>
-        <!-- Scripts-->
-        <%- include("partials/scripts"); %>
-    </body>
-</html>
 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+    </body>
+
+</html>
