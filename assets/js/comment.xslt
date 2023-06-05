@@ -1,5 +1,3 @@
- <!-- XSLT template for the comments files like BadConf.xml -->
-
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <xsl:output method="html" doctype-system="about:legacy-compat" />

@@ -19,14 +19,29 @@ const { xsltProcess, xmlParse } = require('xslt-processor');
 
 
 function convertXmlToHtml(chapter_id) {
-    xmlDoc = fs.readFileSync(`./quarantana/${chapter_id}.xml`, 'utf8');
-    xslStylesheet = fs.readFileSync(__dirname + '/chapter.xslt', 'utf8');
+  xmlDoc = fs.readFileSync(`./quarantana/${chapter_id}.xml`, 'utf8');
+  xslStylesheet = fs.readFileSync(__dirname + '/chapter.xslt', 'utf8');
 
-    const xmlDocument = xmlParse(xmlDoc);
-    const xsltDocument = xmlParse(xslStylesheet);
-    const transformedXml = xsltProcess(xmlDocument, xsltDocument);
-    fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
-    return transformedXml;
-  }
+  const xmlDocument = xmlParse(xmlDoc);
+  const xsltDocument = xmlParse(xslStylesheet);
+  const transformedXml = xsltProcess(xmlDocument, xsltDocument);
+  fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
+  return transformedXml;
+}
 
-module.exports = convertXmlToHtml;
+
+function convertCommentXMLToHtml(authorName) {
+  xmlDoc = fs.readFileSync(`./commenti/xml/In_lavorazione/${authorName}.xml`, 'utf8');
+  xslStylesheet = fs.readFileSync(__dirname + '/comment.xslt', 'utf8');
+
+  const xmlDocument = xmlParse(xmlDoc);
+  const xsltDocument = xmlParse(xslStylesheet);
+  const transformedXml = xsltProcess(xmlDocument, xsltDocument);
+  return transformedXml;
+}
+
+
+module.exports = {
+  convertXmlToHtml,
+  convertCommentXMLToHtml
+};
