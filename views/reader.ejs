@@ -144,7 +144,7 @@
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                             <% commenti.forEach((comment)=> { %>
-                                                <li><a class="dropdown-item comment-link" data-comment="<%= comment %>"
+                                                <li><a class="dropdown-item comment-link-2" data-comment="<%= comment %>"
                                                         href="#">
                                                         <%= comment %>
                                                     </a></li>
@@ -157,7 +157,7 @@
                                             attivo. Clicca per disattivare.</div>
                                         <div class="text-comment">
                                             <script>
-                                                document.querySelectorAll('.comment-link').forEach(function (link) {
+                                                document.querySelectorAll('.comment-link-2').forEach(function (link) {
                                                     link.addEventListener('click', function (event) {
                                                         event.preventDefault(); // prevent the browser from following the link
                                                         const comment = event.target.getAttribute('data-comment');

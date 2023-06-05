@@ -39,6 +39,10 @@ app.use("/", commenti);
 const reader = require("./routes/reader");
 app.use("/", reader);
 
+/* vignette */
+const vignette = require("./routes/vignette");
+app.use("/", vignette);
+
 /* credits */
 const credits = require("./routes/credits");
 app.use("/", credits);
