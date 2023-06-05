@@ -44,4 +44,4 @@ function convertCommentXMLToHtml(authorName) {
 module.exports = {
   convertXmlToHtml,
   convertCommentXMLToHtml
-}
+};
