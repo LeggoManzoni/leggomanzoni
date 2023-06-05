@@ -117,9 +117,22 @@
                                         <div id="popupScroll">Il reindirizzamento automatico tra testo e commento è
                                             attivo. Clicca per disattivare.</div>
                                     </div>
-                                    <div class="text-comment">
+                                    <div class="text-comment-top">
                                     <script>
-                                        document.querySelectorAll('.comment-link').forEach(function (link) {
+                                        document.addEventListener('DOMContentLoaded', function () {
+                                                // Set the default comment
+                                                let firstDefaultComment = 'BadConf';
+
+                                                // Fetch and display the first default comment
+                                                fetch('/get-comment/' + firstDefaultComment)
+                                                    .then(response => response.text())
+                                                    .then(data => {
+                                                        document.querySelector('.text-comment-top').innerHTML = data;
+                                                    })
+                                                    .catch(error => console.error(error));
+                                            });
+
+                                            document.querySelectorAll('.comment-link').forEach(function (link) {
                                             link.addEventListener('click', function (event) {
                                                 event.preventDefault(); // prevent the browser from following the link
                                                 const comment = event.target.getAttribute('data-comment');
@@ -127,7 +140,7 @@
                                                 fetch('/get-comment/' + comment)
                                                     .then(response => response.text())
                                                     .then(data => {
-                                                        document.querySelector('.text-comment').innerHTML = data;
+                                                        document.querySelector('.text-comment-top').innerHTML = data;
                                                     })
                                                     .catch(error => console.error(error));
                                             });
@@ -155,9 +168,22 @@
                                         </button>
                                         <div id="popupScroll2">Il reindirizzamento automatico tra testo e commento è
                                             attivo. Clicca per disattivare.</div>
-                                        <div class="text-comment">
+                                        <div class="text-comment-bottom">
                                             <script>
-                                                document.querySelectorAll('.comment-link-2').forEach(function (link) {
+                                                document.addEventListener('DOMContentLoaded', function () {
+                                                // Set the second default comment
+                                                let secondDefaultComment = 'Angelini';
+
+                                                // Fetch and display the default comment
+                                                fetch('/get-comment/' + secondDefaultComment)
+                                                    .then(response => response.text())
+                                                    .then(data => {
+                                                        document.querySelector('.text-comment-bottom').innerHTML = data;
+                                                    })
+                                                    .catch(error => console.error(error));
+                                            });
+
+                                            document.querySelectorAll('.comment-link-2').forEach(function (link) {
                                                     link.addEventListener('click', function (event) {
                                                         event.preventDefault(); // prevent the browser from following the link
                                                         const comment = event.target.getAttribute('data-comment');
@@ -165,7 +191,7 @@
                                                         fetch('/get-comment/' + comment)
                                                             .then(response => response.text())
                                                             .then(data => {
-                                                                document.querySelector('.text-comment').innerHTML = data;
+                                                                document.querySelector('.text-comment-bottom').innerHTML = data;
                                                             })
                                                             .catch(error => console.error(error));
                                                     });
