@@ -87,28 +87,13 @@ app.get('/get-chapter/:chapterName', function (req, res) {
 });
 
 
-app.get('/get-commenti', function (req, res) {
-  const directoryPath = path.join(__dirname, './commenti/xml/In_lavorazione'); // Specify your directory here
-
-  // Read directory
-  fs.readdir(directoryPath, function (err, files) {
-    if (err) {
-      res.status(500).send("Unable to scan directory: " + err);
-    } else {
-      // Filter XML files and remove extensions
-      const xmlFilenames = files.filter(file => path.extname(file) === '.xml').map(file => path.basename(file, '.xml'));
-
-      res.send(xmlFilenames);
-    }
-  });
-});
-
 app.get('/get-comment/:authorName', function (req, res) {
   var author = req.params.authorName;
 
   converted_data = convertCommentXMLToHtml(author);
   res.send(converted_data);
 });
+
 
 /* port */
 const port = 8000;
