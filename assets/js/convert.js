@@ -25,7 +25,7 @@ function convertXmlToHtml(chapter_id) {
   const xmlDocument = xmlParse(xmlDoc);
   const xsltDocument = xmlParse(xslStylesheet);
   const transformedXml = xsltProcess(xmlDocument, xsltDocument);
-  fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
+  // fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
   return transformedXml;
 }
 
