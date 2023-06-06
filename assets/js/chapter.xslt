@@ -16,7 +16,7 @@
     </p>
   </xsl:template>
   <xsl:template match="w">
-   <span class="{@xml:id}" id="{substring-after(@target, '#')}">
+   <span id="{@xml:id}">
     <xsl:value-of select="." /><xsl:text> </xsl:text>
     </span>
   </xsl:template>

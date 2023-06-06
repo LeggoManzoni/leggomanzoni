@@ -21,7 +21,7 @@
 
     <xsl:template match="note">
         <p>
-            <span id="{@xml:id}" class="{substring-after(@target, '#')}">
+            <span id="{substring-after(@target, '#')}">
                 <xsl:apply-templates />
             </span>
         </p>
