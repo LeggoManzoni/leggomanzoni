@@ -61,11 +61,11 @@ window.addEventListener('DOMContentLoaded',  () => {
     };
   
     collectId();
-});
+    });
 
-/* collect id */
-let collectId = () => {
-// function for splitting the id content 
+    /* collect id */
+    let collectId = () => {
+    // function for splitting the id content 
     fetch('/extract-ids')
     .then(response => response.json())
     .then(idArray => {
@@ -260,6 +260,28 @@ let collectId = () => {
       toggleSecond.addEventListener("mouseout", function() {
       popupScroll2.style.display = "none";
       });
-    };
+  };
 
+
+  var currentPageUrl = window.location.href;
+
+  // Update 'reader.ejs' with the specific page you want the modal to appear
+  if (currentPageUrl.includes('reader')) {
+    var modal = document.getElementById("myModal");
+    var closeButton = document.getElementsByClassName("close")[0];
+
+    modal.style.display = "block";
+
+    closeButton.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+  
     
