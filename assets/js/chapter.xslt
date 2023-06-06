@@ -16,7 +16,9 @@
     </p>
   </xsl:template>
   <xsl:template match="w">
+   <span id="{@xml:id}" class="{substring-after(@target, '#')}">
     <xsl:value-of select="." /><xsl:text> </xsl:text>
+    </span>
   </xsl:template>
   <xsl:template match="hi[@rend='italic']">
     <i>
