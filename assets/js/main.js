@@ -76,20 +76,6 @@ window.addEventListener('DOMContentLoaded',  () => {
         console.error('Error fetching the IDs:', error);
     });
 
-    //Prova
-    /*class SplitButton {
-      constructor() {
-        this.splitButton = document.querySelector(".add-button");
-        this.splitButton.addEventListener("click", this.toggleColumn.bind(this));
-      }
-    
-      toggleColumn() {
-        var column = document.querySelector(".colonnadestra");
-        var bottomDiv = document.querySelector(".divisione1"); //bisogna cambiare la classe se scelgo questa soluzione perché per ora entrambe si chiamano divisione
-        var upperDiv = document.querySelector(".divisione2");
-        var icon = document.querySelector(".bi .bi-dash-circle"); //per il resto dopo prosegue uguale la funzione dall'if
-    */
-
     var splitButton = document.getElementById("splitButton");
     splitButton.addEventListener("click", toggleColumn);
     
@@ -99,21 +85,22 @@ window.addEventListener('DOMContentLoaded',  () => {
         var bottomDiv = document.getElementById("bottomDiv");
         var upperDiv = document.getElementById("upperDiv");
         var icon = document.getElementById("icon");
+        var text = document.getElementById("popup");
       
         if (bottomDiv.classList.contains("hide")) {
           // Show the bottom div
           bottomDiv.classList.remove("hide");
-          column.classList.remove("oneText");
           upperDiv.classList.remove("singularText");
           icon.classList.remove("bi-plus-circle");
           icon.classList.add("bi-dash-circle");
+          text.textContent = "Clicca su questo bottone per visualizzare un solo commento.";
         } else {
           // Hide the bottom div
           bottomDiv.classList.add("hide");
           upperDiv.classList.add("singularText");
-          column.classList.add("oneText");
           icon.classList.remove("bi-dash-circle");
           icon.classList.add("bi-plus-circle");
+          text.textContent = "Clicca su questo bottone per visualizzare due commenti.";
         }
       }; 
    
@@ -126,6 +113,7 @@ window.addEventListener('DOMContentLoaded',  () => {
         var icon = document.getElementById("enlargerRight");
         var columnToDelete = document.getElementById("colonnaS");
         var i = document.getElementById("enlargerRightI");
+        var testo = document.getElementById("popupR");
       
         if (columnToDelete.classList.contains("hide")) {
           // Show the enlarged div
@@ -134,6 +122,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           columnToMantain.classList.add("col-6");
           i.classList.add("bi-arrows-angle-expand");
           i.classList.remove("bi-arrows-angle-contract");
+          testo.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
         } else {
           // Hide the bottom div
           columnToDelete.classList.add("hide");
@@ -141,8 +130,8 @@ window.addEventListener('DOMContentLoaded',  () => {
           columnToMantain.classList.add("col-12");
           i.classList.add("bi-arrows-angle-contract");
           i.classList.remove("bi-arrows-angle-expand");
+          testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
         }
-        enlargeRightColumn();
       }; 
     
     // Function for enlarging the left column and hiding the right one
@@ -154,6 +143,7 @@ window.addEventListener('DOMContentLoaded',  () => {
         var icon = document.getElementById("enlargerLeft");
         var columnToDelete = document.getElementById("colonnaD");
         var i = document.getElementById("enlargerLeftI");
+        var caption = document.getElementById("popupL");
       
         if (columnToDelete.classList.contains("hide")) {
           // Show the bottom div
@@ -162,6 +152,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           columnToMantain.classList.add("col-6");
           i.classList.add("bi-arrows-angle-expand");
           i.classList.remove("bi-arrows-angle-contract");
+          caption.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
         } else {
           // Hide the bottom div
           columnToDelete.classList.add("hide");
@@ -169,6 +160,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           columnToMantain.classList.add("col-12");
           i.classList.add("bi-arrows-angle-contract");
           i.classList.remove("bi-arrows-angle-expand");
+          caption.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
         }
       }; 
     
@@ -179,15 +171,18 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     function blockRedirection(){
         var i = document.getElementById("scrollAutomatico");
+        var testo1 =document.getElementById("popupScroll");
       
         if (i.classList.contains("bi-toggle-on")) {
           // Show the bottom div
           i.classList.remove("bi-toggle-on");
           i.classList.add("bi-toggle-off");
+          testo1.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
         } else {
           // Hide the bottom div
           i.classList.remove("bi-toggle-off");
           i.classList.add("bi-toggle-on");
+          testo1.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
         }
       }; 
     
@@ -197,15 +192,18 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     function blockSecondRedirection(){
         var i2 = document.getElementById("scrollAutomatico2");
+        var testo2 =document.getElementById("popupScroll2");
       
         if (i2.classList.contains("bi-toggle-on")) {
           // Show the bottom div
           i2.classList.remove("bi-toggle-on");
           i2.classList.add("bi-toggle-off");
+          testo2.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
         } else {
           // Hide the bottom div
           i2.classList.remove("bi-toggle-off");
           i2.classList.add("bi-toggle-on");
+          testo2.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
         }
       }; 
 

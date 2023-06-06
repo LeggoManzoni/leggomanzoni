@@ -1401,7 +1401,6 @@ progress {
     color: grey;
     flex: 0 0 auto;
     width: 66.66666667%;
-    margin-left: 40%;
   }
 
   .col-lg-9 {
@@ -11674,3 +11673,7 @@ header.masthead h1, header.masthead .h1 {
 
 .modal-body {padding: 2px 16px;}
 
+.image-home{
+  margin-left: 60%;
+  padding-top: 10%;
+}
