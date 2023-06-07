@@ -258,6 +258,12 @@ window.addEventListener('DOMContentLoaded',  () => {
       toggleSecond.addEventListener("mouseout", function() {
       popupScroll2.style.display = "none";
       });
+
+      var toggleBtn = document.getElementById("toggleBtn");
+
+      toggleBtn.addEventListener("click", function() {
+      toggleBtn.classList.toggle("opened");
+});
   };
 
 
@@ -280,6 +286,8 @@ window.addEventListener('DOMContentLoaded',  () => {
       }
     }
   }
+
+  
 
   
     

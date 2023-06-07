@@ -5096,11 +5096,12 @@ textarea.form-control-lg {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   color: #212529;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: justify; 
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -11507,7 +11508,6 @@ header.masthead h1, header.masthead .h1 {
 
 .row {
   display: flex;
-  flex-direction: column;
   height: 100vh; /* Set the height of the row */
   padding-top: 3.5em; 
 }
@@ -11676,4 +11676,12 @@ header.masthead h1, header.masthead .h1 {
 .image-home{
   margin-left: 60%;
   padding-top: 10%;
+}
+
+.dropdownContent {
+  display: none;
+}
+
+.dropdown-toggle.opened .dropdownContent {
+  display: block;
 }
