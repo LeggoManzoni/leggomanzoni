@@ -259,6 +259,10 @@ samp {
   unicode-bidi: bidi-override;
 }
 
+p{
+  text-align: justify;
+}
+
 pre {
   display: block;
   margin-top: 0;
@@ -1400,7 +1404,6 @@ progress {
   .col-lg-8 {
     color: grey;
     flex: 0 0 auto;
-    width: 66.66666667%;
   }
 
   .col-lg-9 {
@@ -11296,9 +11299,6 @@ body {
   height: 100%;
 }
 
-.page-section {
-  padding: 8rem 0;
-}
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
