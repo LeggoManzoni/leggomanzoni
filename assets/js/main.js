@@ -259,11 +259,7 @@ window.addEventListener('DOMContentLoaded',  () => {
       popupScroll2.style.display = "none";
       });
 
-      var toggleBtn = document.getElementById("toggleBtn");
-
-      toggleBtn.addEventListener("click", function() {
-      toggleBtn.classList.toggle("opened");
-});
+      
   };
 
 
@@ -286,7 +282,21 @@ window.addEventListener('DOMContentLoaded',  () => {
       }
     }
   }
-
+  document.addEventListener("DOMContentLoaded", function() {
+    var toggleBtns = document.querySelectorAll(".toggleBtn");
+  
+    toggleBtns.forEach(function(toggleBtn) {
+      toggleBtn.addEventListener("click", function() {
+        var dropdownContent = this.querySelector(".dropdownContent");
+  
+        if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+          dropdownContent.style.display = "block";
+        } else {
+          dropdownContent.style.display = "none";
+        }
+      });
+    });
+  });
   
 
   

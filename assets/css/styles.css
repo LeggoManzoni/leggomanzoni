@@ -5102,6 +5102,7 @@ textarea.form-control-lg {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   text-align: justify; 
+  margin: 0.5%;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -11678,10 +11679,6 @@ header.masthead h1, header.masthead .h1 {
   padding-top: 10%;
 }
 
-.dropdownContent {
+.dropdownContent{
   display: none;
-}
-
-.dropdown-toggle.opened .dropdownContent {
-  display: block;
 }
