@@ -15,7 +15,7 @@ const { convertXmlToHtml, convertCommentXMLToHtml } = require('./assets/js/conve
 const app = express();
 
 /* static files */
-app.use("/assets", express.static("assets"));
+app.use(process.env.URL_PATH +"/assets", express.static("assets"));
 
 /* views */
 app.set("views", [
