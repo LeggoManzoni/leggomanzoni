@@ -1,3 +1,8 @@
+/* dotenv */
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+};
+
 /* libraries */
 const express = require("express");
 const path = require("path");
@@ -20,7 +25,7 @@ app.set("view engine", "ejs");
 app.use("/views", express.static("views"));
 
 /* index */
-app.get("/", (req, res) => {
+app.get(process.env.URL_PATH + "/", (req, res) => {
   var arrayN = ["1", "2", "3"];
   res.render("index", {
     arrayN: arrayN
@@ -101,5 +106,4 @@ app.get('/get-comment/:authorName', function (req, res) {
 
 /* port */
 const port = 8000;
-app.listen(port, () => console.log(`Quaranta commenti is listening on localhost:${port}`));
-
+app.listen(port, () => console.log(`Quaranta commenti is listening on localhost:${port}${process.env.URL_PATH}`));

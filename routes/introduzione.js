@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 /* introduzione */
-router.get("/introduzione", (req, res) => {
+router.get(process.env.URL_PATH + "/introduzione", (req, res) => {
     res.render("introduzione");
 });
 

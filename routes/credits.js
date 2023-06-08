@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 /* credits */
-router.get("/credits", (req, res) => {
+router.get(process.env.URL_PATH + "/credits", (req, res) => {
     res.render("credits");
 });
 

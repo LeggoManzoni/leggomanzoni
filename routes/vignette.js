@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 /* credits */
-router.get("/vignette", (req, res) => {
+router.get(process.env.URL_PATH + "/vignette", (req, res) => {
     res.render("vignette");
 });
 
