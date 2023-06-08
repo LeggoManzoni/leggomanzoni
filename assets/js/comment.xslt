@@ -37,10 +37,10 @@
         <xsl:value-of select="." />
     </xsl:template>
 
-    <xsl:template match="hi[@rend='italic']">
-    <em>
-        <xsl:value-of select="." />
-    </em>
+    <xsl:template match="hi[@rend='italic'] | rs[@rend='italic'] | bibl | rs">
+        <em>
+            <xsl:value-of select="." />
+        </em>
     </xsl:template>
-
+    
 </xsl:stylesheet>
