@@ -296,9 +296,87 @@ window.addEventListener('DOMContentLoaded',  () => {
         }
       });
     });
+
     
+
   });
   
-
+  function extractYearFromToggleBtn(toggleBtn) {
+    const text = toggleBtn.innerText.trim();
+    const regex = /\((\d+)\)/;
+    const match = regex.exec(text);
+    if (match && match[1]) {
+      return parseInt(match[1]);
+    }
+    return 0;
+  }
   
-    
+  function sortListItemsByYear(ascending) {
+    const toggleBtns = document.getElementsByClassName("toggleBtn");
+    const commentList = document.querySelector(".comment-list-items");
+  
+    const sortedList = Array.from(toggleBtns)
+      .sort((a, b) => {
+        const yearA = extractYearFromToggleBtn(a);
+        const yearB = extractYearFromToggleBtn(b);
+        return ascending ? yearA - yearB : yearB - yearA;
+      })
+      .map((toggleBtn) => toggleBtn.parentNode);
+  
+    commentList.innerHTML = "";
+    sortedList.forEach((item) => {
+      const clonedItem = item.cloneNode(true);
+      commentList.appendChild(clonedItem);
+    });
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const orderButtons = document.getElementsByClassName("order-button");
+    const toggleBtns = document.getElementsByClassName("toggleBtn");
+    const commentList = document.querySelector(".comment-list-items");
+  
+    const originalOrder = Array.from(toggleBtns)
+      .map((toggleBtn) => toggleBtn.parentNode)
+      .map((item) => item.cloneNode(true));
+  
+    let isChronological = true;
+    let isAscending = true;
+  
+    function resetCommentList() {
+      commentList.innerHTML = "";
+      originalOrder.forEach((item) => {
+        const clonedItem = item.cloneNode(true);
+        commentList.appendChild(clonedItem);
+      });
+    }
+  
+    Array.from(orderButtons).forEach((button) => {
+      button.addEventListener("click", () => {
+        const order = button.getAttribute("data-order");
+        if (order === "chronological") {
+          if (!isChronological) {
+            isChronological = true;
+            isAscending = true;
+            resetCommentList();
+          }
+        } else if (order === "descendant") {
+          if (isChronological || isAscending) {
+            isChronological = false;
+            isAscending = false;
+            sortListItemsByYear(false);
+          }
+        } else if (order === "ascendant") {
+          if (isChronological || !isAscending) {
+            isChronological = false;
+            isAscending = true;
+            sortListItemsByYear(true);
+          }
+        } else if (order === "alphabetical") {
+          isChronological = false;
+          isAscending = true;
+          sortListItemsByYear(true);
+        }
+      });
+    });
+  });
+  
