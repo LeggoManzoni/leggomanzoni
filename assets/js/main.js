@@ -185,6 +185,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           testo1.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
         }
       }; 
+
     
     // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the second comment)
     var scrollAuto2 = document.getElementById("scrollAuto2"); 
@@ -288,18 +289,27 @@ window.addEventListener('DOMContentLoaded',  () => {
     toggleBtns.forEach(function(toggleBtn) {
       toggleBtn.addEventListener("click", function() {
         var dropdownContent = this.querySelector(".dropdownContent");
+        var caretDown = this.querySelector(".bi-caret-down-fill");
+        var caretUp = this.querySelector(".bi-caret-up-fill");
   
-        if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
-          dropdownContent.style.display = "block";
-        } else {
+        var isHidden = dropdownContent.classList.contains("hidden");
+  
+        if (isHidden) {
           dropdownContent.style.display = "none";
+          dropdownContent.classList.remove("hidden");
+          caretUp.classList.remove("bi-caret-up-fill");
+          caretUp.classList.add("bi-caret-down-fill");
+        } else {
+          dropdownContent.style.display = "block";
+          dropdownContent.classList.add("hidden");
+          caretDown.classList.remove("bi-caret-down-fill");
+          caretDown.classList.add("bi-caret-up-fill");
         }
       });
     });
-
-    
-
   });
+  
+  
   
   function extractYearFromToggleBtn(toggleBtn) {
     const text = toggleBtn.innerText.trim();

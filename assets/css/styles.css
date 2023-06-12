@@ -11694,5 +11694,12 @@ header.masthead h1, header.masthead .h1 {
 .modal-body{
   line-height: 1.8;
 }
-
-
+.list-group-item:hover{
+  background-color: white;
+}
+.dropdown-item:hover{
+  background-color: #80B97F; 
+}
+.nav-item:hover{
+  color: white;
+}
