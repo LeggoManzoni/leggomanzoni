@@ -5066,6 +5066,9 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   border-radius: 0.25rem;
+  max-height: 65vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .list-group-numbered {
@@ -11593,22 +11596,21 @@ header.masthead h1, header.masthead .h1 {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #849094 #ffffff;
+    scrollbar-color: #849094;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
   }
 
   *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: transparent;
   }
 
   *::-webkit-scrollbar-thumb {
     background-color: #849094;
     border-radius: 10px;
-    border: 3px solid #ffffff;
   }
 
   /*disclaimer*/

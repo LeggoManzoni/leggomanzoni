@@ -258,9 +258,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           });
       toggleSecond.addEventListener("mouseout", function() {
       popupScroll2.style.display = "none";
-      });
-
-      
+      });      
   };
 
 
@@ -283,6 +281,8 @@ window.addEventListener('DOMContentLoaded',  () => {
       }
     }
   }
+
+  // Function for switching the toggle into opened and closed in the Commenti page and to switch consequently the arrow icon up and down 
   document.addEventListener("DOMContentLoaded", function() {
     var toggleBtns = document.querySelectorAll(".toggleBtn");
   
@@ -308,8 +308,6 @@ window.addEventListener('DOMContentLoaded',  () => {
       });
     });
   });
-  
-  
   
   function extractYearFromToggleBtn(toggleBtn) {
     const text = toggleBtn.innerText.trim();
