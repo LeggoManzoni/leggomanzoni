@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franca Gavino Olivieri (1990)</title>
+         <respStmt>
+            <resp>Codifica Introduzione</resp>
+            <persName xml:id="ER">Ersilia Russo</persName>
+            <note>Università di Bologna "Alma mater"</note>
+         </respStmt>
+         <respStmt>
+            <resp>Codifica cap. 1</resp>
+            <persName xml:id="VMB">Valerio Massimo Boano</persName>
+            <note>Liceo classico Carlo Alberto, Novara (NO)</note>
+         </respStmt>
+            <respStmt>
+               <resp>Revisione</resp>
+               <persName ref="ER">Ersilia Russo</persName>
+               <note>Università di Bologna "Alma mater"</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+            <pubPlace>Università di Bologna "Alma mater"</pubPlace>
+            <date>2023</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale
+                  o scientifico. Ogni uso commerciale è vietato.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Alessandro Manzoni</author>, <title>I promessi sposi</title>, a cura di
+                  <persName>Franca Gavino Olivieri</persName>, <pubPlace>Milano</pubPlace>, <publisher>Principato</publisher>,
+                  <date>1990</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+
+            <note><ref rend="bold">Quel ramo [...]</ref>: è il ramo orientale che è
+               rivolto verso Lecco, mentre quello occidentale fa capo a
+                  Como e quello settentrionale a
+                  Colico, dove sbocca la Valtellina, percorsa dall'Adda. Quel
+               paesaggio era caro a Manzoni, che nella villa
+               paterna del Caleotto, presso Pescarenico, aveva trascorso
+               lunghe vacanze nell’infanzia e nella prima giovinezza.</note>
+            <note><ref rend="bold">tra due catene non interrotte di monti</ref>: sono
+               le Alpi Orobie a oriente, i monti della Brianza a
+               occidente.</note>
+            <note><ref rend="bold">seni</ref>: insenature.</note>
+            <note><ref rend="bold">costiera</ref>: tratto in leggero pendio tra i monti
+               e la riva. <ref rend="bold">- il ponte</ref>: quello di
+               Lecco.</note>
+            <note><ref rend="bold">l’Adda ricomincia</ref>: l’Adda, dopo aver formato il
+               lago di Como, ne diventa emissario a Lecco.</note>
+            <note><ref rend="bold">nome di lago</ref>: il lago di
+                  Garlate.</note>
+            <note><ref rend="bold">tre grossi torrenti</ref>: Gerenzone, Galdone e
+               Bione.</note>
+            <note><ref rend="bold">il Resegone</ref>: il nome (che in dialetto milanese
+               equivale a «grossa sega») allude al profilo dentellato del monte. Il Resegone domina
+               tutto il paesaggio del romanzo, assumendo spesso un valore emblematico. </note>
+            <note><ref rend="bold">giogaia</ref>: serie di montagne.</note>
+            <note><ref rend="bold">erte</ref>: ripidi pendii.</note>
+            <note><ref rend="bold">terre [...] ville [...] casali</ref>:
+               rispettivamente borgate, villaggi, case rurali sparse.</note>
+            <note><ref rend="bold">castello</ref>: fortezza militare.</note>
+            <note><ref rend="bold">l’onore [...] vendemmia</ref>: s'introduce nel
+               paesaggio idilliaco, attraverso l'intervento ironico del narratore, I'inciso storico
+               che anticipa la raffigurazione della vita del Seicento, e in particolare di un paese
+               soggetto allo straniero (con la pace di Cateau Cambrésis, nel 1559, la Spagna era
+               entrata in possesso della Lombardia e di altri territori della penisola). <ref
+                  rend="bold">- accarezzavan [...] le spalle</ref>: bastonavano.</note>
+            <note><ref rend="bold">tuttavia</ref>: tuttora.</note>
+            <note><ref rend="bold">la vista spazia [...] a vicenda</ref>: il
+               paesaggio è rappresentato non staticamente, come scenario immobile, ma dinamicamente,
+               con una tecnica cioè che coglie il modificarsi delle forme in rapporto ai punti di
+               vista. <ref rend="bold">- prospetti [...] sempre qualcosa nuovi</ref>: vedute,
+               panorami sempre nuovi per qualcosa. <ref>- piglian più o meno</ref>: occupano più o
+               meno estesamente.</note>
+            <note><ref rend="bold">campeggia o si scorcia</ref>: domina o appare di
+               scorcio. <ref rend="bold">- a vicenda</ref>: di volta in volta.</note>
+            <note><ref rend="bold">vie più</ref>: sempre più.</note>
+            <note><ref rend="bold">bel bello</ref>: placidamente.</note>
+            <note><ref rend="bold">sulla sera del giorno 7 novembre [...]</ref>: nel
+                     <bibl><title rend="italic">Fermo e Lucia</title></bibl> l'indicazione era
+               generica: «una bella sera d’autunno». Ma la precisazione cronologica, non priva di
+               ironia, istituisce un legame tra il terribile evento che sta per sconvolgere la vita
+               del pover'uomo e le ben più gravi vicende che seguiranno, a cominciare dal tumulto di
+               san Martino (11-12 novembre). <ref rend="bold">- don
+                  Abbondio</ref>: il personaggio acquista subito concretezza attraverso
+               la determinazione del tempo in cui entra in azione, e dello spazio, topograficamente
+               individuato. Sant‘Abbondio è il patrono di Como. <ref
+                  rend="bold">- curato</ref>: sacerdote che ha cura di anime; il termine designa il
+               parroco o, come nel caso di don Abbondio, il sacerdote che
+               esercita tutti i diritti e le funzioni parrocchiali.</note>
+            <note><ref rend="bold">Diceva tranquillamente [...] oziosamente [...]
+                  porpora</ref>: l’atteggiamento del parroco denota una pigra abitudinarietà, una
+               consuetudine con le cose che ne impedisce la penetrazione intelligente: gli occhi
+               fissi alla parete di monte sono indifferenti al paesaggio, le cui «larghe e inuguali
+               pezze di porpora» rientrano nella visuale del narratore. <ref rend="bold">-
+                  ufizio</ref>: uffizio, le preghiere, contenute nel breviario, che un sacerdote
+               deve recitare durante la giornata. <ref rend="bold">- fessi</ref>: fenditure.</note>
+            <note><ref rend="bold">cura</ref>: casa parrocchiale.</note>
+            <note><ref rend="bold">tabernacolo</ref>: edicola, cappella nella quale
+               sono poste immagini sacre.</note>
+            <note><ref rend="bold">certe figure lunghe [...] anime del
+                  purgatorio</ref>: l'accenno sorridente all’ ingenua arte popolare ha forse una sua
+               funzione: quelle anime purganti che si dibattono tra le fiamme sembrano prefigurare
+               le imminenti angosce di don Abbondio.</note>
+            <note><ref rend="bold">Avevano entrambi [...] bravi</ref>: la «stampa
+               secentesca», con la vivezza dei particolari, non è fine a se stessa, ma, come
+               altrove, strumento d’illustrazione dei caratteri morali del secolo: qui mostra
+               l’arroganza e la violenza dei potenti che si riverbera sui servi e che si manifesta
+               nel provocatorio sfarzo del vestire e nell’ esibizione delle armi. Elementi
+               caratterizzanti della descrizione sono infatti il grande fiocco («nappa») della
+               reticella, il «ciuffo» calato sul viso, che serviva ai bravi a mascherarsi nel corso
+               di azioni violente (v. <bibl>cap. III, rr. 196-200</bibl>), i lunghi e folti baffi
+               («mustacchi») arricciati, l'armamentario composto da pistole, polvere da sparo,
+               coltello, spada. Il termine «bravo» deriva forse dal latino «pravus», malvagio, e
+               indica gli sgherri al servizio di un signore. <ref rend="bold">- guardia</ref>:
+               paramano della spada. <ref>- come in cifra</ref>: come in un arabesco.</note>
+            <note><ref rend="bold"> squarci autentici</ref>: brani tratti da documenti
+               storici. La citazione delle gride – ricavate dall’<bibl><title rend="italic">Economia
+                     e statistica</title></bibl> dell'economista >Melchiorre
+                  Gioia (1767-1829) - mette in rilievo le storture e l'inefficienza del
+               sistema giudiziario del Seicento: si avverte l’incidenza della lezione degli
+               illuministi e in particolare di >Cesare Beccaria,
+               nonno materno dello scrittore, autore del trattato <bibl><title rend="italic">Dei
+                     delitti e delle Pene</title></bibl> (1764). L'introduzione all'interno della
+               narrazione di una documentazione storica è tecnica caratteristica di Manzoni; affiancare l'uno all’altro registri linguistici
+               dissonanti (il linguaggio del narratore e il linguaggio delle gride) produce effetti
+               talvolta ironici, come in questo caso, talaltra drammatici, e contribuisce a dar
+               veridicità alle parti d’invenzione.</note>
+            <note><ref rend="bold">l'Illustrissimo [...] gran Contestabile [...]
+                  Sua Maestà Cattolica</ref>: l’elenco dei titoli altisonanti vuol parodiare i tasti
+               del cerimoniale spagnolesco <ref rend="bold">- Contestabile</ref>: ufficiale della
+               Corona con alto comando militare. <ref rend="bold">- Sua Maestà Cattolica</ref>:
+                 Flippo II, re di Spagna.</note>
+            <note><ref rend="bold"> non hanno esercizio alcuno [...] non lo
+                  fanno</ref>: non posseggono alcun mestiere o, possedendolo, non lo esercitano.</note>
+            <note><ref rend="bold">per fargli spalle e favore</ref>: per spalleggiarlo
+               e favorirlo.</note>
+            <note><ref rend="bold">ufiziali</ref>: ufficiali (fiorentinismo). <ref
+                  rend="bold">- stranamente</ref>: straordinariamente.</note>
+            <note><ref rend="bold">grida</ref>: bando, decreto che, emesso dal
+               governatore, veniva affisso stampato ma anche annunziato, «gridato» dai
+               banditori.</note>
+            <note><ref rend="italic_bold">alla corda et al tormento</ref>: al
+               supplizio della corda, che consisteva nel sollevare il condannato a strappi mediante
+               una fune legata ai polsi e poi nel lasciarlo cadere di colpo, in modo da slogargli le
+               giunture.</note>
+            <note><ref rend="bold">processo informativo</ref>: processo istruttorio
+               volto all’accertamento dei fatti.</note>
+            <note><ref rend="bold">galea</ref>: nave, in uso fino al XVIII secolo, su
+               cui il condannato era obbligato ai remi (donde «galera» nel significato di lavori
+               forzati, carcere).</note>
+            <note><ref rend="bold">tanto</ref>: cosi grande (lat.).</note>
+            <note><ref rend="bold">sbrattare</ref>: sgomberare.</note>
+            <note><ref rend="bold">appostamente date</ref>: date facendo la posta,
+               tendendo agguati.</note>
+            <note><ref rend="bold">si rendono più facili</ref>: si abbandonano con
+               maggiore facilità. <ref rend="bold">- corifidati</ref>: confidando (lat.).</note>
+            <note><ref rend="bold">onninamente</ref>: del tutto, nel modo più assoluto
+               (Iat.).</note>
+            <note><ref rend="bold">pernizioso</ref>: malefico.</note>
+            <note><ref rend="bold">comminazioni</ref>: minacce (lat.).</note>
+            <note><ref rend="bold">cabale</ref>: intrighi (da «cabala», la scienza dei
+               numeri e delle loro combinazioni magiche).</note>
+            <note><ref rend="bold">Enrico
+                     IV</ref>: Enrico di Borbone, re di Francia (1589-1610).</note>
+            <note><ref rend="bold">il duca di Savoia</ref>: Carlo Emanuele I
+               (1562-1630), figlio di Emanuele Filiberto.</note>
+            <note><ref rend="bold">il duca di Biron</ref>: maresciallo di Enrico IV,
+               decapitato nel 1602 per avere congiurato contro il re.</note>
+            <note><ref rend="bold">stampatori regii camerali</ref>: tipografi che
+               avevano il privilegio di stampare i decreti della Regia Camera, che presiedeva
+               all’amministrazione finanziaria dello Stato.</note>
+            <note><ref rend="bold">Signor Gonzalo Fernandez di
+                     Cordova</ref>: governatore di Milano dal 1627
+               al 1629, si era distinto nella guerra della Spagna contro l’Olanda (1621-1626);
+               discendeva da don Gonzalo Fernandez detto il Gran Capitano, che strappò Granada ai
+               Mori (1492) e il regno di Napoli ai Francesi (1503).</note>
+            <note><ref rend="bold">tuttavia</ref>: tuttora (come a r. 30).</note>
+            <note><ref rend="bold">a un tratto</ref>: insieme, a un tempo.</note>
+            <note><ref rend="bold">il testimonio consolante della coscienza</ref>:
+               attraverso la battuta ferocemente sarcastica (don Abbondio non si preoccupa di aver
+               violato la legge di Dio, ma di aver offeso qualche potente!), comincia a delinearsi
+               il ritratto morale di don Abbondio: quello fisico verrà in seguito (<bibl>cap. VIII,
+                  rr. 64-70</bibl>).</note>
+            <note><ref rend="bold">più modesta</ref>: di sfuggita.</note>
+            <note><ref rend="bold">un versetto</ref>: dei Salmi.</note>
+            <note><ref rend="bold">galantuomini</ref>: altre volte incontreremo nel
+               romanzo questo termine, quasi sempre usato in funzione ironicamente antifrastica
+               (l'antifrasi è figura retorica con cui si dice il contrario di ciò che si pensa).</note>
+            <note><ref rend="bold">Renzo Tramaglino e
+                     Lucia Mondella</ref>: qui come altrove i nomi sono stati
+               scelti da >Manzoni con intenti espressivi precisi:
+               Tramaglino allude al mestiere di filatore di Renzo (da
+               «tramaglio», rete), Mondella alla purezza (dal latino «mundus», puro), e ben si
+               accompagna al nome di Lucia, «colei che dà luce».</note>
+            <note><ref rend="bold">Cioè [...] con voce tremolante</ref>: don
+                  Abbondio si arrende prima ancora di aver capito chiaramente che cosa si
+               voglia da lui, pronto a rinnegare i fondamentali doveri del sacerdote.</note>
+            <note><ref rend="bold">banco</ref>: banca.</note>
+            <note><ref rend="bold">del comune</ref>: della comunità.</note>
+            <note><ref rend="bold">ciarle</ref>: chiacchere.</note>
+            <note><ref rend="bold">nel forte</ref>: nel culmine.</note>
+            <note><ref rend="bold">Oh! Suggerire … latino!</ref>: la minaccia continua
+               a mescolarsi con lo scherno; ma proprio del latino don Abbondio
+               si servirà per confondere Renzo (<bibl>cap. II</bibl>).</note>
+            <note><ref rend="bold">messere</ref>: titolo un tempo spettante ai dotti e
+               ai sacerdoti.</note>
+            <note><ref rend="bold">aggranchiate</ref>: in preda ai crampi.</note>
+            <note><ref rend="bold">naturale</ref>: temperamento, indole.</note>
+            <note><ref rend="bold">non era nato con un cuor di leone</ref>:
+               attraverso la figura retorica della litote (che consiste nel far risaltare un
+               concetto mediante la negazione del suo contrario), compare la prima icastica
+               definizione del personaggio. La figura di don Abbondio si
+               colloca nel quadro della violenza del secolo, di cui egli, esemplare della meschinità
+               umana, è complice e vittima a un tempo.</note>
+            <note><ref rend="bold">vessazioni</ref>: angherie.</note>
+            <note><ref rend="bold">asili</ref>: chiese e conventi, ma anche alcune
+               residenze nobiliari, erano sottratti alla giurisdizione comune; qui dunque anche i
+               malfattori godevano dell'impunità. <ref rend="bold">- alcune classi</ref>: la
+               nobiltà, i militari, il clero.</note>
+            <note><ref rend="bold">impugnati</ref>: contestati.</note>
+            <note><ref rend="bold">difesi […] puntiglio</ref>: difesi dalle
+               classi dirigenti con un’energia dettata dall’interesse e con un puntiglio geloso che
+               non tollerava interferenze.</note>
+            <note><ref rend="bold">insultata</ref>: qui nel senso di «assalita».</note>
+            <note><ref rend="bold"> bonario</ref>: mite.</note>
+            <note><ref rend="bold">aver sotto la mano</ref>: controllare.</note>
+            <note><ref rend="bold">i birri</ref>: gli agenti di polizia.</note>
+            <note><ref rend="bold">deputati</ref>: incaricati.</note>
+            <note><ref rend="bold">per clientela</ref>: erano cioè sotto la protezione
+               dei nobili e al loro servizio. Il termine è usato nel significato che aveva nel mondo
+               romano.</note>
+            <note><ref rend="bold"> Gli uomini poi incaricati dell’esecuzione
+                  immediata</ref>: gli sbirri, o «birri».</note>
+            <note><ref rend="bold">ribaldi</ref>: scellerati.</note>
+            <note><ref rend="bold">il loro titolo un improperio</ref>: il titolo di
+               «birri» era considerato un insulto.</note>
+            <note><ref rend="bold">connivenza</ref>: complicità.</note>
+            <note><ref rend="bold">vessare</ref>: angariare, tartassare.</note>
+            <note><ref rend="bold">la tendenza [...] in classi</ref>: allude alla
+               degenerazione del sistema corporativo nella società del Seicento: gli individui,
+               raggruppati per classi e per categorie, avevano interessi comuni che difendevano
+               accanitamente, con qualsiasi mezzo, anche illecito.</note>
+            <note><ref> immunità [...] privilegi [...] esenzioni</ref>:
+               «immunità», dispense nei confronti della legge e delle autorità civili; «privilegi»,
+               godimento di particolari benefici in deroga alle norme; «esenzioni», dispense da
+               obblighi, come il pagamento delle imposte.</note>
+            <note><ref rend="bold">in maestranze e in confraternite</ref>:
+               corporazioni di arti e mestieri che si erano formate nel Medioevo. <ref rend="bold">-
+                  giurisperiti</ref>: esperti nelle leggi e nel diritto.</note>
+            <note><ref rend="bold">facinorosi</ref>: coloro che sono inclini a
+               compiere azioni violente.</note>
+            <note><ref rend="bold">dovizioso</ref>: ricco (dal latino «dives»).</note>
+            <note><ref rend="bold">gli anni della discrezione</ref>: gli anni del
+               discernimento, del giudizio.</note>
+            <note><ref rend="bold">parenti</ref>: qui, come altrove, per genitori
+               (latinismo).</note>
+            <note><ref rend="bold">Il suo sistema</ref>: è «l’ideologia della
+               viltà» (A. Marchese), che assume un colorito
+               umoristico attraverso il linguaggio cancelleresco («neutralità disarmata») e
+               militaresco («sempre però alla retroguardia»).</note>
+            <note><ref rend="bold">podestà laiche</ref>: autorità civili.</note>
+            <note><ref rend="bold">dissimulando</ref>: facendo finta di non
+               accorgersi.</note>
+            <note><ref rend="bold">fantastico</ref>: lunatico.</note>
+            <note><ref rend="bold"> censore</ref>: critico.</note>
+            <note><ref rend="bold">declamava</ref>: inveiva.</note>
+            <note><ref rend="bold">i miei venticinque lettori</ref>: l’espressione è
+               maliziosa; l’autore è consapevole che il genere del romanzo, considerato come
+               inferiore, era in effetti idoneo a conquistare un vasto pubblico.</note>
+            <note><ref rend="bold">studio</ref>: attenzione.</note>
+            <note><ref rend="bold">sconcertato in un punto</ref>: sconvolto in un
+               solo momento. <ref rend="bold">- un passo</ref>: una situazione.</note>
+            <note><ref rend="bold">la loro imbasciata […]</ref>: a
+                  Renzo e Lucia.</note>
+            <note><ref rend="bold">iniquità</ref>: ingiustizia.</note>
+            <note><ref rend="bold">età sinodale</ref>: l’età prescritta dal sinodo
+               ecclesiastico, in questo caso il Concilio di Trento che aveva emesso disposizioni
+               disciplinari atte a correggere i costumi del clero.</note>
+            <note><ref rend="bold">celibe</ref>: nubile.</note>
+            <note><ref rend="bold">adombrato</ref>: turbato, cupo.</note>
+            <note><ref rend="bold">come se non volesse […] confidenza</ref>: già
+               in questa prima apparizione sulla scena del romanzo si manifesta pienamente il
+               carattere della donna, nelle sue componenti di curiosità, loquacità, stizza. Il
+               dialogo e la pantomima vivacissima che lo accompagna mettono inoltre in evidenza il
+               rapporto serva-padrone, un rapporto di familiarità - dove l’affetto si accompagna
+               però a insofferenza, ripicche, piccoli rancori - che rimarrà invariato in tutto il
+               romanzo.</note>
+            <note><ref rend="bold">le gomita</ref>: i gomiti (toscano).</note>
+            <note><ref rend="bold">soverchiatore</ref>: prepotente.</note>
+            <note><ref rend="bold"> il nostro arcivescovo</ref>: il cardinale
+                  Federico Borromeo, arcivescovo di
+                  Milano dal 1595 al 1631. La validità del suggerimento di
+                  Perpetua sarà ammessa dallo stesso don
+                  Abbondio
+               <bibl>(cap. XXVI)</bibl>.</note>
+            <note><ref rend="bold">baggianate</ref>: sciocchezze. «Bagiann» in
+               milanese vale «sciocco». «Il termine ha origine toponomastica dalla medioevale
+               Baciana, la zona di confine milanese» (Raimondi-Bottoni).</note>
+            <note><ref rend="bold">bagatella</ref>: bazzecola, inezia.</note>
+            <note><ref rend="bold">e disparve</ref>: «è come il calar della tela sul
+               palco di un teatro» (Sapegno-Viti).</note>
+         </div>
+      </body>
+   </text>
+</TEI>
