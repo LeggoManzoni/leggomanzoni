@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commento a cura di Romano Luperini e Daniela Brogi</title>
+            <respStmt>
+               <resp>Codifica cap. 1-fascia B</resp>
+               <persName xml:id="GS">Giulia Saccone</persName>
+               <note>Liceo scientifico Pasquale Villari, Napoli (NA)</note>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+            <pubPlace>Università di Bologna "Alma mater"</pubPlace>
+            <date>2023</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale
+                  o scientifico. Ogni uso commerciale è vietato.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Alessandro Manzoni</author>, <title>I promessi sposi</title>, a cura di
+                  <persName>Daniela Brogi</persName>e <persName>Romano Luperini</persName>,
+                  <pubPlace>Milano</pubPlace>, <publisher>Einaudi Scuola</publisher>,
+                  <date>1998</date>.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <!-- FASCIA B -->
+            <note>
+               <ref rend="bold">Quel ramo del lago[...]</ref>: la pagina iniziale di un romanzo è
+               sempre istruttiva per chi voglia capire le scelte stilistiche di un autore. Qui
+                  Manzoni fornisce al lettore una descrizione
+               geografica ‘dall’alto’, distendendogli davanti una sorta di carta topografica,
+               estremamente minuta e articolata. L'ottica è quella di un narratore onnisciente che
+               vede la scena con superiore distacco, riservandosi appena una nota di affetto. Questo
+               atteggiamento di classica e serena distanza mostra quanto l’autore resti lontano
+               dalle espressioni più passionali e scomposte del Romanticismo. Sarebbe utile
+               confrontare questo inizio con quello di un altro capolavoro narrativo dell'Ottocento italiano,<bibl rend="italic">
+                  I Malavoglia (1881) del verista Giovanni Verga</bibl>: nelle pagine di apertura di questo
+               romanzo il punto di vista è assai diverso, perché il narratore si pone subito
+               nell'ottica narrativa dei personaggi, rappresentando il paese e i suoi abitanti ‘dal
+               basso’, come se fosse cioè uno di loro. </note>
+            <note><ref rend="bold">Tra due catene [...] nuovi seni:</ref> in questi
+               luoghi Manzoni aveva trascorso buona parte della
+               sua gioventù, nella villa di Galeotto, presso Pescarenico. Di
+               qui l'intensità affettiva che aveva la descrizione nel passo corrispondente di
+                     <bibl>Fermo e Lucia</bibl>(I, 1), in cui l'uso
+               della prima persona singolare mostrava quanto il narratore fosse emotivamente
+               coinvolto: «La giacitura della riviera, i contorni, e le viste lontane, tutto
+               concorre a renderlo un paese che chiamerei uno dei più belli del mondo, se avendovi
+               passata una gran parte dell'infanzia e della puerizia, e le vacanze autunnali della
+               prima giovinezza, non riflettessi che è impossibile dare un giudizio spassionato dei
+               paesi a cui sono associate le memorie di quegli anni». Nell'edizione definitiva del
+               romanzo il narratore impiega la prima persona plurale (vedi rr. 22-28: «i fatti che
+               prendiamo a raccontare»), cosicché la rappresentazione è condotta in modo assai più
+               oggettivo e distaccato. Anche da questo particolare si può capire come il
+                     <bibl>Fermo e Lucia</bibl> sia legato a un momento
+               di più intensa adesione di Manzoni alla poetica
+               del Romanticismo.</note>
+            <note>
+               <ref rend="bold">che s'incammina a diventar città</ref>: con questo famoso
+               endecasillabo (Angelini) si passa dalla natura alla storia, dalla rappresentazione
+               del paesaggio a quella dei costumi, dall’ambientazione geografica a quella
+               storica.</note>
+            <note><ref rend="bold">Ai tempi in cui... le fatiche della
+                  vendemmia</ref>: appena dalla natura si passa alla storia, la serenità viene meno,
+               e compare l'ironia. Osserva Spinazzola: «Viene
+               anticipato emblematicamente il tema o meglio la premessa d’avvio allo sviluppo
+               dell'azione romanzesca: l'autorità politico-militare, anziché rendersi garante dei
+               buoni costumi e della tranquilla operosità economica, diventa fomite primario al
+               corrompimento d'ogni criterio di equità amministrativa e salute morale». Si tratta di
+               «una messa in guardia immediata dagli abbandoni all'estasi idilliaca, sin dalla prima
+               pagina del libro e proprio nel bel mezzo d’una descrizione ampiamente orchestrata
+               sulle note dell'incantesimo paesistico. Queste contrade, su cui l’io narrante sta per
+               inoltrare lo sguardo, sono dunque tutt'altro che un giardino dell’Eden». Una serie di
+               espressioni antifrastiche («l'onore», «il vantaggio», «insegnavan la modestia»,
+               «accarezzavan») riproduce ironicamente l'ipocrisia e il sarcasmo dei potenti
+               oppressori. Nella lingua di Manzoni risuona
+               insomma — senza che il narratore lo dica esplicitamente — la voce di don
+                  Rodrigo che più avanti, nei capitoli VI e VII, userà espressioni
+               simili.</note>
+            <note>
+               <ref rend="bold"> donde, alzando lo sguardo... da qui</ref>: la prospettiva è
+               cambiata. Il punto di vista si è abbassato e ora il paesaggio è descritto ‘dal
+               basso': l'ottica è quella di chi passeggia sulle strade e stradette della riva e dei
+               dintorni del lago, come mostra il deittico «da qui». Si noti inoltre che il narratore
+               si rivolge ai lettori, a una seconda persona plurale («non iscoprite» e più avanti
+               «contemplate», «passeggiate») che sottintende un destinatario lombardo, conoscitore
+               dei luoghi.</note>
+            <note><ref rend="bold"> bel bello... oziosamente</ref>: si notino le
+               espressioni «bel bello», «tranquillamente», «oziosamente». Il personaggio,
+                  don Abbondio, è ben lontano dal sospettare quanto sta per
+               accadergli. È immerso in un'atmosfera idillico-familiare, che il ripetersi delle
+               abitudini e la vista dei luoghi consueti dovrebbero confermare e che invece verrà
+               bruscamente meno alla vista dei bravi. L'idillio per Manzoni è sempre impossibile perché la storia, la società e la stessa
+               natura umana sono profondamente attraversate dalla presenza del male. D'altra parte,
+               nonostante il conforto dato dall'immobilità rassicurante dei luoghi e dal rispetto
+               delle abitudini, sin da ora non manca, in don Abbondio, un
+               riflesso dei timori che la pace possa essere turbata: il movimento istintivo di
+               allontanare con il piede ogni ciottolo che possa procurargli inciampo rivela un
+               meccanismo preventivo di difesa che la dice lunga sulla sua psicologia di uomo
+               pavido. Più avanti si dirà infatti che il suo sistema di vita consisteva
+               principalmente nello «scansar tutti contrasti» (vedi rr.319-320). Si tratta dunque di
+               un particolare non casuale che va inserito all’interno del ritratto complessivo del
+               personaggio, di cui fa coerentemente parte.</note>
+            <note><ref rend="bold"> Dopo la voltata...scalcinatura qua e
+               là</ref>: nel periodo compreso fra «Dopo la voltata» e «non arrivava che all'anche
+               del passeggiero» è evidente che la prospettiva della narrazione non è più quella
+               ‘dall’alto’ dei periodi iniziali. Il narratore sta cominciando ad assumere l'ottica
+               del personaggio e a rappresentare perciò la scena attraverso i suoi occhi. Tuttavia
+               questa focalizzazione interna al personaggio viene intercalata ad altri momenti
+               narrativi, in cui ritorna invece il punto di vista del narratore onnisciente. È così
+               già nel periodo successivo, che descrive la scena purgatoriale del tabernacolo con
+               una punta di ironia nella quale è evidente il giudizio dell'autore. Essa da un lato
+               denuncia la rozzezza del dipinto (si veda l’inciso «nell'intenzion dell'artista», r.
+               67), dall'altro sembra già alludere alle pene del purgatorio che attendono
+                  don Abbondio. </note>
+            <note>
+               <ref rend="bold">Avevano entrambi... bravi</ref>: osserva un famoso commentatore
+               del romanzo, Attilio Momigliano, a proposito della
+               chiusa del periodo (e del capoverso): «La conclusione di questo ritratto,
+               apparentemente freddo, ha una nascosta vibrazione drammatica. Finita la lettura della
+               scena, sentiremo che quella parola finale, rivelatrice —<hi rend="italic">bravi</hi>
+               — è, assai più dell'attacco delle due pagine storiche seguenti, il riflesso del
+               brivido di don Abbondio sorpreso dall'incontro». Per quanto
+               riguarda invece la descrizione dei bravi, giova riportare il giudizio di un altro
+               grande commentatore dei <bibl>Promessi sposi</bibl>,
+                  Luigi Russo, che vede in essa «una vera stampa
+               del Seicento» e poi aggiunge: «il gusto storico è diventato senso pittorico. Nota
+               come sono alternati sapientemente i particolari della paura e quelli della pompa:
+               l'enorme ciuffo, segno di ribalderia, e i due lunghi mustacchi arricciati in punta,
+               segno di equivoca eleganza; il piccol corno ripieno di polvere, simbolo di rissosi
+               disegni, e quel suo pendere sul petto, come se fosse un vezzo; le due pistole e
+               quella cintura lucida di cuoio. Anche lo spadone, con una gran guardia traforata di
+               lamine d'ottone, è un'arma di minaccia, ma portata come se fosse un'insegna
+               gentilizia. In tale vanitosa ribalderia c'è tutto lo spirito del secolo». </note>
+            <note>
+               <ref rend="bold">ecco alcuni squarci autentici</ref>: comincia da questo punto un <hi
+                  rend="italic">excursus</hi> di rigorosa documentazione storica, condotta
+               attraverso la citazione delle gride dell'epoca. Come nell'Introduzione, ritorna il
+               linguaggio ampolloso del Seicento riportato in corsivo, mentre in tondo — il
+               carattere tipografico della narrazione — compare il giudizio ironico del narratore,
+               che sottolinea la discrepanza fra i numerosi titoli e attestati di autorità dei vari
+               governanti spagnoli di Milano, da un lato, e la sostanziale
+               impotenza dei loro bandi, dall'altro. </note>
+            <note><ref rend="bold">le più stranamente ampie e indefinite
+                  facoltà</ref>: qui, a parlare, è il Manzoni
+               liberale, fautore di uno Stato di diritto, in cui le leggi sono stabili e volte a
+               impedire ogni arbitrio. Più avanti dirà che le pene delle gride erano «pazzamente
+               esorbitanti» (vedi r. 247), con ciò volendo appunto colpire il loro carattere esoso e
+               arbitrario. Il potere dei governanti di Milano non è solo
+               ridicolmente potente nei confronti dei bravi (i quali erano al servizio di quei
+               potenti stessi che sorreggevano il dominio spagnolo), ma è anche un esempio di
+               atteggiamento illiberale. A parlare insomma è il Manzoni amico di Fauriel e frequentatore, nella
+               sua giovinezza, degli <hi rend="italic">idéologues</hi> parigini (gli ultimi
+               illuministi, fautori del liberalismo e per questo ostili a
+                  Napoleone).</note>
+            <note><ref rend="bold">solo rimbombo... dotato di
+               nomi</ref>:l'ironia contro il potere e contro i personaggi di autorità, costante in
+               tutto il romanzo, è evidentissima in questo passo. </note>
+            <note>
+               <ref rend="bold">Che i due... su due piedi</ref>: in questo capoverso predomina la
+               focalizzazione interna: il racconto è prevalentemente condotto dalla prospettiva di
+                  don Abbondio, anche se non mancano inserimenti del narratore
+               onnisciente (come nel passo che commenteremo alla nota seguente). Anzi l'alternanza e
+               la differenza dei due punti di vista (quello del personaggio e quello del narratore)
+               contribuiscono a creare lo spazio comico della scena, mostrando don
+                  Abbondio sia dall'interno che dall'esterno. È tuttavia indubbia la
+               prevalenza dell'ottica interna del curato che scruta con ansia i movimenti dei bravi.
+               Anche il respiro breve della sintassi, fatta di frasi corte e semplici, separate da
+               una punteggiatura frequente che isola i singoli particolari, rende lento e analitico
+               il tempo del racconto rispetto al tempo della storia: se si trattasse di un film, si
+               potrebbe parlare di ‘presa diretta', il terrore con cui il curato sta vivendo la
+               situazione. La stessa ripetizione delle parole («incontro», «nessuno») conferisce
+               alla scena un ritmo affannoso: sembra quasi di avvertire il battito accelerato del
+               cuore di don Abbondio, che sta per soffocare per la tensione e
+               infatti compie il gesto di porre «due dita intorno al collo» (vedi r. 178).</note>
+            <note><ref rend="bold"> il testimonio... lo rassicurava
+                  alquanto</ref>:é questo un intervento ironico del narratore onnisciente. In genere
+               si consulta la coscienza per accertare se si è commesso qualche peccato di natura
+               morale o religiosa; invece don Abbondio pensa soltanto ai torti
+               che involontariamente può avere arrecato a qualche potente, scoprendosi, a tale
+               riguardo, innocente. Qui il giudizio di Manzoni,
+               in cui si alternano severità e pietà nei confronti del proprio personaggio, si fa più
+               duro, come sempre quando passa a una valutazione etica dell'operato umano.</note>
+            <note>
+               <ref rend="bold">Che fare?... o peggio</ref>: la focalizzazione interna fa ricorso
+               al discorso indiretto libero, che rende il concitato monologo interiore del
+               personaggio. </note>
+            <note><ref rend="bold"> Cosa comanda?... un leggìo </ref>: la
+               risposta di don Abbondio rivela la sua disposizione
+               all'obbedienza, per quanto nascosta sotto una formula consueta di cortesia. L'atto di
+               rimanere in piedi con il breviario aperto nelle mani come su un leggìo rende comico
+               il personaggio, al pari di un burattino. Per tutta la durata del colloquio con i
+               bravi resterà immobile con il libro spalancato davanti, che chiuderà solo quando essi
+               si allontaneranno (vedi r. 239). </note>
+            <note><ref rend="bold"> uomini di mondo... in tasca</ref>:
+                  don Abbondio cerca la complicità dei bravi. Si rivolge a loro
+               come «uomini di mondo» capaci di capire che due fidanzati possono mettersi nei guai,
+               cosicché non resta altra possibilità che un matrimonio riparatore. In tal modo,
+               naturalmente, nella ricerca di una scusa, egli reca offesa ai due giovani e
+               soprattutto a Lucia. Le sue parole dimostrano quanto sia
+               utilitaristica ed egoistica la sua logica: poiché non riceve alcun vantaggio pratico
+               dal matrimonio, non tiene particolarmente a celebrarlo. Dalle parole del curato
+               traspare una sorta di disprezzo per l’amore e per il matrimonio in particolare,
+               ridotto a riparazione di una serie di «pasticci» che devono essere sistemati dal
+               prete, il quale altro non è che un «servitore del comune». </note>
+            <note>
+               <ref rend="bold">galantuomini</ref>: si noti che questa parola viene usata qui e
+               altrove (anche più avanti, in questo stesso capitolo) in modo equivoco e
+               oggettivamente ironico: i bravi si autodefiniscono «galantuomini»! Coloro che sono al
+               potere hanno, fra le altre facoltà, anche quella di stravolgere ironicamente il
+               significato delle parole.</note>
+            <note>
+               <ref rend="bold">suggerire a lei che sa di latino!</ref>: il sarcasmo del bravo
+               nasconde una sua stravolta verità: la cultura (e il latino, che ne costituisce il
+               versante più elitario) è spesso usata, nel corso della vicenda romanzesca, come
+               strumento d'inganno e di potere a danno dei deboli e degli oppressi. Per Manzoni la cultura e la stessa letteratura non sono
+               valori in sé, ma solo degli strumenti che possono essere usati a fin di bene come a
+               fin di male. Di fatto, anzi, succede che esse vengano impiegate dalle classi più
+               agiate come mezzi per imporre il proprio dominio. Lo stesso don
+                  Abbondio, nel prossimo capitolo, userà il latino per cercare di
+               ingannare Renzo.</note>
+            <note>
+               <ref rend="bold">quando avrem... toccato di vivere</ref>: al momento di far agire
+               sulla scena un personaggio, il narratore fornisce al lettore un ritratto a tutto
+               tondo, che ne racconta la storia passata e ne descrive le caratteristiche
+               psicologiche, morali e sociali. È questa una mossa tipica del narratore onnisciente,
+               il quale ne sa molto di più dei suoi personaggi ed è in grado di ricostruirne la
+               storia personale a partire dall'infanzia. È interessante anche notare come, dovendo
+               descrivere la personalità di don Abbondio, Manzoni affronti la questione da due distinti punti di
+               vista: quello del suo «naturale», cioè del suo carattere, e quello dei costumi
+               dell'epoca (cui rinvia l'accenno ai «tempi in cui gli era toccato di vivere»). Il
+               primo aspetto riguarda la natura di don Abbondio, il secondo la
+               storicità della sua esperienza. Illuministicamente - ma anche giansenisticamente —
+               l'uomo è anche un prodotto dei sensi, e quindi natura, pulsionalità, inconscio. In
+               quanto natura, l'uomo tende a farsi condizionare da istinti negativi, da cui lo
+               possono salvare solo la grazia o la fede. In Manzoni è evidente dunque un'idea negativa della natura, anche di
+               quella umana. Si può capire perciò come don Abbondio,
+               condizionato dalla negatività del suo temperamento di pusillanime e dai costumi
+               dell'epoca, sia perennemente preda dell'egoismo, della paura, dell’opportunismo.</note>
+            <note>
+               <ref rend="bold">cuor di leone... esser divorato</ref>: queste immagini animalesche
+               vanno spiegate alla luce di quanto osservato nella nota precedente. La vita degli
+               uomini è concepita negativamente come una lotta fra animali in cui ciascuno può
+               essere divoratore o divorato. Già nell’<bibl>Adelchi</bibl> il mondo è visto dominato da una «feroce / forza» che si
+               fa chiamare «dritto» (cioè ‘diritto’, ‘legge’), per cui non è possibile altro «che
+               far torto, o patirlo» (atto V, scena IX). Questa idea, che in
+                  Manzoni è di provenienza sia illuministica sia giansenistica
+               (sul ‘Giansenismo', vedi PAROLE CHIAVE qui sotto), sarà ripresa e sviluppata dalla
+               cultura positivistica e infatti tornerà frequentemente in Verga. Se è vero che in ogni epoca i rapporti fra gli uomini sono
+               improntati alla violenza del più forte, a quei tempi (nel Seicento) ciò era ancora
+               più evidente a causa dell’ingiustizia dominante nei rapporti politici e sociali. </note>
+            <note>
+               <ref rend="bold"> nella loro forza reale</ref>: la «forza reale» dei violenti è qui
+               contrapposta a quella presunta delle autorità, che emettono bandi e editti senza però
+               riuscire a farli rispettare. </note>
+            <note>
+               <ref rend="bold">Era quindi ben naturale... alleati e compagni</ref>: si noti
+               l'insistenza sul tema della natura umana (di qui l’uso dell'aggettivo «naturale» e
+               poi dell'avverbio «naturalmente») che spinge l'uomo non a rischiare la vita per
+               compiere il proprio dovere, ma all'inazione opportunistica o a cercare alleati e
+               protettori. Siamo dinanzi a quel pessimismo circa la natura umana di cui abbiamo
+               parlato nelle note precedenti. </note>
+            <note>
+               <ref rend="bold">come un vaso... vasi di ferro</ref>: la prima famosa similitudine
+               dei <bibl>Promessi sposi</bibl> rinvia all’iniquità dei
+               tempi storici, che contribuiscono a indurre alla viltà don
+                  Abbondio, debole e indifeso a causa della sua posizione sociale non
+               elevata. </note>
+            <note>
+               <ref rend="bold">Il suo sistema ... non poteva scansare</ref>: don
+                  Abbondio eleva a sistema di vita la propria viltà, facendola diventare
+               costume, abitudine. Infatti, è stato mostrato, al primo apparire, mentre scansa con
+               il piede i ciottoli che possono fargli inciampo lungo il cammino (vedi rr. 54-55 e
+               nota relativa).</note>
+            <note>
+               <ref rend="bold">un comprarsi... le gambe ai cani</ref>: si sente l’eco diretta
+               delle parole di don Abbondio, che ama modi di dire popolari ed
+               espressioni proverbiali. </note>
+            <note>
+               <ref rend="bold">galantuomo</ref>: anche qui, come altrove, questo termine si
+               accompagna a una sfumatura di maliziosa ironia: «galantuomini» sarebbero coloro che
+               badano egoisticamente agli affari propri. </note>
+            <note>
+               <ref rend="bold">venticinque lettori</ref>: espressione di modestia. L'appello ai
+               lettori è frequente nei <bibl>Promessi sposi</bibl>, ed
+               era già implicito nell'uso della seconda persona plurale riscontrato nelle pagine
+               iniziali del capitolo (vedi rr. 30-32 e relativa nota). </note>
+            <note>
+               <ref rend="bold"> E, e, e,... Ragazzacci</ref>: il monologo di don
+                  Abbondio è reso con realistica immediatezza, come una sorta di dialogo
+               fra sé e sé, con domande e risposte. Le interlocuzioni esprimono i pensieri del
+               personaggio come in ‘presa diretta’. È anche in monologhi come questi che
+                     <bibl>I Promessi sposi</bibl> rivelano la
+               vocazione realistica al romanzo popolare teorizzato dai romantici lombardi. </note>
+            <note>
+               <ref rend="bold">Se avessi... troppo iniqua</ref>: don
+                  Abbondio non è del tutto privo di senso morale; è un opportunista più
+               che un cinico. Di fronte alla prospettiva di procurare direttamente del male, esita e
+               arretra. Tuttavia, ciò non lo induce a rivedere la propria posizione, ma al moto di
+               stizza di chi vede minacciata la propria quiete e scorge in ciò la persecuzione del
+               destino. Nella sua visione egoistica, anche un sentimento nobilissimo, come l’amore
+               di due giovani, si trasforma in qualcosa dì negativo, creato solo per dargli
+               disturbo: sugli sposi proferisce giudizi dispregiativi che mal si conciliano con il
+               suo ruolo sacerdotale. Ben altra sarà la dimensione umana e cristiana in
+                  fra Cristoforo che vede — e vuole —
+                  Lucia sposa di Renzo: «Io ho veduto in
+               che maniera voi due siete stati condotti a unirvi; e, certo, se mai m'è parso che due
+               fossero uniti da Dio, voi altri eravate quelli» (cap. XXXVI). </note>
+            <note>
+               <ref rend="bold">ubbidire... sue amiche</ref>: Perpetua ha
+               tutti i caratteri di un ‘tipo’ (vedi GLI STRUMENTI DEL NARRATORE; <hi rend="italic"
+                  >Personaggi storici e personaggi dinamici: Perpetua</hi>, p. 30): a) è la
+               serva-padrona della commedia goldoniana che sa ubbidire e comandare insieme; b) è
+               pettegola (come apprendiamo più avanti, quando il padrone le ricorda la sua facilità
+               nel tradire le confessioni ricevute); c) è zitella, perché «non ha mai trovato un
+               cane che la volesse». Tuttavia è anche un ‘individuo’, ha cioè caratteri propri: è
+               intraprendente, vivace, dotata di una sua saggezza popolaresca che la induce a
+               simpatizzare per le vittime e a condannare le ingiustizie. </note>
+            <note>
+               <ref rend="bold">come se... segreto</ref>: la scena ha una vivacità icastica. È un
+               altro quadretto realistico, che sembra desunto dalla tradizione teatrale della
+               commedia, e che conferma le qualità di ‘individuo’ - e non solo di ‘tipo' — del
+               personaggio. </note>
+            <note>
+               <ref rend="bold">ne va la vita!»... La vita</ref>: la parola torna tre volte,
+               scandendo le battute della scena, come in una commedia (o tragicommedia, in questo
+               caso). Essa segna, insieme, l'acme della confessione di don
+                  Abbondio (al quale, a questo punto, non resta altro che raccontare i
+               particolari, dato che l'essenziale lo sta già rivelando) e il tema di tutta la
+               seconda parte del capitolo, giocata sulla paura del personaggio. </note>
+            <note>
+               <ref rend="bold">Oh che birbone!...timor di Dio!</ref>: come già si è accennato, in
+                  Perpetua è presente un'istintiva solidarietà nei confronti
+               dei popolani che come lei subiscono le giustizie dei potenti.</note>
+            <note>
+               <ref rend="bold">uomo di polso... ci gongola</ref>: il modo di parlare di
+                  Perpetua è più popolaresco, ingenuo e immediato di quello di
+                  don Abbondio. Anche lei usa modi di dire popolari ed
+               espressioni proverbiali, ma con un'enfasi e un’esagerazione (vedi «ci gongola») che
+               rivelano la sua ignoranza. Si noti, dunque, che ogni personaggio parla un suo
+               distinto linguaggio: anche ciò fa parte del programma realistico manzoniano. </note>
+            <note>
+               <ref rend="bold">a chi sa mostrare i denti... rispetto</ref>: appare qui la
+               saggezza popolaresca di Perpetua. Ma si noti che ella riprende
+               le metafore dell'aggressività animalesca che il narratore stesso aveva usato, alcune
+               pagine prima, quando aveva parlato di don Abbondio come di «un
+               animale senza artigli e senza zanne» (vedi r. 242 e nota corrispondente). La sua
+               saggezza consiste dunque nel cogliere un aspetto reale della natura umana - la
+               necessità della lotta per la sopravvivenza — che invece il suo padrone, troppo
+               pauroso e arrendevole, vuole ignorare. </note>
+            <note>
+               <ref rend="bold">a calar le...</ref>: si noti di nuovo il modo di parlare diretto e
+               spregiudicato di questa donna del popolo (vedi sopra, rr. 448-449 e relativa
+               nota).</note>
+            <note>
+               <ref rend="bold">disparve</ref>: per i gesti di don Abbondio e
+               per il modo della sua scomparsa, anche qui la scena ha un'evidenza teatrale. </note>
+
+         </div>
+      </body>
+   </text>
+</TEI>

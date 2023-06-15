@@ -258,9 +258,7 @@ window.addEventListener('DOMContentLoaded',  () => {
           });
       toggleSecond.addEventListener("mouseout", function() {
       popupScroll2.style.display = "none";
-      });
-
-      
+      });      
   };
 
 
@@ -283,6 +281,8 @@ window.addEventListener('DOMContentLoaded',  () => {
       }
     }
   }
+
+  // Function for switching the toggle into opened and closed in the Commenti page and to switch consequently the arrow icon up and down 
   document.addEventListener("DOMContentLoaded", function() {
     var toggleBtns = document.querySelectorAll(".toggleBtn");
   
@@ -309,83 +309,76 @@ window.addEventListener('DOMContentLoaded',  () => {
     });
   });
   
+  document.addEventListener("DOMContentLoaded", function() {
+    var toggleBtns = document.querySelectorAll(".toggleBtn");
+    var dictionary = {};
   
+    toggleBtns.forEach(function(toggleBtn) {
+      var nameElement = toggleBtn.firstChild;
+      var name = nameElement.textContent.trim();
+      var yearElement = toggleBtn.querySelector(".dropdownContent .list-group-item:nth-child(6)");
+      var year = parseInt(yearElement.textContent.trim().replace("Anno: ", ""));
   
-  function extractYearFromToggleBtn(toggleBtn) {
-    const text = toggleBtn.innerText.trim();
-    const regex = /\((\d+)\)/;
-    const match = regex.exec(text);
-    if (match && match[1]) {
-      return parseInt(match[1]);
-    }
-    return 0;
-  }
-  
-  function sortListItemsByYear(ascending) {
-    const toggleBtns = document.getElementsByClassName("toggleBtn");
-    const commentList = document.querySelector(".comment-list-items");
-  
-    const sortedList = Array.from(toggleBtns)
-      .sort((a, b) => {
-        const yearA = extractYearFromToggleBtn(a);
-        const yearB = extractYearFromToggleBtn(b);
-        return ascending ? yearA - yearB : yearB - yearA;
-      })
-      .map((toggleBtn) => toggleBtn.parentNode);
-  
-    commentList.innerHTML = "";
-    sortedList.forEach((item) => {
-      const clonedItem = item.cloneNode(true);
-      commentList.appendChild(clonedItem);
+      dictionary[name] = year;
     });
-  }
   
-  document.addEventListener("DOMContentLoaded", () => {
-    const orderButtons = document.getElementsByClassName("order-button");
-    const toggleBtns = document.getElementsByClassName("toggleBtn");
-    const commentList = document.querySelector(".comment-list-items");
+    var items = Object.entries(dictionary).map(function([name, year]) {
+      return { name: name, year: year };
+    });
   
-    const originalOrder = Array.from(toggleBtns)
-      .map((toggleBtn) => toggleBtn.parentNode)
-      .map((item) => item.cloneNode(true));
-  
-    let isChronological = true;
-    let isAscending = true;
-  
-    function resetCommentList() {
-      commentList.innerHTML = "";
-      originalOrder.forEach((item) => {
-        const clonedItem = item.cloneNode(true);
-        commentList.appendChild(clonedItem);
+    var button = document.getElementById("chronologicalBtn");
+    button.addEventListener("click", function() {
+      items.sort(function(a, b) {
+        return a.year - b.year;
       });
-    }
   
-    Array.from(orderButtons).forEach((button) => {
-      button.addEventListener("click", () => {
-        const order = button.getAttribute("data-order");
-        if (order === "chronological") {
-          if (!isChronological) {
-            isChronological = true;
-            isAscending = true;
-            resetCommentList();
+      var listGroup = document.querySelector(".list-group.comment-list-items");
+      listGroup.innerHTML = "";
+  
+      items.forEach(function(item) {
+        for (var i = 0; i < toggleBtns.length; i++) {
+          var toggleBtn = toggleBtns[i];
+          var nameElement = toggleBtn.firstChild;
+          var name = nameElement.textContent.trim();
+  
+          if (name === item.name) {
+            listGroup.appendChild(toggleBtn);
+            break;
           }
-        } else if (order === "descendant") {
-          if (isChronological || isAscending) {
-            isChronological = false;
-            isAscending = false;
-            sortListItemsByYear(false);
-          }
-        } else if (order === "ascendant") {
-          if (isChronological || !isAscending) {
-            isChronological = false;
-            isAscending = true;
-            sortListItemsByYear(true);
-          }
-        } else if (order === "alphabetical") {
-          isChronological = false;
-          isAscending = true;
-          sortListItemsByYear(true);
         }
+      });
+    });
+  
+    var antichronologicalBtn = document.getElementById("antichronologicalBtn");
+    antichronologicalBtn.addEventListener("click", function() {
+      items.sort(function(a, b) {
+        return b.year - a.year;
+      });
+  
+      var listGroup = document.querySelector(".list-group.comment-list-items");
+      listGroup.innerHTML = "";
+  
+      items.forEach(function(item) {
+        for (var i = 0; i < toggleBtns.length; i++) {
+          var toggleBtn = toggleBtns[i];
+          var nameElement = toggleBtn.firstChild;
+          var name = nameElement.textContent.trim();
+  
+          if (name === item.name) {
+            listGroup.appendChild(toggleBtn);
+            break;
+          }
+        }
+      });
+    });
+  
+    var alphabeticalBtn = document.getElementById("alphabeticalBtn");
+    alphabeticalBtn.addEventListener("click", function() {
+      var listGroup = document.querySelector(".list-group.comment-list-items");
+      listGroup.innerHTML = "";
+  
+      toggleBtns.forEach(function(toggleBtn) {
+        listGroup.appendChild(toggleBtn);
       });
     });
   });
