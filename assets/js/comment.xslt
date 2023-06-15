@@ -31,9 +31,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <!-- For other types, do not wrap inside <p> tags -->
-                <span id="{substring-after(@target, '#')}">
-                    <xsl:apply-templates />
-                </span>
+               <xsl:value-of select="." />
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
