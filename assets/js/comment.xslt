@@ -20,11 +20,22 @@
     </xsl:template>
 
     <xsl:template match="note">
-        <p>
-            <span id="{substring-after(@target, '#')}">
-                <xsl:apply-templates />
-            </span>
-        </p>
+        <xsl:choose>
+            <xsl:when test="@type = 'comm'">
+                <!-- For type='comm', wrap inside <p> tags -->
+                <p>
+                    <span id="{substring-after(@target, '#')}">
+                        <xsl:apply-templates />
+                    </span>
+                </p>
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- For other types, do not wrap inside <p> tags -->
+                <span id="{substring-after(@target, '#')}">
+                    <xsl:apply-templates />
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="ref[@rend='bold']">
@@ -42,5 +53,23 @@
             <xsl:value-of select="." />
         </em>
     </xsl:template>
-    
+
+    <xsl:template match="note/figure">
+    <a>
+        <xsl:attribute name="href">
+            <xsl:text>javascript:void(0);</xsl:text>
+        </xsl:attribute>
+        <xsl:attribute name="onclick">
+            <xsl:text>window.open('</xsl:text>
+            <xsl:value-of select="graphic/@url"/>
+            <xsl:text>', 'popup', 'width=600,height=600'); return false;</xsl:text>
+        </xsl:attribute>
+        <strong>
+            <xsl:value-of select="figDesc"/>
+        </strong>
+    </a>
+</xsl:template>
+
+
+
 </xsl:stylesheet>
