@@ -143,33 +143,43 @@
                                     <div class="text-comment-top">
                                     <script>
                                         document.addEventListener('DOMContentLoaded', function () {
-                                                // Set the default comment
-                                                let firstDefaultComment = 'BadConf';
-
-                                                // Fetch and display the first default comment
-                                                fetch('/get-comment/' + firstDefaultComment)
-                                                    .then(response => response.text())
-                                                    .then(data => {
-                                                        document.querySelector('.text-comment-top').innerHTML = data;
-                                                    })
-                                                    .catch(error => console.error(error));
-                                            });
-
-                                            document.querySelectorAll('.comment-link').forEach(function (link) {
-                                            link.addEventListener('click', function (event) {
-                                                event.preventDefault(); // prevent the browser from following the link
-                                                const comment = event.target.getAttribute('data-comment');
-
-                                                fetch('/get-comment/' + comment)
-                                                    .then(response => response.text())
-                                                    .then(data => {
-                                                        document.querySelector('.text-comment-top').innerHTML = data;
-                                                    })
-                                                    .catch(error => console.error(error));
-                                            });
+                                          // Set the default comment
+                                          let firstDefaultComment = 'BadConf'; //To be changed with Bricchi once the comment is ready!!!
+                              
+                                          // Fetch and display the first default comment
+                                          fetch('/get-comment/' + firstDefaultComment)
+                                            .then(response => response.text())
+                                            .then(data => {
+                                              document.querySelector('.text-comment-top').innerHTML = data;
+                                              document.querySelector('.text-comment-top').setAttribute('data-active-comment', firstDefaultComment);
+                                              console.log('Active comment in the first div:', firstDefaultComment);
+                                            })
+                                            .catch(error => console.error(error));
                                         });
-
-                                    </script>
+                              
+                                        document.querySelectorAll('.comment-link').forEach(function (link) {
+                                          link.addEventListener('click', function (event) {
+                                            event.preventDefault(); // prevent the browser from following the link
+                                            const comment = event.target.getAttribute('data-comment');
+                              
+                                            // Check if the same comment is already active in the second div
+                                            const secondDivActiveComment = document.querySelector('.text-comment-bottom').getAttribute('data-active-comment');
+                                            if (secondDivActiveComment === comment) {
+                                              window.alert('Il commento selezionato è già attivo nel secondo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
+                                              return;
+                                            }
+                              
+                                            fetch('/get-comment/' + comment)
+                                              .then(response => response.text())
+                                              .then(data => {
+                                                document.querySelector('.text-comment-top').innerHTML = data;
+                                                document.querySelector('.text-comment-top').setAttribute('data-active-comment', comment);
+                                                console.log('Active comment in the first div:', comment);
+                                              })
+                                              .catch(error => console.error(error));
+                                          });
+                                        });
+                                      </script>
                                     </div>
                                 </div>
                                 <div class="divisione hide" id="bottomDiv">
@@ -194,33 +204,43 @@
                                         <div class="text-comment-bottom">
                                             <script>
                                                 document.addEventListener('DOMContentLoaded', function () {
-                                                // Set the second default comment
-                                                let secondDefaultComment = 'Angelini';
-
-                                                // Fetch and display the default comment
-                                                fetch('/get-comment/' + secondDefaultComment)
+                                                  // Set the second default comment
+                                                  let secondDefaultComment = 'Angelini';
+                                      
+                                                  // Fetch and display the default comment
+                                                  fetch('/get-comment/' + secondDefaultComment)
                                                     .then(response => response.text())
                                                     .then(data => {
-                                                        document.querySelector('.text-comment-bottom').innerHTML = data;
+                                                      document.querySelector('.text-comment-bottom').innerHTML = data;
+                                                      document.querySelector('.text-comment-bottom').setAttribute('data-active-comment', secondDefaultComment);
+                                                      console.log('Active comment in the second div:', secondDefaultComment);
                                                     })
                                                     .catch(error => console.error(error));
-                                            });
-
-                                            document.querySelectorAll('.comment-link-2').forEach(function (link) {
-                                                    link.addEventListener('click', function (event) {
-                                                        event.preventDefault(); // prevent the browser from following the link
-                                                        const comment = event.target.getAttribute('data-comment');
-        
-                                                        fetch('/get-comment/' + comment)
-                                                            .then(response => response.text())
-                                                            .then(data => {
-                                                                document.querySelector('.text-comment-bottom').innerHTML = data;
-                                                            })
-                                                            .catch(error => console.error(error));
-                                                    });
                                                 });
-        
-                                            </script>
+                                      
+                                                document.querySelectorAll('.comment-link-2').forEach(function (link) {
+                                                  link.addEventListener('click', function (event) {
+                                                    event.preventDefault(); // prevent the browser from following the link
+                                                    const comment = event.target.getAttribute('data-comment');
+                                      
+                                                    // Check if the same comment is already active in the first div
+                                                    const firstDivActiveComment = document.querySelector('.text-comment-top').getAttribute('data-active-comment');
+                                                    if (firstDivActiveComment === comment) {
+                                                      window.alert('Il commento selezionato è già attivo nel primo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
+                                                      return;
+                                                    }
+                                      
+                                                    fetch('/get-comment/' + comment)
+                                                      .then(response => response.text())
+                                                      .then(data => {
+                                                        document.querySelector('.text-comment-bottom').innerHTML = data;
+                                                        document.querySelector('.text-comment-bottom').setAttribute('data-active-comment', comment);
+                                                        console.log('Active comment in the second div:', comment);
+                                                      })
+                                                      .catch(error => console.error(error));
+                                                  });
+                                                });
+                                              </script>
                                             </div>
                                     </div>
                                 </div>
