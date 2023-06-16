@@ -31,7 +31,7 @@ function convertXmlToHtml(chapter_id) {
 
 
 function convertCommentXMLToHtml(authorName) {
-  xmlDoc = fs.readFileSync(`./commenti/xml/In_lavorazione/${authorName}.xml`, 'utf8');
+  xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorName}.xml`, 'utf8');
   xslStylesheet = fs.readFileSync(__dirname + '/comment.xslt', 'utf8');
 
   const xmlDocument = xmlParse(xmlDoc);
