@@ -11563,19 +11563,19 @@ header.masthead h1, header.masthead .h1 {
   max-width: 20em;
 }
 
-#splitButton:hover + #popup {
+.add-button:hover + #popup {
   display: block;
   border-radius: 10px 10px 10px 10px;
   margin-left: 9%; 
 }
 
-#enlargerLeft:hover + #popupL {
+.enlarger:hover + #popupL {
   display: block;
   border-radius: 10px 10px 10px 10px;
   margin-left: 7%; 
 }
 
-#enlargerRight:hover + #popupR {
+.enlarger:hover + #popupR {
   display: block;
   border-radius: 10px 10px 10px 10px;
   margin-left: 11%; 
