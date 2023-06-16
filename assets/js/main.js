@@ -84,7 +84,7 @@ window.addEventListener('DOMContentLoaded',  () => {
         var column = document.getElementById("destra");
         var bottomDiv = document.getElementById("bottomDiv");
         var upperDiv = document.getElementById("upperDiv");
-        var icon = document.getElementById("icon");
+        var icon = document.getElementById("splitButton");
         var text = document.getElementById("popup");
       
         if (bottomDiv.classList.contains("hide")) {
@@ -110,9 +110,8 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     function enlargeRightColumn(){
         var columnToMantain = document.getElementById("colonnaD");
-        var icon = document.getElementById("enlargerRight");
         var columnToDelete = document.getElementById("colonnaS");
-        var i = document.getElementById("enlargerRightI");
+        var i = document.getElementById("enlargerRight");
         var testo = document.getElementById("popupR");
       
         if (columnToDelete.classList.contains("hide")) {
@@ -140,9 +139,8 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     function enlargeLeftColumn(){
         var columnToMantain = document.getElementById("colonnaS");
-        var icon = document.getElementById("enlargerLeft");
         var columnToDelete = document.getElementById("colonnaD");
-        var i = document.getElementById("enlargerLeftI");
+        var i = document.getElementById("enlargerLeft");
         var caption = document.getElementById("popupL");
       
         if (columnToDelete.classList.contains("hide")) {
@@ -310,76 +308,75 @@ window.addEventListener('DOMContentLoaded',  () => {
   });
   
   document.addEventListener("DOMContentLoaded", function() {
-    var toggleBtns = document.querySelectorAll(".toggleBtn");
-    var dictionary = {};
-  
-    toggleBtns.forEach(function(toggleBtn) {
-      var nameElement = toggleBtn.firstChild;
-      var name = nameElement.textContent.trim();
-      var yearElement = toggleBtn.querySelector(".dropdownContent .list-group-item:nth-child(6)");
-      var year = parseInt(yearElement.textContent.trim().replace("Anno: ", ""));
-  
-      dictionary[name] = year;
+  var toggleBtns = document.querySelectorAll(".toggleBtn");
+  var dictionary = {};
+
+  toggleBtns.forEach(function(toggleBtn) {
+    var nameElement = toggleBtn.firstChild;
+    var name = nameElement.textContent.trim();
+    var yearElement = toggleBtn.querySelector(".dropdownContent .list-group-item:nth-child(6)");
+    var year = parseInt(yearElement.textContent.trim().replace("Anno: ", ""));
+
+    dictionary[name] = year;
+  });
+
+  var items = Object.entries(dictionary).map(function([name, year]) {
+    return { name: name, year: year };
+  });
+
+  var button = document.getElementById("chronologicalBtn");
+  button.addEventListener("click", function() {
+    items.sort(function(a, b) {
+      return a.year - b.year;
     });
-  
-    var items = Object.entries(dictionary).map(function([name, year]) {
-      return { name: name, year: year };
-    });
-  
-    var button = document.getElementById("chronologicalBtn");
-    button.addEventListener("click", function() {
-      items.sort(function(a, b) {
-        return a.year - b.year;
-      });
-  
-      var listGroup = document.querySelector(".list-group.comment-list-items");
-      listGroup.innerHTML = "";
-  
-      items.forEach(function(item) {
-        for (var i = 0; i < toggleBtns.length; i++) {
-          var toggleBtn = toggleBtns[i];
-          var nameElement = toggleBtn.firstChild;
-          var name = nameElement.textContent.trim();
-  
-          if (name === item.name) {
-            listGroup.appendChild(toggleBtn);
-            break;
-          }
+
+    var listGroup = document.querySelector(".list-group.comment-list-items");
+    listGroup.innerHTML = "";
+
+    items.forEach(function(item) {
+      for (var i = 0; i < toggleBtns.length; i++) {
+        var toggleBtn = toggleBtns[i];
+        var nameElement = toggleBtn.firstChild;
+        var name = nameElement.textContent.trim();
+
+        if (name === item.name) {
+          listGroup.appendChild(toggleBtn);
+          break;
         }
-      });
-    });
-  
-    var antichronologicalBtn = document.getElementById("antichronologicalBtn");
-    antichronologicalBtn.addEventListener("click", function() {
-      items.sort(function(a, b) {
-        return b.year - a.year;
-      });
-  
-      var listGroup = document.querySelector(".list-group.comment-list-items");
-      listGroup.innerHTML = "";
-  
-      items.forEach(function(item) {
-        for (var i = 0; i < toggleBtns.length; i++) {
-          var toggleBtn = toggleBtns[i];
-          var nameElement = toggleBtn.firstChild;
-          var name = nameElement.textContent.trim();
-  
-          if (name === item.name) {
-            listGroup.appendChild(toggleBtn);
-            break;
-          }
-        }
-      });
-    });
-  
-    var alphabeticalBtn = document.getElementById("alphabeticalBtn");
-    alphabeticalBtn.addEventListener("click", function() {
-      var listGroup = document.querySelector(".list-group.comment-list-items");
-      listGroup.innerHTML = "";
-  
-      toggleBtns.forEach(function(toggleBtn) {
-        listGroup.appendChild(toggleBtn);
-      });
+      }
     });
   });
-  
+
+  var antichronologicalBtn = document.getElementById("antichronologicalBtn");
+  antichronologicalBtn.addEventListener("click", function() {
+    items.sort(function(a, b) {
+      return b.year - a.year;
+    });
+
+    var listGroup = document.querySelector(".list-group.comment-list-items");
+    listGroup.innerHTML = "";
+
+    items.forEach(function(item) {
+      for (var i = 0; i < toggleBtns.length; i++) {
+        var toggleBtn = toggleBtns[i];
+        var nameElement = toggleBtn.firstChild;
+        var name = nameElement.textContent.trim();
+
+        if (name === item.name) {
+          listGroup.appendChild(toggleBtn);
+          break;
+        }
+      }
+    });
+  });
+
+  var alphabeticalBtn = document.getElementById("alphabeticalBtn");
+  alphabeticalBtn.addEventListener("click", function() {
+    var listGroup = document.querySelector(".list-group.comment-list-items");
+    listGroup.innerHTML = "";
+
+    toggleBtns.forEach(function(toggleBtn) {
+      listGroup.appendChild(toggleBtn);
+    });
+  });
+});
