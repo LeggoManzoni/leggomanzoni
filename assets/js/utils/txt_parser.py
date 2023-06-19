@@ -1,3 +1,6 @@
+#  It can be run from the command line with:
+#  python -m txt_parser Verdino
+
 import sys
 import re
 import xml.etree.ElementTree as ET
