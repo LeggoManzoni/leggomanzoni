@@ -29,15 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => console.error(error));
 
     // Function to check if the target element has the class 'bi-dash-circle'
-    function hasDashCircleClass(target) {
-        return target.classList.contains('bi') && target.classList.contains('bi-dash-circle');
+    function hasSingularTextClass(target) {
+        return target.classList.contains('divisione') && target.classList.contains('singularText');
     }
 
     // Variable to store the second default comment
-    let secondDefaultComment = 'initialValue'; // Consider setting an initial value
+    let secondDefaultComment;
 
     // Select the element you want to watch for changes
-    var targetNode = document.querySelector('.bi');
+    var targetNode = document.querySelector('.divisione');
 
     if (!targetNode) {
         console.error('Target node not found');
@@ -51,24 +51,21 @@ document.addEventListener('DOMContentLoaded', function () {
     var callback = function (mutationsList, observer) {
         for (var mutation of mutationsList) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                if (hasDashCircleClass(mutation.target)) {
-                    console.log('Element now has "bi-dash-circle" class.');
-                    secondDefaultComment = '';
+                if (hasSingularTextClass(mutation.target)) {
+                    console.log('Element now has "divisione singularText" class.');
+                    secondDefaultComment = ''; // Change the value when it has singularText class
                 } else {
-                    console.log('Element no longer has "bi-dash-circle" class.');
-                    secondDefaultComment = 'Angelini';
+                    console.log('Element only has "divisione" class.');
+                    secondDefaultComment = 'Angelini'; // Reset the value when it doesn't have singularText class
                 }
 
                 // Fetch and display the default comment
                 fetch('/get-comment/' + secondDefaultComment)
                     .then(response => response.text())
                     .then(data => {
-                        const commentBottomElement = document.querySelector('.text-comment-bottom');
-                        if (commentBottomElement) {
-                            commentBottomElement.innerHTML = data;
-                            commentBottomElement.setAttribute('data-active-comment', secondDefaultComment);
-                            console.log('Active comment in the second div:', secondDefaultComment);
-                        }
+                        document.querySelector('.text-comment-bottom').innerHTML = data;
+                        document.querySelector('.text-comment-bottom').setAttribute('data-active-comment', secondDefaultComment);
+                        console.log('Active comment in the second div:', secondDefaultComment);
                     })
                     .catch(error => console.error('Fetch Error:', error));
             }
