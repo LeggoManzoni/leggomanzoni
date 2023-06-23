@@ -15,7 +15,7 @@
 
     <xsl:template match="div">
         <div>
-            <xsl:apply-templates select=".//note" />
+            <xsl:apply-templates select="./*" />
         </div>
     </xsl:template>
 
@@ -30,8 +30,7 @@
                 </p>
             </xsl:when>
             <xsl:otherwise>
-                <!-- For other types, do not wrap inside <p> tags -->
-               <xsl:value-of select="." />
+                <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -67,7 +66,5 @@
         </strong>
     </a>
 </xsl:template>
-
-
 
 </xsl:stylesheet>
