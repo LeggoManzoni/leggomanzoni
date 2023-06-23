@@ -3568,7 +3568,6 @@ textarea.form-control-lg {
   text-align: left;
   list-style: none;
   background-color: #fff;
-  background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
 }
@@ -11710,3 +11709,6 @@ header.masthead h1, header.masthead .h1 {
   background-color: #80B97F;
 }
 
+.highlight{
+  background-color: yellow;
+}

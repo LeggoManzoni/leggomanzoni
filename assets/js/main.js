@@ -377,4 +377,72 @@ document.addEventListener('DOMContentLoaded',  () => {
         });
       });
     
-  
+
+
+      function loadTextFile(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            callback(xhr.responseText);
+          }
+        };
+        xhr.open('GET', url, true);
+        xhr.send();
+      }
+      
+      function createHighlighter(text1, text2) {
+        var words = text1.getElementsByTagName('w');
+        var note = text2.getElementsByTagName('note')[0];
+      
+        function handleMouseOver() {
+          var wordId = this.getAttribute('xml:id');
+          var refId = note.getAttribute('target');
+          var refEndId = note.getAttribute('targetEnd');
+      
+          if (wordId && refId && refEndId) {
+            var refStartWord = text1.getElementById(refId);
+            var refEndWord = text1.getElementById(refEndId);
+      
+            if (refStartWord && refEndWord) {
+              var isBetweenWords = isBetween(this, refStartWord, refEndWord);
+      
+              if (isBetweenWords) {
+                note.classList.add('highlight');
+              } else {
+                note.classList.remove('highlight');
+              }
+            }
+          }
+        }
+      
+        function isBetween(element, start, end) {
+          var current = element;
+          while (current && current !== end) {
+            if (current === start) {
+              return true;
+            }
+            current = current.nextElementSibling;
+          }
+          return false;
+        }
+      
+        for (var i = 0; i < words.length; i++) {
+          words[i].addEventListener('mouseover', handleMouseOver);
+        }
+      }
+      
+      window.addEventListener('DOMContentLoaded', function() {
+        var text1Div = document.getElementById('sinistra');
+        var text2Div = document.getElementById('destra');
+      
+        loadTextFile('cap1.html', function(data) {
+          text1Div.innerHTML = data;
+      
+          loadTextFile('Benucci.html', function(data) {
+            text2Div.innerHTML = data;
+      
+            createHighlighter(text1Div, text2Div);
+          });
+        });
+      });
+      
