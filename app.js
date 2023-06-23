@@ -96,12 +96,25 @@ app.get('/get-chapter/:chapterName', function (req, res) {
 });
 
 
-app.get('/get-comment/:authorName', function (req, res) {
+app.get('/get-comment/:authorName?', function (req, res) {
   var author = req.params.authorName;
 
-  converted_data = convertCommentXMLToHtml(author);
-  res.send(converted_data);
+  if (author) {
+      try {
+          var converted_data = convertCommentXMLToHtml(author);
+          res.send(converted_data);
+      } catch (error) {
+          // Handle errors that might occur during conversion
+          console.error(error);
+          res.status(500).send('An error occurred while processing your request.');
+      }
+  } else {
+      // Send an empty object if the authorName parameter is not provided
+      res.status(200).send("");
+  }
 });
+
+
 
 
 /* port */

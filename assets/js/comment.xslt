@@ -15,7 +15,7 @@
 
     <xsl:template match="div">
         <div>
-            <xsl:apply-templates select="//note" />
+            <xsl:apply-templates select=".//note" />
         </div>
     </xsl:template>
 
