@@ -11,15 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navbarShrink();
   collectId();
-  blockRedirection();
-  blockSecondRedirection();
   popupButtons();
   modalFunction();
-  /* TRY */
-  /* arrowCommenti();
-  orderByTimeOrName(); */
-  /* / */
-
+  
 });
 
 /*Function for navbar shrink*/
@@ -151,47 +145,40 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
 
 /*Function blockRedirection*/
 let blockRedirection = () => {   // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the first or only comment)
-  var scrollAuto = document.getElementById("scrollAuto");
-  scrollAuto.addEventListener("click", function () {
+  var i = document.getElementById("scrollAutomatico");
+  var testo1 = document.getElementById("popupScroll");
 
-    var i = document.getElementById("scrollAutomatico");
-    var testo1 = document.getElementById("popupScroll");
-
-    if (i.classList.contains("bi-toggle-on")) {
-      // Show the bottom div
-      i.classList.remove("bi-toggle-on");
-      i.classList.add("bi-toggle-off");
-      testo1.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
-    } else {
-      // Hide the bottom div
-      i.classList.remove("bi-toggle-off");
-      i.classList.add("bi-toggle-on");
-      testo1.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
-    }
-  });
-}
+  if (i.classList.contains("bi-toggle-on")) {
+    // Show the bottom div
+    i.classList.remove("bi-toggle-on");
+    i.classList.add("bi-toggle-off");
+    testo1.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
+  } else {
+    // Hide the bottom div
+    i.classList.remove("bi-toggle-off");
+    i.classList.add("bi-toggle-on");
+    testo1.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
+  };
+};
 
 
 /*Function blockSecondRedirection*/
 let blockSecondRedirection = () => {  // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the second comment)
-  var scrollAuto2 = document.getElementById("scrollAuto2");
-  scrollAuto2.addEventListener("click", function () {
-    var i2 = document.getElementById("scrollAutomatico2");
-    var testo2 = document.getElementById("popupScroll2");
+  var i2 = document.getElementById("scrollAutomatico2");
+  var testo2 = document.getElementById("popupScroll2");
 
-    if (i2.classList.contains("bi-toggle-on")) {
-      // Show the bottom div
-      i2.classList.remove("bi-toggle-on");
-      i2.classList.add("bi-toggle-off");
-      testo2.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
-    } else {
-      // Hide the bottom div
-      i2.classList.remove("bi-toggle-off");
-      i2.classList.add("bi-toggle-on");
-      testo2.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
-    }
-  });
-}
+  if (i2.classList.contains("bi-toggle-on")) {
+    // Show the bottom div
+    i2.classList.remove("bi-toggle-on");
+    i2.classList.add("bi-toggle-off");
+    testo2.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
+  } else {
+    // Hide the bottom div
+    i2.classList.remove("bi-toggle-off");
+    i2.classList.add("bi-toggle-on");
+    testo2.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
+  };
+};
 
 /*Function popupButtons*/
 let popupButtons = () => {     //Functions for showing through a popup the meaning of the buttons in the reading area: 
@@ -268,7 +255,6 @@ let modalFunction = () => {
 }
 
 /*Function arrowCommenti*/
-/* TRY */
 let arrowCommenti = () => {
   // Function for switching the toggle into opened and closed in the Commenti page and to switch consequently the arrow icon up and down  
   var toggleBtns = document.querySelectorAll(".toggleBtn");
@@ -295,10 +281,8 @@ let arrowCommenti = () => {
     });
   });
 };
-/* / */
 
 /*Function orderByTimeOrName*/
-/* TRY */
 let orderByTimeOrName = () => {
   var toggleBtns = document.querySelectorAll(".toggleBtn");
   var dictionary = {};
@@ -372,7 +356,12 @@ let orderByTimeOrName = () => {
     });
   });
 };
-/* / */
+
+/*Function of all Comments*/
+let comments = () => {
+  arrowCommenti();
+  orderByTimeOrName();
+};
 
 /* TRY */
 /* function loadTextFile(url, callback) {
