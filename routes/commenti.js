@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 /* commenti */
-router.get(process.env.URL_PATH + "/commenti", (req, res) => {
+router.get("/commenti", (req, res) => {
     res.render("commenti");
 });
 

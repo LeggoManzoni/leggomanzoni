@@ -25,7 +25,7 @@ app.set("view engine", "ejs");
 app.use("/views", express.static("views"));
 
 /* index */
-app.get(process.env.URL_PATH + "/", (req, res) => {
+app.get(process.env.URL_PATH, (req, res) => {
   var arrayN = ["1", "2", "3"];
   res.render("index", {
     arrayN: arrayN
