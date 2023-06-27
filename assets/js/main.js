@@ -107,8 +107,9 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
 
 /*Function enlargeRightColumn*/
 let enlargeRightColumn = () => {     // Function for enlarging the right column and hiding the left one
-  var enlargerRight = document.getElementById("enlargerRight");
-  enlargerRight.addEventListener("click", function () {
+  /* TRY */
+  /* var enlargerRight = document.getElementById("enlargerRight"); */
+  /* enlargerRight.addEventListener("click", function () { */
     var columnToMantain = document.getElementById("colonnaD");
     var columnToDelete = document.getElementById("colonnaS");
     var i = document.getElementById("enlargerRight");
@@ -131,7 +132,8 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
       i.classList.remove("bi-arrows-angle-expand");
       testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
     }
-  });
+  /* }); */
+  /* / */
 }
 
 /*Function enlargeLeftColumn*/
