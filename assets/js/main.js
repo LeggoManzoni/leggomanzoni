@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navbarShrink();
   collectId();
-  toggleColumn();
-  enlargeRightColumn();
-  /* TRY */
-  /* enlargeLeftColumn(); */
-  /* / */
   blockRedirection();
   blockSecondRedirection();
   popupButtons();
@@ -81,60 +76,52 @@ let collectId = () => {     // function for splitting the id content
 
 /*Function toggleColumn*/
 let toggleColumn = () => {  // Function for modifying the right column and showing one or two comments at the same time
-  var splitButton = document.getElementById("splitButton");
-  splitButton.addEventListener("click", function () {
-    var bottomDiv = document.getElementById("bottomDiv");
-    var upperDiv = document.getElementById("upperDiv");
-    var icon = document.getElementById("splitButton");
-    var text = document.getElementById("popup");
-    if (bottomDiv.classList.contains("hide")) {
-      // Show the bottom div
-      bottomDiv.classList.remove("hide");
-      upperDiv.classList.remove("singularText");
-      icon.classList.remove("bi-plus-circle");
-      icon.classList.add("bi-dash-circle");
-      text.textContent = "Clicca su questo bottone per visualizzare un solo commento.";
-    } else {
-      // Hide the bottom div
-      bottomDiv.classList.add("hide");
-      upperDiv.classList.add("singularText");
-      icon.classList.remove("bi-dash-circle");
-      icon.classList.add("bi-plus-circle");
-      text.textContent = "Clicca su questo bottone per visualizzare due commenti.";
-    }
-  });
-}
+  var bottomDiv = document.getElementById("bottomDiv");
+  var upperDiv = document.getElementById("upperDiv");
+  var icon = document.getElementById("splitButton");
+  var text = document.getElementById("popup");
+  if (bottomDiv.classList.contains("hide")) {
+    // Show the bottom div
+    bottomDiv.classList.remove("hide");
+    upperDiv.classList.remove("singularText");
+    icon.classList.remove("bi-plus-circle");
+    icon.classList.add("bi-dash-circle");
+    text.textContent = "Clicca su questo bottone per visualizzare un solo commento.";
+  } else {
+    // Hide the bottom div
+    bottomDiv.classList.add("hide");
+    upperDiv.classList.add("singularText");
+    icon.classList.remove("bi-dash-circle");
+    icon.classList.add("bi-plus-circle");
+    text.textContent = "Clicca su questo bottone per visualizzare due commenti.";
+  };
+};
 
 /*Function enlargeRightColumn*/
 let enlargeRightColumn = () => {     // Function for enlarging the right column and hiding the left one
-  /* TRY */
-  /* var enlargerRight = document.getElementById("enlargerRight"); */
-  /* enlargerRight.addEventListener("click", function () { */
-    var columnToMantain = document.getElementById("colonnaD");
-    var columnToDelete = document.getElementById("colonnaS");
-    var i = document.getElementById("enlargerRight");
-    var testo = document.getElementById("popupR");
+  var columnToMantain = document.getElementById("colonnaD");
+  var columnToDelete = document.getElementById("colonnaS");
+  var i = document.getElementById("enlargerRight");
+  var testo = document.getElementById("popupR");
 
-    if (columnToDelete.classList.contains("hide")) {
-      // Show the enlarged div
-      columnToDelete.classList.remove("hide");
-      columnToMantain.classList.remove("col-12");
-      columnToMantain.classList.add("col-6");
-      i.classList.add("bi-arrows-angle-expand");
-      i.classList.remove("bi-arrows-angle-contract");
-      testo.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
-    } else {
-      // Hide the bottom div
-      columnToDelete.classList.add("hide");
-      columnToMantain.classList.remove("col-6");
-      columnToMantain.classList.add("col-12");
-      i.classList.add("bi-arrows-angle-contract");
-      i.classList.remove("bi-arrows-angle-expand");
-      testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
-    }
-  /* }); */
-  /* / */
-}
+  if (columnToDelete.classList.contains("hide")) {
+    // Show the enlarged div
+    columnToDelete.classList.remove("hide");
+    columnToMantain.classList.remove("col-12");
+    columnToMantain.classList.add("col-6");
+    i.classList.add("bi-arrows-angle-expand");
+    i.classList.remove("bi-arrows-angle-contract");
+    testo.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
+  } else {
+    // Hide the bottom div
+    columnToDelete.classList.add("hide");
+    columnToMantain.classList.remove("col-6");
+    columnToMantain.classList.add("col-12");
+    i.classList.add("bi-arrows-angle-contract");
+    i.classList.remove("bi-arrows-angle-expand");
+    testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
+  };
+};
 
 /*Function enlargeLeftColumn*/
 let enlargeLeftColumn = () => {     // Function for enlarging the left column and hiding the right one
