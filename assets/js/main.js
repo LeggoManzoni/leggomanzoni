@@ -431,3 +431,33 @@ window.addEventListener('DOMContentLoaded', function () {
   });
 }); */
 /* / */
+
+
+//try a small function that connects all the elements highlighting the same span id on the screen 
+//not working at the moment
+
+/*
+function highlightConnectedElements() {
+  var text1 = document.getElementById('text1');
+  var text2 = document.getElementById('text2');
+
+  var spans1 = text1.getElementsByTagName('span');
+  var spans2 = text2.getElementsByTagName('span');
+
+  for (var i = 0; i < spans1.length; i++) {
+    var spanId = spans1[i].id;
+    var correspondingElement = text2.querySelector('[id="' + spanId + '"]');
+
+    if (correspondingElement) {
+      spans1[i].classList.add('highlight');
+      correspondingElement.classList.add('highlight');
+    }
+  }
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+  highlightConnectedElements();
+});
+*/
+
+
