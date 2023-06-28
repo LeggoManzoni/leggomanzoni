@@ -8,7 +8,7 @@ You can clone this repository at the following URL https://github.com/LeggoManzo
 The Node app.js server is activated locally at localhost:8000 and it gets started with the command nodemon on the terminal.
 
 You will need to install: 
-- Nodemon
+- Nodemon (for launching the application on localhost)
 - Node_modules 
 
 The structure of the project is divided in three main parts: views and partials are the pages containing ejs pages of the website.
