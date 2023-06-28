@@ -5,13 +5,14 @@ LeggoManzoni is a web application developed in JavaScript and Node.js. The proje
 
 # Quickstart 
 You can clone this repository at the following URL https://github.com/LeggoManzoni/leggomanzoni.git or download the folder.  
-The Node app.js server is activated locally at localhost:8000 and it gets started with the command nodemon on the terminal.
+The Node app.js server is activated locally at localhost:8000 and it gets started with the command Nodemon on the terminal.
 
 You will need to install: 
+
 - Nodemon (for launching the application on localhost)
 - Node_modules 
 
-The structure of the project is divided in three main parts: views and partials are the pages containing ejs pages of the website.
+The structure of the project is divided into three main parts: views and partials are the pages containing the ejs pages of the website.
 While in assets you can find all the information you need about the Js, the style.css and the images connected to the Quarantana edition.
 
 In Quarantana and Commenti you will find all the marked-up files of the original text.  
