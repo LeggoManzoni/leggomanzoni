@@ -1,24 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Set the default comment
-    let firstDefaultComment = 'Badini_Confalonieri';
+    // Constants and variables
+    const defaultComment = 'Luca Badini Confalonieri';
+    const defaultChapter = 'intro';
+    let secondDefaultComment;
 
-    // Fetch and display the first default comment
-    fetch('/get-comment/' + firstDefaultComment)
+    // Fetch and display the default comment
+    fetch(`/get-comment/${defaultComment}`)
         .then(response => response.text())
         .then(data => {
             const commentTopElement = document.querySelector('.text-comment-top');
             if (commentTopElement) {
                 commentTopElement.innerHTML = data;
-                commentTopElement.setAttribute('data-active-comment', firstDefaultComment);
-                console.log('Active comment in the first div:', firstDefaultComment);
+                commentTopElement.setAttribute('data-active-comment', defaultComment);
             }
         })
-        .catch(error => console.error(error));
-
-    var defaultChapter = "intro";
+        .catch(console.error);
 
     // Fetch and display the default chapter
-    fetch('/get-chapter/' + defaultChapter)
+    fetch(`/get-chapter/${defaultChapter}`)
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
@@ -26,117 +25,124 @@ document.addEventListener('DOMContentLoaded', function () {
                 chapterElement.innerHTML = data;
             }
         })
-        .catch(error => console.error(error));
+        .catch(console.error);
 
-    // Function to check if the target element has the class 'bi-dash-circle'
-    function hasSingularTextClass(target) {
-        return target.classList.contains('divisione') && target.classList.contains('singularText');
-    }
+    // Mutation Observer setup
+    const targetNode = document.querySelector('.divisione');
+    if (targetNode) {
+        const observer = new MutationObserver((mutationsList) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    secondDefaultComment = hasSingularTextClass(mutation.target) ? '' : 'Angelini';
 
-    // Variable to store the second default comment
-    let secondDefaultComment;
-
-    // Select the element you want to watch for changes
-    var targetNode = document.querySelector('.divisione');
-
-    if (!targetNode) {
-        console.error('Target node not found');
-        return;
-    }
-
-    // Options for the observer (which mutations to observe)
-    var config = { attributes: true, attributeFilter: ['class'] };
-
-    // Callback function to execute when mutations are observed
-    var callback = function (mutationsList, observer) {
-        for (var mutation of mutationsList) {
-            if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                if (hasSingularTextClass(mutation.target)) {
-                    console.log('Element now has "divisione singularText" class.');
-                    secondDefaultComment = ''; // Change the value when it has singularText class
-                } else {
-                    console.log('Element only has "divisione" class.');
-                    secondDefaultComment = 'Angelini'; // Reset the value when it doesn't have singularText class
+                    fetch(`/get-comment/${secondDefaultComment}`)
+                        .then(response => response.text())
+                        .then(data => {
+                            const commentBottomElement = document.querySelector('.text-comment-bottom');
+                            if (commentBottomElement) {
+                                commentBottomElement.innerHTML = data;
+                                commentBottomElement.setAttribute('data-active-comment', secondDefaultComment);
+                            }
+                        })
+                        .catch(console.error);
                 }
-
-                // Fetch and display the default comment
-                fetch('/get-comment/' + secondDefaultComment)
-                    .then(response => response.text())
-                    .then(data => {
-                        document.querySelector('.text-comment-bottom').innerHTML = data;
-                        document.querySelector('.text-comment-bottom').setAttribute('data-active-comment', secondDefaultComment);
-                        console.log('Active comment in the second div:', secondDefaultComment);
-                    })
-                    .catch(error => console.error('Fetch Error:', error));
             }
-        }
-    };
+        });
+        observer.observe(targetNode, { attributes: true, attributeFilter: ['class'] });
+    }
 
-    // Create an observer instance linked to the callback function
-    var observer = new MutationObserver(callback);
-
-    // Start observing the target node for configured mutations
-    observer.observe(targetNode, config);
-});
-
-
-
-document.querySelectorAll('.chapter-link').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-        event.preventDefault(); // prevent the browser from following the link
-        const chapter = event.target.getAttribute('data-chapter');
-
-        fetch('/get-chapter/' + chapter)
-            .then(response => response.text())
-            .then(data => {
-                document.querySelector('.text-chapter').innerHTML = data;
-            })
-            .catch(error => console.error(error));
+    // Event listeners for chapter links
+    document.querySelectorAll('.chapter-link').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const chapter = event.target.getAttribute('data-chapter');
+            fetch(`/get-chapter/${chapter}`)
+                .then(response => response.text())
+                .then(data => {
+                    const chapterElement = document.querySelector('.text-chapter');
+                    if (chapterElement) {
+                        chapterElement.innerHTML = data;
+                    }
+                })
+                .catch(console.error);
+        });
     });
-});
 
-
-document.querySelectorAll('.comment-link').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-        event.preventDefault(); // prevent the browser from following the link
-        const comment = event.target.getAttribute('data-comment');
-
-        // Check if the same comment is already active in the second div
-        const secondDivActiveComment = document.querySelector('.text-comment-bottom').getAttribute('data-active-comment');
-        if (secondDivActiveComment === comment) {
-            window.alert('Il commento selezionato è già attivo nel secondo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
-            return;
-        }
-
-        fetch('/get-comment/' + comment)
-            .then(response => response.text())
-            .then(data => {
-                document.querySelector('.text-comment-top').innerHTML = data;
-                document.querySelector('.text-comment-top').setAttribute('data-active-comment', comment);
-                console.log('Active comment in the first div:', comment);
-            })
-            .catch(error => console.error(error));
+    // Event listeners for comment links
+    document.querySelectorAll('.comment-link').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const comment = event.target.getAttribute('data-comment');
+            const secondDivActiveComment = document.querySelector('.text-comment-bottom').getAttribute('data-active-comment');
+            if (secondDivActiveComment === comment) {
+                alert('Il commento selezionato è già attivo nel secondo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
+                return;
+            }
+            fetch(`/get-comment/${comment}`)
+                .then(response => response.text())
+                .then(data => {
+                    const commentTopElement = document.querySelector('.text-comment-top');
+                    if (commentTopElement) {
+                        commentTopElement.innerHTML = data;
+                        commentTopElement.setAttribute('data-active-comment', comment);
+                    }
+                })
+                .catch(console.error);
+        });
     });
-});
 
-
-document.querySelectorAll('.comment-link-2').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const comment = event.target.getAttribute('data-comment');
-        const firstDivActiveComment = document.querySelector('.text-comment-top').getAttribute('data-active-comment');
-        if (firstDivActiveComment === comment) {
-            window.alert('Il commento selezionato è già attivo nel primo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
-            return;
-        }
-
-        fetch('/get-comment/' + comment)
-            .then(response => response.text())
-            .then(data => {
-                document.querySelector('.text-comment-bottom').innerHTML = data;
-                document.querySelector('.text-comment-bottom').setAttribute('data-active-comment', comment);
-                console.log('Active comment in the second div:', comment);
-            })
-            .catch(error => console.error(error));
+    // Event listeners for comment links in second div
+    document.querySelectorAll('.comment-link-2').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const comment = event.target.getAttribute('data-comment');
+            const firstDivActiveComment = document.querySelector('.text-comment-top').getAttribute('data-active-comment');
+            if (firstDivActiveComment === comment) {
+                alert('Il commento selezionato è già attivo nel primo specchietto dedicato al commento. Scegline un altro per fare un confronto.');
+                return;
+            }
+            fetch(`/get-comment/${comment}`)
+                .then(response => response.text())
+                .then(data => {
+                    const commentBottomElement = document.querySelector('.text-comment-bottom');
+                    if (commentBottomElement) {
+                        commentBottomElement.innerHTML = data;
+                        commentBottomElement.setAttribute('data-active-comment', comment);
+                    }
+                })
+                .catch(console.error);
+        });
     });
+
+    setupHoverScrolling();
+
 });
+
+
+// Utility function to check if the target element has the specified classes
+function hasSingularTextClass(target) {
+    return target.classList.contains('divisione') && target.classList.contains('singularText');
+}
+
+function setupHoverScrolling() {
+    document.addEventListener('mouseover', function (event) {
+        // Check if the clicked element has the class "hover-item"
+        if (event.target.classList.contains('hover-item')) {
+            // Get the data-id of the clicked element
+            var dataId = event.target.getAttribute('data-id');
+
+            // Find the corresponding element in the right column by data-related-id
+            var correspondingElement = document.querySelector('.scroll-item[data-related-id="' + dataId + '"]');
+
+            // Scroll the corresponding element into view in the right column
+            if (correspondingElement) {
+                setTimeout(() => {
+                    correspondingElement.scrollIntoView({ behavior: 'instant' });
+                    console.log('Scrolled into view:', correspondingElement);
+                }, 100); // 100 ms delay
+            }
+
+        }
+    });
+}
+

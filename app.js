@@ -10,6 +10,7 @@ const ejs = require('ejs');
 const fs = require('fs');
 
 const { convertXmlToHtml, convertCommentXMLToHtml } = require('./assets/js/convert.js');
+const { xmlInfo } = require('./assets/js/collect_info.js');
 
 /* app */
 const app = express();
@@ -113,8 +114,6 @@ app.get('/get-comment/:authorName?', function (req, res) {
       res.status(200).send("");
   }
 });
-
-
 
 
 /* port */

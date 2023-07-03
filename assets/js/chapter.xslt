@@ -16,7 +16,7 @@
     </p>
   </xsl:template>
   <xsl:template match="w">
-   <span id="{@xml:id}">
+   <span data-id="{@xml:id}" class="hover-item">
     <xsl:value-of select="." /><xsl:text> </xsl:text>
     </span>
   </xsl:template>

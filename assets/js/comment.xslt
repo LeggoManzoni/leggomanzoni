@@ -24,7 +24,7 @@
             <xsl:when test="@type = 'comm'">
                 <!-- For type='comm', wrap inside <p> tags -->
                 <p>
-                    <span id="{substring-after(@target, '#')}">
+                    <span data-related-id="{substring-after(@target, '#')}" class="scroll-item">
                         <xsl:apply-templates />
                     </span>
                 </p>
@@ -51,20 +51,24 @@
         </em>
     </xsl:template>
 
-    <xsl:template match="note/figure">
+   <xsl:template match="note/figure">
     <a>
         <xsl:attribute name="href">
-            <xsl:text>javascript:void(0);</xsl:text>
+            <xsl:text>#</xsl:text>
         </xsl:attribute>
         <xsl:attribute name="onclick">
-            <xsl:text>window.open('</xsl:text>
+            <xsl:text>window.open('/popup?src=</xsl:text>
             <xsl:value-of select="graphic/@url"/>
-            <xsl:text>', 'popup', 'width=600,height=600'); return false;</xsl:text>
+            <xsl:text>', 'popup', 'width=600,height=600');</xsl:text>
         </xsl:attribute>
         <strong>
             <xsl:value-of select="figDesc"/>
         </strong>
     </a>
 </xsl:template>
+
+
+
+
 
 </xsl:stylesheet>
