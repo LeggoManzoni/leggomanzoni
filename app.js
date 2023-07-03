@@ -10,7 +10,7 @@ const ejs = require('ejs');
 const fs = require('fs');
 
 const { convertXmlToHtml, convertCommentXMLToHtml } = require('./assets/js/convert.js');
-const { xmlInfo } = require('./assets/js/collect_info.js');
+// const { xmlInfo } = require('./assets/js/collect_info.js');
 
 /* app */
 const app = express();
