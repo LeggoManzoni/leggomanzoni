@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
+
     const defaultComment = 'Luca Badini Confalonieri';
     const defaultChapter = 'intro';
     let secondDefaultComment;
@@ -132,13 +133,20 @@ function setupHoverScrolling() {
             var dataId = event.target.getAttribute('data-id');
 
             // Find the corresponding element in the right column by data-related-id
-            var correspondingElement = document.querySelector('.scroll-item[data-related-id="' + dataId + '"]');
+            var elements = document.querySelectorAll('.scroll-item');
+            // var correspondingElement = document.querySelector('.scroll-item[data-related-id="' + dataId + '"]');
+            for (var i = 0; i < elements.length; i++) {
+                var currentId = parseInt(elements[i].getAttribute('data-related-id'), 10);
+                if (currentId >= dataId) {
+                    correspondingElement = elements[i];
+                    break;
+                }
+            }
 
             // Scroll the corresponding element into view in the right column
             if (correspondingElement) {
                 setTimeout(() => {
-                    correspondingElement.scrollIntoView({ behavior: 'instant' });
-                    console.log('Scrolled into view:', correspondingElement);
+                    correspondingElement.scrollIntoView({ behavior: 'smooth' , block: 'start', inline: 'nearest'});
                 }, 100); // 100 ms delay
             }
 
