@@ -19,20 +19,40 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="note">
-        <xsl:choose>
-            <xsl:when test="@type = 'comm'">
-                <!-- For type='comm', wrap inside <p> tags -->
-                <p>
-                    <span data-related-id="{substring-after(@target, '#')}" class="scroll-item">
-                        <xsl:apply-templates />
-                    </span>
-                </p>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
+   <xsl:template match="note">
+    <xsl:choose>
+        <xsl:when test="@type = 'comm'">
+            <!-- For type='comm', wrap inside <p> tags -->
+            <p>
+                <span class="scroll-item">
+                    <xsl:attribute name="data-related-id">
+                        <xsl:call-template name="getNumbers">
+                            <xsl:with-param name="string" select="substring-after(@target, '#')"/>
+                        </xsl:call-template>
+                    </xsl:attribute>
+                    <xsl:apply-templates />
+                </span>
+            </p>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:apply-templates/>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+ <xsl:template name="getNumbers">
+        <xsl:param name="string"/>
+        <xsl:if test="string-length($string) &gt; 0">
+            <xsl:variable name="char" select="substring($string, 1, 1)"/>
+            <xsl:choose>
+                <xsl:when test="$char &gt;= '0' and $char &lt;= '9'">
+                    <xsl:value-of select="$char"/>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:call-template name="getNumbers">
+                <xsl:with-param name="string" select="substring($string, 2)"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="ref[@rend='bold']">
