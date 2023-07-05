@@ -9,7 +9,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  navbarShrink();
+  // navbarShrink();
   collectId();
   popupButtons();
   modalFunction();

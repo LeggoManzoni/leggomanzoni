@@ -11473,6 +11473,7 @@ header.masthead h1, header.masthead .h1 {
   margin:auto;
   padding-left: 2em;
   padding-right: 2em;
+  overflow-y:scroll;
 }
 
 .divisione{
@@ -11614,7 +11615,7 @@ header.masthead h1, header.masthead .h1 {
 
   /*disclaimer*/
 .modal {
-  display: none; /* Hidden by default */
+  /* display: none; Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
