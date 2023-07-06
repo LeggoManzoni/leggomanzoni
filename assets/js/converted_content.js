@@ -126,6 +126,7 @@ function hasSingularTextClass(target) {
 }
 
 function setupHoverScrolling() {
+    var highlightedElements = []; // Store the previously highlighted element
     document.addEventListener('mouseover', function (event) {
         // Check if the clicked element has the class "hover-item"
         if (event.target.classList.contains('hover-item')) {
@@ -142,9 +143,30 @@ function setupHoverScrolling() {
                     break;
                 }
             }
+            
 
             // Scroll the corresponding element into view in the right column
             if (correspondingElement) {
+                for (var j = 0; j < highlightedElements.length; j++) {
+                    highlightedElements[j].classList.remove('highlight');
+                }
+                highlightedElements = [];
+
+                var relatedId = parseInt(correspondingElement.getAttribute('data-related-id'), 10);
+                var endId = parseInt(correspondingElement.getAttribute('data-end-id'), 10);
+
+                var hoverItems = document.querySelectorAll('.hover-item');
+                for (var i = 0; i < hoverItems.length; i++) {
+                    var currentId = parseInt(hoverItems[i].getAttribute('data-id'), 10);
+                    if (currentId >= relatedId && currentId <= endId) {
+                        highlightedElements.push(hoverItems[i]);
+                }
+            }
+
+            for (var k = 0; k < highlightedElements.length; k++) {
+                highlightedElements[k].classList.add('highlight');
+            }
+                
                 setTimeout(() => {
                     correspondingElement.scrollIntoView({ behavior: 'smooth' , block: 'start', inline: 'nearest'});
                 }, 100); // 100 ms delay

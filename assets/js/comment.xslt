@@ -30,6 +30,11 @@
                             <xsl:with-param name="string" select="substring-after(@target, '#')"/>
                         </xsl:call-template>
                     </xsl:attribute>
+                    <xsl:attribute name="data-end-id">
+                        <xsl:call-template name="getNumbers">
+                            <xsl:with-param name="string" select="substring-after(@targetEnd, '#')"/>
+                        </xsl:call-template>
+                    </xsl:attribute>
                     <xsl:apply-templates />
                 </span>
             </p>
