@@ -46,4 +46,17 @@
       <xsl:apply-templates />
     </i>
   </xsl:template>
+
+<xsl:template match="figure">
+  <div class="thumbnail">
+    <img class="img-fluid" src="{graphic/@url}" alt="Responsive image"/>
+    <div class="caption">
+      <strong>
+        <xsl:value-of select="figDesc"/>
+      </strong>
+    </div>
+  </div>
+</xsl:template>
+
+
 </xsl:stylesheet>
