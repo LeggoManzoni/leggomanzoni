@@ -11743,3 +11743,12 @@ header.masthead h1, header.masthead .h1 {
   border-radius: 10px 10px 10px 10px;
   padding: 2em;
 }
+
+.vignette-page{
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-image: url("../assets/img/prova_collage_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
