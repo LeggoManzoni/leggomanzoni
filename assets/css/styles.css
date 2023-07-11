@@ -11745,16 +11745,16 @@ header.masthead h1, header.masthead .h1 {
 .vignette-page{
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
-  background-image: url("../img/prova_collage_2.png");
-  background-size: cover;
+  background-image: url("../img/copertina_vignette.jpg");
+  background-size: 1250px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 
 .text-vignette{
   color: var(--bs-green);
-  background-color:  #DDEBDD;
-  border-radius: 10px 10px 10px 10px; 
+  /*background-color:  #DDEBDD;
+  border-radius: 10px 10px 10px 10px; */
   padding: 0.3em;
 }
 
@@ -11763,4 +11763,8 @@ header.masthead h1, header.masthead .h1 {
   background-color: #F7B475;
   border-radius: 10px 10px 10px 10px; 
   padding: 0.3em;
+}
+
+.aboutvignette{
+  margin-left: 70px; 
 }
