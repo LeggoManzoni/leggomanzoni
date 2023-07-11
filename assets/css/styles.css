@@ -11745,8 +11745,22 @@ header.masthead h1, header.masthead .h1 {
 .vignette-page{
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
-  background-image: url("../assets/img/prova_collage_2.png");
+  background-image: url("../img/prova_collage_2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.text-vignette{
+  color: var(--bs-green);
+  background-color:  #DDEBDD;
+  border-radius: 10px 10px 10px 10px; 
+  padding: 0.3em;
+}
+
+.title-vignette{
+  color: var(--bs-green);
+  background-color: #F7B475;
+  border-radius: 10px 10px 10px 10px; 
+  padding: 0.3em;
 }
