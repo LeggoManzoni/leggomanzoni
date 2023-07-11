@@ -11710,16 +11710,14 @@ header.masthead h1, header.masthead .h1 {
   background-color: #80B97F;
 }
 
-.highlight{
-  background-color: yellow;
+.highlight {
+  text-decoration: underline;
+  text-decoration-color: #80B97F;
+  text-decoration-thickness: 3px;
 }
 
 .navbar-nav:hover {
   color: white;
-}
-
-.highlight {
-  background-color: yellow;
 }
 
 .container {
