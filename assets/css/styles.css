@@ -11541,18 +11541,21 @@ header.masthead h1, header.masthead .h1 {
  height: 80.5vh;
 }
 
-.enlarger, .add-button, .bottoneToggle, .buttonToggle{
+.enlarger, .add-button, .bottoneToggle, .buttonToggle, .font-button{
   background-color: transparent;
   border: transparent;
 }
-.bottoneToggle, .buttonToggle {
+.bottoneToggle, .buttonToggle{
   font-size: 22px; /* Adjust the value as needed */
+}
+.font-button {
+  font-size: 20px; /* Adjust the value as needed */
 }
 
 .bottoneToggle i, .buttonToggle i{
   font-size: inherit; /* Inherit the font-size from the parent button */
 }
-#popup, #popupL, #popupR, #popupScroll, #popupScroll2{
+#popup, #popupL, #popupR, #popupScroll, #popupScroll2, #popupFont{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -11563,6 +11566,11 @@ header.masthead h1, header.masthead .h1 {
   max-width: 20em;
 }
 
+.font-button:hover + #popupFont {
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 9%; 
+}
 .add-button:hover + #popup {
   display: block;
   border-radius: 10px 10px 10px 10px;
@@ -11592,6 +11600,15 @@ header.masthead h1, header.masthead .h1 {
   border-radius: 10px 10px 10px 10px;
   margin-left: 9%; 
 }
+
+#normalFont{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#accessibilityFont{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {

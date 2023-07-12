@@ -28,6 +28,11 @@
                                 </button>
                                 <div id="popupL">Clicca su questo bottone per visualizzare il testo in modalità
                                     full-screen.</div>
+                                <button class="font-button" id="normalFont">
+                                    <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
+                                </button>
+                                <div id="popupFont">Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.
+                                </div>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <% chapters.forEach((chapter)=> {
                                         if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
@@ -119,11 +124,6 @@
                                         <div id="popupR">Clicca su questo bottone per visualizzare il commento in
                                             modalità full-screen.
                                         </div>
-                                        <button class="bottoneToggle" id="scrollAuto">
-                                            <i class="bi bi-toggle-on" id="scrollAutomatico" onclick="blockRedirection();"></i>
-                                        </button>
-                                        <div id="popupScroll">Il reindirizzamento automatico tra testo e commento è
-                                            attivo. Clicca per disattivare.</div>
                                     </div>
                                     <div class="text-comment-top">
                                     </div>
@@ -143,11 +143,6 @@
                                                     </a></li>
                                                 <% }); %>
                                         </ul>
-                                        <button class="buttonToggle" id="scrollAuto2">
-                                            <i class="bi bi-toggle-on" id="scrollAutomatico2" onclick="blockSecondRedirection();"></i> <!-- TRY onclick added -->
-                                        </button>
-                                        <div id="popupScroll2">Il reindirizzamento automatico tra testo e commento è
-                                            attivo. Clicca per disattivare.</div>
                                         <div class="text-comment-bottom">
 
                                         </div>

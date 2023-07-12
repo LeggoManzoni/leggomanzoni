@@ -143,40 +143,26 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
   };
 };
 
-/*Function blockRedirection*/
-let blockRedirection = () => {   // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the first or only comment)
-  var i = document.getElementById("scrollAutomatico");
-  var testo1 = document.getElementById("popupScroll");
+/*Function changeFont*/
+let changeFont = () => {     // Function for changing the font and switching to a more readable one
+  var i = document.getElementById("fontButton");
+  var styleFont = document.getElementById("normalFont");
+  var captionFont = document.getElementById("popupFont");
 
-  if (i.classList.contains("bi-toggle-on")) {
+  if (i.classList.contains("bi-file-earmark-font")) {
     // Show the bottom div
-    i.classList.remove("bi-toggle-on");
-    i.classList.add("bi-toggle-off");
-    testo1.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
+    styleFont.add("accessibilityFont");
+    styleFont.remove("normalFont");
+    i.classList.add("bi-file-earmark-font-fill");
+    i.classList.remove("bi-file-earmark-font");
+    captionFont.textContent = "Clicca su questo bottone per tornare al font principale.";
   } else {
     // Hide the bottom div
-    i.classList.remove("bi-toggle-off");
-    i.classList.add("bi-toggle-on");
-    testo1.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
-  };
-};
-
-
-/*Function blockSecondRedirection*/
-let blockSecondRedirection = () => {  // Function for changing the toggle button and blocking authomatic redirection, to be done later (for the second comment)
-  var i2 = document.getElementById("scrollAutomatico2");
-  var testo2 = document.getElementById("popupScroll2");
-
-  if (i2.classList.contains("bi-toggle-on")) {
-    // Show the bottom div
-    i2.classList.remove("bi-toggle-on");
-    i2.classList.add("bi-toggle-off");
-    testo2.textContent = "Il reindirizzamento automatico tra testo e commento è disattivato. Clicca per attivare.";
-  } else {
-    // Hide the bottom div
-    i2.classList.remove("bi-toggle-off");
-    i2.classList.add("bi-toggle-on");
-    testo2.textContent = "Il reindirizzamento automatico tra testo e commento è attivo. Clicca per disattivare.";
+    styleFont.remove("accessibilityFont");
+    styleFont.add("normalFont");
+    i.classList.add("bi-file-earmark-font");
+    i.classList.remove("bi-file-earmark-font-fill");
+    captionFont.textContent = "Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.";
   };
 };
 
