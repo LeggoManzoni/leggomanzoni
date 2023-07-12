@@ -151,20 +151,28 @@ let changeFont = () => {     // Function for changing the font and switching to 
 
   if (i.classList.contains("bi-file-earmark-font")) {
     // Show the bottom div
-    styleFont.add("accessibilityFont");
-    styleFont.remove("normalFont");
+    styleFont.classList.remove("normalFont");
+    styleFont.classList.add("accessibilityFont");
     i.classList.add("bi-file-earmark-font-fill");
     i.classList.remove("bi-file-earmark-font");
     captionFont.textContent = "Clicca su questo bottone per tornare al font principale.";
+
+    // Change the font style of the body back to the main font
+    document.body.style.fontFamily = "Tahoma";
+    document.body.style.fontSize = "18px";
   } else {
     // Hide the bottom div
-    styleFont.remove("accessibilityFont");
-    styleFont.add("normalFont");
+    styleFont.classList.add("normalFont");
+    styleFont.classList.remove("accessibilityFont");
     i.classList.add("bi-file-earmark-font");
     i.classList.remove("bi-file-earmark-font-fill");
     captionFont.textContent = "Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.";
-  };
+
+    document.body.style.fontFamily = "";
+    document.body.style.fontSize = "16px";
+  }
 };
+
 
 /*Function popupButtons*/
 let popupButtons = () => {     //Functions for showing through a popup the meaning of the buttons in the reading area: 
