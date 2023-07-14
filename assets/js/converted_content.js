@@ -5,24 +5,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Fetch and display the default comment and chapter
     fetchAndDisplayData(`/get-comment/${defaultComment}`, '.text-comment-top', 'data-active-comment');
-    fetchAndDisplayData(`/get-chapter/${defaultChapter}`, '.text-chapter');
+    fetchChapter(`/get-chapter/${defaultChapter}`, '.text-chapter');
 
     // Setup MutationObserver
     setupMutationObserver('.divisione');
 
     // Setup click event listeners for links
-    setupLinkClickListener('.chapter-link', fetchAndDisplayData, '.text-chapter');
+    setupChapterClickListener('.chapter-link', fetchChapter, '.text-chapter');
     setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
 
     setupHoverScrolling();
 });
 
+
+function fetchChapter(chapter) {
+    fetch(chapter)
+        .then(response => response.text())
+        .then(data => {
+            const chapterElement = document.querySelector('.text-chapter');
+            console.log(chapter);
+            if (chapterElement) {
+                console.log(chapterElement);
+                chapterElement.innerHTML = data;
+            }
+        })
+        .catch(console.error);
+}
+
 function fetchAndDisplayData(endpoint, selector, attribute) {
     fetch(endpoint)
         .then(response => response.text())
         .then(data => {
             const element = document.querySelector(selector);
+            console.log(endpoint);
+            console.log(selector);
+            console.log(attribute);
             if (element) {
                 element.innerHTML = data;
                 element.setAttribute(attribute, data);
@@ -53,6 +71,17 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
             event.preventDefault();
             const data = event.target.getAttribute('data-comment');
             fetchAndDisplayFunction(`/get-comment/${data}`, displaySelector, 'data-active-comment');
+        });
+    });
+}
+
+
+function setupChapterClickListener(selector, fetchAndDisplayFunction, displaySelector) {
+    document.querySelectorAll(selector).forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const data = event.target.getAttribute('data-chapter');
+            fetchAndDisplayFunction(`/get-chapter/${data}`, displaySelector, 'text-chapter');
         });
     });
 }
