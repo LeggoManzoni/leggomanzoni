@@ -93,6 +93,7 @@ function removeHighlightFromHoverItems() {
     hoverItems.forEach(hoverItem => {
         hoverItem.classList.remove('highlight');
     });
+    
 }
 
 

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   collectId();
   popupButtons();
   modalFunction();
-  
+
 });
 
 /*Function for navbar shrink*/
@@ -159,7 +159,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
 
     // Change the font style of the body back to the main font
     document.body.style.fontFamily = "Tahoma";
-    document.body.style.fontSize = "18px";
+    document.body.style.fontSize = "19px";
   } else {
     // Hide the bottom div
     styleFont.classList.add("normalFont");
@@ -173,6 +173,25 @@ let changeFont = () => {     // Function for changing the font and switching to 
   }
 };
 
+/*Function changePencil*/
+let changePencil = () => {     // Function for changing the pencil icon for underlined content
+  var i = document.getElementById("underline");
+  var captionFont = document.getElementById("popupUnderline");
+
+  if (i.classList.contains("bi-pencil-fill")) {
+    // Show the bottom div
+    i.classList.add("bi-pencil");
+    i.classList.remove("bi-pencil-fill");
+    captionFont.textContent = "Clicca su questo bottone per eliminare le note di commento.";
+
+  } else {
+    // Hide the bottom div
+    i.classList.add("bi-pencil-fill");
+    i.classList.remove("bi-pencil");
+    captionFont.textContent = "Clicca su questo bottone per visualizzare le note di commento.";
+
+  }
+};
 
 /*Function popupButtons*/
 let popupButtons = () => {     //Functions for showing through a popup the meaning of the buttons in the reading area: 
