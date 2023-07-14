@@ -37,7 +37,7 @@ function convertCommentXMLToHtml(authorName) {
     const commentiInfo = JSON.parse(data);
 
     // Filter for the matching author's name
-    const matchingEntry = commentiInfo.find(entry => entry.author === authorName);
+    const matchingEntry = commentiInfo.find(entry => entry.curator === authorName);
 
     // Check if a matching entry was found
     if (matchingEntry) {

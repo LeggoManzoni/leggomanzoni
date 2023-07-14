@@ -20,7 +20,7 @@ router.get("/reader", (req, res) => {
             const commentiInfo = JSON.parse(data);
 
             // Extract filenames or any other relevant information from the JSON
-            let commenti = commentiInfo.map(fileInfo => fileInfo.author);
+            let commenti = commentiInfo.map(fileInfo => fileInfo.curator);
 
             // Render the view after commenti is populated
             res.render("reader", {

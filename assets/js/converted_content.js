@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
-    const defaultComment = 'Luca Badini Confalonieri';
+    const defaultComment = 'Badini Confalonieri, Luca';
     const defaultChapter = 'intro';
 
     // Fetch and display the default comment and chapter

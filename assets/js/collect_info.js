@@ -17,15 +17,24 @@ const fileInfoList = xmlFiles.map(file => {
     ignoreNameSpace: true
   });
   
-  const title = jsonObj.TEI.teiHeader.fileDesc.titleStmt.title;
-  const author = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.editor;
+  const title = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.title;
+  const author = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.author;
+  const curator = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.editor;
   const date = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.date;
+  const city = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.pubPlace;
+  const publisher = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.publisher;
+  const marcatura = jsonObj.TEI.teiHeader.fileDesc.titleStmt.respStmt;
+
   
   return {
     filename: file,
     title,
     author,
-    date
+    curator,
+    date,
+    city,
+    publisher,
+    marcatura
   };
 });
 
