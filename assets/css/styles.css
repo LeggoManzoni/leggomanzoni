@@ -11539,7 +11539,7 @@ header.masthead h1, header.masthead .h1 {
  height: 80.5vh;
 }
 
-.enlarger, .add-button, .bottoneToggle, .buttonToggle, .font-button{
+.enlarger, .add-button, .bottoneToggle, .buttonToggle, .font-button, .underline{
   background-color: transparent;
   border: transparent;
 }
@@ -11553,7 +11553,7 @@ header.masthead h1, header.masthead .h1 {
 .bottoneToggle i, .buttonToggle i{
   font-size: inherit; /* Inherit the font-size from the parent button */
 }
-#popup, #popupL, #popupR, #popupScroll, #popupScroll2, #popupFont{
+#popup, #popupL, #popupR, #popupScroll, #popupScroll2, #popupFont, #popupUnderline{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -11562,6 +11562,12 @@ header.masthead h1, header.masthead .h1 {
   padding: 10px;
   z-index: 1;
   max-width: 20em;
+}
+
+.underline:hover + #popupUnderline {
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 9%; 
 }
 
 .font-button:hover + #popupFont {
