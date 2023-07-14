@@ -787,7 +787,7 @@ progress {
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
-  margin-top: 2em; 
+  margin-top: 4em; 
 }
 
 .offset-1 {
@@ -11457,7 +11457,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .colonnasinistra{
-  overflow-y:scroll;
+  overflow-y: scroll;
   overflow-x:hidden;
   text-align:justify;
   height:80vh;
@@ -11486,26 +11486,6 @@ header.masthead h1, header.masthead .h1 {
   overflow:scroll; 
 }
 
-/*!body{
-  height:100vh;
-  overflow: hidden;
-  margin:auto;
-
-} */
-/*
-.add-button {
-  width: 40px;
-  height: 40px;
-  background-color: grey;
-  border: none;
-  border-radius: 50%;
-  color: #ffffff;
-  font-size: 20px;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  margin-left: 73%; 
-}*/
 
 
 .row {
@@ -11622,7 +11602,7 @@ header.masthead h1, header.masthead .h1 {
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
   }
 
   *::-webkit-scrollbar-track {
@@ -11797,3 +11777,10 @@ header.masthead h1, header.masthead .h1 {
 .aboutvignette{
   margin-left: 70px; 
 }
+
+#fixedContent{
+  position: absolute; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+

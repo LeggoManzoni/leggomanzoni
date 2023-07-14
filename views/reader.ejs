@@ -17,42 +17,44 @@
                 <section class="box-testi">
                     <div class="row">
                         <div class="col-6" id="colonnaS">
+                        <div id="fixedContent">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-capitoli"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                Capitoli
+                            </button>
+                            <button class="underline" id="normalPencil">
+                                <i class="bi bi-pencil-fill" id="highlightHoveredItem" onclick="highlightHoveredItem();"></i>
+                            </button>
+                            <div id="popupUnderline">Clicca su questo bottone per visualizzare le note di commento.</div>
+                            <button class="enlarger">
+                                <i class="bi bi-arrows-angle-expand" id="enlargerLeft" onclick="enlargeLeftColumn();"></i>
+                                <!-- Extension symbol -->
+                            </button>
+                            <div id="popupL">Clicca su questo bottone per visualizzare il testo in modalità
+                                full-screen.</div>
+                            <button class="font-button normalFont" id="normalFont">
+                                <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
+                            </button>
+                            <div id="popupFont">Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <% chapters.forEach((chapter)=> {
+                                    if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
+                                    !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
+                                    &&
+                                    !chapter.startsWith('6') && !chapter.startsWith('7') &&
+                                    !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
+                                    <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
+                                            href="#">
+                                            <%= chapter.replace('Capitolo', '' ) %>
+                                        </a></li>
+                                    <% } else { %>
+                                        <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
+                                                href="#">Capitolo <%= chapter %></a></li>
+                                        <% } }); %>
+                            </ul>
+                        </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-capitoli"
-                                    data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
-                                    Capitoli
-                                </button>
-                                <button class="underline" id="normalPencil">
-                                    <i class="bi bi-pencil-fill" id="highlightHoveredItem" onclick="highlightHoveredItem();"></i>
-                                </button>
-                                <div id="popupUnderline">Clicca su questo bottone per visualizzare le note di commento.</div>
-                                <button class="enlarger">
-                                    <i class="bi bi-arrows-angle-expand" id="enlargerLeft" onclick="enlargeLeftColumn();"></i>
-                                    <!-- Extension symbol -->
-                                </button>
-                                <div id="popupL">Clicca su questo bottone per visualizzare il testo in modalità
-                                    full-screen.</div>
-                                <button class="font-button normalFont" id="normalFont">
-                                    <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
-                                </button>
-                                <div id="popupFont">Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.
-                                </div>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <% chapters.forEach((chapter)=> {
-                                        if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
-                                        !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
-                                        &&
-                                        !chapter.startsWith('6') && !chapter.startsWith('7') &&
-                                        !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
-                                        <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
-                                                href="#">
-                                                <%= chapter.replace('Capitolo', '' ) %>
-                                            </a></li>
-                                        <% } else { %>
-                                            <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
-                                                    href="#">Capitolo <%= chapter %></a></li>
-                                            <% } }); %>
-                                </ul>
                                 <div id="myModal" class="modal">
 
                                     <!-- Modal content -->
@@ -100,10 +102,8 @@
                             </div>
                         </div>
                         <div class="col-6" id="colonnaD">
-                            <div class="colonnadestra" id="destra">
-                                <div class="divisione singularText" id="upperDiv">
-                                    <div class="header" id="2b-header">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                            <div id="fixedContent">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="toggle-commenti1" data-bs-toggle="dropdown" aria-expanded="false"
                                             style="text-align: left">
                                             Commenti
@@ -128,6 +128,11 @@
                                         <div id="popupR">Clicca su questo bottone per visualizzare il commento in
                                             modalità full-screen.
                                         </div>
+                                    </div>
+                            <div class="colonnadestra" id="destra">
+                                <div class="divisione singularText" id="upperDiv">
+                                    <div class="header" id="2b-header">
+                                        
                                     </div>
                                     <div class="text-comment-top">
                                     </div>

@@ -159,7 +159,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
 
     // Change the font style of the body back to the main font
     document.body.style.fontFamily = "Tahoma";
-    document.body.style.fontSize = "19px";
+    document.body.style.fontSize = "20px";
   } else {
     // Hide the bottom div
     styleFont.classList.add("normalFont");
@@ -169,7 +169,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
     captionFont.textContent = "Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.";
 
     document.body.style.fontFamily = "";
-    document.body.style.fontSize = "16px";
+    document.body.style.fontSize = "17px";
   }
 };
 
