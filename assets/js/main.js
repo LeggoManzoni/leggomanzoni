@@ -97,6 +97,8 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
   var columnToDelete = document.getElementById("colonnaS");
   var i = document.getElementById("enlargerRight");
   var testo = document.getElementById("popupR");
+  var fixedContent = document.getElementById("fixedContent2");
+  var row = document.getElementById("row-rem");
 
   if (columnToDelete.classList.contains("hide")) {
     // Show the enlarged div
@@ -106,6 +108,12 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
     testo.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
+    //style
+    fixedContent.style.position = "absolute";
+    fixedContent.style.paddingTop = "1rem";
+    fixedContent.style.paddingBottom = "1rem";
+    row.style.paddingTop = "4rem";
+
   } else {
     // Hide the bottom div
     columnToDelete.classList.add("hide");
@@ -114,6 +122,11 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
     testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
+    //style
+    fixedContent.style.position = "sticky";
+    fixedContent.style.paddingTop = "0";
+    fixedContent.style.paddingBottom = "0";
+    row.style.paddingTop = "1rem";
   };
 };
 
@@ -123,6 +136,8 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
   var columnToDelete = document.getElementById("colonnaD");
   var i = document.getElementById("enlargerLeft");
   var caption = document.getElementById("popupL");
+  var fixedContent = document.getElementById("fixedContent");
+  var row = document.getElementById("row-rem");
 
   if (columnToDelete.classList.contains("hide")) {
     // Show the bottom div
@@ -132,6 +147,11 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
     caption.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
+    //style
+    fixedContent.style.position = "absolute";
+    fixedContent.style.paddingTop = "1rem";
+    fixedContent.style.paddingBottom = "1rem";
+    row.style.paddingTop = "4rem";
   } else {
     // Hide the bottom div
     columnToDelete.classList.add("hide");
@@ -140,6 +160,11 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
     caption.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
+    //style
+    fixedContent.style.position = "sticky";
+    fixedContent.style.paddingTop = "0";
+    fixedContent.style.paddingBottom = "0";
+    row.style.paddingTop = "1rem";
   };
 };
 
