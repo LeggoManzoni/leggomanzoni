@@ -26,7 +26,6 @@ function fetchChapter(chapter) {
             const chapterElement = document.querySelector('.text-chapter');
             console.log(chapter);
             if (chapterElement) {
-                console.log(chapterElement);
                 chapterElement.innerHTML = data;
                 highlightHoveredItem();  // Call the highlight function here
             }
@@ -40,9 +39,6 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
         .then(response => response.text())
         .then(data => {
             const element = document.querySelector(selector);
-            console.log(endpoint);
-            console.log(selector);
-            console.log(attribute);
             if (element) {
                 element.innerHTML = data;
                 element.setAttribute(attribute, data);
