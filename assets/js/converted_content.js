@@ -28,10 +28,12 @@ function fetchChapter(chapter) {
             if (chapterElement) {
                 console.log(chapterElement);
                 chapterElement.innerHTML = data;
+                highlightHoveredItem();  // Call the highlight function here
             }
         })
         .catch(console.error);
 }
+
 
 function fetchAndDisplayData(endpoint, selector, attribute) {
     fetch(endpoint)
@@ -44,11 +46,13 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
             if (element) {
                 element.innerHTML = data;
                 element.setAttribute(attribute, data);
+                highlightHoveredItem();  // Call the highlight function here
             }
         })
         .then(removeHighlightFromHoverItems())
         .catch(console.error);
 }
+
 
 function setupMutationObserver(selector) {
     const targetNode = document.querySelector(selector);
@@ -109,12 +113,13 @@ function highlightHoveredItem() {
         const hoverItemId = hoverItem.getAttribute('data-id');
         const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
 
-        // If a corresponding scroll-item exists, toggle the highlight class
+        // If a corresponding scroll-item exists, add the highlight class
         if (correspondingScrollItem) {
-            hoverItem.classList.toggle('highlight');
+            hoverItem.classList.add('highlight');  // Use add instead of toggle
         }
     });
 }
+
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById('upperDiv');
