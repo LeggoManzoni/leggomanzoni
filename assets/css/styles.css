@@ -11717,12 +11717,15 @@ header.masthead h1, header.masthead .h1 {
   text-decoration-thickness: 3px;
 }
 
-.highlight-comment {
+.highlight-text {
   display: inline;
-	padding: 0.5em 0em;
+  padding: 0.5em 0em;
   background-color: white;
-  box-shadow: 1em 0 0 white,-1em 0 0 white;
   box-decoration-break: clone;
+}
+
+.highlight-comment {
+  box-shadow: 1em 0 0 white, -1em 0 0 white;
 }
 
 .navbar-nav:hover {

@@ -126,11 +126,14 @@ function setupHoverScrolling() {
 
             // Find the corresponding element in the right column by data-related-id
             let correspondingElement;
+            let startId, endId;
             const elements = Array.from(document.querySelectorAll('.scroll-item'));
             for (let i = 0; i < elements.length; i++) {
                 const currentId = parseInt(elements[i].getAttribute('data-related-id'), 10);
                 if (currentId >= dataId) {
                     correspondingElement = elements[i];
+                    startId = parseInt(elements[i].getAttribute('data-related-id'), 10);
+                    endId = parseInt(elements[i].getAttribute('data-end-id'), 10);
                     break;
                 }
             }
@@ -143,9 +146,20 @@ function setupHoverScrolling() {
                 // Scroll the corresponding element into view in the right column
                 commentsContainer.scrollTop = correspondingElementTop;
                 for (let i = 0; i < elements.length; i++) {
-                    elements[i].classList.remove('highlight-comment');
+                    elements[i].classList.remove('highlight-text', 'highlight-comment');
                 }
-                correspondingElement.classList.add('highlight-comment');
+                correspondingElement.classList.add('highlight-text', 'highlight-comment');
+
+                // Highlight the elements with class hover-item and data-id between startId and endId
+                const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
+                for (let i = 0; i < hoverItems.length; i++) {
+                    const hoverItemId = hoverItems[i].getAttribute('data-id');
+                    if (hoverItemId >= startId && hoverItemId <= endId) {
+                        hoverItems[i].classList.add('highlight-text'); // Add the underline class
+                    } else {
+                        hoverItems[i].classList.remove('highlight-text'); // Remove the underline class if not in the range
+                    }
+                }
             }
         }
     });
