@@ -24,7 +24,6 @@ function fetchChapter(chapter) {
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
-            console.log(chapter);
             if (chapterElement) {
                 chapterElement.innerHTML = data;
                 highlightHoveredItem();  // Call the highlight function here
@@ -56,7 +55,7 @@ function setupMutationObserver(selector) {
         const observer = new MutationObserver((mutationsList) => {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                    const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini';
+                    const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
                     fetchAndDisplayData(`/get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
                 }
             }

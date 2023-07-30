@@ -55,7 +55,7 @@ function convertCommentXMLToHtml(authorName) {
       return transformedXml;
 
     } else {
-      console.log("No matching entry found for the specified author.");
+      console.log("No matching entry found for the specified author.", authorName);
       return "";
     }
   } catch (err) {
