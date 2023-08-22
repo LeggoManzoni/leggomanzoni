@@ -28,6 +28,7 @@
                               <pubPlace>Roma</pubPlace>
                               <publisher>Salerno</publisher>
                               <date>2006</date>
+                              <note type="schedaeditoriale"></note>
                         </bibl>
                         <listBibl>
                               <bibl xml:id="letteremanzoni">Alessandro Manzoni, Lettere</bibl>
@@ -70,7 +71,11 @@
                         </listBibl>
                   </sourceDesc>
             </fileDesc>
+            <encodingDesc>
+                   <p>I capitoli disponibili sono i seguenti: Introduzione, cap. 1. </p> 
+             </encodingDesc> 
       </teiHeader>
+
       <text>
             <body>
                   <div xml:id="BadConf_intro">
