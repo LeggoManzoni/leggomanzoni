@@ -11474,11 +11474,22 @@ header.masthead h1, header.masthead .h1 {
   overflow-y:scroll;
 }
 
+#colonnaD *::-webkit-scrollbar{
+  width: 0px;
+}
+
 .divisione{
   overflow-y:scroll;
   text-align:justify;
   height:38vh;
   padding-right: 1em; 
+  background-color: #DDDCDA;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2em;
+}
+
+#destra *::-webkit-scrollbar{
+  width: 6px;
 }
 
 .dropdown-menu {
@@ -11748,11 +11759,7 @@ header.masthead h1, header.masthead .h1 {
   padding: 2em;
   padding-bottom: 2em;
 }
-.colonnadestra{
-  background-color: #DDDCDA;
-  border-radius: 10px 10px 10px 10px;
-  padding: 2em;
-}
+
 
 .vignette-page{
   background: no-repeat scroll center scroll;
@@ -11787,3 +11794,6 @@ header.masthead h1, header.masthead .h1 {
   padding-bottom: 1rem;
 }
 
+#fixedContent2{
+  padding-left: 2rem;
+}
