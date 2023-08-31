@@ -106,12 +106,25 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="toggle-commenti1" data-bs-toggle="dropdown" aria-expanded="false"
                                             style="text-align: left">
-                                            Commenti
+                                            Commento 1
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                             <% commenti.forEach((comment)=> { %>
                                                 <li><a class="dropdown-item comment-link" data-comment="<%= comment %>"
                                                         href="#">
+                                                        <%= comment %>
+                                                    </a></li>
+                                                <% }); %>
+                                        </ul>
+                                        <button class="btn btn-secondary dropdown-toggle hide" type="button"
+                                            id="toggle-commenti2" data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="text-align: left">
+                                            Commento 2
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <% commenti.forEach((comment)=> { %>
+                                                <li><a class="dropdown-item comment-link-2"
+                                                        data-comment="<%= comment %>" href="#">
                                                         <%= comment %>
                                                     </a></li>
                                                 <% }); %>
@@ -128,11 +141,6 @@
                                         <div id="popupR">Clicca su questo bottone per visualizzare il commento in
                                             modalità full-screen.
                                         </div>
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="toggle-commenti2" data-bs-toggle="dropdown" aria-expanded="false"
-                                            style="text-align: left">
-                                            Commenti
-                                        </button>
                                     </div>
                             <div class="colonnadestra" id="destra">
                                 <div class="divisione singularText" id="upperDiv">
@@ -144,14 +152,6 @@
                                 </div>
                                 <div class="divisione hide" id="bottomDiv">
                                     <div class="header" id="2b-header">
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <% commenti.forEach((comment)=> { %>
-                                                <li><a class="dropdown-item comment-link-2"
-                                                        data-comment="<%= comment %>" href="#">
-                                                        <%= comment %>
-                                                    </a></li>
-                                                <% }); %>
-                                        </ul>
                                         <div class="text-comment-bottom">
 
                                         </div>

@@ -74,6 +74,8 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
   var upperDiv = document.getElementById("upperDiv");
   var icon = document.getElementById("splitButton");
   var text = document.getElementById("popup");
+  var buttonComments = document.getElementById("toggle-commenti2");
+
   if (bottomDiv.classList.contains("hide")) {
     // Show the bottom div
     bottomDiv.classList.remove("hide");
@@ -81,6 +83,7 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
     icon.classList.remove("bi-plus-circle");
     icon.classList.add("bi-dash-circle");
     text.textContent = "Clicca su questo bottone per visualizzare un solo commento.";
+    buttonComments.classList.remove("hide");
   } else {
     // Hide the bottom div
     bottomDiv.classList.add("hide");
@@ -88,6 +91,7 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
     icon.classList.remove("bi-dash-circle");
     icon.classList.add("bi-plus-circle");
     text.textContent = "Clicca su questo bottone per visualizzare due commenti.";
+    buttonComments.classList.add("hide");
   };
 };
 
