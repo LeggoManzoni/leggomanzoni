@@ -11491,6 +11491,9 @@ header.masthead h1, header.masthead .h1 {
 #destra *::-webkit-scrollbar{
   width: 6px;
 }
+#fixedContent2 *::-webkit-scrollbar{
+  width: 6px;
+}
 
 .dropdown-menu {
   max-height:200px;
