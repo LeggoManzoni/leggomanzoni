@@ -3,7 +3,7 @@ const path = require('path');
 const { XMLParser } = require("fast-xml-parser");
 
 const xmlFolder = './commenti/xml/in_lavorazione/'; 
-const jsonOutputFile = './output.json'; 
+const jsonOutputFile = './commenti/output.json'; 
 
 const xmlFiles = fs.readdirSync(xmlFolder).filter(file => path.extname(file) === '.xml');
 
@@ -24,8 +24,8 @@ const fileInfoList = xmlFiles.map(file => {
   const city = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.pubPlace;
   const publisher = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.publisher;
   const marcatura = jsonObj.TEI.teiHeader.fileDesc.titleStmt.respStmt;
+  const notes = jsonObj.TEI.teiHeader.encodingDesc;
 
-  
   return {
     filename: file,
     title,
@@ -34,8 +34,21 @@ const fileInfoList = xmlFiles.map(file => {
     date,
     city,
     publisher,
-    marcatura
+    marcatura,
+    notes
   };
 });
 
-fs.writeFileSync(jsonOutputFile, JSON.stringify(fileInfoList, null, 2));
+// Read existing JSON file if it exists
+let existingFileContent = null;
+if (fs.existsSync(jsonOutputFile)) {
+  existingFileContent = JSON.parse(fs.readFileSync(jsonOutputFile, 'utf8'));
+}
+
+// Compare new and existing JSON content
+const isNewContentDifferent = JSON.stringify(existingFileContent) !== JSON.stringify(fileInfoList);
+
+// Write new content only if it is different
+if (isNewContentDifferent) {
+  fs.writeFileSync(jsonOutputFile, JSON.stringify(fileInfoList, null, 2));
+}

@@ -7,7 +7,7 @@ const router = express.Router();
 
 /* commenti */
 router.get("/commenti", (req, res) => {
-    fs.readFile('output.json', 'utf8', (err, data) => {
+    fs.readFile('./commenti/output.json', 'utf8', (err, data) => {
         if (err) throw err;
         const jsonData = JSON.parse(data);
         res.render('commenti', { data: jsonData });

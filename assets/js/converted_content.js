@@ -115,6 +115,20 @@ function highlightHoveredItem() {
     });
 }
 
+function highlightHoveredItemWithPencil() {
+    const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
+    const scrollItems = Array.from(document.querySelectorAll('.scroll-item'));
+    hoverItems.forEach(hoverItem => {
+        const hoverItemId = hoverItem.getAttribute('data-id');
+        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+
+        // If a corresponding scroll-item exists, add the highlight class
+        if (correspondingScrollItem) {
+            hoverItem.classList.toggle('highlight');  // Use toggle
+        }
+    });
+}
+
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById('upperDiv');
@@ -155,6 +169,8 @@ function setupHoverScrolling() {
                 for (let i = 0; i < hoverItems.length; i++) {
                     const hoverItemId = hoverItems[i].getAttribute('data-id');
                     if (hoverItemId >= startId && hoverItemId <= endId) {
+                        hoverItems[i].classList.add('highlight-text'); // Add the underline class
+                    } else if (hoverItemId == startId) {
                         hoverItems[i].classList.add('highlight-text'); // Add the underline class
                     } else {
                         hoverItems[i].classList.remove('highlight-text'); // Remove the underline class if not in the range
