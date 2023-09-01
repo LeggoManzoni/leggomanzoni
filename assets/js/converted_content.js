@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const defaultChapter = 'intro';
 
     // Fetch and display the default comment and chapter
-    fetchAndDisplayData(`/get-comment/${defaultComment}`, '.text-comment-top', 'data-active-comment');
-    fetchChapter(`/get-chapter/${defaultChapter}`, '.text-chapter');
+    fetchAndDisplayData(`./get-comment/${defaultComment}`, '.text-comment-top', 'data-active-comment');
+    fetchChapter(`./get-chapter/${defaultChapter}`, '.text-chapter');
 
     // Setup MutationObserver
     setupMutationObserver('.divisione');
@@ -56,7 +56,7 @@ function setupMutationObserver(selector) {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
-                    fetchAndDisplayData(`/get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
+                    fetchAndDisplayData(`./get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
                 }
             }
         });
@@ -69,7 +69,7 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-comment');
-            fetchAndDisplayFunction(`/get-comment/${data}`, displaySelector, 'data-active-comment');
+            fetchAndDisplayFunction(`./get-comment/${data}`, displaySelector, 'data-active-comment');
         });
     });
 }
@@ -80,7 +80,7 @@ function setupChapterClickListener(selector, fetchAndDisplayFunction, displaySel
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-chapter');
-            fetchAndDisplayFunction(`/get-chapter/${data}`, displaySelector, 'text-chapter');
+            fetchAndDisplayFunction(`./get-chapter/${data}`, displaySelector, 'text-chapter');
         });
     });
 }
