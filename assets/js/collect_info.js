@@ -25,6 +25,7 @@ const fileInfoList = xmlFiles.map(file => {
   const publisher = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.publisher;
   const marcatura = jsonObj.TEI.teiHeader.fileDesc.titleStmt.respStmt;
   const notes = jsonObj.TEI.teiHeader.encodingDesc;
+  const description = jsonObj.TEI.teiHeader.fileDesc.sourceDesc.bibl.note;
 
   return {
     filename: file,
@@ -35,7 +36,8 @@ const fileInfoList = xmlFiles.map(file => {
     city,
     publisher,
     marcatura,
-    notes
+    notes,
+    description
   };
 });
 
