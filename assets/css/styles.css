@@ -11692,8 +11692,10 @@ header.masthead h1, header.masthead .h1 {
 .modal-body {padding: 2px 16px;}
 
 .image-home{
-  margin-left: 60%;
-  padding-top: 10%;
+  background-size: cover;
+  background-image: url("../img/cover.jpg");
+  background: no-repeat scroll center scroll;
+  background-repeat: no-repeat;
 }
 
 .dropdownContent{
