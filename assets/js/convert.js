@@ -33,7 +33,7 @@ function convertXmlToHtml(chapter_id) {
 function convertCommentXMLToHtml(authorName) {
   try {
     // Read and parse JSON file synchronously
-    const data = fs.readFileSync('output.json', 'utf8');
+    const data = fs.readFileSync('./commenti/output.json', 'utf8');
     const commentiInfo = JSON.parse(data);
 
     // Filter for the matching author's name
