@@ -82,7 +82,7 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
     upperDiv.classList.remove("singularText");
     icon.classList.remove("bi-plus-circle");
     icon.classList.add("bi-dash-circle");
-    text.textContent = "Clicca su questo bottone per visualizzare un solo commento.";
+    text.textContent = "Clicca qui per visualizzare un solo commento.";
     buttonComments.classList.remove("hide");
   } else {
     // Hide the bottom div
@@ -90,7 +90,7 @@ let toggleColumn = () => {  // Function for modifying the right column and showi
     upperDiv.classList.add("singularText");
     icon.classList.remove("bi-dash-circle");
     icon.classList.add("bi-plus-circle");
-    text.textContent = "Clicca su questo bottone per visualizzare due commenti.";
+    text.textContent = "Clicca qui per visualizzare due commenti.";
     buttonComments.classList.add("hide");
   };
 };
@@ -111,7 +111,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     columnToMantain.classList.add("col-6");
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
-    testo.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
+    testo.textContent = "Clicca qui per visualizzare il commento in modalità full-screen.";
     //style
     fixedContent.style.position = "absolute";
     fixedContent.style.paddingTop = "1rem";
@@ -125,7 +125,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     columnToMantain.classList.add("col-12");
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
-    testo.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
+    testo.textContent = "Clicca qui per tornare alla visualizzazione su due colonne.";
     //style
     fixedContent.style.position = "sticky";
     fixedContent.style.paddingTop = "0";
@@ -150,7 +150,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     columnToMantain.classList.add("col-6");
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
-    caption.textContent = "Clicca su questo bottone per visualizzare il commento in modalità full-screen.";
+    caption.textContent = "Clicca qui per visualizzare il commento in modalità full-screen.";
     //style
     fixedContent.style.position = "absolute";
     fixedContent.style.paddingTop = "1rem";
@@ -163,7 +163,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     columnToMantain.classList.add("col-12");
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
-    caption.textContent = "Clicca su questo bottone per tornare alla visualizzazione su due colonne.";
+    caption.textContent = "Clicca qui per tornare alla visualizzazione su due colonne.";
     //style
     fixedContent.style.position = "sticky";
     fixedContent.style.paddingTop = "0";
@@ -184,7 +184,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
     styleFont.classList.add("accessibilityFont");
     i.classList.add("bi-file-earmark-font-fill");
     i.classList.remove("bi-file-earmark-font");
-    captionFont.textContent = "Clicca su questo bottone per tornare al font principale.";
+    captionFont.textContent = "Torna al font principale.";
 
     // Change the font style of the body back to the main font
     document.body.style.fontFamily = "Tahoma";
@@ -195,7 +195,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
     styleFont.classList.remove("accessibilityFont");
     i.classList.add("bi-file-earmark-font");
     i.classList.remove("bi-file-earmark-font-fill");
-    captionFont.textContent = "Clicca su questo bottone per cambiare il font dei testi migliorandone la leggibilità.";
+    captionFont.textContent = "Clicca qui per il font ad alta leggibilità.";
 
     document.body.style.fontFamily = "";
     document.body.style.fontSize = "17px";
@@ -211,13 +211,13 @@ let changePencil = () => {     // Function for changing the pencil icon for unde
     // Show the bottom div
     i.classList.add("bi-pencil");
     i.classList.remove("bi-pencil-fill");
-    captionFont.textContent = "Clicca su questo bottone per eliminare le note di commento.";
+    captionFont.textContent = "Clicca qui per eliminare le note di commento.";
 
   } else {
     // Hide the bottom div
     i.classList.add("bi-pencil-fill");
     i.classList.remove("bi-pencil");
-    captionFont.textContent = "Clicca su questo bottone per visualizzare le note di commento.";
+    captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
 
   }
 };
