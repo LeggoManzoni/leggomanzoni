@@ -3949,6 +3949,8 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
+
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
@@ -11381,13 +11383,13 @@ hr.divider-light {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: #73978B;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #73978B;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #73978B;;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #73978B;
@@ -11554,54 +11556,42 @@ header.masthead h1, header.masthead .h1 {
 }
 #popup, #popupL, #popupR, #popupScroll, #popupScroll2, #popupFont, #popupUnderline{
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
-  font-size: small;
   padding: 10px;
   z-index: 1;
-  max-width: 20em;
+  max-width: 30em;
+  font-size: 15px;
 }
 
 .underline:hover + #popupUnderline {
   display: block;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 7%; 
+  margin-left: 5rem; 
 }
 
 .font-button:hover + #popupFont {
   display: block;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 11%; 
+  margin-left: 9rem; 
 }
 .add-button:hover + #popup {
   display: block;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 9%; 
+  margin-left: 7.5rem; 
 }
 
 .enlarger:hover + #popupL {
   display: block;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 9%; 
+  margin-left: 7.5rem; 
 }
 
 .enlarger:hover + #popupR {
   display: block;
   border-radius: 10px 10px 10px 10px;
-  margin-left: 11%; 
-}
-
-#scrollAuto:hover + #popupScroll {
-  display: block;
-  border-radius: 10px 10px 10px 10px;
-  margin-left: 13%; 
-}
-
-#scrollAuto2:hover + #popupScroll2 {
-  display: block;
-  border-radius: 10px 10px 10px 10px;
-  margin-left: 9%; 
+  margin-left: 9rem; 
 }
 
 #normalFont{
@@ -11697,8 +11687,14 @@ header.masthead h1, header.masthead .h1 {
 .modal-body {padding: 2px 16px;}
 
 .image-home{
-  background-size: cover;
-  background-image: url("../img/cover.jpg");
+  background-size: contain;
+  background-image: url("../img/frontespizio.png");
+  background: no-repeat scroll center scroll;
+  background-repeat: no-repeat;
+}
+.firma{
+  background-size: 500px;
+  background-image: url("../img/firma.png");
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
 }
@@ -11805,8 +11801,17 @@ header.masthead h1, header.masthead .h1 {
   padding-left: 2rem;
 }
 
-.nav-link:active{
+.nav-link:focus{
   color: #fff;
-  background-color: #73978B !important;
+  background-color: #73978B;
   border-radius: 10px 10px 10px 10px;
+}
+
+.testo{
+  height: 80.5vh;
+  overflow-y: scroll;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

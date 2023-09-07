@@ -55,6 +55,7 @@ let navbarShrink = () => { // Navbar shrink function
   });
 }
 
+
 /* Function for collecting ids */
 let collectId = () => {     // function for splitting the id content 
 
@@ -323,6 +324,19 @@ let arrowCommenti = () => {
     });
   });
 };
+
+/*let highlightBtn = () => {
+  var navBtn = document.getElementById("navBtn");
+
+  navBtn.addEventListener("click", function () {
+
+  if (navBtn.classList.contains("activeButton")) {
+    navBtn.classList.remove("activeButton");
+}else{
+  navBtn.classList.add("activeButton");
+}
+}
+)}*/
 
 /*Function orderByTimeOrName*/
 let orderByTimeOrName = () => {
