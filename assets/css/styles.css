@@ -11360,7 +11360,7 @@ hr.divider-light {
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
-    background-color: #73978B;
+    background-color: #BCC8B1;
     border-radius: 10px 10px 10px 10px;
     padding: 0 1rem;
   }
@@ -11800,7 +11800,12 @@ header.masthead h1, header.masthead .h1 {
   margin-left: 70px; 
 }
 
-#fixedContent, #fixedContent2{
+#fixedContent{
+  position: absolute;
+  padding-top: 0.5rem; 
+  padding-bottom: 1rem;
+}
+#fixedContent2{
   position: absolute; 
   padding-top: 1rem;
   padding-bottom: 1rem;
