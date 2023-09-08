@@ -205,7 +205,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
 
 /*Function changePencil*/
 let changePencil = () => {     // Function for changing the pencil icon for underlined content
-  var i = document.getElementById("underline");
+  var i = document.getElementById("highlightHoveredItem");
   var captionFont = document.getElementById("popupUnderline");
 
   if (i.classList.contains("bi-pencil-fill")) {
