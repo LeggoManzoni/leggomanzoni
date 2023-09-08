@@ -1384,7 +1384,6 @@ progress {
 
   .col-lg-5 {
     flex: 0 0 auto;
-    width: 41.66666667%;
   }
 
   .col-lg-6 {
@@ -11514,6 +11513,10 @@ header.masthead h1, header.masthead .h1 {
   height: 100vh; /* Set the height of the row */
   padding-top: 4rem; 
 }
+.rowvignette{
+  display: flex;
+  height: 100vh; /* Set the height of the row */
+}
 
 .col-6 {
   flex: 1; /* Each column takes 50% height */
@@ -11779,15 +11782,12 @@ header.masthead h1, header.masthead .h1 {
 .vignette-page{
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
-  background-image: url("../img/copertina_vignette.jpg");
-  background-size: 1250px;
+  background-image: url("../img/prova_collage.jpg");
+  background-size: 1380px;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.text-vignette{
-  padding: 0.3em;
-}
 
 .title-vignette{
   color: var(--bs-green);
