@@ -3066,6 +3066,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
+  font-size: 1.1rem;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3572,6 +3573,7 @@ textarea.form-control-lg {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  font-size: 1.1rem;
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
@@ -3948,7 +3950,6 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -4093,7 +4094,6 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -11343,19 +11343,19 @@ hr.divider-light {
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #DDEBDD;
-  transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
   font-family: "Cormorant Garamond", serif !important;
   font-style: italic;
   font-weight: 900;
+  font-size: 1.5rem;
   color: #fff;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
   font-family: "Cormorant Garamond", serif !important;
   font-weight: 1000;
-  font-size: 1rem;
+  font-size: 1.12rem;
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
@@ -11445,8 +11445,8 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 5rem;
     font-style: italic;
-    margin-bottom: 17%;
-    margin-left: 64%;
+    margin-bottom: 20%;
+    margin-left: 75%;
     text-shadow: 1px 1px 2px #BCC8B1;
   }
 }
@@ -11724,7 +11724,7 @@ header.masthead h1, header.masthead .h1 {
 
 .image-home{
   background-size: cover;
-  background-image: url("../img/frontespizio7.png");
+  background-image: url("../img/frontespizio8.png");
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
   opacity: 1;
@@ -11735,15 +11735,7 @@ header.masthead h1, header.masthead .h1 {
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
 }
-/*
-.firmaTitolo{
-  background-size: 400px;
-  background-image: url("../img/firma.png");
-  background: no-repeat scroll center scroll;
-  background-repeat: no-repeat;
-  margin-left: 55%;
-  z-index: 1;
-}*/
+
 
 .dropdownContent{
   display: none;

@@ -3,3 +3,9 @@
 body{
     font-family: 'Cormorant Garamond', serif !important; 
 }
+
+#mainNav .navbar-nav .nav-item .nav-link:focus {
+    color: #fff !important;
+    background-color: #73978B !important;
+    border-radius: 10px 10px 10px 10px !important;
+}
