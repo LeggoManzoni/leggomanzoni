@@ -10,13 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @font-face {
-  font-family: "Cormorant Garamond";
-  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('ttf');
-  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Light.ttf') format('ttf');
-  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Italic.ttf') format('ttf');
-  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Bold.ttf') format('ttf');
-}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11449,7 +11443,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 4.7rem;
+    font-size: 5rem;
     font-style: italic;
     margin-bottom: 17%;
     margin-left: 64%;
