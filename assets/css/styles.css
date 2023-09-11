@@ -10,7 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- 
+ @font-face {
+  font-family: "Cormorant Garamond";
+  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('ttf');
+  src: url('./assets/css/Cormorant_Garamond/CormorantGaramond-Light.ttf') format('ttf');
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -61,6 +65,7 @@
   --bs-body-bg: #fff;
 }
 
+
 *,
 *::before,
 *::after {
@@ -75,7 +80,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: "Cormorant Garamond", serif !important;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -11386,6 +11391,11 @@ hr.divider-light {
     background-color: #73978B;
     border-radius: 10px 10px 10px 10px;
   }
+  #mainNav .navbar-nav .nav-item .nav-link:active{
+    color: #fff;
+    background-color: #73978B;
+    border-radius: 10px 10px 10px 10px;
+  }
 
 
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -11437,8 +11447,10 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 6.7rem;
+    font-size: 4.7rem;
     font-style: italic;
+    margin-bottom: 17%;
+    margin-left: 64%;
     text-shadow: 1px 1px 2px #BCC8B1;
   }
 }
@@ -11716,7 +11728,7 @@ header.masthead h1, header.masthead .h1 {
 
 .image-home{
   background-size: cover;
-  background-image: url("../img/frontespizio5.png");
+  background-image: url("../img/frontespizio7.png");
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
   opacity: 1;
@@ -11727,7 +11739,7 @@ header.masthead h1, header.masthead .h1 {
   background: no-repeat scroll center scroll;
   background-repeat: no-repeat;
 }
-
+/*
 .firmaTitolo{
   background-size: 400px;
   background-image: url("../img/firma.png");
@@ -11735,7 +11747,7 @@ header.masthead h1, header.masthead .h1 {
   background-repeat: no-repeat;
   margin-left: 55%;
   z-index: 1;
-}
+}*/
 
 .dropdownContent{
   display: none;
@@ -11758,11 +11770,11 @@ header.masthead h1, header.masthead .h1 {
 .dropdown-item:hover{
   background-color: #73978B; 
 }
-.nav-item:hover{
+.nav-item:hover, .nav-item:focus{
   color: white;
 }
 
-#chronologicalBtn:hover, #antichronologicalBtn:hover, #alphabeticalBtn:hover{
+#chronologicalBtn:hover, #antichronologicalBtn:hover, #alphabeticalBtn:hover, #chronologicalBtn:focus, #antichronologicalBtn:focus, #alphabeticalBtn:focus{
   background-color: #73978B;
 }
 
@@ -11823,7 +11835,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .aboutvignette{
-  margin-left: 70px; 
+  margin-left: 0px; 
 }
 
 #fixedContent{
