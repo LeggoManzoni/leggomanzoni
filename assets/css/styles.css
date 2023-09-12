@@ -11391,7 +11391,7 @@ hr.divider-light {
     color: #73978B;
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: white !important;
     background-color: #BCC8B1;
     border-radius: 10px 10px 10px 10px;
     padding: 0 1rem;
@@ -11401,16 +11401,11 @@ hr.divider-light {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover{
-    color: #fff;
     background-color: #73978B;
     border-radius: 10px 10px 10px 10px;
+    color: white !important;
   }
-  #mainNav .navbar-nav .nav-item .nav-link:active{
-    color: #fff;
-    background-color: #73978B;
-    border-radius: 10px 10px 10px 10px;
-  }
-
+  
 
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 1;
