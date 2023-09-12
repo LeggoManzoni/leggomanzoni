@@ -11787,6 +11787,7 @@ header.masthead h1, header.masthead .h1 {
 
 #chronologicalBtn:hover, #antichronologicalBtn:hover, #alphabeticalBtn:hover, #chronologicalBtn:focus, #antichronologicalBtn:focus, #alphabeticalBtn:focus{
   background-color: #73978B;
+  color: white;
 }
 
 .highlight {
@@ -11872,6 +11873,7 @@ header.masthead h1, header.masthead .h1 {
 
 .testo{
   height: 80.5vh;
+  width: 1280px;
   overflow-y: scroll;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
