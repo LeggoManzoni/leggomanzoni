@@ -3068,7 +3068,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3219,7 +3219,7 @@ textarea.form-control-lg {
   color: #000;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .btn-light:hover {
   color: #000;
@@ -3575,7 +3575,7 @@ textarea.form-control-lg {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
@@ -5108,7 +5108,7 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   text-align: justify; 
   margin: 0.5%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -11378,6 +11378,8 @@ hr.divider-light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #DDEBDD;
+  background-color: #73978B;
+  border-radius: 10px;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #DDEBDD !important;
@@ -11848,6 +11850,8 @@ header.masthead h1, header.masthead .h1 {
 
 .aboutvignette{
   margin-left: 0px; 
+  position: absolute;
+  right: 41%;
 }
 
 #fixedContent{
