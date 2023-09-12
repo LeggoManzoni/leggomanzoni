@@ -7395,7 +7395,10 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-  margin-left: 70%;
+  position: absolute;
+  right: 100px;
+  bottom:320px;
+  color: #BE5749;
 }
 
 .mb-auto {
@@ -11328,6 +11331,19 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  position: absolute;
+  right: 280px;
+  bottom: 280px;
+}
+
+.btn-intro {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  margin-left:72.5%;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
 }
 
 hr.divider {
@@ -11450,6 +11466,10 @@ header.masthead h1, header.masthead .h1 {
     margin-bottom: 20%;
     margin-left: 75%;
     text-shadow: 1px 1px 2px #BCC8B1;
+    position: absolute;
+    right: 370px;
+    top: 220px;
+    color: #BE5749 !important;
   }
 }
 
@@ -11732,6 +11752,12 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 .firma{
+  background-size: 500px;
+  background-image: url("../img/firma.png");
+  background: no-repeat scroll center scroll;
+  background-repeat: no-repeat;
+}
+.firmaTitolo{
   background-size: 500px;
   background-image: url("../img/firma.png");
   background: no-repeat scroll center scroll;
