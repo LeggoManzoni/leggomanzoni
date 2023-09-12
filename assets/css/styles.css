@@ -185,7 +185,8 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.15rem;
+  font-size: 1.12rem;
 }
 
 ol ol,
@@ -211,6 +212,7 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  color: #BE5749;
 }
 
 small, .small {
@@ -11435,7 +11437,7 @@ header.masthead h1, header.masthead .h1 {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11858,7 +11860,9 @@ header.masthead h1, header.masthead .h1 {
 
 .testo2{
   height: 33.5vh;
+  overflow-y: scroll;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   padding: 2rem;
 }
+
