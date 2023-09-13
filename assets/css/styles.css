@@ -126,7 +126,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -263,9 +263,9 @@ samp {
   unicode-bidi: bidi-override;
 }
 
-p{
+p, ul, ol, li, b, a{
   text-align: justify;
-  font-size: 19px;
+  font-size: 21px;
 }
 
 pre {
@@ -7396,7 +7396,7 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
   position: absolute;
-  right: 100px;
+  right: 80px;
   bottom:320px;
   color: #BE5749;
 }
@@ -11364,7 +11364,6 @@ hr.divider-light {
 }
 #mainNav .navbar-brand {
   font-family: "Cormorant Garamond", serif !important;
-  font-style: italic;
   font-weight: 900;
   font-size: 1.5rem;
   color: #fff;
@@ -11449,9 +11448,6 @@ header.masthead h1, header.masthead .h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-  header.masthead p {
-    font-size: 1.2rem;
-  }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
   }
@@ -11459,7 +11455,6 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
     font-size: 5rem;
-    font-style: italic;
     margin-bottom: 20%;
     margin-left: 75%;
     text-shadow: 1px 1px 2px #BCC8B1;
