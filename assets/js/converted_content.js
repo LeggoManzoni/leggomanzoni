@@ -42,15 +42,19 @@ function changeClassAndFetchData(defaultChapter) {
     // Change the class to 'bi bi-image-fill'
     const chapter = document.querySelector(".chapter-link").getAttribute("data-chapter");
     const imageIcon = document.getElementById("imageIcon");
+    const popupImage = document.getElementById("popupImage");
 
     if (imageIcon.className === "bi bi-card-image") {
         
         // Change the class to 'bi bi-image-fill'
         imageIcon.className = "bi bi-image-fill";
+         // Change the popup
+         popupImage.textContent = "Visualizza il testo senza le immagini.";
     } else {
         // Change the class to 'bi bi-card-image'
-
         imageIcon.className = "bi bi-card-image";
+        // Change the popup
+        popupImage.textContent = "Visualizza il testo con le immagini.";
     }
     fetchChapter(chapter);
 }

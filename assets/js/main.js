@@ -188,7 +188,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
     captionFont.textContent = "Torna al font principale.";
 
     // Change the font style of the body back to the main font
-    document.body.style.fontFamily = "Tahoma";
+    document.body.style.fontFamily =  "Montserrat"; 
     document.body.style.fontSize = "20px";
   } else {
     // Hide the bottom div
