@@ -176,7 +176,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
 /*Function changeFont*/
 let changeFont = () => {     // Function for changing the font and switching to a more readable one
   var i = document.getElementById("fontButton");
-  var styleFont = document.getElementById("normalFont");
+  var styleFont = document.getElementById("fontToChange");
   var captionFont = document.getElementById("popupFont");
 
   if (i.classList.contains("bi-file-earmark-font")) {

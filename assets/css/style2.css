@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
     font-family: 'Cormorant Garamond', serif !important; 
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:focus-visible {
@@ -12,4 +15,8 @@ body{
 
 .creditsLink:hover{
     color: black;
+}
+
+.accessibilityFont{
+    font-family: 'Montserrat', sans-serif !important;
 }
