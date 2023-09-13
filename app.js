@@ -9,7 +9,7 @@ const path = require("path");
 const ejs = require('ejs');
 const fs = require('fs');
 
-const { convertXmlToHtml, convertCommentXMLToHtml } = require('./assets/js/convert.js');
+const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages } = require('./assets/js/convert.js');
 const { xmlInfo } = require('./assets/js/collect_info.js');
 
 /* app */
@@ -93,6 +93,18 @@ app.get('/get-chapter/:chapterName', function (req, res) {
     chapterName = "header";
   }
   converted_data = convertXmlToHtml(chapterName);
+  res.send(converted_data);
+});
+
+app.get('/get-chapter-with-images/:chapterName', function (req, res) {
+  var chapterName = req.params.chapterName;
+
+  if (chapterName === "Introduzione") {
+    chapterName = "intro";
+  } else if (chapterName === "Frontespizio") {
+    chapterName = "header";
+  }
+  converted_data = convertXmlToHtmlWithImages(chapterName);
   res.send(converted_data);
 });
 

@@ -29,6 +29,17 @@ function convertXmlToHtml(chapter_id) {
   return transformedXml;
 }
 
+function convertXmlToHtmlWithImages(chapter_id) {
+  xmlDoc = fs.readFileSync(`./quarantana/${chapter_id}.xml`, 'utf8');
+  xslStylesheet = fs.readFileSync(__dirname + '/chapter_with_images.xslt', 'utf8');
+
+  const xmlDocument = xmlParse(xmlDoc);
+  const xsltDocument = xmlParse(xslStylesheet);
+  const transformedXml = xsltProcess(xmlDocument, xsltDocument);
+  // fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
+  return transformedXml;
+}
+
 
 function convertCommentXMLToHtml(authorName) {
   try {
@@ -68,5 +79,6 @@ function convertCommentXMLToHtml(authorName) {
 
 module.exports = {
   convertXmlToHtml,
-  convertCommentXMLToHtml
+  convertCommentXMLToHtml,
+  convertXmlToHtmlWithImages
 };

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Fetch and display the default comment and chapter
     fetchAndDisplayData(`./get-comment/${defaultComment}`, '.text-comment-top', 'data-active-comment');
-    fetchChapter(`./get-chapter/${defaultChapter}`, '.text-chapter');
+    fetchChapter(defaultChapter);
 
     // Setup MutationObserver
     setupMutationObserver('.divisione');
@@ -16,11 +16,16 @@ document.addEventListener('DOMContentLoaded', function () {
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
 
     setupHoverScrolling();
+
 });
 
 
-function fetchChapter(chapter) {
-    fetch(chapter)
+function fetchChapter(defaultChapter) {
+    const imageElement = document.querySelector('.bi.bi-card-image');
+    let chapterURL = imageElement ? `./get-chapter/${defaultChapter}` : `./get-chapter-with-images/${defaultChapter}`;
+
+    // Proceed with the fetch operation
+    fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
@@ -30,6 +35,24 @@ function fetchChapter(chapter) {
             }
         })
         .catch(console.error);
+}
+
+
+function changeClassAndFetchData(defaultChapter) {
+    // Change the class to 'bi bi-image-fill'
+    const chapter = document.querySelector(".chapter-link").getAttribute("data-chapter");
+    const imageIcon = document.getElementById("imageIcon");
+
+    if (imageIcon.className === "bi bi-card-image") {
+        
+        // Change the class to 'bi bi-image-fill'
+        imageIcon.className = "bi bi-image-fill";
+    } else {
+        // Change the class to 'bi bi-card-image'
+
+        imageIcon.className = "bi bi-card-image";
+    }
+    fetchChapter(chapter);
 }
 
 
@@ -80,7 +103,7 @@ function setupChapterClickListener(selector, fetchAndDisplayFunction, displaySel
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-chapter');
-            fetchAndDisplayFunction(`./get-chapter/${data}`, displaySelector, 'text-chapter');
+            fetchAndDisplayFunction(data, displaySelector, 'text-chapter');
         });
     });
 }
@@ -92,7 +115,7 @@ function removeHighlightFromHoverItems() {
     hoverItems.forEach(hoverItem => {
         hoverItem.classList.remove('highlight');
     });
-    
+
 }
 
 
@@ -131,7 +154,7 @@ function highlightHoveredItemWithPencil() {
 
 
 function setupHoverScrolling() {
-    const commentsContainer = document.getElementById('upperDiv');
+    const commentsContainer = document.getElementById("upperDiv");
     document.addEventListener('click', function (event) {
         // Check if the clicked element has the class "hover-item"
         if (event.target.classList.contains('hover-item')) {
