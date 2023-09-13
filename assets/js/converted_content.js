@@ -154,17 +154,18 @@ function highlightHoveredItemWithPencil() {
             hoverItem.classList.toggle('highlight');  // Use toggle
         }
     });
+    //Change style to the pencil together with the popup
     var i = document.getElementById("highlightHoveredItem");
     var captionFont = document.getElementById("popupUnderline");
 
     if (i.classList.contains("bi-pencil-fill")) {
-        // Show the bottom div
+        
         i.classList.add("bi-pencil");
         i.classList.remove("bi-pencil-fill");
         captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
 
     } else {
-        // Hide the bottom div
+        
         i.classList.add("bi-pencil-fill");
         i.classList.remove("bi-pencil");
         captionFont.textContent = "Clicca qui per eliminare le note di commento.";
