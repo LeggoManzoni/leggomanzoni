@@ -107,6 +107,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
   var testo = document.getElementById("popupR");
   var fixedContent = document.getElementById("fixedContent2");
   var row = document.getElementById("row-rem");
+  var colD = document.getElementById("destra");
 
   if (columnToDelete.classList.contains("hide")) {
     // Show the enlarged div
@@ -121,7 +122,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     fixedContent.style.paddingTop = "1rem";
     fixedContent.style.paddingBottom = "1rem";
     row.style.paddingTop = "4rem";
-
+    colD.style.marginTop = "9%";
   } else {
     // Hide the bottom div
     columnToDelete.classList.add("hide");
@@ -135,6 +136,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     fixedContent.style.paddingTop = "0";
     fixedContent.style.paddingBottom = "0";
     row.style.paddingTop = "1rem";
+    colD.style.marginTop = "0.5%";
   };
 };
 
@@ -146,6 +148,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
   var caption = document.getElementById("popupL");
   var fixedContent = document.getElementById("fixedContent");
   var row = document.getElementById("row-rem");
+  var colS = document.getElementById("promessisposi");
 
   if (columnToDelete.classList.contains("hide")) {
     // Show the bottom div
@@ -160,6 +163,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     fixedContent.style.paddingTop = "1rem";
     fixedContent.style.paddingBottom = "1rem";
     row.style.paddingTop = "4rem";
+    colS.style.marginTop = "10%";
   } else {
     // Hide the bottom div
     columnToDelete.classList.add("hide");
@@ -173,6 +177,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     fixedContent.style.paddingTop = "0";
     fixedContent.style.paddingBottom = "0";
     row.style.paddingTop = "1rem";
+    colS.style.marginTop = "1%";
   };
 };
 
