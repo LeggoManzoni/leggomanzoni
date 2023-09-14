@@ -2,7 +2,7 @@
 <html lang="en">
     <!-- Head-->
     <%- include ("partials/head"); %>
-    <body id="page-top" onload="comments();">
+    <body id="page-top" onload="comments();"  class="normalFont">
         <!-- Navigation-->
         <%- include ("partials/navbar"); %> 
         <!-- Masthead-->
@@ -12,7 +12,7 @@
                     <h2>Indice dei commenti</h2>
                     <hr class="divider" />
                     <div class="order-button-group">
-                        <button type="button" class="btn btn-light order-button" data-order="chronological" id="chronologicalBtn">Dal più antico</button>
+                        <button type="button" class="btn btn-light order-button activeBtn" data-order="chronological" id="chronologicalBtn">Dal più antico</button>
                         <button type="button" class="btn btn-light order-button" data-order="chronological" id="antichronologicalBtn">Dal più recente</button>
                         <button type="button" class="btn btn-light order-button"data-order="alphabetical" id="alphabeticalBtn">Ordine alfabetico</button>
                       </div>

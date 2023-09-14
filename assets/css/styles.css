@@ -11375,11 +11375,13 @@ hr.divider-light {
   font-size: 1.12rem;
   padding: 0.75rem 0;
 }
-#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+#mainNav .navbar-nav .nav-item .nav-link:hover{
   color: #DDEBDD;
   background-color: #73978B;
   border-radius: 10px;
 }
+
+
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #DDEBDD !important;
 }
@@ -11391,12 +11393,7 @@ hr.divider-light {
   #mainNav .navbar-brand {
     color: #73978B;
   }
-  #mainNav .navbar-brand:hover {
-    color: white !important;
-    background-color: #BCC8B1;
-    border-radius: 10px 10px 10px 10px;
-    padding: 0 1rem;
-  }
+ 
   #mainNav .navbar-nav .nav-item .nav-link {
     color: #73978B;
     padding: 0 1rem;
@@ -11773,6 +11770,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .dropdown-item:hover{
   background-color: #73978B; 
+  color: white;
 }
 .nav-item:hover, .nav-item:focus{
   color: white;

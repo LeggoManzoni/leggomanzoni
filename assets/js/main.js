@@ -9,14 +9,17 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  navbarShrink();
+  navbarActive();
+ /* navbarShrink();*/
   collectId();
   popupButtons();
   modalFunction();
+  
 
 });
 
 /*Function for navbar shrink*/
+/*
 let navbarShrink = () => { // Navbar shrink function
   const navbarCollapsible = document.body.querySelector('#mainNav');
   if (!navbarCollapsible) {
@@ -53,7 +56,7 @@ let navbarShrink = () => { // Navbar shrink function
   new SimpleLightbox({       // Activate SimpleLightbox plugin for portfolio items
     elements: '#portfolio a.portfolio-box'
   });
-}
+}*/
 
 
 /* Function for collecting ids */
@@ -176,7 +179,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
 /*Function changeFont*/
 let changeFont = () => {     // Function for changing the font and switching to a more readable one
   var i = document.getElementById("fontButton");
-  var styleFont = document.getElementById("fontToChange");
+  var styleFont = document.getElementById("row-rem");
   var captionFont = document.getElementById("popupFont");
 
   if (i.classList.contains("bi-file-earmark-font")) {
@@ -339,6 +342,15 @@ let orderByTimeOrName = () => {
 
   var button = document.getElementById("chronologicalBtn");
   button.addEventListener("click", function () {
+
+    var btns = document.querySelectorAll(".order-button")
+
+    btns.forEach((btn) =>{
+      btn.classList.remove("activeBtn");
+    })
+    button.classList.add("activeBtn");
+
+
     items.sort(function (a, b) {
       return a.year - b.year;
     });
@@ -362,6 +374,14 @@ let orderByTimeOrName = () => {
 
   var antichronologicalBtn = document.getElementById("antichronologicalBtn");
   antichronologicalBtn.addEventListener("click", function () {
+
+    var btns = document.querySelectorAll(".order-button")
+
+    btns.forEach((btn) =>{
+      btn.classList.remove("activeBtn");
+    })
+    antichronologicalBtn.classList.add("activeBtn");
+
     items.sort(function (a, b) {
       return b.year - a.year;
     });
@@ -385,6 +405,14 @@ let orderByTimeOrName = () => {
 
   var alphabeticalBtn = document.getElementById("alphabeticalBtn");
   alphabeticalBtn.addEventListener("click", function () {
+    //remove active style
+    var btns = document.querySelectorAll(".order-button")
+
+    btns.forEach((btn) =>{
+      btn.classList.remove("activeBtn");
+    })
+    alphabeticalBtn.classList.add("activeBtn");
+
     var listGroup = document.querySelector(".list-group.comment-list-items");
     listGroup.innerHTML = "";
 
@@ -400,3 +428,27 @@ let comments = () => {
   orderByTimeOrName();
 };
 
+
+let navbarActive = () => {
+
+    var path = window.location.pathname;
+
+    var page = path.split("/").pop();
+
+    [].forEach.call(document.querySelectorAll(".nav-link"), (el) => {
+      
+      var item = el.getAttribute("href").replace("./", "");
+      
+        if (item == page) {
+
+            el.classList.add("activeNav");
+
+        } else {
+
+            el.classList.remove("activeNav");
+
+        };
+
+    });
+
+};

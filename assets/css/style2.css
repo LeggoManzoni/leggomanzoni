@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    font-family: 'Montserrat', sans-serif !important;
-    font-family: 'Cormorant Garamond', serif !important; 
-    
-
+.normalFont{
+    font-family: 'Cormorant Garamond', serif; 
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:focus-visible {
@@ -25,5 +22,14 @@ body{
     font-family: 'Montserrat', sans-serif !important;
 }
 
+.activeNav{
+    color: white !important;
+    background-color: #73978B;
+    border-radius: 10px;
+}
 
+.activeBtn{
+    color: white !important;
+    background-color: #73978B;
+}
 
