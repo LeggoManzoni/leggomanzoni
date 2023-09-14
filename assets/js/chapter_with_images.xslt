@@ -45,16 +45,16 @@
     </i>
   </xsl:template>
 
-<xsl:template match="figure">
-  <div class="thumbnail">
-    <img class="img-fluid" src="{graphic/@url}" alt="Responsive image"/>
-    <div class="caption">
-      <strong>
-        <xsl:value-of select="figDesc"/>
-      </strong>
+  <xsl:template match="figure">
+    <div class="thumbnail">
+      <img class="float-left m-3" src="{graphic/@url}" alt="Responsive image">
+        <xsl:attribute name="style">
+          <xsl:choose>
+            <xsl:when test="parent::p/@type = 'capolettera'">width: 30%;</xsl:when>
+            <xsl:otherwise>width: 80%;</xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute>
+      </img>
     </div>
-  </div>
-</xsl:template>
-
-
+  </xsl:template>
 </xsl:stylesheet>
