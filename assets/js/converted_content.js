@@ -29,8 +29,13 @@ function fetchChapter(defaultChapter) {
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
+            
+            
             if (chapterElement) {
                 chapterElement.innerHTML = data;
+                const test_chapter = document.querySelector('.text-chapter#whichpage');
+                const h1Element = test_chapter.querySelector('h1');
+                h1Element.className = defaultChapter;
                 highlightHoveredItem();  // Call the highlight function here
             }
         })
@@ -40,7 +45,13 @@ function fetchChapter(defaultChapter) {
 
 function changeClassAndFetchData(defaultChapter) {
     // Change the class to 'bi bi-image-fill'
-    const chapter = document.querySelector(".chapter-link").getAttribute("data-chapter");
+    // const chapter = document.querySelector(".chapter-link").getAttribute("data-chapter");
+    const test_chapter = document.querySelector('.text-chapter#whichpage');
+    const h1Element = test_chapter.querySelector('h1');
+    console.log("H1: ", h1Element);
+    chapter = h1Element.className;
+
+    console.log("Chapter: ", chapter);
     const imageIcon = document.getElementById("imageIcon");
     const popupImage = document.getElementById("popupImage");
 
