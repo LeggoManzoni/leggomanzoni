@@ -71,8 +71,9 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
         .then(data => {
             const element = document.querySelector(selector);
             if (element) {
+                console.log("Element: ", element);
                 element.innerHTML = data;
-                element.setAttribute(attribute, data);
+                // element.setAttribute(attribute, data);
                 highlightHoveredItem();
             }
         })
@@ -88,6 +89,7 @@ function setupMutationObserver(selector) {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
+                    console.log("FetchandDisplayData: ", fetchAndDisplayData);
                     fetchAndDisplayData(`./get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
                 }
             }
@@ -101,6 +103,7 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-comment');
+            console.log("FetchandDisplayFunction: ", fetchAndDisplayFunction);
             fetchAndDisplayFunction(`./get-comment/${data}`, displaySelector, 'data-active-comment');
         });
     });
@@ -181,49 +184,71 @@ function highlightHoveredItemWithPencil() {
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById("upperDiv");
+    const bottomCommentsContainer = document.getElementById("bottomDiv");
+
     document.addEventListener('click', function (event) {
-        // Check if the clicked element has the class "hover-item"
         if (event.target.classList.contains('hover-item')) {
-            // Get the data-id of the clicked element
             const dataId = event.target.getAttribute('data-id');
 
-            // Find the corresponding element in the right column by data-related-id
-            let correspondingElement;
-            let startId, endId;
-            const elements = Array.from(document.querySelectorAll('.scroll-item'));
-            for (let i = 0; i < elements.length; i++) {
-                const currentId = parseInt(elements[i].getAttribute('data-related-id'), 10);
-                if (currentId >= dataId) {
-                    correspondingElement = elements[i];
-                    startId = parseInt(elements[i].getAttribute('data-related-id'), 10);
-                    endId = parseInt(elements[i].getAttribute('data-end-id'), 10);
+            let upperCorrespondingElement, bottomCorrespondingElement;
+            let upperStartId, upperEndId, bottomStartId, bottomEndId;
+
+            const upperElements = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
+            const bottomElements = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
+
+            // Find the corresponding element in the upper block
+            for (let i = 0; i < upperElements.length; i++) {
+                const currentId = parseInt(upperElements[i].getAttribute('data-related-id'), 10);
+                if (currentId == dataId) {
+                    upperCorrespondingElement = upperElements[i];
+                    upperStartId = currentId;
+                    upperEndId = parseInt(upperElements[i].getAttribute('data-end-id'), 10);
                     break;
                 }
             }
 
-            // Scroll the corresponding element into view in the right column
-            if (correspondingElement) {
-                // Calculate the top position of the corresponding element relative to the comments container
-                const correspondingElementTop = correspondingElement.offsetTop - commentsContainer.offsetTop;
-
-                // Scroll the corresponding element into view in the right column
-                commentsContainer.scrollTop = correspondingElementTop;
-                for (let i = 0; i < elements.length; i++) {
-                    elements[i].classList.remove('highlight-comment');
+            // Find the corresponding element in the bottom block
+            for (let i = 0; i < bottomElements.length; i++) {
+                const currentId = parseInt(bottomElements[i].getAttribute('data-related-id'), 10);
+                if (currentId == dataId) {
+                    bottomCorrespondingElement = bottomElements[i];
+                    bottomStartId = currentId;
+                    bottomEndId = parseInt(bottomElements[i].getAttribute('data-end-id'), 10);
+                    break;
                 }
-                correspondingElement.classList.add('highlight-comment');
+            }
 
-                // Highlight the elements with class hover-item and data-id between startId and endId
-                const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-                for (let i = 0; i < hoverItems.length; i++) {
-                    const hoverItemId = hoverItems[i].getAttribute('data-id');
-                    if (hoverItemId >= startId && hoverItemId <= endId) {
-                        hoverItems[i].classList.add('highlight-text'); // Add the underline class
-                    } else if (hoverItemId == startId) {
-                        hoverItems[i].classList.add('highlight-text'); // Add the underline class
-                    } else {
-                        hoverItems[i].classList.remove('highlight-text'); // Remove the underline class if not in the range
-                    }
+            // Remove existing highlights
+            const allElements = [...upperElements, ...bottomElements];
+            for (let i = 0; i < allElements.length; i++) {
+                allElements[i].classList.remove('highlight-comment');
+            }
+
+            // Scroll to the corresponding element in the upper block
+            if (upperCorrespondingElement) {
+                const upperElementTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
+                commentsContainer.scrollTop = upperElementTop;
+                upperCorrespondingElement.classList.add('highlight-comment');
+            }
+
+            // Scroll to the corresponding element in the bottom block
+            if (bottomCorrespondingElement) {
+                const bottomElementBottom = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
+                bottomCommentsContainer.scrollTop = bottomElementBottom;
+                bottomCorrespondingElement.classList.add('highlight-comment');
+            }
+
+            
+
+            // Highlight the text
+            const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
+            for (let i = 0; i < hoverItems.length; i++) {
+                const hoverItemId = hoverItems[i].getAttribute('data-id');
+                if ((hoverItemId >= upperStartId && hoverItemId <= upperEndId) || 
+                    (hoverItemId >= bottomStartId && hoverItemId <= bottomEndId)) {
+                    hoverItems[i].classList.add('highlight-text');
+                } else {
+                    hoverItems[i].classList.remove('highlight-text');
                 }
             }
         }
