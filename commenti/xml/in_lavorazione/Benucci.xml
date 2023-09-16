@@ -7,10 +7,21 @@
       <titleStmt>
         <title>Pier Paolo Benucci (1996)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+          <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+        </respStmt>
       </titleStmt>
+      <editionStmt>
+          <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -27,18 +38,12 @@
           <pubPlace>Roma</pubPlace>
           <publisher>Armando Editore</publisher>
           <date>1996</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
     </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-06-03">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
