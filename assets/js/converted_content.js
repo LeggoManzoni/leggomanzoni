@@ -245,7 +245,8 @@ function setupHoverScrolling() {
             for (let i = 0; i < hoverItems.length; i++) {
                 const hoverItemId = hoverItems[i].getAttribute('data-id');
                 if ((hoverItemId >= upperStartId && hoverItemId <= upperEndId) || 
-                    (hoverItemId >= bottomStartId && hoverItemId <= bottomEndId)) {
+                    (hoverItemId >= bottomStartId && hoverItemId <= bottomEndId) ||
+                    (hoverItemId == dataId))  {
                     hoverItems[i].classList.add('highlight-text');
                 } else {
                     hoverItems[i].classList.remove('highlight-text');
