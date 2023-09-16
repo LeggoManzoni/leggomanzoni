@@ -44,8 +44,7 @@ function fetchChapter(defaultChapter) {
 
 
 function changeClassAndFetchData(defaultChapter) {
-    // Change the class to 'bi bi-image-fill'
-    // const chapter = document.querySelector(".chapter-link").getAttribute("data-chapter");
+    // Change the image class to 'bi bi-image-fill'
     const test_chapter = document.querySelector('.text-chapter#whichpage');
     const h1Element = test_chapter.querySelector('h1');
     console.log("H1: ", h1Element);
@@ -55,16 +54,11 @@ function changeClassAndFetchData(defaultChapter) {
     const imageIcon = document.getElementById("imageIcon");
     const popupImage = document.getElementById("popupImage");
 
-    if (imageIcon.className === "bi bi-card-image") {
-        
-        // Change the class to 'bi bi-image-fill'
+    if (imageIcon.className === "bi bi-card-image") {        
         imageIcon.className = "bi bi-image-fill";
-         // Change the popup
          popupImage.textContent = "Visualizza il testo senza le immagini.";
     } else {
-        // Change the class to 'bi bi-card-image'
         imageIcon.className = "bi bi-card-image";
-        // Change the popup
         popupImage.textContent = "Visualizza il testo con le immagini.";
     }
     fetchChapter(chapter);
@@ -79,7 +73,7 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
             if (element) {
                 element.innerHTML = data;
                 element.setAttribute(attribute, data);
-                highlightHoveredItem();  // Call the highlight function here
+                highlightHoveredItem();
             }
         })
         .then(removeHighlightFromHoverItems())
@@ -215,9 +209,9 @@ function setupHoverScrolling() {
                 // Scroll the corresponding element into view in the right column
                 commentsContainer.scrollTop = correspondingElementTop;
                 for (let i = 0; i < elements.length; i++) {
-                    elements[i].classList.remove('highlight-text', 'highlight-comment');
+                    elements[i].classList.remove('highlight-comment');
                 }
-                correspondingElement.classList.add('highlight-text', 'highlight-comment');
+                correspondingElement.classList.add('highlight-comment');
 
                 // Highlight the elements with class hover-item and data-id between startId and endId
                 const hoverItems = Array.from(document.querySelectorAll('.hover-item'));

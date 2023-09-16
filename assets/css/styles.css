@@ -11790,11 +11790,15 @@ header.masthead h1, header.masthead .h1 {
 .highlight-text {
   display: inline;
   padding: 0.5em 0em;
-  background-color: white;
+  background-color: #f3edbf;
   box-decoration-break: clone;
 }
 
 .highlight-comment {
+  display: inline;
+  padding: 0.5em 0em;
+  background-color: white;
+  box-decoration-break: clone;
   box-shadow: 1em 0 0 white, -1em 0 0 white;
 }
 
