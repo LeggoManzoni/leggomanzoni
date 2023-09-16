@@ -70,7 +70,7 @@
         <xsl:value-of select="." />
     </xsl:template>
 
-    <xsl:template match="hi[@rend='italic'] | rs[@rend='italic'] | bibl | rs">
+    <xsl:template match="hi[@rend='italic'] | rs[@rend='italic'] | bibl | rs | persName | placeName ">
         <em>
             <xsl:value-of select="." />
         </em>
@@ -91,9 +91,5 @@
         </strong>
     </a>
 </xsl:template>
-
-
-
-
 
 </xsl:stylesheet>
