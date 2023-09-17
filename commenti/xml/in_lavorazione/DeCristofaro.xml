@@ -6,11 +6,22 @@
     <fileDesc>
       <titleStmt>
         <title>DeCristofaro</title>
-        <respStmt>
-          <resp>Correzione e codifica</resp>
+       <respStmt>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="CL">Chiara Leali</persName>
+        </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,19 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di DeCristofaro</title>
+          <title>I promessi sposi:  a cura di DeCristofaro</title>
           <editor>DeCristofaro</editor>
-          <pubPlace>?</pubPlace>
-          <publisher>?</publisher>
-          <date>?</date>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-14">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
