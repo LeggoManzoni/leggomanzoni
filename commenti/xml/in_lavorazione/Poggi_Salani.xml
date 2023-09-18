@@ -7,10 +7,21 @@
       <titleStmt>
         <title>Teresa Poggi Salani (2013)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,24 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi : Testo del 1840-1842, a cura di Teresa Poggi Salani</title>
+          <title>I promessi sposi: Testo del 1840-1842, a cura di Teresa Poggi Salani</title>
           <editor>Poggi Salani, Teresa</editor>
           <pubPlace>Milano</pubPlace>
           <publisher>Centro Nazionale Studi Manzoniani</publisher>
           <date>2013</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
     </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-05-19">Prima edizione digitale</change>
-        <change who="ML" when="2023-05-23">Due commenti corretti</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
