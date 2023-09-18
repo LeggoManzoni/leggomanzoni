@@ -7,10 +7,21 @@
       <titleStmt>
         <title>Biancamaria Travi (1981)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="FP">Filippo Pelacci</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,23 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di Biancamaria Travi</title>
+          <title>I promessi sposi:  a cura di Biancamaria Travi</title>
           <editor>Travi, Biancamaria</editor>
           <pubPlace>Milano</pubPlace>
           <publisher>Edizioni Scolastiche Bruno Mondadori</publisher>
           <date>1981</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
     </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-05-23">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
