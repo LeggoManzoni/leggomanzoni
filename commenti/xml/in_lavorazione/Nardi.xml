@@ -7,9 +7,17 @@
       <titleStmt>
         <title>Piero Nardi (1940)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AC">Alice Caputa</persName>
+          </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
@@ -22,7 +30,7 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  col commento di Piero Nardi</title>
+          <title>I promessi sposi:  col commento di Piero Nardi</title>
           <editor>Nardi, Piero</editor>
           <pubPlace>Milano</pubPlace>
           <publisher>Mondadori</publisher>
@@ -33,11 +41,6 @@
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
     </encodingDesc> 
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-09">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
