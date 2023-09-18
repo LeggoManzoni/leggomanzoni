@@ -5,13 +5,23 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TittaRosa</title>
+        <title>Titta Rosa (1996)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
-          <persName>Ginevra Ciuffreda, classe 2Q, Liceo Classico e Musiale G. Palmieri, Lecce (LE)</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -23,22 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di TittaRosa</title>
-          <editor>Titta Rosa</editor>
-          <pubPlace>?</pubPlace>
-          <publisher>?</publisher>
-          <date>?</date>
+          <title>I promessi sposi:  a cura di Giovanni Titta Rosa</title>
+          <editor>Giovanni Titta Rosa</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Mursia</publisher>
+          <date>1996</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. I</p> 
     </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-09">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
