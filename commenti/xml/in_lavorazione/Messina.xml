@@ -5,12 +5,23 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Messina</title>
+        <title>Michele Messina (1964)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AP">Alessia Panebianco</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,19 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di Messina</title>
-          <editor>Messina</editor>
-          <pubPlace>?</pubPlace>
-          <publisher>?</publisher>
-          <date>?</date>
+          <title>I promessi sposi:  a cura di Michele Messina</title>
+          <editor>Michele Messina</editor>
+          <pubPlace>Messina-Firenze</pubPlace>
+          <publisher>G. D'Anna</publisher>
+          <date>1964</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-17">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
+   <encodingDesc>
+   <p>Introduzione, cap. 1</p>
+   </encodingDesc>
   </teiHeader>
   <text>
     <body>
