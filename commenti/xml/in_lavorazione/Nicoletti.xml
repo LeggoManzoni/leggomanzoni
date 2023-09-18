@@ -7,10 +7,21 @@
       <titleStmt>
         <title>Giuseppe Nicoletti (2020)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,23 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  con espansione online. A cura di Giuseppe Nicoletti</title>
+          <title>I promessi sposi:  con espansione online. A cura di Giuseppe Nicoletti</title>
           <editor>Nicoletti, Giuseppe</editor>
           <pubPlace>Firenze</pubPlace>
           <publisher>Edimedia</publisher>
           <date>2020</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
     </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-06-09">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
