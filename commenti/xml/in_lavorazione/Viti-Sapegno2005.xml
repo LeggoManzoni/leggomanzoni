@@ -5,12 +5,23 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Natalino Sapegno e Gorizio Viti (2005)</title>
+        <title>Natalino Sapegno-Gorizio Viti (2005)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,23 +33,18 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di Natalino Sapegno e Gorizio Viti</title>
-          <editor>Sapegno, Natalino; Viti, Gorizio 2005</editor>
-          <pubPlace>Grassina</pubPlace>
+          <title>I promessi sposi:  a cura di Natalino Sapegno e Gorizio Viti</title>
+          <editor>Sapegno, Natalino</editor>
+          <editor>Viti, Gorizio</editor>
+          <pubPlace>Firenze</pubPlace>
           <publisher>Le Monnier</publisher>
           <date>2005</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
 </encodingDesc> 
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-08-27">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
