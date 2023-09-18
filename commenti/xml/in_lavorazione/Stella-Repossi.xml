@@ -5,12 +5,23 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Stella-Repossi</title>
+        <title>Angelo Stella-Cesare Repossi (1995)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="FP">Filippo Pelacci</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,19 +33,18 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi :  a cura di Stella-Repossi</title>
-          <editor>Stella-Repossi</editor>
-          <pubPlace>?</pubPlace>
-          <publisher>?</publisher>
-          <date>?</date>
+          <title>I promessi sposi:  a cura di Angelo Stella, Cesare Repossi</title>
+          <editor>Angelo Stella</editor>
+          <editor>Cesare Repossi</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Einaudi-Gallimard</publisher>
+          <date>1995</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-14">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
