@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Giacalone</title>
+        <title>Giuseppe Giacalone (1996)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="GM">Giudo Manfredini</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -22,19 +33,17 @@
       <sourceDesc>
         <bibl>
           <author>Alessandro Manzoni</author>
-          <title>I promessi sposi:  a cura di Giacalone</title>
-          <editor>Giacalone</editor>
-          <pubPlace>?</pubPlace>
-          <publisher>?</publisher>
-          <date>?</date>
+          <title>I promessi sposi:  a cura di Giuseppe Giacalone</title>
+          <editor>Giuseppe Giacalone</editor>
+          <pubPlace>Pescara</pubPlace>
+          <publisher>Italica</publisher>
+          <date>1996</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-09-17">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
+    <encodingDesc>
+    <p>Scheda editoriale</p>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
