@@ -5,12 +5,23 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Giuseppe Rigutini, Enrico Mestica (1925)</title>
+        <title>Giuseppe Rigutini-Enrico Mestica (1925)</title>
         <respStmt>
-          <resp>Correzione e codifica</resp>
+        <resp>Supervisione codifica</resp>
           <persName xml:id="ER">Ersilia Russo</persName>
         </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AP">Alessia Panebianco</persName>
+          </respStmt>
       </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
         <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
         <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
@@ -23,22 +34,17 @@
         <bibl>
           <author>Alessandro Manzoni</author>
           <title>I promessi sposi: a cura di Giuseppe Rigutini e Enrico Mestica</title>
-          <editor>Rigutini,Giuseppe; Mestica, Enrico</editor>
+          <editor>Rigutini,Giuseppe</editor>
+          <editor>Mestica, Enrico</editor>
           <pubPlace>Firenze</pubPlace>
           <publisher>G. Barbera</publisher>
           <date>1925</date>
-          <note type="schedaeditoriale"></note>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>Introduzione, cap. 1. </p> 
 </encodingDesc> 
-    <revisionDesc>
-      <listChange>
-        <change who="ML" when="2023-08-28">Prima edizione digitale</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
   <text>
     <body>
