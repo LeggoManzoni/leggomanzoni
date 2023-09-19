@@ -27,8 +27,17 @@
                                     <li class="list-group-item">Luogo di pubblicazione: <%= item.city %></li>
                                     <li class="list-group-item">Editore: <%= item.publisher %></li>
                                     <li class="list-group-item">Anno: <%= item.date %></li>
-                                    <li class="list-group-item">Marcatura: <%= item.marcatura.resp %> a cura di <%= item.marcatura.persName %></li>
-                                    <li class="list-group-item">Note: <%= item.description ? (item.description ? item.description : 'N/A') : 'N/A' %></li>
+                                    <% if (item && Array.isArray(item.marcatura)) { %>
+                                        <li class="list-group-item">Marcatura:
+                                          <% item.marcatura.forEach(function(worker) { %>
+                                            <%= worker.resp %> di <%= worker.persName %><br/>
+                                          <% }); %>
+                                        </li>
+                                      <% } else { %>
+                                        <li class="list-group-item">Marcatura: No data available.</li>
+                                      <% } %>
+                                      
+                                     <li class="list-group-item">Note: <%= item.description ? (item.description ? item.description : 'N/A') : 'N/A' %></li>
                                     <li class="list-group-item">Capitoli disponibili: <%= item.notes ? (item.notes.p ? item.notes.p : 'N/A') : 'N/A' %></li>
 
                                 </ul>

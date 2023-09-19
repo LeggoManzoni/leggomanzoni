@@ -64,8 +64,6 @@ window.addEventListener('DOMContentLoaded', event => {
     function selectId(url){
         let testo = document.getElementsById('#D1');
         let data = testo.getAttribute('span');
-
-        console.log('span');
     }
     selectId('reader.html')
 });

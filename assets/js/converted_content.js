@@ -36,7 +36,13 @@ function fetchChapter(defaultChapter) {
                 const test_chapter = document.querySelector('.text-chapter#whichpage');
                 const h1Element = test_chapter.querySelector('h1');
                 h1Element.className = defaultChapter;
+                const promessisposiElement = document.getElementById('promessisposi');
+                if (promessisposiElement) {
+                    promessisposiElement.scrollTop = 0;
+                }
+
                 highlightHoveredItem();  // Call the highlight function here
+                
             }
         })
         .catch(console.error);
@@ -47,10 +53,8 @@ function changeClassAndFetchData(defaultChapter) {
     // Change the image class to 'bi bi-image-fill'
     const test_chapter = document.querySelector('.text-chapter#whichpage');
     const h1Element = test_chapter.querySelector('h1');
-    console.log("H1: ", h1Element);
     chapter = h1Element.className;
 
-    console.log("Chapter: ", chapter);
     const imageIcon = document.getElementById("imageIcon");
     const popupImage = document.getElementById("popupImage");
 
@@ -71,9 +75,7 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
         .then(data => {
             const element = document.querySelector(selector);
             if (element) {
-                console.log("Element: ", element);
                 element.innerHTML = data;
-                // element.setAttribute(attribute, data);
                 highlightHoveredItem();
             }
         })
@@ -89,7 +91,6 @@ function setupMutationObserver(selector) {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
-                    console.log("FetchandDisplayData: ", fetchAndDisplayData);
                     fetchAndDisplayData(`./get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
                 }
             }
@@ -103,7 +104,6 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-comment');
-            console.log("FetchandDisplayFunction: ", fetchAndDisplayFunction);
             fetchAndDisplayFunction(`./get-comment/${data}`, displaySelector, 'data-active-comment');
         });
     });
