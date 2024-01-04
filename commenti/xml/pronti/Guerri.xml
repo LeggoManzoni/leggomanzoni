@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Domenico Guerri (1925)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="MR">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="ACNP">Alessia Carmen Nizeti Panebianco</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni
+            uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi: a cura di Domenico Guerri</title>
+          <editor xml:id="Guerri">Guerri, Domenico</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Vallecchi</publisher>
+          <date>1925</date>
+        </bibl>
+      </sourceDesc>
+      <sourceDesc>
+        <listBibl>
+          <bibl xml:id="FL">Alessandro Manzoni, Fermo e Lucia.</bibl>
+          <bibl xml:id="PS27">Alessandro Manzoni, I Promessi Sposi. Storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni, Milano, Vincenzo Ferrario, 1825-1827.</bibl>
+          <bibl xml:id="PS40">I Promessi Sposi. Storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni. Edizione riveduta dall'autore. Storia della Colonna Infame inedita, Milano, Guglielmini Redaelli, 1840-1842.</bibl>
+          <bibl xml:id="linguaitaliana">Alessandro Manzoni, Della lingua italiana.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1.</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Guerri_intro">
+        <note xml:id="Guerri_intro-n1" type="comm" target="quarantana/intro.xml#intro_None"><ref
+            rend="bold">Introduzione</ref>: L'Introduzione serve al M. per affacciarvi la sua
+          finzione di un Anonimo contemporaneo ai fatti, ch'egli vuol far credere autore del
+          racconto, e che chiamerà in causa nelle situazioni psicologiche più intime o più bizzarre,
+          e per motteggiare, un po’ al modo dell’immaginario Turpino nei poemi cavallereschi. Di più
+          gli offre il destro di una gioconda parodia dello stile ambizioso e frondoso del ’600, la
+          quale colorisce i tempi sulla soglia del romanzo, contraffacendone la manifestazione più
+          sintetica, ch’è l’espressione parlata. A sua volta questa parodia dispone il lettore ad
+          accogliere le osservazioni di stile che l’A. ha voluto insinuare nel seguito, in tono di
+          scherzo, ma con profondità di vedute. Inoltre, senza parere e amabilmente, facendo parlare
+            l'<hi rend="bold">Anonimo</hi>, l’A. dice in sintesi il soggetto del suo libro, ch'è un
+          quadro di vita nel suo bene e nel suo male, quale poteva essere, e fu, nel ’600 lombardo.
+          A meditarle, subito queste poche pagine si scoprono dense di pensiero, oltre che ingegnose
+          per finissima ironia e sottile malizia.</note>
+        <note xml:id="Guerri_intro-n2" type="comm" target="quarantana/intro.xml#intro_10001"
+          targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">L'Historia...
+          gloriose</ref>: Da questa definizione si diffonde un senso di comico non solo sulla vita
+          del secento, ma di tutta l’umanità nella sua storia. Contrapponendo questo principio a
+          quello del romanzo, che comincia con una chiara serena descrizione naturale si può fin
+          d'ora avviarsi a distinguere l'atteggiamento ironico e canzonatorio che il M. piglia (di
+          frequente) verso i fatti umani, da quello di contemplante che assume verso la sua natura.
+          Questa non guasta mai la sua divinità, come fanno gli uomini con le loro infinite
+          debolezze e con tutti i loro errori! - Osserva le metafore secentescamente sforzate sino al grottesco. La storia, facendo la
+          guerra al tempo, gli toglie gli anni prigionieri, anzi già fatti cadaveri; risuscita quei
+          cadaveri e li schiera di nuovo in battaglia. Gli storici, che sono i capitani di un
+          combattimento tanto buffo, si tramutano poi in imbalsamatori di imprese gloriose, e il
+          loro ingegno portentoso diventa ago da ricamo.</note>
+        <note xml:id="Guerri_intro-n3" type="comm" target="quarantana/intro.xml#intro_10072"><ref
+            rend="bold">Qualificati</ref>: Titolati.</note>
+        <note xml:id="Guerri_intro-n4" type="comm" target="quarantana/intro.xml#intro_10093"
+          targetEnd="quarantana/intro.xml#intro_10181"><ref rend="bold">Però... diaboliche</ref>: La
+          forma continua bizzarra; il pensiero è serio e manzoniano. La storia non si deve
+          ristringere agli avvenimenti politici e militari, che non ne sono che una parte e talvolta
+          neanche la più importante. Nello sfondo ha da trovarcisi la società, quella che soffre, di
+          fronte a quella che agisce; e lo specchio delle forme che assunsero il bene e il male, la
+          virtù e il vizio, nella loro fatale e perpetua vicenda e promiscuità.</note>
+        <note xml:id="Guerri_intro-n5" type="comm" target="quarantana/intro.xml#intro_10118"><ref
+            rend="bold">Oricalchi</ref>: Trombe di guerra.</note>
+        <note xml:id="Guerri_intro-n6" type="comm" target="quarantana/intro.xml#intro_10132"><ref
+            rend="bold">Meccaniche</ref>: Da poco: agg. dispregiativo che già il Boccaccio si
+          compiaceva di mettere in bocca ai suoi personaggi.</note>
+        <note xml:id="Guerri_intro-n7" type="comm" target="quarantana/intro.xml#intro_10148"
+          targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">Schietta e
+            genuinamente</ref>: Cioè schiettam. e genuinam.: ricercatezza in uso nel ’600.</note>
+        <note xml:id="Guerri_intro-n8" type="comm" target="quarantana/intro.xml#intro_10152"
+          targetEnd="quarantana/intro.xml#intro_10155"><ref rend="bold">Racconto ovvero sia
+            Relatione</ref>: Qui è mera ridondanza, a fine comico.</note>
+        <note xml:id="Guerri_intro-n9" type="comm" target="quarantana/intro.xml#intro_10161"
+          targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">Angusto Teatro</ref>: Perchè
+          l'azione del racconto si restringe alla sola Lombardia. La metafora si continua nelle
+          successive immagini di <hi rend="bold">tragedie, scene, intermezzi.</hi>
+        </note>
+        <note xml:id="Guerri_intro-n10" type="comm" target="quarantana/intro.xml#intro_10182"
+          targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">E veramente...
+            emolumenti</ref>: È il pezzo adulatorio, di prammatica in ogni prefazione secentesca. Il
+          re di Spagna è il sole, il vicerè la luna, i magnifici senatori sono le stelle fisse, gli
+          altri reggenti sono i pianeti: tutto un cielo di lumi. È grottesca le scusa del male
+          imperversante sul mondo, nonostante tali Arghi dai cento occhi e tali Briarei dalle cento
+          braccia, con l’arte e la fattura diabolica: che sarebbe fatalismo e nullismo.</note>
+        <note xml:id="Guerri_intro-n11" type="comm" target="quarantana/intro.xml#intro_10188"><ref
+            rend="bold">Climi</ref>: Regioni.</note>
+        <note xml:id="Guerri_intro-n12" type="comm" target="quarantana/intro.xml#intro_10191"><ref
+            rend="bold">L'amparo</ref>: Protezione: è uno spagnolismo.</note>
+        <note xml:id="Guerri_intro-n13" type="comm" target="quarantana/intro.xml#intro_10200"
+          targetEnd="quarantana/intro.xml#intro_10203"><ref rend="bold">Sole che mai tramonta</ref>:
+          L’espressione rammenta (anche) il superbo vanto di Carlo V, che i suoi successori ancora a
+          quel tempo potevano ripetere.</note>
+        <note xml:id="Guerri_intro-n14" type="comm" target="quarantana/intro.xml#intro_10213"
+          targetEnd="quarantana/intro.xml#intro_10215"><ref rend="bold">Luna giamai calante</ref>:
+          L’adulazione sa riformare anche gli astri!</note>
+        <note xml:id="Guerri_intro-n15" type="comm" target="quarantana/intro.xml#intro_10285"><ref
+            rend="bold">Malitia</ref>: Malizia, volontà di male.</note>
+        <note xml:id="Guerri_intro-n16" type="comm" target="quarantana/intro.xml#intro_10306"
+          targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">Si vanno...
+          emolumenti</ref>: Si adoperano per il pubblico bene. Ma nota il giuoco dell'espressione
+          equivoca, per cui l’Anonimo, se veramente avesse scritto così, poteva essere inteso anche
+          a rovescio (senza torto alla verità!).</note>
+        <note xml:id="Guerri_intro-n17" type="comm" target="quarantana/intro.xml#intro_10312"
+          targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">Per locchè</ref>: Nota
+          subito la vuota sonorità del nesso, perchè il concetto che segue, che lo scrittore non
+          farà nomi e parlerà dei luoghi senza precisarli, non è affatto conseguente a quello che
+          precede.</note>
+        <note xml:id="Guerri_intro-n18" type="comm" target="quarantana/intro.xml#intro_10380"
+          targetEnd="quarantana/intro.xml#intro_10385"><ref rend="bold">Defformità... Parto</ref>:
+          Cioè che questa mia creatura, oltre che rozza, sia un aborto.</note>
+        <note xml:id="Guerri_intro-n19" type="comm" target="quarantana/intro.xml#intro_10397"><ref
+            rend="bold">Filosofia</ref>: Che c’entra la filosofia? Per nulla. In definitiva le opere
+          d'arte non soggiacciono che al giudizio del buon gusto. Ma ce la faceva entrare
+          l'abitudine mentale del tempo, di sentenziare anche d’arte per principi prestabiliti,
+          deduttivamente. Qui l’Anonimo sostiene che la mancanza di nomi, puri <hi rend="bold"
+            >accidenti</hi> (filosoficamente: quel che può essere o non essere nel soggetto, che
+          pertanto ne rimane a se stesso uguale), non distrugge e non menoma la <hi rend="bold"
+            >sostanza</hi>, cioè la realtà o essenza del soggetto.</note>
+        <note xml:id="Guerri_intro-n20" type="comm" target="quarantana/intro.xml#intro_10429"><ref
+            rend="bold">Accidenti...</ref>: Nota ch’è malizioso il troncamento della presunta copia
+          a quell’<hi rend="bold">accidenti</hi>, che suggerisce al lettore un’interiezione che vien
+          tanto a proposito. Per richiamarci l’attenzione, o piuttosto per divertircisi esso stesso,
+          il M. ripete la parola con molta grazia, poche righe sotto.</note>
+        <note xml:id="Guerri_intro-n21" type="comm" target="quarantana/intro.xml#intro_10444"
+          targetEnd="quarantana/intro.xml#intro_11257"><ref rend="bold">Dilavato... autografo</ref>:
+          Cioè sbiadito per il tempo; e <hi rend="bold">graffiato</hi> per le cancellature e gli <hi
+            rend="bold">scarabocchi</hi> o sgorbi della mano di scrittura.</note>
+        <note xml:id="Guerri_intro-n22" type="comm" target="quarantana/intro.xml#intro_10498"
+          targetEnd="quarantana/intro.xml#intro_11111"><ref rend="bold">Ben è vero... mani</ref>: È
+          una pagina di critica allo stile del ’600. Il M. rileva che quell’artificio caratteristico
+          dei concettini, delle metafore e antitesi, delle declamazioni ampollose e goffaggini
+          ambiziose, non s'ha da credere che continui alla distesa, chè tal delirio non sarebbe
+          possibile in perpetuo. Esso s'accompagna particolarmente ai luoghi più adatti a far
+          sfoggio di rettorica. Ma anche dove l’artificio è meno intenso ed esteriore, l’arte vera
+          manca, perchè mancano l’intimità e il gusto, e non c’è il possesso dello strumento
+          dell’espressione, la lingua. Riconosce che i tempi per questa parte sono cambiati in
+          meglio.</note>
+        <note xml:id="Guerri_intro-n23" type="comm" target="quarantana/intro.xml#intro_10526"
+          targetEnd="quarantana/intro.xml#intro_10528"><ref rend="bold">Il buon secentista</ref>:
+            L’agg.<hi rend="bold">buono</hi> dato all’Anon. secentista ne qualifica l’insufficienza
+          di scrittore.</note>
+        <note xml:id="Guerri_intro-n24" type="comm" target="quarantana/intro.xml#intro_10538"><ref
+            rend="bold">Virtù</ref>: è da intendere ironicamente e vale tutt'al più per virtuosità,
+          artificiosità.</note>
+        <note xml:id="Guerri_intro-n25" type="comm" target="quarantana/intro.xml#intro_10567"
+          targetEnd="quarantana/intro.xml#intro_10568"><ref rend="bold">Idiotismi lombardi</ref>:
+          Modi di dire propri della regione lomb.</note>
+        <note xml:id="Guerri_intro-n26" type="comm" target="quarantana/intro.xml#intro_10625"
+          targetEnd="quarantana/intro.xml#intro_10626"><ref rend="bold">Rettorica discreta</ref>: La
+          rettorica discreta di cui qui si parla non è, in fondo, altro che l’arte; ma si sente
+          anche qui una leggiera punta ironica, in quanto pare che il M. senta e voglia far sentire
+          che il limite preciso dove finisce l’arte e incomincia la rettorica non sempre si vede e
+          si copre. Ne possono trarre un avvertimento i critici.</note>
+        <note xml:id="Guerri_intro-n27" type="comm" target="quarantana/intro.xml#intro_10647"
+          targetEnd="quarantana/intro.xml#intro_10649"><ref rend="bold">Con un'abilità
+            mirabile</ref>: Mirabilissima è perciò l'abilità con cui il M. ha riprodotto questa
+          specie di periodare.</note>
+        <note xml:id="Guerri_intro-n28" type="comm" target="quarantana/intro.xml#intro_10680"
+          targetEnd="quarantana/intro.xml#intro_10681"><ref rend="bold">Solecismi pedestri</ref>:
+          Spropositi elementari di espressione.</note>
+        <note xml:id="Guerri_intro-n29" type="comm" target="quarantana/intro.xml#intro_10698"
+          targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">In questo paese</ref>: In
+          Lombardia: e dice così, per non allargare la condanna, non essendogli richiesto dal
+          discorso, e per non scordare che ci sono altri scrittori rispettabilissimi anche in questa
+          età, come per es. il Galilei.</note>
+        <note xml:id="Guerri_intro-n30" type="comm" target="quarantana/intro.xml#intro_10733"
+          targetEnd="quarantana/intro.xml#intro_10734"><ref rend="bold">Sciagurato lavoro</ref>:
+          Intendi della finta trascrizione.</note>
+        <note xml:id="Guerri_intro-n31" type="comm" target="quarantana/intro.xml#intro_10754"
+          targetEnd="quarantana/intro.xml#intro_10756"><ref rend="bold">Storia così bella</ref>:
+          Storia bella, popolarescamente, per interessante, commovente. E intendi allo stesso modo
+          l’ostentato semplicismo del <hi rend="bold">rifarne la dicitura</hi>: il M. la sapeva
+          molto più lunga e aveva ben altra esperienza sul travaglio necessario al bene
+          scrivere.</note>
+        <note xml:id="Guerri_intro-n32" type="comm" target="quarantana/intro.xml#intro_10821"><ref
+            rend="bold">Un'ingenuità</ref>: È invece una finzione e una malizia; ma il M. la
+          qualifica innocente, perchè non pretende di presentare un’opera importante, che metta
+          conto di prender troppo sul serio.</note>
+        <note xml:id="Guerri_intro-n33" type="comm" target="quarantana/intro.xml#intro_10827"
+          targetEnd="quarantana/intro.xml#intro_10956"><ref rend="bold">Taluni... negarla</ref>:
+          Ridotti al concetto, questi periodi significano: per immaginaria che sia la narrazione,
+          essa rappresenta la vita dei tempi secondo la verità storica, per raggiunger la quale
+          verità l'A. dichiara di non avere omesso ricerche e fatiche. Più tardi il M. condannerà
+          come ibrido il romanzo storico, appunto per la mescolanza di fantasia e di storia. Ma per
+          fortuna il capolavoro era composto!</note>
+        <note xml:id="Guerri_intro-n34" type="comm" target="quarantana/intro.xml#intro_10957"
+          targetEnd="quarantana/intro.xml#intro_None"><ref rend="bold">Ma, rifiutando...
+            davanzo</ref>: Berteggiata la <hi rend="bold">dicitura</hi> dell’Anom., l'A. ha voluto
+          scherzare sulla sua, che pure gli era costata tanta fatica, come mostrano le profonde
+          differenze tra <bibl corresp="#FL">la prima stesura ’21-23</bibl> e quella <bibl
+            corresp="#PS27"> della edizione ’25-27 </bibl>; senza contare l'ulteriore lavoro pel
+          famoso risciacquamento in Arno di questi cenci del romanzo, cioè per <bibl corresp="#PS40"
+            >l’ediz. definitiva del ’40-42</bibl>. La sua teoria intorno alla lingua, il M. la
+          elaborò appunto attraverso questo travaglio. Ma capiva che qui non era il caso di
+          discorrerne, neanche per quella parte che già allora ne vedeva e che avrebbe costituito un
+            <bibl corresp="#linguaitaliana">libro</bibl>. Sapeva bene di averci ragionato su, in
+          modo originale, ma in cambio di affermar questo, motteggiava sui processi del ragionamento
+          e delle dispute letterarie, spesso interminabili e inconcludenti, in specie sulla lingua.
+          Per suo conto faceva qualcosa di più concreto: dava un esemplo.</note>
+      </div>
+      <div xml:id="Guerri_cap1">
+        <note xml:id="Guerri_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001"
+          targetEnd="quarantana/cap1.xml#c1_10320"><ref rend="bold">Quel ramo... città</ref>: La
+          regione descritta era familiare e carissima al M., che vi aveva trascorso la puerizia e,
+          da studente, le vacanze autunnali, nella villa di famiglia al Caleotto, presso
+          Pescarenico. La prima parte della descrizione dà l'aspetto generale del paese, visto da
+          quel punto del ramo orientale del lago di Como (da cui esce l’Adda), dove il lago stesso,
+          nella strozzatura in cui giace Lecco, ripiglia l’aspetto di fiume, per riallargarsi poi a
+          sud.</note>
+        <note xml:id="Guerri_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10321"
+          targetEnd="quarantana/cap1.xml#c1_10683"><ref rend="bold">Ai tempi... vedute</ref>: Le
+          seconda parte della descrizione associa natura e vita. Nota la fine ironia sulla
+          guarnigione spagnola di Lecco (e sappi fin d'ora che il M. non inveisce mai contro quel
+          mal governo con accuse dirette, ma lo lascia giudicare dai fatti e attraverso la satira);
+          è più nota con che squisitezza è ritratto il paesaggio tra lago e monte, dove lo specchio
+          dell'acqua s’insinua, si frammenta, si compenetra con la terra che ne emerge e che per se
+          stessa si presenta varia e molteplice, com’è proprio e caratteristico del paesaggio
+          montano.</note>
+        <note xml:id="Guerri_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10684"
+          targetEnd="quarantana/cap1.xml#c1_11093"><ref rend="bold">Per una... condizione</ref>:
+          Attraverso così meraviglioso paesaggio, fatto apposta per contemplarlo e goderlo, passa un
+          uomo tranquillo, dalla vista oziosa. È indifferente alla circostante natura; guarda il
+          calar del sole per pigliar l'ora; scansa i ciottoli dal sentiero; mira le goffe figure del
+          tabernacolo che, per esser pie, non esaltano l'animo a Dio come potrebbe la scena
+          naturale. Egli è il curato che, tornando alla canonica dalla consueta passeggiata, recita,
+          per dovere e per consuetudine, le preghiere dell’uffizio.</note>
+        <note xml:id="Guerri_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10697"
+          targetEnd="quarantana/cap1.xml#c1_10703"><ref rend="bold">sera... 1628</ref>: Fissa in
+          mente la data: 7 nov. 1628; l’azione del romanzo durerà fin verso la fine del 1630.</note>
+        <note xml:id="Guerri_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10705"><ref
+            rend="bold">Abbondio</ref>: È nome diffuso in quel di Como, per il santo patrono della
+          città.</note>
+        <note xml:id="Guerri_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10733"
+          targetEnd="quarantana/cap1.xml#c1_10866"><ref rend="bold">Diceva... quel giorno</ref>: La
+          figura del curato è còlta al naturale, negli atteggiamenti che assume l'individuo in piena
+          libertà, e in ozio, solo in compagnia di se stesso e delle proprie abitudini.</note>
+        <note xml:id="Guerri_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10996"
+          targetEnd="quarantana/cap1.xml#c1_11192"><ref rend="bold">Il curato... bravi</ref>: <hi
+            rend="bold">Una cosa che non s'aspettava</hi> e che non voleva aspettarsi, rompe
+          bruscamente la tranquillità del curato: due <hi rend="bold">bravi</hi> che guardano il
+          passo, riconoscibili per tali anche da lontano. Notane la descrizione, ch'è un modello di
+          compostezza classica, e insieme di schietto realismo, che anticipa i tempi.</note>
+        <note xml:id="Guerri_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_11192"><ref
+            rend="bold">Bravi</ref>: Intorno alla parola <hi rend="bold">bravo</hi>, che qui designa
+          quegli scherani di cui si circondavano i signorotti per le loro soperchierie, è curioso
+          osservare ch'essa, sia derivata da <hi rend="bold">pravus</hi> (malvagio) o da <hi
+            rend="bold">barbarus</hi> (selvaggio), per lo stesso processo di astrazione delle
+          qualità di audacia e di prestanza che si associano al bene come al male, potè servire al
+          significato divenuto comune di valente in qualche opera degna, come a questo di pronto e,
+          diremo, specializzato nei delitti.</note>
+        <note xml:id="Guerri_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_11216"
+          targetEnd="quarantana/cap1.xml#c1_11217"><ref rend="bold">Squarci autentici</ref>: Gli
+          squarci autentici sono qui introdotti per ricreare l’ambiente storico e per dimostrarlo
+          criticamente, nonostante che spezzino la scena. Scelti e illustrati con gli accorgimenti
+          del M., mettono in evidenza la ridicola ridondanza dei titoli nobiliari e ufficiali dei
+          governatori spagnoli (la rivoluzione francese non era passata sul mondo per niente, al
+          tempo che fu scritto il romanzo); la sonorità, nonchè la scorrezione dei proclami, la
+          sproporzione tra il dire e il fare, tra la presunzione e l’efficacia; insomma la vuota
+          burbanza di quel governo nefasto. Osservazioni e ironie particolari, gettate giù senza
+          parere, qualificano uomini e avvenimenti.</note>
+        <note xml:id="Guerri_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_11240"
+          targetEnd="quarantana/cap1.xml#c1_11243"><ref rend="bold">Dall'otto... 1583</ref>:
+          Dall’apr. 1583: dunque le grida minacciavano di già in vano da poco meno di 50
+          anni.</note>
+        <note xml:id="Guerri_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_11276"
+          targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">Sua Maestà Cattolica</ref>: È il
+          re di Spagna. Nel 1583 era Filippo II.</note>
+        <note xml:id="Guerri_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_11519"
+          targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">per processo informativo</ref>:
+          Sarà l’avo materno del M. stesso, Ces. Beccaria, che mostrerà l’iniquità e l'assurdità di
+          impiegare la tortura a scopo d’istruttoria.</note>
+        <note xml:id="Guerri_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_11776"><ref
+            rend="bold">Appostatamente</ref>: Viene a dire: a tradimento, per agguato.</note>
+        <note xml:id="Guerri_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_11787"
+          targetEnd="quarantana/cap1.xml#c1_11792"><ref rend="bold">Ai quali si rendono più
+            facili</ref>: Cioè che compiono più sfacciatamente.</note>
+        <note xml:id="Guerri_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_11822"><ref
+            rend="bold">Onninamente</ref>: Interamente (latin).</note>
+        <note xml:id="Guerri_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_11973"
+          targetEnd="quarantana/cap1.xml#c1_11974"><ref rend="bold">Nell'ordir cabale</ref>:
+          Macchinare intrighi.</note>
+        <note xml:id="Guerri_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_11983"
+          targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>: Enrico IV di
+          Navarra che, divenendo re di Francia, iniziò la dinastia dei Borboni. Sostenne contro
+          Filippo II di Spagna fierissime guerre.</note>
+        <note xml:id="Guerri_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_11999"
+          targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">il duca di Savoia</ref>: Carlo
+          Emanuele I, genero di Filippo II. Istigato alla guerra, ricuperò il marchesato di Saluzzo,
+          col trattato di Lione (1601), ma dovette cedere alla Francia un vasto territorio al di là
+          del Rodano.</note>
+        <note xml:id="Guerri_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_12016"
+          targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">duca di Biron</ref>: Il
+          maresciallo duca di Biron, governatore della Borgogna, complottò col Fuentes e col duca di
+          Savoia contro il suo re, ma ci perdette la testa sotto la mannaia.</note>
+        <note xml:id="Guerri_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_12075"
+          targetEnd="quarantana/cap1.xml#c1_12095"><ref rend="bold">spedì... ad esterminio</ref>:
+          spedì... la solita... ad esterminio... Nota l’arguzia. Quel governatore aveva molta fede
+          nei torchi tipografici.</note>
+        <note xml:id="Guerri_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_12254"
+          targetEnd="quarantana/cap1.xml#c1_12257"><ref rend="bold">Questo... assicurarci</ref>:
+          Questo basta ad assicurarci... Sentilo come un epitaffio e un epigramma alle grida e alla
+          loro efficacia.</note>
+        <note xml:id="Guerri_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_12269"
+          targetEnd="quarantana/cap1.xml#c1_None"><ref rend="bold">Che i due... leggio</ref>: Ora
+          ripiglia la scena che le gride avevano sospesa. <hi rend="bold">Quel che più dispiacque...
+            fu il dover accorgersi</hi> sono le battute che bastano a far sospettare che don A. è un
+          egoista e un pauroso (le due qualità s’associano assai di frequente). La mossa pronta e
+          decisa dei bravi incontro a lui, accresce il contrasto col suo impaccio di gesti e di
+          mente; la loro spavalda franchezza mette meglio in evidenza il sospetto e lo studio del
+          curato. — Nota la malizia delle espressioni <hi rend="bold">come se leggesse... a un
+            tratto mille pensieri... se avesse peccato... il testimonio della coscienza...</hi>
+          ecc.; e quei tre <hi rend="bold">nessuno</hi>, dove c’è un po’ di rettorica, ma di quella
+          discreta, fine, di buon gusto, come dice il M. nell’<hi rend="bold">Introd.</hi>, di
+          quella che lascia scoprire la cura, ma non l’artificio. E studiati di seguire i tocchi co’
+          quali sono ritratti gli atti e i gesti di don A., dal <hi rend="bold">breviario aperto
+            innanzi come se leggesse</hi>, quando ha ancora per lo meno la forza della simulazione,
+          al <hi rend="bold">libro che gli restò spalancato sulle mani come sur un leggio</hi>,
+          quando pare una statua, buffa.</note>
+        <note xml:id="Guerri_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_12641"
+          targetEnd="quarantana/cap1.xml#c1_12942"><ref rend="bold">Lei ha intenzione...
+            terrore</ref>: L’intimazione al curato è fatta dai due manigoldi con violenza brutale,
+          senza un segno di rispetto alla veste e all'età. Gli parlano da superiori a inferiore, con
+          l’aria di coglierlo sul punto di commettere <hi rend="bold">una ribalderia</hi>,
+          rovesciando così le parti. Nota il procedere spiccio: <hi rend="bold">Lei ha intenzione...
+            Or bene... Orsù...</hi> e il <hi rend="bold">Ma</hi> di ripresa canzonatoria del secondo
+          oratore, appoggiato a una <hi rend="bold">buona bestemmia</hi> (dove <hi rend="bold"
+            >buona</hi> esprime il senso, l'abito e l'intenzione di chi la pronuncia). Il povero don
+          A. risponde iterando i <hi rend="bold">Cioè, lor signori; Ma, signori miei; Ma, lor
+            signori</hi>, in tono compassionevole, untuoso, senza moto di ribellione mai.</note>
+        <note xml:id="Guerri_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_12873"
+          targetEnd="quarantana/cap1.xml#c1_None"><ref rend="bold">Zitto, zitto... inchino</ref>:
+          Quando il <hi rend="bold">compagnone</hi> ha affrettato il colpo di grazia con la minaccia
+          d’una pugnalata o d'altra carezza simile, il primo oratore ripiglia lui il discorso e la
+          parte, quasi a trattenerlo e per ridar l’anima al paziente, che la perde. L'espressione
+            <hi rend="bold">Il sig. Curato è un uomo che sa il viver del mondo</hi> palleggia quella
+          stessa di don A. ai bravi: <hi rend="bold">Lor signori son uomini di mondo</hi>. Neanche
+          nei ripieghi il pover uomo riesce ad assicurarsi l'autonomia! E ora che il bravo è sicuro
+          che avrà <hi rend="bold">giudizio</hi>, se ne garantisce, secondo gli ordini avuti, col
+          nome terribile del suo illustrissimo padrone, ingiungendogli, ben inteso, di non
+          palesarlo. Questo nome è un lampo, che rischiara e accresce il terrore. <hi rend="bold"
+            >L'inchino</hi> e l'obbedienza vengon come <hi rend="bold">per istinto</hi>, perchè la
+          paura è la seconda natura di don A.</note>
+        <note xml:id="Guerri_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_12953"
+          targetEnd="quarantana/cap1.xml#c1_13156"><ref rend="bold">Sapessero suggerire...
+            aggranchiate</ref>: Ora che la paura, contro ogni altro senso di ragione e di ministero,
+          ha gettato don A. nella combutta de’ suoi sopraffattori, per la sopraffazione di altri più
+          poverelli, egli vorrebbe, almeno, dire e sapere qualche cosa anche lui: e chiude <hi
+            rend="bold">con le due mani</hi> il breviario, che in queste scene è destinato a
+          marcarne il tempo. Ma invano, e il pover uomo <hi rend="bold">rimase come l'A. parte
+            disegna e parte lascia immaginare.</hi></note>
+        <note xml:id="Guerri_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_13198"
+          targetEnd="quarantana/cap1.xml#c1_13230"><ref rend="bold">Fin da'primi... divorato</ref>:
+          Descrive la condizione della giustizia: leggi penali fucinate senza risparmio, pene
+          comminate senza misura, e, occorrendo, ad arbitrio; ma non valeva niente, perchè non
+          s'applicavano se non contro i più disgraziati. I potenti erano d'accordo per burlarsene,
+          con la complicità della stessa magistratura. La forza pubblica era insufficiente, corrotta
+          e troppo accorta per esporsi ai rischi.</note>
+        <note xml:id="Guerri_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_13236"
+          targetEnd="quarantana/cap1.xml#c1_13238"><ref rend="bold">In alcun conto</ref>: cioè in
+          alcuna misura apprezzabile. Ma la frase non è d'uso.</note>
+        <note xml:id="Guerri_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_13361"><ref
+            rend="bold">Ampollosamente</ref>: La goffaggine delle parole, che riuscivano
+          assolutamente vane, veniva a riflettersi sulle autorità che emanavano le gride.</note>
+        <note xml:id="Guerri_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_13415"><ref
+            rend="bold">Asili</ref>: asili si chiamavano le chiese, i conventi, i palazzi gentilizi,
+          dove la forza pubblica non poteva entrare.</note>
+        <note xml:id="Guerri_cap1-n30" type="comm" target="quarantana/cap1.xml#c1_13430"
+          targetEnd="quarantana/cap1.xml#c1_13432"><ref rend="bold">Con astioso silenzio</ref>: Con
+          dispetto, per necessità politiche, non avendo lo stato la forza di opporsi.</note>
+        <note xml:id="Guerri_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_13434"><ref
+            rend="bold">Impugnati</ref>: Denegati, contraddetti.</note>
+        <note xml:id="Guerri_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_13447"
+          targetEnd="quarantana/cap1.xml#c1_13454"><ref rend="bold">Con attività... puntiglio</ref>:
+          Cioè per un vantaggio reale che rende, come suole, energica la difesa; o anche solo per
+          dispettoso attaccamento agli attributi di privilegio della casta o del ceto.</note>
+        <note xml:id="Guerri_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_13499"
+          targetEnd="quarantana/cap1.xml#c1_13500"><ref rend="bold">Forza reale</ref>: Di fatto,
+          come quella dei bravi.</note>
+        <note xml:id="Guerri_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_13605"><ref
+            rend="bold">Vanità</ref>: La vanità era il fondamento e la ragione delle infinite
+          baruffe per quel che si diceva «il punto d'onore», che fu una malattia del secolo. Salvo
+          che la riuscita di queste vanità dava, forse più che ai nostri tempi, un reale
+          accrescimento di potenza.</note>
+        <note xml:id="Guerri_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_13675"
+          targetEnd="quarantana/cap1.xml#c1_13678"><ref rend="bold">D'un pezzo di carta</ref>: Erano
+          le gride pei potenti.</note>
+        <note xml:id="Guerri_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_13772"
+          targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">Il loro... improperio</ref>: II
+          loro titolo era tenuto un improperio, cioè il nome dell'ufficio (come «birro») era
+          squalificato ad ingiuria.</note>
+        <note xml:id="Guerri_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_13815"
+          targetEnd="quarantana/cap1.xml#c1_13819"><ref rend="bold">La forza che pure avevano</ref>:
+          Sarà stata poca la forza di cui l’autorità disponeva, ma pure, come si capisce, non
+          mancava sempre, quando si voleva davvero.</note>
+        <note xml:id="Guerri_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_13838"
+          targetEnd="quarantana/cap1.xml#c1_14060"><ref rend="bold">L'uomo... potuto
+          resistere</ref>: Questo capoverso serve di passaggio dal precedente ragionamento sulla
+          giustizia, per spiegare come don A. si facesse prete. Il suo contenuto sulle caste le
+          maestranze le corporazioni le leghe, non va molto oltre l’interesse immediato della loro
+          funzione protettiva degli associati, sicchè non c'è da cercarci la spiegazione della loro
+          opera e importanza sociale, in bene e in male, nel suo complesso. — Nota <hi rend="bold">a
+            proporzione della sua autorità e della sua destrezza</hi>, ch’è una verità sempre
+          vera.</note>
+        <note xml:id="Guerri_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_14061"
+          targetEnd="quarantana/cap1.xml#c1_14396"><ref rend="bold">Il nostro... burrasche</ref>: Il
+          ritratto morale di don A., che vuol dire il ritratto del pauroso, del coniglio nel '600
+          (ma un po’ di tutti i tempi), è diviso in due quadretti. In questo capov. è la parte
+          esteriore, quella della pratica, in cui si rileva ciò ch'egli fa e che non fa («il suo <hi
+            rend="bold">sistema</hi>»), nella necessaria convivenza con gli altri uomini, per
+          l’effetto del sentimento dominante.</note>
+        <note xml:id="Guerri_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_14078"
+          targetEnd="quarantana/cap1.xml#c1_14081"><ref rend="bold">Gli anni della
+          discrezione</ref>: Del discernimento (espress. d’uso).</note>
+        <note xml:id="Guerri_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_14119"
+          targetEnd="quarantana/cap1.xml#c1_14123"><ref rend="bold">Non aveva gran fatto
+            pensato...</ref>: Si sente bene la condanna di avere abbracciato un apostolato come una
+          professione qualunque, sebbene non sia detto.</note>
+        <note xml:id="Guerri_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_14180"
+          targetEnd="quarantana/cap1.xml#c1_14188"><ref rend="bold">Nessuna... particolare</ref>:
+            <hi rend="bold">Nessuna</hi> (classe) <hi rend="bold">dispensa dal farsi un sistema
+            particolare</hi> di protezione e di difesa: verità sempre vera.</note>
+        <note xml:id="Guerri_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_14235"
+          targetEnd="quarantana/cap1.xml#c1_14303"><ref rend="bold">Neutralità...
+          retroguardia</ref>: Nota l'umorismo.</note>
+        <note xml:id="Guerri_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_14342"><ref
+            rend="bold">Dissimulando</ref>: Fingendo di non accorgersi.</note>
+        <note xml:id="Guerri_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_14349"><ref
+            rend="bold">Corrispondendo</ref>: Accomodandosi e adattandosi.</note>
+        <note xml:id="Guerri_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_14397"
+          targetEnd="quarantana/cap1.xml#c1_14709"><ref rend="bold">Non è però... brutti
+            incontri</ref>: La seconda parte del ritratto coglie don A. intimo, nella reazione al
+            <hi rend="bold">sistema</hi> pratico, tra sè e sè, o in compagnia dei fidatissimi,
+          quand’è sicuro da ogni rischio.</note>
+        <note xml:id="Guerri_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_14459"
+          targetEnd="quarantana/cap1.xml#c1_14461"><ref rend="bold">V'eran poi finalmente</ref>: I
+          due avverbi aiutano a indovinare lo sforzo che fa l’uomo, cui il sospetto empie di paura,
+          a riconoscere che ci son pure nel mondo <hi rend="bold">persone incapaci di far
+          male.</hi></note>
+        <note xml:id="Guerri_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_14499"><ref
+            rend="bold">Fantastico</ref>: Bizzarro e ardito ne’ giudizi.</note>
+        <note xml:id="Guerri_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_14501"
+          targetEnd="quarantana/cap1.xml#c1_14503"><ref rend="bold">Gridare a torto</ref>: Proprio
+          come usano i sopraffattori, che però non mostrano la loro spavalderia soltanto tra gli
+          innocui!</note>
+        <note xml:id="Guerri_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_14528"
+          targetEnd="quarantana/cap1.xml#c1_14529"><ref rend="bold">Il battuto</ref>: Chi avesse
+          avuto la peggio.</note>
+        <note xml:id="Guerri_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_14568"
+          targetEnd="quarantana/cap1.xml#c1_14589"><ref rend="bold">La ragione... dell'altro</ref>:
+          È una sentenza passata in proverbio.</note>
+        <note xml:id="Guerri_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_14593"><ref
+            rend="bold">Declamava</ref>: Declamava contro <hi rend="bold">que’ suoi confratelli</hi>
+          ecc. Conferma il poco spirito apostolico del pauroso curato.</note>
+        <note xml:id="Guerri_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_14660"
+          targetEnd="quarantana/cap1.xml#c1_14664"><ref rend="bold">Quanto più essi eran
+            conosciuti</ref>: Bella prodezza!</note>
+        <note xml:id="Guerri_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_14692"
+          targetEnd="quarantana/cap1.xml#c1_14709"><ref rend="bold">A un galantuomo...
+            incontri</ref>: La <hi rend="bold">sentenza</hi> di don A. è già smentita nel fatto
+          dell’incontro: sin qui è umorismo; ma nel suo errore contro la carità e la giustizia, sarà
+          confutata dalla conclusione del romanzo, la quale è tratta dalla serie dei casi di cui
+          proprio don A. è tra i primi responsabili, per aver ceduto all'intimazione iniqua.</note>
+        <note xml:id="Guerri_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_14712"
+          targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">I miei venticinque
+          lettori</ref>: I pochi che mi leggeranno. Il numero non contiene altro sottinteso.</note>
+        <note xml:id="Guerri_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_14722"><ref
+            rend="bold">Poveretto</ref>: La figura disegnata di sopra di don A. è comica, e,
+          ridendo, non si compiange; tuttavia diventa un <hi rend="bold">poveretto</hi> e fa un po’
+          di pena a ripensarla in questo frangente.</note>
+        <note xml:id="Guerri_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_14841"
+          targetEnd="quarantana/cap1.xml#c1_14867"><ref rend="bold">Ragazzacci... povero
+            galantuomo</ref>: Per salvare il suo quieto vivere, don A. scorderebbe anche le esigenze
+          della società più elementari (c’è un po’ di caricatura).</note>
+        <note xml:id="Guerri_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_14942"
+          targetEnd="quarantana/cap1.xml#c1_14957"><ref rend="bold">S'accorse... iniqua</ref>: Don
+          A. non ha l'animo cattivo, anzi inclinerebbe anche ai precetti cristiani, se la paura non
+          ne facesse un passivo contro coscienza.</note>
+        <note xml:id="Guerri_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_14997"
+          targetEnd="quarantana/cap1.xml#c1_15001"><ref rend="bold">Toccare... mento</ref>: Osserva
+          la macchietta.</note>
+        <note xml:id="Guerri_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_15108"
+          targetEnd="quarantana/cap1.xml#c1_15117"><ref rend="bold">Chiave... diligentemente</ref>:
+          Che già teneva... diligentemente... Osserva questi tocchi realistici, che coloriscono
+          secondo l’umile verità, e perciò con tanta efficacia, la premura e la paura di don
+          A.</note>
+        <note xml:id="Guerri_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_15148"><ref
+            rend="bold">Perpetua</ref>: Il nome scelto dal M. fa pensare da sè solo che si tratta
+          della serva padrona, confidente necessaria, parte primaria e stabile della casa.</note>
+        <note xml:id="Guerri_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_14455"><ref
+            rend="bold">Certamente</ref>: Questo avv. basta a far indovinare la vita metodica
+          abitudinaria della canonica, e tal richiamo è qui posto abilmente per ragion di contrasto
+          col turbamento nuovo che sta per entrarvi.</note>
+        <note xml:id="Guerri_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_15199"><ref
+            rend="bold">Sinodale</ref>: Stabilita dai sinodi (e precisamente dal Concilio di
+          Trento), per le domestiche a servizio degli ecclesiastici.</note>
+        <note xml:id="Guerri_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_15215"
+          targetEnd="quarantana/cap1.xml#c1_15233"><ref rend="bold">Come diceva... amiche</ref>:
+          Questa malizia non è di conio; ma il M. non sdegnava di esprimersi come gli altri, quando
+          non ci fosse da dir meglio.</note>
+        <note xml:id="Guerri_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_15240"
+          targetEnd="quarantana/cap1.xml#c1_15253"><ref rend="bold">AI luogo... lentamente</ref>: Al
+          luogo solito... lentamente. Si può ripetere l’osservaz. fatta prima commentando l'avv. <hi
+            rend="bold">certamente</hi>.</note>
+        <note xml:id="Guerri_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_15288"><ref
+            rend="bold">Esperti</ref>: Intendi alla conoscenza del suo padrone, senza qui allargare
+          ad altro questa qualità di Perp.</note>
+        <note xml:id="Guerri_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_15314"
+          targetEnd="quarantana/cap1.xml#c1_15320"><ref rend="bold">Lasciandosi andar...
+            seggiolone</ref>: Ritrae l’uomo disfatto, che non ne può più.</note>
+        <note xml:id="Guerri_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_15349"
+          targetEnd="quarantana/cap1.xml#c1_15355"><ref rend="bold">O è cosa... dire</ref>: È una
+          prima ammissione.</note>
+        <note xml:id="Guerri_cap1-n69" type="comm" target="quarantana/cap1.xml#c1_15469"
+          targetEnd="quarantana/cap1.xml#c1_15481"><ref rend="bold">Con le mani... fisso</ref>:
+          Osserva la macchietta.</note>
+        <note xml:id="Guerri_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_15501"
+          targetEnd="quarantana/cap1.xml#c1_15504"><ref rend="bold">Ne va la vita</ref>: Con questo
+          don A. ha ormai dichiarato la sostanza del terribile segreto.</note>
+        <note xml:id="Guerri_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_15527"
+          targetEnd="quarantana/cap1.xml#c1_15529"><ref rend="bold">Brava, come quando...</ref>:
+          Basta per farci comprendere che don A. sa bene che Perp. ha la lingua lunga. E tuttavia
+          non potrà fare a meno di svelare il segreto, perchè il bisogno e l’uso dello sfogo sono, a
+          momenti, più forti della sua paura. Son di quei contrasti dell'animo che forse tutti
+          indoviniamo, ma soltanto gli artisti veri sanno ricrearli con pari naturalezza.</note>
+        <note xml:id="Guerri_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_15658"
+          targetEnd="quarantana/cap1.xml#c1_15684"><ref rend="bold">Si rovesciò... cielo!</ref>:
+          Ecco che lo sfogo non lenisce la paura, ma genera un nuovo sospetto.</note>
+        <note xml:id="Guerri_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_15709"
+          targetEnd="quarantana/cap1.xml#c1_None"><ref rend="bold">Oh! siam qui... ascolta</ref>:
+          Vedi come Perp. capisce bene che il padrone ha paura anche delle ombre.</note>
+        <note xml:id="Guerri_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_15766"
+          targetEnd="quarantana/cap1.xml#c1_15767"><ref rend="bold">Ma poi!...</ref>: Ma poi... Lei
+          non avrà l'animo di seguirlo. Vedi come i due s'intendono bene!</note>
+        <note xml:id="Guerri_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_15780"
+          targetEnd="quarantana/cap1.xml#c1_15782"><ref rend="bold">Il nostro arcivescovo</ref>: Era
+          il cardinale Federigo Borromeo.</note>
+        <note xml:id="Guerri_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_15813"
+          targetEnd="quarantana/cap1.xml#c1_15814"><ref rend="bold">Ci gongola</ref>: Esprimerebbe
+          un sentimento volgare, ma considera ch'è interpretazione di volgo.</note>
+        <note xml:id="Guerri_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_15907"
+          targetEnd="quarantana/cap1.xml#c1_15908"><ref rend="bold">Siam ridotti</ref>: Il plurale
+          esprime la compartecipazione di Perp. alle umiliazioni del padrone e il suo risentimento.
+          Le reticenze <hi rend="bold">tutti vengono a... pronto a calar le...</hi> che non sono
+          complimenti, mostrano che Perp. non gliele mandava a dire al padrone.</note>
+        <note xml:id="Guerri_cap1-n78" type="comm" target="quarantana/cap1.xml#c1_15958"
+          targetEnd="quarantana/cap1.xml#c1_15971"><ref rend="bold">Non cominci... boccone</ref>: È
+          il compenso affettivo al poco riguardo di prima e ristabilisce la gerarchia.</note>
+        <note xml:id="Guerri_cap1-n79" type="comm" target="quarantana/cap1.xml#c1_16071"
+          targetEnd="quarantana/cap1.xml#c1_16094"><ref rend="bold">Giunto... cielo!</ref>: Nota
+          l’ultimo gesto con cui sì chiude la scena e il capitolo. Il povero don A. dalla sua
+          confidenza non ha guadagnato altro che una preoccupazione nuova.</note>
+        <note xml:id="Guerri_cap1-n80" type="comm" target="quarantana/cap1.xml#c1_14811"
+          targetEnd="quarantana/cap1.xml#c1_14812"><ref rend="bold">E disparve</ref>: La parola è
+          solenne. Nota che la ricercatezza delle immagini è un mezzo efficacissimo di comicità,
+          quando contrasta con la banalità delle cose.</note>
+      </div>
+    </body>
+  </text>
+</TEI>
