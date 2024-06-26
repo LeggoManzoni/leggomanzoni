@@ -421,11 +421,7 @@
                                 // Add data to the polygon series
                                 polygonSeries.data.setAll(mapData);
     
-                                polygonSeries.mapPolygons.template.setAll({
-                                    tooltipText: "{name}: {value} users",
-                                    interactive: true
-                                });
-    
+   
                                 polygonSeries.set("heatRules", [{
                                     target: polygonSeries.mapPolygons.template,
                                     dataField: "value",
