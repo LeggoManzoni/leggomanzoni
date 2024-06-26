@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cesare Angelini (1958)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi : Volume secondo delle Opere, a cura di Cesare Angelini</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Unione tipografico-editrice torinese</publisher>
+          <date>1958</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1 </p> 
+    </encodingDesc> 
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Angelini_cap1">
+        <note xml:id="Angelini_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">Quel ramo...</ref>:  è il ramo che volge verso Lecco. Lì ricomincia l’Adda, dopo d’essersi distesa e riposata nel lago; lì riprende «corso e figura di fiume»; ed è (dirà più tardi, cap. XVI) «la seconda sorgente dell’Adda». La prima è sulle Alpi della val Braulio (alta Valtellina). L’Adda è parte deU’incantesimo del romanzo; una presenza tutelare di tutto il paesaggio. (L’abbondanza di virgole già in questo primo periodo, dice la cautela della penna del Manzoni, e la sua arte analitica, travagliata, e perfin minuziosa).</note>
+        <note xml:id="Angelini_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">tre grossi torrenti</ref>:  il Bione, il Gerenzone, il Galdone: una patria d’acque.</note>
+        <note xml:id="Angelini_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10125" targetEnd="quarantana/cap1.xml#c1_10126"><ref rend="bold">monti contigui</ref>:  l’aggettivo «contiguo» (e sarà ripetuto assai volte e talvolta in forma di «attiguo»), è una delle venticinque parole illustri rimaste nel romanzo ossia nel libro scritto ad esterminio delle parole illustri; e la loro rarità le fa più singolari. Stava meglio nella prosa letteraria di un Foscolo, per esempio.</note>
+        <note xml:id="Angelini_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10136" targetEnd="quarantana/cap1.xml#c1_10137"><ref rend="bold">il Resegone</ref>:  dopo il fiume, il monte, e domina tutto l'orizzonte del romanzo. Vi è nominato, esplicitamente, tre volte, qui, e nei capitoli XI e XXXVII; ma par sempre nominato, è sempre presente. Come l’Adda. Ed è, fin dal principio, la corale partecipazione dei luoghi all’azione del romanzo e alla vita dei personaggi. Lucia, Renzo si richiamano spesso e volentieri all’Adda, al Resegone, ai monti, come a presenze tutelari. La voce dell’Adda, la vista del Resegone sono voci e volti amici: restituiscono fiducia, serenità. (Resegone, voce lombarda dialettale; e perciò il Manzoni la scrive in corsivo. Ma a farla italiana è bastato l’uso che ne ha fatto lui).</note>
+        <note xml:id="Angelini_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10325"><ref rend="bold">Ai tempi in cui accaddero</ref>:  nel 1628, quando la Lombardia era sotto il governo spagnolo che la spadroneggiava, anche insegnando «la modestia alle fanciulle» e accarezzando «le spalle a qualche marito». Battute finemente ironiche contro i dominatori.</note>
+        <note xml:id="Angelini_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10458" targetEnd="quarantana/cap1.xml#c1_10463"><ref rend="bold">e da qui la vista spazia</ref>:  e da qui, forse, si comprende meglio la cartina geografica che il Manzoni ha voluto offrirci con la prima pagina, che par messa lì per dar subito saldezza e concretezza al fondo dei quadri, del paesaggio insomma. Da qui, forse, si può meglio rivedere la «descrizione» tanto discussa, e trovarne le ragioni geografiche, e magari quelle poetiche e musicali.</note>
+        <note xml:id="Angelini_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10482" targetEnd="quarantana/cap1.xml#c1_10485"><ref rend="bold">piglian più o meno</ref>:  l’espressione avverbiale torna tre volte nel giro d’un periodo. Non è troppo? (O, forse, è pignoleria averlo notato).</note>
+        <note xml:id="Angelini_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10534" targetEnd="quarantana/cap1.xml#c1_10538"><ref rend="bold">in un andirivieni di montagne</ref>:  c’è il senso fantastico e grande che dà la folla dei monti. Ci ricorda un luogo bellissimo deW Adelchi: «Oltre quei monti Sono altri monti...» «Andirivieni» è parola cara al Manzoni; tornerà nel capitolo XX (due volte) e nel XXIII e nel XXXV, sempre con un senso pittoresco e un po’ misterioso.</note>
+        <note xml:id="Angelini_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10613" targetEnd="quarantana/cap1.xml#c1_10619"><ref rend="bold">il monte di cui passeggiate le falde</ref>:  usato transitivamente, il verbo «passeggiare» crea una sintassi intensa, vigorosa. La ripeterà nel capitolo XXVIII, a proposito dei bravi domati dalla fame: «si strascinavan per le strade che avevano... passeggiate a testa alta...». Si pensa ai danteschi «passeggiati marmi», del c. XVII dell’Inferno.</note>
+        <note xml:id="Angelini_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10690" targetEnd="quarantana/cap1.xml#c1_10691"><ref rend="bold">bel bello</ref>:  l’usa due volte, qui e nel capitolo VIII («Renzo s’affacciò alla porta, e la sospinse bel bello»), con un senso di grande misura. Ma è espressione manzoniana per sempre.</note>
+        <note xml:id="Angelini_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10696" targetEnd="quarantana/cap1.xml#c1_10701"><ref rend="bold">sulla sera del giorno 7 novembre</ref>:  tutti i fatti principali del romanzo accadranno d’autunno. Ci porta a dire che il paesaggio manzoniano ignora le stagioni trionfanti e tentatrici — la primavera, l’estate — ma è mirabilmente rischiarato da un temperato lume d’autunno. Quasi un raccoglimento evangelico.</note>
+        <note xml:id="Angelini_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705"><ref rend="bold">don Abbondio</ref>:  il curato di una di quelle terre descritte di sopra; il primo personaggio che compare ad animare il paesaggio. Nel nome soffice, pacioso, par già d’intravvedere l’uomo e il suo sistema di vita: il quieto vivere. «Diceva tranquillamente... girati oziosamente...». Dopo questa, quant’altre immagini e vignette incontreremo di lui! e tutte coerenti.</note>
+        <note xml:id="Angelini_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_11189" targetEnd="quarantana/cap1.xml#c1_11192"><ref rend="bold">della specie de' bravi</ref>:  i «bravi», e le grida che li riguardano, sono la prima delle parti propriamente «storiche» che danno al romanzo l'appellativo di «romanzo storico».</note>
+        <note xml:id="Angelini_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_11244" targetEnd="quarantana/cap1.xml#c1_11246"><ref rend="bold">l'Illustrissimo ed Eccellentissimo...</ref>:  con compiaciuta ironia il Manzoni elenca tutti i titoli di nobiltà a cui molto teneva la boria spagnola; lui che, già conte, lasciò cadere ogni diritto a presentare i documenti richiesti per il ricono scimento dei vecchi titoli.</note>
+        <note xml:id="Angelini_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_11400" targetEnd="quarantana/cap1.xml#c1_11403"><ref rend="bold">le più stranamente ampie...</ref>:  l’avverbio, calato tra l’articolo e l’aggettivo, par renderle anche più ampie.</note>
+        <note xml:id="Angelini_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_11572" targetEnd="quarantana/cap1.xml#c1_11573"><ref rend="bold">così gagliarde</ref>:  aggettivo sorprendentemente nuovo riferito a «parole», alle «parole d’un tanto signore».</note>
+        <note xml:id="Angelini_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_11582" targetEnd="quarantana/cap1.xml#c1_11586"><ref rend="bold">una gran voglia di credere...</ref>:  gustosissimo e arguto.</note>
+        <note xml:id="Angelini_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_11717" targetEnd="quarantana/cap1.xml#c1_11719"><ref rend="bold">sbrattare il paese</ref>:  più forte dello «sgomberare» usato un poco più sopra. Anche in séguito, preferirà sbrattare, di significato più ampio e di suono più ruvido. «...lavoravano a sbrattare la strada» (cap. XXXV). E nel XXXVI: «qui s’è finito ora di sbrattare la strada».</note>
+        <note xml:id="Angelini_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_12150" targetEnd="quarantana/cap1.xml#c1_12156"><ref rend="bold">sotto il cui governo accadde la passeggiata...</ref>:  il piccolo fatto della passeggiata di don Abbondio preso come riferimento storico di altri fatti ben più vasti e maggiori. Rovesciamento (vendicativo) della storia.</note>
+        <note xml:id="Angelini_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_12382" targetEnd="quarantana/cap1.xml#c1_12389"><ref rend="bold">fu assalito... da mille pensieri</ref>:  «assalire», nel senso morale, il Manzoni l’ha già usato nel Cinque maggio: «l’assalse il sovvenir»; e nel coro dell’Ermengarda: «l’anima impaurita assale».</note>
+        <note xml:id="Angelini_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_12671" targetEnd="quarantana/cap1.xml#c1_12680"><ref rend="bold">Cioè... Lor signori...</ref>:  comincia il linguaggio sconcertante di don Abbondio, la rivelazione della sua debolezza e il tradimento della sua missione, che andrà sempre crescendo. I curati (deve averlo già detto qualcuno) sono ancora la parte più evangelica del clefo; quando son veri curati.</note>
+        <note xml:id="Angelini_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_12786" targetEnd="quarantana/cap1.xml#c1_12794"><ref rend="bold">a me non me ne vien nulla in tasca...</ref>:  entrati ormai nel vivo della nuova «dicitura», notiamo una volta per tutte, come il Manzoni ha ricostruito il suo nuovo linguaggio su quello del popolo, e ne è venuto fuori la più bella eleganza della scrittura, la più cordiale. E — diciamolo sùbito — anche questa cordialità di linguaggio allontana sempre più dal Manzoni ogni sospetto di giansenismo.</note>
+        <note xml:id="Angelini_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_12876" targetEnd="quarantana/cap1.xml#c1_12878"><ref rend="bold">il primo oratore</ref>:  qui «oratore» sarebbe aulico, se non fosse ironico.</note>
+        <note xml:id="Angelini_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_12908" targetEnd="quarantana/cap1.xml#c1_12909"><ref rend="bold">don Rodrigo</ref>:  il primo dei nomi crudi e singolarmente fatali che incontriamo nel romanzo. Poi verranno Gertrude, Egidio...; nomi nati da freddi incontri di sillabe, e già ritratti.</note>
+        <note xml:id="Angelini_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_12933"><ref rend="bold">momentaneamente</ref>:  È la prima delle similitudini (e saranno tante e tutte belle) che incontriamo nella lettura del romanzo; una similitudine di luce.</note>
+        <note xml:id="Angelini_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_12951" targetEnd="quarantana/cap1.xml#c1_12954"><ref rend="bold">se mi sapessero suggerire...</ref>:  è l’avvilimento estremo di don Abbondio. E naturalmente il bravo ne approfitterà per giungere alla beffa: «suggerire a lei che sa di latino!».</note>
+        <note xml:id="Angelini_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_13111" targetEnd="quarantana/cap1.xml#c1_13113"><ref rend="bold">dond'era lui venuto</ref>:  è duro, è brutto.</note>
+        <note xml:id="Angelini_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_13397" targetEnd="quarantana/cap1.xml#c1_13399"><ref rend="bold">L'impunità era organizzata...</ref>:  la voce dello scrittore appare come turbata dalla tristizia delle condizioni sociali d’allora; e il gran nipote di Cesare Beccaria critica delicatamente e i delitti e le pene. Gli uomini facevano le leggi, ma le leggi non facevano gli uomini.</note>
+        <note xml:id="Angelini_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_13414" targetEnd="quarantana/cap1.xml#c1_13415"><ref rend="bold">gli asili</ref>:  le chiese, i conventi, i castelli dei signorotti potenti davano l'impunità ai delinquenti.</note>
+        <note xml:id="Angelini_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_13908" targetEnd="quarantana/cap1.xml#c1_16051"><ref rend="bold">I mercanti... una corporazioni</ref>:  È un quadro della vita corporativa del Seicento coi suoi vantaggi e svantaggi; questi maggiori di quelli.</note>
+        <note xml:id="Angelini_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14063"><ref rend="bold">Il nostro Abbondio</ref>:  nel «nostro» c’è un po’ d’affetto e di buona pietà verso un uomo che ci appare subito più disgraziato che colpevole. Lo sapranno le sue stesse vittime, Renzo e Lucia. Ma qui è l’Abbondio giovinetto.</note>
+        <note xml:id="Angelini_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_14127" targetEnd="quarantana/cap1.xml#c1_14129"><ref rend="bold">ai nobili fini</ref>:  un barbaro non privo d’ingegno, vuol vedere nell’aggettivo «nobili» non so che oratoria e rigorismo etico, che sarebbe derivato al Manzoni dal contatto coi giansenisti. Ma, forse, l’enfasi oratoria è più nell’animo di chi legge con la voglia di solennizzare quel che è semplice e intorbidare quello che è chiaro.</note>
+        <note xml:id="Angelini_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_14568" targetEnd="quarantana/cap1.xml#c1_14572"><ref rend="bold">la ragione e il torto...</ref>: sentenza di sapore manzoniano, diventata famosa. E a questo punto, usa citare un fatterello calato nella Morale cattolica, giusto sulla ragione e sul torto di due litiganti. Argutissimo.</note>
+        <note xml:id="Angelini_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_14619" targetEnd="quarantana/cap1.xml#c1_14625"><ref rend="bold">un voler raddirizzar le gambe ai cani</ref>:  tutto il familiare e il fantastico immaginare del popolo, tutte le sue espressioni familiari e fantastiche entrano nel linguaggio del Manzoni, e ne sono la sua incantata novità.</note>
+        <note xml:id="Angelini_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_14677" targetEnd="quarantana/cap1.xml#c1_14680"><ref rend="bold">una sua sentenza prediletta</ref>:  questa sentenza è l’ultimo tocco del ritratto di don Abbondio, lasciata magistralmente in ultimo, dove si riprende il fatto dell’incontro interrotto.</note>
+        <note xml:id="Angelini_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_14797" targetEnd="quarantana/cap1.xml#c1_14800"><ref rend="bold">ma vorrà delle ragioni</ref>:  don Abbondio sa di non aver ragioni da portare, ma non sa persuadersi di non aver ragione.</note>
+        <note xml:id="Angelini_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_14865" targetEnd="quarantana/cap1.xml#c1_14867"><ref rend="bold">un povero galantuomo</ref>:  ne I promessi sposi volentieri si dichiarano galantuomini quelli che non lo sono o lo sono troppo poco. I bravi hanno detto appena prima: «noi siam galantuomini». Qui lo dice don Abbondio in un momento in cui proprio non lo è. Tra poco, il dottor Azzeccagarbugli dirà: «... e non venite a far...» questi discorsi «con un galantuomo che sa quanto valgono». Ma Renzo, vittima di questi galantuomini, un po’ più tardi dirà: «ce n’è pochi de’ galantuomini» (cap. XIV), e, anche lì, parrà la bocca della verità.</note>
+        <note xml:id="Angelini_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199"><ref rend="bold">l'età sinodale</ref>:  l’età prescritta dai sinodi ecclesiastici: quarant'anni.</note>
+        <note xml:id="Angelini_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_15245" targetEnd="quarantana/cap1.xml#c1_15246"><ref rend="bold">vino prediletto</ref>:  come ha «il suo sistema particolare di vita» (il quieto vivere), don Abbondio ha la «sua sentenza prediletta» e il suo «vino prediletto». Aiuta a dare la sua fisionomia e il suo limite. Don Abbondio è la figura più seguita e rifinita del romanzo. Ed è inutile il richiamo ai preti del Porta e alla Nomina del Cappellan. Nessuna analogia interiore tra questi e don Abbondio.</note>
+        <note xml:id="Angelini_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_15469" targetEnd="quarantana/cap1.xml#c1_15474"><ref rend="bold">con le mani arrovesciate sui fianchi</ref>:  è il primo ritratto di Perpetua. Ne incontreremo tanti, e mai monotoni, vivissimi sempre, e sempre un po’ comicorealistici.</note>
+        <note xml:id="Angelini_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_15537" targetEnd="quarantana/cap1.xml#c1_15541"><ref rend="bold">onde, cambiando subito il tono</ref>:  e appena sotto: onde, dopo aver respinti...: e l’avverbio pare troppo pesante e inutilmente solenne in mezzo a un linguaggio così libero e fresco. Si ripeterà, con la medesima pesantezza, nei capitoli XXI, XXIV, XXXIV; e forse altrove.</note>
+        <note xml:id="Angelini_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_15834" targetEnd="quarantana/cap1.xml#c1_15836"><ref rend="bold">Son pareri codesti</ref>:  don Abbondio se ne ricorderà più tardi, nel gran colloquio col cardinale (cap. XXVI), quando dovrà dire: «Proprio le ragioni di Perpetua».</note>
+        <note xml:id="Angelini_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_14811" targetEnd="quarantana/cap1.xml#c1_14812"><ref rend="bold">e disparve</ref>:  c’è, dietro il verbo drammatico, il melodrammatico della situazione.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

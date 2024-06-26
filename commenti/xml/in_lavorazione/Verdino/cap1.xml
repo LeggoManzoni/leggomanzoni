@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stefano Verdino (1990)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="LL">Lorenzo Laconi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Stefano Verdino</title>
+          <editor>Verdino, Stefano</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Tascabili Bompiani</publisher>
+          <date>1990</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1. </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Verdino_cap1">
+        <note xml:id="Verdino_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10020"><ref rend="bold">1. Quel ramo... seni</ref>:  la celebre descrizione del ramo di Lecco di questo primo periodo, come di tutta la sequenza descrittiva di apertura, sembra obbedire alla esigenza di particolarizzazione che deve avere il romanzo. Nel saggio Del romanzo storico, confrontando il modo di rappresentazione del romanzo rispetto alla storiografia Manzoni spiega ciò nel confronto tra carta geografica e carta topografica dove sono “segnate anche le alture minori, e le disuguaglianze ancor meno sensibili del terreno, e i borri, le gore, i villaggi, le case isolate, le viottole”. È stata anche rilevata dalla critica una certa affinità, nel modulo descrittivo, con una pagina del gesuita secentesco Daniello Battoli (1608-85), molto letto nelle scuole e sicuramente noto a Manzoni: “Quella parte dell'India che è presso il Gange... e verso il mezzodì si sporge con una lingua, che dalle due foci dell'Indo e del Gange, onde comincia, è lunga presso dì novecento miglia” (Istoria della Compagnia di Gesù). Un’altra possibile fonte, sempre di provenienza dalla cultura scolastica di Manzoni è stata indicata da P. Marco Tentorio (Dissertazioni sul Manzoni, Genova, Archivio PP. Somaschi, s.d.) nel testo agiografico Vita del B. Miro del padre somasco Giuseppe Stampa (1666-1734): «Quella parte di Lombardia che verso il settentrione sollevasi poco sopra a Milano in amene colline... e si stende fin sotto ai monti, che formano una catena fra Como e Lecco, è la più felice e deliziosa di tutte le altre province che le stanno intorno, per essere popolata di grosse terre e villaggi, bagnata da larghi fiumi che serpeggiando fra quelle valli vi stagnano, e formano molti laghi... lingua di terra, che poi divide lo stesso lago di Como in due rami, l’uno dei quali conserva il nome generico, e termina a Como stesso, e l’altro sotto altro nome pon fine a Lecco e, da questo famoso borgo s’appela il ramo di Lecco.»</note>
+        <note xml:id="Verdino_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10055"><ref rend="bold">2. costiera</ref>:  il pendio tra i monti e la sponda del lago.</note>
+        <note xml:id="Verdino_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">3. tre grossi torrenti</ref>:  Gerenzone, Galdone, Bione.</note>
+        <note xml:id="Verdino_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10154"><ref rend="bold">4. talché</ref>:  cosicché.</note>
+        <note xml:id="Verdino_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10185"><ref rend="bold">5. contrassegno</ref>:  indizio.</note>
+        <note xml:id="Verdino_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10264"><ref rend="bold">6. casali</ref>:  case di campagna sparse sul territorio.</note>
+        <note xml:id="Verdino_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10276" targetEnd="quarantana/cap1.xml#c1_10320"><ref rend="bold">7. Lecco... città</ref>:  allusione allo sviluppo della cittadina nell’800.</note>
+        <note xml:id="Verdino_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10336" targetEnd="quarantana/cap1.xml#c1_10339"><ref rend="bold">8. era anche un castello</ref>:  sede di una guarnigione di soldati.</note>
+        <note xml:id="Verdino_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10341" targetEnd="quarantana/cap1.xml#c1_10381"><ref rend="bold">9. aveva... padre</ref>:  è il primo periodo ironico del romanzo: la serie dei verbi (“aveva l’onore... e il vantaggio di possedere”; “insegnavan la modestia”; “accarezzavan le spalle”; “alleggerire le fatiche”) man mano mette a fuoco un significato antitetico al dettato linguistico, con ironica allusività, molto evidente nell’uso di “accarezzare” come “bastonare” e di “alleggerire” come saccheggiare”, in seguito ai soprusi usati con le ragazze e alle ruberie nelle campagne. E anche un primo rapido giudizio negativo su forze militari che invece di tutelare popoli e territori esercitavano la loro arbitraria prepotenza.</note>
+        <note xml:id="Verdino_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10405" targetEnd="quarantana/cap1.xml#c1_10683"><ref rend="bold">10. Dall'uria all'altra... vedute</ref>:  la descrizione si cala all’interno del paesaggio, mettendo in evidenza stradina e cose offerte alla vista di chi vi transita, come appunto fra poco don Abbondio.</note>
+        <note xml:id="Verdino_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10684" targetEnd="quarantana/cap1.xml#c1_10732"><ref rend="bold">11. Per una... altrove</ref>:  vi è voluta sfasatura ironica tra la precisione cronologica e l’indeterminatezza di luoghi e persona; riguardo quest’ultima Stefano Stampa (1819-1907), figliastro del Manzoni afferma (A. Manzoni, la sua famiglia, i suoi amici, Milano, Hoepli, 1885) di aver più volte sentito il patrigno sostenere che “le descrizioni di tutti quei luoghi marcati di un asterisco invece che dal nome, erano non solo immaginarie, ma fatte in modo e con l’intenzione di dérouter di sviare il lettore dal poterli riconoscere come realmente esistenti”. I paesi in questione sono comunque Acquate, date e Maggianico. Abbondio è il santo protettore di Como, per cui la scelta del nome obbedisce al color locale.</note>
+        <note xml:id="Verdino_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10772" targetEnd="quarantana/cap1.xml#c1_10785"><ref rend="bold">12. buttando... sentiero</ref>:  è un puntuale dettaglio realistico, che connota anche un comportamento svagato e ozioso, espresso anche da altri avverbi del pezzo (“bel bello”; “tranquillamente”; “oziosamente”).</note>
+        <note xml:id="Verdino_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_10849" targetEnd="quarantana/cap1.xml#c1_10866"><ref rend="bold">13. dov'era... giorno</ref>:  il comportamento allude al carattere abitudinario del prete.</note>
+        <note xml:id="Verdino_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_10899"><ref rend="bold">14. cura</ref>:  la casa del parroco, cioè casa di don Abbondio.</note>
+        <note xml:id="Verdino_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_10950" targetEnd="quarantana/cap1.xml#c1_10958"><ref rend="bold">15. nell'intenzion... vicinato</ref>:  vale a dire che non si trattava di grandi pitture, al punto che ci voleva immaginazione per intendere le fiamme. L’effigie di devozione popolare e penitenziale è nel gusto figurativo dell’epoca e della Lombardia, in particolare.</note>
+        <note xml:id="Verdino_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_10989"><ref rend="bold">16. bigiognolo</ref>:  toscanismo che sostituisce il “grigiastro” del ’27; nel Fermo e Lucia era “bianco”, un colore troppo determinato in una cornice di indeterminazione e approssimazione.</note>
+        <note xml:id="Verdino_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_11094" targetEnd="quarantana/cap1.xml#c1_11192"><ref rend="bold">17. Avevano... bravi</ref>:  la descrizione del vestiario mescola esibizione degli strumenti di violenza con la pomposità del loro assieme, secondo il gusto secentesco. Bravo da pravus (lat., malvagio) indica il soldato di professione.</note>
+        <note xml:id="Verdino_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_11194" targetEnd="quarantana/cap1.xml#c1_11238"><ref rend="bold">18. Questa specie... vitalità</ref>:  comincia la digressione sulle grida, ovvero i bandi dell’autorità pubblica milanese contro i bravi, cioè contro l’uso di vari signori feudali di assoldare un piccolo esercito personale, in genere composto di figuri equivoci e loschi, capaci di soperchierie e sopraffazioni. Scopo della digressione è sia la documentazione storica (in modo assai più preciso di qualsiasi altro romanzo storico), sia l’ironia sottile nell’abile montaggio dei pomposi titoli nobiliari, del linguaggio legislativo secentesco solenne e perentorio, e totalmente inefficace, in quanto inanemente ripreso per mezzo secolo, senza conseguire alcun risultato (che avrebbe dovuto prodursi invece in pochi giorni).</note>
+        <note xml:id="Verdino_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_11266"><ref rend="bold">19. Contestabile</ref>:  o conestabile, capo di una giurisdizione militare.</note>
+        <note xml:id="Verdino_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">20. Sua Maestà Cattolica</ref>:  titolo del re di Spagna, nel 1583 Filippo II.</note>
+        <note xml:id="Verdino_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_11333"><ref rend="bold">21. esercizio</ref>:  lavoro.</note>
+        <note xml:id="Verdino_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11402"><ref rend="bold">22. stranamente</ref>:  straordinariamente.</note>
+        <note xml:id="Verdino_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518"><ref rend="bold">23. alla corda et al tormento</ref>:  alla tortura della corda.</note>
+        <note xml:id="Verdino_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">24. processo informativo</ref>:  non documentato, ma solo su delazioni.</note>
+        <note xml:id="Verdino_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11532"><ref rend="bold">25. galea</ref>:  nave penale, dove i condannati erano costretti a remare.</note>
+        <note xml:id="Verdino_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11560"><ref rend="bold">26. risoluta</ref>:  decisa.</note>
+        <note xml:id="Verdino_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11657" targetEnd="quarantana/cap1.xml#c1_11660"><ref rend="bold">27. sette Infanti di Lara</ref>:  famiglia aristocratica castigliana.</note>
+        <note xml:id="Verdino_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_11717"><ref rend="bold">28. sbrattare</ref>:  ripulire; argutamente Manzoni introduce un verbo pittoresco come sintesi efficace del contenuto della grida, scritto in tono aulico e burocratico.</note>
+        <note xml:id="Verdino_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_11815" targetEnd="quarantana/cap1.xml#c1_11816"><ref rend="bold">29. malattie ostinate</ref>:  corregge di nuovo ironicamente il contesto.</note>
+        <note xml:id="Verdino_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_11822"><ref rend="bold">30. onninamente</ref>:  soprattutto.</note>
+        <note xml:id="Verdino_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_11974"><ref rend="bold">31. cabale</ref>:  intrighi, soprattutto contro Enrico IV di Borbone, re di Francia (1589-1610) e teso a riconquistare il milanese.</note>
+        <note xml:id="Verdino_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_12000" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">32. duca di Savoia</ref>:  Carlo Emanuele I, duca dal 1580 al 1630.</note>
+        <note xml:id="Verdino_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_12007" targetEnd="quarantana/cap1.xml#c1_12009"><ref rend="bold">33. più d'una città</ref>:  la conquista di Saluzzo comportò la perdita per il duca sabaudo di vari territori sul Rodano, ceduti alla Francia. La citazione storica serve a demistificare la forza di quelle trame, altro esempio del malo modo di gestire la politica del tempo.</note>
+        <note xml:id="Verdino_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_12016" targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">34. duca di Biron</ref>:  Charles Gontaut, generale di Enrico IV; accusato di tradimento, fu decapitato nel 1602.</note>
+        <note xml:id="Verdino_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">35. stampatori regii camerali</ref>:  tipografi delle stampe dello stato. La regia camera era la Cassa dello stato.</note>
+        <note xml:id="Verdino_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_12190" targetEnd="quarantana/cap1.xml#c1_12191"><ref rend="bold">36. memorabile avvenimento</ref>:  rincontro tra i bravi e don Abbondio; s’innesta ironicamente grande storia ufficiale con quotidianità.</note>
+        <note xml:id="Verdino_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_12246"><ref rend="bold">37. sceleraggini</ref>:  azioni delittuose.</note>
+        <note xml:id="Verdino_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_12597"><ref rend="bold">38. galantuomini</ref>:  detto ironicamente.</note>
+        <note xml:id="Verdino_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12670"><ref rend="bold">39. Renzo Tramaglino e Lucia Mondella</ref>:  “nel dialetto milanese mondell designa il seme del grano bianco... Il cognome di Renzo sembra invece rifarsi a tremagg, foggia di rete da pestare o da uccellare, la quale è composta di tre teli di rete sovrapposti l’uno all’altro” (E. Raimondi - L. Bottoni). Possibili quindi le rispettive allusioni alla purezza e al lavoro del filatore.</note>
+        <note xml:id="Verdino_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_10203"><ref rend="bold">40. comune</ref>:  comunità.</note>
+        <note xml:id="Verdino_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_12805" targetEnd="quarantana/cap1.xml#c1_12806"><ref rend="bold">41. a ciarle</ref>:  a parole. I bravi rifiutano ogni discussione e ogni linguaggio; strumenti di cui diffidano perché non sanno usarli e preferiscono l’intimidazione senza appello e arbitraria.</note>
+        <note xml:id="Verdino_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_12825" targetEnd="quarantana/cap1.xml#c1_12832"><ref rend="bold">42. Ma lor... ragionevoli</ref>:  Abbondio tenta una vana captatio benevolente lodando iperbolicamente (con comico effetto paradossale) i suoi interlocutori.</note>
+        <note xml:id="Verdino_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_12878"><ref rend="bold">43. oratore</ref>:  detto con ironia ma distingue i due ruoli dei bravi: il primo espone, il secondo bestemmia e minaccia.</note>
+        <note xml:id="Verdino_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_12961" targetEnd="quarantana/intro.xml#c1_12962"><ref rend="bold">44. di latino!”</ref>:  riprende l’atteggiamento sfottitorio, celato da finta sottomissione, verso chi usa la lingua e la cultura; nella malafede dei bravi il linguaggio colto serve solo a imbrogliare.</note>
+        <note xml:id="Verdino_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_13031" targetEnd="quarantana/cap1.xml#c1_13057"><ref rend="bold">45. E, proferendo... serio</ref>:  è una risposta di istintiva sottomissione e rassicurazione, al di là della stessa propria determinazione. Contribuisce a siglare la continua, assoluta e crescente pavidità del personaggio nell’episodio.</note>
+        <note xml:id="Verdino_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_13062"><ref rend="bold">46. messere</ref>:  signore.</note>
+        <note xml:id="Verdino_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_13106" targetEnd="quarantana/cap1.xml#c1_13107"><ref rend="bold">47. dargli udienza</ref>:  starlo a sentire, ma l’espressione di tipo solenne è sia ironica che emblematica del rapporto di forza superiore da parte dei bravi.</note>
+        <note xml:id="Verdino_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_13376"><ref rend="bold">48. vessazioni</ref>:  soprusi.</note>
+        <note xml:id="Verdino_cap1-n49" type='comm' target="quarantana/cap1.xml#c1_13412" targetEnd="quarantana/cap1.xml#c1_13454"><ref rend="bold">49. Tali... puntiglio</ref>:  l’impunità riguardava soprattutto i luoghi religiosi inaccessibili alla polizia e alla legge secolare; ma anche importanti famiglie aristocratiche si impadronivano di quella franchigia, sostanzialmente con il consenso dello stato, in quanto i suoi reggenti erano membri di tali famiglie. Ne deriva un assieme caotico, che ha stimolato l’indagatore storico Manzoni. Sullo stesso registro scrive al Fauriel nel 1822: “Le memorie che ci restano di tale epoca presentano e fanno supporre uno stato della società veramente straordinario: il governo più arbitrario combinato con l’anarchia feudale e l’anarchia popolare; una legislazione stupefacente per ciò che prescrive e per ciò che lascia intendere o che descrive; una ignoranza profonda, feroce e pretenziosa” (Lettere, n. 160).</note>
+        <note xml:id="Verdino_cap1-n50" type='comm' target="quarantana/cap1.xml#c1_13520"><ref rend="bold">50. inceppare</ref>:  impedire.</note>
+        <note xml:id="Verdino_cap1-n51" type='comm' target="quarantana/cap1.xml#c1_13587"><ref rend="bold">51. birri</ref>:  la forza pubblica.</note>
+        <note xml:id="Verdino_cap1-n52" type='comm' target="quarantana/cap1.xml#c1_13599"><ref rend="bold">52. livrea</ref>:  divisa da servitore.</note>
+        <note xml:id="Verdino_cap1-n53" type='comm' target="quarantana/cap1.xml#c1_11037" targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">53. costoro... improperio</ref>:  lo scredito dell’esercizio della forza pubblica riprende il cenno in apertura sulla guarnigione di Lecco.</note>
+        <note xml:id="Verdino_cap1-n54" type='comm' target="quarantana/cap1.xml#c1_13797"><ref rend="bold">54. inazione</ref>:  inattività.</note>
+        <note xml:id="Verdino_cap1-n55" type='comm' target="quarantana/cap1.xml#c1_13827" targetEnd="quarantana/cap1.xml#c1_13837"><ref rend="bold">55. nell'opprimer... difesa</ref>:  secondo la legge manzoniana di rapporto tra oppressori e oppressi, espressa già nell'Adelchi.</note>
+        <note xml:id="Verdino_cap1-n56" type='comm' target="quarantana/cap1.xml#c1_13913"><ref rend="bold">56. arrolati</ref>:  arruolati, iscritti.</note>
+        <note xml:id="Verdino_cap1-n57" type='comm' target="quarantana/cap1.xml#c1_13979"><ref rend="bold">57. facinorosi</ref>:  pronti a fare il male.</note>
+        <note xml:id="Verdino_cap1-n58" type='comm' target="quarantana/cap1.xml#c1_14016"><ref rend="bold">58. dovizioso</ref>:  ricco.</note>
+        <note xml:id="Verdino_cap1-n59" type='comm' target="quarantana/cap1.xml#c1_14081"><ref rend="bold">59. discrezione</ref>:  giudizio.</note>
+        <note xml:id="Verdino_cap1-n60" type='comm' target="quarantana/cap1.xml#c1_14499"><ref rend="bold">60. fantastico</ref>:  nel senso di fare un po’ lo strano rispetto al comportamento suo d’abitudine.</note>
+        <note xml:id="Verdino_cap1-n61" type='comm' target="quarantana/cap1.xml#c1_14507" targetEnd="quarantana/cap1.xml#c1_14508"><ref rend="bold">61. rigido censore</ref>:  apposizione grottesca per don Abbondio, che è motivata dalla frustrazione di tanta sottomissione, sua imprigionante norma di vita.</note>
+        <note xml:id="Verdino_cap1-n62" type='comm' target="quarantana/cap1.xml#c1_14541"><ref rend="bold">62. torbido</ref>:  ambiguo.</note>
+        <note xml:id="Verdino_cap1-n63" type='comm' target="quarantana/cap1.xml#c1_14568" targetEnd="quarantana/cap1.xml#c1_14589"><ref rend="bold">63. la ragione... altro</ref>:  in questo caso la complessità dei problemi e delle questioni serve da alibi per lo scetticismo morale e per un rifiuto di responsabilità, requisito fondamentale invece dell’etica manzoniana.</note>
+        <note xml:id="Verdino_cap1-n64" type='comm' target="quarantana/cap1.xml#c1_14597"><ref rend="bold">64. confratelli</ref>:  religiosi che svolgevano con impegno cristiano il loro ministero; la frase mostra l’assenza di autenticità religiosa del personaggio.</note>
+        <note xml:id="Verdino_cap1-n65" type='comm' target="quarantana/cap1.xml#c1_14619" targetEnd="quarantana/cap1.xml#c1_14625"><ref rend="bold">65. un voler... cani</ref>:  “se intrigass de drizzà i gamb ai can” (C. Porta); l’espressione dà colore locale alla stizza di don Abbondio.</note>
+        <note xml:id="Verdino_cap1-n66" type='comm' target="quarantana/cap1.xml#c1_14714" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">66. venticinque lettori</ref>:  celebre e un po’ irritante formula di autoironia.</note>
+        <note xml:id="Verdino_cap1-n67" type='comm' target="quarantana/cap1.xml#c1_14967"><ref rend="bold">67. quell'altro</ref>:  don Rodrigo, così apostrofato nella rabbia mentale del curato. Tutto il monologo è abilmente costruito per rendere linguisticamente, tra balbettamenti re", “e”, “e"), interiezioni (“ih!"), frasi sospese, esclamative e interrogative, espressioni di malcelata stizza (“Ragazzacci”; “quell’altro”) ecc., il ronzare “tumultuariamente" dei pensieri.</note>
+        <note xml:id="Verdino_cap1-n68" type='comm' target="quarantana/cap1.xml#c1_14976" targetEnd="quarantana/cap1.xml#c1_15019"><ref rend="bold">68. Non conosceva... la strada</ref>:  Parini sul maestro di danza: “Egli all’entrar si fermi/ritto sul limitare, indi elevando/ambe le spalle, qual testudo il collo/contragga alquanto; e ad un medesmo tempo/inchini ’l mento, e con l’estrema falda/del piumato cappello il labbro tocchi” (Mattino, 172-77).</note>
+        <note xml:id="Verdino_cap1-n69" type='comm' target="quarantana/cap1.xml#c1_15148"><ref rend="bold">69. Perpetua</ref>:  Vittoria nel Fermo e Lucia; il mutamento forse dettato dal gusto ironico, in quanto Perpetua è la protettrice delle donne coniugate.</note>
+        <note xml:id="Verdino_cap1-n70" type='comm' target="quarantana/cap1.xml#c1_15163" targetEnd="quarantana/cap1.xml#c1_15185"><ref rend="bold">70. sapeva... proprie</ref>:  segna un legame di reciproca complementarità.</note>
+        <note xml:id="Verdino_cap1-n71" type='comm' target="quarantana/cap1.xml#c1_15309" targetEnd="quarantana/intro.xml#c1_15310"><ref rend="bold">71. “Niente, niente”</ref>:  evidente la sfasatura tra il comportamento e il linguaggio di don Abbondio; il dialogo è costruito tra la curiosità di Perpetua, tinta di formule suadenti e ricattatorie, e la reticenza del curato, adoperata anche come sceneggiata per alludere, nel silenzio, al suo isolato e grave stato ed orchestrata perciò come segnale di necessità di conforto e consolazione. Il giocare dei due personaggi con il bicchiere di vino dà ulteriore rilevanza teatrale e comica alla scena.</note>
+        <note xml:id="Verdino_cap1-n72" type='comm' target="quarantana/cap1.xml#c1_15528" targetEnd="quarantana/cap1.xml#c1_15529"><ref rend="bold">72. come quando...</ref>:  nel Fermo e Lucia vi era accennato uno specifico episodio; molto più efficace l’accenno indeterminato.</note>
+        <note xml:id="Verdino_cap1-n73" type='comm' target="quarantana/cap1.xml#c1_15782"><ref rend="bold">73. arcivescovo</ref>:  Federico Borromeo, arcivescovo di Milano. Il parere di Perpetua manca nel Fermo e Lucia; la sua introduzione serve a irrobustire il personaggio e a contrapporlo al suo padrone; inoltre introduce il personaggio del Cardinale, come punto di riferimento degli umili e del popolo.</note>
+        <note xml:id="Verdino_cap1-n74" type='comm' target="quarantana/cap1.xml#c1_15813" targetEnd="quarantana/cap1.xml#c1_15814"><ref rend="bold">74. ci gongola</ref>:  espressione di soddisfazione popolana per la sconfitta dei prepotenti attribuita all’arcivescovo.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

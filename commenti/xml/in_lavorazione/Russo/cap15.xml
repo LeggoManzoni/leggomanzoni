@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap15">
+                <note xml:id="Russo_cap15-n1" type="comm" target="quarantana/cap15.xml#c15_10113" targetEnd="quarantana/cap15.xml#c15_10127"><ref rend="bold">A un di presso come l'ultimo moccolo... gli altri spenti</ref>:  Similitudine di un comico in sordina : l'intelligenza dell'uomo materializzata, e avvicinata, per un momento, a ua luminaria, tutti i moccoli spenti, uno solo acceso. C'è il consueto processo di meccanizzamento di ciò che è umano e spirituale <bibl>(cfr.al cap. XI,la n.194-195)</bibl>. Il paragone poi è buttato lì, con una serietà sorniona,ciò che accentua il comico, nell'atto stesso di volerne smorzare sordamente il riso</note>
+                <note xml:id="Russo_cap15-n2" type="comm" target="quarantana/cap15.xml#c15_10128" targetEnd="quarantana/cap15.xml#c15_10152"><ref rend="bold">Si fece coraggio... si rizzò</ref>:  Si noti la sapiente collocazione di tutti questi verbi, dei quali, l’ultimo, nella sua brevità, esprime bene il compiersi dell'azione, dopo difficoltosi tentativi. AIla serie dei verbi, ne sono mescolati poi due d’indole morale, si fece coraggio,e quel sospiró ,che punteggiano quegli sforzi fisici del sorriso reticente dell'artista. C'è l'uomo,diventato burattino nei suoi movimenti (stese le mani,le appuntelló,tentó d’alzarsi,barcolló,si rizzò),ma in cui permane ancora una qualche coscienza della sua originaria umanità. Senza quei due verbi d'indole morale,il comico dei movimenti di <persName>Renzo</persName> avrebbe avuto qualcosa di secco e di troppo schematico.</note>
+                <note xml:id="Russo_cap15-n3" type="comm" target="quarantana/cap15.xml#c15_10241" targetEnd="quarantana/cap15.xml#c15_10246"><ref rend="bold">A guisa d'un nodo di Salomone</ref>:  Intreccio complicatissimo di linee,di una riposta sapienza. Il paragone biblico, nella sua improvvisa solennità, illumina, per contrasto, la commedia di questi geroglifici per aria di <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap15-n4" type="comm" target="quarantana/cap15.xml#c15_10290" targetEnd="quarantana/cap15.xml#c15_10303"><ref rend="bold">Con due occhietti... come due lucciole</ref>:  È la terza similitudine, che incontriamo in questa pagina, e più giù ne ricorrerà una quarta, quella di <persName>Psiche</persName>. Le due lucciole, per quel periodico sparire della loro fiamma, sono tutt’altro che comiche, sono anzi una grazia. Esse quindi ci stanno come particolare visivo, che deve rendere più evidente il giuoco degli occhietti di <persName>Renzo</persName>, ma non sono un motivo di commedia, o almeno l'elemento determinante della commedia. La commedia c’era già, inerente ai due occhietti di <persName>Renzo</persName>, e guizzava tutta in quei due verbi (scintillavan, s’ecclissavano), indicanti un movimento periodico, che ha del macchinale e quasi dell’artificiale. La similitudine delle lucciole, quindi, ha un valore, più che altro, visivo-dimostrativo: assai diversa funzione del moccolo acceso, di cui alla n. 10-11.</note>
+                <note xml:id="Russo_cap15-n5" type="comm" target="quarantana/cap15.xml#c15_10368" targetEnd="quarantana/cap15.xml#c15_10377"><ref rend="bold">Per buona sorte che anch'io son furbo la mia parte</ref>:  Ma il miglior modo di essere furbi è quello di non saperlo troppo, e, in ogni caso, di non darne comunicazione agli altri. Così rispondono a coro i lettori, a questa uscita di <persName> Renzo</persName>; però si travisa quello che il reticente pensiero dello scrittore.<persName> Renzo </persName> per il <persName> M. </persName> non è uno sciocco, ma soltanto un imprudente. Tre giorni prima ne aveva immaginata una, da fare onore a un giureconsulto, quando era andato da <persName>Tonio</persName> a pregarlo di quel servizietto; anche nei discorsi, fatti <placeName>in Piazza</placeName> e <placeName>all’osteria</placeName>, ha saputo parlare con molta politica per non dire in pubblico i fatti suoi (sebbene abbia avuto torto a vantarsi di questa sua discrezione con la sedicente guida); ha poi serbato un’attenzione istintiva a scansare i nomi delle persone, e infine ha fatto qualche riserva sullo stesso <persName>Ferrer</persName>, di cuì pur è invaghito, per quel maledetto vizio delle paroline in latino. Anche le prime battute del colloquio con lo spadaio non erano scevre di cautela <bibl>(cfr. la n. 142 al cap. XIV)</bibl>.<persName>Renzo</persName> dunque davvero è furbo la sua parte,ma è la furbizia onesta (la simulazione o dissimulazione onesta, di cui parlavano nel Seicento), e che fa tutt'uno con la virtù. E il <persName> type= "author"M. </persName> si inchina a questa saggezza del suo personaggio, che è soltanto prudenza e capacità di trarsi d’impaccio; egli è però inclemente contro quell’altra volgare furberia, di cui il mondo mena gran vanto. E allora dà la baia a <persName>Renzo</persName>, non perchè sia stato troppo poco furbo, ma appunto perché ha voluto essere furbo. Nessuno può essere abbastanza furbo in questo mondo,perchè, alla fine, chi decide non è mai il singolo, ma la fortuna delle cose, o meglio la provvidenza stessa che regola tutte le cose. Il presente capitolo e il precedente sono, in modo particolare, la satira, la sconfitta clamorosa dei furbi. I ritrovati maestri, le belle malizie sono tutti i piccoli ordigni di quell’arte della politica, che il <persName type="author">M.</persName>, sappiamo, abborre cordialmente. <persName>Renzo</persName>, quando fa il furbo l'oste che pensa di mettersi al sicuro con quel negozio del nome e cognome; e infine il notaio criminale e i suoi satelliti, che sono i furbi professionalizzati,sono irrisi sottilmente, cordialmente, e clamorosamente. E, alla conclusione degli avvenimenti, il più vittorioso è <persName>Renzo</persName>, soltanto perchè il galantuomo in lui è più forte del furbo. Dove appunto si finisce con lo scorgere la moralità manzoniana: gli uomini si illudono di poter vincere con i loro piccoli tranelli,con i loro ritrovati maestri, ma a tutti i pensieri loro e alle loro intenzioni presiede la provvidenza che, per salvare i   buoni, fa servire ai suoi disegni la malizia stessa dei perversi. Per questa presenza di un'idea, la commedia o la satira della furbizia nel romanzo, non è qualcosa di avventizio o di incidentale,non è un mero spasso estetico momentaneo, ma è sistema, ed è, innanzi tutto,giudizio etico della conoscenza dell’artista.</note>
+                <note xml:id="Russo_cap15-n6" type="comm" target="quarantana/cap15.xml#c15_10533" targetEnd="quarantana/cap15.xml#c15_10537"><ref rend="bold">Ma Renzo continuava più forte</ref>:  Un altro tratto,in cui la furbizia umana è scombussolata nei suoi piani; l'oste che voleva approfittare del lucido intervallo del suo cliente,e che avviava le sue maniere tutte gentili e tirava al tenero e all’amichevole, corre pericolo di finir male. L’oste è della lega dei birboni! Gli amiconi <placeName>dell’osteria</placeName> possono esser lì lì pronti ad accorrere. Cfr. la nota precedente.</note>
+                <note xml:id="Russo_cap15-n7" type="comm" target="quarantana/cap15.xml#c15_10646" targetEnd="quarantana/cap15.xml#c15_10651"><ref rend="bold">Per vedere se c'era il morto</ref>:  Frase gergale, di sapore comico: il gruzzolo, la borsetta dei danari.</note>
+                <note xml:id="Russo_cap15-n8" type="comm" target="quarantana/cap15.xml#c15_10754" targetEnd="quarantana/cap15.xml#c15_10757"><ref rend="bold">«Son furbo, ma galantuomo</ref>:  Le parole sono accostate ad arte; per il <persName> M.</persName> non si può essere furbi e insieme galantuomini. La furberia non ha diritto di cittadinanza nel mondo morale del nostro scrittore.</note>
+                <note xml:id="Russo_cap15-n9" type="comm" target="quarantana/cap15.xml#c15_10916" targetEnd="quarantana/cap15.xml#c15_10926"><ref rend="bold">Psiche.... le forme del consorte sconosciuto</ref>:  Questa similitudine di <persName>Psiche</persName> implica in sè un umorismo di genere più ricercato, di quelle altre similitudini, di cui alle nn, 10-11, e 26-28. Non c’è soltanto la lieve ironia sulla curiosità dell’oste per la propria vittima (lo stato d’animo di colui che,trovandosi sulla spiaggia sicura, si volge all’acqua perigliosa e guata), ma c’è anche, a fior di pelle, una satira letteraria. È come la similitudine di <persName>Proteo</persName> del cap. VII, applicata idealmente a <persName>don Abbondio</persName> (cfr. la n. 264-65): anche lì una immagine mitologica, di cui   il romantico <persName>M.</persName> era nemico giurato, con significato caricaturale. E si pensi un po’: la vigilante <persName>Psiche</persName> qua sarebbe l'oste dalla faccia pienotta e dalla barbetta rossiccia, e il piccolo dio alato,il consorte sconosciuto, <persName>Renzo</persName>, un ben piantato montanaro, e per giunta ubbriaco. Ma vedi come una similitudine dotta è ben calata nella scena vile.</note>
+                <note xml:id="Russo_cap15-n10" type="comm" target="quarantana/cap15.xml#c15_11106" targetEnd="quarantana/cap15.xml#c15_11196"><ref rend="bold">E badar che paghino... chiamasse da un'altra parte</ref>:  Ritroviamo l'oste che, quando non può cavar nulla da <persName>Renzo</persName> per quel negozio del nome e cognome, agguanta il farsetto e corre con le mani alle tasche, per vedere se c'era il morto. Anche qui, l’importante è che gli avventori paghino, tutte le altre ciarle sono corbellerie. Osserva poi la sottigliezza del discorso dell’oste,su quel la può andar male subito e la può andar male in avvenire: la vera prudenza non è mai solo quella dell’oggi, ma anche quella che provvede al domani. E la sottile ironia manzoniana avvolge questo machiavellico dilemma, ragionato con tanta spontaneità e semplicitá. Si noti per tratta qui di un aforisma quasi dottrinario,ma alleggerito, nel discorso, come il più trito proverbio. Tanto che l’oste passa agile a: spiegare, elitticamente, chi potrebbero essere quelli che le dicono piú grosse (cioè,le spie o i bargelli provocatori),e conclude con quell’avvertimento finale,in cui rivediamo lui,in persona,occupato, solo in apparenza, «in quelle tali figure della cenere ». L’umorismo di tutto il discorso sta precisamente in questa filosofia della politica di un oste, enunciata quando già l'inventore ce ne ha dato dei saggi in azione. Una specie di riflettore, che fa piovere una luce sfacciata su una figura, di cui avevamo intuito le linee, così nel vago, ma pur con sufficiente precisione. Quella violenza di luce iperbolizza lo stile di vita del nostro personaggio.</note>
+                <note xml:id="Russo_cap15-n11" type="comm" target="quarantana/cap15.xml#c15_11574" targetEnd="quarantana/cap15.xml#c15_15454"><ref rend="bold">Testardo d’un montanaro!... a levarti d’impiccio</ref>:  Questo soliloquio dell’oste è un capolavoro di umorismo; è uno di quei soliloqui, a cui è chiamato a collaborare tutto un coro che rende animatissima la scena, come la più popolata di persone. Dapprima è un’apostrofe solitaria a <persName>Renzo,</persName> un’apostrofe interiettiva, che si chiude con una di quelle domande insensate, che indicano lo. scombussolamento inaspettato degli interni piani dell'uomo. Manca osterie în <placeName>Milano</placeName>, che tu dovessi proprio capitare alla mia?Poi per un momento è evocata l'ombra del bargello, ed è messa lì, in un cantuccio, queta queta, salvo a rivolgergli la parola, al momento opportuno, in un impetuoso e rapido tu per tu: quel bel cecino! L’oste allora vede metà dei suoi trecento scudi passare nelle tasche discrete del delatore, e non può trattenersi di sputargli in faccia il suo veleno. Alle ombre succedono ora uomini certi; sono i soldati che passano in pattuglia. Per quanto infervorato nel soliloquio, la prudenza dell’oste agisce anche qui come per istinto: egli si tira da parte per lasciarli passare; un uomo di giudizio bisogna che abbia giudizio a tutte l’ore, e per i minimi particolari. Sono i gastigamatti, e alla loro vista si rinfocola la stizza per quel pezzo d’asino del suo avventore. Lui non c’entra! Ti sei rovinato te, e volevi anche rovinar me; che non è giusto...a te a levarti d’impiccio: per me ci penso io. La muta allocuzione qui diventa più fervorosa; sembra una accesa difesa in contraddittorio di due compagni d’avventura,al momento di comparire davanti a un ipotetico tribunale.I gastigamatti hanno avuto questo effetto sulla fantasia dell’oste.</note>
+                <note xml:id="Russo_cap15-n12" type="comm" target="quarantana/cap15.xml#c15_11507" targetEnd="quarantana/cap15.xml#c15_11714"><ref rend="bold">Come se io volessi... Obbligatissimo alle sue grazie</ref>:  Il colloquio torna ad avere un carattere più intimo, e si svolge più in sordina: l'oste e <placeName>Renzo</placeName> sono quasi diventati più amici,l'oste che sente tutta la ragione dalla parte sua, ma pur avverte un certo disagio per il servizio che sta per rendere a quel suo sciocco compagno. Ed ha come l’aria di scusarsi e di giustificarsi. Come se io volessi sapere il tuo nome per una mia curiosità! E qui l’allocutore si abbandona all’estro di quel cosa m’ importa a me che tu ti chiami <placeName>Taddeo</placeName> o <placeName>Bartolommeo</placeName>, quasi per alleggerirsi la coscienza in quel buffo giuoco di nomi consonanti.Finchè l'oste torna di nuovo al tono serio,e tira fuori il suo massimario machiavellico: a voler fare a modo suo, e impiparsi delle gride, la prima cosa è di parlarne con gran riguardo. Al che, la fantasia si accende, e le parole della grida si schierano sullo schermo della memoria, implacabili. Allocuzione'ironico-affettuosa ai trecento scudi; allocuzione invelenita, rapida come uno schizzo, al bargello; e infine inchino sarcastico a sua eccellenza e ai cinque anni di galera. L’inchino mentale coincide con l’arrivo sulla soglia del palazzo di giustizia. Ultima malizia dello scrittore, che segna una specie di scatto di passaggio dalla finzione mentale a una scena reale. Quell’obbligatissimo alle sue grazie sembra un inchino reale alla maestà presente del palazzo di giustizia. L’oste,internamente ironico, scettico ed amaro, torna ad essere l’uomo di giudizio,tutto ossequio e buone maniere.</note>
+                <note xml:id="Russo_cap15-n13" type="comm" target="quarantana/cap15.xml#c15_11914" targetEnd="quarantana/cap15.xml#c15_11918"><ref rend="bold">Con una pezzetta d'acqua vulneraria</ref>:  Acqua vegeto-minerale che ha effetti curativi. Quanto alla profondità metafisica, cfr. al cap. XII, la n. 231-32. 183-184. Un reo buon uomo. «Il reo buon uomo &gt;»,dice il <persName>PETROCCHI</persName>, «è una frase scultoria, degna di far fortuna.»E <persName>GIOVANNI NEGRI</persName> aggiunge: « Questa frase, alquanto umoristica per la contraddizione che contiene, racchiude un giudizio terribile del<persName> M.</persName> sui rappresentanti della giustizia di quei tempi, e sulla giustizia umana in genere. Per il bargello non tanto occorreva che il reo fosse veramente reo, quanto che fosse un buon uomo, che non sapesse far valere le proprie ragioni. La cosidetta giustizia, più d’una volta, non potendo o non volendo colpire i veri colpevoli, si sfoga contro dei buoni, che hanno l'apparenza d’esser colpevoli. Così l'onore della giustizia è salvo. » (Commenti critici, II, 69). 203. Una quantità di pane rubato. Comincia la montatura della polizia. Prima è stata la folla ingenua che ha travestito<persName> Renzo</persName> in un servitore del vicario, e poi nel vicario stesso, e in una spia, e gli ha tributato infine la partedi capopopolo. Ora è la polizia che,non più ingenuamente, ma calcolatamente, giuoca su quel reo buon uomo.L’ingiustizia ingenua della folla diventa l’ingiustizia riflessa, criminosa, dei professionali della giustizia: l’ impulso satirico di tutta la pagina non potrebbe essere più inelemente.</note>
+                <note xml:id="Russo_cap15-n14" type="comm" target="quarantana/cap15.xml#c15_12251" targetEnd="quarantana/cap15.xml#c15_12258"><ref rend="bold">«Cosa ho da provare io? Io non c'entro</ref>:  io fo loste.»: Scrive il <persName>PISTELLI</persName>: «In confronto di quel birro delatore, il bravo oste finisce per sembrarci un fior di galantuomo. » In verità, l'oste difende soltanto sè stesso; non è che non voglia compromettere<persName> Renzo</persName>. Non lo vuole compromettere, perchè comprometterebbe sè stesso. L’oste è sempre il politico puro del suo particulare. Il ritornello di questo suo interrogatorio è sempre il medesimo: îo fo l'oste; e devo attendere a’ miei interessi; io non credo nulla: abbado a far l'oste. Tanto che lo stesso notaio criminale glielo rinfaccia: «la solita canzone: non avete mai altro da dire.»</note>
+                <note xml:id="Russo_cap15-n15" type="comm" target="quarantana/cap15.xml#c15_12277" targetEnd="quarantana/cap15.xml#c15_12281"><ref rend="bold">Parole ingiuriose contro le gride... </ref>: Ambrogio Fusella aveva piuttosto esagerato! Cfr. la n. 264-66 al c. XIV.</note>
+                <note xml:id="Russo_cap15-n16" type="comm" target="quarantana/cap15.xml#c15_12427" targetEnd="quarantana/cap15.xml#c15_12428"><ref rend="bold">Cosa credete?</ref>:  Il nostro notaio criminale, lui per tutta la giustizia, si sente come umiliato per tutto quel bailamme: Ne va della loro autorità. Si sente internamente poco sicuro, e intanto cerca appoggi e consensi in altri. Questa parte del colloquio non è più un interrogatorio, ma una ricerca affannosa di prove del non decaduto prestigio.</note>
+                <note xml:id="Russo_cap15-n17" type="comm" target="quarantana/cap15.xml#c15_12461" targetEnd="quarantana/cap15.xml#c15_12465"><ref rend="bold">Un povero padre di famiglia</ref>:  Accampare seccamente le ragioni dei propri interessi poteva urtare la sensibilità del notaio; e l’oste allora dà una sfumatura di patetico a quegli interessi;però il notaio diventa meno esigente nel suo interrogatorio, e in quel domandare « avete ancora molta gente in casa?》si sente che il tono della voce è mutato.</note>
+                <note xml:id="Russo_cap15-n18" type="comm" target="quarantana/cap15.xml#c15_12507" targetEnd="quarantana/cap15.xml#c15_15419"><ref rend="bold">Quel forestiero, vuol dire vossignoria... L'oste non disarma</ref>:  niente avventore, ma forestiero: Il nostro oste non fa mai una concessione. « Io non so nulla» tornerà a ribadire più giù. «Tra i due, chi è il più sicuro del fatto suo è sempre l'oste, e non il notalo interrogante. 243-244. Ma non disse nè sì nè no. In vero l’oste aveva chiuso l’uscio a chiave (cfr. la n. 211); ma l’oste lì faceva i suoi interessi, si metteva a posto per tutte le evenienze. Ora il notaio gli chiede esplicitamente questo servizio di polizia, che egli aveva fattospontaneamente, ma per sè, per mettersi a posto. E l’oste non dice nè sì, nè no. Ciascuno ha la dignità del suo mestiere;e l’oste abbada a fare l'oste, e non fa il birro. Che non sia mai che si dica che l'oste fa la spial ci andrebbe di mezzo il buon nome della bottega. In ogni momento, egli è presente a se stesso.</note>
+                <note xml:id="Russo_cap15-n19" type="comm" target="quarantana/cap15.xml#c15_12569" targetEnd="quarantana/cap15.xml#c15_12579"><ref rend="bold">«E non crediate che la giustizia abbia perduta la sua forza»</ref>:  E quel ritorno sullo stesso motivo indica sempre più acuta la sospensione dell'animo.</note>
+                <note xml:id="Russo_cap15-n20" type="comm" target="quarantana/cap15.xml#c15_12653" targetEnd="quarantana/cap15.xml#c15_12657"><ref rend="bold">«Badate a non lasciarlo partire»</ref>:  Anche qui l’oste non dice nè sì nè no. È sempre evasivo, immobile come un ritratto, così come l'abbiamo conosciuto al principio; l'importante è che l’illustrissimo signor capitano sappia che egli è venuto a fare il suo dovere. E tutto il resto è come se non lo riguardasse.</note>
+                <note xml:id="Russo_cap15-n21" type="comm" target="quarantana/cap15.xml#c15_12729" targetEnd="quarantana/cap15.xml#c15_12744"><ref rend="bold">Un uomo vestito di nero... del capezzale</ref>:  Brevissimo tocco, che ci mette dinanzi agli occhi stupiti tutta una scena improvvisatamente grave. La sorpresa non è solo di <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap15-n22" type="comm" target="quarantana/cap15.xml#c15_12756" targetEnd="quarantana/cap15.xml#c15_15523"><ref rend="bold">La spranghetta di quel vino... Il cerchio di pesantezza alla testa</ref>: 
+                </note>
+                <note xml:id="Russo_cap15-n23" type="comm" target="quarantana/cap15.xml#c15_12846" targetEnd="quarantana/cap15.xml#c15_12858"><ref rend="bold">«Ohe! che prepotenza è questa?... «Oste! o l'oste»</ref>:  Il <persName>NF-GRI</persName> così giustamente commenta questo passo: « Nella prima edizione, invece di " Oste! o l’oste!”, diceva: ” Oste! oh ’l oste!”». Il <persName>Petrocchi</persName> osserva che oh l’oste « sarebbe stata una esclamazione, invece l’o semplice è una speciale pronunzia toscana (che richiede il raddoppiamento della consonante successiva) che suona domanda e meraviglia al tempo stesso, e pare un’elissi disgiuntiva....» Parmi che se l’o volesse dire ciò che intende V’egregio filologo,l’autore avrebbe messo l'articolo dinnanzì a oste, anche nel primo caso, dicendo cioè: l’oste! o l'oste! A me pare che <persName>Renzo</persName> qui chiami l'oste, e dica: Oste! come la sera avanti per chiamare i suoi compagni di tavola, aveva detto: Amici! Ripete poi: o l'oste! quasi a rinforzare la voce. E com'era naturale che in quella circostanza chiamasse gli amici, contro la prepotenza dell’oste, che gli era tornato in campo con quell’infamità del nome, cognome e negozio ; così qui è bello che, vedendo l’uomo della cappa nera e sentendosi pigliar pel braccio dal birro, chiami in suo aiuto l’oste contro la prepotenza della giustizia. Poichè il giovane montanaro, nella sua semplicità, quantunque fosse furbo la sua parte,non aveva capito che l'oste, in quel momento, non poteva sentire. Tant'è vero che anche quando sarà disceso co’ birri e col notaio <placeName>in cucina</placeName>: e quest’oste benedetto (dirà) dove s' è cacciato? » (Commenti critici,II, 72-73).</note>
+                <note xml:id="Russo_cap15-n24" type="comm" target="quarantana/cap15.xml#c15_12915" targetEnd="quarantana/cap15.xml#c15_12933"><ref rend="bold">«Meglio per voi.... per i fatti vostri»</ref>:  Il notaio comincia la sua politica della simulazione fin da questo momento. Egli è già un manieroso,fin da quando si rivolge a <persName>Renzo</persName>. « Animo dunque; levatevi, e venite con noi. &gt;&gt; E più giù, quando sarà costretto a usare gli argomenti decisivi, dirà ai suoi birri, eufemisticamente: « Fate il vostro dovere. » Ha paura di adoperare sempre parole forti, mentre i suoi satelliti sono più bruschi e maneschi, Noi riconosciamo la figura del notaio criminale della sera avanti, che anche nel chiuso del suo ufficio, tradisce, nel discorso con l'oste, l’interna sospensione d’animo. Cfr.le nn. 228 e 248. 800-301. Come gli avanzi d’un naufragio sul lido. La similitudine, piuttosto epica, ha la sfumatura di un sorriso.</note>
+                <note xml:id="Russo_cap15-n25" type="comm" target="quarantana/cap15.xml#c15_13067" targetEnd="quarantana/cap15.xml#c15_13081"><ref rend="bold">Voglio esser condotto da Ferrer... m'ha dell’obbligazioni</ref>:  Ritorna il sentimento antropomorfico della giustizia, proprio dei primitivi, i quali vedono tutto come rapporto personale tra governati e governanti. « Al giovane montanaro invaghito di quella buona grazia, pareva quasi d’aver fatto amicizia con Antonio Ferrer &gt;,abbiamo letto al cap. XIII, e al cap. XIV per <persName>Renzo</persName> la giustizia è sempre un uomo,anche se esso non va di persona a raccattare tutti i birboni.</note>
+                <note xml:id="Russo_cap15-n26" type="comm" target="quarantana/cap15.xml#c15_13341" targetEnd="quarantana/cap15.xml#c15_13348"><ref rend="bold">Vi scorgeva in pelle in pelle la titubazione</ref>:  Cfr.la n.228,e la n.248. 322. E anche per tentare un colpo. Ritorna il <persName> Renzo</persName> prudente e diplomatico,che già abbiamo conosciuto al capitolo II, nel suo colloquio con <persName>Perpetua</persName>.
+                </note>
+                <note xml:id="Russo_cap15-n27" type="comm" target="quarantana/cap15.xml#c15_13475" targetEnd="quarantana/cap15.xml#c15_13480"><ref rend="bold">Voi siete più furbo che tant'altri</ref>:  Il notaio avrebbe imbroccato il debole di <persName>Renzo</persName>:la vanità della sua furberia. Ma gli è che qui <persName>Renzo</persName> ha smesso quella vanità dell’esser furbo, e fa il suo giuoco sul serio. Però il furbo matricolato, che vuol essere il notaio, è messo in scacco dal «novero figliuolo. » Nella modestia, <persName>Renzo</persName> riacquista il suo sopravvento.</note>
+                <note xml:id="Russo_cap15-n28" type="comm" target="quarantana/cap15.xml#c15_13647" targetEnd="quarantana/cap15.xml#c15_13650"><ref rend="bold">Extra formam, accademicamente</ref>:  Accademicamente: non in maniera formale e giuridica, e traduce, in fondo, l’extra formam.</note>
+                <note xml:id="Russo_cap15-n29" type="comm" target="quarantana/cap15.xml#c15_13692" targetEnd="quarantana/cap15.xml#c15_13696"><ref rend="bold">In un momento così angustiato</ref>:  Il notaio è agli occhi del <persName>M.</persName>un virtuoso della furberia, un esperto di « que’ ritrovati maestri d,; di «quelle belle malizie », che fanno il loro colpo bene e nascostamente,quando sono « condotte con la pacatezza d’animo,con la serenità di mente necessarie. » Ma i furbi, «quando sono agitati e angustiati »,diventano dei poveri diavoli come gli altri. E la ferocia del <persName>M.</persName>è in questo presentare un furbo di professione in un momento di angustia, e di prestargli, per giunta, dei patetici accenti per la bella occasione perduta.</note>
+                <note xml:id="Russo_cap15-n30" type="comm" target="quarantana/cap15.xml#c15_13791" targetEnd="quarantana/cap15.xml#c15_13796"><ref rend="bold">I soldati eran pieni di civiltà</ref>:  Brutto segno davvero. Si ricordi <persName>don Pedro</persName> che sorride alla moltitudine,con una grazia affettuosa,nel momento più grave del trambusto; ma quando invece n’ è fuori, e passa fra due file di micheletti,sferza i suoi cavalli e passa in mezzo alla gente, di corsa, senza aggiunta d’altre cerimonie.</note>
+                <note xml:id="Russo_cap15-n31" type="comm" target="quarantana/cap15.xml#c15_13899" targetEnd="quarantana/cap15.xml#c15_13902"><ref rend="bold">Sentiva, vedeva e pensava</ref>:  Sentiva i rumori della strada; vedeva la titubazione del notaio e le sue occhiatine furtive e quel tendere l'orecchio e quell’aprir l’impannata; e pensava, pensava anche lui a fare il suo colpo.</note>
+                <note xml:id="Russo_cap15-n32" type="comm" target="quarantana/cap15.xml#c15_14001" targetEnd="quarantana/cap15.xml#c15_15476"><ref rend="bold">E consegnando, con un sospiro... C'è l'umiliazione del suo mestiere</ref>:  anche lui è costretto, come i soldati della strada, a esser pieno di civiltà.</note>
+                <note xml:id="Russo_cap15-n33" type="comm" target="quarantana/cap15.xml#c15_14032" targetEnd="quarantana/cap15.xml#c15_14039"><ref rend="bold">I birri non potevan più stare alle mosse</ref>:  Questi birri mi ricordano i diavoli della bolgia dei barattieri, quando le <persName>Malebranche</persName> sono costretti a stare «in cesso» per l’ ingiunzione di <persName>Malacoda</persName>. « Ei chinavan li raffi,e’ vuo’ che ’1 tocchi, diceva lun coll’altro ’in sul groppone?’ E risponde: ’ Sì, fa’ che gliele accocchi" Ma quel demonio che teneva<persName> sermone</persName> Col duca mio, si volse tutto presto E disse: « Posa, posa, Scarmiglione » (Inf.,XXI, 100-105) 400-401. «E quest’oste benedetto dove s'è cacciato? » Cfr. la n. 276-77. 405. Indegni della gravità storica. Naturalmente, la frase è detta con un sorriso.</note>
+                <note xml:id="Russo_cap15-n34" type="comm" target="quarantana/cap15.xml#c15_14289" targetEnd="quarantana/cap15.xml#c15_14310"><ref rend="bold">Fanno il loro dovere... del nostro cuore</ref>:  Le solite formule eufemistiche del notaio, quando deve venire agli argomenti decisivi. Anzi la pusillanimità del mestierante giunge all’estremo: parla del nostro cuore, e si presenta come una vittima degli ordini dei superiori.</note>
+                <note xml:id="Russo_cap15-n35" type="comm" target="quarantana/cap15.xml#c15_14423" targetEnd="quarantana/cap15.xml#c15_14433"><ref rend="bold">Andate via diritto diritto, senza guardare in qua e in là</ref>:  Commenta argutamente più giù lo stesso <persName> Manzoni</persName>: «è una tendenza generale degli uomini, quando sono agitati e angustiati, e vedono ciò che un altro potrebbe fare per levarli d’ impiccio, di chiederglielo con istanza e ripetutamente e con ogni sorte di pretesti; e i furbi, quando sono angustiati e agitati, cadono anche loro sotto questa legge comune. »</note>
+                <note xml:id="Russo_cap15-n36" type="comm" target="quarantana/cap15.xml#c15_14565" targetEnd="quarantana/cap15.xml#c15_14590"><ref rend="bold">E, con tono imperativo... e col viso divenuto a un tratto ridente</ref>:  La commedia del notaio è troppo evidente: l attore non si controlla più,« però, di tante belle parole,<persName>Renzo</persName> non ne credette una. ».</note>
+                <note xml:id="Russo_cap15-n37" type="comm" target="quarantana/cap15.xml#c15_14698" targetEnd="quarantana/cap15.xml#c15_14716"><ref rend="bold">Non servirono ad altro... di far tutto il contrario</ref>:  Le belle malizie, i ritrovati maestri dei furbi, per il<persName> M.</persName>, hanno talvolta questo effetto: provocare la reazione contraria, svegliare il sospetto, erudire la malizia altrui. Cfr. la n. 33-34.</note>
+                <note xml:id="Russo_cap15-n38" type="comm" target="quarantana/cap15.xml#c15_14740" targetEnd="quarantana/cap15.xml#c15_14749"><ref rend="bold">Il quale pare che fosse nel numero de' suoi amici</ref>:  La frase è variamente interpretata: l'anonimo sarebbe qui presentato come un reazionario,e amico perciò dei notai criminali e dei bargelli? Ma l'anonimo è soltanto un doppione dell'artista, imbarocchito artatamente; ed è chiaro quindi che la frase ha un significato ironico, e la parola amici è qui adoperata in un significato ambiguo. « Dovete dirmi chi sia l’offeso, come si dice: e secondo la condizione, la qualità e l'umore dell'amico, si vedrà se convenga più di tenerlo a segno con le protezioni ecc, ecc. ». Così <persName>Azzeccagarbugli</persName> a <persName>Renzo</persName>, nel capitolo III. E della vecchia del castello dell’ Innominato si dirà: «Vecchia, era il suo appellativo ordinario: gli aggiunti..... variavano secondo le circostanze e l'umore dell'amico.» (Cap. XX). E quando <persName>don Abbondio</persName> va alla Malanotte, si dice che «s’'andava verso quella valle tremenda, dove non s’incontrerebbe che sudditi dell'amico. » (Cap. XXIII). Il nostro anonimo era dunque amico del notaio criminale, ma non naturalmente perchè birbone e reazionario, ma perchè forse vittima anche lui, diretta o indiretta, dei ritrovati maestri dei bargelli. E invero anche il <persName>M.</persName> conobbe molto davvicino le furberie della polizia, se non altro per le noie che ne ebbero i suoi amici, e anche lui, a buon diritto, poteva dirsi amico di qualche « notaio criminale » dei suoi tempi. Vengono in mente i versi ironici di <persName>Salvatore Di Giacomo</persName> di un sonetto A <persName>San Francisco</persName>: «.... Ca ce sta n’amico Ca.... mme vulea bene!... ».</note>
+                <note xml:id="Russo_cap15-n39" type="comm" target="quarantana/cap15.xml#c15_14866" targetEnd="quarantana/cap15.xml#c15_15017"><ref rend="bold">Que’ ritrovati maestri... che è la più sicura</ref>:  Si ha qui la sconfessione ironica delle arti della furberia. Si veda la n, 33-4.Il notaio criminale come maestro e donno di furberia è quello che subisce di più la commedia feroce di tutta la situazione. Per il <persName>M.</persName>, quando sì parla di furbi, si dovrebbe parlare piuttosto di bravacci, di violenti, di prepotenti. L'uomo vince non per astuzia e raffinatezza d’ ingegno, ma per forza feroce; e il bravaccio, il prepotente, si darebbe volentieri l’aria di volpone, mentre è soltanto un cane da pagliaio, che « ha cuore appena d’avventarsi alle gambe di chi passa sulla porta, guardandosi indietro se quei di casa lo spalleggiano,e non si sente di allontanarsi. » Quindi, niente furbi per il moralista <persName> M.</persName>, e nemmeno forti come veri forti, ma i forti vigliacchi, alla maniera del <persName>Griso</persName>,nella definizione irata ma giusta del suo padrone. 501. (Ognuno è soggetto a sbagliate). Frase, nella sua bonaria innocenza,di una sottilissima ferocia: il furbo che sbaglia fa pietà e muove le risa. I birri sbagliano secondo la loro logica di gente manesca e brusca; il notaio Sbaglia secondo la sua di politicone delle buone maniere. Troppo sbrigativi gli uni,troppo manieroso l’altro, tutto preoccupato dell’ « onore », della « riputazione » della sua vittima. E insieme collaborano al disastro della loro spedizione.</note>
+                <note xml:id="Russo_cap15-n40" type="comm" target="quarantana/cap15.xml#c15_15277" targetEnd="quarantana/cap15.xml#c15_15281"><ref rend="bold">Diventar bianchi, o almeno pallidi</ref>:  La distinzione verbale ha anch'essa la sua punta di ferocia: bianchi, quei visi di birri, poi no! Non si tratta di sangue molto gentile.</note>
+                <note xml:id="Russo_cap15-n41" type="comm" target="quarantana/cap15.xml#c15_15390" targetEnd="quarantana/cap15.xml#c15_15394"><ref rend="bold">Per amor della cappa nera</ref>:  Avevamo osservato che questo capitolo è il capitolo dei furbi, il loro poema eroi-comico: furbo <persName>Renzo</persName>, furbo l’oste, furbi i birri, furbo il notaio, anzi il principe dei furbi. Ed è giusto che al principe dei furbi sia riservato, in fondo, questo posto d’onore.</note>
+                <note xml:id="Russo_cap15-n42" type="comm" target="quarantana/cap15.xml#c15_15445" targetEnd="quarantana/cap15.xml#c15_15449"><ref rend="bold">Come una pagliucola nel ghiaccio</ref>:  La similitudine rende, con feroce evidenza quel farsi piccino piccino del notaio, il suo schiacciarsi tra la folla.</note>
+                <note xml:id="Russo_cap15-n43" type="comm" target="quarantana/cap15.xml#c15_15474" targetEnd="quarantana/cap15.xml#c15_15478"><ref rend="bold">Con un suo fare sciocco</ref>:  È l’ultimo suo ritrovato maestro,ed è la sua più grossa cilecca.</note>
+                <note xml:id="Russo_cap15-n44" type="comm" target="quarantana/cap15.xml#c15_15521" targetEnd="quarantana/cap15.xml#c15_15526"><ref rend="bold">d'esser fuori di quel serra serra</ref>:  Per il <persName>M.</persName> la folla è un fanciullo generoso; lascia scappare il topo, dopo essersi divertito a prenderlo in trappola.</note>
+            </div>
+</body>
+</text>
+</TEI>

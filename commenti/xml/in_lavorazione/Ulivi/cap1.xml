@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ferruccio Ulivi (1989)</title>
+       <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ferruccio Ulivi</title>
+          <editor>Ulivi, Ferruccio</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Grandi Tascabili Economici Newton</publisher>
+          <date>1989</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1. </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div xml:id="Ulivi_cap1">
+        <note xml:id="Ulivi_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">Quel ramo</ref>:  il ramo orientale, che volge verso Lecco. Nel parlare del ramo del lago come di cosa nota (Quel ramo...) si percepisce sottesa, una trama di ricordi che, nella prima stesura del romanzo, il Fermo e Lucia, Manzoni rievocava espressamente, dicendo dell’infanzia e della prima giovinezza trascorsa in quei luoghi, nella villa paterna del Caleotto, presso Lecco. C’è dunque un affetto colorato d’idillismo (e sulla presenza di un elemento idillico almeno nella prima redazione, cfr. C. VARESE, «Il M. e la poetica dell’idillio», oggi in Fermo e Lucia, un'esperienza manzoniana tee., Firenze 1964, pp. 133-152) che occorre tener presente. La sottigliezza e precisione dei particolari rispondono al modo tipico manzoniano di porsi di fronte alla realtà; ma non si deve insistere sulla scrittura in sé. Il passo non è una diffusa «cartina geografica» (C. Angelini), anche se non manca, tutt’altro, un’accuratezza ripetutamente calcata; meno ancora una specie di stampa di gusto secentesco. Vuol essere un modo manzonianamente scrupoloso di familiarizzarci con l’ambiente del racconto, cominciando dal «contenitore» paesistico in tutte le sue dimensioni, gradazioni, connotazioni prospettiche, e dalla localizzazione storica.</note>
+        <note xml:id="Ulivi_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10017"><ref rend="bold">monti</ref>:  le Alpi Orobie e i monti della Brianza.</note>
+        <note xml:id="Ulivi_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10085" targetEnd="quarantana/cap1.xml#c1_10087"><ref rend="bold">e l'Adda rincomincia</ref>:  l’Adda entra nel lago di Como a nord presso Gera, e si riforma a sud uscendo dal ramo qui descritto, per riprendere poi forma di lago a Garlate e Olginate. Da rilevare nella sintassi della pagina la trama degli enunciati che «rallentano o accelerano la velocità della frase», nonché le simmetrie interne e le figure chiastiche («a seni e a golfi», «in nuovi golfi e in nuovi seni») che movimentano la frase (su ciò, cfr. il commento al romanzo di E. RAIMONDI e L. BOTTONI, Milano 1987). La verità è che Manzoni finalizza la scrittura all’intento strutturale e al decorso narrativo. Di qui, l’interna mobilità, l’accelerazione e la varietà soggiacenti nella prosa.</note>
+        <note xml:id="Ulivi_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">tre grossi torrenti</ref>:  il Gerenzone, il Galdone e il Bione.</note>
+        <note xml:id="Ulivi_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10260"><ref rend="bold">terre</ref>:  borgate.</note>
+        <note xml:id="Ulivi_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10338" targetEnd="quarantana/cap1.xml#c1_10339"><ref rend="bold">un castello</ref>:  una fortezza tenuta da una guarnigione di soldati.</note>
+        <note xml:id="Ulivi_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10482"><ref rend="bold">piglian</ref>:  ricomprendono.</note>
+        <note xml:id="Ulivi_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10497" targetEnd="quarantana/cap1.xml#c1_10500"><ref rend="bold">campeggia o si scorcia</ref>:  appare in piena prospettiva, oppure di scorcio. A questo punto, nel Fermo e Lucia seguivano compiaciuti particolari d’indole botanica.</note>
+        <note xml:id="Ulivi_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10660" targetEnd="quarantana/cap1.xml#c1_10664"><ref rend="bold">vi si rappresentava sulla costa</ref>:  si noti lo svilupparsi graduale dei tratti, via via dal piano prospettico generale all’enumerazione dei punti del paesaggio; e l’affiorare (qui e soprattutto avanti) di un colorito affettivo, in corrispondenza con «l’intenso, casto amore manzoniano per la malinconica bellezza del suo mondo lombardo» (G. PETROCCHI, «Commento al cap.», in Letteratura, IX, 51, maggio-giugno 1961, n. 6).</note>
+        <note xml:id="Ulivi_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10698" targetEnd="quarantana/cap1.xml#c1_10703"><ref rend="bold">del giorno 7 novembre dell'anno 1628</ref>:  un giorno di mercoledì; il riferimento cronologico sarà puntualmente tenuto fermo nei successivi eventi, come, quattro giorni dopo, il tumulto a Milano del giorno di san Martino.</note>
+        <note xml:id="Ulivi_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705"><ref rend="bold">don Abbondio</ref>:  nome diffuso nella zona, essendo sant’Abbondio il patrono della città di Como.</note>
+        <note xml:id="Ulivi_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10812"><ref rend="bold">fessi</ref>:  fessure, spaccature. Ci fu chi osservò che il particolare è inadatto e non ben legato con quel tanto di sensibilità che poteva avere don Abbondio. Ma l’immagine delle pezze di porpora, non poi così peregrina, coglie con esattezza la tonalità vivida e fredda dei colori di un tramonto di tardo autunno.</note>
+        <note xml:id="Ulivi_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_10746" targetEnd="quarantana/cap1.xml#c1_10747"><ref rend="bold">il breviario</ref>:  il libro liturgico che contiene l’ufficio recitato dai sacerdoti.</note>
+        <note xml:id="Ulivi_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_10899"><ref rend="bold">cura</ref>:  la chiesa con l'annessa canonica, sede del curato.</note>
+        <note xml:id="Ulivi_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_11168"><ref rend="bold">guardia</ref>:  quella parte dell’impugnatura che serviva a difendere la mano dai colpi.</note>
+        <note xml:id="Ulivi_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11280"><ref rend="bold">Sua Maestà Cattolica in Italia</ref>:  come si è visto nell’Introd., Filippo IV di Spagna.</note>
+        <note xml:id="Ulivi_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_11356" targetEnd="quarantana/cap1.xml#c1_11360"><ref rend="bold">per fargli spalle e favore</ref>:  per proteggerlo e aiutarlo.</note>
+        <note xml:id="Ulivi_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_11512" targetEnd="quarantana/cap1.xml#c1_11515"><ref rend="bold">esser posto alla corda</ref>:  tortura che consisteva nel sollevare il condannato, mediante un sistema di carrucole, per le braccia legate dietro la schiena, fino a spezzargliele con reiterati tratti.</note>
+        <note xml:id="Ulivi_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">processo informativo</ref>:  processo basato non su prove, ma su indizi e supposizioni. Erano i metodi procedurali, tortura per primo, contro cui protestò il BECCARIA nel libro Dei delitti e delle pene (1764).</note>
+        <note xml:id="Ulivi_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_11532"><ref rend="bold">galea</ref>:  galera.</note>
+        <note xml:id="Ulivi_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_11776"><ref rend="bold">appostatamente</ref>:  mediante appostamenti, o agguati.</note>
+        <note xml:id="Ulivi_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  in tutto e per tutto.</note>
+        <note xml:id="Ulivi_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11661" targetEnd="quarantana/cap1.xml#c1_11665"><ref rend="bold">Governatore dello Stato di Milano</ref>:  governatore dal 1600 al 1610.</note>
+        <note xml:id="Ulivi_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11940"><ref rend="bold">comminazioni</ref>:  minacce ai trasgressori della legge.</note>
+        <note xml:id="Ulivi_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11974"><ref rend="bold">cabale</ref>:  intrighi, inganni.</note>
+        <note xml:id="Ulivi_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>:  Enrico IV, re di Francia dal 1589 al 1610.</note>
+        <note xml:id="Ulivi_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">il duca di Savoia</ref>:  fu infatti il governatore di Milano, don Pietro Enriquez de Acevedo, che indusse Carlo Emanuele i, duca di Savoia (1580-1630), ad impossessarsi del marchesato di Saluzzo che era stato assegnato alla Francia nel 1559. Più tardi, però, Enrico iv sconfisse il duca sabaudo e, col trattato di Lione (1601), gli lasciò il marchesato, imponendogli nello stesso tempo la cessione di vasti territori transalpini.</note>
+        <note xml:id="Ulivi_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_12019" targetEnd="quarantana/cap1.xml#c1_12024"><ref rend="bold">a cui fece perder la testa</ref>:  Charles de Gontaut, duca di Biron (1562-1602), fu uno dei migliori generali di Enrico iv; ambizioso e instabile, indotto dal de Acevedo, s’intese con Carlo Emanuele I contro il proprio re. Scoperto, scontò sul patibolo il tradimento.</note>
+        <note xml:id="Ulivi_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">stampatori regii camerali</ref>:  stampatori per conto della Regia Camera, ovvero fisco o cassa dello Stato.</note>
+        <note xml:id="Ulivi_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_12491" targetEnd="quarantana/cap1.xml#c1_12493"><ref rend="bold">se qualcheduno arrivasse</ref>:  sono i primi tratti dove il gusto della notazione manzoniana del reale prende a districarsi; perciò il discorso può sembrare rallentato e qua e là macchinoso. Si noti peraltro che vuol dipingere quel che d’impedito ed esterrefatto è nel gestire di don Abbondio.</note>
+        <note xml:id="Ulivi_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12670"><ref rend="bold">Renzo Tramaglino e Lucia Mondella</ref>:  i nomi convengono perfettamente ai due personaggi, sia per l’ambiente dove son nati, sia per l’intimo carattere. Mentre, infatti, si può dire che quello della fanciulla «evoca un paesaggio tutto mondizia e luce», il cognome Tramaglino conviene a chi è nato e cresciuto alla seconda sorgente dell’Adda, derivando da «tramaglio», rete speciale usata per la cacciagione (C. ANGELINI, Manzoni, Torino, 1942, p. 105). Sull’onomastica manzoniana si vedano i ripetuti, interessanti richiami per i nomi femminili a quelli del Canone della Messa (così, nell’ordine del Canone, Perpetua, Lucia, Agnese, Cecilia, Felicita — che nel Fermo e Lucia è la serva poi anonima del leguleio, che restituisce a Renzo i capponi — e infine Perpetua). In proposito, dopo il Baldini, e poi diffusamente l'Angelini, si leggano le notazioni del CONTINI («Onomastica manzoniana», in Corriere della sera, 20 ag. 1965) e del DE MICHELIS (in Nuova Antologia, fase. 1989, sett. 1966, pp. 9-27).</note>
+        <note xml:id="Ulivi_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_12723" targetEnd="quarantana/cap1.xml#c1_12724"><ref rend="bold">del comune</ref>:  della comunità, cioè di tutti.</note>
+        <note xml:id="Ulivi_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_12908" targetEnd="quarantana/cap1.xml#c1_12909"><ref rend="bold">don Rodrigo</ref>:  nome spagnuolo. Il cognome non figura nel romanzo.</note>
+        <note xml:id="Ulivi_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_13119" targetEnd="quarantana/cap1.xml#c1_13122"><ref rend="bold">che non voglio trascrivere</ref>:  non vuol trascrivere dal manoscritto dell’anonimo, che fa qui la figura d’imperturbabile resocontista.</note>
+        <note xml:id="Ulivi_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_13156"><ref rend="bold">aggranchiate</ref>:  irrigidite come da un crampo per la paura.</note>
+        <note xml:id="Ulivi_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_13414" targetEnd="quarantana/cap1.xml#c1_13415"><ref rend="bold">gli asili</ref>:  i luoghi come chiese, conventi, palazzi di nobili ecc., dove i malfattori si rifugiavano per trovarci, con l’ospitalità, l’immunità.</note>
+        <note xml:id="Ulivi_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_13771" targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">e il loro titolo un improperio</ref>:  birri o sbirri, termine rimasto fino ai nostri giorni nell’accezione spregiativa.</note>
+        <note xml:id="Ulivi_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_13897"><ref rend="bold">immunità</ref>:  dispense da carichi civili e fiscali,</note>
+        <note xml:id="Ulivi_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_13418"><ref rend="bold">privilegi</ref>:  concessioni speciali in evasione alla legge comune.</note>
+        <note xml:id="Ulivi_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_13907"><ref rend="bold">esenzioni</ref>:  esenzioni dalle tasse.</note>
+        <note xml:id="Ulivi_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_14080" targetEnd="quarantana/cap1.xml#c1_14081"><ref rend="bold">della discrezione</ref>:  del discernimento.</note>
+        <note xml:id="Ulivi_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_14500" targetEnd="quarantana/cap1.xml#c1_14503"><ref rend="bold">e gridare a torto</ref>:  la voglia d’essere bislacco e lunatico, e di fare a sua volta il prepotente strepitando a torto.</note>
+        <note xml:id="Ulivi_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_14712" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">i miei venticinque lettori</ref>:  espressione d’arridente modestia, divenuta proverbiale; che in fondo, secondo un’arguta notazione del BALDINI, si concilia al gusto manzoniano di un discorso intimo, conveniente a pochi ascoltatori fidati (cfr. in Quel caro magon di Lucia, Microspie manzoniane, Milano-Napoli 1956, p. 165 sgg.).</note>
+        <note xml:id="Ulivi_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15201"><ref rend="bold">l'età sinodale dei quaranta</ref>:  i quarant’anni prescritti dai concilii diocesani («si nodi») come età minima per le domestiche degli ecclesiastici.</note>
+        <note xml:id="Ulivi_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_15203"><ref rend="bold">celibe</ref>:  nubile.</note>
+        <note xml:id="Ulivi_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_15229" targetEnd="quarantana/cap1.xml#c1_15233"><ref rend="bold">come dicevan le sue amiche</ref>:  si noti l’ironia del termine amiche.</note>
+        <note xml:id="Ulivi_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782"><ref rend="bold">il nostro arcivescovo</ref>:  il cardinale arcivescovo di Milano, Federigo Borromeo.</note>
+        <note xml:id="Ulivi_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_16095" targetEnd="quarantana/cap1.xml#c1_16096"><ref rend="bold">e disparve</ref>:  il dialogo tra il curato e la serva è articolato meccanicamente, quasi auscultato dallo scrittore e via via tradotto dall’uso dialettale. Comunque, risponde proprio così a quel che di abitudinario e banale c’è nello scambio di battute fra i due attempati conviventi.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

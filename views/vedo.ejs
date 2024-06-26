@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<%- include ("partials/head"); %>
+    <style>
+        .tify-header-title {
+            color: #343a40;
+            font-size: 18px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .text-vignette {
+            margin-top: 40px;
+        }
+        
+    </style>
+
+    <body id="page-top" class="normalFont">
+        <!-- Navigation-->
+        <%- include ("partials/navbar"); %>
+            <!-- Masthead-->
+            <header>
+                <div class="container px-4 px-lg-5">
+                    <div class="rowvedo gx-4 gx-lg-5 align-items-center justify-content-center text-center">
+                        <div class="justify-content-center">
+                            <div class="col-lg-5 align-self-end">
+                                <h2 class="text-vignette font-weight-bold"><i>Vedo Manzoni</i></h2>
+                                <div class="testo3">
+
+                                    <div id="tify" class="mx-auto" style="height: 640px; width: 80%;"></div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <h4 class="text-vignette font-weight-bold justify-content-center text-center">Percorsi attraverso le illustrazioni
+                    della Quarantana</h4>
+                <hr class="divider" />
+
+                <div class="col-lg-5 align-self-baseline px-4 px-lg-5">
+                    <p class="text-vignette mb-4">Il progetto propone un viaggio nelle illustrazioni
+                        che Manzoni ha voluto che accompagnassero la lettura della versione
+                        definitiva del romanzo, affidando a <b>Francesco Gonin</b> e ai suoi
+                        incisori un ambizioso progetto iconografico che ha trasformato <i>I promessi
+                            sposi</i> nel primo romanzo illustrato della letteratura italiana.
+
+                        Da una copia della Quarantana, integralmente sfogliabile all’interno della
+                        <a href="https://dl.ficlit.unibo.it/s/lib/page/home" target="_blank">Digital
+                            Library del Dipartimento di Filologia Classica e Italianistica</a>
+                        dell’Università di Bologna, le <b>505 illustrazioni</b> sono state
+                        catalogate, descritte e metadatate, in modo da essere visualizzabili,
+                        capitolo per capitolo, attraverso diverse chiavi di ricerca: i personaggi
+                        (da Don Abbondio al Sarto), i luoghi (dal paese di Renzo e Lucia alla casa
+                        di Giangiacomo Mora), i temi (41 parole chiave, da Amore a Violenza); ma
+                        anche gli illustratori e incisori delle vignette.
+
+                        La lettura del romanzo diventa così una nuova esperienza visiva, come
+                        Manzoni l’aveva progettata anticipando notevolmente le forme di narrazione
+                        iconografica caratteristiche della modernità.
+                    </p>
+                </div>
+            </header>
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+                    <script>
+                        new Tify({
+                            container: '#tify',
+                            manifestUrl: 'http://137.204.168.20/iiif/2/232045/manifest',
+                            pageLabelFormat: 'P (L)',
+                            urlQueryKey: 'tify',
+                            pages: [6, 7],
+                        })
+                    </script>
+    </body>
+
+</html>

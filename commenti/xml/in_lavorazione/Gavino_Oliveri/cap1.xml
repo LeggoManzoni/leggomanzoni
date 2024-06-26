@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Franco Gavino Oliveri (1990)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Franco Gavino Oliveri</title>
+          <editor>Gavino Oliveri, Franco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Principato</publisher>
+          <date>1990</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div xml:id="Gavino_Oliveri_cap1">
+        <note xml:id="Gavino_Oliveri_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">Quel ramo</ref>:  è il ramo orientale che è rivolto verso Lecco, mentre quello occidentale fa capo a Como e quello settentrionale a Colico, dove sbocca la Valtellina, percorsa dall'Adda. Quel paesaggio era caro a Manzoni, che nella villa paterna del Caleotto, presso Pescarenico, aveva trascorso lunghe vacanze nell’infanzia e nella prima giovinezza.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10011" targetEnd="quarantana/cap1.xml#c1_10017"><ref rend="bold">tra due catene non interrotte di monti</ref>:  sono le Alpi Orobie a oriente, i monti della Brianza a occidente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10020"><ref rend="bold">seni</ref>:  insenature.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10055"><ref rend="bold">costiera</ref>:  tratto in leggero pendio tra i monti e la riva.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10059" targetEnd="quarantana/cap1.xml#c1_10060"><ref rend="bold">il ponte</ref>:  quello di Lecco.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10086" targetEnd="quarantana/cap1.xml#c1_10087"><ref rend="bold">l'Adda rincomincia</ref>:  l’Adda, dopo aver formato il lago di Como, ne diventa emissario a Lecco.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10091" targetEnd="quarantana/cap1.xml#c1_10093"><ref rend="bold">nome di lago</ref>:  il lago di Garlate.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">tre grossi torrenti</ref>:  Gerenzone, Galdone e Bione.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10136" targetEnd="quarantana/cap1.xml#c1_10137"><ref rend="bold">il Resegone</ref>:  il nome (che in dialetto milanese equivale a «grossa sega») allude al profilo dentellato del monte. Il Resegone domina tutto il paesaggio del romanzo, assumendo spesso un valore emblematico.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_10191"><ref rend="bold">giogaia</ref>:  serie di montagne.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_10226"><ref rend="bold">erte</ref>:  ripidi pendii.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_10260" targetEnd="quarantana/cap1.xml#c1_10264"><ref rend="bold">terre... casali</ref>:  rispettivamente borgate, villaggi, case rurali sparse.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_10339"><ref rend="bold">castello</ref>:  fortezza militare.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_10343" targetEnd="quarantana/cap1.xml#c1_10403"><ref rend="bold">l'onore... vendemmia</ref>:  s'introduce nel paesaggio idilliaco, attraverso l'intervento ironico del narratore, I'inciso storico che anticipa la raffigurazione della vita del Seicento, e in particolare di un paese soggetto allo straniero (con la pace di Cateau Cambrésis, nel 1559, la Spagna era entrata in possesso della Lombardia e di altri territori della penisola).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_10369" targetEnd="quarantana/cap1.xml#c1_10375"><ref rend="bold">accarezzavan... le spalle</ref>:  bastonavano.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_10419"><ref rend="bold">tuttavia</ref>:  tuttora.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_10461" targetEnd="quarantana/cap1.xml#c1_10505"><ref rend="bold">la vista spazia... a vicenda</ref>:  il paesaggio è rappresentato non staticamente, come scenario immobile, ma dinamicamente, con una tecnica cioè che coglie il modificarsi delle forme in rapporto ai punti di vista.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_10465" targetEnd="quarantana/cap1.xml#c1_10476"><ref rend="bold">prospetti... sempre qualcosa nuovi</ref>:  vedute, panorami sempre nuovi per qualcosa.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_10482" targetEnd="quarantana/cap1.xml#c1_10485"><ref rend="bold">piglian più o meno</ref>:  occupano più o meno estesamente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_10497" targetEnd="quarantana/cap1.xml#c1_10500"><ref rend="bold">campeggia o si scorcia</ref>:  domina o appare di scorcio.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_10504" targetEnd="quarantana/cap1.xml#c1_10505"><ref rend="bold">a vicenda</ref>:  di volta in volta.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_10678" targetEnd="quarantana/cap1.xml#c1_10679"><ref rend="bold">vie più</ref>:  sempre più.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_10690" targetEnd="quarantana/cap1.xml#c1_10691"><ref rend="bold">bel bello</ref>:  placidamente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_10696" targetEnd="quarantana/cap1.xml#c1_10701"><ref rend="bold">sulla sera del giorno 7 novembre</ref>:  nel <bibl><title rend="italic">Fermo e Lucia</title></bibl> l'indicazione era generica: «una bella sera d’autunno». Ma la precisazione cronologica, non priva di ironia, istituisce un legame tra il terribile evento che sta per sconvolgere la vita del pover'uomo e le ben più gravi vicende che seguiranno, a cominciare dal tumulto di san Martino (11-12 novembre).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705"><ref rend="bold">don Abbondio</ref>:  il personaggio acquista subito concretezza attraverso la determinazione del tempo in cui entra in azione, e dello spazio, topograficamente individuato. Sant'Abbondio è il patrono di Como.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_10706"><ref rend="bold">curato</ref>:  sacerdote che ha cura di anime; il termine designa il parroco o, come nel caso di don Abbondio, il sacerdote che esercita tutti i diritti e le funzioni parrocchiali.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10831"><ref rend="bold">Diceva tranquillamente... porpora</ref>:  l’atteggiamento del parroco denota una pigra abitudinarietà, una consuetudine con le cose che ne impedisce la penetrazione intelligente: gli occhi fissi alla parete di monte sono indifferenti al paesaggio, le cui «larghe e inuguali pezze di porpora» rientrano nella visuale del narratore.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_10737"><ref rend="bold">ufizio</ref>:  uffizio, le preghiere, contenute nel breviario, che un sacerdote deve recitare durante la giornata.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_10812"><ref rend="bold">fessi</ref>:  fenditure.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n30" type="comm" target="quarantana/cap1.xml#c1_10899"><ref rend="bold">cura</ref>:  casa parrocchiale.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_10935"><ref rend="bold">tabernacolo</ref>:  edicola, cappella nella quale sono poste immagini sacre.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_10940" targetEnd="quarantana/cap1.xml#c1_16093"><ref rend="bold">certe figure lunghe... anime del purgatorio</ref>:  l'accenno sorridente all’ ingenua arte popolare ha forse una sua funzione: quelle anime purganti che si dibattono tra le fiamme sembrano prefigurare le imminenti angosce di don Abbondio.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_11094" targetEnd="quarantana/cap1.xml#c1_11192"><ref rend="bold">Avevano entrambi... bravi</ref>:  la «stampa secentesca», con la vivezza dei particolari, non è fine a se stessa, ma, come altrove, strumento d’illustrazione dei caratteri morali del secolo: qui mostra l’arroganza e la violenza dei potenti che si riverbera sui servi e che si manifesta nel provocatorio sfarzo del vestire e nell’ esibizione delle armi. Elementi caratterizzanti della descrizione sono infatti il grande fiocco («nappa») della reticella, il «ciuffo» calato sul viso, che serviva ai bravi a mascherarsi nel corso di azioni violente (v. <bibl>cap. III, rr. 196-200</bibl>), i lunghi e folti baffi («mustacchi») arricciati, l'armamentario composto da pistole, polvere da sparo, coltello, spada. Il termine «bravo» deriva forse dal latino «pravus», malvagio, e indica gli sgherri al servizio di un signore.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_11168"><ref rend="bold">guardia</ref>:  paramano della spada.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_11174" targetEnd="quarantana/cap1.xml#c1_11176"><ref rend="bold">come in cifra</ref>:  come in un arabesco.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_11216" targetEnd="quarantana/cap1.xml#c1_11217"><ref rend="bold">squarci autentici</ref>:  brani tratti da documenti storici. La citazione delle gride – ricavate dall’<bibl><title rend="italic">Economia e statistica</title></bibl> dell'economista Melchiorre Gioia (1767-1829) - mette in rilievo le storture e l'inefficienza del sistema giudiziario del Seicento: si avverte l’incidenza della lezione degli illuministi e in particolare di Cesare Beccaria, nonno materno dello scrittore, autore del trattato <bibl><title rend="italic">Dei delitti e delle Pene</title></bibl> (1764). L'introduzione all'interno della narrazione di una documentazione storica è tecnica caratteristica di Manzoni; affiancare l'uno all’altro registri linguistici dissonanti (il linguaggio del narratore e il linguaggio delle gride) produce effetti talvolta ironici, come in questo caso, talaltra drammatici, e contribuisce a dar veridicità alle parti d’invenzione.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_11244" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">l'Illustrissimo... Sua Maestà Cattolica</ref>:  l’elenco dei titoli altisonanti vuol parodiare i tasti del cerimoniale spagnolesco</note>
+        <note xml:id="Gavino_Oliveri_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_11266"><ref rend="bold">Contestabile</ref>:  ufficiale della Corona con alto comando militare.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">Sua Maestà Cattolica</ref>:  Flippo II, re di Spagna.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_11331" targetEnd="quarantana/cap1.xml#c1_11339"><ref rend="bold">non hanno esercizio alcuno... non lo fanno</ref>:  non posseggono alcun mestiere o, possedendolo, non lo esercitano.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_11356" targetEnd="quarantana/cap1.xml#c1_11360"><ref rend="bold">per fargli spalle e favore</ref>:  per spalleggiarlo e favorirlo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_11397"><ref rend="bold">ufiziali</ref>:  ufficiali (fiorentinismo).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_11402"><ref rend="bold">stranamente</ref>:  straordinariamente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_11449"><ref rend="bold">grida</ref>:  bando, decreto che, emesso dal governatore, veniva affisso stampato ma anche annunziato, «gridato» dai banditori.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518"><ref rend="bold">alla corda et al tormento</ref>:  al supplizio della corda, che consisteva nel sollevare il condannato a strappi mediante una fune legata ai polsi e poi nel lasciarlo cadere di colpo, in modo da slogargli le giunture.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">processo informativo</ref>:  processo istruttorio volto all’accertamento dei fatti.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_11532"><ref rend="bold">galea</ref>:  nave, in uso fino al XVIII secolo, su cui il condannato era obbligato ai remi (donde «galera» nel significato di lavori forzati, carcere).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_11570"><ref rend="bold">tanto</ref>:  cosi grande (lat.).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_11717"><ref rend="bold">sbrattare</ref>:  sgomberare.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_11776" targetEnd="quarantana/cap1.xml#c1_11777"><ref rend="bold">appostatamente date</ref>:  date facendo la posta, tendendo agguati.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_11789" targetEnd="quarantana/cap1.xml#c1_11792"><ref rend="bold">si rendono più facili</ref>:  si abbandonano con maggiore facilità.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_11793"><ref rend="bold">confidati</ref>:  confidando (lat.).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  del tutto, nel modo più assoluto (lat.).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_11925"><ref rend="bold">pernizioso</ref>:  malefico.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_11940"><ref rend="bold">comminazioni</ref>:  minacce (lat.).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_11974"><ref rend="bold">cabale</ref>:  intrighi (da «cabala», la scienza dei numeri e delle loro combinazioni magiche).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>:  Enrico di Borbone, re di Francia (1589-1610).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">il duca di Savoia</ref>:  Carlo Emanuele I (1562-1630), figlio di Emanuele Filiberto.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_12015" targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">il duca di Biron</ref>:  maresciallo di Enrico IV, decapitato nel 1602 per avere congiurato contro il re.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">stampatori regii camerali</ref>:  tipografi che avevano il privilegio di stampare i decreti della Regia Camera, che presiedeva all’amministrazione finanziaria dello Stato.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_12145" targetEnd="quarantana/cap1.xml#c1_12149"><ref rend="bold">Signor Gonzalo Fernandez di Cordova</ref>:  governatore di Milano dal 1627 al 1629, si era distinto nella guerra della Spagna contro l’Olanda (1621-1626); discendeva da don Gonzalo Fernandez detto il Gran Capitano, che strappò Granada ai Mori (1492) e il regno di Napoli ai Francesi (1503).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_10419"><ref rend="bold">tuttavia</ref>:  tuttora (come a r. 30).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_12325" targetEnd="quarantana/cap1.xml#c1_12327"><ref rend="bold">a un tratto</ref>:  insieme, a un tempo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_12438" targetEnd="quarantana/cap1.xml#c1_12442"><ref rend="bold">il testimonio consolante della coscienza</ref>:  attraverso la battuta ferocemente sarcastica (don Abbondio non si preoccupa di aver violato la legge di Dio, ma di aver offeso qualche potente!), comincia a delinearsi il ritratto morale di don Abbondio: quello fisico verrà in seguito (<bibl>cap. VIII, rr. 64-70</bibl>).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_12509" targetEnd="quarantana/cap1.xml#c1_12510"><ref rend="bold">più modesta</ref>:  di sfuggita.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_12566" targetEnd="quarantana/cap1.xml#c1_12567"><ref rend="bold">un versetto</ref>:  dei Salmi.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_12597"><ref rend="bold">galantuomini</ref>:  altre volte incontreremo nel romanzo questo termine, quasi sempre usato in funzione ironicamente antifrastica (l'antifrasi è figura retorica con cui si dice il contrario di ciò che si pensa).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12670"><ref rend="bold">Renzo Tramaglino e Lucia Mondella</ref>:  qui come altrove i nomi sono stati scelti da Manzoni con intenti espressivi precisi: Tramaglino allude al mestiere di filatore di Renzo (da «tramaglio», rete), Mondella alla purezza (dal latino «mundus», puro), e ben si accompagna al nome di Lucia, «colei che dà luce».</note>
+        <note xml:id="Gavino_Oliveri_cap1-n69" type="comm" target="quarantana/cap1.xml#c1_12671" targetEnd="quarantana/cap1.xml#c1_12675"><ref rend="bold">Cioè... con voce tremolante</ref>:  don Abbondio si arrende prima ancora di aver capito chiaramente che cosa si voglia da lui, pronto a rinnegare i fondamentali doveri del sacerdote.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_12714"><ref rend="bold">banco</ref>:  banca.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_12723" targetEnd="quarantana/cap1.xml#c1_12724"><ref rend="bold">del comune</ref>:  della comunità.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_12806"><ref rend="bold">ciarle</ref>:  chiacchere.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_12924" targetEnd="quarantana/cap1.xml#c1_12925"><ref rend="bold">nel forte</ref>:  nel culmine.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_12955" targetEnd="quarantana/cap1.xml#c1_12962"><ref rend="bold">Oh! suggerire... latino!</ref>:  la minaccia continua a mescolarsi con lo scherno; ma proprio del latino don Abbondio si servirà per confondere Renzo (<bibl>cap. II</bibl>).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_13062"><ref rend="bold">messere</ref>:  titolo un tempo spettante ai dotti e ai sacerdoti.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_13156"><ref rend="bold">aggranchiate</ref>:  in preda ai crampi.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_13170"><ref rend="bold">naturale</ref>:  temperamento, indole.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n78" type="comm" target="quarantana/cap1.xml#c1_13189" targetEnd="quarantana/cap1.xml#c1_13196"><ref rend="bold">non era nato con un cuor di leone</ref>:  attraverso la figura retorica della litote (che consiste nel far risaltare un concetto mediante la negazione del suo contrario), compare la prima icastica definizione del personaggio. La figura di don Abbondio si colloca nel quadro della violenza del secolo, di cui egli, esemplare della meschinità umana, è complice e vittima a un tempo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n79" type="comm" target="quarantana/cap1.xml#c1_13376"><ref rend="bold">vessazioni</ref>:  angherie.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n80" type="comm" target="quarantana/cap1.xml#c1_13415"><ref rend="bold">asili</ref>:  chiese e conventi, ma anche alcune residenze nobiliari, erano sottratti alla giurisdizione comune; qui dunque anche i malfattori godevano dell'impunità.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n81" type="comm" target="quarantana/cap1.xml#c1_13419" targetEnd="quarantana/cap1.xml#c1_13420"><ref rend="bold">d'alcune classi</ref>:  la nobiltà, i militari, il clero.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n82" type="comm" target="quarantana/cap1.xml#c1_13434"><ref rend="bold">impugnati</ref>:  contestati.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n83" type="comm" target="quarantana/cap1.xml#c1_13443" targetEnd="quarantana/cap1.xml#c1_13454"><ref rend="bold">difesi... puntiglio</ref>:  difesi dalle classi dirigenti con un’energia dettata dall’interesse e con un puntiglio geloso che non tollerava interferenze.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n84" type="comm" target="quarantana/cap1.xml#c1_13459"><ref rend="bold">insultata</ref>:  qui nel senso di «assalita».</note>
+        <note xml:id="Gavino_Oliveri_cap1-n85" type="comm" target="quarantana/cap1.xml#c1_13527"><ref rend="bold">bonario</ref>:  mite.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n86" type="comm" target="quarantana/cap1.xml#c1_13539" targetEnd="quarantana/cap1.xml#c1_13542"><ref rend="bold">aver sotto la mano</ref>:  controllare.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n87" type="comm" target="quarantana/cap1.xml#c1_13586" targetEnd="quarantana/cap1.xml#c1_13587"><ref rend="bold">i birri</ref>:  gli agenti di polizia.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n88" type="comm" target="quarantana/cap1.xml#c1_13633"><ref rend="bold">deputati</ref>:  incaricati.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n89" type="comm" target="quarantana/cap1.xml#c1_13647" targetEnd="quarantana/cap1.xml#c1_13648"><ref rend="bold">per clientela</ref>:  erano cioè sotto la protezione dei nobili e al loro servizio. Il termine è usato nel significato che aveva nel mondo romano.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n90" type="comm" target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13687"><ref rend="bold">Gli uomini poi incaricati dell'esecuzione immediata</ref>:  gli sbirri, o «birri».</note>
+        <note xml:id="Gavino_Oliveri_cap1-n91" type="comm" target="quarantana/cap1.xml#c1_13753"><ref rend="bold">ribaldi</ref>:  scellerati.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n92" type="comm" target="quarantana/cap1.xml#c1_13772" targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">il loro titolo un improperio</ref>:  il titolo di «birri» era considerato un insulto.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n93" type="comm" target="quarantana/cap1.xml#c1_13802"><ref rend="bold">connivenza</ref>:  complicità.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n94" type="comm" target="quarantana/cap1.xml#c1_13831"><ref rend="bold">vessare</ref>:  angariare, tartassare.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n95" type="comm" target="quarantana/cap1.xml#c1_13863" targetEnd="quarantana/cap1.xml#c1_13870"><ref rend="bold">la tendenza... in classi</ref>:  allude alla degenerazione del sistema corporativo nella società del Seicento: gli individui, raggruppati per classi e per categorie, avevano interessi comuni che difendevano accanitamente, con qualsiasi mezzo, anche illecito.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n96" type="comm" target="quarantana/cap1.xml#c1_13897" targetEnd="quarantana/cap1.xml#c1_13907"><ref rend="bold">immunità... esenzioni</ref>:  «immunità», dispense nei confronti della legge e delle autorità civili; «privilegi», godimento di particolari benefici in deroga alle norme; «esenzioni», dispense da obblighi, come il pagamento delle imposte.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n97" type="comm" target="quarantana/cap1.xml#c1_13914" targetEnd="quarantana/cap1.xml#c1_13918"><ref rend="bold">in maestranze e in confraternite</ref>:  corporazioni di arti e mestieri che si erano formate nel Medioevo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n98" type="comm" target="quarantana/cap1.xml#c1_13920"><ref rend="bold">giurisperiti</ref>:  esperti nelle leggi e nel diritto.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n99" type="comm" target="quarantana/cap1.xml#c1_13979"><ref rend="bold">facinorosi</ref>:  coloro che sono inclini a compiere azioni violente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n100" type="comm" target="quarantana/cap1.xml#c1_14016"><ref rend="bold">dovizioso</ref>:  ricco (dal latino «dives»).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n101" type="comm" target="quarantana/cap1.xml#c1_14078" targetEnd="quarantana/cap1.xml#c1_14081"><ref rend="bold">gli anni della discrezione</ref>:  gli anni del discernimento, del giudizio.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n102" type="comm" target="quarantana/cap1.xml#c1_14110"><ref rend="bold">parenti</ref>:  qui, come altrove, per genitori (latinismo).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n103" type="comm" target="quarantana/cap1.xml#c1_14216" targetEnd="quarantana/cap1.xml#c1_14218"><ref rend="bold">Il suo sistema</ref>:  è «l’ideologia della viltà» (A. Marchese), che assume un colorito umoristico attraverso il linguaggio cancelleresco («neutralità disarmata») e militaresco («sempre però alla retroguardia»).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n104" type="comm" target="quarantana/cap1.xml#c1_14255" targetEnd="quarantana/cap1.xml#c1_14256"><ref rend="bold">podestà laiche</ref>:  autorità civili.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n105" type="comm" target="quarantana/cap1.xml#c1_14342"><ref rend="bold">dissimulando</ref>:  facendo finta di non accorgersi.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n106" type="comm" target="quarantana/cap1.xml#c1_14499"><ref rend="bold">fantastico</ref>:  lunatico.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n107" type="comm" target="quarantana/cap1.xml#c1_14508"><ref rend="bold">censore</ref>:  critico.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n108" type="comm" target="quarantana/cap1.xml#c1_14593"><ref rend="bold">declamava</ref>:  inveiva.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n109" type="comm" target="quarantana/cap1.xml#c1_14712" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">i miei venticinque lettori</ref>:  l’espressione è maliziosa; l’autore è consapevole che il genere del romanzo, considerato come inferiore, era in effetti idoneo a conquistare un vasto pubblico.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n110" type="comm" target="quarantana/cap1.xml#c1_14754"><ref rend="bold">studio</ref>:  attenzione.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n111" type="comm" target="quarantana/cap1.xml#c1_14758" targetEnd="quarantana/cap1.xml#c1_14761"><ref rend="bold">sconcertato in un punto</ref>:  sconvolto in un solo momento.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n112" type="comm" target="quarantana/cap1.xml#c1_14763" targetEnd="quarantana/cap1.xml#c1_14764"><ref rend="bold">un passo</ref>:  una situazione.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n113" type="comm" target="quarantana/cap1.xml#c1_14934" targetEnd="quarantana/cap1.xml#c1_14936"><ref rend="bold">la loro imbasciata</ref>:  a Renzo e Lucia.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n114" type="comm" target="quarantana/cap1.xml#c1_14953"><ref rend="bold">dell'iniquità</ref>:  ingiustizia.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n115" type="comm" target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199"><ref rend="bold">l'età sinodale</ref>:  l’età prescritta dal sinodo ecclesiastico, in questo caso il Concilio di Trento che aveva emesso disposizioni disciplinari atte a correggere i costumi del clero.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n116" type="comm" target="quarantana/cap1.xml#c1_15203"><ref rend="bold">celibe</ref>:  nubile.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n117" type="comm" target="quarantana/cap1.xml#c1_15274"><ref rend="bold">adombrato</ref>:  turbato, cupo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n118" type="comm" target="quarantana/cap1.xml#c1_15406" targetEnd="quarantana/cap1.xml#c1_15415"><ref rend="bold">come se non volesse... confidenza</ref>:  già in questa prima apparizione sulla scena del romanzo si manifesta pienamente il carattere della donna, nelle sue componenti di curiosità, loquacità, stizza. Il dialogo e la pantomima vivacissima che lo accompagna mettono inoltre in evidenza il rapporto serva-padrone, un rapporto di familiarità - dove l’affetto si accompagna però a insofferenza, ripicche, piccoli rancori - che rimarrà invariato in tutto il romanzo.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n119" type="comm" target="quarantana/cap1.xml#c1_15476" targetEnd="quarantana/cap1.xml#c1_15477"><ref rend="bold">le gomita</ref>:  i gomiti (toscano).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n120" type="comm" target="quarantana/cap1.xml#c1_14610"><ref rend="bold">soverchiatore</ref>:  prepotente.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n121" type="comm" target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782"><ref rend="bold">il nostro arcivescovo</ref>:  il cardinale Federico Borromeo, arcivescovo di Milano dal 1595 al 1631. La validità del suggerimento di Perpetua sarà ammessa dallo stesso don Abbondio <bibl>(cap. XXVI)</bibl>.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n122" type="comm" target="quarantana/cap1.xml#c1_15950"><ref rend="bold">baggianate</ref>:  sciocchezze. «Bagiann» in milanese vale «sciocco». «Il termine ha origine toponomastica dalla medioevale Baciana, la zona di confine milanese» (Raimondi-Bottoni).</note>
+        <note xml:id="Gavino_Oliveri_cap1-n123" type="comm" target="quarantana/cap1.xml#c1_16053"><ref rend="bold">bagattella</ref>:  bazzecola, inezia.</note>
+        <note xml:id="Gavino_Oliveri_cap1-n124" type="comm" target="quarantana/cap1.xml#c1_16095" targetEnd="quarantana/cap1.xml#c1_16096"><ref rend="bold">e disparve</ref>:  «è come il calar della tela sul palco di un teatro» (Sapegno-Viti).</note>
+      </div>
+    </body>
+  </text>
+</TEI>

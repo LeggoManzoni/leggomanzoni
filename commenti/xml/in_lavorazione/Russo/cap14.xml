@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap14">
+                <note xml:id="Russo_cap14-n1" type="comm" target="quarantana/cap14.xml#c14_10025" targetEnd="quarantana/cap14.xml#c14_10030"><ref rend="bold">a accudire anche alle sue faccende</ref>:<hi rend="bold">A accudire anche alle sue faccende.</hi> Avverti la sfumatura ironica di quell’<hi rend="italic">anche</hi>, che è un riconoscere l’ozioso agire di alcuni in quel tumulto, e segno del loro tardivo ravvedimento.</note>
+                <note xml:id="Russo_cap14-n2" type="comm" target="quarantana/cap14.xml#c14_10100" targetEnd="quarantana/cap14.xml#c14_10115"><ref rend="bold">un branco di birboni... d'un così grand'apparato</ref>:<hi rend="bold">Malcontenti d’una fine così fredda....</hi> Sono i birboni, che ci ha presentato, al cap. XII, II. 170-71, quelli che allora s'ingegnavano di intorbidare l’acqua, e si proponevano di non lasciarla posare, senza farci un po’ di pesca. L'espressione <hi rend="italic">branco di birboni</hi> denota l’interesse morale, o oratorio, dell’artista, che si avvicenda per un momento al suo interesse rappresentativo di obbiettivo descrittore.</note>
+                <note xml:id="Russo_cap14-n3" type="comm" target="quarantana/cap14.xml#c14_10136" targetEnd="quarantana/cap14.xml#c14_10142"><ref rend="bold">Andavano urtacchiando... quella povera porta</ref>:<hi rend="bold">Andavano urtacchiando e pigiando quella povera porta.</hi> Per intraprendere qualche cosa di nuovo, ma anche per fare i calcoli postumi sulla possibilità di sfondarla. Che è sentimento umanissimo. Ricorda i versi di <bibl>
+                <author>Dante</author></bibl>del perdente al giuoco della zara, che <hi rend="italic">si riman dolente,</hi> e, <hi rend="italic">ripetendo le volte, tristo impara</hi>
+                <bibl><title> (Purg., VI, 1-3).<lb/>
+                </title></bibl>
+                </note>
+                <note xml:id="Russo_cap14-n4" type="comm" target="quarantana/cap14.xml#c14_10223"><ref rend="bold">insieme</ref>:  era come... rimane sparsa, e: <hi rend="bold">Era come quella nuvolaglia...</hi>Quei postumi del tumulto avvicinati ai postumi di una burrasca, quei crocchi che si muovono come nuvole irrequiete, non vogliono essere certamente delle immagini epiche, ma hanno un guizzo di malizia. I crocchi di umani, avvicinati alle nuvole che passeggiano per l’atmosfera celeste, sono sfumati di un sorriso in quel loro travestimento impensato. Gli uomini si lasciano aggruppare e sgruppare, come masse d’aria; i loro sono vaghi capricci metereologici. Naturalmente, questo è un accenno leggerissimo, e come tale va inteso, anche se, per necessità didascaliche, noi siamo stati costretti a materializzare corposamente l’immagine.<lb/>
+                </note>
+                <note xml:id="Russo_cap14-n5" type="comm" target="quarantana/cap14.xml#c14_10246" targetEnd="quarantana/cap14.xml#c14_10267"><ref rend="bold">guarda in su... i casi particolari</ref>:<hi rend="bold">24-25. Pensate poi che babilonia di discorsi.</hi> Come al solito, il<bibl>
+                <author> M.</author></bibl>, mentre descrive masse corali, individualizza i singoli interlocutori: c’è lo spettatore curioso e ciarliero, tutto felice di fare rapsodo dei recenti avvenimenti; poi l’eterno<hi rend="italic"> gloriosus</hi>, che si vanta della parte avuta nel tumulto; quindi il moderato, che è sempre per le soluzioni di ordine e per le punizioni energiche dei superiori; e c’è infine, il politicone, che la sa lunga, e spiffera la sua scettica sentenza alla <bibl>
+                <author>Machiavelli</author></bibl>; e poi ancora il torbido impotente, buono a nulla, che si sfoga, se non altro, a dir male di sè e degli altri, tutti minchioni che si sono lasciati canzonare in quella maniera.<lb/>
+                </note>
+                <note xml:id="Russo_cap14-n6" type="comm" target="quarantana/cap14.xml#c14_10346" targetEnd="quarantana/cap14.xml#c14_15450"><ref rend="bold">Intanto il sole... di ciarlare al buio,<hi rend="bold">Le cose diventavano tutte...ciarlare al buio.</hi>
+                </ref>:  La stessa malizia che nell'immagine delle nuvole. La luce del sole e il buio mescolate alle passioni degli uomini, le quali sfumano e si sospendono, per il volgere del tempo, a quello stesso modo come il sole va sotto, e perchè, col buio, tutte le cose, non escluse le passioni, diventano tutte d’un colore.<lb/>
+                </note>
+                <note xml:id="Russo_cap14-n7" type="comm" target="quarantana/cap14.xml#c14_10447" targetEnd="quarantana/cap14.xml#c14_15438"><ref rend="bold">tante immagini,... da un parte e</ref>:<hi rend="bold">Sentì un gran bisogno di mangiare e di riposarsi.</hi> Continua l’arguzia satirica sulla precarietà delle passioni umane. <persName>Renzo,</persName> dopo aver tanto gridato e gesticolato e sudato a far largo a <persName>Ferrer,</persName> ad un tratto sente quel <hi rend="italic">gran bisogno di mangiare e di riposarsi.</hi> Si osservi la particolare insistenza con cui il <bibl>
+                <author>M.</author></bibl> parla dell’<hi rend="italic">agitazione di tanti sentimenti, di tante immagini, recenti e confuse</hi>, e l'accostamento malizioso di coteste patetiche parole all’improvviso bisogno di cibo.</note>
+                <note xml:id="Russo_cap14-n8" type="comm" target="quarantana/cap14.xml#c14_10581" targetEnd="quarantana/cap14.xml#c14_10592"><ref rend="bold">debol parere?... che non è solamente</ref>:<hi rend="bold">Il mio debol parere è questo...</hi>Tutti i discorsi di <persName>Renzo</persName> possono dirsi una trascrizione delle sue passioni, dei suoi affetti, e dei suoi guai privati, una specie di palinsesto, dove, raschiando, si possono leggere chiaramente le note della sua storia personale; ed è bello questo che il buon montanaro, tutte le volte che provvede a riassestare le cose di questo mondo, introduce sempre qualche inciso per accomodare i fatti suoi. Intanto si veda come gli avvenimenti del tumulto si travestono nella sua fantasia. In quella mano di tiranni, che fanno proprio al rovescio dei dieci comandamenti, in quel plurale si nasconde un semplice singolare, e quel singolare è <persName>don Rodrigo.</persName>
+                <lb/>
+                </note>
+                <note xml:id="Russo_cap14-n9" type="comm" target="quarantana/cap14.xml#c14_10678" targetEnd="quarantana/cap14.xml#c14_15410"><ref rend="bold">hanno sempre ragione?... par che gli s'abbia</ref>:<hi rend="bold"> Quando n’hanno fatto... la testa più alta.</hi> Sentiamo l'eco delle parole di <persName>fra Cristoforo,</persName> quando è tornato dall’ impresa del colloquio <bibl>(cap. VII).</bibl> L’iniquo «può insultare e chiamarsi offeso, schernire e chieder ragione, atterrire e lagnarsi, essere sfacciato e irreprensibile.» E vediamo <persName>don Rodrigo</persName>, nella sua passeggiata per passar la mattana, «più burbero, più superbioso, più accigliato del solito.».<lb/>
+                </note>
+                <note xml:id="Russo_cap14-n10" type="comm" target="quarantana/cap14.xml#c14_10715" targetEnd="quarantana/cap14.xml#c14_10719"><ref rend="bold">«Pur troppo,» disse una voce</ref>:<hi rend="bold">Pur troppo, disse una voce.</hi>Può essere la voce di un bargello provocatore? <persName>Ambrogio Fusella</persName> spunta già all'orizzonte? Saremmo inclini a pensarlo, se, alla 1. 131, non si dicesse del bargello-guida, che «non aveva detto ancor nulla.».</note>
+                <note xml:id="Russo_cap14-n11" type="comm" target="quarantana/cap14.xml#c14_10744" targetEnd="quarantana/cap14.xml#c14_10769"><ref rend="bold">qualcheduno di costoro... vorrà essere un angiolo</ref>:<hi rend="bold">Qualcheduno di costoro.... un po’ in Milano.</hi> Il plurale (<hi rend="italic">una mano di tiranni</hi>), che era un dissimulato singolare, diventa a poco a poco un singolare manifesto. Quella mano di tiranni si tramuta in un <hi rend="italic">qualcheduno</hi> che sta un po’ in campagna, e un po’ in <placeName>Milano.</placeName> E in tale particolare sono riflesse le abitudini di <persName>don Rodrigo.</persName> Al<bibl><title> capitolo XXV</title></bibl> vedremo il nostro tirannello che, dopo essere stato rintanato nel suo palazzotto, a rodersi per due giorni in seguito alla conversione dell’Innominato, «il terzo, partì per <placeName>Milano.</placeName>»
+                </note>
+                <note xml:id="Russo_cap14-n12" type="comm" target="quarantana/cap14.xml#c14_10845" targetEnd="quarantana/cap14.xml#c14_10846"><ref rend="bold">E dice</ref>: ... e che so io: <hi rend="bold">Vili e plebei.</hi> Ricordo in generale della grida di <persName>Azzeccagarbugli,</persName> e travisamento fantastico e popolare di alcuni termini d’essa.<bibl>
+                <hi rend="italic"> “Et altre simili violenze, quali seguono da feudatarii, nobili, mediocri, vili, e plebei.”</hi> (cap. III).</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n13" type="comm" target="quarantana/cap14.xml#c14_10860" targetEnd="quarantana/cap14.xml#c14_10871"><ref rend="bold">a dire ai dottori... facciano far giustizia,</ref>:<hi rend="bold"> Ai dottori, scribi e farisei.</hi> Anche qui il plurale <hi rend="italic">dottori</hi> dissimula un semplice singolare, il dottore <persName>Azzeccagarbugli.</persName> Pluralizzato il nome dottore, vi si aggiunge spontanea e proverbiale la frase <hi rend="italic">scribi e farisei,</hi> reminiscenza delle prediche e spiegazioni evangeliche domenicali.</note>
+                <note xml:id="Russo_cap14-n14" type="comm" target="quarantana/cap14.xml#c14_10886" targetEnd="quarantana/cap14.xml#c14_10910"><ref rend="bold">da far girare... fossero gastigati</ref>:<hi rend="bold">Si vede dunque chiaramente che il re.... i birboni fossero gastigati.</hi> Tutto il discorso di <persName>Renzo</persName> è improntato al semplicismo ingenuo, proprio del popolo, a quelle illusioni riformatrici, per cui si rifà il mondo da un giorno all’altro, attraverso una esecuzione rigorosa di alcune buone leggi e con l'intervento di qualche galantuomo, di buona volontà, tra quelli che comandano. Nell’atteggiamento di <persName>Renzo</persName> è colto l'atteggiamento eterno della psiche popolaresca, ma non manca un particolare colorito storico nelle sue parole. <persName>Renzo</persName> non è un rivoltoso, di quelli che si potevano offrire all’esperienza diretta del <bibl>
+                <author>M.</author></bibl>, maturati nel clima della rivoluzione francese. Egli è Invece un buon suddito di Sua Maestà <persName>Filippo IV,</persName> il Re nostro Signore, ed ha una sviscerata stima per tutti quelli che comandano. Ritorna in lui quel rispetto devoto, ingenuo, e fiducioso del popolo, che esalta sempre l’uomo di governo, per prendersela soltanto con quelli che abuserebbero della sua fiducia <bibl>(si ricordi la battuta dell'altro popolano in difesa di don Gonzalo: c. XII, n. 321-22).</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n15" type="comm" target="quarantana/cap14.xml#c14_10911" targetEnd="quarantana/cap14.xml#c14_10920"><ref rend="bold">ma non se ne fa nulla, perché c'è una lega</ref>:<hi rend="bold"> Perchè c’è una lega.</hi> Nella mitologia sociale del buon Renzo, questo mito della lega dei birboni ha un’importanza capitale. Anche quando il cervello è un po’ offuscato dai fumi del vino, questa faccenda della lega gli è ben fitta nella mente. All’oste, che gli torna a chiedere quel negozio del nome e cognome, egli grida. <bibl>“Ho inteso: sei della lega anche tu.” (cap. XV).</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n16" type="comm" target="quarantana/cap14.xml#c14_10615" targetEnd="quarantana/cap14.xml#c14_10976"><ref rend="bold">Bisogna andar... come stanno le cose</ref>:<hi rend="bold"> Bisogna andar da Ferrer, e dirgli come stanno le cose.</hi>
+                <persName>Renzo</persName> accomoda le cose ai casi suoi; una commissione deve andare da <persName>Ferrer,</persName> ed egli naturalmente ne farà parte. Riformatore ingenuo dell’universale, <persName>Renzo,</persName> ma riformatore per il suo particulare, in definitiva. Le leggi bisogna farle andare, e <persName>Renzo</persName> si affretta a soggiungere: <hi rend="italic">e non solamente a <placeName>Milano</placeName>, ma per tutto.</hi> E che i podestà si preoccupino di fare il loro dovere; ma anche qui il plurale è soltanto un singolare: il podestà di <placeName>Lecco,</placeName> quello a cui toccava, in teoria, il dovere di difenderlo da <persName>don Rodrigo.</persName> E, infine, una clausola nelle leggi tutta per lui: “ordinare a’ dottori che stiano a sentire i poveri e parlino in difesa della ragione.”</note>
+                <note xml:id="Russo_cap14-n17" type="comm" target="quarantana/cap14.xml#c14_10992" targetEnd="quarantana/cap14.xml#c14_11017"><ref rend="bold">co' miei occhi... d'ognuno c'era sotto il suo</ref>:<hi rend="bold">Una grida con tanto d’arme in cima.... un buon rimedio.</hi> All’ingenua riverenza per i capi, si accompagna in <persName>Renzo</persName> un sentimento fortissimo, puntuale, della legge.<persName>Renzo</persName> non è per la violenza, non è per i mezzi eccezionali; si è vista anche la parte che egli ha avuto nel tumulto, per salvare il vicario di provvisione. Egli è di quelli che lo vogliono in prigione, che a il suo buon gastigo, ma il popolo non deve rubare rubare il mestiere al boia. E questo sentimento forte della legge, gli si presenta come si presenta spesso alla fantasia del popolo, incarnato in una qualche persona di merito e di rispetto. Per <persName>Renzo,</persName>
+                <persName>Ferrer</persName> è la legge stessa, la giustizia in persona; la giustizia è ingenuamente antropomorfizzata, un uomo diventa il rimedio radicale di tutta una situazione.</note>
+                <note xml:id="Russo_cap14-n18" type="comm" target="quarantana/cap14.xml#c14_11222" targetEnd="quarantana/cap14.xml#c14_15438"><ref rend="bold">dicon le gride;... e dove dice prigione,</ref>:<hi rend="bold">Un buon processo.... quelle bricconerie.</hi> Questo legalismo di <persName>Renzo</persName> può ricordare il legalismo del podestà, che ha, anche lui, in bocca, sempre, i buoni processi; ma in <persName>Renzo</persName> è il sentimento ingenuo della giustizia che lo porta a prendere sul serio tutto quello che è stampato nelle gride con tanto d’arme in cima, e con la firma di quelli che possono, e nel podestà è soltanto boria dottorale, come già sappiamo. Il legalismo di <persName>Renzo</persName> chiama il nostro sorriso benigno sulla sua ingenuità; il legalismo del podestà, un ghigno sul suo formale puritanesimo giuridico.</note>
+                <note xml:id="Russo_cap14-n19" type="comm" target="quarantana/cap14.xml#c14_14797" targetEnd="quarantana/cap14.xml#c14_15444"><ref rend="bold">"Eh sì" diceva uno... per cui ci siamo mossi</ref>:<hi rend="bold">“Dar retta a’ montanari...per cui ci siam mossi.”</hi> Comincia il dissenso, non tanto tra i rivoltosi della città e i rivoltosi del contado, quanto il dissenso tra uomo e uomo: una sommossa, dovuta a motivi economici, mancando ogni preparazione ideale, si particolarizza negli interessi dei singoli. Ciascuno pensa al suo utile, e, dove non sorge l’affiatamento estemporaneo, dovuto alla eccitazione collettiva, la riflessione torna a dividere gli animi: <hi rend="italic">a furia di metter carne a fuoco, non s’avrà il pane a buon mercato.</hi> Dal mio al tuo, ciascuno è per il suo, Il montanaro pensa al suo matrimonio andato a monte; il cittadino, al di là del pane a buon mercato, non vede altro. In un rapidissimo scorcio, il <bibl>
+                <author>M.,</author></bibl> amante fino allo scrupolo della individuazione psicologica degli umori di una folla, qui ha colto quella logica fluttuante e fondamentalmente diffidente che può ispirare i postumi di un tumulto.</note>
+                <note xml:id="Russo_cap14-n20" type="comm" target="quarantana/cap14.xml#c14_11498" targetEnd="quarantana/cap14.xml#c14_11503"><ref rend="bold">che è mio amico, e galantuomo</ref>:<hi rend="bold"> Amico, e galantuomo.</hi> Tutte le battute del bargello-guida hanno un’ironia retrospettiva.<hi rend="italic"> Un’osteria che farà al caso vostro,</hi> è la prigione; <hi rend="italic">l’amico, e galantuomo,</hi> è il notaio criminale. Più giù, egli dirà: <hi rend="italic">Non siamo obbligati a far servizio al prossimo?</hi> Non c'è che dire, un bargello è sempre un servitore dell’universale. Comincia la sottilissima satira del<bibl>
+                <author>M.</author></bibl> contro quel complesso che si chiama la “giustizia”, in cui parrebbero riflessi gli umori del suo tempo contro la polizia austriaca o dei vari patrii governi (si ricordi la parte che tale <hi rend="italic">giustizia</hi> ha nei versi del Giusti). Ma, nel <bibl>
+                <author>M.</author></bibl>, questa ispirazione civile contemporanea, se c'è, si trasfigura in un sentimento etico più generale: la <hi rend="italic">giustizia</hi> di questo mondo, e i suoi rappresentanti, non possono essere che una tragica turlupi-natura, una commedia recitata da assai poveri e goffi attori. E il <bibl>
+                <author>M.</author></bibl> si spasserà a confondere in un’atmosfera di goffaggine tutti questi birri, virtuosi delle piccole, furberie e degli intricatissimi tranelli.</note>
+                <note xml:id="Russo_cap14-n21" type="comm" target="quarantana/cap14.xml#c14_11585" targetEnd="quarantana/cap14.xml#c14_15131"><ref rend="bold">«Vengo,»... «fino, fino da Lecco.»</ref>:<hi rend="bold">"Fino, fino da Lecco.”</hi> La ripetizione di quel <hi rend="italic">fino</hi> indica un'esitazione interna di <persName>Renzo.</persName> Prevale, alla fine, la prudenza, ed egli parla soltanto di <placeName>Lecco.</placeName> Ma si tratta di una diffidenza semplicemente generica, una diffidenza contadinesca, che a poco a poco finirà col disarmare.</note>
+                <note xml:id="Russo_cap14-n22" type="comm" target="quarantana/cap14.xml#c14_11618" targetEnd="quarantana/cap14.xml#c14_11629"><ref rend="bold">«Eh! caro il mio galantuomo!... con un po' di</ref>:<hi rend="bold">Caro il mio galantuomo.</hi> Della parola galantuomo, in tutto questo episodio, si farà larghissimo uso, <hi rend="italic">et pour cause.</hi>Si veda al <bibl>cap. XIII, la n. 241.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n23" type="comm" target="quarantana/cap14.xml#c14_11756" targetEnd="quarantana/cap14.xml#c14_14298"><ref rend="bold">"se venite... mi fate piacere."</ref>:<hi rend="bold"> “Se venite a bere.... mi farete piacere.”</hi> Avevamo ragione di dire che quella di <persName>Renzo</persName> era una diffidenza generica; in lui il <hi rend="italic">buon figliolo</hi> è più forte del contadino sospettoso. Già, più innanzi, aveva cominciato a disarmare, quando, all’insinuante ridomandare della guida, aveva aggiunto: <placeName>“Di Lecco....</placeName>
+                <hi rend="italic">cioè del territorio.”</hi> Anche qui è inizialmente prudente, ma per poco: l’abito della cortesia e la fiducia espansiva del temperamento prevalgono sulla <hi rend="italic">politica</hi>, in cui egli pur si crede così forte <hi rend="italic">(ho dovuto parlare con un po’ di politica...).</hi>
+                </note>
+                <note xml:id="Russo_cap14-n24" type="comm" target="quarantana/cap14.xml#c14_11800" targetEnd="quarantana/cap14.xml#c14_11866"><ref rend="bold">due lumi a mano... e bicchieri per tutto</ref>:<hi rend="bold"> Due lumi a mano.... e bicchieri per tutto.</hi> Un magnifico interno da pittura fiamminga. C'è un'osteria, ma col colore del tempo. Una delle stampe secentesche, disseminate nel romanzo. Quella <hi rend="italic">mezza luce</hi> dei due lumi rende la vaga atmosfera dell’ambiente, mentre tutti gli altri particolari ne vogliono fissare l’aspetto fisico.</note>
+                <note xml:id="Russo_cap14-n25" type="comm" target="quarantana/cap14.xml#c14_11869" targetEnd="quarantana/cap14.xml#c14_11879"><ref rend="bold">anche correre... se avessero potuto</ref>:<hi rend="bold"> Berlinghe, reali e parpagliole.</hi> Le berlinghe e le parpagliole le conosciamo dal <bibl>cap. VI.</bibl> I reali erano monetine d’argento, spagnuole.</note>
+                <note xml:id="Russo_cap14-n26" type="comm" target="quarantana/cap14.xml#c14_11900" targetEnd="quarantana/cap14.xml#c14_11916"><ref rend="bold">che tutt'intento... faccendole private</ref>:<hi rend="bold"> Come andassero gli affari pubblici... le sue faccendole private.</hi> Satira discreta degli improvvisati attori del tumulto, tutti invasati della loro parte, a cui pur non dovevano essersi dedicati, col pensiero, prima d'allora. La satira di cotesto motivo di infatuato universalismo o civismo serpeggia, qua e là, in tutto l'episodio. Al principio del capitolo, ce n'era un accenno in quel qualcuno che “andava a casa, a accudire anche alle sue faccende”. Poi ritornerà lo XVI, in fondo, in quelle battute all’osteria di Gorgonzola, dove tutti, per un momento, sono per la partecipazione curiosa al tumulto, e poi, a coro, cantano le lodi della più estrema prudenza, perchè “ne’ tumulti i galantuomini non ci stanno bene.”</note>
+                <note xml:id="Russo_cap14-n27" type="comm" target="quarantana/cap14.xml#c14_11945" targetEnd="quarantana/cap14.xml#c14_11990"><ref rend="bold">sur una piccola panca... e andò incontro ai soprarrivati</ref>:<hi rend="bold"> Occupato, in apparenza...intorno a lui.</hi> Anche l'oste del <bibl>cap. VII,</bibl> guarda <persName>Renzo,</persName> al suo entrare, con una simulata impassibilità e immobilità (1. 452). Ma quella che lì era tattica di un momento, è diventata ora strategia riflessa e sistematica. L’oste della luna piena è della stessa famiglia, ma il suo ritratto è assai più appuntito e accentuato, e la sua logica più sistematicamente svolta e analizzata.</note>
+                <note xml:id="Russo_cap14-n28" type="comm" target="quarantana/cap14.xml#c14_12027" targetEnd="quarantana/cap14.xml#c14_12047"><ref rend="bold">non ti conosco... ti conoscerò</ref>:<hi rend="bold"> O cane o lepre sarai. </hi>O birbo anche <persName>Renzo,</persName> o preda.</note>
+                <note xml:id="Russo_cap14-n29" type="comm" target="quarantana/cap14.xml#c14_12061" targetEnd="quarantana/cap14.xml#c14_12080"><ref rend="bold">immobile come un ritratto... occhietti chiari e fissi</ref>:<hi rend="bold"> Una faccia pienotta.... due occhietti chiari e fissi.</hi> Quella faccia pienotta pare l’insegna stessa della luna piena, e la barbetta <hi rend="italic">rossiccia</hi> e i due occhietti <hi rend="italic">chiari</hi> non stanno male in quell’interno fiammingo. Ma l’attenzione dello scrittore è sempre più psicologica che pittorica: il significato primo e ultimo del quadretto sta in quel <hi rend="italic">stava immobile come un ritratto</hi> e in quei due occhietti fissi, che descrivono l’uomo nel suo interno calcolo, muto e sornione. Sulle qualità ritrattistiche del <bibl>
+                <author>M.</author></bibl> e sul suo gusto dell’illustrazione pittorica, si veda <bibl>F. ROMANI, <hi rend="italic">Le figure, i movimenti e gli atteggiamenti umani nella Div. Comm. e nei P. Sposi,</hi> in “Ombre e corpi”, Città di Castello, Lapi, 1901; e A. MOMIGLIANO, <hi rend="italic">Il Manzoni illustratore dei “Promessi Sposi”,</hi> in “Pègaso”, 1930, I, III.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n30" type="comm" target="quarantana/cap14.xml#c14_12081" targetEnd="quarantana/cap14.xml#c14_12088"><ref rend="bold">cosa comandan... disse ad alta voce</ref>:<hi rend="bold">Disse ad alta voce.</hi> A ostentare una sicurezza del fatto suo, che invero non c’è nel nostro oste, chè è giorno di torbidi e le facce dei birri in un locale non sono di buon augurio.</note>
+                <note xml:id="Russo_cap14-n31" type="comm" target="quarantana/cap14.xml#c14_12139" targetEnd="quarantana/cap14.xml#c14_15438"><ref rend="bold">e in faccende... e con Agnese</ref>:<hi rend="bold"> Ma gli venne subito in mente... con Lucia e con Agnese.</hi> Primo accenno a quel <persName>Renzo</persName> sentimentale, che avrà il suo sviluppo alla fine del capitolo. Qui il tocco è discretissimo, ma anche l’ultimo tratto, se è duramente realistico, vien temperato dal silenzio pudico che <persName>Renzo,</persName> pur nei vaneggiamenti dell’ubbriachezza, sa osservare sul nome di <persName>Lucia.</persName>
+                </note>
+                <note xml:id="Russo_cap14-n32" type="comm" target="quarantana/cap14.xml#c14_12264" targetEnd="quarantana/cap14.xml#c14_12389"><ref rend="bold">«Al pane,» disse Renzo... fossero dette davvero</ref>:<hi rend="bold"> “AI pane,” disse Renzo,...quelle parole fossero dette davvero.</hi> Da una parte l'oste, che, nella sua furbizia sottilissima, dice di non aver pane, forse per non compromettersi davanti al birro; dall’altra, <persName>Renzo,</persName> che si scopre in tutta la sua ingenuità, vantando il suo pane <hi rend="italic">ad alta voce e ridendo.</hi> In tutti i suoi discorsi, dal primo bicchiere all’ultimo, salta sempre fuori il galantuomo. Quel pane poi diventa nel suo linguaggio pio <hi rend="italic">il pane della provvidenza,</hi> e mentre gli altri gridano “Viva il pane a buon mercato”, egli si confessa per tutto il resto:<hi rend="italic"> “Gratis et amore.”</hi> Non si potrebbe essere più candidi. Andiamo in contro a una scena, in cui <persName>Renzo</persName> cade un po’ nello scomposto e nello svenevole, ma <persName>l’A.</persName> nulla ha trascurato per dar risalto alle native e istintive virtù del suo personaggio. E il galantuomo si manifesta ancor più nel commento che egli fa al suo atto: <hi rend="italic">“non vorrei che lor signori pensassero a male.”</hi> E la sua ingenuità e la sua buona fede hanno ancora maggior rilievo, per quello sghignazzare furbesco, per la malizia sguaiata della comitiva. L'incredulità di quei compagnoni è il miglior riconoscimento del candore di <persName>Renzo.</persName>
+                </note>
+                <note xml:id="Russo_cap14-n33" type="comm" target="quarantana/cap14.xml#c14_12457" targetEnd="quarantana/cap14.xml#c14_12476"><ref rend="bold">sé non vuol andare giù... un gran gridare!</ref>:<hi rend="bold"> Non ho avuto mai la gola tanto secca!</hi> Il primo bicchiere è stato per bagnare le labbra, questo è per la gola secca! Il terzo, più giù, sarà per rispondere degnamente all’oste, sulla faccenda della grida. Ogni atto importante di <persName>Renzo,</persName> ogni sua allocuzione, dopo di allora, sarà preceduta o accompagnata da un bicchiere di vino. Questo dei bicchieri che vanno giù, un dopo l’altro, è un motivo che, sebbene insistente, è toccato sempre con estrema leggerezza dall’artista. Il ritorno periodico di quel gesto, diventa tacitamente ma inesorabilmente comico, in forza della sua stessa periodicità...</note>
+                <note xml:id="Russo_cap14-n34" type="comm" target="quarantana/cap14.xml#c14_12488" targetEnd="quarantana/cap14.xml#c14_12493"><ref rend="bold">«perché ha intenzione di dormir qui.»</ref>:<hi rend="bold">“Perchè ha intenzione di dormir qui.”</hi> La sollecitudine della guida è assai interessata; poichè non ha potuto fare il colpo di condurre <persName>Renzo</persName>, caldo caldo, alle carceri, <hi rend="italic">come alla locanda più sicura della città,</hi> almeno vuole “acchiapparlo poi, a notte affatto quieta, il giorno dopo.” <bibl>(cap. XV).</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n35" type="comm" target="quarantana/cap14.xml#c14_12515" targetEnd="quarantana/cap14.xml#c14_12525"><ref rend="bold">sian di bucato... ma avvezzo alla pulizia</ref>:<hi rend="bold"> Son povero figliuolo....</hi> Dopo la parola <hi rend="italic">galantuomo,</hi> è la volta della parola o <hi rend="italic">povero</hi> o <hi rend="italic">buon figliuolo.</hi> Più giù <persName>Renzo</persName> dirà: “A un figliuolo par mio...!”, “mettere in carta un povero figliuolo?”, “gli osti dovrebbero tenere dalla parte de’ buoni figliuoli:”, ecc. E poi non manca neanche il <hi rend="italic">buon cuore.</hi> “Il mio buon cuore l'ho fatto vedere.” (1. 419-20). Tanto è galantuomo e buon figliuolo <persName>Renzo,</persName> che ne è persuaso perfino la stessa guida che, parlando con l'oste, dice di esso che è un “bravo giovine “, e parlando con se stesso, lo giudica “un reo buon uomo” <bibl>(cap. XV,1. 1843-84)</bibl>, proprio quel che ci voleva per il suo mestiere di bargello. <persName>Renzo</persName> è il <hi rend="italic">bravo giovine</hi> che fa al caso. E se ne accorge lo stesso oste, che gli dà difatti del <hi rend="italic">pezzo d'asino</hi> (1. 1835-36). <hi rend="italic">Bravo giovine, galantuomo, povero figliuolo,</hi> nel linguaggio dei furbi, è sempre sinonimo di <hi rend="italic">pezzo d'asino.</hi> Ma questo che noi riassumiamo in una nota epigrammatica, il <bibl>
+                <author>M., </author></bibl>con molta finezza, lo dissemina qua e là nelle sue pagine, non avendo mai l’aria di accorgersi di niente. Sono le parole che si rincorrono fra loro, e l’una traduce l’altra.</note>
+                <note xml:id="Russo_cap14-n36" type="comm" target="quarantana/cap14.xml#c14_12647" targetEnd="quarantana/cap14.xml#c14_12658"><ref rend="bold">Io fo il mio dovere... in viso alla guida</ref>: :<hi rend="bold">Guardando in viso alla guida.</hi> Quando l'oste fa il suo dovere, guarda sempre in viso la sua guida. Questo significa, mettiamo le cose a posto. La periodicità poi di quello sguardo muto dà una sfumatura sempre più epico-comica all’accortezza dell’oste. Cfr. la 1. 258, e la 1. 233 e la 1. 295; ma è tanta quell'accortezza, che finisce con l’apparire pericolosa e troppo scoperta al suo collaboratore. Cfr. la 1. 301.</note>
+                <note xml:id="Russo_cap14-n37" type="comm" target="quarantana/cap14.xml#c14_12671" targetEnd="quarantana/cap14.xml#c14_12682"><ref rend="bold">a alloggiar da noi... di che nazione sarà,</ref>:<hi rend="bold">Di che nazione sarà.</hi> Nazione nel significato di paese, ancora vicino al significato originario di <hi rend="italic">nascita.</hi>
+                </note>
+                <note xml:id="Russo_cap14-n38" type="comm" target="quarantana/cap14.xml#c14_12696" targetEnd="quarantana/cap14.xml#c14_12703"><ref rend="bold">in questa città... son parole della grida</ref>:<hi rend="bold">Son parole della grida.</hi> L’oste spinge il suo zelo, fino a dare una prova scolastica di memoria.</note>
+                <note xml:id="Russo_cap14-n39" type="comm" target="quarantana/cap14.xml#c14_11086" targetEnd="quarantana/cap14.xml#c14_12741"><ref rend="bold">"Ah ah!... dottor di legge;</ref>:<hi rend="bold">E io fo conto d'esser dottor di legge.</hi> “A saper ben maneggiare le gride, nessuno è reo, e nessuno è innocente” ha detto l’Azzeccagarbugli <bibl>(capitolo III)</bibl>, e <persName>Renzo</persName> ha imparato il latino.</note>
+                <note xml:id="Russo_cap14-n40" type="comm" target="quarantana/cap14.xml#c14_12774" targetEnd="quarantana/cap14.xml#c14_12784"><ref rend="bold">gran foglio,... e venne a spiegarlo</ref>:<hi rend="bold">Un proprio esemplare.</hi> Un esemplare originale.</note>
+                <note xml:id="Russo_cap14-n41" type="comm" target="quarantana/cap14.xml#c14_12811" targetEnd="quarantana/cap14.xml#c14_15391"><ref rend="bold">con un dito teso... in cima alle gride</ref>:<hi rend="bold">Ecco quel bel foglio.... con la corda al collo.</hi>
+                <persName>Renzo</persName> traduce nella sua elementare cultura chiesastica le immagini delle sue nuove esperienze: vuol alludere al dottore Azzeccagarbugli, e si ricorda dei <hi rend="italic">dottori scribi e farisei</hi> della spiegazione evangelica; contempla la grida, e la vede come un <hi rend="italic">bel foglio di messale;</hi> vede un <hi rend="italic">re moro incatenato per la gola,</hi> e gli dà dell’ariano, perchè tutti gli uomini di colore sono per lui eretici, e gli eretici sono tutti necessariamente ariani (seguaci d’Ario, + 336).</note>
+                <note xml:id="Russo_cap14-n42" type="comm" target="quarantana/cap14.xml#c14_12903" targetEnd="quarantana/cap14.xml#c14_12924"><ref rend="bold">compagno a questo... è contenta di sposarlo</ref>:<hi rend="bold"> Un giovine onesto.... una giovine onesta.</hi> Ancora una nuova confessione ingenua della sua onestà; e qui <persName>Renzo</persName> va anche oltre, mette la sua accanto all’onestà di <persName>Lucia.</persName> Non per nulla, il fiasco è già fesso. Nota poi come si accentua la trascrizione dei suoi fatti privati in tutti quei discorsi in generale. <persName>Don Rodrigo</persName>,<persName>Azzeccagarbugli,</persName> i bravi, <persName>Lucia,</persName> il padre <persName>Bonaventura,</persName> sono tutti evocati sulla scena.</note>
+                <note xml:id="Russo_cap14-n43" type="comm" target="quarantana/cap14.xml#c14_13225" targetEnd="quarantana/cap14.xml#c14_13249"><ref rend="bold">ho le spalle al muro... per consegnarlo al garzone</ref>:<hi rend="bold">La carta, la penna, il calamaio, la grida, e il fiasco voto.</hi> Nota la malizia di quella sequela disparata di oggetti: il <hi rend="italic">fiasco voto,</hi> per ultimo, che è il pezzo più solenne e più materialisticamente significativo.</note>
+                <note xml:id="Russo_cap14-n44" type="comm" target="quarantana/cap14.xml#c14_13250" targetEnd="quarantana/cap14.xml#c14_13258"><ref rend="bold">porta del medesimo... lo trovo galantuomo</ref>:<hi rend="bold">Lo trovo galantuomo.</hi> Finora <persName>Renzo</persName> soltanto ha bevuto, ora comincia ad abbozzare una implicita filosofia del bere. Tutte le altre storie sono imbrogli; e solo il vino è sincero. “Leva tutti quest’imbrogli, e porta in vece un altro fiasco.” Tutti gli altri sono furfanti, solo il vino è galantuomo. “Porta del medesimo,... che lo trovo galantuomo.” Ultima battuta: l'oste deve tener sempre dalla parte dei <hi rend="italic">poveri figliuoli,</hi> perché sono quelli che mandano avanti la bottega. “Guarda un po’ se quei signori delle gride vengono mai da te a bere un bicchierino.”</note>
+                <note xml:id="Russo_cap14-n45" type="comm" target="quarantana/cap14.xml#c14_13315" targetEnd="quarantana/cap14.xml#c14_13326"><ref rend="bold">istoriando di nuovo la cenere... e in che mani sei capitato!</ref>:<hi rend="bold">Istoriando di nuovo la cenere.</hi> Magnifico l’oste che rientra nei suoi panni. Recitata la sua parte, torna a interrogare l'oracolo della cenere, impassibile.</note>
+                <note xml:id="Russo_cap14-n46" type="comm" target="quarantana/cap14.xml#c14_13362" targetEnd="quarantana/cap14.xml#c14_13377"><ref rend="bold">Bravi amici!... e si sostengono</ref>:<hi rend="bold">I galantuomini si dànno la mano.</hi> Questa è la serata d’onore dei galantuomini.</note>
+                <note xml:id="Russo_cap14-n47" type="comm" target="quarantana/cap14.xml#c14_13405" targetEnd="quarantana/cap14.xml#c14_13413"><ref rend="bold">Voglian fare entrar per tutto carta, penna e calamaio!</ref>:<hi rend="bold"> Voglian fare entrar per tutto carta, penna e calamaio!</hi> Carta, penna e calamaio: questa l’idea fissa di <persName>Renzo,</persName> e fa il paio con quella del latino. <persName>Don Abbondio</persName> e <persName>Azzeccagarbugli</persName> sono stati gli iniziatori di <persName>Renzo</persName> a questi misteri del <hi rend="italic"> latinorum</hi> e della <hi rend="italic">carta, penna e calamaio</hi>, e d’allora egli ne ha come una sacra ossessione. Del resto, <hi rend="italic">il nero sul bianco,</hi> come la carta stampata, ha sempre una grande importanza per le persone del popolo: si ricordi <persName>Tonio</persName> davanti a <persName>don Abbondio.</persName> “Ora si contenti di mettere un po’ di nero sul bianco.” <bibl>(cap. VIII).</bibl> Su questa faccenda della <hi rend="italic">carta, penna e calamaio,</hi> sono imperniate due battute: la digressione maliziosa dello scrittore sulla manomissione che il volgo fa della parola <hi rend="italic">poeta,</hi> e l’episodietto del progetto di <persName>Ambrogio Fusella,</persName> “ch’era tutto fondato su carta, penna e calamaio.” La malizia spietata del <bibl>
+                <author>M.</author></bibl> è proprio nel far cascare <persName>Renzo</persName> in quella trappola, della quale più lui temeva e più si guardava. L'altra trappola è quella del latino, e anche in quella egli cade, sebbene con meno visibili conseguenze: la sua esagerata stima per <persName>Ferrer,</persName> in fondo, è dovuta un tantino anche a quel suo spagnuolo, che ai suoi orecchi incolti suona come latino. Protesterà <persName>Renzo </persName>contro quelle paroline in latino, <hi rend="italic">maledetto vizio;</hi> pure egli s' è scalmanato tanto per <persName>Ferrer,</persName> senza saperlo, anche per l’influsso magico di quel preteso latino, barbugliato con doppiezza psicologica dal nostro politicone.</note>
+                <note xml:id="Russo_cap14-n48" type="comm" target="quarantana/cap14.xml#c14_13524" targetEnd="quarantana/cap14.xml#c14_13624"><ref rend="bold">Per capire questa baggianata... con cervello balzano?</ref>:<hi rend="bold"> Per capire questa baggianata.... con cervello balzano?</hi> Come il <bibl>
+                <author>M.</author></bibl> ha giuocato sulla parola <hi rend="italic">galantuomo,</hi> e poi su quella di <hi rend="italic">onore</hi> e di <hi rend="italic">amicizia</hi>, così giuoca qui su quella di <hi rend="italic">poeta.</hi> Per la parola <hi rend="italic">amicizia</hi>, cfr. il cap. XI, 1. 131. Quanto all’onore, d’onore parlano fino i bravi di <persName>don Rodrigo,</persName> come quando avrebbero voluto spianar le costole a <persName>Renzo</persName>: “Sarebbe però un <hi rend="italic">bell’ onore,</hi> senza contar la mancia...” <bibl>(cap. VII);</bibl> e di <hi rend="italic">onore</hi> parla anche <persName>don Rodrigo</persName>: “Anche <persName>Attilio</persName> saprà consigliarmi: c’è impegnato <hi rend="italic">l’onore</hi> di tutto il <hi rend="italic">parentado</hi>”<bibl>(cap. XI).</bibl> E d’onore e di amicizia insieme si parlerà a proposito del conte <persName>Attilio,</persName> il quale prenderà nell’ affare “quella parte che richiedeva la sua <hi rend="italic">amicizia</hi> per il cugino e <hi rend="italic">l’onore</hi> del nome comune, secondo le idee che aveva di ‘amicizia e d’onore.” (ivi). Un altro travisamento di concetti e di espressioni è poi in questa parola <hi rend="italic">poeta,</hi> e qui pare ci sia una punta contro i romantici fratelli, contro quei poeti che col naso sempre all’aria, per dirla col <persName>Carducci,</persName> cercano angeli e rondòni. Il <bibl>
+                <author>M.</author></bibl> amò un classico equilibrio anche nella vita, e non ebbe molto cara la mitologia biografica dei romantici; e però volentieri qui arguteggia su <hi rend="italic">poeta</hi> come sinonimo di cervello balzano. Cfr. poi la n. 18 al cap. VIII, a proposito di Archimede.</note>
+                <note xml:id="Russo_cap14-n49" type="comm" target="quarantana/cap14.xml#c14_13786" targetEnd="quarantana/cap14.xml#c14_13797"><ref rend="bold">senza torcere un capello... di giustizia</ref>:<hi rend="bold">Tutto per via di giustizia.</hi> Un altro tratto dell’onestà e dell’equilibrio di <persName>Renzo,</persName> nonostante i fumi del vino. La bontà della sua natura e della sua educazione timorata viene fuori. Ma senti anche un po’ d’ironia per la fede illuministica del popolo nella giustizia. Questa della giustizia è uno dei motivi-ritornello di <persName>Renzo,</persName> e anche, in fondo, quando non connette più, conclude con un arbitrario <hi rend="italic">“Quando le ragioni son giuste...!”.</hi>
+                <bibl>Cfr. alla p. 282, la l 424.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n50" type="comm" target="quarantana/cap14.xml#c14_14100" targetEnd="quarantana/cap14.xml#c14_14136"><ref rend="bold">"Lorenzo Tramaglino... di raccogliere i nomi delle persone</ref>:<hi rend="bold"> “Lorenzo Tramaglino,”.... i nomi delle persone.</hi>
+                <bibl>Cfr. la n. 320</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n51" type="comm" target="quarantana/cap14.xml#c14_14293" targetEnd="quarantana/cap14.xml#c14_14299"><ref rend="bold">«Un altro gocciolino... non mi fate quest'affronto.»</ref>:<hi rend="bold"> “Un altro gocciolino: non mi fate quest’affronto.”</hi> Dopo che la vittima si è offerta in sacrifizio al furbo, è giusto che gli offra anche da bere.</note>
+                <note xml:id="Russo_cap14-n52" type="comm" target="quarantana/cap14.xml#c14_14366" targetEnd="quarantana/cap14.xml#c14_14388"><ref rend="bold">affare da comunicargli... in un certo modo particolare</ref>:<hi rend="bold"> Con una pronunzia lenta e solenne.</hi> Quella sua lentezza e solennità è come un vago, un oscuro presentimento di chi sa quale tiro giocatogli. “Alle volte, la gente ha dell'idee curiose.” Non c’è sospetto preciso di male, ma quello sparire brusco del compagno ha gettato una perplessità nell’ animo del nostro personaggio. La perplessità dell'animo, complicata dagli effetti epici del vino, dà in quella lentezza solenne.</note>
+                <note xml:id="Russo_cap14-n53" type="comm" target="quarantana/cap14.xml#c14_14390" targetEnd="quarantana/cap14.xml#c14_14395"><ref rend="bold">«ecco, l'avevo preparato per quel galantuomo</ref>:<hi rend="bold"> Ecco, l’avevo preparato per quel galantuomo.</hi> Tutti galantuomini in questa giornata. Galantuomo Ferrer, galantuomini i compagnoni dell’osteria, galantuomo il vino, galantuomo l'oste, e galantuomo anche il bargello.</note>
+                <note xml:id="Russo_cap14-n54" type="comm" target="quarantana/cap14.xml#c14_14479" targetEnd="quarantana/cap14.xml#c14_14498"><ref rend="bold">proseguire fedelmente... quasi dire al primo uomo</ref>:<hi rend="bold"> Di così poco onore a un personaggio tanto principale.</hi> Qualche critico <bibl>(lo ZAIOTTI)</bibl> trova che la scena dell’osteria avvilisce troppo <persName>Renzo</persName>, e avrebbe proposto che, ubbriacatura per ubbriacatura, sarebbe stato assai meglio che <persName>Renzo </persName>fosse ubbriacato dalla sua guida. Sottigliezza della casistica gesuitica e farisaismo moralistico, che ci fanno apprezzare di più la spregiudicatezza del <bibl>
+                <author>Manzoni.</author></bibl> Il quale accusa in peccato il suo personaggio, ma lo salva al tempo stesso, e, in ogni modo, mette argutamente in rilievo (con la sentenza dell'anonimo) gli effetti pedagogici che uno sproposito può avere su una natura bennata. Difatti, il giorno dopo, <persName>Renzo,</persName> arrivando a quella casuccia solitaria, da cui pendeva una frasca, “chiese” alla vecchia “un boccone; gli fu offerto un po’ di stracchino e del vin buono: accettò lo stracchino, del vino la ringraziò (gli era venuto in odio, per quello scherzo che gli aveva fatto la sera avanti).” Ma neanche in questo sentimento il <bibl>
+                <author> M.</author></bibl> esagera: un <persName>Renzo</persName> che diventa astemio per una ubbriacatura, sarebbe stato personaggio da essere citato in pulpito da un parroco di campagna. Difatti, poche miglia più in là, a <placeName>Gorgonzola,</placeName>
+                <persName>Renzo </persName>vide un'insegna, ed entrò “e all’oste, che gli venne incontro, chiese un boccone, e una mezzetta di vino”, e lo scrittore argutamente aggiunge: “le miglia di più, e il tempo gli avevan fatto passare quell’odio così estremo e fanatico.” Quanto poi alla <hi rend="italic">scola</hi> del peccato, di cui parla l'anonimo, il <bibl>
+                <author>M</author></bibl> ci tornerà all'ultimo capitolo, ma anche lì con molta finezza e discrezione; senza moralizzare lui intorno all'argomento, introduce lo stesso <persName>Renzo</persName> a far la sua filosofia sui trascorsi di gioventù. “Ho imparato” , diceva, “a non mettermi ne’ tumulti: ho imparato a non predicare in piazza: ho imparato a non alzar troppo il gomito....” Ciò che è un’indiretta giustificazione del peccato, la cui esperienza può essere feconda di bene: motivo fondamentale dell'etica cristiana. Ma motivo che può dar luogo a un sofisma (i nostri letterati cattolicizzanti ne sanno qualche cosa: sono tutti facili a peccare, per aver il gusto di pentirsi poi!), e <persName>Lucia</persName> fa da correggitrice soave a cotesto pericolo. “<persName>Lucia</persName> però, non che trovasse la dottrina falsa in sè, ma non n’era soddisfatta; <hi rend="italic">le pareva, così in confuso, che ci mancasse qualcosa.”</hi> — Del resto, il <bibl>
+                <author>M.</author></bibl> per alleggerire <persName>Renzo,</persName> gli fa, al <bibl>cap. XVII,</bibl> riconoscere la responsabilità dei propri guai. Ecco una delle cose che fanno onore al nostro personaggio. “Disse polle sue solite divozioni; e per di più, chiese perdono a <persName>Domeneddio</persName> di non averle dette la sera avanti; anzi, per dir le sue parole, d’essere andato a dormire come un cane, e peggio. — e per questo, — soggiunse poi tra sè;... — per questo, m’è toccata, la mattina, quella bella svegliata.” Dove è da notare ancora una volta la finezza etico-artistica del <bibl>
+                <author>Manzoni</author></bibl>: non per la prammatica formale delle divozioni non dette, <persName>Renzo</persName> ha avuto quella bella svegliata (ciò che sarebbe stato assai mediocre), ma, a dirla con le sue parole, per essere andato a <hi rend="italic">dormire come un cane e peggio,</hi> cioè per essersi lasciato andare a tutta quella esaltazione e ubbriacatura, che gli ha impedito anche il raccoglimento della preghiera.</note>
+                <note xml:id="Russo_cap14-n55" type="comm" target="quarantana/cap14.xml#c14_14803" targetEnd="quarantana/cap14.xml#c14_14826"><ref rend="bold">in tante cose,... in una tale circostanza</ref>:<hi rend="bold"> Ricorreva a quel benedetto fiasco.</hi>
+                <bibl>Cfr. la n. 228-29.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n56" type="comm" target="quarantana/cap14.xml#c14_14872" targetEnd="quarantana/cap14.xml#c14_14879"><ref rend="bold">«Ah oste, oste!»... con l'occhio intorno</ref>:<hi rend="bold"> “Ah oste, oste!”</hi> In questo discorso all’oste, ci sono ricapitolati tutti i motivi della conversazione della serata, in un vacillìo di luci e di ombre che li rende a nuovo. La ricapitolazione non vale per sè, ma per questo tentativo protervo di sintesi, una sintesi che sale come dal fondo della coscienza del parlatore: il tiro del <hi rend="italic">nome, cognome e negozio, un figliuolo par mio, mettere incarta un povero figliolo,</hi> i buoni figliuoli che mandano <hi rend="italic">avanti la bottega, le ragioni le dico giuste, i signori delle gride,</hi> ecc. ecc. Sono tutti motivi conosciuti; ma, nel loro nuovo accozzo, suggellano bene gli sproloqui di <persName>Renzo.</persName>
+                </note>
+                <note xml:id="Russo_cap14-n57" type="comm" target="quarantana/cap14.xml#c14_15084" targetEnd="quarantana/cap14.xml#c14_15177"><ref rend="bold">Sto zitto... ce n'è pochi de galantuomini</ref>:<hi rend="bold">Ferrer e il padre Crrr....</hi>
+                <bibl>Cfr. la nota 241, al cap. XIII.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n58" type="comm" target="quarantana/cap14.xml#c14_15130" targetEnd="quarantana/cap14.xml#c14_15135"><ref rend="bold">Barbarie, da lasciarle fare al boia</ref>:<hi rend="bold"> Barbarie, da lasciarle fare al boia.</hi> Un altro motivo che fa onore a <persName>Renzo,</persName> e che è come il ritornello della sua onestà. “Vogliam noi rubare il mestiere al boia? Assassinare un cristiano?” aveva detto nel tumulto. E poi ripeterà, qui all’osteria: “Senza torcere un capello a nessuno, però; tutto per via di giustizia.” E prima di venire all’osteria, aveva ribadito il suo legalismo: “Formare un buon processo addosso a tutti quelli che hanno commesso di quelle bricconerie.”</note>
+                <note xml:id="Russo_cap14-n59" type="comm" target="quarantana/cap14.xml#c14_15153" targetEnd="quarantana/cap14.xml#c14_15172"><ref rend="bold">Eppure, anche Ferrer... ah, ecco le parole giuste!</ref>:<hi rend="bold">Siès baraòs trapolorum.</hi> Annota il <bibl>PETROCCHI:</bibl> “Latino-spagnuolo foggiato da <persName>Renzo,</persName> ossia di quel briccone dell'autore. La radice di queste parole fin dove si può trovare è: <hi rend="italic">siès, siete; baraòs </hi>(da barare), <hi rend="italic">barattieri; trapolorum </hi>(da trappola), trappoloni.” Anche qui, il <hi rend="italic">Pape Satan, pape Satan aleppe,</hi> delizia e tormento dei dantisti. La frase è semplicemente un’eco molto confusa dello spagnuolo di <persName>Ferrer </persName>in una mente incolta e offuscata, ma con un principio vago di parodia.<hi rend="italic"> Trapolorum,</hi> in analogia a <hi rend="italic">latinorum,</hi> esprime la diffidenza di <persName>Renzo</persName> per quel benedetto latino di <persName>Ferrer</persName>
+                <hi rend="italic">(maledetto vizio!)</hi>, messo lì, come al solito, per far perdere il filo, per confondere la testa ai poveri figliuoli. <hi rend="italic">Trapolorum,</hi> come chi dicesse, tutte trappole.</note>
+                <note xml:id="Russo_cap14-n60" type="comm" target="quarantana/cap14.xml#c14_15244" targetEnd="quarantana/cap14.xml#c14_15254"><ref rend="bold">così sguaiato... avesse potuto vederlo</ref>:<hi rend="bold"> Chi n’era l'oggetto.</hi> “Chi è quest'oggetto?” chiede il <persName>Tommasèo,</persName> e il <persName>RIGUTINI</persName> risponde: <persName>“Don Rodrigo,</persName> sì capisce.” Veramente non si capisce affatto come si possa pensare a <persName>don Rodrigo.</persName> Sarebbe superfluo annotare che si tratta di <persName>Lucia</persName>: quel <hi rend="italic">gran sospiro, e quegli occhi inumiditi e lustri, e l’accoramento,</hi> dicon chiaro della sentimentalità di <persName>Renzo.</persName> E il suo atteggiamento fila con le ultime parole del suo sconclusionato ma pur coerente discorso: “tenerlo lì quel signor curato....”. Ricorda il tentativo del matrimonio per sorpresa, e però è fatale il trapasso al ricordo pensoso e svenevole di <persName>Lucia.</persName> E <persName>don Rodrigo </persName>davvero sarebbe afflitto, se avesse sorpreso <persName>Renzo,</persName> il suo rivale, in quell’ atteggiamento così compunto e sguaiato?</note>
+                <note xml:id="Russo_cap14-n61" type="comm" target="quarantana/cap14.xml#c14_15273" targetEnd="quarantana/cap14.xml#c14_15285"><ref rend="bold">tanto più se ne presero... i più vicini dicevano</ref>:<hi rend="bold">Dalla sua aria compunta.</hi> Nota la felicità degli epiteti in quest’ultimo paragrafo: gli occhi <hi rend="italic">inumiditi e lustri,</hi> l'accoramento <hi rend="italic">così svenevole, così sguaiato,</hi> l’eloquenza <hi rend="italic">appassionata e imbrogliata,</hi> e qui l’aria <hi rend="italic">compunta.</hi> Sono epiteti in cui l’efficacia rappresentativa è anche interpretazione critica e definizione di stati d’animo.</note>
+                <note xml:id="Russo_cap14-n62" type="comm" target="quarantana/cap14.xml#c14_15399" targetEnd="quarantana/cap14.xml#c14_None"><ref rend="bold">un'attenzione istintiva... dimodochè</ref>:<hi rend="bold">Scansare i nomi delle persone.</hi> Non solo il nome di quel <hi rend="italic">cane assassino di don...</hi> ma anche quello del <hi rend="italic">padre Crr.</hi>
+                <bibl>Cfr. la n. 194-195.</bibl>
+                </note>
+                <note xml:id="Russo_cap14-n63" type="comm" target="quarantana/cap14.xml#c14_15419" targetEnd="quarantana/cap14.xml#c14_15453"><ref rend="bold">non fu proferito... lingue sciagurate</ref>:<hi rend="bold"> Chè troppo ci dispiacerebbe.... lingue sciagurate.</hi> Congedo conversevole e affettuoso da una scena di un assai estremo realismo. Maniera consueta del <bibl>
+                <author>M.,</author></bibl> per richiamare al tono medio la scena, quando è discesa al comico e al ditirambico o è salita al sublime.</note>
+            </div>
+</body>
+</text>
+</TEI>

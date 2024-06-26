@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giovanni Getto (1964)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Giovanni Getto</title>
+          <editor>Getto, Giovanni</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1964</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Getto_intro">
+        <note xml:id="Getto_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia</ref>:  I concetti espressi in questa pagina, in cui il Manzoni abilmente imita lo stile secentistico, si possono così riassumere: «La storia, in lotta contro il tempo distruggitore, richiama in vita il passato. Ma gli storici si limitano a narrare le imprese dei grandi personaggi. A me non è concessa la capacità di toccare argomenti così alti e pertanto racconterò fatti toccati a povera gente. In questa storia si assisterà a tragiche vicende e ad una alterna lotta fra il bene e il male, fra angeliche virtù e operazioni diaboliche. E davvero si deve pensare ad un intervento diabolico, poiché gli uomini soli non avrebbero potuto far tanto male sotto il felice reggimento del re cattolico e del governatore di Milano e di senatori e magistrati che vanno tutti adoprandosi con mille occhi e mille braccia per i pubblici uffici. Per rispetto di questi personaggi tacerò i loro nomi e luoghi. Questo non impedirà che nella sostanza la storia sia completa, dato che i nomi sono puri accidenti».</note>
+        <note xml:id="Getto_intro-n2" type="comm" target="quarantana/intro.xml#intro_10051" targetEnd="quarantana/intro.xml#intro_10056"><ref rend="bold">rapiscono... spoglie</ref>:  Rapiscono solo le spoglie (ovvero: le sole spoglie).</note>
+        <note xml:id="Getto_intro-n3" type="comm" target="quarantana/intro.xml#intro_10117" targetEnd="quarantana/intro.xml#intro_10118"><ref rend="bold">bellici Oricalchi</ref>:  Trombe di guerra.</note>
+        <note xml:id="Getto_intro-n4" type="comm" target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">gente meccaniche</ref>:  Plebei, appartenenti alla classe che lavora.</note>
+        <note xml:id="Getto_intro-n5" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  Schiettamente e genuinamente (forma caratteristica dello stile del Seicento).</note>
+        <note xml:id="Getto_intro-n6" type="comm" target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  È parola spagnola e significa: protezione.</note>
+        <note xml:id="Getto_intro-n7" type="comm" target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">con rendersi... Parche</ref>:  Per aver pagato il loro tributo alle Parche (cioè: per essere morte).</note>
+        <note xml:id="Getto_intro-n8" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  Stinto e sgorbiato.</note>
+        <note xml:id="Getto_intro-n9" type="comm" target="quarantana/intro.xml#intro_10514" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">concettini e di figure</ref>:  Pensieri lambiccati e figure retoriche.</note>
+        <note xml:id="Getto_intro-n10" type="comm" target="quarantana/intro.xml#intro_10538"><ref rend="bold">virtù</ref>:  Abilità.</note>
+        <note xml:id="Getto_intro-n11" type="comm" target="quarantana/intro.xml#intro_10567"><ref rend="bold">Idiotismi</ref>:  Parole e frasi dialettali.</note>
+        <note xml:id="Getto_intro-n12" type="comm" target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  Sgrammaticature.</note>
+        <note xml:id="Getto_intro-n13" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  In Lombardia.</note>
+        <note xml:id="Getto_intro-n14" type="comm" target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  Eventuali.</note>
+        <note xml:id="Getto_intro-n15" type="comm" target="quarantana/intro.xml#intro_11103" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">le mutano</ref>:  Le pongono nei loro termini corretti, mutandole dunque per necessità logica.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,130 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-   <!-- Head-->
-   <%- include ("partials/head"); %>
-    <body id="page-top"  class="normalFont">
+<!-- Head-->
+<%- include ("partials/head"); %>
+
+    <body id="page-top" class="normalFont">
         <!-- Navigation-->
-        <%- include ("partials/navbar"); %> 
-        <!-- Masthead-->
-        <header class="masthead">
-            <section class="page-section bg-primary" id="credits">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="testo">
-                        <h2 class="text-center mt-0">Credits</h2>
-                        <hr class="divider"></hr>
-                        <p>
-                        <b>Responsabili scientifici</b><br>
-                        <a class="creditsLink"    href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia</a>, <a class="creditsLink"    href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca Tomasi</a> 
-                    </p>
-                    <p>
-                        <b>Progettazione </b><br>
-                        <a class="creditsLink"    href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia</a>, <a class="creditsLink"    href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/" target="_blank">Beatrice Nava</a>, <a class="creditsLink"    href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia Russo</a> 
-                    </p> 
-                    <p>  
-                    <b>Sviluppo applicazione web</b><br>
-                    <a class="creditsLink"    href="https://www.linkedin.com/in/maria-levchenko-39953284/" target="_blank">Mariia Levchenko</a>, <a class="creditsLink"    href="https://www.linkedin.com/in/giulia-menna-340606233/" target="_blank">Giulia Menna</a>, con la collaborazione di <a class="creditsLink"    href="https://www.unibo.it/sitoweb/martina.dellobuono2" target="_blank">Martina Dello Buono</a>
-                    </p> 
-                    <p>
-                    <b>Sviluppo modello di codifica XML e marcatura</b><br>
-                    <a class="creditsLink"    href="https://www.linkedin.com/in/maria-levchenko-39953284/" target="_blank">Mariia Levchenko</a>,  <a class="creditsLink"    href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/" target="_blank">Beatrice Nava</a>, <a class="creditsLink"    href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia Russo</a>
-                    </p> 
-                    <p>
-                        <b>Correzione txt e collaborazione alla marcatura</b><br>
-                        Alice Caputa, Isabella Greco, Ludovica Grillini, Lorenzo Laconi, Matilde Lallbahadoor, Chiara Leali, Guido Manfredini, Beatrice Nava, Alessia Panebianco, Stefania Paolino, Filippo Pelacci, Jacopo Pesaresi, Arianna Roffi, Rachele Rossi, Ersilia Russo, Isabel Zamboni
-                    </p>     
-                    <p><b id="scuole">Scuole coinvolte in “Adotta un commento ai <i>Promessi Sposi</i>"</b><br>
-                        IIS Bachelet (Lecco), Liceo Carlo Alberto (Novara), ISS A. Checchi (Firenze), IIS Ugo Foscolo (Agrigento), Liceo Gonzaga (Mantova), Liceo Sant’Alberto Magno (Bologna), Liceo Ettore Majorana (Catania), Liceo Angelo Messedaglia (Verona), Liceo Minghetti (Bologna), Liceo G. Palmieri (Lecce), ISS Domenico Romanazzi (Bari), Liceo Bertrand Russell (Roma), Liceo Sabin (Bologna), Liceo Socrate (Roma),  Liceo Torquato Tasso (Roma), Liceo Giulio Cesare Valgimigli (Rimini),  Liceo Vida (Cremona), Liceo Villari (Napoli), Liceo Wiligelmo (Modena)
+        <%- include ("partials/navbar"); %>
+            <!-- Masthead-->
+            <header class="masthead">
+                <section class="page-section bg-primary" id="credits">
+                    <div class="container px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="testo">
+                                <h2 class="text-center mt-0">Credits</h2>
+                                <hr class="divider">
+                                </hr>
+                                <p>
+                                    <b>Responsabili scientifici</b><br>
+                                    <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
+                                        target="_blank">Paola Italia</a>, <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca
+                                        Tomasi</a>
+                                </p>
+                                <p>
+                                    <b>Progettazione </b><br>
+                                    <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
+                                        target="_blank">Paola Italia</a>, <a class="creditsLink"
+                                        href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
+                                        target="_blank">Beatrice Nava</a>, <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia
+                                        Russo</a>
+                                </p>
+                                <p>
+                                    <b>Sviluppo applicazione web</b><br>
+                                    <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
+                                        target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
+                                        href="https://www.linkedin.com/in/giulia-menna-340606233/"
+                                        target="_blank">Giulia Menna</a>, con la collaborazione di <a
+                                        class="creditsLink" href="https://www.unibo.it/sitoweb/martina.dellobuono2"
+                                        target="_blank">Martina Dello Buono</a>
+                                </p>
+                                <p>
+                                    <b>Sviluppo modello di codifica XML e marcatura</b><br>
+                                    <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
+                                        target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
+                                        href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
+                                        target="_blank">Beatrice Nava</a>, <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia
+                                        Russo</a>
+                                </p>
+                                <p>
+                                    <b>Correzione txt e collaborazione alla marcatura</b><br>
+                                    Alice Caputa, Isabella Greco, Ludovica Grillini, Lorenzo Laconi, Matilde
+                                    Lallbahadoor, Chiara Leali, Guido Manfredini, Beatrice Nava, Alessia Panebianco,
+                                    Stefania Paolino, Filippo Pelacci, Jacopo Pesaresi, Arianna Roffi, Rachele Rossi,
+                                    Ersilia Russo, Isabel Zamboni
+                                </p>
+                                <p><b id="scuole">Scuole coinvolte in “Adotta un commento ai <i>Promessi
+                                            Sposi</i>"</b><br>
+                                    IIS Bachelet (Lecco), Liceo Carlo Alberto (Novara), ISS A. Checchi (Firenze), IIS
+                                    Ugo Foscolo (Agrigento), Liceo Gonzaga (Mantova), Liceo Sant’Alberto Magno
+                                    (Bologna), Liceo Ettore Majorana (Catania), Liceo Angelo Messedaglia (Verona), Liceo
+                                    Minghetti (Bologna), Liceo G. Palmieri (Lecce), ISS Domenico Romanazzi (Bari), Liceo
+                                    Bertrand Russell (Roma), Liceo Sabin (Bologna), Liceo Socrate (Roma), Liceo Torquato
+                                    Tasso (Roma), Liceo Giulio Cesare Valgimigli (Rimini), Liceo Vida (Cremona), Liceo
+                                    Villari (Napoli), Liceo Wiligelmo (Modena)
 
-                    </p>
-                    <p><b id="insegnanti">Docenti referenti per le scuole</b><br>
-                        Ottavio Baldi, Marco Baroni, Maria Belfiore, Emanuela Brescia, Antonia Lo Brutto, Rafaela Lo Brutto, Giovanna Colone, Carla Carafa, Fabio De Propris, Nella Frediani,  Carlotta Frenquellucci, Maria Rita Giansanti, Paolo Grazioli, Fiorina Izzo, Francesca Magelli, Annamaria Masciullo, Federica Mingozzi, Claudia Mizzotti, Lucia Olini, Loredana Palma, Filomena Maria Paolicelli, Rosa Petralia, Valeria Picazzi, Rossella Pogliaghi, Cristina Remelli, Maria Teresa Rizzo, Benedetto Sbaraglia, Caterina Scrimali, Grazia Silvestri, Rita Sepe, Marianna Villa, Domenica Virgilio, Paola Zanini
-                    </p>
-                    <p class="studentList"><b>Studenti di scuola secondaria di II grado coinvolti in “Adotta un commento ai <i>Promessi Sposi</i>”</b><br>
-                             
-                     Simona Maria Abate, Beatrice Abbafati, Daniele Abbate, Giulia Abbrescia, Anna Gaia Acito, Stefano Albini, Matilda Alippi, Gaia Amati, Clivia Pia Amato, Valerio Amizzoni, Ylenia Anastasi, Federico Angeloni, Fabrizio Aniello, Elisa Aponte, Claudia Arena, Greta Ariolfo, Filippo Armenio, Leonardo Armocida, Francesco Attanasio, Francesca Attolico, Sofia Aureli, Alessio Avellino, Luca Averna, Luigi Maria Azzoni, Alessandro Bagnoli, Letizia Ballarin, Chiara Ballirano, Luca Ballone, Francesca Barani, Luca Barbangelo, Matteo Barbieri, Flavia Bardelloni, Marco Baroni, Samuele Baronti, Francesca Bassi, Alice Beddini, Steffy Rinzel Bejasa, Maria Belfiore, Lucilla Belletti, Federica Anna Rita Bellomo, Federico Benatti, Martina Benciolini, Simone Bendazzoli, Leila Benevento, Carolina Benfenati, Sofia Bernardini, Enu Bertolani, Clara Bertoletti, Leonardo Bertone, Gabriele Bettarini, Elena Biagi, Salvatore Biagione, Edoardo Bigazzi, Tommaso Blasutta, Luca Boccù, Sabrina Bocedi, Sara Boco, Benedetta Bonaccorso, Niccolò Bonino, Giorgia Borghesi, Riccardo Borgiani, Lorenzo Bosco, Martina Bottani, Federico Brambilla, Martina Brunelli, Andrea Bruno, Gaia Bruschi, Ilaria Bucci, Elisa Sofia Buffa, Marta Bugarini, Emanuele Buoni, Giovanni Buscemi, Davide Campeti, Camilla Campigli, Giulia Campoli, Valeria Canni, Martina Cannizzaro, Lucio Ennio Caprioli, Carla Carafa, Anna Carbonelli, Daniele Carpentieri, Leonardo Carugi, Abigaille Caruso, Martina Casadei, Gabriele Castellano, Alessandro Castorina, Giuseppe Castorina, Vittoria Catinella, Giuseppe Cavaliere, Maria Cavallaro, Asia Cavallaro, Gabriele Alfio Cavallaro, Cristina Cazzato, Giorgia Ceccarini, Lorenzo Maria Celano, Simone Cerami, Lorenzo Cerioli, Michele Cerofolini, Valentina Cerri, Claudia Cesarano, Vittorio Cioni, Kleide Ciotta, Ginevra Ciuffreda, Sofia Cocciolo, Martina Cogliati, Celeste Collevecchio, Giovanna Colone, Christian Colucci, Costanza Comella, Valeria Maria Laura Compagnini, Clara Comparato, Pietro Cornia, Fiorenza Corrieri, Roberto Pio Cortese, Martina Costarella, Claudia Cucurachi, Eleonora D Angelo, Francesca D'Antimi, Lucia Damiani, Martina De Canale, Giuseppe De Luca, Simone De Nicolò, Linda De Petris, Giorgia De Santis, Davide De Simone, Giulia De Simone, Sofia De Vitis, Serena Dell'Anna, Cristian Francesco Depalo, Kevin Daniele Attilio Di Bilio, Gabriele Di Dio, Beatrice Di Gesù, Elena Di Gravio, Matteo Di Staso, Denise Dispenza, Anna Donati, Melica Esmaili, Francesco Esposito, Roberta Esposto, Valentina Fabbri, Chiara Fabbri, Valentina Fabbri, Luigi Facenti, Giulia Fadda, Giulio Falorni, Gaetano Falsone, Miriam Farrugio, Aurora Farrugio, Camilla Ferì, Matteo Ferlisi, Giulia Ferrario, Sara Lucia Ferrigno, Irene Formica, Gioia Fornasari, Silvia Franchi, Giacomo Franci, Alessia Maria Frangiamone, Luigi Frangiamone, Martina Frattali, Nella Frediani, Carolina Freschi, Francesca Frisenda, Rosemary Frisina, Tommaso Gallerini Pulga, Francesco Gamba, Filippo Gambini, Giada Gambino, Vera Garattoni, Adriana Garlisi, Maria Ilaria Gattei, Tommaso Geronimo, Leonardo Giampaia, Alice Giampieretti, Maria Giardina, Federica Giardina, Alessandro Gibellini, Simone Gigli, Gabriella Gigliano, Leonardo Giordani, Irene Giordano, Chiara Giordano, Alice Giordano, Daniele Giorgi, Antonino Giuppa, Samuele Giussani, Rosleydi Gonzalez, Francesca Gostoli, Giulia Grana, Pietro Grasselli, Marta Grattagliano, Leonardo Gravagnola, Valentina Graziani, Lucia Greco, Elisa Greco, Lucia Grenzi, Ludovica Grillini, Gaia Letizia Grippaldi, Michele Guardì, Ludovica Guarino, Cecilia Guarino, Nico Guidi, Nicolò Gulizia, Giulia Gullotta, Daniele Gullotta, Laura Denisa Iacob, Davide Iannello, Viola Iattarelli, Alberto Iossa, Fiorina Izzo, Gurpreet Kaur, Francesca Kiptiu, Alessandro Kottas, Liza Kumar, Giovanni Pietro Maria La Greca, Diego La Monaca, Savio Gioacchino La Vecchia, Lorenzo Laconi, Matilde Lallbahadoor, Carlotta Lana, Filippo Lanzoni, Giulia Laurenti, Maria Grazia Legrottaglie, Francesco Lentini, Maria Chiara Leonardi, Anna Fara Leone, Elvira Lika, Michela Liuzzi, Raffaela Lo Brutto, Giuseppe Carmelo Lo Faro, Giovanni Marco Lo Verde, Pietro Locci, Paola Lombardo, Alessandra Lonardelli, Ylenia Lonero, Matilde Lonigro, Gabriele Lops, Tommaso Losi, Francesco Losurdo, Leonardo Lucarelli, Leonardo Lucarelli, Alessio Lucchesi, Ludovica Luminelli, Vittorio Maceo, Gaia Maceroni, Aurora Macrì, Francesca Magelli, Iris Mainetti, Letizia Malossi, Lucrezia Manca, Marco Mancini, Annanives Manco, Flavia Mancuso, Guido Manfredini, Mia Mangano, Anja Mannella, Riccardo Manzini, Bianca Marchi, Samuele Maria Marcì, Alessia Marianelli, Gianni Mariniello, Ludovica Marsiglio, Giorgia Martellotta, Laura Martin, Annamaria Masciullo, Virginia Masiello, Filippo Masotti, Elisa Mastrorilli, Elena Mazzetti, Beatrice Melandri, Cristina Mele, Elena Melotto, Vincenzo Merulla, Laura Mesiti, Fabio Messina, Maria Adoralise Michetti, Federica Mingozzi, Maria Grazia Mistretta, Claudia Mizzotti, Elisa Monari, Bruno Tommaso Montanaro, Marco Montemaggi, Filippo Moretti, Michela Moretti, Andrea Moroni, Michele Morri, Michela Mungiguerra, Edoardo Murciano, Girolamo Napoli, Angelica Napoli, Simone Nardelli, Cristiana Negro, Catherine Ngom, Giulio Nicola, Morena Nicolosi, Chiara Nicosia, Rossella Nicosia, Serenella Nigro, Giuliana Anna Noce, Giorgia Novati, Iacopo Nunziato, Lucia Olini, Mattia Olivieri, Alice Olivieri, Nicolò Paci, Edoardo Pagano, Rossella Maria Palermo, Loredana Palma, Filippo Palmieri, Giulia Pantanelli, Edoardo Panza, Sara Panzanaro, Maria Paparella, Roberto Salvatore Pappalardo, Mattia Paratore, Chiara Pari, Federica Vanda Paris, Aurora Parlato, Jacopo Pasqualini, Maria Vittoria Pasquini, Marta Pasquini, Sofia Passini, Francesco Pastorelli, Dalila Stefania Patermo, Caterina Pavesi, Giulia Peduto, Giulio Pellizzoni, Giacomo Perli, Asia Pesaresi, Flor Del Mar Libera Pescetti Favale, Bianca Pettorano, Sofia Piastra, Mattia Piazza, Davide Piazza, Valeria Picazzi, Gaia Piccolo, Tommaso Pieretti, Edoardo Pinzani, Sofia Piovani, Alice Piroli, Marta Pisanu, Giuliafrancesca Piscopiello, Carlo Andrea Poggi, Rossella Pogliaghi, Gaia Pojaghi, Salvo Polizzi Salamone, Chiara Porciani, Sofia Porta, Filippo Porzio, Giulia Pozzi, Giulia Principi, Ettore Privitera, Leonardo Johannes Pugiotto, Martina Puglisi, Nele Quarantelli, Greta Quarta, Alice Quattrone, Gabriella Meggie Rago, Giada Raimondi, Heron Joseph Ramos, Beatrice Rausa, Lisa Ravegnini, Rosario Ravo, Elena Ricci, Maria Ricci, Sebastian Ricciato, Niccolò Righi Riva, Alice Rinaldi, Aurora Ritirossi, Maddalena Rizzi, Viola Rizzoli, Arianna Roffi, Andeira Antonia Romanello, Lorenzo Romeo, Elena Rossi, Rachele Rossi, Francesco Ruffetta, Alessia Russo, Mattia Russo, Giulia Saccone, Eugenio Sallustio, Massimo Sammarco, Lara Sanfilippo, Aurora Sangalli, Chiara Sani, Laura Sansone, Sofia Santapaola, Asia Santi, Matteeo Sapienza, Sofia Sapigni, Carlo Alberto Sappa, Valeria Maddalena Savarese, Damiano Scaletta, Giorgia Scardino, Alessandra Scarpa, Davide Sciacca, Giada Arianna Scialpi, Alessia Scigliano, Filomena Scirocco, Alessia Scorrano, Stefania Scuderi, Lucrezia Sebastiani, Erika Selva, Emma Semprebon, Rita Sepe, Francesca Serpe, Matteo Sestini, Jihan Sidki, Francesco Silvestri, Lidia Simeoli, Sara Smeriglio, Andrea Spedone, Sara Spigarelli, Ines Spreafico, Emma Squadrani, Eleonora Stabile, Arianna Stanco, Ludovica Stasi, Karen Succi, Alessia Suppressa, Annachiara Suppressa, Monica Suraci, Anna Taddei, Alex Tamagnini, Dalì Maria Tamburella, Delia Tamma, Giulia Tampieri, Elisa Tantari, Chiara Tartaglia, Alessia Tassinari, Giulia Tedeschi, Sofia Terranova, Veronica Testa, Simone Tiseo, Gian Marco Tognetti, Manuela Tomasello, Luigi Tommasi, Alessia Toneatti, Alice Tonti, Elena Torre, Samoa Torrisi, Alba Torti, Alberto Tranchina, Lorenzo Traù, Davide Luigi Trioni, Francesco Trotta, Denise Truffarelli, Chiara Tuorto, Alice Ugolini, Mauro Urso, Francesco Vacca, Beatrice Valagussa, Manuela Valcarenghi, Emanuele Valore, Elisabetta Varriale, Francesco Lorenzo Vasta, Deborah Vella, Rossana Pia Vella, Margherita Venturi, Stella Vergani, Marco Veronesi, Alessandro Vesentini, Elena Vicinanza, Flavia Maria Matilde Viglianti, Marianna Villa, Domenica Giuseppina Virgilio, Francesco Volpi, Sofiena Xia, Elisa Zaccarelli, Filippo Zangari, Paola Zanini, Alessio Zanoboni, Stella Zanotti, Beatrice Zavalloni, Alberto Zerbini, Valentina Zezza, Elenia José Zizi, Nicole Zoppi.              
-                    </p>
-                    
-                    <p><b>Ringraziamenti</b><br>
-                        Si ringraziano tutte le studentesse e gli studenti che hanno collaborato alla realizzazione del progetto e <a class="creditsLink" href="https://www.italianisti.it/" target="_blank">l’Associazione degli Italianisti - Sezione Didattica (ADI-SD)</a>, che ha contribuito alla diffusione dei progetti PCTO “Adotta un commento ai <i>Promessi sposi</i>”. <br>Si ringrazia inoltre Martina Dello Buono per la collaborazione nella progettazione e nello sviluppo dell’applicazione e dell’interfaccia web.
-                    </p>
-                    <p><b>Sezione Vedo Manzoni</b><br>
-                        Coordinamento scientifico: <a class="creditsLink"    href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia</a><br>
-                        Coordinamento tecnico:  <a class="creditsLink" href="https://www.unibo.it/sitoweb/paolo.bonora" target="_blank"> Paolo Bonora</a>, <a class="creditsLink" href="https://www.unibo.it/sitoweb/enrica.iemmi2" target="_blank">Enrica Iemmi </a>, <a class="creditsLink" href="https://www.unibo.it/sitoweb/marco.serra" target="_blank">Marco Serra</a>, Tommaso Vitale e il <a class="creditsLink" href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab </a> 
-                        <br>Sviluppo: <a class="creditsLink" href="https://www.unibo.it/sitoweb/sara.obbiso2" target="_blank">Sara Obbiso</a>, <a class="creditsLink" href="https://www.linkedin.com/in/matilde-passafaro-2b7271291/" target="_blank">Matilde Passafaro  </a>
-                    <br>Si ringraziano: il direttore del <a class="creditsLink" href="https://ficlit.unibo.it/it" target="_blank">Dipartimento di Filologia Classica e Italianistica</a> <a class="creditsLink" href="https://www.unibo.it/sitoweb/nicola.grandi" target="_blank">Nicola Grandi</a>, la responsabile scientifica del centro<a class="creditsLink" href="https://ficlit.unibo.it/it/ricerca/centri-di-ricerca/dharc" target="_blank"> DH.arc</a> <a class="creditsLink" href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca Tomasi</a>, la responsabile scientifica del <a class="creditsLink" href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab</a> <a class="creditsLink" href="https://www.unibo.it/sitoweb/maddalena.modesti3" target="_blank"> Maddalena Modesti</a>. 
-                    </p>
-                    <p><b>Stringa citazionale corrente </b><br>
-                        Leggo Manzoni, a cura del DH.arc, versione 1.0, 2023.
-                    </p>
-                    <p><b>Licenza</b><br>
-                        Leggo Manzoni® is licensed under a <a class="creditsLink" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
-                    </p>
-                    <p><b>Commenti pubblicati</b>
-                        <ol>
-                            <li> Angelini (1962), <a class="creditsLink" href="http://www.utet.it/" target="_blank">UTET</a></li>
-                            <li>  Badini Confalonieri (2006), <a class="creditsLink" href="https://www.salernoeditrice.it/" target="_blank">Salerno</a></li>
-                            <li>  Benucci	 (1996), <a class="creditsLink" href="https://www.armandoeditore.it/" target="_blank">Armando</a></li>
-                            <li>  Bianchi	(1962), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/" target="_blank">Le Monnier</a></li>
-                            <li>  Bonora	(1972), <a class="creditsLink" href="https://www.loescher.it/" target="_blank">Loescher</a></li>
-                            <li> Bricchi	(1996), <a class="creditsLink" href="https://www.bompiani.it/" target="_blank">Bompiani scuola</a></li>
-                            <li>  Caretti	(1970), <a class="creditsLink" href="https://www.laterza.it/" target="_blank">Laterza</a></li>
-                            <li>  De Cristofaro et al. (2014), <a class="creditsLink" href="https://www.rizzolilibri.it/" target="_blank">Rizzoli</a></li>
-                            <li>  De Michelis (1964), <a class="creditsLink" href="https://www.rizzolilibri.it/" target="_blank">Zanichelli </a></li>
-                            <li>  Gavino-Olivieri	(1990), <a class="creditsLink" href="https://principato.it/" target="_blank">Principato</a></li>
-                            <li>  Getto	(1964), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Sansoni/edt325/" target="_blank">Sansoni, Mondadori</a></li>
-                            <li>  Giacalone (1966), Italica</li>
-                            <li>  Guerri	(1925), <a class="creditsLink" href="https://www.vallecchi-firenze.it/" target="_blank">Vallecchi</a></li>
-                            <li>Jacomuzzi-Longobardi	(2013), <a class="creditsLink" href="https://www.lascuolasei.it/" target="_blank">SEI</a></li>
-                            <li>Joannes	(1980), <a class="creditsLink" href="https://www.ibs.it/libri-vintage/editori/editoriale-del-drago" target="_blank">Editoriale del drago</a></li>
-                            <li>Lazzarini-Rolla	(2012), <a class="creditsLink" href="https://www.capitello.it/partiamo-insieme/" target="_blank">Il Capitello </a></li>
-                            <li>Luperini-Brogi	(1998), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Einaudi-Scuola/edt1007/" target="_blank">Einaudi scuola</a></li>
-                            <li>Marchese (1985), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Einaudi-Scuola/edt1007/" target="_blank">Mondadori scuola</a></li>
-                            <li>Messina (1964), <a class="creditsLink" href="https://www.loescher.it/catalogo/g-d-anna-casa-editrice.htm" target="_blank">G. D'Anna</a></li>
-                            <li>Momigliano (1951), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Sansoni/edt325/" target="_blank">Sansoni, Mondadori </a></li>
-                            <li>Nardi	(1940), <a class="creditsLink" href="https://www.mondadori.it/" target="_blank">Mondadori</a></li>
-                            <li>Nicoletti (2020), <a class="creditsLink" href="http://edimediafirenze.it/" target="_blank">Edimedia</a></li>
-                            <li>Nigro	(2002), <a class="creditsLink" href="https://www.mondadori.it/" target="_blank">Mondadori</a></li>
-                            <li>Petrocchi (1893-1902), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Sansoni/edt325/" target="_blank">Sansoni, Mondadori</a></li>
-                            <li>Petronio (1943), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Paravia/edt130/" target="_blank">Paravia</a>  </li>
-                            <li>Pistelli	(1923), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Sansoni/edt325/" target="_blank">Sansoni, Mondadori</a>  </li>
-                            <li>Poggi Salani (2013), <a class="creditsLink" href="https://www.casadelmanzoni.it/pubblicazioni" target="_blank">Casa Manzoni</a>  </li>
-                            <li>Raimondi-Bottoni (1987), <a class="creditsLink" href="https://principato.it/" target="_blank">Principato</a>  </li>
-                            <li>Rigutini-Mestica (1894), <a class="creditsLink" href="https://www.ibs.it/libri/editori/barbera" target="_blank">Barbèra</a>  </li>
-                            <li>Russo (1935), <a class="creditsLink" href="https://www.mondadoristore.it/libri/La-Nuova-Italia/edt453/" target="_blank">La Nuova Italia, Mondadori</a>  </li>
-                            <li>Viti-Sapegno (2005), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/" target="_blank">Le Monnier</a>  </li>
-                            <li>Sbrilli	(1988), <a class="creditsLink" href="https://www.gruppoeli.it/bulgarini-ebf/" target="_blank">Bulgarini</a>  </li>
-                            <li>Spinazzola (1966), <a class="creditsLink" href="https://www.zanichelli.it/" target="_blank">Zanichelli</a>  </li>
-                            <li>Stella-Repossi (1995), <a class="creditsLink" href="https://www.einaudi.it/" target="_blank">Einaudi Gallimar</a>  </li>
-                            <li>Titta Rosa (1966), <a class="creditsLink" href="https://www.mursia.com/" target="_blank">Mursia</a>  </li>
-                            <li>Travi (1981), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Edizioni-Scolastiche-Bruno-Mondadori/edt459983/" target="_blank">Mondadori edizioni scolastiche</a>  </li>
-                            <li>Trombatore (1980), <a class="creditsLink" href="https://www.palumboeditore.it/" target="_blank">Palumbo</a>  </li>
-                            <li>Ulivi (1989), <a class="creditsLink" href="https://www.newtoncompton.com/" target="_blank">Newton Compton</a>  </li>
-                            <li>Verdino (1990), <a class="creditsLink" href="https://www.bompiani.it/" target="_blank">Bompiani</a>  </li>
-                            <li>Viti-Sapegno (1994), <a class="creditsLink" href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/" target="_blank">Le Monnier</a>  </li>
-                    </ol>
-                        
-                    </p>
-                    
+                                </p>
+                                <p><b id="insegnanti">Docenti referenti per le scuole</b><br>
+                                    Ottavio Baldi, Marco Baroni, Maria Belfiore, Emanuela Brescia, Antonia Lo Brutto,
+                                    Rafaela Lo Brutto, Giovanna Colone, Carla Carafa, Fabio De Propris, Nella Frediani,
+                                    Carlotta Frenquellucci, Maria Rita Giansanti, Paolo Grazioli, Fiorina Izzo,
+                                    Francesca Magelli, Annamaria Masciullo, Federica Mingozzi, Claudia Mizzotti, Lucia
+                                    Olini, Loredana Palma, Filomena Maria Paolicelli, Rosa Petralia, Valeria Picazzi,
+                                    Rossella Pogliaghi, Cristina Remelli, Maria Teresa Rizzo, Benedetto Sbaraglia,
+                                    Caterina Scrimali, Grazia Silvestri, Rita Sepe, Marianna Villa, Domenica Virgilio,
+                                    Paola Zanini
+                                </p>
+                                <p class="studentList"><b>Studenti di scuola secondaria di II grado coinvolti in “Adotta
+                                        un commento ai <i>Promessi Sposi</i>”</b><br>
 
-                            
-                            
+                                    Simona Maria Abate, Beatrice Abbafati, Daniele Abbate, Giulia Abbrescia, Anna Gaia
+                                    Acito, Stefano Albini, Matilda Alippi, Gaia Amati, Clivia Pia Amato, Valerio
+                                    Amizzoni, Ylenia Anastasi, Federico Angeloni, Fabrizio Aniello, Elisa Aponte,
+                                    Claudia Arena, Greta Ariolfo, Filippo Armenio, Leonardo Armocida, Francesco
+                                    Attanasio, Francesca Attolico, Sofia Aureli, Alessio Avellino, Luca Averna, Luigi
+                                    Maria Azzoni, Alessandro Bagnoli, Letizia Ballarin, Chiara Ballirano, Luca Ballone,
+                                    Francesca Barani, Luca Barbangelo, Matteo Barbieri, Flavia Bardelloni, Marco Baroni,
+                                    Samuele Baronti, Francesca Bassi, Alice Beddini, Steffy Rinzel Bejasa, Maria
+                                    Belfiore, Lucilla Belletti, Federica Anna Rita Bellomo, Federico Benatti, Martina
+                                    Benciolini, Simone Bendazzoli, Leila Benevento, Carolina Benfenati, Sofia
+                                    Bernardini, Enu Bertolani, Clara Bertoletti, Leonardo Bertone, Gabriele Bettarini,
+                                    Elena Biagi, Salvatore Biagione, Edoardo Bigazzi, Tommaso Blasutta, Luca Boccù,
+                                    Sabrina Bocedi, Sara Boco, Benedetta Bonaccorso, Niccolò Bonino, Giorgia Borghesi,
+                                    Riccardo Borgiani, Lorenzo Bosco, Martina Bottani, Federico Brambilla, Martina
+                                    Brunelli, Andrea Bruno, Gaia Bruschi, Ilaria Bucci, Elisa Sofia Buffa, Marta
+                                    Bugarini, Emanuele Buoni, Giovanni Buscemi, Davide Campeti, Camilla Campigli, Giulia
+                                    Campoli, Valeria Canni, Martina Cannizzaro, Lucio Ennio Caprioli, Carla Carafa, Anna
+                                    Carbonelli, Daniele Carpentieri, Leonardo Carugi, Abigaille Caruso, Martina Casadei,
+                                    Gabriele Castellano, Alessandro Castorina, Giuseppe Castorina, Vittoria Catinella,
+                                    Giuseppe Cavaliere, Maria Cavallaro, Asia Cavallaro, Gabriele Alfio Cavallaro,
+                                    Cristina Cazzato, Giorgia Ceccarini, Lorenzo Maria Celano, Simone Cerami, Lorenzo
+                                    Cerioli, Michele Cerofolini, Valentina Cerri, Claudia Cesarano, Vittorio Cioni,
+                                    Kleide Ciotta, Ginevra Ciuffreda, Sofia Cocciolo, Martina Cogliati, Celeste
+                                    Collevecchio, Giovanna Colone, Christian Colucci, Costanza Comella, Valeria Maria
+                                    Laura Compagnini, Clara Comparato, Pietro Cornia, Fiorenza Corrieri, Roberto Pio
+                                    Cortese, Martina Costarella, Claudia Cucurachi, Eleonora D Angelo, Francesca
+                                    D'Antimi, Lucia Damiani, Martina De Canale, Giuseppe De Luca, Simone De Nicolò,
+                                    Linda De Petris, Giorgia De Santis, Davide De Simone, Giulia De Simone, Sofia De
+                                    Vitis, Serena Dell'Anna, Cristian Francesco Depalo, Kevin Daniele Attilio Di Bilio,
+                                    Gabriele Di Dio, Beatrice Di Gesù, Elena Di Gravio, Matteo Di Staso, Denise
+                                    Dispenza, Anna Donati, Melica Esmaili, Francesco Esposito, Roberta Esposto,
+                                    Valentina Fabbri, Chiara Fabbri, Valentina Fabbri, Luigi Facenti, Giulia Fadda,
+                                    Giulio Falorni, Gaetano Falsone, Miriam Farrugio, Aurora Farrugio, Camilla Ferì,
+                                    Matteo Ferlisi, Giulia Ferrario, Sara Lucia Ferrigno, Irene Formica, Gioia
+                                    Fornasari, Silvia Franchi, Giacomo Franci, Alessia Maria Frangiamone, Luigi
+                                    Frangiamone, Martina Frattali, Nella Frediani, Carolina Freschi, Francesca Frisenda,
+                                    Rosemary Frisina, Tommaso Gallerini Pulga, Francesco Gamba, Filippo Gambini, Giada
+                                    Gambino, Vera Garattoni, Adriana Garlisi, Maria Ilaria Gattei, Tommaso Geronimo,
+                                    Leonardo Giampaia, Alice Giampieretti, Maria Giardina, Federica Giardina, Alessandro
+                                    Gibellini, Simone Gigli, Gabriella Gigliano, Leonardo Giordani, Irene Giordano,
+                                    Chiara Giordano, Alice Giordano, Daniele Giorgi, Antonino Giuppa, Samuele Giussani,
+                                    Rosleydi Gonzalez, Francesca Gostoli, Giulia Grana, Pietro Grasselli, Marta
+                                    Grattagliano, Leonardo Gravagnola, Valentina Graziani, Lucia Greco, Elisa Greco,
+                                    Lucia Grenzi, Ludovica Grillini, Gaia Letizia Grippaldi, Michele Guardì, Ludovica
+                                    Guarino, Cecilia Guarino, Nico Guidi, Nicolò Gulizia, Giulia Gullotta, Daniele
+                                    Gullotta, Laura Denisa Iacob, Davide Iannello, Viola Iattarelli, Alberto Iossa,
+                                    Fiorina Izzo, Gurpreet Kaur, Francesca Kiptiu, Alessandro Kottas, Liza Kumar,
+                                    Giovanni Pietro Maria La Greca, Diego La Monaca, Savio Gioacchino La Vecchia,
+                                    Lorenzo Laconi, Matilde Lallbahadoor, Carlotta Lana, Filippo Lanzoni, Giulia
+                                    Laurenti, Maria Grazia Legrottaglie, Francesco Lentini, Maria Chiara Leonardi, Anna
+                                    Fara Leone, Elvira Lika, Michela Liuzzi, Raffaela Lo Brutto, Giuseppe Carmelo Lo
+                                    Faro, Giovanni Marco Lo Verde, Pietro Locci, Paola Lombardo, Alessandra Lonardelli,
+                                    Ylenia Lonero, Matilde Lonigro, Gabriele Lops, Tommaso Losi, Francesco Losurdo,
+                                    Leonardo Lucarelli, Leonardo Lucarelli, Alessio Lucchesi, Ludovica Luminelli,
+                                    Vittorio Maceo, Gaia Maceroni, Aurora Macrì, Francesca Magelli, Iris Mainetti,
+                                    Letizia Malossi, Lucrezia Manca, Marco Mancini, Annanives Manco, Flavia Mancuso,
+                                    Guido Manfredini, Mia Mangano, Anja Mannella, Riccardo Manzini, Bianca Marchi,
+                                    Samuele Maria Marcì, Alessia Marianelli, Gianni Mariniello, Ludovica Marsiglio,
+                                    Giorgia Martellotta, Laura Martin, Annamaria Masciullo, Virginia Masiello, Filippo
+                                    Masotti, Elisa Mastrorilli, Elena Mazzetti, Beatrice Melandri, Cristina Mele, Elena
+                                    Melotto, Vincenzo Merulla, Laura Mesiti, Fabio Messina, Maria Adoralise Michetti,
+                                    Federica Mingozzi, Maria Grazia Mistretta, Claudia Mizzotti, Elisa Monari, Bruno
+                                    Tommaso Montanaro, Marco Montemaggi, Filippo Moretti, Michela Moretti, Andrea
+                                    Moroni, Michele Morri, Michela Mungiguerra, Edoardo Murciano, Girolamo Napoli,
+                                    Angelica Napoli, Simone Nardelli, Cristiana Negro, Catherine Ngom, Giulio Nicola,
+                                    Morena Nicolosi, Chiara Nicosia, Rossella Nicosia, Serenella Nigro, Giuliana Anna
+                                    Noce, Giorgia Novati, Iacopo Nunziato, Lucia Olini, Mattia Olivieri, Alice Olivieri,
+                                    Nicolò Paci, Edoardo Pagano, Rossella Maria Palermo, Loredana Palma, Filippo
+                                    Palmieri, Giulia Pantanelli, Edoardo Panza, Sara Panzanaro, Maria Paparella, Roberto
+                                    Salvatore Pappalardo, Mattia Paratore, Chiara Pari, Federica Vanda Paris, Aurora
+                                    Parlato, Jacopo Pasqualini, Maria Vittoria Pasquini, Marta Pasquini, Sofia Passini,
+                                    Francesco Pastorelli, Dalila Stefania Patermo, Caterina Pavesi, Giulia Peduto,
+                                    Giulio Pellizzoni, Giacomo Perli, Asia Pesaresi, Flor Del Mar Libera Pescetti
+                                    Favale, Bianca Pettorano, Sofia Piastra, Mattia Piazza, Davide Piazza, Valeria
+                                    Picazzi, Gaia Piccolo, Tommaso Pieretti, Edoardo Pinzani, Sofia Piovani, Alice
+                                    Piroli, Marta Pisanu, Giuliafrancesca Piscopiello, Carlo Andrea Poggi, Rossella
+                                    Pogliaghi, Gaia Pojaghi, Salvo Polizzi Salamone, Chiara Porciani, Sofia Porta,
+                                    Filippo Porzio, Giulia Pozzi, Giulia Principi, Ettore Privitera, Leonardo Johannes
+                                    Pugiotto, Martina Puglisi, Nele Quarantelli, Greta Quarta, Alice Quattrone,
+                                    Gabriella Meggie Rago, Giada Raimondi, Heron Joseph Ramos, Beatrice Rausa, Lisa
+                                    Ravegnini, Rosario Ravo, Elena Ricci, Maria Ricci, Sebastian Ricciato, Niccolò Righi
+                                    Riva, Alice Rinaldi, Aurora Ritirossi, Maddalena Rizzi, Viola Rizzoli, Arianna
+                                    Roffi, Andeira Antonia Romanello, Lorenzo Romeo, Elena Rossi, Rachele Rossi,
+                                    Francesco Ruffetta, Alessia Russo, Mattia Russo, Giulia Saccone, Eugenio Sallustio,
+                                    Massimo Sammarco, Lara Sanfilippo, Aurora Sangalli, Chiara Sani, Laura Sansone,
+                                    Sofia Santapaola, Asia Santi, Matteeo Sapienza, Sofia Sapigni, Carlo Alberto Sappa,
+                                    Valeria Maddalena Savarese, Damiano Scaletta, Giorgia Scardino, Alessandra Scarpa,
+                                    Davide Sciacca, Giada Arianna Scialpi, Alessia Scigliano, Filomena Scirocco, Alessia
+                                    Scorrano, Stefania Scuderi, Lucrezia Sebastiani, Erika Selva, Emma Semprebon, Rita
+                                    Sepe, Francesca Serpe, Matteo Sestini, Jihan Sidki, Francesco Silvestri, Lidia
+                                    Simeoli, Sara Smeriglio, Andrea Spedone, Sara Spigarelli, Ines Spreafico, Emma
+                                    Squadrani, Eleonora Stabile, Arianna Stanco, Ludovica Stasi, Karen Succi, Alessia
+                                    Suppressa, Annachiara Suppressa, Monica Suraci, Anna Taddei, Alex Tamagnini, Dalì
+                                    Maria Tamburella, Delia Tamma, Giulia Tampieri, Elisa Tantari, Chiara Tartaglia,
+                                    Alessia Tassinari, Giulia Tedeschi, Sofia Terranova, Veronica Testa, Simone Tiseo,
+                                    Gian Marco Tognetti, Manuela Tomasello, Luigi Tommasi, Alessia Toneatti, Alice
+                                    Tonti, Elena Torre, Samoa Torrisi, Alba Torti, Alberto Tranchina, Lorenzo Traù,
+                                    Davide Luigi Trioni, Francesco Trotta, Denise Truffarelli, Chiara Tuorto, Alice
+                                    Ugolini, Mauro Urso, Francesco Vacca, Beatrice Valagussa, Manuela Valcarenghi,
+                                    Emanuele Valore, Elisabetta Varriale, Francesco Lorenzo Vasta, Deborah Vella,
+                                    Rossana Pia Vella, Margherita Venturi, Stella Vergani, Marco Veronesi, Alessandro
+                                    Vesentini, Elena Vicinanza, Flavia Maria Matilde Viglianti, Marianna Villa, Domenica
+                                    Giuseppina Virgilio, Francesco Volpi, Sofiena Xia, Elisa Zaccarelli, Filippo
+                                    Zangari, Paola Zanini, Alessio Zanoboni, Stella Zanotti, Beatrice Zavalloni, Alberto
+                                    Zerbini, Valentina Zezza, Elenia José Zizi, Nicole Zoppi.
+                                </p>
+
+                                <p><b>Ringraziamenti</b><br>
+                                    Si ringraziano tutte le studentesse e gli studenti che hanno collaborato alla
+                                    realizzazione del progetto e <a class="creditsLink"
+                                        href="https://www.italianisti.it/" target="_blank">l’Associazione degli
+                                        Italianisti - Sezione Didattica (ADI-SD)</a>, che ha contribuito alla diffusione
+                                    dei progetti PCTO “Adotta un commento ai <i>Promessi sposi</i>”. <br>Si ringrazia
+                                    inoltre Martina Dello Buono per la collaborazione nella progettazione e nello
+                                    sviluppo dell’applicazione e dell’interfaccia web.
+                                </p>
+                                <p><b>Sezione Vedo Manzoni</b><br>
+                                    Coordinamento scientifico: <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
+                                        Italia</a><br>
+                                    Coordinamento tecnico: <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/paolo.bonora" target="_blank"> Paolo
+                                        Bonora</a>, <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/enrica.iemmi2" target="_blank">Enrica Iemmi
+                                    </a>, <a class="creditsLink" href="https://www.unibo.it/sitoweb/marco.serra"
+                                        target="_blank">Marco Serra</a>, Tommaso Vitale e il <a class="creditsLink"
+                                        href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab </a>
+                                    <br>Sviluppo: <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/sara.obbiso2" target="_blank">Sara
+                                        Obbiso</a>, <a class="creditsLink"
+                                        href="https://www.linkedin.com/in/matilde-passafaro-2b7271291/"
+                                        target="_blank">Matilde Passafaro </a>
+                                <p><b>Sezione Traduco Manzoni</b><br>
+                                        Coordinamento scientifico: <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
+                                        Italia</a>, <a class="creditsLink" href="https://www.linkedin.com/in/silvanocheng/" target="_blank">Silvano Cheng</a><br>
+                                        Coordinamento tecnico: <a class="creditsLink"
+                                        href="https://www.linkedin.com/in/maria-levchenko-39953284/" target="_blank">Mariia Levchenko</a>
+                                    <p>Si ringraziano: il direttore del <a class="creditsLink"
+                                        href="https://ficlit.unibo.it/it" target="_blank">Dipartimento di Filologia
+                                        Classica e Italianistica</a> <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/nicola.grandi" target="_blank">Nicola
+                                        Grandi</a>, la responsabile scientifica del centro<a class="creditsLink"
+                                        href="https://ficlit.unibo.it/it/ricerca/centri-di-ricerca/dharc"
+                                        target="_blank"> DH.arc</a> <a class="creditsLink"
+                                        href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca
+                                        Tomasi</a>, la responsabile scientifica del <a class="creditsLink"
+                                        href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab</a> <a
+                                        class="creditsLink" href="https://www.unibo.it/sitoweb/maddalena.modesti3"
+                                        target="_blank"> Maddalena Modesti</a>.
+                                </p>
+                                <p><b>Stringa citazionale corrente </b><br>
+                                    Leggo Manzoni, a cura del DH.arc, versione 1.0, 2023.
+                                </p>
+                                <p><b>Licenza</b><br>
+                                    Leggo Manzoni® is licensed under a <a class="creditsLink"
+                                        href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
+                                        Commons Attribution 4.0 International License</a>.
+                                </p>
+                                <p><b>Commenti pubblicati</b>
+                                <ol>
+                                    <li> Angelini (1962), <a class="creditsLink" href="http://www.utet.it/"
+                                            target="_blank">UTET</a></li>
+                                    <li> Badini Confalonieri (2006), <a class="creditsLink"
+                                            href="https://www.salernoeditrice.it/" target="_blank">Salerno</a></li>
+                                    <li> Benucci (1996), <a class="creditsLink" href="https://www.armandoeditore.it/"
+                                            target="_blank">Armando</a></li>
+                                    <li> Bianchi (1962), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/"
+                                            target="_blank">Le Monnier</a></li>
+                                    <li> Bonora (1972), <a class="creditsLink" href="https://www.loescher.it/"
+                                            target="_blank">Loescher</a></li>
+                                    <li> Bricchi (1996), <a class="creditsLink" href="https://www.bompiani.it/"
+                                            target="_blank">Bompiani scuola</a></li>
+                                    <li> Caretti (1970), <a class="creditsLink" href="https://www.laterza.it/"
+                                            target="_blank">Laterza</a></li>
+                                    <li> De Cristofaro et al. (2014), <a class="creditsLink"
+                                            href="https://www.rizzolilibri.it/" target="_blank">Rizzoli</a></li>
+                                    <li> De Michelis (1964), <a class="creditsLink" href="https://www.rizzolilibri.it/"
+                                            target="_blank">Zanichelli </a></li>
+                                    <li> Gavino-Olivieri (1990), <a class="creditsLink" href="https://principato.it/"
+                                            target="_blank">Principato</a></li>
+                                    <li> Getto (1964), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Sansoni/edt325/"
+                                            target="_blank">Sansoni, Mondadori</a></li>
+                                    <li> Giacalone (1966), Italica</li>
+                                    <li> Guerri (1925), <a class="creditsLink" href="https://www.vallecchi-firenze.it/"
+                                            target="_blank">Vallecchi</a></li>
+                                    <li>Jacomuzzi-Longobardi (2013), <a class="creditsLink"
+                                            href="https://www.lascuolasei.it/" target="_blank">SEI</a></li>
+                                    <li>Joannes (1980), <a class="creditsLink"
+                                            href="https://www.ibs.it/libri-vintage/editori/editoriale-del-drago"
+                                            target="_blank">Editoriale del drago</a></li>
+                                    <li>Lazzarini-Rolla (2012), <a class="creditsLink"
+                                            href="https://www.capitello.it/partiamo-insieme/" target="_blank">Il
+                                            Capitello </a></li>
+                                    <li>Luperini-Brogi (1998), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Einaudi-Scuola/edt1007/"
+                                            target="_blank">Einaudi scuola</a></li>
+                                    <li>Marchese (1985), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Einaudi-Scuola/edt1007/"
+                                            target="_blank">Mondadori scuola</a></li>
+                                    <li>Messina (1964), <a class="creditsLink"
+                                            href="https://www.loescher.it/catalogo/g-d-anna-casa-editrice.htm"
+                                            target="_blank">G. D'Anna</a></li>
+                                    <li>Momigliano (1951), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Sansoni/edt325/"
+                                            target="_blank">Sansoni, Mondadori </a></li>
+                                    <li>Nardi (1940), <a class="creditsLink" href="https://www.mondadori.it/"
+                                            target="_blank">Mondadori</a></li>
+                                    <li>Nicoletti (2020), <a class="creditsLink" href="http://edimediafirenze.it/"
+                                            target="_blank">Edimedia</a></li>
+                                    <li>Nigro (2002), <a class="creditsLink" href="https://www.mondadori.it/"
+                                            target="_blank">Mondadori</a></li>
+                                    <li>Petrocchi (1893-1902), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Sansoni/edt325/"
+                                            target="_blank">Sansoni, Mondadori</a></li>
+                                    <li>Petronio (1943), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Paravia/edt130/"
+                                            target="_blank">Paravia</a> </li>
+                                    <li>Pistelli (1923), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Sansoni/edt325/"
+                                            target="_blank">Sansoni, Mondadori</a> </li>
+                                    <li>Poggi Salani (2013), <a class="creditsLink"
+                                            href="https://www.casadelmanzoni.it/pubblicazioni" target="_blank">Casa
+                                            Manzoni</a> </li>
+                                    <li>Raimondi-Bottoni (1987), <a class="creditsLink" href="https://principato.it/"
+                                            target="_blank">Principato</a> </li>
+                                    <li>Rigutini-Mestica (1894), <a class="creditsLink"
+                                            href="https://www.ibs.it/libri/editori/barbera" target="_blank">Barbèra</a>
+                                    </li>
+                                    <li>Russo (1935), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/La-Nuova-Italia/edt453/"
+                                            target="_blank">La Nuova Italia, Mondadori</a> </li>
+                                    <li>Viti-Sapegno (2005), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/"
+                                            target="_blank">Le Monnier</a> </li>
+                                    <li>Sbrilli (1988), <a class="creditsLink"
+                                            href="https://www.gruppoeli.it/bulgarini-ebf/" target="_blank">Bulgarini</a>
+                                    </li>
+                                    <li>Spinazzola (1966), <a class="creditsLink" href="https://www.zanichelli.it/"
+                                            target="_blank">Zanichelli</a> </li>
+                                    <li>Stella-Repossi (1995), <a class="creditsLink" href="https://www.einaudi.it/"
+                                            target="_blank">Einaudi Gallimar</a> </li>
+                                    <li>Titta Rosa (1966), <a class="creditsLink" href="https://www.mursia.com/"
+                                            target="_blank">Mursia</a> </li>
+                                    <li>Travi (1981), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Edizioni-Scolastiche-Bruno-Mondadori/edt459983/"
+                                            target="_blank">Mondadori edizioni scolastiche</a> </li>
+                                    <li>Trombatore (1980), <a class="creditsLink" href="https://www.palumboeditore.it/"
+                                            target="_blank">Palumbo</a> </li>
+                                    <li>Ulivi (1989), <a class="creditsLink" href="https://www.newtoncompton.com/"
+                                            target="_blank">Newton Compton</a> </li>
+                                    <li>Verdino (1990), <a class="creditsLink" href="https://www.bompiani.it/"
+                                            target="_blank">Bompiani</a> </li>
+                                    <li>Viti-Sapegno (1994), <a class="creditsLink"
+                                            href="https://www.mondadoristore.it/libri/Le-Monnier/edt20767/"
+                                            target="_blank">Le Monnier</a> </li>
+                                </ol>
+                                </p>
+
+
+                                <div class="centered-container">
+                                        <p><b id="visitors-count">LeggoManzoni nel mondo: <span id="active-users">Loading...</span></b></p>
+                                        <div id="chartdiv" style="width: 100%; height: 500px;"></div>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
 
                     <!-- to remove -->
                     <div class="col-lg-8 align-self-baseline">
                     </div>
 
-                </div>
-            </div>
-        </section>
-        </header>
-        <!-- Footer-->
-        <%- include("partials/footer"); %>
-        <!-- Scripts-->
-        <%- include("partials/scripts"); %>
-</html>
+                    </div>
+                    </div>
+                </section>
+            </header>
+            <!-- Footer-->
 
+            <!-- Footer-->
+            <footer class="bg-light py-5">
+                <div class="container px-4 px-lg-5">
+                    <div class="small text-center text-muted">Copyright &copy; 2023 - Leggo Manzoni</div>
+                </div>
+            </footer>
+            <!-- Scripts-->
+            <%- include("partials/scripts"); %>
+            <%- include("partials/scripts"); %>
+            < <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+            <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+            <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+            <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+            <!-- Google Analytics API Script -->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    fetch('/visitors')
+                        .then(response => response.json())
+                        .then(data => {
+                            const activeUsers = data.rows.reduce((acc, row) => acc + parseInt(row.metricValues[0].value), 0);
+                            document.getElementById('active-users').innerText = activeUsers;
+            
+                            const mapData = [];
+            
+                            data.rows.forEach(row => {
+                                const country = row.dimensionValues[0].value;
+                                const users = parseInt(row.metricValues[0].value);
+                                if (users > 0 && countryCodes[country]) {
+                                    mapData.push({
+                                        id: countryCodes[country],
+                                        name: country,
+                                        value: users
+                                    });
+                                }
+                            });
+            
+                            // Create the map
+                            am5.ready(function() {
+                                var root = am5.Root.new("chartdiv");
+            
+                                root.setThemes([
+                                    am5themes_Animated.new(root)
+                                ]);
+            
+                                var chart = root.container.children.push(am5map.MapChart.new(root, {
+                                    panX: "none",
+                                    panY: "none",
+                                    wheelX: "none",
+                                    wheelY: "none",
+                                    projection: am5map.geoMercator()
+                                }));
+            
+                                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+                                    geoJSON: am5geodata_worldLow,
+                                    exclude: ["AQ"], // Exclude Antarctica
+                                    calculateAggregates: true
+                                }));
+            
+                                // Add data to the polygon series
+                                polygonSeries.data.setAll(mapData);
+            
+                                polygonSeries.mapPolygons.template.setAll({
+                                    interactive: true
+                                });
+            
+                                polygonSeries.set("heatRules", [{
+                                    target: polygonSeries.mapPolygons.template,
+                                    dataField: "value",
+                                    min: am5.color(0xe5dc36),
+                                    max: am5.color(0x5faa46),
+                                    key: "fill"
+                                }]);
+            
+                                // Default color for countries with no data
+                                polygonSeries.mapPolygons.template.set("fill", am5.color(0xe0e0e0));
+            
+                                // Update each polygon to set fill and tooltip for countries with data
+                                polygonSeries.mapPolygons.each(function(polygon) {
+                                    const dataItem = polygon.dataItem.dataContext;
+                                    if (dataItem && dataItem.value) {
+                                        polygon.set("tooltipText", `${dataItem.name}: ${dataItem.value} users`);
+                                        polygon.set("fill", am5.color(0x73978B));
+                                    } else {
+                                        polygon.set("tooltipText", null);
+                                        polygon.set("fill", am5.color(0xe0e0e0));
+                                    }
+                                });
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error fetching visitors data:', error);
+                            document.getElementById('active-users').innerText = 'Error loading data';
+                        });
+                });
+            
+                // Mapping country names to their respective ISO 3166-1 alpha-2 country codes
+                const countryCodes = {
+                    "Italy": "IT",
+                    "United States": "US",
+                    "France": "FR",
+                    "Austria": "AT",
+                    "Mexico": "MX",
+                    "Finland": "FI",
+                    "Switzerland": "CH",
+                    "Germany": "DE",
+                    "Netherlands": "NL",
+                    "United Kingdom": "GB",
+                    "Belgium": "BE",
+                    "Chile": "CL",
+                    "China": "CN",
+                    "Hong Kong": "HK",
+                    "Indonesia": "ID",
+                    "Ireland": "IE",
+                    "Romania": "RO"
+                    // Add more countries as needed
+                };
+            </script>
+            
+        </body>
+    </html>

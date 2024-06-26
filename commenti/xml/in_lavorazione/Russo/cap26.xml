@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap26">
+                <note xml:id="Russo_cap26-n1" type="comm" target="quarantana/cap26.xml#c26_10028" targetEnd="quarantana/cap26.xml#c26_10117"><ref rend="bold">Anche noi... tiriamo avanti con coraggio</ref>:  L’interruzione del capitolo precedente, e la riflessione successiva con la quale si inizia questo nuovo, è stata accortezza somma di artista: la predica del Cardinale minacciava di diventare un sublime soliloquio, e quel dubitare tempestivo sulla troppo sublimità di quel discorso da parte dell’artista stesso, quel sospettare in esso qualcosa di professionale e di doverosamente pastorale, è come un precorrere le impressioni e un certo disagio del lettore. L’autore le dissipa con garbo autoironico, mescolandosi per un momento al nostro scetticismo critico. Una di quelle pause terrene, con le quali l’artista, dopo aver viaggiato in una regione sconosciuta, dopo averci condotto a respirare in un’aria rarefatta, torna a toccar terra. Ma si badi bene: la riflessione del M. pare si riferisca al contenuto delle parole del Cardinale, a tutti quei precetti di fortezza e di carità, di premura operosa, di sacrificio illimitato di sè, da lui enunciati, e pare voglia essere una critica e al tempo stesso una conferma della severità di quei precetti. Ma con quel commento morale, in verità, il M. non ha voluto se non correggere il tono estetico dell’allocuzione cardinalizia: avviene quello stesso, quando, nella conversazione quotidiana, ci scappa una qualche frase enfatica, e noi ci affrettiamo a correggerne il tono, confermando la sincerità del sentimento che ce l’ha ispirata. Pare la nostra una correzione morale del nostro dire, ed è invece una correzione estetica del tono del nostro dire. Così qui il M. ha come avvertito che il suo eroe si è lasciato per un momento prendere dal raptus della sua eloquenza, ed egli interviene per sottolineare la sincerità di quell’eloquenza, ma, in verità, anche per legittimarne l’impeto oratorio e richiamarla al rispetto della consueta legge della misura artistica.</note>
+                <note xml:id="Russo_cap26-n2" type="comm" target="quarantana/cap26.xml#c26_10161" targetEnd="quarantana/cap26.xml#c26_10262"><ref rend="bold">Avete ubbidito all'iniquità... per non rivelarne il motivo</ref>:  La prima parte del discorso del Cardinale è stata tutto un discorso in generale; la sua discussione con don Abbondio può dirsi ancora una discussione teorica. Ha predicato sulla delicatezza e gravità del ministero sacerdotale; ha predicato che il soffrire per la giustizia, e non l’impattarla con i prepotenti, è il più vero vincere dei figli della promessa; ha affermato infine la necessità del coraggio, quel coraggio che, in fondo, è intrepidezza d’amore per i nostri fratelli. Son tutti dunque principi in generale di carità e di fortezza, che egli viene dispiegando, come a scalfire la prima durezza del suo recalcitrante penitente. E in questo preliminare discorso generico, si rivela il profondo accorgimento umano dell’artista. Un interrogatorio che fosse andato subito al particolare, avrebbe avuto qualcosa di inquisitoriale e di troppo acerbo. Gradatamente, ora il Cardinale si avvia a stringere don Abbondio con domande sempre più incalzanti e più precise. Assuefatto il meschinello al nuovo clima, trasportato il pulcino in una regione sconosciuta, in un’aria che non ha mai respirato, il Cardinale potrà battere il reo con maggior efficacia, e anche con maggiore umanità. Don Abbondio può intendere un poco il linguaggio del suo pastore. Niente più sermoni e discorsi in generale. Il colloquio, da sermoneggiante, diventa colloquio drammatico. Il Cardinale formula due accuse particolari, una più grave dell’altra: voi avete ubbidito puntualmente all’iniquità; voi avete mentito ai vostri figliuoli, accampando ordini misteriosi dei superiori.</note>
+                <note xml:id="Russo_cap26-n3" type="comm" target="quarantana/cap26.xml#c26_10273" targetEnd="quarantana/cap26.xml#c26_10279"><ref rend="bold">Anche questa gli hanno rapportata le chiacchierone</ref>:  Le interruzioni, mentali o manifeste, da parte di don Abbondio ora si fanno più frequenti. Il discorso del Cardinale è più vicino alla terra, e non urta il trapasso ai commenti del mediocrissimo suo ascoltatore. Si noti il disprezzo che don Abbondio mette in quel verbo rapportare, che è verbo per azioni di spie e di cicaloni.</note>
+                <note xml:id="Russo_cap26-n4" type="comm" target="quarantana/cap26.xml#c26_10392" targetEnd="quarantana/cap26.xml#c26_10452"><ref rend="bold">Ecco come vanno le cose... anche i santi</ref>:  L’umorismo di questa interruzione mentale sta in quella fedeltà, sempre più persuasa, del personaggio ai suoi principii: l’Innominato è sempre un satanasso, anche se convertito e pentito, e il galantuomo è invece lui, perchè è stato tale per tutta la vita; quando si tratta della pelle, è pur lecita qualche mezza bugia; il Cardinale parla bene, ma parla bene soltanto perchè i superiori hanno sempre ragione; non per colpa sua, ma per colpa di quel pianeta, il suo destino è di buscarne da tutte le parti, anche dai santi. C’è un crescendo nell’angustia e nella irremovibilità della sua logica: quando ti pare che don Abbondio abbia toccato il termine ultimo dell’angolo ottuso della sua mente, egli si raggruzza ancora di più, abbarbicandosi e raccogliendosi in sue sempre più persuase ragioni. Si giunge, per tal via, a un iperbolizzamento epico dell’angustia mentale del personaggio.</note>
+                <note xml:id="Russo_cap26-n5" type="comm" target="quarantana/cap26.xml#c26_10459" targetEnd="quarantana/cap26.xml#c26_10474"><ref rend="bold">Ho mancato... in un frangente di quella sorte</ref>:  Mentre don Abbondio par che confessi la sua colpa, si affretta a smentirsi con quel domandare cosa doveva fare in un frangente di quella sorte. Il riconoscimento della colpa è formale, e il tenacissimo eroe del piccolo egoismo non si smuove dalla sua regola di vita.</note>
+                <note xml:id="Russo_cap26-n6" type="comm" target="quarantana/cap26.xml#c26_10475" targetEnd="quarantana/cap26.xml#c26_10674"><ref rend="bold">«E ancor lo domandate?.. all'esercizio del vostro ministero</ref>:  La risposta del Cardinale, piegata a un tono dolente per la tardità del penitente, è anche improntata ad un’alta umiltà cristiana. Avrebbe potuto dire, senz’altro: dovevate dire tutto a me, che ero il vostro vescovo; avrei pensato io a proteggervi. Ma il Cardinale fa sparire la sua persona, e innanzi tutto invoca la protezione di Dio. «Amare, figliuolo; amare e pregare». È il soffri, combatti e preghi della Pentecoste. Giungerà poi alla sua persona, ma dopo avere esaurito la provvidenza degli argomenti divini e degli altri argomenti umani.</note>
+                <note xml:id="Russo_cap26-n7" type="comm" target="quarantana/cap26.xml#c26_10676" targetEnd="quarantana/cap26.xml#c26_10679"><ref rend="bold">I pareri di Perpetua!</ref>:  L’espressione è diventata proverbiale. Il parere di Perpetua è noto; si veda a p. 30, n. 542.</note>
+                <note xml:id="Russo_cap26-n8" type="comm" target="quarantana/cap26.xml#c26_10767" targetEnd="quarantana/cap26.xml#c26_10776"><ref rend="bold">Il cardinale non adoprava nè schioppo, nè spada, nè bravi</ref>:  La pelle è la bandiera di don Abbondio; e quando è salva la pelle, è salvo anche l’onore del gonfalone. Però egli si permette delle sortite piuttosto ardite con il Cardinale, perchè, alla fin delle fini, con lui la bandiera non corre pericolo.</note>
+                <note xml:id="Russo_cap26-n9" type="comm" target="quarantana/cap26.xml#c26_10930" targetEnd="quarantana/cap26.xml#c26_15154"><ref rend="bold">Minaccia anche non di rado... s'attenti poi di commettere? Perpetua aveva detto</ref>:  «Eh! le schioppettate non si danno via come confetti: e guai se questi cani dovessero mordere tutte le volte che abbaiano!» Nel Cardinale c’è lo stesso pensiero, liberato dalla forma popolaresca e familiare, e stilizzato nella forma delle massime e delle sentenze.</note>
+                <note xml:id="Russo_cap26-n10" type="comm" target="quarantana/cap26.xml#c26_10976" targetEnd="quarantana/cap26.xml#c26_10984"><ref rend="bold">Quel trovarsi d'accordo la sua serva e Federigo Borromeo</ref>:  Dice Federigo Borromeo, con tono di maggiore solennità, per la fama dell’uomo, e non semplicemente il Cardinale; come Perpetua, per contrapposto, è chiamata la sua serva. Il M. vuol far notare come i grandi e gli infimi s’accordano su un disegno ovvio e ragionevole, e che solo un don Abbondio non ha saputo riconoscere per tale. L’avvilimento del personaggio è dunque maggiore; da ciò, la stizza di don Abbondio.</note>
+                <note xml:id="Russo_cap26-n11" type="comm" target="quarantana/cap26.xml#c26_11034" targetEnd="quarantana/cap26.xml#c26_11070"><ref rend="bold">«Gli è perchè le ho visto io quelle facce.... e essersi trovato al punto»</ref>:  L’argomentazione di don Abbondio è di quelle che possono fare ammutolire i più solenni e severi censori: è uno di quei momenti, come quello del colloquio con Renzo (cap. II), in cui la logica della paura si spoglia della commedia e acquista una sua tragica eloquenza. Don Abbondio s’era servito, prima, di un argomento in generale: che il coraggio uno non se lo può dare. Ma quella è un’argomentazione di carattere generico, a cui il Cardinale può ribattere senza difficoltà; ma quest’altra, più particolarmente individuata, più umanamente ragionata, è di quelle che costringono il Cardinale a prenderla in piena e grave considerazione, perchè quasi mettono in istato d’accusa lo stesso giudice. Da ciò la sua gravità compunta e pensierosa.</note>
+                <note xml:id="Russo_cap26-n12" type="comm" target="quarantana/cap26.xml#c26_11135" targetEnd="quarantana/cap26.xml#c26_15181"><ref rend="bold">Pur troppo!» disse Federigo... È una delle battute più belle e più patetiche di tutto il colloquio</ref>:  il Cardinale discende dal suo pergamo, o, se piace meglio, esce dal suo confessioniale, e si atterra, non più inquisitore, ma penitente, peccatore, anche lui. Don Abbondio non è più un suo piccolo curato da riprendere e punire, ma un ministro alla pari, è «figliuolo e fratello», e lui, il Cardinale, può avere peccato della stessa debolezza; però al suo confratello sacerdote egli umilmente deve confessarsi.</note>
+                <note xml:id="Russo_cap26-n13" type="comm" target="quarantana/cap26.xml#c26_11217" targetEnd="quarantana/cap26.xml#c26_11221"><ref rend="bold">Simile al dottor della legge</ref>:  È la parola di Gesù contro i dottori della legge, nel vangelo di Matteo (XXIII, 4): «In verità, essi mettono insieme pesanti fardelli difficili da portare sulle spalle altrui; ma loro non muovono neanche un dito».</note>
+                <note xml:id="Russo_cap26-n14" type="comm" target="quarantana/cap26.xml#c26_11328" targetEnd="quarantana/cap26.xml#c26_11382"><ref rend="bold">Oh che sant'uomo!.. anche troppo</ref>:  Il gesto e le parole del Cardinale, forse, sono tra le più umane che egli abbia espresso e pronunziato: il santo si è fatto uomo. Ma il M. non abusa di questa sublime trasfigurazione del suo personaggio: insistervi, sarebbe stato cadere nell’unzione oratoria. E l’ufficio di fermare al punto giusto la sublimità del gesto e delle parole del Cardinale è affidato, anche in questa occasione, all’eroe della piccola ragione Don Abbondio fa una chiosa tacita, grossolana, ma commossa, sulla febbre scrutinatrice del Cardinale (purché frughi, rimesti ecc.), e poi gli proietta addosso quel grossolano complimento sul petto forte e sullo zelo imperterrito della vostra signoria illustrissima. Orbene quell’intervento urtante e stonato di don Abbondio, che dispiace psicologicamente agli interpreti, è una risposta felicissima dal punto di vista artistico, e vale a ridonare, bruscamente, l’equilibrio alla scena, che poteva scivolare nell’unzione patetica.</note>
+                <note xml:id="Russo_cap26-n15" type="comm" target="quarantana/cap26.xml#c26_11384" targetEnd="quarantana/cap26.xml#c26_11393"><ref rend="bold">«Io non vi chiedevo una lode, che mi fa tremare»</ref>:  Come nell’altro tratto (cfr. la n. 44-63), in cui sparisce la persona del Cardinale, ed è invocata innanzitutto la protezione di Dio; così, in questa battuta, è espressa, in maniera profonda e sofferta, l’umiltà e il pudore dell’umiltà di Federigo. E tanto più sono suggestive queste note, per quanto sono contaminate, mescolate, alla grettezza e alla volgarità di don Abbondio. Si tratta non più di virtù stilizzate, ma di virtù che s’affermano, loro malgrado; non di virtù involate in alto, ma, direi, di virtù strapazzate, come sciupate, nel doversi effondere davanti a estimatore così ottuso e mediocre. E perciò tanto più suggestive e ben intonate artisticamente.</note>
+                <note xml:id="Russo_cap26-n16" type="comm" target="quarantana/cap26.xml#c26_11486" targetEnd="quarantana/cap26.xml#c26_11492"><ref rend="bold">Per fare un matrimonio contro le regole</ref>:  Ancora una meschinità di don Abbondio; egli accusa, per scusarsi. E il Cardinale rimane come interdetto, atterrato, per questa angusta protervia del suo penitente. Il linguaggio che adesso adopererà, non è più di incitamento, nè di rimprovero, ma di compassione per il povero accecato. Ed è questo tono di compassione che giunge a schiudere uno spiraglio di luce nella mente opaca del piccolo ascoltatore.</note>
+                <note xml:id="Russo_cap26-n17" type="comm" target="quarantana/cap26.xml#c26_11742" targetEnd="quarantana/cap26.xml#c26_11786"><ref rend="bold">Don Abbondio stava zitto... e non contrastata</ref>:  È il momento della conversione di don Abbondio. Per il più profondo cristiano che è il Manzoni dei Pr. Sposi rispetto al Manzoni delle liriche e delle tragedie, non c’è mai anima in cui non rifulga un qualche barlume di Dio, una qualche luce spirituale. Nel piccolo cielo, intento ed ottuso, di don Abbondio, spunta, anche qui, questo barlume di luce. Don Abbondio è toccato, e si rende confesso. È il solo momento del romanzo, in cui egli riesce a superare il suo radicato egoismo. Ma, anche in questa confessione di don Abbondio, si osservi la grande discrezione artistica del Manzoni: un personaggio, come lui, che tinge del grigio colore della sua anima ogni gesto e ogni parola, questa volta tace. E il suo silenzio è una necessità artistica. Un don Abbondio che si umiliasse, si confessasse, si battesse il petto, sarebbe stato stonatissimo. Egli si limita ad adoperare una forma negativa: non mancherò, monsignore, non mancherò davvero. Ed è tutto quello, a cui può arrivare. Per il resto sta zitto, e prova tutto al più un misto di tenerezza e confusione, castigate e corrette dalla disciplina della paura.</note>
+                <note xml:id="Russo_cap26-n18" type="comm" target="quarantana/cap26.xml#c26_11860" targetEnd="quarantana/cap26.xml#c26_11867"><ref rend="bold">Come lo stoppino umido e ammaccato d’una candela</ref>:  Il M. non va nell’epica; don Abbondio è un convertito, ma un convertito che non tradisce i suoi vecchi amici. La paura, sta lì a fargli sempre compagnia, a far l’ufizio di difensore. E tutto questo il M. esprime, maliziosamente, in quell’immagine stupenda dello stoppino, il quale, anche se brucia, rimane sempre uno stoppino, e l’autore non si pronunzia sul suo splendore. Don Abbondio dunque è mantenuto nella sua giusta atmosfera: prima, il paragone col pulcino rapito su in alto dal falco, e ora quest’altro con lo stoppino umido e ammaccato della candela, ci dànno lui, un po’ tramutato, ma sempre fedele a sè stesso. Aveva ragione Agnese, quando dice al Cardinale: «Non lo gridi.... è un uomo fatto così: tornando il caso, farebbe lo stesso». Non per nulla il M. aggiunge maliziosamente: avrebbe pianto, se non fosse stato il pensiero di don Rodrigo. Ai critici che vedono la parenetica cattolica dappertutto, questo è un luogo da segnalare: il M. non ha per nulla abusato dei successo del sermone cardinalizio. Don Abbondio resta sempre il bersaglio della sua deliziosa crudeltà estetica. Niente fine agiografica: don Abbondio si commuove, ma, anche nella commozione, resta l’uomo che conosciamo. Si veda la nota precedente.</note>
+                <note xml:id="Russo_cap26-n19" type="comm" target="quarantana/cap26.xml#c26_12010" targetEnd="quarantana/cap26.xml#c26_12011"><ref rend="bold">Alle velette</ref>:  Sono le velette di gabbia in cima all’albero della nave, dove sta di guardia la sentinella. Per corruzione popolaresca, veletta si è trasformato in vedetta.</note>
+                <note xml:id="Russo_cap26-n20" type="comm" target="quarantana/cap26.xml#c26_12037" targetEnd="quarantana/cap26.xml#c26_15178"><ref rend="bold">«Ah sì, figliuolo, si!» esclamò Federigo.... L’ultima parte del colloquio è soffusa di quella tristezza, che c’è sempre nella pagina manzoniana, quando lo scrittore ha severamente inquisito sulle debolezze della natura umana. A un certo punto, il giudice severo scompare, ed esso si accomuna ai colpevoli, fratello fra i fratelli, debole fra i deboli. È quello che avviene al Cardinale</ref>:  dopo avere frugato, rimestato, criticato, inquisito, la coscienza del suo dipendente, egli si accomuna a lui nella fragilità del peccare. È un vecchio che si accomuna a un altro vecchio, e dolora per aver dovuto contristare con rimproveri la canizie del compagno. Chiusa profondamente religiosa, dove il pastore di anime scompare come pastore, e resta soltanto l’uomo che vorrebbe con gli altri uomini temere e confidare, piangere e rallegrarsi. In questa atmosfera solenne, anche don Abbondio si ingrandisce per un momento.</note>
+                <note xml:id="Russo_cap26-n21" type="comm" target="quarantana/cap26.xml#c26_12152" targetEnd="quarantana/cap26.xml#c26_12154"><ref rend="bold">Ricompriamo il tempo</ref>:  la mezzanotte è vicina. La prima parte è frase paolina: redimentes tempus (Lettera agli Efesii, V, 16). Poi si allude alla parabola delle vergini prudenti e delle stolte (Matteo, XXV, 1-13) : Media autem nocte clamor factus est: ecce Sponsus venit ecc. Sul linguaggio intessuto di reminiscenze sacre del Cardinale, cfr. la n. 374, al cap. XXV.</note>
+                <note xml:id="Russo_cap26-n22" type="comm" target="quarantana/cap26.xml#c26_12212" targetEnd="quarantana/cap26.xml#c26_12221"><ref rend="bold">Così detto, si mosse; e don Abbondio gli andò dietro</ref>:  Non direi che questo don Abbondio che resta dietro, come in tante altre occasioni, ci faccia sorridere, come vuole sorridere qualche interprete. Questa volta non è don Abbondio che si ritira da parte, sono le cose stesse che gli assegnano quel posto in penombra, in umiltà, e, direi, in contrizione sensibile. È forse uno dei pochi momenti, in cui il M. disarmi nei rispetti della sua vittima. Trovo assai poco felice l’osservazione del PISTELLI, a questo proposito : «È la terza volta che lo vediamo in coda. Eppure andavano a desinare, e sarebbe stato naturale supporre che don Abbondio gli fosse a fianco come guida». Ma, a dire il vero, qui il padrone di casa non c’entra: c’è solo il penitente umiliato e confuso, che vien dietro al suo severo e amoroso flagellatore.</note>
+                <note xml:id="Russo_cap26-n23" type="comm" target="quarantana/cap26.xml#c26_12298" targetEnd="quarantana/cap26.xml#c26_15100"><ref rend="bold">Spenti... o sopiti</ref>:  Il Cardinale non poteva fare miracoli; e ci piace la correzione manzoniana, che vale a temperare con psicologico equilibrio questo riassunto dei fatti memorabili del personaggio.</note>
+                <note xml:id="Russo_cap26-n24" type="comm" target="quarantana/cap26.xml#c26_12398" targetEnd="quarantana/cap26.xml#c26_12399"><ref rend="bold">Doppia amarezza</ref>:  E per l’abbandono del paese, e per quell’altro distacco ideale, che essa avrebbe voluto segnare da tutte le sue speranze soavi e dai pensieri di sposa.</note>
+                <note xml:id="Russo_cap26-n25" type="comm" target="quarantana/cap26.xml#c26_12461" targetEnd="quarantana/cap26.xml#c26_12464"><ref rend="bold">Un più doloroso addio</ref>:  Allora la madre sarà fatta consapevole del voto di Lucia, e il segreto doloroso cuocerà di più, condiviso da animi divisi.</note>
+                <note xml:id="Russo_cap26-n26" type="comm" target="quarantana/cap26.xml#c26_12624" targetEnd="quarantana/cap26.xml#c26_12629"><ref rend="bold">Perchè questo è un certo paese</ref>:  È la gelosia, che accompagna sempre una qualche fortuna di denaro, per allontanare invidie pettegole.</note>
+                <note xml:id="Russo_cap26-n27" type="comm" target="quarantana/cap26.xml#c26_12649" targetEnd="quarantana/cap26.xml#c26_12751"><ref rend="bold">Andò a casa, zitta, zitta... in un cantuccio del suo saccone</ref>:  La maraviglia e la felicità di Agnese hanno qualcosa di fiabesco. Tutta la persona vive e trepida di gaudio, in quelle dita inesperte. Il facevan pancia, e lo sgusciavano sono le paure, i palpiti di quella voluttà. Il M. dice un rotolo, un involto, un batuffoletto, dove il batuffoletto è una ripetizione di involto, ma con qualche cose di più accarezzato, e, dire, con un che di grazia sensuale. Tutto l'indugio descrittivo ha poi l'ufficio di dar risalto all'afflosciarsi della gioia di Agnese, quando essa sentirà da Lucia la novità del voto.</note>
+                <note xml:id="Russo_cap26-n28" type="comm" target="quarantana/cap26.xml#c26_13060" targetEnd="quarantana/cap26.xml#c26_13064"><ref rend="bold">E ha spazzato ogni cosa</ref>:  Cfr. al cap. XVIII, p. 341, n. 22-23.</note>
+                <note xml:id="Russo_cap26-n29" type="comm" target="quarantana/cap26.xml#c26_13133" targetEnd="quarantana/cap26.xml#c26_13158"><ref rend="bold">Un uomo di proposito non c’è</ref>:  È una proposizione incidentale, ma messa sullo stesso piano delle altre; ciò che rende assai bene il parlare animato, e affollato di disegni, di Agnese.</note>
+                <note xml:id="Russo_cap26-n30" type="comm" target="quarantana/cap26.xml#c26_13183" targetEnd="quarantana/cap26.xml#c26_13185"><ref rend="bold">Una tenerezza senz'allegria</ref>:  Si inteneriva della cordialità e della furia dei piani e delle illusioni materne.</note>
+                <note xml:id="Russo_cap26-n31" type="comm" target="quarantana/cap26.xml#c26_13265" targetEnd="quarantana/cap26.xml#c26_13267"><ref rend="bold">Lacrimando senza piangere</ref>: che è segno di più profondo e consapevole dolore «parlare e lacrimar, vedraimi insieme» (PISTELLI).</note>
+                <note xml:id="Russo_cap26-n32" type="comm" target="quarantana/cap26.xml#c26_13321" targetEnd="quarantana/cap26.xml#c26_13323"><ref rend="bold">Stupefatta e costernata</ref>:  Sorpresa dell’impensata novità, costernata perchè lei stessa altre volte aveva novellato «di gastighi strani e terribili, venuti per la violazione di qualche voto».</note>
+                <note xml:id="Russo_cap26-n33" type="comm" target="quarantana/cap26.xml#c26_12139" targetEnd="quarantana/cap26.xml#c26_13519"><ref rend="bold">Quel giorno... mi doveva menare a trovarmi con voi</ref>:  Cfr. al cap. XXI, p. 397, 1. 154.</note>
+                <note xml:id="Russo_cap26-n34" type="comm" target="quarantana/cap26.xml#c26_13592" targetEnd="quarantana/cap26.xml#c26_13594"><ref rend="bold">E chi sa</ref>:  Vorrebbe dubitare che può essere accaduto qualcosa di grave a Renzo, ma amore, ancora non soffocato, e carità cristiana le fanno respingere il dubbio.</note>
+                <note xml:id="Russo_cap26-n35" type="comm" target="quarantana/cap26.xml#c26_13728" targetEnd="quarantana/cap26.xml#c26_13868"><ref rend="bold">E poi... non mi fate più saper nulla</ref>:  Nell’esitazione delle parole, è detto tutto lo strappo interno. Un altro tratto della vivezza amorosa di Lucia.</note>
+                <note xml:id="Russo_cap26-n36" type="comm" target="quarantana/cap26.xml#c26_13870" targetEnd="quarantana/cap26.xml#c26_13871"><ref rend="bold">Tutta intenerita</ref>:  Arnese ha intuito l’angoscia interna della figliuola, dalla esitazione delle ultime parole.</note>
+                <note xml:id="Russo_cap26-n37" type="comm" target="quarantana/cap26.xml#c26_13932" targetEnd="quarantana/cap26.xml#c26_13933"><ref rend="bold">Sapete perchè</ref>:  Li aveva messi insieme, per il matrimonio. Lucia gira sempre attorno al suo sentimento, nonostante voglia distaccarsene.</note>
+                <note xml:id="Russo_cap26-n38" type="comm" target="quarantana/cap26.xml#c26_13956" targetEnd="quarantana/cap26.xml#c26_13968"><ref rend="bold">Lo riguardavate come vostro... oh! fate mezzo per uno</ref>:  Vostro, come un figliuolo, sono una tacita riaffermazione del suo legame con Renzo. La proposta poi più esplicita è segno che il cuore di Lucia fa «ancora a mezzo con Renzo.»</note>
+                <note xml:id="Russo_cap26-n39" type="comm" target="quarantana/cap26.xml#c26_14193" targetEnd="quarantana/cap26.xml#c26_14202"><ref rend="bold">Di lamento e di conforto, di rammarico e di rassegnazione</ref>:  Conforto e rassegnazione, sostantivi graduati nella loro intensità: il primo si riferisce a lamento, manifestazione più grave del rammarico. Sulle distinzioni lessicali in M. cfr. ZIBORDI, op. cit., pp. 44-61.</note>
+                <note xml:id="Russo_cap26-n40" type="comm" target="quarantana/cap26.xml#c26_14507" targetEnd="quarantana/cap26.xml#c26_14513"><ref rend="bold">Basta da sè ad attestar tante cose</ref>:  Satira, di passata, di quel gusto fantastico del pettegolezzo, della novità, che si schermisce dietro quella formula dicono, con la quale si accredita quello che talvolta, inizialmente, è accennato come semplice congettura.</note>
+                <note xml:id="Russo_cap26-n41" type="comm" target="quarantana/cap26.xml#c26_14566"><ref rend="bold">Residente</ref>:  È una specie di console, di rappresentante diplomatico in genere. Il residente veneziano era Pietro Antonio Marioni, per cui si veda F. NICOLINI, Aspetti della vita italo-spagnuola, p. 191 e sgg.</note>
+                <note xml:id="Russo_cap26-n42" type="comm" target="quarantana/cap26.xml#c26_14572" targetEnd="quarantana/cap26.xml#c26_14586"><ref rend="bold">Un malandrino... il famoso Lorenzo Tramaglino</ref>:  È un crescendo, che, indirettamente, dice dello stile eccitato di quelle note di cancelleria. Ladrone poi Renzo, per quei due pani portati all’osteria. L’iperbolico travisamento degli avvenimenti e degli uomini risponde allo scetticismo cattolico del M., che trova sempre negli uomini, per un limite di natura, un vedere o un antivedere bugiardo. Cfr. la n. 413, al cap. XVIII.</note>
+                <note xml:id="Russo_cap26-n43" type="comm" target="quarantana/cap26.xml#c26_14768" targetEnd="quarantana/cap26.xml#c26_14769"><ref rend="bold">Antonio Rivolta</ref>:  Per un promotore di saccheggio e eccitatore di sommosse, quel Rivolta va bene.</note>
+                <note xml:id="Russo_cap26-n44" type="comm" target="quarantana/cap26.xml#c26_14852" targetEnd="quarantana/cap26.xml#c26_14854"><ref rend="bold">In istile pacato</ref>:  Venezia non se la prendeva calda, perchè la sua politica era quella «di secondare e di coltivare» l’emigrazione, offrendo lavoro e sicurezza.</note>
+                <note xml:id="Russo_cap26-n45" type="comm" target="quarantana/cap26.xml#c26_14890" targetEnd="quarantana/cap26.xml#c26_14904"><ref rend="bold">Trasmise... fu trasmessa... la trasmettesse</ref>:  È ripetuto lo stesso verbo, a indicare la sonnolenza burocratica di quella «evasione di pratiche».</note>
+                <note xml:id="Russo_cap26-n46" type="comm" target="quarantana/cap26.xml#c26_15023"><ref rend="bold">S'insospetti</ref>:  Che si trattasse di indagini della polizia.</note>
+                <note xml:id="Russo_cap26-n47" type="comm" target="quarantana/cap26.xml#c26_15055" targetEnd="quarantana/cap26.xml#c26_15061"><ref rend="bold">Non si creda però che don Gonzalo</ref>:  Satira dei governi polizieschi, che talvolta si servono di un «reo buon uomo», per tessere e distessere qualche loro cabala. Renzo è un «pretesto», e, come tutti i pretesti, può diventare per un momento un caso famoso, e dissiparsi come un nulla, un momento dopo. Cfr. al cap. XXVII, n. 168-69, dove Renzo sfuma dalla memoria di don Gonzalo.</note>
+            </div>
+</body>
+</text>
+</TEI>

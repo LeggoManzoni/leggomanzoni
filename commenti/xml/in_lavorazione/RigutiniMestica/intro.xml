@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giuseppe Rigutini-Enrico Mestica (1925)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AP">Alessia Panebianco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi: a cura di Giuseppe Rigutini e Enrico Mestica</title>
+          <editor>Rigutini,Giuseppe</editor>
+          <editor>Mestica, Enrico</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>G. Barbera</publisher>
+          <date>1925</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+</encodingDesc> 
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="RigutiniMestica_intro">
+        <note xml:id="RigutiniMestica_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">Il Manzoni finge d’aver trovato in un vecchio scartafaccio del secolo XVII la storia che vuol raccontare. Questa finzione artistica, di cui si valsero i romanzieri antichi e anche l'Ariosto, che con fine ironia cita spesso la cronaca di Turpino, qui ci si presenta sotto un aspetto tutto nuovo, perchè con essa il Manzoni «ci mette proprio sott'occhio (son parole del Morandi) il principio del poema del suo Turpino, contraffacendo lo stile, la lingua e perfino l'ortografia del Secento, e cavando così profitto dalla finzione, per darci fin dalla prima pagina un lato storico molto caratteristico dell'età che imprende a ritrarre.» Le correzioni si Promessi Sposi. Parma, Battei, 1879, pag. 802.</ref>: </note>
+        <note xml:id="RigutiniMestica_intro-n2" type="comm" target="quarantana/intro.xml#intro_10436"><ref rend="bold">l'eroica</ref>:  Eroica «è affettato» nota al Tommaseo. Piu comune l’erculea o l’improba fatica.</note>
+        <note xml:id="RigutiniMestica_intro-n3" type="comm" target="quarantana/intro.xml#intro_10572" targetEnd="quarantana/intro.xml#intro_10573"><ref rend="bold">della lingua</ref>:  Della lingua «così assoluto non dice nulla: della buona lingua.» Tommaseo.</note>
+        <note xml:id="RigutiniMestica_intro-n4" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  Quella pomposità e tronfiezza, quella goffaggine ambiziosa impresso nei costumi, nelle usanze e in tutta la vita esteriore di quel secolo, come pure nelle concezioni artistiche e letterarie, non sì manifestarono soltanto in questo paese, ma contemporaneamente in Ispagna, in Francia e in Inghilterra.</note>
+        <note xml:id="RigutiniMestica_intro-n5" type="comm" target="quarantana/intro.xml#intro_10713"><ref rend="bold">ammaliziati</ref>:  più toscano ammalizziti.</note>
+        <note xml:id="RigutiniMestica_intro-n6" type="comm" target="quarantana/intro.xml#intro_10804" targetEnd="quarantana/intro.xml#intro_10806"><ref rend="bold">presentato alcuna obiezion</ref>:  Nella prima edizione aveva scritto: presentato alcun perchè. Nella seconda il perché fu mutato in obiezion; ma rimase, forse per isvista, il presentato, che è contro alle più elementari regole della grammatica.</note>
+        <note xml:id="RigutiniMestica_intro-n7" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826"><ref rend="bold">Ed ecco l'origine... medesimo</ref>:  Il Morandi crede che il Manzoni abbia voluto con queste parole far capire a chi legge attentamente, che la storia dello scartafaccio è una bugia bella e buona. Ma noi non crediamo che il Manzoni potesse desiderare che il lettore s'avesse tanto presto ad avvedere di questa finzione, la quale per altro è condotta con tale naturalezza e improntata di tanta verità, che il più attento e ammalizzito lettore non solo non riuscirebbe da tutta l'introduzione a scorgerla, ma nemmeno a dubitarne. A noi pare, invece, di vedere in queste parole il sorriso dell'autore per la compiacenza che prova nell'innocente inganno.</note>
+        <note xml:id="RigutiniMestica_intro-n8" type="comm" target="quarantana/intro.xml#intro_10928" targetEnd="quarantana/intro.xml#intro_10931"><ref rend="bold">se fossero realmente esistiti</ref>:  Qui si accenna ai lunghi e accurati studi ch'egli fece por ritrarre con fedeltà le condizioni morali, sociali e politiche della Lombardia nel Secento; condizioni veramente straordinarie: un governo il più arbitrario congiunto coll'anarchia popolare, una legislazione la più strana, un'ignoranza la più feroce. «Io faccio quel che posso pur penetrare nello spirito di quell'età che voglio descrivere, per vivere in essa.» Lettera al Fauriel, maggio 1822. E riuscì nell'intento, come ben si può vedere nel libro La Lombardia nel secolo XVII, scritto da Cosare Cantù.</note>
+        <note xml:id="RigutiniMestica_intro-n9" type="comm" target="quarantana/intro.xml#intro_10939" targetEnd="quarantana/cap1.xml#intro_10943"><ref rend="bold">per procacciar fede alle cose</ref>:  Osserva il Tommaseo: «Non procacciare ma acquistare. Procacciar è troppo accattato.»</note>
+        <note xml:id="RigutiniMestica_intro-n10" type="comm" target="quarantana/intro.xml#intro_11241" targetEnd="quarantana/intro.xml#intro_11243"><ref rend="bold">anzi lo stile</ref>:  «Lo stile, dice il Manzoni, non è altro che la maniera di mettere insieme i materiali d'una lingua.»</note>
+        <note xml:id="RigutiniMestica_intro-n11" type="comm" target="quarantana/intro.xml#intro_11259" targetEnd="quarantana/intro.xml#intro_11262"><ref rend="bold">quando non è d'avanzo</ref>:  In quest'ultimo capoverso l'autore accenna alla sua dottrina intorno alla lingua; la qual dottrina, secondo il Morandi, «aveva già maturata dentro di sè prima di mettersi a scrivere il romanzo, ed espose e dimostrò circa vent'anni dopo nella Lettera al Carena e più ampiamente dipoi negli ultimi scritti intorno alla lingua italiana.» Ma quest’opinione del Morandi fu combattuta con buone ragioni e documenti dal D'Ovidio, il quale sostiene che nella mente del Manzoni fin da quel tempo vi fosse come un addentellato alla sua futura dottrina, non già questa nella sua forma concreta e definitiva. La lingua dei Promessi Sposi. Napoli 1880, pag. 151 e segg. Il Tommasèo alla fine dell'Introduzione nota: «La modestia e il lepore sono il carattere di questa prefazione, e sono ben temperati una dall'altro; il carattere d'ogni grand'uomo.»</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

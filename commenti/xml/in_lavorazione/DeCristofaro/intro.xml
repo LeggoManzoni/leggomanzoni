@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Francesco De Cristofaro (2014)</title>
+       <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="CL">Chiara Leali</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_intro">
+        <note xml:id="DeCristofaro_intro-n1" type="comm" target="quarantana/intro.xml#intro_10000"><ref rend="bold">Intestazione F[rancesco] Gonin. L’immagine, che fa da intestazione, è composta da «due soggetti distinti</ref>:  il principale [al centro] rappresenta un genietto» con le torce in mano, ed è «allegoria del destino umano»; l’altro, confinato ai lati della vignetta, [raffigura invece] un satiro che cerca di afferrare una ninfa»: questo secondo elemento «costituisce un discreto accenno simbolico» al tema del romanzo (cfr. Barelli [1991]: 221). Nigro (2002) ha insistito sulla «disarmonia antiidillica introdotta dal Satiro» e ispirata all'Aminta di Torquato Tasso.</note>
+        <note xml:id="DeCristofaro_intro-n2" type="comm" target="quarantana/intro.xml#intro_11264"><ref rend="bold">Capolettera [Francesco] Gonin. La vignetta funge da capolettera per l’incipit dell'Introduzione. L’incrocio tra schienale e braccioli della sedia disegna la “L” di «L’Historia», che è l’inizio del «graffiato e dilavato manoscritto» seicentesco, alla cui trascrizione è nel frattempo impegnata la figurina qui rappresentata seduta sul seggiolone, raffigurazione di colui che dice “io” in queste prime pagine del romanzo. Il lettore viene calato dentro lo studio dell’autore, cui quasi si affianca nel faticoso impegno di decrittare la grafia antica per cavarne «una storia così bella». Rendere l’impressione del “contatto” coi documenti originali (anche se qui si tratta solo di un’invenzione dell’autore) è una strategia che il narratore adotta più volte nel corso dell’opera, specialmente quando si tratta di dare conto del funzionamento delle istituzioni e del potere. La vignetta funge dunque da rappresentazione di quel doppio processo di «scoperta» e «rifacimento» di cui si legge nel frontespizio editoriale.</ref>: </note>
+        <note xml:id="DeCristofaro_intro-n3" type="comm"><ref rend="bold">Introduzione</ref>:  Secondo un costume letterario antico, nonché suo personale, Manzoni si riserva un «cantuccio» per rivolgersi direttamente alla comunità dei lettori: nella complessa strategia metaletteraria che disegna, l'Introduzione - la cui specificità è sottolineata anche graficamente nella Quarantana, dove è impaginata sue due colonne - ricopre ovviamente un ruolo fondamentale. Guardando ai più prossimi e riconosciuti modelli, l’autore del «romanzo milanese europeo» (Raimondi [1987]) poteva trovare un’esemplare applicazione dei principi e delle posologie paratestuali dei «componimenti misti di storia e d’invenzione» nell'Ivanhoe (1819). Nel rimodulare il fortunato topos del manoscritto ritrovato, lo scrittore dei Promessi Sposi ingaggia con l’anonimo compilatore di un autografo rovinato e imprecisato una gara che è insieme di contenuto e di forma, di stile e di lingua. Insieme alla maniacale produzione di prove testimoniali, con il maestro edimburghese (da cui, nei fatti, prende spesso le distanze, specie negli epistolari con Claude Fauriel ed Ermes Visconti), Manzoni condivide anche altro: l’esibizione di una spiccata funzione editoriale più ancora che autoriale, la cura verso il lettore comune, il gesto di posizionamento e perfino di polemica preventiva rispetto al pubblico colto, infine l’autorappresentazione intellettuale in duplice posa di scienziato e di letterato. Più ancora che di introduzioni, si tratterà allora - per entrambi i romanzieri, sia pure con diversi registri stilistici e modalità narrative - di spazi di empatia e di negoziazione, ove si istituisce il contatto fra pubblico e autore e insieme si dettano le condizioni del contratto della finzione.</note>
+        <note xml:id="DeCristofaro_intro-n4" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037"><ref rend="bold">L'Historia... in battaglia</ref>:  Fra la prima intuizione («guerra illustre contro la Morte») e il testo dato infine alle stampe non cambia tanto il tono, quanto il paradigma: da esercizio di esorcismo, la ricostruzione storica si fa milizia contro tutti i simulacri del tempo. L'incipit si serve di un pedale solenne e di una retorica assertiva: il contraffattore trafuga al secolo barocco stile e temi. Se il dossier delle possibili fonti secentesche chiama a raccolta autori di rango e di militanza diversa (da Lope de Vega a Cervantes, da Brignole Sale a Tadino, da Mascardi a Bartoli...), la patinatura linguistica è, finanche nella resa grafica, pressoché impeccabile: la forma è al servizio di un estremo dramma barocco, stipato di allegorie - laddove nel Fermo il fenomeno grafico della maiuscolatura era assai più circoscritto - e di macabre figurazioni.</note>
+        <note xml:id="DeCristofaro_intro-n5" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">Ma... gloriose</ref>:  Muove da qui una terna di avversative («ma»... «però»... «solo che») che conferisce al periodare manzoniano una forma contorta, attorcigliata: quasi l’argomentazione preconizzi in modo subliminale, col sovrappiù della veste arcaizzante, quell’estetica della «serpentina» cui l’autore non lesinerà, già nelle pagine che immediatamente seguono, i suoi omaggi. Insieme alle endiadi e dittologie («di Palme e d’Allori», «Prencipi e Potentati»), anche la ridondanza contribuisce all’affettata involuzione del fraseggio. Infine, un lampante rimando tassiano - «tessere fregi al ver» essendo formula emblematica dei Discorsi dell'arte poetica (1587) - inaugura, col sussidio di un’aulica selezione verbale, quella che sarà una imagery metaforica e metanarrativa riaffiorante lungo l’intero testo. gl'illustri Campioni: gli storici.</note>
+        <note xml:id="DeCristofaro_intro-n6" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">Però... emolumenti</ref>:  Il topos modestiae è subito contraddetto dal dettato solenne di quel che segue; tutto l’inserto è, peraltro, ricco di petrarchismi, oratoria sacra, emblemi della cultura secentesca, figure retoriche, “carnevaletti” di bene e male. Le parole con l’iniziale maiuscola configurano qui una sorta di mappa concettuale, ove si stagliano dapprima ipostasi secolari (i Labirinti, il Racconto-Relatione, il Teatro e le Traggedie, le Imprese), e poi entità celesti (il Sole, la Luna, le Stelle, i Pianeti, il Cielo stesso).</note>
+        <note xml:id="DeCristofaro_intro-n7" type="comm" target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  ‘ottoni’, trombe di guerre; capitorno: ‘capitarono’.</note>
+        <note xml:id="DeCristofaro_intro-n8" type="comm" target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136"><ref rend="bold">gente meccaniche, e di piccol affare</ref>:  persone umili, impiegate in lavori manuali.</note>
+        <note xml:id="DeCristofaro_intro-n9" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  ‘schiettamente e genuinamente’.</note>
+        <note xml:id="DeCristofaro_intro-n10" type="comm" target="quarantana/intro.xml#intro_10188"><ref rend="bold">climi</ref>:  ‘paesi’.</note>
+        <note xml:id="DeCristofaro_intro-n11" type="comm" target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  ‘riparo’ (spagn.).</note>
+        <note xml:id="DeCristofaro_intro-n12" type="comm" target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">Re Cattolico</ref>:  il sovrano di Spagna (all’epoca Filippo IV).</note>
+        <note xml:id="DeCristofaro_intro-n13" type="comm" target="quarantana/intro.xml#intro_10199" targetEnd="quarantana/intro.xml#intro_10203"><ref rend="bold">quel Sole che mai tramonta</ref>:  riferimento alla nota affermazione di Carlo V per cui sul suo impero non tramontava mai il sole.</note>
+        <note xml:id="DeCristofaro_intro-n14" type="comm" target="quarantana/intro.xml#intro_10217"><ref rend="bold">l'Heroe</ref>:  il governatore del ducato di Milano.</note>
+        <note xml:id="DeCristofaro_intro-n15" type="comm" target="quarantana/intro.xml#intro_10254" targetEnd="quarantana/intro.xml#intro_10282"><ref rend="bold">altra causale... fattura diabolica</ref>:  ‘solo un intervento delle arti diaboliche può causare i mali che affliggono un paese retto da così eccelsi governanti’.</note>
+        <note xml:id="DeCristofaro_intro-n16" type="comm" target="quarantana/intro.xml#intro_10300" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">d'Argo... Briareo</ref>:  mostri mitologici, dotati rispettivamente di cento occhi e di cento braccia.</note>
+        <note xml:id="DeCristofaro_intro-n17" type="comm" target="quarantana/intro.xml#intro_10309" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">li pubblici emolumenti</ref>:  ‘il bene comune’.</note>
+        <note xml:id="DeCristofaro_intro-n18" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">Per locchè... accidenti</ref>:  Per giustificare l'«imperfettione» del suo racconto, cioè le lacune di ordine onomastico e toponomastico, il secentista si aggroviglia dapprima in un argomento paradossale per un “historico” (secondo cui essa sarebbe da ascriversi ai troppi anni trascorsi dagli eventi); poi - espressamente additando la «Filosofia» come campo del ragionamento - in un frusto riuso del “rasoio di Occam”: la «sostanza» della narrazione non si perde, se essa è privata di quei «puri purissimi accidenti». Una protesta che, considerati i nomi da commedia dell’arte che saranno via via sciorinati dal narratore, risuona umoristicamente.</note>
+        <note xml:id="DeCristofaro_intro-n19" type="comm" target="quarantana/intro.xml#intro_10419"><ref rend="bold">verun</ref>:  ‘alcuno’.</note>
+        <note xml:id="DeCristofaro_intro-n20" type="comm" target="quarantana/intro.xml#intro_10429"><ref rend="bold">accidenti</ref>:  termine della scolastica indicante gli attributi estrinseci delle cose.</note>
+        <note xml:id="DeCristofaro_intro-n21" type="comm" target="quarantana/intro.xml#intro_10467" targetEnd="quarantana/intro.xml#intro_10496"><ref rend="bold">Questa riflessione... di fare</ref>:  Spezzando la parola del secentista nel vivo del suo teorema, irrompe, con una “psiconarrazione” in discorso diretto, la «riflessione dubitativa» d’autore. Sulla scena del testo salgono ora il «travaglio» diretto (e con l’evidenza grafica del tondo che subentra al corsivo) del filologo e, simmetricamente, la «fatica» del malcapitato lettore in lotta con uno stile ampolloso.</note>
+        <note xml:id="DeCristofaro_intro-n22" type="comm" target="quarantana/intro.xml#intro_10444"><ref rend="bold">dilavato</ref>:  ‘sbiadito’.</note>
+        <note xml:id="DeCristofaro_intro-n23" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_11111"><ref rend="bold">Il buon secentista... mani</ref>:  Ciò che rende indigesto il «manoscritto dilavato» è proprio quella lingua di cui l’«esercizio di stile» dell’esordio ha fornito una quintessenza: una lingua «dozzinale», «sguaiata», «scorretta», zeppa di forestierismi e di solecismi, di idiotismi e secentismi. Fra il lettore dell’Ottocento, subito accattivato dal narratore sul finire del capoverso, e la «goffaggine ambiziosa» che è la cifra ossimorica del Seicento, la comunicazione pare impossibile. Si segnala che nel Fermo e Lucia, tanto nell’Introduzione originaria quanto nell’«Introduzione rifatta da ultimo», erano presenti cruciali argomentazioni - sul romanzo come «genere proscritto», sul pubblico femminile, sulla “pasta” linguistica adoperata - che vengono qui soppresse: cfr. de Cristofaro (2009).</note>
+        <note xml:id="DeCristofaro_intro-n24" type="comm" target="quarantana/intro.xml#intro_10514"><ref rend="bold">concettini</ref>:  ‘traslati lambiccati’.</note>
+        <note xml:id="DeCristofaro_intro-n25" type="comm" target="quarantana/intro.xml#intro_10623"><ref rend="bold">rettorica</ref>:  ‘arte dello scrivere’ (con sfumatura ironica).</note>
+        <note xml:id="DeCristofaro_intro-n26" type="comm" target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  ‘scorrettezze sintattiche’.</note>
+        <note xml:id="DeCristofaro_intro-n27" type="comm" target="quarantana/intro.xml#intro_10950" targetEnd="quarantana/intro.xml#intro_10956"><ref rend="bold">il lettore... negarla</ref>:  Nella transizione dal manoscritto individuale ai documenti molteplici - dal feticismo di una fonte alla collazione tra le fonti - Manzoni mette in scena una sorta di rivoluzione copernicana. Replicando il gesto, e il cambio di paradigma, impresso dalla «scienza nuova», vara la sua scrittura come avventura deH’intelligenza e della scienza e come sfida allo scetticismo del lettore modello.</note>
+        <note xml:id="DeCristofaro_intro-n28" type="comm" target="quarantana/intro.xml#intro_10804"><ref rend="bold">presentato</ref>:  ‘presentata’ (forse svista, forse toscanismo).</note>
+        <note xml:id="DeCristofaro_intro-n29" type="comm" target="quarantana/intro.xml#intro_11003" targetEnd="quarantana/intro.xml#intro_11008"><ref rend="bold">regola... diritto</ref>:  La fiera dei saperi si chiude con il «diritto», richiamato in modo esplicito nel testo: l’ultimo capoverso (che nelle due introduzioni al Fermo ospitava rispettivamente un topico congedo al lettore e una peroratio agli scrittori perché si interrogassero sulla possibilità di «uso universale della lingua comune») azzarda infatti una teoria giuridica della riscrittura. Manzoni sembra comprendere, all’altezza dei Promessi Sposi, come la narrazione debba economizzare sulle occasioni di riflessione sulla letteratura.</note>
+        <note xml:id="DeCristofaro_intro-n30" type="comm" target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  ‘eventuali’.</note>
+        <note xml:id="DeCristofaro_intro-n31" type="comm" target="quarantana/intro.xml#intro_11263"><ref rend="bold">Figura 3 F[rancesco] Gonin. La vignetta sigilla in maniera umoristica la conclusione del ragionamento sulla opportunità di giustificare la propria opera. Com’è noto, Manzoni stava effettivamente lavorando a un libro che parla di questo libro, il saggio Del romanzo storico (1828-1831, pubblicato nel 1850), dove però la soluzione non sarebbe stata così positiva come le ultime frasi dell’Introduzione lascerebbero pensare. Al di là delle riflessioni dell’autore, va tuttavia notato che l’illustrazione propone una fruizione che è al tempo stesso sobria e colta (il lettore è in una biblioteca piena di libri), ma anche dilettosa (il lettore non è più al tavolo da lavoro, ma è seduto in poltrona innanzi a un ampio e si suppone caldissimo caminetto</ref>:  per la cui importanza, cfr. Toschi [1989] e Trama [1999]). I Promessi Sposi, pur presentando una storia secentesca storicamente fondata, restano dunque un libro di piacere, ossia un romanzo, la cui storia va apprezzata anche come finzione avventurosa.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

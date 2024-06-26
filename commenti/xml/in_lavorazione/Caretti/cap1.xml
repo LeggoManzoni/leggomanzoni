@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lanfranco Caretti (1970)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Introduzione, note, apostili e antologia della critica a cura di Lanfranco Caretti</title>
+          <editor>Caretti, Lanfranco</editor>
+          <pubPlace>Bari</pubPlace>
+          <publisher>Editori Laterza</publisher>
+          <date>1970</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div xml:id="Caretti_cap1">
+        <note xml:id="Caretti_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">1.1. Quel ramo</ref>:  è il ramo orientale che e rivolto verso Lecco, mentre quello occidentale piega verso Como. Su questa parte del lago, presso Pescarenico, la famiglia del Manzoni possedeva una villa e quivi Alessandro trascorse parte dell’infanzia e dell'adolescenza.</note>
+        <note xml:id="Caretti_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10059" targetEnd="quarantana/cap1.xml#c1_10060"><ref rend="bold">1.5. il ponte</ref>:  è quello che Azzone Visconti fece costruire nel 1300.</note>
+        <note xml:id="Caretti_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10087"><ref rend="bold">1.7. rincomincia</ref>:  perché l’Adda, dopo essere entrato nel lago di Como a nord, esce a sud proprio da quel ramo del lago a cui si riferisce il M.</note>
+        <note xml:id="Caretti_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">2.2. tre... torrenti</ref>:  il Gerenzone, il Galdone e il Bione.</note>
+        <note xml:id="Caretti_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10137"><ref rend="bold">2.3. Resegone</ref>:  «Resegon: segone, sega grande. Noi trasportiamo la parola Resegon a denotare certa catena di monti che soprastanno al lago di Lecco, e che per le molte loro punte presentano in complesso la figura d’una gran sega» (Cherubini, Vocabolario Milanese-Italiano, Milano, 1814, t. II, p. 93). Il vocabolario del Cherubini fu tra le opere più consultate dal Manzoni nella prima stesura del romanzo.</note>
+        <note xml:id="Caretti_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10260"><ref rend="bold">3.5. terre</ref>:  grosse borgate.</note>
+        <note xml:id="Caretti_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10262"><ref rend="bold">ville</ref>:  piccoli villaggi.</note>
+        <note xml:id="Caretti_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10322"><ref rend="bold">4.4. Ai tempi</ref>:  nel 1628, come sarà precisato più innanzi.</note>
+        <note xml:id="Caretti_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10339"><ref rend="bold">4.5. castello</ref>:  una fortezza militare.</note>
+        <note xml:id="Caretti_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10341" targetEnd="quarantana/cap1.xml#c1_10343"><ref rend="bold">4.6. aveva... l'onore</ref>:  «Il mondo tiene a questi onori, ma il Manzoni sorride del bell’onore e del vantaggio che Lecco risentiva dalla sua guarnigione spagnuola. È il primo accenno alle condizioni politiche; accenno, pur nella forma ironica, assai amaro» (Barbi, «Istituto Lombardo», 1961, p. 405). Giova leggere una Istruzione consegnata dal Consiglio generale della città di Milano a un suo inviato alla Corte di Spagna nel 1627: « I malissimi trattamenti di bastonate, le ingiurie gravissime nella robba, nella vita, nell'honore da questi vassalli sostenute, gli eccessi e misfatti, le rapine e concussioni, le donne stuprate, le vergini violate, i saccheggiamenti, le depredationi, gl’incendi, le barbare crudeltà da così licentiosa soldatesca pubblicamente commesse senza castigo né dimostrazione alcuna. A segno che dagl’istessi nemici poco peggio si poteva temere» (Marche, Il Vicario di Provvisione dei Promessi Sposi, Milano, 1932, p. 9).</note>
+        <note xml:id="Caretti_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10482"><ref rend="bold">5.6. piglian</ref>:  abbracciano.</note>
+        <note xml:id="Caretti_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10590"><ref rend="bold">6.7. degradando</ref>:  digradando.</note>
+        <note xml:id="Caretti_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_10617"><ref rend="bold">7.2-3. passeggiate</ref>:  percorrete con lo sguardo. Da notare l’uso transitivo di passeggiare.</note>
+        <note xml:id="Caretti_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_10696" targetEnd="quarantana/cap1.xml#c1_10697"><ref rend="bold">8.2. sulla sera</ref>:  il Manzoni si rifece scrupolosamente al calendario dell'epoca secondo il quale il 7 novembre 1628 cadde di mercoledì, sì da legare con esattezza l'umile episodio cronachisti con i grandi avvenimenti storici: il tumulto Din S. Martino, accaduto appunto quattro giorni appresso, la discesa dei lanzichenecchi e la peste.</note>
+        <note xml:id="Caretti_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705"><ref rend="bold">don Abbondio</ref>:  il nome ritiene «un aroma lombardo e anzi lariano (Abbondio è il patrono di Como e il titolare d’una fra le più suggestive basiliche del Nord)» (Contini, Onomastica manzoniana, «Corriere della Sera», 20 agosto 1965.</note>
+        <note xml:id="Caretti_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_10726"><ref rend="bold">9.1. manoscritto</ref>:  quello dell’Anonimo da cui si finge tratta la storia del romanzo (cfr. Introduzione). Così molte altre volte in seguito.</note>
+        <note xml:id="Caretti_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_10737"><ref rend="bold">9.2. ufizio</ref>:  uffizio, ufficio. Le preghiere dell’ufficio divino e anche quelle che si devono recitare durante la giornata secondo le ore canoniche. E anche il libretto che le contiene, il breviario.</note>
+        <note xml:id="Caretti_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_10812"><ref rend="bold">9.8. fessi</ref>:  le fessure, gli scoscendimenti.</note>
+        <note xml:id="Caretti_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_10829"><ref rend="bold">9.9. pezze</ref>:  chiazze.</note>
+        <note xml:id="Caretti_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_10899"><ref rend="bold">10.3. cura</ref>:  la sede del curato (chiesa parrocchiale e canonica insieme).</note>
+        <note xml:id="Caretti_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_11192"><ref rend="bold">12.11. bravi</ref>:  bravi o bravacci, cioè sfrontati fuorilegge assoldati dai signori per propria difesa o per imporre la propria volontà ai rivali. I bravi offrivano ai signori la loro opera di sgherri e ne ricevevano in cambio asilo e protezione.</note>
+        <note xml:id="Caretti_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11277"><ref rend="bold">14.4. Sua Maestà</ref>:  Filippo II di Spagna.</note>
+        <note xml:id="Caretti_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11356" targetEnd="quarantana/cap1.xml#c1_11358"><ref rend="bold">14.11. per fargli spalle</ref>:  per spalleggiarlo, per dargli man forte.</note>
+        <note xml:id="Caretti_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11449"><ref rend="bold">16.4. grida</ref>:  bando.</note>
+        <note xml:id="Caretti_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518"><ref rend="bold">17.5. alla corda et al tormento</ref>:  la macchina della tortura descritta più avanti dallo stesso Manzoni: «due travi ritte, con una corda, e con certe carrucole» (XXXIV, 23, 6-7).</note>
+        <note xml:id="Caretti_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">processo informativo</ref>:  procedura fondata non su prove sicuramente accettate ma soltanto su interrogatorio reso in istruttoria.</note>
+        <note xml:id="Caretti_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11532"><ref rend="bold">17.6. galea</ref>:  galera.</note>
+        <note xml:id="Caretti_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_11717"><ref rend="bold">19.8. sbrattare</ref>:  sgomberare.</note>
+        <note xml:id="Caretti_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_11776"><ref rend="bold">20.4. appostatamente</ref>:  con appostamenti, a tradimento.</note>
+        <note xml:id="Caretti_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_11822"><ref rend="bold">20.8. onninamente</ref>:  in tutto e per tutto (latinismo).</note>
+        <note xml:id="Caretti_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_11859"><ref rend="bold">20.11. monizione</ref>:  ammonizione.</note>
+        <note xml:id="Caretti_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_11940"><ref rend="bold">21.7. comminazioni</ref>:  minacce di punizioni severe.</note>
+        <note xml:id="Caretti_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_11974"><ref rend="bold">22.2. cabale</ref>:  intrighi, raggiri.</note>
+        <note xml:id="Caretti_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">22.3. Enrico IV</ref>:  re di Francia dal 1589 al 1610.</note>
+        <note xml:id="Caretti_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">22.4. il duca di Savoia</ref>:  Carlo Emanuele I (1580-1630). «Accenna alla famosa lotta tra questo principe ed Enrico IV per il possesso di Saluzzo, lotta terminata col trattato di Lione del 1601. Durante questa lotta Carlo Emanuele (ch’era genero di Filippo II), stimolato copertamente dagli Spagnoli, tentò, con la complicità del duca di Biron (a cui si accenna subito appresso), di sovvertire l’ordinamento politico della Francia» (Belloni).</note>
+        <note xml:id="Caretti_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_12015" targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">22.5. il duca di Biron</ref>:  il duca di Biron, generale di Enrico IV, fu indotto a complottare contro il suo re dal conte di Fuentes. Perduta così metaforicamente la testa per ambizione, lasciò anche materialmente il capo sul patibolo quando il suo tradimento fu scoperto (1602).</note>
+        <note xml:id="Caretti_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">23.4-5. stampatori regii camerali</ref>:  i tipografi delle stampe ufficiali. «Si chiamava “regia camera” quella che oggi dicesi fisco, erario, tesoro pubblico, cassa dello Stato» (Belloni).</note>
+        <note xml:id="Caretti_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_12265" targetEnd="quarantana/cap1.xml#c1_12268"><ref rend="bold">25.6-7. c'era... tuttavia</ref>:  c’erano ... ancora.</note>
+        <note xml:id="Caretti_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12667"><ref rend="bold">30.5. Renzo Tramaglino</ref>:  il nome Lorenzo è nelle Litanie dei Santi in una serie che non possiamo non dire manzoniana: «Bartholomaee... Laurenti... Gervasi... Ambrosi ... Antoni Dominice». Vi figurano infatti, oltre a Lorenzo (detto da tutti Renzo), anche Bortolo, Tonio e Gervaso, il sagrestano Ambrogio, il piccolo Menico. Di qui dunque deve averlo tratto il Manzoni. In quanto a «Tramaglino», è evidente l’allusione alla professione di filatore (“tramaglio”: rete, cfr. IV, 1, 5) che era appunto il mestiere di Renzo. Nella prima stesura del romanzo il nome era Fermo Spolino.</note>
+        <note xml:id="Caretti_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_12669" targetEnd="quarantana/cap1.xml#c1_12670"><ref rend="bold">Lucia Mondella</ref>:  nel Canone della Messa si legge: «Nobis quoque peccatoribus...cum Felicitate, Perpetua, Agatha, Lucia, Agnete, Caecilia, Anastasia». La serie Perpetua-Lucia-Agnese-Cecilia e soprattutto il binomio Lucia-Agnese lasciano intendere donde il Manzoni abbia derivato il nome della giovane sposa. In quanto a «Mondella», può esserci riferimento alla purezza della fanciulla.</note>
+        <note xml:id="Caretti_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_12724"><ref rend="bold">31.5. comune</ref>:  comunità. Cfr. III, 37, 5.</note>
+        <note xml:id="Caretti_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_12854" targetEnd="quarantana/cap1.xml#c1_12872"><ref rend="bold">33.2-4. una buona bestemmia... un'altra bestemmia</ref>:  «queste due bestemmie in così poche parole è da credere siano introdotte, più che come mezzo d’intimidazione, come colorito storico, appunto perché allora la bestemmia era così comune che, non che fare impressione sui preti, neppure essi sapevano astenersene» (Barbi, « Istituto Lombardo », 1961, p. 406).</note>
+        <note xml:id="Caretti_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_12878"><ref rend="bold">34.1. oratore</ref>:  probabilmente nel significato di ambasciatore, legato. Ma forse anche «nel suo significato più comune (in tono ironico bensì) per le sue qualità di accorto parlatore — specialmente se si confronti col compagno — e per quello che dice e per il tono che sa via via prendere» (Barbi, «Istituto Lombardo», 1961, p. 412).</note>
+        <note xml:id="Caretti_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_13062"><ref rend="bold">37.4. messere</ref>:  nel Seicento era titolo proprio dei parroci, e perciò è qui usato con ogni serietà, e per il colorito storico, senza intenzione canzonatoria.</note>
+        <note xml:id="Caretti_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_13156"><ref rend="bold">39.4. aggranchiate</ref>:  avviluppate strettamente fra loro, cioè quasi paralizzate dalla paura.</note>
+        <note xml:id="Caretti_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_13415"><ref rend="bold">43.2. asili</ref>:  chiese, conventi o palazzi di nobili dove i malfattori trovavano ospitalità e immunità.</note>
+        <note xml:id="Caretti_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13683"><ref rend="bold">47.1. gli uomini</ref>:  gli sbirri.</note>
+        <note xml:id="Caretti_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_13772" targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">48.3. il loro titolo un improperio</ref>:  il titolo di sbirro era considerato un’ingiuria.</note>
+        <note xml:id="Caretti_cap1-n49" type='comm' target="quarantana/cap1.xml#c1_13897" targetEnd="quarantana/cap1.xml#c1_13907"><ref rend="bold">49.5-6. immunità... privilegi... esenzioni</ref>:  dispense da obblighi civili o fiscali; diritti particolari in deroga alle leggi correnti; esenzioni da imposte ecc.</note>
+        <note xml:id="Caretti_cap1-n50" type='comm' target="quarantana/cap1.xml#c1_13924" targetEnd="quarantana/cap1.xml#c1_13926"><ref rend="bold">50.1. i medici stessi</ref>:  persino i medici, noti per i loro disaccordi e per i litigi che li ponevano gli uni contro gli altri, avevano trovato necessario e vantaggioso in quel secolo riunirsi in una loro corporazione.</note>
+        <note xml:id="Caretti_cap1-n51" type='comm' target="quarantana/cap1.xml#c1_14078" targetEnd="quarantana/cap1.xml#c1_14081"><ref rend="bold">52.2. gli anni della discrezione</ref>:  l’età del giudizio, del discernimento.</note>
+        <note xml:id="Caretti_cap1-n52" type='comm' target="quarantana/cap1.xml#c1_14088"><ref rend="bold">52.3. vaso</ref>:  assai fragile, dunque!</note>
+        <note xml:id="Caretti_cap1-n53" type='comm' target="quarantana/cap1.xml#c1_14110"><ref rend="bold">52.4. parenti</ref>:  genitori. E così molte altre volte.</note>
+        <note xml:id="Caretti_cap1-n54" type='comm' target="quarantana/cap1.xml#c1_14257" targetEnd="quarantana/intro.xml#c1_14262"><ref rend="bold">54.4. tra il militare e il civile</ref>:  tra l’autorità militare e quella civile.</note>
+        <note xml:id="Caretti_cap1-n55" type='comm' target="quarantana/cap1.xml#c1_14499"><ref rend="bold">57.1. fantastico</ref>:  stravagante, collerico, prepotente.</note>
+        <note xml:id="Caretti_cap1-n56" type='comm' target="quarantana/cap1.xml#c1_14501" targetEnd="quarantana/cap1.xml#c1_14503"><ref rend="bold">gridare a torto</ref>:  alzare la voce senza ragione, appunto come i collerici e prepotenti.</note>
+        <note xml:id="Caretti_cap1-n57" type='comm' target="quarantana/cap1.xml#c1_14528" targetEnd="quarantana/cap1.xml#c1_14529"><ref rend="bold">57.3. Il battuto</ref>:  chi aveva la peggio.</note>
+        <note xml:id="Caretti_cap1-n58" type='comm' target="quarantana/cap1.xml#c1_14714"><ref rend="bold">60.1. venticinque</ref>:  pochissimi. L'espressione scherzosa è passata in proverbio.</note>
+        <note xml:id="Caretti_cap1-n59" type='comm' target="quarantana/cap1.xml#c1_14933" targetEnd="quarantana/cap1.xml#c1_14936"><ref rend="bold">63.1. portar la loro imbasciata</ref>:  a Renzo e Lucia, i maggiori interessati.</note>
+        <note xml:id="Caretti_cap1-n60" type='comm' target="quarantana/cap1.xml#c1_15148"><ref rend="bold">65.1. Perpetua</ref>:  il nome è tratto dal Canone della Messa: «Perpetua... Lucia ecc.» (cfr. nota a 30, 5). Si è anche pensato al perpetuarsi della donna nel servizio al parroco.</note>
+        <note xml:id="Caretti_cap1-n61" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15201"><ref rend="bold">65.5. l'età sinodale dei quaranta</ref>:  i quarant'anni prescritti dal concilio («sinodo») di Trento come età minima per le domestiche degli ecclesiastici.</note>
+        <note xml:id="Caretti_cap1-n62" type='comm' target="quarantana/cap1.xml#c1_15203"><ref rend="bold">65.6. celibe</ref>:  nubile.</note>
+        <note xml:id="Caretti_cap1-n63" type='comm' target="quarantana/cap1.xml#c1_15269"><ref rend="bold">66.3. legato</ref>:  impacciato, strascicato.</note>
+        <note xml:id="Caretti_cap1-n64" type='comm' target="quarantana/cap1.xml#c1_15274"><ref rend="bold">66.4. adombrato</ref>:  turbato, spaventato.</note>
+        <note xml:id="Caretti_cap1-n65" type='comm' target="quarantana/cap1.xml#c1_15331"><ref rend="bold">67.4. brutto</ref>:  stravolto.</note>
+        <note xml:id="Caretti_cap1-n66" type='comm' target="quarantana/cap1.xml#c1_15476" targetEnd="quarantana/cap1.xml#c1_15479"><ref rend="bold">70.3. le gomita appuntate davanti</ref>:  con le punte dei gomiti rivolte aggressivamente in avanti.</note>
+        <note xml:id="Caretti_cap1-n67" type='comm' target="quarantana/cap1.xml#c1_15640" targetEnd="quarantana/cap1.xml#c1_15641"><ref rend="bold">73.2. del mandante</ref>:  colui che aveva mandato i bravi, don Rodrigo.</note>
+        <note xml:id="Caretti_cap1-n68" type='comm' target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782"><ref rend="bold">75.3. il nostro arcivescovo</ref>:  il cardinale Federigo Borromeo. Cfr. nota a XXII, 1, 2.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

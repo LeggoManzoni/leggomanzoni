@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_intro">
+                <note xml:id="Russo_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10060"><ref rend="bold">L'Historia si puo veramente... sfarzose e brillanti</ref>:  Il saggio che segue ci dà un’idea del presunto manoscritto, da cui il <persName type="author">Manzoni</persName> avrebbe attinto la sua storia. Questa trovata di un manoscritto è di un anonimo autore, a cui riferirsi, non è nuova nella storia delle lettere. Al <persName type="author">Manzoni</persName> fu suggerita da due ragioni, entrambe d’ordine artistico: giocare maliziosamente col doppione di sè stesso, mettendo in bocca all’Anonimo sentenze e giudizi personali, e dare una più forte patina, un più denso colore secentesco al racconto. Il <persName type="author">Manzoni</persName> sentì fortissima questa poesia dell’erudizione, e il romanzo è ricco di <hi rend="italic">stampe secentesche</hi>: una intanto vorrebbe essere questo brano di prosa dell’Anonimo. Il quale, se nello stile è assai artificioso e barocco, nei concetti riflette principi dello stesso <persName type="author">Manzoni</persName>, ironicamente qua e là trasfigurati e travisati. Difatti, spogliata dalle metafore ampollose la prosa vorrebbe dire questo: <hi rend="italic">La storia eterna i fatti umani, ma gli storici si fermano a raccontare soltanto le imprese dei principi e dei potenti. Io non ho così grandi capacità e mi limiterà allora a narrare una, storia di poveri artigiani; Si tratta invero di una storia, piena di casi tristi e di vere tragedie, ed è strano che siano avvenuti in un momento così felice per il genere umano, mentre governavano nel mondo re, principi, senatori cosi solleciti del pubblico bene: deve evidentemente trattarsi di un’influenza maligna del diavolo! Ho taciuto talvolta i nomi di alcuni personaggi e di alcuni luoghi; ma chi si intende un po’ di filosofia sa che i nomi sono dei purissimi accidenti, e deve riconoscere che quanto alla sostanza non manca nulla.</hi></note>
+                <note xml:id="Russo_intro-n2" type="comm" target="quarantana/intro.xml#intro_10061" targetEnd="quarantana/intro.xml#intro_10070"><ref rend="bold">imbalsamando co' loro inchiostri... Potentati</ref>:  Il <persName type="author">Manzoni</persName> polemizzò sempre nei suoi scritti teorici e storici contro questo concetto della storia illustre, che ha l’occhio soltanto ai grandi avvenimenti e ai grandi personaggi. La storia è fatta anche dagli umili, ed egli, per esempio, depreca che «i desideri, i timori, i patimenti, lo stato generale dell’immenso numero d’uomini che non ebbero parte attiva» in un avvenimento sia trascurato perfino dai cronisti. «I cronisti del medioevo raccontano per lo più i soli avvenimenti principali e straordinari, e fanno la storia del solo popolo conquistatore, e qualche volta dei soli re e dei personaggi primari di quel popolo.» Orbene, «un’immensa” moltitudine d’uomini, una serie di generazioni, che passa sulla terra, sulla sua terra, inosservata, senza lasciarci traccia, è un triste ma importante fenomeno». (<bibl><title rend="italic">Discorso sopra alcuni punti della storia longobardica in Italia</title></bibl>, pp. 327, 333,349). La storia di <persName>Renzo</persName> e <persName>Lucia</persName>,                <hi rend="italic">gente meccaniche e di piccol affare</hi>, ha invece la sua importanza, perché ci può far vedere riflessi in un piccolo mondo le influenze e gli effetti della storia illustre.</note>
+                <note xml:id="Russo_intro-n3" type="comm" target="quarantana/intro.xml#intro_10094" targetEnd="quarantana/intro.xml#intro_10102"><ref rend="bold">Alla mia debolezza non è lecito... argomenti</ref>:  La ragione vera è quella detta di sopra: gli umili significano talvolta assai meglio quella che è stata la civiltà di un secolo. Ma il <persName type="author">Manzoni</persName>, nelle vesti del suo Anonimo, ironicamente si finge troppo debole per giungere a imbalsamare con i suoi inchiostri <bibl><title rend="italic"> le imprese de’ Principi e Patentati,</title></bibl> e per questo avrebbe preferito raccontare un’umile storia.</note>
+                <note xml:id="Russo_intro-n4" type="comm" target="quarantana/intro.xml#intro_10190" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">sotto l'amparo del Re Cattolico</ref>:  L’amparo significa la protezione, ed è parola spagnuola che è stata adoperata anche da <persName>don Rodrigo</persName> negli <bibl><title rend="italic">Sposi promessi</title></bibl>, quando va a chiedere l’aiuto dell’<persName>Innominato</persName>. Questo è il solito pezzo adulatorio per i potenti, che non deve mancare in una prosa del Seicento. Pensate un po’l Il re di Spagna è <bibl><title rend="italich">il Sole che mai tramonta</title></bibl>, il governatore del milanese è <bibl><title rend="italic">la Luna giammai calante</title></bibl>, gli amplissimi senatori sono <bibl><title rend="italic">le stelle fisse</title></bibl>, gli altri spettabili magistrati sarebbero erranti pianeti: tutto un nobilissimo cielo di lumi!</note>
+                <note xml:id="Russo_intro-n5" type="comm" target="quarantana/intro.xml#intro_10276" targetEnd="quarantana/intro.xml#intro_10282"><ref rend="bold">Se non se arte e fattura diabolica</ref>:  Se le cose in questo mondo vanno pur così male, nonostante l’assistenza di tanti eroi, la colpa deve essere proprio del diavolo; e qui, nell’ingenua congettura dell’Anonimo,si scopre acerbissima la satira del <persName type="author">Manzoni</persName>.</note>
+                <note xml:id="Russo_intro-n6" type="comm" target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">Per li pubblici emolumenti</ref>:  Per l’interesse e il bene pubblico. </note>
+                <note xml:id="Russo_intro-n7" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold"> Per locchè.... </ref> «Nota subito, la vuota sonorità del nesso, perchè il concetto che segue, che lo scrittore non farà nomi e parlerà dei luoghi senza, precisarli, non è affatto conseguente a quello che precede.»</note>
+                <note xml:id="Russo_intro-n8" type="comm" target="quarantana/intro.xml#intro_10388" targetEnd="quarantana/intro.xml#intro_10397"><ref rend="bold">questo tale Critico... della Filosofia</ref>:  Anche questa battuta, pur nel suo travisamento parodistico, ha un significato serio: un’opera d’arte non ha bisogno di fissare in maniera troppo precisa nomi e luoghi e date. La vaghezza del luogo e del tempo è sommamente poetica; ma questa ragione artistica, intuita dal <persName type="author">Manzoni</persName>, viene travestita come una ragione di semplice prudenza dell’Anonimo, il quale, però, piena la testa della filosofia scolastica del tempo, finisce col giustificare, non soltanto psicologicamente, ma anche filosoficamente, tali reticenze del suo racconto. I nomi sono puri accidenti e, a questo punto, non senza una sfumatura di malizia verbale, il <persName type="author">Manzoni</persName> taglia l’artefatto brano. Nel quale è da ammirare non soltanto la parodia dello stile secentesco, e il rispetto scrupoloso della preziosa grafia del tempo, ma anche l’arte con cui lo scrittore ha espresso suoi sentimenti e giudizi assai seri, sotto la forma goffa e ingenua delle parole dell’Anonimo. L'Anonimo è uno sdoppiamento della sua personalità già fin da questa <hi rend="italic">Introduzione</hi>, la quale, così, resta legata intimamente allo spirito del romanzo, e va letta non soltanto come arguto esempio di prosa secentesca, ma come riflesso dello stato d’animo e delle intenzioni dell’artista.</note>
+                <note xml:id="Russo_intro-n9" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10448"><ref rend="bold">Dilavato e graffiato autografo</ref>:  Sbiadito e tutto sgorbi.</note>
+                <note xml:id="Russo_intro-n10" type="comm" target="quarantana/intro.xml#intro_10606" targetEnd="quarantana/intro.xml#intro_10607"><ref rend="bold">d'eccitar maraviglia</ref>:  È noto come <persName type="author">G. B. Marino</persName> così compendiasse la poetica del secolo: «È del poeta il fin la meraviglia.»</note>
+                <note xml:id="Russo_intro-n11" type="comm" target="quarantana/intro.xml#intro_10620" targetEnd="quarantana/intro.xml#intro_10630"><ref rend="bold">Un po' di rettorica, ma... di buon gusto</ref>:  Qui la rettorica è nel significato di arte: i <hi rend="italic">rhétoriciens</hi> ancora in <placeName>Francia</placeName> sono gli scrittori molto letterati. E letteratissimo fu anche il <persName type="author">Manzoni</persName>, ma di una rettorica molto discreta. Male s’interpreta da parecchi commentatori rettorica nel significato di vuota o ampollosa oratoria. La vuota o ampollosa oratoria, in nessun caso, potrebbe essere discreta, fine, di buon gusto.</note>
+                <note xml:id="Russo_intro-n12" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">In questo paese</ref>:  In <placeName>Lombardia</placeName>. Non a caso il <persName type="author">Manzoni</persName> limita la censura al Seicento letterario lombardo. In <placeName>Toscana</placeName> c’era un prosatore come <persName type="author">Galileo Galilei</persName>.</note>
+                <note xml:id="Russo_intro-n13" type="comm" target="quarantana/intro.xml#intro_10762" targetEnd="quarantana/intro.xml#intro_10782"><ref rend="bold">In quanto storia... Molto bella</ref>:  Il <persName type="author">Manzoni</persName> non giudica quindi come stile, che sarebbe stata la sua presunzione ma soltanto per il suo contenuto; e la trova storicamente interessante per rendere il colore del secolo. È un’affermazione, questa, che ci richiama discretamente alla poetica del romanzo storico, che allora stava tanto a cuore al Manzoni, e che più tardi doveva rinnegare. (Cfr. <bibl><title rend="italic">Del romanzo storico</title></bibl>, ecc., 1845, p. 835).</note>
+                <note xml:id="Russo_intro-n14" type="comm" target="quarantana/intro.xml#intro_10819" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">esposta con un'ingenuità</ref>:  L’ingenuità con cui egli presenta la genesi del libro sarebbe invero assai poca, se poco importante è l’opera sua di trascrittore. Ciò che equivale a dire, graziosamente, che quello dello scartafaccio è soltanto una maliziosa trovata. Vedi come dopo averci illuso sullo strano manoscritto, lo scrittore stesso ci metta sull’avviso perché non gli si creda.</note>
+                <note xml:id="Russo_intro-n15" type="comm" target="quarantana/intro.xml#intro_10855" targetEnd="quarantana/intro.xml#intro_10857"><ref rend="bold">interrogare altri testimoni</ref>:  E invero il <persName type="author">Manzoni</persName> condusse studi profondi e minuti sul secolo.</note>
+                <note xml:id="Russo_intro-n16" type="comm" target="quarantana/intro.xml#intro_10897" targetEnd="quarantana/intro.xml#intro_10900"><ref rend="bold">in cose più forti</ref>:  Si annunzia già in queste parole, la riprovazione che il <persName type="author">Manzoni</persName> fece della falsa etica politico-sociale e del fariseismo religioso del Seicento.</note>
+                <note xml:id="Russo_intro-n17" type="comm" target="quarantana/intro.xml#intro_10934" targetEnd="quarantana/intro.xml#intro_10938"><ref rend="bold">citeremo alcuna di quelle testimonianze</ref>:  II <persName type="author">Ripamonti</persName> tra gli altri.</note>
+                <note xml:id="Russo_intro-n18" type="comm" target="quarantana/intro.xml#intro_11031" targetEnd="quarantana/intro.xml#intro_11037"><ref rend="bold">del modo da noi tenuto</ref>:  Il problema della lingua travagliò per tutta la vita il <persName type="author">Manzoni</persName>, e, prima. del romanzo, egli aveva cominciato a scrivere il <bibl><title rend="italic">Sentir Messa</title></bibl>, scoperto e pubblicato recentemente dal<hi rend="italic">Bulferetti </hi>(<placeName>Milano</placeName>, Bottega. di poesia, 1923).</note>
+                <note xml:id="Russo_intro-n19" type="comm" target="quarantana/intro.xml#intro_11053" targetEnd="quarantana/intro.xml#intro_11056"><ref rend="bold">critiche possibili e contingenti</ref>:  Contingenti = eventuali. Quindi è un rinforzamento di possibili, come chi dicesse tutte le critiche possibili e immaginabili. Il termine ricercato e filosofico è detto «con un certo scherzoso».</note>
+                <note xml:id="Russo_intro-n20" type="comm" target="quarantana/intro.xml#intro_11090" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">una risposta trionfante... ma le mutano</ref>:  È ironico. La sua risposta non era veramente trionfante, ma appariva soltanto tale per l’abilità con cui, a una pretesa critica, egli rispondeva, come di solito si risponde nelle discussioni letterarie, cambiando le carte in tavola. Come sempre, il <persName type="author">Manozni</persName> quando accenna all’opera sua, mette una punta di facezia, ad alleggerirne l’importanza.</note>
+                <note xml:id="Russo_intro-n21" type="comm" target="quarantana/intro.xml#intro_11114" targetEnd="quarantana/intro.xml#intro_11118"><ref rend="bold">le facevam battere l'una dall'altra</ref>:  Qui l’azione non è più 'contro di sè, ma contro i critici i cui pareri discordi si contrabbattono talvolta e si neutralizzano.</note>
+                <note xml:id="Russo_intro-n22" type="comm" target="quarantana/intro.xml#intro_11167" targetEnd="quarantana/intro.xml#intro_11171"><ref rend="bold">le mandavamo insieme a spasso</ref>:  Talvolta critiche discordi e antitetiche hanno origine dallo stesso pregiudizio; mostrata la falsità di quel pregiudizio, si viene a inficiare l’importanza e la verità dell’una e dell’altra. Sono punte aguzze queste del <persName type="author">Manzoni</persName> contro la critica, ma scoccate con, la consueta grazia e discrezione, che egli, prima di battere contro gli altri, arguteggia contro se stesso e si mette nel mazzo dei colpevoli di sofistica.</note>
+                <note xml:id="Russo_intro-n23" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11177"><ref rend="bold">Non ci sarebbe mai stato autore</ref>:  Riprende l’ironia contro se stesso; tra ragioni abilmente diversive ed evasive, e ragioni veramente giuste contro le altre storture, il <persName type="author">Manzoni</persName> sarebbe stato ben sicuro di mostrare di aver fatto bene in tutto e per tutto.</note>
+                <note xml:id="Russo_intro-n24" type="comm" target="quarantana/intro.xml#intro_11246" targetEnd="quarantana/intro.xml#intro_11249"><ref rend="bold">potrebbe parer cosa ridicola</ref>:  Un’opera d’arte si deve giustificare in se stessa; ma, in verità, il <persName type="author">Manzoni</persName>, come tutti i veri artisti, fu assiduo critico dell’opera sua, e nulla di ridicolo che a un libro di arte si accompagni un libro di riflessioni critiche. Dante scrisse il<bibl><title rend="italic"> De vulgari eloquentia</title></bibl>, il <persName type="author">Leopardi</persName> le numerose pagine di autocritica dello <bibl><title rend="italic">Zibaldone</title></bibl>, e anche il <persName type="author">Manzoni</persName> continuò a travagliarsi criticamente sul problema della lingua; e, se interruppe la trattazione del <bibl><title rend="italic">Sentir messa</title></bibl>, ciò avvenne non perché sentisse ridicola quell’opera sua, ma perchè l’argomento da strettamente tecnico-stilistico gli si veniva tramutando in una dissertazione filosofica sul problema del linguaggio in generale. Dissertazione filosofica, che, in altri momenti, doveva poi toccare il problema politico: la parlata fiorentina, presa a modello, era per lui difatti come un simbolo, una specie di mito dell’unità politica degli italiani a cui bisognava collaborare in tutti i modi, anche fondando ed affermando l’assai discutibile primato ed esemplarità della lingua fiorentina.</note>
+            </div>
+</body>
+</text>
+</TEI>

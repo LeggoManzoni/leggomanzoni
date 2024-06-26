@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giovanni Getto (1964)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Giovanni Getto</title>
+          <editor>Getto, Giovanni</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1964</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div xml:id="Getto_cap1">
+        <note xml:id="Getto_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10260"><ref rend="bold">terre</ref>:  Borghi, come dice più avanti il Manzoni.</note>
+        <note xml:id="Getto_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10262"><ref rend="bold">ville</ref>:  Villaggi.</note>
+        <note xml:id="Getto_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10811" targetEnd="quarantana/cap1.xml#c1_10812"><ref rend="bold">i fessi</ref>:  Le fenditure.</note>
+        <note xml:id="Getto_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_11173" targetEnd="quarantana/cap1.xml#c1_11176"><ref rend="bold">congegnate come in cifra</ref>:  Quasi a comporre eleganti iniziali.</note>
+        <note xml:id="Getto_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">Sua Maestà Cattolica</ref>:  Filippo II di Spagna.</note>
+        <note xml:id="Getto_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_11357" targetEnd="quarantana/cap1.xml#c1_11360"><ref rend="bold">fargli spalle e favore</ref>:  Spalleggiarlo e favorirlo.</note>
+        <note xml:id="Getto_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_11512" targetEnd="quarantana/cap1.xml#c1_11518"><ref rend="bold">esser posto... tormento</ref>:  Sia sottoposto alla tortura per ottenerne la confessione.</note>
+        <note xml:id="Getto_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_11532"><ref rend="bold">galea</ref>:  Galera.</note>
+        <note xml:id="Getto_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_11717"><ref rend="bold">sbrattare</ref>:  Sgomberare.</note>
+        <note xml:id="Getto_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_11776"><ref rend="bold">appostatamente</ref>:  In appostamenti, agguati.</note>
+        <note xml:id="Getto_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  In tutte le maniere.</note>
+        <note xml:id="Getto_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_11940"><ref rend="bold">comminazioni</ref>:  Minacce.</note>
+        <note xml:id="Getto_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_11989" targetEnd="quarantana/cap1.xml#c1_12024"><ref rend="bold">la storia attesta ... testa</ref>:  Il conte di Fuentes riuscì a far muovere Carlo Emanuele I duca di Savoia (1580-1630) contro Enrico IV re di Francia: accenna alla lotta per il possesso di Saluzzo terminata nel 1601 colla rinunzia da parte del principe italiano, stabilita dal gravoso trattato di Lione, di vari territori transalpini ceduti in cambio del marchesato di Saluzzo. Il duca di Biron, generale di Enrico IV, durante la guerra si lasciò indurre, d'accordo con Carlo Emanuele e sotto l’istigazione del conte di Fuentes, a cospirare contro Enrico IV: scoperto, lasciò la testa sotto la scure del carnefice.</note>
+        <note xml:id="Getto_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">stampatori regii camerali</ref>:  Tipografi dello stato, della «Regia Camera», cioè dell'erario, della Cassa dello stato.</note>
+        <note xml:id="Getto_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_12723" targetEnd="quarantana/cap1.xml#c1_12724"><ref rend="bold">del comune</ref>:  Della comunità, di tutti.</note>
+        <note xml:id="Getto_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_13062"><ref rend="bold">messere</ref>:  Vide bene il D'Ovidio che la parola messere è posta «per il colorito storico», e che risponde a un uso prevalso «al tempo dell'azione del romanzo». Lo conferma il Barbi quando osserva: «Lo stesso Manzoni ci attesta esplicitamente quest'uso in una Sua correzione manoscritta, poi abrogata, che leggesi in margine all'esemplare della prima edizione da lui corretto: 'Un di coloro, piantandogli gli occhi in viso, lo abbordò con un messere: titolo che ancor s'usava in contado, dove tanti vocaboli vanno a passare i loro ultimi giorni, ed era proprio spezialmente de’ parochi'».</note>
+        <note xml:id="Getto_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_13415"><ref rend="bold">asili</ref>:  Cioè i conventi e i palazzi, come Spiega più sotto: «dove i birri non avrebber mai osato metter piede».</note>
+        <note xml:id="Getto_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_13772" targetEnd="quarantana/cap1.xml#c1_13776"><ref rend="bold">il loro titolo un improperio</ref>:  Il nome di birro era considerato ingiurioso,</note>
+        <note xml:id="Getto_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_13924" targetEnd="quarantana/cap1.xml#c1_13926"><ref rend="bold">i medici stessi</ref>:  Anche i medici, «noti per non andar mai d'accordo fra loro, tuttavia s'eran indotti in quel secolo a fare una loro corporazione» (Barbi).</note>
+        <note xml:id="Getto_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199"><ref rend="bold">l'età sinodale</ref>:  Stabilita per le domestiche dei sacerdoti dal concilio di Trento e ripetuta dai sinodi diocesani.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

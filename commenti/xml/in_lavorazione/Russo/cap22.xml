@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap22">
+                <note xml:id="Russo_cap22-n1" type="comm" target="quarantana/cap22.xml#c22_10072" targetEnd="quarantana/cap22.xml#c22_10074"><ref rend="bold">Per un uomo</ref>:  C'è in questa esclamazione di stupore, «una specie di dolorosa gelosia.» (PETROCCHI).</note>
+                <note xml:id="Russo_cap22-n2" type="comm" target="quarantana/cap22.xml#c22_10133" targetEnd="quarantana/cap22.xml#c22_10135"><ref rend="bold">Qualche segno nell'aria</ref>:  Delle benedizioni, ma, che nelle parole amaramente scettiche dell’Innominato diventano soltanto «qualche segno nell'aria.»</note>
+                <note xml:id="Russo_cap22-n3" type="comm" target="quarantana/cap22.xml#c22_10182" targetEnd="quarantana/cap22.xml#c22_10187"><ref rend="bold">Fatta così in confuso questa risoluzione</ref>:  «La prima pagina di questo nuovo capitolo, pur essendo qua e là acuta, ha del trito e del fiacco.» (MOMIGLIANO).</note>
+                <note xml:id="Russo_cap22-n4" type="comm" target="quarantana/cap22.xml#c22_10206" targetEnd="quarantana/cap22.xml#c22_10210"><ref rend="bold">La terzetta rimasta sul letto</ref>:  La pistola, con la quale aveva voluto uccidersi.</note>
+                <note xml:id="Russo_cap22-n5" type="comm" target="quarantana/cap22.xml#c22_10270" targetEnd="quarantana/cap22.xml#c22_10273"><ref rend="bold">Posò fuori la carabina</ref>:  Per non spaventare Lucia. Una nuova gentilezza ci sarà, da ora in poi, nei suoi atti.</note>
+                <note xml:id="Russo_cap22-n6" type="comm" target="quarantana/cap22.xml#c22_10279" targetEnd="quarantana/cap22.xml#c22_10280"><ref rend="bold">E picchiò</ref>:  «questa volta non con un calcio» (PISTELLI).</note>
+                <note xml:id="Russo_cap22-n7" type="comm" target="quarantana/cap22.xml#c22_10324" targetEnd="quarantana/cap22.xml#c22_10329"><ref rend="bold">Eran questi i miei ordini, sciagurata</ref>:  Le parole Sono irose, ma piegate almeno dalla compassione assai riguardosa per Lucia.</note>
+                <note xml:id="Russo_cap22-n8" type="comm" target="quarantana/cap22.xml#c22_10396" targetEnd="quarantana/cap22.xml#c22_10401"><ref rend="bold">Farà tutto quello che lei vorrà</ref>:  La conversione dei sentimenti è compiuta: il colloquio col Cardinale ne sugellerà soltanto il risultato.</note>
+                <note xml:id="Russo_cap22-n9" type="comm" target="quarantana/cap22.xml#c22_10411" targetEnd="quarantana/cap22.xml#c22_10415"><ref rend="bold">Che sia qualche principessa costei?</ref>:  Nella Mente della vecchia era impresso «un concetto magnifico e terribile del Potere del suo padrone, e la volontà di lui era per lei come una specie di giustizia fatale.». Chi, se non una principessa poteva scuotere quella sua potenza e quella sua volontà? L'interpretazione della vecchia è da fiaba popolaresca, ed è l’ultima sfumatura di commedia che avvolge la sua servile deformità.</note>
+                <note xml:id="Russo_cap22-n10" type="comm" target="quarantana/cap22.xml#c22_10466" targetEnd="quarantana/cap22.xml#c22_10472"><ref rend="bold">Dal castello al paese dov'era il cardinale</ref>:  Qualche ricercatore si è industriato di determinare l'ubicazione del castello dell’Innominato. Cfr. G. BINDONI, La topografia del romanzo I Promessi Sposi, Milano, 1895, I, pp. 180-82. Il paese dell'incontro con il cardinale sarebbe Chiuso. Ma a noi non importano tutte coteste determinazioni topografiche. Si veda, al cap. I, la n. 63-64.</note>
+                <note xml:id="Russo_cap22-n11" type="comm" target="quarantana/cap22.xml#c22_10629" targetEnd="quarantana/cap22.xml#c22_10632"><ref rend="bold">E la folla s'apriva</ref>:  Tratto epico nella sua brevità. Si tratta semplicemente di un bandito, o del grande tiranno salvatico che commoveva, non soltanto di paura, le moltitudini?</note>
+                <note xml:id="Russo_cap22-n12" type="comm" target="quarantana/cap22.xml#c22_10685" targetEnd="quarantana/cap22.xml#c22_10689"><ref rend="bold">Molti altri preti eran congregati</ref>:  Fra essi, figura senza nome, c'è anche don Abbondio.</note>
+                <note xml:id="Russo_cap22-n13" type="comm" target="quarantana/cap22.xml#c22_10731" targetEnd="quarantana/cap22.xml#c22_10733"><ref rend="bold">Io son forestiero</ref>:  «Che il Cardinale era nella stanza accanto, lo sapeva anche lui, benchè forestiero. Ma non gli par vero di levarsi d’impaccio.» (PISTELLI).</note>
+                <note xml:id="Russo_cap22-n14" type="comm" target="quarantana/cap22.xml#c22_10781" targetEnd="quarantana/cap22.xml#c22_10810"><ref rend="bold">Inchinò l’innominato... disse o balbettò</ref>:  Nota la sequela dei verbi: inchinò, stette a sentir, rimase lì un poco, disse, o balbettò, che fanno sentire la sospensione sospettosa di tutto il contegno e il discorso del cappellano. Il quale riabbassa gli occhi, dopo averli alzati in viso al suo interlocutore, quasi timoroso che debba leggergli quel suo sospetto in fondo all'anima.</note>
+                <note xml:id="Russo_cap22-n15" type="comm" target="quarantana/cap22.xml#c22_10842" targetEnd="quarantana/cap22.xml#c22_10942"><ref rend="bold">A questo punto della nostra storia... moltiplice e fastidiosa perversità</ref>:  Tutto il paragrafo è assai significativo per spiegarci la genesi moralistica o oratoria del personaggio. Anche le immagini, viandante, terreno arido e salvatico, l’ombra d’un bell’albero, fonte d'acqua viva, hanno un significato trasparentemente simbolico. L’aggirarsi tra le passioni inique degli uomini, la Signora, Egidio, don Rodrigo, l’Innominato, tutto questo mondo, per un momento, si tinge agli occhi del M. di una luce trista e fosca. L'artista pare rinneghi la felicità del suo abbandono artistico, e invoca un po' di pace, di ordine morale: la figura del Cardinale è evocata, così, come un'immagine, in cui la mente si ricrea con una placida commozione di riverenza, e con un senso giocondo di simpatia. Dopo tante immagini di dolore, dopo la contemplazione d'una moltiplice e fastidiosa perversità, ecco finalmente un'immagine perfetta di bene e di pace. La genesi oratoria del capitolo, e del personaggio, non potrebbe essere dichiarata più esplicitamente. La figura del Cardinale salirà a diventar poesia in alcune battute dell'incontro e del colloquio con l'Innominato (dico soltanto alcune), e in tutto il colloquio con don Abbondio, e nell'incontro con Agnese e il sarto, in cui questi eroi della piccola ragione, mescolandosi all’eroe della grande ragione, ne tempereranno le note, umanizzando tutta la pagina. C'è da dire poi che l’immagine del viandante, del bell’albero, e della fonte d’acqua viva ha uno stile di convenzionale pietà. Non una immagine di quella vita morale, così intense, come le sa dare il Manzoni. Del resto, la pia accademicità della battuta manzoniana è un riflesso di una battuta tipicamente accademica del Monti, e che si legge nella quinta lezione di eloquenza tenuta all’Università di Pavia, nel 1802: «Coloro che d’estate viaggiano per discoperte e arse campagne, se incontrano per avventura lungo la via un qualche bell'albero pieno d'ombra, ringraziano la fortuna e, stesi sull'erba, si ristorano del loro penoso cammino, per riprenderlo quindi più rinfrancati e allegri. E noi pure viaggiamo per campi sterili e arenosi; e poichè oggi la sorte ci presenta una bella pianta e un bel fonte a cui rinfrescarci — la compagnia di un grandissimo personaggi - io credo che faremmo cosa da stolti, se non ci arrestassimo alquanto a godere di questa gioconda ventura.» La reminiscenza è indubbia; soltanto, se la battuta nel Monti era piuttosto un espediente di eloquenza accademica, un trapasso retorico, nel Manzoni è diventata almeno, se non rappresentazione poetica di vita morale, una pia effusione dell'anima.</note>
+                <note xml:id="Russo_cap22-n16" type="comm" target="quarantana/cap22.xml#c22_10968" targetEnd="quarantana/cap22.xml#c22_10972"><ref rend="bold">Salti addirittura al capitolo seguente</ref>:  Ci guarderemo dall'appoggiare il consiglio dell'autore, che del resto è un consiglio di assai complicata arguzia e astuzia: il capitolo, pur nel suo valore oratorio, ha un’importanza d'equilibrio nell'economia artistica del romanzo. Parecchi critici riprovano tale interruzione di tutto un capitolo; salvo il Tommaseo, che, per il genio del contrasto e per il suo realismo romantico, si dà ad esaltare questa ed altre parti storiche di contro agli episodi di invenzione. La digressione per noi è invece uno di quei riposi, di quegli intermezzi, che servono a dar rilievo alle parti più patetiche e più appassionatamente artistiche. L’indugio prosaico, critico, erudito, apostolico, dopo una profonda commozione poetica, è cosa necessaria e consueta nella logica dello spirito manzoniano. Insistere su tale commozione, valeva un no’ come retorizzarla o almeno involgarirla. In questa sicurezza dello scrittore, che sa interrompere un racconto nel suo momento più patetico, c’è proprio la padronanza dell'ingegno superiore, che contiene e domina i suoi interessi, e, mentre apparentemente li distrae, li viene rafforzando con raccoglimento di nuovi spunti.</note>
+                <note xml:id="Russo_cap22-n17" type="comm" target="quarantana/cap22.xml#c22_11011" targetEnd="quarantana/cap22.xml#c22_11040"><ref rend="bold">La sua vita è come un ruscello... a gettarsi nel fiume</ref>:  È una di quella immagini, che ci richiamano ad una vita di purezza e di innocenza, quali ricorrono negli scritti degli agiografi. E agiografia, nemmeno storia, o critica, come credeva il TOMMASEO, può dirsi un po’ tutto il capitolo. Si rifletta come nel mondo manzoniano la santità è sempre una santità di tipo agostiniano: la santità che viene dopo il peccato, la santità di fra Cristoforo e la santità del l’Innominato. Nel romanzo, c'è la persecuzione del piccolo peccato, del peccato che ci attossica la vita un poco tutti i giorni, del peccato farisaico, che noi riusciamo a dissimulare a noi stessi e agli altri; e cotesta persecuzione è implacabile. Ma davanti al grande peccato, il M. ha una specie di tragico rispetto: anche la Monaca di Monza in ultimo finisce con l'essere avvolta da un'ombra di tragica riverenza. Qui, per il Cardinale, il M. ha voluto invece seguire la via di un cattolicesimo più convenzionale: ha visto nell'uomo il grande gerarca della Chiesa, e gli è parso che non bisognasse offuscarne, con nessuna macula, la fisonomia. Da ciò, lo stile rugiadoso di queste immagini.</note>
+                <note xml:id="Russo_cap22-n18" type="comm" target="quarantana/cap22.xml#c22_11041" targetEnd="quarantana/cap22.xml#c22_11196"><ref rend="bold">Tra gli agi e le pompe... render la sua utile e santa</ref>:  Sono alcune massime della morale cattolica, contratte e simboleggiate in un uomo. Coteste caratteristiche possono essere del cardinale Federigo, come di qualsiasi altro grande cattolico. In questo, l’agiografia si distingue dall'arte e dalla storia: l’arte individualizza e la storia umanizza, mentre l’agiografia si contenta di simboleggiare in termini generali.</note>
+                <note xml:id="Russo_cap22-n19" type="comm" target="quarantana/cap22.xml#c22_11406" targetEnd="quarantana/cap22.xml#c22_11504"><ref rend="bold">Un'altra guerra ebbe a sostenere con gl'istitutori... e ci stanno comodi</ref>:  Momenti questi di un’acutissima psicologia. Ma il Cardinale è messo da parte, o egli rimane un semplice pretesto, ed entra invece il mondo a contaminarne la sacra porpora con il suo realismo, con i suoi pettegolezzi e con le sue miserie ed angustie. Bisogna proprio dire che il mondo, con i suoi peccati quotidiani e con le sue debolezze, è pur materia sacra di arte; i peccati possono essere scrutati, perseguiti, obiurgati, ma sono essi che umanizzano l'arte, poichè l’innocenza è fuori della storia, è una pia costruzione intellettualistica, ed essa si aliena dalla poesia proprio per cotesta astrazione intellettualistica da cui è generata. Qui sono individuati gli adulatori Servili ed opportunisti, e i consiglieri del giusto mezzo: colto stupendamente il giubilo servile, che s'invanisce e si ricrea nello splendore altrui, Ritroviamo l’acutissimo e inclemente moralista, che si avvia a dare splendore d’arte ai peccati degli uomini, scoprendoli. Per l'appunto: non c’è più agiografia, ma avviamento all'arte. È il bozzetto critico, che poi si scioglie nella rappresentazione artistica vera e propria: l’arte di questo moralismo critico si avrà nei ritratti dei servi, dal commensale del padre di Lodovico, ai convitati di don Rodrigo, alle monache del convento di Monza, alla serva dell'Innominato, tutta gente che, per svisceratezza servile, si ricrea nello splendore e nella potenza altrui.</note>
+                <note xml:id="Russo_cap22-n20" type="comm" target="quarantana/cap22.xml#c22_11769" targetEnd="quarantana/cap22.xml#c22_11770"><ref rend="bold">Clemente VIII</ref>:  Aldobrandini, Papa dal 1592 al 1605. Federico era stato nominato cardinale già nel 1587.</note>
+                <note xml:id="Russo_cap22-n21" type="comm" target="quarantana/cap22.xml#c22_12049" targetEnd="quarantana/cap22.xml#c22_12053"><ref rend="bold">In quell'età sudicia e sfarzosa</ref>:  Due aggettivi che definiscono un secolo, e una civiltà. Il particolare della squisita pulizia poteva parere una minuzia, che andava nell’angustioso e nel troppo quotidiano: ma, mentre il particolare pare che cada nel puerile, viene subitamente rinforzato dal contrasto di quella nota polemica.</note>
+                <note xml:id="Russo_cap22-n22" type="comm" target="quarantana/cap22.xml#c22_12118" targetEnd="quarantana/cap22.xml#c22_12120"><ref rend="bold">Questa biblioteca ambrosiana</ref>:  Le lodi tributate dal M. al Borromeo non sono soverchie: si esce qui dall’agiografia, e si passa a una concreta commemorazione storica. L’Ambrosiana fu opera monumentale per il secolo in cui sorse, ed è ancor oggi una delle biblioteche più ricche d’Italia. Ma è significativo che il M. parli degli interessi umanistici e delle inclinazioni mecenatizie del fondatore, e taccia degli scopi apostolici controriformistici che il Cardinale ebbe nel costituire tale biblioteca. Federico fu uno dei più vigorosi e accesi dragoni della Controriforma, ebbe vivissima simpatia per la compagnia di Gesù, e fu propenso a farsi gesuita, ciò che preoccupò vivamente la madre, lo zio Carlo, e perfino il fratello maggiore. Fu fondatore di varie congregazioni antiprotestantiche, tanto che si vede in lui oggi, e non a torto, un precursore dell'odierna Azione Cattolica (cfr. ANGELO SCARPELLINI, F. B. precursore dell'Azione Cattolica, Roma, «Quaderni universitari», Editrice Studium, 1934). Ma a questi scopi controriformistici dell’Ambrosiana è significativo che il M. non accenni affatto: in questa preterizione, io ci sento la riserva del cristiano rigorista Manzoni, che fu sempre tiepido lodatore di quel movimento della Controriforma, movimento tipicamente politico più che religioso, Capeggiato in gran parte dagli avversari dei suoi maestri giansenisti, i gesuiti.</note>
+                <note xml:id="Russo_cap22-n23" type="comm" target="quarantana/cap22.xml#c22_12370" targetEnd="quarantana/cap22.xml#c22_12424"><ref rend="bold">Basterà il dire che... le altre in dimenticanza</ref>:  Le note polemiche contro la pomposa ignoranza del Seicento avvivano questo excursus storico.</note>
+                <note xml:id="Russo_cap22-n24" type="comm" target="quarantana/cap22.xml#c22_12765" targetEnd="quarantana/cap22.xml#c22_12849"><ref rend="bold">Ma pensate che generoso... parte de' suoi</ref>:  In questo paragrafo, assai vivo, non s'asside solenne e immobile la figura del Cardinale, ma tutto un piccolo mondo si muove attorno a lui. Cfr. la n. 135-44. Tutta l'inflessione del periodo ha quell’amarezza contenuta, che è il lievito dell’arte manzoniana, e la quale può concludere con quell’arguzia dei cinquemila scudi, senza che l’arguzia degeneri in freddura.</note>
+                <note xml:id="Russo_cap22-n25" type="comm" target="quarantana/cap22.xml#c22_12990" targetEnd="quarantana/cap22.xml#c22_12994"><ref rend="bold">Ne citeremo qui un solo</ref>:  La storia aneddotica, che si allea all’agiografia.</note>
+                <note xml:id="Russo_cap22-n26" type="comm" target="quarantana/cap22.xml#c22_13188" targetEnd="quarantana/cap22.xml#c22_13356"><ref rend="bold">Ebbe a combattere co' galantuomini... non volete che gli abbracci?</ref>:  Qui l'aneddoto, per il suo colorito polemico, riesce a trascendere il pietismo consueto. Quando c’è il mondo dei piccoli uomini, contro cui battagliare, gli spiriti e l’arte del M. si svegliano. L’aneddoto già ci fa intendere, come una battuta d'anticipo, il colloquio tra il Cardinale e il cappellano crocifero, quando questo lo vorrebbe sconsigliare dall’accogliere la visita dell’Innominato. «Oh, che disciplina è codesta,» interruppe ancora sorridendo Federigo, «che i soldati esortino il generale ad aver paura?» Si ricordi anche l’altra battuta col curato guastamestieri, al cap. XXIV.</note>
+                <note xml:id="Russo_cap22-n27" type="comm" target="quarantana/cap22.xml#c22_13392" targetEnd="quarantana/cap22.xml#c22_13396"><ref rend="bold">Sopra un'indole viva e risentita</ref>:  Qui il Cardinale vive artisticamente per sè stesso, e non per il mondo che lo circonda; ma vive per sè, perchè in lui rispunta l’uomo con le sue passioni e col suo temperamento antico, di uomo caldo e irruente, e dai modi bruschi e severi. È una nota alla fra Cristoforo. Dietro lo soavità del pastore di anima senti allora la lotta, il contrasto interno dell’uomo.</note>
+                <note xml:id="Russo_cap22-n28" type="comm" target="quarantana/cap22.xml#c22_13464" targetEnd="quarantana/cap22.xml#c22_13469"><ref rend="bold">Più mirabile se vi si destavano</ref>:  Bellissima cotesta chiusa, dove, in forma epigrammatica, è esaltata la serenità elevata dell'uomo, o la serenità conquistata rapidamente e tacitamente sul tumulto dell'animo.</note>
+                <note xml:id="Russo_cap22-n29" type="comm" target="quarantana/cap22.xml#c22_13489" targetEnd="quarantana/cap22.xml#c22_13496"><ref rend="bold">Così desiderabile all'ambizione, e così terribile alla pietà</ref>:  Definizione del papato, stupenda per concisione epigrammatica, dove abbiamo un Manzoni, pontefice egli stesso, che guarda severo alle debolezze degli uomini e par che li ammonisca con religiosa gravità. Questa e altre massime sono disseminate nel capitolo (come quella: La vita è il paragone delle parole... da una vita di disinteresse e di sacrifizio), che non sono poesia, ma non sono neanche oratoria. Massime che ci richiamano a quella forma meditativa, propria della musa manzoniana.</note>
+                <note xml:id="Russo_cap22-n30" type="comm" target="quarantana/cap22.xml#c22_13698" targetEnd="quarantana/cap22.xml#c22_13701"><ref rend="bold">Non dobbiamo però dissimulare</ref>:  Quest'ultima pagina è assai significativa, perchè vi troviamo che il M. vorrebbe impegnarsi in una discussione critica sulle dottrine strane professate dal Cardinale, e sul valore letterario delle sue opere, e tutte e due le volte egli, con frasi evasive, si sottrae a quella discussione. C'è un’acrisia volontaristica, in questa pagina, che resta tipica testimonianza dell’atteggiamento oratorio dello scrittore. Il Borromeo credette alle streghe, agli untori, agli indemoniati, e vide opera di stregoneria negli episodi più normali della vita quotidiana. Questo ci è attestato non solo dai biografi contemporanei, i quali, naturalmente, non vedevano in tali strane dottrine una menomazione del sant'uomo, ma dai libri dello stesso Federigo, p. es., dal De cognitione, dove la peste è spiegata come opera di malia. Ed è noto che il Cardinale appoggiò della sua autorità il bruciamento di alcune streghe. Orbene su tutti questi particolari, assai importanti per il M. illuminista, così feroce verso i vari fisici del secolo e verso i giudici della Storia della colonna infame, egli qui trapassa con frasi piuttosto oscure, per concludere alla fine in una forma di agnosticismo e di acrisia.</note>
+                <note xml:id="Russo_cap22-n31" type="comm" target="quarantana/cap22.xml#c22_13722" targetEnd="quarantana/cap22.xml#c22_13726"><ref rend="bold">Piuttosto strane che mal fondate</ref>:  Ma non dice nemmeno di quali opinioni si tratta. Il M. è uno di quelli che «avrebbero una gran voglia di trovarle giuste», e, non riuscendovi per radicata onestà mentale, stende un velo di pietà cristiana su tutto.</note>
+                <note xml:id="Russo_cap22-n32" type="comm" target="quarantana/cap22.xml#c22_13753" targetEnd="quarantana/cap22.xml#c22_13757"><ref rend="bold">ch'erano errori del suo tempo</ref>:  Contro cotesta speciosa scusa degli «errori del suo tempo», il M. batte implacabile nella Storia della colonna infame. Qui, se non l’accampa, pure le riconosce un qualche valore in certi casi. Eppure egli, nell’Introduzione alla Storia della colonna infame, aveva detto che l'ignoranza «non è una scusa, ma una colpa», e ricerca l'origine dell'errore sempre nella coscienza del singolo, e l’ingiustizia dei giudici è per lui sempre «personale e volontaria.» L’illuminista Manzoni, alleato al rigorista cristiano, non poteva risolvere il problema, se non a quel modo. Ma qui il volontarismo apostolico gli prende la mano.</note>
+                <note xml:id="Russo_cap22-n33" type="comm" target="quarantana/cap22.xml#c22_13798" targetEnd="quarantana/cap22.xml#c22_13810"><ref rend="bold">Non volendo risolvere... nè allungar troppo un episodio</ref>:  Modi evasivi, per sfuggire al problema.</note>
+                <note xml:id="Russo_cap22-n34" type="comm" target="quarantana/cap22.xml#c22_13837" targetEnd="quarantana/cap22.xml#c22_13844"><ref rend="bold">Non paia che abbiam voluto scrivere un'orazion funebre</ref>:  Il M. è troppo critico, per non accennare, sia pure con una sfuggente arguzia, a questo dubbio che l’assale sul tono generale di tutto il suo discorso. E, invero, l'impressione finale, se non di un’orazione funebre, è quella di un discorso per la beatificazione di un religioso. Non per nulla gli ammiratori cattolici di Federigo si augurano che, dopo la beatificazione fattane dal Manzoni, la Chiesa intervenga con una canonizzazione ufficiale. (Si veda una commemorazione pavese di CESARE ANGELINI, F. B., 1931).</note>
+                <note xml:id="Russo_cap22-n35" type="comm" target="quarantana/cap22.xml#c22_14072" targetEnd="quarantana/cap22.xml#c22_14076"><ref rend="bold">Ma sarebbero molte e prolisse</ref>:  Un altro modo elegantemente evasivo, per sfuggire al problema. Se il M,, col suo spregiudicato acume, avesse dovuto giudicare del valore letterario di cotest'opera, avrebbe dovuto concludere che si trattava in gran parte di esercitazioni retoriche, senza originalità, dissertazioni accademiche sui luoghi topici della scienza del tempo, omelie sacre, vite di santi. Il M. poi non ignorava che, già nel '600, era stato sollevato il dubbio che autore di tutte quelle opere non fosse il Borromeo: parte di esse erano attribuite al suo segretario, al canonico Ripamonti. E aveva consacrato l'accusa un alto prelato contemporaneo, il cardinale GUIDO BENTIVOGLIO, così scrivendone nelle sue Memorie (l. I, cap. 6). Gi scritti di F. Borromeo «non hanno avuto nè gran corso, nè grande applauso, essendosi dubitato che nei latini non siano mischiate le fatiche degli altri, quasi più che le sue, e gudicandosi i toscani pieni appunto di toscanismi affettati, con eccesso di parole antiche e recondite, e Con povertà di concetti fiammeggianti e vivaci.» TULLIO DANDOLO, nel 1868, si diede la pena di rintracciare e di pubblicare nella Rivista contemporanea, due documenti dai quali apparirebbe chiaro che il redattore di parecchie opere latine del Cardinale è stato il Ripamonti. Qualcuno ha dubitato dell’autenticità di tali documenti, ma senza convalidare, con dimostrazioni scientifiche, tale dubbio. Faccio tutti questi rilievi, non per accusare il M. di parzialità storica, ma soltanto per ribadire il giudizio sul tono fondamentalmente agiografico del capitolo. Nei termini di un racconto agiografico, dall’aneddotica, all’acrisia di certe immagini un po’ pietistiche, tutto viene a giustificarsi, tutto vi è approvabile. Le antinomie della critica sorgono, invece, fatalmente, quando si vuol far passare il capitolo per alta poesia o per storia; e a risolvere tali antinomie sono indirizzate queste nostre note e richiami eruditi.</note>
+            </div>
+</body>
+</text>
+</TEI>

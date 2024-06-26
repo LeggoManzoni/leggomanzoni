@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap38">
+                <note xml:id="Russo_cap38-n1" type="comm" target="quarantana/cap38.xml#c38_10022" targetEnd="quarantana/cap38.xml#c38_16030"><ref rend="bold">L'accoglienze vicendevoli se le immagini il lettore... e senza scomporsi</ref>:  Non ci sarà spero qualche critico che corra a dire che anche qui il <persName type="author">Manzoni</persName> salta certi particolari per non so quali ubbie di morale cattolica. Ricordiamo la battuta del cap. XVII (p. 829): <hi rend="italic">il lettore conosce le circostanze; se le figuri;</hi> e così si veda quello che si dice più giù dell'incontro di <persName>Renzo</persName> e <persName>Lucia</persName>:<hi rend="italic">si rimettono anche quelli all'immaginazione del lettore.</hi> Quello che nel caso di <persName>Lucia</persName> e <persName>Agnese</persName> à chiarissimo, deve essere altrettanto chiaro nel caso dell'incontro di <persName>Renzo</persName> e <persName>Lucia</persName>: l'artista non vi si indugia, per economia generale del racconto, per disciplina armonica di motivi (l'amore non può evadere e prepotere nel mondo conchiuso etico-storico dello scrittore: <persName type="author">Manzoni</persName> non ha l'ispirazione romantico-erotica di un <persName type="author">Flaubert</persName>,<persName type="author">d'un Maupassant</persName>, e nemmeno quella mistico-religiosa di un <persName type="author">Tolsoi</persName>); non vi si indugia, perchè a questo punto la vena del racconto preme tanto che, dall'alto di tanti avvenimenti, bisogna giungere, ormai rapidamente, al riposo della fine. Del resto quel «vi saluto: come state», detto a occhi bassi, e senza scomporsi, è di una pungente e discreta eloquenza; la commozione sale nel cuore anche del lettore, più distratto, mescolata con un sorriso. Così sobrie, asciutte, e tacitamente patetiche torneranno a parlare le contadine del <persName type="author">Verga</persName>, da <persName>Nedda</persName> a <persName>Mena Malavoglia</persName>, a <persName>Diodata</persName> di <bibl><title rend="italic">
+                <hi rend="italic">Mastrodon Gesualdo.</hi>
+                </title></bibl>
+                </note>
+                <note xml:id="Russo_cap38-n2" type="comm" target="quarantana/cap38.xml#c38_10195" targetEnd="quarantana/cap38.xml#c38_10199"><ref rend="bold">«Il nostro povero padre Cristoforo...!»</ref>:<persName>Lucia</persName> vuol distrarre la commozione che le cagionano le parole di <persName>Renzo</persName>, e si attacca al ricordo del <hi rend="italic">povero <persName>padre Cristoforo</persName>
+                </hi>: ma un ricordo quello che non divide o distrae l'animo dei due interlocutori, ma li unisce più intimamente, temperando la letizia dell'incontro in una rassegnata mestizia.</note>
+                <note xml:id="Russo_cap38-n3" type="comm" target="quarantana/cap38.xml#c38_10253" targetEnd="quarantana/cap38.xml#c38_10318"><ref rend="bold">Come que' cavalli bisbetici... poi l'ore gli parevan minuti</ref>:<hi rend="bold">Come que' cavalli bisbetici.... gli parevan minuti.</hi> Il <persName type="author">TOMMASEO</persName> annota «brutto», e il <persName type="author">RIGUTINI</persName> aggiunge: «Tale similitudine, bella per verità ed evidenza pittoresca, non corrisponde propriamente al suo termine di confronto». Oh altro, se corrisponde! Basta non fermarsi alla prima osteria, ribatte il <persName type="author">PETROCCHI</persName>. E invero la rispondenza c'è: il tempo delle disavventure, delle ricerche, degli affannosi imbrogli resta sempre allo stesso punto, e ora il tempo lieto vola come le ore fossero miauti. Ma a parte questo, tutto quel trepestio di cavalli impazienti, che prendono poi l'andare, parla alla nostra fantasia, indirettamente come l'immagine vaga dei pensieri stessi di <persName>Renzo</persName>. L'artista si guarda bene di fare un tale riavvicinamento materiale, ma in tutta quella festa di movimenti impazienti e di corse alate c'è posto anche per la felicità irrequieta del suo personaggio. Una similitudine, veramente artistica, non vale mai soltanto per le cose che dice, ma anche per l'atmosfera d'insieme che crea e diffonde.</note>
+                <note xml:id="Russo_cap38-n4" type="comm" target="quarantana/cap38.xml#c38_10327" targetEnd="quarantana/cap38.xml#c38_10332"><ref rend="bold">Ma ci faceva dentro molto bene</ref>:  Non guastava.</note>
+                <note xml:id="Russo_cap38-n5" type="comm" target="quarantana/cap38.xml#c38_10482" targetEnd="quarantana/cap38.xml#c38_10487"><ref rend="bold">Don Abbondio non disse di no</ref>:  Pare proprio quello dell'altra volta; proprio quella mutria, quelle regioni. Così riassume il giudizio <persName>Renzo</persName>, e le sue parole possono servire a un giudizio artstico, come quello di <persName>Agnese</persName>. «Non lo gridi, perchè già quel che è stato è stato; e poi non serve a nulla; è un uomo fatto così: tornando il caso, farebbe lo stesso». La fedeltà di <persName>don Abbondio</persName> ai suoi modi, la <hi rend="italic">ripetizione</hi> di sè medesimo negli atti, nei gesti, nelle parole, è la fonte artistica della sua commedia: c'è il comico per geminazione, direbbe il <persName type="author">Bergson</persName>, il comico di tante figure diverse messe l'una accanto all'altra, ma che finiscono con l'avere tutte la stessa espressione.</note>
+                <note xml:id="Russo_cap38-n6" type="comm" target="quarantana/cap38.xml#c38_10595" targetEnd="quarantana/cap38.xml#c38_10599"><ref rend="bold">Parlo per delle buone ragioni</ref>:  È la frase di prammatica di <persName>don Abbondio</persName>: le buone ragioni dovrebbero essere quelle ragioni obbietive, che devono salvare gli interessi di tutti. Ma codeste costì sono lo schermo: <hi rend="italic">le buone ragioni</hi>, quelle vere, sono invece le altre: che dalla peste si può guarire, e fin che c'è fiato, anche a un <persName>don Rodrigo</persName> può capitare una grazia del genere. E il dubbio, il sospetto, è, come si vede, assai cristiano.</note>
+                <note xml:id="Russo_cap38-n7" type="comm" target="quarantana/cap38.xml#c38_10667" targetEnd="quarantana/cap38.xml#c38_10670"><ref rend="bold">Strisciò una bella riverenza</ref>:  Si sente l'uomo che non ne può più; certa ostentazione di modi cerimoniosi può essere talora dissimulazione di ira.</note>
+                <note xml:id="Russo_cap38-n8" type="comm" target="quarantana/cap38.xml#c38_10803" targetEnd="quarantana/cap38.xml#c38_10808"><ref rend="bold">Signore sposo, menateci un po' a spasso</ref>:  Senti nel discorso della vedova l'umore <hi rend="italic">socievole e gioviale</hi>, di cui si è deto avanti. Tenera insieme e scherzevole; una gran voglia anche lei di godersi un po' di quelle montagne, e con quei discorsi di nozze per aria. Il lazzaretto e la campagna, la morte e le nozze, non sono tutt'uno!</note>
+                <note xml:id="Russo_cap38-n9" type="comm" target="quarantana/cap38.xml#c38_10947" targetEnd="quarantana/cap38.xml#c38_10954"><ref rend="bold">E poi entrò subito a parlar della peste</ref>:  È l'apparente e rumorosa cordialità e premura, di chi gira al largo di una questione scottante.</note>
+                <note xml:id="Russo_cap38-n10" type="comm" target="quarantana/cap38.xml#c38_11130" targetEnd="quarantana/cap38.xml#c38_11136"><ref rend="bold">La patria è dove si sta bene</ref>:  Questa frase ha scandalizzato molti chiosatori. Il <persName type="author">RIGUTINI</persName> scrive: « Sentenza degna di <persName>don Abbondio</persName>! L'animo nostro rifugge da essa e si consola in quell'affettuosissimo addio di <persName>Lucia</persName> al suo paese nativo ». Ma non credo che il M. volesse satireggiare in modo particolare il sentire di <persName>Don Abbondio</persName>; quella è frase accademica, e, ricordano il <persName type="author">PETROCCHI</persName> e il <persName type="author">PISTRELLI</persName>, ricorre nel latino di <persName type="type">Pacuvio</persName> (<hi rend="italic">patria est. ubicumque bene est</hi>), e <persName>don Abbondio</persName> l'avrà letto, quando studiava in seminario, nelle <bibl>
+                <hi rend="italic">Tusculanae</hi></bibl> di <persName type="author">Cicerone</persName>. Ora egli la ripete come un luogo comune, e senza un significato profondo; la raccatta, perchè gli fa comodo, non già perchè vi metta una particolare passione. Del resto, per un uomo <hi rend="italic">comunale</hi> del <time>Seicento</time>, la patria non aveva quella sfumatura politica, che noi oggi ci potremmo sentire. Ricordarsi di Renzo che, passata l'<placeName>Adda</placeName>, esclama: « Stai lì, maledetto paese », e il M. non voleva fare certo del suo ingenuo e generoso eroe un ingiuniatore e traditore della patria. <bibl>Cfr. al capitolo XVII, p. 334, la n. 318.</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n11" type="comm" target="quarantana/cap38.xml#c38_11187" targetEnd="quarantana/cap38.xml#c38_11197"><ref rend="bold">Gli voglio troppo bene; avrei paura di fargli un cattivo servizio</ref>:  È sempre in ballo il <hi rend="italic">buon cuore </hi>di <persName>don Abbondio</persName>; vedi al <bibl>cap. II, le nn. 78-80, 91-92, 155-156</bibl>.
+                </note>
+                <note xml:id="Russo_cap38-n12" type="comm" target="quarantana/cap38.xml#c38_11270" targetEnd="quarantana/cap38.xml#c38_11273"><ref rend="bold">È l'erede per fidecommisso</ref>:  Il fidecommisso è una disposizione con la quale un testatore incarica il suo erede o legatario di trasmettere a una determinata persona alcuni beni. Si vede che <placeName>don Rodrigo</placeName> era un semplice usufruttuario, e alla sua morte, il aptrimonio andava di necessità al marchese. Tale legislazione aveva lo scop di mantenere uniti i patrimoni familiari. La legge del 6 termidoro, <time>anno V</time>, della repubblica francese (<time>24 luglio 1797</time>) vietò i fidecommissi.</note>
+                <note xml:id="Russo_cap38-n13" type="comm" target="quarantana/cap38.xml#c38_11340" targetEnd="quarantana/cap38.xml#c38_11344"><ref rend="bold">Ma che sia proprio vero?</ref>:  vorrebbe dire: che sia proprio vero che <persName>don Rodrigo</persName>è morto! Anche qua il dubbio è di una crudeltà poco cristiana. Del resto, noi siamo abituati ai dubbi di <time>don Abbondio</time>: si ricordino le battute sulla conversione dell'Innominato, al <bibl>capitolo XXIII, p. 437, n. 331-339, e al cap. XXIX, p. 557, II, 131-134. </bibl>
+                </note>
+                <note xml:id="Russo_cap38-n14" type="comm" target="quarantana/cap38.xml#c38_11406" targetEnd="quarantana/cap38.xml#c38_11408"><ref rend="bold">Lo vuol sentire</ref>:<persName>
+                <hi rend="bold">Ambrogio</hi>
+                </persName>?<persName>Ambrogio</persName> ormai è l'uomo di fiducia, al posto di <persName>Perpetua</persName>.
+                </note>
+                <note xml:id="Russo_cap38-n15" type="comm" target="quarantana/cap38.xml#c38_11447" targetEnd="quarantana/cap38.xml#c38_11612"><ref rend="bold">«Ah! è morto dunque! è proprio andato!... chè adesso lo possiamo dire»</ref>:  Non solo c'è lo scoppio di gioia, ma c'è anche un'eloquenza che non conoscevamo in <persName>don Abbondio</persName>. Egli è sempre uomo di poche parole, ed evasivo; e il <persName type="author">Manzoni</persName> non gli ha mai prestato un discorso così lungo. Nota ancora la cordiale e compiaciuta volgarità di alcune espressioni: la peste che è stata una <hi rend="italic">scopa</hi>; certi soggetti verdi, freschi, prosperosi che sono spariti in un batter d'occhi, e cento per volta; e quell'<hi rend="italic">intanto, lui non c'è più, e noi ci siamo</hi>.
+                </note>
+                <note xml:id="Russo_cap38-n16" type="comm" target="quarantana/cap38.xml#c38_11621" targetEnd="quarantana/cap38.xml#c38_11639"><ref rend="bold">«E fai il tuo dovere,»... che ce n’abbia liberati</ref>:<persName>Renzo</persName> è cristianamente memore della promessa, della preghiera a piedi del giaciglio; <persName>don Abbondio</persName> lo approva per omaggio formale alla buona prammatica cattolica, ma egli passa avanti a dire quello che gli canta nel cuore: bisogna ringraziare il cielo, <hi rend="italic">che ce n’abbia liberati.</hi> A buon conto perdoni <persName>Renzo</persName>,<persName>don Abbondio</persName> deve restare sempre creditore con tutti.</note>
+                <note xml:id="Russo_cap38-n17" type="comm" target="quarantana/cap38.xml#c38_11760" targetEnd="quarantana/cap38.xml#c38_11764"><ref rend="bold">La consolazione di maritarvi io</ref>: . Non c’è ipocrisia, ma la rugiadosa sentimentalità dei piccoli egoisti, quando affogano nella gioia del loro piccolo egoismo soddisfatto.</note>
+                <note xml:id="Russo_cap38-n18" type="comm" target="quarantana/cap38.xml#c38_11788" targetEnd="quarantana/cap38.xml#c38_11793"><ref rend="bold">«Chi è sua eminenza?» domandò Agnese</ref>:  Qui comincia una discussione accademica sui titoli che si convengono al <persName>Cardinale:</persName> bellissima trovata. Sono i discorsi inutili e le grida alte, che si levano quando l’animo è leggero, e tutti i discorsi sono buoni per confondersi in una zuffa cordiale. Sulla competenza di <persName>Agnese</persName>, per quei titoli da dare a monsignore, si veda la disinvoltura con cui essa regala insieme del <hi rend="italic">monsignore</hi> e del <hi rend="italic">vossignoria illustrissima</hi> all’insigne prelato, per tener fede alle istruzioni del cappellano, alla <bibl>nota 295, del cap. XXV</bibl>, e anche alla <bibl>nota 264-65, del cap. XXIX.</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n19" type="comm" target="quarantana/cap38.xml#c38_11891" targetEnd="quarantana/cap38.xml#c38_11892"><ref rend="bold">Il papa</ref>:<persName>Urbano VIII</persName>.
+                </note>
+                <note xml:id="Russo_cap38-n20" type="comm" target="quarantana/cap38.xml#c38_12000" targetEnd="quarantana/cap38.xml#c38_12004"><ref rend="bold">Sempre voglion salire, sempre salire</ref>:  Senti il sapore dell’arguzia manzoniana, non soltanto quella prestata all’egoista e pigro <persName>don Abbondio</persName> che preferisce rimanere in basso come <persName>Belacqua</persName>. Viene in mente la battuta del <bibl>cap. XIII (p. 255)</bibl>: « alzandosi tutti, vedevano né più né meno che se fossero stati tutti con le piante in terra; ma tant’è, tutti s’alzavano. »</note>
+                <note xml:id="Russo_cap38-n21" type="comm" target="quarantana/cap38.xml#c38_12019" targetEnd="quarantana/cap38.xml#c38_12024"><ref rend="bold">«i curati a tirar la carretta</ref>:<persName>Don Abbondio</persName> non è certo un ambizioso, ma pur di brontolare fa pur le finte di avere qualche ambizioncella anche lui. Ma non ci credete. Egli è un uomo che bada a sé, e sta tanto bene soltanto nei cuoi panni.</note>
+                <note xml:id="Russo_cap38-n22" type="comm" target="quarantana/cap38.xml#c38_12171" targetEnd="quarantana/cap38.xml#c38_12179"><ref rend="bold">Ha proprio fatto uno sproposito Perpetua a morire ora</ref>:  Poco gentile e poco pia commemorazione funebre della serva fedele ed affezionata della sua vita; ma nella grossa allegria che lo prende, <persName>don Abbondio</persName> non ragiona sottile sui suoi sentimenti.</note>
+                <note xml:id="Russo_cap38-n23" type="comm" target="quarantana/cap38.xml#c38_12226" targetEnd="quarantana/cap38.xml#c38_12230"><ref rend="bold">A ronzarle intorno de' mosconi?</ref>:  Si vede che ha proprio voglia di scherzare. C’è come un crescendo nella volgare bonarietà di <persName>don Abbondio</persName>.
+                </note>
+                <note xml:id="Russo_cap38-n24" type="comm" target="quarantana/cap38.xml#c38_12351" targetEnd="quarantana/cap38.xml#c38_12354"><ref rend="bold">hisenectus ipsa est morbus</ref>:  Frase di <persName type="author">Cicerone</persName>.
+                </note>
+                <note xml:id="Russo_cap38-n25" type="comm" target="quarantana/cap38.xml#c38_12445" targetEnd="quarantana/cap38.xml#c38_12448"><ref rend="bold">Di quel latino birbone</ref>:  Assai felicemente l'artista nel chiudere il suo racconto, riprende alcuni motivi che furono accennati al principio di esso. L'arte grande è sempre sistema, e non semplice estrosa trovata. Già il motivo del <hi rend="italic">latino birbone </hi>non è stata una battuta episodica, ma ha sempre denunziato la reticente filosofia popolare: che il latino c'è per mettere nel sacco il prossimo. Dal <bibl>cap. II (vedi, a p. 37, la n. 128), al cap. XIV</bibl>, dove si sospetta del preteso latino di <persName>Ferrer</persName>
+                <bibl>(p. 284, n. 487-488)</bibl>, il latino è sempre presentato come una birberia per aggirare gli ingenui. Il latino, almeno quello laico, non fa mai dunque bella figura nel romanzo (l'<hi rend="italic">omnia munda mundis</hi> di <persName>fra Cristoforo</persName> è di quello sincero, sacrosanto: vedi al <bibl>cap. VIII, p. 157, la n. 550)</bibl>. E il <persName type="author">M.</persName> contro il latino, arma degli iniqui, amerà scrivere le note satiriche più pungenti. Ciò che può particolarmente vedersi al principio del <bibl>cap. XVIII</bibl>, dove è parodiato il latino cancelleresco. Tutto questo rientra nella satira contro la dottrina vuota.</note>
+                <note xml:id="Russo_cap38-n26" type="comm" target="quarantana/cap38.xml#c38_12549" targetEnd="quarantana/cap38.xml#c38_12550"><ref rend="bold">Un malandrinaccio</ref>:  Allusione alla fama procacciatasi da <persName>Renzo</persName> nel tumulto.</note>
+                <note xml:id="Russo_cap38-n27" type="comm" target="quarantana/cap38.xml#c38_12555" targetEnd="quarantana/cap38.xml#c38_12567"><ref rend="bold">Questa santerella... a guardarsene</ref>:  Riecheggia il giudizio di <persName>Perpetua</persName>:<bibl>vedi al cap. XI, p. 217, la n. 188-189;</bibl> e si trova d'accordo, senza saperlo, ma con più bonarietà e piacevolezza (diamogli questo merito) con <persName>donna Prassede</persName> (<bibl>vedi al cap. XXV, p. 482, n. 239-240</bibl>).
+                </note>
+                <note xml:id="Russo_cap38-n28" type="comm" target="quarantana/cap38.xml#c38_12616" targetEnd="quarantana/cap38.xml#c38_12621"><ref rend="bold">Una parlantina, insolita da gran tempo</ref>:  Questo congedo di <persName>don Abbondio</persName> dal romanzo sta a indicare che il <persName type="author">M.</persName> anche lui sentiva un po' d'affetto per il suo personaggio: coongedo rumoroso, grossolano, ma, in fondo, cordiale. Ma, nonostante che quel tono allegrone sia cosa nuova in lui, don <persName>Abbondio</persName> anche, in quest'ultima parte, rimane fedele a se stesso. Pare che la sua psicologia si sia improvvisamente rovesciata: niente affatto. Egli è sempre il medesimo: è solo il mondo che è cambiato. Egli non è posto qui a guardare a tramontana, ma gli avvenimenti lo hanno tramutato, come un fantoccio, verso mezzogiorno; ed è l'effetto di quel solicello che gli dà un'altra aria, un altro colore e calore. Diventerà anche consigliere di opere buone al marchese, ma anche in questo egli patisce soltanto il mutamento che la storia ha operato attorno a lui. Si veggano alcune acute e ingegnose osservazioni dello <persName type="author">ZOTTOLI</persName>, in proposito, sul <hi rend="italic">Sistema di <persName>don Abbondio</persName>,
+                </hi> pp. 134-135.</note>
+                <note xml:id="Russo_cap38-n29" type="comm" target="quarantana/cap38.xml#c38_12754" targetEnd="quarantana/cap38.xml#c38_12756"><ref rend="bold">Di codesta cura</ref>:  Dicono i grammatici che sarebbe stato più esatto dire <hi rend="italic">di questa cura.</hi>
+                </note>
+                <note xml:id="Russo_cap38-n30" type="comm" target="quarantana/cap38.xml#c38_12889" targetEnd="quarantana/cap38.xml#c38_12893"><ref rend="bold">Sono tutti come lei i...?</ref>:  Voleva dire: i signori. Ma un po' di prudenza non guasta. Si ricordi il <persName>padre guardiano</persName> quando discorre con <persName>Gertrude</persName>,<bibl>cap. IX, p. 170, n. 205-218</bibl>.
+                </note>
+                <note xml:id="Russo_cap38-n31" type="comm" target="quarantana/cap38.xml#c38_12895" targetEnd="quarantana/cap38.xml#c38_13124"><ref rend="bold">La ringrazio anch'io di cuore... ho parlato per ubbidienza</ref>:  Senti quanta sensatezza, affetto, e garbo diplomatico c'è in tutte le parole di <persName>don Abbondio</persName>, ora che la paura non è la sua cattiva consigliera. Pure il <persName type="author">M.</persName> non esagera in questo rivolgimento ottimistico del suo personaggio: il particolare della <hi rend="italic">cottura</hi> e della buona parola che dovrebbe mettere il marchese (vedi il paragrafo successivo) per far cancellare il nome di <persName>Renzo</persName> da certi libracci, ci fa ritornare innanzi l'uomo d'una volta con le sue ombre e i suoi sospetti. Ma non è a dire che questo umanizzamento del personaggio sia arbitrario: un fondo di questa umanità il <persName type="author">M.</persName> ha sempre rispettato in lui e ora la trasmutazione benefica delle cose fa il resto. Vedi la <hi rend="italic">Prefazione,</hi> a p. VIII.</note>
+                <note xml:id="Russo_cap38-n32" type="comm" target="quarantana/cap38.xml#c38_13518" targetEnd="quarantana/cap38.xml#c38_13521"><ref rend="bold">Una visita così straordinaria</ref>:  Ricorda un po' quella del <persName>Cardinale</persName> nella casa del sarto.</note>
+                <note xml:id="Russo_cap38-n33" type="comm" target="quarantana/cap38.xml#c38_13535" targetEnd="quarantana/cap38.xml#c38_13539"><ref rend="bold">E insieme con delicati riguardi</ref>:  Per non ridestare memorie troppo dolorose.</note>
+                <note xml:id="Russo_cap38-n34" type="comm" target="quarantana/cap38.xml#c38_13650" targetEnd="quarantana/cap38.xml#c38_13657"><ref rend="bold">Ah! - diceva poi tra sé don Abbondio</ref>:  Sono queste le ultime parole del nosto eroe: la Provvidenza è riconosciuta anche da lui, ma una Provvidenza fatta un po' più piccola e partigiana, e gretta come il suo cervello.</note>
+                <note xml:id="Russo_cap38-n35" type="comm" target="quarantana/cap38.xml#c38_13786" targetEnd="quarantana/cap38.xml#c38_13795"><ref rend="bold">Per compir la festa, ci mancava il povero padre Cristoforo</ref>:  Giustamennte osserva lo <persName type="author">ZOTTOLI</persName>: «<persName>Fra Cristoforo</persName> ha un cuore, e un cuore troppo interessato al compimento della giustizia, crede troppo alla Provvidenza perchè possa essere l'uomo chiamato a constatarne l'intervento. Quando il cuore dice tante cose e parla con tanta veemenza, il desiderio di vedere le sue parole verificate nei fatti del mondo rischia di togliere limpidità allo sguardo e spregiudicatezza alla mente. Di passaggio notiamo che la sua eroica dedizione al dovere perderebbe della sua bellezza, se potesse giustificarsi con risultati tangibili: egli non deve morire nel compimento delle aspirazioni, ma nella speranza della fede....» (<bibl>
+                <hi rend="italic">op. cit.,</hi> pp. 135-36</bibl>). Ed è quello che riconoscono gli stessi suoi protetti: «Ma lui.... sta meglio di noi sicuramente».</note>
+                <note xml:id="Russo_cap38-n36" type="comm" target="quarantana/cap38.xml#c38_13806" targetEnd="quarantana/cap38.xml#c38_13918"><ref rend="bold">Il marchese fece loro una gran festa... per istar loro in pari</ref>:  «Ci vuol più umiltà a mettersi alla pari degli umili, che al di sotto; perchè mettersi al di sotto provoca l'ammirazione e la lode, e può perciò lusingare il nostro misero amor proprio e così risolversi in un atto di vanità o di superbia, sia pure inconsapevole.» Così il <persName type="author">PISTELLI</persName>, con parole forse troppo forti: chè il <persName type="author">Manzoni</persName> non vuole tanto mordere il signorile senso della distanza che c'è nel gentiluomo, quanto atenuare l'idealismo della sua figura. Un senso realistico di quello che era il gusto e la civiltà del secolo (con la distinzione delle caste) e di quelle che sono le inclinazioni dell'umanità in ogni tempo giova e sostiene la buona tempera dell'arte.</note>
+                <note xml:id="Russo_cap38-n37" type="comm" target="quarantana/cap38.xml#c38_14056" targetEnd="quarantana/cap38.xml#c38_14061"><ref rend="bold">Da sé dicon sempre troppo poco</ref>:  C'è insieme un sorriso sulle tradizioni, e su chi le aiuta a dire quel che da sè non dicono; sorriso che si risolve nella osservazione seria, che le tradizioni posson contenere delle verità, ma bisogna sapersene servire con criterio. (<persName type="author">PISTELLI</persName>)
+                </note>
+                <note xml:id="Russo_cap38-n38" type="comm" target="quarantana/cap38.xml#c38_14142" targetEnd="quarantana/cap38.xml#c38_14146"><ref rend="bold">Due accademie del secolo passato</ref>:  Nella <date>2.a metà del '700</date> si discusse molto degli sviluppi possibili dell'industria nel mondo moderno, e a quell'età risalgono le prime cattedre di economia politica.</note>
+                <note xml:id="Russo_cap38-n39" type="comm" target="quarantana/cap38.xml#c38_14191" targetEnd="quarantana/cap38.xml#c38_14195"><ref rend="bold">Due vanno meglio d'una sola</ref>:  Il <persName type="author">M.</persName> lascia intendere quella che era la sua opinione sull'importanza o dell'industria o dell'agricoltura; ed egli conclude in favore d'entrambe. Certo, c'è un po' di quella ragionevolezza semplicistica, a cui si giunge sempre, dopo che, attraverso animosi dibattiti (che avevano però la loro necessità di essere), alcune verità si schiariscono come da sè.</note>
+                <note xml:id="Russo_cap38-n40" type="comm" target="quarantana/cap38.xml#c38_14283" targetEnd="quarantana/cap38.xml#c38_14290"><ref rend="bold">Son que' benedetti affari, che imbroglian gli affetti</ref>:  Massima mirabile, nella sua forma e più nel suo tono epigrammatico. Quegli <hi rend="italic">affari</hi> sono una parola elastica e abbastanza nobile, e, in quella voluta nobiltà, ironica, per indicare i piccoli egoismi di <persName>don Abbondio.</persName>
+                </note>
+                <note xml:id="Russo_cap38-n41" type="comm" target="quarantana/cap38.xml#c38_14313" targetEnd="quarantana/cap38.xml#c38_14323"><ref rend="bold">Del dolore, ce n'è, sto per dire, un po' per tutto</ref>:  Discreto cenno, perchè non si creda all'idillio perpetuo dopo tanta odissea di mali.</note>
+                <note xml:id="Russo_cap38-n42" type="comm" target="quarantana/cap38.xml#c38_14520" targetEnd="quarantana/cap38.xml#c38_14528"><ref rend="bold">Ci vuol così poco a disturbare uno stato felice!</ref>:  Le noie di <persName>Renzo</persName> sono qui ricordate e analizzate ancora per due pagine, perchè, conformemente a tutto l'ispirazione un po' amara e pessimistica del romanzo, non si senta di finire nel latte e miele. Vedi la <bibl>n. 404-405.</bibl> Quanto poi al compiaciuto indugiarsi del narratore sulla vita dei due sposi, si ricordi la confessione che il <persName type="author">Manzoni</persName> fece al figliastro Stefano Stampa (<bibl>
+                <hi rend="italic">op. cit.,</hi> II, 177</bibl>): «Che vuoi? sarò probabilmente criticato di aver diminuito l'effetto della fine del romanzo continuando a descrivere la vita dei due sposi. Ma anche a me piace di più il lieto fine; e non ho potuto trattenetmi dalla tentazione di stare un po' ancora in compagnia dei miei burattini.» In vero, la ragione forse è la più profonda: non bastava finire con <persName>don Abbondio</persName>, troppo mediocre e gretto giudice e riconoscitore delle sante vie della <persName>Provvidenza</persName>; bisognava che parlassero i due più umili e più ciristiani protagonisti della storia, e specialmente che si facesse sentire nell'ultima sentenza <persName>Lucia</persName>, la creatura più delicatamente ispirata alla fede. <bibl>«Se il romanzo si fosse concluso nell'accertamento del calcolo [<persName>don Abbondio</persName>] anzi che nella confessione della fede, sarebbe stato mutilo; diciamo meglio; avrebbe perduto un poco di quell'atmosfera morale dalla quale deve essere circondato, perchè è l'atmosfera morale nella queale è nato.» (<persName type="author">ZOTTOLI</persName>,<hi rend="italic">op. cit.,</hi> p. 138.</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n43" type="comm" target="quarantana/cap38.xml#c38_14651" targetEnd="quarantana/cap38.xml#c38_14656"><ref rend="bold">Dovesse avere i capelli proprio d'oro</ref>:  Con questa trovata del disappunto e del malumore del pubblico, il <persName type="author">M.</persName> viene a correggere il condfidente orgoglio del troppo baldo <persName>Renzo</persName>; ma al tempo steso insinua maliziosa l'ironia sulla facile credulità ed esagerazioni fantastiche del volgo. Le fantasie del volgo vanno, com'è giusto, nel fiabesco.</note>
+                <note xml:id="Russo_cap38-n44" type="comm" target="quarantana/cap38.xml#c38_14912" targetEnd="quarantana/cap38.xml#c38_14915"><ref rend="bold">Era ormai diventato disgustoso</ref>:  Anche quest'ultimo particolare testimonianza della discrezione dell'artista: un <persName>Renzo</persName>, pio e soddisfatto marito, e felice uomo di mondo, non rientra nella logica manzoniana. Un qualche guaio, o noia, o impiccio, bisogna pur che ci sia; e non solo: ma i difetti bisogna pur che vngano fuori. Ve l'ho dato per un bravo giovine, potrebbero dire il <persName type="author">Manzoni</persName>, ma non per un santo; e del resto lo aveva detto anche <persName>don Abbondio</persName>, fin dal primo capitolo: <bibl>«un agnello se nessun lo tocca, ma se uno vuol contraddirgli.... ih!"»</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n45" type="comm" target="quarantana/cap38.xml#c38_14952" targetEnd="quarantana/cap38.xml#c38_14953"><ref rend="bold">Fino sbudellarsi</ref>:  Satira interlienare del duello.</note>
+                <note xml:id="Russo_cap38-n46" type="comm" target="quarantana/cap38.xml#c38_15189" targetEnd="quarantana/cap38.xml#c38_15193"><ref rend="bold">I dubbi economici di Renzo</ref>:  La parola economici ha qui una sfumatura scherzosa, in relazione a quello che si è detto sulle discussioni dell'accademie settecentesche sull'industria o sull'agricoltura. <bibl>Vedi la n. 388-89, e la n. 393. </bibl>
+                </note>
+                <note xml:id="Russo_cap38-n47" type="comm" target="quarantana/cap38.xml#c38_15256" targetEnd="quarantana/cap38.xml#c38_15258"><ref rend="bold">quella bella baggiana</ref>:  A proposito della parola <hi rend="italic">baggiano,</hi> vedi la <bibl>n. 479-480, al cap. XVII, p.339.</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n48" type="comm" target="quarantana/cap38.xml#c38_15336" targetEnd="quarantana/cap38.xml#c38_15342"><ref rend="bold">Non ci fosse qualche fastidiuccio anche lì</ref>:  Vedi più su le <bibl>nn. 404-05 e 423.</bibl>
+                </note>
+                <note xml:id="Russo_cap38-n49" type="comm" target="quarantana/cap38.xml#c38_15364" targetEnd="quarantana/cap38.xml#c38_15367"><ref rend="bold">Ma passategli anche questa</ref>:  Con il tirare in mezzo l'anonimo, al solito, il <persName>M.</persName> alleggerisce quel tanto di pedantesco che vi può essere nelle massime.</note>
+                <note xml:id="Russo_cap38-n50" type="comm" target="quarantana/cap38.xml#c38_15373" targetEnd="quarantana/cap38.xml#c38_15379"><ref rend="bold">L'uomo, fin che sta in questo mondo</ref>:  Ricorda il passo leopardiano (ma assai più amaro nel tono) nei <hi rend="italic">Detti memorabili di <persName>Filippo Ottonieri</persName>:
+                </hi> « Ognuno di noi, che viene al mondo, è come uno che si corica in un letto duro e disagiato: dove subito posto, sentendosi stare incomodamente, comincia a rivolgersi sull'uno e sull'altro fianco, e mutar luogo e giacitura a ogni poco; e dura così tutta la notte, sempre sperando di poter prendere alla fine un poco di sonno, e alcune volte credendo essere in punto d'addormentarsi; finchè venuta l'ora, senza essersi mai riposato, si leva. »</note>
+                <note xml:id="Russo_cap38-n51" type="comm" target="quarantana/cap38.xml#c38_15460" targetEnd="quarantana/cap38.xml#c38_15470"><ref rend="bold">Si dovrebbe pensare più a far bene, che a star bene</ref>:  Cominciano a infittirsi le massime, alla fine del racconto: l'oratoria frenata dell'arte, ora, nel riposo della fantasia narratrice, torna a farsi più apparente, o addirittura manifesta.</note>
+                <note xml:id="Russo_cap38-n52" type="comm" target="quarantana/cap38.xml#c38_15586" targetEnd="quarantana/cap38.xml#c38_15587"><ref rend="bold">Malgrado quest'aiuto</ref>:  La parola <hi rend="italic">aiuto</hi> è detta ironicamente, perchè limitare le paghe degli operai era tutt'altro che un aiuto.</note>
+                <note xml:id="Russo_cap38-n53" type="comm" target="quarantana/cap38.xml#c38_15613" targetEnd="quarantana/cap38.xml#c38_15618"><ref rend="bold">Da ogni carico reale e personale</ref>:  Il diritto romano parlava di <hi rend="italic">realia</hi> e <hi rend="italic">personalia</hi>, le <hi rend="italic">realia </hi>sono le imposte che cadono sulle cose, le <hi rend="italic">personalia</hi> quelle che riguardano l'attività personale (ricchezza mobile).</note>
+                <note xml:id="Russo_cap38-n54" type="comm" target="quarantana/cap38.xml#c38_15662" targetEnd="quarantana/cap38.xml#c38_15663"><ref rend="bold">Magnanima promessa</ref>:  Gli costava poco, per essere magnanima; la Chiesa ammette, oltre lo scioglimento, il tramutamento del voto, se, per dirla con <persName type="author">Dante</persName>, «la cosa dismessa in la sorpresa, come 'l quattro nel sei non è raccolta». (<bibl>
+                <hi rend="italic">Par.,</hi> V , 59-60)</bibl>.
+                </note>
+                <note xml:id="Russo_cap38-n55" type="comm" target="quarantana/cap38.xml#c38_15701" targetEnd="quarantana/cap38.xml#c38_15702"><ref rend="bold">Chiamandoli cattivacci</ref>:  C'è tutta l'affettuosità cordiale e popolaresca della buona <persName>Agnese</persName>. La nota popolaresca è in lei più viva forse che negli altri membri della famiglia, ed è giusto che l'ultima visione di lei sia l'immagine di nonna « affaccendata a portarli in qua e in là » i suoi nipotini.</note>
+                <note xml:id="Russo_cap38-n56" type="comm" target="quarantana/cap38.xml#c38_15735" targetEnd="quarantana/cap38.xml#c38_15739"><ref rend="bold">giacché la c'era questa birberia</ref>:<bibl>Vedi la n. 320 a p. 279, cap. XIV.</bibl> E vedi anche la <bibl>n. 233 di questo capitolo, p. 716. </bibl>
+                </note>
+                <note xml:id="Russo_cap38-n57" type="comm" target="quarantana/cap38.xml#c38_15916" targetEnd="quarantana/cap38.xml#c38_15929"><ref rend="bold">Il mio sproposito sia stato quello di volervi bene, e di promettermi a voi</ref>:  Singolare: le ultime parole espansive di amore sono della riservatissima <persName>Lucia</persName>.
+                </note>
+                <note xml:id="Russo_cap38-n58" type="comm" target="quarantana/cap38.xml#c38_16011" targetEnd="quarantana/cap38.xml#c38_16017"><ref rend="bold">Il sugo di tutta la storia</ref>:  Il sugo di tutta la storia lo si è trovato anche nelle parole di <persName>fra Cristoforo</persName>
+                <bibl>(cap. XXXVI, n. 537)</bibl>, e nel ragionamento di <persName>Agnese</persName>
+                <bibl>(cap. XXXVII, n. 277-278</bibl>). Si è detto poi dal <persName type="author">TOMMASEO</persName> e dal <persName type="author">MOMIGLIANO</persName>, che questa chiusa è piuttosto stracca, e il <persName type="author">Momigliano</persName>, sappiamo, trova più eloquenti e suggestive le parole nuziali di <persName>fra Cristoforo</persName>. Ma non si può fare una comparazione di merito: la chiusa del romanzo sono le stessa parole del frate, ma calate in bocche più umili, ed esse anzi esprimono questa umiltà filosofica del romanzo. Quanto al loro valore artistico poi c'è da dire, che tanto quelle di <persName>Fra Cristoforo</persName>, quanto queste degli sposi hanno un tono sermoneggiante, che le richima alle parti oratorie del romanzo. Appaiono quelle parole più o meno suggestive, più o meno stracche, non perchè siano tali, ma perchè lì siamo fuori dai termini della poesia, e ci muoviamo nell'ambito dell'oratoria religiosa. La nostra commozione è di ordine pratico e non poetico; da ciò la oscillazione dei giudizi della critica. Ma anche questa oratoria ha la sua dignità e nobiltà espressiva, e la sua intonazione discorsiva serve meglio al <persName type="author">Manzoni</persName> per smorzare talvolta, come sappiamo, la pienezza o sublime o drammatica o comica, o idillica, della sua rappresentazione poetica. Una chiusa più effettuosa non sarebbe stata nel gusto più profondo dello scrittore. Il <persName type="author">Manzoni</persName> è fedele al tono medio della sua musa.</note>
+            </div>
+</body>
+</text>
+</TEI>

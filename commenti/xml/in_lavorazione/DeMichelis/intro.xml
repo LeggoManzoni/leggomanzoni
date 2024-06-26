@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Eurialo De Michelis (1964)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="MLL">Matilde Lallbahadoor</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Eurialo De Michelis</title>
+          <editor>De Michelis, Eurialo</editor>
+          <pubPlace>Bologna</pubPlace>
+          <publisher>Zanichelli</publisher>
+          <date>1964</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeMichelis_intro">
+        <note xml:id="DeMichelis_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia</ref>:  Come annunzia il sottotitolo in frontespizio («Storia milanese del secolo XVII scoperta e rifatta da A. M.»), il M. finge di aver trovato la sua storia in un manoscritto d’autore anonimo del '600. Il brano in corsivo figura di esserne trascritto tal quale; conservando le peculiarità stilistiche e grafiche dell’epoca («deffinire», «gl'anni», «cadaueri», «solo che le sole spoglie», ecc.; cfr. anche le molte maiuscole), e le bislacche metafore: talora non tanto bislacche, che nello spasso di canzonarle non si avverta il divertimento fantastico di far personaggi dei moti dell'intelletto. Cfr. subito la prima: in cui gli anni trascorsi figurano esser tenuti prigionieri, o anzi già fatti cadaueri», dal Tempo; contro il quale «l'Historia» muove «una guerra illustre». E non si contenta di risuscitare i cadaveri; altresì, come un generale in piazza d’armi «li passa in rassegna», ecc.</note>
+        <note xml:id="DeMichelis_intro-n2" type="comm" target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">gl'illustri Campioni</ref>:  Gli storici; i quali in poche righe, prima sono campioni in torneo, poi imbalsamatori di Imprese «co’ loro inchiostri», infine ricamano «coll’ago finissimo dell’ingegno», ecc. Qui lo spasso sta nell’accumulo di metafore, una sull’altra; ma in questo e nel periodo successivo il M. adombra intanto un sentimento ben suo: cioè l’insodisfazione per le Storie che si occupano solo dei «Prencipi e Potentati», ignorando le «gente meccaniche» (= dedite ad arti manuali).</note>
+        <note xml:id="DeMichelis_intro-n3" type="comm" target="quarantana/intro.xml#intro_10117" targetEnd="quarantana/intro.xml#intro_10118"><ref rend="bold">bellici Oricalchi</ref>:  Trombe di guerra.</note>
+        <note xml:id="DeMichelis_intro-n4" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  Il -mente del secondo avverbio vale anche per il primo; conforme un uso latineggiante, ancora vivo talvolta nei testi scritti, ma degno solo di canzonatura per il M., come preziosità contrarissima all’uso.</note>
+        <note xml:id="DeMichelis_intro-n5" type="comm" target="quarantana/intro.xml#intro_10155"><ref rend="bold">Relatione</ref>:  Il sinonimo fa pomposa la frase senza aggiungervi nemmeno per mostra un’altra idea. Più che mai vi sorride canzonatorio il M.</note>
+        <note xml:id="DeMichelis_intro-n6" type="comm" target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  Protezione (voce spagnola).</note>
+        <note xml:id="DeMichelis_intro-n7" type="comm" target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10253"><ref rend="bold">Re Cattolico... Cielo</ref>:  Questo Cielo cosi bene ordinato e gerarchico, fino ai poveri Magistrati che traggono vaghezza (nell’immagine) anche dalla precarietà del loro ufficio («qual’erranti Pianeti»), è un capolavoro di ambiguità: tutto ossequio nell'anonimo, tutto canzonatura nel M. Il Re Cattolico è il re di Spagna; «quel Sole che mai tramonta», arieggia il celebre vanto di Carlo V, che sui suoi regni non tramontasse mai il sole. Ma di più vicina autorità il governatore di Milano, quindi urge dedicargli un complimento gerarchicamente minore ma analogo: «qual Luna giamai calante». Goffo complimento, perché ripetendo il primo lo meccanicizza; doppiamente goffo perché subito smentito: «giamai calante» si, ma «pro tempore». E i potenti sono impotenti a reggere ordinato il mondo com’è loro ufficio, tanto che ragione non può darne l’anonimo, «se non se arte e fattura diabolica». Dove s’insinua, a fare del periodo il più riccamente modulato della pagina, qualcosa di ben diverso dal sorriso, cioè le iniquità e i dolori del mondo, e quel renderne colpevoli per es. le streghe (come usò nel '600), aggiungendo iniquità a iniquità e dolori a dolori.</note>
+        <note xml:id="DeMichelis_intro-n8" type="comm" target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">per li pubblici emolumenti</ref>:  Per il pubblico guadagno. Le metafore di cui s’orna la frase, «con occhij d’Argo e braccj di Briareo» (mostri mitologici: il primo aveva cent’occhi, il secondo cento braccia), lasciano intendere che il gran traffico di quegli eroi era di spremere tasse ai sudditi.</note>
+        <note xml:id="DeMichelis_intro-n9" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">Per locchè</ref>:  Per la qual cosa. Conseguenza non c’è fra l’origine diabolica dei mali, materia del periodo precedente, e il proposito di non far nomi, materia di questo. Ma un modo della gonfiezza barocca fu appunto di mascherare il vuoto logico, mercé formule logiche; che diventano vuoti nessi sonori. Il M., sottolineando appena, nel sorriso irride.</note>
+        <note xml:id="DeMichelis_intro-n10" type="comm" target="quarantana/intro.xml#intro_10106" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">con... Parche</ref>:  Col morire. I.a macchinosa metafora è sottilmente ridicola, nel lasciare ossequiosamente all’iniziativa degl’interessati una resa così poco spontanea.</note>
+        <note xml:id="DeMichelis_intro-n11" type="comm" target="quarantana/intro.xml#intro_10349" targetEnd="quarantana/intro.xml#intro_10370"><ref rend="bold">degni... generaliter</ref>:  I «degni rispetti» sono i riguardi dovuti a persone vive, o ai familiari superstiti.</note>
+        <note xml:id="DeMichelis_intro-n12" type="comm" target="quarantana/intro.xml#intro_10372" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">Nè alcuno... accidenti</ref>:  Qui l’anonimo si fa bello d’uno di quei ragionamenti logici in astratto, propri della filosofia del tempo; che sempre muovono dai sommi principi anche per dimostrare, come qui, una cosa ovvia. Nel vocabolario di quella filosofia gli «accidenti» sono le qualità che, appartenendo alla cosa, non ne costituiscono la sostanza: sostanziale all’uomo la ragione, senza cui non è uomo, accidentale la nazionalità, ecc. Ma che lì si arresti la pagina, vi allarga un sorriso più aperto: «puri purissimi accidenti...»</note>
+        <note xml:id="DeMichelis_intro-n13" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  Sbiadito e pieno di cancellature (o soltanto gli sgorbi dell’antiquata grafia).</note>
+        <note xml:id="DeMichelis_intro-n14" type="comm" target="quarantana/intro.xml#intro_10514"><ref rend="bold">concettini</ref>:  Son quelle che gli Spagnoli chiamavano agudezas, miranti a dire un’idea nel modo più straordinario e inatteso.</note>
+        <note xml:id="DeMichelis_intro-n15" type="comm" target="quarantana/intro.xml#intro_10583" targetEnd="quarantana/intro.xml#intro_10585"><ref rend="bold">qualche eleganza spagnola</ref>:  Ironico. Qualche spagnolismo; che come tale fa poca eleganza in italiano.</note>
+        <note xml:id="DeMichelis_intro-n16" type="comm" target="quarantana/intro.xml#intro_10623"><ref rend="bold">rettorica</ref>:  È la retorica nel senso antico: arte di scrivere; che può essere «fine, di buon gusto», o tutt’il contrario, come quella canzonata nell’anonimo.</note>
+        <note xml:id="DeMichelis_intro-n17" type="comm" target="quarantana/intro.xml#intro_10647" targetEnd="quarantana/intro.xml#intro_10649"><ref rend="bold">con un'abilità mirabile</ref>:  Come se lo facesse apposta.</note>
+        <note xml:id="DeMichelis_intro-n18" type="comm" target="quarantana/intro.xml#intro_10680" targetEnd="quarantana/intro.xml#intro_10681"><ref rend="bold">solecismi pedestri</ref>:  Sgrammaticature tal quale; non di quelle che scorciano apposta il periodo per dargli estro e ala.</note>
+        <note xml:id="DeMichelis_intro-n19" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in qusto paese</ref>:  In Lombardia. Per es. non in Toscana, patria di Galileo.</note>
+        <note xml:id="DeMichelis_intro-n20" type="comm" target="quarantana/intro.xml#intro_10804"><ref rend="bold">presentato</ref>:  Esempio della libertà con cui il M. adopera il participio passato nelle forme composte dei verbi, regolandosi sull’uso toscano parlato (non sempre costante, né sicurissimo a lui non toscano).</note>
+        <note xml:id="DeMichelis_intro-n21" type="comm" target="quarantana/intro.xml#intro_10823"><ref rend="bold">all'importanza</ref>:  Grande può intendere il M. l’importanza del libro, perché ne discorre in quanto «serie de’ fatti», che afferma non inventati da lui. Ma crede egli d’esser creduto, quando ricorre all’anonimo? Nella misura che non ci crede, la sua ingenuità è poca, e poca perciò l’importanza attribuita al libro: come gl’impone la modestia, in quanto libro scritto da lui. Cristallino esempio dell’atteggiamento del M. quando discorre dell’arte sua, sempre sofisticando malizia e modestia l'una con l’altra.</note>
+        <note xml:id="DeMichelis_intro-n22" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10900"><ref rend="bold">Taluni però... forti</ref>:  Dunque, per inventati che siano i fatti del romanzo, sono verosimili nelle condizioni del tempo, cioè sostanzialmente storici. Nelle parole che raffermano, freme un’altra volta lo scandalo etico-religioso del M. alle ingiustizie e storture in cui s’imbatte nella Storia.</note>
+        <note xml:id="DeMichelis_intro-n23" type="comm" target="quarantana/intro.xml#intro_10879" targetEnd="quarantana/intro.xml#intro_11037"><ref rend="bold">modo... tenuto</ref>:  Detto in breve, il modo è di una lingua senza maiuscole e senza girigògoli, la lingua dell’uso.</note>
+        <note xml:id="DeMichelis_intro-n24" type="comm" target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  Eventuali; quasi sinonimo dell’aggettivo a cui va unito, «possibili». L’amplificazione maschera di scherzo l’imbarazzo del M. mentre si figura di dover difendere l’arte sua.</note>
+        <note xml:id="DeMichelis_intro-n25" type="comm" target="quarantana/intro.xml#intro_11099" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">risolvon... mutano</ref>:  Quando il M. discute sul serio, le risposte che non risolvon le questioni ma le mutano, sono quelle che le impostano in modo giusto. Ma qui è in giuoco, non una teoria in sé, l’applicazione che egli ne abbia fatto; perciò la frase va intesa in senso scherzoso: mutano le questioni, eludendole. Così l’autodifesa conclude in ischerzo senz’altro: «Non ci sarebbe mai stato autore», ecc.</note>
+        <note xml:id="DeMichelis_intro-n26" type="comm" target="quarantana/intro.xml#intro_11161" targetEnd="quarantana/intro.xml#intro_11171"><ref rend="bold">messele... a spasso</ref>:  Ecco un altro esempio, stavolta in chiave di autosorriso, della potenza fantastica del M. nel fare persona di moti dell'intelletto. «L’inciso con loro gran sorpresa, quasi fa delle due critiche artisticamente messe alle mani tra loro, due avversari, contro ogni loro intenzione rappacificati e scornati» (Min.).</note>
+        <note xml:id="DeMichelis_intro-n27" type="comm" target="quarantana/intro.xml#intro_10818"><ref rend="bold">libro</ref>:  In effetti il M. progettava un libro sulla lingua; sul problema meditò fin dai giovani anni, e tanto più mentre componeva e correggeva il romanzo. Vari scritti pubblicò, molti lasciò inediti sull’argomento.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

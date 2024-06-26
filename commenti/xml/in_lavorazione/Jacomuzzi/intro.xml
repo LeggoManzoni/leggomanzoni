@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelo Jacomuzzi (2013)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AC">Alice Caputa</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Nuova edizione integrale. A cura di A. Jacomuzzi e A.M. Longobardi</title>
+          <editor>Jacomuzzi, Angelo</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>SEI Editrice</publisher>
+          <date>2013</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Jacomuzzi_intro">
+        <note xml:id="Jacomuzzi_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">L'Historia... accidenti...»</ref>:  Manzoni inizia il suo romanzo con un “falso”: finge infatti di aver ritrovato un manoscritto secentesco da cui afferma di aver tratto spunto per il suo racconto. In realtà è lo stesso Autore a scrivere le pagine riportate riproducendo fedelmente la forma grafica, il linguaggio e lo stile aulico e pomposo del XVII secolo. Il testo riproduce il linguaggio complesso e arcaico del 1600, di difficile comprensione, per cui rimandiamo alla sua parafrasi riportata qui sopra.</note>
+        <note xml:id="Jacomuzzi_intro-n2" type='comm' target="quarantana/intro.xml#intro_10019" targetEnd="quarantana/intro.xml#intro_10022"><ref rend="bold">1. anzi già fatti cadaueri</ref>:  ormai morti, perché appartenenti al passato.</note>
+        <note xml:id="Jacomuzzi_intro-n3" type='comm' target="quarantana/intro.xml#intro_10044"><ref rend="bold">2. Arringo</ref>:  arengo, cioè il luogo nel quale si svolgevano i tornei. In questo caso ha il significato di “prova”.</note>
+        <note xml:id="Jacomuzzi_intro-n4" type='comm' target="quarantana/intro.xml#intro_10066" targetEnd="quarantana/intro.xml#intro_10073"><ref rend="bold">3. Imprese de Prencipi e Potentati, e qualificati Personaggj</ref>:  la storia si occupa tradizionalmente delle gesta di personaggi potenti; per questo l’autore del manoscritto, dichiarandosi incapace di affrontare un compito così impegnativo, concentra la propria attenzione su fatti che hanno coinvolto persone di origine sociale modesta.</note>
+        <note xml:id="Jacomuzzi_intro-n5" type='comm' target="quarantana/intro.xml#intro_10075"><ref rend="bold">4. trapontando</ref>:  cucendo, mettendo insieme.</note>
+        <note xml:id="Jacomuzzi_intro-n6" type='comm' target="quarantana/intro.xml#intro_10091"><ref rend="bold">5. Attioni</ref>:  azioni.</note>
+        <note xml:id="Jacomuzzi_intro-n7" type='comm' target="quarantana/intro.xml#intro_10116" targetEnd="quarantana/intro.xml#intro_10118"><ref rend="bold">6. de' bellici Oricalchi</ref>:  il rimbombo delle trombe militari. Alla lettera, “l’oricalco” è una lega di rame e zinco; per estensione indica strumenti musicali a fiato e, in particolare, la tromba militare.</note>
+        <note xml:id="Jacomuzzi_intro-n8" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10196"><ref rend="bold">7. Re Cattolico nostro Signore</ref>:  Filippo IV di Spagna.</note>
+        <note xml:id="Jacomuzzi_intro-n9" type='comm' target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10220"><ref rend="bold">8. l'Heroe di nobil Prosapia</ref>:  l’eroe di nobilissima stirpe: si tratta di don Gonzalo Fernandez de Cordoba, governatore di Milano al tempo della vicenda.</note>
+        <note xml:id="Jacomuzzi_intro-n10" type='comm' target="quarantana/intro.xml#intro_10255"><ref rend="bold">9. causale</ref>:  causa, motivo.</note>
+        <note xml:id="Jacomuzzi_intro-n11" type='comm' target="quarantana/intro.xml#intro_10299" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">10. occhij d'Argo e braccj di Briareo</ref>:  riferimento a due mostri mitologici: Argo era un gigante dai cento occhi, Briareo era un gigante dalle cento braccia.</note>
+        <note xml:id="Jacomuzzi_intro-n12" type='comm' target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">11. per li pubblici emolumenti</ref>:  per il bene pubblico; l’immagine è ambigua perché mostra gli uomini politici con cento occhi e cento braccia, simili a eroi pronti a tutto per il bene della collettività ma altrettanto impegnati a sottrarre risorse pubbliche.</note>
+        <note xml:id="Jacomuzzi_intro-n13" type='comm' target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">12. Per locchè</ref>:  perciò.</note>
+        <note xml:id="Jacomuzzi_intro-n14" type='comm' target="quarantana/intro.xml#intro_10324"><ref rend="bold">13. abbenché</ref>:  sebbene.</note>
+        <note xml:id="Jacomuzzi_intro-n15" type='comm' target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">14. con rendersi tributarij delle Parche</ref>:  cioè morendo. Le Parche erano infatti le tre divinità romane (Cloto, Lachesi e Atropo) che governavano la nascita, il destino e la morte degli uomini, rappresentati da un filo da esse filato e tagliato al momento della morte.</note>
+        <note xml:id="Jacomuzzi_intro-n16" type='comm' target="quarantana/intro.xml#intro_10360" targetEnd="quarantana/intro.xml#intro_10361"><ref rend="bold">15. il medemo</ref>:  lo stesso.</note>
+        <note xml:id="Jacomuzzi_intro-n17" type='comm' target="quarantana/intro.xml#intro_10370"><ref rend="bold">16. generaliter</ref>:  in termini generali.</note>
+        <note xml:id="Jacomuzzi_intro-n18" type='comm' target="quarantana/intro.xml#intro_10434" targetEnd="quarantana/intro.xml#intro_10439"><ref rend="bold">17. avrò durata l'eroica fatica di trascriver</ref>:  avrò fatto l’improba fatica di trascrivere. Il Narratore finge a questo punto di interrompere la trascrizione del manoscritto del ’600.</note>
+        <note xml:id="Jacomuzzi_intro-n19" type='comm' target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10447"><ref rend="bold">18. dilavato e graffiato autografo</ref>:  scolorito e a tratti strappato documento scritto a mano dall’autore stesso.</note>
+        <note xml:id="Jacomuzzi_intro-n20" type='comm' target="quarantana/intro.xml#intro_10562"><ref rend="bold">19. dozzinale</ref>:  grossolano, banale.</note>
+        <note xml:id="Jacomuzzi_intro-n21" type='comm' target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10570"><ref rend="bold">20. Idiotismi lombardi a iosa</ref>:  termini dialettali lombardi in quantità.</note>
+        <note xml:id="Jacomuzzi_intro-n22" type='comm' target="quarantana/intro.xml#intro_10623"><ref rend="bold">21. rettorica</ref>:  arte di parlare e quindi scrivere in modo efficace.</note>
+        <note xml:id="Jacomuzzi_intro-n23" type='comm' target="quarantana/intro.xml#intro_10643"><ref rend="bold">22. proemio</ref>:  parte iniziale, esordio dei poemi epici e, per estensione, di ogni voluminosa opera narrativa.</note>
+        <note xml:id="Jacomuzzi_intro-n24" type='comm' target="quarantana/intro.xml#intro_10662"><ref rend="bold">23. affettato</ref>:  ricercato e artificiale. È la critica costante contro tutta la cultura del ’600.</note>
+        <note xml:id="Jacomuzzi_intro-n25" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">24. solecismi</ref>:  errori grammaticali.</note>
+        <note xml:id="Jacomuzzi_intro-n26" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">25. in questo paese</ref>:  in Lombardia.</note>
+        <note xml:id="Jacomuzzi_intro-n27" type='comm' target="quarantana/intro.xml#intro_10713"><ref rend="bold">26. ammaliziati</ref>:  smaliziati, esperti.</note>
+        <note xml:id="Jacomuzzi_intro-n28" type='comm' target="quarantana/intro.xml#intro_10749" targetEnd="quarantana/intro.xml#intro_10751"><ref rend="bold">27. mi sapeva male</ref>:  mi dispiaceva.</note>
+        <note xml:id="Jacomuzzi_intro-n29" type='comm' target="quarantana/intro.xml#intro_10759"><ref rend="bold">28. tuttavia</ref>:  ancora, tuttora.</note>
+        <note xml:id="Jacomuzzi_intro-n30" type='comm' target="quarantana/intro.xml#intro_10762" targetEnd="quarantana/intro.xml#intro_10764"><ref rend="bold">29. in quanto storia</ref>:  rispetto alla vicenda, alla trama, e nonostante i limiti linguistici e stilistici.</note>
+        <note xml:id="Jacomuzzi_intro-n31" type='comm' target="quarantana/intro.xml#intro_10800"><ref rend="bold">30. dicitura</ref>:  stile.</note>
+        <note xml:id="Jacomuzzi_intro-n32" type='comm' target="quarantana/intro.xml#intro_10808" targetEnd="quarantana/intro.xml#intro_10812"><ref rend="bold">31. il partito fu subito abbracciato</ref>:  la decisione venne presa immediatamente.</note>
+        <note xml:id="Jacomuzzi_intro-n33" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10826"><ref rend="bold">32. con un'ingenuità... medesimo</ref>:  l’Autore si riferisce sempre con ostentata modestia alla propria opera, in rapporto all’umiltà dell’argomento e del genere minore del “romanzo”, e stabilisce così un rapporto cordiale e colloquiale con il suo pubblico di venticinque lettori (cfr. cap. I, r. 333). Naturalmente si tratta di uno stratagemma retorico con cui proporre la polemica romantica sulla letteratura popolare e realistica.</note>
+        <note xml:id="Jacomuzzi_intro-n34" type='comm' target="quarantana/intro.xml#intro_10891" targetEnd="quarantana/intro.xml#intro_10892"><ref rend="bold">33. ci abbattevamo</ref>:  ci imbattevamo.</note>
+        <note xml:id="Jacomuzzi_intro-n35" type='comm' target="quarantana/intro.xml#intro_10999"><ref rend="bold">34. l'obbligazione</ref>:  obbligo.</note>
+        <note xml:id="Jacomuzzi_intro-n36" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">35. contingenti</ref>:  eventuali.</note>
+        <note xml:id="Jacomuzzi_intro-n37" type='comm' target="quarantana/intro.xml#intro_11168" targetEnd="quarantana/intro.xml#intro_11171"><ref rend="bold">36. le mandavamo insieme a spasso</ref>:  rifiutavamo entrambe.</note>
+        <note xml:id="Jacomuzzi_intro-n38" type='comm' target="quarantana/intro.xml#intro_11223" targetEnd="quarantana/intro.xml#intro_11262"><ref rend="bold">37. due ragioni... è d'avanzo</ref>:  i toni spiritosi di questa conclusione avviano a una lettura non cervellotica del romanzo.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

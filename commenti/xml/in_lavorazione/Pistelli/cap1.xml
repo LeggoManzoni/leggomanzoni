@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ermengildo Pistelli (1978)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ermengildo Pistelli</title>
+          <editor>Pistelli, Ermenegildo</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1978</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+ 
+      <div xml:id="Pistelli_cap1">
+        <note xml:id="Pistelli_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">Quel ramo</ref>:  Il lacco di Como alla punta di Bellagio si divide in due rami, l'orientale verso Lecco, l’occidentale verso Como: qui si parla del primo, donde l'Adda rincomincia.</note>
+        <note xml:id="Pistelli_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10258" targetEnd="quarantana/intro.xml#c1_10260"><ref rend="bold">sparse di terre</ref>:  cioè di paesi, forse più chiaro sarebbe sparsi, perchè si riferisce anche a campi.</note>
+        <note xml:id="Pistelli_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10315" targetEnd="quarantana/cap1.xml#c1_10320"><ref rend="bold">e che s'incammina a diventar città</ref>:  Ormai è diventata, fiorente d’industrie e di commerci; e ha inalzato al Manzoni un bel monumento, del Confalonieri.</note>
+        <note xml:id="Pistelli_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10343" targetEnd="quarantana/cap1.xml#c1_10344"><ref rend="bold">l'onore d'alloggiare</ref>:  È il primo accenno ai mali della dominazione straniera: spagnola ai tempi del racconto, austriaca ni tempi che il Manzoni lo scriveva.</note>
+        <note xml:id="Pistelli_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10458" targetEnd="quarantana/cap1.xml#c1_10463"><ref rend="bold">e da qui la vista spazia</ref>:  Tutta questa descrizione dal vero è di grande evidenza; ma specialmente di qui in giù, dove con stupenda semplicità è ritratto il continuo variare dello spettacolo. La nostra letteratura non aveva prima del Manzoni descrizioni di paesaggi o spettacoli di natura, che fossero parte di una gran concezione poetica, e con questa intimamente connesse, non esterne e puramente esornative. Egli «rese immortali nell’arte monti e laghi, che, pur nella terra della poesia, non avevano avuto da secoli il loro poeta» (Zumbini).</note>
+        <note xml:id="Pistelli_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10590"><ref rend="bold">degradando</ref>:  1ª ed. digradando.</note>
+        <note xml:id="Pistelli_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10722" targetEnd="quarantana/cap1.xml#c1_10726"><ref rend="bold">non si trovan nel manoscritto</ref>:  quanto alle persone, «per degni rispetti», come diceva l’anonimo nell’Introduzione; quanto ai luoghi, è il Manzoni che non vuol fissarli per motivi d’arte, come vedremo.</note>
+        <note xml:id="Pistelli_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10734"><ref rend="bold">Diceva tranquillamente</ref>:  Nota come ogni particolare, ogni mossa di don Abbondio descrive un nomo abitudinario, tranquillo, senza preoccupazioni, senz’altro pensiero che di recitare, passeggiando, il solito ufizio. Ne ha così maggior rilievo lo spavento del brutto incontro che ora leggeremo.</note>
+        <note xml:id="Pistelli_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10936" targetEnd="quarantana/cap1.xml#c1_10941"><ref rend="bold">sul quale eran dipinte certe figure</ref>:  Ci pare d’averlo visto co' nostri occhi questo ingenuo affresco; anche perchè ne abbiam visti ne' tabernacoli di campagna tanti che lo somigliano.</note>
+        <note xml:id="Pistelli_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11241"><ref rend="bold">Fino dall'otto aprile</ref>:  Queste citazioni dei bandi o gride contro i bravi parvero «lungaggini» a più d’uno e anche al Tommaseo che afferma: «bastava citare i fatti senza citare i decreti ». Ma leggi attentamente e vedrai come proprio dalla citazione letterale dei decreti, dai titoli pomposi dei governatori spagnoli, dalle loro sempre inutili e sempre ripetute severissime comminazioni, risulta l’alterigia di quel governo e insieme la sua impotenza davanti ai prepotenti; impotenza messa anche più in rilievo dalla esorbitanza delle pene minacciate e lasciate all’arbitrio senza limiti degli esecutori. E questi vedremo che gente fossero, generalmente. Vedi più oltre (p. 14 e sgg.), dove è descritto in quali tempi a don Abbondio toccò a vivere.</note>
+        <note xml:id="Pistelli_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  in tutto e per tutto.</note>
+        <note xml:id="Pistelli_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>:  di Francia, prima re di Navarra (1553-1610), donde «navarrini» per indicare i suoi sudditi e poi in generale i francesi; vedi al cap. V, p. 65, n. 27.</note>
+        <note xml:id="Pistelli_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_12019" targetEnd="quarantana/cap1.xml#c1_12024"><ref rend="bold">a cui fece perder la testa</ref>:  nel senso letterale della frase.</note>
+        <note xml:id="Pistelli_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_12092" targetEnd="quarantana/cap1.xml#c1_12097"><ref rend="bold">la stampassero ad esterminio de' bravi</ref>:  Se fosse bastato stamparla!</note>
+        <note xml:id="Pistelli_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_12137" targetEnd="quarantana/cap1.xml#c1_12139"><ref rend="bold">neppur di quelli</ref>:  di quei colpi.</note>
+        <note xml:id="Pistelli_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_12180" targetEnd="quarantana/intro.xml#c1_12186"><ref rend="bold">un anno, un mese e due giorni</ref>:  «Tale specificazione della data è una vera futilità», sentenzia un chiosatore. Chi sa leggere sente che non è cosi : si tratta dell’ultima grida prima dell’incontro, di quella che era, come oggi si dice, in vigore, e che perciò doveva far più paura ai bravi; ed è naturalo che le due date, della grida e dell'incontro, siano precisate e avvicinate con un sorriso.</note>
+        <note xml:id="Pistelli_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_12275" targetEnd="quarantana/cap1.xml#c1_12276"><ref rend="bold">stessero ivi</ref>:  Quest’«ivi» è di più, e non è parola dell’uso.</note>
+        <note xml:id="Pistelli_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_12384" targetEnd="quarantana/cap1.xml#c1_12389"><ref rend="bold">a un tratto da mille pensieri</ref>:  da mille pensieri in una volta, tutti insieme, in questo senso a un tratto non riesce chiaro, o doveva esser posposto, come poco sopra nelle parole «tutt'e due a un tratto».</note>
+        <note xml:id="Pistelli_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_12364" targetEnd="quarantana/cap1.xml#c1_12408"><ref rend="bold">se... ci fosse qualche uscita di strada</ref>:  per un’ultima speranza che i bravi svoltassero.</note>
+        <note xml:id="Pistelli_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_12438" targetEnd="quarantana/cap1.xml#c1_12442"><ref rend="bold">il testimonio consolante della coscienza</ref>:  C’è anche qui un po’ d’ironia. Si suol dire che quel testimonio basta a dar coraggio: ma non sempre nè a tutti, specialmente ai don Abbondio. Di più, non c’era da supporre che un tal uomo avesse peccato «contro qualche potente, contro qualche vendicativo»!</note>
+        <note xml:id="Pistelli_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_12509" targetEnd="quarantana/cap1.xml#c1_12510"><ref rend="bold">più modesta</ref>:  È facile capire perchè.</note>
+        <note xml:id="Pistelli_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_12557" targetEnd="quarantana/intro.xml#c1_12561"><ref rend="bold">non desiderava altro che d'abbreviarli.</ref>:  Accade a tutti in momenti come quelli.</note>
+        <note xml:id="Pistelli_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_12568" targetEnd="quarantana/cap1.xml#c1_12571"><ref rend="bold">a voce più alta</ref>:  per farsi coraggio e per mostrarsi sicuro di sè.</note>
+        <note xml:id="Pistelli_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_12671"><ref rend="bold">Cioè...</ref>:  Con questo cioè il povero prete ha già tradito la sua coscienza e ceduto ai prepotenti; e peggio dove aggiunge «fanno i loro pasticci tra loro».</note>
+        <note xml:id="Pistelli_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_12923" targetEnd="quarantana/cap1.xml#c1_12930"><ref rend="bold">come... un lampo</ref>:  Lo similitudini manzoniane son tutte, come questa, d’una mirabile evidenza. Quel nome illumina il disgraziato, ma gli raddoppia lo spavento.</note>
+        <note xml:id="Pistelli_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_12951" targetEnd="quarantana/cap1.xml#c1_16091"><ref rend="bold">se mi sapessero suggerire... A questo è ridotto! a chiedere ai bravi quale scusa potrà trovare per levarsi d’impaccio.</ref>: </note>
+        <note xml:id="Pistelli_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_12957" targetEnd="quarantana/cap1.xml#c1_12962"><ref rend="bold">a lei che sa di latino</ref>:  In bocca al bravo è un’ironia sguaiata; ma don Abbondio tenterà davvero d’ingannare Renzo col latino, come leggeremo nel secondo capitolo.</note>
+        <note xml:id="Pistelli_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_13095" targetEnd="quarantana/cap1.xml#c1_13097"><ref rend="bold">chiudendo il libro</ref>:  Dunque era stato, durante tutto il dialogo, col breviario aperto sulle due mani, come sur un leggio. Bisogna vederlo così perchè la scena, tra comica e pietosa, abbia tutto l’effetto.</note>
+        <note xml:id="Pistelli_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_13111" targetEnd="quarantana/cap1.xml#c1_13113"><ref rend="bold">dond'era lui venuto</ref>:  lª ed. dond’egli era venuto. Meglio lui, ma doveva esser posposto: dond’era venuto lui.</note>
+        <note xml:id="Pistelli_cap1-n30" type="comm" target="quarantana/cap1.xml#c1_13229" targetEnd="quarantana/cap1.xml#c1_13230"><ref rend="bold">d'esser divorato</ref>:  lª ed. ad esser divorato.</note>
+        <note xml:id="Pistelli_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_13417" targetEnd="quarantana/cap1.xml#c1_13420"><ref rend="bold">i privilegi d'alcune classi</ref>:  specialmente dei nobili, degli ecclesiastici e dei militari.</note>
+        <note xml:id="Pistelli_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_13685" targetEnd="quarantana/cap1.xml#c1_13687"><ref rend="bold">incaricati dell'esecuzione immediata</ref>:  i birri.</note>
+        <note xml:id="Pistelli_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_13895" targetEnd="quarantana/cap1.xml#c1_13897"><ref rend="bold">le sue immunità</ref>:  come l'esenzione da certe tasse, il diritto d’asilo inviolabile nelle chiese e nei conventi, e simili.</note>
+        <note xml:id="Pistelli_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_13924" targetEnd="quarantana/cap1.xml#c1_13926"><ref rend="bold">i medici stessi</ref>:  Perché i medici stessi? Forse perchè il medico, come il prete, dovrebbe sempre tenersi libero da quei vincoli. Secondo il Bellezza, perchè le competizioni e le discordie son più facili e comuni tra i medici.</note>
+        <note xml:id="Pistelli_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_14086" targetEnd="quarantana/cap1.xml#c1_14091"><ref rend="bold">come un vaso di terra cotta</ref>:  La similitudine riassume mirabilmente tutta la precedente analisi di quella società, dove i «pacifici» e i «deboli» erano alla mercè dei prepotenti e dei violenti; e non serve soltanto per il caso di don Abbondio. Ne avremo la riprova in tutto il libro.</note>
+        <note xml:id="Pistelli_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_14102" targetEnd="quarantana/cap1.xml#c1_14110"><ref rend="bold">Aveva... ubbidito ai parenti</ref>:  Lui volentieri; la monaca di Monza per forza, come vedremo: ma in tutt’e due i casi i genitori impongono la loro volontà senza averne il diritto. Nota che qui, come altrove, il M. usa «parenti» nel senso di genitori.</note>
+        <note xml:id="Pistelli_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_14497" targetEnd="quarantana/cap1.xml#c1_14499"><ref rend="bold">un po' fantastico</ref>:  un po’ strano o lunatico.</note>
+        <note xml:id="Pistelli_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_14567" targetEnd="quarantana/cap1.xml#c1_14572"><ref rend="bold">perché la ragione e il torto</ref>:  Gran verità, che spiega come mai certe questioni durano ali’infinito: chi ha torto ripete sempre quel po’ di ragione che resta dalla sua parte, e non si rassegna a cedere.</note>
+        <note xml:id="Pistelli_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_14629" targetEnd="quarantana/cap1.xml#c1_14634"><ref rend="bold">ch'era un mischiarsi nelle cose profane</ref>:  Don Abbondio lo diceva a scusa della propria viltà; ma è una vecchia e abile accusa sempre rimessa a nuovo contro quei preti che credono d’aver qualcosa da fare anche fuori di sagrestia.</note>
+        <note xml:id="Pistelli_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_14677" targetEnd="quarantana/cap1.xml#c1_14680"><ref rend="bold">una sua sentenza prediletta</ref>:  L’aveva; ma da questo momento non la dirà più!</note>
+        <note xml:id="Pistelli_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_14712" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">i miei venticinque lettori</ref>:  vuol dire i miei pochi lettori; ma questa sarebbe stata una frase banale: quel numero, del quale non vedi la ragione precisa, le dà grazia e novità.</note>
+        <note xml:id="Pistelli_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_14841" targetEnd="quarantana/cap1.xml#c1_14859"><ref rend="bold">Ragazzacci, che... non si fanno carico</ref>:  Nota qui, e poi sempre, come la paura di don Abbondio è insieme anche egoismo.</note>
+        <note xml:id="Pistelli_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_14932" targetEnd="quarantana/cap1.xml#c1_14936"><ref rend="bold">a portar la loro imbasciata</ref>:  Era per concludere: agli sposi; ma se ne vergogna a tempo.</note>
+        <note xml:id="Pistelli_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15201"><ref rend="bold">l'età sinodale dei quaranta</ref>:  cioè i quarant’anni prescritti dai sinodi diocesani perchè una donna possa stare al servizio di sacerdoti. Nello poche parole che seguono vedi come è vivo e vero il ritratto della « zittellona».</note>
+        <note xml:id="Pistelli_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_15349" targetEnd="quarantana/cap1.xml#c1_15355"><ref rend="bold">o è cosa che non posso dire</ref>:  Ha già fatto il primo passo, o ormai si capisce che dirà tutto.</note>
+        <note xml:id="Pistelli_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_15545" targetEnd="quarantana/cap1.xml#c1_15547"><ref rend="bold">con voce commossa</ref>:  Nella insistenza di Perpetua si mescolano in parti uguali un sincero interessamento per il padrone e una gran curiosità di saper il segreto.</note>
+        <note xml:id="Pistelli_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_15834" targetEnd="quarantana/cap1.xml#c1_15836"><ref rend="bold">Son pareri codesti</ref>:  Ma i pareri di Perpetua gli torneranno a mente un giorno!</note>
+        <note xml:id="Pistelli_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_15914" targetEnd="quarantana/cap1.xml#c1_15916"><ref rend="bold">con licenza, a...</ref>:  Si capisce che l’immagine non doveva esser troppo conveniente; sul tono di calar le brache che segue subito dopo. Perpetua «è di prima impressione, dice tutto senza rispetto alcuno: vivace contrasto con don Abbondio, il quale è tutto prudenza, tutto riguardi, tutto cautele» (De Sanctis).</note>
+        <note xml:id="Pistelli_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_16071" targetEnd="quarantana/cap1.xml#c1_16074"><ref rend="bold">Giunto su la soglia</ref>:  Fa sorridere, ma fa anche un po’ compassione. Accade a tutti qualche volta nella vita di sentirci un po’ don Abbondio; il quale perciò in generalo non ci parrà repugnante, anzi non di rado finiremo per compatirlo pensando «Chi è senza peccato....».</note>
+      </div>
+    </body>
+  </text>
+</TEI>

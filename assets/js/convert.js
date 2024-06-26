@@ -41,13 +41,13 @@ function convertXmlToHtmlWithImages(chapter_id) {
 }
 
 
-function convertCommentXMLToHtml(authorName) {
+function convertCommentXMLToHtml(authorName, chapterName) {
   try {
     // Read and parse JSON file synchronously
     const data = fs.readFileSync('./commenti/output.json', 'utf8');
     const commentiInfo = JSON.parse(data);
 
-    // Filter for the matching author's name
+    // Filter for the matching author's name and chapter name
     const matchingEntry = commentiInfo.find(entry => entry.curator === authorName);
 
     // Check if a matching entry was found
@@ -56,7 +56,8 @@ function convertCommentXMLToHtml(authorName) {
       const authorFile = matchingEntry.filename;
 
       // Read XML and XSLT files synchronously
-      const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}`, 'utf8');
+      //const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}`, 'utf8');
+      const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}/${chapterName}.xml`, 'utf8');
       const xslStylesheet = fs.readFileSync(__dirname + '/comment.xslt', 'utf8');
 
       const xmlDocument = xmlParse(xmlDoc);
@@ -66,7 +67,42 @@ function convertCommentXMLToHtml(authorName) {
       return transformedXml;
 
     } else {
-      console.log("No matching entry found for the specified author.", authorName);
+      console.log("No matching entry found for the specified author and chapter.", authorName, chapterName);
+      return "";
+    }
+  } catch (err) {
+    console.error("An error occurred:", err);
+    return "";
+  }
+}
+
+
+function convertTranslationXMLToHtml(language) {
+  try {
+    // Read and parse JSON file synchronously
+    const data = fs.readFileSync('./translations/output.json', 'utf8');
+    const commentiInfo = JSON.parse(data);
+
+    // Filter for the matching author's name
+    const matchingEntry = commentiInfo.find(entry => entry.language === language);
+
+    // Check if a matching entry was found
+    if (matchingEntry) {
+      // Extract the filename and send it as a response
+      const authorFile = matchingEntry.filename;
+
+      // Read XML and XSLT files synchronously
+      const xmlDoc = fs.readFileSync(`./translations/${language}.xml`, 'utf8');
+      const xslStylesheet = fs.readFileSync(__dirname + '/translation.xslt', 'utf8');
+
+      const xmlDocument = xmlParse(xmlDoc);
+      const xsltDocument = xmlParse(xslStylesheet);
+      const transformedXml = xsltProcess(xmlDocument, xsltDocument);
+
+      return transformedXml;
+
+    } else {
+      console.log("No matching entry found for the specified language.", language);
       return "";
     }
   } catch (err) {
@@ -80,5 +116,6 @@ function convertCommentXMLToHtml(authorName) {
 module.exports = {
   convertXmlToHtml,
   convertCommentXMLToHtml,
-  convertXmlToHtmlWithImages
+  convertXmlToHtmlWithImages,
+  convertTranslationXMLToHtml
 };

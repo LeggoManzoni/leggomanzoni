@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<%- include ("partials/head"); %>
+
+    <body id="page-top"  class="normalFont">
+        <!-- Navigation-->
+        <%- include("partials/navbar"); %>
+
+            <!-- Masthead-->
+            <header>
+                <div class="container px-4 px-lg-5 h-20">
+                    <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
+                </div>
+            </header>
+            <div class="container container1">
+                <section class="box-testi">
+                    <div class="row normalFont" id="row-rem">
+                        <div class="col-6" id="colonnaS">
+                        <div id="fixedContent">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-capitoli"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                Capitoli
+                            </button>
+                            <button class="underline" id="normalPencil">
+                                <i class="bi bi-pencil-fill" id="highlightHoveredItem" onclick="highlightHoveredItemWithPencil();"></i>
+                            </button>
+                            <div id="popupUnderline">Clicca qui per eliminare le note di commento.</div>
+                            <button class="enlarger">
+                                <i class="bi bi-arrows-angle-expand" id="enlargerLeft" onclick="enlargeLeftColumn();"></i>
+                                <!-- Extension symbol -->
+                            </button>
+                            <div id="popupL">Visualizza il testo in modalità
+                                full-screen.</div>
+                            <button class="font-button normalFont" id="fontToChange">
+                                <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
+                            </button>
+                            <div id="popupFont">Clicca qui per il font ad alta leggibilità.
+                            </div>
+                            <button class="image-button" id="imageButton">
+                                <i class="bi bi-card-image" id="imageIcon" onclick="changeClassAndFetchData();"></i>
+                            </button>
+                            <div id="popupImage">Visualizza il testo con le immagini.
+                            </div>
+                           
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <% chapters.forEach((chapter)=> {
+                                    if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
+                                    !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
+                                    &&
+                                    !chapter.startsWith('6') && !chapter.startsWith('7') &&
+                                    !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
+                                    <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
+                                            href="#">
+                                            <%= chapter.replace('Capitolo', '' ) %>
+                                        </a></li>
+                                    <% } else { %>
+                                        <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
+                                                href="#">Capitolo <%= chapter %></a></li>
+                                        <% } }); %>
+                            </ul>
+                        </div>
+                            <div class="colonnasinistra text-break" id="promessisposi">
+                                <div id="myModal" class="modal">
+
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <span class="close">&times;</span>
+                                            <h2>Tutorial rapido</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                In questa pagina troverai gli strumenti necessari per una lettura
+                                                interattiva della Quarantana dei Promessi Sposi di Alessandro Manzoni.
+                                                <br>
+                                            </p>
+                                            <p>
+                                                Nella colonna a sinistra potrai navigare tra i capitoli e, cliccando su
+                                                questo bottone <i class="bi bi-arrows-angle-expand"
+                                                    id="enlargerRightI"></i> potrai allargare lo spazio di lettura a
+                                                schermo pieno. <br>
+                                            </p>
+                                            <p>Nella colonna a destra potrai scegliere quali commenti leggere. Il primo
+                                                che comparirà è il commento a cura di Mariarosa Bricchi, che è stato
+                                                reso disponibile per intero per tutti i capitoli. </p>
+                                            <p>Man mano che leggerai il testo della Quarantana il commento attivo
+                                                scorrerà automaticamente alla porzione di testo di riferimento. <br>
+                                            </p>
+                                            <p>I bottoncini in cima alla colonna dei commenti ti consentiranno di
+                                                allargare a tutto schermo la colonna a destra <i
+                                                    class="bi bi-arrows-angle-expand" id="enlargerRightI"></i>, di
+                                                leggere uno o due commenti per volta cliccando sul bottoncino circolare
+                                                <i class="bi bi-plus-circle" id="icon"></i> e, infine, di bloccare lo
+                                                scorrimento automatico del commento insieme al testo per uno o entrambi
+                                                i commenti attivi <i class="bi bi-toggle-on" id="icon"></i>.
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-chapter" id="whichpage">
+                                    <div class="section" id="2b-intro">
+                                        <div class="header" id="2b-header">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6" id="colonnaD">
+                            <div id="fixedContent2">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="toggle-commenti1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="text-align: left">
+                                            Lingua 1
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <% commenti.forEach((comment)=> { %>
+                                                <li><a class="dropdown-item comment-link" data-comment="<%= comment %>"
+                                                        href="#">
+                                                        <%= comment %>
+                                                    </a></li>
+                                                <% }); %>
+                                        </ul>
+                                        <button class="btn btn-secondary dropdown-toggle hide" type="button"
+                                            id="toggle-commenti2" data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="text-align: left">
+                                            Lingua 2
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <% commenti.forEach((comment)=> { %>
+                                                <li><a class="dropdown-item comment-link-2"
+                                                        data-comment="<%= comment %>" href="#">
+                                                        <%= comment %>
+                                                    </a></li>
+                                                <% }); %>
+                                        </ul>
+                                        <button class="add-button">
+                                            <i class="bi bi-plus-circle" id="splitButton" onclick="toggleColumn();"></i>
+                                        </button>
+                                        <div id="popup">Clicca qui per visualizzare due commenti.
+                                        </div>
+                                        <button class="enlarger">
+                                            <i class="bi bi-arrows-angle-expand" id="enlargerRight" onclick="enlargeRightColumn();"></i>
+                                            <!-- Extension symbol -->
+                                        </button>
+                                        <div id="popupR">Visualizza il commento in
+                                            modalità full-screen.
+                                        </div>
+                                    </div>
+                            <div class="colonnadestra" id="destra">
+                                <div class="divisione singularText" id="upperDiv">
+                                    <div class="header" id="2b-header">
+                                        
+                                    </div>
+                                    <div class="text-comment-top">
+                                    </div>
+                                </div>
+                                <div class="divisione hide" id="bottomDiv">
+                                    <div class="header" id="2b-header">
+                                        <div class="text-comment-bottom">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+                <script src="./assets/js/converted_translations.js"></script>
+    </body>
+
+</html>

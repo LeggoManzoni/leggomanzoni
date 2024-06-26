@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enrico Bianchi (1962)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IZ">Isabel Zamboni</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi :  col commento di Enrico Bianchi</title>
+          <editor>Bianchi, Enrico</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Casa Editrice F. Le Monnier</publisher>
+          <date>1962</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1 </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Bianchi_intro">
+        <note xml:id="Bianchi_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">1. L'Historia</ref>:  Com’è noto, e come è detto in questa stessa introduzione, il M. immagina d'aver trovato nel manoscritto di un anonimo scrittore del secolo XVII la storia delle vicende di due giovani fidanzati campagnoli, e d’aver cominciato a copiarla per poi darla alle stampe. Si tratta, naturalmente, d’un’invenzione, e il manoscritto non esiste se non nella mente dell’Autore; ma vedi con quanta abilità il M. abbia saputo imitare la lingua e lo stile di quel secolo, pieni di immagini contorte e bislacche.</note>
+        <note xml:id="Bianchi_intro-n2" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">2. gl'illustri Campioni</ref>:  sono gli storici; i quali, dice l’anonimo per bocca del M., si occupano soltanto dei personaggi illustri e delle loro azioni gloriose, e trascurano le persone d’umile condizione.</note>
+        <note xml:id="Bianchi_intro-n3" type='comm' target="quarantana/intro.xml#intro_10118"><ref rend="bold">3. Oricalchi</ref>:  bronzi, cioè trombe.</note>
+        <note xml:id="Bianchi_intro-n4" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">4. gente meccaniche</ref>:  genti d’umile condizione, operai, o lavoratori, come oggi si direbbe. Tale è l’antico significato della parola 'meccanico' che il M. userà anche in altra occasione (IV, 24). — schietta e genuinamente: cioè, schiettamente e genuinamente, con abbreviazione comune negli antichi e tornata di moda nel Seicento.</note>
+        <note xml:id="Bianchi_intro-n5" type='comm' target="quarantana/intro.xml#intro_10188"><ref rend="bold">5. climi</ref>:  paesi.</note>
+        <note xml:id="Bianchi_intro-n6" type='comm' target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  dominio, protezione: è uno spagnolismo.</note>
+        <note xml:id="Bianchi_intro-n7" type='comm' target="quarantana/intro.xml#intro_10217"><ref rend="bold">l'Heroe</ref>:  è il governatore di Milano, al quale il buon secentista vuol dare un po' d’incenso: e lo paragona alla luna, perchè, come questa riflette la luce del sole, così il governatore si adorna della gloria del suo re; tuttavia, perchè non s’abbia a credere che questa gloria subisca delle interruzioni, la luna è immaginata come non mai calante; arzigogolo veramente degno dello stile di quell’età.</note>
+        <note xml:id="Bianchi_intro-n8" type='comm' target="quarantana/intro.xml#intro_10254" targetEnd="quarantana/intro.xml#intro_10255"><ref rend="bold">altra causale</ref>:  Intendi: se il governo spagnolo in Italia è quel che si può immaginare di più giusto, la causa delle malvagità che sotto di esso si compiono non si può ricercare che nelle arti diaboliche.</note>
+        <note xml:id="Bianchi_intro-n9" type='comm' target="quarantana/intro.xml#intro_10298" targetEnd="quarantana/intro.xml#intro_10300"><ref rend="bold">con occhij d'Argo</ref>:  È noto che, secondo la mitologia, Argo aveva cento occhi e Briareo cento mani.</note>
+        <note xml:id="Bianchi_intro-n10" type='comm' target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">per li pubblici emolumenti</ref>:  per il pubblico bene.</note>
+        <note xml:id="Bianchi_intro-n11" type='comm' target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">6. con rendersi tributarij delle Parche</ref>:  morendo. Le Parche, com’è noto, eran tre dee che presiedevano alla vita dell’uomo, e la troncavano nel giorno stabilito dal fato.</note>
+        <note xml:id="Bianchi_intro-n12" type='comm' target="quarantana/intro.xml#intro_10421" targetEnd="quarantana/intro.xml#intro_10424"><ref rend="bold">7. non essere i nomi</ref>:  I nomi sono qualità o attribuzioni estrinseche delle cose, e anche se si cambiano o si tacciono, le cose rimangono quelle che eran prima.</note>
+        <note xml:id="Bianchi_intro-n13" type='comm' target="quarantana/intro.xml#intro_10446"><ref rend="bold">8. graffiato</ref>:  pieno di cancellature.</note>
+        <note xml:id="Bianchi_intro-n14" type='comm' target="quarantana/intro.xml#intro_10572" targetEnd="quarantana/intro.xml#intro_10573"><ref rend="bold">9. della lingua</ref>:  della lingua italiana.</note>
+        <note xml:id="Bianchi_intro-n15" type='comm' target="quarantana/intro.xml#intro_10617" targetEnd="quarantana/intro.xml#intro_10623"><ref rend="bold">che richiedono bensì un po' di rettorica</ref>:  Medita queste parole. Oggi è di moda scagliarsi contro la così detta rettorica, senza distinguere quella fine e di buon gusto, che è necessaria a ogni opera d’arte, con quella vieta o sguaiata, che sciupa ogni cosa. E coloro stessi che sbraitano di più, sono spesso retori della più bell’acqua. Dell’uso di questa buona retorica, che in fondo non è che arte, ci dà un mirabile esempio il M. in tutto il suo romanzo.</note>
+        <note xml:id="Bianchi_intro-n16" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">10. solecismi</ref>:  sgrammaticature.</note>
+        <note xml:id="Bianchi_intro-n17" type='comm' target="quarantana/intro.xml#intro_10690" targetEnd="quarantana/intro.xml#intro_10692"><ref rend="bold">il proprio carattere</ref>:  il carattere particolare.</note>
+        <note xml:id="Bianchi_intro-n18" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  cioè, in Italia; in altri paesi, per esempio in Spagna e ancor più in Francia, la letteratura era in un periodo di splendore; e anche in Italia, fuor di Lombardia, si ebbero scrittori di prim’ordine, tra i quali basterà citare Galileo.</note>
+        <note xml:id="Bianchi_intro-n19" type='comm' target="quarantana/intro.xml#intro_10758"><ref rend="bold">11. rimanersi</ref>:  ci aspetteremmo; 'rimanere' o 'rimanersene'.</note>
+        <note xml:id="Bianchi_intro-n20" type='comm' target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10807"><ref rend="bold">Non essendosi presentato alcuna obiezion ragionevole</ref>:  ci aspetteremmo 'non essendosi presentata'; e poiché, nella la ediz. del ’27, era scritto 'non essendosi presentato alcun perchè ragionevole', vien fatto di pensare che il M., correggendo 'perchè' in 'obiezione' si sia dimenticato di correggere anche il participio. Altri, ricorrendo a esempi classici e anche tratti dal libro stesso del M., ha creduto di poter giustificare 'presentato'; ma è più probabile che si tratti di una svista. Il M. fu spesso correttore distratto e cadde più d’una volta in errori anche più evidenti di questo. Si veda, per esempio, quel che abbiamo detto nella nota a XXVII, 2.</note>
+        <note xml:id="Bianchi_intro-n21" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">con un'ingenuità</ref>:  Non ti sfugga la malizia di quest’espressione: se, nella sua modestia, il M. non dà che poca importanza al suo libro, altrettanto poca è per conseguenza l’ingenuità con la quale egli ne esprime l’origine; che è quanto dire che tutta la storia di tale origine non è che un’invenzione.</note>
+        <note xml:id="Bianchi_intro-n22" type='comm' target="quarantana/intro.xml#intro_10851"><ref rend="bold">12. prestargli</ref>:  'prestare ad essi', secondo la grammatica dell’uso.</note>
+        <note xml:id="Bianchi_intro-n23" type='comm' target="quarantana/intro.xml#intro_10859" targetEnd="quarantana/intro.xml#intro_10865"><ref rend="bold">ci siam messi a frugar nelle memorie</ref>:  Questa, invece, non è un’invenzione. Il M. fece veramente studi profondi e accurati sugli avvenimenti e sui personaggi del tempo nel quale mise la scena del suo racconto.</note>
+        <note xml:id="Bianchi_intro-n24" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">13. contingenti</ref>:  eventuali.</note>
+        <note xml:id="Bianchi_intro-n25" type='comm' target="quarantana/intro.xml#intro_11097" targetEnd="quarantana/intro.xml#intro_11101"><ref rend="bold">14. non dico risolvon le questioni</ref>:  Non è facile risolvere in poche parole una questione, quando specialmente sia così grave e complessa come quella della lingua; ma sempre si può spostarla e metterla su una base più giusta, così da render possibile trattarla con frutto. Così sembra da intendersi questo passo non facile.</note>
+        <note xml:id="Bianchi_intro-n26" type='comm' target="quarantana/intro.xml#intro_11107" targetEnd="quarantana/intro.xml#intro_11111"><ref rend="bold">mettendo... alle mani</ref>:  più comune: 'mettendo alle prese'.</note>
+        <note xml:id="Bianchi_intro-n27" type='comm' target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">15. venivano a fare un libro</ref>:  Neanche questa è un’invenzione. Il M. studiò a fondo la questione della lingua, si può dire per tutta la sua lunga vita; e già prima di scrivere il romanzo aveva cominciato a scrivere un libro su tale argomento, che poi lasciò interrotto; ma, come è noto, riprese poi, nella vecchiezza, a occuparsene di proposito.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

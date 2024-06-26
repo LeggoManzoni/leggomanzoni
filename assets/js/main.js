@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navbarActive();
  /* navbarShrink();*/
-  collectId();
-  popupButtons();
-  modalFunction();
+  //collectId();
+  // popupButtons();
+  // modalFunction();
   
 
 });
@@ -60,17 +60,17 @@ let navbarShrink = () => { // Navbar shrink function
 
 
 /* Function for collecting ids */
-let collectId = () => {     // function for splitting the id content 
+// let collectId = () => {     // function for splitting the id content 
 
-  fetch('/extract-ids')
-    .then(response => response.json())
-    .then(idArray => {
-      console.log(idArray);  // Use the extracted IDs in client-side code
-    })
-    .catch(error => {
-      console.error('Error fetching the IDs:', error);
-    });
-}
+//   fetch('/extract-ids')
+//     .then(response => response.json())
+//     .then(idArray => {
+//       console.log(idArray);  // Use the extracted IDs in client-side code
+//     })
+//     .catch(error => {
+//       console.error('Error fetching the IDs:', error);
+//     });
+// }
 
 /*Function toggleColumn*/
 let toggleColumn = () => {  // Function for modifying the right column and showing one or two comments at the same time

@@ -4,6 +4,7 @@ const { XMLParser } = require("fast-xml-parser");
 
 const xmlFolder = './commenti/xml/in_lavorazione/';
 const jsonOutputFile = './commenti/output.json';
+const translationFile = './translations/output.json';
 
 const xmlFiles = fs.readdirSync(xmlFolder).filter(file => path.extname(file) === '.xml');
 

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Biancamaria Travi (1981)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="FP">Filippo Pelacci</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Biancamaria Travi</title>
+          <editor>Travi, Biancamaria</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Edizioni Scolastiche Bruno Mondadori</publisher>
+          <date>1981</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Travi_intro">
+        <note xml:id="Travi_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001">
+          <ref rend="bold">L'Historia...</ref>:  nel sottotitolo, i Promessi Sposi sono detti Storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni, e l’Introduzione, nella sua prima sequenza, è appunto il proemio stilizzato di un immaginario manoscritto di anonimo del Seicento, da cui l’autore finge di trarre l’opera. L’espediente del falso manoscritto fonte della narrazione ha precedenti illustri: dall'Orlando Furioso di Ludovico Ariosto al Platone in Italia di Vincenzo Cuoco, dal Don Chisciotte di Miguel de Cervantes a certi romanzi di Walter Scott; ma ispira anche, nell’ambiente più vicino al Manzoni, la vena satirica di scrittori del “Conciliatore”, come Giovanni Berchet, Pietro Borsieri e Lodovico di Breme (vedi E. Raimondi, Il romanzo senza idillio cit., pp. 143-144). Lo stile di questa pagina gioca con elementi caratteristici della retorica barocca: eccesso di metafore, sintassi carica di subordinate, forme ridondanti (malvaggità e sevitie... arte e fattura...). La caricatura è accentuata dalla grafia antiquata e talora scorretta: u per v intervocalica e viceversa, t per z, maiuscole e h iniziali, j finali, raddoppiamenti consonantici irrazionali. Modelli precisi di questo goffo linguaggio si possono trovare in scritti lombardi del Seicento noti al Manzoni, in particolare (vedi E. Bonora, Manzoni. Conclusioni e proposte cit., pp. 103-123) nel Raguaglio dell’origine et giornali successi della gran peste contagiosa, venefica e malefica di Alessandro Tadino.</note>
+        <note xml:id="Travi_intro-n2" type='comm' target="quarantana/intro.xml#intro_10006" targetEnd="quarantana/intro.xml#intro_10011">
+          <ref rend="bold">una guerra illustre contro il Tempo</ref>:  vedi Cervantes, Don Chisciotte, I, IX: “la storia, emula del tempo”.</note>
+        <note xml:id="Travi_intro-n3" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10050">
+          <ref rend="bold">gl'illustri... d'Allori</ref>:  gli storici che, in tale contesa (nella lotta, cioè, della storia contro il tempo), si acquistano gloria.</note>
+        <note xml:id="Travi_intro-n4" type='comm' target="quarantana/intro.xml#intro_10051" targetEnd="quarantana/intro.xml#intro_10060">
+          <ref rend="bold">rapiscono... brillanti</ref>:  sottraggono solo le spoglie più illustri (solo che le sole è un bisticcio costruito su un pleonasmo): salvano cioè dalla dimenticanza solo i nomi e le gesta dei privilegiati (Prencipi e Potentati, e qualificati Personaggi). Alla voce dell’anonimo incomincia ad accompagnarsi la riflessione del Manzoni sulla storia che troppo spesso è solo “il racconto delle avventure dei principi” (Discorso sopra alcuni punti della storia longobardica in Italia).</note>
+        <note xml:id="Travi_intro-n5" type='comm' target="quarantana/intro.xml#intro_10075" targetEnd="quarantana/intro.xml#intro_10092">
+          <ref rend="bold">trapontando... gloriose</ref>:  nuova metafora, conforme al gusto barocco</note>
+        <note xml:id="Travi_intro-n6" type='comm' target="quarantana/intro.xml#intro_10109" targetEnd="quarantana/intro.xml#intro_10112">
+          <ref rend="bold">Labirinti de' Politici maneggj</ref>:  intrighi politici.</note>
+        <note xml:id="Travi_intro-n7" type='comm' target="quarantana/intro.xml#intro_10114" targetEnd="quarantana/intro.xml#intro_10118">
+          <ref rend="bold">il rimbombo de' bellici Oricalchi</ref>:  le azioni di guerra (oricalco, nome di una lega metallica, viene a significare per sineddoche ‘tromba’). È un endecasillabo, che ritma solennemente la prosa con effetti onomatopeici.</note>
+        <note xml:id="Travi_intro-n8" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136">
+          <ref rend="bold">gente meccaniche, e di piccol affare</ref>:  persone dedite a occupazioni materiali (vedi vile meccanico, IV, 24 e nota), e di scarso rilievo sociale. Si allude qui a Renzo e Lucia: filatori di seta, non qualificati Personaggi. L’anonimo è figlio del suo tempo nelle riserve con cui accosta questa storia per lui di second'ordine, alludendovi in forma subordinata; eppure, paradossalmente, proprio perché sceglie di occuparsene, rinvia ai valori di un’altra epoca e si fa voce dell’autore, che nel mondo stantìo del manoscritto pone il seme del nuovo. Insieme con Augustin Thierry (“Ci manca la storia dei cittadini, la storia dei sudditi, la storia del popolo”), il Manzoni osserva: “Un’immensa moltitudine d’uomini, una serie di generazioni, che passa sulla terra, sulla sua terra, inosservata, senza lasciarvi traccia, è un triste ma importante fenomeno” (Discorso sopra alcuni punti della storia longobardica in Italia).</note>
+        <note xml:id="Travi_intro-n9" type='comm' target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150">
+          <ref rend="bold">schietta e genuinamente</ref>:  schiettamente e genuinamente: costruzione conforme all’uso spagnolo (e italiano arcaico) nelle coppie avverbiali.</note>
+        <note xml:id="Travi_intro-n10" type='comm' target="quarantana/intro.xml#intro_10188">
+          <ref rend="bold">climi</ref>:  paesi.</note>
+        <note xml:id="Travi_intro-n11" type='comm' target="quarantana/intro.xml#intro_10191">
+          <ref rend="bold">l'amparo</ref>:  protezione (spagnolismo).</note>
+        <note xml:id="Travi_intro-n12" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194">
+          <ref rend="bold">Re Cattolico</ref>:  titolo del re di Spagna. Il regno del “re cattolico” di allora, Filippo IV, si estendeva in occidente fino alle colonie d’America: di qui l’immagine seguente del Sole che mai tramonta.</note>
+        <note xml:id="Travi_intro-n13" type='comm' target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10228">
+          <ref rend="bold">l'Heroe... le sue parti</ref>:  il governatore di Milano, rappresentante all’epoca (pro tempore) del re di Spagna.</note>
+        <note xml:id="Travi_intro-n14" type='comm' target="quarantana/intro.xml#intro_10230" targetEnd="quarantana/intro.xml#intro_10240">
+          <ref rend="bold">gl'Amplissimi... Pianeti</ref>:  continua l’adulatoria similitudine celeste, che trasfigura i senatori a vita in Stelle fisse e i magistrati trasferibili in erranti Pianeti.</note>
+        <note xml:id="Travi_intro-n15" type='comm' target="quarantana/intro.xml#intro_10279" targetEnd="quarantana/intro.xml#intro_10282">
+          <ref rend="bold">arte e fattura diabolica</ref>:  la credenza in un'arte e fattura diabolica sarà un tema importante del racconto della peste (XXXI-XXXII, XXXIV).</note>
+        <note xml:id="Travi_intro-n16" type='comm' target="quarantana/intro.xml#intro_10298" targetEnd="quarantana/intro.xml#intro_10304">
+          <ref rend="bold">con occhij d'Argo e braccj di Briareo</ref>:  l’accostamento ai mitici Argo (dai cento occhi) e Briareo (dalle cento braccia) degli Heroi che si danno un gran daffare “per il pubblico vantaggio” insinua un doppio senso nei ricami del manoscritto: sulla falsariga degli “eroi” del Giorno del Parini, balena la realtà di uomini avidi e violenti, veri responsabili dei mali sociali.</note>
+        <note xml:id="Travi_intro-n17" type='comm' target="quarantana/intro.xml#intro_10322" targetEnd="quarantana/intro.xml#intro_10323">
+          <ref rend="bold">verde staggione</ref>:  giovinezza.</note>
+        <note xml:id="Travi_intro-n18" type='comm' target="quarantana/intro.xml#intro_10344" targetEnd="quarantana/intro.xml#intro_10346">
+          <ref rend="bold">tributarij delle Parche</ref>:  s’intende, morendo. Le tre Parche (Cloto, Làchesi, Àtropo), nella mitologia greca, presiedevano al destino umano: dal compito attribuito ad Atropo, di recidere il filo dell’esistenza, vennero a significare la morte.</note>
+        <note xml:id="Travi_intro-n19" type='comm' target="quarantana/intro.xml#intro_10370">
+          <ref rend="bold">generaliter</ref>:  “genericamente” (latino).</note>
+        <note xml:id="Travi_intro-n20" type='comm' target="quarantana/intro.xml#intro_10385">
+          <ref rend="bold">Parto</ref>:  prodotto.</note>
+        <note xml:id="Travi_intro-n21" type='comm' target="quarantana/intro.xml#intro_10428" targetEnd="quarantana/intro.xml#intro_10429">
+          <ref rend="bold">purissimi accidenti...</ref>:  resta in tronco un’argomentazione fedele ai procedimenti e alla terminologia della filosofia scolastica. 11 ragionamento basato sulla distinzione fra “sostanza” (essenza) e “accidente” (elemento contingente e variabile) ricorre nei discorsi di don Ferrante sulla peste (XXXVII, 49), parodia dell’aristotelismo conservatore del Seicento.</note>
+        <note xml:id="Travi_intro-n22" type='comm' target="quarantana/intro.xml#intro_10431" targetEnd="quarantana/intro.xml#intro_10432">
+          <ref rend="bold">Ma, quando...</ref>:  il registro muta bruscamente, e l’esclamazione dello scrittore, che qui introduce se stesso come personaggio-lettore alle prese col “primo autore” della storia, è posta a diretto contatto con l'enfasi che precede, in una specie di scontro fra due mondi opposti. L’umoristico punto di passaggio è quell'accidenti rimasto in sospeso, che pare saltar di colpo da un universo all'altro, dalle ridondanze seicentiste a un linguaggio colloquiale e spontaneo, secondo le proposte di rinnovamento formulate dagli illuministi del “Caffè” e dai romantici del “Conciliatore”. Il problema linguistico è appunto l’argomento di questa seconda parte dell’Introduzione, che si presenta come il passo più tormentato nei rifacimenti subiti.</note>
+        <note xml:id="Travi_intro-n23" type='comm' target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446">
+          <ref rend="bold">dilavato e graffiato</ref>:  scolorito e sgorbiato.</note>
+        <note xml:id="Travi_intro-n24" type='comm' target="quarantana/intro.xml#intro_10514">
+          <ref rend="bold">concettini</ref>:  immagini argute e lambiccate.</note>
+        <note xml:id="Travi_intro-n25" type='comm' target="quarantana/intro.xml#intro_10536" targetEnd="quarantana/intro.xml#intro_10538">
+          <ref rend="bold">la sua virtù</ref>:  il suo virtuosismo.</note>
+        <note xml:id="Travi_intro-n26" type='comm' target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568">
+          <ref rend="bold">Idiotismi lombardi</ref>:  forme dialettali lombarde. In questo appunto mosso alla lingua dell’anonimo si trasferiscono lunghe osservazioni presenti nella seconda Introduzione al Fermo e Lucia: “Quando l’uomo che parla abitualmente un dialetto si pone a scrivere in una lingua, il dialetto di cui egli s’è servito nelle occasioni più attive della vita, per l’espressione più immediata e spontanea dei suoi sentimenti, gli si affaccia da tutte le parti, s’attacca alle sue idee, se ne impadronisce, anzi talvolta gli somministra le idee in una formola; gli cola dalla penna e se egli non ha fatto uno studio particolare della lingua, farà il fondo del suo scritto. Di questo colore municipale si è fatto in varii tempi rimprovero a molti scrittori: che deturpasse gli scritti non v’ha dubbio: quanto agli scrittori, prima di rimproverarli così acremente si sarebbe dovuto pensare che non è cosa tanto facile prescindere da quelle formole alle quali sono unite per abito tutte le memorie, tutti i sentimenti, tutta la vita intellettuale [...]. Che giova dissimulare? Confessiamo sinceramente che anche noi abbiamo adoperata qua e là, non solo nei dialoghi, ma anche nella narrazione qualche parola, qualche frase assolutamente lombarda”.</note>
+        <note xml:id="Travi_intro-n27" type='comm' target="quarantana/intro.xml#intro_10680">
+          <ref rend="bold">solecismi</ref>:  sgrammaticature, “dal lat. solœcismus che è dal gr. soloikismós, dalla città di Sóloi, dove si parlava scorrettamente il greco” (G. Devoto, Avviamento alla etimologia italiana cit.).</note>
+        <note xml:id="Travi_intro-n28" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700">
+          <ref rend="bold">in questo paese</ref>:  in Lombardia. Nella seconda Introduzione al Fermo, il Manzoni osservava che, nella Lombardia del Seicento, “dove pochissime idee erano diffuse e ventilate, donde nessun libro veramente importante era uscito fin allora, dove la lingua toscana si studiava pochissimo e da pochissimi, e da nessuno per così dire le lingue straniere [...], il linguaggio comune doveva esser rozzo, incolto, inesatto, arbitrario, casuale; e lo era infatti al massimo grado. Sur un tal fondo si ricamava poi di quelle arguzie, si appiccava quella ricercatezza che era la tendenza generale di tutta la letteratura italiana; e ne usciva quel complesso di goffaggine prosuntuosa, d’ignoranza affermativa, quella continuità d’idee storte espresse in solecismi, lo scrivere insomma di cui si è dato un saggio”.</note>
+        <note xml:id="Travi_intro-n29" type='comm' target="quarantana/intro.xml#intro_10708" targetEnd="quarantana/intro.xml#intro_10710">
+          <ref rend="bold">a lettori d'oggigiorno</ref>:  si delinea il grave problema del pubblico, presso il quale lo scrittore deve realizzare la sua difficile opera di mediazione linguistica. Nella prima Introduzione al Fermo, il Manzoni metteva in scena, come amavano raffigurarselo anche il Berchet e il Borsieri, un pubblico vario e non particolarmente colto, composto pure da signore digiune di latino.</note>
+        <note xml:id="Travi_intro-n30" type='comm' target="quarantana/intro.xml#intro_10799" targetEnd="quarantana/intro.xml#intro_10800">
+          <ref rend="bold">la dicitura</ref>:  la forma dell’espressione.</note>
+        <note xml:id="Travi_intro-n31" type='comm' target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10804">
+          <ref rend="bold">Non essendosi presentato</ref>:  la mancata concordanza fra presentato e obiezion rivela l’uso impersonale e assoluto del gerundio.</note>
+        <note xml:id="Travi_intro-n32" type='comm' target="quarantana/intro.xml#intro_10822" targetEnd="quarantana/intro.xml#intro_10823">
+          <ref rend="bold">pari all'importanza</ref>:  ironia. S’intende che l’ingenuità è scarsa, mentre abbonda la malizia: allusione, a carte scoperte, alla finzione del manoscritto.</note>
+        <note xml:id="Travi_intro-n33" type='comm' target="quarantana/intro.xml#intro_10838" targetEnd="quarantana/intro.xml#intro_10839">
+          <ref rend="bold">c'eran sembrati</ref>:  un nuovo cambiamento di registro, stavolta più lieve, è mediato dai costrutti impersonali precedenti e segnato dal passaggio dall’“io” al “noi”. Alla scena in cui il narratore introduceva se stesso come personaggio in azione, subentrano, su un piano più saggistico, le sue riflessioni di scrittore al lavoro.</note>
+        <note xml:id="Travi_intro-n34" type='comm' target="quarantana/intro.xml#intro_10859" targetEnd="quarantana/intro.xml#intro_10865">
+          <ref rend="bold">ci siam messi a frugar nelle memorie</ref>:  come già all’epoca della composizione delle tragedie (ricordiamo il Discorso sopra alcuni punti della storia longobardica in Italia e le Notizie storiche premesse al Conte di Carmagnola e all'Adelchi), il Manzoni si basa su un’indagine rigorosa delle fonti storiche da cui trae l’intreccio: per i Promessi Sposi si tratta di gride dell’epoca e di cronache, più avanti citate, come l'Historia patria di Giuseppe Ripamonti, la Vita del cardinale Federigo scritta da Francesco Rivola, le testimonianze sulla peste lasciate da Alessandro Tadino, dal Ripamonti e da Federigo Borromeo, senza contare numerosi altri documenti. “I fatti, proprio perché sono conformi alla verità per così dire materiale, possiedono al più alto grado il carattere di verità poetica che si ricerca” (dalla Lettre à M. Chauvet).</note>
+        <note xml:id="Travi_intro-n35" type='comm' target="quarantana/intro.xml#intro_11030" targetEnd="quarantana/intro.xml#intro_11034">
+          <ref rend="bold">ragione del modo di scrivere</ref>:  riaffiora in sordina il problema della lingua, che il Manzoni ha ormai risolto optando, fin dalla fase della ventisettana, per il modello toscano. Della questione rendono conto, sul piano teorico, i suoi scritti linguistici; nell’Introduzione, come afferma più avanti alludendo in termini vaghi alle obiezioni previste, egli preferisce lasciar da parte il dibattito, perché il romanzo si giustifichi da sé.</note>
+        <note xml:id="Travi_intro-n36" type='comm' target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211">
+          <ref rend="bold">venivano a fare un libro</ref>:  da testimonianze di persone vicine al Manzoni, risulta che tra il 1823 e il 1824, al termine del Fermo e Lucia, lo scrittore iniziò a comporre un libro sulla lingua, poi da lui stesso distrutto. Anni dopo, nel 1830, egli avviò un nuovo libro, Della lingua italiana: punto di confluenza delle riflessioni linguistiche dell’autore, l’opera subì rielaborazioni per circa trent'anni, ma non fu condotta oltre i primi quattro capitoli.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

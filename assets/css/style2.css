@@ -45,3 +45,71 @@
     right: 50%;
 }
 
+#visitors-count {
+    color: #73978B;
+    /* background-color: rgb(242, 219, 213, 0.25); */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* Centering the block */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chartdiv {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Country stats styling */
+#country-stats {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(242, 219, 213, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#country-stats h3 {
+    color: #73978B;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#country-list li {
+    flex: 1 1 45%; /* Adjust the width as needed */
+    font-size: 1rem;
+    color: #000;
+    margin: 5px;
+    text-align: left;
+}
+
+#country-list li:before {
+    content: "•";
+    color: #73978B;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+

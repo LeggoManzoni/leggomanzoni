@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pier Paolo Benucci (1996)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+          <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi :  Note e commento di Pier Paolo Benucci</title>
+          <editor>Benucci, Pier Paolo</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Armando Editore</publisher>
+          <date>1996</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1 </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Benucci_cap1">
+        <note xml:id="Benucci_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10002"><ref rend="bold">Quel ramo</ref>:  è il ramo ad est, vicino a Lecco. Zona ben conosciuta dall’autore che nella villa di Caleotto del padre, conte Pietro Manzoni, aveva passato parte della sua infanzia.</note>
+        <note xml:id="Benucci_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10012" targetEnd="quarantana/cap1.xml#c1_10013"><ref rend="bold">due catene</ref>:  ad est le Alpi Orobiche, ad ovest i monti della Brianza.</note>
+        <note xml:id="Benucci_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10060"><ref rend="bold">ponte</ref>:  di Lecco.</note>
+        <note xml:id="Benucci_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">tre grossi torrenti</ref>:  Gerenzone, Galdone, Bione.</note>
+        <note xml:id="Benucci_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10260"><ref rend="bold">terre</ref>:  borgate.</note>
+        <note xml:id="Benucci_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10262"><ref rend="bold">ville</ref>:  villaggi.</note>
+        <note xml:id="Benucci_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10339"><ref rend="bold">castello</ref>:  fortezza con guarnigione militare.</note>
+        <note xml:id="Benucci_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10403"><ref rend="bold">vendemmia</ref>:  evidente un’amara ironia.</note>
+        <note xml:id="Benucci_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10678" targetEnd="quarantana/cap1.xml#c1_10679"><ref rend="bold">vie più</ref>:  sempre più.</note>
+        <note xml:id="Benucci_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10705"><ref rend="bold">Abbondio</ref>:  Sant'Abbondio è il patrono di Como.</note>
+        <note xml:id="Benucci_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10737"><ref rend="bold">ufizio</ref>:  uffizio, le preghiere che un prete deve recitare ogni giorno.</note>
+        <note xml:id="Benucci_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10812"><ref rend="bold">fessi</ref>:  fenditure, spaccature.</note>
+        <note xml:id="Benucci_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_10899"><ref rend="bold">cura</ref>:  dimora del curato.</note>
+        <note xml:id="Benucci_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_11118" targetEnd="quarantana/cap1.xml#c1_11119"><ref rend="bold">enorme ciuffo</ref>:  col quale coprirsi la faccia quando commettevano violenze.</note>
+        <note xml:id="Benucci_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_11176"><ref rend="bold">cifra</ref>:  arabesco.</note>
+        <note xml:id="Benucci_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_11192"><ref rend="bold">bravi</ref>:  milizie private al servizio di qualche signore.</note>
+        <note xml:id="Benucci_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_11266"><ref rend="bold">Contestabile</ref>:  comandante militare.</note>
+        <note xml:id="Benucci_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">Sua Maestà Cattolica</ref>:  è il famoso re di Spagna Filippo II (1556-98), che con la sua Invincibile Armata vincerà contro i Turchi nella battaglia di Lepanto (1571) ma che non riuscirà a vincere sulle navi inglesi di Elisabetta I (1588).</note>
+        <note xml:id="Benucci_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_11402"><ref rend="bold">stranamente</ref>:  straordinariamente.</note>
+        <note xml:id="Benucci_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_11449"><ref rend="bold">grida</ref>:  decreto emesso dal governatore, stampato ed affisso, ma anche gridato.</note>
+        <note xml:id="Benucci_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_11515"><ref rend="bold">corda</ref>:  una tortura descritta da Manzoni nel XXXIV capitolo. Si sollevava il condannato con una corda legata ai polsi, poi si davano i tratti in modo da slogare le giunture.</note>
+        <note xml:id="Benucci_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">processo informativo</ref>:  procedimento istruttorio per conoscere i fatti.</note>
+        <note xml:id="Benucci_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11532"><ref rend="bold">galea</ref>:  galera, nave nella quale i condannati erano costretti a remare.</note>
+        <note xml:id="Benucci_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11717"><ref rend="bold">sbrattare</ref>:  andarsene tutti.</note>
+        <note xml:id="Benucci_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  in tutto e per tutto (lat.).</note>
+        <note xml:id="Benucci_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11925"><ref rend="bold">pernizioso</ref>:  pericoloso, gravido di sventure.</note>
+        <note xml:id="Benucci_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11973" targetEnd="quarantana/cap1.xml#c1_11974"><ref rend="bold">nell'ordir cabale</ref>:  combinare segreti accordi politici. La cabala propriamente detta (qabbâlâh) è un insieme di dottrine ebraiche medievali di tipo mistico e divinatorio. In realtà don Pedro Enriquez de Acevedo convinse Carlo Emanuele I, duca di Savoia, a combattere contro il re francese Enrico IV, per ottenere il Marchesato di Saluzzo. Carlo Emanuele I ottenne il Marchesato di Saluzzo ma dovette dare in cambio ampie zone della Savoia.</note>
+        <note xml:id="Benucci_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>:  Enrico IV di Borbone (1589-1610), il re francese che, convertitosi al cattolicesimo per porre fine alle guerre civili e religiose, promulgò l’editto di Nantes del 1598.</note>
+        <note xml:id="Benucci_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_12000" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">duca di Savoia</ref>:  Carlo Emanuele I (1580-1630), figlio di Emanuele Filiberto (1528-1580), condurrà una politica espansionistica, con successi alterni.</note>
+        <note xml:id="Benucci_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_12016" targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">duca di Biron</ref>:  Carlo di Gontaut duca di Biron, maresciallo francese, decapitato nel 1602 per aver tramato con Carlo Emanuele I contro Enrico IV.</note>
+        <note xml:id="Benucci_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">stampatori regii camerali</ref>:  i tipografi che avevano il privilegio di stampare gli editti della Regia Camera, organismo equivalente al ministero degli Interni e delle Finanze.</note>
+        <note xml:id="Benucci_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_12145" targetEnd="quarantana/cap1.xml#c1_12149"><ref rend="bold">Signor Gonzalo Fernandez di Cordova</ref>:  governatore di Milano dal 1627 al 1629.</note>
+        <note xml:id="Benucci_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_12268"><ref rend="bold">tuttavia</ref>:  ancora.</note>
+        <note xml:id="Benucci_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_12325" targetEnd="quarantana/cap1.xml#c1_12327"><ref rend="bold">a un tratto</ref>:  insieme, contemporaneamente.</note>
+        <note xml:id="Benucci_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_12597"><ref rend="bold">galantuomini</ref>:  ovviamente in senso ironico.</note>
+        <note xml:id="Benucci_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_12714"><ref rend="bold">banco</ref>:  banca.</note>
+        <note xml:id="Benucci_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_12960" targetEnd="quarantana/cap1.xml#c1_12962"><ref rend="bold">sa di latino</ref>:  l’ironia del bravo anticipa il tentativo di don Abbondio di imbrogliare Renzo proprio con citazioni latine (cap.II).</note>
+        <note xml:id="Benucci_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_13062"><ref rend="bold">messere</ref>:  titolo che spettava anche ai sacerdoti.</note>
+        <note xml:id="Benucci_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_13156"><ref rend="bold">aggranchiate</ref>:  rattrappite, in preda a crampi.</note>
+        <note xml:id="Benucci_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_13170"><ref rend="bold">naturale</ref>:  carattere, indole.</note>
+        <note xml:id="Benucci_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_13412" targetEnd="quarantana/cap1.xml#c1_13415"><ref rend="bold">Tali eran gli asili</ref>:  chiese, conventi, castelli e anche alcune residenze di nobili godevano del diritto d’asilo, cioè potevano ospitare chi avesse commesso un reato e le autorità di giustizia non potevano entrare in quei luoghi per arrestare i colpevoli.</note>
+        <note xml:id="Benucci_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_14016"><ref rend="bold">dovizioso</ref>:  ricco.</note>
+        <note xml:id="Benucci_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_14081"><ref rend="bold">discrezione</ref>:  discernimento, giudizio.</note>
+        <note xml:id="Benucci_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_14110"><ref rend="bold">parenti</ref>:  alla latina, genitori.</note>
+        <note xml:id="Benucci_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_14499"><ref rend="bold">fantastico</ref>:  collerico, lunatico.</note>
+        <note xml:id="Benucci_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_14714" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">venticinque lettori</ref>:  pochi lettori. Maliziosa autoironia per chi scrive un romanzo popolare.</note>
+        <note xml:id="Benucci_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199"><ref rend="bold">l'età sinodale</ref>:  Il Sinodo ecclesiastico del Concilio di Trento (1545-1563) , aveva proibito ai sacerdoti di tenere al loro servizio donne che avessero meno di quaranta anni.</note>
+        <note xml:id="Benucci_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_15203"><ref rend="bold">celibe</ref>:  nubile.</note>
+        <note xml:id="Benucci_cap1-n49" type='comm' target="quarantana/cap1.xml#c1_15477"><ref rend="bold">gomita</ref>:  gomiti.</note>
+        <note xml:id="Benucci_cap1-n50" type='comm' target="quarantana/cap1.xml#c1_15782"><ref rend="bold">arcivescovo</ref>:  è il cardinale Federigo Borromeo, arcivescovo di Milano dal 1595 al 1631.</note>
+        <note xml:id="Benucci_cap1-n51" type='comm' target="quarantana/cap1.xml#c1_15950"><ref rend="bold">baggianate</ref>:  sciocchezze. Una lunga dissertazione del Manzoni sull’uso del termine baggiano da parte dei Bergamaschi nei confronti dei Milanesi al cap. XVII.</note>
+        <note xml:id="Benucci_cap1-n52" type='comm' target="quarantana/cap1.xml#c1_16053"><ref rend="bold">bagattella</ref>:  o bagatella, una cosa di poco conto, un’inezia.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

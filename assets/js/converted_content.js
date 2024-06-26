@@ -1,66 +1,65 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Constants and variables
     const defaultComment = 'Badini Confalonieri, Luca';
     const defaultChapter = 'intro';
 
-    // Fetch and display the default comment and chapter
-    fetchAndDisplayData(`./get-comment/${defaultComment}`, '.text-comment-top', 'data-active-comment');
+    fetchAndDisplayData(`./get-comment/${defaultComment}/${defaultChapter}`, '.text-comment-top');
     fetchChapter(defaultChapter);
 
-    // Setup MutationObserver
     setupMutationObserver('.divisione');
-
-    // Setup click event listeners for links
-    setupChapterClickListener('.chapter-link', fetchChapter, '.text-chapter');
+    setupChapterClickListener('.chapter-link', fetchChapter);
     setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
 
     setupHoverScrolling();
-
+    highlightHoveredItem();
 });
 
-
-function fetchChapter(defaultChapter) {
+function fetchChapter(chapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
-    let chapterURL = imageElement ? `./get-chapter/${defaultChapter}` : `./get-chapter-with-images/${defaultChapter}`;
+    const chapterURL = imageElement ? `./get-chapter/${chapter}` : `./get-chapter-with-images/${chapter}`;
 
-    // Proceed with the fetch operation
+    // Get the active comments from the DOM
+    const activeCommentElement = document.querySelector('.comment-link.active-comment');
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : 'Badini Confalonieri, Luca'; // Fallback to default comment if no active comment found
+
+    const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
+    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : 'Angelini, Cesare'; // Fallback to default comment if no active comment found
+
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
-            
-            
             if (chapterElement) {
                 chapterElement.innerHTML = data;
                 const test_chapter = document.querySelector('.text-chapter#whichpage');
                 const h1Element = test_chapter.querySelector('h1');
-                h1Element.className = defaultChapter;
+                h1Element.className = chapter;
                 const promessisposiElement = document.getElementById('promessisposi');
                 if (promessisposiElement) {
                     promessisposiElement.scrollTop = 0;
                 }
 
-                highlightHoveredItem();  // Call the highlight function here
-                
+                // Fetch and display comments for the new chapter
+                fetchAndDisplayData(`./get-comment/${activeComment}/${chapter}`, '.text-comment-top');
+                fetchAndDisplayData(`./get-comment/${activeComment2}/${chapter}`, '.text-comment-bottom');
+
+                highlightHoveredItem();
             }
         })
         .catch(console.error);
 }
 
-
-function changeClassAndFetchData(defaultChapter) {
-    // Change the image class to 'bi bi-image-fill'
+function changeClassAndFetchData() {
     const test_chapter = document.querySelector('.text-chapter#whichpage');
     const h1Element = test_chapter.querySelector('h1');
-    chapter = h1Element.className;
+    const chapter = h1Element.className;
 
     const imageIcon = document.getElementById("imageIcon");
     const popupImage = document.getElementById("popupImage");
 
     if (imageIcon.className === "bi bi-card-image") {        
         imageIcon.className = "bi bi-image-fill";
-         popupImage.textContent = "Visualizza il testo senza le immagini.";
+        popupImage.textContent = "Visualizza il testo senza le immagini.";
     } else {
         imageIcon.className = "bi bi-card-image";
         popupImage.textContent = "Visualizza il testo con le immagini.";
@@ -68,30 +67,29 @@ function changeClassAndFetchData(defaultChapter) {
     fetchChapter(chapter);
 }
 
-
-function fetchAndDisplayData(endpoint, selector, attribute) {
+function fetchAndDisplayData(endpoint, selector) {
     fetch(endpoint)
         .then(response => response.text())
         .then(data => {
             const element = document.querySelector(selector);
             if (element) {
+                removeHighlightFromHoverItems();
                 element.innerHTML = data;
                 highlightHoveredItem();
             }
         })
-        .then(removeHighlightFromHoverItems())
         .catch(console.error);
 }
-
 
 function setupMutationObserver(selector) {
     const targetNode = document.querySelector(selector);
     if (targetNode) {
-        const observer = new MutationObserver((mutationsList) => {
+        const observer = new MutationObserver(mutationsList => {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
-                    fetchAndDisplayData(`./get-comment/${comment}`, '.text-comment-bottom', 'data-active-comment');
+                    const chapter = document.querySelector('.chapter-link.active-chapter').getAttribute('data-chapter');
+                    fetchAndDisplayData(`./get-comment/${comment}/${chapter}`, '.text-comment-bottom');
                 }
             }
         });
@@ -104,34 +102,41 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-comment');
-            fetchAndDisplayFunction(`./get-comment/${data}`, displaySelector, 'data-active-comment');
+
+            // Mark the clicked comment as active
+            document.querySelectorAll('.comment-link').forEach(link => link.classList.remove('active-comment'));
+            event.target.classList.add('active-comment');
+
+            // Get the active chapter from the DOM
+            const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+            const chapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : 'intro'; // Fallback to default chapter if no active chapter found
+
+            fetchAndDisplayFunction(`./get-comment/${data}/${chapter}`, displaySelector);
         });
     });
 }
 
-
-function setupChapterClickListener(selector, fetchAndDisplayFunction, displaySelector) {
+function setupChapterClickListener(selector, fetchAndDisplayFunction) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
             event.preventDefault();
             const data = event.target.getAttribute('data-chapter');
-            fetchAndDisplayFunction(data, displaySelector, 'text-chapter');
+            
+            // Mark the clicked chapter as active
+            document.querySelectorAll('.chapter-link').forEach(link => link.classList.remove('active-chapter'));
+            event.target.classList.add('active-chapter');
+            
+            fetchAndDisplayFunction(data);
         });
     });
 }
 
 function removeHighlightFromHoverItems() {
-    const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-
-    // For each hover-item, remove the highlight class
-    hoverItems.forEach(hoverItem => {
-        hoverItem.classList.remove('highlight');
+    document.querySelectorAll('.hover-item').forEach(item => {
+        item.classList.remove('highlight');
     });
-
 }
 
-
-// Utility function to check if the target element has the specified classes
 function hasSingularTextClass(target) {
     return target.classList.contains('divisione') && target.classList.contains('singularText');
 }
@@ -143,44 +148,11 @@ function highlightHoveredItem() {
         const hoverItemId = hoverItem.getAttribute('data-id');
         const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
 
-        // If a corresponding scroll-item exists, add the highlight class
         if (correspondingScrollItem) {
-            hoverItem.classList.add('highlight');  // Use add instead of toggle
+            hoverItem.classList.add('highlight');
         }
     });
 }
-
-function highlightHoveredItemWithPencil() {
-    const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-    const scrollItems = Array.from(document.querySelectorAll('.scroll-item'));
-    hoverItems.forEach(hoverItem => {
-        const hoverItemId = hoverItem.getAttribute('data-id');
-        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
-
-        // If a corresponding scroll-item exists, add the highlight class
-        if (correspondingScrollItem) {
-            hoverItem.classList.toggle('highlight');  // Use toggle
-        }
-    });
-    //Change style to the pencil together with the popup
-    var i = document.getElementById("highlightHoveredItem");
-    var captionFont = document.getElementById("popupUnderline");
-
-    if (i.classList.contains("bi-pencil-fill")) {
-        
-        i.classList.add("bi-pencil");
-        i.classList.remove("bi-pencil-fill");
-        captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
-
-    } else {
-        
-        i.classList.add("bi-pencil-fill");
-        i.classList.remove("bi-pencil");
-        captionFont.textContent = "Clicca qui per eliminare le note di commento.";
-
-    }
-}
-
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById("upperDiv");
@@ -196,62 +168,46 @@ function setupHoverScrolling() {
             const upperElements = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
             const bottomElements = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
 
-            // Find the corresponding element in the upper block
-            for (let i = 0; i < upperElements.length; i++) {
-                const currentId = parseInt(upperElements[i].getAttribute('data-related-id'), 10);
+            upperElements.forEach(el => {
+                const currentId = parseInt(el.getAttribute('data-related-id'), 10);
                 if (currentId == dataId) {
-                    upperCorrespondingElement = upperElements[i];
+                    upperCorrespondingElement = el;
                     upperStartId = currentId;
-                    upperEndId = parseInt(upperElements[i].getAttribute('data-end-id'), 10);
-                    break;
+                    upperEndId = parseInt(el.getAttribute('data-end-id'), 10);
                 }
-            }
+            });
 
-            // Find the corresponding element in the bottom block
-            for (let i = 0; i < bottomElements.length; i++) {
-                const currentId = parseInt(bottomElements[i].getAttribute('data-related-id'), 10);
+            bottomElements.forEach(el => {
+                const currentId = parseInt(el.getAttribute('data-related-id'), 10);
                 if (currentId == dataId) {
-                    bottomCorrespondingElement = bottomElements[i];
+                    bottomCorrespondingElement = el;
                     bottomStartId = currentId;
-                    bottomEndId = parseInt(bottomElements[i].getAttribute('data-end-id'), 10);
-                    break;
+                    bottomEndId = parseInt(el.getAttribute('data-end-id'), 10);
                 }
-            }
+            });
 
-            // Remove existing highlights
-            const allElements = [...upperElements, ...bottomElements];
-            for (let i = 0; i < allElements.length; i++) {
-                allElements[i].classList.remove('highlight-comment');
-            }
+            [...upperElements, ...bottomElements].forEach(el => el.classList.remove('highlight-comment'));
 
-            // Scroll to the corresponding element in the upper block
             if (upperCorrespondingElement) {
-                const upperElementTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
-                commentsContainer.scrollTop = upperElementTop;
+                commentsContainer.scrollTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
                 upperCorrespondingElement.classList.add('highlight-comment');
             }
 
-            // Scroll to the corresponding element in the bottom block
             if (bottomCorrespondingElement) {
-                const bottomElementBottom = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
-                bottomCommentsContainer.scrollTop = bottomElementBottom;
+                bottomCommentsContainer.scrollTop = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
                 bottomCorrespondingElement.classList.add('highlight-comment');
             }
 
-            
-
-            // Highlight the text
-            const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-            for (let i = 0; i < hoverItems.length; i++) {
-                const hoverItemId = hoverItems[i].getAttribute('data-id');
-                if ((hoverItemId >= upperStartId && hoverItemId <= upperEndId) || 
+            document.querySelectorAll('.hover-item').forEach(hoverItem => {
+                const hoverItemId = hoverItem.getAttribute('data-id');
+                if ((hoverItemId >= upperStartId && hoverItemId <= upperEndId) ||
                     (hoverItemId >= bottomStartId && hoverItemId <= bottomEndId) ||
-                    (hoverItemId == dataId))  {
-                    hoverItems[i].classList.add('highlight-text');
+                    (hoverItemId == dataId)) {
+                    hoverItem.classList.add('highlight-text');
                 } else {
-                    hoverItems[i].classList.remove('highlight-text');
+                    hoverItem.classList.remove('highlight-text');
                 }
-            }
+            });
         }
     });
 }

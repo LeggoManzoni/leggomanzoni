@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ferruccio Ulivi (1989)</title>
+       <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ferruccio Ulivi</title>
+          <editor>Ulivi, Ferruccio</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Grandi Tascabili Economici Newton</publisher>
+          <date>1989</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1. </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Ulivi_intro">
+        <note xml:id="Ulivi_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia</ref>:  Manzoni finge il ritrovamento di un manoscritto anonimo del sec. XVII, nel quale sarebbe contenuta la trama del suo racconto. Un ambiguo alludere alla paternità del testo è un espediente non nuovo nella tradizione narrativa, solo che si pensi al Cervantes, che nel prologo del suo libro si denomina «padrastro» (cioè «padrigno») di don Chisciotte; o all’analogo, spigliato rapporto col tessuto di fantasia in uso nella narrativa settecentesca (Swift, Voltaire, Diderot) nonché primo-ottocentesca (Scott, e, tra noi, il Cuoco del Platone in Italia). La finzione è destinata ad agevolare nel romanzo la spontanea mescolanza degli elementi storici con quelli d’invenzione, e a consentire un contrappunto commentativo fra l’autore e il testo e, direttamente, un rapporto critico dello scrittore con la pagina, dove possa spaziare lo storico, lo psicologo, il moralista. Ci si è chiesti se il riferimento a un anonimo non abbia in effetti qualche veridicità. Secondo G. GETTO, esisterebbe un contatto con un romanzo pubblicato a Venezia nel 1644, L'Historia del Cavalier Perduto del vicentino pace Pasini («Echi di un romanzo barocco nei Promessi Sposi», in Studi e problemi di critica testuale. Convegno di studi di Filologia italiana, ecc. 7-9 aprile 1960, Bologna 1961, pp. 439-467; poi rist.); e si vedano i raffronti effettuati dal Getto. Va comunque esclusa ogni correlazione, se non con la trama del racconto, con l’identità del secentista: che «anonimo» resta. L’ipotesi accennata può eventualmente sollecitare più di un riscontro sulla comune materia secentesca. Il giuoco in sé del rapporto col supposto manoscritto, nei Promessi sposi, è tale, per compiaciuta finezza, da escludere ogni eventualità di identificazione, oggi e domani. L’invenzione di un anonimo è piuttosto un segno della sapiente duplicità, pluralità d’interventi manzoniana; primo sintomo di suoi intersecati, complessi sottofondi, sottilmente e acutamente elaborati, in modo — preveniamo — da rendere indispensabile un commento, una messa in guardia quasi interlineare da parte del lettore sul limpidissimo, ma traforante e pluriforme, testo manzoniano. Anche il sottotitolo del romanzo, Storia milanese del secolo XVII scoperta e rifatta ci sollecita in tal senso.</note>
+        <note xml:id="Ulivi_intro-n2" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">gl'illustri Campioni</ref>:  gli storici che, secondo il linguaggio del secentista, sottraggono all’oblìo le figure più eminenti.</note>
+        <note xml:id="Ulivi_intro-n3" type='comm' target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  trombe fuse in una lega di rame e zinco.</note>
+        <note xml:id="Ulivi_intro-n4" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">gente meccaniche</ref>:  di bassa estrazione come artigiani e operai. L’interesse per i piccoli che passano inosservati nella storia, ha già presso Manzoni una vicenda, nel primo coro dell'Adelchi e nel Discorso sopra alcuni punti della storia longobardica in Italia (1822).</note>
+        <note xml:id="Ulivi_intro-n5" type='comm' target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  per «schiettamente» e «genuinamente» (secondo l’abitudine in antico di omettere la desinenza del primo di due avverbi in «-mente»).</note>
+        <note xml:id="Ulivi_intro-n6" type='comm' target="quarantana/intro.xml#intro_10188"><ref rend="bold">climi</ref>:  paesi.</note>
+        <note xml:id="Ulivi_intro-n7" type='comm' target="quarantana/intro.xml#intro_10191" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">l'amparo del Re Cattolico</ref>:  amparo è spagnolismo, per «dominio», o area di protezione; re di Spagna era allora, e lo vedremo anche in seguito, Filippo iv.</note>
+        <note xml:id="Ulivi_intro-n8" type='comm' target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10228"><ref rend="bold">L'Heroe di nobil Prosapia... parti</ref>:  il governatore dello stato, o ducato di Milano, che rappresentava il re di Spagna. Alla Spagna la Lombardia apparteneva dalla data del trattato di Cateau-Cambrésis (1559).</note>
+        <note xml:id="Ulivi_intro-n9" type='comm' target="quarantana/intro.xml#intro_10303" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">di Briareo</ref>:  cioè d’eccezionali, straordinarie capacità. Nota il Belloni: «L’eroismo di coloro che tenevano i pubblici uffici consisteva nell'aguzzar gli occhi [come Argo], per cercar donde spillar denari con le tasse e nell'allungar per tutto le mani [Briareo]». Traspare cioè nella frase laudativa l’argomento corrosivo.</note>
+        <note xml:id="Ulivi_intro-n10" type='comm' target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">per li pubblici emolumenti</ref>:  per l’interesse e il bene pubblico.</note>
+        <note xml:id="Ulivi_intro-n11" type='comm' target="quarantana/intro.xml#intro_10343" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">rendersi tributarij delle Parche</ref>:  metafora, per «morire». Le Parche: Cloto, Lachesi e Atropo, erano divinità figlie dell’Èrebo e della Notte, che avevano il compito di filare lo stame della vita dell’uomo e di troncarlo a tempo debito.</note>
+        <note xml:id="Ulivi_intro-n12" type='comm' target="quarantana/intro.xml#intro_10427" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">puri purissimi accidenti</ref>:  secondo la filosofia aristotelica, dominante nella tradizione secentesca, in natura esistono solo «sostanze» e «accidenti» (e si veda la ripresa di questa terminologia nel ragionamento di don Ferrante, al cap. XXXVII).</note>
+        <note xml:id="Ulivi_intro-n13" type='comm' target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  sbiadito e sgorbiato, come si addice a un manoscritto di tal sorta.</note>
+        <note xml:id="Ulivi_intro-n14" type='comm' target="quarantana/intro.xml#intro_10628" targetEnd="quarantana/intro.xml#intro_10630"><ref rend="bold">di buon gusto</ref>:  e cioè, una retorica da dosare con abile finezza. Altri pensa che qui Manzoni irrida ai tradizionali lenocinî letterari, sottintendendo un tipo di letteratura diverso. Ma quei lenocinî egli non disdegnò affatto e continuò a tener distinti dal nesso centrale dell’ispirazione, ad essa subordinandoli, né più né meno di quanto avveniva in antico. La novità delle posizioni manzoniane è semmai in ciò, che oggetto dell’arte non è il verosimile, ma il «vero» nel senso etico oltreché artistico.</note>
+        <note xml:id="Ulivi_intro-n15" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  errori di grammatica.</note>
+        <note xml:id="Ulivi_intro-n16" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia.</note>
+        <note xml:id="Ulivi_intro-n17" type='comm' target="quarantana/intro.xml#intro_10804"><ref rend="bold">presentato</ref>:  forse una svista dell’autore; o un uso personale e assoluto del gerundio.</note>
+        <note xml:id="Ulivi_intro-n18" type='comm' target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975"><ref rend="bold">Qui sta il punto</ref>:  come a dire, gli studi indispensabili a trattare un argomento storico devono essere affiancati dai linguistici, per esporre la materia in forma chiara e moderna. È il problema della lingua, già assillantemente dibattuto nelle due stesure di questa stessa Introduzione nel primo abbozzo; che qui, a scelta linguistica avvenuta, si limita ad affiorare in modo indiretto, come indirettamente appariva anche nell’ed. del ’27 del romanzo.</note>
+        <note xml:id="Ulivi_intro-n19" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  eventuali</note>
+        <note xml:id="Ulivi_intro-n20" type='comm' target="quarantana/intro.xml#intro_11102" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">ma le mutano</ref>:  espressione da intendere in senso serio, non ironico. Già il BARBI osservava che sarebbe strano immaginare il Manzoni in vena di scherzare «su una questione per lui così seria come quella della lingua» (Annali Manzoniani, I, p. 159 sgg.); ma è, ancor più, il Manzoni acuto discettatore che ha il sopravvento, riflettendo che in sostanza la vera logica non sta nel portare avanti ragionamenti astratti, ma nel porre una questione in giusta luce.</note>
+        <note xml:id="Ulivi_intro-n21" type='comm' target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">venivano a fare un libro</ref>:  un libro che il Manzoni non sarebbe riuscito a organizzare, anche perché distrusse tutto il materiale linguistico raccolto fino al 1827; e incompiuto rimase, malgrado i passi sporadicamente pubblicati e altri scritti lasciati inediti.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

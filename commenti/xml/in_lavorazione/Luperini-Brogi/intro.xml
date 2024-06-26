@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Romano Luperini-Daniela Brogi (1998)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Luperini-Brogi</title>
+          <editor>Romano Luperini</editor>
+          <editor>Daniela Brogi</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Einaudi Scuola</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Luperini-Brogi_intro">
+        <note xml:id="Luperini-Brogi_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia...</ref>:  come spiega il sottotitolo, il romanzo è «una storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni». Il narratore finge di aver tratto la vicenda dei Promessi sposi da un manoscritto anonimo del Seicento. La prima parte dell’Introduzione si presenta come la trascrizione fedele del proemio del manoscritto. (Per la parafrasi del proemio vedi SCHEDA 0.1.)</note>
+        <note xml:id="Luperini-Brogi_intro-n2" type="comm" target="quarantana/intro.xml#intro_10005"><ref rend="bold">deffinire</ref>:  il travestimento arcaicizzante della pagina iniziale dei Promessi sposi comporta l’uso delle principali particolarità grafiche e morfologiche della scrittura secentesca: la u intervocalica invece della v («cadaueri»); h iniziale in parole derivate dal latino («historia»); consonanti doppie («deffinire»); maiuscole nelle iniziali dei nomi comuni («Tempo»); uso della t al posto della z davanti a i seguita da vocale («Attioni»); gli apostrofato davanti a vocale diversa da i («gl’anni»); l'articolo li («li loro nomi»); plurale in -j («Personaggi»). La prosa attribuita all’Anonimo ricalca lo stile di alcuni testi del Seicento effettivamente letti e consultati da Manzoni durante la stesura del romanzo. Fra questi sono stati segnalati l'Historia del Cavalier Perduto di Pace Pasini, il Raguaglio dell’origine et giornali successi della gran peste di Alessandro Tadino, i Discorsi morali su la Tavola di Cebete di Agostino Mascardi, l’Introduttione della Geografia trasportata al morale di Daniello Bartoli.</note>
+        <note xml:id="Luperini-Brogi_intro-n3" type="comm" target="quarantana/intro.xml#intro_10044"><ref rend="bold">Arringo</ref>:  arengo, letteralmente indica il campo entro il quale si svolgevano i tornei, le gare, e quindi, per metonimia, il combattimento stesso.</note>
+        <note xml:id="Luperini-Brogi_intro-n4" type="comm" target="quarantana/intro.xml#intro_10048" targetEnd="quarantana/intro.xml#intro_None"><ref rend="bold">Palme... Allori</ref>:  i simboli tradizionali del successo.</note>
+        <note xml:id="Luperini-Brogi_intro-n5" type="comm" target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  il termine indica una lega di rame e di zinco, simile all’ottone, con cui si costruivano gli strumenti musicali.</note>
+        <note xml:id="Luperini-Brogi_intro-n6" type="comm" target="quarantana/intro.xml#intro_10409" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">sostanza... accidenti</ref>:  la terminologia è ripresa dalla filosofia scolastico-aristotelica, molto diffusa nel Seicento, secondo la quale la «sostanza» rappresenta l'essenza delle cose, mentre gli «accidenti» sono gli aspetti più variabili e non necessari della realtà, come, in questo caso, i nomi.</note>
+        <note xml:id="Luperini-Brogi_intro-n7" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  sbiadito e pieno di sgorbi.</note>
+        <note xml:id="Luperini-Brogi_intro-n8" type="comm" target="quarantana/intro.xml#intro_10447"><ref rend="bold">autografo</ref>:  manoscritto.</note>
+        <note xml:id="Luperini-Brogi_intro-n9" type="comm" target="quarantana/intro.xml#intro_10504"><ref rend="bold">scartabellando</ref>:  sfogliando rapidamente.</note>
+        <note xml:id="Luperini-Brogi_intro-n10" type="comm" target="quarantana/intro.xml#intro_10511" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">quella grandine... figure</ref>:  quell’uso eccessivo di analogie ingegnose («concettini») e di figure retoriche, proprie dello stile barocco, di cui l’autore ha offerto un esempio nella parte iniziale dell’Introduzione.</note>
+        <note xml:id="Luperini-Brogi_intro-n11" type="comm" target="quarantana/intro.xml#intro_10521" targetEnd="quarantana/intro.xml#intro_10522"><ref rend="bold">alla distesa</ref>:  senza interruzioni.</note>
+        <note xml:id="Luperini-Brogi_intro-n12" type="comm" target="quarantana/intro.xml#intro_10538"><ref rend="bold">virtù</ref>:  abilità.</note>
+        <note xml:id="Luperini-Brogi_intro-n13" type="comm" target="quarantana/intro.xml#intro_10567"><ref rend="bold">Idiotismi</ref>:  locuzioni o costrutti dialettali.</note>
+        <note xml:id="Luperini-Brogi_intro-n14" type="comm" target="quarantana/intro.xml#intro_10569" targetEnd="quarantana/intro.xml#intro_10570"><ref rend="bold">a iosa</ref>:  in abbondanza.</note>
+        <note xml:id="Luperini-Brogi_intro-n15" type="comm" target="quarantana/intro.xml#intro_10584" targetEnd="quarantana/intro.xml#intro_10585"><ref rend="bold">eleganza spagnola</ref>:  espressione ricercata spagnola (come «amparo»).</note>
+        <note xml:id="Luperini-Brogi_intro-n16" type="comm" target="quarantana/intro.xml#intro_10606" targetEnd="quarantana/intro.xml#intro_10607"><ref rend="bold">d'eccitar maraviglia</ref>:  Giambattista Marino, il più importante autore barocco italiano, scrisse infatti che «È del poeta il fin la maraviglia».</note>
+        <note xml:id="Luperini-Brogi_intro-n17" type="comm" target="quarantana/intro.xml#intro_10626"><ref rend="bold">discreta</ref>:  poco evidente.</note>
+        <note xml:id="Luperini-Brogi_intro-n18" type="comm" target="quarantana/intro.xml#intro_10646"><ref rend="bold">accozzando</ref>:  mescolando senza alcun criterio.</note>
+        <note xml:id="Luperini-Brogi_intro-n19" type="comm" target="quarantana/intro.xml#intro_10662"><ref rend="bold">affettato</ref>:  artificioso.</note>
+        <note xml:id="Luperini-Brogi_intro-n20" type="comm" target="quarantana/intro.xml#intro_10675"><ref rend="bold">ampollose</ref>:  altisonanti, enfatiche.</note>
+        <note xml:id="Luperini-Brogi_intro-n21" type="comm" target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  sgramzzzaticature (dal nome di “Sóloi”, città della Cilicia, famosa per la scorretta pronuncia del greco).</note>
+        <note xml:id="Luperini-Brogi_intro-n22" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia.</note>
+        <note xml:id="Luperini-Brogi_intro-n23" type="comm" target="quarantana/intro.xml#intro_10772"><ref rend="bold">altrimenti</ref>:  diversamente.</note>
+        <note xml:id="Luperini-Brogi_intro-n24" type="comm" target="quarantana/intro.xml#intro_10799" targetEnd="quarantana/intro.xml#intro_10800"><ref rend="bold">la dicitura</ref>:  la lingua e lo stile.</note>
+        <note xml:id="Luperini-Brogi_intro-n25" type="comm" target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10806"><ref rend="bold">Non essendosi... obiezion</ref>:  il gerundio è usato in modo assoluto e impersonale, per questo non vi è concordanza fra «presentato» e «obiezion».</note>
+        <note xml:id="Luperini-Brogi_intro-n26" type="comm" target="quarantana/intro.xml#intro_10819" targetEnd="quarantana/intro.xml#intro_10826"><ref rend="bold">esposta... medesimo</ref>:  l’ingenuità con cui il narratore ha esposto l’origine del libro è tanta quanta l'importanza del libro medesimo, cioè scarsa. L’ingenuità è scarsa, in quanto facilmente il lettore può capire la finzione del manoscritto ritrovato.</note>
+        <note xml:id="Luperini-Brogi_intro-n27" type="comm" target="quarantana/intro.xml#intro_10855" targetEnd="quarantana/intro.xml#intro_10857"><ref rend="bold">interrogare... testimoni</ref>:  recuperare altre testimonianze. In effetti, Manzoni si documentò scrupolosamente sulla storia del Seicento, consultando, tra gli altri, il De peste quae fuit anno 1630 (1641) e le Historiae Patriae (1641-43) di Giuseppe Ripamonti, il Raguaglio di Tadino (vedi nota 2) e la Storia di Milano (uscita postuma tra il 1793 e il 1798) di Pietro Verri.</note>
+        <note xml:id="Luperini-Brogi_intro-n28" type="comm" target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  eventuali.</note>
+        <note xml:id="Luperini-Brogi_intro-n29" type="comm" target="quarantana/intro.xml#intro_11167" targetEnd="quarantana/intro.xml#intro_11171"><ref rend="bold">le mandavamo... spasso</ref>:  dal momento che l’una contraddiceva l’altra e quindi si eliminavano a vicenda.</note>
+        <note xml:id="Luperini-Brogi_intro-n30" type="comm" target="quarantana/intro.xml#intro_11194"><ref rend="bold">raccapezzar</ref>:  raccogliere insieme.</note>
+        <note xml:id="Luperini-Brogi_intro-n31" type="comm" target="quarantana/intro.xml#intro_11210" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">un libro</ref>:  la riflessione linguistica impegnò Manzoni per tutto il periodo della stesura e della revisione dei Promessi sposi. Come documentano gli epistolari, un primo libro dedicato a tale questione fu progettato tra il 1823 e il 1824, quando lo scrittore andava elaborando la teoria linguistica milanese-toscana su cui si fonda la composizione della “ventisettana”. Di questo testo tuttavia non rimangono che pochissimi frammenti, perché Manzoni, quando mutò le sue convinzioni linguistiche a favore del fiorentino, decise di bruciare tutto il suo lavoro fino all’ultima pagina. Furono invece pubblicati postumi Sentir messa (scritto nel 1836) e Della lingua italiana, più volte riscritto tra il 1830 e il 1859.</note>
+        <note xml:id="Luperini-Brogi_intro-n32" type="comm" target="quarantana/intro.xml#intro_11262"><ref rend="bold">d'avanzo</ref>:  di troppo.</note>
+        <note xml:id="Luperini-Brogi_intro-n33" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037"><ref rend="bold">L'Historia... battaglia</ref>:  l’autore comincia a riportare il manoscritto che finge d’aver ritrovato. L’espediente del manoscritto ritrovato era già stato usato più volte, e recentemente anche dal fondatore del romanzo storico, Walter Scott, nel romanzo Ivanhoe (1819) che Manzoni aveva letto in traduzione. Manzoni fa dell’anonimo autore secentesco il primo narratore della vicenda, e presenta se stesso, in quanto autore, come secondo narratore. Ciò gli consente di sdoppiarsi in due distinte figure di narratore. Si osservi anche che qui l’autore, in quanto secondo narratore, riproduce lo stile barocco e ampolloso del primo. Si tratta, in realtà, di una parodia: l’autore amplifica infatti i tratti ampollosi e magniloquenti dello stile secentesco o barocco, accentuandone polemicamente le caratteristiche stilistiche per lui meno accettabili. Si tenga presente che Manzoni ha una formazione illuministica (vedi SCHEDA 0.3) e dunque antibarocca. Tutta la cultura del Settecento, dall’Arcadia all’Illuminismo, è fortemente polemica nei confronti del Seicento. Infatti l’Illuminismo vuole la chiarezza e la semplicità dell'espressione, mentre il Barocco privilegia uno stile basato sulla metafora, sui giochi concettuali e sull’esigenza di sorprendere il lettore.</note>
+        <note xml:id="Luperini-Brogi_intro-n34" type="comm" target="quarantana/intro.xml#intro_10065" targetEnd="quarantana/intro.xml#intro_10136"><ref rend="bold">le Imprese... di piccol affare</ref>:  già dal Discorso sopra alcuni punti della storia longobardica in Italia (1822) Manzoni sostiene la necessità che la storiografia non si limiti a parlare dei potenti, ma dedichi la propria attenzione anche a quella «immensa moltitudine d’uomini, che passa sulla terra, sulla sua terra, senza lasciarvi traccia», e cioè a gente meccaniche, e di piccol affare. È questo un tratto del democraticismo evangelico di Manzoni: tutti gli uomini sono eguali di fronte a Dio. In questo punto dunque l’Anonimo espone posizioni condivise anche dall’autore in quanto secondo narratore.</note>
+        <note xml:id="Luperini-Brogi_intro-n35" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">E veramente... pubblici emolumenti</ref>:  questo lunghissimo periodo è un esempio di prosa barocca resa parodicamente. Lo stile è iperbolico perché ostenta in tal modo il servilismo verso i potenti e il costume tipicamente spagnolesco dell’adulazione senza misura; è metaforico (il re è quel Sole che mai tramonta e anche Luna giamai calante); e infine fa ricorso a quelle immagini mitologiche del mondo classico (come quelle degli occhi di Argo e delle braccia di Briareo) che il romantico Manzoni esecrava e combatteva.</note>
+        <note xml:id="Luperini-Brogi_intro-n36" type="comm" target="quarantana/intro.xml#intro_10606" targetEnd="quarantana/intro.xml#intro_10630"><ref rend="bold">d'eccitar maraviglia... buon gusto</ref>:  il «buon gusto» era stato rivendicato dall’ Arcadia, nel Settecento, contro il Barocco, identificato invece con il cattivo gusto. L’Illuminismo italiano aveva ereditato dall’Arcadia la difesa del «buon gusto» contro gli eccessi (metafore, iperboli, concettismi) a cui il Barocco ricorreva per eccitar maraviglia, cioè per produrre stupore nei lettori. Manzoni, erede degli illuministi, rivendica, contro il Barocco, il senso della misura e della discrezione, e così la propria predisposizione per uno stile classico. Il romantico Manzoni si collega infatti, per certi aspetti, alla tradizione classico-illuministica del Settecento. Non deve stupire, dunque, la scelta della misura e della discrezione, che invece il Romanticismo nordico (inglese e soprattutto tedesco) rifiuta, per privilegiare gli eccessi smisurati della passionalità e del sentimento. Il Romanticismo di Manzoni non ha nulla a che fare con quello del nord dell'Europa. Quest'ultimo, infatti, rompe decisamente con quella tradizione classico-illuminista a cui Manzoni resta invece, almeno per certi aspetti, fedele.</note>
+        <note xml:id="Luperini-Brogi_intro-n37" type="comm" target="quarantana/intro.xml#intro_10756" targetEnd="quarantana/intro.xml#intro_10782"><ref rend="bold">bella... molto bella</ref>:  come si vede, la bellezza sta nel contenuto, non nella forma datale dall’Anonimo. Questo contenuto appare a Manzoni bello perché «interessante». Si ricordi che nella poetica manzoniana, il «vero» deve essere assunto come «soggetto» della storia, l’«interessante» è il mezzo per sedurre il lettore attraendone l’attenzione, mentre l'’«utile» morale è lo «scopo» della scrittura (vedi la lettera sul Romanticismo a Cesare d’Azeglio del 1823). Nella storia raccontata dall’Anonimo l’autore ritrova tutt'e tre questi elementi.</note>
+        <note xml:id="Luperini-Brogi_intro-n38" type="comm" target="quarantana/intro.xml#intro_10838" targetEnd="quarantana/intro.xml#intro_10839"><ref rend="bold">c'eran sembrati</ref>:  si noti il passaggio alla prima persona plurale, mentre sinora l’autore-narratore Aveva fatto ricorso alla prima singolare. L’uso della prima persona plurale è una spia dello stile saggistico: si passa infatti dalla narrazione alla metanarrazione, cioè alla riflessione dell'autore sul proprio modo di scrivere. La parte dedicata alla metanarrazione era assai ampia nel Fermo e Lucia, occupando digressioni che vi si prolungano anche per un intero capitolo, mentre è molto più ridotta nell’edizione definitiva del romanzo.</note>
+        <note xml:id="Luperini-Brogi_intro-n39" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975"><ref rend="bold">Qui sta il punto</ref>:  in Fermo e Lucia si legge invece: «Qui giace la lepre», espressione meno usuale e più ricercata. Nell'edizione definitiva Manzoni adotta un linguaggio più comune e omogeneo, rifiutando arcaismi, dialettalismi, francesismi ed espressioni ricercate, e puntando invece sul fiorentino parlato dalle persone colte.</note>
+        <note xml:id="Luperini-Brogi_intro-n40" type="comm" target="quarantana/intro.xml#intro_11030" targetEnd="quarantana/intro.xml#intro_11034"><ref rend="bold">ragione del modo di scrivere</ref>:  la questione linguistica era per Manzoni di grande rilevanza, a Causa delle sue implicazioni politiche. Al processo di unificazione politica del paese doveva corrispondere infatti un processo di unificazione linguistica. La lingua parlata dalla borghesia colta fiorentina - in quanto compresa in tutta Italia dalle classi medie e alte - doveva perciò diventare la lingua unitaria. Di qui il lavoro di revisione linguistica condotto già nel passaggio da Fermo e Lucia alla "ventisettana" (I promessi sposi del 1827) e poi, in modo ancor più radicale, dalla "ventisettana" alla "quarantana"(come si chiama l'edizione definitiva del 1840).</note>
+        <note xml:id="Luperini-Brogi_intro-n41" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262"><ref rend="bold">Veduta... d'avanzo</ref>:  sotto la dichiarazione di scherzosa e sorridente modestia, si può cogliere qui l'esigenza di un ritegno, di un decoro, di una distanza dal lettore fatta di ammichi e di lievi impuntature che rivelano in realtà un atteggiamento aristocratico e una vocazione a un contegno classico, discreto, misurato. A parlare è un gran signore; e ciò si avverte chiaramente dalla sprezzatura dello stile e dal modo stesso di ostentare modestia. Di nuovo nel Manzoni romantico si nasconde un gusto classico di distanziazione e di controllo.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

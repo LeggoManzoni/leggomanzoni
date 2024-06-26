@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valeria Lazzarini-Lorenzo Rolla (2012)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="FP">Filippo Pelacci</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Commento, note e apparato didattico a cura di Valeria Lazzarini e Lorenzo Rolla</title>
+          <editor>Lazzarini, Valeria</editor>
+          <editor>Rolla, Lorenzo</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Il Capitello</publisher>
+          <date>2012</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Lazzarini_intro">
+        <note xml:id="Lazzarini_intro-n1" type='comm' target="quarantana/intro.xml#intro_10020" targetEnd="quarantana/intro.xml#intro_10022"><ref rend="bold">2 già fatti cadaueri</ref>:  perché ormai appartengono al passato.</note>
+        <note xml:id="Lazzarini_intro-n2" type='comm' target="quarantana/intro.xml#intro_10044"><ref rend="bold">4 Arringo</ref>: o arengo. Era, anticamente, lo spazio cintato in cui si svolgevano i tornei. In questo contesto, il termine significa «lotta, prova».</note>
+        <note xml:id="Lazzarini_intro-n3" type='comm' target="quarantana/intro.xml#intro_10072" targetEnd="quarantana/intro.xml#intro_10073"><ref rend="bold">6 qualificati Personaggi</ref>:  la storia è sempre stata, tradizionalmente, la narrazione delle gesta eroiche di principi e potenti. L’anonimo, che dichiara di non essere all’altezza di tale compito, ripiega su un racconto di più modeste pretese, i cui protagonisti sono persone umili, di poco conto, quelle di cui mai uno storico con le carte in regola si sarebbe interessato.</note>
+        <note xml:id="Lazzarini_intro-n4" type='comm' target="quarantana/intro.xml#intro_10110" targetEnd="quarantana/intro.xml#intro_10112"><ref rend="bold">9 de' Politici maneggj</ref>:  si anticipa qui una convinzione che troverà ampio spazio nel romanzo, cioè quella riguardante il carattere profondamente negativo e antiumano di un modo di fare politica, incarnato per esempio nei governanti milanesi, che si esprime nell’intrigo, nell’oppressione e nella violenza, soprattutto a danno dei più deboli e indifesi.</note>
+        <note xml:id="Lazzarini_intro-n5" type='comm' target="quarantana/intro.xml#intro_10180" targetEnd="quarantana/intro.xml#intro_10181"><ref rend="bold">14 operationi diaboliche</ref>:  è evidente l’intento satirico del Manzoni contro una mentalità fermamente persuasa dell’intervento delle forze diaboliche nelle vicende umane, segnate dal netto contrasto tra il Bene, che raggiunge livelli sovrumani, e il Male, coadiuvato dalle forze infernali.</note>
+        <note xml:id="Lazzarini_intro-n6" type='comm' target="quarantana/intro.xml#intro_10191"><ref rend="bold">15 l'amparo</ref>:  spagnolismo, col significato di «tutela, protezione».</note>
+        <note xml:id="Lazzarini_intro-n7" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">15 Re Cattolico</ref>:  Filippo IV di Spagna.</note>
+        <note xml:id="Lazzarini_intro-n8" type='comm' target="quarantana/intro.xml#intro_10213" targetEnd="quarantana/intro.xml#intro_10215"><ref rend="bold">17 Luna giamai calante</ref>:  è il governatore di Milano, don Gonzalo Fernandez de Cordova.</note>
+        <note xml:id="Lazzarini_intro-n9" type='comm' target="quarantana/intro.xml#intro_10233" targetEnd="quarantana/intro.xml#intro_10234"><ref rend="bold">18 Stelle fisse</ref>:  i senatori, che non venivano trasferiti. Il succedersi delle immagini ricercate e persino iperboliche, eccessive, tratteggia, sotto il segno dell’ironia manzoniana, un sistema astronomico-politico che ben esprime il formalismo e la vuota retorica di parte della cultura seicentesca.</note>
+        <note xml:id="Lazzarini_intro-n10" type='comm' target="quarantana/intro.xml#intro_10281"><ref rend="bold">22 fattura</ref>:  magia, incantesimo. Non c’è alcun serio tentativo, da parte dell’anonimo, di precisare le cause dei fatti che si accinge a narrare, connessi, secondo lui, all’influsso di attività stregonesche. E lo stesso genere di spiegazioni che Manzoni condannerà ferocemente nei capitoli sulla peste.</note>
+        <note xml:id="Lazzarini_intro-n11" type='comm' target="quarantana/intro.xml#intro_10300" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">24 d'Argo... Briareo</ref>:  mostri mitologici; il primo aveva cento occhi, il secondo cento braccia.</note>
+        <note xml:id="Lazzarini_intro-n12" type='comm' target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">24 per li pubblici emolumenti</ref>:  gli «eroi» si impegnano per il bene pubblico; ma la frase è ambigua, perché vuol anche insinuare che essi si danno un bel daffare per impossessarsi del denaro pubblico.</note>
+        <note xml:id="Lazzarini_intro-n13" type='comm' target="quarantana/intro.xml#intro_10346"><ref rend="bold">27 Parche</ref>:  tre divinità (Cloto, Lachesi, Atropo) che, secondo la mitologia classica, si occupavano del destino umano, rappresentato da un filo che veniva da esse filato e tagliato (il momento della morte).</note>
+        <note xml:id="Lazzarini_intro-n14" type='comm' target="quarantana/intro.xml#intro_10397"><ref rend="bold">31 Filosofia</ref>:  quella aristotelico-scolastica.</note>
+        <note xml:id="Lazzarini_intro-n15" type='comm' target="quarantana/intro.xml#intro_10429"><ref rend="bold">33 accidenti</ref>:  aspetti inessenziali, quindi non indispensabili alla chiarezza del racconto.</note>
+        <note xml:id="Lazzarini_intro-n16" type='comm' target="quarantana/intro.xml#intro_10433" targetEnd="quarantana/intro.xml#intro_10437"><ref rend="bold">34 io avrò durata... fatica</ref>:  mi sarò affaticato. 35 dilavato e graffiato: sbiadito e in qualche punto inciso, lacerato.</note>
+        <note xml:id="Lazzarini_intro-n17" type='comm' target="quarantana/intro.xml#intro_10447"><ref rend="bold">35 autografo</ref>:  manoscritto di un testo, composto personalmente dall’autore.</note>
+        <note xml:id="Lazzarini_intro-n18" type='comm' target="quarantana/intro.xml#intro_10471" targetEnd="quarantana/intro.xml#intro_10472"><ref rend="bold">37 nel travaglio</ref>:  nella penosa fatica.</note>
+        <note xml:id="Lazzarini_intro-n19" type='comm' target="quarantana/intro.xml#intro_10512" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">40 grandine... figure</ref>:  quella gran quantità di metafore fuori dal comune, se non addirittura astruse.</note>
+        <note xml:id="Lazzarini_intro-n20" type='comm' target="quarantana/intro.xml#intro_10567"><ref rend="bold">44 Idiotismi</ref>:  «Costruzione linguistica propria di una data lingua o dialetto, che non possiede alcun corrispondente in un’altra lingua» (Il Nuovo Zingarelli, Bologna, Zanichelli, 1983).</note>
+        <note xml:id="Lazzarini_intro-n21" type='comm' target="quarantana/intro.xml#intro_10572" targetEnd="quarantana/intro.xml#intro_10573"><ref rend="bold">45 della lingua</ref>:  dell’italiano.</note>
+        <note xml:id="Lazzarini_intro-n22" type='comm' target="quarantana/intro.xml#intro_10594" targetEnd="quarantana/intro.xml#intro_10595"><ref rend="bold">47 ne' luoghi</ref>:  nei momenti, nei punti.</note>
+        <note xml:id="Lazzarini_intro-n23" type='comm' target="quarantana/intro.xml#intro_10606"><ref rend="bold">47 d'eccitar</ref>:  di suscitare.</note>
+        <note xml:id="Lazzarini_intro-n24" type='comm' target="quarantana/intro.xml#intro_10623"><ref rend="bold">49 rettorica</ref>:  la retorica è l’arte di saper parlare in modo efficace.</note>
+        <note xml:id="Lazzarini_intro-n25" type='comm' target="quarantana/intro.xml#intro_10640" targetEnd="quarantana/intro.xml#intro_10641"><ref rend="bold">50 così fatta</ref>:  la retorica, di cui il secentista ha fatto uso, è magniloquente e ampollosa, senza un vero impegno e un contenuto concreto.</note>
+        <note xml:id="Lazzarini_intro-n26" type='comm' target="quarantana/intro.xml#intro_10659" targetEnd="quarantana/intro.xml#intro_10662"><ref rend="bold">52 rozzo insieme e affettato</ref>:  grossolano e al tempo stesso artificioso, eccessivamente ricercato.</note>
+        <note xml:id="Lazzarini_intro-n27" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">53 solecismi</ref>:  errori grammaticali.</note>
+        <note xml:id="Lazzarini_intro-n28" type='comm' target="quarantana/intro.xml#intro_10690" targetEnd="quarantana/intro.xml#intro_10691"><ref rend="bold">54 il proprio</ref>:  lo specifico.</note>
+        <note xml:id="Lazzarini_intro-n29" type='comm' target="quarantana/intro.xml#intro_10713"><ref rend="bold">56 ammaliziati</ref>:  smaliziati.</note>
+        <note xml:id="Lazzarini_intro-n30" type='comm' target="quarantana/intro.xml#intro_10799" targetEnd="quarantana/intro.xml#intro_10800"><ref rend="bold">63 la dicitura</ref>:  la forma.</note>
+        <note xml:id="Lazzarini_intro-n31" type='comm' target="quarantana/intro.xml#intro_10808" targetEnd="quarantana/intro.xml#intro_10809"><ref rend="bold">64 il partito</ref>:  la decisione.</note>
+        <note xml:id="Lazzarini_intro-n32" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">65 con un'ingenuità</ref>:  in realtà non c’è stata alcuna ingenuità, da parte del Manzoni, nell’esporre la motivazione di fondo dell’opera, perché, come si vedrà poi nell’analisi, dietro le parole dello scrittore si nascondono alcuni punti essenziali della sua poetica.</note>
+        <note xml:id="Lazzarini_intro-n33" type='comm' target="quarantana/intro.xml#intro_10833"><ref rend="bold">67 costumi</ref>:  comportamenti.</note>
+        <note xml:id="Lazzarini_intro-n34" type='comm' target="quarantana/intro.xml#intro_10840" targetEnd="quarantana/intro.xml#intro_10843"><ref rend="bold">68 così nuovi, così strani</ref>:  prendendo a pretesto la novità e la stranezza dei fatti e degli atteggiamenti descritti dall’anonimo, Manzoni mette in evidenza il lavoro di ricerca e di documentazione storica da lui svolto su testi quasi tutti seicenteschi.</note>
+        <note xml:id="Lazzarini_intro-n35" type='comm' target="quarantana/intro.xml#intro_10891" targetEnd="quarantana/intro.xml#intro_10892"><ref rend="bold">72 ci abbattevamo</ref>:  ci imbattevamo.</note>
+        <note xml:id="Lazzarini_intro-n36" type='comm' target="quarantana/intro.xml#intro_10899" targetEnd="quarantana/intro.xml#intro_10900"><ref rend="bold">72 più forti</ref>:  più gravi, più serie.</note>
+        <note xml:id="Lazzarini_intro-n37" type='comm' target="quarantana/intro.xml#intro_10935"><ref rend="bold">75 alcuna</ref>:  qualcuna.</note>
+        <note xml:id="Lazzarini_intro-n38" type='comm' target="quarantana/intro.xml#intro_10939" targetEnd="quarantana/intro.xml#intro_10941"><ref rend="bold">76 per procacciar fede</ref>:  per dare credibilità.</note>
+        <note xml:id="Lazzarini_intro-n39" type='comm' target="quarantana/intro.xml#intro_10999"><ref rend="bold">81 l'obbligazione</ref>:  l’obbligo.</note>
+        <note xml:id="Lazzarini_intro-n40" type='comm' target="quarantana/intro.xml#intro_11013"><ref rend="bold">82 punto</ref>:  affatto.</note>
+        <note xml:id="Lazzarini_intro-n41" type='comm' target="quarantana/intro.xml#intro_11029"><ref rend="bold">84 minutamente</ref>:  dettagliatamente.</note>
+        <note xml:id="Lazzarini_intro-n42" type='comm' target="quarantana/intro.xml#intro_11054" targetEnd="quarantana/intro.xml#intro_11056"><ref rend="bold">86 possibili e contingenti</ref>:  ipotetiche ed effettive.</note>
+        <note xml:id="Lazzarini_intro-n43" type='comm' target="quarantana/intro.xml#intro_11124"><ref rend="bold">91 riscontrandole</ref>:  verificandole.</note>
+        <note xml:id="Lazzarini_intro-n44" type='comm' target="quarantana/intro.xml#intro_11194"><ref rend="bold">97 raccapezzar</ref>:  mettere insieme.</note>
+        <note xml:id="Lazzarini_intro-n45" type='comm' target="quarantana/intro.xml#intro_11210" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">100 un libro</ref>:  Manzoni non ha mai composto un libro totalmente dedicato al problema della lingua italiana, anche se aveva preso molti appunti con l’intenzione di scriverlo prima o poi.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

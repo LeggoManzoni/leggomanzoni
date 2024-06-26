@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap31">
+                <note xml:id="Russo_cap31-n1" type="comm" target="quarantana/cap31.xml#c31_10001" targetEnd="quarantana/cap31.xml#c31_10002"><ref rend="bold">La peste</ref>:  La descrizione della peste occupa questo, e il capitolo seguente; al solito, alcuni critici lamentano la lungaggine di questa digressione. Ma non si tratta d’una digressione: la storia nel romanzo è una cosa sola col dramma dei protagonisti. Tale storia, osserva giustamente il <persName>MOMIGLIANO</persName>, «ha anche una vita artistica in sè e per sè, che va rivendicata contro la sensibilità comunemente troppo scarsa di fronte all'arte severa e commossa del <persName type="author">Manzoni</persName>, storico, giudice, poeta dei grandi fatti del tempo. È una stortura da raddrizzare: nel capolavoro manzoniano la storia milanese del <date>secolo XVII</date> non è secondaria nè riguardo allo spirito nè riguardo all'arte di tutto il romanzo. Questi fatti sono continuamente infusi d’un’austera costernazione etica e cristiana, apprezzati con una sapiente e dolorosa indulgenza, e assommano in sè, non meno che le vicende dei protagonisti, l'amara, rassegnata, penetrante esperienza che del mondo aveva acquistato il Manzoni nelle sue osservazioni solitarie ». <bibl>(<persName type="author">A. Manzoni</persName>, pp. 224-25). Cfr. a p. 545, la n. 504.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n2" type="comm" target="quarantana/cap31.xml#c31_10076" targetEnd="quarantana/cap31.xml#c31_10119"><ref rend="bold">come a un di presso... i nostri personaggi</ref>:  Per buone e per cattive ragioni. Nelle città, è più facile che ci siano raccoglitori di memorie, anche perchè il fenomeno è più spettacoloso; <hi rend="italic">le cattive ragioni</hi> sarebbero quelle stesse reticentemente satireggiate nell’<hi rend="italic">Introduzione</hi>, perchè, come le istorie tramandano le memorie dei personaggi illustri e trascurano quelle delle folle anonime <bibl>(si veda anche la nota di protesta del<persName type="author"> M.</persName>
+                <bibl rend="italic">nel Discorso sopra alcuni punti della storia longobardica in Italia</bibl>, p. 328)</bibl>, così le campagne, rispetto alla città, erano abbandonate a sè stesse, e non c'erano nè fisici nè cronisti che strologassero sul flagello.</note>
+                <note xml:id="Russo_cap31-n3" type="comm" target="quarantana/cap31.xml#c31_10322" targetEnd="quarantana/cap31.xml#c31_10341"><ref rend="bold">comuni... almeno in Italia</ref>:  In quelli scritti in lingua volgare. L’uso del latino, almeno, era un principio di disciplina mentale e di buona letteratura. In questo giudizio su tutta la storiografia o cronachistica italiana e europea, senti sempre la mentalità dell’illuminista, che vede nel secolo precedente al <date>Settecento</date>(<hi rend="italic">l'età dei lumi!</hi>) tutto tenebre e ignoranza. Negli <bibl rend="italic">Sposi promessi</bibl>, parlando dell'educazione di <persName>Gertrude</persName>, aveva il <persName type="author">Manzoni</persName> osservato che « <date>nella prima metà del secolo decimo-settimo</date> non uscì in <placeName>Milano</placeName> nn libro, non dico insigne di pensiero, ma scritto grammaticalmente ». Invero la barbarie intellettuale del milanese fu profonda nel <date>Seicento</date>, ma ingiustamente la estende il <persName type="author">M.</persName> all’ <placeName>Europa</placeName> e anche alle altre regioni italiane, come <placeName>Venezia</placeName> e la <placeName>Toscana</placeName>, che continuarono ad avere una certa eccellenza pur nel decadimento generale. Anche la stessa <placeName>Napoli</placeName>, per quanto sotto il dominio spagnuolo come <placeName>Milano</placeName>, ebbe una notevole vita culturale. A <placeName>Milano</placeName> andavano per la maggiore quattro o cinque nomi, che, pure, sono soltanto studiosi di terzo o quart’ordine (<persName>Federigo Borromeo, Lodovico Settàla, Giambattista Visconti, Giuseppe Ripamonti</persName>, il canonico Rivola).<bibl>Cfr.<hi rend="italic"> Cultura e mentalità milanesi nel Seicento</hi>, in F. NICOLINI,<hi rend="italic"> Untori e unzioni nella peste milanese del 1630.</hi> p. 28 segg.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n4" type="comm" target="quarantana/cap31.xml#c31_10551" targetEnd="quarantana/cap31.xml#c31_10561"><ref rend="bold">ci sia sempre... e condotte</ref>:  Comunque concepite e condotte. Le relazioni originali, per quantospropositate, hanno sempre qualcosa di vivo e di eloquente, appunto perchè ingenuo e immediato riecheggiamento di cose viste e vissute.</note>
+                <note xml:id="Russo_cap31-n5" type="comm" target="quarantana/cap31.xml#c31_10683" targetEnd="quarantana/cap31.xml#c31_10685"><ref rend="bold">cinquantatré anni avanti</ref>:  Del 1576, detta di San Carlo, per la carità e l'assistenza prodigata e organizzata dal santo. <bibl>Cfr. a p. 542, la n. 393.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n6" type="comm" target="quarantana/cap31.xml#c31_10734" targetEnd="quarantana/cap31.xml#c31_10784"><ref rend="bold">quest’uomo... o una scoperta</ref>:  Come una conquista, o una scoperta. Il misuratissimo <persName type="author">Manzoni</persName> si indugia compiaciuto su questa gloria di un santo: motivo di quella <hi rend="italic">oratoria</hi> cristiana, qua e là diffusa nel romanzo.</note>
+                <note xml:id="Russo_cap31-n7" type="comm" target="quarantana/cap31.xml#c31_10785" targetEnd="quarantana/cap31.xml#c31_10788"><ref rend="bold">Il protofisico Lodovico Settala</ref>:  Noi diremmo oggi <hi rend="italic">medico primario</hi>.<hi rend="italic">Il fisico</hi>
+                <date>dal '500 al '700</date> fu il medico; e troviamo la parola usata anche dal <persName>Giusti</persName>, ma in un senso un po' scherzoso. Il <persName>Settàla</persName>, milanese <bibl>(n. il 1552, m. il 1633)</bibl>, fu valentissimo medico e scrittore di opere mediche, fra le quali un trattato <bibl rend="italic">De peste</bibl> dedicato al cardinale <persName>Federigo</persName>. Fu sepolto in <placeName>San Nazzaro</placeName>, dove, a dire del Cantù, si legge ancora il suo epitaffio: « Vinse la morte qualvolta volse, la vinse qualvolta diede rimedi, ed anche coi libri combattà i mali e la morte ».</note>
+                <note xml:id="Russo_cap31-n8" type="comm" target="quarantana/cap31.xml#c31_10807" targetEnd="quarantana/cap31.xml#c31_10812"><ref rend="bold">allor giovinissimo... curatori</ref>:  Giovinissimo, 1% ediz. <hi rend="italic">giovanissimo</hi>.<hi rend="italic">Giovine</hi> è più letterario, Si ricordila satira del Carducci a tal verbo.</note>
+                <note xml:id="Russo_cap31-n9" type="comm" target="quarantana/cap31.xml#c31_10969" targetEnd="quarantana/cap31.xml#c31_10978"><ref rend="bold">il quale pare... in pace</ref>:  Pare che ne mettesse il cuore in pace. Cominciano gli errori delle «autorità» e il <persName type="author">M.</persName> non perde tempo per allinearli: c’è l’amarezza e il semplicismo dell’illuminista, che fa procedere il diffondersi di un grande flagello dalla insipienza e trascuratezza dei governanti. Lo stesso stato d’animo , che il <persName type="author">Manzoni</persName> rivela ai <bibl>capp. XII,XIII</bibl>, nel descrivere il tumulto di S. Martino.</note>
+                <note xml:id="Russo_cap31-n10" type="comm" target="quarantana/cap31.xml#c31_11092" targetEnd="quarantana/cap31.xml#c31_11101"><ref rend="bold">la ruta... d'aceto</ref>:  Una ampolla d’aceto. Vedi La Sapienza del <persName type="author">M</persName>. Nel riportare questi passi dal<bibl>Tadino</bibl>: sono quelli che più possono dare un colorito, di testimonianza oculare, alla narrazione. Ricorda l’<hi rend="italic">introduzione</hi> al <bibl rend="italic">Decameron</bibl> del <persName>Boccaccio</persName>: «.... andavano attorno, portando nelle mani chi fiori, chi erbe odorifere, e chi diverse maniere di spezierie, quelle ai naso ponendosi spesso, estimando essere ottima cosa il cèrebro con cotali odori confortare.»</note>
+                <note xml:id="Russo_cap31-n11" type="comm" target="quarantana/cap31.xml#c31_11121"><ref rend="bold">Marche</ref>:  Più efficace di <hi rend="italic">segni</hi>.
+                </note>
+                <note xml:id="Russo_cap31-n12" type="comm" target="quarantana/cap31.xml#c31_11184" targetEnd="quarantana/cap31.xml#c31_11222"><ref rend="bold">intanto i delegati... avanzato e diffuso</ref>:  Il m. Non allenta un momento la sua critica: i delegati prendono <hi rend="italic">in fretta e in furia</hi> delle misure, ma formalmente, perchè essi stessi non credono alla validità di quelle misure.</note>
+                <note xml:id="Russo_cap31-n13" type="comm" target="quarantana/cap31.xml#c31_11282" targetEnd="quarantana/cap31.xml#c31_11293"><ref rend="bold">Così il Ripamonti... della Sanità</ref>:  Poichè può apparire terribilmente stupida la risposta del governatore che i pensieri della guerra fossero più urgenti, il <persName type="author">M.</persName> riferisce la frase latina e cita il <persName>Ripamonti</persName>.
+                </note>
+                <note xml:id="Russo_cap31-n14" type="comm" target="quarantana/cap31.xml#c31_11303" targetEnd="quarantana/cap31.xml#c31_16016"><ref rend="bold">era la seconda... e con quell'esito</ref>:  Vedi al <bibl>cap. XXVIII, p. 548, n. 562.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n15" type="comm" target="quarantana/cap31.xml#c31_11375" targetEnd="quarantana/cap31.xml#c31_11384"><ref rend="bold">Era quest’uomo... Spinola</ref>:<persName>Ambrogio Spinola.</persName>
+                <bibl>Cfr. la n. 609-10, al cap. XXVIII, p. 549.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n16" type="comm" target="quarantana/cap31.xml#c31_11395" targetEnd="quarantana/cap31.xml#c31_16051"><ref rend="bold">don Gonzalo... e noi possiamo qui</ref>:  E incidentemente, a governare. Senti l'amarezza di quell’<hi rend="italic">incidentemente</hi>, che il <persName type="author">M.</persName> poi riprende in tono ironico, quando vuol narrare della fine miserevole dello <persName>Spinola</persName>, ammazzato dai dispiaceri,</note>
+                <note xml:id="Russo_cap31-n17" type="comm" target="quarantana/cap31.xml#c31_11441" targetEnd="quarantana/cap31.xml#c31_11449"><ref rend="bold">disgusti... a cui serviva</ref>:  Da quelli a cui serviva. Pare una vendetta delle cose: il servilismo verso i potenti non può essere ripagato che dall’ingratitudine.</note>
+                <note xml:id="Russo_cap31-n18" type="comm" target="quarantana/cap31.xml#c31_11476" targetEnd="quarantana/cap31.xml#c31_11501"><ref rend="bold">l’attività... piuttosto in balìa</ref>:  Cos'abbia fatto di tutte queste qualità. Satira della storia aulica e cortigiana, che dà rilievo alle imprese militari, in servizio dei re, e non si cura di indagare e giudicare le imprese civili, a servizio dei popoli.</note>
+                <note xml:id="Russo_cap31-n19" type="comm" target="quarantana/cap31.xml#c31_11591" targetEnd="quarantana/cap31.xml#c31_11601"><ref rend="bold">desiderio di precauzioni... una sterile inquietudine</ref>:  Una sterile inquietudine. Bellissimo epiteto; anche questa inquietudine <hi rend="italic">sterile</hi> è segno almeno di animo pensoso. La vacuità e indifferenza dei pensieri per <persName type="author">Manzoni</persName> è miscredenza, cecità, quasi una forma di empietà controla vita stessa.</note>
+                <note xml:id="Russo_cap31-n20" type="comm" target="quarantana/cap31.xml#c31_11654" targetEnd="quarantana/cap31.xml#c31_11664"><ref rend="bold">chi motivasse... iracondo</ref>:  Con beffe incredule, con disprezzo iracondo. Acutissima osservazione sulla psicologia popolare, quando, oppressa e stanca di altri mali, si ribella a ogni pessimistica previsione, e preferisce affrontare il pericolo con una insana e cinica fiducia. Gli ammonitori della gravità di un male sono detti (con parola moderna) <hi rend="italic">disfattisti</hi>, e <hi rend="italic">qualche volta traditori della patria.</hi>
+                </note>
+                <note xml:id="Russo_cap31-n21" type="comm" target="quarantana/cap31.xml#c31_11748" targetEnd="quarantana/cap31.xml#c31_11758"><ref rend="bold">e anche... singolarità</ref>:  Tra le sue lodevoli singolarità. Senza dubbio, il Cardinale è stato uno dei più illuminati provveditori contro la peste; ma l'errore storico del <persName type="author">Manzoni</persName> è di credere possibile che un po’ uomo solo possa fare eccezione, quando il senato, il consiglio de’ decurioni, ogni magistrato, lo stesso popolo, sono tutti affetti di cecità e di fissazione. La preoccupazione oratoria spinge l’autore a salvare il suo personaggio, il quale si salva, invece, veramente, se l’opera sua è sintesi di una volontà collettiva, e traduce in forma più illustre l'inclinazione e lo stato d’animo di molti.</note>
+                <note xml:id="Russo_cap31-n22" type="comm" target="quarantana/cap31.xml#c31_11772" targetEnd="quarantana/cap31.xml#c31_11789"><ref rend="bold">nel tribunale... Tadino</ref>:  La premura era ben lontana.... l'urgenza. Non si direbbe nulla se, in queste parti, il <persName type="author">M.</persName> avesse voluto essere soltanto artista; ma egli ha :voluto essere storico scrupoloso, e dare «una notizia succinta, ma sincera e continuata di quel disastro ». E allora, come storico, egli è troppo clemente per una parte (per tutto ciò che riguarda il Cardinale), e troppo inclemente per tutti gli altri poveri <hi rend="italic">ufiziali</hi> del tempo. C'è l'atteggiamento dell’<hi rend="italic">oratore</hi> di una causa, e del terribile <hi rend="italic">moralista</hi> che non perdona; e non l'atteggiamento di uno storico.</note>
+                <note xml:id="Russo_cap31-n23" type="comm" target="quarantana/cap31.xml#c31_11939" targetEnd="quarantana/cap31.xml#c31_11962"><ref rend="bold">per il numero... conservati</ref>:  Curiosità di conoscere quei primi e pochi nomi. Ciò che risponde a un bisogno insoffocabile della fantasia umana: risalire alle origini di un fenomeno, quando questo si è spiegato in forma grandiosa. Ciò che avviene dei fatti storici, come delle quotidiane avventure piscologiche: si ricordi <persName>Dante</persName> che, nel V dell'<bibl rend="italic">Inferno</bibl>, desidera conoscere dai due cognati « le prime radici » del loro affetto.</note>
+                <note xml:id="Russo_cap31-n24" type="comm" target="quarantana/cap31.xml#c31_12134" targetEnd="quarantana/cap31.xml#c31_12153"><ref rend="bold">come abbiam detto... mettesse conto</ref>:  Prima della pubblicazione della grida sulle bullette. Il <persName type="author">M.</persName> riafferma con questa congettura la delittuosità del ritardo per cui la grida delle bullette, decisa il <date>30 ottobre</date>, fu redatta solamente il <date>23 novembre</date> e pubblicata il <date>29</date>
+                </note>
+                <note xml:id="Russo_cap31-n25" type="comm" target="quarantana/cap31.xml#c31_12307" targetEnd="quarantana/cap31.xml#c31_12319"><ref rend="bold">fin da principio... conseguenza</ref>:  le cautele usate. Il <persName type="author">M.</persName>, in questo, è affiatato con le esigenze della medicina moderna, per cui una tempestiva profilassi può arginare un male; ma nel <date>’600</date> c’era nna così diffusa coscienza medica ed igienica, sì che si possa attribuire a cattiva volontà e incuria degli uomini il non averne applicate 0 controllate le regole? Non si tratta di barbarie intellettuale, più che di ottusa malizia di magistrati, come vorrebbe il <persName type="author"> Manzoni</persName>?
+                </note>
+                <note xml:id="Russo_cap31-n26" type="comm" target="quarantana/cap31.xml#c31_12331" targetEnd="quarantana/cap31.xml#c31_12343"><ref rend="bold">ma il soldato... non tardò</ref>:  Un seminìo. Si è discusso dai grammatici se debba scriversi <hi rend="italic">semìnio</hi>, con l'accento spostato sulla prima i, voce usata dai medici in senso di germe di un morbo; ma il <persName type="author">M.</persName> ha scritto <hi rend="italic">seminîo</hi>, incurante della pedanteria della terminologia medica, e qui preoccupato artisticamente di rendere l’idea dello spargimento progressivo e cronico dei bacilli</note>
+                <note xml:id="Russo_cap31-n27" type="comm" target="quarantana/cap31.xml#c31_12523" targetEnd="quarantana/cap31.xml#c31_12530"><ref rend="bold">era... voce di Dio</ref>:  Voce di Dio. Allusione al detto <hi rend="italic">vox populi dei.</hi> Talvolta per il <persName type="author">M.</persName> Dio (si pensi all’assoluzione che la folla fa di <persName>Ludovico</persName> al cap. IV), ma tal’altra è soltanto un vocione, come nel tumulto milanese il <hi rend="italic">vocione</hi> del popolo imbestialito e talvolta, come qui, un <hi rend="italic">flatus</hi> insensato.</note>
+                <note xml:id="Russo_cap31-n28" type="comm" target="quarantana/cap31.xml#c31_12531" targetEnd="quarantana/cap31.xml#c31_12539"><ref rend="bold">deridevan... de pochi</ref>:  Deridevan gli auguri ministri. E ci meraviglieremo che don Ferrante non credesse nel contagio, e se la prendesse soltanto con le stelle!</note>
+                <note xml:id="Russo_cap31-n29" type="comm" target="quarantana/cap31.xml#c31_12619" targetEnd="quarantana/cap31.xml#c31_12623"><ref rend="bold">s’ebbero... falsi attestati</ref>:  Falsi attestati. Questo avveniva nel <date>'600</date>, ma questo può avvenire anche in altri secoli e con più progredite civiltà. Nelle epidemie, ciascuno è preoccupato di risolvere il proprio caso personale o familiare, per quell'egoismo spaventoso che il periodo educa negli animi umani.</note>
+                <note xml:id="Russo_cap31-n30" type="comm" target="quarantana/cap31.xml#c31_12665" targetEnd="quarantana/cap31.xml#c31_12676"><ref rend="bold">delle Mercanti... com'eran</ref>:  Dice il Tadino. Cita il Tadino per documentare meglio l'assurdità di quella collettiva cecità.</note>
+                <note xml:id="Russo_cap31-n31" type="comm" target="quarantana/cap31.xml#c31_12721" targetEnd="quarantana/cap31.xml#c31_12731"><ref rend="bold">E certo fu... memoria</ref>:  Merita che ne sia fatta memoria. Siamo grati al <persName type="author">Manzoni</persName> che, una volta tanto, riconosca i meriti e le pene di due poveri <hi rend="italic">laici</hi>!
+                </note>
+                <note xml:id="Russo_cap31-n32" type="comm" target="quarantana/cap31.xml#c31_12854" targetEnd="quarantana/cap31.xml#c31_12863"><ref rend="bold">morale a Milano... chiaro</ref>:  Molte opere riputatissime allora. Nota la sfumatura di quell’<hi rend="italic">allora</hi>, che indica lo scetticismo intrinseco del <persName type="author">M.</persName> per la scienza di quel brav'uomo. Sul che non ci sarebbe nulla da ridire, se, al cap. XXII, per mediocri opere retoriche del cardinale <persName>Federigo</persName>,<persName type="author">Manzoni</persName> non si fosse domandato, con un incerto rammarico: « Come mai, tutte insieme non sono bastate a procurare, almeno col numero, al suo nome una fama letteraria presso noi posteri ? »</note>
+                <note xml:id="Russo_cap31-n33" type="comm" target="quarantana/cap31.xml#c31_12870"><ref rend="bold">Ingolstadt</ref>:  nell'alta Baviera.</note>
+                <note xml:id="Russo_cap31-n34" type="comm" target="quarantana/cap31.xml#c31_12941" targetEnd="quarantana/cap31.xml#c31_12960"><ref rend="bold">più forte... avanti loro</ref>:  Il pover'uomo partecipava de’ pregiudizi più comuni e più funesti. Un’altra delle ingiustizie critiche del <persName type="author">Manzoni</persName> verso uno scienziato <hi rend="italic">laico</hi>; di quei pregiudizî comuni e funesti partecipava anche il cardinale <persName>Federigo</persName>, ma allora il M, è lì per lì per invocare l’ignoranza generale dei tempi. <bibl>Cfr. la nota 352, al cap. XXII, p. 421. Ahi, <persName>don Lisander</persName>, questa vostra parzialità «fa molte volte perdere l'autorità acquistata in altre maniere! ».</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n35" type="comm" target="quarantana/cap31.xml#c31_12962" targetEnd="quarantana/cap31.xml#c31_12972"><ref rend="bold">senza allontanarsi... guai</ref>:  Quello che attira i guai. Il contrastare decisamente agli idola tribus è ciò che rende impopolari.</note>
+                <note xml:id="Russo_cap31-n36" type="comm" target="quarantana/cap31.xml#c31_12526" targetEnd="quarantana/cap31.xml#c31_13005"><ref rend="bold">questo caso... profano</ref>:  Di quello che i poeti chiamavan volgo profano. O respinto dai poeti, come da <persName>Orazio</persName>
+                <bibl>(Odi, III, 1, 1, <hi rend="italic">Odi profanum vulgus et arceo</hi>), o adulato dai capocomici, il volgo è sempre volgo. (PISTELLI).</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n37" type="comm" target="quarantana/cap31.xml#c31_13129" targetEnd="quarantana/cap31.xml#c31_13138"><ref rend="bold">molte migliaia... consulto</ref>:  Con un suo deplorabile consulto. Si veda riferito l'episodio, nei suoi particolari, nella <hi rend="italic">Storia di <placeName>Milano</placeName>
+                </hi> di <persName>PIETRO VERRI</persName>, citato dallo stesso <persName type="author">Manzoni</persName>. Una <persName>Caterinetta Medici</persName>, cameriera, aveva invaghito di sè nn capitano <persName>Vacallo</persName>, che si credè poi ammaliato <hi rend="italic">con fattura dalla donna.</hi> Rientrato in patria, dono una lenta guarigione conseguita con distrazioni e viaggi, ritrovò la donna in casa <persName>Melzi</persName>, dove il senatore <persName>Luigi</persName>, nell'autunno del <date>1616</date>, era stato preso da malessere generale, dolori di stomaco, inappetenza, insonnia e deperimento. Si corse subito ad accusare la <persName>Caterinetta</persName>, che fu subito visitata dai medici, e, fra gli altri, il <persName>Settàla</persName> confermò la sua fama di « strega famosa e professa » per alcune macchie riscontratele nelle spalle e indubbiamente « segnate e marcate dal demonio ». La sciagurata fu quindi condannata al rogo, e si sarebbe ancora salvata se l’inquisizione diocesana, presieduta da <persName>Federigo Borromeo</persName>, avesse avuto dei dnbbi sulla sua colpevolezza. Ma il <persName>Borromeo</persName> era credulo anche lui nelle arti diaboliche e maliarde, e già al principio del suo arcivescovado era stato implacabile persecutore di streghe, come il suo cugino <persName>Carlo</persName>. Però la povera <persName>Caterinetta</persName> fu giustiziata il <date>4 marzo 1617</date>. Sulla partecipazione del cardinale <persName>Federigo</persName> a tale pregiudizio sulle streghe.</note>
+                <note xml:id="Russo_cap31-n38" type="comm" target="quarantana/cap31.xml#c31_13830" targetEnd="quarantana/cap31.xml#c31_13849"><ref rend="bold">interno... faceva ragione</ref>:  Un’asta..... di cilizio. Un bastone sarebbe stato troppo; il cilizio, poi, un mazzo di funicelle, col quale batteva sulle spalle dei tumultuanti e dei contendenti.</note>
+                <note xml:id="Russo_cap31-n39" type="comm" target="quarantana/cap31.xml#c31_13850" targetEnd="quarantana/cap31.xml#c31_13869"><ref rend="bold">alle querele... si rimise</ref>:  Minacciava.... e spargeva lacrime. Tutti questi verbi, nella loro «gradazione diversa, conferiscono spiritualità a questa singolare figura di dittatore, di pedagogo e di confortatore cristiano</note>
+                <note xml:id="Russo_cap31-n40" type="comm" target="quarantana/cap31.xml#c31_13925" targetEnd="quarantana/cap31.xml#c31_13935"><ref rend="bold">il veder... governo</ref>:  Quelli a cui toccava un così importante governo. La frase è stata interpretata dal <persName>D’OVIDIO</persName> come una prova dei sentimenti laici del <persName type="author">Manzoni</persName> nei rispetti dell'autorità dello Stato; ma, invero, la tenerezza per le prerogative temporali dello Stato, qui, è suggerita solo da feroce disprezzo per la diserzione dei governanti in un momento difficile e pericoloso.</note>
+                <note xml:id="Russo_cap31-n41" type="comm" target="quarantana/cap31.xml#c31_13991" targetEnd="quarantana/cap31.xml#c31_13997"><ref rend="bold">e fu bello... accettato</ref>:  E fu bello lo stesso.... La lode ai buoni frati è assai giusta e meritata; ma senti il ritmo della prosa assumere di colpo un numero oratorio, non appena il<persName type="author"> M.</persName> cessa di essere puro storico o puro artista e si fa predicatore ed elogiatore della forza ed abilità della carità cristiana.</note>
+                <note xml:id="Russo_cap31-n42" type="comm" target="quarantana/cap31.xml#c31_14079" targetEnd="quarantana/cap31.xml#c31_14092"><ref rend="bold">quella specie... per i grandi servizi</ref>:  Come in solido. È frase dello stile notarile: interamente, unitamente, collettivamente, in blocco.</note>
+                <note xml:id="Russo_cap31-n43" type="comm" target="quarantana/cap31.xml#c31_14151" targetEnd="quarantana/cap31.xml#c31_14162"><ref rend="bold">hauendo... industria</ref>:  Agiutto. Aiuto. È rispettata la fonetica e la grafia secentesca.</note>
+                <note xml:id="Russo_cap31-n44" type="comm" target="quarantana/cap31.xml#c31_14238" targetEnd="quarantana/cap31.xml#c31_14248"><ref rend="bold">naturalmente... che il morbo</ref>:  Della pratica. Commercio o relazione.</note>
+                <note xml:id="Russo_cap31-n45" type="comm" target="quarantana/cap31.xml#c31_14363" targetEnd="quarantana/cap31.xml#c31_14372"><ref rend="bold">stringere le labra... le ciglia</ref>:  Et inarcare le ciglia. Le frasi del <persName>Tadino</persName>, pur nella loro rozzezza lettera» ria, dànno sempre un colorito speciale alla rappresentazione.</note>
+                <note xml:id="Russo_cap31-n46" type="comm" target="quarantana/cap31.xml#c31_14373" targetEnd="quarantana/cap31.xml#c31_14383"><ref rend="bold">Ma l’uscite... caparbietà</ref>:  Ma l’uscite, i ripieghi. Sarebbe stato meglio, dice il <persName type="author">Manzoni</persName>, che il volgo e i magistrati continuassero a essere miscredenti e ciechi davanti al fenomeno del contagio, anzichè, credendovi, attribuirlo ora a arti venefiche, operazioni diaboliche, unzioni e untori, veleni contagiosi, malie. Ciò che dava origine 4 un nuovo martorio: quello dei presunti untori, perseguitati e processati.</note>
+                <note xml:id="Russo_cap31-n47" type="comm" target="quarantana/cap31.xml#c31_14464" targetEnd="quarantana/cap31.xml#c31_14473"><ref rend="bold">confessare... una gran colpa</ref>:  Un grand’inganno e una gran colpa. Il volgo e i magistrati dovevano riconoscere di essersi ingannati, e di essere stati assai colpevoli di non aver reagito con cautele mediche al diffondersi naturale del morbo.</note>
+                <note xml:id="Russo_cap31-n48" type="comm" target="quarantana/cap31.xml#c31_14511" targetEnd="quarantana/cap31.xml#c31_14530"><ref rend="bold">ogni parte d’Europa... di malìe</ref>:  Operazioni diaboliche... di mali. Come tali credenze fossero radicate a <placeName>Milano</placeName> in qualunque classe sociale, è suffragato, secondo il <persName>NICOLINI</persName>, da documenti di stregoneria, recentemente pubblicati: un’<hi rend="italic">struttione</hi>i dei decurioni del <date>31 ottobre 1627</date>, in cui parlandosi dei « nefandi et abominevoli essercitii da soldati stranieri et heretici o nemici della santa fede con publico scandalo apertamente essercitati », si ricordano « prodigiose tempeste et inondationi, per opera di costoro, come comunemente si tiene, con <hi rend="italic">arti diaboliche suscitate</hi>, per dissipare i frutti della terra e distrugger e desolar affatto la provincia ». E ancora un dispaccio del <date>25 luglio 1632</date>, dove, a proposito di una «horribile tempesta et nembo », che aveva «in un colpo rase in terra quarantaquattro colonne grandissime » del palazzo della Residenza veneta, si diceva: «Tutti vogliono che sia un tanto temporale per arte diabolica proceduto, et la terra di <placeName>Galarà (Gallarate)</placeName> ha già fatto prigioni et uccisi diversi soldati alemanni, osservati a far circoli (magici) e formar altre infernali figure ». <bibl>Cfr. NICOLINI, Untori e unzioni, pp. 30-31.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n49" type="comm" target="quarantana/cap31.xml#c31_14571" targetEnd="quarantana/cap31.xml#c31_14579"><ref rend="bold">avvertirlo... ricercati come</ref>:  Quattro francesi. Nel suo <hi rend="italic">Raguaglio</hi>,<persName>Alessandro Tadino</persName> racconta che «l'anno prossimo passato <date>(1629)</date> fu mandata dal re cattolico Nostro Signore una lettera al governatore <placeName>Milano</placeName>, il marchese <placeName>Spinola</placeName>, il quale, doppo letta, Ja mandò al Senato et, puoco doppo, al Tribunale supremo della Sanità, con la quale avisava come si trovavano fugiti da quella regia corte quattro persone francesi, le quali volevano ongere la città di <placeName>Madrid</placeName> con unguento venenoso et pestilente; et perciò dovessero essere vigilanti ». Il qual racconto fu parafrasato dal <persName>Ripamonti</persName>, con qualche congettura di suo; ma il <persName>NICOLINI</persName> ha mostrato l’incongruenza cronologica e certe fronde romanzesche di tale racconto, per cui vedi <bibl>l’<hi rend="italic">op. cit.</hi>, p. 5 Sgg.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n50" type="comm" target="quarantana/cap31.xml#c31_14661" targetEnd="quarantana/cap31.xml#c31_14670"><ref rend="bold">so quale cattività... quel sospetto indeterminato</ref>:  Cattività. Sciagurataggine, la quale non sempre implica malizia.</note>
+                <note xml:id="Russo_cap31-n51" type="comm" target="quarantana/cap31.xml#c31_14692" targetEnd="quarantana/cap31.xml#c31_14716"><ref rend="bold">parso di vedere... assegnati a due</ref>:  In duomo andare ungendo un assito. Il <persName>M.</persName> qui parafrasa il racconto del <persName>Ripamonti</persName>, correggendo, sulla base di altri documenti, la data del <date>22 aprile</date> in quella del <date>17 maggio</date>. « Coloro che avrebbero creduto di vedere unto l’assito del <placeName>Duomo</placeName> non furono già, come potrebbe sembrare dall’<hi rend="italic">alcuni</hi> manzoniano, scaccini o beghine o altra sete, com'egli soggiunge, <hi rend="italic">ignorante</hi> e più o meno fantasiosa, bensì i tre più cospicui canonici del <placeName>Duomo stesso</placeName>: il primicerio monsignor Visconti<persName/>
+                , figlio del capitano di giustizia; l’arciprete, nonchè uomo di fiducia e quasi <hi rend="italic">&gt;alter ego</hi> di <persName>Federigo Borromeo</persName>, monsignor <persName>Alessandro Mazenta</persName>; e — fratello del protofisico e quindi zio di Senatore <persName>Settàla</persName>,<hi rend="italic">pars magna</hi> del Tribunale della Sanità — monsignor <persName>Girolamo Settàla</persName> »<bibl>(<persName>NICOLINI</persName>, op. cit., 67-68)</bibl>.
+                </note>
+                <note xml:id="Russo_cap31-n52" type="comm" target="quarantana/cap31.xml#c31_14827" targetEnd="quarantana/cap31.xml#c31_14836"><ref rend="bold">le panche... delle campane</ref>:  E fin le corde delle campane. Un anonimo fiorentino, di cui discorre il <persName>Nicolini</persName>, avrebbe dato come cosa certa, «che fossero state unte anche le panche, le pile dell'acqua santa e persino le corde delle campane (e anzi che a tre, i quali le avevano toccate, si fosse immediatamente attaccata la peste) ». <bibl>(<persName>NICOLINI</persName>, op. cit., 67-68)</bibl>.
+                </note>
+                <note xml:id="Russo_cap31-n53" type="comm" target="quarantana/cap31.xml#c31_14882" targetEnd="quarantana/cap31.xml#c31_14893"><ref rend="bold">che si conserva... dalla quale abbiamo cavata</ref>:  Nell'archivio detto di san Fedele. « Lettera che, ancora inedita, si serba nell'Archivio di Stato di <persName>Milano</persName>, e che, combinata con un’altra affatto ignota, custodita invece nell'Archivio di Stato di <persName>Firenze</persName>, e nella quale un anonimo fiorentino dimorante a <placeName>Milano</placeName> aveva, fin dal <date>19 maggio</date>, raccontato le medesime cose a un <persName>Carlo Tucci</persName>, dimorante a sua volta nella capitale toscana, consente di precisare qualche non chiara allusione del <persName type="author">Manzoni</persName>, di correggere qualche piccola inesattezza e di colmarne qualche lacuna ». (<persName>NICOLINI</persName>, 67).</note>
+                <note xml:id="Russo_cap31-n54" type="comm" target="quarantana/cap31.xml#c31_14905" targetEnd="quarantana/cap31.xml#c31_14915"><ref rend="bold">la mattina seguente... più significante spettacolo</ref>:  La mattina seguente. Sono gli imbrattamenti del 18 maggio, di cui il <persName type="author">M.</persName> discorre nella <hi rend="italic">Colonna infame</hi>. Secondo la relazione di un auditore del Tribunale della Sanità, alcuni giudici criminali e altri dottori collegiati, andati in giro per <placeName>Milano</placeName> «a riconoscere le ontioni e pigliare le informationi, non solo per venire in cognitione delli delinquenti, ma ancora per accertarsi se tali ontuosità erano pestilentiali o no », riferirono concordemente d’aver veduto « molte porte delle case, diversi catenacci di esse et infinite parti dei muri di quasi tutta ” città contaminati di grasso,parte che tirava al bianco e parte che tirava al giallo, a segno tale che la città era commossa a spavento, et gli habitatori con paglia accesa in mano bruseggiavano tutti i luoghi onti ». Tale racconto è confermato dall’anonimo fiorentino e da parecchie deposizioni di testimoni citati nei processi degli untori, e per i quali vedi <bibl>
+                <persName>NICOLINI</persName>, 69.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n55" type="comm" target="quarantana/cap31.xml#c31_15205" targetEnd="quarantana/cap31.xml#c31_15225"><ref rend="bold">particolari... errori di molti</ref>:  un celebre delirio. Si trattava dunque, per il Manzoni, di una suggestione collettiva, e però egli sarà poco indulgente col Tribunale della Sanità, che con le gride contro gli untori avvalorò l'opinione di coloro che vi credevano.</note>
+                <note xml:id="Russo_cap31-n56" type="comm" target="quarantana/cap31.xml#c31_15286" targetEnd="quarantana/cap31.xml#c31_15296"><ref rend="bold">per questo solo... al vestiario</ref>:  Si conosceva facilmente al vestiario. « Presso i popoli antichi era diverso l’uso del vestire tra i vari popoli: <hi rend="italic">Sòstati tu che all’abito ne sembri - Esser alcun di nostra terra prava</hi>, dice <persName>Dante</persName>
+                <bibl>(Inf, XVI)</bibl>. E quest'uso durò pressa poco fino alla rivoluzione francese, e dura ancora in certe campagne, in certe isole, e nazioni, dove è meno entrata la modernità europea, e dove son più attaccati alle tradizioni». (PETROCCHI).</note>
+                <note xml:id="Russo_cap31-n57" type="comm" target="quarantana/cap31.xml#c31_15426" targetEnd="quarantana/cap31.xml#c31_15461"><ref rend="bold">almen chiaro... esser perniciosa</ref>:  Di quella ragionevole e acquietante congettura.... poteva esser perniciosa. Che si trattasse, cioè, di un malvagio scherzo. I magistrati, per indulgere al genio delle moltitudini, invece pubblicamente non parlavano di burloni ma di delinquenti.</note>
+                <note xml:id="Russo_cap31-n58" type="comm" target="quarantana/cap31.xml#c31_15491" targetEnd="quarantana/cap31.xml#c31_15499"><ref rend="bold">Fernandez de Cordova... nella sua partenza</ref>:  Per gli insulti ricevuti nella sua partenza. Vedi al <bibl>cap. XXVIII, p. 548. 541.</bibl>
+                </note>
+                <note xml:id="Russo_cap31-n59" type="comm" target="quarantana/cap31.xml#c31_15859" targetEnd="quarantana/cap31.xml#c31_15867"><ref rend="bold">proibito anche di... pestilenziali</ref>:  In principio dunque, non peste. Avverti il ritmo flagellante del periodo, in cui è svolta come in un sillogismo la logica di quel delirio</note>
+                <note xml:id="Russo_cap31-n60" type="comm" target="quarantana/cap31.xml#c31_15988" targetEnd="quarantana/cap31.xml#c31_15997"><ref rend="bold">e alle quali... d'un tal genere</ref>:  Attaccare accessòri d’un tal genere. L'idea accessoria che ci si attaccò fu quella «del venefizio e del malefizio ».</note>
+                <note xml:id="Russo_cap31-n61" type="comm" target="quarantana/cap31.xml#c31_16021" targetEnd="quarantana/cap31.xml#c31_16032"><ref rend="bold">metodo proposto... prima di parlare</ref>:  Osservare, ascoltare, paragonare, pensare. È massima mente manzoniana; fin il <persName type="author">Manzoni</persName> gievane, parlando della sua poetica, si lasciò dire, in versi, dall’<persName>Imbonati</persName>:<hi rend="italic">sentire e meditare.</hi>
+                </note>
+            </div>
+</body>
+</text>
+</TEI>

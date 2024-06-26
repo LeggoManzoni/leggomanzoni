@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap30">
+                <note xml:id="Russo_cap30-n1" type="comm" target="quarantana/cap30.xml#c30_10167" targetEnd="quarantana/cap30.xml#c30_10172"><ref rend="bold">Non capite, che radunarsi tanta gente</ref>:<persName>Don Abbondio</persName> ha cambiato parere. Prima raccomandava ai suoi parrocchiani:<q> aspettate d'esser quindici o venti, da condurmi via insieme</q>. Ma il suo cambiar parere non è capriccioso, non è da uomo bisbetico e brontolone: ha una logica rigorosa, un sistema, un sistema fluttuante, quello del calcolo personale, del piccolo egoismo che non trova mai posa sulle piume. <persName>Don Abbondio</persName> è un tattico irrequieto, e muta verbo perchè muta la situazione; e il comico di questa sua irrequietezza d'impressioni sta in questo che le sue impressioni, i suoi giudizi insorgono, senza che lui abbia l'aria di dominarli. Le preoccupazioni egoistiche incalzano, in lui, instintive, ed egli non le coordina, ma le lascia affiorare nei suoi gesti e nelle sue parole, rinunciando apparentemente a ogni controllo e dignitoso dominio. Eppure, così estemporanee e insorgenti le sue cure e le conseguenti manifestazioni, esse costituiscono un sistema, hanno qualcosa di compatto e di coerente. <persName>Don Abbondio</persName> è un politico della sua paura, e del suo egoismo, un politico lungiverante; quando vuole, sa anche dominarsi, come si dominava nella conversazione col sarto discorrendo dell'<persName>Innominato</persName> e dei suoi bravi, e come si domina qui, perchè parla, <hi rend="italic">in un momento che <hi rend="bold"> non c'era nessuno d'intorno</hi>
+                </hi>.
+                </note>
+                <note xml:id="Russo_cap30-n2" type="comm" target="quarantana/cap30.xml#c30_10293" targetEnd="quarantana/cap30.xml#c30_10322"><ref rend="bold">Che abbian tutti a voler cacciarsi in un luogo!... Pecore senza ragione</ref>:  Forse questa è l'uscita più assurda, più irragionevole, di quelle che offendono il senso comune; da ciò, l'ovvio ribattere di <persName>Agnese</persName>. Pecore senza ragione, sono detti gli altri ed è vero: la ragione è solo quella del comodo, della pace, della salute di lui: <persName>don Abbondio</persName>. C'è qualcosa di cocciuto e di tetragono, in questo suo egoismo; egli vi insiste dentro, come si trattasse di una passione eroica, di un ideale superiore. La commedia nasce da questa sproporzione tra la meschinità, la particolarità dei suoi desideri, e l'impegno assoluto, universale, eroico, che egli vi mette.</note>
+                <note xml:id="Russo_cap30-n3" type="comm" target="quarantana/cap30.xml#c30_10336" targetEnd="quarantana/cap30.xml#c30_10338"><ref rend="bold">«Chetatevi un po’,»</ref>:  Tutte le volte che la sua piccola logica egoistica si scontra con quella che è la logica ovvia, normale, obbiettiva dell'universale, <persName>don Abbondio</persName>recalcitra stizzoso, e, invece di accettare l'urto, interdice la battaglia. Qui se ne esce con un <hi rend="italic">chetatevi</hi>; più giù, ad osservazioni e obbiezioni ragionevoli di <persName>Perpetua</persName>, salta su con un <hi rend="italic">zitta, zitta</hi>, detto con voce bassa ma iraconda, e la schermaglia continua sempre su questo tono. Quando la battaglia volge male per i suoi ragionamenti, <persName>don Abbondio</persName> non solo non si batte, ma pretende che sia l'avversario ad alzare bandiera bianca.</note>
+                <note xml:id="Russo_cap30-n4" type="comm" target="quarantana/cap30.xml#c30_10457" targetEnd="quarantana/cap30.xml#c30_10467"><ref rend="bold">me lo sarei dovuto aspettare đa un uomo di quella qualità</ref>:  C'è da scommettere che <persName>don Abbondio</persName> avrebbe detto tutto il contrario, se non avesse trovato alcun apprestamento di difesa: o che è diventato davvero un santificetur? o che vuol fermare i soldati con paternostri?</note>
+                <note xml:id="Russo_cap30-n5" type="comm" target="quarantana/cap30.xml#c30_10599" targetEnd="quarantana/cap30.xml#c30_10606"><ref rend="bold">È il loro mestiere di prender le fortezze</ref>:  Il buffo di questa frase è nel suo colorito scolastico. È una frase, che si colloca nel massimario guerresco politico del secolo, reminiscenza del sentenziare alla <persName type="author">Machiavelli</persName>. Reminiscenza letteraria, del libro di lettura, è anche quel <hi rend="italic">passano la gente a fil di spada.</hi>
+                </note>
+                <note xml:id="Russo_cap30-n6" type="comm" target="quarantana/cap30.xml#c30_10653" targetEnd="quarantana/cap30.xml#c30_10659"><ref rend="bold">In una battaglia non mi ci colgono</ref>:  Fermissima convinzione questa, della quale diamo subito credito, a <persName>don Abbondio</persName>, senza difficoltà.</note>
+                <note xml:id="Russo_cap30-n7" type="comm" target="quarantana/cap30.xml#c30_10705" targetEnd="quarantana/cap30.xml#c30_10709"><ref rend="bold">bisogna far sempre viso ridente</ref>:  Vediamo elevata a regola quella condotta che abbiamo visto sempre in atto, dinanzi ai forti: inchini, sorrisi, e svisceratissime cerimonie. Più giù vedremo che <persName>don Abbondio</persName>« a tutti i compagni di rifugio faceva gran riverenze o gran saluti », e, quando prende congedo dall'<persName>Innominato</persName>, i suoi ringraziamenti sono « umili e sviscerati ». Questa è una regola costante del suo sistema, come un'altra è di parlar basso, anche quando nessuno sente, se le parole sono un poco audaci. Difatti, nel battibecco con <persName>Perpetua</persName>,<persName>don Abbondio</persName> risponde « con <hi rend="italic">voce bassa</hi> ma iraconda», e poi la interrompe ancora «aspramente, <hi rend="italic">sempre però a voce bassa»</hi>.<persName>Don Abbondio</persName> ha l'aria di un cospiratore, in sospetto che ogni bargello, per via, gli indovini i suoi pensieri più segreti.</note>
+                <note xml:id="Russo_cap30-n8" type="comm" target="quarantana/cap30.xml#c30_10847" targetEnd="quarantana/cap30.xml#c30_10900"><ref rend="bold">Oh signor curato! Pensare che la mia povera Lucia... Se parlate in questa maniera</ref>:  Nota il contrasto tra la sollecitudine materna di <persName>Agnese</persName>, che dimentica ogni altra cura per riandare con la fantasia l'odissea della figliuola, e l'egoismo apprensivo di <persName>don Abbondio</persName> che in quelle memorie teme un'offesa all'ospite.</note>
+                <note xml:id="Russo_cap30-n9" type="comm" target="quarantana/cap30.xml#c30_10914" targetEnd="quarantana/cap30.xml#c30_10921"><ref rend="bold">Credete voi che ai santi si possa dire</ref>:<persName>Don Abbondio</persName> non ha mai fatto troppa distinzione tra i santi e birboni, perchè gli uni e gli altri hanno l'argento vivo addosso. Diffidare sempre degli uomini che non lasciano vivere sè e non lasciano vivere gli altri: il difetto è sempre uno, il gusto del fare qualche cosa, del muoversi, dell'armeggiare per o contro il prossimo, e l'<persName>Innominato</persName>, non convertito o convertito, è sempre uno spirito attivo, un irrequieto, un accattaguai, se non addirittura un attaccabrighe!</note>
+                <note xml:id="Russo_cap30-n10" type="comm" target="quarantana/cap30.xml#c30_11000" targetEnd="quarantana/cap30.xml#c30_11004"><ref rend="bold">È casa d’un gran signore</ref>:  C'è tutta la morale ossequiosa e servile del <date>Seicento</date>, calata in uno spirito gretto e pauroso.</note>
+                <note xml:id="Russo_cap30-n11" type="comm" target="quarantana/cap30.xml#c30_11053" targetEnd="quarantana/cap30.xml#c30_11071"><ref rend="bold">Ma «zitta!» gridò... e fece un profondo inchino</ref>: Indoviniamo qui il movimento della marionetta; richiamis- moci all'incontro dei bravi, quando egli si ferma su due piedi e spalanca il libro nelle mani, come sur un leggio.Ma lì c'era la falsa sorpresa, la dissimulazione dell'imminente incontro <bibl>(cfr. al cap. I, la n. 247 n. 239)</bibl> ; qui è di natura diversa: l'<persName>Innominato</persName> appare in vista, proprio mentre don Abbondio tenzona con le sue donne, e questo subitamente lascia stare l'esca, come i colombi danteschi, assalito da maggior cura. Quell'interferenza subitanea di una nuova preoccupazione fa precipitare l'uomo nel fantoccio.</note>
+                <note xml:id="Russo_cap30-n12" type="comm" target="quarantana/cap30.xml#c30_11128" targetEnd="quarantana/cap30.xml#c30_11131"><ref rend="bold">Confidato nella gran bontà</ref>:  Si osservi la costruzione assoluta, alla latina: è un complimento studiato, come imparato a mente. Se <persName>don Abbondio</persName> non riesce banale, come è stato altre volte, resta sempre convenzionale e smaccato.</note>
+                <note xml:id="Russo_cap30-n13" type="comm" target="quarantana/cap30.xml#c30_11188" targetEnd="quarantana/cap30.xml#c30_11192"><ref rend="bold">La madre di quella... di quella</ref>:  Non osa fare il nome di <persName>Lucia</persName>:<persName>Lucia</persName> è la grazia per l'<persName>Innominato</persName>, la salute dell'anima sua, la sua vita nuova; ma per <persName>don Abbondio</persName>, gretto e senza fede, <persName>Lucia</persName> può essere soltanto il ricordo di una ribalderia. Si noti l'impeto cordiale della risposta dell'<persName>Innominato</persName>, che fa contrasto al parlare impacciato di <persName>don Abbondio</persName>.
+                </note>
+                <note xml:id="Russo_cap30-n14" type="comm" target="quarantana/cap30.xml#c30_11241" targetEnd="quarantana/cap30.xml#c30_11242"><ref rend="bold">avvicinandosegli all’orecchio</ref>:  C'è tutta la familiarità senza cerimonie, si direbbe indiscreta, ma sempre commovente, dei primitivi. <persName>Agnese</persName> gli si avvicina all'orecchio, e in quell'atto di confidenza un po' alla rozza c'è più riverenza affettuosa che nel più studiato dei ringraziamenti.</note>
+                <note xml:id="Russo_cap30-n15" type="comm" target="quarantana/cap30.xml#c30_11281" targetEnd="quarantana/cap30.xml#c30_11284"><ref rend="bold">un’occhiata che voleva dire</ref>:  Quella parolina all'orecchio dell'<persName>Innonimato</persName>è stata una rivincita di <persName>Agnese</persName>.<persName>Don Abbondio</persName>che voleva fare il saputone e dettar legge (le aveva dato della <hi rend="italic">donna senza giudizio</hi>), vien messo da canto (è una cosa che gli succede spesso), e <persName>Agnese</persName>ascende in primo piano: essa è l'ospite di maggior confidenza.</note>
+                <note xml:id="Russo_cap30-n16" type="comm" target="quarantana/cap30.xml#c30_11359" targetEnd="quarantana/cap30.xml#c30_11362"><ref rend="bold">Siam pronti a riceverli</ref>:  È una frase incauta, poco confortante per <persName>don Abbondio</persName>, il quale, difatti, si affretta a fare il debito scongiuro: « speriamo che non vengano ».</note>
+                <note xml:id="Russo_cap30-n17" type="comm" target="quarantana/cap30.xml#c30_11373" targetEnd="quarantana/cap30.xml#c30_11381"><ref rend="bold">Accennando col dito i monti che chiudevano la valle</ref>:  Quel dito di <persName>don Abbondio</persName> è cosi patetico, in questo punto! <persName>Don Abbondio</persName> va alla ricerca di nuove paure, con quel gusto, con la voluttà del patito, che sitisce nuovi martirii alla sua pena. Negli <bibl>
+                <hi rend="italic">Sposi proemssi</hi></bibl>, il conte del Sagrato, prevedendo un qualche assalto di lanzi e di cappelletti, aveva la magnanima idea di attribuire a don Abbondio la missione del fortatore religioso: ella potrà animare questa buona gente alla difesa della vita di tanti deboli, della pudicizia di tante donne, che confidano in noi, «ella potrà... . assistere quelli fra noi, che lasciassero la vita in questa impresa di misericordia. ». E <persName>don Abbondio</persName> rispondeva rassegnato, e intanto meditava una fuga nella più vicina e la più alta delle cime circostanti, dalle quali poter dominare la battaglia e benedire i combattenti. «Signor Conte,» disse <persName>don Abbondio</persName>, sarà quel che <persName>Dio</persName> vorrà. ». E, cosi dicendo, girava la testa a guardare qual fosse la più vicina e la più alta delle cime, che dominavano il promontorio su cui era posto il castello, per fissarsi uno scampo, dove in quel caso poter benedire i combattenti.È una battuta che merita di restar celebre, come tante altre battute della redazione definitiva.</note>
+                <note xml:id="Russo_cap30-n18" type="comm" target="quarantana/cap30.xml#c30_11411" targetEnd="quarantana/cap30.xml#c30_11424"><ref rend="bold">Tra due fuochi... proprio tra due fuochi</ref>:  Alla flebile sommissione di un momento fa succede la reazione stizzosa. Prima sitisce il martirio di una nuova paura, poi, soccombendovi, geme, s'allarma, si agita, guaisce e morde.</note>
+                <note xml:id="Russo_cap30-n19" type="comm" target="quarantana/cap30.xml#c30_11628" targetEnd="quarantana/cap30.xml#c30_11637"><ref rend="bold">Vengon lanzichenecchi di qua; si son veduti cappelletti di là</ref>:  In un periodo rapidissimo, è reso l'affannato e favoloso diffondersi delle novità, proprio di una moltitudine che vive in ansia e in sospetto.</note>
+                <note xml:id="Russo_cap30-n20" type="comm" target="quarantana/cap30.xml#c30_11692" targetEnd="quarantana/cap30.xml#c30_11696"><ref rend="bold">Condotti da un uomo senz’armi</ref>:  Vedi al <bibl>cap. XXIX, p. 562, la nota 307-08.</bibl>
+                </note>
+                <note xml:id="Russo_cap30-n21" type="comm" target="quarantana/cap30.xml#c30_11808" targetEnd="quarantana/cap30.xml#c30_11812"><ref rend="bold">Schierata e pronta a combattere</ref>:  L'aneddoto è una indiretta giustificazione della guerra di difesa. Vedi la <bibl>n. 9-10 al cap. XII</bibl>
+                </note>
+                <note xml:id="Russo_cap30-n22" type="comm" target="quarantana/cap30.xml#c30_12134" targetEnd="quarantana/cap30.xml#c30_12138"><ref rend="bold">Chi aveva danari e discrezione</ref>:  chi aveva i danari per desinare a sue spese, e la discrezione di non abusare della generosa ospitalità (<persName type="author">PISTELLI</persName>).
+                </note>
+                <note xml:id="Russo_cap30-n23" type="comm" target="quarantana/cap30.xml#c30_12283" targetEnd="quarantana/cap30.xml#c30_12287"><ref rend="bold">la paura gli teneva compagnia</ref>:  Abbiamo detto al <bibl>cap. XXIV</bibl> che la paura è la sua deliziosa compagna, il suo cilizio e la sua voluttà.<bibl>Cfr. la n. 213-217, p 454</bibl>.
+                </note>
+                <note xml:id="Russo_cap30-n24" type="comm" target="quarantana/cap30.xml#c30_12372" targetEnd="quarantana/cap30.xml#c30_12382"><ref rend="bold">il rodìo che gli dava il pensare alla sua povera casa</ref>:  L'amore della roba, per il piccolo e pauroso egoista, segue assai da vicino l'amore della pelle. Questo è un motivo, che il <persName type="author">M.</persName>aveva sviluppato più largamente negli <bibl><title>
+                <hi rend="italic">Sposi Promessi</hi>
+                </title></bibl>.
+                </note>
+                <note xml:id="Russo_cap30-n25" type="comm" target="quarantana/cap30.xml#c30_12425" targetEnd="quarantana/cap30.xml#c30_12434"><ref rend="bold">a guardar giù per le balze e per i burroni</ref>:  È l'anima in pena, vista plasticamente sospesa su quelle balze e su quei burroni. Accenno indiretto a quel motivo sviluppato in dialogo negli <bibl><title>
+                <hi rend="italic">Sposi Promessi</hi>
+                </title></bibl>, e che noi abbiamo segnalato alla n. 136</note>
+                <note xml:id="Russo_cap30-n26" type="comm" target="quarantana/cap30.xml#c30_12467" targetEnd="quarantana/cap30.xml#c30_12472"><ref rend="bold">Faceva gran riverenze o gran saluti</ref>:  È la buona regola di don Abbondio (<bibl>cfr. la n. 66</bibl>); ma tutta quella cordialità di rispetto vuol essere anche un modo di allontanare la confidenza degli importuni. La paura è una compagna gelosa, e non tollera intimità di estranei.</note>
+                <note xml:id="Russo_cap30-n27" type="comm" target="quarantana/cap30.xml#c30_12511" targetEnd="quarantana/cap30.xml#c30_12514"><ref rend="bold">Lo svergognasse anche Agnese</ref>:  Nella sciagura dell'invasione che pesa su tutti, le piccole paure di <persName>don Abbondio</persName>, ricoverato in un luogo sicuro, sono un'ingiuria alla provvidenza. Da ciò, la forma spiccia e poco riguardosa adoperata dalle due donne nei suoi rapporti; segno indiretto e larvatico di una certa intolleranza quando incombe la tragedia, si spazientisce anche lui e vede nel suo eroe più una figura meschina e compassionevole, che una figura comica.</note>
+                <note xml:id="Russo_cap30-n28" type="comm" target="quarantana/cap30.xml#c30_12703" targetEnd="quarantana/cap30.xml#c30_12707"><ref rend="bold">passano i cavalli di Wallenstein</ref>:  C'è un ritmo epico, nel periodo: vi è colta, con semplicità di mezzi, lo spavento e l'ammirazione della folla per tutte quelle squadre, e tutti quei nomi esotici e nobileschi di condottieri celebri. Come ritmo, il periodo ricorda quello del <bibl>cap. XXIX</bibl>, al principio: « Vengono; son trenta, son quaranta, son cinquanta mila », ma sollevato in un'atmosfera epico-storica, e non più, come lì, popolare fiabesca. Ricorda il verso del primo coro dell'<bibl><title>
+                <hi rend="italic">Adelchi</hi>
+                </title></bibl>: «a torme, di terra passarono in terra.».</note>
+                <note xml:id="Russo_cap30-n29" type="comm" target="quarantana/cap30.xml#c30_12708" targetEnd="quarantana/cap30.xml#c30_12712"><ref rend="bold">passano i fanti di Merode</ref>:  Per questa sfilata di condottieri e eserciti, il <persName type="author">M.</persName> riecheggiò una lettera latina di <persName>Sigismondo Boldoni</persName>, giovane professore a <placeName>Pavia</placeName>, che così scriveva, fra l'altro, al <persName>Fisiraga</persName>, in data 10 settembre 1629: Passarono di qui i pedoni di <persName>Merode</persName>, i cavalli del principe di <persName>Hanhalt</persName>: poi i fanti del Marchese di <placeName>Bradendurg</placeName>, che per sei dì derubarono questo paesello: poi 400 cavalieri di <persName>Montecuccioli</persName>; indi quei di <persName>Ferrari</persName>, poi la infanteria di <persName>Acerboni</persName> che qui alloggiò; indi <persName>Altringen</persName> pel ciglione del monte guidò un corpo pienissimo e fiorentissimo di 4000 pedoni. Successero quei di <persName>Furstemberg</persName> che più d'altri ci afflissero: poi la cavalleria del principe di <placeName>Sassonia</placeName>, forse 800: ier l'altro l'infanteria di <placeName>Colloredo</placeName>, quest'ieri il corpo di <placeName>Wallenstein</placeName>, col luogotenente invece del principe. » (trad. di <bibl>C. Cantù</bibl>). Fra l'altro il <persName type="author">Boldoni</persName> racconta di un ufficiale tedesco di quel conte di <persName>Merode</persName>, che, fermatosi, nel suo giardino, davanti a una pianta d'alloro, domandò: che albero è questo? e che frutti fa? <hi rend="italic">Hem hominem bar barum! laurum nescit</hi> (Oh che barbaro! non conosce l'alloro!). <persName>Giovanni Merode</persName>, belga, uno dei generali della guerra dei trent'anni, morì nel 1633 in battaglia contro gli Svedesi.</note>
+                <note xml:id="Russo_cap30-n30" type="comm" target="quarantana/cap30.xml#c30_12713" targetEnd="quarantana/cap30.xml#c30_12717"><ref rend="bold">passano i cavalli di Anhalt</ref>:<persName>Anhalt</persName> non è il nome di un generale, ma di un ducato del centro dell'impero tedesco.</note>
+                <note xml:id="Russo_cap30-n31" type="comm" target="quarantana/cap30.xml#c30_12720" targetEnd="quarantana/cap30.xml#c30_12722"><ref rend="bold">Fanti di Brandeburgo</ref>:  Il <placeName>Brandeburgo</placeName>, come è noto, è una provincia della <placeName>Prussia.</placeName>
+                </note>
+                <note xml:id="Russo_cap30-n32" type="comm" target="quarantana/cap30.xml#c30_12728" targetEnd="quarantana/cap30.xml#c30_12733"><ref rend="bold">Montecuccoli... quelli di Ferrari</ref>:<persName>Ernesto Montecuccoli</persName>, nato nel modenese, da non confondere col più celebre <persName>Raimondo</persName>, che fu anche insigne scrittore militare, e di cui il <persName type="author">Foscolo</persName> ha curata l'edizione delle opere. Il <persName>Ferrari</persName> è un colonnello italiano, non particolarmente celebre, citato nella <bibl>
+                <hi rend="italic">Memoria di molte miserie et accidenti occorsi alli stati di Mantova.</hi></bibl> Vedi la <bibl>« Raccolta di cronisti e documenti storici lombardi inediti », vol. II, (Milano, 1857).</bibl>
+                </note>
+                <note xml:id="Russo_cap30-n33" type="comm" target="quarantana/cap30.xml#c30_12735" targetEnd="quarantana/cap30.xml#c30_12737"><ref rend="bold">Altringer... Furstenberg</ref>:<persName>Giovanni Altringer</persName>, generale austriaco, e che tristemente si distinse nel sacco di <placeName>Mantova</placeName>, come sergente generale di battaglia sotto <persName>Rambaldo di Collalto</persName>. Il <persName>Furstenberg</persName> fu generale d'artiglieria nella guerra dei trent'anni, n. il 1588 e m. il 1635 a <placeName>Costanza</placeName>.<placeName>Colloredo</placeName> è Rodolfo di Colloredo, di antica e nota famiglia friulana; fu feld-maresciallo, e chiuse la sua carriera, governatore di Praga, dove morì nel 1657.</note>
+                <note xml:id="Russo_cap30-n34" type="comm" target="quarantana/cap30.xml#c30_12740" targetEnd="quarantana/cap30.xml#c30_12745"><ref rend="bold">Passano i Croati, passa Torquato Conti</ref>:  I <persName>Croati</persName> erano truppe di cavalleria leggera a servizio della casa d'<placeName>Austria</placeName>.<persName>Torquato Conti</persName>, duca di <placeName>Guadagnolo</placeName>, generale della Chiesa, appartenente alla casa dei conti di <placeName>Roma</placeName>. Fu uno dei più feroci generali della guerra dei trent'anni.</note>
+                <note xml:id="Russo_cap30-n35" type="comm" target="quarantana/cap30.xml#c30_12754" targetEnd="quarantana/cap30.xml#c30_12756"><ref rend="bold">Passò anche Galasso</ref>:<persName>Mattia Galasso</persName>, trentino di origine, feldmaresciallo degli eserciti imperiali e che prese il posto del <persName>Wallenstein</persName>, quando questi cadde in disgrazia. Morì a <placeName>Vienna</placeName> il 25 aprile 1647.</note>
+                <note xml:id="Russo_cap30-n36" type="comm" target="quarantana/cap30.xml#c30_12814" targetEnd="quarantana/cap30.xml#c30_12819"><ref rend="bold">Gli uccelli che ci s’erano riparati</ref>:  L'immagine, inusitata, rende l'idea di quella tempesta di guerra e il raccoglimento pauroso dei fuggiaschi. Continua, ma in tono minore, il periodare epico di tutta quella sfilata di eserciti; ora si scende a maggior pieta (a <persName>don Abbondio</persName>), e l'immagine in tono minore giova come battuta di passaggio.</note>
+                <note xml:id="Russo_cap30-n37" type="comm" target="quarantana/cap30.xml#c30_12957" targetEnd="quarantana/cap30.xml#c30_13039"><ref rend="bold">Battendo la mano sul petto... i complimenti di Perpetua</ref>:  È uno dei gesti primitivi, in cui e istintivamente maestra <persName>Agnese</persName>, e che indicano bonarietà affettuosa e gratitudine senza irri e orri. Si notino i gesti e gli atti degli altri partenti: <persName>don Abbondio</persName>, secondo la sua regola di prodigo pauroso, fa <hi rend="italic">ringraziamenti umli e sviscerati</hi>, e <persName>Perpetua</persName>, che in fondo è la più estranea, fa soltanto dei complimenti. Sono particolari di minuscola importanza, ma in cui un artista si ritrova a distinguere in breve, come per lungo discorso, tre fisonomie diverse.</note>
+                <note xml:id="Russo_cap30-n38" type="comm" target="quarantana/cap30.xml#c30_13101" targetEnd="quarantana/cap30.xml#c30_13107"><ref rend="bold">«s’ha da far de’ libri in istampa</ref>:  L'ingenuo ideale libresco del sarto salta fuori, anche in questa occasione: un fracasso di quel genere diventa subito per lui letteratura. E questo il sorriso più affettuoso e più indulgente, che l'artista diffonde in questo capitolo.</note>
+                <note xml:id="Russo_cap30-n39" type="comm" target="quarantana/cap30.xml#c30_13249" targetEnd="quarantana/cap30.xml#c30_13251"><ref rend="bold">Per chieder l’elemosina</ref>:  Il quadro fosco e desolato si chiude con una nota di umana pietà. Campagne devastate, alberi scapezzati, usci sfondati, sono nulla senza la presenza di quelle « mani di qua e di là tese agli sportelli per chieder l'elemosina ». Lo spettacolo delle cose attinge la sua più dura tragedia, per <persName>Manzoni</persName>, quando diventa spettacolo pietoso di creature umane.</note>
+                <note xml:id="Russo_cap30-n40" type="comm" target="quarantana/cap30.xml#c30_13385" targetEnd="quarantana/cap30.xml#c30_13390"><ref rend="bold">Un tanfo, un veleno, una peste</ref>:  È un crescendo. Le tre parole riassumono indirettamente le esclamazioni, alberi scapezzati,le esclamazioni e le impressioni, sempre più ventate, dei due visitatori.</note>
+                <note xml:id="Russo_cap30-n41" type="comm" target="quarantana/cap30.xml#c30_13489" targetEnd="quarantana/cap30.xml#c30_13501"><ref rend="bold">Come molte idee sottintese, in un periodo steso da un uomo di garbo</ref>:  C'è tutta la poetica del <persName>Manzoni</persName>: l'arte non esprime soltanto, ma suggerisce. E la frase è una definizione della sua arte, così semplice e piana nella superficie, e cosi profonda, complessa, e reticente nel suo fondo: quell'arte a cui si rimprovera talvolta minuzia di particolari, ma a cui si può, con eguale ragione, attribuire la grazia di tanti motivi accennati, vagamente suggeriti, e sottintesi con malizia.</note>
+                <note xml:id="Russo_cap30-n42" type="comm" target="quarantana/cap30.xml#c30_13578" targetEnd="quarantana/cap30.xml#c30_13580"><ref rend="bold">certe larghe facciole</ref>:  Il <persName>M.</persName> ha parlato di « due larghe facciole », anche a proposito dei ritratti degli antenati di <persName>don Rodrigo</persName> (<bibl>cfr. a p. 127, cap. VII</bibl>). Le facciole sono due larghe striscie inamidate che pendono sul davanti della toga de' magistrati, degli avvocati, e degli ecclesiastici.</note>
+                <note xml:id="Russo_cap30-n43" type="comm" target="quarantana/cap30.xml#c30_13604" targetEnd="quarantana/cap30.xml#c30_13612"><ref rend="bold">«Ah porci!» esclamò Perpetua. «Ah baroni!» esclamò don Abbondio</ref>:  Due persone, due esclamazioni diverse, che definiscono il carattere di entrambe. Più immediatamente vigorosa e plebea <persName>Perpetua</persName>, più aulico e aggirato <persName>don Abbondio</persName> (non si sa mai: potrebbero ben tornare quei baroni!). Barone, nell'uso secentesco, è sinonimo ironico di vagabondo, di paltoniere. Troviamo la parola nelle satire del <persName type="author">Menzini</persName> e nel <bibl>
+                <hi rend="italic"/>
+                Malmantile riacquistato</bibl>.
+                </note>
+                <note xml:id="Russo_cap30-n44" type="comm" target="quarantana/cap30.xml#c30_13679" targetEnd="quarantana/cap30.xml#c30_13690"><ref rend="bold">tutt’e due col braccio teso, e con l’indice appuntato verso la buca</ref>:  È un gesto rimasto celebre, e che solo l'illustrazione pittorica può tradurre in tutta la sua evidenza: i due protagonisti sono legati nell'unanimità di quel movimento, come due fantocci; con l'unanimità del gesto fa riscontro l'unanimità del grido di qualche momento fa: « emisero un grido tutt'e due insieme ».</note>
+                <note xml:id="Russo_cap30-n45" type="comm" target="quarantana/cap30.xml#c30_13800" targetEnd="quarantana/cap30.xml#c30_13811"><ref rend="bold">Erano in vece sane e salve in casa di gente del paese</ref>:  Dobbiamo riconoscere ancora una volta che i pareri di Perpetua sono sempre buoni. Perpetua consigliava di partir subito dal castello, dicendo che « quanto più si indugiava, tanto più si dava agio ai birboni del paese d'entrare in casa a portare via il resto ». E <persName>don Abbondio</persName> non ne voleva sapere; da ciò, il tono aspro e aggressivo di <persName>Perpetua</persName>.
+                </note>
+                <note xml:id="Russo_cap30-n46" type="comm" target="quarantana/cap30.xml#c30_13982" targetEnd="quarantana/cap30.xml#c30_13988"><ref rend="bold">«vada a chiederlo al tale che l’ha</ref>:  Questi particolari sono più largamente sviluppati negli <bibl>
+                <hi rend="italic">Sposi Promessi</hi></bibl>, dove il lettore può leggerli alle <bibl>pp. 632- 633</bibl>.
+                </note>
+                <note xml:id="Russo_cap30-n47" type="comm" target="quarantana/cap30.xml#c30_14052" targetEnd="quarantana/cap30.xml#c30_14057"><ref rend="bold">Che teneva chiuso con gran cura</ref>:  La diligenza del chiudere è stata sempre una delle virtù di <persName>don Abbondio</persName>. Vedi la <bibl>n. 469-70 al cap. I.</bibl>.
+                </note>
+                <note xml:id="Russo_cap30-n48" type="comm" target="quarantana/cap30.xml#c30_14080" targetEnd="quarantana/cap30.xml#c30_14085"><ref rend="bold">Qui lasceremo da parte il pover’uomo</ref>:  Dove incombe la tragedia per tutti, non vi ha posto per la minuscola commedia. <persName>Don Abbondio</persName> è un eroe sulla scena, e felicissimo attore, solo quando l'atmosfera è relativamente tranquilla.</note>
+            </div>
+</body>
+</text>
+</TEI>

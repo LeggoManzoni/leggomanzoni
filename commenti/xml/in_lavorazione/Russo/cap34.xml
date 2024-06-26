@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap34">
+                <note xml:id="Russo_cap34-n1" type="comm" target="quarantana/cap34.xml#c34_10056" targetEnd="quarantana/cap34.xml#c34_10063"><ref rend="bold">In que' tempi ogni ordine era poco eseguito</ref>:  Si ricordi quello che si dice delle gride, al primo capitolo, che quanto più erano imperiose e intimidatorie tanto più svelavano l'impotenza di chi le promulgava.<q>All'udir parole d'un tanto signore, così gagliarde e sicure, e accompagnate da tali ordini, viene una gran voglia di credere che, al solo rimbombo di esse, tutti i bravi siano scomparsi per sempre. Ma la testimonianza d'un signore non meno autorevole, nè meno dotato di nomi, ci obbliga a credere tutto il contrario</q>. p. 16. Le <hi rend="italic">cause generali</hi>, a cui allude il <persName type="author">Manzoni</persName>, sono da riferirsi all'autoritarismo del regime spagnuolo in <placeName>Italia</placeName>: quanto più erano eccessive le leggi, tanto meno queste aderivano alla vita morale dei sudditi. Il troppo e il vano va sempre a scapito della concreta esecuzione. Quanto alle cause <hi rend="italic">speciali</hi>, esse erano determinate dalla moria e dai vuoti che si facevano in mezzo agli stessi esecutori e ministri, e dal trambusto amministrativo che c'è sempre nelle circostanze non normali.</note>
+                <note xml:id="Russo_cap34-n2" type="comm" target="quarantana/cap34.xml#c34_10152" targetEnd="quarantana/cap34.xml#c34_10158"><ref rend="bold">Quante porte s'immaginava che Milano dovesse avere</ref>:  Osservazione vivissima e vera e comica. Il popolo quando parla di grandi città le considera dalle porte; p. es. <hi rend="italic">
+                <placeName>Troia</placeName> aveva cento porte</hi>; ma il <persName type="author">Tommaseo</persName> nota: e <q>goffagine</q>.<persName type="author">(PETROCCHI)</persName>.
+                </note>
+                <note xml:id="Russo_cap34-n3" type="comm" target="quarantana/cap34.xml#c34_10159" targetEnd="quarantana/cap34.xml#c34_10163"><ref rend="bold">Arrivato dunque sotto le mura</ref>:  Secondo il <persName type="author">Bindoni</persName>, studioso della topografia dei <hi rend="italic">Pr.Sposi</hi>, il luogo dove <persName>Renzo</persName> arrivò e si fermò corrisponderebbe dal lato interno della città alla strada che oggi si chiama <hi rend="italic">Via Mania</hi>, in continuazione della<hi rend="italic">Via Alessandro Manzoni</hi>, quasi a metà tra<hi rend="italic">Via Galileo</hi> e la <hi rend="italic">Via Lodovico Settala</hi> del lazaretto.</note>
+                <note xml:id="Russo_cap34-n4" type="comm" target="quarantana/cap34.xml#c34_10227" targetEnd="quarantana/cap34.xml#c34_10248"><ref rend="bold">s'alzava una colonna d'un fumo oscuro e denso... aria immobile e bigia</ref>:  Già quella colonna di fumo prepara il visitatore (e il lettore) a qualcosa di sinistro e di luttuoso. Anche il paesaggio s'intona: l'aria è immobile e bigia. S'alzava una colonna d'un fumo oscuro e denso, aria immobile e bigia. Già quella colonna di fumo prepara il visitatore (e il lettore) a qualcosa di sinistro e di luttuoso. Anche il paesaggio s'intona: l'aria è immobile e bigia.</note>
+                <note xml:id="Russo_cap34-n5" type="comm" target="quarantana/cap34.xml#c34_10278" targetEnd="quarantana/cap34.xml#c34_10356"><ref rend="bold">Il tempo era chiuso, l'aria pesante... più tetri tutti i suoi pensieri</ref>:  Si noti lo sviluppo progressivo nei sinistri segni del paesaggio; il <hi rend="italic">tempo chiuso</hi> si esplica nella pesantezza dell'aria; il cielo è velato da una nuvola ; la nuvola si aggrava nella sua compagine e diventa <hi rend="italic">nebbione</hi> ; il nebbione è <hi rend="italic">uguale</hi>, ma non basta: <hi rend="italic">uguale</hi> si offre alla vista impassibile, l'<hi rend="italic">inerte</hi> tocca invece la passione dei sensi. Seguono quindi due determinazioni concettuali: non i soli sensi sono affaticati, anche il pensiero degli uomini è costernato in quella constatazione di un cielo che nega il sole e non promette la pioggia. Quando si giunge o si discende a quella campagna <hi rend="italic">incolta</hi> o <hi rend="italic">arida</hi>, dalla <hi rend="italic">verzura scolorita</hi>, dalle <hi rend="italic">foglie passe</hi> e <hi rend="italic">cascanti</hi>, noi siamo già avviati verso la nota più propriamente umana e individuale della sofferenza: tutta quella solitudine e quel silenzio attorno a una grande città, e l'inquietudine di <persName>Renzo</persName> che diventa costernazione e tetraggine di pensieri. Nota poi che la costruzione e il ritmo del paragrafo sono così regolati, che tutto gravita sui numerosi sostantivi rincalzati da aggettivi (<hi rend="italic">tempo chiuso, aria pesante, cielo velato, nebbione uguale</hi> ecc. ecc.), e l'azione dei verbi è scarsissima coma a segno di assenza o passività di vita.</note>
+                <note xml:id="Russo_cap34-n6" type="comm" target="quarantana/cap34.xml#c34_10432" targetEnd="quarantana/cap34.xml#c34_10437"><ref rend="bold">Con una cert'aria stracca e trascurata</ref>:  Per indolenza disciplinare abituale e ancora più per persuasione, educata dagli avvenimenti, che ogni vigilanza severa era ormai inutile.</note>
+                <note xml:id="Russo_cap34-n7" type="comm" target="quarantana/cap34.xml#c34_10553" targetEnd="quarantana/cap34.xml#c34_10555"><ref rend="bold">Un mezzo ducatone</ref>:  Un ducatone valeva più di cinque lire.</note>
+                <note xml:id="Russo_cap34-n8" type="comm" target="quarantana/cap34.xml#c34_10667" targetEnd="quarantana/cap34.xml#c34_10673"><ref rend="bold">Più impazienza che risoluzione di farsi ubbidire</ref>:  Distinzione psicologica piena di sfumature.</note>
+                <note xml:id="Russo_cap34-n9" type="comm" target="quarantana/cap34.xml#c34_10796" targetEnd="quarantana/cap34.xml#c34_10799"><ref rend="bold">Stradone di santa Teresa</ref>:  Secondo il <persName type="author">Bindoni</persName>, questa strada e la continuazione e il crocicchio vanno oggi, o andavano ai tempi del <persName type="author">Bindoni</persName>, sotto il nome di <hi rend="italic">Via Moscova</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n10" type="comm" target="quarantana/cap34.xml#c34_10880" targetEnd="quarantana/cap34.xml#c34_10888"><ref rend="bold">Tenendolo con la sinistra, mise l'altra mano nel cocuzzolo</ref>:<persName>Renzo</persName> quando è imbarazzato e vuole essere ossequioso, ricorre sempre a cotesto gesto. <bibl>Cfr. la n. 148-49 al cap. III.</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n11" type="comm" target="quarantana/cap34.xml#c34_10906" targetEnd="quarantana/cap34.xml#c34_10909"><ref rend="bold">Alzò un noderoso bastone</ref>:  Povero <persName>Renzo</persName>! La sua sorte è sempre quella di essere scambiato per uno che non è, a incominciare dalla sua visita ad <persName>Azzeccagarbugli</persName> (quando passa per un bravaccio), al tumulto di <placeName>Milano</placeName>. Ora lo prendono per un untore. Nota la finezza manzoniana, che, prima di descrivere un più tragico equivoco di cui alla pagina 656, viene preparando la scena conclusiva con queste altre battute, che già vengono ambientando il lettore nell'atmosfera sospettosa e frenetica di <placeName>Milano</placeName> durante il contagio.</note>
+                <note xml:id="Russo_cap34-n12" type="comm" target="quarantana/cap34.xml#c34_10961"><ref rend="bold">Stravagante</ref>:  Più giù, lo chiamerà <hi rend="italic">mezzo matto</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n13" type="comm" target="quarantana/cap34.xml#c34_10996" targetEnd="quarantana/cap34.xml#c34_11002"><ref rend="bold">Raccontò che gli s'era accostato un untore</ref>:  Satira argutissima dell'accendersi della fantasia popolare, quando è alterata dalle passioni.</note>
+                <note xml:id="Russo_cap34-n14" type="comm" target="quarantana/cap34.xml#c34_11182" targetEnd="quarantana/cap34.xml#c34_11186"><ref rend="bold">Le cose bisogna averle viste</ref>:  L'ultima battuta è la nota più feroce sulla credulità di certi narratori di favole, e sul tono corrivamente asseverativo dei loro racconti.</note>
+                <note xml:id="Russo_cap34-n15" type="comm" target="quarantana/cap34.xml#c34_11197" targetEnd="quarantana/cap34.xml#c34_11201"><ref rend="bold">dalla rabbia che dalla paura</ref>:  Anche qui una distinzione assai acuta ed esatta; quando siamo fraintesi, c'è più in noi rabbia per l'altrui imbecillità, che paura o altra passione grettamente egoistica.</note>
+                <note xml:id="Russo_cap34-n16" type="comm" target="quarantana/cap34.xml#c34_11248" targetEnd="quarantana/cap34.xml#c34_11255"><ref rend="bold">Par che ci sia un pianeta per me</ref>:  Una stella maligna.</note>
+                <note xml:id="Russo_cap34-n17" type="comm" target="quarantana/cap34.xml#c34_11546" targetEnd="quarantana/cap34.xml#c34_11547"><ref rend="bold">Que' pani</ref>:<bibl>Vedi al cap. XI, p. 228.</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n18" type="comm" target="quarantana/cap34.xml#c34_11581" targetEnd="quarantana/cap34.xml#c34_11583"><ref rend="bold">Un'opera di misericordia</ref>:  Potrebbe parere un po'artifizioso questo riscontro dei due pani nell'una e nell'altra entrata di <persName>Renzo</persName> a <placeName>Milano</placeName> ; ma bisogna osservare, che la corrispondenza ha più dell'arguto che dell'unzione pia.</note>
+                <note xml:id="Russo_cap34-n19" type="comm" target="quarantana/cap34.xml#c34_11628" targetEnd="quarantana/cap34.xml#c34_11632"><ref rend="bold">Un po' domestico e umano</ref>:  Il povero <persName>Renzo</persName> è ancora sconcertato dell'accoglienza avuta da quello <hi rend="italic">stravagante</hi> di poco fa. Vedi a <bibl>Pag 642 le note 79-80 e 82</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n20" type="comm" target="quarantana/cap34.xml#c34_11752" targetEnd="quarantana/cap34.xml#c34_11774"><ref rend="bold">Un rumor di ruote e di cavalli... un accompagnamento d'urli</ref>:  Periodo che crea subito una risonanza tragica, e ci dà un'aspettazione spaventosa.</note>
+                <note xml:id="Russo_cap34-n21" type="comm" target="quarantana/cap34.xml#c34_11823" targetEnd="quarantana/cap34.xml#c34_11826"><ref rend="bold">L'abbominevole macchina della tortura</ref>:  Vedi a <bibl>p. 16, cap. I, n. 137.</bibl> In questi particolari, senti la nuova civiltà dell"<date>800</date>, che, già alcuni decenni avanti, per opera del <persName type="author">Beccaria</persName> (<bibl>v. la n. 138, loc. cit.</bibl>), aveva condannato la tortura. Ma qui la visione delle <hi rend="italic">due travi ritte</hi>,<hi rend="italic">con una corda </hi>, e <hi rend="italic">con certe carrucole</hi>, ha una ragione artistica: addensare a poco a poco colori sinistri, che ci abituino a scene più macabre.</note>
+                <note xml:id="Russo_cap34-n22" type="comm" target="quarantana/cap34.xml#c34_11889" targetEnd="quarantana/cap34.xml#c34_11893"><ref rend="bold">Que' rimedi eccessivi e inefficaci</ref>:<bibl>Cfr., più su, la n. 6.</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n23" type="comm" target="quarantana/cap34.xml#c34_11941" targetEnd="quarantana/cap34.xml#c34_11943"><ref rend="bold">Era un apparitore</ref>:  Gli apparitori erano gli annunziatori dei convogli.</note>
+                <note xml:id="Russo_cap34-n24" type="comm" target="quarantana/cap34.xml#c34_11994" targetEnd="quarantana/cap34.xml#c34_11999"><ref rend="bold">A frustate, a punzoni, a bestemmie</ref>:  Ogni volta che riappaiono i monatti, il quadro si fa bestiale.(<persName type="author">MOMIGLIANO</persName>).
+                </note>
+                <note xml:id="Russo_cap34-n25" type="comm" target="quarantana/cap34.xml#c34_12000" targetEnd="quarantana/cap34.xml#c34_17261"><ref rend="bold">Eran que' cadaveri... più doloroso e più sconcio</ref>:  Prima di arrivare a oneste visioni macabre, la verecondia artistica ha suggerito al <persName type="author">M.</persName> l'accenno a altri quadri e quadretti annunziatori e preparatori: un tintinnio di campanelli, sentito fuori dalle mura: quella barella, sulla quale due monatti accomodavano un poverino (il capo dei gabellieri), per portarlo via; lo stravagante o mezzo matto che, stralunando gli occhi, punta il suo noderoso bastone contro <persName>Renzo</persName>; lo <hi rend="italic">sformato cadavere</hi> in un piccol fosso; la povera donna prigioniera, che chiede assistenza per sè e la sua e «nidiata di bambini »; un rumore di ruote e di cavalli, con nuovo tintinnio di campanelli e chioccar di fruste e accompagnamento di urli; le travi ritte e la corda e le carrucole della tortura; e infine l'apparitore, e il convoglio dei carri, e i cavalli che vengono avanti a fatica, e i monatti che li spingono, a frustate, a punzoni, a bestemmie. E anche, davanti a quei cadaveri ammonticchiati, il <persName type="author">M.</persName> non si abbrutisce in una rappresentazione duramente realistica, ma tenta di circonfondere il tutto del religioso mistero della morte. Assai finemente commenta il <persName type="author">MOMIGILIANO</persName>«Il realismo tragico è come sollevato dal candore d'una fantasia che non si offusca nemmeno dinnanzi agli spettacoli più atroci ma indietreggia come offesa nel suo pudore. La descrizione orrenda è sparsa di palpiti soavi; le scosse del carro che imprimono ai corpi un movimento abbandonato e disfatto, mettendo in macabro rilievo lo scompaginarsi dell'armoniosa figura umana, danno alle parole del poeta meditabondo una pensosità religiosa...  Lo spirito si arretra con uno spasimo davanti a quei corpi che ora incutono il ribrezzo d'un mucchio di serpi, si allontana tristemente dalle chiome verginali arrovesciate che diffondono sulle membra ciondolanti la loro luce malinconica e dolce.» ( <bibl>Op. cit., pp. 231-32</bibl>).
+                </note>
+                <note xml:id="Russo_cap34-n26" type="comm" target="quarantana/cap34.xml#c34_12087" targetEnd="quarantana/cap34.xml#c34_12093"><ref rend="bold">E pregava intanto per que' morti sconosciuti</ref>:  La preghiera di <persName>Renzo</persName> suggella, con ancora un più esplicito significato religioso, tutta l'orrenda e pietosa scena.</note>
+                <note xml:id="Russo_cap34-n27" type="comm" target="quarantana/cap34.xml#c34_12196" targetEnd="quarantana/cap34.xml#c34_12199"><ref rend="bold">Un prete in farsetto</ref>:  Si dirà più avanti che cavalieri ed ecclesiastici avevano a «dismessa ogni sorte di vestito che potesse con gli svolazzi toccar qualche cosa.».</note>
+                <note xml:id="Russo_cap34-n28" type="comm" target="quarantana/cap34.xml#c34_12297" targetEnd="quarantana/cap34.xml#c34_12300"><ref rend="bold">Nel mezzo della strada</ref>:  Era il luogo ancora più igienico e sgombro, perché, come si dirà più giù, «per tutto cenci e, più ributtanti de' cenci, fasce marciose, strame ammorbato, o lenzuoli buttati dalle finestre.»</note>
+                <note xml:id="Russo_cap34-n29" type="comm" target="quarantana/cap34.xml#c34_12352" targetEnd="quarantana/cap34.xml#c34_12356"><ref rend="bold">Come per farsene un baluardo</ref>:  Prete pietoso, ma cauto e guardingo; ci piace che il <persName type="author">M.</persName> abbia dato rilievo anche a queste altre qualità.</note>
+                <note xml:id="Russo_cap34-n30" type="comm" target="quarantana/cap34.xml#c34_12439" targetEnd="quarantana/cap34.xml#c34_12445"><ref rend="bold">E gli disse della povera donna dimenticata</ref>:  Anche qui è rispettato il realismo psicologico: <persName>Renzo</persName> domanda prima per sè, per la sua strada, e poi fa l'imbasciata per la donna prigioniera, e proprio mentre sta per allontanarsi. Del resto anche la donna non aveva preteso che il favore per lei andasse innanzi a tutto. « Andando avanti di qua, qualcheduno che ve la insegni [la strada], lo troverete. E ricordatevi di dirgli <hi rend="italic">anche</hi> di noi.»</note>
+                <note xml:id="Russo_cap34-n31" type="comm" target="quarantana/cap34.xml#c34_12518" targetEnd="quarantana/cap34.xml#c34_12520"><ref rend="bold">Un nuovo turbamento</ref>:  Non solo è psicologicamente vero questo turbamento, che ci suole assalire quando ci avviciniamo a una meta da tempo ricercata e desiderata, ma è, direi, qui, anche religiosamente opportuno: la trepidazione di <persName>Renzo</persName> s'intona a tutta la tristezza del quadro; in tanta infelicità, egli solo non può essere felice, al pensiero di un ritrovamento di <persName>Lucia</persName>, e tutte le nostre più accese speranze, per essere accette a <persName type="author">Dio</persName>, devono sentirsi sempre come frenate da un'inquietudine interna, da una trepidazione sulle nostre forze e sull'esito ancipite d' ogni cosa.</note>
+                <note xml:id="Russo_cap34-n32" type="comm" target="quarantana/cap34.xml#c34_12692" targetEnd="quarantana/cap34.xml#c34_12695"><ref rend="bold">Carrobio di porta Nuova</ref>:  Secondo il <persName type="author">Bindoni</persName>, corrisponderebbe a quel punto dove la <hi rend="italic">Via Manzoni</hi>, che va dal <objectName type="building">teatro della Scala ai portici di porta Nuova</objectName>, è tagliata dalla <hi rend="italic">Via Croce rossa</hi> da una parte e da <hi rend="italic">Via Monte Napoleone</hi>
+                </note>
+                <note xml:id="Russo_cap34-n33" type="comm" target="quarantana/cap34.xml#c34_12696" targetEnd="quarantana/cap34.xml#c34_12701"><ref rend="bold">C'era allora una croce nel mezzo</ref>:  Era un crocefisso, dice il <persName type="author">Latuada</persName> citato dal <persName type="author">Bindoni</persName>, in cima a un'alta colonna, benedetto da san <persName type="author">Carlo</persName> il <date>1579</date>: alla base vi era un altare dedicato a san <persName type="author">Protasio</persName>.
+                </note>
+                <note xml:id="Russo_cap34-n34" type="comm" target="quarantana/cap34.xml#c34_12907" targetEnd="quarantana/cap34.xml#c34_12914"><ref rend="bold">Avesse voluto eseguir gli ordini, o fare un'angheria</ref>:  Non c'è momento in cui il <persName type="author">M</persName>. non dia rilievo a qualche scena brutale senza temperarla di una qualche nota di pietà e di malinconia; e viceversa. Mai un tratto di sollecitudine e di carità, senza che si apra, un crepaccio della nascosta malizia dell'uomo.</note>
+                <note xml:id="Russo_cap34-n35" type="comm" target="quarantana/cap34.xml#c34_12985" targetEnd="quarantana/cap34.xml#c34_13033"><ref rend="bold">Ogni rumor di botteghe... da grida di monatti</ref>:  Osserva l'euritmia e corrispondenza classica di queste note: ai membretti negativi sui rumori consueti corrispondono altri membretti sui nuovi e sinistri rumori dei carri, e lamenti di poveri, d'infermi e urli di impazziti e grida di monatti. E le seconde note sono più incalzanti e numerose delle prime. L'artista poi con sottile acuzie distingue i <hi rend="italic">lamenti di poveri</hi>, e il <hi rend="italic">rammarichìo d'infermi</hi>: gli tini che possono avere una pausa, e sono episodici e saltuari, mentre il <hi rend="italic">rammarichìo</hi> invece ha qualcosa di cronico e di diffuso.</note>
+                <note xml:id="Russo_cap34-n36" type="comm" target="quarantana/cap34.xml#c34_13039" targetEnd="quarantana/cap34.xml#c34_13089"><ref rend="bold">Una campana del duomo... mista pure di qualche conforto</ref>:  «Silenzio dovunque, rotto solo da suoni che accrescono lo sgomento; unico riposo, la campana, la voce di &gt; <persName type="author">Dio</persName>, che tre volte al giorno leva le sconsolate anime umane alla plaga dell'ultimo e infallibile conforto. É come un'arco di cielo in mezzo al cimitero del giudizio universale. Ma anche qui il tono è sommesso, senz'impeto: la fede tempera, non può cancellare la costernazione. La comunanza della preghiera all'alba, a mezzogiorno, al vespro, stringe in una solidarietà sublime le poche anime umane superstiti in mezzo a quelle indurate e chiuse dalla strage.» (<persName type="author">MOMIGLIAN0</persName>,<bibl> op. cit., pagina 232</bibl>).
+                </note>
+                <note xml:id="Russo_cap34-n37" type="comm" target="quarantana/cap34.xml#c34_13151" targetEnd="quarantana/cap34.xml#c34_13154"><ref rend="bold">Funesta mutazione di cose</ref>:  L'aggettivazione manzoniana non solo è efficace e suggestiva, ma è sempre puntuale ed esatta. Ci sarebbe da tessere un istruttivo saggio sul geniale epitetare del <persName type="author">Manzoni</persName>: non si tratta di aggettivi di celere, ma di aggettivi etici, interni spesse volte al sostantivo a cui si accompagnano o alla proposizione in cui sono disseminati. Anche qui quel <hi rend="italic">funesta</hi> è insostituibile.</note>
+                <note xml:id="Russo_cap34-n38" type="comm" target="quarantana/cap34.xml#c34_13161" targetEnd="quarantana/cap34.xml#c34_13164"><ref rend="bold">Senza cappa né mantello</ref>:  Vedi la <bibl>n. 203</bibl>.
+                </note>
+                <note xml:id="Russo_cap34-n39" type="comm" target="quarantana/cap34.xml#c34_13224" targetEnd="quarantana/cap34.xml#c34_13226"><ref rend="bold">Negletta e trasandata</ref>:  Il <hi rend="italic">trasandata</hi> accresce l'idea della negligenza, e rende gli effetti di essa.</note>
+                <note xml:id="Russo_cap34-n40" type="comm" target="quarantana/cap34.xml#c34_13260" targetEnd="quarantana/cap34.xml#c34_13261"><ref rend="bold">Invecchiato abbattimento</ref>:  Un abbattimento antiquato nell'animo, e che però dà quel distacco quasi impassibile e arido da ogni eleganza o anche semplice cura della persona.</note>
+                <note xml:id="Russo_cap34-n41" type="comm" target="quarantana/cap34.xml#c34_13282" targetEnd="quarantana/cap34.xml#c34_13283"><ref rend="bold">Giangiacomo Mora</ref>:  Vittima del pregiudizio delle unzioni, subì una morte con supplizi atroci, insieme al suo compagno di sventura <persName type="author">Giuseppe Piazza</persName>. La casa del <persName type="author">Mora</persName>, in via della Vetra, fu rasa al suolo, e sull'area s'innalzò una, colonna infame, con questa scritta: <hi rend="italic">procul, hinc, procul - Ergo boni cives - no vos infelix - infame - solum commaculet</hi>. Lungi da qui, lungi, o buoni cittadini, perché questo suolo maledetto, infame, non vi contamini. - Il <persName type="author">M</persName>. raccontò la triste fine del <persName type="author">Mora</persName> nella <bibl>
+                <hi rend="italic">Storia della Colonna infame</hi></bibl>, per procurare alla vittima una celebrità non più d'infamia, ma una perenne di pietà. Vedi anche gli studi del <persName type="author">NICOLINI</persName>,<bibl>
+                <hi rend="italic">Untori e unzioni</hi></bibl>, che integrano il racconto manzoniano.</note>
+                <note xml:id="Russo_cap34-n42" type="comm" target="quarantana/cap34.xml#c34_13311" targetEnd="quarantana/cap34.xml#c34_13312"><ref rend="bold">Un bastone</ref>:  Abbiamo già conosciuto uno stravagante che ne portava uno noderoso e con la punta; e il narratore ne ha prestato anche uno al prete in farsetto e confessore, in gentilendone le dimensioni (<hi rend="italic">un bastoncino</hi>).
+                </note>
+                <note xml:id="Russo_cap34-n43" type="comm" target="quarantana/cap34.xml#c34_13327" targetEnd="quarantana/cap34.xml#c34_13342"><ref rend="bold">Pasticche odorose... aceti medicati</ref>:  Vedi al <bibl>cap. XXXI, p. 5S4 1. 98-99</bibl>, le parole del <persName>Tadino</persName>, e la <bibl>n. 99</bibl> col riferimento di una analoga descrizione del <persName type="author">Boccaccio</persName>.
+                </note>
+                <note xml:id="Russo_cap34-n44" type="comm" target="quarantana/cap34.xml#c34_13462" targetEnd="quarantana/cap34.xml#c34_13468"><ref rend="bold">Cercava di stare in mezzo alla strada</ref>:  Vedi la n. 212.</note>
+                <note xml:id="Russo_cap34-n45" type="comm" target="quarantana/cap34.xml#c34_13509" targetEnd="quarantana/cap34.xml#c34_13513"><ref rend="bold">Coraggiosa e guardinga alla rovescia</ref>:  Affrontavano il contagio a cui non si credeva, e si guardavano invece dalle unzioni.</note>
+                <note xml:id="Russo_cap34-n46" type="comm" target="quarantana/cap34.xml#c34_13698" targetEnd="quarantana/cap34.xml#c34_17242"><ref rend="bold">In un mercato di granaglie...  il movimento in quel luogo</ref>:  L'immagine non solo è realisticamente efficace, ma, come tutte le immagini veramente artistiche, è serena. Si tratta di una nuova scena di orrore, e ogni altra esclamazione interiettiva o avrebbe affievolito l'impressione o l'avrebbe guasta e corrotta in un romanticismo macabro.</note>
+                <note xml:id="Russo_cap34-n47" type="comm" target="quarantana/cap34.xml#c34_13761" targetEnd="quarantana/cap34.xml#c34_13766"><ref rend="bold">Pennacchi e fiocchi di vari colori</ref>:  Apposizione di <hi rend="italic">distintivo... ancor più odioso</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n48" type="comm" target="quarantana/cap34.xml#c34_13850" targetEnd="quarantana/cap34.xml#c34_13855"><ref rend="bold">In un oggetto singolare di pietà</ref>:  Dopo una descrizione dell'orrendo, una pausa, un indugio su una scena di pietà; il <persName type="author">M</persName>. distribuisce con misura i colori della trista descrizione. Non soltanto per il suo nativo idealismo egli fa parte, in mezzo alla selvatichezza brutale degli uomini, a qualche episodio di sublime pietà, ma anche per un senso di discrezione artistica: l'eccessività dei colori dà la maniera, non l'arte, che è sempre equilibrio e armonia. Scrive il <persName type="author">MOMIGLIANO</persName>, a proposito di questo episodio della madre di <persName>Cecilia</persName>: « Un senso di armoniosa, composta, spirituale bellezza, religioso anch'esso - in fondo, - domina pur fra gli orrori della peste, e le chiome verginali deí carri dei morti e il greco bassorilievo di quella madre non ne sono che alcune delle manifestazioni più evidenti e luminose.» (p. 233).</note>
+                <note xml:id="Russo_cap34-n49" type="comm" target="quarantana/cap34.xml#c34_13871" targetEnd="quarantana/cap34.xml#c34_13873"><ref rend="bold">Scendeva dalla soglia</ref>:  Il cominciamento di questo celebre episodio ha il ritmo di un verso, e tutta la pagina ha un'andamento di una lirica dolce e angosciata.</note>
+                <note xml:id="Russo_cap34-n50" type="comm" target="quarantana/cap34.xml#c34_13915" targetEnd="quarantana/cap34.xml#c34_13922"><ref rend="bold">Quella bellezza molle a un tempo e maestosa</ref>:  C'è il solito modo della congiunzione di due aggettivi o di due o tre sostantivi, caro all'arte del <persName type="author">Manzoni</persName>. Vedi il ritratto della <persName>Monaca di Monza</persName> e quello di <persName>Federigo</persName>. Anche qui la giovinezza <hi rend="italic">avanzata, ma non trascorsa</hi>, la bellezza <hi rend="italic">velata e offuscata, ma non guasta</hi>, la <hi rend="italic">gran passione e il languor mortale</hi>, la <hi rend="italic">bellezza molle a un tempo e maestosa</hi>. Accoppiamenti che sono segno della sovrana temperanza del <persName type="author">Manzoni</persName>; della sua virgiliana delicatezza (questa forma di epitetare è cara anche a <persName type="author">Virgilio</persName>) e della sua pudicizia di artista, discreta fino allo scrupolo. Non c'è mai una nota che non possa essere arricchita o limata, integrata o smorzata da un'altra nota; e in questa distribuzione di misura il <persName type="author">M</persName>. è maestro inimitabile. Si è trovato da ridire su quel <hi rend="italic">velata e offuscata</hi>; ma <hi rend="italic">velata</hi> è di tutte le postille del viso, <hi rend="italic">offuscata</hi> è piuttosto degli occhi, o meglio dello sguardo. Si badi poi a quella <hi rend="italic">gran passione</hi>, nel significato originario di <hi rend="italic">sofferenza</hi>, di <hi rend="italic">pena</hi>, (<bibl>
+                <hi rend="italic">oh passion di Cristo e di Milano</hi>:<persName type="author">CARDUCCI</persName></bibl>) ; ma <hi rend="italic">passione</hi> dice assai più del semplice <hi rend="italic">sofferenza</hi> o <hi rend="italic">pena</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n51" type="comm" target="quarantana/cap34.xml#c34_13932" targetEnd="quarantana/cap34.xml#c34_13935"><ref rend="bold">Affaticata, ma non cascante</ref>:  Per l'abbinamento delle note, <bibl>cfr. la n. 363.</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n52" type="comm" target="quarantana/cap34.xml#c34_13947" targetEnd="quarantana/cap34.xml#c34_13968"><ref rend="bold">C'era in quel dolore... tutta consapevole e presente a sentirlo</ref>:  Definizione di certe forme sublimi di dolore, in cui il paziente è quasi fatto estraneo e superiore a ogni altrui conforto; un dolore <hi rend="italic">fermo, senza spazio, di un'immensa chiarezza malinconica</hi>, che il <persName type="author">MOMIGLIANO</persName> giustamente e felicemente trasferisce all'arte stessa del <persName type="author">Manzoni</persName>: «queste parole che, dipingendo l'atteggiamento della madre di <persName>Cecilia</persName>, fermano così bene la fisonomia di quell'episodio sereno ed angoscioso, definiscono anche la tristezza del <persName type="author">Manzoni</persName> intento alle sventure umane.» (<bibl>Op. cìt., p, 233</bibl>).
+                </note>
+                <note xml:id="Russo_cap34-n53" type="comm" target="quarantana/cap34.xml#c34_13993" targetEnd="quarantana/cap34.xml#c34_13997"><ref rend="bold">Stracco e ammortito ne' cuori</ref>:  Lo stracco indica il decadere, di un sentimento, l'<hi rend="italic">ammortito</hi> la ormai statica apatia.</note>
+                <note xml:id="Russo_cap34-n54" type="comm" target="quarantana/cap34.xml#c34_14007"><ref rend="bold">Morta</ref>:  Nota la posizione enfatica della parola, staccata dalla proposizione con una pausa breve.</note>
+                <note xml:id="Russo_cap34-n55" type="comm" target="quarantana/cap34.xml#c34_14009" targetEnd="quarantana/cap34.xml#c34_14011"><ref rend="bold">Tutta ben accomodata</ref>:  Nell'ediz. del <date>'25</date> aveva scritto « composta »: <hi rend="italic">accomodata</hi> è più familiare ed affettuoso, c'è meno rigidità ed indica affetto di cure materne.</note>
+                <note xml:id="Russo_cap34-n56" type="comm" target="quarantana/cap34.xml#c34_14027" targetEnd="quarantana/cap34.xml#c34_14037"><ref rend="bold">Per una festa promessa... e data per premio</ref>:  Questa apposizione e supposizione trasfigura in pia dolcezza la scena, di morte.</note>
+                <note xml:id="Russo_cap34-n57" type="comm" target="quarantana/cap34.xml#c34_14063" targetEnd="quarantana/cap34.xml#c34_14069"><ref rend="bold">Una manina bianca a guisa di cera</ref>:  Alcuni commentatori avrebbero voluto il più semplice come la cera; e altri lodano il a <hi rend="italic">guisa di cera</hi>, perchè più sostenuto e venusto. Ma è evidente che il <hi rend="italic">come</hi> limitava la similitudine soltanto al <hi rend="italic">bianca</hi>, l'<hi rend="italic">a guisa di cera</hi> invece è una comparazione animata che si riferisce a tutta <hi rend="italic">una manona bianca</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n58" type="comm" target="quarantana/cap34.xml#c34_14075" targetEnd="quarantana/cap34.xml#c34_14078"><ref rend="bold">Una certa inanimata gravezza</ref>:  Avverti l'intensità lirica di quell'<hi rend="italic">inanimata</hi>; rare volte gli aggettivi sono poesia, chè la poesia vera è sempre nel sostantivo. E invero anche qui quell'aggettivo è nota interna di <hi rend="italic">gravezza</hi>. Il <persName type="author">M</persName>. fu particolarmente felice in questi epiteti della morte, che sono epiteti sempre a fondo religioso e si richiamano a un che di trascendente: ricorda l'<hi rend="italic">immemore della spoglia orba di tanto spiro del <bibl>Cinque Maggio</bibl>
+                </hi>.
+                </note>
+                <note xml:id="Russo_cap34-n59" type="comm" target="quarantana/cap34.xml#c34_14112" targetEnd="quarantana/cap34.xml#c34_14115"><ref rend="bold">Ch'esprimeva ancora un sentimento</ref>:  La madre si riconosceva per tale, non solo per la somiglianza del volto, ma per il sentimento d'amore e di dolore, che essa esprime: che, cosi pacato e profondo, poteva essere solo amore e dolore materno.</note>
+                <note xml:id="Russo_cap34-n60" type="comm" target="quarantana/cap34.xml#c34_14116" targetEnd="quarantana/cap34.xml#c34_14118"><ref rend="bold">Un turpe monatto</ref>:  Avverti il valore di quel turpe accanto alla gentilezza dolorosa di quella madre e alla delicata inerzia di quella bambina morta.</note>
+                <note xml:id="Russo_cap34-n61" type="comm" target="quarantana/cap34.xml#c34_14132" targetEnd="quarantana/cap34.xml#c34_14134"><ref rend="bold">Con un'esitazione involontaria</ref>:  E la soggezione del dolore, del soffrire, che prende anche i cuori più duri; ricorda la <hi rend="italic">compassione</hi> del <persName>Nibbio</persName>. Tutto questo è singolarmente manzoniano: nel suo mondo, c'è un barlume di luce spirituale e di gentilezza per tutti.</note>
+                <note xml:id="Russo_cap34-n62" type="comm" target="quarantana/cap34.xml#c34_14139" targetEnd="quarantana/cap34.xml#c34_14179"><ref rend="bold">Senza però mostrare sdegno né disprezzo... il monatto le tese</ref>:  Tutto è misura e discrezione, in questo episodio; anche l'idealismo di quella madre è temperato di una trista consapevolezza della realtà. Se soggioga il turpe monatto, con l'alterezza, serena del dolore, ciò non basta: apre una mano e <hi rend="italic">fece vedere una borsa, e la lasciò cadere in quella che il monatto le tese</hi>. E l'atto è spoglio esso stesso di ogni grettezza mercenaria.</note>
+                <note xml:id="Russo_cap34-n63" type="comm" target="quarantana/cap34.xml#c34_14218" targetEnd="quarantana/cap34.xml#c34_14231"><ref rend="bold">Più per il nuovo sentimento... che per l'inaspettata ricompensa</ref>:  Qui, esplicitamente, si toglie qualsiasi ombra di venalità al contegno ossequioso del monatto, come già si era avvertito più avanti, per la gentilezza del donare della donna.</note>
+                <note xml:id="Russo_cap34-n64" type="comm" target="quarantana/cap34.xml#c34_14260" targetEnd="quarantana/cap34.xml#c34_14267"><ref rend="bold">Ce l'accomodò, le stese sopra un panno bianco</ref>:  Ricorda i versi del <hi rend="italic">Natale: La mira madre in poveri-Panni il figliuol compose</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n65" type="comm" target="quarantana/cap34.xml#c34_14268" targetEnd="quarantana/cap34.xml#c34_14271"><ref rend="bold">E disse l'ultime parole</ref>:  Il <persName type="author">PISTELLA</persName> ricorda il virgiliano <hi rend="italic">dixitque norissima verba</hi> (<bibl>En., IV, 650</bibl>) ; certamente la frase ha tutta una intensità lirica, che nasce dal respiro patetico di tutta la pagina.</note>
+                <note xml:id="Russo_cap34-n66" type="comm" target="quarantana/cap34.xml#c34_14272" targetEnd="quarantana/cap34.xml#c34_14276"><ref rend="bold">Addio, Cecilia! riposa in pace</ref>:  Il <persName type="author">TOMMASEO</persName>nota: « Così non parla una madre in quell'atto». Ma, invero, in quelle parole tu senti in atto quel dolore <hi rend="italic">pacato, profondo, che attestava un'anima tutta consapevole e presente a sentirlo</hi>, come già aveva annunziato avanti lo scrittore.</note>
+                <note xml:id="Russo_cap34-n67" type="comm" target="quarantana/cap34.xml#c34_14315" targetEnd="quarantana/cap34.xml#c34_14318"><ref rend="bold">E non me sola</ref>:  Osserva sempre il <persName type="author">TOMMASEO</persName>: «<hi rend="italic">e non me sola</hi> è troppo studiato». Senti sempre invece in quell'espressione riflessiva la perpetua e sovrana consapevolezza della tragica sorte sua e dei suoi cari.</note>
+                <note xml:id="Russo_cap34-n68" type="comm" target="quarantana/cap34.xml#c34_14355" targetEnd="quarantana/cap34.xml#c34_14366"><ref rend="bold">finché il carro non si mosse, finché lo poté vedere; poi disparve</ref>:  Questa proposizione così tranquilla e semplice, noi ce la ripetiamo intrisa di tutta la pietà e lo strazio della scena, come uno di quei ritornelli un po' insensati su cui talvolta ha bisogno di riposarsi una nostra angoscia. C'è l'eco dolorosa di tutto l'episodio, un'eco che si allontana. Da ciò, l'intensità lirica di quel <hi rend="italic">disparve</hi>; ricorda l'altro <hi rend="italic">E sparve, e i dì nell'ozio - chiuse in sì breve sponda</hi>, che riassume tutta una storia di dolori accennati ma non raccontati.</note>
+                <note xml:id="Russo_cap34-n69" type="comm" target="quarantana/cap34.xml#c34_14387" targetEnd="quarantana/cap34.xml#c34_14410"><ref rend="bold">Come il fiore...  pareggia tutte l'erbe del prato</ref>:  Ricorda il virgiliano: <hi rend="italic">Purpureus veluti cum flos succisus aratro Languescit moriens, lassove papavera collo Demisere Caput, pluvia cum forte gravantur</hi>. (<bibl>
+                <hi rend="italic">Aen</hi>., IX, 435-38</bibl>). Ma l'accento del <persName type="author">Manzoni</persName> è, necessariamente, più cristiano, e la similitudine esprime la rassegnazione davanti alla gravezza eguale ed eguagliatrice della morte.</note>
+                <note xml:id="Russo_cap34-n70" type="comm" target="quarantana/cap34.xml#c34_14431" targetEnd="quarantana/cap34.xml#c34_14434"><ref rend="bold">Da quella commozione straordinaria</ref>:  E, invero, l'episodio stesso è cosa straordinaria, in quel mondo abbrutito dalle sofferenze. «L'insistere e l'imperversar del disastro - ha scritto più avanti il <persName type="author">Manzoni</persName>- aveva insalvatichiti gli animi, e fatto dimenticare ogni cura di pietà, ogni riguardo sociale». Vedi la <bibl>n. 345-46 a p. 609, e la n. 267-268 a p. 648.</bibl>
+                </note>
+                <note xml:id="Russo_cap34-n71" type="comm" target="quarantana/cap34.xml#c34_14463" targetEnd="quarantana/cap34.xml#c34_14484"><ref rend="bold">Un altro e diverso strepito... un mugolìo di fanciulli</ref>:  Dopo una pausa di gentilezza, nuovi orrori, nuovi tormenti. Avverti il progressivo umanizzarsi di quest'altro e diverso strepito; si tratta dí grida di monatti e lamentio di infermi, condotti al lazzeretto. Ma l'artista arriva alle note più flebili solo dopo altre più sostenute e dure (<hi rend="italic">strepito, suono confuso, grida imperiose</hi>): il pianto nasce dalle cose stesse, e non dalla debolezza languida delle vittime. Ciò che conferisce una più tragica e aspra angoscia alla scena.</note>
+                <note xml:id="Russo_cap34-n72" type="comm" target="quarantana/cap34.xml#c34_14515" targetEnd="quarantana/cap34.xml#c34_14604"><ref rend="bold">Erano ammalati... e la casa loro</ref>:  Nota la euritmia classica delle note di questa scena, e la loro corrispondenza con le singole espressioni del periodo precedente. Lo <hi rend="italic">strepito</hi> e il <hi rend="italic">suono confuso di grida imperiose</hi> lo ritroviamo in quegli ammalati che resistono ai monatti, imprecazioni delle vittime mescolate alle bestemmie e ai comandi dei loro aguzzini; I <hi rend="italic">fiochi lamenti</hi> sono di quelli che vanno innanzi come <hi rend="italic">insensati</hi>; e il pianger di donne e il mugolio dí fanciulli sono chiaramente manifesti in quelle donne co' bambini in collo, e in quei fanciulli che implorano ad alte strida la madre e le sue braccia fidate. Nulla mai di confuso, di romanticamente disordinato e irregolare in <persName type="author">Manzoni</persName>; c'è qualcosa di esatto e di geometrico nel suo modo di descrivere, che non è intellettualismo cartesiano, ma senso umanamente classico dell'armonia. <persName type="author">Dante</persName> è simmetrico, per gusto architettonico di tutta l'età sua, per l'organicità tomistica della sua fede; <persName type="author">Manzoni</persName>, da cristiano moderno, attinge anche lui questo senso di armonia nella architettura interna della sua fede religiosa. Solo dove c'è unità e organicità di fede, ivi può essere umano (e non formale) classicismo e gusto sovrano dell'armonia.</note>
+                <note xml:id="Russo_cap34-n73" type="comm" target="quarantana/cap34.xml#c34_14650" targetEnd="quarantana/cap34.xml#c34_14657"><ref rend="bold">O sciagura degna di lacrime ancor più amare!</ref>:  Sono interruzioni interiettive, che ricordano modi dell'arte virgiliana; è, in vero, in questi capitoli sulla peste, si pensa insistentemente a <persName type="author">Virgilio</persName> e a narrazioni del poeta latino dí eccidii e distruzioni: una tragedia terribile, temperata da una rassegnazione pacata e profonda.</note>
+                <note xml:id="Russo_cap34-n74" type="comm" target="quarantana/cap34.xml#c34_14690" targetEnd="quarantana/cap34.xml#c34_14696"><ref rend="bold">Qualche esempio di fermezza e di pietà</ref>:  Ha detto a p. 609 il <persName type="author">Manzoni</persName> stesso che « ne' pubblici infortuni, e nelle lunghe perturbazioni di qual si sia ordine consueto, si vede...  sempre un aumento di sublimazione di virtù. ». Il <persName type="author">Boccaccio</persName> che descrive la peste del <date>1348</date>, non con animo di cristiano, ma di godente quasi sensualmente flagellato di tutto quel terribile sovvertimento di cose (ti pare una assai bella donna che racconti, con grazia angosciata e patetica civetteria, una sua paurosa avventura), non vede mai esempi sublimi o teneri di virtù, ma soltanto episodi di spensierato abbandono e di egoismo, tutti incitanti a una singolare follia di spassi e di adunanze obliose. Ogni particolare di malinconia e di tenerezza guasterebbe quel <hi rend="italic">monstrum</hi> che è per lui la peste, un fatto straordinario, maraviglioso, che incanta la sua fantasia giovanile e gli permette libere scorrerie in un mondo nuovo e strano di delizie inusitate.</note>
+                <note xml:id="Russo_cap34-n75" type="comm" target="quarantana/cap34.xml#c34_14728" targetEnd="quarantana/cap34.xml#c34_14734"><ref rend="bold">con giudizio e con compassione da grandi</ref>:  Vedi al <bibl>cap. XI, la n. 393, p. 225, e la n. 92-99 al cap. XXXV</bibl>. La musa del <persName type="author">M</persName>. si riposa soave in queste scene di vita fanciullesca: il quadretto idillico, visto con animo grave e dolcemente arguto.</note>
+                <note xml:id="Russo_cap34-n76" type="comm" target="quarantana/cap34.xml#c34_14902" targetEnd="quarantana/cap34.xml#c34_14958"><ref rend="bold">E' nella strada...  e dà un picchio risoluto</ref>:  Quale frequenza di verbi a rendere il palpitare più ansioso di <persName>Renzo</persName>!<hi rend="italic">È nella strada; distingue subito la casa; s'accosta al portone, mette la mano sul martello, ce la tien sospesa</hi>...  Anche quella pausa riflessiva dello scrittore sull'urna e sulla polizza, sulla vita e sulla morte, rende sensibilmente la sospensione più acuta dell'ultimo momento, dalla quale si trapassa poi bruscamente a quel <hi rend="italic">picchio risoluto</hi>. Un periodo che, nella musica delle sue articolazioni, suggerisce, più che con le stesse parole, la rapida odissea interna del povero <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap34-n77" type="comm" target="quarantana/cap34.xml#c34_14982" targetEnd="quarantana/cap34.xml#c34_14986"><ref rend="bold">Monatti? vagabondi?... untori? diavoli?</ref>:  Il crescendo deì sospetti di una fantasia alterata: dopo gli <hi rend="italic">untori</hi>, naturalmente non c'è più posto se non per i <hi rend="italic">diavoli</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n78" type="comm" target="quarantana/cap34.xml#c34_14987" targetEnd="quarantana/cap34.xml#c34_15091"><ref rend="bold">«Quella signora... Non le chiedo niente del suo</ref>:  ohet »: Senti mutare l'inflessione della voce di <persName>Renzo</persName> da una parola all'altra: disperata e sollecita prima, poi pietosa e affettuosa, e infine delusa e arrabbiata. Quell' <hi rend="italic">ohe</hi>! è il piegarsi della voce all'afflizione e alla rabbia.</note>
+                <note xml:id="Russo_cap34-n79" type="comm" target="quarantana/cap34.xml#c34_15106" targetEnd="quarantana/cap34.xml#c34_15130"><ref rend="bold">Renzo afferrò ancora il martello...  lo teneva sospeso</ref>:  Atto naturalissimo, come chi appoggia, macchinalmente, sull'ultimo oggetto capitatogli per le mani, la sospensione interna dei propri pensieri. Ma <persName>Renzo</persName> non sapeva che i <hi rend="italic">martelli</hi> dei portoni erano simboli pericolosi nella fantasia popolare. Vedi al <bibl>cap. XXXII, p. 601</bibl>: « era parso di vedere unte muraglie, porte d'edifizi pubblici, usci di case, <hi rend="italic">martelli</hi>.».
+                </note>
+                <note xml:id="Russo_cap34-n80" type="comm" target="quarantana/cap34.xml#c34_15160" targetEnd="quarantana/cap34.xml#c34_15166"><ref rend="bold">L'unica persona che vide, fu un'altra donna</ref>:  «Un'altra donna d'aspetto e maligna d'animo, che pare una Furia » scrive il <persName type="author">PISTELLI</persName>, e ricorda la vecchiaccia del castello dell'<persName>Innominato</persName>. Ma, invero, anche qui c'è la strega, la megera, la furia, tutto quello che si vuole, ma una furia che lì li par che si tramuti in un fantoccio: una furia che spalanca la bocca come in atto di gridare a più non posso, e intanto rattiene anche il respiro; allunga e ritira due mani grinzose e piegate a guisa d'artigli, e acchiappa solo del vuoto per aria. Dall'alto della fantasia manzoniana discende su quel mostro di terrore, di odio, di impazienza e di malizia, un sorriso che ne sconvolge e corrode gli ordigni. Vedi la <bibl>n. 392 al cap. XX, p. 388</bibl>. Il diavolo, agli occhi del <persName type="author">Manzoni</persName>, può entrare nell'arte, ma a parte che si confessi nella sua impotenza; per il diavolo ci può essere posto solo nella commedia laida e grottesca, giammai nell'alta tragedia. Però la nostra strega non è poi troppo spaventosa, come vuole il <persName type="author">Pistelli</persName>: quando si lascia <hi rend="italic">scappare il grido che aveva rattenuto fino allora</hi>, la furia si rivela per una povera donnaccola, sorpresa dal suo stesso spavento e sopraffatta dalla propria impotenza.</note>
+                <note xml:id="Russo_cap34-n81" type="comm" target="quarantana/cap34.xml#c34_15443" targetEnd="quarantana/cap34.xml#c34_15640"><ref rend="bold">Rispinse con un urtone uno che gli parava la strada...  Venisse di lontano dietro a lui</ref>:  Questa colluttazione, in corsa, di <persName>Renzo</persName>, toglie criminalità a ogni sua violenza; care a un certo punto, in semplice esercizio di gesti agonistici di un giovane balioso e robusto: quel <hi rend="italic">pugno in aria, stretto, nocchiuto</hi>, che non serve più a ributtar nessuno, finisce col comunicare un'innocenza a tutto i resto. Il <persName type="author">Manzoni</persName> descrive seriamente, ma non può precipitare il suo eroe, cristiano a bonario, in una vicenda troppo criminosa. Anche quel <hi rend="italic">coltellaccio</hi> e quella faccia feroce si lasciano perdonare molto dallo stesso commento un po' guasconeggiante con cui Renzo l'accompagna: «chi ha cuore, venga avanti, canaglia! che l'ungerò io davvero con questo». Si badi a quel <hi rend="italic">sentimento confuso di consolazione</hi> che <persName>Renzo</persName> prova, quando vedo else i suoi persecutori si sono fermati: non si tratta della consolazione perché il pericolo si allontana, ma perche la violenza dei suoi gesti può non aver più seguito. II cristiano rientra nei suoi panni.</note>
+                <note xml:id="Russo_cap34-n82" type="comm" target="quarantana/cap34.xml#c34_15760" targetEnd="quarantana/cap34.xml#c34_15765"><ref rend="bold">Prende la mira, spicca un salto</ref>:  E’ probabile che il <persName type="author">M</persName>. qui seguisse il racconto di <persName>FEDERICO BORROMEO</persName> nella sua descrizione della pestilenza milanese. «Un untore, còlto sul fatto e condotto alla forca, visto un carro ov'erano i monatti misti a cadaveri, strappossi a quei che lo menavano, e d'un salto balzò in mezzo a quella turba pestilenza, come in sicurissimo ricovero fra bubboni, marcia, ove nessuno avrebbe ardito stendere la mano. » (<bibl>trad. di <persName type="author">C. CANTU’</persName></bibl>).
+                </note>
+                <note xml:id="Russo_cap34-n83" type="comm" target="quarantana/cap34.xml#c34_15803" targetEnd="quarantana/cap34.xml#c34_15807"><ref rend="bold">Per dire l'orribil cosa com'era</ref>:  Maniera accorta per preparare il lettore all'<hi rend="italic">orribile</hi> cosa, che così giunge non all'improvviso.</note>
+                <note xml:id="Russo_cap34-n84" type="comm" target="quarantana/cap34.xml#c34_15831" targetEnd="quarantana/cap34.xml#c34_15835"><ref rend="bold">Fa' conto d'essere in chiesa</ref>:  Sicuri come in chiesa, ha detto il sarto, del castello dell'<persName>Innominato</persName>; ma qui il motto, naturalissimo, del monatto, si fascia di una fosca ironia.</note>
+                <note xml:id="Russo_cap34-n85" type="comm" target="quarantana/cap34.xml#c34_15931" targetEnd="quarantana/cap34.xml#c34_15936"><ref rend="bold">E fece le viste di buttarglielo</ref>:  La scene è degna di <persName type="author">Shakespeare</persName>, in questo punto e nel suo seguito; ma osserva come il <persName type="author">M</persName>. non presta ai suoi tristi personaggi una nequizia esagerata più del necessario. Il birbone fa soltanto le <hi rend="italic">viste</hi> di buttare il cencio.</note>
+                <note xml:id="Russo_cap34-n86" type="comm" target="quarantana/cap34.xml#c34_15961" targetEnd="quarantana/cap34.xml#c34_15964"><ref rend="bold">A guisa di gualchiere</ref>:  Le gualchiere sono macchine per sodare panni, e i postai, mossi alternativamente da una ruota idraulica, dànno l'impressione del volteggiare delle piante umane. <bibl>Il Tommaseo e il Rigutini</bibl> trovano la similitudine <hi rend="italic">ricercata</hi>.
+                </note>
+                <note xml:id="Russo_cap34-n87" type="comm" target="quarantana/cap34.xml#c34_16020" targetEnd="quarantana/cap34.xml#c34_16026"><ref rend="bold">E vi ringrazio con tutto il cuore</ref>:<persName>Renzo</persName> che fa combutta con i monatti e li ringrazia di cuore! Quale scandalo per un romanziere che scrive a scopo di edificazione! Ma pare che anche questa volta <persName type="author">Manzoni</persName> si sia scordato della così detta <hi rend="italic">oratoria</hi> catechistica e costumistica.</note>
+                <note xml:id="Russo_cap34-n88" type="comm" target="quarantana/cap34.xml#c34_16036" targetEnd="quarantana/cap34.xml#c34_16042"><ref rend="bold">Si vede che sei un bravo giovine</ref>:  È un bravo giovine, perchè un untore; così com'era un buon figliuolo per l'<persName>Azzeccagarbugli</persName>, quando questi ancora lo credeva un bravaccio.</note>
+                <note xml:id="Russo_cap34-n89" type="comm" target="quarantana/cap34.xml#c34_16097" targetEnd="quarantana/cap34.xml#c34_16104"><ref rend="bold">A cantar vittoria, e a sguazzar per Milano</ref>:  Grandioso. Anche qui ammiriamo l'impassibile serenità dell'artista.</note>
+                <note xml:id="Russo_cap34-n90" type="comm" target="quarantana/cap34.xml#c34_16192" targetEnd="quarantana/cap34.xml#c34_16198"><ref rend="bold">Ci vuol altri visi a far l'untore</ref>:<persName>Renzo</persName> è riabilitato; non aveva avuto coraggio di reagire e protestare contro chi, in principio, l'aveva creduto un untore, e il <persName type="author">M</persName>. trova modo di spogliarlo a poco a poco della trista presunzione.</note>
+                <note xml:id="Russo_cap34-n91" type="comm" target="quarantana/cap34.xml#c34_16250" targetEnd="quarantana/cap34.xml#c34_16340"><ref rend="bold">E, con un suo atroce e maledetto ghigno...  han lo stomaco buono</ref>:  Un'altra nota di grandioso cinismo, e che fa onore al <persName type="author">Manzoni</persName>, impassibile artista anche dell'orrido.</note>
+                <note xml:id="Russo_cap34-n92" type="comm" target="quarantana/cap34.xml#c34_16369" targetEnd="quarantana/cap34.xml#c34_16374"><ref rend="bold">Con una cert'aria di compassione sprezzante</ref>:  Continua la spoliazione ironica della presunta birberia del nostro povero untorello. I monatti che avevano applaudito alla <hi rend="italic">virtù</hi> di <persName>Renzo</persName>, ora sentono, a poco a poco, che egli non è degno della loro stima. <persName>Renzo</persName> ritorna nelle sue modeste vesti di buon figliuolo, e i monatti salgono più foschi nella consapevolezza orgogliosa della loro privilegiata malizia. Sebbene descritta con contenuto orrore, la scena è degna del <persName type="author">Machiavelli</persName>, quello che narrò della morte di <persName type="author">Ramiro de Lorqua</persName> e l'ammazzamento di <persName type="author">Vitellozzo</persName> e di <persName type="author">Oliverotto</persName>.
+                </note>
+                <note xml:id="Russo_cap34-n93" type="comm" target="quarantana/cap34.xml#c34_16690" targetEnd="quarantana/cap34.xml#c34_16706"><ref rend="bold">In quella strada...  circa venti mesi prima</ref>:  Adagio, quando entrò a <placeName>Milano</placeName>; in fretta, quando scappò dalle mani dei birri.</note>
+                <note xml:id="Russo_cap34-n94" type="comm" target="quarantana/cap34.xml#c34_16813" targetEnd="quarantana/cap34.xml#c34_16819"><ref rend="bold">Non sarai tu quello che spianti Milano</ref>:  Frase passata in proverbio: è l’ultima parola di assoluzione per <persName>Renzo</persName> dalla triste fama di untore. L’ultimo tragico equivoco, che il personaggio subisce nel romanzo.</note>
+                <note xml:id="Russo_cap34-n95" type="comm" target="quarantana/cap34.xml#c34_16967" targetEnd="quarantana/cap34.xml#c34_17259"><ref rend="bold">Altri meschini erravano...  con la testa per aria</ref>:  La descrizione dei frenetici e degli insensati forse è la scena più dolorosa di quelle finora conosciute. Come <persName>Tonio</persName>, instupidito dalla peste, rappresentava lo squallore di tutto un paese, cosi’ questa folla di vaneggianti, e alcuni lietamente vaneggianti, riassumono nella maniera più desolata tanta devastazione di mondo umano. Quel <hi rend="italic">cantare alto e continuo</hi> è una musica funerea, che i dolori e le umane sofferenze lasciano che si componga da sè con una terribile inconsapevolezza.</note>
+                <note xml:id="Russo_cap34-n96" type="comm" target="quarantana/cap34.xml#c34_17147" targetEnd="quarantana/cap34.xml#c34_17154"><ref rend="bold">E vede un cavallaccio che andava di carriera</ref>:  Nei <bibl>
+                <hi rend="italic">Promessi Sposi</hi></bibl>, questo correre frenetico su un cavallo era detto di <persName>don Rodrigo</persName>: «dopo una breve corsa, egli s' abbattè presso ad un cavallo dei monatti, che, sciolto, con la cavezza pendente, e col capo a terra, rodeva la sua profenda: il furibondo afferrò la cavezza, balzò su la schiena del cavallo, e percotendogli il collo, la testa, le orecchie coi pugni, la pancia con le calcagna, e spaventandolo con gli urli, lo fece muovere, e poi andare di tutta carriera. Un romore si levò all'intorno, un grido di « piglia, piglia »; altri fuggiva, altri accorreva per arrestare il cavallo; ma questo, spinto dal demente, e spaventato da quei che tentavano di avvicinarglisi, s'inalberava e scappava via più verso il tempio. » (<bibl>p. 772-73</bibl>). Vedi le ragioni del rifacimento artistico al <bibl>cap. XXXV, n. 427</bibl>. Molto meglio qui, in cui il frenetico è un anonimo, e non c'è romantico contrappasso nella sua fine. Per <persName>don Rodrigo</persName>, «giudizii di <persName type="author">Dio</persName>» aveva detto il <persName>padre Cristoforo</persName>; e la corrispondenza giudiziaria non poteva troppo appagare il fine e aristocratico cristianesimo del <persName type="author">Manzoni</persName>.
+                </note>
+            </div>
+</body>
+</text>
+</TEI>

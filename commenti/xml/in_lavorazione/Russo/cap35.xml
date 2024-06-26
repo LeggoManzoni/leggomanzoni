@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap35">
+                <note xml:id="Russo_cap35-n2" type="comm" target="quarantana/cap35.xml#c35_10059" targetEnd="quarantana/cap35.xml#c35_10063"><ref rend="bold">Un brulichìo, come un ondeggiamento</ref>:  Una, due parole, e sono bastate al <persName type="author">Manzoni</persName> rendere il movimento, il respiro, la musica di quella folla: visione degli occhi e, al tempo stesso, anche sensazione dell'udito.</note>
+                <note xml:id="Russo_cap35-n3" type="comm" target="quarantana/cap35.xml#c35_10068" targetEnd="quarantana/cap35.xml#c35_10079"><ref rend="bold">Un andare e venire... un alzarsi</ref>:  Nota, la sapienza con cui sono distribuiti tutti questi verbi: prima, <hi rend="italic">un andare e venire</hi>, che riassumono genericamente tutto il movimento, e poi, dopo un verbo di pausa, un verbo di maggior moto, che dà rilievo sensibile a tutto quel brulichio. Il <hi rend="italic">correre</hi> che segue al <hi rend="italic">fermarsi, l'alzarsi</hi> che segue al <hi rend="italic">chinarsi.</hi>
+                </note>
+                <note xml:id="Russo_cap35-n4" type="comm" target="quarantana/cap35.xml#c35_10082" targetEnd="quarantana/cap35.xml#c35_10083"><ref rend="bold">Di frenetici</ref>:  I frenetici sono gli ammalati colti da forme deliranti, e come pazzi del loro male.</note>
+                <note xml:id="Russo_cap35-n5" type="comm" target="quarantana/cap35.xml#c35_10103" targetEnd="quarantana/cap35.xml#c35_10105"><ref rend="bold">Sopraffatto e compreso</ref>:  Il primo participio, indica la prima impressione soggiogante, senza che lasci ﬁato e quasi distinzione di pensieri; il secondo, segna un momento successivo, quando l’animo è fatto gravemente consapevole di tutta quella realtà circostante.</note>
+                <note xml:id="Russo_cap35-n6" type="comm" target="quarantana/cap35.xml#c35_10114" targetEnd="quarantana/cap35.xml#c35_10118"><ref rend="bold">Descriverlo a parte a parte</ref>:  Pare una esenzione di lavoro, ed è una forma di discrezione artistica: non si descrive per il gusto di descrivere genericamente, ma si descrive partendo dagli interessi e dalle esperienze del protagonista, <persName>Renzo</persName>:<hi rend="italic">seguendo il nostro giovine nel suo penoso giro.</hi>
+                </note>
+                <note xml:id="Russo_cap35-n7" type="comm" target="quarantana/cap35.xml#c35_10197" targetEnd="quarantana/cap35.xml#c35_10207"><ref rend="bold">Un tramenìo di carri... per far luogo</ref>:  Al solito, precede la parola più espressiva, che dia subito l’idea sensibile di quel movimento: un <hi rend="italic">tramenìo</hi>; poi segue la frase più specifica: <hi rend="italic">un portar via roba</hi>. Si sbratta la strada, per la processione di cui al capitolo successivo.</note>
+                <note xml:id="Russo_cap35-n8" type="comm" target="quarantana/cap35.xml#c35_10280" targetEnd="quarantana/cap35.xml#c35_10290"><ref rend="bold">Abbattuti dal patimento... immobili nella morte</ref>:  Lo spettacolo si fa più grave da un membretto all'altro: gli abbattuti dal male, lo spasimo dell'agonia, e infine l'immobilità dei morti.</note>
+                <note xml:id="Russo_cap35-n9" type="comm" target="quarantana/cap35.xml#c35_10351" targetEnd="quarantana/cap35.xml#c35_10358"><ref rend="bold">Tanto diversi d'aspetto e di maniere e d'abito</ref>:  Potevano essere frati cappuccini o monatti.</note>
+                <note xml:id="Russo_cap35-n10" type="comm" target="quarantana/cap35.xml#c35_10383" targetEnd="quarantana/cap35.xml#c35_10392"><ref rend="bold">L'estinzione d'ogni senso di pieta... una pietà sovrumana</ref>:  Sono le bassure e le vette: nei momenti gravi, c'è sempre questa polarizzazione opposta delle inclinazioni umane, e il <persName type="author">M.</persName> è maestro nel comprendere e nel ritrarre le une e le altre.</note>
+                <note xml:id="Russo_cap35-n11" type="comm" target="quarantana/cap35.xml#c35_10456" targetEnd="quarantana/cap35.xml#c35_10766"><ref rend="bold">L'aria stessa e il cielo accrescevano... un'ora crudele al par di questa</ref>:  Una delle descrizioni più profondamente religiose del romanzo. Quel cielo così foscamente intento sulla dolorante umanità è come l'immagine sensibile del castigo di Dio, frammista di mia lontana e vaga speranza di misericordia: la spera del sole, pallida, che spargeva intorno a sè un barlume fioco e sfumato, e pioveva un calore mesto e pesante. Osserva che prima ci sono tutte immagini della vita atmosferica, la luce offesa e rabbuiata, quella nebbia, queli'annottar tempestoso, quel barlume fioco e sfumato intorno alla spera del sole. All'impressioni di quella luce falsa del cielo si mescolano le impressioni uditive: borbottare di tuoni, profondo, ma come <hi rend="italic">tronco, irresoluto</hi>, aggiunge il <persName type="author">M.</persName> con vivissimo senso di quelle che sono le difficoltà quasi piene di misterioso spasimo di certi temporali estivi. Dal cielo poi si discende sulla terra, e il passaggio è segnato da quei tuoni che si abbassano su di essa come rotolare lontano di carri. Sulla terra, c'è come la impaurita immobilità di ogni vita vegetale ed animale: e si sente un brivido rattenuto in quella immobilità. Il saettare smarrito e sbigottito di una rondine non rompe quell'immoto silenzio, ma vi dà rilievo e accenatuazione, come per contrasto di ritmo. Pure, in questo mondo, immoto al di fuori e agitato di un travaglio interno, non c’è ﬁnora stato segno alcuno di umanità. La descrizione deve chiudersi con quella compagnia di viandanti che va avanti taciturna, con quel cacciatore pensieroso, e con quella vi11ana che, nella fatica, sospende il canto, senza avvedersene. Ebbene: tutta quella fosca vicenda del cielo e della terra è calata gravemente sull’animo e i1 corpo degli uomini. Ma l’artista con senso misuratissimo della mediazione e dei passaggi, prima di giungere a quella folla sofferente di ammalati e di agonizzanti nel lazzeretto, ha evocato immagini lontane della campagna, con quei viandanti, con quel cacciatore, con quella villana: il ﬂagello pesante di quell cielo discende gradatamente in quel chiuso recinto. Prima è stata soltanto la vastità di un’agitazione atmosferica e spirituale, senza termini di luogo.</note>
+                <note xml:id="Russo_cap35-n12" type="comm" target="quarantana/cap35.xml#c35_10795" targetEnd="quarantana/cap35.xml#c35_10802"><ref rend="bold">Un misto singolare di vagiti e di belati</ref>:  Segue una scena che fa contrasto con la pagina precedente: scene di soavità infantile, dove anche gli animali, le capre, acquistano qualcosa di umano. I colori della nuova descrizione hanno una delicatezza virgiliana. Dopo la greve oppressione, c'è qui come un scioglimento lieve e tacito di lagrime interne: la cordialità umana, che rinasce alle origini della vita, pur in mezzo alla lotta più affannosa.</note>
+                <note xml:id="Russo_cap35-n13" type="comm" target="quarantana/cap35.xml#c35_10922" targetEnd="quarantana/cap35.xml#c35_10955"><ref rend="bold">E qualche altra accorrere... in aiuto a tutt'e due</ref>:  Qui senti particolarmente <persName type="author">Virgilio</persName>, ma <persName type="author">Virgilio</persName> poeta di una bucolica cristiana, e grave della tragica esperienza del suo poema maggiore.</note>
+                <note xml:id="Russo_cap35-n14" type="comm" target="quarantana/cap35.xml#c35_11000" targetEnd="quarantana/cap35.xml#c35_11074"><ref rend="bold">Una di esse, tutta accorata... guardava fisso il cielo</ref>:  Sono alternate le visioni delle nutrici dolorose con quelle della nutrice, per un momento felice, compiaciuta del suo bimbo addormentato alla poppa. Anche, nell'interno di una descrizione, oltre che nei passaggi da una descrizione all'altra, il <persName type="author">M.</persName> vuole evitare l'addensarsi dei particolari troppo tristi o lugubri. C'è sempre un fiore di sorriso e di speranza in mezzo alle pene più disperate.</note>
+                <note xml:id="Russo_cap35-n15" type="comm" target="quarantana/cap35.xml#c35_11105" targetEnd="quarantana/cap35.xml#c35_11208"><ref rend="bold">Altre donne più attempate... un cappuccino con la barba bianchissima</ref>:  Un nuovo quadro: delle balie o custodi più attempate, in mezzo a cui trova giusto posto quel cappuccino dalla barba bianchissima. Nota l'istintiva discriminazione classica del <persName type="author">Manzoni</persName>; egli ama, in un certo senso, i quadri e le scene che abbiano una certa omogeneità di elementi, ed evita i contrasti bruschi. Quel cappuccino con la barba bianchissima, in mezzo alle giovani nutrici, avrebbe offeso la sua musa, ed egli gli fa la strada lentamente e gli taglia il suo angolo o arco, perchè vi arrivi e vi sosti, con pace e pudicizia di note e di colori.</note>
+                <note xml:id="Russo_cap35-n16" type="comm" target="quarantana/cap35.xml#c35_11343" targetEnd="quarantana/cap35.xml#c35_11349"><ref rend="bold">Vide, a un cento passi di distanza</ref>:  Osserva la naturalezza di questo incontro; e osserva ancora la lentezza del riconoscimento. <persName>Renzo</persName> difatti, prima <hi rend="italic">vide, a un cento passi di distanza</hi>, poi <hi rend="italic">corse verso quella parte</hi>; e lì gira, cerca, innanzi, indietro, dentro e fuori. Però <persName>Renzo</persName>
+                <hi rend="italic">rivide</hi>, con <hi rend="italic">altrettanta gioia, quella forma, quel frate medesimo</hi>; e ancora lo <hi rend="italic">vide poco lontano</hi>, e infine lo <hi rend="italic">vide sedersi</hi> ecc. ecc. La lentezza dedalea del ritrovamento e del riconoscimento è resa a maraviglia.</note>
+                <note xml:id="Russo_cap35-n17" type="comm" target="quarantana/cap35.xml#c35_11464" targetEnd="quarantana/cap35.xml#c35_11468"><ref rend="bold">Era proprio il padre Cristoforo</ref>:  Ritroviamo il nostro cappuccino, presentato in una forma dimessa e quotidiana. Un critico austriacante, <persName type="author">Paride Zaiotti</persName>, che ha fatto varie postille d'ordine moralistico sul romanzo, trova che <bibl>«nel primo rivedere il frate, dopo una sì lunga separazione, non ci può soddisfare che ne sia offerto nell'atto di cibarsi»</bibl>. Si tratta di una scempiaggine, ma che è stata ripetuta volentieri da qualche chiosatore moderno. L'abitudine retorica ed accademica è così radicata in molti lettori, che, persino per un personaggio come <persName>fra Cristoforo</persName>, accusato di una certa enfasi idealistica, ci si rammarica che non sempre sia raffigurato nello stile dell'epica. E si tratta invece di un accorgimento artistico del <persName type="author">Manzoni</persName>: se il frate, la prima volta, ci viene innanzi aureolato nella luce di un paesaggio, in tutti gli episodi successivi egli è mescolato nella trita o violenta realtà quotidiana. L'idealismo del personaggio nasce e si inserisce in codesta realtà: anche qui, quell'umile e trito particolare della scodella e del pasto, mentre dà il colore della scena del lazzeretto, come di una vita all'aperto in un accampamento, rapidamente dà anche rilievo alla sua sollecitudine caritatevole. È il valore di quel <hi rend="italic">come uno che stia sempre all'erta</hi>. L'apostolo, l'infermiere, il confortatore dei moribondi, è visto, sì, in un momento di sosta, ma con l'animo e la mente protesi sempre verso i suoi poverini.</note>
+                <note xml:id="Russo_cap35-n18" type="comm" target="quarantana/cap35.xml#c35_11716" targetEnd="quarantana/cap35.xml#c35_11721"><ref rend="bold">L'occhio soltanto era quello di prima</ref>:  A questo nuovo ritratto, pieno di una più singolare gravità religiosa (tutto quel mondo circostante conferisce al frate un più vicino e attuale senso della morte, dell'eterno, e di Dio), è mescolato il colloquio con <persName>Renzo</persName>, che procede in una dimessa forma cronachistica. <persName>Renzo</persName> rende rapidamente conto di tutte le sue avventure e di quelle di <persName>Lucia</persName>, e la nota ritrattistica è la sola che punteggi di un'epica religiosa nascosta tutto quel modesto colloquio. Direi che in tutta la scena, il <persName type="author">M.</persName> si è industriato a smorzare ogni solennità: la solennità tragica è nelle cose stesse. Il frate è rappresentato sempre negli uffici più umili e più normali, e senza nessuna enfasi particolare anche in quell'umiltà. Anche <persName>Renzo</persName> è digiuno, e il nostro ospite parteciperà pur lui al rozzo e semplice convito. Un ritrovamento che non ha nulla di romantico, dunque: il personaggio più enfatico del romanzo, smorzato e semplificato in un realismo quotidiano. È la misura del grande artista: tutta questa prima parte del colloquio è una scena d'aspetto, che darà rilievo ad alcune battute solenni successive, al rimprovero del frate per i pensieri vendicativi di <persName>Renzo</persName> e alla visita a <persName>don Rodrigo</persName> agonizzante su un giaciglio. <bibl>Vedi la n. 310-330 a pag. 672, e la n. 406-414 a pag. 675.</bibl>
+                </note>
+                <note xml:id="Russo_cap35-n19" type="comm" target="quarantana/cap35.xml#c35_12441" targetEnd="quarantana/cap35.xml#c35_12594"><ref rend="bold">«Ma, padre Cristoforo!»... ma a Dio senza dubbio</ref>:  Il colloquio, qui, va nel prolisso e nell'insistente. Discorso troppo lungo su quella regola del lazzeretto, divieto agli uomini di penetrare nel reparto donne. Dio è ripetuto quattro volte nel discorso del frate, e si tratta di circostanze mediocrissime e trite. Io non dico che <persName>fra Cristoforo</persName> non dovesse rappresentare il rigore e la giustezza di quel divieto, ma avrei voluto che andasse più spedito a risolvere il piccolo imbroglio. Ci troviamo, d'un tratto, davanti a un <persName>fra Cristoforo</persName> con una sua nuova e strana e lenta pedanteria della regola: quel frate, che abbiamo conosciuto superiore a tutte le regole, dell'<hi rend="italic">omnia munda mundis</hi> sussurrato a <persName>frate Fazio</persName>, per quelle donne che entravano in un convento, di notte, e si chiudevano anche le porte; quel frate che abbiamo visto spregiudicatamente lodare il vecchio servo di <persName>don Rodrigo</persName>, per la sua indiscreta vigilanza all'uscio del padrone. O <persName>fra Cristoforo</persName> è troppo invecchiato, se, come ci dice l'artista, si vedeva in lui <bibl>«una natura esausta, una carne rotta e cadente»</bibl>, oppure (per uscire dalla celia biografico-psicologica), il <persName type="author">Manzoni</persName> ha qui ceduto a una eccessiva <hi rend="italic">pruderie</hi> cattolica, di pedagogo che vuole rigorosamente distinto il reparto donne e il reparto uomini. <hi rend="italic">Pruderie</hi> cattolica, facilmente spiegabile anche con l'eccessivo scrupolo storico dello scrittore: il <persName type="author">M.</persName> consultò di fatti libri e documenti, per poter descrivere la vita interna del lazzeretto e volle essere fedele in ogni parte a questo vero storico, e la distinzione dei due reparti è storica, e sarebbe, naturalmente, cosa ovvia anche ne' nostri tempi. Ma il narratore spende ben due pagine per risolvere il piccolo intrigo; sicchè a me pare che la scena si raffreddi troppo e vada nel prolisso e nel superfluo.</note>
+                <note xml:id="Russo_cap35-n20" type="comm" target="quarantana/cap35.xml#c35_12993" targetEnd="quarantana/cap35.xml#c35_12997"><ref rend="bold">Interruppe Renzo stravolgendo gli occhi</ref>:  Quell'interruzione violenta di <persName>Renzo</persName> giunge opportuna a mutare il tono della pagina. <persName>Renzo</persName> esce in una delle sue impetuose e ragazzesche proposizioni di vendetta, e il frate lo riprende e l'ammonisce. Dal dialogo cronachistico, e dalla discussione su una regola, ci si avvia verso il drammatico. E il tragico teatro del lazzeretto è un tacito coro, magnifico e terribile, che fa risonanza alle parole del frate. Forse la stessa lassezza prosaica delle pagine precedenti, da noi lamentata, è una fatale economia dell'arte, la quale non ci deve opprimere con la sua assidua fulgidezza.</note>
+                <note xml:id="Russo_cap35-n21" type="comm" target="quarantana/cap35.xml#c35_13202" targetEnd="quarantana/cap35.xml#c35_14427"><ref rend="bold">«Sciagurato» gridò il padre Cristoforo... una capanna di infermi</ref>:  Il colloquio, a questo punto, diventa il preludio del perdono a <persName>don Rodrigo</persName>. Già, in quell'aggettivo, lo <hi rend="italic">sventurato <persName>Rodrigo</persName>
+                </hi> del <bibl>cap. XXXIII (cfr. la n. 167-69)</bibl> c'era un preannunzio pietoso alla scena della morte sul pagliericcio. Ma, prima ancora, di trovarci davanti al moribondo, il <persName type="author">Manzoni</persName> ci prepara l'animo alla pietà e al perdono. È una pietà e un perdono che non toccano l'individuo particolare, <persName>don Rodrigo</persName>, ma che si allarga a tutta l'umanità sofferente e che patisce la giustizia di Dio. Pietà e perdono religiosi dunque, e non pietà e perdono psicologici, biografici. Da ciò, la solennità delle parole del frate : la giustizia non è mai quella degli uomini, ma soltanto quella di Dio. Tali parole sono forse fra le più profonde e più piene di cristianesimo, che il <persName type="author">Manzoni</persName> abbia scritto. Non si accenna, nel discorso, esplicitamente, a <persName>don Rodrigo</persName>, ma nella pena di tutti c'è come il riscatto di tutti, il riscatto anche dello scellerato. A questa religione castigatrice,a questo Dio flagellatore, è tolta qualsiasi punta polemica verso l'individuo: il peccatore punito si perde in tutta l'umanità stessa che soffre e dolora. Da questo momento, l'artista ci ha disarmato; a <persName>don Rodrigo</persName> si è già perdonato, senza saperlo. Quando ci troveremo di fronte al moribondo, un misto di gravità e dì tenerezza sarà in ogni parola della rappresentazione.</note>
+                <note xml:id="Russo_cap35-n22" type="comm" target="quarantana/cap35.xml#c35_13572" targetEnd="quarantana/cap35.xml#c35_13580"><ref rend="bold">E dimmi un poco quante volte hai perdonato</ref>:  Scorre in queste parole, quasi involontaria, una affettuosa ironia paterna per l’impulsività di <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap35-n23" type="comm" target="quarantana/cap35.xml#c35_13657" targetEnd="quarantana/cap35.xml#c35_13668"><ref rend="bold">Se ci fosse una buona ragione, io non l’avrei trovata in trent’anni?</ref>:  Per sentire l’opportunità e la gravità lirica di queste parole, bisogna un po’ pensare a tutto il romanzo. È la sola volta, in cui <persName>fra Cristoforo</persName> vi accenna esplicitamente; in ogni altro momento e sempre osservato questo pudore dell’interna contrizione. <persName>Fra Cristoforo</persName> è sempre un perpetuo penitente <bibl>
+                <hi rend="italic">(ah! Se io potessi ora metterti in cuore il sentimento che dopo ho avuto sempre, e che ho ancora, per l’uomo ch’io odiavo!)</hi></bibl>; ma il suo delitto è scomparso nella sua puntuale determinatezza, ed è diventato sentimento attuale di tutto il peccare della umanità. E appunto questo conferisce una tragedia più contenuta ai suoi atti, alle sue parole, a tutto il suo contegno. Qui c'è la confessione esplicita: nella sua solitudine, e per il contrasto drammatico in cui viene fuori, e per tutto il fosco scenario che vive attorno, e come preparazione patetica alla visione di <persName>don Rodrigo</persName> agonizzante, tale confessione è tempestiva e non offende. Ma la parte, in cui più intensamente risuona la nota lirica di <persName>fra Cristoforo</persName>, è in quella celebrazione solenne e desolata della giustizia di Dio: <bibl>«Guarda chi è Colui che gastiga...»</bibl>. Direi che tali parole di <persName>fra Cristoforo</persName> servono di commento lirico a tutto il romanzo, che si potrebbe definire il poema della giustizia, l'epos reticente della giustizia di Dio, e la satira della ingiusta giustizia degli uomini.</note>
+                <note xml:id="Russo_cap35-n24" type="comm" target="quarantana/cap35.xml#c35_14072" targetEnd="quarantana/cap35.xml#c35_14078"><ref rend="bold">Tentennò la testa, come accennando di no</ref>:  Questo convalescente partecipa alle premure del frate, e dà notizia, con quel cenno del capo, che l'altro infermo, <persName>don Rodrigo</persName>, non è ritornato in sé. Abbiamo visto già che <persName>fra Cristoforo</persName> si era raccomandato anche a <persName>padre Vittore</persName>:<bibl>
+                <hi rend="italic">Quel tale principalmente, se mai desse il più piccolo segno di tornare in sè, avvisatemi subito, per carità</hi></bibl>.
+                </note>
+                <note xml:id="Russo_cap35-n25" type="comm" target="quarantana/cap35.xml#c35_14172" targetEnd="quarantana/cap35.xml#c35_14260"><ref rend="bold">Stava l'infelice, immoto... può esser misericordia</ref>:  Questa fine dolorosa, ma senza veggenza, di <persName>don Rodrigo</persName> è la morte più grave che egli possa subire; non deve essere lo spettacolo delle cose di questo mondo, la presenza torturante dei suoi perseguitati, dei suoi nemici, che deve farlo soffrire. Il flagello deve essere soltanto dentro. Davanti a lui, c'è una sua vittima, <persName>Renzo</persName>, ed egli non se ne avvede; c'è un suo antagonista, <persName>fra Cristoforo</persName>, ed egli non ha l'aria di conoscerlo. Egli soffre tutto dentro di sè, soffre di Dio, ma non degli uomini; però l'<hi rend="italic">infelice</hi> sta <hi rend="italic">immoto, spalancati gli occhi, ma senza sguardo</hi>. Una morte più consapevole sarebbe stata cosa assai più piccola. <persName>Don Rodrigo</persName>, pur nella contrazione violenta del suo viso, comincia a sentire la lontananza dell'eterno. Ritorna il grande artista, che ha descritto l'eguaglianza di tutte le anime davanti alla morte: la morte di <persName>Ermengarda</persName> o la morte di <persName>Napoleone</persName>. Però le parole di <persName>fra Cristoforo</persName> risuonano anche esse di questa lontananza e pace dell'eterno, <bibl>«Può esser gastigo, può esser misericordia»</bibl>. Rimane inviolato il mistero del giudizio di Dio. Nulla di quel pettegolo cattolicesimo, che vuole interrogare e discutere dei segreti della divinità, delle pene e delle ricompense che essa può distribuire. Il <hi rend="italic">può essere gastigo, può esser misericordia</hi>, è l'epigrafe di tutta una vita; il destino sopramondano, ma quello stesso mondano di <persName>don Rodrigo</persName>, rimane così avvolto nel mistero. Qui si compie la piena trasfigurazione tragica e religiosa del personaggio, di cui abbiamo parlato al <bibl>capitolo VI e nella <hi rend="italic">Prefazione</hi></bibl>.
+                </note>
+                <note xml:id="Russo_cap35-n26" type="comm" target="quarantana/cap35.xml#c35_14307" targetEnd="quarantana/cap35.xml#c35_14368"><ref rend="bold">Forse il Signore è pronto... d'amore!</ref>:  Queste chiose che <persName>fra Cristoforo</persName> fa seguire a quella sua solenne epigrafe del <hi rend="italic">castigo</hi> o della <hi rend="italic">misericordia</hi>, con questi quattro <hi rend="italic">forse</hi>, se paiono distoglierci dall'immobilità solenne delle prime parole e possono parere ancora come motivi di esortazione catechistica, hanno il merito estetico di rendere come più piano il discorso, di condurlo in mezzo alle cose di questo mondo, di mescolare quel linguaggio del cielo al linguaggio della terra. È la solita accortezza manzoniana, che smorza e piega il rigore del sublime. Ma, con tutto questo, le chiose di <persName>fra Cristoforo</persName> non discendono a un'inquisizione troppo realistica del significato di quella morte: quella morte rimane sempre avvolta nel vago.</note>
+                <note xml:id="Russo_cap35-n27" type="comm" target="quarantana/cap35.xml#c35_14397" targetEnd="quarantana/cap35.xml#c35_14405"><ref rend="bold">Si mossero tutt'e due, come di concerto, e uscirono</ref>:  Non a tutti i critici è piaciuto questo congedo solenne e misterioso dello scrittore dal personaggio più tristamente celebre del romanzo; e qualcuno ha rimpianto la redazione primitiva del romanzo, dove <persName>don Rodrigo</persName> fuggiva, attraverso il lazzeretto, a ridosso di un cavallaccio incontrato per caso. Ed era poi la conclusione meno cristiana che si potesse dare all'episodio. <persName>Don Rodrigo</persName> moriva in una specie di parossismo, e cotesto parossismo doveva essere l'ultima crepitosa disfatta della sua miserabile superbia. L'epigrafe finale sul corpo di <persName>don Rodrigo</persName> era poi questa: <bibl>«<persName>Don Rodrigo</persName> sulla cima di un tristo mucchio, fra lo strepito e le bestemmie, usciva dal lazzeretto, per andarsene alla fossa»</bibl>. In quella morte così frenetica e in quel quadro finale così fosco, si sentiva la durezza apocalittica dell'educazione giansenistica del <persName type="author">Manzoni</persName> ancora in senso teologico. C'era il <persName type="author">Manzoni</persName> credente nel concetto agostiniano della predestinazione, e la sorte dei reprobi era quella che era, <hi rend="italic">ab aeterno</hi>, senza misericordia. Ma il rigorismo teologico del giansenista o scomparve nei <title rend="italic">Promessi Sposi</title>, o si attenuò, o rimase semplice rigorismo morale congiunto a una più larga cordialità cristiana. Da ciò, la nuova battuta di <persName>fra Cristoforo</persName> sul <hi rend="italic">gastigo</hi> e sulla <hi rend="italic">misericordia</hi>. Alla lenta agonia di quel peccatore è lasciato un barlume interno di coscienza e una speranza forse di riscatto. Alle ragioni religiose si accompagnano poi particolari ragioni artistiche, che avrebbero indotto lo scrittore a mutare radicalmente l'episodio. L'incontro di <persName>fra Cristoforo</persName>,<persName>Renzo</persName>,<persName>Lucia</persName>, e <persName>don Rodrigo</persName> aveva qualcosa di trivialmente romanzesco, e ci si arrivava difatti attraverso un laborioso giro di artifizi. Naturalmente, c'era un <hi rend="italic">grido repentino</hi> di <persName>Lucia</persName>, che è la prima dei tre a riconoscere <persName>don Rodrigo</persName>. Quel grido repentino (dalla bocca di <persName>Lucia</persName>, così discreta e riservata sempre!) ricorda altri gridi o di monacande o di spose infelici che, nel salire l'altare, erano assalite dallo spettro sensibile di qualche ricordo: quello di <persName>Lucia</persName> era uno di quegli <hi rend="italic">incontri</hi> e di quei <hi rend="italic">gridi</hi>, prettamente romantici, tagliati nel gusto del romanticismo caro a <persName type="author">Tommaso Grossi</persName> e compagni. E romantica era la fuga di <persName>don Rodrigo</persName> sul cavallo; ciò che ricordava troppo i destrieri di medievale memoria, i destrieri incarnazione dei demonio, cari alla fantasia di <persName type="author">Jacopo Passavanti</persName> che fa trascinare su di essi i dannati, o alle fantasie dei credenti in genere, che favoleggiarono di <persName>Teodorico</persName> inabissato, cavaliere e cavallo, nel cratere dello <placeName>Stromboli</placeName>: scorciatoia per arte dare all'inferno! Il gusto affatto moderno del <persName type="author">Manzoni</persName>, e alieno da quel medievalismo romantico dei suoi amici, non poteva farlo riposare a lungo compiaciuto su quella visione. Sul motivo del <hi rend="italic">cavallaccio</hi>,<bibl>vedi la n. 669 a p. 661</bibl>.
+                </note>
+            </div>
+</body>
+</text>
+</TEI>

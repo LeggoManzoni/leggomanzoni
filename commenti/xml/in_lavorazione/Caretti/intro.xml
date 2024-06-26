@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lanfranco Caretti (1970)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Introduzione, note, apostili e antologia della critica a cura di Lanfranco Caretti</title>
+          <editor>Caretti, Lanfranco</editor>
+          <pubPlace>Bari</pubPlace>
+          <publisher>Editori Laterza</publisher>
+          <date>1970</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Caretti_intro">
+        <note xml:id="Caretti_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">1.1. L'Historia</ref>:  il Manzoni finge il ritrovamento di una storia anonima del secolo XVII secondo una convenzione già usata dagli autori di poemi cavallereschi e da Cervantes, il quale simulò di avere tradotto il libro di Don Chisciotte dall' immaginario arabo Cide Hamete Benengeli, e poi reintrodotta nei moderni romanzi storici (Walter Scott). La finzione consente al Manzoni di offrirci un saggio di quel presunto manoscritto ricuperato e di emularne argutamente il tono e lo stile tipicamente secenteschi («Questo tono nasce da una rara conoscenza dello stile del Seicento, riprodotto e sottolineato qui con il lungo rombo dei suoi periodi, con le sue processioni di metafore altisonanti, con il fasto dei suoi fregi e delle sue stesse maiuscole. Agli occhi dei moderni le stesse particolarità ortografiche — le doppie, le acca iniziali, le i lunghe, le u invece delle v — assumono qualche cosa di prezioso e contribuiscono al falso splendore della pagina», Momigliano.</note>
+        <note xml:id="Caretti_intro-n2" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">2.2. gl'illustri Campioni</ref>:  gli storici famosi, classici e umanistici, intesi soprattutto a celebrare i grandi eventi bellici e le figure degli eroi lasciando nell’ombra la cronaca dei fatti minuti e i sentimenti delle plebi. Alla concezione aristocratica e idealizzante di una Historia rivolta a perpetuare soltanto il ricordo dei «Prencipi e Potentati», il Manzoni oppone, con dissimulata ironia, la concezione più umana e realistica di una storia antieroica, senza acca davanti, semplice «Racconto?» o «Relatione» dei fatti capitati a «gente meccaniche, e di picciol affare».</note>
+        <note xml:id="Caretti_intro-n3" type='comm' target="quarantana/intro.xml#intro_10048" targetEnd="quarantana/intro.xml#intro_10050"><ref rend="bold">Palme... d'Allori</ref>:  i segni del trionfo che gli storici illustri conseguono nell’ardua battaglia («Arringo») contro l’usura del Tempo.</note>
+        <note xml:id="Caretti_intro-n4" type='comm' target="quarantana/intro.xml#intro_10052" targetEnd="quarantana/intro.xml#intro_10056"><ref rend="bold">2.3. solo che le sole spoglie</ref>:  soltanto le spoglie, le sole spoglie.</note>
+        <note xml:id="Caretti_intro-n5" type='comm' target="quarantana/intro.xml#intro_10061"><ref rend="bold">imbalsamando</ref>:  rendendo immuni dall’azione distruggitrice del Tempo, immortalando.</note>
+        <note xml:id="Caretti_intro-n6" type='comm' target="quarantana/intro.xml#intro_10072"><ref rend="bold">2.4. qualificati</ref>:  titolati.</note>
+        <note xml:id="Caretti_intro-n7" type='comm' target="quarantana/intro.xml#intro_10094" targetEnd="quarantana/intro.xml#intro_10096"><ref rend="bold">3.1. alla mia debolezza</ref>:  non è consentito ad uno come me, modesto cronista privo di autorità, affrontare gli ardui e pericolosi argomenti dell’alta politica («Labirinti»: dice segretezza e tortuosità; «maneggi»: dice manovre e intrighi) e delle grandi imprese di guerra («Oricalchi»: ottoni, trombe).</note>
+        <note xml:id="Caretti_intro-n8" type='comm' target="quarantana/intro.xml#intro_10126"><ref rend="bold">3.4. memorabili</ref>:  degni di ricordo.</note>
+        <note xml:id="Caretti_intro-n9" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">gente meccaniche</ref>:  persone dedite ai lavori manuali (operai o artigiani) e di umile condizione. Cfr. IV, 24, 1.</note>
+        <note xml:id="Caretti_intro-n10" type='comm' target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">3.5. schietta e genuinamente</ref>:  schiettamente e genuinamente. L’uso delle coppie avverbiali ridotte, normale in tutte le lingue romanze occidentali e poi scomparso nell’italiano e nel francese, riemerse nell’italiano del Seicento probabilmente per influsso dello spagnolo che lo aveva conservato, anzi grammaticalizzato.</note>
+        <note xml:id="Caretti_intro-n11" type='comm' target="quarantana/intro.xml#intro_10188"><ref rend="bold">5.2. climi</ref>:  paesi.</note>
+        <note xml:id="Caretti_intro-n12" type='comm' target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  protezione (spagnolismo).</note>
+        <note xml:id="Caretti_intro-n13" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">Re Cattolico</ref>:  titolo che spettava al re di Spagna.</note>
+        <note xml:id="Caretti_intro-n14" type='comm' target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10220"><ref rend="bold">5.4. l'Heroe di nobil Prosapia</ref>:  il Campione di nobile stirpe, ovvero il governatore del Ducato di Milano, il quale temporaneamente («pro tempore») rappresentava in Lombardia il re di Spagna.</note>
+        <note xml:id="Caretti_intro-n15" type='comm' target="quarantana/intro.xml#intro_10294" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">5.10-6.1. a tanti Heroi... emolumenti</ref>:  l’eroismo di siffatti eroi, cioè di quegli amministratori, consisteva nell’aguzzare lo sguardo, come il mitico Argo dai cento occhi, e nell’allungare le mani, come il mitico Briareo dalle cento braccia, allo scopo di spremere denaro, con le tasse, apparentemente per il pubblico vantaggio («per li pubblici emolumenti») ma in realtà per il proprio tornaconto.</note>
+        <note xml:id="Caretti_intro-n16" type='comm' target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">6.1. Per locchè</ref>:  per la qual cosa.</note>
+        <note xml:id="Caretti_intro-n17" type='comm' target="quarantana/intro.xml#intro_10323"><ref rend="bold">6.2. staggione</ref>:  età.</note>
+        <note xml:id="Caretti_intro-n18" type='comm' target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">6.3-4. con rendersi tributarij delle Parche</ref>:  avendo pagato il loro tributo alle Parche, cioè essendo morti.</note>
+        <note xml:id="Caretti_intro-n19" type='comm' target="quarantana/intro.xml#intro_10370"><ref rend="bold">7.1. generaliter</ref>:  genericamente, senza indicazioni precise.</note>
+        <note xml:id="Caretti_intro-n20" type='comm' target="quarantana/intro.xml#intro_10421" targetEnd="quarantana/intro.xml#intro_10424"><ref rend="bold">7.6. non essere i nomi</ref>:  i nomi esprimono la pura accidentalità, cioè il mero dato estrinseco delle persone e delle cose, e non già la loro vera «sostanza». I termini «sostanze» e «accidenti» sono dedotti dalla terminologia aristotelica tanto diffusa nel Seicento. Cfr. anche XXXVII, 49, 1-2.</note>
+        <note xml:id="Caretti_intro-n21" type='comm' target="quarantana/intro.xml#intro_10444"><ref rend="bold">8.2. dilavato</ref>:  sbiadito dal tempo. È così assicurata l’autentica arcaicità del manoscritto.</note>
+        <note xml:id="Caretti_intro-n22" type='comm' target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568"><ref rend="bold">9.2. Idiotismi lombardi</ref>:  forme o espressioni del dialetto lombardo.</note>
+        <note xml:id="Caretti_intro-n23" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">10.4. solecismi</ref>:  sgrammaticature.</note>
+        <note xml:id="Caretti_intro-n24" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">10.6. in questo paese</ref>:  in Lombardia. Ma non altrettanto, ad esempio, in Toscana.</note>
+        <note xml:id="Caretti_intro-n25" type='comm' target="quarantana/intro.xml#intro_10753" targetEnd="quarantana/intro.xml#intro_10756"><ref rend="bold">11.2. una storia così bella</ref>:  «Bella..non solo perché interessante esteticamente, ma anche storicamente e moralmente» (Barbi, «Istituto Lombardo», 1961, p. 403).</note>
+        <note xml:id="Caretti_intro-n26" type='comm' target="quarantana/intro.xml#intro_10804"><ref rend="bold">11.5. presentato</ref>:  non è involontaria sconcordanza («presentato...obiezion»), come taluni hanno pensato, ma uso del participio con valore neutro o assoluto perché sentito essenzialmente come verbo.</note>
+        <note xml:id="Caretti_intro-n27" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">11.7-8. con un'ingenuità</ref>:  queste parole «vanno intese come dette seriamente; ma con un sorriso d’intelligenza l’autore avverte che chi crede uno scherzo l’esistenza della storia non potrà prendere sul serio neppure l’importanza attribuita all’opera col proclamarla bella, molto bella» (Barbi, «Istituto Lombardo», 1961, p. 403).</note>
+        <note xml:id="Caretti_intro-n28" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">13.9. contingenti</ref>:  eventuali. Rinforza «possibili».</note>
+        <note xml:id="Caretti_intro-n29" type='comm' target="quarantana/intro.xml#intro_11103" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">14.4. le mutano</ref>:  «le mutano, non per capriccio, ma per necessità logica; giacché, com’avverte in altro luogo [Del sistema che fonda la morale sull’utilità, in Opere varie, Milano, 1845, p. 783] egli stesso [il Manzoni], “con le questioni piantate in falso si deve cambiar questione”» (Morandi). Michele Barbi («Annali Manzoniani», I, pp. 159 sgg.) ha negato il tono ironico di questa frase: «Strano davvero...credere ch’egli [il Manzoni] pensasse a scherzare in quel modo su una questione per lui così seria come quella della lingua. Fa anche meraviglia come sia sfuggito a così egregi studiosi quante volte il Manzoni nelle sue opere ha insistito nel dire che il mettere le questioni nei loro veri termini è il solo mezzo che può scioglierle o almeno avviarle a soluzione».</note>
+        <note xml:id="Caretti_intro-n30" type='comm' target="quarantana/intro.xml#intro_11210" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">15.4. un libro</ref>:  non può essere il Sentir messa che fu composto più tardi (1834). Deve invece riferirsi a quel libro sulla lingua che il Manzoni avrebbe scritto, ma non completato, tra il 1823 e il 1824, come attestano una lettera della madre Giulia a monsignor Tosi e una del Fauriel al Cousin, e che andò bruciato con altre carte.</note>
+        <note xml:id="Caretti_intro-n31" type='comm' target="quarantana/intro.xml#intro_11243"><ref rend="bold">15.6. stile</ref>:  «vuol significare lo stesso che l’autore stesso dice di sopra, ossia la “dicitura” sostituita a quella dell’Anonimo, “il modo di scrivere da lui tenuto”... Ma poiché allora il grosso della questione sul modo di scrivere era circa la lingua, e dal non avere una lingua viva, ammessa e conosciuta da tutù, nasceva, o si credeva nascesse, la gran difficoltà dello scrivere per gli Italiani, ecco perché la giustificazione con cui avrebbe dovuto accompagnare il romanzo sarebbe stata, più che una trattazione di stile, una trattazione di lingua» (Barbi, «Istituto Lombardo», 1961, p. 405).</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

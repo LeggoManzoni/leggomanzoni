@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap3">
+                <note xml:id="Russo_cap3-n1" type="comm" target="quarantana/cap3.xml#c3_10059" targetEnd="quarantana/cap3.xml#c3_10062"><ref rend="bold">un cruccio pur diverso</ref>:  Un cruccio pur diverso. <persName>Renzo</persName> aveva detto <bibl>« Dunque voi sapevate...?»</bibl>, e poi: <bibl>« non m’avete mai detto niente. »</bibl> niente. »,e ora qualcosa di simile ribatte <persName>Agnese</persName> per sè.</note>
+                <note xml:id="Russo_cap3-n2" type="comm" target="quarantana/cap3.xml#c3_10210"><ref rend="bold">scommettiamo</ref>:  Scommettiamo. Quello di <persName>don Rodrigo</persName> è un infame capriccio, complicato dal puntiglio, quel suo voler <hi>spuntar l’impegno</hi>, e che sarebbe motivo assai grottesco, se calato in tutta una società, in tutta una classe, non costituisse la logica tragica dell’operare di quel secolo . Anche la guerra di <placeName>Casal Monferrato</placeName>, in fondo, nasce essa stessa da un puntiglio (agli occhi del<persName type="author">Manzoni</persName>, da un voler <hi>spuntar l'impegno</hi>;e, data la concezione moralistica dello scrittore, questo <hi>scommettere</hi> di <persName>don Rodrigo</persName> è dunque simbolico di tutta una civiltà, dell’ indirizzo di un regime, se non addirittura di un’inclinazione perpetua dell’uomo ,quando si è disviato da <persName>Dio</persName>.
+                </note>
+                <note xml:id="Russo_cap3-n3" type="comm" target="quarantana/cap3.xml#c3_10349" targetEnd="quarantana/cap3.xml#c3_10354"><ref rend="bold">Al nome riverito del padre Cristoforo</ref>:  Al nome riverito del padre <persName>Cristoforo</persName>. È la prima presentazione di <persName>fra Cristoforo</persName>, e già l'animo è disposto a riverenza.</note>
+                <note xml:id="Russo_cap3-n4" type="comm" target="quarantana/cap3.xml#c3_10436" targetEnd="quarantana/cap3.xml#c3_10440"><ref rend="bold">non allegò che la prima</ref>:  Non allegò che la prima. C'è un giudizio implicito in quella reticenza: <persName>Agnese</persName>è una buona donna, ma ciarliera e indiscreta. Vedi la n. 421 al cap. II.</note>
+                <note xml:id="Russo_cap3-n5" type="comm" target="quarantana/cap3.xml#c3_10521" targetEnd="quarantana/cap3.xml#c3_10544"><ref rend="bold">mi sforzai... feci la sfacciata</ref>:  Mi sforzai... feci la sfacciata. Tratto delicatissimo, in cui si esprime la pudicizia virginale di <persName>Lucia</persName>.
+                </note>
+                <note xml:id="Russo_cap3-n6" type="comm" target="quarantana/cap3.xml#c3_10598" targetEnd="quarantana/cap3.xml#c3_10602"><ref rend="bold">un violento scoppio di pianto</ref>:  Un violento scoppio di pianto.Un primo intenerimento di sè c'è stato in <persName>Lucia</persName> nel ripensare a sè stessa, immaginata colpevole per impazienza di nozze:al compatimento per la sua falsa colpa segue poi il sentimento del grosso ostacolo nato in quel giorno. Da ciò lo scoppio del pianto.</note>
+                <note xml:id="Russo_cap3-n7" type="comm" target="quarantana/cap3.xml#c3_10619" targetEnd="quarantana/cap3.xml#c3_10628"><ref rend="bold">stringendo di tanto in tanto il manico del suo coltello</ref>:  In società anarchiche e autoritarie, anche i buoni sono talvolta trascinati a pensieri e gesti di violenza. Cfr. la n. 322 al cap. II.</note>
+                <note xml:id="Russo_cap3-n8" type="comm" target="quarantana/cap3.xml#c3_10681" targetEnd="quarantana/cap3.xml#c3_10687"><ref rend="bold">Il Signore c’è anche per i poveri</ref>:  A tutti i figli di <persName>Eva</persName>nel suo dolore pensò: è la stessa affermazione della <hi rend="italic">Pentecoste</hi>, ma calata nell’attualità della sofferenza e della persecuzione, e però con qualcosa di meno solenne ma anche con qualcosa di più umano e appassionato. La massima religiosa è diventata senso comune di vita.</note>
+                <note xml:id="Russo_cap3-n9" type="comm" target="quarantana/cap3.xml#c3_10726" targetEnd="quarantana/cap3.xml#c3_10728"><ref rend="bold">andiamo tanto lontano...</ref>:  C'è qui il disegno ardito di un’anima amorosa, che salta le difficoltà e si dichiara disposta ad affrontare disagi e incertezze. In questa profferta di <persName>Lucia</persName> c’è più amore, che in mille galanterie amorose dei così detti romanzi d’amore.</note>
+                <note xml:id="Russo_cap3-n10" type="comm" target="quarantana/cap3.xml#c3_10751" targetEnd="quarantana/cap3.xml#c3_10755"><ref rend="bold">la fede di stato libero</ref>:  Cioè, che <persName>Renzo</persName> e <persName>Lucia</persName> erano liberi da <hi rend="italic">ligamen</hi>(uno degli impedimenti dirimenti, di cui al cap. II, n, 104).</note>
+                <note xml:id="Russo_cap3-n11" type="comm" target="quarantana/cap3.xml#c3_10765" targetEnd="quarantana/cap3.xml#c3_10767"><ref rend="bold">Lucia... non basta</ref>:  Lucia si rimise a piangere. Si rinnova il pianto, per il senso di una nuova grossa difficoltà, a cui l’amore non basta.</note>
+                <note xml:id="Russo_cap3-n12" type="comm" target="quarantana/cap3.xml#c3_10785" targetEnd="quarantana/cap3.xml#c3_10790"><ref rend="bold">alla pompa festiva de’ loro abiti</ref>:  Alla pompa festiva de’ loro abiti. Senti la sobrietà di questa scena di tristezza, appena accennata nel suo contrasto esterno. Un romantico dozzinale ne avrebbe subito abusato.</note>
+                <note xml:id="Russo_cap3-n13" type="comm" target="quarantana/cap3.xml#c3_10871" targetEnd="quarantana/cap3.xml#c3_10874"><ref rend="bold">cercate del dottor Azzecca-garbugli</ref>:  Il nome originario negli <title rend="italic">Sposi Promessi</title> era <title rend="italic">Duplica</title>. Tutti i nomi manzoniani hanno una giustificazione storico-costumistica o psiconomastica . Il nome suggerisce sempre qualcosa della psicologia dell'individuo. Se don <persName>Abbondio</persName> si richiama a un nome di un santo locale, ed ha qualche cosa, nei suoni, che fa pensare al quieto vivere, anche <title rend="italic">Duplica</title> stava a indicare la doppiezza delle arti del nostro dottore: la ragione e il torto sono le due pagine alterne di uno stesso foglio. Più felice ancora <persName>Azzeccagarbugli</persName>, e don <persName> Rodrigo</persName> giocherà volentieri significato di quel nome. <bibl>«Le gride son tante!</bibl> — pensava: — e il dottore non è un’oca: qualcosa che faccia al caso mio saprà trovare, qualche garbuglio da azzeccare a quel villanaccio: altrimenti gli muto nome.» (cap. XI).</note>
+                <note xml:id="Russo_cap3-n14" type="comm" target="quarantana/cap3.xml#c3_10897" targetEnd="quarantana/cap3.xml#c3_10904"><ref rend="bold">Oh to’! non lo so il nome vero</ref>:  Sentì nel discorso di <persName>Agnese</persName> quell’andirivieni un po’ pletorico del linguaggio proprio di persone del popolo, specialmente femmine un po’ vane e ciarliere.</note>
+                <note xml:id="Russo_cap3-n15" type="comm" target="quarantana/cap3.xml#c3_10914" targetEnd="quarantana/cap3.xml#c3_10921"><ref rend="bold">quel dottore alto, asciutto, pelato, col naso rosso</ref>:  La presentazione fisica che ora <persName>Agnese </persName>fa di <persName>Azzeccagarbugli</persName> ci mette sulla strada per intendere altre note morali del personaggio.Tutti pensano ad <persName>Azzeccagarbugli</persName> come il tipo proverbiale del leguleio, ma in lui c’è anche, come vedremo, il parassita secentesco e il tipo del ghiottone e del beone. Quel <hi rend="italic">naso rosso</hi> e anche la stessa <hi rend="italic">voglia di lampone sulla guancia</hi> (certa ghiottoneria gli discendeva per li rami! ) sono le prime pennellate del ritratto finale del parassita mangiatore. Al banchetto di don <persName>Rodrigo</persName>, vedremo difatti <hi rend="italic">il naso vermiglio e lucente </hi>del dottore, e lo conosceremo anche tacito voluttuoso bevitore che, invece di perdersi a fare gli elogi del vino, lo viene assaporando in silenzio, <hi rend="italic">con gli occhi fissi e con le labbra strette</hi> (cap. V, 1. 430).</note>
+                <note xml:id="Russo_cap3-n16" type="comm" target="quarantana/cap3.xml#c3_10984" targetEnd="quarantana/cap3.xml#c3_10986"><ref rend="bold">quei quattro capponi</ref>:  I capponi di<persName>Renzo</persName>sono passati in proverbio, per le battute di riflessivo umorismo che il <persName type="author">Manzoni</persName> ha saputo legare alla sorte di quelle povere bestie. È dote del grande artista di non introdurre mai personaggi o motivi secondari, senza necessità. Da <persName>Ambrogio</persName> il sagrestano, al console della famosa notte degli imbrogli, da <persName>Tonio</persName> al sarto, dal piccolo <persName>Menico</persName> allo scempiato <persName>Gervaso</persName>, tutti ci sono fissi nella memoria per un gesto, per una battuta, per una frase. Anche qui i capponi sono diventati il simbolo di tutta una situazione: sono le vittime innocenti, che ne toccano gratuitamente, e ci vanno in mezzo , quando c'è in aria in qualche trambusto; le vittime che poi s'’ingegnano di beccarsi l’una con l’altra, <bibl>« come accade sovente tra compagni di sventura &gt;</bibl>.
+                </note>
+                <note xml:id="Russo_cap3-n17" type="comm" target="quarantana/cap3.xml#c3_10994" targetEnd="quarantana/cap3.xml#c3_10998"><ref rend="bold">per il banchetto di domenica</ref>:  Gli interpreti trovano una contraddizione tra quello che<persName> Renzo</persName> aveva detto a <persName>Perpetua</persName> (<bibl>« speravo che oggi si sarebbe stati allegri insieme »</bibl> e siamo al mercoledì,8 novembre) e quello che dice qui <persName>Agnese</persName> del banchetto della domenica (12 novembre). La mattina del venerdì (10 novembre), al cap. IX, gli sposi ed <persName>Agnese</persName> si trovano in un’osteria di <placeName>Monza</placeName>, e anche lì si torna a parlare del banchetto del mercoledì. <bibl>« A tutt'e tre passo per la mente il banchetto che, due giorni prima, s'aspettavan di fare; e ciascuno mise un gran sospiro.»</bibl>. Dunque c'è un banchetto per il mercoledì, il giorno delle nozze, e un banchetto per la domenica. Contraddizione? Non mi pare. In nozze contadinesche, l'allegria non vuol durare un giorno solo! Anche in tempi di carestia, gli sposi novelli non sono mai tanto carestosi come gli spulciatori di contraddizioni dei grandi scrittori.</note>
+                <note xml:id="Russo_cap3-n18" type="comm" target="quarantana/cap3.xml#c3_11066" targetEnd="quarantana/cap3.xml#c3_11072"><ref rend="bold">come se facesse un mazzetto di fiori</ref>:  Le tristi vicende di quei quattro capponi sono cominciate: la maestria di sua innocente crudeltà. In quelle <hi rend="italic">otto gambe legate</hi> che diventano un mazzetto di fiori, senti tanta malizia sottile e grazia di paragone.</note>
+                <note xml:id="Russo_cap3-n19" type="comm" target="quarantana/cap3.xml#c3_11156" targetEnd="quarantana/cap3.xml#c3_11162"><ref rend="bold">così legate e tenute per le zampe</ref>:  Quei capponi valgono non solo per sò come simbolo, ma sono una nota di involontaria commedia nell’agitazione di <persName>Renzo</persName>. Qui, a dir il vero, i capponi sono un pretesto, per farci vedere meglio Renzo ora che stende il braccio per collera, ora che l’alza per disperazione, ora che lo dibatte in aria; e quelle teste spenzolate delle sue vittime valgono a smorzare, come nota comica, tanta incomposta e ingenua ira.</note>
+                <note xml:id="Russo_cap3-n20" type="comm" target="quarantana/cap3.xml#c3_11238" targetEnd="quarantana/cap3.xml#c3_11241"><ref rend="bold">tra compagni di sventura</ref>:  È probabile che il <persName type="author">Manzoni</persName> pensasse agli esuli italiani, ma, come tutte le sentenze indovinate, questa supera l’ispirazione contingente e attinge l'umanità in generale.</note>
+                <note xml:id="Russo_cap3-n21" type="comm" target="quarantana/cap3.xml#c3_11350" targetEnd="quarantana/cap3.xml#c3_11353"><ref rend="bold">il dottore l’accolse umanamente</ref>:  C'è l'ipocrisia paterna del mestierante, che è toccato nel debole: non bisogna mai andar con le mani vuote da quei signori, aveva detto <persName>Agnese</persName>, e difatti i quattro capponi hanno fatto il loro effetto. Si noti poi che, per le particolari condizioni del tempo, il mestiere del leguleio era quello di trafficare in modo particolare con uomini di malaffare. La società secentesca, quale ce la presenta il <persName type="author">Manzoni</persName>, non ha molta sensibilità a la legge e per le leggi. Le stesse leggi sono opera degli uomini traviati dai pregiudizi, e però nascono corrotte. <bibl>« Finalmente c’è giustizia a questo mondo .La farò io la giustizia!! »</bibl> sono le frasi di <persName>Renzo</persName>, dette in ‘un momento di tempesta e che tradiscono il pessimismo dello scrittore (la giustizia non è di questo mondo, è solo <persName>Dio</persName>
+                <hi rend="italic">Colui che gastiga, Colui che giudica, e non è giudicato, Colui che flagella e che perdona,</hi> per dirla con le parole di fra <persName>Cristoforo</persName> del cap .XXXV). Ebbene, in tale società guardata con pessimismo etico-giuridico, un leguleio poteva tenere casa aperta solo per i delinquenti. Si capisce dunque l’equivoco, in cui presto cadrà il dottore, scambiando Renzo per un furfante; da ciò anche l’occhiata di compassione sprezzante della serva che, nel restituire i capponi a Renzo, pensa: bisogna che tu l'abbia fatta bella! E anch'essa, però,crede che <persName>Renzo</persName> sia un birbante matricolato. In una società così fatta, non c'è posto per il galantuomo, e bazzicare con uomini di legge è brutto segno. Ciò valga a dar rilievo all’ipocrisia di quell’<hi rend="italic">umanamente</hi> e a quel <hi rend="italic">venite</hi>,<hi rend="italic">figliuolo</hi>. La gentilezza di <persName>Azzeccagarbugli</persName> è il primo segno della sua corruttela.</note>
+                <note xml:id="Russo_cap3-n22" type="comm" target="quarantana/cap3.xml#c3_11366" targetEnd="quarantana/cap3.xml#c3_11369"><ref rend="bold">Era questo uno stanzone</ref>:  La presentazione dello studio di Azzeccagarbugli, vecchio e polveroso, ben si accorda con la figura del parassita e tristo leguleio. Egli vive del suo passato. Il suo seggiolone ha le borchie mancanti, e la copertura accartocciata qua e là. La toga è ormai consunta. Quanto poi al colore del tempo, i ritratti de’ dodici Cesari sono quelli che ci vogliono nello studio di un avvocato, che appartiene a un secolo amante dei regimi autoritari. La suppellettile tutta del resto, è un magnifico barocco (oh <hi rend="italic">quella spalliera alta e quadrata, terminata agli angoli da due ornamenti di legno, che s’alzavano a foggia di corna!</hi>).
+                </note>
+                <note xml:id="Russo_cap3-n23" type="comm" target="quarantana/cap3.xml#c3_11547" targetEnd="quarantana/cap3.xml#c3_11553"><ref rend="bold">vorrei sapere da lei che ha studiato</ref>:  Felicissima è la presentazione di <persName>Renzo</persName>.<bibl>« All’entrare, si sentì preso da quella suggezione che i poverelli illetterati provano in vicinanza d’un signore e d’un dotto. &gt;</bibl>. Ora, a dissimulare l'imbarazzo, gira il cappello con una mano, e con l’altra ne accarezza il cocuzzolo; va per le lunghe, attraverso ambagi di frasi cerimoniose ed ingenue.Si sente subito che ci troviamo davanti a un uomo del popolo non solo, ma anche buon figliuolo; senonchè il dottore, che è solo forte in garbugli, e crede di capir tutto (<bibl>Ho capito, ho capito</bibl>), non ne intende nulla e lo prende senz’altro per un briccone.</note>
+                <note xml:id="Russo_cap3-n24" type="comm" target="quarantana/cap3.xml#c3_11648" targetEnd="quarantana/cap3.xml#c3_11651"><ref rend="bold">strinse fortemente le labbra</ref>:  Il dottore stringe sempre le labbra, e quando assapora i vini, e ora che assapora i suoi garbugli.</note>
+                <note xml:id="Russo_cap3-n25" type="comm" target="quarantana/cap3.xml#c3_11781" targetEnd="quarantana/cap3.xml#c3_11782"><ref rend="bold">grida fresca</ref>:  Vedi al cap. I, la nota 200. L’antichità o la freschezza di una legge non dovrebbe dir nulla per la sua validità; ma siamo in un regime di falsa autorità, dove le leggi non valgono obbiettivamente, ma soltanto per l'impulso momentaneo e per il puntiglio del governo che le ha suggerite.</note>
+                <note xml:id="Russo_cap3-n26" type="comm" target="quarantana/cap3.xml#c3_11804" targetEnd="quarantana/cap3.xml#c3_11809"><ref rend="bold">tenendo la grida sciorinata in aria</ref>:  Nelle <bibl><title>Memorie Manzoniane</title></bibl> del Fabris, il <persName type="author">Manzoni</persName>, ad un anonimo marchese che gli aveva chiesto se il romanzo fosse stato incominciato proprio nel marzo del 1821, così avrebbe risposto: « Sì; per togliermi al dispiacere della fallita Impresa [quella celebrata nell’ode <hi rend="italic">Soffermàti sull’arida sponda</hi>], sono andato a passare alcuni giorni a <placeName>Brusuglio</placeName>, portando meco le storie milanesi del <persName type="author">Ripamonti</persName> e le opere economico-politiche del <persName type="author">Gioia</persName>... Trovati nel <persName type="author">Ripamonti</persName> quegli strani personaggi della Signora di Monza<persName/>
+                , dell’<persName>Innominato</persName>, del <persName>Cardinal Federico</persName> e la descrizione della carestia di <placeName>Milano</placeName>, del passaggio dei lanzichenecchi e della peste; e viste le gride governatori di Milano riportate nella sua opera dal <persName>Gioia</persName>, ho pensato: — Non si potrebbe inventare un fatto, a cui prendessero parte tutti questi personaggi ed in cui entrassero tutti questi avvenimenti ?E fu la <hi rend="italic">grida</hi> che il dottor Azzeccagarbugli fa veder a Renzo ed in cui si parla delle violenze che si facevano per impedire qualche matrimonio, quella che mi spinse ad inventare il fatto dei <title rend="italic">Promessi Sposi</title>. &gt;» (n. 161 sgg.).Possiamo, da questa dichiarazione del <persName type="author">Manzoni</persName>, arguire che i primissimi personaggi a sorgere nella sua fantasia, sono stati i due sposi, il signore prepotente, il curato debole e pauroso, il dottore Azzeccagarbugli.</note>
+                <note xml:id="Russo_cap3-n27" type="comm" target="quarantana/cap3.xml#c3_11819" targetEnd="quarantana/cap3.xml#c3_12229"><ref rend="bold">e fermandosi distintamente... non ci manca niente</ref>:  Tutta la pagina è documento dell’industriosa boria leguleia del dottore. Il discorso e la lettura della grida egli li conduce per sottolineare la gravità del caso, la propria competenza professionale, la sua capacità di distrigare le più arruffate matasse. Stringe fortemente le labbra, perdare solennità alla sue provvidenziale assistenza, ed esclama: <hi rend="italic">Caso serio, figliuolo caso contemplato.Avete fatto bene a venire da me</hi>. -Tiene poi la grida sciorinata in aria, e si ferma distintamente, con grande espressione, su alcuni punti. Quando c’è la rassegna di tutti i vari ordini di persone che possono commettere reati — <hi rend="italic">feudatarii, nobili, mediocri, vilì e plebei</hi> — assume un tono epico, e commenta: <hi rend="italic">Non se ne scappa. Ci sono tutti: è come la valle di Gio-safat</hi>. — Infine, dopo avere esemplificato le pene, come se stesse a lui a levarle e appiopparle, con la golosità dottrinaria del ciarlatano, conclude: <hi rend="italic">Ce n'è della roba, eh?</hi> — E, per far vanto di quel diploma prezioso nelle sue mani, indica a una a una le firme dei sottoscrittori: <hi rend="italic">non ci manca niente</hi>. È il linguaggio , sono i gesti di chi vende fumo al popolo incredulo e ignorante. Ma lo scrittore si vendica. Chi rimane scornato in ultima analisi è il saputo dottore, e chi lo smonta è l’ingenuo e illetterato montanaro.</note>
+                <note xml:id="Russo_cap3-n28" type="comm" target="quarantana/cap3.xml#c3_12384" targetEnd="quarantana/cap3.xml#c3_12393"><ref rend="bold">Le gride non erano state in silenzio su questa moda</ref>:  La genesi storica del romanzo giustifica quest’ altra digressioncella documentaria. Nella prima redazione del romanzo, i documenti storici erano anche più abbondanti.La stessa prosa <hi rend="italic">dell’Introduzione</hi>, attribuita all’ Anonimo, non è semplicemente dovuta a malizia d’ artista, che vuole giuocare col doppione di sè stesso,ma anche al gusto del documento e dello stile storico. Talvolta si ha l’impressione che queste digressioni stori-che distraggano, ma anch’esse esprimono a loro modo una particolare poesia,una poesia più ricercata, quella dell’erudizione. E il <persName type="author">Manzoni</persName> scrive per le migliaia di lettori semplici e umani, ma anche per almeno « venticinque lettori » di quelli dotti e saputi. Ma si noti poi come l'erudizione del <persName type="author">Manzoni </persName>sappia ben finire in quel tono discreto e familiare, che ne dissipa ogni pedanteria e ne discaccia ceni vanità: il ricordo dello storico <hi rend="italic">ciuffo </hi>dei bravi concluderà all’illustrazione di una parola, di una metafora sempre viva nel dialetto milanese: <hi rend="italic">è un ciuffo,è un ciuffetto</hi>, per dire di un ragazzo birichino. E qui i « venticinque lettori » dotti e saputi sono lasciati garbatamente da parte, e il <persName type="author">Manzoni</persName> riprende più volentieri il suo viaggio con quegli altri che vanno in piccioletta barca. In questo sapersi interrompere al momento giusto,in questo suo gusto signorile del tono medio e popolare, non è l’ultima ragione della grazia e civetteria artistica di coteste sue digressioni erudite.</note>
+                <note xml:id="Russo_cap3-n29" type="comm" target="quarantana/cap3.xml#c3_12742" targetEnd="quarantana/cap3.xml#c3_12747"><ref rend="bold">all'avvocato bisogna raccontar le cose chiare</ref>:  Qui <persName>Azzeccagarbugli</persName> comincia a svelare, un po’ balordamente,tutti i vili segreti, i meschini ripieghi dell’arte sua di leguleio. Più giù ancora dirà che <bibl>«a saper bene maneggiare le gride, nessuno è reo, nessuno è innocente »</bibl>. Scoprirà ancora la sua venalità volete passarvela liscia, con quel <bibl>«Se volete passarvela liscia danari e sincerità »</bibl>, e infine rivelerà l’espediente ipocrita con cui egli sa accattare la protezione di un potente, senza accusarne la complicità. «<bibl> Gli dirò che vengo ad implorar la sua protezione, per un povero giovine calunniato </bibl>&gt;. Queste dichiarazioni e confidenze del dottore, nascondono una reticente ferocia satirica dello scrittore, e che sarà rivelata dallo sviluppo del colloquio. Quando verrà in chiaro che <persName>Renzo</persName> non è quel briccone che il dottor crede, e che anzi è soltanto una vittima e non un aggressore, <persName>Azzeccagarbugli</persName> si troverà ad aver messo in pubblico i segreti del suo mestiere, proprio senza costrutto alcuno. Il <persName type="author">Manzoni</persName> non poteva essere più feroce in questo tono caustico, apparentemente leggero, di tutta la rappresentazione.</note>
+                <note xml:id="Russo_cap3-n30" type="comm" target="quarantana/cap3.xml#c3_13101" targetEnd="quarantana/cap3.xml#c3_13106"><ref rend="bold">Oh! signor dottore, come l’ha intesa?</ref>:  l’è proprio tutta al rovescio. Le parole di <persName>Renzo</persName> sono di una comicità irresistibile nella forma un po’ trasognata con cui sono dette, come di chi si risovviene meglio. E l’eloquenza del dottore non poteva essere peggio irrisa per quel solennissimo equivoco in cui egli è caduto. — Il <persName type="author">Manzoni</persName> è un po’ sempre feroce con i dotti, nel suo romanzo. Cfr. La n. 128 del c. II. Ma se pure indulge a don <persName>Ferrante</persName>, che, come tutti gli eruditi umbratili, claustrali, ha qualcosa di innocente nelle sue manie, non perdona mai invece alla piccola cultura dei vari azzeccagarbugli, che è sempre complice delle iniquità, strumento di oppressione, incoraggiamento al servilismo. Cotesta satira dell’ erudizione proveniva al <persName type="author">Manzoni</persName> dalla sua educazione alla scuola degli Enciclopedisti francesi: l’ <bibl><title>Enciclopedia</title></bibl> battè contro il moto erudito del Sei e del Settecento, contro l’erudizione che è semplice menzogna, decoro autorevole, nullità superbiosa. Ma tale atteggiamento polemico nel <persName type="author">Manzoni</persName> è complicato dal suo rigorismo morale, e per lui un’ erudizione vuota è facilmente tratta a convertirsi in uno strumento di nequizia e di oppressione. Cfr. su questo argomento le belle pagine di <persName type="author">Eugenio Donandoni</persName>,<title rend="italic">La dottrina nei Promessi Sposi</title>, in <title rend="italic">Scritti e discorsi letterarî</title>, pp. 329-355.</note>
+                <note xml:id="Russo_cap3-n31" type="comm" target="quarantana/cap3.xml#c3_13171" targetEnd="quarantana/cap3.xml#c3_13174"><ref rend="bold">«Diavolo!» esclamò il dottore...</ref>:  Oltre il disappunto dell’oratore, che si sente troncata a mezzo la sua vanitosa eloquenza, c'è in questa uscita di <persName>Azzeccagarbugli</persName> la stizza per aver dato fondo a 1 suoi vergognosi espedienti professionali, a sproposito, e senza speranza di frutto per giunta.</note>
+                <note xml:id="Russo_cap3-n32" type="comm" target="quarantana/cap3.xml#c3_13390" targetEnd="quarantana/cap3.xml#c3_13399"><ref rend="bold">E se le andava stropicciando, come se le lavesse davvero</ref>:  Quest'ultima battuta svela il dottore nella sua viltà più segreta: la paura dei potenti.Quell’andarsi stropicciando le mani, co me le lavasse davvero, è un gesto che lo definisce in un comico feroce. È una specie di Pilato in commedia. <hi rend="italic">La vil sicurtade</hi>, di cui il <persName type="author">Manzoni</persName>, con intuito psicologico, aveva parlato nell’inno <hi rend="italic">La Passione</hi>, lasciando la rigidità astratta della definizione, qui è diventata un animato bozzetto realistico. Quella dell’<persName>Azzeccagarbugli</persName> è la psicologia più vicina a don <persName>Abbondio</persName>; il pauroso si è tramutato in un diplomatico servitore dei potenti, e nel servitore, e sia pure alla lontana, senti l'egoismo fisiologico del beone e del parassita. A sentire il nome di don <persName>Rodrigo</persName>, il dottore non soltanto aggrotta le ciglia, ma storce la bocca e aggrinza <hi rend="italic">il naso rosso</hi>;<hi rend="italic">quel naso rosso</hi> si risente la sua parte, forse per gratitudine e fedeltà ai buoni vini della tavola del calunniato protettore?</note>
+                <note xml:id="Russo_cap3-n33" type="comm" target="quarantana/cap3.xml#c3_13497" targetEnd="quarantana/cap3.xml#c3_13501"><ref rend="bold">con un’occhiata di compassione sprezzante</ref>:  Anche per la serva,<persName> Renzo</persName> è poco di buono. In un secolo di servile anarchia, non c’è posto per la semplicità dei galantuomini. E questo sarà un po’ sempre il destino del povero <persName>Renzo</persName>, che passa per birbone in casa del dottore, per un aggressore in casa di don <persName>Abbondio</persName>, la notte famosa degli imbrogli,e per sobillatore, malandrino, ladrone, ammazzasignori, nel tumulto di <placeName>Milan</placeName>o.Sono gli equivoci di cui restano vittime i galantuomini, quando la menzogna regola dall’alto, come nel Seicento manzoniano, il vivere sociale.</note>
+                <note xml:id="Russo_cap3-n34" type="comm" target="quarantana/cap3.xml#c3_13516" targetEnd="quarantana/cap3.xml#c3_13520"><ref rend="bold">ma il dottore fu inespugnabile</ref>:  Il rifiuto inesorabile del dottore è dettato dalla paura che l'accettazione del dono possa significare, alla lontana, una complicità, sia pure bonaria, una tacita tolleranza delle parole irose di ‘<persName>Renzo</persName> contro don <persName>Rodrigo</persName>
+                <persName>Azzeccagarbugli</persName> rispetta e teme il suo protettore ed anfitrione, non solo in <hi rend="italic ">corpore</hi> e in effigie,ma anche nella semplice memoria del nome.</note>
+                <note xml:id="Russo_cap3-n35" type="comm" target="quarantana/cap3.xml#c3_13608" targetEnd="quarantana/cap3.xml#c3_13616"><ref rend="bold">il padre Cristoforo era uomo non solo da consigliare</ref>:<persName>Agnese</persName>, donnetta di questo mondo, spera grandi effetti dai consigli del dottore; <persName>Lucia,</persName> creatura spirituale, confida invece in padre <persName>Cristoforo</persName>, il <bibl>« profeta disarmato »</bibl>.
+                </note>
+                <note xml:id="Russo_cap3-n36" type="comm" target="quarantana/cap3.xml#c3_13737" targetEnd="quarantana/cap3.xml#c3_13741"><ref rend="bold">tenendone l’imboccatura attortigliata e stretta</ref>:<bibl>« Questi particolari della bisaccia e del modo di tenerla sembrano a noi una delle solite minuzie del <persName>Manzoni</persName>. » 
+                </bibl> (RIGUTINI-MESTICA). Minuzia? Ma quella figurazione esterna di fra<persName> Galdino</persName> non solo è una bella <hi rend="italic"> macchia</hi>, ma è anche un primo annunzio della psicologia del personaggio.È l’uomo dappoco, che non ha altri ideali per il capo, se non le sue noci o la sua bisaccia, la cui imboccatura egli attorcigliata e stretta con tutte due le mani (si badi) sul petto. E il suo non è nemmeno un grosso peso. È l'egoîsmo del <bibl>« convento »</bibl>, di una classe,di un ordine, che è diventato natura pacifica e inconsapevole in un suo rappresentante. Fra <persName>Galdino</persName>, in seguito, avrà appena scambiato un saluto di religione,che si affretta a dire:<bibl> « Vengo alla cerca delle noci. »</bibl>. Non ce ne sarebbe bisogno, tutti lo sanno che è il frate cercatore e la bisaccia parla per lui; ma, come l'egoismo dei fanciulli, anche questo di fra<persName> Galdino</persName> non perde tempo per dichiarare le sue generalità. Più giù si dirà ancora che egli <bibl>« rimaneva diritto nella medesima positura»</bibl>; buona regola di cercatore, ma anche egoismo ottuso, ed armato. Finchè non sarà decisa l'elemosina, fra Galdino rimane <bibl>«come statua d’ottono »,</bibl> per dirla con un antico.</note>
+                <note xml:id="Russo_cap3-n37" type="comm" target="quarantana/cap3.xml#c3_13814" targetEnd="quarantana/cap3.xml#c3_13823"><ref rend="bold">con tenerezza, con supplicazione, e anche con una certa autorità</ref>:  La tenerezza va innanzi a tutto e deve smuovere l'animo di <persName>Agnese</persName>, perchè la supplica e il cenno di imperio abbiano effetto. L'autorità di <persName>Lucia</persName> nasce poi dalla sua stessa discrezione; però essa può comandare alla madre, che, per le sue abitudini ciarliere e per quel certo lassimo di pudore che i più vecchi, nelle cose intime, hanno in confronto ai vani giovani, scade naturalmente davanti alla figliuola. Ma il comando di <persName>Lucia</persName> come esce temperato da tenerezza e sottomissione.</note>
+                <note xml:id="Russo_cap3-n38" type="comm" target="quarantana/cap3.xml#c3_13826" targetEnd="quarantana/cap3.xml#c3_13830"><ref rend="bold">sbirciando Agnese così da lontano</ref>: . Ora fra <persName>Galdino</persName> è sicuro delle noci e può pensare ad altro, e quella sua sbirciatina ad Agnese segna l'interno passaggio delle sue preoccupazioni, da quelle della cerca a queste più leggere della ciarla e del pettegolezzo.</note>
+                <note xml:id="Russo_cap3-n39" type="comm" target="quarantana/cap3.xml#c3_13853" targetEnd="quarantana/cap3.xml#c3_13854"><ref rend="bold">Cos'è stato?</ref>:  Alla semplicità e furberia insieme, alla ignoranza e malizia in fra <persName>Galdino</persName> è congiunta sempre questa vena di curiosità un po’ indiscreta.</note>
+                <note xml:id="Russo_cap3-n40" type="comm" target="quarantana/cap3.xml#c3_13908" targetEnd="quarantana/cap3.xml#c3_13915"><ref rend="bold">e la fece saltar tra le due mani</ref>:  C'è avarizia, malizia e avidità in cotesto gesto, ma sublimate in un ideale. L’avara e furbesca ma poetica povertà è ancora nelle parole: <bibl>« bella abbondanza »,«ho dovuto picchiare a dieci porte»</bibl>.
+                </note>
+                <note xml:id="Russo_cap3-n41" type="comm" target="quarantana/cap3.xml#c3_13961" targetEnd="quarantana/cap3.xml#c3_13966"><ref rend="bold">Che rimedio c’è, la mia donna? L’elemosina</ref>:  Questa dell’elemosina è il canone, è la filosofia, il domma di fra Galdino: <bibl>« Noi viviamo della carità di tutto il mondo, ed è giusto che serviamo tutto il mondo»</bibl> dirà al cap.XVIII. E il suo domma viene fuori,alla scoperta, a ogni momento, con quella semplicità e grossolanità propria degli uomini che hanno poche e immutabili idee. Da ciò, quella sua sollecitudine a spifferare il miracolo delle noci, come farebbe un ragazzo della sua lezione bene appresa.</note>
+                <note xml:id="Russo_cap3-n42" type="comm" target="quarantana/cap3.xml#c3_13987" targetEnd="quarantana/cap3.xml#c3_13989"><ref rend="bold">raccontatemelo un poco</ref>:  «Forse <persName>Agnese</persName> gliel'aveva sentito raccontare chi sa quante volte;ma come sopra per <hi rend="hitalic">mutar discorso</hi> gli ha domandato della cerca, così qui gli lascia raccontare il miracolo perchè non torni a far domande inopportune. <hi rend="hitalic">L'occhiata</hi> di <persName>Lucia</persName> ha fatto effetto. &gt; (<persName type="author">PISTELLI</persName>)
+                </note>
+                <note xml:id="Russo_cap3-n43" type="comm" target="quarantana/cap3.xml#c3_14007" targetEnd="quarantana/cap3.xml#c3_14012"><ref rend="bold">e si chiamava il padre Macario</ref>:<persName>Macario</persName> è un bel nome per un autore di miracoli. Due Macarii la Chiesa annovera fra i discepoli di <persName>sant'Antonio Abbate</persName>,<persName>Macario</persName> l'<placeName>Egizio</placeName> e<persName> Macario l'Alessandrino</persName>. Di entrambi, leggendari riferiscono numerosi miracoli. Il racconto poi di <persName>fra Galdino</persName> è un miscuglio di semplicità ed elementarità popolaresca, e insieme di candido utilitarismo « cattolico » l’economismo gretto, quotidiano, positivo, sì vuole sublimare in fede religiosa, e l'ingenuità è tanta che il frate vi riesce senza sforzo e senza menzogna. Però l’arguzia manzoniana serpeggia sottile e guizzante, là dove cotesto innocente utilitarismo sì fa più scoperto.</note>
+                <note xml:id="Russo_cap3-n44" type="comm" target="quarantana/cap3.xml#c3_14026" targetEnd="quarantana/cap3.xml#c3_14029"><ref rend="bold">uomo dabbene anche lui</ref>:  Uomo dabbene, brav'uomo, perchè amico e benefattore del convento; mentre il figlio è di stampa ben diversa, è uno <hi rend="hitalic">scapestratp</hi> un gozzovigliatore, perchè non vuol credere « che i cappuccini sapessero far noci. ». Il semplicismo utilitario del frate potrebbe essere più patente? Ma il <persName type="author">M.</persName> ha una grande arte di nascondere nelle” pieghe del linguaggio questo pur franco utilitarismo giudiziario del frate,insistervi polemicamente.</note>
+                <note xml:id="Russo_cap3-n45" type="comm" target="quarantana/cap3.xml#c3_14230" targetEnd="quarantana/cap3.xml#c3_14235"><ref rend="bold">la metà ch’era dovuta al convento</ref>:<persName>Fra Galdino</persName>, e per lui il convento, si sente già, in buona regola, creditore. Si badi che tutto il discorso del frate è intessuto di queste battute di avara povertà»: egli non parla che di benefattori del convento, in principio e alla fine del racconto; si esalta per quel gran noce che «farà più noci che foglie », e poi lo vede, a primavera, è non certo per pura ginia geargica, <hi rend="hitalic">carico di fiori a bizzeffa</hi> e, a «un tempo, carico di noci a bizzeffe. Quando avverrà poi il miracolo alla rovescia, delle noci tramutate in un bel mucchio di foglie secche,e <persName>Fra Galdino</persName> sì affretta ad osservare chesil convento, invece di scapitare, ci guadagnò. », e, dopo un così gran fatto, la cerca delle noci non ci rendeva tanto, tanto, che un benefattore, mosso a compassione del povero cercatore,fece al convento la carità d'un asino, che alutasse a portar le noci a casa &gt;. Una vera e candida epopea dell'utile sotto la specie della religione: pare che, del suo convento, <persName>fra Galdino</persName> sia particolarmente entusiasta della dispensa e del refettorio! Ma se il <persName type="author">M.</persName> sì fosse ristretto questo, ci avrebbe dato un ritratto volteriano giacobino del nostro frate,invecesi badi lla chiusa: « Noi siam come il mare[....]». Nell'immagine grandiosa, l'egoismo conventuale di <persName>fra Galdino</persName> si allarga, si disperde, e si tramuta in un senso epico della universalità della carità cristiana. Sparisce il convento, e c'è la casa di Dio che è la casa di tutti; e a tale affermazione si giunge senza enfasi, ma piano piano, con quell'ottusa equalità che è la caratteristica del nostro frate novellatore, sia che parli di benefizi al convento 0 di miracoli o di alte regole di vita. Si veda l'interpretazione che di <persName>fra Galdino</persName> ha dato il D'Ovidio, e che a me pare troppo negativa e polemica <bibl>(Le correzioni ai Promessi Sposi, pp. 258-262).</bibl>
+                </note>
+                <note xml:id="Russo_cap3-n46" type="comm" target="quarantana/cap3.xml#c3_14250" targetEnd="quarantana/cap3.xml#c3_14260"><ref rend="bold">non aveva mai sentito dire che i cappuccini sapessero far noci</ref>:  C'era ùna punta di volterianesimo nella frase sia pure corretta dall'ingenuità e dall’ antitetica fede di colui che parla;ma <persName type="author">M.</persName>, pur facendola rinnegare dal suo frate, ha dato una nuova prova di spregiudicatezza, arguteggiando per un momento su quella felice attitudine dei cappuccini a saper «far noci».</note>
+                <note xml:id="Russo_cap3-n47" type="comm" target="quarantana/cap3.xml#c3_14384" targetEnd="quarantana/cap3.xml#c3_14391"><ref rend="bold">che aiutasse a portar le noci a casa</ref>:  Avverti il guizzo di malizia di quell'aiutasse; non dice semplicemente portava, sicchè l'asino non era il solo a portare. Si ripensa al verso dantesco<bibl>« si che due bestie van sotto una pelle» (Par. XXI, 134),</bibl> ma soltanto per contrapporre al violento sarcasmo di <persName type="author">Dante</persName> l'arguzia velata e temperatissima del <persName type="author">Manzoni.</persName>
+                </note>
+                <note xml:id="Russo_cap3-n48" type="comm" target="quarantana/cap3.xml#c3_14500" targetEnd="quarantana/cap3.xml#c3_14508"><ref rend="bold">proruppe in elogi, in augùri, in promesse, in ringraziamenti</ref>:  Ormai <persName>fra Galdino</persName> non è più il protagonista della scena; il colloquio più interessante è quello che si svolge muto, tra madre e figliuola. Però opportunamente qui il <persName type="author">M.</persName> è più sbrigativo, e riepiloga indirettamente le parole del fratePieno di malizia, al solito, quel verbo proruppe, che indica l'esplosione dell'avidità soddisfatta, e quell’accavallarsi di sostantivi, elogi, auguri, ecc…, che indica bene la pletorica gratitudine del fraticello, serafico dell’avarizia.</note>
+                <note xml:id="Russo_cap3-n49" type="comm" target="quarantana/cap3.xml#c3_14651" targetEnd="quarantana/cap3.xml#c3_14654"><ref rend="bold">la condizione de’ cappuccini</ref>:  Il <persName type="author">Manzoni</persName>, discorrendo un giorno col <persName type="author">Bonghi</persName>, avrebbe detto: <bibl>« M’hanno chi lodato, chi rimproverato d’aver voluto rimettere in onore i cappuccini. Non ci ho neppure pensato. Gli ho messi così nel mio romanzo, perchè mi son parsi una forza viva e attiva in quei tempi.Ora, non gli credo più utili alla religione. »</bibl> (<persName type="author">F. D’Ovidio</persName>,<bibl><title rend="italic">I pensieri ‘inediti del Bonghi in    Rimpianti</title></bibl>,<placeName>Palermo</placeName>,Sandron, 1903, p. 79). Si osservi poiche, mentre il <persName type="author">Manzoni</persName> loda sempre i cappuccini, non fiata mai dei gesuiti, che pure in quel secolo erano i nuovi « dragoni » della Chiesa. L’educazione gesuitica è, se mai, sordamente satireggiata nei sentimenti e nella vessatoria politica paternale del principe-padre. Si noti poi ancora come i cappuccini, pur lodati, siano presentati assai realisticamente, quali sogetti di <hi rend="italic">venerazione e di vilipendio</hi> al tempo stesso, e la figura ideale e aureo” E la figura ideale e aureolata di fra <persName>Cristoforo</persName> è intanto preceduta da quella mediocre e goffa di fra <persName>Galdino</persName>. Segno di quella discrezione propria del <persName type="author">Manzoni</persName>, che vide sempre, per dirla con una frase del <persName type="author">De Sanctis,</persName> l'ideale calato nel reale.</note>
+                <note xml:id="Russo_cap3-n50" type="comm" target="quarantana/cap3.xml#c3_14881" targetEnd="quarantana/cap3.xml#c3_14888"><ref rend="bold">con le ciarle che avrebbe fatte e sentite</ref>:  Vedi la n. 364.</note>
+                <note xml:id="Russo_cap3-n51" type="comm" target="quarantana/cap3.xml#c3_14961" targetEnd="quarantana/cap3.xml#c3_14966"><ref rend="bold">e fu questa l’ultima trista vicenda</ref>:  Vedi la n. 97. I perseguitati sono, alla loro volta, tormentatori di altre vittime. Così <persName>Renzo</persName> e i suoi capponi.</note>
+                <note xml:id="Russo_cap3-n52" type="comm" target="quarantana/cap3.xml#c3_15100" targetEnd="quarantana/cap3.xml#c3_15108"><ref rend="bold">di quelli che noi poveretti non sappiam nemmeno immaginare</ref>:  E <persName> Agnese</persName> aveva detto di <persName>Azzeccagarbugli</persName>:<bibl>« Vi dirà, su due piedi, di quelle coseche a noi non verrebbero in testa, a pensarci un anno. »</bibl>. Ma la frase di<persName> Lucia</persName> è più intrisa di umiltà, e meno fa pensare all’ingegno di qualche trovata.</note>
+                <note xml:id="Russo_cap3-n53" type="comm" target="quarantana/cap3.xml#c3_15123" targetEnd="quarantana/cap3.xml#c3_15222"><ref rend="bold">«A questo mondo c’è giustizia, finalmente»... non sa più quel che si dica</ref>:  Chiusa epigrammatica, che ci svela il pessimismo del<persName rend="bold"> Manzoni</persName> sulla giustizia umana: c’è una sola giustizia, ed è quella di <persName>Dio</persName>. Vedi la n. 129-30. Si potrebbe definire il <persName type="author">Manzoni</persName> come il poeta della giustizia, il poeta satirico della giustizia iniqua di questo mondo, e i cui mali è solo possibile trascendere, abbandonandosi all'alta gioia che ci viene dal cielo, a quella pace interna, che gli uomini possono irridere, ma non possono rapire. Dal <title rend="italic">Carmagnola</title> al romanzo, l'ispirazione della giustizia è sempre viva e fondamentale nel nostro scrittore. Anche la <title rend="italic">Storia della colonna infame </title>sarà un’illustrazione di' quel che possa valere la giustizia di questo mondo.</note>
+            </div>
+</body>
+</text>
+</TEI>

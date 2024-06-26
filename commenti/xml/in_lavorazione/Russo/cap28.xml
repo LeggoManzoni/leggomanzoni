@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap28">
+                <note xml:id="Russo_cap28-n1" type="comm" target="quarantana/cap28.xml#c28_10044" targetEnd="quarantana/cap28.xml#c28_10045"><ref rend="bold">S'erano addati</ref>:  Adoperati. Quell'addati potrebbe apparire antiquato e pedantesco, ma, invero, la peregrinità dell’espressione vorrebbe conferire una sfumatura burlevole al discorso.</note>
+                <note xml:id="Russo_cap28-n2" type="comm" target="quarantana/cap28.xml#c28_10142"><ref rend="bold">Fattizia</ref>: Artificiosa. Il fattizia esprime assai meglio del fittizia, che alcuni chiosatori qui avrebbero voluto, la idea dell’esser fatta, procurata, sostenuta dal governo. Né si dica che sia un francesismo.</note>
+                <note xml:id="Russo_cap28-n3" type="comm" target="quarantana/cap28.xml#c28_10147" targetEnd="quarantana/cap28.xml#c28_10149"><ref rend="bold">Dalla prima tariffa</ref>:  Vedi al capitolo XII, p. 235, e vedi, in proposito, le nn. 67, 70, 79-80.</note>
+                <note xml:id="Russo_cap28-n4" type="comm" target="quarantana/cap28.xml#c28_10324" targetEnd="quarantana/cap28.xml#c28_10330"><ref rend="bold">Chi sa immaginarsi una grida tale eseguita</ref>:  Il M. esaspera fino all’assurdo l’arbitrarietà degli ordini di Ferrer: nessuno, granaglie o farine in casa, e le botteghe, sempre ben fornite di pane. In verità, dal punto di vista formale, non c’era contraddizione tra i due ordini; ma l’illuminista, il volterriano e insieme giansenista Manzoni non dà mai tregua ai suoi personaggi d’autorità. Le azioni dei politici sono sempre per lui una sequela di errori: atteggiamento schiettamente antistorico, ma che pur fa la forza dell’ironista, del moralista.</note>
+                <note xml:id="Russo_cap28-n5" type="comm" target="quarantana/cap28.xml#c28_10353" targetEnd="quarantana/cap28.xml#c28_10359"><ref rend="bold">Doveva avere almeno tanta gente in mare</ref>:  I condannati alla galera erano mandati sulle navi al lavoro faticoso dei remi. Però Milano avrebbe dovuto avere una bella flotta di navi, quanto la Gran Bretagna, per potervi allogare tutti i contravventori alle grida di Sua Eccellenza. Maniera iperbolica di dire, per significare che nessuno eseguiva, perchè non potevano eseguirli, quegli ordini assurdi.</note>
+                <note xml:id="Russo_cap28-n6" type="comm" target="quarantana/cap28.xml#c28_10425" targetEnd="quarantana/cap28.xml#c28_10429"><ref rend="bold">Del pane detto di mistura</ref>:  Fatto, cioè, di grano, d’orzo, di segala.</note>
+                <note xml:id="Russo_cap28-n7" type="comm" target="quarantana/cap28.xml#c28_10449" targetEnd="quarantana/cap28.xml#c28_10451"><ref rend="bold">Del riso vestito</ref>: Non brillato. Il riso, prima di essere spogliato della sua veste, dal brillatoio, si dice, per l’appunto, vestito.</note>
+                <note xml:id="Russo_cap28-n8" type="comm" target="quarantana/cap28.xml#c28_10487" targetEnd="quarantana/cap28.xml#c28_10493"><ref rend="bold">È... la più onesta</ref>:  Ironico.</note>
+                <note xml:id="Russo_cap28-n9" type="comm" target="quarantana/cap28.xml#c28_10508" targetEnd="quarantana/cap28.xml#c28_10513"><ref rend="bold">Il carico di supplire all'enorme differenza</ref>:  Nei momenti di economia regolata, il Governo o la municipalità interviene, sostenendo artificiosamente il valore delle derrate, di una industria o altro. Qui il M. particolarmente vorrebbe far rilevare che tale «carico di supplire all’enorme differenza» era stato imposto alla città di Milano, mentre sarebbe stato più opportuno e più equo che tale peso fosse stato assunto dal Governo spagnuolo.</note>
+                <note xml:id="Russo_cap28-n10" type="comm" target="quarantana/cap28.xml#c28_10546" targetEnd="quarantana/cap28.xml#c28_10559"><ref rend="bold">E il governatore... fissò il prezzo del riso</ref>:  Il M. insiste volentieri sul mancamento cronico delle autorità spagnuole, in tutte queste faccende: prima il governatore rimedia alle difficoltà del mercato, addossando il carico del falso prezzo alla città; poi, venuto meno il sussidio della città, rovescia il peso sulle spalle dei possessori di riso. Sul semplicismo di questo giudizio politico del M., si veda F. Nicolini, op. cit., p. 183 e sgg.</note>
+                <note xml:id="Russo_cap28-n11" type="comm" target="quarantana/cap28.xml#c28_10630" targetEnd="quarantana/cap28.xml#c28_10633"><ref rend="bold">Celeberrima negli annali moderni</ref>:  Ai tempi del Manzoni, e prima di lui, si era lungamente discusso sul commercio dei grani (si pensi agli scritti dell’abate Galiani); e la parola maximum, oggi di larghissimo uso, era diventata celeberrima in quell’occasione.</note>
+                <note xml:id="Russo_cap28-n12" type="comm" target="quarantana/cap28.xml#c28_10682" targetEnd="quarantana/cap28.xml#c28_10689"><ref rend="bold">Per riparare a questo, come dice lui, inconveniente</ref>:  L’ironia sta in questo: che a don Gonzalo appaia semplicemente un inconveniente quello che era una conseguenza fatale dei suoi arbitrarii e parziali provvedimenti.</note>
+                <note xml:id="Russo_cap28-n13" type="comm" target="quarantana/cap28.xml#c28_10746" targetEnd="quarantana/cap28.xml#c28_10752"><ref rend="bold">(E non si vede perchè così tardi)</ref>:  È sempre perseguita questa disorganicità e saltuarietà dei provvedimenti del governatorato spagnuolo: ciò che indica, agli occhi del M., o insipienza o indifferenza in don Gonzalo.</note>
+                <note xml:id="Russo_cap28-n14" type="comm" target="quarantana/cap28.xml#c28_10787" targetEnd="quarantana/cap28.xml#c28_10792"><ref rend="bold">I mezzi erano convenienti tra loro</ref>:  Si corrispondevano tra di loro: al saccheggio e all’incendio corrispondevano la galera e la corda.</note>
+                <note xml:id="Russo_cap28-n15" type="comm" target="quarantana/cap28.xml#c28_10835" targetEnd="quarantana/cap28.xml#c28_10839"><ref rend="bold">Era una conseguenza inevitabile dell'antecedente</ref>:  Gli errori, per il M., sono sempre a catena: anche in questo, senti la visione inclemente dell’illuminista.</note>
+                <note xml:id="Russo_cap28-n16" type="comm" target="quarantana/cap28.xml#c28_10969" targetEnd="quarantana/cap28.xml#c28_10975"><ref rend="bold">La più clamorosa e la più notabile</ref>:  La rivoluzione francese.</note>
+                <note xml:id="Russo_cap28-n17" type="comm" target="quarantana/cap28.xml#c28_11009" targetEnd="quarantana/cap28.xml#c28_11018"><ref rend="bold">Ad onta de' tempi tanto cambiati... cognizioni cresciute</ref>:  Non potrebbe il M. dichiarare più aperta la sua filosofia illuministica: le cognizioni cresciute, i lumi, dovrebbero dissipare gli inconvenienti e gli errori (concezione astratta-mente intellettualistica dello svolgersi della storia), e se gli inconvenienti e gli errori si ripeterono, nella Rivoluzione francese e in un paese colto come la Francia, gli è perchè quelle cognizioni «non erano arrivate» alla gran massa popolare. Ma non si tratta di semplici cognizioni, ma di passioni e di educazione politica in atto, da rinnovare perpetuamente.</note>
+                <note xml:id="Russo_cap28-n18" type="comm" target="quarantana/cap28.xml#c28_11120" targetEnd="quarantana/cap28.xml#c28_11121"><ref rend="bold">Quattro disgraziati</ref>:  I quali, probabilmente, erano innocenti come Renzo; e però son detti disgraziati.</note>
+                <note xml:id="Russo_cap28-n19" type="comm" target="quarantana/cap28.xml#c28_11193" targetEnd="quarantana/cap28.xml#c28_11201"><ref rend="bold">Poco prima o poco dopo il 24 di dicembre</ref>:  Ecco, in uno specchietto, la successione degli avvenimenti raccontati dal M. in questo capitolo: 15 novembre, grida firmata da Ferrer (vedi 11. 20-21); giorno posteriore al 15 e anteriore al 23 novembre, arrivo di don Gonzalo in Milano (vedi al cap. XXVII, 1. 72) e colloquio col residente di Venezia; 23 novembre, grida relativa al risone (vedi 11. 40-42); 23 novembre, denunzia del Consiglio de’ decurioni sul l’impossibilità di sostenere il falso prezzo (vedi 11. 49-51); 7 dicembre, grida che fissa il prezzo del riso a lire dodici il moggio (11. 51-52); 15 dicembre, altra grida che vieta il portar pane fuori della città, per più del valore di venti soldi (11. 65-66); 22 dicembre, ordine analogo per le farine e i grani (11. 69-71); 24 dicembre, revoca della tariffa violenta fissata durante il tumulto.</note>
+                <note xml:id="Russo_cap28-n20" type="comm" target="quarantana/cap28.xml#c28_11280" targetEnd="quarantana/cap28.xml#c28_11286"><ref rend="bold">A notarne le cagioni e il progresso</ref>:  Satira contro gli storici, che vicini a quegli altri che vengono «imbalsamando co’ loro inchiostri le Imprese de’ Prencipi e Potentati, e qualificati Personaggi», trascurano di intendere le ragioni intime degli avvenimenti.</note>
+                <note xml:id="Russo_cap28-n21" type="comm" target="quarantana/cap28.xml#c28_11392" targetEnd="quarantana/cap28.xml#c28_11399"><ref rend="bold">Ed ecco la copia di quel ritratto doloroso</ref>:  E qui ricomincia a respirare la grande arte manzoniana. Finora abbiamo avuto una minuta illustrazione storica, e fatta con un’angusta intransigenza di illuminista. «Il Manzoni, — scrive il Nicolini, op. cit., p. 183 —, come, del resto, i letterati che vivono fuori dalla politica e dall’amministrazione, non aveva una comprensione esatta delle difficoltà concrete, di fronte a cui si sono trovati, si trovano e si troveranno, in tutti i tempi e in tutti i luoghi, gli uomini di qualsiasi governo.». Se il M. derideva gli storici, «inclinati a descriver grand’avvenimenti», non si può dire che, da parte sua, egli sapesse essere storico sovrano ed equo delle «cagioni e il progresso» di quegli avvenimenti.</note>
+                <note xml:id="Russo_cap28-n22" type="comm" target="quarantana/cap28.xml#c28_11400" targetEnd="quarantana/cap28.xml#c28_11404"><ref rend="bold">A ogni passo, botteghe chiuse</ref>:  Sono messe da parte, in quasi tutta la pagina, le costruzioni verbali regolari, per dar prevalenza ai participi assoluti o ad altre costruzioni analogamente assolute. Ciò che conferisce un immediatezza descrittiva più viva e una solennità tragica, in quella processione quasi funebre di periodi.</note>
+                <note xml:id="Russo_cap28-n23" type="comm" target="quarantana/cap28.xml#c28_11437" targetEnd="quarantana/cap28.xml#c28_11441"><ref rend="bold">Perduti in una nuova moltitudine</ref>:  Si ricorderà che al cap. IV «ogni tanto, s’incontravano mendichi laceri o macilenti, o invecchiati nel mestiere, o spinti allora dalla necessità a tender la mano», e, al cap. XVII, quei tre poverini, due donne e un uomo, che tutti e tre stendono la mano «verso colui che usciva col passo franco, e con l’aspetto rianimato.»: Renzo. Quei primi accenni hanno già preparato gli accordi di questa ampia e tragica visione della carestia.</note>
+                <note xml:id="Russo_cap28-n24" type="comm" target="quarantana/cap28.xml#c28_11456" targetEnd="quarantana/cap28.xml#c28_11461"><ref rend="bold">Garzoni e giovani licenziati da padroni</ref>:  In questa descrizione era facile lasciarsi prendere la mano da note un po’ generiche, tragicamente assonanti; ma il Manzoni fa nascere questo suono di tragedia dai particolari realistici, assiepati l’uno accanto all’altro come in un rendiconto di cronaca. Garzoni e giovani licenziati da padroni, padroni stessi, operai, maestri d’ogni manifattura e d’ogni arte, sfilano le varie categorie sociali, l’una dopo l’altra, ciascuna col segno del suo disagio: la tragedia è nelle cose stesse, prima che nelle parole.</note>
+                <note xml:id="Russo_cap28-n25" type="comm" target="quarantana/cap28.xml#c28_11541" targetEnd="quarantana/cap28.xml#c28_11586"><ref rend="bold">Esitanti tra il bisogno... indizio d'abitudini operose e franche</ref>:  Il M. è stato sempre sapientissimo descrittore 'dell’umanità nel suo ambiguo svolgersi dall’antico al nuovo; si ricordino le note su fra Cristoforo e l’Innominato, e quelle del primo coro dell’Adelchi, dove, negli italiani, «dai guardi dubbiosi, dai pavidi volti, — qual raggio di sole da nuvoli folti, — traluce de’ padri la fiera virtù.». Anche qui si parla di una vergogna non ancor domata, dei panni logori e scarsi, che in molti serbavano ancora i segni d’un’antica agiatezza, e di un'indizio d’abitudini operose e franche, pur nell’inerzia e nell’avvilimento. Cfr. la n. 376, al cap. XXIII.</note>
+                <note xml:id="Russo_cap28-n26" type="comm" target="quarantana/cap28.xml#c28_11590"><ref rend="bold">Deplorabile</ref>:  Miserevole, compassionevole.</note>
+                <note xml:id="Russo_cap28-n27" type="comm" target="quarantana/cap28.xml#c28_11648" targetEnd="quarantana/cap28.xml#c28_11652"><ref rend="bold">Aggruppati co' loro antichi sostenitori</ref>:  Il quadro, segnato singolarmente da individui (garzoni, padroni, operai, ecc.), finisce in un coro: bambini, donne, vecchi, aggruppati co’ loro antichi sostenitori.</note>
+                <note xml:id="Russo_cap28-n28" type="comm" target="quarantana/cap28.xml#c28_11659" targetEnd="quarantana/cap28.xml#c28_11721"><ref rend="bold">C'eran pure... ne andavan chiedendo per carità</ref>:  Sebbene l’inflessione del periodo sia sempre dolorosa, pure le parole si staccano più crude: ciuffi arruffati, cenci sfarzosi, marchio, genia, pane scellerato. Il moralista e il castigatore religioso è presente nell’artista.</note>
+                <note xml:id="Russo_cap28-n29" type="comm" target="quarantana/cap28.xml#c28_11722" targetEnd="quarantana/cap28.xml#c28_11785"><ref rend="bold">Domati dalla fame... o traditrice a ferire</ref>:  Il domati dalla fame è nota tutta interna, che ci richiama allo stato d’animo di cotesti sciagurati, mentre spauriti, incantati sono le postille sensibili di quell’abbattimento; epiteti, questi ultimi, che esprimono mirabilmente lo stupore pauroso del viso, nell’inedia e nell’avvilimento. Osserva poi la distribuzione musicale delle note, quelle sull’avvilimento, gravi e sparute, in contrasto con la pomposa abbondanza delle altre, relative all’albagia d’un tempo (a testa alta, con Sguardo sospettoso e feroce ecc.). Ritmicamente, attillati, profumati, si richiamano agli altri due participi spauriti, incantati. Una corrispondenza da contrappasso dantesco ancora trovi in quella mano parata umilmente, di contro alla mano che si alzava un tempo insolente a minacciare, o traditrice a ferire. Tutto il paragrafo è uno (lei più intensi poeticamente, per questo pathos del castigo morale che vi incombe.</note>
+                <note xml:id="Russo_cap28-n30" type="comm" target="quarantana/cap28.xml#c28_11800" targetEnd="quarantana/cap28.xml#c28_11824"><ref rend="bold">Scompagnati... con vecchi dietro</ref>:  Come sopra (vedi la n. 156) si passa dalla rassegna dei singoli al coro di bambini, di donne, di vecchi, aggruppati co’ loro antichi sostenitori, così qui, non più rassegna storica, ma sfilata in visione passano i derelitti, prima scompagnati, poi a coppie, quindi a famiglie intere; © le famiglie intere, che, così annunziate, sarebbero soltanto un’espressione intellettuale, si coloriscono e si sciolgono in un numero pittorico: bambini in collo, o attaccati dietro le spalle, ragazzi per la mano, vecchi dietro.</note>
+                <note xml:id="Russo_cap28-n31" type="comm" target="quarantana/cap28.xml#c28_11833" targetEnd="quarantana/cap28.xml#c28_11834"><ref rend="bold">Dalla soldatesca</ref>:  Espressione più ostile e più impaziente, che non i semplici soldati.</note>
+                <note xml:id="Russo_cap28-n32" type="comm" target="quarantana/cap28.xml#c28_11855" targetEnd="quarantana/cap28.xml#c28_11860"><ref rend="bold">E come per distinzione di miseria</ref>:  Acutissimo rilievo psicologico: nella folla delle sciagure, si coltiva quasi la vanità o la pompa della sciagura più grande.</note>
+                <note xml:id="Russo_cap28-n33" type="comm" target="quarantana/cap28.xml#c28_11866" targetEnd="quarantana/cap28.xml#c28_11867"><ref rend="bold">Le margini</ref>:  Le cicatrici.</note>
+                <note xml:id="Russo_cap28-n34" type="comm" target="quarantana/cap28.xml#c28_11880" targetEnd="quarantana/cap28.xml#c28_11885"><ref rend="bold">Da una sfrenatezza cieca e brutale</ref>:  In tutto il periodo c’è pietà per quei fuggiaschi, ma, ancora più, sdegno per quella bella guerra, causa di tanti nuovi mali: case invase e spogliate, gente che fugge disperatamente, lividi e margini di colpi ricevuti, sfrenatezza cieca e brutale. Vi senti l’insofferenza del moralista cristiano, negatore di ogni guerra. Vedi la n. 9-10, al cap. XII.</note>
+                <note xml:id="Russo_cap28-n35" type="comm" target="quarantana/cap28.xml#c28_11921" targetEnd="quarantana/cap28.xml#c28_11924"><ref rend="bold">I bisogni della guerra</ref>:  L’espressione non è senza una sfumatura di amara ironia.</note>
+                <note xml:id="Russo_cap28-n36" type="comm" target="quarantana/cap28.xml#c28_11930" targetEnd="quarantana/cap28.xml#c28_11943"><ref rend="bold">Come a sede antica... di pia munificenza</ref>:  Sede antica di ricchezza. Di pia munificenza, a parte che per le varie istituzioni di beneficenza, per quello che vi compieva il cardinale Federigo, personalmente. E la fama ne andava per le campagne.</note>
+                <note xml:id="Russo_cap28-n37" type="comm" target="quarantana/cap28.xml#c28_11960" targetEnd="quarantana/cap28.xml#c28_11964"><ref rend="bold">Un fare maravigliato e indispettito</ref>:  Umanissimi sentimenti, colti con doloroso acume.</note>
+                <note xml:id="Russo_cap28-n38" type="comm" target="quarantana/cap28.xml#c28_11975" targetEnd="quarantana/cap28.xml#c28_11976"><ref rend="bold">Al termine</ref>:  Al luogo della loro meta: l’espressione è pregnante.</note>
+                <note xml:id="Russo_cap28-n39" type="comm" target="quarantana/cap28.xml#c28_12015" targetEnd="quarantana/cap28.xml#c28_12019"><ref rend="bold">O toccati come in sorte</ref>:  Ciò che indica la nessuna sistematicità di quei sussidi.</note>
+                <note xml:id="Russo_cap28-n40" type="comm" target="quarantana/cap28.xml#c28_12037" targetEnd="quarantana/cap28.xml#c28_12042"><ref rend="bold">Una più cupa e stanca costernazione</ref>:  C’è il consueto abbinamento di epiteti, cari all’arte manzoniana: cupa colorisce la spiritualità tragica di quella costernazione, stanca indica piuttosto lo spossamento fisico che le si accompagna. In una pagina, trovi: il più brutto e.... il più compassionevole spettacolo, invase e spogliate le case, una sfrenatezza cieca e brutale, andare incerto e aria nuova, maravigliato e indispettito, ecc. E più giù ancora trovi: facce affilate e stravolte, sguardi tra il torvo e l’insensato, lunghe e irsute le barbe, corpi cresciuti e indurati. Cfr. la n. 64-65, al cap. XXIII.</note>
+                <note xml:id="Russo_cap28-n41" type="comm" target="quarantana/cap28.xml#c28_12056" targetEnd="quarantana/cap28.xml#c28_12127"><ref rend="bold">Facce dilavate... ai cenci scomposti</ref>:  Trovi la distinzione realistica, cara al narratore che ti da quasi il ragguaglio fisionomico di quei forestieri, di pianura, di collina, di montagna; ma, subito dopo, scompaiono queste differenze, per dir così, nazionali (nazione = nascita, nella lingua antica), e l’artista trapassa alle note morali, che sono sempre la sua poesia piò. profonda. E c’è modo musicale sempre nuovo nel presentarle: una volta l’accento poggia sugli aggettivi e participii, affilate e stravolte, incavali, fissi, torvo e insensato, con un progresso dall’uno all’altro; poi l’arsi sale sui sostantivi, arruffati i capelli, lunghe e irsute le barbe; infine, si raggiunge una medietà di tono, equamente distribuita fra i vari membretti del periodo. La varietà del tono fa sì che ogni parola ha il suo accento e il suo rilievo, e la descrizione riesce come punteggiata da reticenti interiezioni.</note>
+                <note xml:id="Russo_cap28-n42" type="comm" target="quarantana/cap28.xml#c28_12153" targetEnd="quarantana/cap28.xml#c28_12158"><ref rend="bold">Nel sesso e nell'età più deboli</ref>:  Nelle donne e nei fanciulli. Avverti la posizione enfatica dell’espressione, su cui viene come ad abbandonarsi la gravità languida del periodo. Abbattuto, vinta, languore, sfinimento, abbandonato, deboli, sono tutte parole che indiano mancanze.</note>
+                <note xml:id="Russo_cap28-n43" type="comm" target="quarantana/cap28.xml#c28_12174" targetEnd="quarantana/cap28.xml#c28_12179"><ref rend="bold">Pesta, trita e mista d'immondo ciarpume</ref>:  Il pesta ci richiama allo scalpiccio dei piedi; il trita, alla consunzione di quella paglia per il lungo e diverso uso di giaciglio; ciarpume, infine, è più meschino di ciarpame.</note>
+                <note xml:id="Russo_cap28-n44" type="comm" target="quarantana/cap28.xml#c28_12252" targetEnd="quarantana/cap28.xml#c28_12256"><ref rend="bold">E rimaner cadavere sul selciato</ref>:  Nota la diversità delle clausole di ogni paragrafo in queste ultime due pagine. Sono tutti termini di mestizia, ma graduati progressivamente. Sono prima «bambini, donne, vecchi, aggruppati co’ loro antichi sostenitori, o dispersi in altre parti all’accatto»; poi ci sono quei bravi domati dalla fame, spauriti, incantati, che «paravano umilmente la mano, che tante volte avevano alzata insolente a minacciare, o traditrice a ferire», e questo spettacolo della ferocia e dell’albagia abbattuta già ha qualcosa di più triste di quella folla di deboli bisognosi. Poi non più gente che chiede, ma gente su cui si abbatte il languore e lo sfinimento, più forte «nel sesso e nell’età più deboli». E infine, «qualche volta quel tristo letto portava un cadavere», e qualche volta si vedeva uno, cadere e «rimaner cadavere sul selciato». La descrizione procede d’intensità tragica, come si vede, da un passo all’altro: un nuovo esempio di quell’armonia della prosa manzoniana (qui armonia tragica), che può sfuggire per la semplicità delle sue apparenze.</note>
+                <note xml:id="Russo_cap28-n45" type="comm" target="quarantana/cap28.xml#c28_12257" targetEnd="quarantana/cap28.xml#c28_12262"><ref rend="bold">Accanto a qualcheduno di que' covili</ref>:  Qui la descrizione dell’artista prende un’altra piega: quella della cronaca, e direi della cronaca agiografica, perchè in essa domina la figura del buon e idealistico Federigo, «una mano ricca di mezzi, e avvezza a beneficare in grande».</note>
+                <note xml:id="Russo_cap28-n46" type="comm" target="quarantana/cap28.xml#c28_12766" targetEnd="quarantana/cap28.xml#c28_12767"><ref rend="bold">Alessandro Tadino</ref>:  (m. nel 1661). Medico milanese, uno dei conservatori del Tribunale di Sanità durante la peste del 1630.</note>
+                <note xml:id="Russo_cap28-n47" type="comm" target="quarantana/cap28.xml#c28_13042" targetEnd="quarantana/cap28.xml#c28_13082"><ref rend="bold">Tutto il giorno, si sentiva... terminavano in istrida acute</ref>:  Periodo maraviglioso, che suggella tutti quei particolari un po’ triti, elencati piò innanzi per fedeltà alle cronache contemporanee. Ma è proprio vero che l’arte troppo intensa può giungere a un parossismo antiartistico (vedi per esempio alcune pagine dell’ultimo D’Annunzio, dove l’arte si converte in una forma di lucida pazzia verbale). Da ciò la necessità di certi riposi e digressioni e un abbandono a triti particolari; sembra che lì s’infiacchisca l’ispirazione dell’artista, mentre si tratta di un modo discreto di allentare la tensione del lettore. Poi l’arte riprende più vigorosa e come sostenuta internamente da quella folla di particolari cronachistici. Ma già, in mezzo a quel brulicame di notizie, suonava qua e là il lamento del poeta. «Per tutto si periva, da ogni parte s’accorreva alla città». «In cent’altre parti, altri cadevano, languivano o anche spiravano, senza aiuto, senza refrigerio».</note>
+                <note xml:id="Russo_cap28-n48" type="comm" target="quarantana/cap28.xml#c28_13214" targetEnd="quarantana/cap28.xml#c28_13253"><ref rend="bold">Ma noi uomini... avevamo chiamato insopportabile</ref>:  Sentenza degna di Machiavelli, e quasi distillata nello stampo di certe celebri massime del Segretario fiorentino. Il Tocqueville, in un frammento, pubblicato postumo, sulla Rivoluzione francese, di un’opera rimasta informe, osserva qualcosa di simile, per lo stato d’animo del popolo, prima sovversivo poi depresso: «Al principio, l’opinione pubblica è viva, vigile, intollerante, presuntuosa e mobile; al tramonto, essa è paziente e tetra. Pare che, dopo l’insofferenza di tutto, non si veda più alcun limite a quello che si può soffrire. Ma si diventa irreconciliabili nella stessa sommissione: ogni giorno il sentimento del malessere si accresce, il disprezzo si fa inveterato, l’odio s’inacerbisce nel seno dell’obbedienza. La nazione non ha più, come al principio della rivoluzione, la forza e l’energia di precipitare il suo governo nell’abisso, ma essa è unanime nel lasciarlo cadere. La Francia era in questo stato nel 1799. Essa disprezzava e detestava il suo governo, mentre gli ubbidiva». Il passo del Tocqueville dà rilievo a quel tanto di attivo, di tacitamente ribelle, di umanamente autonomo, che c’è pur nella sommissione depressa di un popolo; il M. invece, conforme alla sua logica più dolorosa e più pessimista di cristiano, scorge una stupida impotenza nella sopportazione che la folla ha per i suoi mali. Non si tratta di flagelli che vengono dagli uomini, ma di flagelli divini: gli uomini non possono dare nè togliere nulla agli altri uomini. È sempre Dio che giudica manda e governa. In questa stupidità della sofferenza, rilevata dal M., senti reticente un tratto di quel cristianesimo amaro e duro che rimase sempre al fondo della fede dello scrittore, anche nelle forme più serene della sua espressione. Ritorna l’immagine del misero figliol del fallo primo dell’inno II Natale, gravato all’imo d’ogni malor, donde il superbo collo più non può levar, quando non soccorra una virtude amica che lo tragga in alto.</note>
+                <note xml:id="Russo_cap28-n49" type="comm" target="quarantana/cap28.xml#c28_13353" targetEnd="quarantana/cap28.xml#c28_13382"><ref rend="bold">S'incontravano nell'opposto viaggio... gli altri erano incamminati</ref>:  È la figurazione più incisiva e tragica di questo paragrafo. Il M. sorpassa spesso la descrizione generica e complessiva della folla, e sente il bisogno di individuare: qui è segnata la fisonomia di queste due schiere opposte di pellegrini sinistri e disperati.</note>
+                <note xml:id="Russo_cap28-n50" type="comm" target="quarantana/cap28.xml#c28_13402" targetEnd="quarantana/cap28.xml#c28_13406"><ref rend="bold">Sotto un cielo divenuto odioso</ref>:  La metafora ha un accento, quasi, di dolorosa empietà.</note>
+                <note xml:id="Russo_cap28-n51" type="comm" target="quarantana/cap28.xml#c28_13523" targetEnd="quarantana/cap28.xml#c28_13529"><ref rend="bold">Quel contrapposto di gale e di cenci</ref>:  Frase che dà il colore secentesco. con il richiamo a quelle gale.</note>
+                <note xml:id="Russo_cap28-n52" type="comm" target="quarantana/cap28.xml#c28_13565" targetEnd="quarantana/cap28.xml#c28_13623"><ref rend="bold">Si vedevano i nobili... alla pubblica calamità</ref>:  Nota la corrispondenza ritmica fra i quattro aggettivi semplice e dimesso, o anche logoro e gretto, con le quattro proposizioni verbali che seguono: avevan mutata.... o dato il tracollo,... o che temessero,... o che si vergognassero.</note>
+                <note xml:id="Russo_cap28-n53" type="comm" target="quarantana/cap28.xml#c28_13624" targetEnd="quarantana/cap28.xml#c28_13653"><ref rend="bold">Que' prepotenti... offrire e chieder pace</ref>:  Anche qui ò osservata una disposizione ritmica dei membretti del periodo: a una terna di epiteti e di qualifiche (odiati, rispettati, soliti a andare in giro) corrisponde un’altra terna tutta di epiteti visivi (andavan.... quasi soli, a capobasso, con visi che: parevano ecc.).</note>
+                <note xml:id="Russo_cap28-n54" type="comm" target="quarantana/cap28.xml#c28_13697" targetEnd="quarantana/cap28.xml#c28_13704"><ref rend="bold">Chi aveva il modo di far qualche elemosina</ref>:  Si noti l’avvicendarsi, in tutto il paragrafo, di periodi brevi e di periodi più complessi ed avvolti, ciò che costituisce la gravità musicale della pagina. Quel contrapposto di gale e di cenci è come il motivo tematico proposto all’inizio; poi segue la vicenda di brevi periodi (I cenci e la miseria eremo quasi per tutto.... Que’ prepotenti odiati e rispettati.... Chi aveva il modo di far qualche elemosina....), alternati con gli altri di più largo sviluppo (Si vedevano i nobili.... Altri che, anche nella prosperità.... E appena si vedeva una mano....). E tutto procede sull’armonia del tre, con un riposo languido e angoscioso sull’ultimo periodo, il più folto e il più numeroso di concatenate proposizioni.</note>
+                <note xml:id="Russo_cap28-n55" type="comm" target="quarantana/cap28.xml#c28_13731" targetEnd="quarantana/cap28.xml#c28_13783"><ref rend="bold">Nasceva all'intorno una gara d'altri infelici... nelle loro mani</ref>:  È ripetuto, nell’interno di questo periodo, lo schema triadico di tutto il paragrafo: dapprima, il consueto motivo tematico in generale (nasceva all’intorno ecc.), cui segue poi la singolare, trina, specificazione (coloro a cui rimaneva più vigore.... gli estenuati,... le madri). Senza parere, nell’andatura prosastica, il M. costruisce il periodo con un suo ritmo di musica grave e dolorosa.</note>
+                <note xml:id="Russo_cap28-n56" type="comm" target="quarantana/cap28.xml#c28_13832" targetEnd="quarantana/cap28.xml#c28_15805"><ref rend="bold">Mentre si discute... ai mezzi, ai modi, ai luoghi</ref>:  Senti l’ironia in quel triplice mentre, appoggiato ritmicamente a quel ai mezzi, ai modi, ai luoghi. Anche dove il M. è scrittore satirico, l’armonia artistica si avverte assidua nel suo periodare.</note>
+                <note xml:id="Russo_cap28-n57" type="comm" target="quarantana/cap28.xml#c28_13912" targetEnd="quarantana/cap28.xml#c28_13916"><ref rend="bold">Contro il parere della Sanità</ref>:  Una volta tanto, il M. si lascia andare a riconoscere la sensatezza dei fisici di quello sciagurato Seicento; gli è che la sensatezza del parere della Sanità ci sta solo per dare un rilievo più polemico al bestiale provvedimento del tribunale di provvisione.</note>
+                <note xml:id="Russo_cap28-n58" type="comm" target="quarantana/cap28.xml#c28_13936" targetEnd="quarantana/cap28.xml#c28_13939"><ref rend="bold">Il lazzeretto di Milano</ref>:  Fu costruito nel 1489; ora non esiste più. Fu demolito e assorbito negli ultimi decenni dell’800. Porta orientale, come è noto, è l’attuale porta Venezia.</note>
+                <note xml:id="Russo_cap28-n59" type="comm" target="quarantana/cap28.xml#c28_14147" targetEnd="quarantana/cap28.xml#c28_14151"><ref rend="bold">Come l'accenna il nome stesso</ref>:  San Lazzaro è il santo protettore degli ammalati di peste.</note>
+                <note xml:id="Russo_cap28-n60" type="comm" target="quarantana/cap28.xml#c28_14177" targetEnd="quarantana/cap28.xml#c28_14184"><ref rend="bold">Quelle due, quattro... otto volte per secolo</ref>:  A Milano, le più famose pestilenze sono state quelle del 1254, 1399, 1450, 1485-86. Nel solo ’500 e i principi del ’600, la peste apparve nel 1513, nel 1524, e fu delle maggiori; nel 1576, e fu detta di San Carlo; e nel 1630, quella qui descritta.</note>
+                <note xml:id="Russo_cap28-n61" type="comm" target="quarantana/cap28.xml#c28_14356" targetEnd="quarantana/cap28.xml#c28_14367"><ref rend="bold">O fosse quella naturai ripugnanza... o quella diffidenza de' poveri</ref>:  Osservazione psicologica che rientra nella nostra comune esperienza.</note>
+                <note xml:id="Russo_cap28-n62" type="comm" target="quarantana/cap28.xml#c28_15892" targetEnd="quarantana/cap28.xml#c28_17270"><ref rend="bold">Diffidenza sempre proporzionata... al poco giudizio delle leggi</ref>:  Equanime giudizio del M. che spiega, sotto vari aspetti, la ragione di quella diffidenza: ignoranza, complessità del fenomeno del pauperismo, astrattezza delle leggi.</note>
+                <note xml:id="Russo_cap28-n63" type="comm" target="quarantana/cap28.xml#c28_14491" targetEnd="quarantana/cap28.xml#c28_14501"><ref rend="bold">I danari del pubblico... per impiegarli a sproposito</ref>:  Una nota del consueto giacobinismo democratico e antiautoritario del Manzoni.</note>
+                <note xml:id="Russo_cap28-n64" type="comm" target="quarantana/cap28.xml#c28_14548" targetEnd="quarantana/cap28.xml#c28_14550"><ref rend="bold">A dieci mila</ref>:  La cifra è storica: tremila volontari, settemila forzati.</note>
+                <note xml:id="Russo_cap28-n65" type="comm" target="quarantana/cap28.xml#c28_14556" targetEnd="quarantana/cap28.xml#c28_14565"><ref rend="bold">Si vuol supporre che saranno... in quartieri separati</ref>:  Il M. fu scrupolosissimo (cattolicamente scrupoloso) di queste distinzioni, reparto uomini e reparto donne; da ciò l’amarezza ironica di questa sua congettura. Si veda al cap. XXXV, il colloquio tra Renzo e fra Cristoforo, in cui questi pedanteggia piuttosto eccessivamente, sol perchè il giovine vuole penetrare nel recinto delle donne, per ritrovare Lucia.</note>
+                <note xml:id="Russo_cap28-n66" type="comm" target="quarantana/cap28.xml#c28_14627" targetEnd="quarantana/cap28.xml#c28_14632"><ref rend="bold">Una necessità, un dolore, una vergogna</ref>:  Tre sostantivi che progrediscono l’uno sull’altro ed esprimono in crescendo la sofferenza: una. necessità, e c’è il freddo e sconsolato dibattito della mente; un dolore, ed è colta la pungente angoscia interna di quel fatale riconoscimento; una vergogna, dove il dolore diventa confusione, rossore, imbarazzo, disagio sensibile.</note>
+                <note xml:id="Russo_cap28-n67" type="comm" target="quarantana/cap28.xml#c28_14651" targetEnd="quarantana/cap28.xml#c28_14665"><ref rend="bold">Nelle piazze... allo scherno, alla violenza</ref>:  C’è corrispondenza e apparente distribuzione dei termini: l’ozio e la truffa nelle piazze, lo scherno nei discorsi avvinazzati delle taverne, la violenza all’ombra dei palazzi gentilizi. Ma, in verità, ozio, truffa, scherno, violenza sono cose proprie a tutti quei luoghi, in un momento stesso, e soltanto la loro presumibile più spiccata attinenza locativa serve all’artista per regolare l’ordine di quei sostantivi.</note>
+                <note xml:id="Russo_cap28-n68" type="comm" target="quarantana/cap28.xml#c28_14752" targetEnd="quarantana/cap28.xml#c28_14764"><ref rend="bold">Quale amministratore... si dispensi roba cattiva</ref>:  Pare una sentenza, che deve alleggerire le responsabilità degli amministratori; pure, la frase avvolge di un più cupo pessimismo le cose umane, che riescono sempre necessariamente imperfette, e tali che solo la perversione sistematica di quelli che rabbia, la sofferenza di tutti: dove comandano, si sospetta, può portarle a ì’abbattimento e la rabbia, sono passioni tanto. diverse, anzi antitetiche, e, in quell’anti</note>
+                <note xml:id="Russo_cap28-n69" type="comm" target="quarantana/cap28.xml#c28_14913" targetEnd="quarantana/cap28.xml#c28_14946"><ref rend="bold">La noia e la smania della prigionia... passioni d'abbattimento o di rabbia</ref>:  Anche qui, le espressioni che colgono i varî stati d’animo, non si seguono a caso: prima l’insofferenza della prigionia, a cui segue, per contrasto fantastico, la rimembranza dell’antiche abitudini; poi il dolore di cari perduti che giustifica l’inquietudine per gli altri cari lontani; infine, il fastidio polemico che nasce dalla vicinanza forzata, congiunta al ribrezzo che i mali fisici di persone invise necessariamente suscitano. Il M. riassume poi sinteticamente in passioni di abbattimento o di rabbia, la sofferenza di tutti: dove l'abbattimento e la rabbia sono passioni diverse, anzi antitetiche, e, in quell'antitesi, tanto più aspre.</note>
+                <note xml:id="Russo_cap28-n70" type="comm" target="quarantana/cap28.xml#c28_15035" targetEnd="quarantana/cap28.xml#c28_15037"><ref rend="bold">Un certo contagio</ref>:  Il M. distingue l’influenza puramente epidemica, e il contagio: l’una, che avrebbe un carattere obbiettivo, che può svilupparsi, anche senza il contatto con i malati; l’altra, invece, che nasce per contatto diretto e per debolezza e disposizione degli organismi. I moderni tendono a confondere però questa distinzione.</note>
+                <note xml:id="Russo_cap28-n71" type="comm" target="quarantana/cap28.xml#c28_15108" targetEnd="quarantana/cap28.xml#c28_15112"><ref rend="bold">Da uno, diligente quanto ingegnoso</ref>:  Enrico Acerbi, medico, n. a Castano Primo nel 1785, m. a Tremezzo nel 1827. Fu il medico di casa Manzoni. Una lapide, a Tremezzo, così lo ricorda: Al medico di A. M. - nel centenario dei Promessi Sposi - 1923. Oltre lavori letterari minori (fra i quali la Vita di A. Poliziano), scrisse la Dottrina teorico-pratica del morbo petecchiale, qui citata dal M., dove è discussa la natura parassitarla dei contagi. Nel romanzo è chiara l’influenza delle idee nuove di questo precursore italiano della batteriologia moderna; e fa onore al M. aver presentito l’originalità e fecondità di quelle dottrine. La disposizione e il debilitamento dell'organismo, come occasione propizia al propagarsi di un morbo, oggi è un luogo comune, anche della scienza popolare; ma, quando scriveva il M., era ancora ingegnosa, verità.</note>
+                <note xml:id="Russo_cap28-n72" type="comm" target="quarantana/cap28.xml#c28_15230" targetEnd="quarantana/cap28.xml#c28_15241"><ref rend="bold">Era languore, angoscia... stordimento, incertezza</ref>:  La collocazione delle parole segue una sua regola di progresso interno, ma c’è opposizione in quel progresso: nella prima parte, si va dai termini più mancanti e più passivi a quelli più disperatamente attivi (dal languore all’angoscia, allo spavento, al rammarichìo, al fremito); mentre, nella seconda parte, il progresso è decadenza di passione e di inazione. Nota la saliente leggerezza dattilica di quel fremito, e la discesa lenta a quell’ultimo termine incertezza.</note>
+                <note xml:id="Russo_cap28-n73" type="comm" target="quarantana/cap28.xml#c28_15298" targetEnd="quarantana/cap28.xml#c28_15302"><ref rend="bold">Ma più debole e interrotto</ref>:  Perchè la turba era fatta più rada.</note>
+                <note xml:id="Russo_cap28-n74" type="comm" target="quarantana/cap28.xml#c28_15344" targetEnd="quarantana/cap28.xml#c28_15346"><ref rend="bold">Que' benedetti campi</ref>:  Il benedetti riassume, in forma interiettiva, il desiderio sospiroso della raccolta.</note>
+                <note xml:id="Russo_cap28-n75" type="comm" target="quarantana/cap28.xml#c28_15390" targetEnd="quarantana/cap28.xml#c28_15391"><ref rend="bold">Un giulio</ref>:  moneta di circa 56 centesimi, come il paolo.</note>
+                <note xml:id="Russo_cap28-n76" type="comm" target="quarantana/cap28.xml#c28_15401" targetEnd="quarantana/cap28.xml#c28_15403"><ref rend="bold">Cessò la carestia</ref>:  Il Tommaseo nota: «Tutta questa narrazione della fame era inutile affatto, come si vedrà poi; ma era una narrazione di più.». Il Rigutini, dal lato suo, commenta: «È soverchiamente lunga come fu notato e dal Goethe, e dal Fauriel, e da altri; ma inutile nessuno, eccetto il T., 1’ ha detto, e che serva come di ripieno.». Ma bisognerà richiamarsi al giudizio del De Sanctis: «La monacazione di Gertrude, la carestia e la peste di Milano possono sembrare avvenimenti troppo sviluppati a quelli che concepiscono un romanzo come una logica artificiale con equilibrio di proporzioni. Questi ed altri avvenimenti, rimanendo nel loro senso generale uniti col tutto, vi stanno come parti organiche, dotate di attività propria, vere e compiute persone poetiche, che in quell’armonia universale hanno fini e interessi propri». E il Croce rincalza: «È stato detto, e tutti abbiamo ripetuto per tradizione senza riesaminare, che forse le parti storiche sono nel romanzo troppo estese.... Il vero è che le parti storiche, qui come in ogni opera di vera poesia, non sono storiche altro che in apparenza, e si risolvono e fondono nei due elementi costitutivi del romanzo, rientrando alcune di esse, come i racconti della carestia e della peste e del passaggio dei lanzichenecchi, nelle parti serie e tristi e affannose, e le altre, di carattere satirico e ironico, nella vasta satira delle umane follie, manzoniana appendice all’ Elogio della pazzia di Erasmo».</note>
+                <note xml:id="Russo_cap28-n77" type="comm" target="quarantana/cap28.xml#c28_15406" targetEnd="quarantana/cap28.xml#c28_15408"><ref rend="bold">Epidemica o contagiosa</ref>:  Cfr., più su, la n. 471.</note>
+                <note xml:id="Russo_cap28-n78" type="comm" target="quarantana/cap28.xml#c28_15423" targetEnd="quarantana/cap28.xml#c28_15425"><ref rend="bold">Un nuovo flagello</ref>:  La calata degli imperiali.</note>
+                <note xml:id="Russo_cap28-n79" type="comm" target="quarantana/cap28.xml#c28_15431" targetEnd="quarantana/cap28.xml#c28_15439"><ref rend="bold">A cui più specialmente si dà titolo di storiche</ref>:  La frase ha una sfumatura ironica; sulla storia illustre e la storia fatta dagli umili, vedi la n. 6-7 nell’ Introduzione, p. 6.</note>
+                <note xml:id="Russo_cap28-n80" type="comm" target="quarantana/cap28.xml#c28_15450" targetEnd="quarantana/cap28.xml#c28_15452"><ref rend="bold">Come s'è detto</ref>:  Vedi al cap. XXVII, p. 509, n. 40.</note>
+                <note xml:id="Russo_cap28-n81" type="comm" target="quarantana/cap28.xml#c28_15461" targetEnd="quarantana/cap28.xml#c28_15463"><ref rend="bold">Col re d'Inghilterra</ref>:  Carlo I Stuart, re dal 1625 al 1649.</note>
+                <note xml:id="Russo_cap28-n82" type="comm" target="quarantana/cap28.xml#c28_15480" targetEnd="quarantana/cap28.xml#c28_15486"><ref rend="bold">Si soccorresse efficacemente il duca di Nevers</ref>:  Il duca di Nevers aveva preso ufficiale possesso di Mantova la sera del 17 gennaio 1628, e s’era preparato alla difesa della città, contro le irruzioni ostili di Carlo Emanuele e di don Gonzalo, con 1200 fanti e 2000 cavalli; ma non si sentiva sicuro, e chiedeva aiuti al re Luigi, il quale era impegnato, col meglio dei suoi eserciti, alla Roccella.</note>
+                <note xml:id="Russo_cap28-n83" type="comm" target="quarantana/cap28.xml#c28_15491" targetEnd="quarantana/cap28.xml#c28_15499"><ref rend="bold">Il re medesimo a condurre in persona la spedizione</ref>:  Luigi XIII, espugnata la Roccella, il 30 ottobre 1628, s’avviò verso l’Italia con 15.000 soldati.</note>
+                <note xml:id="Russo_cap28-n84" type="comm" target="quarantana/cap28.xml#c28_15511" targetEnd="quarantana/cap28.xml#c28_15516"><ref rend="bold">Intimava in Mantova al nuovo duca</ref>:  L’imperatore, con una lettera 3 giugno 1628, aveva concessa una dilazione di quindici giorni, al duca di Nevers perchè abbandonasse il ducato; poi avrebbe vendicata «l’augustale dignità». E il 16 agosto, con un altro monitorio cesareo, rinnovava la minaccia di sequestro al duca «se non depositava gli Stati».</note>
+                <note xml:id="Russo_cap28-n85" type="comm" target="quarantana/cap28.xml#c28_15549" targetEnd="quarantana/cap28.xml#c28_15555"><ref rend="bold">Incoraggito... dal vicino soccorso di Francia</ref>:  Il re cristianissimo difatti incoraggiava il Nevers a tener duro e a non dubitare che la sua spada l’avrebbe difeso «da tutto il mondo.».</note>
+                <note xml:id="Russo_cap28-n86" type="comm" target="quarantana/cap28.xml#c28_15575" targetEnd="quarantana/cap28.xml#c28_15579"><ref rend="bold">E con proposte di sommissione</ref>:  Il 2 ottobre 1628, Carlo, figliolo del duca di Nevers, partì per Vienna, a trattar personalmente con l’imperatore, e impetrar giustizia.</note>
+                <note xml:id="Russo_cap28-n87" type="comm" target="quarantana/cap28.xml#c28_15637" targetEnd="quarantana/cap28.xml#c28_15640"><ref rend="bold">E concluso un accordo</ref>:  Questo accordo fu chiamato la disastrosa pace di Susa. Il re Luigi XIII, rotto un corpo d’esercito del duca di Savoia, s’era accampato nella valle di Susa, per dirigersi su Casale.</note>
+                <note xml:id="Russo_cap28-n88" type="comm" target="quarantana/cap28.xml#c28_15700"><ref rend="bold">Achillini</ref>:  Achillini Claudio: n. a Bologna il 1574, m. il 1640.</note>
+                <note xml:id="Russo_cap28-n89" type="comm" target="quarantana/cap28.xml#c28_15724" targetEnd="quarantana/cap28.xml#c28_15728"><ref rend="bold">Alla liberazione di Terra santa</ref>:  Ecco la prima quartina del famoso sonetto: Sudate, o Fochi, a preparar metalli; — E voi, Ferri vitali, itene pronti, — Ite di Paro a sviscerare i monti, — Per inalzar colossi al re de’ Galli. Ed ecco la terzina di chiusa: Ceda le Palme pur Roma a Parigi; — Che, se Cesare venne, e vide, e vinse, — Venne, vinse e non vide il gran Luigi. E l’altro sonetto, dopo aver celebrato le vittorie roccellesi e di Casale, concludeva che «Sol resta alla tua spada il sacro acquisto.». E l’esortazione così continuava: «Vola in Soria de la Pietà sull’ale; — E fa’, che di tua man l'Urna di Cristo — Sia del Regno Ottoman Tomba fatale.».</note>
+                <note xml:id="Russo_cap28-n90" type="comm" target="quarantana/cap28.xml#c28_15756" targetEnd="quarantana/cap28.xml#c28_15759"><ref rend="bold">Eran cose risolute prima</ref>:  Battuta arguta contro la retorica spettacolosa dell’Achillini, ma anche, in genere, contro la presunzione civile e politica dei poeti della tradizione italiana: accademismo e cortigianismo di prammatica. È una battuta, che si lega ad altre che abbiamo incontrato nel romanzo; si veda in modo particolare, al cap. XIV, la n. 333-341.</note>
+                <note xml:id="Russo_cap28-n91" type="comm" target="quarantana/cap28.xml#c28_15780" targetEnd="quarantana/cap28.xml#c28_15781"><ref rend="bold">Girolamo Soranzo</ref>:  I Soranzo sono famiglia di antica nobiltà; ma Girolamo Soranzo è un semplice ignoto. Da ciò l’ironia, sui suoi consigli politici, i quali, sebbene espressi in prosa, non furono ascoltati come non erano stati ascoltati quelli in versi dell’Achillini.</note>
+                <note xml:id="Russo_cap28-n92" type="comm" target="quarantana/cap28.xml#c28_15839" targetEnd="quarantana/cap28.xml#c28_15843"><ref rend="bold">Quello di Ferdinando s'avvicinava dall'altra</ref>:  Era comandato, come si vedrà, dal conte Rambaldo di Cobalto, condottiero italiano.</note>
+                <note xml:id="Russo_cap28-n93" type="comm" target="quarantana/cap28.xml#c28_15895" targetEnd="quarantana/cap28.xml#c28_15898"><ref rend="bold">Come dice il Varchi</ref>:  Benedetto Varchi (1503-1565) nella sua Storia di Firenze, e le parole ricordate dal M. si leggono al cap. 51 del libro XII. La peste, descritta dal Varchi, era quella di Firenze del 1531, e fu conseguenza del famoso assedio del 1529-30: i lanzi ne sarebbero stati i portatori.</note>
+                <note xml:id="Russo_cap28-n94" type="comm" target="quarantana/cap28.xml#c28_15933" targetEnd="quarantana/cap28.xml#c28_15936"><ref rend="bold">Come racconta lui stesso</ref>:  Vedi a p. 538, la n. 262.</note>
+                <note xml:id="Russo_cap28-n95" type="comm" target="quarantana/cap28.xml#c28_15986" targetEnd="quarantana/cap28.xml#c28_15989"><ref rend="bold">Un posto nella storia</ref>:  Vedi la n. 110-111 al cap. XII, p. 237.</note>
+                <note xml:id="Russo_cap28-n96" type="comm" target="quarantana/cap28.xml#c28_16012" targetEnd="quarantana/cap28.xml#c28_16018"><ref rend="bold">L'atto di lui più degno di memoria</ref>:  Voleva dire la bestialità più insigne di don Gonzalo; e la storia cortigiana, naturalmente, non volle registrare tale nuovo documento di ottusità politica. Tale risposta registrò invece il Tadino; don Gonzalo avrebbe risposto «che più presto s’arrischiasse il pericolo che si temeva (la peste 1), che si perdesse la riputazione dell’imperatore.».</note>
+                <note xml:id="Russo_cap28-n97" type="comm" target="quarantana/cap28.xml#c28_16533" targetEnd="quarantana/cap28.xml#c28_16536"><ref rend="bold">Subito dopo si sbandarono</ref>:  Tutto l’episodio è storico, ed è riferito, con scandalo, dallo Ziliolo. Cfr. al cap. XIII, la n. 487. Nell’edizione del ’25 era detto: «Nel suo partire da Milano, gl’intervenne cosa che da qualche scrittore contemporaneo vien notata come la prima di quel genere che accadesse qui ad un par suo.».</note>
+                <note xml:id="Russo_cap28-n98" type="comm" target="quarantana/cap28.xml#c28_16544" targetEnd="quarantana/cap28.xml#c28_16547"><ref rend="bold">Il marchese Ambrogio Spinola</ref>:  È un genovese (1571-1630), che aveva assoldato eserciti a sue spese per il re di Spagna, Filippo III. Aveva combattuto nei Paesi Bassi, e occupato Ostenda dopo tre mesi di assedio (1604), e ancora, nel 1621, era stato comandante generale delle truppe spagnuole de’ Paesi Bassi.</note>
+                <note xml:id="Russo_cap28-n99" type="comm" target="quarantana/cap28.xml#c28_16574" targetEnd="quarantana/cap28.xml#c28_16576"><ref rend="bold">Rambaldo di Collalto</ref>:  n. il 1575, m. il 1630.</note>
+                <note xml:id="Russo_cap28-n100" type="comm" target="quarantana/cap28.xml#c28_16617" targetEnd="quarantana/cap28.xml#c28_16619"><ref rend="bold">Soldati di ventura</ref>:  Delle compagnie di ventura e dei loro condottieri, il M. ha discorso anche nell’introduzione al Carmagnola. Il lettore ricordi quello che di esse il Machiavelli scrisse, un po’ in tutte le sue opere, e particolarmente nei capitoli centrali del Principe e poi nell’Arte della guerra.</note>
+                <note xml:id="Russo_cap28-n101" type="comm" target="quarantana/cap28.xml#c28_16828" targetEnd="quarantana/cap28.xml#c28_16842"><ref rend="bold">Esser più facile mantenere... uno di dodici mila</ref>:  Un esercito di centomila assicurava le imprese e quindi gli eventuali saccheggi, un esercito di dodicimila, no.</note>
+                <note xml:id="Russo_cap28-n102" type="comm" target="quarantana/cap28.xml#c28_16865" targetEnd="quarantana/cap28.xml#c28_16870"><ref rend="bold">Quella guerra celebre tra le guerre</ref>:  Quella dei trent’anni durata dal 1618 al 1648 (pace di Westfalia). Si originò per la lotta dei principi calvinisti di Germania contro l’imperatore e i principi cattolici, e finì con l’assicurare ai calvinisti quella libertà di coscienza, di cui godevano già i luterani.</note>
+                <note xml:id="Russo_cap28-n103" type="comm" target="quarantana/cap28.xml#c28_16896" targetEnd="quarantana/cap28.xml#c28_16900"><ref rend="bold">Condotto da un suo luogotenente</ref>:  Chi fosse questo luogotenente non dicono i commentatori, nè a me è riuscito saperlo. Probabilmente, il M. non ne fece il nome, per averne avuto notizia soltanto generica, da una lettera di Sigismondo Boldoni, giovane professore di Pavia, e che noi riferiamo al cap. XXX, n. 260-261.</note>
+                <note xml:id="Russo_cap28-n104" type="comm" target="quarantana/cap28.xml#c28_16916" targetEnd="quarantana/cap28.xml#c28_16923"><ref rend="bold">E ci si trovava più d'uno di quelli</ref>:  Tra gli altri Ottavio Piccolomini (n. a Siena il 1599, m. a Vienna il 1656), che rivelò i disegni del Wallenstein e decise della sua fine con quella denunzia, quando l’imperatore lo fece assassinare a Egra (Boemia). È un personaggio che è entrato nella nota trilogia dello Schiller. Allo Schiller si deve anche una Storia della guerra dei trent’anni.</note>
+                <note xml:id="Russo_cap28-n105" type="comm" target="quarantana/cap28.xml#c28_17207" targetEnd="quarantana/cap28.xml#c28_17209"><ref rend="bold">Finalmente se n'andavano</ref>:  Bellissimo periodo, pieno di una tragica cupezza. Il M., con quel mutar di modi verbali (se n’andavano; erano andati) rende non solo la successione dei vari momenti della partenza degli invasori, ma anche l’apprensione e il momentaneo sollievo (la quiete spaventata, come dice con epica concisione) delle popolazioni. È singolare che il M., odiatore delle guerre, rese a maraviglia il cupo spavento che esse seminano; ciò che è un modo sempre di subirne il tragico fascino. Si ricordino i versi del primo coro dell'Adelchi, e il verso «volaron sul ponte che cupo sonò», che rende il galoppo dei cavalieri partenti e al tempo stesso l’eco, per i superstiti, di quel passaggio.</note>
+            </div>
+</body>
+</text>
+</TEI>

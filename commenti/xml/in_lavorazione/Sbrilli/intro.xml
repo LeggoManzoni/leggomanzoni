@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gilda Sbrilli (1988)</title>
+       <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Commento di Gilda Sbrilli</title>
+          <editor>Sbrilli, Gilda</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Editore Bulgarini</publisher>
+          <date>1988</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Sbrilli_intro">
+        <note xml:id="Sbrilli_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">1. L'Historia</ref>:  secondo un espediente narrativo già usato in passato da diversi autori Manzoni immagina di aver scoperto un anonimo manoscritto del Seicento e inizia a ricopiarlo, interessato dalla bella storia in esso contenuta. Colpisce in questa pagina iniziale l’aspetto linguistico per l’abilissima ricostruzione della prosa barocca, dovuta a un'approfondita conoscenza delle cronache, dei trattati, dei romanzi del nostro Seicento da parte del Manzoni. Tutti gli elementi caratteristici di quello stile sono infatti presenti in questa pagina in modo esasperato, per l’intenzione satirico-caricaturale dell'autore, da certi elementi della grafia all’abuso delle maiuscole, al gusto artificioso delle metafore, all’elaborato e tortuoso ritmo della sintassi.</note>
+        <note xml:id="Sbrilli_intro-n2" type='comm' target="quarantana/intro.xml#intro_10006" targetEnd="quarantana/intro.xml#intro_10008"><ref rend="bold">1. una guerra illustre</ref>:  per l'anonimo autore della «storia milanese del secolo XVII» la storia è celebrazione degli eroi eccezionali che con le loro imprese diplomatiche o belliche hanno governato o dominato il mondo.</note>
+        <note xml:id="Sbrilli_intro-n3" type='comm' target="quarantana/intro.xml#intro_10044"><ref rend="bold">4. Arringo</ref>:  lo spazio per gare e tornei.</note>
+        <note xml:id="Sbrilli_intro-n4" type='comm' target="quarantana/intro.xml#intro_10130" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">11. a gente meccaniche</ref>:  non è piccolo merito per l'anonimo esser andato contro il gusto del suo tempo a aver scelto di raccontare la vicenda di gente semplice che vive di lavoro: il Manzoni quindi non si limita a fare di lui un semplice testimone contemporaneo, ma intende anche dimostrare che il buon senso e il buon sentimento operano anche in tempi oscuri, e possono riuscire a cogliere la bellezza del vero morale anche fra le creature più umili.</note>
+        <note xml:id="Sbrilli_intro-n5" type='comm' target="quarantana/intro.xml#intro_10160" targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">14. in angusto Teatro</ref>:  la Lombardia.</note>
+        <note xml:id="Sbrilli_intro-n6" type='comm' target="quarantana/intro.xml#intro_10169" targetEnd="quarantana/intro.xml#intro_10177"><ref rend="bold">15. malvaggità grandiosa... buontà angeliche</ref>:  l'allusione prepara alla narrazione delle vicende storiche e del vistoso contrasto fra bene e male che emerge nelle pubbliche calamità.</note>
+        <note xml:id="Sbrilli_intro-n7" type='comm' target="quarantana/intro.xml#intro_10192" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">17. del Re Cattolico</ref>:  Filippo IV, re di Spagna.</note>
+        <note xml:id="Sbrilli_intro-n8" type='comm' target="quarantana/intro.xml#intro_10279" targetEnd="quarantana/intro.xml#intro_10282"><ref rend="bold">24. arte e fattura diabolica</ref>:  se l'interesse per gli umili ha creato un rapporto di comunanza fra il narratore-Manzoni e il suo «doppio» (l'anonimo), riemergono, ora, caratteri che storicizzano l'autore del manoscritto inserendolo pienamente nella cultura secentesca: la sua fiduciosa devozione verso le autorità e la sua mentalità superstiziosa in fatto di religione.</note>
+        <note xml:id="Sbrilli_intro-n9" type='comm' target="quarantana/intro.xml#intro_10294" targetEnd="quarantana/intro.xml#intro_10296"><ref rend="bold">25. a tanti Heroi...</ref>:  dietro la perplessa meraviglia dell'antico cronista che nell'ordine stabilito dai potenti non ammette, almeno sul piano logico, errori, torna a riaffiorare l'amaro giudizio del Manzoni; dalla lettura della storia emergerà infatti il caos, mentre l'elemento positivo dovremo trovarlo altrove: nell'amore degli uomini e nella grazia di Dio.</note>
+        <note xml:id="Sbrilli_intro-n10" type='comm' target="quarantana/intro.xml#intro_10300" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">26. d'Argo... Briareo</ref>:  prodigiosi mostri mitologici, dotati il primo di cento occhi, il secondo di cento braccia.</note>
+        <note xml:id="Sbrilli_intro-n11" type='comm' target="quarantana/intro.xml#intro_10346"><ref rend="bold">30. Parche</ref>:  tre divinità della mitologia greca: Cloto, Lachesi e Atropo.</note>
+        <note xml:id="Sbrilli_intro-n12" type='comm' target="quarantana/intro.xml#intro_10351" targetEnd="quarantana/intro.xml#intro_10355"><ref rend="bold">30. si tacerà li loro nomi</ref>:  la reticenza dell’anonimo, colorisce ironicamente il suo timoroso rispetto per il potere e serve ad attribuirgli eventuali lacune e particolari giudizi che potranno emergere nel corso del racconto.</note>
+        <note xml:id="Sbrilli_intro-n13" type='comm' target="quarantana/intro.xml#intro_10429"><ref rend="bold">37. accidenti</ref>:  al contrario delle realtà essenziali (sostanze), nel linguaggio della filosofia aristotelica, gli «accidenti» sono le cose che possono accadere ma non necessariamente. Qui il termine assume, nell’ironia del periodo lasciato sospeso, una sfumatura ben diversa!</note>
+        <note xml:id="Sbrilli_intro-n14" type='comm' target="quarantana/intro.xml#intro_10511" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">44. quella grandine di concettini e di figure</ref>:  è tipico dello stile barocco il gioco astruso di «acutezze» concettose, l'abbondanza di figure retoriche complicate.</note>
+        <note xml:id="Sbrilli_intro-n15" type='comm' target="quarantana/intro.xml#intro_10521" targetEnd="quarantana/intro.xml#intro_10522"><ref rend="bold">45. alla distesa</ref>:  di continuo.</note>
+        <note xml:id="Sbrilli_intro-n16" type='comm' target="quarantana/intro.xml#intro_10536" targetEnd="quarantana/intro.xml#intro_10538"><ref rend="bold">46. la sua virtù</ref>:  la sua abilità tecnica, il suo virtuosismo nel manipolare il linguaggio.</note>
+        <note xml:id="Sbrilli_intro-n17" type='comm' target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568"><ref rend="bold">49. Idiotismi lombardi</ref>:  espressioni comuni del dialetto lombardo.</note>
+        <note xml:id="Sbrilli_intro-n18" type='comm' target="quarantana/intro.xml#intro_10569" targetEnd="quarantana/intro.xml#intro_10570"><ref rend="bold">49. a iosa</ref>:  in abbondanza.</note>
+        <note xml:id="Sbrilli_intro-n19" type='comm' target="quarantana/intro.xml#intro_10583" targetEnd="quarantana/intro.xml#intro_10585"><ref rend="bold">50. qualche eleganza spagnola</ref>:  a impreziosire un tessuto linguistico grezzo e a dargli una patina artificiale.</note>
+        <note xml:id="Sbrilli_intro-n20" type='comm' target="quarantana/intro.xml#intro_10662"><ref rend="bold">57. affettato</ref>:  lezioso, poco «vero».</note>
+        <note xml:id="Sbrilli_intro-n21" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">58. solecismi</ref>:  sgrammaticature.</note>
+        <note xml:id="Sbrilli_intro-n22" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">60. in questo paese</ref>:  nella Lombardia influenzata dal dominio spagnolo.</note>
+        <note xml:id="Sbrilli_intro-n23" type='comm' target="quarantana/intro.xml#intro_10708" targetEnd="quarantana/intro.xml#intro_10710"><ref rend="bold">61. a lettori d'oggigiorno</ref>:  ecco comparire il pubblico, il destinatario dell'ancor probabile libro: non è più né un gruppo ristretto di letterati, né un’accozzaglia di inesperti senza gusto, ma un insieme di lettori consapevoli che ricercano contenuti, utili, interessanti, espressi in una forma chiara e convincente.</note>
+        <note xml:id="Sbrilli_intro-n24" type='comm' target="quarantana/intro.xml#intro_10749" targetEnd="quarantana/intro.xml#intro_10751"><ref rend="bold">64. mi sapeva male</ref>:  mi dispiaceva.</note>
+        <note xml:id="Sbrilli_intro-n25" type='comm' target="quarantana/intro.xml#intro_10759"><ref rend="bold">65. tuttavia</ref>:  ancora.</note>
+        <note xml:id="Sbrilli_intro-n26" type='comm' target="quarantana/intro.xml#intro_10781" targetEnd="quarantana/intro.xml#intro_10782"><ref rend="bold">67 molto bella</ref>:  insiste tre votte sulla bellezza del contenuto: una storia così bella, ... bella, ... molto bella. Naturalmente non si tratta di una valutazione estetica, ma di un giudizio sul valore morale della vicenda, che trova la sua «bellezza» nella rappresentazione di una strenua lotta di alcuni umili impegnati a difendersi da un sopruso, in nome della loro dignità di uomini e di creature di Dio.</note>
+        <note xml:id="Sbrilli_intro-n27" type='comm' target="quarantana/intro.xml#intro_10800"><ref rend="bold">68. dicitura</ref>:  l'espressione formale.</note>
+        <note xml:id="Sbrilli_intro-n28" type='comm' target="quarantana/intro.xml#intro_10804"><ref rend="bold">69. presentato</ref>:  il participio è usato in modo indipendente dal nome.</note>
+        <note xml:id="Sbrilli_intro-n29" type='comm' target="quarantana/intro.xml#intro_10822" targetEnd="quarantana/intro.xml#intro_10823"><ref rend="bold">71. pari all'importanza</ref>:  si tratterebbe, dunque, solo di un rifacimento linguistico; niente sarebbe inventato dal narratore. È un modo volutamente dimesso che il Manzoni usa per puntualizzare il suo distacco e la sua polemica contro le esasperate celebrazioni del «genio» creativo del poeta, proprie di un certo gusto romantico.</note>
+        <note xml:id="Sbrilli_intro-n30" type='comm' target="quarantana/intro.xml#intro_10856" targetEnd="quarantana/intro.xml#intro_10857"><ref rend="bold">74. altri testimoni</ref>:  l’autore allude così al suo metodo di lavoro, che è basato su un'attenta ricerca sulla storia, i costumi, le istituzioni del Seicento. Da questa ricerca operata sulle cronache sui documenti storici, sulle testimonianze cartografiche sono emerse vicende e personaggi che altrimenti sarebbero sfumati nella leggenda o spariti nell'oblio.</note>
+        <note xml:id="Sbrilli_intro-n31" type='comm' target="quarantana/intro.xml#intro_10946" targetEnd="quarantana/intro.xml#intro_10949"><ref rend="bold">82. per la loro stranezza</ref>:  già passa dal resoconto al giudizio, facendo riferimento alle iniquità, alle follie individuali e collettive, di cui già faceva cenno l’anonimo.</note>
+        <note xml:id="Sbrilli_intro-n32" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">91. contingenti</ref>:  eventuali.</note>
+        <note xml:id="Sbrilli_intro-n33" type='comm' target="quarantana/intro.xml#intro_11102" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">95. ma le mutano</ref>:  non si impongono all’antagonista sopraffacendolo dogmaticamente, ma gli fanno cambiar parere con un dibattito basato sulla forza persuasiva della verità. Manzoni ha alle spalle tutta la polemica fra i suoi amici romantici del «Conciliatore» e i classicisti: è perciò sicuro e convinto delle sue scelte.</note>
+        <note xml:id="Sbrilli_intro-n34" type='comm' target="quarantana/intro.xml#intro_11167" targetEnd="quarantana/intro.xml#intro_11169"><ref rend="bold">100. le mandavamo insieme a spasso</ref>:  come fossero antagonisti in carne e ossa, liquidati senza complimenti.</note>
+        <note xml:id="Sbrilli_intro-n35" type='comm' target="quarantana/intro.xml#intro_11210" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">104. un libro</ref>:  in effetti un libro intero sul problema della lingua il Manzoni non l’ha scritto, anche se dopo il romanzo ha pubblicato o composto molti scritti teorici sull'argomento. Tuttavia nella introduzione della prima stesura dei Promessi sposi, il «Fermo e Lucia», si occupa in modo assai esteso della questione che lo ha a lungo impegnato, insieme al problema della scelta del «romanzo» come genere di letteratura non solo di intrattenimento, ma di impegno morale e artistico.</note>
+        <note xml:id="Sbrilli_intro-n36" type='comm' target="quarantana/intro.xml#intro_11259" targetEnd="quarantana/intro.xml#intro_11262"><ref rend="bold">108. quando non è d'avanzo</ref>:  il tono ironico elimina quanto di accademico poteva esserci nel tema, lasciando intatta l'importanza reale della scelta linguistica.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

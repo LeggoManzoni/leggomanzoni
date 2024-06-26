@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ermengildo Pistelli (1978)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ermengildo Pistelli</title>
+          <editor>Pistelli, Ermenegildo</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1978</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Pistelli_intro">
+        <note xml:id="Pistelli_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10005"><ref rend="bold">L'Historia si può veramente deffinire</ref>:  Immagini grottesche, che ci trasportano subito in pieno secento, per dire soltanto che la storia fa rivivere i tempi passati.</note>
+        <note xml:id="Pistelli_intro-n2" type="comm" target="quarantana/intro.xml#intro_10051" targetEnd="quarantana/intro.xml#intro_10056"><ref rend="bold">rapiscono solo che le sole spoglie</ref>:  Ossia, gli storici solenni non s’occupano che di re, di principi, di guerre.</note>
+        <note xml:id="Pistelli_intro-n3" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  Era, in antico, anche dell’uso italiano (invece di «schiettamente e genuinamente»); ma qui è un’ «eleganza spagnola».</note>
+        <note xml:id="Pistelli_intro-n4" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10184"><ref rend="bold">E veramente, considerando</ref>:  Il senso è questo: poiché il governo spagnolo è l’ideale dei governi, gli «atti tenebrosi, malvaggità e sevitie che.... si vanno moltiplicando», non possono attribuirsi che ad «arte e fattura diabolica». Ma che grandine di figure! Il re di Spagna è il sole, il governatore la luna (sempre piena!), e cosi via.</note>
+        <note xml:id="Pistelli_intro-n5" type="comm" target="quarantana/intro.xml#intro_10190" targetEnd="quarantana/intro.xml#intro_10191"><ref rend="bold">sotto l'amparo</ref>:  sotto la protezione; è uno spagnolismo.</note>
+        <note xml:id="Pistelli_intro-n6" type="comm" target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">Re Cattolico</ref>:  titolo dei re di Spagna.</note>
+        <note xml:id="Pistelli_intro-n7" type="comm" target="quarantana/intro.xml#intro_10217"><ref rend="bold">l'Heroe</ref>:  è il Governatore spagnolo dello Stato di Milano.</note>
+        <note xml:id="Pistelli_intro-n8" type="comm" target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">per li pubblici emolumenti</ref>:  per il bene pubblico.</note>
+        <note xml:id="Pistelli_intro-n9" type="comm" target="quarantana/intro.xml#intro_10423" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">i nomi se non sono puri purissimi accidenti</ref>:  cioè la sostanza resta la stessa con un nome o un altro, coi nomi o senza nomi. L'introduzione ha sin qui veste secentesca, ma nello spirito è squisitamente manzoniana. Nota i contrasti ironici tra l'esaltazione retorica del governo spagnolo e quel che esso era veramente, come si vedrà nel seguito del racconto; tra l'historia che si cura soltanto delle imprese de Prencipi e Potentati, e qualificati Personaggi, e quella cho guarda alle responsabilità de’ governanti e ai loro doveri anche verso le gente meccaniche e di piccol affare.</note>
+        <note xml:id="Pistelli_intro-n10" type="comm" target="quarantana/intro.xml#intro_10436" targetEnd="quarantana/intro.xml#intro_10437"><ref rend="bold">l'eroica fatica</ref>:  «eroica» è affettato, afferma il Tommaseo. No: il tono della voce, un leggiero sorriso, rimetton le cose a posto.</note>
+        <note xml:id="Pistelli_intro-n11" type="comm" target="quarantana/intro.xml#intro_10446"><ref rend="bold">graffiato</ref>:  tutto correzioni, freghi e sgorbi.</note>
+        <note xml:id="Pistelli_intro-n12" type="comm" target="quarantana/intro.xml#intro_10571" targetEnd="quarantana/intro.xml#intro_10573"><ref rend="bold">frasi della lingua</ref>:  cioè italiane, in contrapposto agli idiotismi lombardi ricordati prima. Neppure qui ha ragione il Tommaseo, che vorrebbe della buona lingua.</note>
+        <note xml:id="Pistelli_intro-n13" type="comm" target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10630"><ref rend="bold">rettorica discreta, fine, di buon gusto</ref>:  E allora non è rettorica, nel senso screditato che ha la parola, ma è arte. Della falsa rettorica non è traccia nel M., che fu ben definito «quel Grande che è riuscito, con l'infinita potenza d’una mano che non sembra aver nervi, a estirpare dalle lettere italiane, o dal cervello dell’Italia, l’antichissimo cancro della rettorica» (Ascoli). Estirpato del tutto non par che sia; ma il buon esempio l’aveva dato, e non senza frutto.</note>
+        <note xml:id="Pistelli_intro-n14" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia. Nella prima minuta dell’Introduzione aveva scritto: «In Lombardia.... un carattere di rozzezza, di trascuraggine, d’incoltura nei pensieri come nella lingua; il che era troppo naturale in un paese dove pochi leggevano e poco, o dove non si era mai parlata la lingua che si adopra negli scritti».</note>
+        <note xml:id="Pistelli_intro-n15" type="comm" target="quarantana/intro.xml#intro_10804"><ref rend="bold">presentato</ref>:  aspetteremmo presentata: nella prima edizione aveva scritto non essendosi presentato alcun perchè ragionevole: e in quella del 40, sostituendo obiezion a perchè, dimenticò di correggere presentato in presentata. E anche vorremmo obiezione invece di obiezion: il M. ha abusato di questi troncamenti, che non sempre sono dell’uso toscano.</note>
+        <note xml:id="Pistelli_intro-n16" type="comm" target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">con un'ingenuità</ref>:  Vedi con quanta grazia fa capire che lo «scartafaccio» è una sua invenzione.</note>
+        <note xml:id="Pistelli_intro-n17" type="comm" target="quarantana/intro.xml#intro_10862" targetEnd="quarantana/intro.xml#intro_10865"><ref rend="bold">a frugar nelle memorie</ref>:  Tutto il libro è prova degli studi profondi che il M. fece sulla vita, il governo, le condizioni sociali del secolo XVII nel milanese.</note>
+        <note xml:id="Pistelli_intro-n18" type="comm" target="quarantana/intro.xml#intro_11004" targetEnd="quarantana/intro.xml#intro_11008"><ref rend="bold">di fatto e di diritto</ref>:  di fatto è quel che si suol fare ; di diritto quel che si deve fare.</note>
+        <note xml:id="Pistelli_intro-n19" type="comm" target="quarantana/intro.xml#intro_11093" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">di quelle risposte che, non dico risolvon le questioni, ma le mutano</ref>:  È ironico verso sè stesso. La risposta non era «trionfante»; ma la faceva parer tale l'abilità, a cui si ricorre tanto spesso nelle discussioni, di spostar la questione.</note>
+        <note xml:id="Pistelli_intro-n20" type="comm" target="quarantana/intro.xml#intro_11107" targetEnd="quarantana/intro.xml#intro_11111"><ref rend="bold">mettendo... alle mani</ref>:  meglio «mettendo alle prese».</note>
+        <note xml:id="Pistelli_intro-n21" type="comm" target="quarantana/intro.xml#intro_11246" targetEnd="quarantana/intro.xml#intro_11249"><ref rend="bold">potrebbe parer cosa ridicola</ref>:  Non tocca all’artista che crea a dar ragione della sua arte: un libro, come una statua o un quadro, deve parlare e giustificarsi da sè. Ma il M. aveva davvero messo mano a quel secondo libro, e più volte parla, in altri scritti, delle difficoltà incontrate a comporre il suo romanzo «in lingua viva e vera». Vedi G. Sforza, in Scritti postumi di A. M., p. 125 o sgg.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

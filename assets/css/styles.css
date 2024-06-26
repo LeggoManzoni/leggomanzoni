@@ -11553,6 +11553,11 @@ header.masthead h1, header.masthead .h1 {
   height: 100vh; /* Set the height of the row */
 }
 
+.rowvedo{
+  padding-top: 2rem;
+  height: 80vh; /* Set the height of the row */
+}
+
 .col-6 {
   flex: 1; /* Each column takes 50% height */
   display: flex;
@@ -11886,3 +11891,9 @@ header.masthead h1, header.masthead .h1 {
   padding: 2rem;
 }
 
+.testo3{
+  overflow-y: none;
+  background-color: none;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2rem;
+}

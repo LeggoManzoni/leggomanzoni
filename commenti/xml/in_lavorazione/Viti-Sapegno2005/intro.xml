@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Natalino Sapegno, Gorizio Viti (2005)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Natalino Sapegno e Gorizio Viti</title>
+          <editor>Sapegno, Natalino</editor>
+          <editor>Viti, Gorizio</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Le Monnier</publisher>
+          <date>2005</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1. </p> 
+</encodingDesc> 
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Viti-Sapegno2005_intro">
+        <note xml:id="Viti-Sapegno2005_intro-n1" type='comm' target="quarantana/intro.xml#intro_10016" targetEnd="quarantana/intro.xml#intro_None">
+          <ref rend="bold">2-3. gl'anni... cadaveri</ref>:  è una delle immagini tipiche dello stile del Seicento, tutto basato su ampollosità e concettini, su figure stravaganti ed espressioni frondose, su antitesi ricercate e ritmi solenni: il repertorio barocco, dunque, al gran completo. Infatti, non vi manca neppure la precisa grafia di allora: h iniziali («Historia», «horrori»), t per z («Relatione»), v per u e viceversa («cadaueri»): raddoppiamenti di consonanti («deffinire) e di vocali («occhij»); uso frequentissimo e ingiustificato di maiuscole («Arringo, «Palme, «Allori»...) ecc. Nella perfezione di questo rifacimento dello stile del Seicento è la prima nota polemica del romanzo: la condanna di quanto di sfarzoso, di vuoto, di retorico c’era in quella civiltà, e in primo luogo in quella letteratura, che a Manzoni appare, per stile e idee, l'opposto della vera letteratura. Egli vuole uno stile semplice, vivo, che corrisponda al vivere reale degli uomini. Sarà, questa, la sua «dicitura».</note>
+        <note xml:id="Viti-Sapegno2005_intro-n2" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040">
+          <ref rend="bold">4. gl'illustri Campioni</ref>:  gli storici famosi, i quali non trattano altro che delle imprese dei grandi: imperatori, papi, re, principi... Tutto il resto, cioè il popolo, rimane muto, assente in quelle storie: le sue aspirazioni, i suoi dolori, sepolti per sempre. Qui c'è già la seconda nota polemica: la condanna dell’esaltazione dei potenti, che soffocano l'esistenza degli umili. La voce di Manzoni sarà sempre in difesa della dignità della persona umana, di qualunque persona. Anzi, gli umili soprattutto egli chiamerà a dar vita alla storia e in questa storia farà vedere come proprio da essi scaturiscano, il più delle volte, i pensieri e le azioni più nobili.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n3" type='comm' target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150">
+          <ref rend="bold">13. schietta e genuinamente</ref>:  schiettamente e genuinamente; l’uso di coppie di avverbi con una sola desinenza in -mente è un’eleganza spagnolesca; queste forme avverbiali, diffuse dapprima in tutte le lingue romanze, erano scomparse dall'italiano dopo il Duecento. Anche subito dopo c'è un'altra eleganza barocca in quel pomposo arrotondamento del periodo ottenuto con l'inutile sinonimo: «ouuero sia Relatione. È naturale, che tutte queste eleganze, nelle mani del perfetto imitatore dello stile secentesco, si risolvano in altrettanti motivi caricaturali dello spagnolismo vuoto e borioso.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n4" type='comm' target="quarantana/intro.xml#intro_10160" targetEnd="quarantana/intro.xml#intro_10162">
+          <ref rend="bold">14. in angusto Teatro</ref>:  la Lombardia spazio certamente «angusto» a paragone degli altri immensi domini del re di Spagna.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n5" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10253">
+          <ref rend="bold">17-22. Re Cattolico... nobilissimo Cielo</ref>:  serie d'immagini iperboliche, tipicamente barocche, collegate argutamente a formare davvero «un nobilissimo Cielo»: il Re è il sole che non tramonta mai; il «Governatore, lume riflesso, è luna giammai calante; i «Senatori» stelle fisse: i «Magistrati» pianeti erranti... L'ironia investe tutti, specie i più meschinelli, i magistrati, di cui non ci mancherà la riprova che sono «erranti».</note>
+        <note xml:id="Viti-Sapegno2005_intro-n6" type='comm' target="quarantana/intro.xml#intro_10299" targetEnd="quarantana/intro.xml#intro_10304">
+          <ref rend="bold">26. occhij d'Argo e braccj di Briareo</ref>:  cento gli uni e gli altri, come narra la mitologia.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n7" type='comm' target="quarantana/intro.xml#intro_10305" targetEnd="quarantana/intro.xml#intro_10311">
+          <ref rend="bold">27. si vanno trafficando per li pubblici emolumenti</ref>:  ma questa sarebbe l’interpretazione dell’Anonimo. Quella di Manzoni è un’altra, e tutta il contrario: si danno da fare per il proprio vantaggio. Il doppio senso della frase incomincia a mettere in luce lo sdoppiamento di personalità, e quindi di interventi, di critiche, di polemiche, che l’invenzione dell’Anonimo procurerà allo scrittore, in un giuoco malizioso d'atteggiamenti e di significati. Naturalmente l'espediente dell’Anonimo non si limita a questo; basterebbe osservare come esso ha già contribuito con questa pagina barocca — che ha il sapore del documento storico, o, come si suol dire, della stampa secentesca — ad accentuare quella critica del secolo XVII che è nei propositi artistici e morali del romanziere.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n8" type='comm' target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346">
+          <ref rend="bold">30. con rendersi tributarij delle Parche</ref>:  morendo. Metafora macchinosa, in armonia con tutte le altre. Si sa che le Parche (Cloto, Lachesi, Atropo) presiedevano alla vita e alla morte dell’uomo.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n9" type='comm' target="quarantana/intro.xml#intro_10427" targetEnd="quarantana/intro.xml#intro_10429">
+          <ref rend="bold">37. puri purissimi accidenti...</ref>:  il periodo s’interrompe proprio nel bel mezzo di così classicheggiante sostenutezza, e quando era stata portata in campo addirittura la sapienza dei filosofi. E s’interrompe con un termine famoso, «accidenti», tipico di quella filosofia aristotelica che imperava nel Seicento, e col quale si indicavano elementi puramente esteriori e transitori, in contrapposizione alle «sostanze». La parodia di quel mondo culturale è già condotta con uno spasso vivissimo e accresciuta dalla maliziosa interruzione.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n10" type='comm' target="quarantana/intro.xml#intro_10565" targetEnd="quarantana/intro.xml#intro_10580">
+          <ref rend="bold">48-50. com'è dozzinale!... sgangherati</ref>:  C'è qui, e più avanti si riprende e si completa, un commento delle due pagine secentesche. Manzoni, per merito dell’Anonimo, si fa dunque critico dell’opera sua o, meglio, fa la critica alla letteratura del Seicento.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n11" type='comm' target="quarantana/intro.xml#intro_10606" targetEnd="quarantana/intro.xml#intro_10607">
+          <ref rend="bold">52. d'eccitar maraviglia</ref>:  in questo stava l'essenza dell’arte per gli scrittori del Seicento. Giambattista Marino, il più celebre poeta del secolo, aveva cantato: «È del poeta il fin, la maraviglia».</note>
+        <note xml:id="Viti-Sapegno2005_intro-n12" type='comm' target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10626">
+          <ref rend="bold">53-54. rettorica discreta</ref>:  cioè, non l'ampollosa oratoria e la vacua declamazione, ma una retorica «fine» e «di buon gusto» che sa dare calore umano alla scena e armonia musicale all'espressione. Cioè un'arte letteraria spontanea e controllata a un tempo.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n13" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700">
+          <ref rend="bold">60. in questo paese</ref>:  non che il resto dell’Italia fosse molto diverso da questa regione (anche se altrove hanno vissuto e scritto un Galileo, un Sarpi ecc.); ma Manzoni pone l'accento sulla Lombardia per l’influsso dannoso che egli attribuisce alla dominazione spagnola nei riguardi della cultura italiana. Osserviamo che il giudizio tanto negativo che Manzoni dà della letteratura e della civiltà del Seicento è conforme all’interpretazione critica che di quel secolo dette in generale la storiografia romantica dell'Ottocento. De Sanctis, per esempio, che di tale interpretazione sarebbe stato il massimo esponente, scrisse, fra l’altro, che il mondo secentesco è «un mondo ipocrita e inquisitoriale, dove la vita religiosa e sociale fuori della coscienza è meccanizzata e immobilizzata in forme fisse e inviolabili», un mondo quindi cui «l’arte intisichisce», perché mondo «mantenuto nelle apparenze, rimbombante nelle frasi, non sentito, non meditato, non ventilato e rinnovato. [...] Il tarlo della società era l'ozio dello spirito, una assoluta indifferenza sotto quelle forme abituali religiose ed etiche. La letteratura era a quella immagine, vuota d'idee e di sentimenti, un giuoco di forme, una semplice esteriorità» (Storia della letteratura italiana, 1870-71). Naturalmente il giudizio sul Seicento ora è notevolmente mutato per l'apporto di nuovi e più approfonditi studi; ma dell'interpretazione ottocentesca occorre sempre ricordarsi nel seguire la lettura del romanzo.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n14" type='comm' target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">
+          <ref rend="bold">60-62. In vero... stravaganze</ref>:  il tono ironico ricopre una verità di grande importanza: la condanna delle malizie e del manierismo di tanta parte della letteratura contemporanea e antecedente. Manzoni ebbe la coscienza di contribuire all'affermazione di un gusto poetico nuovo, basato sulla concretezza dei fatti e sulla chiarezza dell'espressione. In queste parole, quindi, si è sentita giustamente l'eco di un pensiero famoso della Lettre à M. Chauvet: «l'essenza della poesia non consiste nell’invenzione degli episodi, perché tale invenzione è ciò che di più facile e volgare esiste nella vita dello spirito» (1820).</note>
+        <note xml:id="Viti-Sapegno2005_intro-n15" type='comm' target="quarantana/intro.xml#intro_10762" targetEnd="quarantana/intro.xml#intro_10782">
+          <ref rend="bold">66-68. in quanto storia... molto bella</ref>:  perché, come vedremo, non si tratterà solo di vicende dei poveri uomini, ma di misteriosi, decisivi interventi della mano di Dio. Si osservi comunque la sorridente modestia dello scrittore: bella la «storia» finché si vuole, ma «in quanto storia». Come trama e soluzione dei fatti, vuol dire: non come «libro», che su quella «storia» egli riuscirà a comporre.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n16" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10826">
+          <ref rend="bold">71-72. con un'ingenuità... medesimo</ref>:  «ingenuità» qui ha il senso di sincerità. Perciò, siccome Manzoni nella sua modestia valuta ben poca, o nulla, l’importanza del libro, vuol dire che nulla è la sincerità dell'origine che ha qui descritta. Quindi: tutto è stato una malizia, un'invenzione. Un modo garbato e sorridente per dirci di non credere a tutto ciò che fin qui ci ha raccontato: e per dirci anche che quelle due pagine secentesche sono opera sua.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n17" type='comm' target="quarantana/intro.xml#intro_10934" targetEnd="quarantana/intro.xml#intro_10938">
+          <ref rend="bold">81-82. citeremo... testimonianze</ref>:  in modo particolare Ripamonti. Queste citazioni, destinate a «procacciar fede alle cose», contribuiranno a dare maggior solidità storica all'opera; la quale è appunto romanzo storico, in quanto del fatto storico è, a un tempo, rappresentazione vera e trasfigurazione fantastica.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n18" type='comm' target="quarantana/intro.xml#intro_11042" targetEnd="quarantana/intro.xml#intro_11062">
+          <ref rend="bold">91-93. siamo andati... anticipatamente</ref>:  Manzoni fu sempre attento studioso della lingua, specialmente negli stessi anni in cui componeva la prima stesura del romanzo (1821-1823), e poi mentre preparava la prima edizione (1825-27) e la seconda (1840-42). Generalmente si è pensato che qui volesse alludere al libro Sentir messa, pubblicato soltanto molti anni dopo la sua morte. È più probabile, invece, che Manzoni si riferisca a uno scritto precedente, messo insieme ma non completato fra il 1823 e il 1824 e andato poi distrutto, di cui rimangono solo poche carte.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n19" type='comm' target="quarantana/intro.xml#intro_11107" targetEnd="quarantana/intro.xml#intro_11171">
+          <ref rend="bold">96-102. mettendo due critiche... a spasso</ref>:  modo arguto vivacissimo che personificando, per così dire, le critiche, riversa tutta la carica d’ironia sui critici, che tanto spesso si contrastano e si combattono con argomenti a non finire e col risultato di neutralizzarsi a vicenda.</note>
+        <note xml:id="Viti-Sapegno2005_intro-n20" type='comm' target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">
+          <ref rend="bold">105-109. Veduta... d'avanzo</ref>:  l’Introduzione finisce così con un discorso serio e nello stesso tempo garbatamente scherzoso. Il suo tono pacato avvia pianamente alla lettura della «bella» storia. Ma già conosciamo non poco di questo libro e del suo autore: una visione pensosa del mondo, un impegno storico attento, una polemica pronta e vivace, una saggezza serena, uno stile semplice e armonioso.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

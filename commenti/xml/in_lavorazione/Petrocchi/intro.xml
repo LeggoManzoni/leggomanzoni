@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Policarpo Petrocchi (1893-1902)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IZ">Isabel Zamboni</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Policarpo Petrocchi</title>
+          <editor>Policarpo Petrocchi</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1893-1902</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Petrocchi_intro">
+        <note xml:id="Petrocchi_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia</ref>:  L’Historia. Quest'introduzione non è da saltare, come molti fanno, perchè è importante e assai arguta. Fu fatta a similitudine di quella del Cervantes, ma con altra base. L'A. vuol dare ad intendere d'aver trovato il manoscritto d'un romanzo, molto bello, che ebbe desiderio di pubblicare; ma a un certo punto s'accorse non esser quella una forma possibile : bisognava correggere e rifare. Perché il lettore se ne persuada meglio, glie ne porta subito un saggio; che è questo brano in corsivo. Finge d'avere smesso a un certo punto; e fa delle riflessioni sulla prosa del sopposto anonimo secentista, le quali intendono essere una critica di tutt’ una maniera di scrivere, e un insegnamento generale di quant'occorre per scrivere discretamente. Insomma un piccolo trattato dell'arte del dire, tanto piú importante a' tempi del Manzoni, che, in quanto a criteri di lingua, c'era una confusione tale da non poterla immaginare un giovino che venga su ora, che tanti impacci furono sgombrati da lui. E si noti. Il brano imitato e virgoleggiato è tutt'una goffaggine per la forma; ma per la sostanza è buono: è il Manzoni che paria, camuffato da secentista. Eccone qui il senso: - La storia sa eternare i fatti umani; ma gli storici non parlano che dei principi e dei potenti. Le mie deboli facoltà non mi permettono di sollevarmi tanto alto (v. la Vita che precede il volume), Avendo avuto notizia di fatti importanti avvenuti a dei poveri artigiani, racconto questi. E si vedrà in breve racconto, scene veramente triste, vere tragedie, azioni che si potrebbero dire diadoliche. E se non ci fosse entrato il diavolo (Don Alessandro fa, al suo solito, della satira) come potrebbe darsi che un impero così felice come il nostro, retto da un re cattolico, da un viceré, da tanti magnifici senatori, da rispettabili magistrati, riuscisse a  diventare campo di tante ingiustizie? Ora,  io descrivendo le cose avvenute quand'ero giovine, benché la piú parte delle persone di cui parlo sian morte, pure, per degni rispetti,  ne tacerò il nome, indicando solamente in  generale i territori. E nessuno, che ragioni un po’, me ne farà colpa, perché, in quant’alla sostanza, non manca nulla; e i nomi sono puri purissimi accidenti. - Non staremo a dire qui in particolare le ragioni imitatorie di questo brano contraffatto: il preuderia ab ovo; il cominciare da una definizione, secondo il consiglio ciceroniano; il  soffermarsi tanto su una stessa similitudine, rincalzandola trivialmente con altre della stessa goffaggine; quell'imbastitura d'allori, di prigionieri, di cadaveri, di spoglie, d’imprese imbalsamate cogl’inchiostri, ecc. Lo studioso rifletta da sé.</note>
+        <note xml:id="Petrocchi_intro-n2" type="comm" target="quarantana/intro.xml#intro_10100"><ref rend="bold">solleuarsi</ref>:  sollevarsi. Correz. fatte  per avvicinarsi meglio alla scrittura del  secento.</note>
+        <note xml:id="Petrocchi_intro-n3" type="comm" target="quarantana/intro.xml#intro_10054" targetEnd="quarantana/intro.xml#intro_10056"><ref rend="bold">le sole spoglie</ref>:  le spoglie. L'aggiuuta forma un di quei bisticci cari anticam. a' provenzali, e non discaro a' tempi che finge l'A.</note>
+        <note xml:id="Petrocchi_intro-n4" type="comm" target="quarantana/intro.xml#intro_10452" targetEnd="quarantana/intro.xml#intro_10454"><ref rend="bold">si suol dire</ref>:  suol dirsi. Meno com.</note>
+        <note xml:id="Petrocchi_intro-n5" type="comm" target="quarantana/intro.xml#intro_10458" targetEnd="quarantana/intro.xml#intro_10459"><ref rend="bold">troverà poi</ref>:  troverà egli poi. L'egli piconastico è oggi meno com. e piuttosto volgaro.</note>
+        <note xml:id="Petrocchi_intro-n6" type="comm" target="quarantana/intro.xml#intro_10474"><ref rend="bold">decifrare</ref>:  deciferare. Oggi contadinosco.</note>
+        <note xml:id="Petrocchi_intro-n7" type="comm" target="quarantana/intro.xml#intro_10501" targetEnd="quarantana/intro.xml#intro_10503"><ref rend="bold">dicevo tra me</ref>:  diceva io fra me. La desineuza avo, eva, iva nelle prime pers. dell’imperf. è equivoca; e non è che nell'uso letterario. Correggendo coll'uso, qui l'io diventa inutile.</note>
+        <note xml:id="Petrocchi_intro-n8" type="comm" target="quarantana/intro.xml#intro_10512"><ref rend="bold">grandine</ref>:  gragnuola. Non vivo quasi piú che nel prov. Socera e nora tempesta e gragnola. E non si userebbe coll'u.</note>
+        <note xml:id="Petrocchi_intro-n9" type="comm" target="quarantana/intro.xml#intro_10528"><ref rend="bold">secentista</ref>:  (non seicentista) scrittore del secento, cioè del sec. xvii.</note>
+        <note xml:id="Petrocchi_intro-n10" type="comm" target="quarantana/intro.xml#intro_10531" targetEnd="quarantana/intro.xml#intro_10538"><ref rend="bold">sul principio mettero in mostra la sua virtù</ref>:  a prima giunta fare un po’ di mostra della sua virti. Quell’A prima giunta è poco com., e avrebbe senso di a prima vista, con idea piú d'arrivo, che di principio. Metter in mostra è piú ampio; e dice meglio l'ostentazione.</note>
+        <note xml:id="Petrocchi_intro-n11" type="comm" target="quarantana/intro.xml#intro_10561"><ref rend="bold">com'è</ref>:  come è. Questi troncamenti, sia detto una volta per sempre, sono per agevolare il legame delle parole, come quando si parla. In quanto alla critica, osserva che il M. intende s'abbia a scrivere con semplicità, senz'affettazione; ma non non dozzinalmente e con goffaggini. L'arte à le sueeno prerogative; e tra le prime, quella di non andare a caso nella scelta delle parole, e di evitare le sciatterie. Si va a caso quando l'espressione non è calzante; e sciatteria c'è sempre in arte quando caschiamo nel superfino di parole e d'idee e ne’ così detti luoghi comuni. Anche la rettorica ci vuole, ma discreta. E va faggita la grammatica arbitraria cioè quella che è in disorienta coll'uso. Così i periodi sono sgangherati quando non son fusi dall'arte, eliminando quanto s'è detto sopra. Metti insieme quanto il M. critica al suo supposto anonimo; e vedrai quello che occorre per avviarsi a scriver bene.</note>
+        <note xml:id="Petrocchi_intro-n12" type="comm" target="quarantana/intro.xml#intro_10569" targetEnd="quarantana/intro.xml#intro_10570"><ref rend="bold">a iosa</ref>:  a furia. In questo sign. non usa.</note>
+        <note xml:id="Petrocchi_intro-n13" type="comm" target="quarantana/intro.xml#intro_10585"><ref rend="bold">spagnola</ref>:  spagnuola molti di questi u sono scomparsi  dall'uso, e oggi anche nella scrittura com., riavvicinandosi cosi, în fondo, all'ortografia latina.</note>
+        <note xml:id="Petrocchi_intro-n14" type="comm" target="quarantana/intro.xml#intro_10101"><ref rend="bold">a</ref>:  ad. Una volta si metteva  questo d eufonico a molte particelle; e si faceva ched, mad, sed ecc. Gli ultimi a scorparire sono stati od, ad, ed, i quali non s’adoprano che raramente; p. e. Adamo ed Eva, Dare ad intendere e pochi altri. Ma Od è scomparso, o quasi.</note>
+        <note xml:id="Petrocchi_intro-n15" type="comm" target="quarantana/intro.xml#intro_10618"><ref rend="bold">richiedono</ref>:  richieggono. D'uso piú volgare che com.</note>
+        <note xml:id="Petrocchi_intro-n16" type="comm" target="quarantana/intro.xml#intro_10623"><ref rend="bold">rettorica</ref>:  retorica. Uso.</note>
+        <note xml:id="Petrocchi_intro-n17" type="comm" target="quarantana/intro.xml#intro_10627"><ref rend="bold">fine</ref>:  fina. Uso.</note>
+        <note xml:id="Petrocchi_intro-n18" type="comm" target="quarantana/intro.xml#intro_10636"><ref rend="bold">metterci</ref>:  mettervi. Uso meno com.</note>
+        <note xml:id="Petrocchi_intro-n19" type="comm" target="quarantana/intro.xml#intro_10178"><ref rend="bold">opposte</ref>:  disparate. Assai diverso: il disugualo non è l'opposto.</note>
+        <note xml:id="Petrocchi_intro-n20" type="comm" target="quarantana/intro.xml#intro_10655" targetEnd="quarantana/intro.xml#intro_10656"><ref rend="bold">la maniera</ref>:  modo. ll modo indica piú arte e finezza; e s'addice meno allo sciatto anonimo.</note>
+        <note xml:id="Petrocchi_intro-n21" type="comm" target="quarantana/intro.xml#intro_10713"><ref rend="bold">ammaliziati</ref>:  avvisati. Aveva un sign. d’accortezza cho non è piú nell'uso. E ammaliziati dice la furberia di chi sa sfuggire i tranelli, specialmente comuni e volgari, come il M. vuol far credere il suo.</note>
+        <note xml:id="Petrocchi_intro-n22" type="comm" target="quarantana/intro.xml#intro_10721"><ref rend="bold">Meno</ref>:  Manco. Uso.</note>
+        <note xml:id="Petrocchi_intro-n23" type="comm" target="quarantana/intro.xml#intro_10776" targetEnd="quarantana/intro.xml#intro_10778"><ref rend="bold">era parsa bella</ref>:  ella era paruta. Paruta non usa piú; ella non è com.; il bella, ripetuto, afferma meglio la persuasione delI’A., il quale dice cosa molto giusta. Chi non è persuaso che il suo lavoro sia buono e bello non lo deve pubblicare. Ingannarsi, pazienza; ma ingannare, no.</note>
+        <note xml:id="Petrocchi_intro-n24" type="comm" target="quarantana/intro.xml#intro_10805" targetEnd="quarantana/intro.xml#intro_10806"><ref rend="bold">alcuna obiezion</ref>:  alcun perché. Il perché non era un’obiezione. Qui il troncamento d’obiezione non saprei dirlo necessario; o presentata tornava forse meglio.</note>
+        <note xml:id="Petrocchi_intro-n25" type="comm" target="quarantana/intro.xml#intro_10811"><ref rend="bold">subito</ref>:  tosto. Uso.</note>
+        <note xml:id="Petrocchi_intro-n26" type="comm" target="quarantana/intro.xml#intro_10821" targetEnd="quarantana/intro.xml#intro_10822"><ref rend="bold">un'ingenuità pari</ref>:  Qui il M. sì burla un poco del lettore disattento, perché intende dire appunto che quanto à raccontato finora, circa all’origine del libro, è tutt'una bella fandonia. Ma, vien voglia di domandare, se l'A. dice sopra che il romanzo gli pareva bello, perché ora gli nega importanza? Arguto lettore, son due cose abbastanza diverse.</note>
+        <note xml:id="Petrocchi_intro-n27" type="comm" target="quarantana/intro.xml#intro_10857"><ref rend="bold">testimoni</ref>:  testimonii. Questi due ii non si fanno sentire nella maggior parte di questi nomi (v. mio Vocabolarietto di pronunzia e ortografia) e dove non si pronunziano, neppure si segnano scrivendo.</note>
+        <note xml:id="Petrocchi_intro-n28" type="comm" target="quarantana/intro.xml#intro_10861" targetEnd="quarantana/intro.xml#intro_10863"><ref rend="bold">messi a frugar</ref>:  data la briga di frugare. Darsi la briga è da impacciosi; o di chi non abbia sufficienti ragioni per fare quel che fa.</note>
+        <note xml:id="Petrocchi_intro-n29" type="comm" target="quarantana/intro.xml#intro_10929"><ref rend="bold">fossero</ref>:  avessero. Uso.</note>
+        <note xml:id="Petrocchi_intro-n30" type="comm" target="quarantana/intro.xml#intro_10982" targetEnd="quarantana/intro.xml#intro_10984"><ref rend="bold">rifar l'opera altrui</ref>:  rifare l’altrui lavorando. Uso. E poi Lavorio è ben diverso da opera e da lavoro. Indica qualche cosa di speciale e di travaglioso, mentre qui si parla in generale.</note>
+        <note xml:id="Petrocchi_intro-n31" type="comm" target="quarantana/intro.xml#intro_11024" targetEnd="quarantana/intro.xml#intro_11025"><ref rend="bold">avevam proposto</ref>:  noi ci eravamo proposti. Quel ci eravamo è meno modesto,</note>
+        <note xml:id="Petrocchi_intro-n32" type="comm" target="quarantana/intro.xml#intro_10106"><ref rend="bold">con</ref>:  coll: Anche questo. Perché coll’, indica intenzione piú piena.</note>
+        <note xml:id="Petrocchi_intro-n33" type="comm" target="quarantana/intro.xml#intro_11101"><ref rend="bold">questioni</ref>:  quistioni. Meno com.</note>
+        <note xml:id="Petrocchi_intro-n34" type="comm" target="quarantana/intro.xml#intro_11110" targetEnd="quarantana/intro.xml#intro_11112"><ref rend="bold">alle mani tra</ref>:  a’ capelli fra. La frase sostituita corrisponde meglio col battere che segue.</note>
+        <note xml:id="Petrocchi_intro-n35" type="comm" target="quarantana/intro.xml#intro_11122" targetEnd="quarantana/intro.xml#intro_11123"><ref rend="bold">a fondo</ref>:  addentro. Dice meno.</note>
+        <note xml:id="Petrocchi_intro-n36" type="comm" target="quarantana/intro.xml#intro_11143" targetEnd="quarantana/intro.xml#intro_11144"><ref rend="bold">tutt'e due</ref>:  entrambe. Uso.</note>
+        <note xml:id="Petrocchi_intro-n37" type="comm" target="quarantana/intro.xml#intro_11147" targetEnd="quarantana/intro.xml#intro_11148"><ref rend="bold">badare ai</ref>:  avvertire i. Avvertire vien da badare, che, secondo il parere dell'A., qui basta.</note>
+        <note xml:id="Petrocchi_intro-n38" type="comm" target="quarantana/intro.xml#intro_11161"><ref rend="bold">messele</ref>:  postele. Uso piú comune.</note>
+        <note xml:id="Petrocchi_intro-n39" type="comm" target="quarantana/intro.xml#intro_10859"><ref rend="bold">ci</ref>:  vi. È piú letter. che com.</note>
+        <note xml:id="Petrocchi_intro-n40" type="comm" target="quarantana/intro.xml#intro_11191" targetEnd="quarantana/intro.xml#intro_11192"><ref rend="bold">al punto</ref>:  a quello. Uso.</note>
+        <note xml:id="Petrocchi_intro-n41" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11215"><ref rend="bold">Veduta la qual cosa</ref>:  Il che veduto. Qui la ragione del cambiamento o non e' è, o è poca cosa, perché anche la qualcosa è lett. Forse a' tempi del M. il che era piú letterario che oggi.</note>
+        <note xml:id="Petrocchi_intro-n42" type="comm" target="quarantana/intro.xml#intro_11216" targetEnd="quarantana/intro.xml#intro_11219"><ref rend="bold">abbiam messo da parte</ref>:  ponemmo da canto. Uso.</note>
+        <note xml:id="Petrocchi_intro-n43" type="comm" target="quarantana/intro.xml#intro_11230"><ref rend="bold">buone</ref>:  valide. Il valide accenna a un’esuberanza di forza che forse è Superflua per una storia e una questione di così poca importanza, come dice l'A. E buona è la parola usata comunem. Nella fine di questa Introduzione il M. accenna già alla questione sulla lingua che aveva in mente di trattare, e che poi trattò col buon successo che tutti sanno. Nessuno meglio di lui, nel comporre e correggere con una precisione cosi minuziosa il suo romanzo, poté veder da vicino le particolarità noiose e i guai cancrenosi di quella lingua aerea che in tutte le città d'Italia si trovava, senza risedere in alcuna; e poté con sicura coscienza di quel che faceva, dare contro a un'infinità di nemici una battaglia di tanta importanza.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

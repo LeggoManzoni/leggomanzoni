@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pier Paolo Benucci (1996)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="JP">Jacopo Pesaresi</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+          <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi :  Note e commento di Pier Paolo Benucci</title>
+          <editor>Benucci, Pier Paolo</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Armando Editore</publisher>
+          <date>1996</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1 </p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Benucci_intro">
+        <note xml:id="Benucci_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia...</ref>:  Manzoni finge di aver trovato un manoscritto di un anonimo del Seicento.</note>
+        <note xml:id="Benucci_intro-n2" type='comm' target="quarantana/intro.xml#intro_10022"><ref rend="bold">cadaueri</ref>:  cadaveri. Si riproduce una grafia tipica del Seicento: consonanti doppie, u intervocalica al posto di v, maiuscole in eccesso, parole latineggianti, t al posto di z, ecc.</note>
+        <note xml:id="Benucci_intro-n3" type='comm' target="quarantana/intro.xml#intro_10040"><ref rend="bold">Campioni</ref>:  evidente la polemica contro gli scrittori che consegnano alla storia solo le imprese dei grandi.</note>
+        <note xml:id="Benucci_intro-n4" type='comm' target="quarantana/intro.xml#intro_10044"><ref rend="bold">Arringo</ref>:  arengo, recinto per la battaglia, per la giostra militare, quindi gara.</note>
+        <note xml:id="Benucci_intro-n5" type='comm' target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  l’oricalco è una lega di rame e zinco usata anche per costruire trombe.</note>
+        <note xml:id="Benucci_intro-n6" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10132"><ref rend="bold">gente meccaniche...</ref>:  persone che praticano lavori manuali, di umili condizioni, che di solito non sono protagonisti di romanzi.</note>
+        <note xml:id="Benucci_intro-n7" type='comm' target="quarantana/intro.xml#intro_10148"><ref rend="bold">schietta</ref>:  schiettamente.</note>
+        <note xml:id="Benucci_intro-n8" type='comm' target="quarantana/intro.xml#intro_10161" targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">angusto Teatro</ref>:  nel circoscritto spazio geografico della Lombardia.</note>
+        <note xml:id="Benucci_intro-n9" type='comm' target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  protezione (spagn.).</note>
+        <note xml:id="Benucci_intro-n10" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10196"><ref rend="bold">Re Cattolico nostro Signore</ref>:  il re di Spagna Filippo IV (1621-1665).</note>
+        <note xml:id="Benucci_intro-n11" type='comm' target="quarantana/intro.xml#intro_10217"><ref rend="bold">l'Heroe</ref>:  il governatore di Milano.</note>
+        <note xml:id="Benucci_intro-n12" type='comm' target="quarantana/intro.xml#intro_10219" targetEnd="quarantana/intro.xml#intro_10220"><ref rend="bold">nobil Prosapia</ref>:  nobile stirpe.</note>
+        <note xml:id="Benucci_intro-n13" type='comm' target="quarantana/intro.xml#intro_10222" targetEnd="quarantana/intro.xml#intro_10223"><ref rend="bold">pro tempore</ref>:  temporaneamente.</note>
+        <note xml:id="Benucci_intro-n14" type='comm' target="quarantana/intro.xml#intro_10300" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">d'Argo... Briareo</ref>:  due mostri della mitologia, il primo con cento occhi, il secondo con cento braccia.</note>
+        <note xml:id="Benucci_intro-n15" type='comm' target="quarantana/intro.xml#intro_10343" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">rendersi tributarij delle Parche</ref>:  pagando un tributo di morte alle Parche. Le tre Parche, nella mitologia, regolavano il destino dell’uomo: Cloto dipanava il filo della vita, Lachesi vi univa filo dorato per le gioie e filo nero per le disgrazie, Atropo lo recideva e poneva fine alla vita.</note>
+        <note xml:id="Benucci_intro-n16" type='comm' target="quarantana/intro.xml#intro_10370"><ref rend="bold">generaliter</ref>:  in modo generico.</note>
+        <note xml:id="Benucci_intro-n17" type='comm' target="quarantana/intro.xml#intro_10385"><ref rend="bold">Parto</ref>:  prodotto.</note>
+        <note xml:id="Benucci_intro-n18" type='comm' target="quarantana/intro.xml#intro_10429"><ref rend="bold">accidenti</ref>:  qualità secondarie.</note>
+        <note xml:id="Benucci_intro-n19" type='comm' target="quarantana/intro.xml#intro_10512" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">grandine di concettini e di figure retoriche</ref>:  tutte le numerose figure retoriche utilizzate nella parte iniziale del manoscritto.</note>
+        <note xml:id="Benucci_intro-n20" type='comm' target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568"><ref rend="bold">Idiotismi lombardi</ref>:  forme dialettali lombarde.</note>
+        <note xml:id="Benucci_intro-n21" type='comm' target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10626"><ref rend="bold">rettorica discreta</ref>:  l’arte di parlare e scrivere, con stile, ma senza artificiosità ed eccessi.</note>
+        <note xml:id="Benucci_intro-n22" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  errori di costruzione del periodo.</note>
+        <note xml:id="Benucci_intro-n23" type='comm' target="quarantana/intro.xml#intro_10865" targetEnd="quarantana/intro.xml#intro_10868"><ref rend="bold">memorie di quel tempo</ref>:  il manoscritto dell’anonimo del Seicento è finzione letteraria, veri invece gli studi storici del Manzoni (Giuseppe Ripamonti, Historia Patria e Alessandro Tadino, Raguaglio).</note>
+        <note xml:id="Benucci_intro-n24" type='comm' target="quarantana/intro.xml#intro_10966" targetEnd="quarantana/intro.xml#intro_10967"><ref rend="bold">che dicitura...</ref>:  non è da escludere che l’autore faccia qui riferimento autoironico alle diverse stesure del proprio romanzo.</note>
+        <note xml:id="Benucci_intro-n25" type='comm' target="quarantana/intro.xml#intro_11211"><ref rend="bold">libro</ref>:  potrebbe essere, secondo Lanfranco Caretti, un libro sulla lingua italiana, citato in una lettera di Giulia Beccaria, e poi distrutto; potrebbe essere Sentir Messa, breve saggio sulla lingua italiana, composto nel 1836 e pubblicato postumo.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

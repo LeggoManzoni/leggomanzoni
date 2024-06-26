@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap18">
+                <note xml:id="Russo_cap18-n1" type="comm" target="quarantana/cap18.xml#c18_10065"><ref rend="bold">Ignotum</ref>:<persName>Renzo</persName> al finto spadaio aveva parlato solamente del territorio di <placeName>Lecco</placeName>.
+                </note>
+                <note xml:id="Russo_cap18-n2" type="comm" target="quarantana/cap18.xml#c18_10166" targetEnd="quarantana/cap18.xml#c18_10168"><ref rend="bold">Et complicibus sumatis</ref>:  Quello che diceva il mercante era già la tesi ufficiale. <persName>Renzo</persName> avrebbe avuto un’intesa con dei <hi rend="italic">compagni</hi>, quelli stessi che erano riusciti a liberarlo dai birri, e altri.</note>
+                <note xml:id="Russo_cap18-n3" type="comm" target="quarantana/cap18.xml#c18_10196" targetEnd="quarantana/cap18.xml#c18_10198"><ref rend="bold">Essersi umanamente cerziorato</ref>:  Cioè con tutti i mezzi possibili. Un gran sapore satirico ha quel pedantesco <hi rend="bold">cerziorato</hi>, che continua idealmente quel pezzo di latino da tribunale giudiziario. E svela il tono artistico della pagina, dove le frasi latine vogliono rendere, in una deformazione epico-grottesca, la solennità della cabala ordita dalla polizia.</note>
+                <note xml:id="Russo_cap18-n4" type="comm" target="quarantana/cap18.xml#c18_10222" targetEnd="quarantana/cap18.xml#c18_10229"><ref rend="bold">con gran treno di notaio e di birri</ref>:  Il podestà deve essere felice di capeggiare quella spedizione. Si tratta di formare addosso a qualcuno un buon processo, e il suo formale gusto giuridico se ne giova. Si veda, al cap. V, le nn. 191-92 e 264.</note>
+                <note xml:id="Russo_cap18-n5" type="comm" target="quarantana/cap18.xml#c18_10248" targetEnd="quarantana/cap18.xml#c18_13146"><ref rend="bold">si fa la debita diligenza... città presa d’assalto</ref>:  Col <hi rend="italic">debita diligenza</hi>, si continua la parodia dello stile burocratico-giudiziario, e poi quella perquisizione si svela per quello che è: un saccheggio, in piena regola, di tutto ciò che si trova dentro la casuccia.</note>
+                <note xml:id="Russo_cap18-n6" type="comm" target="quarantana/cap18.xml#c18_10347" targetEnd="quarantana/cap18.xml#c18_10350"><ref rend="bold">Della sua prava qualità</ref>:  Riprende il <hi rend="italic">prava qualitate</hi> del rapporto, che avvolge di un indefinito umorismo la figura di <persName>Renzo</persName> e la singolare situazione.</note>
+                <note xml:id="Russo_cap18-n7" type="comm" target="quarantana/cap18.xml#c18_10352" targetEnd="quarantana/cap18.xml#c18_10361"><ref rend="bold">Aver nome Tramaglino... un delitto</ref>:  La satira contro la cabala e le montature della polizia, non potrebbe essere più feroce.</note>
+                <note xml:id="Russo_cap18-n8" type="comm" target="quarantana/cap18.xml#c18_10475" targetEnd="quarantana/cap18.xml#c18_10479"><ref rend="bold">Gran torto anche ai birbanti</ref>:  La congettura del popolino rifinisce l’umorismo di tutta la situazione. In fondo, il <persName xml:id="author">M.</persName>, mentre ha l’aria di criticare quel giudizio per induzione, <hi rend="italic">senza la necessaria cognizione dei fatti</hi>, sorride argutamente della giustizia delle cose: un galantuomo resta sempre un galantuomo, e il birbante ha quel che si merita, anche se talvolta con una qualche errata attribuzione.</note>
+                <note xml:id="Russo_cap18-n9" type="comm" target="quarantana/cap18.xml#c18_10555" targetEnd="quarantana/cap18.xml#c18_10557"><ref rend="bold">Di ricever bastonate</ref>:  Il conte <persName>Attilio</persName> è sempre per le bastonate: bastonabile bastonabilissimo è il suo motto. Era giusto dunque che non andasse a <placeName>Milano</placeName>, visto che la canaglia girava per le strade in tutt’altra attitudine che di ricever bastonate.</note>
+                <note xml:id="Russo_cap18-n10" type="comm" target="quarantana/cap18.xml#c18_10677" targetEnd="quarantana/cap18.xml#c18_10678"><ref rend="bold">dell'abietto rivale</ref>:  Più su, <persName>Renzo</persName> è «il povero rivale» di don <persName>Rodrigo</persName>, ma lì giudicano i buoni paesani. Qui giudica <persName>Attilio</persName>, e l’<hi rend="italic">abietto</hi> rende la sua sprezzante alterigia di nobilotto.</note>
+                <note xml:id="Russo_cap18-n11" type="comm" target="quarantana/cap18.xml#c18_10773" targetEnd="quarantana/cap18.xml#c18_10778"><ref rend="bold">Un poco vedere come fosse fatto</ref>:  C’è una lusinga indiretta alla sozza passione del padrone.</note>
+                <note xml:id="Russo_cap18-n12" type="comm" target="quarantana/cap18.xml#c18_10815" targetEnd="quarantana/cap18.xml#c18_10823"><ref rend="bold">quel misto di puntiglio... d'infame capriccio</ref>:  Sulla passionaccia di don <persName>Rodrigo</persName>, vedi la n. 26 a. pag. 212, e la n. 266, a pag. 220.</note>
+                <note xml:id="Russo_cap18-n13" type="comm" target="quarantana/cap18.xml#c18_10856" targetEnd="quarantana/cap18.xml#c18_10859"><ref rend="bold">Come roba di rubello</ref>:  Di bandito. E però si poteva farvi man bassa, così come s’era fatta piazza pulita nella casa di <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n14" type="comm" target="quarantana/cap18.xml#c18_11007" targetEnd="quarantana/cap18.xml#c18_11010"><ref rend="bold">Divenuto ormai tutto tormentoso</ref>:  Non c’era speranza di soddisfarlo. Si conferma la passione di don <persName>Rodrigo</persName>, al di là del semplice puntiglio.</note>
+                <note xml:id="Russo_cap18-n15" type="comm" target="quarantana/cap18.xml#c18_14888" targetEnd="quarantana/cap18.xml#c18_15039"><ref rend="bold">Ma, ma, ma... piano un poco con questi amici</ref>:  È un periodetto che dà l’impressione della narrazione parlata, come se il <persName type="author">M.</persName> conversasse alla buona tra un gruppo di familiari. La ripetizione di quel <hi rend="italic">ma</hi> è nascostamente ironica: si ha l’aria di discutere sul serio il caso di don <persName>Rodrigo</persName>, quando si tratta di un frivolissimo puntiglio, di una vanità da giovinastri.</note>
+                <note xml:id="Russo_cap18-n16" type="comm" target="quarantana/cap18.xml#c18_11073" targetEnd="quarantana/cap18.xml#c18_11075"><ref rend="bold">Un po' ignobile</ref>:  Non nel significato morale, chè quei signori non potevano essere così schizzinosi, ma nel significato di <hi rend="italic">vile</hi>, per le condizioni sociali della vittima. Ciò che s’ intende meglio, da quella clausola: «uno non può alle volte regolare i suoi capricci.»</note>
+                <note xml:id="Russo_cap18-n17" type="comm" target="quarantana/cap18.xml#c18_11101" targetEnd="quarantana/cap18.xml#c18_11109"><ref rend="bold">Dandola vinta a un villano e a un frate! Uh!</ref>:  C’è il santo orrore di quella brigata di "amici soliti a straviziare insieme", per i quali il punto d’onore e la difesa orgogliosa della loro casta costituivano la vera religione.</note>
+                <note xml:id="Russo_cap18-n18" type="comm" target="quarantana/cap18.xml#c18_11188" targetEnd="quarantana/cap18.xml#c18_11194"><ref rend="bold">I ricordi incessanti e pungenti della passione</ref>:  Si veda più su, la n. 72. Il <persName type="author">M.</persName> non trascura alcuna nota per richiamarci alla natura dei sentimenti di don <persName>Rodrigo</persName>: puntiglio sì, ma anche capriccio pungente e tormentoso, cioè passione, così come può nascere in un animo rozzo e bestiale.</note>
+                <note xml:id="Russo_cap18-n19" type="comm" target="quarantana/cap18.xml#c18_11235" targetEnd="quarantana/cap18.xml#c18_11270"><ref rend="bold">La strada dell'iniquità... benché vada all'ingiù</ref>:  Senti la solennità da quaresimale della sentenza, prestata all’anonimo. Solennità e tono predicatorio apparente, perchè la massima precipita graziosamente in una trovata arguta: <hi rend="italic">benché vada all’ingiù.</hi>
+                </note>
+                <note xml:id="Russo_cap18-n20" type="comm" target="quarantana/cap18.xml#c18_11319" targetEnd="quarantana/cap18.xml#c18_11323"><ref rend="bold">Un uomo o un diavolo</ref>:  La figura dell’<persName>Innominato</persName> comincia a grandeggiare nella nostra fantasia.</note>
+                <note xml:id="Russo_cap18-n21" type="comm" target="quarantana/cap18.xml#c18_11326" targetEnd="quarantana/cap18.xml#c18_15046"><ref rend="bold">La difficoltà... uno stimolo a prenderle sopra di sè</ref>:  È il volitivo orgoglioso: una nota, in fondo, disinteressata dell’<persName>Innominato</persName>. L’arte per l’arte delle grandi imprese facinorose. Vedi al cap. XX, la n. 94.</note>
+                <note xml:id="Russo_cap18-n22" type="comm" target="quarantana/cap18.xml#c18_11375" targetEnd="quarantana/cap18.xml#c18_15040"><ref rend="bold">Potente ausiliario... assoluto e pericolo condottiero</ref>:  don <persName>Rodrigo</persName> è il tirannello delle vie di mezzo, mentre l’<persName>Innominato</persName> avrebbe voluto condurre l’impresa innanzi, senza ascoltar consiglio, e con i mezzi più estremi. Nota poi come il linguaggio del <persName type="author">M.</persName> assuma, qui, un colorito rinascimentale; pare di sentire un po’ <persName type="author">Machiavelli</persName>, che parla delle armi ausiliarie, le quali sono quasi sempre dannose <hi>"perchè, perdendo, rimani disfatto; vincendo, resti loro prigione."</hi>
+                </note>
+                <note xml:id="Russo_cap18-n23" type="comm" target="quarantana/cap18.xml#c18_11464" targetEnd="quarantana/cap18.xml#c18_11472"><ref rend="bold">Fecero inclinar... al partito rischioso</ref>:<persName>Attilio</persName>, per la superiorità dell'intelligenza e la maggiore spregiudicatezza nel male, ha sempre la parte di tenere all’erta <hi rend="italic">il diavolo che stava di casa</hi> presso il cugino, il qual diavolo talvolta, se non sonnecchia, se ne giace un po’ umiliato e offeso. Cfr. a p. 129, la n. 310-11. <persName>Attilio</persName> è sempre il genio artistico del male.</note>
+                <note xml:id="Russo_cap18-n24" type="comm" target="quarantana/cap18.xml#c18_11821" targetEnd="quarantana/cap18.xml#c18_11824"><ref rend="bold">Il vostro giovine posato...</ref>:  Nella fattoressa, c’è la voluttà della ciarla, e insieme quel tanto di malignità innocente dei pettegoli, che vogliono sempre un grosso finale da poter raccontare. Più su, la fattoressa aveva parlato di due, sei, otto, quattro, sette prigionieri (correggendo, per via, le cifre), destinati ad essere impiccati davanti al forno delle grucce, e alla casa del vicario di provvisione. Orbene se il giovane posato riuscisse a scappare e a mettersi in salvo, come finirebbe la faccenda? La fattoressa, evidentemente, non ama la fine fredda di una così bella tragedia.</note>
+                <note xml:id="Russo_cap18-n25" type="comm" target="quarantana/cap18.xml#c18_12051" targetEnd="quarantana/cap18.xml#c18_15039"><ref rend="bold">D'allora in poi le sue lacrime... c’era mescolato un ringraziamento</ref>:  Delicatissimo periodo, in cui <persName>Lucia</persName> sale come fanciulla amorosa, ma il cui amore (non detto) è sempre celebrato alla presenza di <persName>Dio</persName>. Le preghiere, il ringraziamento, la speranza in <persName>Dio</persName>, si mescolano alle sue lagrime di promessa sposa amareggiata dalla sventura: però esse sono <hi rend="italic">più facili e più dolci.</hi>
+                </note>
+                <note xml:id="Russo_cap18-n26" type="comm" target="quarantana/cap18.xml#c18_12082" targetEnd="quarantana/cap18.xml#c18_12086"><ref rend="bold">Gertrude la faceva venire spesso</ref>:  Questa pagina, mentre esplica delicatamente quella che è la poesia deI pudore, della timidezza, del tono riservato in <persName>Lucia</persName>, illumina di una luce di pietà, di umanità, anche la povera <persName>Gertrude</persName>. Qui, non più la donna dispettosa e strana, ma la sciagurata, bisognevole di espansione e dl conforto, e che nell’altrui innocenza acqueta per un momento i rimorsi delle proprie colpe. Questo tono di pietà c’era già nei cc. IX e X.</note>
+                <note xml:id="Russo_cap18-n27" type="comm" target="quarantana/cap18.xml#c18_12172" targetEnd="quarantana/cap18.xml#c18_12178"><ref rend="bold">Quella dottrina d'Agnese su' cervelli de' signori</ref>:  Cfr. la n. 685-86, a p. 209.</note>
+                <note xml:id="Russo_cap18-n28" type="comm" target="quarantana/cap18.xml#c18_12222" targetEnd="quarantana/cap18.xml#c18_12230"><ref rend="bold">Una voce così piena di dolore e di scandolo</ref>:  In questa discrezione di <persName>Lucia</persName>, c’è affetto doloroso per il suo <persName>Renzo</persName>, mescolato, come sempre, a timore religioso. Un fuggiasco, un perseguitato dalla giustizia, anche se per false o ingiuste ragioni, può offendere la pia immaginazione; e però <persName>Lucia</persName> accoglie tutta nel suo segreto la dolorosa notizia.</note>
+                <note xml:id="Russo_cap18-n29" type="comm" target="quarantana/cap18.xml#c18_12243" targetEnd="quarantana/cap18.xml#c18_12247"><ref rend="bold">Sulla storia antecedente alla promessa</ref>:<persName>Gertrude</persName> voleva conoscere la storia dei "dubbiosi desiri", prima che <persName>Lucia</persName> giungesse alla promessa di matrimonio col suo <persName>Renzo</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n30" type="comm" target="quarantana/cap18.xml#c18_12310" targetEnd="quarantana/cap18.xml#c18_12315"><ref rend="bold">Non le pareva possibile di proferire</ref>:  In questa inesprimibilità dei sentimenti, nella forma apparentemente negativa, c’è una poesia, un colorito efficace della delicatezza, della vita, del nimbo di sogni della virginea <persName>Lucia</persName>. Così come certe proposizioni dell’ineffabile nel <bibl><title xml:id="DivinaCommedia">Paradiso dantesco</title></bibl>, nella forma negativa, riescono a dare un’idea assai viva del rapimento o della commozione del poeta (<hi xml:id="italic">Trasumanar significar per verba non si poria!</hi>).
+                </note>
+                <note xml:id="Russo_cap18-n31" type="comm" target="quarantana/cap18.xml#c18_12350" targetEnd="quarantana/cap18.xml#c18_12359"><ref rend="bold">Tanta amorevolezza... tanta fiducia!</ref>:  Tutti questi sostantivi si riferiscono a <persName>Lucia</persName>: essa, cioè, nello star sulle difese, dimostrava tanta amorevolezza, tanta riconoscenza ecc., da disarmare il dispetto di <persName>Gertrude</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n32" type="comm" target="quarantana/cap18.xml#c18_12369" targetEnd="quarantana/cap18.xml#c18_12376"><ref rend="bold">Le dispiaceva ancor più per un altro verso</ref>:  Era un vivente rimprovero alla sua vita dissipata. Questa pagina, facile a sfuggire dalla memoria del lettore, pure affronta i delicatissimi e combattuti rapporti tra una peccatrice e un’innocente, e coglie quel miscuglio di sentimenti ostili e invidiosi e al tempo stesso teneri e affettuosi, che la peccatrice può avere per la purezza della sua compagna.</note>
+                <note xml:id="Russo_cap18-n33" type="comm" target="quarantana/cap18.xml#c18_12475" targetEnd="quarantana/cap18.xml#c18_12479"><ref rend="bold">E dietro all'aspo, quante cose!</ref>:  Chi sarà quel critico avaro, che si dimostrerà insoddisfatto di questo troppo conciso accenno alle fantasie e alle cure di <persName>Lucia</persName>? Eppure, dietro a quell’aspo, ci si perde un po’ tutti.</note>
+                <note xml:id="Russo_cap18-n34" type="comm" target="quarantana/cap18.xml#c18_12704" targetEnd="quarantana/cap18.xml#c18_12709"><ref rend="bold">Per farsi condurre a' suoi monti</ref>:  L’espressione è più intrisa di sentimento dell’altra analoga: “al suo paese.”. Anche <persName>Lucia</persName>, nel colloquio con l’<persName>Innominato</persName>, dice: “Ho veduto i miei monti!"</note>
+                <note xml:id="Russo_cap18-n35" type="comm" target="quarantana/cap18.xml#c18_12850" targetEnd="quarantana/cap18.xml#c18_12854"><ref rend="bold">Fra Galdino, quel delle noci</ref>:  Segue un mirabile bozzetto dialogato, in cui è rifinita la figura morale del cercatore di noci: cortese ed affabile, ma pur con una sua innocente insensibilità, fra <persName>Galdino</persName> non è un uomo, ma soltanto una parte, una voce, l’organo di tutto un corpo, di tutto un coro. Egli non parla mai per sè, ma per il corpo dei cappuccini a cui appartiene: in questo è la sua angustia, ma anche la sua ingenua grandezza.</note>
+                <note xml:id="Russo_cap18-n36" type="comm" target="quarantana/cap18.xml#c18_12869" targetEnd="quarantana/cap18.xml#c18_12873"><ref rend="bold">«Il padre Cristoforo? Non c'è</ref>:  Quale parsimonia di parole! Non si tratta di linguaggio reticente, ma soltanto di linguaggio impassibile: che padre <persName>Cristoforo</persName> non ci sia è un fatto normale per fra <persName>Galdino</persName>. Al suo posto ci sono altri padri, padre <persName>Atanasio</persName>, padre <persName>Girolamo</persName>, padre <persName>Zaccaria</persName>. Esiste il convento, “il convento è qui che non si muove”, non gli uomini: i frati sono sempre in perpetua missione, “perché noi viviamo della carità di tutto il mondo, ed è giusto che serviamo tutto il mondo”.</note>
+                <note xml:id="Russo_cap18-n37" type="comm" target="quarantana/cap18.xml#c18_12885" targetEnd="quarantana/cap18.xml#c18_12891"><ref rend="bold">E ritirando nel cappuccio la testa rasa</ref>:  Un altro particolare dell’impassibilità e lontananza del nostro fraticello. In quel monosillabo “ma...?” c’è come una specie di subitanea sorpresa, per la domanda che gli ha rivolto <persName>Agnese</persName>: padre <persName>Cristoforo</persName> starà molto a tornare? Egli non avrebbe mai pensato ad avere una curiosità di quel genere: “quando un nostro padre predicatore ha preso il volo, non si può prevedere su che ramo potrà andarsi a posare.”. Però, per lui quella domanda è un po’ oziosa e impensata. Il ritorno di padre <persName>Cristoforo</persName> “lo sa il padre provinciale; se lo sa anche lui.” Lo spirito di fra <persName>Galdino</persName> vive in una trascendenza assoluta, ed egli ha qualcosa dl velato, e non intende il linguaggio delle passioni e delle curiosità mondane. Al vano domandare degli uomini, non c’è che alzare le spalle, e ritirare nel cappuccio la testa rasa. È come un rifugiarsi e chiudersi nella celluzza del suo lontanissimo cielo.</note>
+                <note xml:id="Russo_cap18-n38" type="comm" target="quarantana/cap18.xml#c18_12902" targetEnd="quarantana/cap18.xml#c18_12906"><ref rend="bold">«Eh eh eh!» rispose il frate</ref>:  Quale tranquilla voluttà per la lontananza di quel misterioso paese!</note>
+                <note xml:id="Russo_cap18-n39" type="comm" target="quarantana/cap18.xml#c18_12929" targetEnd="quarantana/cap18.xml#c18_12935"><ref rend="bold">«Perché ha voluto così il padre provinciale</ref>:  Non una parola di più: la disciplina fratesca, l’ubbidienza, è vissuta con una perfetta pace dell’anima e della mente.</note>
+                <note xml:id="Russo_cap18-n40" type="comm" target="quarantana/cap18.xml#c18_12977" targetEnd="quarantana/cap18.xml#c18_12982"><ref rend="bold">Avranno avuto bisogno d'un buon predicatore</ref>:  Qui vien fuori tutta l’ingenua mitologia di fra <persName>Galdino</persName>, resa a meraviglia in quel cacofonico ritorno e incontro delle stesse parole. Sono poche le idee del cervello del nostro frate, e poche le sue parole: <hi rend="italic">il padre provinciale di là e il padre provinciale di qui, e il soggetto così e così, e il dev’esser proprio così.</hi>
+                </note>
+                <note xml:id="Russo_cap18-n41" type="comm" target="quarantana/cap18.xml#c18_13030" targetEnd="quarantana/cap18.xml#c18_13034"><ref rend="bold">«Oh poveri noi! Quand'è partito?”</ref>:  La pena di <persName>Agnese</persName> si allarga; prima aveva detto: <hi rend="italic">questa è la mia rovina</hi>, ora l’interiezione comprende <persName>Renzo</persName> e <persName>Lucia</persName>. Ma la suggestione del dialogo sta in questo non intendersi reciproco dei due dialoganti: fra <persName>Galdino</persName> parla in nome del cielo, e <persName>Agnese</persName> in nome della terra. E le loro parole s’incontrano, appena, a mezz’ aria, ma senza riconoscersi. Bellissima e pungente l’ insistente domandare e ridomandare di <persName>Agnese</persName>, vanificato, a ogni momento dalla assai diversa filosofia del frate. <persName>Fra Galdino</persName>, nella sua sublime ottusità, ricorda un qualche fraticello dei <hi rend="italic">Fioretti</hi>, uomo idiota e senza lettere, così come li voleva il <persName>Santo</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n42" type="comm" target="quarantana/cap18.xml#c18_13103" targetEnd="quarantana/cap18.xml#c18_13112"><ref rend="bold">E abbiamo conventi in tutte le quattro parti del mondo</ref>:  Qui, fra <persName>Galdino</persName>, si riscatta dalla sua congenita angustia; quando parla del convento, il suo discorso sale a un’enfasi lirico-epica. Il padre predicatore, che ha preso il volo, non si può prevedere su che ramo potrà andarsi a posare: e l’immagine ha qualcosa di fiabesco e di ammirativo, in quella trasfigurazione <hi rend="italic">avicularis</hi> della persona di un predicatore. Poi c’è <hi rend="italic">"E abbiamo conventi in tutte le quattro parti del mondo”</hi>, detto con un orgoglio di famiglia, commoventissimo: fra <persName>Galdino</persName> e il suo ordine sono diventati una cosa sola. Poi, quell’oblioso fantasticare sul <hi rend="italic">gran fracasso</hi> che potrebbe fare fra <persName>Cristoforo</persName> dalle parti di <placeName>Rimini</placeName>, e qui una pausa di ammirazione per il <hi rend="italic">fior di roba</hi> che sono le sue prediche scritte. Tanti particolari si concludono e si suggellano in quella battuta, semplice ed immensa: “noi viviamo della carità di tutto il mondo, ed è giusto che serviamo tutto il mondo.”. La celluzza angusta del frate è sparita, e, al suo posto, appare la religione diffusa e celebrata, all’aria aperta, in tutto il mondo. Frase epica, che ricorda quella del cap. III: “noi siam come il mare, che riceve acqua da tutte le parti, e la torna a distribuire a tutti i fiumi.”. Fra <persName>Galdino</persName>, uomo idiota e senza lettere, diventa poeta per ispirazione improvvisa dello <persName>Spirito Santo</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n43" type="comm" target="quarantana/cap18.xml#c18_15007" targetEnd="quarantana/cap18.xml#c18_15046"><ref rend="bold">Ma ce n’abbiamo degli altri... pieni di carità e di talento</ref>:  Può parere di una irritante stupidità questa digressione, e difatti <persName>Agnese</persName> comincia a impazientirsi. Ma l’obliosa imparzialità di fra <persName>Galdino</persName>, per il quale tutti i padri sono pieni di carità e di talento, è in carattere: in lui parla la logica obbiettiva del convento, che eguaglia e sublima tutti i fratelli nella stessa utilità.</note>
+                <note xml:id="Russo_cap18-n44" type="comm" target="quarantana/cap18.xml#c18_13290" targetEnd="quarantana/cap18.xml#c18_13298"><ref rend="bold">Con una vocina fessa, e una barbetta misera misera</ref>:  Fra Galdino adotta la visione popolare della figura di padre <persName>Zaccaria</persName>, e, per nulla superiore al popolo che così giudica, ne canta la difesa, restando sullo stesso piano degli avversari. Ciò che costituisce il candore, la forza, l’umorismo delle sue battute.</note>
+                <note xml:id="Russo_cap18-n45" type="comm" target="quarantana/cap18.xml#c18_13379" targetEnd="quarantana/cap18.xml#c18_13382"><ref rend="bold">«Allora, bisogna aver pazienza</ref>:  Fra <persName>Galdino</persName> non perde la sua impassibilità: è cosa cosi ovvia, per lui, aver pazienza, così come non si chiede conto ai superiori degli ordini che dànno. Se no, dove se ne va l’ubbidienza? Se no, dove se ne va la santa rassegnazione cristiana?</note>
+                <note xml:id="Russo_cap18-n46" type="comm" target="quarantana/cap18.xml#c18_13383" targetEnd="quarantana/cap18.xml#c18_13385"><ref rend="bold">«Questo lo so</ref>:  La buona <persName>Agnese</persName> è sul punto di scoppiare; ma fra <persName>Galdino</persName> non se ne dà per inteso, e risponde, con la sua consueta candida ottusità: “Di che cosa, la mia donna?”.</note>
+                <note xml:id="Russo_cap18-n47" type="comm" target="quarantana/cap18.xml#c18_13424" targetEnd="quarantana/cap18.xml#c18_13427"><ref rend="bold">Per la cerca dell'olio</ref>:  Ritorna qui il motivo dell’egoismo conventuale incarnato nella persona di fra <persName>Galdino</persName>, e che è stato largamente sviluppato al cap. III. Ma l’artista, non ha amato ripetersi e ha dato vita all’ espressione di una nuova nota del carattere di fra <persName>Galdino</persName>: la sua candida e innocente insensibilità davanti alle passioni del mondo, e la sua obbiettiva imparzialità sugli interessi e i valori del convento.</note>
+                <note xml:id="Russo_cap18-n48" type="comm" target="quarantana/cap18.xml#c18_13496" targetEnd="quarantana/cap18.xml#c18_13500"><ref rend="bold">di toga e di spada</ref>:  Della magistratura o della milizia. Il conte zio era un magistrato, un <hi rend="italic">togato</hi>, come si dice più giù.</note>
+                <note xml:id="Russo_cap18-n49" type="comm" target="quarantana/cap18.xml#c18_13520" targetEnd="quarantana/cap18.xml#c18_13522"><ref rend="bold">Il conte zio</ref>:  È una delle più felici creazioni del <persName type="author">Manzoni</persName>: il politico solenne e nullo, che vende bene il suo credito. Ne abbiamo avuto la prima presentazione, nelle parole tra canzonatorie e ammirative di quello sbarazzino dl <persName>Attilio</persName>, al cap. XI. Cfr. la n. 123, a P. 215.</note>
+                <note xml:id="Russo_cap18-n50" type="comm" target="quarantana/cap18.xml#c18_13632" targetEnd="quarantana/cap18.xml#c18_13634"><ref rend="bold">Come quelle scatole</ref>:  L’immagine è di <persName type="author">Gaspare Gozzi</persName>, nella <bibl><title>
+                <hi rend="italic">Gazzetta veneta</hi>
+                </title></bibl>, n. 39; ma il <persName type="author">M.</persName> vi ha aggiunto le <hi rend="italic">parole arabe</hi>, e qualche altro piccolo particolare e“dentro non c’è nulla”, che vivifica e rimette a nuovo la similitudine.</note>
+                <note xml:id="Russo_cap18-n51" type="comm" target="quarantana/cap18.xml#c18_13683" targetEnd="quarantana/cap18.xml#c18_13689"><ref rend="bold">Un passo, come si dice, di gigante</ref>:  L’inizio del periodo crea una grande aspettazione, delusa atrocemente poi da quella miseria della sua fortuna: una domanda di impressioni su <placeName>Madrid</placeName>, e una confidenza a quattr’occhi sul duomo di <placeName>Milano</placeName>. Eppure, per quanto feroce la conclusione, non si può dire che sia caricaturale: è colta bene la frivolità delle occasioni, che talvolta dona rapido incremento alle false grandezze politiche nei regimi d’autorità.</note>
+                <note xml:id="Russo_cap18-n52" type="comm" target="quarantana/cap18.xml#c18_13777" targetEnd="quarantana/cap18.xml#c18_13783"><ref rend="bold">Fatti i suoi complimenti al conte zio</ref>:  Secondo i modi consueti all’arte del <persName type="author">M.</persName>, dopo aver egli sbozzato un ritratto critico del personaggio, lo mette ora in azione: ritratto e dialogo si compenetrano e si illuminano a vicenda.</note>
+                <note xml:id="Russo_cap18-n53" type="comm" target="quarantana/cap18.xml#c18_13820" targetEnd="quarantana/cap18.xml#c18_13826"><ref rend="bold">Se lei non ci mette una mano</ref>:  Frase di prammatica, per la lusinga agli uomini influenti. Quella mano al singolare è una specie di ipotiposi discreta dell’onnipotenza dell’individuo, così come quando si vuol parlare, in tutt’altro tono, religioso, dell’onnipotenza divina, si parla della mano di Dio, della valida mano che scende dal cielo.</note>
+                <note xml:id="Russo_cap18-n54" type="comm" target="quarantana/cap18.xml#c18_13866" targetEnd="quarantana/cap18.xml#c18_13867"><ref rend="bold">Vediamo, vediamo</ref>:  La lusinga è andata diritta al cuore del conte zio, ma egli non cede d’un tratto. Frappone dei prudenti indugi: <hi rend="italic">Vediamo, vediamo</hi>. È già un soppesare in anticipo la gravità dell’imbroglio, in cui si sarà cacciato quel suo maldestro e irrequieto nipote. Già nell’espressione: <hi rend="italic">qualcheduna delle sue, m’immagino</hi>, il conte zio ha come aggrottato le ciglia, per accrescere importanza al suo fastidio e al suo intervento. Tocca sempre a lui aver giudizio per i nipoti, e a rassettar le loro malefatte!</note>
+                <note xml:id="Russo_cap18-n55" type="comm" target="quarantana/cap18.xml#c18_13904" targetEnd="quarantana/cap18.xml#c18_13907"><ref rend="bold">Basta il da fare</ref>:  A1 cap. I, il <persName type="author">M.</persName> ha ricordato che le contese erano “allora frequentissime tra il clero e le podestà laiche.” . Il conte zio è un uomo che vende bene il suo credito, e non manca mai occasione alcuna per chiosarlo. Anche la noia, il fastidio degli affari di Stato, può essere un segno della sua illimitata autorità, della sua sazietà di potere. Per il conte zio, non basta, non è necessario potere, importa piuttosto parere di potere: <hi rend="italic">possunt, quia posse videntur</hi> canta <persName type="author">Virgilio</persName>.
+                </note>
+                <note xml:id="Russo_cap18-n56" type="comm" target="quarantana/cap18.xml#c18_13916" targetEnd="quarantana/cap18.xml#c18_13918"><ref rend="bold">E qui soffiò</ref>:  È il vento che accompagna le parole. Uno o due <hi rend="italic">soffiò</hi> sempre, nei momenti più solenni, con gradazione. Nel verbo c’è come l’atto del gonfiarsi.</note>
+                <note xml:id="Russo_cap18-n57" type="comm" target="quarantana/cap18.xml#c18_13957" targetEnd="quarantana/cap18.xml#c18_13964"><ref rend="bold">Che diavolo ha codesto frate con mio nipote?</ref>:  Dopo la vanità personale, comincia a riscaldarsi la vanità di famiglia. Oh l’orgoglio dinastico di quel <hi rend="italic">mio nipote</hi>! Negli <hi rend="italic">
+                <bibl><title>Sposi promessi</title></bibl>
+                </hi> si leggeva: “Era questi un vecchio ambizioso, geloso della parte di potere che gli era venuto fatto di affermare, e geloso non meno dell’onore della sua famiglia e di tutto il parentado, al modo che s’intendeva l’onore a quei tempi.”.</note>
+                <note xml:id="Russo_cap18-n58" type="comm" target="quarantana/cap18.xml#c18_13984" targetEnd="quarantana/cap18.xml#c18_13990"><ref rend="bold">Protegge, dirige... una contadinotta</ref>:  La malizia istintiva di queste parole non è un calcolo; per un animo di scapestrato come <persName>Attilio</persName>, l’interessamento di fra <persName>Cristoforo</persName> a <persName>Lucia</persName> non può essere che impuro. Piuttosto c’è molta diplomazia nella maniera velata, quasi attenuata, con cui <persName>Attilio</persName> vuol presentare le mire del frate: è <hi rend="italic">una carità la, sua... non dico pelosa, ma una carità molto gelosa, sospettosa, permalosa.</hi> Non tanto, s’intende, vuole riparare il frate, quanto non mancare di riguardo alla grave autorità dello zio, il quale si interessa molto a queste bazzecole, ma non deve darlo a divedere. Un’affermazione troppo sguaiata da parte di <persName>Attilio</persName> avrebbe provocato qualche <hi rend="italic">ohibò</hi> e qualche aggrottamento di ciglia del gesuitico zio. “Queste son bazzecole — dirà più giù <persName>Attilio</persName> — da non trattenerne il signore zio.”.</note>
+                <note xml:id="Russo_cap18-n59" type="comm" target="quarantana/cap18.xml#c18_13998" targetEnd="quarantana/cap18.xml#c18_14004"><ref rend="bold">Una carità... non dico pelosa</ref>:  Il <persName>Tommaseo</persName> trova pesante questa uscita; qualchedun altro perfino troppo equivoca e scandalosa, fuori dello stile manzoniano. Ma lo scandalo esiste solo nella fantasia poco pulita di qualche commentatore. Carità pelosa è metafora che, probabilmente, è sorta, per la prima volta, nella seconda metà del Cinquecento; la troviamo usata in commedie del <persName type="author">Lasca</persName>
+                <bibl><title>
+                <hi rend="italic">(La strega)</hi>
+                </title></bibl> e del <persName type="author">Salvini</persName>
+                <bibl><title>
+                <hi rend="italic">(Il Granchio)</hi>
+                </title></bibl>, e poi nella <bibl><title>
+                <hi rend="italic">Tancia</hi>
+                </title></bibl> del <persName type="author">Buonarroti</persName>. Possiamo dire che è metafora “post-tridentina”, sorta a contrassegnare l’ipocrisia dei costumi, che cominciava a dilagare. Vorebbe significare per l’appunto carità ipocrita, carità con secondo fine, carità che nasconde <hi rend="italic">sotto il pelame</hi>, sotto il mantello, sotto la <hi rend="italic">specie</hi> del bene, un fine utilitario.</note>
+                <note xml:id="Russo_cap18-n60" type="comm" target="quarantana/cap18.xml#c18_14012" targetEnd="quarantana/cap18.xml#c18_14048"><ref rend="bold">«Intendo,» disse... un bellissimo vedere</ref>:  E in quell’ <hi rend="italic">intendo</hi> si scopre meglio la turpe e goffa malizia senile del conte, e in cui si indovinano i ricordi della sensualità giovanile, soverchiata troppo però dalle vanità, della politica, per potere avere una elegante o cinica disinvoltura. Da ciò, la goffaggine e l’ipocrisia che accompagna quella ambigua malizia del vecchio. Si veda anche al cap. XIX, la n. 161.</note>
+                <note xml:id="Russo_cap18-n61" type="comm" target="quarantana/cap18.xml#c18_14070" targetEnd="quarantana/cap18.xml#c18_14077"><ref rend="bold">«s'è cacciato in testa, s'è cacciato in testa</ref>:  Il conte zio, con l’aria di riprovarle, pare abbia una particolare compiacenza nel ricordare le marachelle dei suoi nipoti. Qui si scorge ancora il fondo goffo della sua scurrile malizia senile. Le prime sue parole sono state: “Qualcheduna delle sue, m’immagino», dove già la mente si riposa sul soggetto di scapestrataggini amorose. Poi quel raggio di malizia, con cui sottolinea la parola “Intendo”, e poi, vedremo, ancora le parole finali del colloquio: “Scapestrati, scapestrati, che sempre ne fate una; e a me tocca di rattopparle.” E finalmente l’insinuazione fatta, al cap. XIX contro fra <persName>Cristoforo</persName>, accusato di avere “inclinazioni d’un giovine.” Tutti questi vari spunti, il <persName type="author">M.</persName> li butta lì, con l’aria di non avvedersene, ma essi descrivono questo fondo più nascosto della natura ipocrita e viziosa del conte zio; ma da tutto l’insieme si ricava sempre un’impressione di goffaggine. Il conte zio è troppo vano, è troppo vuoto, è troppo attaccato alle ambizioni politiche dell’apparire, per dar luogo nell’animo alla passione, sia pure ambigua, della sensualità. Il conte zio è soltanto un gaudente mancato, un vizioso platonico, cui poter falla e desiderio avanza.</note>
+                <note xml:id="Russo_cap18-n62" type="comm" target="quarantana/cap18.xml#c18_14125" targetEnd="quarantana/cap18.xml#c18_14133"><ref rend="bold">Ma queste son bazzecole da non trattenerne il signore zio</ref>:  Questa uscita è il capolavoro di <persName>Attilio</persName>.<persName>Attilio</persName> vuole naturalmente alleggerire la colpa del cugino, e si serve di questo espediente che quegli argomenti sono indegni delle orecchie gravi del conte zio, per inchiodare la curiosità dello zio al suo destino di persona grave ed autorevole, che non può ascoltare le bazzecole dei giovanotti. D’altra parte, egli intuisce che lo zio non può rifiutarsi a questo ufficio così serioso, e che se lui entrasse in confidenze più intime violerebbe questa sua speciosa apparenza di serietà. Per la stessa ragione, quando ha accennato alla presunta colpa di fra <persName>Cristoforo</persName>, non ha gravato la mano, ma ha soltanto scivolato sullo scabroso argomento, e ha cercato di temperare l’insinuazione maligna, perchè un’accusa troppo diretta e troppo scandalosa sarebbe suonata offesa all’ipocrita dignità dello zio.</note>
+                <note xml:id="Russo_cap18-n63" type="comm" target="quarantana/cap18.xml#c18_14199" targetEnd="quarantana/cap18.xml#c18_14207"><ref rend="bold">«M'immagino che non sappia che Rodrigo è mio nipote</ref>:  Torna a spuntare in mezzo a tanta solenne gravità, la vanità dinastica del conte. Anche qui l’enfasi del <hi rend="italic">mio nipote</hi>. E <persName>Attilio</persName> si affretta a sfruttare tale debolezza dello zio, e trova buona l’occasione per colorire e drammatizzare la psicologia irrequieta e rissosa di fra <persName>Cristoforo</persName>, e ne ricorda la vita di gioventù.</note>
+                <note xml:id="Russo_cap18-n64" type="comm" target="quarantana/cap18.xml#c18_14300" targetEnd="quarantana/cap18.xml#c18_14303"><ref rend="bold">Un libriccino di memorie</ref>:  Negli <bibl><title>
+                <hi rend="italic">Sposi promessi</hi>
+                </title></bibl> si parlava di una vacchetta, ed era particolare assai pittoresco: un motivo di stampa secentesca. Poi la vacchetta è diventata un libriccino, forse perché assai meno voluminoso; ma si è perduto qualche effetto d’arte. “Il conte zio prese la penna, e anche il nome di fra <persName>Cristoforo</persName> fu registrato su una terribile vacchetta, con due righe di commento...” (p. 303, e poi anche p. 307 degli <bibl><title>Sp. Pr.</title></bibl>).
+                </note>
+                <note xml:id="Russo_cap18-n65" type="comm" target="quarantana/cap18.xml#c18_14325" targetEnd="quarantana/cap18.xml#c18_14327"><ref rend="bold">Era un plebeo</ref>:  Il linguaggio di <persName>Attilio</persName> è strettamente storico: chi parla è un nobile, che sente come una verità pacifica la distinzione delle classi. Del resto, tutti i giudizi di <persName>Attilio</persName> non hanno mai nulla di incerto, o di esitante: egli è sempre rapido e sicuro. Il <persName type="author">M</persName>. ha sempre colto molti effetti di ironia, per il travisamento a cui va soggetto questo o quel carattere o avvenimento del suo racconto, nella fantasia di chi parla. Notammo diversi di questi effetti, nella descrizione della notte degli imbrogli, quando un po' tutta la folla interpreta a modo suo il rintoccare della campana, e la fuga del pellegrino (<persName>il Griso</persName>). E sul modo con cui don <persName>Abbondio</persName> racconta la sua disavventura: “cattiva gente, gente che gira dl notte.” Più diffuso ancora questo umorismo, al cap. XVI, nel racconto del mercante, donde la reazione trasecolata, ingenua, gesticolata di <persName>Renzo</persName> al cap. XVII. In questa frequente ironia del<persName type="author"> M.</persName> sulla deformazione critica degli uomini e degli avvenimenti, ironia ora allegra, ora tagliente, ora dolorosa (come qui), si avverte il moralismo cattolico dello scrittore, che non amara ebbrezza dà rilievo alla finitezza della mente umana, all’incerto ondeggiare al <hi rend="italic">tardo consiglio, all’antiveder bugiardo</hi> del mondo, come ha detto il poeta già nel <hi rend="italic">Nome di <persName>Maria</persName>
+                </hi>. Moralismo, che dà luogo a felici pagine d’arte, ma che, se dovesse valere come fede di vita, come canone d’interpretazione storica, menerebbe diritto allo scetticismo (cfr. al cap. XIII, n. 20-35). In sede critica, allora si potrebbe obbiettare al <persName type="author">M.</persName> che intanto è sempre questa mente umana, che sa scorgere la sua finitezza, e che, nello scorgere il suo stesso limite, lo supera e afferma la sua infinità. E la stessa sua ironia di artista, in ultima analisi, è la riprova dello spirito umano, che scorge le sue debolezze, le sue bugie, le sue mancanze, ma appunto perchè le scorge, se ne riscatta.</note>
+                <note xml:id="Russo_cap18-n66" type="comm" target="quarantana/cap18.xml#c18_14360" targetEnd="quarantana/cap18.xml#c18_14363"><ref rend="bold">Ma bravo! Ma bene!</ref>:  Si veda al cap. XIX, la n. 255.</note>
+                <note xml:id="Russo_cap18-n67" type="comm" target="quarantana/cap18.xml#c18_14420" targetEnd="quarantana/cap18.xml#c18_14436"><ref rend="bold">Lei m'intende... l'uomo</ref>:  La malizia di <persName>Attilio</persName> è inesauribile. Il <hi rend="italic">Lei m’intende</hi> è tutto pieno di reticenze gravi e ambigue, e <hi rend="italic">l’aveva trovato il... </hi> sottintenderebbe la parola <hi rend="italic">merlo, gonzo,</hi> o altro. Ma <persName>Attilio</persName> castiga sempre il suo linguaggio, per ipocrita riguardo allo zio.</note>
+                <note xml:id="Russo_cap18-n68" type="comm" target="quarantana/cap18.xml#c18_14495" targetEnd="quarantana/cap18.xml#c18_14506"><ref rend="bold">Aveva una lettera per un... Peccato che... va bene</ref>:  È la famosa lettera di fra <persName>Cristoforo</persName> a padre Bonaventura, e che <persName>Renzo</persName> era riuscito a riavere dal notaio criminale. Quella lettera è diventata un fascio di lettere, nel racconto del mercante. Qui il conte zio parla ambiguo, resta a mezzo. È il tacere significativo, di chi vuol dare rilievo ai suoi grossi segreti. Egli avrebbe voluto dire: peccato che quella lettera non siarimasta in mano della, giustizia; ma, aggiungerebbe vanitosamente, sappiamo tutto lo stesso.</note>
+                <note xml:id="Russo_cap18-n69" type="comm" target="quarantana/cap18.xml#c18_14530" targetEnd="quarantana/cap18.xml#c18_14538"><ref rend="bold">A chi lo può e vuole dirigere e sostenere</ref>:  Il conte zio diventa tenero; ma s’intenerisce di sè, della sua potenza, del suo soccorso, della sua provvidenza. E il rimprovero affettuoso al nipote è un modo di ingrandire l’imbroglio; quel ritardo complica l’affare, e a lui tocca soffiare più forte. Questo è il significato della frase: <hi rend="italic">perché lascia, andar le cose tant’ avanti</hi>, e di quell’altra più giù: <hi rend="italic">avresti fatto meglio a parlare un poco prima</hi>. E difatti egli conclude, soffiando, <hi rend="italic">“ora toccherà a me a raccomodarla.”</hi>
+                </note>
+                <note xml:id="Russo_cap18-n70" type="comm" target="quarantana/cap18.xml#c18_14553" targetEnd="quarantana/cap18.xml#c18_14561"><ref rend="bold">Quante cose ha per la testa il signore zio...</ref>:  Non c’è che dire, <persName>Attilio</persName> ha fior di intelligenza e genio di burattinaio. Lo zio, pedissequo, lo seconda in sua battuta adulatoria, con la sfumatura di quel gesto, con lo sfiorarsi il capo con la mano. Il solennissimo consigliere del Consiglio segreto è tutto a discrezione di uno sbarazzino.</note>
+                <note xml:id="Russo_cap18-n71" type="comm" target="quarantana/cap18.xml#c18_14598" targetEnd="quarantana/cap18.xml#c18_14604"><ref rend="bold">è così irritato, così fuor de' gangheri</ref>:  Un altro abilissimo travisamento della verità. Che don <persName>Rodrigo</persName> sia irritato, e fuor dei gangheri, vero, verissimo, ma che lui volesse fare uno sproposito, e che <persName>Attilio</persName> consigliasse la moderazione, è un’altra magnifica invenzione del nostro oratore. Lui, il geniale bastonatore, era invero per il carico di legnate, lì, sul campo. Ma l’accenno a una qualche imprudenza, o a un qualche sproposito, a una forma irregolare di rappresaglia, va precisamente a urtare contro il galateo politico dello zio, che è il galateo della prudenza: <hi rend="italic">sopire, troncare, troncare, sopire.</hi> Questo, vedremo, è il motivo di quel gran politicone. La trovata di <persName>Attilio</persName> fa dunque onore al suo genio diplomatico: non c’era maniera migliore di spaventare il prudentissimo zio.</note>
+                <note xml:id="Russo_cap18-n72" type="comm" target="quarantana/cap18.xml#c18_14793" targetEnd="quarantana/cap18.xml#c18_14799"><ref rend="bold">Non è necessario d'averlo intorno alla pancia</ref>:  Cioè a dire, ci si può servire del cordone, per darlo addosso al frate riottoso. La frase negli <bibl><title>
+                <hi rend="italic">Sposi promessi</hi>
+                </title></bibl> era messa in bocca al conte zio, e suonava così: “Sicuramente”, borbottava poi il conte, riponendo la sua vacchetta: “il cordone di san <persName>Francesco</persName>! Lo so anch’io, ma t’insegnerò io , frate, che, per adoperarlo a proposito, non fa bisogno d’averlo ravvolto intorno alla pancia.” Ma meglio sulla bocca di <persName>Attilio</persName>, bastonatore di professione; nel conte zio discordava con la sua gravità prudenziale.</note>
+                <note xml:id="Russo_cap18-n73" type="comm" target="quarantana/cap18.xml#c18_14837" targetEnd="quarantana/cap18.xml#c18_14841"><ref rend="bold">Far cambiar aria al frate</ref>:  Negli <bibl><title>
+                <hi rend="italic">Sposi promessi</hi>
+                </title></bibl>, seguiva questo passo: “Chi domanda pareri a Vossignoria?...” interruppe il conte zio, rannuvolando la fronte.” p. 303. E seguiva una riflessione sulla vanità punta del personaggio. Qui, invece, la battuta riflessiva è sviluppata nella similitudine del <hi rend="italic">bel lapazio</hi> al capitolo seguente.</note>
+                <note xml:id="Russo_cap18-n74" type="comm" target="quarantana/cap18.xml#c18_14846" targetEnd="quarantana/cap18.xml#c18_14852"><ref rend="bold">«Lasci il pensiero a chi tocca, vossignoria</ref>:  Si noti, come il conte zio muta pronome; dal <hi rend="italic">tu</hi> confidenziale passa al distante <hi rend="italic">vossignoria</hi>, che è un modo di salvaguardare la propria gravità. Un’altra volta ha adoperato la parola <hi rend="italic">vossignoria</hi>, ma in argomento lubrico.</note>
+                <note xml:id="Russo_cap18-n75" type="comm" target="quarantana/cap18.xml#c18_14911" targetEnd="quarantana/cap18.xml#c18_14914"><ref rend="bold">Soggiunse con un'aria pensierosa</ref>:  La civetteria adulatoria di <persName>Attilio</persName> qui tocca il suo culmine: egli assume un’aria patetica, per l’ultimo indolcimento del discorso. Un <persName>Attilio</persName>
+                <hi rend="italic">pensieroso</hi> è la sua sbarazzinata maggiore.</note>
+                <note xml:id="Russo_cap18-n76" type="comm" target="quarantana/cap18.xml#c18_14982" targetEnd="quarantana/cap18.xml#c18_15021"><ref rend="bold">Scapestrati scapestrati... affari di stato</ref>:  La chiusa è un’epopea. Ci sono riepilogate tutte le note del conte zio: la sua malizia e compiacenza lubrica e senile per le scappate dei nipoti, il sentimento del suo provvidenziale intervento, il gonfiare quelle bazzecole sì da farle diventare più grosse dei <hi rend="italic">benedetti affari di stato</hi>. Ma il conte zio, involontariamente, è veritiero: i suoi benedetti affari di stato non sono per nulla più gravi e più concreti delle scapestrataggini dei suoi nipoti.</note>
+                <note xml:id="Russo_cap18-n77" type="comm" target="quarantana/cap18.xml#c18_15040" targetEnd="quarantana/cap18.xml#c18_15042"><ref rend="bold">«e abbiamo giudizio»</ref>:  È l’ultima affermazione di autorità. Chi tempera e governa il giudizio di tutti i membri della famiglia, è sempre lui, il conte zio. La gloria di colui che tutto move!</note>
+            </div>
+</body>
+</text>
+</TEI>

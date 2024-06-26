@@ -45,19 +45,15 @@
                            
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <% chapters.forEach((chapter)=> {
-                                    if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
-                                    !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
-                                    &&
-                                    !chapter.startsWith('6') && !chapter.startsWith('7') &&
-                                    !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
-                                    <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
-                                            href="#">
-                                            <%= chapter.replace('Capitolo', '' ) %>
-                                        </a></li>
+                                    if (!chapter.match(/^[1-9]/)) { %>
+                                        <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
+                                                href="#">
+                                                <%= chapter.replace('Capitolo', '' ) %>
+                                            </a></li>
                                     <% } else { %>
                                         <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
                                                 href="#">Capitolo <%= chapter %></a></li>
-                                        <% } }); %>
+                                    <% } }); %>
                             </ul>
                         </div>
                             <div class="colonnasinistra text-break" id="promessisposi">

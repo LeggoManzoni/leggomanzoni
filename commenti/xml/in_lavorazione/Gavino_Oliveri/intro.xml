@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Franco Gavino Oliveri (1990)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName corresp="ER">Ersilia Russo</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Franco Gavino Oliveri</title>
+          <editor>Gavino Oliveri, Franco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Principato</publisher>
+          <date>1990</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Gavino_Oliveri_intro">
+        <note xml:id="Gavino_Oliveri_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia...</ref>:  l'autore finge di aver tratto il suo romanzo da un manoscritto anonimo del Seicento. La pagina in corsivo costituirebbe il proemio dello «scartalaccio» secentesco. All'espediente del manoscritto ritrovato avevano fatto ricorso scrittori come Ariosto e Cervantes e, in tempi vicini a Manzoni, Scott, Cuoco, Foscolo (Notizia intorno a Didimo Chierico) e alcuni scrittori del «Conciliatore». Attraverso lo stile ampolloso, ricco di metalore, di immagini bizzarre e di espressioni ridondanti - splendido calco del barocco deteriore - Manzoni satireggia non solo il gusto, ma la mentalità di un'epoca: comincia di qui, dal divertimento linguistico, la polemica - che percorre tutto il romanzo - nel confronti di un secolo. Tra le particolarità grafiche che contribuiscono alla patina secentesca della pagina notiamo: profusione di maiuscole, u intervocalica in luogo di v («cadaueri»); h in parole derivate dal latino («heroi»); t in luogo di 2; consonanti doppie, ecc.</note>
+        <note xml:id="Gavino_Oliveri_intro-n2" type="comm" target="quarantana/intro.xml#intro_10013" targetEnd="quarantana/intro.xml#intro_10037"><ref rend="bold">togliendoli di mano... battaglia</ref>:  fuori di metafora, la storia fa rivivere epoche e fatti ormai sepolti dal tempo: questo è il suo compito.</note>
+        <note xml:id="Gavino_Oliveri_intro-n3" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10060"><ref rend="bold">Ma gl'illustri Campioni... brillanti</ref>:  ma gli illustri storici che nella lotta contro il tempo raccolgono successi («Palme») e gloria («Allori»), sottraggono all'oblio solo le gesta (le «spoglie») più appariscenti e brillanti. «Arringo», arengo, indicava propriamente il recinto entro Il quale si svolgeva il combattimento, la gara: per estensione, la gara stessa. Si vien delineando sotto la forma barocca l'opposizione, presente in tutto il romanzo, alla storiografia ufficiale, considerata «opus oratorium maxime», che trattava soltanto imprese di uomini famosi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n4" type="comm" target="quarantana/intro.xml#intro_10052" targetEnd="quarantana/intro.xml#intro_10055"><ref rend="bold">solo che le sole</ref>:  solamente (pleonasmo).</note>
+        <note xml:id="Gavino_Oliveri_intro-n5" type="comm" target="quarantana/intro.xml#intro_10061" targetEnd="quarantana/intro.xml#intro_10064"><ref rend="bold">imbalsamando co' loro inchiostri</ref>:  serbando al ricordo («imbalsamando») con le loro opere («co’ loro inchiostri»:  metonimia, o scambio di nome).</note>
+        <note xml:id="Gavino_Oliveri_intro-n6" type="comm" target="quarantana/intro.xml#intro_10070" targetEnd="quarantana/intro.xml#intro_10073"><ref rend="bold">Potentati, e qualificati Personaggj</ref>:  stati potenti, e illustri personaggi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n7" type="comm" target="quarantana/intro.xml#intro_10074" targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">e trapontando... gloriose</ref>:  l'immagine dell'ingegno, sottile come un ago, genera quella degli arazzi trapuntati di fili d'oro e di seta, e raffiguranti gesta gloriose; le metafore si generano le une dalle altre, secondo il gusto del XVII secolo.</note>
+        <note xml:id="Gavino_Oliveri_intro-n8" type="comm" target="quarantana/intro.xml#intro_10094" targetEnd="quarantana/intro.xml#intro_10096"><ref rend="bold">alla mia debolezza</ref>:  alla debolezza del mio ingegno.</note>
+        <note xml:id="Gavino_Oliveri_intro-n9" type="comm" target="quarantana/intro.xml#intro_10104" targetEnd="quarantana/intro.xml#intro_10105"><ref rend="bold">sublimità pericolose</ref>:  argomenti sublimi, «pericolosi» perché l'ingegno dell'anonimo non si può misurare con essi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n10" type="comm" target="quarantana/intro.xml#intro_10109" targetEnd="quarantana/intro.xml#intro_10112"><ref rend="bold">Labirinti de' Politici maneggj</ref>:  le intricate trame della politica.</note>
+        <note xml:id="Gavino_Oliveri_intro-n11" type="comm" target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  trombe, per metonimia; propriamente l'oricalco è una lega di rame e zinco, simile all’ottone.</note>
+        <note xml:id="Gavino_Oliveri_intro-n12" type="comm" target="quarantana/intro.xml#intro_10129"><ref rend="bold">capitorno</ref>:  capitarono.</note>
+        <note xml:id="Gavino_Oliveri_intro-n13" type="comm" target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136"><ref rend="bold">gente meccaniche, e di piccol affare</ref>:  persone dedite a lavori manuali («meccaniche») e perciò di umile condizione sociale. L'anonimo si scusa: in realtà la scelta dei protagonisti del romanzo è rivoluzionaria.</note>
+        <note xml:id="Gavino_Oliveri_intro-n14" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  schietta = schiettamente, il primo dei due suffissi avverbiali in «mente» è stato eliminato, secondo l'uso dell'italiano antico.</note>
+        <note xml:id="Gavino_Oliveri_intro-n15" type="comm" target="quarantana/intro.xml#intro_10160" targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">in angusto Teatro</ref>:  in Lombardia, spazio geograficamente «angusto», limitato. La metafora del mondo come teatro è tipicamente secentesca.</note>
+        <note xml:id="Gavino_Oliveri_intro-n16" type="comm" target="quarantana/intro.xml#intro_10188"><ref rend="bold">climi</ref>:  paesi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n17" type="comm" target="quarantana/intro.xml#intro_10190" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">sotto l'amparo del Re Cattolico</ref>:  sotto la protezione («amparo», spagnolismo) del re di Spagna (Filippo IV, 1625-1661).</note>
+        <note xml:id="Gavino_Oliveri_intro-n18" type="comm" target="quarantana/intro.xml#intro_10199" targetEnd="quarantana/intro.xml#intro_10253"><ref rend="bold">quel Sole... nobilissimo Cielo</ref>:  attraverso la successione di iperboli metaforiche, si vien formando l'immagine di un cielo glorioso; il «Sole che mai tramonta» è il re; la «Luna giamai calante», che brilla di luce riflessa, è il governatore di Milano, eroe di nobile stirpe («Prosapia»), che temporaneamente («pro tempore») rappresenta il re; le «Stelle fisse» sono gli illustri («Amplissimi») senatori, nominati a vita, gli «erranti Pianeti» sono gli «Spettabili Magistrati», soggetti a trasferimento.</note>
+        <note xml:id="Gavino_Oliveri_intro-n19" type="comm" target="quarantana/intro.xml#intro_10269"><ref rend="bold">sevitie</ref>:  crudeltà.</note>
+        <note xml:id="Gavino_Oliveri_intro-n20" type="comm" target="quarantana/intro.xml#intro_10279" targetEnd="quarantana/intro.xml#intro_10282"><ref rend="bold">arte e fattura diabolica</ref>:  opera e realizzazione del diavolo; sono le operazioni di cui ha detto sopra (r. 14). L'anonimo insiste su questo concetto, per spiegare il verificarsi di «atti tenebrosi» sotto l’illuminato governo della Spagna. Attraverso la retorica barocca dell'anomimo traspare l’ironia del narratore nei confronti dei detentori del potere.</note>
+        <note xml:id="Gavino_Oliveri_intro-n21" type="comm" target="quarantana/intro.xml#intro_10283"><ref rend="bold">attesochè</ref>:  dato che.</note>
+        <note xml:id="Gavino_Oliveri_intro-n22" type="comm" target="quarantana/intro.xml#intro_10299" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">occhij d'Argo e braccj di Briareo</ref>:  Argo e Briareo erano mostri mitologici, l'uno dai cento occhi, l'altro dalle cento braccia.</note>
+        <note xml:id="Gavino_Oliveri_intro-n23" type="comm" target="quarantana/intro.xml#intro_10305" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">si vanno trafficando... emolumenti</ref>:  si affannano per il pubblico vantaggio. L'espressione è volutamente ambigua: sl sottintende che Senatori e Magistrati trafficavano per il proprio utile. -</note>
+        <note xml:id="Gavino_Oliveri_intro-n24" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">Per locchè</ref>:  per la qual cosa.</note>
+        <note xml:id="Gavino_Oliveri_intro-n25" type="comm" target="quarantana/intro.xml#intro_10322" targetEnd="quarantana/intro.xml#intro_10323"><ref rend="bold">verde staggione</ref>:  la gioventù.</note>
+        <note xml:id="Gavino_Oliveri_intro-n26" type="comm" target="quarantana/intro.xml#intro_10324"><ref rend="bold">abbenché</ref>:  benché.</note>
+        <note xml:id="Gavino_Oliveri_intro-n27" type="comm" target="quarantana/intro.xml#intro_10189"><ref rend="bold">sijno</ref>:  siano.</note>
+        <note xml:id="Gavino_Oliveri_intro-n28" type="comm" target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">con rendersi tributarij delle Parche</ref>:  morendo; pagando il loro tributo alle Parche. Nella mitologia le Parche presiedevano al destino dell'uomo: Cloto poneva sulla conocchia lo stame della vita, che Lachesi filava e Atropo recideva nel momento della morte.</note>
+        <note xml:id="Gavino_Oliveri_intro-n29" type="comm" target="quarantana/intro.xml#intro_10348" targetEnd="quarantana/intro.xml#intro_10350"><ref rend="bold">per degni rispetti</ref>:  per giusti riguardi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n30" type="comm" target="quarantana/intro.xml#intro_10370"><ref rend="bold">generaliter</ref>:  genericamente (latino).</note>
+        <note xml:id="Gavino_Oliveri_intro-n31" type="comm" target="quarantana/intro.xml#intro_10385"><ref rend="bold">Parto</ref>:  prodotto.</note>
+        <note xml:id="Gavino_Oliveri_intro-n32" type="comm" target="quarantana/intro.xml#intro_10428" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">purissimi accidenti</ref>:  nella filosofia scolastico-aristotelica «sostanza»: è l'essenza delle cose e «accidenti» sono gli elementi accidentali, variabili, come i nomi. La parodia dell'aristotelismo secentesco sarà sviluppata nelle parti dedicate a don Ferrante (capp. XXVII e XXXVII).</note>
+        <note xml:id="Gavino_Oliveri_intro-n33" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  sbiadito e tutto sgorbi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n34" type="comm" target="quarantana/intro.xml#intro_10513" targetEnd="quarantana/intro.xml#intro_10517"><ref rend="bold">di concettini e di figure</ref>:  di strambe analogie e di figure retoriche.</note>
+        <note xml:id="Gavino_Oliveri_intro-n35" type="comm" target="quarantana/intro.xml#intro_10536" targetEnd="quarantana/intro.xml#intro_10538"><ref rend="bold">la sua virtù</ref>:  il suo virtuosismo, la sua abilità letteraria.</note>
+        <note xml:id="Gavino_Oliveri_intro-n36" type="comm" target="quarantana/intro.xml#intro_10562"><ref rend="bold">dozzinale</ref>:  grossolano.</note>
+        <note xml:id="Gavino_Oliveri_intro-n37" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10570"><ref rend="bold">Idiotismi lombardi a iosa</ref>:  locuzioni dialettali lombarde in gran quantità.</note>
+        <note xml:id="Gavino_Oliveri_intro-n38" type="comm" target="quarantana/intro.xml#intro_10583" targetEnd="quarantana/intro.xml#intro_10585"><ref rend="bold">qualche eleganza spagnola</ref>:  sul tipo dell'«amparo» riportato sopra; la frase è ironica.</note>
+        <note xml:id="Gavino_Oliveri_intro-n39" type="comm" target="quarantana/intro.xml#intro_10606" targetEnd="quarantana/intro.xml#intro_10607"><ref rend="bold">d'eccitar maraviglia</ref>:  suscitar meraviglia. G.B. Marino, il poeta più rappresentativo del Seicento, riassumeva l'estetica del secolo in un verso famoso: «È del poeta il fin la maraviglia».</note>
+        <note xml:id="Gavino_Oliveri_intro-n40" type="comm" target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10626"><ref rend="bold">rettorica discreta</ref>:  eloquenza sorretta dal discernimento, appropriata. Manzoni fu sempre attento alla chiarezza del linguaggio e alla misura dello stile.</note>
+        <note xml:id="Gavino_Oliveri_intro-n41" type="comm" target="quarantana/intro.xml#intro_10646"><ref rend="bold">accozzando</ref>:  mettendo insieme.</note>
+        <note xml:id="Gavino_Oliveri_intro-n42" type="comm" target="quarantana/intro.xml#intro_10662"><ref rend="bold">affettato</ref>:  artificioso.</note>
+        <note xml:id="Gavino_Oliveri_intro-n43" type="comm" target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  sgrammaticature (dal nome della città cilicia di Sòloi, nota per la scorretta pronuncia degli abitanti).</note>
+        <note xml:id="Gavino_Oliveri_intro-n44" type="comm" target="quarantana/intro.xml#intro_10699" targetEnd="quarantana/intro.xml#intro_10701"><ref rend="bold">In questo paese</ref>:  in Lombardia.</note>
+        <note xml:id="Gavino_Oliveri_intro-n45" type="comm" target="quarantana/intro.xml#intro_10708" targetEnd="quarantana/intro.xml#intro_10710"><ref rend="bold">a lettori d'oggigiorno</ref>:  Manzoni pensa al destinatario della sua opera: un pubblico popolare, comprendente cioè - nell'accezione dei nostri romantici - tutte le fasce della borghesia.</note>
+        <note xml:id="Gavino_Oliveri_intro-n46" type="comm" target="quarantana/intro.xml#intro_10759"><ref rend="bold">tuttavia</ref>:  tuttora.</note>
+        <note xml:id="Gavino_Oliveri_intro-n47" type="comm" target="quarantana/intro.xml#intro_10799" targetEnd="quarantana/intro.xml#intro_10800"><ref rend="bold">la dicitura</ref>:  l’espressione, cioè il linguaggio e lo stile.</note>
+        <note xml:id="Gavino_Oliveri_intro-n48" type="comm" target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10806"><ref rend="bold">Non essendosi presentato alcuna obiezion</ref>:  il gerundio è usato in forma impersonale e assoluta: di qui la mancanza di concordanza fra «presentato» e «obiezion».</note>
+        <note xml:id="Gavino_Oliveri_intro-n49" type="comm" target="quarantana/intro.xml#intro_10809"><ref rend="bold">partito</ref>:  decisione.</note>
+        <note xml:id="Gavino_Oliveri_intro-n50" type="comm" target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10823"><ref rend="bold">con un'ingenuità pari all'importanza</ref>:  l’importanza del libro è scarsa, come scarsa è l’ingenuità con la quale l’autore lo ha presentato... È un'ammiccante allusione alla finzione del manoscritto.</note>
+        <note xml:id="Gavino_Oliveri_intro-n51" type="comm" target="quarantana/intro.xml#intro_10855" targetEnd="quarantana/intro.xml#intro_10857"><ref rend="bold">interrogare altri testimoni</ref>:  ricercare alle testimonianze.</note>
+        <note xml:id="Gavino_Oliveri_intro-n52" type="comm" target="quarantana/intro.xml#intro_10858" targetEnd="quarantana/intro.xml#intro_10879"><ref rend="bold">e ci siam messi... a quel modo</ref>:  Manzoni si documentò minuziosamente sulle condizioni della Lombardia durante la dominazione spagnola: anche le parti d'invenzione sono ancorate saldamente alla verità storica.</note>
+        <note xml:id="Gavino_Oliveri_intro-n53" type="comm" target="quarantana/intro.xml#intro_10899" targetEnd="quarantana/intro.xml#intro_10900"><ref rend="bold">più forti</ref>:  più gravi.</note>
+        <note xml:id="Gavino_Oliveri_intro-n54" type="comm" target="quarantana/intro.xml#intro_10935" targetEnd="quarantana/intro.xml#intro_10938"><ref rend="bold">alcuna di quelle testimonianze</ref>:  tra le altre, le «gride» dell’epoca, la a Historia Patria di Giuseppe Ripamonti, il Raguaglio di Alessandro Tadino.</note>
+        <note xml:id="Gavino_Oliveri_intro-n55" type="comm" target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  eventuali.</note>
+        <note xml:id="Gavino_Oliveri_intro-n56" type="comm" target="quarantana/intro.xml#intro_11103" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">le mutano</ref>:  le cambiano.</note>
+        <note xml:id="Gavino_Oliveri_intro-n57" type="comm" target="quarantana/intro.xml#intro_11107" targetEnd="quarantana/intro.xml#intro_11118"><ref rend="bold">mettendo due critiche... l'una dall'altra</ref>:  confrontando due critiche, vedevamo che l'una vanificava l'altra. L'osservazione arguta tocca la capziosità di certe argomentazioni critiche.</note>
+        <note xml:id="Gavino_Oliveri_intro-n58" type="comm" target="quarantana/intro.xml#intro_11167" targetEnd="quarantana/intro.xml#intro_11171"><ref rend="bold">le mandavamo insieme a spasso</ref>:  le liquidavamo, senza tenerle in considerazione.</note>
+        <note xml:id="Gavino_Oliveri_intro-n59" type="comm" target="quarantana/intro.xml#intro_11194"><ref rend="bold">raccapezzar</ref>:  riordinare.</note>
+        <note xml:id="Gavino_Oliveri_intro-n60" type="comm" target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">venivano a fare un libro</ref>:  il critico Lanfranco Caretti pensa che qui Manzoni voglia alludere a un libro sulla lingua composto tra il 1823 e il 1824, di cui parla Giulia Beccaria in una lettera al Tosi e che poi fu distrutto; altri pensano a un'opera del 1836, pubblicata postuma, Sentir messa. Lo scrittore fu sempre attento ai problemi della lingua e dello stile.</note>
+        <note xml:id="Gavino_Oliveri_intro-n61" type="comm" target="quarantana/intro.xml#intro_11253" targetEnd="quarantana/intro.xml#intro_11258"><ref rend="bold">di libri basta uno per volta</ref>:  una battuta scherzosa conclude una pagina di «fondamentale importanza non solo per il lettore Ma anche per l'autore» (Getto), che fornisce qui le coordinate della sua invenzione narrativa e affronta i punti nodali della sua poetica.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

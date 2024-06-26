@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Domenico Guerri (1925)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AP">Alessia Panebianco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Domenico Guerri</title>
+          <editor>Guerri, Domenico</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Vallecchi</publisher>
+          <date>1925</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Guerri_intro">
+        <note xml:id="Guerri_intro-n1" type="comm" target="quarantana/intro.xml#intro_None"><ref rend="bold">Introduzione</ref>:  L'Introduzione serve al M. per affacciarvi la sua finzione di un Anonimo contemporaneo ai fatti, ch'egli vuol far credere autore del racconto, e che chiamerà in causa nelle situazioni psicologiche più intime o più bizzarre, e per motteggiare, un po’ al modo dell’immaginario Turpino nei poemi cavallereschi. Di più gli offre il destro di una gioconda parodia dello stile ambizioso e frondoso del ’600, la quale colorisce i tempi sulla soglia del romanzo, contraffacendone la manifestazione più sintetica, ch’è l’espressione parlata. A sua volta questa parodia dispone il lettore ad accogliere le osservazioni di stile che l’A. ha voluto insinuare nel seguito, in tono di scherzo, ma con profondità di vedute. Inoltre, senza parere e amabilmente, facendo parlare l'Anonimo, l’A. dice in sintesi il soggetto del suo libro, ch'è un quadro di vita nel suo bene e nel suo male, quale poteva essere, e fu, nel ’600 lombardo. A meditarle, subito queste poche pagine si scoprono dense di pensiero, oltre che ingegnose per finissima ironia e sottile malizia.</note>
+        <note xml:id="Guerri_intro-n2" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">L'Historia... gloriose</ref>:  Da questa definizione si diffonde un senso di comico non solo sulla vita del secento, ma di tutta l’umanità nella sua storia. Contrapponendo questo principio a quello del romanzo, che comincia con una chiara serena descrizione naturale si può fin d'ora avviarsi a distinguere l'atteggiamento ironico e canzonatorio che il M. piglia (di frequente) verso i fatti umani, da quello di contemplante che assume verso la sua natura. Questa non guasta mai la sua divinità, come fanno gli uomini con le loro infinite debolezze e con tutti i loro errori! — Osserva le metafore secentescamente sforzate sino al grottesco. La storia, facendo la guerra al tempo, gli toglie gli anni prigionieri, anzi già fatti cadaveri; risuscita quei cadaveri e li schiera di nuovo in battaglia. Gli storici, che sono i capitani di un combattimento tanto buffo, si tramutano poi in imbalsamatori di imprese gloriose, e il loro ingegno portentoso diventa ago da ricamo.</note>
+        <note xml:id="Guerri_intro-n3" type="comm" target="quarantana/intro.xml#intro_10072"><ref rend="bold">qualificati</ref>:  titolati.</note>
+        <note xml:id="Guerri_intro-n4" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10181"><ref rend="bold">Però... diaboliche</ref>:  La forma continua bizzarra; il pensiero è serio e manzoniano. La storia non si deve ristringere agli avvenimenti politici e militari, che non ne sono che una parte e talvolta neanche la più importante. Nello sfondo ha da trovarcisi la società, quella che soffre, di fronte a quella che agisce; e lo specchio delle forme che assunsero il bene e il male, la virtù e il vizio, nella loro fatale e perpetua vicenda e promiscuità.</note>
+        <note xml:id="Guerri_intro-n5" type="comm" target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  trombe di guerra.</note>
+        <note xml:id="Guerri_intro-n6" type="comm" target="quarantana/intro.xml#intro_10132"><ref rend="bold">meccaniche</ref>:  da poco: agg. dispregiativo che già il Boccaccio si compiaceva di mettere in bocca ai suoi personaggi.</note>
+        <note xml:id="Guerri_intro-n7" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  cioè schiettam. e genuinam.: ricercatezza in uso nel ’600.</note>
+        <note xml:id="Guerri_intro-n8" type="comm" target="quarantana/intro.xml#intro_10152" targetEnd="quarantana/intro.xml#intro_10155"><ref rend="bold">Racconto ouuero sia Relatione</ref>:  qui è mera ridondanza, a fine comico.</note>
+        <note xml:id="Guerri_intro-n9" type="comm" target="quarantana/intro.xml#intro_10161" targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">angusto Teatro</ref>:  perchè l'azione del racconto si restringe alla sola Lombardia. La metafora si continua nelle successive immagini di tragedie, scene, intermezzi.</note>
+        <note xml:id="Guerri_intro-n10" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">E veramente... emolumenti</ref>:  È il pezzo adulatorio, di prammatica in ogni prefazione secentesca. Il re di Spagna è il sole, il vicerè la luna, i magnifici senatori sono le stelle fisse, gli altri reggenti sono i pianeti: tutto un cielo di lumi. È grottesca le scusa del male imperversante sul mondo, nonostante tali Arghi dai cento occhi e tali Briarei dalle cento braccia, con l’arte e la fattura diabolica: che sarebbe fatalismo e nullismo.</note>
+        <note xml:id="Guerri_intro-n11" type="comm" target="quarantana/intro.xml#intro_10188"><ref rend="bold">climi</ref>:  regioni</note>
+        <note xml:id="Guerri_intro-n12" type="comm" target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  protezione: è uno spagnolismo.</note>
+        <note xml:id="Guerri_intro-n13" type="comm" target="quarantana/intro.xml#intro_10200" targetEnd="quarantana/intro.xml#intro_10203"><ref rend="bold">Sole che mai tramonta</ref>:  l’espressione rammenta (anche) il superbo vanto di Carlo V, che i suoi successori ancora a quel tempo potevano ripetere.</note>
+        <note xml:id="Guerri_intro-n14" type="comm" target="quarantana/intro.xml#intro_10213" targetEnd="quarantana/intro.xml#intro_10215"><ref rend="bold">Luna giamai calante</ref>:  l’adulazione sa riformare anche gli astri!</note>
+        <note xml:id="Guerri_intro-n15" type="comm" target="quarantana/intro.xml#intro_10285"><ref rend="bold">malitia</ref>:  malizia, volontà di male.</note>
+        <note xml:id="Guerri_intro-n16" type="comm" target="quarantana/intro.xml#intro_10306" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">Si vanno... emolumenti</ref>:  si adoperano per il pubblico bene. Ma nota il giuoco dell'espressione equivoca, per cui l’Anonimo, se veramente avesse scritto così, poteva essere inteso anche a rovescio (senza torto alla verità!).</note>
+        <note xml:id="Guerri_intro-n17" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">Per locchè</ref>:  nota subito la vuota sonorità del nesso, perchè il concetto che segue, che lo scrittore non farà nomi e parlerà dei luoghi senza precisarli, non è affatto conseguente a quello che precede.</note>
+        <note xml:id="Guerri_intro-n18" type="comm" target="quarantana/intro.xml#intro_10380" targetEnd="quarantana/intro.xml#intro_10385"><ref rend="bold">defformità... Parto</ref>:  cioè che questa mia creatura, oltre che rozza, sia un aborto.</note>
+        <note xml:id="Guerri_intro-n19" type="comm" target="quarantana/intro.xml#intro_10397"><ref rend="bold">Filosofia</ref>:  Che c’entra la filosofia? Per nulla. In definitiva le opere d'arte non soggiacciono che al giudizio del buon gusto. Ma ce la faceva entrare l'abitudine mentale del tempo, di sentenziare anche d’arte per principi prestabiliti, deduttivamente. Qui l’Anonimo sostiene che la mancanza di nomi, puri accidenti (filosoficamente: quel che può essere o non essere nel soggetto, che pertanto ne rimane a se stesso uguale), non distrugge e non menoma la sostanza, cioè la realtà o essenza del soggetto.</note>
+        <note xml:id="Guerri_intro-n20" type="comm" target="quarantana/intro.xml#intro_10429"><ref rend="bold">accidenti...</ref>:  Nota ch’è malizioso il troncamento della presunta copia a quell’accidenti, che suggerisce al lettore un’interiezione che vien tanto a proposito. Per richiamarci l’attenzione, o piuttosto per divertircisi esso stesso, il M. ripete la parola con molta grazia, poche righe sotto.</note>
+        <note xml:id="Guerri_intro-n21" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_11257"><ref rend="bold">dilavato... autografo, cioè sbiadito per il tempo; e graffiato per le cancellature e gli scarabocchi o sgorbi della mano di scrittura.</ref>: </note>
+        <note xml:id="Guerri_intro-n22" type="comm" target="quarantana/intro.xml#intro_10498" targetEnd="quarantana/intro.xml#intro_11111"><ref rend="bold">Ben è vero... mani</ref>:  È una pagina di critica allo stile del ’600. Il M. rileva che quell’artificio caratteristico dei concettini, delle metafore e antitesi, delle declamazioni ampollose e goffaggini ambiziose, non s'ha da credere che continui alla distesa, chè tal delirio non sarebbe possibile in perpetuo. Esso s'accompagna particolarmente ai luoghi più adatti a far sfoggio di rettorica. Ma anche dove l’artificio è meno intenso ed esteriore, l’arte vera manca, perchè mancano l’intimità e il gusto, e non c’è il possesso dello strumento dell’espressione, la lingua. Riconosce che i tempi per questa parte sono cambiati in meglio.</note>
+        <note xml:id="Guerri_intro-n23" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10528"><ref rend="bold">Il buon secentista</ref>:  L’agg. buono dato all’Anon. secentista ne qualifica l’insufficenza di scrittore.</note>
+        <note xml:id="Guerri_intro-n24" type="comm" target="quarantana/intro.xml#intro_10538"><ref rend="bold">virtù</ref>:  è da intendere ironicamente e vale tutt'al più per virtuosità, artificiosità.</note>
+        <note xml:id="Guerri_intro-n25" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568"><ref rend="bold">Idiotismi lombardi</ref>:  modi di dire propri della regione lomb.</note>
+        <note xml:id="Guerri_intro-n26" type="comm" target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10626"><ref rend="bold">rettorica discreta</ref>:  la rettorica discreta di cui qui si parla non è, in fondo, altro che l’arte; ma si sente anche qui una leggiera punta ironica, in quanto pare che il M. senta e voglia far sentire che il limite preciso dove finisce l’arte e incomincia la rettorica non sempre si vede e si copre. Ne possono trarre un avvertimento i critici.</note>
+        <note xml:id="Guerri_intro-n27" type="comm" target="quarantana/intro.xml#intro_10647" targetEnd="quarantana/intro.xml#intro_10649"><ref rend="bold">con un'abilità mirabile</ref>:  mirabilissima è perciò l'abilità con cui il M. ha riprodotto questa specie di periodare.</note>
+        <note xml:id="Guerri_intro-n28" type="comm" target="quarantana/intro.xml#intro_10680" targetEnd="quarantana/intro.xml#intro_10681"><ref rend="bold">solecismi pedestri</ref>:  spropositi elementari di espressione.</note>
+        <note xml:id="Guerri_intro-n29" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia: e dice così, per non allargare la condanna, non essendogli richiesto dal discorso, e per non scordare che ci sono altri scrittori rispettabilissimi anche In questa età, come per es. il Galilei.</note>
+        <note xml:id="Guerri_intro-n30" type="comm" target="quarantana/intro.xml#intro_10733" targetEnd="quarantana/intro.xml#intro_10734"><ref rend="bold">sciagurato lavoro</ref>:  intendi della finta trascrizione.</note>
+        <note xml:id="Guerri_intro-n31" type="comm" target="quarantana/intro.xml#intro_10754" targetEnd="quarantana/intro.xml#intro_10756"><ref rend="bold">storia così bella</ref>:  Storia bella, popolarescamente, per interessante, commovente. E intendi allo stesso modo l’ostentato semplicismo del rifarne la dicitura: il M. la sapeva molto più lunga e aveva ben altra esperienza sul travaglio necessario al bene scrivere.</note>
+        <note xml:id="Guerri_intro-n32" type="comm" target="quarantana/intro.xml#intro_10821"><ref rend="bold">un'ingenuità</ref>:  è invece una finzione e una malizia; ma il M. la qualifica innocente, perchè non pretende di presentare un’opera importante, che metta conto di prender troppo sul serio.</note>
+        <note xml:id="Guerri_intro-n33" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10956"><ref rend="bold">Taluni... negarla</ref>:  Ridotti al concetto, questi periodi significano: per immaginaria che sia la narrazione, essa rappresenta la vita dei tempi secondo la verità storica, per raggiunger la quale verità l'A. dichiara di non avere omesso ricerche e fatiche. Più tardi il M. condannerà come ibrido il romanzo storico, appunto per la mescolanza di fantasia e di storia. Ma per fortuna il capolavoro era composto!</note>
+        <note xml:id="Guerri_intro-n34" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_None"><ref rend="bold">Ma, rifiutando... davanzo</ref>:  Berteggiata la dicitura dell’Anom., l'A. ha voluto scherzare sulla sua, che pure gli era costata tanta fatica, come mostrano le profonde differenze tra la prima stesura ’21-23 e quella della edizione ’25-27; senza contare l'ulteriore lavoro pel famoso risciacquamento in Arno di questi cenci del romanzo, cioè per l’ediz. definitiva del ’40-42. La sua teoria intorno alla lingua, il M. la elaborò appunto attraverso questo travaglio. Ma capiva che qui non era il caso di discorrerne, neanche per quella parte che già allora ne vedeva e che avrebbe costituito un libro. Sapeva bene di averci ragionato su, in modo originale, ma in cambio di affermar questo, motteggiava sui processi del ragionamento e delle dispute letterarie, spesso interminabili e inconcludenti, in specie sulla lingua. Per suo conto faceva qualcosa di più concreto: dava un esemplo.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

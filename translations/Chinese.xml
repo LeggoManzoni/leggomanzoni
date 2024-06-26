@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>自序</title>
+                <respStmt>
+                    <resp>Supervisione codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica automatizzata</resp>
+                    <persName xml:id="ML">Maria Levchenko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Scheda editoriale</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>The Betrothed Lovers</title>
+                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Longman, Brown, Green, and Longmans</publisher>
+                    <date>1845</date>
+                    <respStmt>
+                        <resp>Translated by</resp>
+                        <persName xml:id="BP">Anonymous</persName>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Benucci_intro">
+                <p xml:id="P1">
+                    <note xml:id="Benucci_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10011">時於歷史,人們確實可以給它冠以抗衡時空的一場著名戰爭的定義,</note>
+
+                    <note xml:id="Benucci_intro-n2" type="comm" target="quarantana/intro.xml#intro_10012" targetEnd="quarantana/intro.xml#intro_10022">因為它從時空手中奪回了它的囚徒,以及甚至早已成為屍體的年華,</note>
+
+                    <note xml:id="Benucci_intro-n3" type="comm" target="quarantana/intro.xml#intro_10023" targetEnd="quarantana/intro.xml#intro_10037">然後再一次賦予它們新的生命,讓它們在接受檢閱以後排列成方陣重新走上戰場,</note>
+
+                    <note xml:id="Benucci_intro-n4" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10073">在這一特定的文化領域內等待獲取勝利和榮譽的,聞名遐邇的歷史學家, 他們獲取的只是彪炳千古的名人遺事,然後用墨水當作防腐香料塗抹在諸如王公公子和權貴等要人輝煌的業績上,</note>
+
+                    <note xml:id="Benucci_intro-n5" type="comm" target="quarantana/intro.xml#intro_10074" targetEnd="quarantana/intro.xml#intro_10092">再用金線和絲線穿過隱喻智慧的極其細小的針眼,織出一幅幅描繪他們永垂不朽功勞的精美的藝術作品。</note>
+
+                    <note xml:id="Benucci_intro-n6" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10105">然而,由於才學淺薄,我本人沒有資格就上述話題發表宏論,</note>
+
+                    <note xml:id="Benucci_intro-n7" type="comm" target="quarantana/intro.xml#intro_10106" targetEnd="quarantana/intro.xml#intro_10118">再說,讓一個陷於政治陰謀和號角聲包圍中的人對意境如此崇高的主題高談闊論,</note>
+
+                    <note xml:id="Benucci_intro-n8" type="comm" target="quarantana/intro.xml#intro_10119" targetEnd="quarantana/intro.xml#intro_10136">確實是一件十分危險的事情。 只有當我偶取到值得回憶的史料(盡管它們都是發生在地位卑微的工匠和農民中間一些無足輕重的瑣事),</note>
+
+                    <note xml:id="Benucci_intro-n9" type="comm" target="quarantana/intro.xml#intro_10137" targetEnd="quarantana/intro.xml#intro_10155">我才決定採用平鋪直敘的手法, 將它們寫成通俗易懂的故事或傳說留給後人。 通過這些故事,</note>
+
+                    <note xml:id="Benucci_intro-n10" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10170">人們將看到發生在鄉間小村落裡令人驚悚的悲慘和充滿可憎可惡行為的場景,</note>
+
+                    <note xml:id="Benucci_intro-n11" type="comm" target="quarantana/intro.xml#intro_10171" targetEnd="quarantana/intro.xml#intro_10181">其間還穿插著一些與惡魔的行徑大相徑庭體現天使般美德的小故事。</note>
+
+                    <note xml:id="Benucci_intro-n12" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10203">每當我想到, 在無比宏偉壯麗的蒼穹中,</note>
+
+                    <note xml:id="Benucci_intro-n13" type="comm" target="quarantana/intro.xml#intro_10204" targetEnd="quarantana/intro.xml#intro_10253">熠耀永不隕落的太陽、從不西沉的月亮以及古往今來的恆星和飄忽不定的行星(它們分別象徵信奉天主教的國王陛下、英勇一時的貴族英雄們、寬宏大量的大法官和備受人們尊敬的地方行政官), 它們不僅把上述那些村落置於自己的保護之下, 而且將其光芒灑向村落裡的農舍和每一個角落,</note>
+
+                    <note xml:id="Benucci_intro-n14" type="comm" target="quarantana/intro.xml#intro_10254" targetEnd="quarantana/intro.xml#intro_10275">我就沒有任何特殊的理由相信, 如此明亮的天空會蛻變成充斥鬼魅作祟、邪惡和暴力的黑暗地獄。 言行乖張的人正在成們地增多,</note>
+
+                    <note xml:id="Benucci_intro-n15" type="comm" target="quarantana/intro.xml#intro_10276" targetEnd="quarantana/intro.xml#intro_10311">倘若他們光用凡人皆有的計謀而不採取惡魔般的手段和行動, 他們就元法抵禦人數眾多的英雄, 因為後者有阿爾剛的眼睛和布里阿柔斯的手臂, 正在用公共財富從事著腐敗的交易。</note>
+
+                    <note xml:id="Benucci_intro-n16" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10323">由於我敘述的故事發生在我的青年時代,</note>
+
+                    <note xml:id="Benucci_intro-n17" type="comm" target="quarantana/intro.xml#intro_10324" targetEnd="quarantana/intro.xml#intro_10346">故事中的大部分人物已從生世的舞台上消失後成了一個個亡靈,</note>
+
+                    <note xml:id="Benucci_intro-n18" type="comm" target="quarantana/intro.xml#intro_10347" targetEnd="quarantana/intro.xml#intro_10365">出於對他們應有的尊敬, 我在故事中略去了他們的姓名,即他們家族的名字, 至於故事發生的地點,</note>
+
+                    <note xml:id="Benucci_intro-n19" type="comm" target="quarantana/intro.xml#intro_10366" targetEnd="quarantana/intro.xml#None">我只是指明一下它大概的方位, 我想,</note>
+
+                    <note xml:id="Benucci_intro-n20" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10385">沒有人會將此看作故事中的瑕疵或我這一部作品的不足之處,</note>
+
+                    <note xml:id="Benucci_intro-n21" type="comm" target="quarantana/intro.xml#intro_10386" targetEnd="quarantana/intro.xml#intro_10397">除非提出此批評現點的是一個缺乏哲學思想的遲鈍之人。</note>
+
+                    <note xml:id="Benucci_intro-n22" type="comm" target="quarantana/intro.xml#intro_10398" targetEnd="quarantana/intro.xml#intro_10412">熟悉精品文學作品的行家們很快就會發現, 在我敘述的故事中, 主要的情節並無任何缺漏,</note>
+
+                    <note xml:id="Benucci_intro-n23" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10416">毋庸置疑, 與故事的情節相比,</note>
+
+                    <note xml:id="Benucci_intro-n24" type="comm" target="quarantana/intro.xml#intro_11199" targetEnd="quarantana/intro.xml#None">名字確實是最不起眼的一個組成部分, 我想無人會否認這樣的一個事實。</note>
+                </p>
+                <p xml:id="P25">
+                    <note xml:id="Benucci_intro-n25" type="comm" target="quarantana/intro.xml#intro_10431" targetEnd="quarantana/intro.xml#intro_10456">然而,當我把這些泛黃和殘缺不全的手稿抄寫完畢之後(即按慣常的說法,將這本書公諸於世),</note>
+
+                    <note xml:id="Benucci_intro-n26" type="comm" target="quarantana/intro.xml#intro_10457" targetEnd="quarantana/intro.xml#intro_10465">有人會不辭勞苦地閱讀它嗎?</note>
+                </p>
+                <p xml:id="P27">
+                    <note xml:id="Benucci_intro-n27" type="comm" target="quarantana/intro.xml#intro_10467" targetEnd="quarantana/intro.xml#None">在我冥思苦想地試圖譯解"天哪"一詞後面字眼的段落時, 心中不禁產生了上述的疑惑,</note>
+
+                    <note xml:id="Benucci_intro-n28" type="comm" target="quarantana/intro.xml#intro_10482" targetEnd="quarantana/intro.xml#intro_10486">我擱下手中的筆,</note>
+
+                    <note xml:id="Benucci_intro-n29" type="comm" target="quarantana/intro.xml#intro_10487" targetEnd="quarantana/intro.xml#intro_10496">開始認真地考慮下一步棋子該如何走。</note>
+
+                    <note xml:id="Benucci_intro-n30" type="comm" target="quarantana/intro.xml#intro_10498" targetEnd="quarantana/intro.xml#intro_10506">毫無疑問, 我一邊翻閱手稿一邊自言自語道,</note>
+
+                    <note xml:id="Benucci_intro-n31" type="comm" target="quarantana/intro.xml#intro_10507" targetEnd="quarantana/intro.xml#intro_10525">整部作品裡不可能自始至終都是一味追求奇特概念的詞語和怪異荒誕的形象,</note>
+
+                    <note xml:id="Benucci_intro-n32" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10538">我們這位十七世紀的作家只是想在故事的開端炫耀一下自己的寫作才華而已,</note>
+
+                    <note xml:id="Benucci_intro-n33" type="comm" target="quarantana/intro.xml#intro_10539" targetEnd="quarantana/intro.xml#intro_10558">隨著故事情節一步一步向深入發展, 尤其是在多個長段的描述中, 其寫作風格逐漸顯得自然和明朗起來,</note>
+ 
+                    <note xml:id="Benucci_intro-n34" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">是啊, 即使在當時, 這也是一種平實粗俗和不完美的文體!</note>
+
+                    <note xml:id="Benucci_intro-n35" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10580">大量的藩巴底方言, 使用不當的詞組, 任意堆砌的語法規則,</note>
+   
+                    <note xml:id="Benucci_intro-n36" type="comm" target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10589">支離破碎的句子和隨處可見的體現西班牙語修辭法的痕跡。</note>
+
+                    <note xml:id="Benucci_intro-n37" type="comm" target="quarantana/intro.xml#intro_10590" targetEnd="quarantana/intro.xml#intro_10611">更為糟糕的是, 上述語言弊病都出現在故事最容易引起讀者恐懼、憐憫、驚駭和思考的多個段落中。</note>
+
+                    <note xml:id="Benucci_intro-n38" type="comm" target="quarantana/intro.xml#intro_10612" targetEnd="quarantana/intro.xml#intro_10630">沒錯,那多個段落確實需要恰如其分地加上一些華麗的詞藻, 但必須給人以清雅、優美的藝術享受。</note>
+
+                    <note xml:id="Benucci_intro-n39" type="comm" target="quarantana/intro.xml#intro_10631" targetEnd="quarantana/intro.xml#intro_10643">本書的作家從不放棄顯示他獨辟蹊徑的寫作風格的機會, 在這一方面,</note>
+
+                    <note xml:id="Benucci_intro-n40" type="comm" target="quarantana/intro.xml#None" targetEnd="quarantana/intro.xml#None">書中的序言就是一個典型的明證。</note>
+
+                    <note xml:id="Benucci_intro-n41" type="comm" target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10653">他以非凡的才能, 將迥然不同的多個部分組合在一起,</note>
+
+                    <note xml:id="Benucci_intro-n42" type="comm" target="quarantana/intro.xml#intro_10654" targetEnd="quarantana/intro.xml#intro_10671">用同樣的詞語成功地使同一頁和同一句中的寫作風格顯得粗俗和造作。</note>
+
+                    <note xml:id="Benucci_intro-n43" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10681">由文理不通和平淡無奇的句子勉強堆砌起來的段落只是在表面上顯得矯情,</note>
+
+                    <note xml:id="Benucci_intro-n44" type="comm" target="quarantana/intro.xml#intro_10682" targetEnd="quarantana/intro.xml#intro_10688">但逼真卻是拙劣、浮華的文體,</note>
+
+                    <note xml:id="Benucci_intro-n45" type="comm" target="quarantana/intro.xml#intro_10689" targetEnd="quarantana/intro.xml#intro_10700">這正體現了當時意大利文壇的寫作特點。</note>
+
+                    <note xml:id="Benucci_intro-n46" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10710">確實, 我們不該將此類怪誕的作品推薦給今天的讀者,</note>
+
+                    <note xml:id="Benucci_intro-n47" type="comm" target="quarantana/intro.xml#intro_10711" targetEnd="quarantana/intro.xml#intro_10720">它們只能引起他們強烈的反感, 導致他們完全誤失原先率真的天性。</note>
+
+                    <note xml:id="Benucci_intro-n48" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#None">所幸,在我剛著手進行這一項討論的工作時, 頭腦中就萌生了就此輟筆的念頭。</note>
+                </p>
+                <p xml:id="P49">
+                    <note xml:id="Benucci_intro-n49" type="comm" target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10748">當我準備合上記事本並將它束之高閣之際,</note>
+
+                    <note xml:id="Benucci_intro-n50" type="comm" target="quarantana/intro.xml#intro_10749" targetEnd="quarantana/intro.xml#intro_10760">我又為一則如此動人的故事從此將汪沒無聞而深感惋惜,</note>
+
+                    <note xml:id="Benucci_intro-n51" type="comm" target="quarantana/intro.xml#intro_10761" targetEnd="quarantana/intro.xml#intro_10772">也許,讀者對它的評價不盡相同,</note>
+
+                    <note xml:id="Benucci_intro-n52" type="comm" target="quarantana/intro.xml#intro_10773" targetEnd="quarantana/intro.xml#intro_10782">但我覺得,它確實是一個感人肺腑的、十分美麗的故事。</note>
+
+                    <note xml:id="Benucci_intro-n53" type="comm" target="quarantana/intro.xml#intro_10784" targetEnd="quarantana/intro.xml#intro_10800">我心中忽然想到:"我為何不把手稿中陳述的一連串事實重新整理在一起後在語言上加以修飾呢?"</note>
+
+                    <note xml:id="Benucci_intro-n54" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#None">由於無人從理性角度對我的想法提出任何異議, 我決定立即著手工作。</note>
+
+                    <note xml:id="Benucci_intro-n55" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">這就是本書誕生的起源, 我之所以只用寥寥數語加以解釋, 是想借此烘托本書的重要性。</note>
+                </p>
+                <p xml:id="P56">
+                    <note xml:id="Benucci_intro-n56" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10847">我們的作者在書中提及的某些史實和描述的某些當時的民間習俗, 說一句不太難聽的話, 似乎十分怪異和荒誕, 正因如此,</note>
+
+                    <note xml:id="Benucci_intro-n57" type="comm" target="quarantana/intro.xml#intro_10848" targetEnd="quarantana/intro.xml#intro_10857">在堅信作者講述的故事之真實性以前, 我們還是想詢問一下其他的論人。</note>
+
+                    <note xml:id="Benucci_intro-n58" type="comm" target="quarantana/intro.xml#intro_10858" targetEnd="quarantana/intro.xml#intro_10879">我們開始在記載當時那個歷史年代真實情況的回憶錄中查找明證, 欲以此證實作者在書中向我們展示的世界是否真的同史實相符,</note>
+
+                    <note xml:id="Benucci_intro-n59" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10887">調查的結果卻驅散了壓在我們心頭的所有疑雲,</note>
+
+                    <note xml:id="Benucci_intro-n60" type="comm" target="quarantana/intro.xml#intro_10888" targetEnd="quarantana/intro.xml#intro_10900">因為隨著研究的不斷深入, 我們經常遇到一些同書中的情節十分相似或者甚至比它更為離奇的事情。</note>
+
+                    <note xml:id="Benucci_intro-n61" type="comm" target="quarantana/intro.xml#intro_10901" targetEnd="quarantana/intro.xml#intro_10931">讓我們感到更為心服口服的是, 我們竟然在手稿中還發現了以前聞所未聞的一些人物的名字, 至於他們是否在歷史上真的存在過, 我們心中曾產生過疑問,</note>
+
+                    <note xml:id="Benucci_intro-n62" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10943">在必要時, 我們將引用一部分查實的證據, 讓讀者對史實的可靠性堅信不疑,</note>
+
+                    <note xml:id="Benucci_intro-n63" type="comm" target="quarantana/intro.xml#intro_10944" targetEnd="quarantana/intro.xml#intro_10956">因為你們很可能會拒絕接受在你們看來荒誕不經的事實。</note>
+                </p>
+                <p xml:id="P64">
+                    <note xml:id="Benucci_intro-n64" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">既然我們對本書作者採用的難以讓人忍受的語言持否定態度, 那麼我們拿什麼去取而代之呢?</note>
+
+                    <note xml:id="Benucci_intro-n65" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">這無疑是個至關重要的問題。</note>
+                </p>
+                <p xml:id="P66">
+                    <note xml:id="Benucci_intro-n66" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_10999">不管是誰,倘若在無人請求他的情況下主動修改旁人的作品, 他就有義務詳細說明自己對原文的理解, 從某種意義上來說, 他應將此視作一件責無旁貸的事情。</note>
+
+                    <note xml:id="Benucci_intro-n67" type="comm" target="quarantana/intro.xml#intro_11000" targetEnd="quarantana/intro.xml#intro_11015">此乃涉及他人權利的一條慣常的原則, 我們無意僭橫地踰越它。</note>
+
+                    <note xml:id="Benucci_intro-n68" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11037">反之,為了表示自己遵循原則辦事的誠意, 我們曾建議就寫作手法作出詳盡的說明。</note>
+
+                    <note xml:id="Benucci_intro-n69" type="comm" target="quarantana/intro.xml#intro_11038" targetEnd="quarantana/intro.xml#intro_11062">正因為如此,在改寫本書的整個過程中, 我們始終在設想人們可能提出的(甚至是出乎意料的)批評意見, 以便我們事先作好反駁的準備。</note>
+
+                    <note xml:id="Benucci_intro-n70" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11092">這原本並不是一件困難的事情,諷心而論,對任何假設的批評意見,我們都能找出足以取勝的相應回答,</note>
+
+                    <note xml:id="Benucci_intro-n71" type="comm" target="quarantana/intro.xml#intro_11093" targetEnd="quarantana/intro.xml#intro_11104">這些回答固然不能解決問題,但是它們卻能改變問題的性質。</note>
+
+                    <note xml:id="Benucci_intro-n72" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11118">不止一次,當我們將兩種批評意見襯在對立位置上讓它們互相爭斗,</note>
+
+                    <note xml:id="Benucci_intro-n73" type="comm" target="quarantana/intro.xml#intro_11119" targetEnd="quarantana/intro.xml#intro_11141">或者通過深入細致的研究進行認真的比較, 我們發現並證實, 這兩種意見盡管在表面上迥異, 但在實際上如出一轍,</note>
+
+                    <note xml:id="Benucci_intro-n74" type="comm" target="quarantana/intro.xml#intro_11142" targetEnd="quarantana/intro.xml#intro_11159">因為它們忽視了事實和作評價所必須依據的原則。</note>
+
+                    <note xml:id="Benucci_intro-n75" type="comm" target="quarantana/intro.xml#intro_11160" targetEnd="quarantana/intro.xml#intro_11171">正因為如此,我們才能出其不意地將它們分成一對一對, 然後殷勤地加以糾正。 事實上,除了我們,</note>
+
+                    <note xml:id="Benucci_intro-n76" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">沒有一個作家能夠以確鑿的證據表明自己在工作中是盡心竭力的。</note>
+
+                    <note xml:id="Benucci_intro-n77" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11187">然而,要做到克盡其職又談何容易!</note>
+
+                    <note xml:id="Benucci_intro-n78" type="comm" target="quarantana/intro.xml#intro_11188" targetEnd="quarantana/intro.xml#intro_11211">當我們將所有的異議和回答都拼湊在一起並準備按順序把它們重新組合的時候, 我們驚慌不已地發現,經堆砌之後,它們筆直成了一本完整的書。</note>
+
+                    <note xml:id="Benucci_intro-n79" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11230">出於以下兩個讀者一定會認同的理由,我們放棄了原先的想法:</note>
+
+                    <note xml:id="Benucci_intro-n80" type="comm" target="quarantana/intro.xml#intro_11231" targetEnd="quarantana/intro.xml#intro_11262">其一,試圖用一本書去解釋另一本書乃至它的寫作風格似乎是一件十分荒唐的事情; 其二,一次著述一部書已足矣,況且就是這部書也可能是多餘的。</note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelo Marchese (1986)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi :  a cura di Angelo Marchese</title>
+          <editor>Marchese, Angelo</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Mondadori</publisher>
+          <date>1986</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+  
+      <div xml:id="Marchese_cap1">
+        <note xml:id="Marchese_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10006">
+          <ref rend="bold">Quel ramo del lago di Como</ref>:  L'attacco del romanzo descrive i luoghi in cui si svolgono le azioni principali: è un inizio lento e circostanziato, di gusto analitico e quasi topografico, con una dovizia di particolari che a taluno è apparsa eccessiva («Tra tutti quei seni e golfi, e poggi e valloncelli, e erte e spianate, noi ci sperdiamo un po’»: Russo); una pagina che non vuol essere lirica e abbandonata alla nostalgia dei ricordi (Manzoni soggiornò a lungo nella prima giovinezza presso Pescarenico) ma essenzialmente oggettiva, quasi per fissare uno scenario stabile che non verrà mai meno, sia pure idealmente, nel corso del racconto: un punto di convergenza e di orientamento spaziale e, soprattutto, spirituale. L’andante ritmico della prosa, impostato dal novenario d'apertura, con la disposizione degli elementi a gruppi calibrati e talora a coppie («a seni e golfi», «dello sporgere e del rientrare»...), sottolinea a poco a poco l’animarsi del paesaggio, il suo cambiar forme e aspetti fra lago, fiume, torrenti e monti; silente e maestoso, ma segnato dell’uomo e dalla sua fatica.</note>
+        <note xml:id="Marchese_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10055">
+          <ref rend="bold">costiera</ref>:  pendio tra il monte e la riva.</note>
+        <note xml:id="Marchese_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120">
+          <ref rend="bold">tre grossi torrenti</ref>:  il Gerenzone, il Galdone il Bione.</note>
+        <note xml:id="Marchese_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10209">
+          <ref rend="bold">costa</ref>:  pendice dei monti.</note>
+        <note xml:id="Marchese_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10260" targetEnd="quarantana/cap1.xml#c1_10264">
+          <ref rend="bold">terre... ville... casali</ref>:  paesi, villaggi, case sparse.</note>
+        <note xml:id="Marchese_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10339">
+          <ref rend="bold">castello</ref>:  roccaforte con guarnigione di soldati.</note>
+        <note xml:id="Marchese_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_16028">
+          <ref rend="bold">Ai tempi in cui accaddero... le fatiche della vendemia</ref>:  L'intervento del narratore («Ai tempi in cui accaddero i fatti che prendiamo a raccontare) interrompe la descrizione con un breve vuole commento storico amaramente ironico, che vuole far intendere, per antifrasi, esattamente l'opposto di ciò che dice: che bell'onore e quale vantaggio avere una guarnigione spagnola! E quali lezioni di modestia, di rispetto e di laboriosità erano impartite dai soldati agli abitanti del luogo! Si delinea già uno scorcio del Seicento e sue ingiustizie, le prepotenze, i soprusi (non solo degli stranieri); ma, al di là di quel secolo, vi è per l’austero sentimento etico-religioso del Manzoni un dato di fondo che percorre la storia tutta: la violenza degli oppressori sugli oppressi, la forza iniqua che si ammanta delle ragioni speciose del diritto, l'abuso del potere che stravolge la giustizia a strumento di persecuzione dei deboli. Una violenza che, fra i suoi molti effetti negativi, intacca anche le fondamenta morali della famiglia, insultando la dignità della donna e del lavoro, ed è per questo tanto più deprecata dall'autore.</note>
+        <note xml:id="Marchese_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10419">
+          <ref rend="bold">tuttavia</ref>:  tuttora.</note>
+        <note xml:id="Marchese_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10465">
+          <ref rend="bold">prospetti</ref>:  prospettive, panorami.</note>
+        <note xml:id="Marchese_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_10598" targetEnd="quarantana/cap1.xml#c1_10683">
+          <ref rend="bold">Il luogo stesso... magnifico dell'altre vedute</ref>:  La descrizione, dopo la parentesi storica, riprende con un tono più vibrante e poetico, chiamando il destinatario a partecipare direttamente al maestoso spettacolo della natura.</note>
+        <note xml:id="Marchese_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_10690" targetEnd="quarantana/cap1.xml#c1_10691">
+          <ref rend="bold">bel bello</ref>:  pacifico e tranquillo.</note>
+        <note xml:id="Marchese_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_10706" targetEnd="quarantana/cap1.xml#c1_10712">
+          <ref rend="bold">curato d'una delle terre accennate di sopra</ref>:  Sant'Abbondio è il patrono di Como: il Manzoni ha dunque dato al suo personaggio un nome locale. Per ora è solo un nome senza ritratto, rimandato al cap. VIII. Non ha importanza sapere quale sia il paese di cui è curato (Acquate, Olate o Maggianico): il Manzoni ha opportunamente sfumato, qui e altrove, l’ossequio del vero.</note>
+        <note xml:id="Marchese_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_10812">
+          <ref rend="bold">fessi</ref>:  fenditure.</note>
+        <note xml:id="Marchese_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_10846">
+          <ref rend="bold">voltata</ref>:  svolta.</note>
+        <note xml:id="Marchese_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_10832" targetEnd="quarantana/cap1.xml#c1_10866">
+          <ref rend="bold">Aperto poi di nuovo... anche quel giorno</ref>:  La passeggiata fotografa il personaggio, ne svela l'animo attraverso i gesti meccanici e abitudinari: un prete tranquillo, che si gode i piaceri modesti del luogo, senza alcuno slancio sentimentale («alzava il viso, e, girati oziosamente gli occhi all’intorno...»), badando anzi a evitare intoppi fastidiosi. Non ci pare che tutto cio mostri un «temperamento idillico», come pensa il Russo.</note>
+        <note xml:id="Marchese_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_10899">
+          <ref rend="bold">cura</ref>:  casa del curato, canonica.</note>
+        <note xml:id="Marchese_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_10920" targetEnd="quarantana/cap1.xml#c1_10995">
+          <ref rend="bold">I muri interni... con qualche scalcinatura qua e là</ref>:  Non v'è certo dileggio della pietà popolare, che si finge le anime purganti tra il fuoco purificatore, bensì una nota umoristica a proposito delle forme serpeggianti e puntute di quelle figure, com'erano riuscite all’arte rozza del pittore. Una macchia, ancora, di colore locale e storico, con un pizzico di humour: quelle anime in pena, inoltre, sembrano prefigurare il prossimo tormento di don Abbondio.</note>
+        <note xml:id="Marchese_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_11173" targetEnd="quarantana/cap1.xml#c1_11176">
+          <ref rend="bold">congegnate come in cifra</ref>:  a formare disegni decorativi.</note>
+        <note xml:id="Marchese_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_11185" targetEnd="quarantana/cap1.xml#c1_11192">
+          <ref rend="bold">a conoscere per individui della specie de' bravi</ref>:  I bravi sono una sorta di sgherri, di sicari assoldati da signori prepotenti come guardie del corpo e manovalanza del crimine. Questi due, che attendono don Abbondio, hanno dipinta addosso l'arroganza intimidatoria di delinquenti incalliti: soprattutto la vistosa esibizione degli abiti e delle armi, che non rinuncia a una nota di pacchiana eleganza (la reticella con la nappa, il ciuffo, i mustacchi arricciati, la cintura «lucida», lo spadone a lamine «forbite e lucenti»), dà misura di una «vanitosa ribalderia» (Russo), i una ostinata esaltazione della violenza.</note>
+        <note xml:id="Marchese_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11243">
+          <ref rend="bold">Fino dall'otto aprile dell'anno 1583</ref>:  L'ampio excursus delle gride non è piaciuto a taluni critici perché interromperebbe inutilmente la narrazione. Il Manzoni, tuttavia, non vuole concedere nulla al pittoresco o al romanzesco, sicché storicizza i ritratto dei bravi con ampie citazioni di bandi del tempo (le gride), alle quali alterna i suoi sarcastici riassunti e commenti. Come nell’Introduzione, il narratore lascia spazio alla voce del Seicento, non più all’anonimo ma ai proclami burocratici di quei «Prencipi e Potentati», pomposi quanto inerti reggitori politici, che, nel rovesciamento dell'ironia, assommano tutti i tratti Negativi della falsa giustizia: la millanteria impotente che si sfoga in vuote minacce e con l'acquiescenza aggrava le sofferenze degli oppressi.</note>
+        <note xml:id="Marchese_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_11266">
+          <ref rend="bold">Contestabile</ref>:  è un'alta carica militare.</note>
+        <note xml:id="Marchese_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278">
+          <ref rend="bold">Sua Maestà Cattolica</ref>:  Filippo II, re di Spagna.</note>
+        <note xml:id="Marchese_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_11333">
+          <ref rend="bold">esercizio</ref>:  lavoro.</note>
+        <note xml:id="Marchese_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_11402">
+          <ref rend="bold">stranamente</ref>:  straordinariamente.</note>
+        <note xml:id="Marchese_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_11449">
+          <ref rend="bold">grida</ref>:  bando, proclama (detto così perché veniva “gridato” dai banditori).</note>
+        <note xml:id="Marchese_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518">
+          <ref rend="bold">alla corda et al tormento</ref>:  endiadi: alla tortura della corda (alla quale il «reo» veniva appeso per le braccia).</note>
+        <note xml:id="Marchese_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_11519" targetEnd="quarantana/cap1.xml#c1_11521">
+          <ref rend="bold">per processo informativo</ref>:  come mezzo d’indagine. Si sente la ripugnanza del nipote di Cesare Beccaria per siffatte aberrazioni giuridiche.</note>
+        <note xml:id="Marchese_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_11532">
+          <ref rend="bold">galea</ref>:  nave su cui i condannati erano costretti a remare; la parola designa, in genere lavori forzati (ne derivano i termini “galera e “galeotto”).</note>
+        <note xml:id="Marchese_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_11570">
+          <ref rend="bold">tanto</ref>:  così grande (latinismo).</note>
+        <note xml:id="Marchese_cap1-n30" type="comm" target="quarantana/cap1.xml#c1_11717">
+          <ref rend="bold">sbrattare</ref>:  ripulire (cioè sgomberare).</note>
+        <note xml:id="Marchese_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_11776">
+          <ref rend="bold">appostatamente</ref>:  con agguati.</note>
+        <note xml:id="Marchese_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_11789" targetEnd="quarantana/cap1.xml#c1_11792">
+          <ref rend="bold">si rendono più facili</ref>:  si abbandonano più facilmente.</note>
+        <note xml:id="Marchese_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_11793">
+          <ref rend="bold">confidati</ref>:  confidando.</note>
+        <note xml:id="Marchese_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_11822">
+          <ref rend="bold">onninamente</ref>:  del tutto (latinismo).</note>
+        <note xml:id="Marchese_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_11940">
+          <ref rend="bold">comminazioni</ref>:  minacce.</note>
+        <note xml:id="Marchese_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_11974">
+          <ref rend="bold">cabale</ref>:  intrighi.</note>
+        <note xml:id="Marchese_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984">
+          <ref rend="bold">Enrico IV</ref>:  re di Francia.</note>
+        <note xml:id="Marchese_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002">
+          <ref rend="bold">il duca di Savoia</ref>:  Carlo Emanuele I.</note>
+        <note xml:id="Marchese_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_12015" targetEnd="quarantana/cap1.xml#c1_12018">
+          <ref rend="bold">il duca di Biron</ref>:  maresciallo di Enrico IV; venne spinto dal conte di Fuentes a complottare contro il re e fu perciò decapitato (si noti il doppio senso di «fece perder la testa»).</note>
+        <note xml:id="Marchese_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_12030" targetEnd="quarantana/cap1.xml#c1_12035">
+          <ref rend="bold">quel seme tanto pernizioso de’ bravi</ref>:  la frase fa il verso, ironicamente, alla grida.</note>
+        <note xml:id="Marchese_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084">
+          <ref rend="bold">stampatori regii camerali</ref>:  stampatori della Regia Camera, dell’amministrazione statale.</note>
+        <note xml:id="Marchese_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_12325" targetEnd="quarantana/cap1.xml#c1_12327">
+          <ref rend="bold">a un tratto</ref>:  assieme.</note>
+        <note xml:id="Marchese_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_12597">
+          <ref rend="bold">galantuomini</ref>:  è detto con ironia. Quanti «galantuomini» incontreremo nel romanzo!</note>
+        <note xml:id="Marchese_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_12562" targetEnd="quarantana/cap1.xml#c1_12607">
+          <ref rend="bold">Affrettò il passo... e si fermò su due piedi</ref>:  Spiace a don Abbondio che i malfattori aspettino proprio lui: lo scambio di occhiate e di cenni d'intesa, subito afferrato con terrore, il loro avvicinarsi deciso non lasciano dubbi. La mimica del volto e la sequela dei gesti segnano il crescere della tensione interiore, a stento dissimulata dalla finta lettura, dal comico rassettarsi il collare per adocchiare qualche insperato soccorso, dallo stesso sorriso meccanico che il curato si dipinge (o, per meglio dire, si maschera) in faccia, prima di piantarsi come un automa davanti ai due loschi figuri. La psicologia è quella di un rassegnato che, non potendo fuggire, affretta un esito fatale. L'esame di coscienza è alquanto rassicurante (non del tutto), non avendo egli peccato contro alcun potente; eppure lo sguardo fisso e risoluto dei bravi è come un'accusa. Il breviario, inutile libro religioso, serve solo al contegno esteriore, non all’animo che è vuoto di carità. Lo humour dello scrittore non indica condiscendenza ma distacco morale.</note>
+        <note xml:id="Marchese_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12670">
+          <ref rend="bold">Renzo Tramaglino e Lucia Mondella</ref>:  i protagonisti del romanzo. «Il nome Lorenzo è nelle Litanie dei Santi in una serie che non possiamo non dire manzoniana: "Bartholomaee...Laurenti...Gervasi. Ambrosi...Antoni, Dominice".Vi figurano infatti, oltre a Lorenzo (detto da tutti Renzo), anche Bortolo, Tonio e Gervaso, il sagrestano Ambrogio, il piccolo Menico. In quanto a "Tramaglino”, è evidente l’allusione alla professione di filatore (“tramaglio”: rete, cfr. cap. IV, nota 2) che era appunto il mestiere di Renzo [...]. Nel Canone della Messa si legge: “Nobis quoque peccatoribus...cum Felicitate, Perpetua, Agatha, Lucia, Agnete, Caecilia, Anastasia”. La serie Perpetua-Lucia-Agnese-Cecilia e soprattutto il binomio Lucia-Agnese lasciano intendere donde il Manzoni abbia derivato il nome della giovane sposa. In quanto a "Mondella”, può esserci riferimento alla purezza della fanciulla» (Caretti).</note>
+        <note xml:id="Marchese_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_12724">
+          <ref rend="bold">comune</ref>:  comunità.</note>
+        <note xml:id="Marchese_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_13027" targetEnd="quarantana/cap1.xml#c1_16050">
+          <ref rend="bold">Disposto... disposto sempre all’ubbidienza</ref>:  «Disposto... disposto sempre all’ubbidienza» dirà alla fine don Abbondio; ma già la formula di cortesia, con cui si presenta ai «galantuomini» dallo sguardo inquisitorio, oltreché intimidatorio, rivela acquiescenza e sottomissione. La strategia del disimpegno, il penoso tentativo di giustificarsi con quegli «uomini di mondo», svilendo le nozze di Renzo e Lucia a volgari «pasticci», attestano un animo gretto e vile. Dice bene il De Sanctis: «Che cosa è questo cioè? E l’uomo che si mette subito nella posizione di chi ha il torto, perché è avvezzo a tremare dinanzi al più forte». Del resto, don Abbondio è subito un «inferiore» colto in fallo persino nelle intenzioni; ed è psicologicamente già pronto a subire il sopruso: cerca solo di trarsi d’impiccio in qualche modo («se mi sapessero suggerire...»). I due bravi, con mezzi diversi di persuasione — non privo di una sua abilità diplomatica il primo, l’«oratore», più sbrigativo e violento il taciturno «compagnone» — non durano fatica a piegare le ultime resistenze, gettando ne discorso il nome di don Rodrigo, al quale don Abbondio non può che inchinarsi. E finiscono addirittura con l’irridere la vittima («suggerire a lei che sa di latino»), sbeffeggiandone l'impotente cultura.</note>
+        <note xml:id="Marchese_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_13062">
+          <ref rend="bold">messere</ref>:  nel Seicento la parola si usava come titolo proprio del parroco.</note>
+        <note xml:id="Marchese_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_13122">
+          <ref rend="bold">trascrivere</ref>:  dal manoscritto dell’anonimo.</note>
+        <note xml:id="Marchese_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_13156">
+          <ref rend="bold">aggranchiate</ref>:  rattrappite.</note>
+        <note xml:id="Marchese_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_13170">
+          <ref rend="bold">naturale</ref>:  carattere.</note>
+        <note xml:id="Marchese_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_13157" targetEnd="quarantana/cap1.xml#c1_13170">
+          <ref rend="bold">Come stesse di dentro... del suo naturale</ref>:  L’ultima immagine del «povero don Abbondio», ancora sbalordito per tura e arrancante verso casa con le gambe aggranchiate dalla paura, nasconde dietro l'umorismo una sottile nota di rincrescimento, se non di compassione, che introduce il lettore ad una più profonda comprensione morale del personaggio, grazie al nuovo excursus storico-biografico. Il celebre attacco, («Don Abbondio [...] non era nato con un cuor di leone») non ha, dunque, un pretto valore ironico, se è vero che l'immagine è subito rincalzata da una cruda metafora animalesca («la peggior condizione, a que’ tempi, era quella d’un animale senza artigli e senza zanne, e che pure non si sentisse inclinazione d'esser divorato»), quale esatto emblema dello spirito secentesco. La pagina si allarga dal personaggio alla società e al costume, dominati dalla logica abnorme della forza e dall’inefficacia della legge che lascia «l’uomo tranquillo, inoffensivo» in balia dei prepotenti. L'autore traccia un tremendo disegno di una società in cui la giustizia è forte con i deboli e debole con i forti; dove gli interessi dello stato sono in subordine a quelli dei singoli potenti e violenti o delle piccole oligarchie dei gruppi privilegiati; dove «l'impunità era organizzata, e aveva radici che le gride non toccavano, o non potevano smuovere». L'impotenza della giustizia ufficiale si traduce, paradossalmente, in vessazione dei «pacifici» e dei «deboli» già angariati dai «perturbatori», in una continua minaccia € molestia dell’«uomo bonario» privo di protezione, in un vero e proprio arbitrio senza freno. L'individuo isolato è esposto alle angherie dei più forti che una rete di omertà e di connivenze, di immunità e di privilegi sottrae a ogni punizione. In tal modo l’autore cerca di comprendere, se non di giustificare, la paura di don Abbondio.</note>
+        <note xml:id="Marchese_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_13415">
+          <ref rend="bold">asili</ref>:  le chiese, i conventi e taluni palazzi nobiliari garantivano, grazie al diritto di asilo, l’impunità ai delinquenti che vi si rifugiavano.</note>
+        <note xml:id="Marchese_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_13434">
+          <ref rend="bold">impugnati</ref>:  contestati.</note>
+        <note xml:id="Marchese_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_13599">
+          <ref rend="bold">livrea</ref>:  divisa.</note>
+        <note xml:id="Marchese_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_13676" targetEnd="quarantana/cap1.xml#c1_13678">
+          <ref rend="bold">pezzo di carta</ref>:  a tanto si riduceva una grida.</note>
+        <note xml:id="Marchese_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_13761" targetEnd="quarantana/cap1.xml#c1_13763">
+          <ref rend="bold">tenuto a vile</ref>:  disprezzato.</note>
+        <note xml:id="Marchese_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_13772" targetEnd="quarantana/cap1.xml#c1_13774">
+          <ref rend="bold">il loro titolo</ref>:  sbirro o birro.</note>
+        <note xml:id="Marchese_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_13802">
+          <ref rend="bold">connivenza</ref>:  sottintesa complicità.</note>
+        <note xml:id="Marchese_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_13928">
+          <ref rend="bold">corporazione</ref>:  persino i medici, tradizionalmente individualisti, avevano formato una corporazione. Leghe, consorterie e corporazioni tendevano a estendere immunità (dispense) privilegi (eccezioni alle norme), esenzioni da imposte o da altri doveri.</note>
+        <note xml:id="Marchese_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_13933">
+          <ref rend="bold">oligarchie</ref>:  qui nel senso di clan, cricche, gruppi privilegiati.</note>
+        <note xml:id="Marchese_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_14016">
+          <ref rend="bold">dovizioso</ref>:  ricco.</note>
+        <note xml:id="Marchese_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_14081">
+          <ref rend="bold">discrezione</ref>:  giudizio.</note>
+        <note xml:id="Marchese_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14101">
+          <ref rend="bold">Il nostro don Abbondio... di molti vasi di ferro</ref>:  Quel «nostro» che accompagna il nome dice l'affetto e la comprensione con cui il narratore segue le vicissitudini del personaggio, al quale per altro non risparmia la sua acuminata ironia («vaso di terra cotta, costretto a viaggiare in compagnia di molti vasi di ferro»). Se la metafora animalesca accentuava la brutalità della violenza, questa dei vasi sembra alludere alle conseguenze pericolose del “viaggio” della vita, a quei tempi: all’eventualità assai comune di un urto, di una irreparabile rottura. Don Abbondio e uno di quegli uomini «tranquilli», «deboli», «bonari», «senza difesa», esposti specie in e alle arroganti soperchierie di un don Rodrigo qualsiasi. L'autore ha, dunque, perfettamente inserito l’uomo nel suo tempo, mostrando di comprendere alcune motivazioni generali del suo comportamento. Ora il ritratto si fa morale e psicologico, e perciò più intransigente. C'è una manchevolezza nella scelta del sacerdozio: «non aveva gran fatto pensato agli obblighi e ai nobili fini del ministero al quale si dedicava»; altre sono le ragioni, materiali ed egoistiche. Il giudizio del narratore-autore è inequivocabile e non ammette nessuna giustificazione o remissione bonaria delle colpe. E tanto più l’ironia connota il distacco etico del Manzoni, quanto più il personaggio è scavato in profondità nella sua ideologia gretta e rinunciataria, quel «sistema di quieto vivere» che lo mette al riparo da ogni preoccupazione a scapito del dovere sacerdotale e dell’amore cristiano. Ma qui Dio non è in causa, rimosso nelle pratiche burocratiche del funzionario del sacro. Manzoni, sensibile ai fermenti giansenistici che accompagnarono la sua conversione (e non l'abbandonarono mai), ha un troppo alto concetto dei «nobili fini» del sacerdozio per limitarsi a prendere a gabbo, semplicemente, il «povero» don Abbondio. Se ne condanna il lassismo opportunistico, ne comprende, da vero artista, il carattere agro, intimamente insoddisfatto e un po’ lunatico («fantastico») per i troppi «bocconi amari inghiottiti in silenzio». Il «fiele in corpo» corrobora la sua stizza impotente di uomo mediocre, che non conosce il fiero sdegno del profeta, del magnanimo: in controluce, e per opposizione, si delinea la figura di un autentico testimone del Cristo, padre Cristoforo, forse uno di quei «confratelli» aspramente ripresi dal curato perché «a loro rischio, prendevan le parti d’un debole oppresso, contro un soverchiatore potente». E l’ideologia della viltà arriva persino a giustificarsi nel nome della purezza e della «dignità del sacro ministero»! Sicché l'autore può concludere il ritratto di don Abbondio infingendone la misera filosofia e la sua massima sentenza: «che a un galantuomo, il qual badi a sè, e stia ne’ suoi panni, non accadon mai brutti incontri»; ironizzando colui che «in un piccolissimo crocchio» pontifica e si porta a modello, lontano le mille miglia dal supporre che il sistema possa ammettere un'eccezione: l’incontro di un galantuomo par suo con i bravi.</note>
+        <note xml:id="Marchese_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_14342">
+          <ref rend="bold">dissimulando</ref>:  fingendo di non vedere.</note>
+        <note xml:id="Marchese_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_14499">
+          <ref rend="bold">fantastico</ref>:  lunatico, un po’ strambo.</note>
+        <note xml:id="Marchese_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_14714" targetEnd="quarantana/cap1.xml#c1_14715">
+          <ref rend="bold">venticinque lettori</ref>:  con questa frase, ironicamente bonaria, il narratore chiude la digressione e riprende il filo del racconto.</note>
+        <note xml:id="Marchese_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_14785" targetEnd="quarantana/cap1.xml#c1_14936">
+          <ref rend="bold">Se Renzo si potesse mandare... portar la loro imbasciata</ref>:  Il monologo di don Abbondio è un ronzio di pensieri in tumulto, spesso smozzicati e incompleti e - è da credere — accompagnati da gesti di stizza («E,e,e [...] ih! [...] Oh povero me»). Vengono a galla i residui inespressi di un egoismo congenito e grottesco («Ragazzacci [...] non si fanno carico de’ travagli in che mettono un povero galantuomo. [...] Che c'entro io? Son e voglio maritarmi?»). La colpa è scaricata su Renzo, innamorato di «quella Lucia» fonte prima dei suoi guai: il comandamento dell’amore nel matrimonio è una ragazzata irresponsabile e fastidiosa.</note>
+        <note xml:id="Marchese_cap1-n69" type="comm" target="quarantana/cap1.xml#c1_15058" targetEnd="quarantana/cap1.xml#c1_15084">
+          <ref rend="bold">Ma, in quel momento... fretta con un oibò</ref>:  Don Abbondio non è un malvagio e non può non pentirsi del cattivo pensiero «di non essere stato consigliere e cooperatore dell'iniquità», col suggerire ai bravi di portare a Renzo stesso l'«imbasciata». Sicché rivolge la sua stizza contro don Rodrigo, il «rispettabile cavaliere» sinora riverito e scappellato ad onta di ogni Sopruso.</note>
+        <note xml:id="Marchese_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199">
+          <ref rend="bold">l'età sinodale</ref>:  età prescritta dai sinodi perché una donna possa essere al servizio di un prete.</note>
+        <note xml:id="Marchese_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_15128" targetEnd="quarantana/cap1.xml#c1_15233">
+          <ref rend="bold">Era Perpetua... come dicevan le sue amiche</ref>:  Perpetua non è l’ennesima variante di una tipica figura della commedia, la serva padrona: è, per molti aspetti, il necessario pendant di don Abbondio, un suo «complemento inseparabile» (De Michelis); e il prete ha bisogno di lei per sfogarsi, soprattutto in questa tremenda circostanza. Un motivo convenzionale che può essere quello della zitella a cui brucia di non essersi sposata (e sulle maldicenze delle «amiche» farà leva Agnese nel colloquio notturno del cap. VIII); ma il personaggio trascende il tipo per la vivacità delle movenze e del linguaggio, per la verve comaresca e il sano realismo che ne caratterizzano l'indole genuinamente popolare.</note>
+        <note xml:id="Marchese_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_15575" targetEnd="quarantana/cap1.xml#c1_15633">
+          <ref rend="bold">Il fatto sta che don Abbondio... il miserabile caso</ref>:  Non è difficile, per l’affettuosa curiosità di Perpetua, vincere la piccola battaglia con don Abbondio, che dal suo canto è incapace di custodire il segreto («o è niente, o è cosa che non posso dire») e, anzi, desidera condividerlo con qualcuno: e con chi, se non con l’affezionata, per quanto linguacciuta governante? Un po' con le buone, un po' con le cattive, il segreto salta fuori, anzi il «miserabile caso»: «forma epica — commenta il De Sanctis — come se avesse narrato l’eccidio di Troia».</note>
+        <note xml:id="Marchese_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782">
+          <ref rend="bold">il nostro arcivescovo</ref>:  il cardinale Federigo Borromeo.</note>
+        <note xml:id="Marchese_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_15940" targetEnd="quarantana/cap1.xml#c1_15941">
+          <ref rend="bold">calar le...</ref>:  calare le brache (espressione efficacemente plebea).</note>
+        <note xml:id="Marchese_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_15950">
+          <ref rend="bold">baggianate</ref>:  stupidaggini (da baggiano = sempliciotto). Anche don Abbondio usa qui un'espressione popolare e dialettale.</note>
+        <note xml:id="Marchese_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_15951" targetEnd="quarantana/cap1.xml#c1_15971">
+          <ref rend="bold">Basta... mangi un boccone</ref>:  Nel dialogo (si osservi la diversità dei pronomi personali, il «lei» usato da Perpetua e il «voi» di don Abbondio, a sottolineare le differenze sociali e di ruolo fra la serva e il padrone) si fanno luce i diversi caratteri dei personaggi: il prete tremebondo e angosciato, al quale anche il racconto del «miserabile caso» rinnova paura e stizza; la donna, simpaticamente spontanea nelle sue uscite fiere e popolaresche («Oh che birbone! [...] le schioppettate non si danno via come confetti [...] chi sa mostrare i denti [...] pronto a calar le...»). «Perpetua viene come contrapposto poetico di don Abbondio; contrapposto brutale e plebeo, come donna senza educazione [...] grossolana e di prima impressione, che dice tutto senza rispetto alcuni: vivace contrasto con don Abbondio, il quale è tutto prudenza, tutto riguardi, tutto cautele» ( De Sanctis). Quanto al famoso «parere», si vedrà nel cap. XXVI come esso si affacci con meraviglia nella mente di don Abbondio, al quale andranno i rimproveri del cardinale Federigo per non essere stato informato del sopruso. Ma troppo forti sono le ragioni della paura («Quando mi fosse toccata una schioppettata nella schiena, Dio liberi! l'arcivescovo me la leverebbe?»).</note>
+        <note xml:id="Marchese_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_16071" targetEnd="quarantana/cap1.xml#c1_16096">
+          <ref rend="bold">Giunto su la soglia... e disparve</ref>:  Don Abbondio si è forse già pentito di aver rivelato il suo segreto a Perpetua? Il gesto e il tono lento e solenne con cui scongiura la donna, prima di uscire teatralmente di scena, sottolineano, assieme ai brontolii e alle lamentazioni tipiche del personaggio, il rinnovarsi dell'angoscia che lo sfogo ha soltanto sopita.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

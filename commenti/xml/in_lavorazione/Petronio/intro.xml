@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giuseppe Petronio (1943)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IZ">Isabel Zamboni</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Giuseppe Petronio</title>
+          <editor>Petronio</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>G. B. Paravia &amp; C.</publisher>
+          <date>1943</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Introduzione, cap. 1</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Petronio_intro">
+        <note xml:id="Petronio_intro-n1" type="comm" target="quarantana/intro.xml#intro_None"><ref rend="bold">Introduzione</ref>:  In un’importantissima lettera del novembre 1821 (Carteggio, I, pag. 541) il M. scriveva al Fauriel di concepire i romanzi storici «comme une représentation d’un état donné de la société par le moyen de faits et de caractères si semblables à la realité, qu’on puisse les croire une histoire véritable, qu’on viendrait de découvrir»; e infatti i Promessi Sposi sono, più che la storia degli amori di Renzo e Lucia, una storia milanese del secolo XVII. In armonia con questa concezione del libro è il vasto squarcio secentesco con cui esso si apre, chè attraverso questa finzione dell’anonimo noi siamo già introdotti nell’atmosfera, stilistica e mentale, del secolo. D’altra parte, la trovata dell’anonimo permette al M. di sdoppiare la sua persona commentando da se stesso il proprio racconto, sicché si può dire, come ha scritto benissimo il BELLONI, che «l’anonimo e il suo rifacitore stanno a figurare i due aspetti o modi dell'attuarsi dell’attività artistica: l’uno è la fantasia che crea, l’altro la ragione che tempera e discerne; quando l’uno si lascia andare a qualche stravaganza, l’altro chiede compatimento per lui e perdono per sè, e in questo gioco l’umorismo manzoniano ha dato prova della sua tempra, mantenendo una impeccabile linea d’arguzia misurata e piena di grazia» (L’umano e il divino nei Promessi Sposi. Paravia, 1932, pag. 57). E già questa Introduzione è schiettamente manzoniana anche nel passo iniziale, che è del seicento per la garbata e ironica imitazione di quella lingua e di quello stile, ma è già animata da sentimenti e da pensieri che sono alla base dell’ideologia del romanzo.</note>
+        <note xml:id="Petronio_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">Ma gl'illustri Campioni... gloriose</ref>:  I campioni che coi loro inchiostri imbalsamano le imprese dei principi, sono i grandi storici che con l'opera loro vincono il tempo. La strampalata metafora non è tutta invenzione del M., chè il BELLONI ne cita di assai consimili del Mascardi, del Boccalini e via dicendo. E già, attraverso l’enfasi di questo secentismo, si affaccia la rivoluzione storiografica a cui il M. con piena coscienza collaborò: invece delle azioni di principi e potenti, invece delle guerre viste nel loro splendore militare di battaglie e di vittorie, il racconto di fatti memorabili, pur se accaduti a povera gente, a gente meccaniche e di piccolo affare. È la concezione nuova della storia ispirata al M. dagli storici liberali della restaurazione francese — il Fauriel e il Thierry — e animatasi in lui del suo così sincero e così profondo cristianesimo: «un’immensa moltitudine di uomini, una serio di generazioni, che passa sulla terra, sulla sua terra, inosservata, senza lasciarvi traccia, è un triste ma importante fenomeno» aveva già scritto altrove a proposito degli Italiani sotto la dominazione longobardica; e nel romanzo viene appunto indagata la storia del seicento, delle sue guerre, delle sue pestilenze e delle sue sommosse, ma nei riflessi che queste sventure hanno tra gli umili non qualificati e non degnati fino allora di storia dagli storiografi di professione. Su ciò v. C. DE LOLLIS, A. ZOTTOLI, Umili e volenti, pur avvertendo che precorrimenti di questi pensieri degli storici liberali francesi erano già nel CUOCO e nel FOSCOLO ben noti al M. (v. ad esempio il saggio del CUOCO, La Provvidenzialità della Storia, «Giorn. Italiano», 27 gennaio 1806).</note>
+        <note xml:id="Petronio_intro-n3" type="comm" target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  protezione. Si affaccia adesso un altro fondamentale motivo dei Promessi Sposi: la satira di quella politica a cui il M. si sentì e fu sempre radicalmente estraneo, di quella politica che è vanità boriosa: il conte zio; debolezza acquiescente: il padre provinciale; brama di malintesa popolarità: Ferrer; incapacità boriosa: don Gonzalo e il marchese Ambrogio Spinola; e così via dicendo. Qui l’ironia è prima in quel barocco paragone del re di Spagna, del governatore di Milano — Heroe che pro tempore ne tiene le veci — e di tutti gli altri magistrati spagnoli col sole, le stelle, la luna e i pianeti; poi, più maliziosa e feroce, nel fingersi costretto ad attribuire ad influssi malefici — operazioni diaboliche... arte e fattura diabolica — le sofferenze e i malanni che avevano mutato in un inferno la vita degli umili. Ma chi leggerà le pagine polemiche sui provvedimenti del governo milanese nei riguardi della carestia, della calata dei lanzichenecchi e della peste, chi conoscerà il podestà di Lecco, il console, il conte zio, Ferrer e via via tutti gli altri, saprà cosa invece pensare di tutta quella luce celeste e delle cause reali di quei tanti malanni. Ed ironica è ancora la frase finale: il trafficare, con cento occhi e cento braccia, di quegli Heroi per li pubblici emolumenti, può sì significare che si affaticavano per il pubblico bene, ma può anche significare qualch’altra cosa di meno onesto e di meno disinteressato.</note>
+        <note xml:id="Petronio_intro-n4" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313"><ref rend="bold">Per locchè</ref>:  «Nota subito la vuota sonorità del nesso, perchè il concetto che segue, che lo scrittore non farà nomi e parlerà dei luoghi senza precisarli, non è affatto conseguente a quello che precede» (GUERRI, pag. 2). La vera ragione di questo tacer nomi e luoghi è il bisogno di lasciare così più ampia libertà alla propria fantasia, senza impegnarla in realistiche e impaccianti precisazioni. Ma il buon secentista tira in ballo la Filosofia, la sostanza della Narratione e via dicendo, finché il M. non tronca la citazione con un’ultima sfumatura d’ironia in quel conclusivo accidenti.</note>
+        <note xml:id="Petronio_intro-n5" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  stinto e pieno di sgorbi.</note>
+        <note xml:id="Petronio_intro-n6" type="comm" target="quarantana/intro.xml#intro_10623" targetEnd="quarantana/intro.xml#intro_10630"><ref rend="bold">rettorica... di buon gusto</ref>:  E, tra la satira del secentismo, la celebrazione della rettorica discreta, fine, di buon gusto. Ma rettorica qui non ha il solito significato di artifizio; vuole solo indicare quella consapevolezza dell’arte e dei suoi mezzi tecnici che è propria d’ogni artista degno di questo nome.</note>
+        <note xml:id="Petronio_intro-n7" type="comm" target="quarantana/intro.xml#intro_10689" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">ch'è il proprio carattere... paese</ref>:  La satira del secentismo è limitata alla Lombardia, chè ivi, come aveva scritto nella prima stesura, «pochi leggevano e poco,... e non si era mai parlata la lingua che si adopera negli scritti», e chè altrove eran pure scrittori d’ingegno e di gusto, come, ad esempio, il Galilei.</note>
+        <note xml:id="Petronio_intro-n8" type="comm" target="quarantana/intro.xml#intro_10859" targetEnd="quarantana/intro.xml#intro_10879"><ref rend="bold">ci siam messi... modo</ref>:  Affermazione della storicità del libro, o per lo meno di quella rappresentazione della vita milanese nel ’6OO che ne costituisce lo sfondo. Il giudizio che il M. dà del ’6OO nel corso del romanzo è forse esagerato e parziale (v. F. NICOLINI, Aspetti della vita italo-spagnuola ecc., Guida 1934), ma egli vi giunse attraverso uno studio serio, se non esauriente, di storia politica ed economica del tempo, studio di cui ci restano le tracce nelle parti storiche dello stesso romanzo, nelle Postille (Op. ined. e rare, II), in una famosa lettera al Fauriel del 29 maggio del 1822 e in biglietti raccolti nel Carteggio in cui chiede a Gaetano Cattaneo dei libri di cui aveva bisogno per la composizione della sua opera.</note>
+        <note xml:id="Petronio_intro-n9" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015"><ref rend="bold">Chiunque... sottrarci</ref>:  Questa della lingua fu questione di cui il M. si occupò, si può dire, lungo tutta la vita, e che gli si andò via via restringendo da un'indagine sull’origine del linguaggio alla questione particolare della lingua italiana. In questi anni della composizione dei Promessi Sposi il problema fondamentale era per lui il determinare quale lingua potesse essere universalmente adoperata e compresa in Italia, ad attuare così l’ideale romantico di una letteratura popolare, e ad auspicare attraverso l’unità linguistica l’attesa unità politica della Nazione. Il libro a cui qui accenna fu veramente composto in quegli anni ed è stato da non molto ripubblicato dal Bulferetti con un’ampia e interessante introduzione. (D. BULFERETTI, Sentir messa. Bottega di poesia, 1923).</note>
+        <note xml:id="Petronio_intro-n10" type="comm" target="quarantana/intro.xml#intro_11070" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">giacché... mutano</ref>:  Battuta schiettamente manzoniana per il garbo con cui è chiarito come spesso le nostre risposte trionfanti consistano solo in un mutar la questione. E «come sempre, il M. quando accenna all’opera sua, mette una punta di facezia, ad alleggerirne l’importanza» (RUSSO, pag. 9).</note>
+        <note xml:id="Petronio_intro-n11" type="comm" target="quarantana/intro.xml#intro_11253" targetEnd="quarantana/intro.xml#intro_11262"><ref rend="bold">di libri... d'avanzo</ref>:  Continua la bonaria ironia sull’opera propria, quasi a scusarsi di averne tanto parlato.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

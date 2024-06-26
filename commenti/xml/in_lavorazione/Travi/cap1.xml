@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Biancamaria Travi (1981)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="FP">Filippo Pelacci</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Biancamaria Travi</title>
+          <editor>Travi, Biancamaria</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Edizioni Scolastiche Bruno Mondadori</publisher>
+          <date>1981</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Travi_cap1">
+        <note xml:id="Travi_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10006">
+          <ref rend="bold">Quel ramo del lago di Como...</ref>:  il romanzo inizia con la descrizione dei luoghi in cui si apre la vicenda, il ramo di Lecco del lago di Como, fra le alpi Orobie e i monti della Brianza. L’ampiezza dei periodi, i valori ritmici (l’iniziale novenario, la distribuzione dei tratti del periodo in masse quasi mimeticamente crescenti e decrescenti), l’abbondanza di enumerazioni minute, spesso organizzate in binomi e ricche di contrasti, segnano le linee irrequiete di un paesaggio in cui, pur nell’immobilità temporale e nel silenzio, freme un alto potenziale di vita. Più vicina all’interesse documentario illuminista che al gusto romantico, la descrizione segue l’ordine che il Manzoni rispetterà più tardi alludendo, nel discorso Del romanzo storico, al linguaggio delle carte geografiche, scelto come simbolo della storia (“dove sono segnate le catene de’ monti, i fiumi, le città, i borghi, le strade maestre d’una vasta regione”), e a quello delle carte topografiche, simbolo dell’invenzione romanzesca, in cui “tutto questo è più particolarizzato [...], e ci sono di più segnate anche le alture minori, e le disuguaglianze ancor meno sensibili del terreno, e i borri, le gore, i villaggi, le case isolate, le viottole”. Il bisogno di oggettività si rafforza nel passaggio dal Fermo e Lucia ai Promessi Sposi, dove scompaiono gli accenni ai ricordi personali del Manzoni: “...tutto concorre a renderlo un paese che chiamerei uno dei più belli del mondo, se avendovi passata una gran parte della infanzia e della puerizia, e le vacanze autunnali della prima giovinezza, non riflettessi che è impossibile dare un giudizio spassionato dei paesi a cui sono associate le memorie di quegli anni” (Fermo e Lucia, I, i). Scompaiono anche i fitti termini botanici del Fermo, cari agli interessi del Manzoni: i generici campi, vigne, boschi sostituiscono la lunga rassegna che allineava “carpini”, “faggi”, “qualche abete”, “sorbi”, “dafani”, “il cameceraso”, “il rododendro ferrugigno”, “il melagrano”, “il gelsomino”, “il lilac”, “il filadelfo”... Altri momenti del romanzo richiederanno scelte opposte: vedi per esempio il quadro della vigna di Renzo (XXXIII, 60-64).</note>
+        <note xml:id="Travi_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10209">
+          <ref rend="bold">costa</ref>:  pendice, falda montana.</note>
+        <note xml:id="Travi_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10260" targetEnd="quarantana/cap1.xml#c1_10264">
+          <ref rend="bold">terre... casali</ref>:  paesi, villaggi, cascinali.</note>
+        <note xml:id="Travi_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10327">
+          <ref rend="bold">Ai tempi in cui accaddero i fatti</ref>:  breve pausa nella descrizione e primo intervento della storia. Questo sguardo sul passato è mediato dal confronto col presente e dall’ironia (aveva l’onore... alleggerire a’ contadini le fatiche) ed è presto riassorbito dal ritmo della descrizione; ma intanto si è già profilata l’epoca della vicenda, con le sue ingiustizie.</note>
+        <note xml:id="Travi_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10338" targetEnd="quarantana/cap1.xml#c1_10339">
+          <ref rend="bold">un castello</ref>:  una roccaforte.</note>
+        <note xml:id="Travi_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10419">
+          <ref rend="bold">tuttavia</ref>:  tuttora.</note>
+        <note xml:id="Travi_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10465">
+          <ref rend="bold">prospetti</ref>:  panorami.</note>
+        <note xml:id="Travi_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10499" targetEnd="quarantana/cap1.xml#c1_10503">
+          <ref rend="bold">si scorcia, spunta o sparisce</ref>:  si noti il rilievo dell’allitterazione.</note>
+        <note xml:id="Travi_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10506" targetEnd="quarantana/cap1.xml#c1_10511">
+          <ref rend="bold">Dove un pezzo, dove un altro...</ref>:  la sintassi ellittica rende sempre più mossa la descrizione in rapporto al variare del paesaggio.</note>
+        <note xml:id="Travi_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10666" targetEnd="quarantana/cap1.xml#c1_10681">
+          <ref rend="bold">l'ameno, il domestico... il selvaggio... il magnifico</ref>:  elementi disposti a chiasmo, suggello della descrizione.</note>
+        <note xml:id="Travi_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10684" targetEnd="quarantana/cap1.xml#c1_10688">
+          <ref rend="bold">Per una di queste stradicciole...</ref>:  gradualmente l’obiettivo si sposta dall’ultimo ambiente descritto a un personaggio che si muove in esso, dalla passeggiata impersonale di un ipotetico osservatore a quella, svoltasi in un punto preciso del passato, di don Abbondio. La sintassi della frase, col soggetto posticipato alle determinazioni di luogo, di tempo e d’azione, rende più lento il passaggio dal registro descrittivo a quello propriamente narrativo. A questo s’intona, per tutta la sequenza, il ricorrere di imperfetti e di elementi indicanti abitudini: è un equilibrio che ancora per poco si mantiene.</note>
+        <note xml:id="Travi_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_10690" targetEnd="quarantana/cap1.xml#c1_10691">
+          <ref rend="bold">bel bello</ref>:  tranquillamente. Locuzione avverbiale familiare anche al dialetto milanese (vedi Carlo Porta, Desgrazzi de Giovannin Bongee, v. 8: “e andava inscì bell bell come se fa”, in una situazione che presenta qualche somiglianza con quella di don Abbondio).</note>
+        <note xml:id="Travi_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_10696" targetEnd="quarantana/cap1.xml#c1_10703">
+          <ref rend="bold">sulla sera del giorno 7 novembre dell'anno 1628</ref>:  indicazione precisa, dettata forse dalla volontà</note>
+        <note xml:id="Travi_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705">
+          <ref rend="bold">don Abbondio</ref>:  nome locale: sant’Abbondio, vescovo del sec. V, è il patrono della diocesi di Como; a lui è dedicata un’antica basilica della città. Il Manzoni non offre per ora alcun ritratto fisico del personaggio, di cui conosceremo il vecchio volto solo più avanti (VIII, 13).</note>
+        <note xml:id="Travi_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_10719">
+          <ref rend="bold">casato</ref>:  cognome.</note>
+        <note xml:id="Travi_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_10726">
+          <ref rend="bold">manoscritto</ref>:  quello dell’anonimo, da cui si immagina tratto il romanzo (vedi l’Introduzione).</note>
+        <note xml:id="Travi_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10734">
+          <ref rend="bold">Diceva tranquillamente...</ref>:  si osservi in tutto il passo l’uso quasi esclusivo dell’imperfetto, la scelta degli avverbi, la presenza di ripetizioni, la descrizione minuziosa del rituale della passeggiata: tutto asseconda le cadenze di tranquille abitudini.</note>
+        <note xml:id="Travi_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_10812">
+          <ref rend="bold">fessi</ref>:  fenditure.</note>
+        <note xml:id="Travi_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_10842">
+          <ref rend="bold">squarcio</ref>:  tratto.</note>
+        <note xml:id="Travi_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_10846">
+          <ref rend="bold">voltata</ref>:  curva.</note>
+        <note xml:id="Travi_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_10976" targetEnd="quarantana/cap1.xml#c1_10978">
+          <ref rend="bold">anime del purgatorio</ref>:  nella pietà popolare del tempo, la consuetudine di pregare per le anime del purgatorio aveva ricevuto nuovo impulso dal concilio di Trento, che nella sua venticinquesima sessione (dicembre 1563) aveva riaffermato, in polemica coi protestanti, la dottrina tradizionale sul purgatorio, prescrivendo preghiere e riti di suffragio. Nella stessa sessione si era proclamata lecita la venerazione delle immagini sacre, con raccomandazioni affinché queste fossero prive di eleganza profana. All’ironia con cui è descritta in questa scena la rozza pittura si aggiunge, avvertibile a una seconda lettura del capitolo, l’ironia delle cose stesse: la muta presenza di quell’affresco al bivio, con anime e fiamme, testimone dell’affanno di don Abbondio davanti ai bravi, è forse simbolo delle svolte dell’esistenza in cui s’impongono scelte difficili, con angustie e tormenti di coscienza.</note>
+        <note xml:id="Travi_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11009" targetEnd="quarantana/cap1.xml#c1_11014">
+          <ref rend="bold">vide una cosa che non s'aspettava</ref>:  proprio nel compiere l’ennesimo gesto abitudinario, don Abbondio è colto dall’imprevisto. Lo stato di quiete si sgretola, e l’intreccio movimentato ha il suo brusco inizio.</note>
+        <note xml:id="Travi_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11192">
+          <ref rend="bold">bravi</ref>:  sgherri al servizio di un potente. Il termine italiano bravo (propriamente col significato di ‘valoroso’), come il provenzale brau (‘aspro, feroce’), deriva dal latino barbàrus nell’accezione di ‘incolto’, contrapposto a domitus, mansus (vedi DEI). Questi due soldati irregolari sono minutamente descritti, come impone il loro aspetto provocatorio di personaggi vistosamente armati, tutti risolti in superficie, in una sorta di manifestazione stilizzata della loro aggressività: sono esemplari di una specie. Nel caso di don Abbondio, invece, come abbiamo già potuto notare, l’attenzione descrittiva è rivolta esclusivamente al carattere dell’uomo.</note>
+        <note xml:id="Travi_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11243">
+          <ref rend="bold">Fino dall'otto aprile dell'anno 1583...</ref>:  l’intreccio appena avviato s’interrompe per fare posto in flashback alla documentazione storica raccolta dal ‘secondo narratore’ della vicenda, il Manzoni stesso, che già nell’Introduzione accennava a tali ricerche. L’ironica digressione storico-riflessiva, assente dal Fermo, presenta nuovi inserti di linguaggio del Seicento, lievemente modernizzati rispetto alla loro forma originale nelle gride, per facilitarne la comprensione ai lettori.</note>
+        <note xml:id="Travi_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11244" targetEnd="quarantana/cap1.xml#c1_11246">
+          <ref rend="bold">l'Illustrissimo ed Eccellentissimo...</ref>:  ironico in tutto il passo l’elenco di nomi, titoli, date, bandi, frequenti quanto inutili. Nella satira della “giustizia” del Seicento è presente al Manzoni l’insegnamento di Cesare Beccaria che, nel suo trattato Dei delitti e delle pene (1764), sostiene che l’efficacia di un’azione contro la criminalità non consiste tanto nella gravità delle sanzioni, quanto nell’intelligente applicazione di esse basata su una riforma del sistema giuridico e su una nuova idea dei rapporti fra il cittadino e la società.</note>
+        <note xml:id="Travi_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11380" targetEnd="quarantana/cap1.xml#c1_11381">
+          <ref rend="bold">giorni sei</ref>:  nelle frasi riassuntive il Manzoni mantiene l’eco della retorica dei bandi, oscillante talora fra il tono burocratico e quello poetico. L’ironia è ottenuta lasciando parlare le fonti col loro linguaggio, senza alcun commento diretto.</note>
+        <note xml:id="Travi_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11402">
+          <ref rend="bold">stranamente</ref>:  straordinariamente.</note>
+        <note xml:id="Travi_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_11449">
+          <ref rend="bold">grida</ref>:  proclama emanato dal governatore delegato dal re di Spagna, con riferimento a questioni locali. Il termine è costruito sul verbo gridare, poiché i bandi venivano letti pubblicamente ad alta voce dai banditori (vedi DEI).</note>
+        <note xml:id="Travi_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_11494" targetEnd="quarantana/cap1.xml#c1_11497">
+          <ref rend="bold">per questa sola riputazione</ref>:  vedi il capitolo sulla tortura, in Dei delitti e delle pene di Cesare Beccaria: “Una crudeltà, consagrata dall’uso nella maggior parte delle nazioni, è la tortura del reo mentre si forma il processo, o per costringerlo a confessare un delitto, o per le contraddizioni nelle quali incorre, o per la scoperta de’ complici, o per non so quale metafisica ed incomprensibile purgazione d’infamia, o finalmente per altri delitti, di cui potrebbe esser reo, ma dei quali non è accusato. Un uomo non può chiamarsi reo prima della sentenza del giudice...”</note>
+        <note xml:id="Travi_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_11514" targetEnd="quarantana/cap1.xml#c1_11518">
+          <ref rend="bold">alla corda et al tormento</ref>:  alla tortura (endiadi). Vedi la nota 19 al cap. II.</note>
+        <note xml:id="Travi_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_11532">
+          <ref rend="bold">galea</ref>:  lavori forzati, per lo più compiuti sul tipo di nave così designato (da una probabile forma illirica galaia, testuggine, per l’analogia fra i remi uscenti dallo scafo e le zampe della testuggine. La forma galera si diffuse dall’Aragona alla Francia e all’Italia, indicando a partire dal Seicento la pena dei lavori forzati e il carcere stesso: vedi DEI).</note>
+        <note xml:id="Travi_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_10430">
+          <ref rend="bold">tanto</ref>:  tanto grande (latinismo).</note>
+        <note xml:id="Travi_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_11717">
+          <ref rend="bold">sbrattare</ref>:  sgombrare, lasciando così ripulito della loro presenza il paese (da imbrattare, con sostituzione di prefisso).</note>
+        <note xml:id="Travi_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_11793">
+          <ref rend="bold">confidati</ref>:  confidando (latinismo).</note>
+        <note xml:id="Travi_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_11822">
+          <ref rend="bold">onninamente</ref>:  del tutto (latinismo).</note>
+        <note xml:id="Travi_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_11940">
+          <ref rend="bold">comminazioni</ref>:  minacce (latinismo).</note>
+        <note xml:id="Travi_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_11973" targetEnd="quarantana/cap1.xml#c1_11974">
+          <ref rend="bold">nell'ordir cabale</ref>:  ordire intrighi (vedi anche gabola nel dialetto milanese).</note>
+        <note xml:id="Travi_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_11978" targetEnd="quarantana/cap1.xml#c1_11982">
+          <ref rend="bold">nemici al suo gran nemico</ref>:  bisticcio conforme ai gusti del linguaggio seicentesco.</note>
+        <note xml:id="Travi_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984">
+          <ref rend="bold">Enrico IV</ref>:  detto il Grande, re di Navarra e poi di Francia dal 1589, promulgatore dell’editto di Nantes (1598) a favore della libertà religiosa. Assassinato nel 1610.</note>
+        <note xml:id="Travi_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002">
+          <ref rend="bold">il duca di Savoia</ref>:  Carlo Emanuele I (1562- 1630), figlio del grande Emanuele Filiberto.</note>
+        <note xml:id="Travi_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_12015" targetEnd="quarantana/cap1.xml#c1_12018">
+          <ref rend="bold">il duca di Biron</ref>:  maresciallo di Enrico IV, decapitato nel 1602 per aver tradito il suo re. Il conte di Fuentes, che l’aveva spinto al tradimento eccitando la sua ambizione, gli fece perder la testa per davvero.</note>
+        <note xml:id="Travi_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_12030" targetEnd="quarantana/cap1.xml#c1_12035">
+          <ref rend="bold">quel seme tanto pernizioso de' bravi</ref>:  la metafora riecheggia nella pàtina arcaica il linguaggio della grida, come pure l’espressione più sotto: ad esterminio de' bravi.</note>
+        <note xml:id="Travi_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_12069" targetEnd="quarantana/cap1.xml#c1_12070">
+          <ref rend="bold">pensò seriamente</ref>:  novità di proposito e povertà di effetto (la solita grida): nulla cambia.</note>
+        <note xml:id="Travi_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_12077" targetEnd="quarantana/cap1.xml#c1_12084">
+          <ref rend="bold">Pandolfo... stampatori regii camerali</ref>:  tipografi milanesi al servizio dello stato e della pubblica amministrazione (Regia Camera). Si deve a loro la stampa di gride, ordini e bandi e di compendi di essi.</note>
+        <note xml:id="Travi_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_12154" targetEnd="quarantana/cap1.xml#c1_12156">
+          <ref rend="bold">accadde la passeggiata</ref>:  l’espressione (come, più sotto, quel memorabile avvenimento) ha una sfumatura d’ironia, ma forse indica pure il valore storico, secondo l’accezione democratica manzoniana, di un avvenimento a prima vista irrilevante.</note>
+        <note xml:id="Travi_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_12423" targetEnd="quarantana/cap1.xml#c1_12442">
+          <ref rend="bold">esame... se avesse... peccato... coscienza</ref>:  termini propri della morale cattolica sono qui piegati al codice del compromesso. È da notare come queste parole non ricorrano mai a proposito sulla bocca di don Abbondio: è significativo che, rispondendo ai bravi, egli giunga a definire un tema religioso con termini burocratici (vedi I, 31).</note>
+        <note xml:id="Travi_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_12446" targetEnd="quarantana/cap1.xml#c1_12448">
+          <ref rend="bold">i bravi però...</ref>:  il contrasto è ben fermo: all’incertezza di don Abbondio, assalito da mille pensieri e ripiegato nella paura, si contrappone la determinazione inarrestabile dei bravi. Si noti anche più avanti lo squilibrio di forze che risulta dai gesti e dagli interventi dei singoli personaggi nel discorso.</note>
+        <note xml:id="Travi_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_12497">
+          <ref rend="bold">nessuno</ref>:  la fermezza dell’epifora sigilla ogni volta la mimica, via via decrescente, di don Abbondio.</note>
+        <note xml:id="Travi_cap1-n49" type='comm' target="quarantana/cap1.xml#c1_12597">
+          <ref rend="bold">galantuomini</ref>:  l’ironico termine ricorre anche più avanti, nel discorso di un bravo, e torna poi frequentemente nel romanzo.</note>
+        <note xml:id="Travi_cap1-n50" type='comm' target="quarantana/cap1.xml#c1_12620" targetEnd="quarantana/cap1.xml#c1_12621">
+          <ref rend="bold">Cosa comanda?</ref>:  l’atteggiamento sottomesso di don Abbondio è in parte conforme alle consuetudini di cortesia del Seicento, quali si manifestano anche nella conclusione, in accordo con la domanda iniziale: Disposto sempre all’ubbidienza. Ma la retorica servile allora quasi d’obbligo, in cerca della benevolenza altrui, non lascia mai trasparire nessun solido argomento di opposizione: la forma riproduce la sostanza di un uomo dominato dalla paura e dalle circostanze al punto di farsi servo dei servi di un violento. In un linguaggio ambiguo che è nello stesso tempo complimento e pericolosa promessa, don Abbondio insinua la sua incertezza, senza trovare la forza di essere superiore ai suoi tempi.</note>
+        <note xml:id="Travi_cap1-n51" type='comm' target="quarantana/cap1.xml#c1_12654" targetEnd="quarantana/cap1.xml#c1_12656">
+          <ref rend="bold">un suo inferiore...</ref>:  inversione ironica delle parti.</note>
+        <note xml:id="Travi_cap1-n52" type='comm' target="quarantana/cap1.xml#c1_12666" targetEnd="quarantana/cap1.xml#c1_12670">
+          <ref rend="bold">Renzo Tramaglino e Lucia Mondella</ref>:  compaiono sulla bocca del bravo, per la prima volta nel romanzo, i nomi dei protagonisti (Fermo Spolino e Lucia Zarella nel Fermo e Lucia). Si notino le forme diminutive dei cognomi, che richiamano le gente meccaniche, e di piccol affare dell’Introduzione. “Il nome Lorenzo è nelle Litanie dei Santi in una serie che non possiamo non dire manzoniana: ‘Bartholomaee... Laurenti... Gervasi... Ambrosi... Antoni, Dominice’. Vi figurano infatti, oltre a Lorenzo (detto da tutti Renzo), anche Bortolo, Tonio e Gervaso, il sagrestano Ambrogio, il piccolo Menico. Di qui dunque deve averlo tratto il Manzoni. In quanto a ‘Tramaglino’, è evidente l’allusione alla professione di filatore (‘tramaglio’: rete, cfr. IV, 1) che era appunto il mestiere di Renzo [...]. Nel Canone della Messa si legge: ‘Nobis quoque peccatoribus... cum Felicitate, Perpetua, Agatha, Lucia, Agnese,           <!-- Agnese errore del commento? --> Caecilia, Anastasia’. La serie Perpetua-Lucia-Agnese-Cecilia e soprattutto il binomio Lucia-Agnese lasciano intendere donde il Manzoni abbia derivato il nome della giovane sposa. In quanto a ‘Mondella’, può esserci riferimento alla purezza della fanciulla" (Caretti). Vedi G. Contini, Onomastica manzoniana, in Varianti e altra linguistica cit., pp. 201-205.</note>
+        <note xml:id="Travi_cap1-n53" type='comm' target="quarantana/cap1.xml#c1_12719" targetEnd="quarantana/cap1.xml#c1_12724">
+          <ref rend="bold">noi siamo i servitori del comune</ref>:  l’autogiustificazione servile diffusa nel discorso (sui rapporti del parroco col comune, vedi però la nota 37 al cap. XXXVIII) mette in primo piano l’io minacciato di don Abbondio e degrada il matrimonio a faccenda (pasticci... banco... riscotere...). Anche più avanti: "vedon bene che a me non me ne vien nulla in tasca...” Il sacerdote sembra adeguarsi alla mentalità dei suoi interlocutori: nessun elemento religioso compare nelle sue parole. “...Ogni potere ingiusto, per far male agli uomini, ha bisogno di cooperatori che rinuncino ad obbedire alla legge divina...” (Sulla morale cattolica, parte II, Se la religione conduca alla servilità).</note>
+        <note xml:id="Travi_cap1-n54" type='comm' target="quarantana/cap1.xml#c1_12837" targetEnd="quarantana/cap1.xml#c1_12838">
+          <ref rend="bold">l'altro compagnone</ref>:  si abbozza una diversità di carattere fra i due bravi: l’uno dotato di certa diplomazia, abile soprattutto nei sottintesi (si noti l’enunciazione finale, a colpo sicuro, del nome del mandante); l’altro impulsivo e assuefatto a persuadere solo con la forza. È la classica alleanza di astuzia e violenza.</note>
+        <note xml:id="Travi_cap1-n55" type='comm' target="quarantana/cap1.xml#c1_12906" targetEnd="quarantana/cap1.xml#c1_12909">
+          <ref rend="bold">l'illustrissimo signor don Rodrigo</ref>:  ripetuta due volte dai bravi, l’espressione superlativa conclusa dal nome spagnolo dell’oppressore schiaccia il signor curato, il don Abbondio la cui sola autorità, quella morale e religiosa, è stata da lui stesso abbandonata.</note>
+        <note xml:id="Travi_cap1-n56" type='comm' target="quarantana/cap1.xml#c1_13119" targetEnd="quarantana/cap1.xml#c1_13122">
+          <ref rend="bold">che non voglio trascrivere</ref>:  s’intende: dall’immaginario manoscritto dell’anonimo, qui sottoposto ironicamente a censura. Tornano richiami colloquiali al lettore, nel passaggio dalla scena dialogata a una nuova pausa storico-riflessiva.</note>
+        <note xml:id="Travi_cap1-n57" type='comm' target="quarantana/cap1.xml#c1_13123" targetEnd="quarantana/cap1.xml#c1_13126">
+          <ref rend="bold">Il povero don Abbondio</ref>:  in questa locuzione bonaria l’autore traduce un complesso rapporto morale col personaggio, manifestando rammarico per il suo affanno ma anche per la sua debolezza: le pagine seguenti sui tempi di don Abbondio cercheranno di comprenderlo, pur senza poterlo giustificare.</note>
+        <note xml:id="Travi_cap1-n58" type='comm' target="quarantana/cap1.xml#c1_13170">
+          <ref rend="bold">naturale</ref>:  carattere.</note>
+        <note xml:id="Travi_cap1-n59" type='comm' target="quarantana/cap1.xml#c1_13072" targetEnd="quarantana/cap1.xml#c1_13073">
+          <ref rend="bold">Don Abbondio...</ref>:  la nuova sequenza storico-riflessiva richiama quella sulle gride ed esamina più da vicino le radici del malessere del Seicento, per delineare, alle spalle del personaggio, la sua epoca e, dietro quella, conflitti e ingiustizie ricorrenti nella storia.</note>
+        <note xml:id="Travi_cap1-n60" type='comm' target="quarantana/cap1.xml#c1_13391" targetEnd="quarantana/cap1.xml#c1_13394">
+          <ref rend="bold">le violenze e l'astuzia</ref>:  ritorna il binomio, centrale nel romanzo, che abbiamo già visto rappresentato nei due bravi.</note>
+        <note xml:id="Travi_cap1-n61" type='comm' target="quarantana/cap1.xml#c1_13414" targetEnd="quarantana/cap1.xml#c1_13415">
+          <ref rend="bold">gli asili</ref>:  il diritto d’asilo assicurava l’impunità ai ricercati che si rifugiassero in chiese, in conventi o in particolari palazzi di nobili.</note>
+        <note xml:id="Travi_cap1-n62" type='comm' target="quarantana/cap1.xml#c1_13434">
+          <ref rend="bold">impugnati</ref>:  contestati, messi in discussione.</note>
+        <note xml:id="Travi_cap1-n63" type='comm' target="quarantana/cap1.xml#c1_13599">
+          <ref rend="bold">livrea</ref>:  divisa di servizio, dal francese (robe) livrèe, veste consegnata dai signori ai loro servi (vedi DEI).</note>
+        <note xml:id="Travi_cap1-n64" type='comm' target="quarantana/cap1.xml#c1_13626" targetEnd="quarantana/cap1.xml#c1_13628">
+          <ref rend="bold">fracasso delle gride</ref>:  l’ironia è giocata sul significato originario di grida. Le leggi diventano un coro frastornante di puri suoni. “Gli uomini facevano le leggi, ma le leggi non facevano gli uomini" (Angelini).</note>
+        <note xml:id="Travi_cap1-n65" type='comm' target="quarantana/cap1.xml#c1_13675" targetEnd="quarantana/cap1.xml#c1_13678">
+          <ref rend="bold">d'un pezzo di carta</ref>:  crescendo di disprezzo per la grida, degradata ora a oggetto inespressivo, senza più voce.</note>
+        <note xml:id="Travi_cap1-n66" type='comm' target="quarantana/cap1.xml#c1_13749" targetEnd="quarantana/cap1.xml#c1_13757">
+          <ref rend="bold">de' più abbietti... del loro tempo</ref>:  anche la giustizia tradisce: non le resta che imporre torti o tollerarli passivamente.</note>
+        <note xml:id="Travi_cap1-n67" type='comm' target="quarantana/cap1.xml#c1_13802">
+          <ref rend="bold">connivenza</ref>:  peggio che inazione: tacita complicità.</note>
+        <note xml:id="Travi_cap1-n68" type='comm' target="quarantana/cap1.xml#c1_13887" targetEnd="quarantana/cap1.xml#c1_13889">
+          <ref rend="bold">Il clero vegliava...</ref>:  nel Fermo a questo punto erano analizzate a lungo le responsabilità del clero, con vaste riflessioni morali poi sottintese.</note>
+        <note xml:id="Travi_cap1-n69" type='comm' target="quarantana/cap1.xml#c1_14016">
+          <ref rend="bold">dovizioso</ref>:  ricco (dal latino dìvitiae, ‘ricchezze’).</note>
+        <note xml:id="Travi_cap1-n70" type='comm' target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14063">
+          <ref rend="bold">Il nostro Abbondio...</ref>:  con l’accenno ai nobili di campagna come don Rodrigo, siamo tornati con naturalezza alla situazione di don Abbondio, che ora è l’oggetto di considerazioni morali, sviluppo del quadro storico precedente. Dal personaggio l’autore è passato a considerare il suo mondo; da questo è tornato al personaggio, secondo un processo che porta il singolo e la storia a illuminarsi a vicenda. Arricchito del suo spessore storico, don Abbondio si rivela il tipico esempio dell’uomo tranquillo, inoffensivo, soggetto al potere, bisognoso dell’appoggio degli altri.</note>
+        <note xml:id="Travi_cap1-n71" type='comm' target="quarantana/cap1.xml#c1_14185" targetEnd="quarantana/cap1.xml#c1_14188">
+          <ref rend="bold">un suo sistema particolare</ref>:  le norme del gruppo non privano il singolo della sua responsabilità; ma per don Abbondio questa si riduce al salvataggio del proprio “particulare”.</note>
+        <note xml:id="Travi_cap1-n72" type='comm' target="quarantana/cap1.xml#c1_14235" targetEnd="quarantana/cap1.xml#c1_14236">
+          <ref rend="bold">Neutralità disarmata</ref>:  il gergo militare ricorre anche più avanti (guerre... retroguardie... nemico...: vedi anche II, 1), contrastando ironicamente col carattere imbelle del personaggio.</note>
+        <note xml:id="Travi_cap1-n73" type='comm' target="quarantana/cap1.xml#c1_14342">
+          <ref rend="bold">dissimulando</ref>:  fingendo di ignorare.</note>
+        <note xml:id="Travi_cap1-n74" type='comm' target="quarantana/cap1.xml#c1_14635" targetEnd="quarantana/cap1.xml#c1_14641">
+          <ref rend="bold">a danno della dignità del sacro ministero</ref>:  il richiamo alla dignità del sacro ministero è una stonatura evidente sulla bocca di don Abbondio, che non usa mai al momento opportuno, come si è visto, i termini propri della religione e del suo ufficio. I confratelli oggetto dei suoi rimproveri fanno pensare a quei “parrochi zelanti e misericordiosi” di cui il Manzoni prende le difese in un passo delle Osservazioni sulla morale cattolica (XV): “Bisognerebbe domandare a que’parrochi zelanti e misericordiosi i quali, girando per le case affollate dell’indigenza, e dopo aver soddisfatto, con lacrime di tenerezza e di consolazione, a degli estremi bisogni, ne trovano ancora de’ novi, e non possono altro che mischiare le loro lacrime con quelle del povero, bisognerebbe domandar loro se, quando ricorrono al ricco per avere i mezzi di saziare la loro carità, non gli parlano che dell’anima sua, se non gli dipingono le miserie e i patimenti e i pericoli del bisognoso...”</note>
+        <note xml:id="Travi_cap1-n75" type='comm' target="quarantana/cap1.xml#c1_14710" targetEnd="quarantana/cap1.xml#c1_14711">
+          <ref rend="bold">Pensino ora...</ref>:  con la mediazione colloquiale offerta ancora una volta dal richiamo a chi legge (si noti l’ironica modestia dell’espressione i miei venticinque lettori), passiamo dal piano delle consuetudini, suggellate da quel tranquillo esorcismo contro i brutti incontri, al momento narrativo in cui il brutto incontro è appena avvenuto. La lunga pausa riflessiva ci ha restituito il personaggio in azione arricchito del suo passato e di tutta la realtà del suo dramma.</note>
+        <note xml:id="Travi_cap1-n76" type='comm' target="quarantana/cap1.xml#c1_14785" targetEnd="quarantana/cap1.xml#c1_14786">
+          <ref rend="bold">Se Renzo...</ref>:  inizia il primo dei monologhi di don Abbondio, che vedremo in genere frantumati da sospensioni e interiezioni, come già le sue battute nel discorso coi bravi. Il fiele in corpo si riversa su Renzo: l’innocente è accusato, il povero galantuomo colpevole è commiserato, in una specie di morale a rovescio, subordinata all’istinto di difesa.</note>
+        <note xml:id="Travi_cap1-n77" type='comm' target="quarantana/cap1.xml#c1_15128" targetEnd="quarantana/cap1.xml#c1_15129">
+          <ref rend="bold">Era Perpetua...</ref>:  ritratto umoristico della serva padrona, forse con qualche ricordo di Molière o di Goldoni, senza particolari sviluppi storici o sociali. Il motivo delle amiche evoca intorno al personaggio l’atmosfera del paese. Per il nome, vedi la nota 52.</note>
+        <note xml:id="Travi_cap1-n78" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/cap1.xml#c1_15199">
+          <ref rend="bold">l'età sinodale</ref>:  l’età conveniente a una donna per poter essere la domestica di un prete, età stabilita da disposizioni disciplinari fissate nei “sinodi” (assemblee del clero presiedute dal vescovo).</note>
+        <note xml:id="Travi_cap1-n79" type='comm' target="quarantana/cap1.xml#c1_15309" targetEnd="quarantana/cap1.xml#c1_15310">
+          <ref rend="bold">Niente, niente...</ref>:  dal niente iniziale alla rivelazione finale, tutto il discorso è un crescendo, nelle parole e nei gesti, della tensione che farà scoppiare il segreto. Si noti, nelle battute del dialogo, il ricorso di Perpetua al “lei” e di don Abbondio al “voi”, che esprime la differenza sociale fra il curato e la serva. Ai bravi, anch’essi in fondo servitori, il sacerdote si rivolgeva invece con un “loro” rispettoso, vedendo nei due sgherri il riflesso dell’autorità del loro padrone.</note>
+        <note xml:id="Travi_cap1-n80" type='comm' target="quarantana/cap1.xml#c1_15689" targetEnd="quarantana/cap1.xml#c1_15691">
+          <ref rend="bold">Oh che birbone!...</ref>:  Perpetua ignora il linguaggio della diplomazia e del compromesso: il buon senso istintivo la porta ad esprimersi secondo la sua anima dialettale, senza incertezze o riguardi (si vedano anche, più sotto, espressioni sbrigative come è un sant’uomo, e un uomo di polso... ci gongola... non si danno via come confetti... mostrare i denti... calar le...). Don Abbondio, dal canto suo, nonostante remore e censure, finisce con l’adeguarsi senza troppo imbarazzo al linguaggio di Perpetua (una schioppettata nella schiena... codeste baggianate), come si era prima adeguato alla grossolanità dei bravi. Anche in questa circostanza è lui il più debole.</note>
+        <note xml:id="Travi_cap1-n81" type='comm' target="quarantana/cap1.xml#c1_15780" targetEnd="quarantana/cap1.xml#c1_15782">
+          <ref rend="bold">il nostro arcivescovo</ref>:  il cardinale Federigo Borromeo, di cui parlerà il capitolo XXII. Il consiglio di Perpetua si rivelerà buono quando sarà ormai troppo tardi per metterlo in pratica (XXVI, 9 e 12); per ora vince il partito meno rischioso.</note>
+        <note xml:id="Travi_cap1-n82" type='comm' target="quarantana/cap1.xml#c1_15940" targetEnd="quarantana/cap1.xml#c1_15941">
+          <ref rend="bold">calar le...</ref>:  calare le brache: espressione popolare.</note>
+        <note xml:id="Travi_cap1-n83" type='comm' target="quarantana/cap1.xml#c1_15950">
+          <ref rend="bold">baggianate</ref>:  sciocchezze, da baggiano, ‘semplicione’ (vedi anche il milanese bagiann, ‘sciocco’), che deriverebbe “da una (faba) baiano, ‘fava di Baia’, con allusioni spregiative connesse all’immagine di fava” (G. Devoto, Avviamento alla etimologia italiana cit.). All’espressione colorita usata da Perpetua corrisponde, immediata, per frenarla, la replica altrettanto colorita di don Abbondio.</note>
+        <note xml:id="Travi_cap1-n84" type='comm' target="quarantana/cap1.xml#c1_16009" targetEnd="quarantana/cap1.xml#c1_16011">
+          <ref rend="bold">la doveva accader</ref>:  da notare quest’uso del pronome la, frequente nella parlata sia toscana che lombarda e spesso presente nelle espressioni popolari di cui è ricco il romanzo. “Non di rado il neutro viene espresso col pronome femminile la (ella). 11 femminile si spiega sottintendendo cosa" (G. Rohlfs, Grammatica storica della lingua italiana e dei suoi dialetti. Morfologia cit., § 450).</note>
+        <note xml:id="Travi_cap1-n85" type='comm' target="quarantana/cap1.xml#c1_16049" targetEnd="quarantana/cap1.xml#c1_16050">
+          <ref rend="bold">brontolando sempre</ref>:  il personaggio riprende la sua attitudine monologante, dopo che è fallito il dialogo da cui non ha saputo trarre profitto. Rimane in tal modo chiuso nell’incomunicabilità della sua paura.</note>
+        <note xml:id="Travi_cap1-n86" type='comm' target="quarantana/cap1.xml#c1_16095" targetEnd="quarantana/cap1.xml#c1_16096">
+          <ref rend="bold">e disparve</ref>:  come un atto teatrale scandito da due vaste scene dialogate, ricche di didascalie mimiche, il capitolo si conclude con la sparizione del personaggio dietro le quinte.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

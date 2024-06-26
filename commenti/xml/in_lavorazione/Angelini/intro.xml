@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cesare Angelini (1958)</title>
+        <respStmt>
+          <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi : Volume secondo delle Opere, a cura di Cesare Angelini</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Torino</pubPlace>
+          <publisher>Unione tipografico-editrice torinese</publisher>
+          <date>1958</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1 </p> 
+    </encodingDesc> 
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Angelini_intro">
+        <note xml:id="Angelini_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia...</ref>:  il corsivo (dunque fino a «puri purissimi accidenti...») è la trascrizione della prima pagina d’un autografo o scartafaccio che il Manzoni con artistica vaghezza finge d’aver trovato tra vecchie carte del 1600, e attribuisce a un anonimo, «il buon secentista». E secentesca è la veste del manoscritto che, nello spirito, è viceversa tutto manzoniano; un’abilissima parodia dell'ampolloso, intollerabile scrivere di certo Seicento: immagini immodeste, antitesi studiate, sforzate, concettini sminuzzati, figure goffe, grafia sgangherata, iniziali maiuscole e pettorute; insomma, continua occasione di eccitar maraviglia. Vedilo in questo primo periodo, dove vuol dire questa semplice cosa:«la storia fa rivivere i tempi passati». Ogni parola del corsivo per la qualità stessa della scrittura, richiederebbe una spiegazione. Ciò che non possiamo fare per il suggerimento dello stesso Manzoni: che potrebbe parer cosa ridicola scrivere un libro per giustificare una pagina.</note>
+        <note xml:id="Angelini_intro-n2" type='comm' target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">Ma gl'illustri Campioni...</ref>:  sono gli storici che nello scrivere la storia dei popoli con criteri illustri, aulici (e anche questa è rettorica), si curano soltanto dei re, imperatori, conquistatori, e dei loro fatui splendori; come se essi soli facessero la storia vera degli uomini, e non piuttosto gli umili, Ja gente che nasce vive lavora soffre ama, e forse capisce il senso della vita meglio di quelli che credono di reggerne le sorti.</note>
+        <note xml:id="Angelini_intro-n3" type='comm' target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10096"><ref rend="bold">Però alla mia debolezza...</ref>:  sotto la veste dell’anonimo salta fuori il Manzoni, e le sue intenzioni. Persuaso che proprio l’umile gente fa la storia e meglio interpreta la vita e ne custodisce i valori, la celebrerà nel prendere a protagonisti del romanzo storico «gente mecchaniche e di piccol affare»: due contadini, Renzo e Lucia. E questa, d'aver chiamato gli umili a fare la storia, è la prima grande novità de I promessi sposi.</note>
+        <note xml:id="Angelini_intro-n4" type='comm' target="quarantana/intro.xml#intro_10160" targetEnd="quarantana/intro.xml#intro_10162"><ref rend="bold">in angusto Teatro...</ref>:  in Lombardia, dove si svolge il romanzo, e le sue azioni e i suoi fatti. Ricorda il sottotitolo del romanzo: Storia milanese del secolo XVII.</note>
+        <note xml:id="Angelini_intro-n5" type='comm' target="quarantana/intro.xml#intro_10190" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">sotto l'amparo del Re Cattolico...</ref>:  sotto la protezione di Filippo II, re di Spagna, detto «Sole che mai tramonta»; come il governatore che ne fa le veci in Milano (la Lombardia era sotto gli Spagnoli) è detto «Luna giamai calante», e i senatori che l’aiutano, «Stelle fisse». L’adulazione li porta tutti al cielo, e ne fa ciclo, firmamento.</note>
+        <note xml:id="Angelini_intro-n6" type='comm' target="quarantana/intro.xml#intro_10427" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">puri purissimi accidenti...</ref>:  parere che ha addirittura l’appoggio di Cornelio Nepote, quando dice di Catone che, scrivendo la storia, «res notavit, sine nominibus»; e anche quello di Shakespeare, che in Giulietta e Romeo dice essere il nome di un qualunque accidente che viene e va, e anche senza di esso, le persone conservano la loro preziosa sostanza.</note>
+        <note xml:id="Angelini_intro-n7" type='comm' target="quarantana/intro.xml#intro_10431" targetEnd="quarantana/intro.xml#intro_10434"><ref rend="bold">Ma, quando io avrò...</ref>:  dal corsivo si passa, ora, al tondo, e entriamo nella «dicitura» nuova; che non è solo la «dicitura» rifatta dell’anonimo ampolloso, come si meritava «una storia così bella», ma della scrittura italiana. Liberatasi dallo «stile dotto», dalla «lingua quasi morta», da questo momento la scrittura è come il parlare, viva e cordiale. E questa è l’altra grande novità de I promessi sposi.</note>
+        <note xml:id="Angelini_intro-n8" type='comm' target="quarantana/intro.xml#intro_10603" targetEnd="quarantana/intro.xml#intro_10607"><ref rend="bold">a ogni occasione d'eccitar maraviglia</ref>:  era il gusto del tempo, dunque del famoso anonimo; gusto espresso in un verso del Marino: «È del poeta il fin, la maraviglia». E nota il fine gusto critico del Manzoni nel commentare, umoristicamente, questa prima pagina del «dilavato e graffiato autografo».</note>
+        <note xml:id="Angelini_intro-n9" type='comm' target="quarantana/intro.xml#intro_10625" targetEnd="quarantana/intro.xml#intro_10627"><ref rend="bold">rettorica discreta, fine...</ref>:  arte, garbo artistico, buon gusto: la poesia della prosa. Più tardi, parlerà di un «periodo steso da un uomo di garbo»: con rettorica fine, discreta, di buon gusto.</note>
+        <note xml:id="Angelini_intro-n10" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia, e, forse e almeno in parte, per la presenza degli Spagnoli.</note>
+        <note xml:id="Angelini_intro-n11" type='comm' target="quarantana/intro.xml#intro_10820" targetEnd="quarantana/intro.xml#intro_10821"><ref rend="bold">con un'ingenuità...</ref>:  lo scartafaccio è, dunque, una sua invenzione, e quasi lo confessa. Ad esso si rifarà di sovente nel romanzo, ogni volta (almeno trenta) che vorrà «cavarsi... la voglia d’essere un po’ fantastico» o dir cose forti senza assumersene la responsabilità (malizia che è già nel Don Chisciotte del Cervantes). E la scrittura è ormai un divertimento.</note>
+        <note xml:id="Angelini_intro-n12" type='comm' target="quarantana/intro.xml#intro_11042" targetEnd="quarantana/intro.xml#intro_11056"><ref rend="bold">siamo andati... le critiche possibili e contingenti</ref>:  è il ruminare del Manzoni, lento, paziente. È il suo «pensarci su»; il «sentir e meditare», e tutta questa saggezza che forma la sua «poetica». Solo che, invece della parola «contingenti», ci saremmo aspettati' una parola più facile: come «immaginabili, eventuali».</note>
+        <note xml:id="Angelini_intro-n13" type='comm' target="quarantana/intro.xml#intro_11102" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">ma le mutano</ref>:  il passo è variamente chiosato. La più giusta interpretazione ci par sempre quella data dal Morandi: «le mutano, non per capriccio, ma per necessità logica; giacché, come avverte in altro luogo lo stesso Manzoni, con le questioni piantate in falso, si deve cambiar la questione».</note>
+        <note xml:id="Angelini_intro-n14" type='comm' target="quarantana/intro.xml#intro_11241" targetEnd="quarantana/intro.xml#intro_11243"><ref rend="bold">anzi lo stile</ref>:  intendi «la dicitura» che, nella pagina precedente, è tornata tre volte. La nuova scrittura, dove le parole respirano come vive; e questa e quella c tutte hanno colore di gioventù.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

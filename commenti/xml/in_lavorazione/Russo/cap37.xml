@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap37">
+                <note xml:id="Russo_cap37-n1" type="comm" target="quarantana/cap37.xml#c37_10087" targetEnd="quarantana/cap37.xml#c37_10090"><ref rend="bold">Tremolanti, gocciolanti, rinverdite, lustre</ref>:  I primi due epiteti si riferiscono alle erbe, i secondi alle foglie.</note>
+                <note xml:id="Russo_cap37-n2" type="comm" target="quarantana/cap37.xml#c37_10097" targetEnd="quarantana/cap37.xml#c37_10116"><ref rend="bold">E in quel risolvimento della natura... nel suo destino</ref>:  Senza direttamente allegorizzare, il <persName type="author">M.</persName> stesso ci dà la chiave per l'interpretazione religiosa del paesaggio: il destino di quel cielo e il destino di <persName>Renzo</persName> sono sentiti come una cosa sola. Si veda la <bibl>n. 452 al capitolo XXXVI.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n3" type="comm" target="quarantana/cap37.xml#c37_10140" targetEnd="quarantana/cap37.xml#c37_10144"><ref rend="bold">Quell'acqua portava via il contagio</ref>:  Si tratta non di una invenzione romanzesca: i cronisti parlano di questo temporale, mettendolo in relazione con la fine del contagio.</note>
+                <note xml:id="Russo_cap37-n4" type="comm" target="quarantana/cap37.xml#c37_10289" targetEnd="quarantana/cap37.xml#c37_10290"><ref rend="bold">Un pensierino</ref>:  l'ho trovata: è guarita; è mia!: La fiorentineria di quel pensierino: non va male in questo punto, come arguzia sui pensierie disegni e sogni di <persName>Renzo.</persName> Il <persName type="author">M.</persName>, così grave quando ritrae la tristezza interna, di personaggi elementari, sia pure di un povero montanaro come il suo eroe, trascorre, invece, a un sorriso di benevolenza arguta, quando rappresenta pensieri lieti e leggiadra follia di sogni. Non drammatizza, non va nell'idillio; sorride come un buon vecchio che assenta affettuosamente alle impazienti fantasie dei suoi figli.</note>
+                <note xml:id="Russo_cap37-n5" type="comm" target="quarantana/cap37.xml#c37_10299" targetEnd="quarantana/cap37.xml#c37_10313"><ref rend="bold">Faceva uno sgambetto... come un can barbone uscito dall'acqua</ref>:  La similitudine animale e affettuosa dà la misura dek tono arguto.</note>
+                <note xml:id="Russo_cap37-n6" type="comm" target="quarantana/cap37.xml#c37_10504" targetEnd="quarantana/cap37.xml#c37_10506"><ref rend="bold">Sciolto anche questo</ref>:  In tutta la pagina, ricorrono assai frequentemente, periodetti interiettivi, come questi: cosa singolare nella prosa manzoniana.<lb/>
+                La rapidità di essi rende assai bene l'agilità irrequieta dei sogni del protagonista.</note>
+                <note xml:id="Russo_cap37-n7" type="comm" target="quarantana/cap37.xml#c37_10696" targetEnd="quarantana/cap37.xml#c37_10700"><ref rend="bold">E dobbiamo averlo detto altrove</ref>:  a prposito del ratto di <persName>Lucia</persName>. Vedi <bibl>p. 383, cap. XX</bibl>: «Quella strada era, ed è tutt'ora, affondata, aguisa di un letto di fiume, tra due alte rive orlate di macchie».</note>
+                <note xml:id="Russo_cap37-n8" type="comm" target="quarantana/cap37.xml#c37_10920" targetEnd="quarantana/cap37.xml#c37_10923"><ref rend="bold">Lunghettamente anzi che no</ref>:  Arguzia sul compiacimento narrativo che hanno tutti i protagonisti di una qualche impresa, dopo lungo giro di traversie venute a buon fine.</note>
+                <note xml:id="Russo_cap37-n9" type="comm" target="quarantana/cap37.xml#c37_10976" targetEnd="quarantana/cap37.xml#c37_11024"><ref rend="bold">Non era mai spiovuto.... il paese d'intorno</ref>:  Senti la leggerezza di questo periodo, che rende la trasparenza crepuscolare di quel cielo e di quell'aria, fatti più miti e tremoli di serenità. Ricorda alcune note di quel mattino lieto di speranza <bibl>cap. XVII.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n10" type="comm" target="quarantana/cap37.xml#c37_11327" targetEnd="quarantana/cap37.xml#c37_11338"><ref rend="bold">Il da tanto in su, per lavare il da tanto in giù</ref>:  All'insù era una <hi rend="italic">grondaia</hi>, all'ingiù tutto <hi rend="italic">melletta</hi> e <hi rend="italic">mota.</hi> Ma la frase dell'amico è un'acutezza, e non di quelle popolaresche, che silascino intendere d'un baleno. C'è l'imitazione di certe battute argute fiorentine.</note>
+                <note xml:id="Russo_cap37-n11" type="comm" target="quarantana/cap37.xml#c37_11463" targetEnd="quarantana/cap37.xml#c37_11467"><ref rend="bold">Ma l'è acqua! l'è acqua!</ref>:  Non è sangue; vedi <bibl>cap. XXXIV, p. 657.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n12" type="comm" target="quarantana/cap37.xml#c37_11646" targetEnd="quarantana/cap37.xml#c37_11649"><ref rend="bold">Ne ho da raccontartene</ref>:  Tutta la scena è intermezzata da «ti racconterò poi tutto», «ti dirò poi....», da «ne ho da raccontartene,» che rendono l'affollato discorrere di <persName>Renzo.</persName>
+                </note>
+                <note xml:id="Russo_cap37-n13" type="comm" target="quarantana/cap37.xml#c37_11946" targetEnd="quarantana/cap37.xml#c37_11953"><ref rend="bold">non so che parola, non so che suono</ref>:  E' un balbettìo di meraviglia e di letizia che non può essere parola, e però lo scrittore corregge in "non so che suono".</note>
+                <note xml:id="Russo_cap37-n14" type="comm" target="quarantana/cap37.xml#c37_12118" targetEnd="quarantana/cap37.xml#c37_12120"><ref rend="bold">"Ma...." cominciava Agnese</ref>:  Allude con quel <hi rend="italic">ma</hi> al voto di <persName>Lucia.</persName>
+                </note>
+                <note xml:id="Russo_cap37-n15" type="comm" target="quarantana/cap37.xml#c37_12315" targetEnd="quarantana/cap37.xml#c37_12320"><ref rend="bold">Gli piaccia più d'indovinarla da sé</ref>:  Solo apparentemente il <persName type="author">M.</persName> rinunzia a riferire quel colloquio, perchè già <hi rend="italic">que' racconti, quelle domande, quelle spiegazioni, quell'esclamare, quel condolersi, quel rallegrarsdi, e <persName>don Rodrigo</persName>, e il <persName>padre Cristoforo</persName> e tutto il resto,</hi> rendono l'animatissimo colore della scena. Ricorda certe apparenti confessioni di rinunzia espressiva in <persName type="author">Dante</persName>, su nel <bibl rend="italic">Paradiso</bibl>, che solo per i critici sordi e distratti possono essere tali; esse riescono invece, attraverso la poesia dell'ineffabile, a una espressione animatissima dell'immagine del beato regno (<bibl rend="italic">Se mo sonasser tutte quelle lingue..., <bibl>Par. XXXIII, 55 agg.</bibl>).<lb/>
+                Cfr. <persName type="author">L. Russo</persName>, in <bibl><title rend="italic">Problemi di metodo critico,</title></bibl></bibl> alcuni appunti alle interpretazioni del <persName type="author">Vossler</persName> e del <persName type="author">Guzzo.</persName>
+                </note>
+                <note xml:id="Russo_cap37-n16" type="comm" target="quarantana/cap37.xml#c37_12415" targetEnd="quarantana/cap37.xml#c37_12421"><ref rend="bold">Avevo fatto voto anch'io di non toccarli</ref>:  Cfr. al <bibl>cap. XXVII, p. 515, l. 214.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n17" type="comm" target="quarantana/cap37.xml#c37_12649" targetEnd="quarantana/cap37.xml#c37_12652"><ref rend="bold">Senza fare il lezioso</ref>:  senza accampar pretese.</note>
+                <note xml:id="Russo_cap37-n18" type="comm" target="quarantana/cap37.xml#c37_12803" targetEnd="quarantana/cap37.xml#c37_14585"><ref rend="bold">e d'una povera fanciulla... fatto la guardia agli angioli</ref>:  il <persName type="author">M.</persName> ha avuto un'intima pudicizia a far ricorso a miti della religione cattolica, e, come si è osservato l'altra volta, solo Dio, la Vergine, la Provvidenza, sono invocati nel romanzo.<lb/>
+                Non c'è posto per i santi, nè per gli angioli, nè per il diavolo; e i credenti manzoniani pregano dove si trovano, non hanno bisogno di recarsi in chiesa a toccar l'acqua benedetta. Qui gli <hi rend="italic">angioli</hi> sono nominati da <persName>Agnese</persName>, ma si badi a quel <hi rend="italic">non potè far a meno di non dire,</hi> frase che indica contenuta discrezione e accompagna la cara superstizione di una sfumatura di sorriso.</note>
+                <note xml:id="Russo_cap37-n19" type="comm" target="quarantana/cap37.xml#c37_12875" targetEnd="quarantana/cap37.xml#c37_12880"><ref rend="bold">Coloro avevan portato via bell'e nuovo</ref>:<persName>Gli imperiali</persName>.
+                </note>
+                <note xml:id="Russo_cap37-n20" type="comm" target="quarantana/cap37.xml#c37_12952" targetEnd="quarantana/cap37.xml#c37_12962"><ref rend="bold">Tu non sai né anche che la sia in questo mondo.»</ref>:  C'è qui tutta la filosofia del romanzo, calata ed elementarizzata nel cuore e nella parola di una popolana: gli uomini operano e prevedono, e la provvidenza, in ultimo, è quella che risolve e decide. C'è il mito della storia proprio di tutta la filosofia cattolica, e che <persName type="author">Hegel</persName> doveva laicizzare, parlando di un'<hi rend="italic">ironia della storia.</hi>
+                </note>
+                <note xml:id="Russo_cap37-n21" type="comm" target="quarantana/cap37.xml#c37_13073" targetEnd="quarantana/cap37.xml#c37_13076"><ref rend="bold">Una parrucca troppo arruffata</ref>:  Ricorda la descrizione della vigna, <bibl>p. 634</bibl>. qui la breve frase riprende quella lunga e virtuosa pagina.</note>
+                <note xml:id="Russo_cap37-n22" type="comm" target="quarantana/cap37.xml#c37_13244" targetEnd="quarantana/cap37.xml#c37_13288"><ref rend="bold">Se non c'era qualche animosità privata e potente... non danno fastidio a nessuno</ref>:  osservazione acutissima, confermata sempre dall'esperienza: dove la ferocia delle leggi va al di là delle necessità sociali, il <bibl rend="italic">troppo e il vano,</bibl> per dirla con <persName type="author">Dante</persName>, nuoce alle vittime ma nuoce innanzi tutto alla legge stessa.<lb/>
+                E solo in caso di legge eccessibva è valida: quando c'è un'animosità <hi rend="italic">privata e potente</hi> che la sostiene. Il che, per altro verso toglie significato universale alla legge stessa.</note>
+                <note xml:id="Russo_cap37-n23" type="comm" target="quarantana/cap37.xml#c37_13319" targetEnd="quarantana/cap37.xml#c37_13328"><ref rend="bold">Quel che va nelle maniche... ne' gheroni</ref>:  Il proverbio toscano è leggermente diverso: <bibl rend="italic">quel che non va nelle maniche, va' ne' gheroni</bibl>, e significa che quel che si risparmia per un lato, bisogna spenderlo per un altro. Ma rovesciati i termini, il significato non cambia, e il sapore ne è più arguto.</note>
+                <note xml:id="Russo_cap37-n24" type="comm" target="quarantana/cap37.xml#c37_13458" targetEnd="quarantana/cap37.xml#c37_13460"><ref rend="bold">Con simili furberie</ref>:  Con simili ingenuità, vorrebbe dire, e con domande e proposizioni inutili.</note>
+                <note xml:id="Russo_cap37-n25" type="comm" target="quarantana/cap37.xml#c37_13705" targetEnd="quarantana/cap37.xml#c37_13709"><ref rend="bold">Caduta in sospetto d'atrocissimi fatti</ref>:  Quelli che erano raccontati negli <bibl><title>Sposi Promessi.</title></bibl> Vedi la nota <bibl>646, cap. X, p. 208</bibl> di questo volume.</note>
+                <note xml:id="Russo_cap37-n26" type="comm" target="quarantana/cap37.xml#c37_13799" targetEnd="quarantana/cap37.xml#c37_13802"><ref rend="bold">Domandando del padre Cristoforo</ref>:  Alcuni chiosatori avrebbero voluto "esser presenti alla.... morte serena e consolata" di <persName>fra Cristoforo</persName>, ma il <persName type="author">M.</persName> era un artista e, come tutti gli artisti, sapeva rispettare la logica dei suoi personaggi. L'eroe della rinunzzia doveva sparire nell'ombra, e ne abbiamo detto il perchè: vedi la <bibl>n. 624 del cap. XXXVI.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n27" type="comm" target="quarantana/cap37.xml#c37_13878" targetEnd="quarantana/cap37.xml#c37_13881"><ref rend="bold">Intorno a don Ferrante</ref>:  Con <persName>don Ferrante</persName>, si dà l'ultimo congedo a un personaggio immanente sempre nel racconto: il <date>Seicento</date>. Ed è congedo benigno: di quel secolo, a chiusura di avvenimenti, si ricorda la nota piuù innocentemente grotteca e barocca. <persName>Don Ferrante</persName> npon è richiamato dunque qui, per aver modo di introdurre un pezzp di bravura (il famoso ragionamento); ma è l'ultimo simbolo del secolo, dal quale l'artista si congeda sorridente, e fatto più pietoso dalla durezza stessa degli avvenimenti. E' una specie di assoluzione, <hi rend="italic">in articulo mortis</hi>, delle aberrazioni di una civiltà storica, dove lo scherzo allevia ma non muta il giudizio.</note>
+                <note xml:id="Russo_cap37-n28" type="comm" target="quarantana/cap37.xml#c37_13956" targetEnd="quarantana/cap37.xml#c37_13960"><ref rend="bold">In rerum natura... diceva</ref>:  Questo famoso ragionamento di <persName>don Ferrante</persName>, citato come tipo classico di sofismo barocconei vecchi amnuali di filosofia, è tolto da una lettera di <persName type="author">Claudio Achilini</persName> in risposta a un'altra di <persName type="author">Agostino Mascardi</persName>. Lettera piena di eleganze secentesche, e che doveva solleticare il gusto ironico-parodistico del <persName type="author">Manzoni</persName>, il quale si giovò di tutta quella fraseologia per scrivere ancora un'altra pagina di satira patetica del suo <date>Seicento.</date> Ma è bene avvertire che la pagina dell'<persName type="author">Achillini</persName> (scoperta per la prima volta da <persName type="author">Olindo Guerrini</persName>, e pubblicata nella <bibl><title rend="italic">Rassegna settimanale</title></bibl> del <date>16 febbraio 1879)</date> è plagiata dal libro di un medico contemporaneo, il <persName rend="author">Viani</persName>, autore de' <bibl><title rend="italic">Dialoghi su i rimedi efficacissimi per guardarsi dal male contagioso</title></bibl> (<placeName>Milano,</placeName>
+                <date>1630</date>).<lb/>
+                Ed è più probabile, senza escudere la conoscenza della lettera dell'<persName type="author">Achillini</persName>, che il <persName type="author">Manzoni</persName> facesse capo ai <bibl><title rend="italic">Dialoghi</title></bibl> del <persName type="author">Viani</persName>, per la larga conoscenza che egli ebbe dei vari trattati sulla peste. In ogni modo, al <persName type="author">Mascardi</persName> che gli domandava da <placeName>Roma</placeName> che cosa pensava degli untori milanesi, il poeta bolognese così rispondeva ingegnosamente: «E' toccato alla peste lo svegliare il mio nome che dormiva sotto i ricchi padiglioni della vostra memoria: nè voglio già ringraziarnela, perchè non merita grazie una siffatta disgrazia; ben rendo grazie a voi che cotanto m'avete onorato con la vostra eloquentissima ed eruditissima lettera, alla quale come potrò mai rispondere a parte a parte se, subiro ch'io l'ebbi ricevuta, venneroa me alcuni gentiluomini bolognesi fra i quali un <persName>Paride</persName> letterato la riconobbe per un'<persName>Elena</persName>, bellissima figliuola del vostro ingegno, e me la rubò!»&gt;. E continuava con altre amenità, fin che riferiva il ragionamento del <persName type="author">Viani</persName>, nel testo che trascriviamo alla <bibl>nota 377.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n29" type="comm" target="quarantana/cap37.xml#c37_13969" targetEnd="quarantana/cap37.xml#c37_13971"><ref rend="bold">Sostanze e accidenti</ref>:  Classica distinzione della scolastica aristotelica: gli <hi rend="italic">accidenti</hi> sono la parte contingente di una <hi rend="italic">sostanza</hi>, che possono esserci e non esserci, ma che non hanno potere di determinare la natura.</note>
+                <note xml:id="Russo_cap37-n30" type="comm" target="quarantana/cap37.xml#c37_14031" targetEnd="quarantana/cap37.xml#c37_14036"><ref rend="bold">Sostanza semplice il contagio non è</ref>:  Ecco il brano della lettera dell'<persName type="author">Achillini</persName>, riecheggiato in questo passo: <bibl>«che cosa è egli mai questo fomite o seminario pestiferio!. E' egli accidente o sostanza. Se accidente, o è trasportato, o è prodotto,Al primo modo repugna la filosofia, la quale non amette il passaggio degli accidenti da un soggetto all'altro. Al secondo pare che ripugni il non potersi intendere con quale energia possa l'appestato tradurre, dalle radici o dalle potenze de' panni agli atti, una si fatta qualità.... Se è sostanza, come vogliono tutti gli antichi, o è semplice o è composta. Se semplice, o ella è serea, e perchè in breve tempo non vola alla sua sfera, liberandone i panni! O è acquea , e perche non bagna, o non è dell'ambiente tante volte accidentalmente secco, disseccata e consumata! O è ignea, e perchè non abbruccia! O è terrea , e perche o non si vede o col tatto non si sente! se è sostanza composta, torno a dire che dovrebbe o col tatto o con l'occhio discernersi.» </bibl>.
+                </note>
+                <note xml:id="Russo_cap37-n31" type="comm" target="quarantana/cap37.xml#c37_14100" targetEnd="quarantana/cap37.xml#c37_14107"><ref rend="bold">Questo contagio, chi l'ha veduto? chi l'ha toccato?</ref>:  Il primo errore logico di <persName>don Ferrante</persName> è quello di concluder che la peste non è sostanza, soltanto perchè non si vede enon la si tocca: abbiamo qui l'aristotelico con le sue opinioni aprioristiche, che si rifiuta all'esperiena. Viene in mente l'aneddoto riferito dal <persName>Galilei</persName> nei <bibl><title rend="italic">Massimi sistemi</title></bibl>, di quel tale peripatetico, a cui si fa toccare con mano che i nervi partono dal cervello e non dal cuore; e per lui vedi la <bibl>n. 363, al cap. XXVII, p. 522.</bibl>
+                <persName>Don Ferrante</persName>, a chi l'avesse obbligato all'esperimento, avrebbe potuto risponddere con le parole di <persName type="author">Simplicio</persName>:<bibl>«Io credo che, quando ci fosse stata dimostrazione più necessaria, <persName type="author">Aristotile</persName> non l'avrebbe lasciata indietro.... », </bibl>oppure&gt;: <bibl>«Questo modo di filosofare tende alla sovversione di tutta la filosofia naturale, ed aldisordinare e mettere in conquasso in cieelo e la terra e tutto l'universo.»</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n32" type="comm" target="quarantana/cap37.xml#c37_14176" targetEnd="quarantana/cap37.xml#c37_14182"><ref rend="bold">Non può passar da un soggetto all'altro</ref>:  Il secondo errore logico di <persName>don Ferrante</persName> è quello che in logica formale si chiama <hi rend="italic">ignoratio elenchi.</hi> Cioè, il ragionamento non contempla tutti i casi possibili, chè il contagio, se non è un accidente trasportato, può essere un rapporto di sostanze atto a produrre accidente.</note>
+                <note xml:id="Russo_cap37-n33" type="comm" target="quarantana/cap37.xml#c37_14227" targetEnd="quarantana/cap37.xml#c37_14234"><ref rend="bold">«Tutte corbellerie,» scappò fuori una volta un tale</ref>:  Da questo punto, il <persName type="author">Manzoni</persName> non riecheggia più l'<persName type="author">Achillini</persName> o il <persName type="author">Viani,</persName> ma continua per suo conto,satireggiando altre debolezze del dotto professionale.</note>
+                <note xml:id="Russo_cap37-n34" type="comm" target="quarantana/cap37.xml#c37_14243" targetEnd="quarantana/cap37.xml#c37_14250"><ref rend="bold">La scienza è scienza; solo bisogna saperla adoprare</ref>:  Un cattedratico non può mai discendere a queste volgarità: che i termini scientifici possano prestarsi a scoprire delle corbellerie. Da ciò, la protesta di <persName>don Ferrante</persName>; e dato il formalismo della sua scienza, egli è sdegnatamente realista, di un realismo grammaticale. Se i nomi ci sono, devono pur significare qualche cosa: non si tratta di <hi rend="italic">fatus vocis.</hi>
+                </note>
+                <note xml:id="Russo_cap37-n35" type="comm" target="quarantana/cap37.xml#c37_14251" targetEnd="quarantana/cap37.xml#c37_14258"><ref rend="bold">Vibici, esantemi.... furoncoli nigricanti</ref>:  I vibici sono macchie violacee della pelle; gli esantemi, efflorescenze, eruzioni cutanee (come la risipola, la rosolia, l'orticaria, la scarlattina, il morbillo, ecc.); gli antraci, tumori infiammatori sottocutanei, più grossi di un furoncolo e facili a degenerare in cancrena; le parotidi, enfiagioni che si formano vicino all'orecchio; i bubboni, quelli che nel '300 si chiamavano <hi rend="italix">gavoccioli</hi>, sono i gonfiori caratteristici della peste; i furoncoli nigricanti, fignoli maligni.</note>
+                <note xml:id="Russo_cap37-n36" type="comm" target="quarantana/cap37.xml#c37_14336" targetEnd="quarantana/cap37.xml#c37_14339"><ref rend="bold">D'un dotto di professione</ref>:  Satira contro il dottrinarismo dei cattedranti, facile e compiaciuto. Ricorda l'uccello di <persName>Minerva</persName> che vola al crepuscolo.</note>
+                <note xml:id="Russo_cap37-n37" type="comm" target="quarantana/cap37.xml#c37_14452" targetEnd="quarantana/cap37.xml#c37_14458"><ref rend="bold">Quella fatale congiunzione di Saturno con Giove</ref>:  Vedi a <bibl>pag. 612, capitoloXXXII.</bibl>
+                <persName> Don Ferrante</persName>, nel campo dell'astrologia, «era tenuto, e con ragione, per più che un dilettante». Vedi a <bibl>pp. 520-21, cap. XXVII.</bibl>
+                </note>
+                <note xml:id="Russo_cap37-n38" type="comm" target="quarantana/cap37.xml#c37_14493" targetEnd="quarantana/cap37.xml#c37_14501"><ref rend="bold">Come tante capocchie di spilli ficcati in un guancialino?</ref>:  L'immagine è di pretto stampo secentesco. Si ricorderanno le bizarre e ingegnose metafore della letteratura secentesca, passate nei proverbi di scuola, per definire il padiglione celeste.</note>
+                <note xml:id="Russo_cap37-n39" type="comm" target="quarantana/cap37.xml#c37_14570" targetEnd="quarantana/cap37.xml#c37_14571"><ref rend="bold">His fretus</ref>:  Appoggiandosi su questi ragionamenti. La frase latina, di sapore scolastico, è un ultimo tocco di colore.</note>
+                <note xml:id="Russo_cap37-n40" type="comm" target="quarantana/cap37.xml#c37_14594" targetEnd="quarantana/cap37.xml#c37_14602"><ref rend="bold">Come un eroe di Metastasio, prendendosela con le stelle</ref>:  I numi e le stelle netrano molto nella disperazione degli eroi metastasiani. Il <persName type="author">M.</persName>, con la battuta, si burla affettuosamente del povero <persName>don Ferrante</persName>, e, al tempo stesso, della maniera melosrammatica del <persName type="author">Metastasio</persName>. C'è una graziosa parodia dello stile metastasiano, che il <persName type="author">Manzoni</persName> scrisse, per gioco, sul dorso di uan lettera di <persName type="author">Tommaso Grossi</persName>: --<hi rend="italic">Tu vuoi saper s'io vado, -Tu vuoi saper s'io resto; - Sappi ben mio, che questo - Non lo saprai da me. - Non che il pudor nativo - Metta alla lingua il morso, - O che impedisca il corso - Quel certo non so che.... -- Vuoi ch'io dica perchè non lo dico! - Ma lo dico, - Oh destino inimico! - Non lo dico. - Oh terribile intrico! - Non lo dico perchè non lo so. -- Lo chieggo alla madre - Con pianti e domei; - Risponde: «Vorrei - saperlo da te.» - Se il chieggo alla sposa, - « Decidi a tuo senno» - Risponde; «un tuo cenno - E' legge per me.... » - Se il chieggo a me stesso - Se il chieggo a me stesso.... -- ( interrotto). </hi>
+                </note>
+            </div>
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giuseppe Giacalone (1996)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="GM">Giudo Manfredini</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Giuseppe Giacalone</title>
+          <editor>Giuseppe Giacalone</editor>
+          <pubPlace>Pescara</pubPlace>
+          <publisher>Italica</publisher>
+          <date>1996</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <p>Scheda editoriale</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Giacalone_intro">
+        <note xml:id="Giacalone_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10092"><ref rend="bold">L'Historia... gloriose</ref>:  Questa prima pagina in corsivo e in stile secentesco, secondo la dichiarazione maliziosa del M., non sarebbe che l’inizio del manoscritto di quella «Storia milanese del secolo XVII scoperta e rifatta» annunziata dal frontespizio del romanzo e di cui i Promessi Sposi sarebbero una specie di moderna redazione, rielaborata dal M. con gusto romantico e tutto personale. Ed in effetti è un espediente tecnico, già usato dal Boiardo, dall’Ariosto, dal Cervantes e dallo stesso Walter Scott, la cui moda del romanzo storico il M. seguiva; ma un espediente che gli permette di dare ai lettori il senso di una certa realtà storica, di quel «vero» che egli tanto aveva sostenuto in sede estetica, e nello stesso tempo gli consente un certo giuoco umoristico nella trama narrativa. Questo nelle linee essenziali il senso: la storia si può definire propriamente una guerra contro il tempo, perché togliendogli di mano gli anni trascorsi e passati, li richiama in vita e li passa in rassegna, esaminandoli e rimettendoli di nuovo in azione. Ma gli illustri campioni (cioè gli storici), che in questa battaglia contro il tempo (arringo) raccolgono plausi (palme) e lodi, rapiscono al tempo soltanto le spoglie più sfarzose, cioè immortalano soltanto uomini illustri e grandi imprese, adornando anzi con il loro acuto ingegno e l'arte della parola solo le grandi imprese. Già in questa prima parte si può notare, sia pure nel gusto secentesco delle metafore, un certo atteggiamento polemico nel M. per la storia ufficiale e tradizionale che esaltava soltanto i grandi personaggi, tralasciando in ombra gli umili e gli oppressi; atteggiamento polemico che del resto egli aveva tenuto anche in tutti i suoi scritti storici precedenti. Basti qui ricordare questo passo del Discorso sopra alcuni punti di storia longobardica in Italia «I cronisti del medio evo raccontano per lo più i soli avvenimenti principali e straordinari, e fanno la storia del solo popolo conquistatore e qualche volta de' soli re e de’ personaggi primari di quel popolo» per renderci conto del senso democratico che il M. ebbe della storia, come rievocazione e celebrazione del vulgo disperso che nome non ha, e che invece nel romanzo diventerà protagonista, intorno a cui fa da sfondo la storia più vasta delle grandi guerre e dei grandi personaggi.</note>
+        <note xml:id="Giacalone_intro-n2" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155"><ref rend="bold">Però... Relatione</ref>:  Però al mio povero ingegno non è possibile elevarsi a descrivere argomenti alti e così sublimi da mettere in pericolo la mia stessa capacità, aggirandomi tra le complicazioni tortuose dei maneggi politici e il rimbombo di trombe militari. Solo che avendo avuto notizia di fatti degni di essere tramandati, sebbene siano capitati a persone umili e di poco conto (gente meccaniche e di piccol affare), mi accingo a lasciarne memoria ai posteri col far di tutto genuinamente e schiettamente il racconto, ossia la relazione. Questa è senza dubbio la parte più importante della poetica manzoniana, che predilige gli umili e nello stesso tempo la fedeltà al «vero» storico. La dichiarazione di umiltà del manoscritto gli consente di alludere vagamente alla triste vicenda dei due umili artigiani, Renzo e Lucia, di cui il romanzo sarà una storia precisa. Il giuoco stilistico della prosa secentesca, con consonanti raddoppiate, con la frequenza di h iniziali, della u al posto della v, della t al posto della z, conferisce un che di aulico e di umoristico, che attenua il senso polemico del pensiero.</note>
+        <note xml:id="Giacalone_intro-n3" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181"><ref rend="bold">Nella quale... diaboliche</ref>:  Ed in questa relazione (o racconto) si vedranno in un ristretto teatro (cioè la Lombardia) luttuose tragedie di fatti orribili e scene di malvagità grandiosa con intermezzi di imprese virtuose e di bontà angeliche in contrasto con le azioni diaboliche. Allude qui lo scrittore al contenuto morale del romanzo, che da una parte presenta scene drammatiche, come le prepotenze dei nobili del seicento, e luttuose tragedie come la discesa dei Lanzichenecchi e la peste, e dall’altra scene di bontà angelica, come l'intervento del Cardinale e di padre Cristoforo. All’anonimo scrittore del ’600 non dispiaceva certo un racconto teatrale a fosche tinte, ricche di contrasti. Né poteva dispiacere al M. che intendeva riproporre una vera e propria stampa secentesca, con in più il suo gusto romantico.</note>
+        <note xml:id="Giacalone_intro-n4" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">E veramente... emolumenti</ref>:  E veramente considerando che questi nostri paesi (climi) siano sotto la protezione (amparo) del re di Spagna, che si può considerare il Sole che non tramonta mai, e considerando che risplenda sopra i nostri paesi con lume riflesso, come una Luna giammai calante, l'eroe di nobile stirpe (prosapia), che temporaneamente ne fa le veci, il Governatore di Milano, (che in Italia rappresentava il re di Spagna, sui cui domini non tramontava mai il sole) ed insieme a lui anche gli illustrissimi senatori, simili a stelle fisse, e gli spettabili magistrati, simili a pianeti erranti (cioè trasferibili rispetto ai senatori che erano inamovibili) spandano la luce ovunque, formando un nobilissimo cielo, non si può trovare altra ragione, nel vedere un paese così ben governato mutarsi in un inferno di atti oscuri, malvagità e crudeltà perpetrate da uomini temerari, che non sia arte e fattura del diavolo, dato che la malizia umana da sola non dovrebbe esser capace di resistere a sì grandi governanti, i quali con cento occhi e cento mani si adoperano per i pubblici uffici. È forse il momento più satirico di tutta la pagina che permette al M. con i doppi sensi allusivi di sferzare quel governo inetto e pomposo borioso e incapace, dalle apparenze religiose ma in realtà diabolico, che fu la vera causa dei disastri e delle tragedie che egli narrerà. Da notare la finezza stilistica dello stile barocco, che riproduce, nonostante la sua bizzarria immaginifica, l’ironia manzoniana e la sua polemica satira verso la nobiltà spagnuola, preoccupata soltanto di rubare e violare le leggi.</note>
+        <note xml:id="Giacalone_intro-n5" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10429"><ref rend="bold">Per locchè... accidenti</ref>:  Per la qual cosa descrivendo questa vicenda avvenuta durante la mia giovinezza, sebbene la maggior parte delle persone che compaiono come attori siano scomparse dalla scena del mondo, pagando così il loro tributo alle Parche, tuttavia per giusti motivi si taceranno i loro nomi e quelli dei loro parenti, la stessa cosa si farà dei luoghi, indicando soltanto i luoghi in generale. Nessuno dirà che questa sia un’imperfezione, una manchevolezza del racconto, a meno che questo critico non sia del tutto digiuno di filosofia; perché quelli che di filosofia s’intendono vedranno come non manchi nulla alla sostanza di questa narrazione. Poiché, essendo cosa ovvia e da tutti ammessa che i nomi altro non sono che puri accidenti... Quest’ultimo brano completa il programma estetico dell’anonimo scrittore secentista che in sostanza è quello manzoniano di essere fedele ai fatti storici, ma di mantenersi sempre in una perfetta discrezione per quel che riguarda i nomi dei personaggi presentati in scena, e dei luoghi indicati vagamente. Con questa poetica del vago e della discrezione il M. intendeva anche criticare certi atteggiamenti e prevenzioni circa le regole dell’arte narrativa, sdoppiando la sua personalità di autore e di trascrittore di un brano barocco, quanto mai ricco di spunti parodistici e di battute allusive, come quell’ultimo «accidenti» che nel suo significato scolastico di «eventuali» lascia trasparire il valore semantico più comune, dato che a quel punto egli abbandona il proposito di continuare a trascrivere quel libro.</note>
+        <note xml:id="Giacalone_intro-n6" type="comm" target="quarantana/intro.xml#intro_10444"><ref rend="bold">dilavato</ref>:  sbiadito.</note>
+        <note xml:id="Giacalone_intro-n7" type="comm" target="quarantana/intro.xml#intro_10446"><ref rend="bold">graffiato</ref>:  tutto pieno di sgorbi.</note>
+        <note xml:id="Giacalone_intro-n8" type="comm" target="quarantana/intro.xml#intro_10447"><ref rend="bold">autografo</ref>:  manoscritto.</note>
+        <note xml:id="Giacalone_intro-n9" type="comm" target="quarantana/intro.xml#intro_10429"><ref rend="bold">accidenti</ref>:  qualità eventuali, attributi che si dànno ad una vera essenza o sostanza, secondo la filosofia scolastica.</note>
+        <note xml:id="Giacalone_intro-n10" type="comm" target="quarantana/intro.xml#intro_10514"><ref rend="bold">concettini</ref>:  espressioni letterarie e stilistiche proprie della sottigliezza dei secentisti, il cui proposito era quello di destar meraviglia, come dirà dopo.</note>
+        <note xml:id="Giacalone_intro-n11" type="comm" target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  sgrammaticature.</note>
+        <note xml:id="Giacalone_intro-n12" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia, cioè in una regione in cui il barocco spagnuolo era penetrato oltre che nei costumi anche nel linguaggio letterario. In questo brano il M. vuole giustificarsi di aver abbandonato il manoscritto, perché linguisticamente e stilisticamente di gusto troppo barocco e, quindi, lontano dalla sensibilità e dalla comprensione di lettori moderni. Questo pretesto giustificherebbe il suo nuovo assunto di controllare la veridicità storica e di riscriverne tutta la trama narrativa in un nuovo linguaggio.</note>
+        <note xml:id="Giacalone_intro-n13" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10975"><ref rend="bold">Ma, rifiutando... punto</ref>:  La ricerca di una lingua narrativamente viva appassionò tutta la vita il M. e non a caso, anzi a proposito, qui egli si pone il problema come uno dei suoi travagli, che lo impegnarono non meno di quelli morali, storici e religiosi.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>

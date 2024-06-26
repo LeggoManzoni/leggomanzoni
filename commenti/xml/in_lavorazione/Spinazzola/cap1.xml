@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vittorio Spinazzola (1972)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AR">Arianna Roffi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Introduzione e note di Vittorio Spinazzola</title>
+          <editor>Spinazzola, Vittorio</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Garzanti</publisher>
+          <date>1972</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Spinazzola_cap1">
+        <note xml:id="Spinazzola_cap1-n1" type='comm' target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10006"><ref rend="bold">Quel... Como</ref>:  il cosiddetto lago di Lecco, ben noto al M. che ivi presso (nella villa paterna del Caleotto) trascorse «gran parte della infanzia e della puerizia, e le vacanze autunnali della prima giovinezza », come è scritto nel Fermo e Lucia.</note>
+        <note xml:id="Spinazzola_cap1-n2" type='comm' target="quarantana/cap1.xml#c1_10112" targetEnd="quarantana/intro.xml#c1_10113"><ref rend="bold">La costiera</ref>:  costa, spiaggia in pendio.</note>
+        <note xml:id="Spinazzola_cap1-n3" type='comm' target="quarantana/cap1.xml#c1_10086" targetEnd="quarantana/cap1.xml#c1_10087"><ref rend="bold">l'Adda rincomincia</ref>:  l'Adda perde il nome di fiume formando il lago, lo riacquista uscendone al ponte di Lecco; poi lo perde di nuovo dando origine ai laghetti di Pescarenico, Cariate, Olginate e lo riprende definitivamente al termine di essi.</note>
+        <note xml:id="Spinazzola_cap1-n4" type='comm' target="quarantana/cap1.xml#c1_10118" targetEnd="quarantana/cap1.xml#c1_10120"><ref rend="bold">tre grossi torrenti</ref>:  il Gerenzone, il Caldone, il Bione.</note>
+        <note xml:id="Spinazzola_cap1-n5" type='comm' target="quarantana/cap1.xml#c1_10259" targetEnd="quarantana/intro.xml#c1_10262"><ref rend="bold">di terre, di ville</ref>:  di borghi, di villaggi.</note>
+        <note xml:id="Spinazzola_cap1-n6" type='comm' target="quarantana/cap1.xml#c1_10336" targetEnd="quarantana/cap1.xml#c1_10339"><ref rend="bold">era... castello</ref>:  era munito di fortificazioni.</note>
+        <note xml:id="Spinazzola_cap1-n7" type='comm' target="quarantana/cap1.xml#c1_10419"><ref rend="bold">tuttavia</ref>:  tuttora.</note>
+        <note xml:id="Spinazzola_cap1-n8" type='comm' target="quarantana/cap1.xml#c1_10705"><ref rend="bold">Abbondio</ref>:  è il nome del santo patrono di Como.</note>
+        <note xml:id="Spinazzola_cap1-n9" type='comm' target="quarantana/cap1.xml#c1_10706"><ref rend="bold">curato</ref>:  per il M. sinonimo di parroco.</note>
+        <note xml:id="Spinazzola_cap1-n10" type='comm' target="quarantana/cap1.xml#c1_10737"><ref rend="bold">ufizio</ref>:  uffizio (fior.). Cfr. più sotto ufiziali.</note>
+        <note xml:id="Spinazzola_cap1-n11" type='comm' target="quarantana/cap1.xml#c1_10812"><ref rend="bold">fessi</ref>:  spaccature, fenditure.</note>
+        <note xml:id="Spinazzola_cap1-n12" type='comm' target="quarantana/cap1.xml#c1_11168"><ref rend="bold">guardia</ref>:  o guardamano, è la parte dell’impugnatura che serve a riparare la mano.</note>
+        <note xml:id="Spinazzola_cap1-n13" type='comm' target="quarantana/cap1.xml#c1_11174" targetEnd="quarantana/cap1.xml#c1_11176"><ref rend="bold">come in cifra</ref>:  come nel complicato disegno di un monogramma.</note>
+        <note xml:id="Spinazzola_cap1-n14" type='comm' target="quarantana/cap1.xml#c1_11216" targetEnd="quarantana/cap1.xml#c1_11217"><ref rend="bold">squarci autentici</ref>:  tratti da documenti storici, non frutto di invenzione romanzesca.</note>
+        <note xml:id="Spinazzola_cap1-n15" type='comm' target="quarantana/cap1.xml#c1_11265" targetEnd="quarantana/intro.xml#c1_11266"><ref rend="bold">gran Contestabile</ref>:  altissima carica militare.</note>
+        <note xml:id="Spinazzola_cap1-n16" type='comm' target="quarantana/cap1.xml#c1_11276" targetEnd="quarantana/cap1.xml#c1_11278"><ref rend="bold">Sua Maestà Cattolica</ref>:  Filippo il (1527-1598), re di Spagna dal 1555.</note>
+        <note xml:id="Spinazzola_cap1-n17" type='comm' target="quarantana/cap1.xml#c1_11333"><ref rend="bold">esercizio</ref>:  attività di lavoro.</note>
+        <note xml:id="Spinazzola_cap1-n18" type='comm' target="quarantana/cap1.xml#c1_11357" targetEnd="quarantana/cap1.xml#c1_11358"><ref rend="bold">fargli spalle</ref>:  spalleggiarlo.</note>
+        <note xml:id="Spinazzola_cap1-n19" type='comm' target="quarantana/cap1.xml#c1_11449"><ref rend="bold">grida</ref>:  editto; ai tempi della dominazione spagnola, il termine indicava i provvedimenti legislativi emanati dal governatore, validi solo finché egli era in carica, salvo conferma del successore.</note>
+        <note xml:id="Spinazzola_cap1-n20" type='comm' target="quarantana/cap1.xml#c1_11515"><ref rend="bold">corda</ref>:  tormento di frequentissimo uso sino al sec. XVIII; consisteva nel legare al condannato le mani dietro la schiena con una fune mediante la quale veniva poi sollevato da terra e tenuto qualche tempo sospeso o bruscamente lasciato cadere.</note>
+        <note xml:id="Spinazzola_cap1-n21" type='comm' target="quarantana/cap1.xml#c1_11520" targetEnd="quarantana/cap1.xml#c1_11521"><ref rend="bold">processo informativo</ref>:  indagine istruttoria.</note>
+        <note xml:id="Spinazzola_cap1-n22" type='comm' target="quarantana/cap1.xml#c1_11532"><ref rend="bold">galea</ref>:  o galera, nave da guerra su cui i condannati trascorrevano ai remi il tempo della pena.</note>
+        <note xml:id="Spinazzola_cap1-n23" type='comm' target="quarantana/cap1.xml#c1_11717"><ref rend="bold">sbrattare</ref>:  sgombrare.</note>
+        <note xml:id="Spinazzola_cap1-n24" type='comm' target="quarantana/cap1.xml#c1_11776"><ref rend="bold">appostatamente</ref>:  proditoriamente.</note>
+        <note xml:id="Spinazzola_cap1-n25" type='comm' target="quarantana/cap1.xml#c1_11801"><ref rend="bold">fautori</ref>:  mandanti.</note>
+        <note xml:id="Spinazzola_cap1-n26" type='comm' target="quarantana/cap1.xml#c1_11822"><ref rend="bold">onninamente</ref>:  in tutto e per tutto (lat.).</note>
+        <note xml:id="Spinazzola_cap1-n27" type='comm' target="quarantana/cap1.xml#c1_11974"><ref rend="bold">cabale</ref>:  maneggi, intrighi.</note>
+        <note xml:id="Spinazzola_cap1-n28" type='comm' target="quarantana/cap1.xml#c1_11983" targetEnd="quarantana/cap1.xml#c1_11984"><ref rend="bold">Enrico IV</ref>:  Enrico di Navarra (1553-1610), re di Francia dal 1589. Il Fuentes, durante il periodo del suo governatorato milanese, cercò di sollevargli contro ogni genere di ostilità.</note>
+        <note xml:id="Spinazzola_cap1-n29" type='comm' target="quarantana/cap1.xml#c1_11999" targetEnd="quarantana/cap1.xml#c1_12002"><ref rend="bold">il duca di Savoia</ref>:  Carlo Emanuele 1 (1562-1630), duca dal 1580, sposò nel 1585 l’infanta spagnola Caterina; tre anni dopo occupò il marchesato di Saluzzo, quindi invase la Provenza e giunse a porre la sua candidatura al trono di Francia. In seguito fu però costretto ad accedere a una pace negoziata, lasciando ai Francesi un vasto territorio oltre il Rodano.</note>
+        <note xml:id="Spinazzola_cap1-n30" type='comm' target="quarantana/cap1.xml#c1_12015" targetEnd="quarantana/cap1.xml#c1_12018"><ref rend="bold">il duca di Biron</ref>:  Carlo di Gontaut (1561-1602), duca di Biron, decapitato per aver cospirato contro il suo re, d’intesa con Carlo Emanuele.</note>
+        <note xml:id="Spinazzola_cap1-n31" type='comm' target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084"><ref rend="bold">stampatori regii camerali</ref>:  i Malatesti avevano ottenuto nel 1603, e conservarono a lungo, l’incarico ufficiale di stampare i decreti della Regia Camera, organo di governo che presiedeva all’attività amministrativa e finanziaria.</note>
+        <note xml:id="Spinazzola_cap1-n32" type='comm' target="quarantana/cap1.xml#c1_12146" targetEnd="quarantana/cap1.xml#c1_12149"><ref rend="bold">Gonzalo Fernandez di Cordova</ref>:  il suo governatorato durò dal 1626 al 1629.</note>
+        <note xml:id="Spinazzola_cap1-n33" type='comm' target="quarantana/cap1.xml#c1_12325" targetEnd="quarantana/cap1.xml#c1_12327"><ref rend="bold">a un tratto</ref>:  qui e altrove, nel senso di insieme, a un tempo. Cfr. poco più oltre «fu assalito a un tratto da mille pensieri ».</note>
+        <note xml:id="Spinazzola_cap1-n34" type='comm' target="quarantana/cap1.xml#c1_12438" targetEnd="quarantana/cap1.xml#c1_12442"><ref rend="bold">il testimonio... coscienza</ref>:  ironico: la coscienza, s’intende, di non aver peccato contro i potenti e i vendicativi.</note>
+        <note xml:id="Spinazzola_cap1-n35" type='comm' target="quarantana/cap1.xml#c1_12723" targetEnd="quarantana/cap1.xml#c1_12724"><ref rend="bold">del comune</ref>:  della comunità, cioè di tutti.</note>
+        <note xml:id="Spinazzola_cap1-n36" type='comm' target="quarantana/cap1.xml#c1_13062"><ref rend="bold">messere</ref>:  non è apostrofe sarcastica, ma titolo un tempo spettante ai sacerdoti.</note>
+        <note xml:id="Spinazzola_cap1-n37" type='comm' target="quarantana/cap1.xml#c1_13156"><ref rend="bold">aggranchiate</ref>:  aggranchite, rattrappite.</note>
+        <note xml:id="Spinazzola_cap1-n38" type='comm' target="quarantana/cap1.xml#c1_13170"><ref rend="bold">naturale</ref>:  carattere.</note>
+        <note xml:id="Spinazzola_cap1-n39" type='comm' target="quarantana/cap1.xml#c1_13415"><ref rend="bold">asili</ref>:  chiese, conventi, dimore nobiliari, entro le quali la giustizia non poteva perseguire il malfattore che vi avesse trovato rifugio.</note>
+        <note xml:id="Spinazzola_cap1-n40" type='comm' target="quarantana/cap1.xml#c1_13419" targetEnd="quarantana/intro.xml#c1_13420"><ref rend="bold">d'alcune classi</ref>:  clero, nobiltà, militari, come specificherà più avanti.</note>
+        <note xml:id="Spinazzola_cap1-n41" type='comm' target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13687"><ref rend="bold">Gli uomini... immediata</ref>:  gli agenti di polizia, i birri o bargelli, come li chiama il M.</note>
+        <note xml:id="Spinazzola_cap1-n42" type='comm' target="quarantana/cap1.xml#c1_13924" targetEnd="quarantana/cap1.xml#c1_13926"><ref rend="bold">i medici stessi</ref>:  forse perchè la tradizione li vuole sempre discordi e rivali; che, a o, più seriamente, perchè avrebbero dovuto fornire esempio di disinteressata dedizione alla loro opera umanitaria e godere dell’universale rispetto.</note>
+        <note xml:id="Spinazzola_cap1-n43" type='comm' target="quarantana/cap1.xml#c1_14081"><ref rend="bold">discrezione</ref>:  discernimento.</note>
+        <note xml:id="Spinazzola_cap1-n44" type='comm' target="quarantana/cap1.xml#c1_14110"><ref rend="bold">parenti</ref>:  qui e quasi sempre, per genitori (lat.).</note>
+        <note xml:id="Spinazzola_cap1-n45" type='comm' target="quarantana/cap1.xml#c1_14342"><ref rend="bold">dissimulando</ref>:  mostrando di non accorgersi.</note>
+        <note xml:id="Spinazzola_cap1-n46" type='comm' target="quarantana/cap1.xml#c1_14499"><ref rend="bold">fantastico</ref>:  lunatico, bizzoso.</note>
+        <note xml:id="Spinazzola_cap1-n47" type='comm' target="quarantana/cap1.xml#c1_14712" targetEnd="quarantana/cap1.xml#c1_14715"><ref rend="bold">i miei venticinque lettori</ref>:  iron., i miei pochi lettori.</note>
+        <note xml:id="Spinazzola_cap1-n48" type='comm' target="quarantana/cap1.xml#c1_14934" targetEnd="quarantana/cap1.xml#c1_14936"><ref rend="bold">la loro imbasciata</ref>:  ... a Renzo e Lucia.</note>
+        <note xml:id="Spinazzola_cap1-n49" type='comm' target="quarantana/cap1.xml#c1_15198" targetEnd="quarantana/intro.xml#c1_15199"><ref rend="bold">l'età sinodale</ref>:  l’età minima di quarant’anni, prescritta dal Concilio di Trento (sinodo = assemblea ecclesiastica) per le donne che prestino servizio presso i sacerdoti.</note>
+        <note xml:id="Spinazzola_cap1-n50" type='comm' target="quarantana/cap1.xml#c1_15269"><ref rend="bold">legato</ref>:  stentato.</note>
+        <note xml:id="Spinazzola_cap1-n51" type='comm' target="quarantana/cap1.xml#c1_15476" targetEnd="quarantana/cap1.xml#c1_15477"><ref rend="bold">le gomita</ref>:  i gomiti (tosc.).</note>
+      </div>
+    </body>
+  </text>
+</TEI>

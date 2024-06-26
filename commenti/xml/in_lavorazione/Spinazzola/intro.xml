@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vittorio Spinazzola (1972)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="AR">Arianna Roffi</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  Introduzione e note di Vittorio Spinazzola</title>
+          <editor>Spinazzola, Vittorio</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Garzanti</publisher>
+          <date>1972</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Spinazzola_intro">
+        <note xml:id="Spinazzola_intro-n1" type='comm' target="quarantana/intro.xml#intro_10001"><ref rend="bold">L'Historia</ref>:  la storia (lat.). Il M. finge di aver desunto la materia del suo romanzo dal manoscritto di un anonimo autore del Seicento. Questo brano sarebbe l’esatta trascrizione del testo originale, che riproduce con parodistica fedeltà lo stile ampolloso, l’ibrida lingua e le incerte consuetudini grafiche della prosa italiana secentesca (cfr. tra l’altro cadaueri per cadaveri, hauendo hauuto per avendo avuto, medemo per medesimo, luochi per luoghi, occhij per occhi, ecc.).</note>
+        <note xml:id="Spinazzola_intro-n2" type='comm' target="quarantana/intro.xml#intro_10039" targetEnd="quarantana/intro.xml#intro_10040"><ref rend="bold">gl'illustri Campioni</ref>:  gli storici. Nota anche, in tutto il brano, l’abuso delle maiuscole.</note>
+        <note xml:id="Spinazzola_intro-n3" type='comm' target="quarantana/intro.xml#intro_10118"><ref rend="bold">Oricalchi</ref>:  ottoni (lat.); figuratam., trombe di guerra.</note>
+        <note xml:id="Spinazzola_intro-n4" type='comm' target="quarantana/intro.xml#intro_10129"><ref rend="bold">capitorno</ref>:  capitarono.</note>
+        <note xml:id="Spinazzola_intro-n5" type='comm' target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136"><ref rend="bold">gente... affare</ref>:  persone di umili condizioni, esercitanti attività manuali. Cfr. c. IV, n. 18.</note>
+        <note xml:id="Spinazzola_intro-n6" type='comm' target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150"><ref rend="bold">schietta e genuinamente</ref>:  schiettamente e genuinamente; l’omissione della desinenza nel primo avverbio è conforme all’uso dell’antico italiano, oltre che dello spagnolo.</note>
+        <note xml:id="Spinazzola_intro-n7" type='comm' target="quarantana/intro.xml#intro_10188"><ref rend="bold">climi</ref>:  paesi.</note>
+        <note xml:id="Spinazzola_intro-n8" type='comm' target="quarantana/intro.xml#intro_10191"><ref rend="bold">l'amparo</ref>:  protezione, riparo (spagn.).</note>
+        <note xml:id="Spinazzola_intro-n9" type='comm' target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194"><ref rend="bold">Re Cattolico</ref>:  il re di Spagna, che ai tempi in cui si svolge il racconto era Filippo iv (salito al trono nel 1621).</note>
+        <note xml:id="Spinazzola_intro-n10" type='comm' target="quarantana/intro.xml#intro_10217"><ref rend="bold">l'Heroe</ref>:  il governatore del ducato di Milano, entrato definitivamente a far parte dei domini spagnoli nel 1535, alla morte di Francesco il, ultimo degli Sforza.</note>
+        <note xml:id="Spinazzola_intro-n11" type='comm' target="quarantana/intro.xml#intro_10254" targetEnd="quarantana/intro.xml#intro_10282"><ref rend="bold">altra causale... fattura diabolica</ref>:  solo in un intervento delle arti diaboliche si può additare la causa dei mali che affliggono un paese retto da cosi eccelsi e illuminati governanti.</note>
+        <note xml:id="Spinazzola_intro-n12" type='comm' target="quarantana/intro.xml#intro_10300" targetEnd="quarantana/intro.xml#intro_10304"><ref rend="bold">d'Argo... Briareo</ref>:  mostri mitologici, dotati l’uno di cento occhi, l’altro di cento braccia.</note>
+        <note xml:id="Spinazzola_intro-n13" type='comm' target="quarantana/intro.xml#intro_10308" targetEnd="quarantana/intro.xml#intro_10311"><ref rend="bold">per li pubblici emolumenti</ref>:  per i vantaggi, per il bene pubblico.</note>
+        <note xml:id="Spinazzola_intro-n14" type='comm' target="quarantana/intro.xml#intro_10342" targetEnd="quarantana/intro.xml#intro_10346"><ref rend="bold">con rendersi tributarij delle Parche</ref>:  essendo morti. Le Parche erano le tre divinità mitologiche che presiedevano al destino umano, tessendo il filo della vita e troncandolo al momento voluto dal fato.</note>
+        <note xml:id="Spinazzola_intro-n15" type='comm' target="quarantana/intro.xml#intro_10429"><ref rend="bold">accidenti</ref>:  termine della filosofia scolastica, indicante le qualità e attributi estrinseci delle cose, o «sostanze ».</note>
+        <note xml:id="Spinazzola_intro-n16" type='comm' target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446"><ref rend="bold">dilavato e graffiato</ref>:  sbiadito e sgorbiato.</note>
+        <note xml:id="Spinazzola_intro-n17" type='comm' target="quarantana/intro.xml#intro_10514"><ref rend="bold">concettini</ref>:  traslati e metafore ricercate.</note>
+        <note xml:id="Spinazzola_intro-n18" type='comm' target="quarantana/intro.xml#intro_10567"><ref rend="bold">Idiotismi</ref>:  espressioni dell’uso dialettale.</note>
+        <note xml:id="Spinazzola_intro-n19" type='comm' target="quarantana/intro.xml#intro_10572" targetEnd="quarantana/intro.xml#intro_10573"><ref rend="bold">della lingua</ref>:  della lingua italiana.</note>
+        <note xml:id="Spinazzola_intro-n20" type='comm' target="quarantana/intro.xml#intro_10623"><ref rend="bold">rettorica</ref>:  intesa, come nel senso antico, ma con sfumatura ironica, quale arte dello scrivere.</note>
+        <note xml:id="Spinazzola_intro-n21" type='comm' target="quarantana/intro.xml#intro_10680"><ref rend="bold">solecismi</ref>:  scorrettezze ed errori di sintassi.</note>
+        <note xml:id="Spinazzola_intro-n22" type='comm' target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700"><ref rend="bold">in questo paese</ref>:  in Lombardia. Il Seicento conobbe la grande letteratura francese e spagnola e, in Italia, a tacer d’altro, la prosa di Galileo.</note>
+        <note xml:id="Spinazzola_intro-n23" type='comm' target="quarantana/intro.xml#intro_10804"><ref rend="bold">presentato</ref>:  presentata; il participio non è concordato con il sostantivo, o per una svista nel lavoro di revisione cui il M. sottopose il testo della prima ed., o perchè egli pensasse di conformarsi, anche in questo caso, all’uso del parlato toscano.</note>
+        <note xml:id="Spinazzola_intro-n24" type='comm' target="quarantana/intro.xml#intro_10821" targetEnd="quarantana/intro.xml#intro_10826"><ref rend="bold">un'ingenuità... del libro medesimo</ref>:  mentre modestamente attribuisce scarsa importanza al suo libro, il malizioso romanziere insinua che altrettanto scarsa è l’ingenuità, la sincerità con cui ne ha esposto l’origine; avverte insomma che il manoscritto secentesco rappresenta solo un’invenzione.</note>
+        <note xml:id="Spinazzola_intro-n25" type='comm' target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10882"><ref rend="bold">Una tale indagine</ref>:  alla storia del Seicento milanese il M. dedicò realmente studi vasti e meticolosi, anche se non sistematici.</note>
+        <note xml:id="Spinazzola_intro-n26" type='comm' target="quarantana/intro.xml#intro_11056"><ref rend="bold">contingenti</ref>:  eventuali; rafforza iperbolicamente il precedente possibili.</note>
+        <note xml:id="Spinazzola_intro-n27" type='comm' target="quarantana/intro.xml#intro_11102" targetEnd="quarantana/intro.xml#intro_11104"><ref rend="bold">ma le mutano</ref>:  probabilmente l’espressione non va intesa in senso ironico; collocare una questione in termini nuovi può significare avviarla a più esatta soluzione.</note>
+        <note xml:id="Spinazzola_intro-n28" type='comm' target="quarantana/intro.xml#intro_11207" targetEnd="quarantana/intro.xml#intro_11211"><ref rend="bold">venivano a fare un libro</ref>:  al problema della lingua il M. dedicò assidue meditazioni, testimoniate da numerosi scritti, editi e inediti, nei quali peraltro non è traccia degli studi linguistici che accompagnarono l’elaborazione del romanzo.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

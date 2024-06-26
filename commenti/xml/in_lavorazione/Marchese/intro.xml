@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelo Marchese (1986)</title>
+        <respStmt>
+        <resp>Supervisione codifica</resp>
+          <persName xml:id="ER">Ersilia Russo</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="ML">Maria Levchenko</persName>
+        </respStmt>
+         <respStmt>
+          <resp>Codifica</resp>
+          <persName xml:id="IG">Isabella Greco</persName>
+          </respStmt>
+      </titleStmt>
+      <editionStmt>
+      <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2023</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi :  a cura di Angelo Marchese</title>
+          <editor>Marchese, Angelo</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>Mondadori</publisher>
+          <date>1986</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p> 
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Marchese_intro">
+        <note xml:id="Marchese_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001">
+          <ref rend="bold">L'Historia</ref>:  Come dice il sottotitolo, I promessi sposi: sono «una storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni». Questa introduzione, scritta in sorprendente stile barocco, non sarebbe altro — secondo la finzione del Manzoni — che il proemio ampolloso della vicenda narrata in un vecchio manoscritto da un anonimo del Seicento. Colpisce subito il linguaggio altisonante della pagina, infarcita di immagini e metafore bizzarre, intrecciate da una sintassi faticosa e contorta, sicché il senso sembra emergerne a stento. La storia — dice l'anonimo — può essere definita una guerra contro il tempo distruttore per richiamare in Vita il passato; ma gli storici, illustri campioni di tale guerra, preferiscono narrare le grandi imprese di uomini famosi: argomenti e personaggi vietati al mio modesto ingegno, per cui mi limiterò a raccontare fatti capitati a povera gente. In Questa vicenda si assisterà alla lotta fra bene e male, fra imprese virtuose e azioni diaboliche. E considerato che tante malvagità ebbero luogo sotto la protezione del Re di Spagna, del governatore di Milano, dei senatori e dei magistrati, si deve pensare a una qualche fattura del diavolo superiore a ogni malizia umana, contro la quale sono impotenti anche i mille occhi e le mille braccia dei governanti, che tanto si adoperano per il bene pubblico. Ho taciuto i nomi dei personaggi, ma chi non è digiuno di filosofia sa che i nomi sono solo dei puri accidenti...</note>
+        <note xml:id="Marchese_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_None">
+          <ref rend="bold">Ma gl'illustri Campioni... Allori</ref>:  perifrasi per indicare gli storici che in tale lotta (Arringo) mietono successi gloriosi (Palme e Allori: simboli tradizionali della gloria).</note>
+        <note xml:id="Marchese_intro-n3" type="comm" target="quarantana/intro.xml#intro_10051" targetEnd="quarantana/intro.xml#intro_10060">
+          <ref rend="bold">rapiscono... brillanti</ref>:  rapiscono solo le spoglie (si noti il pleonasmo: solo che le sole) più sfarzose.</note>
+        <note xml:id="Marchese_intro-n4" type="comm" target="quarantana/intro.xml#intro_10061" targetEnd="quarantana/intro.xml#intro_10092">
+          <ref rend="bold">imbalsamando... gloriose</ref>:  gli storici, poco prima definiti campioni in guerra contro il tempo, ora sono imbalsamatori di imprese (co’ loro inchiostri: metonimia: “con i loro scritti”) di Principi e Potentati; e anche ricamatori di Attioni gloriose con l’acutezza del loro ingegno (coll’ago finissimo): tre diverse metafore, del tutto difformi tra loro, che bene esprimono l’alambiccato gusto barocco.</note>
+        <note xml:id="Marchese_intro-n5" type="comm" target="quarantana/intro.xml#intro_10109" targetEnd="quarantana/intro.xml#intro_10112">
+          <ref rend="bold">Labirinti de' Politici maneggj</ref>:  altra metafora per indicare gli oscuri intrighi politici.</note>
+        <note xml:id="Marchese_intro-n6" type="comm" target="quarantana/intro.xml#intro_10118">
+          <ref rend="bold">Oricalchi</ref>:  trombe di guerra.</note>
+        <note xml:id="Marchese_intro-n7" type="comm" target="quarantana/intro.xml#intro_10129">
+          <ref rend="bold">capitorno</ref>:  capitarono.</note>
+        <note xml:id="Marchese_intro-n8" type="comm" target="quarantana/intro.xml#intro_10131" targetEnd="quarantana/intro.xml#intro_10136">
+          <ref rend="bold">gente meccaniche, e di piccol affare</ref>:  gente che lavora, di poco conto (è la prima definizione dei due “umili” protagonisti del romanzo, Renzo e Lucia, filatori di seta).</note>
+        <note xml:id="Marchese_intro-n9" type="comm" target="quarantana/intro.xml#intro_10148" targetEnd="quarantana/intro.xml#intro_10150">
+          <ref rend="bold">schietta e genuinamente</ref>:  schiettamente e genuinamente (spagnolismo).</note>
+        <note xml:id="Marchese_intro-n10" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">
+          <ref rend="bold">Però alla mia debolezza... sia Relatione</ref>:  L’anonimo, dunque, decide di lasciar memoria ai posteri delle vicende di semplici lavoratori, «gente meccaniche, e di piccol affare»: definizione non certo spregiativa ma che rivela la mentalità dell’intellettuale del Seicento, per il quale la storia non può che essere «illustre»: retorica e ideologica esaltazione delle imprese di personaggi grandi e famosi. Raccontare i casi di Renzo e Lucia significa per l'anonimo rinunciare (con esibita modestia) alle «sublimità pericolose» fra cui si aggirano i veri storici e accontentarsi di fatti sì «memorabili» ma di secondo piano, proprio perché capitati a persone di umile condizione sociale. Con questa scelta, tuttavia, l'anonimo batte la strada che, secondo il Manzoni, conduce al cuore della storia: non quella dei «Prencipi e Potentati, e qualificati Personaggi», bensì quella degli umili, della gente senza storia. Nel Discorso sopra alcuni punti della storia longobardica in Italia il Manzoni scrive: «I cronisti del Medioevo raccontano per lo più i soli avvenimenti principali e straordinari, e fanno la storia del solo popolo conquistatore, e qualche volta dei soli re e dei personaggi primari di quel popolo». Eppure, «un'immensa moltitudine d’uomini, una serie di generazioni, che passa sulla terra, inosservata, senza lasciarci traccia, è un triste ma importante fenomeno». V'è già qui, implicitamente, la scelta di une storia diversa e la polemica con la “storia illustre” che attraversa tutto il romanzo.</note>
+        <note xml:id="Marchese_intro-n11" type="comm" target="quarantana/intro.xml#intro_10161" targetEnd="quarantana/intro.xml#intro_10162">
+          <ref rend="bold">angusto Teatro</ref>:  allude alla Lombardia, "teatro” delle vicende narrate.</note>
+        <note xml:id="Marchese_intro-n12" type="comm" target="quarantana/intro.xml#intro_10188">
+          <ref rend="bold">climi</ref>:  paesi.</note>
+        <note xml:id="Marchese_intro-n13" type="comm" target="quarantana/intro.xml#intro_10191">
+          <ref rend="bold">l'amparo</ref>:  protezione (spagnolismo).</note>
+        <note xml:id="Marchese_intro-n14" type="comm" target="quarantana/intro.xml#intro_10193" targetEnd="quarantana/intro.xml#intro_10194">
+          <ref rend="bold">Re Cattolico</ref>:  Filippo IV, re di Spagna (nota l’iperbole del Sole che mai tramonta).</note>
+        <note xml:id="Marchese_intro-n15" type="comm" target="quarantana/intro.xml#intro_10217" targetEnd="quarantana/intro.xml#intro_10228">
+          <ref rend="bold">l'Heroe... parti</ref>:  il governatore di Milano che temporaneamente rappresenta il Re: è detto eroe di nobile stirpe e paragonato a una Luna giamai calante.</note>
+        <note xml:id="Marchese_intro-n16" type="comm" target="quarantana/intro.xml#intro_10230" targetEnd="quarantana/intro.xml#intro_10240">
+          <ref rend="bold">gl'Amplissimi... Pianeti</ref>:  gli illustrissimi senatori sono simili a stelle fisse e gli spettabili magistrati a pianeti erranti: quelli erano inamovibili, questi invece potevano essere trasferiti.</note>
+        <note xml:id="Marchese_intro-n17" type="comm" target="quarantana/intro.xml#intro_10269">
+          <ref rend="bold">sevitie</ref>:  crudeltà.</note>
+        <note xml:id="Marchese_intro-n18" type="comm" target="quarantana/intro.xml#intro_10279" targetEnd="quarantana/intro.xml#intro_10282">
+          <ref rend="bold">arte e fattura diabolica</ref>:  è il primo cenno a quella soverchiante, irrazionale superstizione che tanta parte avrà nel romanzo, specie nel racconto della peste.</note>
+        <note xml:id="Marchese_intro-n19" type="comm" target="quarantana/intro.xml#intro_10283">
+          <ref rend="bold">attesochè</ref>:  dato che.</note>
+        <note xml:id="Marchese_intro-n20" type="comm" target="quarantana/intro.xml#intro_10299" targetEnd="quarantana/intro.xml#intro_10304">
+          <ref rend="bold">occhij d'Argo e braccj di Briareo</ref>:  mostri mitologici forniti, rispettivamente, di cento occhi e di cento braccia.</note>
+        <note xml:id="Marchese_intro-n21" type="comm" target="quarantana/intro.xml#intro_10310" targetEnd="quarantana/intro.xml#intro_10311">
+          <ref rend="bold">pubblici emolumenti</ref>:  il pubblico guadagno.</note>
+        <note xml:id="Marchese_intro-n22" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10313">
+          <ref rend="bold">Per locchè</ref>:  per cui.</note>
+        <note xml:id="Marchese_intro-n23" type="comm" target="quarantana/intro.xml#intro_10322" targetEnd="quarantana/intro.xml#intro_10323">
+          <ref rend="bold">verde staggione</ref>:  gioventù.</note>
+        <note xml:id="Marchese_intro-n24" type="comm" target="quarantana/intro.xml#intro_10344" targetEnd="quarantana/intro.xml#intro_10346">
+          <ref rend="bold">tributarij delle Parche</ref>:  abbiano pagato, morendo, il loro tributo alle Parche (divinità della mitologia greca da cui dipendeva il destino umano).</note>
+        <note xml:id="Marchese_intro-n25" type="comm" target="quarantana/intro.xml#intro_10349" targetEnd="quarantana/intro.xml#intro_10350">
+          <ref rend="bold">degni rispetti</ref>:  il rispetto dovuto ai vivi, al familiari.</note>
+        <note xml:id="Marchese_intro-n26" type="comm" target="quarantana/intro.xml#intro_10370">
+          <ref rend="bold">generaliter</ref>:  in modo generico (latino).</note>
+        <note xml:id="Marchese_intro-n27" type="comm" target="quarantana/intro.xml#intro_10385">
+          <ref rend="bold">Parto</ref>:  opera.</note>
+        <note xml:id="Marchese_intro-n28" type="comm" target="quarantana/intro.xml#intro_10428" targetEnd="quarantana/intro.xml#intro_10429">
+          <ref rend="bold">purissimi accidenti</ref>:  nella filosofia scolastica allora dominante si distinguevano sostanza (ciò che è essenziale) e accidenti ( ciò che è variabile e non necessario). Il discorso è troncato, ironicamente e maliziosamente, su una parola che per noi ha tutt'altro significato. La pagina trasuda un cielo iperbolico e adulazione dei potenti, alte sfere di cielo iperbolico dove il sole «mai tramonta» e la luna è giamai calante», dove stelle fisse e pianeti spandono luce «per ogni doue»: tanto splendore innaturale sembra inebriare la corta intelligenza dell’anonimo, il quale dà fondo a tutte le risorse retoriche per inneggiare, paradossalmente, a coloro che si dimostrano impotenti di fronte a «malvaggità e sevitie che dagl'huomini temerari si vanno moltiplicando»: donde la conclusione che il male storico sia «arte e fattura diabolica». Si valuti con attenzione il tono nient’affatto scherzoso di questa splendida invenzione manzoniana: la falsa religiosità si finge streghe e diavoli (e untori) come comoda giustificazione dell’inettitudine e dell’iniquità, vere cause delle tragedie del Seicento. Ironia amara che rovescia sottilmente la pomposità barocca dell’eloquio, mostrandone la vacuità morale e trasformandola in un implacabile atto d’accusa.</note>
+        <note xml:id="Marchese_intro-n29" type="comm" target="quarantana/intro.xml#intro_10444" targetEnd="quarantana/intro.xml#intro_10446">
+          <ref rend="bold">dilavato e graffiato</ref>:  stinto e pieno di sgorbi.</note>
+        <note xml:id="Marchese_intro-n30" type="comm" target="quarantana/intro.xml#intro_10513" targetEnd="quarantana/intro.xml#intro_10517">
+          <ref rend="bold">di concettini e di figure</ref>:  di pensieri astrusi e di immagini retoriche.</note>
+        <note xml:id="Marchese_intro-n31" type="comm" target="quarantana/intro.xml#intro_10538">
+          <ref rend="bold">virtù</ref>:  abilità, virtuosismo.</note>
+        <note xml:id="Marchese_intro-n32" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10568">
+          <ref rend="bold">Idiotismi lombardi</ref>:  espressioni dialettali lombarde.</note>
+        <note xml:id="Marchese_intro-n33" type="comm" target="quarantana/intro.xml#intro_10569" targetEnd="quarantana/intro.xml#intro_10570">
+          <ref rend="bold">a iosa</ref>:  in abbondanza.</note>
+        <note xml:id="Marchese_intro-n34" type="comm" target="quarantana/intro.xml#intro_10584" targetEnd="quarantana/intro.xml#intro_10585">
+          <ref rend="bold">eleganza spagnola</ref>:  spagnolismo (è detto co ironia).</note>
+        <note xml:id="Marchese_intro-n35" type="comm" target="quarantana/intro.xml#intro_10662">
+          <ref rend="bold">affettato</ref>:  ricercato, manierato.</note>
+        <note xml:id="Marchese_intro-n36" type="comm" target="quarantana/intro.xml#intro_10680">
+          <ref rend="bold">solecismi</ref>:  sgrammaticature.</note>
+        <note xml:id="Marchese_intro-n37" type="comm" target="quarantana/intro.xml#intro_10698" targetEnd="quarantana/intro.xml#intro_10700">
+          <ref rend="bold">in questo paese</ref>:  in Lombardia.</note>
+        <note xml:id="Marchese_intro-n38" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_11196">
+          <ref rend="bold">Meno male... lavo le mani</ref>:  Il Manzoni contesta, innanzi tutto, la lingua e lo stile dell’anonimo secentista, con le loro acutezze e gli ornamenti ridicoli, rivolti più a eccitare la meraviglia che a narrare oggettivamente i fatti: una mescolanza di rozzezza e di cattivo gusto. Rifiutare un siffatto uso della lingua significa, ovviamente, prendere le distanze da una cultura, da una visione della vita, da una concezione religiosa e morale che lo scrittore moderno sente come false e innaturali, lontanissime dal pubblico cui intende rivolgersi. Emerge, qui, il rapporto essenziale fra l’artista e i destinatari di una letteratura popolare (in senso romantico), utile e interessante, alla cui nascita è tuttavia necessario uno strumento linguistico nuovo e affatto sconosciuto alla paludata tradizione retorica della nostra letteratura, come mostra l'esempio negativo della scrittura barocca.</note>
+        <note xml:id="Marchese_intro-n39" type="comm" target="quarantana/intro.xml#intro_10800">
+          <ref rend="bold">dicitura</ref>:  espressione.</note>
+        <note xml:id="Marchese_intro-n40" type="comm" target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10804">
+          <ref rend="bold">Non essendosi presentato</ref>:  osserva la mancata concordanza del participio col nome.</note>
+        <note xml:id="Marchese_intro-n41" type="comm" target="quarantana/intro.xml#intro_10822" targetEnd="quarantana/intro.xml#intro_10823">
+          <ref rend="bold">pari all'importanza</ref>:  vuol dire, maliziosamente, che l’ingenuità è poca, quanto l'importanza del libro. È come dire che egli non pensa che i lettori credano all’invenzione del manoscritto.</note>
+        <note xml:id="Marchese_intro-n42" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">
+          <ref rend="bold">E, all'occorrenza... tentato di negarla</ref>:  Manzoni si informò scrupolosamente sulle condizioni storiche del Seicento, per dare - secondo la sua poetica romantica — un fondamento di verità alla “bella” ideazione narrativa. Viene impostato il problema cruciale del rapporto fra storia e invenzione artistica, che caratterizza tutta l’opera dello scrittore milanese (si ricordino, ad esempio, le prefazioni al Carmagnola e all’Adelchi). Quanto alle fonti da cui egli attinse spunti, notizie e in genere tutto ciò che concorre a formare il colore storico del romanzo, ricordiamo in primo luogo le opere di Giuseppe Ripamonti e di Alessandro Tadino, più volte citate nel corso del racconto. Si noti, in queste righe, l'attitudine etico-religiosa, oltreché intellettuale, del Manzoni nei riguardi della storia del Seicento, e più in generale della storia di ogni tempo: «a ogni passo ci abbattevamo in cose consimili, e in cose più forti». È il primo manifestarsi, ancora in sordina, di un sentimento di radicale riprovazione delle iniquità e delle violenze perpetrate spesso in nome di valori ipocriti e vuoti: a tanto si riducono le leggi, l'ordine, l’onore, la scienza, la cultura e la politica in un'età che esibisce una religiosità tutta esteriore e formale, povera di autentiche risorse spirituali. Ma si ricordi che per l’austero ed esigente giansenismo manzoniano la storia, abbandonata ai suoi impulsi materiali, è sempre negativa, caotica e insensata. E tuttavia — contraddizione inevitabile — l’uomo non può e non deve sottrarsi alla condizione storica, ad incarnare nel tempo la sua inquieta e tormentata esistenza.</note>
+        <note xml:id="Marchese_intro-n43" type="comm" target="quarantana/intro.xml#intro_11056">
+          <ref rend="bold">contingenti</ref>:  possibili, eventuali.</note>
+        <note xml:id="Marchese_intro-n44" type="comm" target="quarantana/intro.xml#intro_11167" targetEnd="quarantana/intro.xml#intro_11171">
+          <ref rend="bold">le mandavamo insieme a spasso</ref>:  nota la scherzosa personificazione delle critiche opposte che, persa la punta della polemica con il semplice accostamento, vengono sbrigate e mandate a spasso.</note>
+        <note xml:id="Marchese_intro-n45" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">
+          <ref rend="bold">Ma che? quando siamo stati... venivano a fare un libro</ref>:  Il problema della lingua con cui scrivere un romanzo moderno assillò per molti anni il Manzoni che, com'è noto, scelse quale modello letterario il fiorentino borghese, parlato dalle persone colte. A varie riprese egli confortò questa soluzione con numerosi scritti teorici, che ebbero una notevole importanza politico-culturale nel dibattito ottocentesco sulla questione della lingua italiana. L'argomento era puntualmente affrontato nella seconda introduzione al Fermo e Lucia, dove il Manzoni scriveva: «Quando l'uomo che parla abitualmente un dialetto si pone a scrivere in una lingua, il dialetto di cui egli s'è servito nelle occasioni più attive della vita, per l’espressione più immediata e spontanea dei suoi sentimenti, gli si affaccia da tutte le parti, s attacca alle sue idee, se ne impadronisce, anzi talvolta gli somministra le idee in una formula; gli cola dalla penna e se egli non ha fatto uno studio particolare della lingua, farà il fondo del suo scritto. Di questo colore municipale si è fatto in vari tempi rimprovero a molti scrittori: che deturpasse gli scritti non v'ha dubbio: quanto agli scrittori, prima di rimproverarli così acremente si sarebbe dovuto pensare che non è cosa tanto facile prescindere da quelle formole alle quali sono unite per abito tutte le memorie, tutti i sentimenti, tutta la vita intellettuale [...]. Che giova dissimulare? Confessiamo sinceramente che anche noi abbiamo adoperata qua e là, non solo nei dialoghi, ma anche nella narrazione qualche parola, qualche frase assolutamente lombarda». Già nell’edizione del 1827 (detta “ventisettana”) la scelta del fiorentino è ormai sicura: nel lungo intervallo che precede l'edizione definitiva del 1840-42 (detta "quarantana”), Manzoni verrà rafforzando i suoi convincimenti linguistici che lo porteranno alla minuziosa revisione stilistica del capolavoro.</note>
+      </div>
+
+    </body>
+  </text>
+</TEI>
