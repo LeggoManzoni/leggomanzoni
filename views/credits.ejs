@@ -376,14 +376,14 @@
             <!-- Google Analytics API Script -->
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
-                    fetch('/visitors')
+                    fetch('/data/visitors-data.json')
                         .then(response => response.json())
                         .then(data => {
                             const activeUsers = data.rows.reduce((acc, row) => acc + parseInt(row.metricValues[0].value), 0);
                             document.getElementById('active-users').innerText = activeUsers;
-            
+    
                             const mapData = [];
-            
+    
                             data.rows.forEach(row => {
                                 const country = row.dimensionValues[0].value;
                                 const users = parseInt(row.metricValues[0].value);
@@ -395,15 +395,15 @@
                                     });
                                 }
                             });
-            
+    
                             // Create the map
                             am5.ready(function() {
                                 var root = am5.Root.new("chartdiv");
-            
+    
                                 root.setThemes([
                                     am5themes_Animated.new(root)
                                 ]);
-            
+    
                                 var chart = root.container.children.push(am5map.MapChart.new(root, {
                                     panX: "none",
                                     panY: "none",
@@ -411,20 +411,21 @@
                                     wheelY: "none",
                                     projection: am5map.geoMercator()
                                 }));
-            
+    
                                 var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
                                     geoJSON: am5geodata_worldLow,
                                     exclude: ["AQ"], // Exclude Antarctica
                                     calculateAggregates: true
                                 }));
-            
+    
                                 // Add data to the polygon series
                                 polygonSeries.data.setAll(mapData);
-            
+    
                                 polygonSeries.mapPolygons.template.setAll({
+                                    tooltipText: "{name}: {value} users",
                                     interactive: true
                                 });
-            
+    
                                 polygonSeries.set("heatRules", [{
                                     target: polygonSeries.mapPolygons.template,
                                     dataField: "value",
@@ -432,10 +433,10 @@
                                     max: am5.color(0x5faa46),
                                     key: "fill"
                                 }]);
-            
+    
                                 // Default color for countries with no data
                                 polygonSeries.mapPolygons.template.set("fill", am5.color(0xe0e0e0));
-            
+    
                                 // Update each polygon to set fill and tooltip for countries with data
                                 polygonSeries.mapPolygons.each(function(polygon) {
                                     const dataItem = polygon.dataItem.dataContext;
@@ -454,7 +455,7 @@
                             document.getElementById('active-users').innerText = 'Error loading data';
                         });
                 });
-            
+    
                 // Mapping country names to their respective ISO 3166-1 alpha-2 country codes
                 const countryCodes = {
                     "Italy": "IT",
@@ -477,6 +478,5 @@
                     // Add more countries as needed
                 };
             </script>
-            
         </body>
     </html>

@@ -18,6 +18,7 @@ const app = express();
 
 /* static files */
 app.use("/assets", express.static("assets"));
+app.use("/data", express.static("data"));
 
 /* views */
 app.set("views", [
