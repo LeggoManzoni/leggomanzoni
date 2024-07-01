@@ -8,6 +8,7 @@ const express = require("express");
 const path = require("path");
 const ejs = require('ejs');
 const fs = require('fs');
+const { google } = require('googleapis');
 
 const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml } = require('./assets/js/convert.js');
 //const { xmlInfo } = require('./assets/js/collect_info.js');
@@ -38,9 +39,17 @@ app.get(process.env.URL_PATH, (req, res) => {
 const introduzione = require("./routes/introduzione");
 app.use("/", introduzione);
 
+/* progetto */
+const progetto = require("./routes/progetto");
+app.use("/", progetto);
+
 /* commenti */
 const commenti = require("./routes/commenti");
 app.use("/", commenti);
+
+/* commenti */
+const traduzione = require("./routes/traduzione");
+app.use("/", traduzione);
 
 /* reader */
 const reader = require("./routes/reader");
@@ -176,39 +185,40 @@ app.get('/get-translation/:language?', function (req, res) {
   }
 });
 
-// // Function to get GA4 analytics data
-// async function getAnalyticsData() {
-//   const auth = new google.auth.GoogleAuth({
-//     keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
-//     scopes: 'https://www.googleapis.com/auth/analytics.readonly',
-//   });
+// Function to get GA4 analytics data
+async function getAnalyticsData() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+    scopes: 'https://www.googleapis.com/auth/analytics.readonly',
+  });
 
-//   const authClient = await auth.getClient();
-//   const analyticsData = google.analyticsdata('v1beta');
+  const authClient = await auth.getClient();
+  const analyticsData = google.analyticsdata('v1beta');
 
-//   const request = {
-//     auth: authClient,
-//     property: `properties/${process.env.GA_PROPERTY_ID}`,
-//     requestBody: {
-//       dateRanges: [{ startDate: '2023-01-12', endDate: 'today' }],
-//       dimensions: [{ name: 'country' }],
-//       metrics: [{ name: 'activeUsers' }],
-//     },
-//   };
+  const request = {
+    auth: authClient,
+    property: `properties/${process.env.GA_PROPERTY_ID}`,
+    requestBody: {
+      dateRanges: [{ startDate: '2023-01-12', endDate: 'today' }],
+      dimensions: [{ name: 'country' }],
+      metrics: [{ name: 'activeUsers' }],
+    },
+  };
 
-//   const response = await analyticsData.properties.runReport(request);
-//   return response.data;
-// }
+  const response = await analyticsData.properties.runReport(request);
+  return response.data;
 
-// app.get('/visitors', async (req, res) => {
-//   try {
-//     const data = await getAnalyticsData();
-//     res.json(data);
-//   } catch (error) {
-//     console.error('Error fetching analytics data:', error);
-//     res.status(500).send('Error fetching analytics data');
-//   }
-// });
+};
+
+app.get('/visitors', async (req, res) => {
+  try {
+    const data = await getAnalyticsData();
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching analytics data:', error);
+    res.status(500).send('Error fetching analytics data');
+  }
+});
 
 /* port */
 const port = 8000;
