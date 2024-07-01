@@ -375,7 +375,7 @@
 <!-- Google Analytics API Script -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        fetch('/visitors')
+        fetch('./visitors')
             .then(response => response.json())
             .then(data => {
                 const activeUsers = data.rows.reduce((acc, row) => acc + parseInt(row.metricValues[0].value), 0);
