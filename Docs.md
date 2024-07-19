@@ -47,39 +47,39 @@ The platform is continually updated with new commentaries and translations.
 LeggoManzoni/
 ├── app.js
 ├── routes/
-│   ├── vedo.js
-│   ├── traduco.js
-│   ├── reader.js
-│   ├── progetto.js
-│   └── credits.js
+│ ├── vedo.js
+│ ├── traduco.js
+│ ├── reader.js
+│ ├── progetto.js
+│ └── credits.js
 ├── views/
-│   ├── partials/
-│   │   ├── footer.ejs
-│   │   ├── head.ejs
-│   │   ├── navbar.ejs
-│   │   └── scripts.ejs
-│   ├── commenti.ejs
-│   ├── credits.ejs
-│   ├── index.ejs
-│   ├── progetto.ejs
-│   ├── reader.ejs
-│   ├── traduco.ejs
-│   └── vedo.ejs
+│ ├── partials/
+│ │ ├── footer.ejs
+│ │ ├── head.ejs
+│ │ ├── navbar.ejs
+│ │ └── scripts.ejs
+│ ├── commenti.ejs
+│ ├── credits.ejs
+│ ├── index.ejs
+│ ├── progetto.ejs
+│ ├── reader.ejs
+│ ├── traduco.ejs
+│ └── vedo.ejs
 ├── assets/
-│   └── js/
-│       ├── convert.js
-│       ├── chapter.xslt
-│       ├── translation.xslt
-│       ├── comment.xslt
-│       └── [other js files]
+│ └── js/
+│ ├── convert.js
+│ ├── chapter.xslt
+│ ├── translation.xslt
+│ ├── comment.xslt
+│ └── [other js files]
 ├── quarantana/
-│   └── TEI files of the novel
+│ └── TEI files of the novel
 ├── data/
 ├── translations/
-│   └── TEI files of the translations
+│ └── TEI files of the translations
 ├── commenti/
-│   └── xml/
-│       └── TEI files of the comments
+│ └── xml/
+│ └── TEI files of the comments
 └── [other project files and folders]
 
 ## 5. Configuration
