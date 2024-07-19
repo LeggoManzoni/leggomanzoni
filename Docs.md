@@ -117,7 +117,33 @@ There's a function to extract IDs from HTML content, specifically targeting span
 ### 6.7 Google Analytics Integration
 The application integrates with Google Analytics 4 to fetch analytics data.
 
-## 7. API Endpoints
+## 7. TEI Encoding for Comments
+
+The comments within the project are encoded using the Text Encoding Initiative (TEI) standards, specifically tailored for digital editions. This approach provides a comprehensive framework for representing the structural and semantic details of the text.
+
+### Key Elements of TEI Encoding for Comments:
+
+- **TEI Header:** Contains metadata about the document, such as title, author, publication details, and encoding responsibilities.
+- **Text Body:** The actual content of the comments, including detailed markup for structural elements and semantic annotations.
+
+### Linking Comments to the Original Text:
+
+A crucial aspect of the TEI encoding for comments is the ability to link them directly to the original text using the `target` and `targetEnd` attributes. These attributes enable precise referencing of specific passages in the source text, facilitating an interconnected reading experience.
+
+- **target:** This attribute points to the beginning of the referenced text segment in the original document. It allows users to see exactly which part of the text a comment pertains to.
+- **targetEnd:** This attribute, if used, points to the end of the referenced text segment, allowing for the annotation of longer passages.
+
+#### Example:
+
+A note element might look like this in the TEI-encoded comments:
+
+```xml
+<note xml:id="Angelini_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10020">
+  <ref rend="bold">L'Historia...</ref>:  il corsivo (dunque fino a «puri purissimi accidenti...») è la trascrizione della prima pagina d’un autografo o scartafaccio che il Manzoni con artistica vaghezza finge d’aver trovato tra vecchie carte del 1600...
+</note>
+```
+
+## 8. API Endpoints
 - GET `/`: Renders the index page
 - GET `/introduzione`: Renders the introduction page
 - GET `/progetto`: (Functionality not provided)
@@ -135,17 +161,32 @@ The application integrates with Google Analytics 4 to fetch analytics data.
 - GET `/get-translation/:language?`: Retrieves and converts translations for a specific language
 - GET `/visitors`: Retrieves Google Analytics data
 
-## 8. Data Processing
+## 9. Data Processing
 - XML to HTML conversion for chapters, comments, and translations
 - JSON parsing for comments and translations information
 
-## 9. External Integrations
+## 10. External Integrations
 - Google Analytics for visitor data
 
-## 10. Deployment
-The application is set to run on port 8000 by default. Deployment instructions are not provided in the given code.
+## 11. Deployment
+To deploy the application, follow these steps:
 
-## 11. Troubleshooting
+- Install Dependencies:
+
+```sh
+npm install
+```
+
+- Start the Application:
+
+```sh
+npm start
+```
+
+- Configuration:
+Ensure the environment variables are correctly set in the .env file, including GOOGLE_APPLICATION_CREDENTIALS and GA_PROPERTY_ID for Google Analytics integration.
+
+## 12. Troubleshooting
 - Ensure all required environment variables are set
 - Check file paths for JSON and XML files if data loading issues occur
 - Verify Google Analytics credentials if analytics data retrieval fails
