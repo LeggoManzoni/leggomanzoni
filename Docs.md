@@ -45,7 +45,6 @@ The platform is continually updated with new commentaries and translations.
 
 ## 4. Project Structure
 LeggoManzoni/
-│
 ├── app.js
 ├── routes/
 │   ├── vedo.js
@@ -54,17 +53,17 @@ LeggoManzoni/
 │   ├── progetto.js
 │   └── credits.js
 ├── views/
-|   ├── partials/
+│   ├── partials/
 │   │   ├── footer.ejs
 │   │   ├── head.ejs
 │   │   ├── navbar.ejs
 │   │   └── scripts.ejs
-│   └── commenti.ejs
-│   └── credits.ejs
-│   └── index.ejs
-│   └── progetto.ejs
-│   └── reader.ejs
-│   └── traduco.ejs
+│   ├── commenti.ejs
+│   ├── credits.ejs
+│   ├── index.ejs
+│   ├── progetto.ejs
+│   ├── reader.ejs
+│   ├── traduco.ejs
 │   └── vedo.ejs
 ├── assets/
 │   └── js/
