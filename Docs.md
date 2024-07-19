@@ -44,6 +44,7 @@ The platform is continually updated with new commentaries and translations.
 - dotenv (for development)
 
 ## 4. Project Structure
+```
 LeggoManzoni/
 ├── app.js
 ├── routes/
@@ -81,6 +82,7 @@ LeggoManzoni/
 │ └── xml/
 │ └── TEI files of the comments
 └── [other project files and folders]
+```
 
 ## 5. Configuration
 - Environment variables (via .env file in development)
