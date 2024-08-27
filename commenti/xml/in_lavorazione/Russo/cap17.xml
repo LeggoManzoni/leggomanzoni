@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Russo</title>
+                <respStmt>
+                    <resp>Correzione e codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica Introduzione, cap. 1</resp>
+                    <persName xml:id="GC">Gabriele Castellano</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 2</resp>
+                    <persName xml:id="KMC">Kleide Maria Ciotta</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 3</resp>
+                    <persName xml:id="CC">Clara Comparato</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 4</resp>
+                    <persName xml:id="DD">Denise Dispenza</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 5</resp>
+                    <persName xml:id="GF">Gaetano Falsone</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 6</resp>
+                    <persName xml:id="MFA">Miriam Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 7</resp>
+                    <persName xml:id="AG">Adriana Garlisi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 8</resp>
+                    <persName xml:id="LG">Lucia Greco</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 9</resp>
+                    <persName xml:id="GPMLG">Giovanni Pietro Maria La Greca</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 11</resp>
+                    <persName xml:id="FL">Francesco Lentini</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 12</resp>
+                    <persName xml:id="MCL">Maria Chiara Leonardi</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 13</resp>
+                    <persName xml:id="FM">Flavia Mancuso</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (AG)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 14</resp>
+                    <persName xml:id="CN">Chiara Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 15</resp>
+                    <persName xml:id="RMP">Rossella Maria Palermo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 16</resp>
+                    <persName xml:id="LS">Lara Sanfilippo</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 17</resp>
+                    <persName xml:id="DV">Deborah Vella</persName>
+                    <note>Liceo classico Ugo Foscolo, Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 19</resp>
+                    <persName xml:id="RPV">Rossana Pia Vella</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 20</resp>
+                    <persName xml:id="CPA">Clivia Pia Amato</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 21</resp>
+                    <persName xml:id="LA">Luca Averna</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 23</resp>
+                    <persName xml:id="GB">Giovanni Buscemi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 24</resp>
+                    <persName xml:id="RE">Roberta Esposto</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 25</resp>
+                    <persName xml:id="AF">Aurora Farrugio</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 26</resp>
+                    <persName xml:id="MFE">Matteo Ferlisi</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 29</resp>
+                    <persName xml:id="LF">Luigi Frangiamone</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 30</resp>
+                    <persName xml:id="RF">Rosemary Frisina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 31</resp>
+                    <persName xml:id="GG">Giada Gambino</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 32</resp>
+                    <persName xml:id="MG">Maria Giardina</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 33</resp>
+                    <persName xml:id="NG">Nicolò Gulizia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 34</resp>
+                    <persName xml:id="SGLV">Savio Gioacchino La Vecchia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 35</resp>
+                    <persName xml:id="VM">Vincenzo Merulla</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 36</resp>
+                    <persName xml:id="GN">Girolamo Napoli</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 37</resp>
+                    <persName xml:id="RN">Rossella Nicosia</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica cap. 38</resp>
+                    <persName xml:id="DSP">Dalila Stefania Patermo</persName>
+                    <note>Liceo classico Ugo Foscolo,Canicattì (Ag)</note>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>I promessi sposi:  a cura di Luigi Russo</title>
+                    <editor>Russo, Luigi</editor>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>La Nuova Italia editrice</publisher>
+                    <date>1935</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1-16, 18-20, 21-23</p>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="ML" when="2023-09-15">Prima edizione digitale</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Russo_cap17">
+                <note xml:id="Russo_cap17-n1" type="comm" target="quarantana/cap17.xml#c17_10001" targetEnd="quarantana/cap17.xml#c17_10058">
+                    <ref rend="bold">Basta sреssо una voglia... l'una e l'altra a un colpo</ref>:  Tutto il discorso piega a una gravità maliziosa, sfumata di un bonario umorismo: quel pensate, quel come sapete punteggiano di un sorriso la gravità del sentenziare e del narrare. Bonario umorismo che fa presentire che il racconto non avrà svolgimento tragico: ed è un modo non di leggerezza disinteressata, ma di fiducia nella Provvidenza, per cui si può esser sereni anche nell'angoscia.</note>
+                <note xml:id="Russo_cap17-n2" type="comm" target="quarantana/cap17.xml#c17_10059" targetEnd="quarantana/cap17.xml#c17_10095">
+                    <ref rend="bold">Dunque la sua avventura... per le strade</ref>:  Pur come discorso indiretto, senti l'incalzare dell'affanno nel soliloquio di Renzo: quei periodetti esclamativi esprimono, quasi sensibilmente, i gesti con cui il personaggio deve accompagnare i pensieri che gli passano a tumulto per la mente.</note>
+                <note xml:id="Russo_cap17-n3" type="comm" target="quarantana/cap17.xml#c17_10145" targetEnd="quarantana/cap17.xml#c17_10148">
+                    <ref rend="bold">tutto gli faceva ombra</ref>:  Nota la varietà dei modi narrativi manzoniani, in questa mezza pagina. Ora i periodetti esclamativi, nella loro scioltezza immediata, rendono i pensieri tumultuosi di Renzo; ora lo scrittore ricapitola e suggella nella responsabilità soggettiva di un verbo (pensava bensì....) tutte le varie immaginazioni del personaggio; e ora interviene egli stesso, con un periodetto breve e intenso, a riassumere lo stato dell'animo e delle cose.</note>
+                <note xml:id="Russo_cap17-n4" type="comm" target="quarantana/cap17.xml#c17_10157" targetEnd="quarantana/cap17.xml#c17_10158">
+                    <ref rend="bold">Le ventiquattro</ref>:  L'ultima ora del giorno, che, nelle campagne, ancora oggi si usa contare da un tramonto all'altro. Cfr. la n. 234.</note>
+                <note xml:id="Russo_cap17-n5" type="comm" target="quarantana/cap17.xml#c17_10266" targetEnd="quarantana/cap17.xml#c17_10269">
+                    <ref rend="bold">L'Adda ha buona voce</ref>:  Senti un che di patetico e di orgoglioso nell'espressione chi parla è nato sulle rive dell'Adda, e vanta, implicitamente, una familiarità confidenziale con la voce del suo fiume.</note>
+                <note xml:id="Russo_cap17-n6" type="comm" target="quarantana/cap17.xml#c17_10298" targetEnd="quarantana/cap17.xml#c17_10306">
+                    <ref rend="bold">In un campo, sur una pianta, come le passere</ref>:  La frase argutamente esprime la giovanile astuzia del fuggitivo. Si è parlato prima della buona voce dell'Adda; ora altre parole si accostano a quelle, mattina, campo, pianta, passere. Sono termini sparsi, ma già lontanamente evocativi di un paesaggio, che vedremo a poco a poco schiudersi nelle pagine successive dell'episodio. Quel sur una pianta, come le passere ha come un'aura di ricordo dantesco: l'augello, che intra l'amate fronde, previene il tempo in su l'aperta frasca, e con ardente affetto il sole aspetta, fiso guardando pur che l'alba nasca. (Parad., XXIII, 1-9). Ma si tratta soltanto di pura coincidenza di contenuto.</note>
+                <note xml:id="Russo_cap17-n7" type="comm" target="quarantana/cap17.xml#c17_10358" targetEnd="quarantana/cap17.xml#c17_10652">
+                    <ref rend="bold">Io fare il diavolo!... si tratta del prossimo</ref>:  Il soliloquio di Renzo è felicissimo artisticamente, perchè esso, in quel succedersi animato e come parlato dei periodi, rende implicitamente il gesticolare e il concitato passo del "povero pellegrino". Al cap. III, all'andata e al ritorno da Azzeccagar bugli, e al cap. XVI, all'uscire dalla porta orientale per avviarsi verso Bergamo, il M. ha riassunto i pensieri di Renzo, mentre qui ce ne dà una rappresentazione diretta. Ed è rappresentazione efficacissima, e per la sintassi libera di quelle proposizioni esclamative (Io fare il diavolo! ecc.), che esprimono la meraviglia, con tanto maggior foga quanto meno essa aveva avuto fino allora libertà di manifestarsi; e per quella disputa ideale intavolata con quel mio caro signore, (una lettera sola?... Si signore, una lettera sola); e per quelle parentesi in cui si scoprono altri sentimenti di Renzo: il sentimento del fuggitivo che affretta col desiderio il cammino (ah quando l'avrò passata quest'Adda benedetta!), il sentimento del cristiano che non vien meno neanche quando la folla delle preoccupazioni possono conculcarne la generosa fede (è vero che bisogna farlo per l'anima: son prossimo anche loro), il sentimento infine ingenuo di ammirazione per i suoi protettori (un religioso, che senza farvi torto, val più un pelo della sua barba che tutta la vostra). Si noti poi come Renzo, se esce in queste forme esaltative verbali per fra Cristoforo, non va al di là del termine giusto della sua piccola mente di popolano: fra Cristoforo, ai suoi occhi, è colui che può insegnare la dottrina (il catechismo, cioè), quando si sia. Come si vede, lo stesso fra Galdino la sa più lunga di Renzo: almeno il fraticello di Pescarenico ne vanta le belle prediche scritte; e flor di roba.» (cap. XVIII, p. 349). Renzo si ferma al catechismo.</note>
+                <note xml:id="Russo_cap17-n8" type="comm" target="quarantana/cap17.xml#c17_10711" targetEnd="quarantana/cap17.xml#c17_10713">
+                    <ref rend="bold">E ormai dolorosa</ref>:  Come avviene, quando l'eccitazione si attenua, e si sente più forte il peso di tutte le vicende sofferte.</note>
+                <note xml:id="Russo_cap17-n9" type="comm" target="quarantana/cap17.xml#c17_10715" targetEnd="quarantana/cap17.xml#c17_10719">
+                    <ref rend="bold">Una brezzolina sorda, uguale, sottile</ref>:  Sono epiteti nuovi i primi due: Borda, come se venisse un po' a tradimento, senza rumore d'aria; uguale, per la sua costanza; sottile, per i suoi effetti.</note>
+                <note xml:id="Russo_cap17-n10" type="comm" target="quarantana/cap17.xml#c17_10745" targetEnd="quarantana/cap17.xml#c17_10747">
+                    <ref rend="bold">Tornare subito trionfante</ref>:  Il trionfante non piace al TOMMASEO; ma invero non si trattava della letizia soltanto delle nozze compiute, ma anche della felicità dello stratagemma del matrimonio per sorpresa. Però l'aggettivo è assai proprio. Anche il quattro salti che lo precede, prepara quel trionfante.</note>
+                <note xml:id="Russo_cap17-n11" type="comm" target="quarantana/cap17.xml#c17_10776" targetEnd="quarantana/cap17.xml#c17_10903">
+                    <ref rend="bold">Quando s'abbatteva... e di chieder ricovero</ref>:  Nota come la descrizione non ha nulla di statico; è una descrizione in movimento, che accompa gna il fuggitivo. Prima il passaggio per qualche paese, e la vicinanza di quegli usci con qualche lumicino trasparente dall'impannata; poi si riprende il cammino fuor dell'abitato, e quel mugolio di cani, lamenterole insieme e minaccioso, allarga all'infinito la solitudine  della campagna. Ed ecco che, per l'abbaiar frettoloso e rabbioso degli stessi cani, noi sentiamo di essere andati più innanzi, e di passar vicino ad una di quelle cascine, che prima si vedevano, o si sentivano isolate, lontane e sperdute nel buio. Quel sentiva, vedeva qua si, il bastione, col muso al fessolino della porta, raddoppiar gli urti, è una stupenda ipotiposi delle sensazioni di Renzo e della immaginata realtà che le ispira.</note>
+                <note xml:id="Russo_cap17-n12" type="comm" target="quarantana/cap17.xml#c17_10826" targetEnd="quarantana/cap17.xml#c17_10829">
+                    <ref rend="bold">Quella benedetta voce dell'Adda</ref>:  Riprende il commento di Renzo: "l'Adda ha buona voce.... ».</note>
+                <note xml:id="Russo_cap17-n13" type="comm" target="quarantana/cap17.xml#c17_10915" targetEnd="quarantana/cap17.xml#c17_10920">
+                    <ref rend="bold">Chi è la? - pensava</ref>:  Il M. à in un momento particolarmente felice, di abbandono poetico, in tutto questo capitolo. Anche qui non è riassunto, con intermezzi riflessivi dell'artista, ma è dialogizzato drammaticamente e nudamente il soliloquio di Renzo. Sono tre i momenti di quel soliloquio: sospetto della brusca inquisizione da parte di qualche importunato padrone di casa; figurazione poi del pauroso che si mette a gridare: aiuto! al ladro! E infine una di quelle riflessioni, che il M. è uso di fare per conto proprio, e che qui presta direttamente al suo personaggio: dove avverti i risentimento polemico del cristiano stesso Manzoni, che partecipa sempre per gli umili e per i poveri diavoli, e non per cavalieri che vanno in carrozza, i quali talvolta possono essere surfanti e farisei.</note>
+                <note xml:id="Russo_cap17-n14" type="comm" target="quarantana/cap17.xml#c17_11046" targetEnd="quarantana/cap17.xml#c17_11047">
+                    <ref rend="bold">Cammina, cammina</ref>:  Vedi al cap. XVI la n. 148-149. Anche qui il cammina, cammina non è una semplice for mula di trapasso, una formula di comodo, ma essa accentua l'epico e il fiabesco di quella passeggiata notturna. Del resto, anche lo stesso viaggiatore comincia a respirare in un'atinosfera fiabesca, in un mondo di immagini, di apparizioni, lasciate in serbo nella menraccontar da te dalle novelle sentite bambino.</note>
+                <note xml:id="Russo_cap17-n15" type="comm" target="quarantana/cap17.xml#c17_11110" targetEnd="quarantana/cap17.xml#c17_11115">
+                    <ref rend="bold">Nè un gelso, nè una vite</ref>:  Sono particolari non di una campagna qualsiasi, ma proprii della campagna lombarda, piantata, di solito, a viti e a gelsi. Si ricordi la nota del cap. IV: Un venticello di autunno, staccando dai rami le foglie appassite del gelso.... "A destra e a sinistra, nelle vigne, sui tralci ancor tesi, brillavan le foglie rosseggianti a varie tinte.»</note>
+                <note xml:id="Russo_cap17-n16" type="comm" target="quarantana/cap17.xml#c17_11159" targetEnd="quarantana/cap17.xml#c17_11169">
+                    <ref rend="bold">Per discacciarle, o per acquietarle... orazioni per i morti</ref>:  Quel mondo fiabesco, di cui più su parlavamo, è tutto impregnato, s'intende, di religione cattolica. Le apparizioni sono ombre, spiriti dell'oltretomba, e, per discacciarle, o per acquietarle, come è popolare credenza, Renzo recita orazioni in suffragio dei defunti.</note>
+                <note xml:id="Russo_cap17-n17" type="comm" target="quarantana/cap17.xml#c17_11170" targetEnd="quarantana/cap17.xml#c17_11296">
+                    <ref rend="bold">A poco a poco, si trovò tra macchie più alte... un non so che di odioso</ref>:  Vedi la sapienza con cui sono graduate le note di questo paesaggio: prima Renzo ha la compagnia di paesi avvolti nel sonno e di qualche cascinale isolato, vigilato dalla rabbia irrequieta dei cani. Quei segni di vita umana, e quelle voci di cani, sono pure una compagnia. Ma poi la campagna muore in una sodaglia sparsa di felci e di scope: nessuna voce paurosa, ma dappertutto squallore di solitudine. Ora la salvatichezza arida del luogo finisce in bosco, tutto alte macchie: torna la vista ad esser popolata, ma di figure strane, deformi, mostruose. Dal sospetto reale (gli uomini ei cani) si passa all'apprensione fantastica (le immagini, le apparizioni dell' oltretomba), e qui all'orrore, al ribrezzo, di uno strano popolo di ombre silvestri. Nota poi, per il ritmo del periodo, come quasi costantemente sostantivi, aggettivi overbi procedono a gruppi ternari: di pruni, di quercioli, di marruche; figure strane, deformi, mostruose; seguitando, allungando il passo, cominciò a veder; provava, lo vinse, andò avanti; s'inoltrava, cresceva, gli dava fastidio, ecc. Si comincia con periodi, in cui il punto fermo cade, gradatamente, dopo uno, due periodetti interni; e l'ultimo (Gli alberi che vedeva....), il più ampio, riposa o meglio si allarga paurosamente in tre successivi periodi: c'è in esso, come il grandeggiare, a росо а росо, di quelle ombre strane, deformi, mostruose, e il loro lento venire innanzi.</note>
+                <note xml:id="Russo_cap17-n18" type="comm" target="quarantana/cap17.xml#c17_11297" targetEnd="quarantana/cap17.xml#c17_11405">
+                    <ref rend="bold">Le gambe provavano come una smania... e gli comandò che reggesse</ref>:  Il ritmo del periodo viene mutando da un passo all'altro: non più l'uniformità ternaria, che rendeva il crescente incantamento pauroso di Renzo. Ora le proposizioni si snodano più rapide e più irregolari. Renzo comincia a uscire dal suo incantamento pauroso; l'uomo volitivo comincia a spuntare sull'atterrito contemplativo, finchè ha il decisivo sopravvento. Nota poi il progredire attentissimo delle espressioni: prima una smania, che è come un'interna o una inattiva ossessione; poi un impulso di corsa, che è già un tenta tivo di azione esterna; quindi questo impulso smorzato dall'incombente stanchezza (le gambe pareva che durassero fatica a regger la persona). La brezza notturna, progressivamente, batte sulla fronte e sulle gote, quindi si insinua tra i panni e le carni, e infine penetra nelle ossa. L'uggia è seguita dall'orrore indefinito; l'ultimo rimasuglio di vigore si spegne, poi l'uggia e l'orrore soverchiano; e infine Renzo è per per dersi affatto. A un semplice mancamento del vigore, segue il soverchiare delle forze contrarie, e insieme il riconoscimento consapevole della sconfitta, del perdersi affatto, da parte dello stesso protagonista. Acutissimo poi è il rilievo psicologico: atterrito.... del suo terrore. Nei termini estremi di una sofferenza, si attinge la forza per uscire da quella sofferenza stessa. C'è come una speciale provvidenziale riserva della natura o di Dio, perchè l'uomo non ceda alla sua debolezza. Altri luoghi: Napoleone: «E disperò; ma valida venne una man dal cielo. ». Lucia: «fu vinta da un tale affanno, che desiderò di morire. Ma in quel momento, si rammentò che poteva almen pregare, e insieme con quel pensiero, le spuntò in cuore come un'improvvisa speranza. » (XXI).</note>
+                <note xml:id="Russo_cap17-n19" type="comm" target="quarantana/cap17.xml#c17_11448" targetEnd="quarantana/cap17.xml#c17_11491">
+                    <ref rend="bold">E stando così fermo... d'un salvatore</ref>:  Si ricordino i versi dell'Adelchi, in cui parla diacono Martino (Atto II, 231-245): «Una ridente Speranza, all'alba, risvegliommi; e pieno Di novello vigor la costa ascesi. Appena il sommo ne toccai, l'orecchio Mi percosse un ronzio che di lontano Parea venir, cupo, incessante; io stetti, Ed immoto ascoltai.... Un rumor di viventi, un indistinto Suon di favelle e d'opre e di pedate Brulicanti da lungi, un agitarsi D'uomini immenso. Il cuor balzommi; e il passo Accelerai. ». Anche questa pagina di prosa manzoniana ha una modulazione musicale, con le arsi e le tesi proprie del verso. Il silenzio è colto in tre momenti successivi in una maniera stupenda: il fermarsi del camminatore, quella tacita soffocazione del fruscio dei piedi nel fogliame, l'allargarsi intento del silenzio in tutte le cose d'attorno. A quei tre momenti del silenzio par corrispondano tre momenti della percezione uditiva: dapprima un rumore, poi un mormorio, poi un mormorio più definito, d'acqua corrente. Pare che il poeta abbia proprio come l'ossessione musicale di questo ritmo ternario in tutte le cose che egli vede e rappresenta: (sta in orecchi, n'è certo, esclama); e infine il sollievo dell'animo è colto in un crescendo affettivo, in una terna di sostantivi: fu il ritrovamento d'un amico, d'un fratello, d'un salvatore.</note>
+                <note xml:id="Russo_cap17-n20" type="comm" target="quarantana/cap17.xml#c17_11492" targetEnd="quarantana/cap17.xml#c17_11538">
+                    <ref rend="bold">La stanchezza quasi scomparve... dietro all'amico rumore</ref>:  Come in certi accordi musicali, prima affannosi, trepidi, sospesi, e che poi giungono e si assommano in un accordo risolutivo; così anche qui il periodo precipita rapido nella frequenza di tutti quei verbi al passato e che, nella forma quasi sempre accentata, rendono questa rinnovata sollecitudine fiduciosa dell'animo. Noi sentiamo, nel periodo, il ritorno stesso del passo più animato e più celere del pellegrino.</note>
+                <note xml:id="Russo_cap17-n21" type="comm" target="quarantana/cap17.xml#c17_11561" targetEnd="quarantana/cap17.xml#c17_11565">
+                    <ref rend="bold">Vide l'acqua luccicare e correre</ref>:  Non è un particolare ozioso e superfluo. C'è come un accertarsi che quello è proprio un fiume, che l'acqua vi luccica e corre. Il luccicare e correre indicano anche la soddisfazione di Renzo, il quale affretta a riconoscere affettuosamente, festosamente, i partico lari fisici consueti dell'acqua, per lui diventati straordinari in forza del desiderio.</note>
+                <note xml:id="Russo_cap17-n22" type="comm" target="quarantana/cap17.xml#c17_11590" targetEnd="quarantana/cap17.xml#c17_11602">
+                    <ref rend="bold">Una gran macchia biancastra... Bergamo sicuramente</ref>:  Anche qui la scoperta di Bergamo, visione di una macchia biancastra, la speranza che quella macchia biancastra fosse una città, la sicurezza che si trattava proprio di Bergamo, è scandita al solito in tre tempi.</note>
+                <note xml:id="Russo_cap17-n23" type="comm" target="quarantana/cap17.xml#c17_11676" targetEnd="quarantana/cap17.xml#c17_11679">
+                    <ref rend="bold">Molto a sangue freddo</ref>:  Questo rilievo alla pacatezza di Renzo è ne cessario per preparare il suo ritorno nei luoghi paurosi, in cerca della capanna abbandonata. L'animo di Renzo è ormai mutato; sicchè un ritorno fra le ombre strane, deformi, mostruose" del bosco è una decisione non straordinaria.</note>
+                <note xml:id="Russo_cap17-n24" type="comm" target="quarantana/cap17.xml#c17_11684" targetEnd="quarantana/cap17.xml#c17_11687">
+                    <ref rend="bold">Arrampicarsi sur una pianta</ref>:  Più su aveva detto: "mi fermerò fino alla mattina, in un campo, sur una pianta, come le passere". Ma quello era un disegno esclamativo, punto concreto, proprio di chi enfaticamente vuole esprimere la sua ribellione ad una qualche sorte diversa: meglio sur una pianta, che in prigione, aveva difatti chiarito Renzo.</note>
+                <note xml:id="Russo_cap17-n25" type="comm" target="quarantana/cap17.xml#c17_11766">
+                    <ref rend="bold">Sodaglia</ref>:  Vedi alla 1. 100. Ed À terreno non dissodato, nè coltivato, specie quando le piene lo rovinano, e lo ricoprono di rena e di sassi. » (PETROCCHI).</note>
+                <note xml:id="Russo_cap17-n26" type="comm" target="quarantana/cap17.xml#c17_11770" targetEnd="quarantana/cap17.xml#c17_11773">
+                    <ref rend="bold">Capanne coperte di paglia</ref>:  Sono quelle che, nel milanese, chiamano cascinotti.</note>
+                <note xml:id="Russo_cap17-n27" type="comm" target="quarantana/cap17.xml#c17_11833">
+                    <ref rend="bold">Rabbattuto</ref>:  Socchiuso, accostato.</note>
+                <note xml:id="Russo_cap17-n28" type="comm" target="quarantana/cap17.xml#c17_11856">
+                    <ref rend="bold">Hamac</ref>:  Oggi, si dice amaca. È l'antico americano hammaka, una sorta di letto pensile, formato da stuoia o tela, allacciato ad un telaio rettanimitato golare: usato dagli Indiani e dai marinai. (ZINGARELLI).</note>
+                <note xml:id="Russo_cap17-n29" type="comm" target="quarantana/cap17.xml#c17_11889" targetEnd="quarantana/cap17.xml#c17_11893">
+                    <ref rend="bold">La Provvidenza gli aveva preparato</ref>:  Un respiro religioso c'è sta to nelle pagine precedenti, un respiro reticente, e nei tratti della paura e in quelli atti più rapidi, della rinata speranza. Ora quell'alito di vita religiosa si schiude manifesto, e tutto il capitolo pare un cantico, o la lode della Provvidenza. Si veda la n. 510-511, al cap. XVI.</note>
+                <note xml:id="Russo_cap17-n30" type="comm" target="quarantana/cap17.xml#c17_11972" targetEnd="quarantana/cap17.xml#c17_11978">
+                    <ref rend="bold">M'è toccata, la mattina, quella bella svegliata</ref>:  Si veda la n. 426-27, in fondo, al cap. XIV.</note>
+                <note xml:id="Russo_cap17-n31" type="comm" target="quarantana/cap17.xml#c17_12046" targetEnd="quarantana/cap17.xml#c17_12053">
+                    <ref rend="bold">Il luogo preciso non ve lo saprei dire</ref>:  Maniera arguta, per dire che, per una parte, Renzo ricordava gli avvenimenti degli ultimi due giorni, e per l'altra fantasticava.</note>
+                <note xml:id="Russo_cap17-n32" type="comm" target="quarantana/cap17.xml#c17_12135" targetEnd="quarantana/cap17.xml#c17_12141">
+                    <ref rend="bold">Una treccia nera e una barba bianca</ref>:  Lucia fra Cristoforo, accostati così, si tingono nell'immaginazione del sorriso affettuoso dell'artista: e l'arguzia affettuosa giustifica la sobrietà delle parole, che, sfumate di quel sorriso, dicono assai più che non valga una pagina di analisi particolare.</note>
+                <note xml:id="Russo_cap17-n33" type="comm" target="quarantana/cap17.xml#c17_12200" targetEnd="quarantana/cap17.xml#c17_12207">
+                    <ref rend="bold">Il lettore conosce le circostanze; se lo figuri</ref>:  Scrive, a proposito di questa battuta, GIUSEPPE CITANNA: Benedetto don Alessandro! o che il romanzo dove "si parla di Promessi Sposi" per dirla col Giusti, e cioè di due innamorati, dovremo scriverlo noi altri venticinque lettori... Mi sembra evidente, per chi non abbia pre concetti da far valere, che la ragione più importante della freddezza intellettualistica e impoetica che i più (?!) sentono nei Promessi Sposi, deriva oltre da esortazione moralistica religioso più generale, e dal concetto dell'arte e della storia dell'autore, dalla mancata rappresentazione dei sentimenti d'amore nelle loro varie gradazioni e degradazioni." (I Promessi Sposi sono un'opera di poesia?, in La Nuova Italia, Anno primo, n. 6, p. 230). Dove il critico si mostra legato alla più triviale estetica romantica, per la quale soltanto l'amore, o principalmente l'amore, può essere materia di poesia, e la complessa ispirazione etico-storica del M., perchè non è amore, è necessariamente intellettualistica e impoetica; e si vede ancora aderire il critico al più corpulento psicologismo, giacché un romanzo, dove si parla di promessi sposi, deve essere un romanzo d'amore. (Si veda la nostra Prefazione). Ma come fare intendere al Citanna che l'amore per il poeta Manzoni: fu una nota fra le altre note, e tale che non poteva evadere e preterire sul complesso e conclusivo mondo etico-storico dello scrittore? E come fare intendere, che proprio in questo luogo, quando Renzo è assediato nella sua fantasia da cento fantasmi diversi, meno che mai l’artista poteva abbandonare il personaggio all’idillio, o alla contrastata dolcezza dei sogni di amore! Che notte, povero Renzo; esclamerà più tardi lo scrittore. Quella che doveva essere la quinta delle sue nozze! Che stanza! Che letto matrimoniale!</note>
+                <note xml:id="Russo_cap17-n34" type="comm" target="quarantana/cap17.xml#c17_12243" targetEnd="quarantana/cap17.xml#c17_12249">
+                    <ref rend="bold">N’aveva preso il linguaggio il cuore</ref>:  Si ricordi il gentile, figliuoù, e il vostra madre di Agnese a Lucia e a Renzo, nel cap. VI, p. 111.</note>
+                <note xml:id="Russo_cap17-n35" type="comm" target="quarantana/cap17.xml#c17_12394" targetEnd="quarantana/cap17.xml#c17_12399">
+                    <ref rend="bold">Un pezzo, un pezzo, un pezzo</ref>:  Quanto affetto di Renzo per Lucia, in quella quasi irosa ripetizione!</note>
+                <note xml:id="Russo_cap17-n36" type="comm" target="quarantana/cap17.xml#c17_12458" targetEnd="quarantana/cap17.xml#c17_12462">
+                    <ref rend="bold">Dovesse esser quello di Trezzo</ref>:  Il richiamo storico-geografico non interrompe il sogno e la rappresentazione della poesia, ma voi aggiungere anzìa tale poesia una saldezza quasi storica. C’è anche come una specie di distinvura estetica dell’artista, che, mentre sta per modulare una sua lirica più solenne, si volge familiarmente al lettore e si indigna su un modesto particolare di cronaea. Trezzo è un paese, sull’Adda, nella provincia di Milano, a 11 chilometri da Cassano. Vi è un celebre castello dei Visconti, che diede il titolo a un romanzo storico del Bazzoni: Il castello di Trezzo.</note>
+                <note xml:id="Russo_cap17-n37" type="comm" target="quarantana/cap17.xml#c17_12488" targetEnd="quarantana/cap17.xml#c17_12505">
+                    <ref rend="bold">Un senso misterioso e solenne... con una voce sconosciuta</ref>:  La battuta vuole avere una risonanza religiosa. Non si tratta semplicemente della vaghezza misteriosa (estetica), che si può prendere per il silenzio notturno, interrotto da qualche voce o dallo scoccare di un orologio. Il Pascoli è probabile che si ispirasse a queste due righe manzoniane per L'Ora di Barga (vedi i Canti di Castelvecchio), ma ha avuto un torto di materializzare questa « voce sconosciuta » di « persona non vista ». Tu dici, è l'ora, tu dici, è tardi, voce che cadi blanda dal cielo... Con la sua blanda... voce di prima parla e consiglia, e adesso grave m’incuria... mi dici, è tardi; ma adesso è l'ora... E suona ancora l'ora, e qua gruagliò... due volte un grido angosciuoso... in una blanda e tranquilla... mi persuade nel mio cantuccio... è tardi! è l'ora!... Dove, sia detto col dovuto rispetto, quell'ora non è più l’ora della poesia, come in Manzoni, ma è diventata soltanto l'ora dell'acutezza ingegnosa.</note>
+                <note xml:id="Russo_cap17-n38" type="comm" target="quarantana/cap17.xml#c17_12512" targetEnd="quarantana/cap17.xml#c17_12513">
+                    <ref rend="bold">Undici tocchi</ref>:  Un'ora prima del sorgere del sole. Vedi la n. 15.</note>
+                <note xml:id="Russo_cap17-n39" type="comm" target="quarantana/cap17.xml#c17_12524" targetEnd="quarantana/cap17.xml#c17_12575">
+                    <ref rend="bold">Si mise inginocchioni... se le stropicciò</ref>:  « Non saprei dire se ha stretto ecc. dopo le divozioni, se si tutto questo fervore religioso, quando non si voglia attribuirlo alle disgrazie toccate da Renzo, e al bisogno che sentiva di chiedere a Dio la fine, non so proprio dire se sia della solita naturalezza manzoniana o se non c'entrì un pochino la riflessione del voler insegnare. » (PeTROCCHI). E ha ragione il Petrocchi: urta artisticamente poi quella vicinanza troppo brusca tra quel fervido raccog limento religioso e tutto quello stirarsi in lungo e in largo delle membra e quello stropicciarsi delle mani. Nota poi che il M. ha voluto far precedere le « divozioni » a tutta quell'altra ginnastica del corpo intorpidito; la quale precedenza è anch'essa programmatica.</note>
+                <note xml:id="Russo_cap17-n40" type="comm" target="quarantana/cap17.xml#c17_12616" targetEnd="quarantana/cap17.xml#c17_12721">
+                    <ref rend="bold">Il cielo prometteva una bella giornata... così in pace</ref>:  Anche lo scrittore ci avverte che Renzo non aveva tempo di badare a quell'albeggiare, così diverso da quello ch’era solito vedere ne’ suoi monti, pure noi sentiamo che quel cielo di Lombardia, così bello quand’è bello, così splendido, così in pace, si schiude proprio per lui, e l'alba, che prelude alla sua libertà, alla sua lontana ma pur sicura pace. Si noti poi che il cielo manzoniano, anche quando è splendido e bello, è sempre smorzato e temperato nei suoi colori e nelle sue note: qui c'è una luna pallida e senza raggio, un campo immenso di un bigio ceruleo, poche nuvole, tra l'azzurro e il bruno, altre nuvole ravvolte insieme, leggere i soffici; e cotesta nota grigia, crepuscolare, pur preavle su quell'oriente, che s'andava sfumando leggermente in un giallo roseo, e perfino su quella striscia quasi di fuoco, che di mano in mano si faceva più viva e tagliente. Simbolo spirituale quasi della stessa pace religiosa dell'anime, che, anche nei momenti migliori, non può ancora non si tripudianti, ma «serena, discreta, « pacata in suo contegno, né eccelse, come segno della gioia che verrà. » Si ricordi l'la descrizione di un tramonto d'autunno al cap. IV, e la tenerezza di quell'alba ceneroginosa dopo la notte insonne dell'Innominato, al capito XXI.</note>
+                <note xml:id="Russo_cap17-n41" type="comm" target="quarantana/cap17.xml#c17_12765" targetEnd="quarantana/cap17.xml#c17_12773">
+                    <ref rend="bold">Passa i campi... passa le macchie</ref>:  Senti nel ritmo del period ti passo animato del pellegrino, accompagnato dalla fiducia dei suoi pensieri, e riscaldato dal sangue stesso che scorre ormai libero e allegro per le vene: da ciò riprende e vergognarsi di Renzo per il suo ribrezzo notturno.</note>
+                <note xml:id="Russo_cap17-n42" type="comm" target="quarantana/cap17.xml#c17_12799" targetEnd="quarantana/cap17.xml#c17_12834">
+                    <ref rend="bold">E sul ciglio della riva... è sulla riva</ref>:  I periodetti si fanno più rapidi, e anche la punteggiatura frenetica e più marcata giova a rendere l'idea di questo rapido succedersi delle azioni.</note>
+                <note xml:id="Russo_cap17-n43" type="comm" target="quarantana/cap17.xml#c17_12835" targetEnd="quarantana/cap17.xml#c17_12862">
+                    <ref rend="bold">Dà una voce leggiera leggiera... in una maniera mezzo supplichevole</ref>:  La leggerezza della voce dovave apparire indifferenza, ma era giusto che quella indifferenza non fosse troppa: quella maniera mezzo supplichevole, che sopravviene a tradimento, corregge al giusto tono la direzione di quell'appello.</note>
+                <note xml:id="Russo_cap17-n44" type="comm" target="quarantana/cap17.xml#c17_12867" targetEnd="quarantana/cap17.xml#c17_12889">
+                    <ref rend="bold">Il pescatore gira uno sguardo lungo la riva... lungo l'acqua che va</ref>:  Bellissima la lenta pacatezza di quel sospetto del pescatore: esplora cauto, metodico, ma senza agitazione alcuna. C'è accuratezza abitudinaria. Ma quella sua cauta pacatezza, resa mirabilmente da quegli indugi attenti dello sguardo alla riva, all'acqua che va, è come una sospensione trepidà, di tutta la scena.</note>
+                <note xml:id="Russo_cap17-n45" type="comm" target="quarantana/cap17.xml#c17_12920" targetEnd="quarantana/cap17.xml#c17_12929">
+                    <ref rend="bold">Mi fareste il serviziuo, col pagare, di tragitarmi di là</ref>:  Le parole sono sobrie, e sapientemente disposte: quel col pagare è una cesura dipiomatica del periodo, ma su cui poggia significativa la voce.</note>
+                <note xml:id="Russo_cap17-n46" type="comm" target="quarantana/cap17.xml#c17_12979" targetEnd="quarantana/cap17.xml#c17_12981">
+                    <ref rend="bold">Siete del mestiere</ref>:  Questo breve colloquio, e questo riconoscere in Renzo uno del mestiere, alleggerisce il crimine, e dà, senza parere, un valore di onestà a quel pur illegale tragitto.</note>
+                <note xml:id="Russo_cap17-n47" type="comm" target="quarantana/cap17.xml#c17_12997" targetEnd="quarantana/cap17.xml#c17_13000">
+                    <ref rend="bold">Più che da dilettante</ref>:  Non è un'annotazione superflua. Renzo vuol dar la prova che lui è un bravo ragazzone, e le braccia oziose non le ha mai tenute. Vedi la nota precedente.</note>
+                <note xml:id="Russo_cap17-n48" type="comm" target="quarantana/cap17.xml#c17_13147" targetEnd="quarantana/cap17.xml#c17_13150">
+                    <ref rend="bold">La città di Bergamo</ref>:  Questo pescatore, che misura i gesti, gli sguardi e le parole, è ponderato anche in questo: fa la sua correzione, perchè una metodica proprietà va osservata in tutto. E passa nella sua risposta un leggero guizzo di malizia dello scrittore; chi parla è probabilmente un bergamasco, e l'orgoglio dei suoi luoghi lo senti anche in quell'altra sua pacata e solenne battuta: « Terra di san Marco ».</note>
+                <note xml:id="Russo_cap17-n49" type="comm" target="quarantana/cap17.xml#c17_13169" targetEnd="quarantana/cap17.xml#c17_13173">
+                    <ref rend="bold">Il pescatore non disse nulla</ref>:  Renzo se ne va, ma egli resta: da ciò, il suo prudente tacere. Il pescatore è abituato a rendere simili servizi; significativa quindi la sobrietà con cui interpreta e quasi previene le richieste di Renzo. Egli più su aveva indovinato che Renzo voleva passare, e ora intende che in quel domandare se quella riva lì era in quel che domandare se quella riva lì era bergamasca, il suo cliente vuole sapere se con essa era proprio fuori dello stato milanese. Ha capito che si tratta di un fuggiasco. Bergamo, come è noto, appartene a Venezia dal 1428 al 1797.</note>
+                <note xml:id="Russo_cap17-n50" type="comm" target="quarantana/cap17.xml#c17_13216" targetEnd="quarantana/cap17.xml#c17_13268">
+                    <ref rend="bold">Il quale, data ancora una occhiata... e tornò indietro</ref>:  Indimenticabile questa figura di traghettatore clandestino: fa sempre le sue esplorazioni a destra e a sinistra, avanti e indietro, metodicamente, come si trattasse di un rito di cerimonia, come dicesse divozioni mentali contro birri e gabelieri. Raccomanda discrezione a Renzo, ma solo a tragitto compiuto: a fargli dei segni d'intesa espressiva, all'atto dello imbarco, sarebbe stato come aggravare il crimine e suscitare un allarme retorico. Il pescatore non vuole gonfiare la importanza del suo servizio: egli è preso tutto dall'obiettività del suo compito, e non guarda alle persone, « com'uom che altra cura stringa e morda, che quella di colui che gli è davanti ». Quando Renzo gli vuol domandare di Bergamo, ha bisogno di chiamare (Onde, chiamato il pescatore...), perchè egli è tutto inteso alla bisogna del remare. E il nostro traghettatore è una specie di messo della provvidenza, una provvidenza non più solenne, ma fatta domestica e familiare, calata in questa terra, e fatta amica anche dei fuggiaschi, per non dire anche dei contrabbandieri e dei banditi, perchè anche fra quelli ci possono essere le anime buone. E il lettore è grato alla spregiudicatezza artistica del cattolico Manzoni.</note>
+                <note xml:id="Russo_cap17-n51" type="comm" target="quarantana/cap17.xml#c17_13318" targetEnd="quarantana/cap17.xml#c17_13326">
+                    <ref rend="bold">Quanto per non farsi de’ nemici in quelle classi</ref>:  È un tentativo di giustificazione bonaria dell'illegittima attività del nostro traghettatore.</note>
+                <note xml:id="Russo_cap17-n52" type="comm" target="quarantana/cap17.xml#c17_13360" targetEnd="quarantana/cap17.xml#c17_13361">
+                    <ref rend="bold">Con quell'imparzialità</ref>:  La giustificazione finisce in una arguzia: l'imparzialità del pescatore per birri e per contrabbandieri è una nota maliziosamente manzoniana. Ma nulla di cinico in quell'imparzialità; il M. non tratta il pescatore, come ha trattato finora gli osti,, anche loro imparziali (falsi imparziali) servitori del pubblico, ma ne avvolge la figura di una bonaria indulgenza. Alla fin fine, egli è il salvatore di Renzo, l'ingiustamente perseguitato. E la spregiudicata provvidenza manzoniana non ha scrupoli a servirsi anche di lui.</note>
+                <note xml:id="Russo_cap17-n53" type="comm" target="quarantana/cap17.xml#c17_13423" targetEnd="quarantana/cap17.xml#c17_13428">
+                    <ref rend="bold">Fu il secondo, l'addio alla patria</ref>:  Bellissimo. Chi ama la propria patria, può avere di questi intendimenti di sdegno verso di esso, interieriori ad un amore contrario. Questo il sentimento manzoniano. Naturalmente, un critico, note come scrittore zelante dell'Austria, Paride Zaiotti (1793-1843), si scandalizzò convenientemente a questo punto: Renzo si rivelerebbe « volgarrissimo amante » e ingiuriatore della patria, per amore della sua libertà. Non pensa a Lucia, ma a se stesso: « Ahl ne son proprio fuori! » Per i servitori vili, è giusto che un galant'uomo come Renzo appaia un volgarissimo amante e un traditore della patria. Un'altra nota questa della spregiudicatezza artistica dell'italianissimo e moralissimo Manzoni.</note>
+                <note xml:id="Russo_cap17-n54" type="comm" target="quarantana/cap17.xml#c17_13445" targetEnd="quarantana/cap17.xml#c17_13451">
+                    <ref rend="bold">Mise un sospiro, abbassò gli occhi sull'acqua</ref>:  Quanta verità nell'atteggiamento di Renzo! Dopo il rapido sdegno, il ripiegarsi doloroso sugli incancellabili affetti che pur lo legano a quel « maledetto paese ». Quando egli rialzerà il capo, farà ammenda della sua primitiva bestemmia: se la prenderà col mondo birbone, che il suo paese non c'entra, il suo paese è il paese di Lucia. E il cristiano sale a accarezzare l'acerbità delle sue ferite, incitandosi alla rassegnazione: basta; quel che Dio vuole. Raramente, come qui, il M. ha avuto tanta rapidità rappresentativa, nell'accennare a stati d'animo, così netti e diversi pur nella loro tumultuarietà.</note>
+                <note xml:id="Russo_cap17-n55" type="comm" target="quarantana/cap17.xml#c17_13460" targetEnd="quarantana/cap17.xml#c17_13464">
+                    <ref rend="bold">È passata sotto il ponte</ref>:  La tenerazza generosa, dopo la bestemmia. Quell'acqua che passa sotto il ponte di Lecco, il ponte per antonomasia per Renzo, si porta via con sè l'anima sua. Nostalgia di cose care, rimescolamento di affetti, tacita contrizione per le parole irrose di un momento prima, contro « il maledetto paese ». La battuta, nella sua semplicità quotidiana, par di vedere un versetto di un rito religioso, espiatorio.</note>
+                <note xml:id="Russo_cap17-n56" type="comm" target="quarantana/cap17.xml#c17_13595" targetEnd="quarantana/cap17.xml#c17_13598">
+                    <ref rend="bold">Per tutta la strada</ref>:  Ricorda lo spettacolo triste, che si offre a fra Cristoforo al cap. IV.</note>
+                <note xml:id="Russo_cap17-n57" type="comm" target="quarantana/cap17.xml#c17_13637" targetEnd="quarantana/cap17.xml#c17_13643">
+                    <ref rend="bold">Di preghiere, di lamenti e di vagiti</ref>:  Vediamo donne, malati, bambini.</note>
+                <note xml:id="Russo_cap17-n58" type="comm" target="quarantana/cap17.xml#c17_13699" targetEnd="quarantana/cap17.xml#c17_13703">
+                    <ref rend="bold">La Provvidenza m'ha aiutato finora</ref>:  Cfr. la n. 174-177.</note>
+                <note xml:id="Russo_cap17-n59" type="comm" target="quarantana/cap17.xml#c17_13836" targetEnd="quarantana/cap17.xml#c17_13842">
+                    <ref rend="bold">Due donne, una attempata, un'altra più giovine</ref>:  Questo quadro, come già la descrizione al capitolo IV, prepara le scene culminanti della capresta e della peste, che non giungeranno però così all'improvviso. C’è sempre la consueta sapienza artistica del M., che viene diffondendo lentamente un’atmosfera, perchè il tragico degli episodi trovi il suo clima adatto.</note>
+                <note xml:id="Russo_cap17-n60" type="comm" target="quarantana/cap17.xml#c17_13884" targetEnd="quarantana/cap17.xml#c17_13890">
+                    <ref rend="bold">Domata e quasi spenta dal lungo disagio</ref>:  Il domata ti dà l’idea morale di quell’antica robustezza depressa, lo spenta te ne suggerisce la sensazione fisica. C’è l’accoppiamento di due participi, consueto all’arte manzoniana, di due aggettivi, di due epiteti, dei quali l’uno integra o corregge l’altro, come nel ritratto del Cardinale (XXIII) o della madre di Cecilia (XXXIV).</note>
+                <note xml:id="Russo_cap17-n61" type="comm" target="quarantana/cap17.xml#c17_13916" targetEnd="quarantana/cap17.xml#c17_13921">
+                    <ref rend="bold">«La c'è la Provvidenza!» disse Renzo</ref>:  La battuta e la conclusione sono nello spirito che circola in tutto il romanzo, e specialmente in questo capitolo, che è come una pia epopea della Provvidenza. Dispiace soltanto l’affettazione fiorentineggiante di quel la c'è, che è rimasto proverbiale.</note>
+                <note xml:id="Russo_cap17-n62" type="comm" target="quarantana/cap17.xml#c17_13949" targetEnd="quarantana/cap17.xml#c17_14763">
+                    <ref rend="bold">La refezione e l'opera buona... io l'abbia saputo esprimere</ref>:  Ecco una pausa oratoria del romanzo.</note>
+                <note xml:id="Russo_cap17-n63" type="comm" target="quarantana/cap17.xml#c17_14086" targetEnd="quarantana/cap17.xml#c17_14089">
+                    <ref rend="bold">Tutto gli si spianava</ref>:  Il soliloquio che segue, è tutto ritmato dall’impeto di una giovinezza ingenua e fiduciosa. Il M. ha colto in Renzo questa facilità di carattere, nello smarrirsi, nell’adirarsi, nell’alzare il gomito, nel risorgere, nel sognare tutto roseo, che non è segno di superficialità, ma soltanto di generosa intemperanza giovanile. Questo motivo di Renzo è il motivo eterno della giovinezza sana e semplice.</note>
+                <note xml:id="Russo_cap17-n64" type="comm" target="quarantana/cap17.xml#c17_14342" targetEnd="quarantana/cap17.xml#c17_14343">
+                    <ref rend="bold">Bortolo Castagneri</ref>:  Il nome è bergamasco, e anche il cognome Castagneri par che sia stato suggerito da località della campagna bergamasca, che portano quel nome. Del resto, può essere casato che deriva da castagni.</note>
+                <note xml:id="Russo_cap17-n65" type="comm" target="quarantana/cap17.xml#c17_14564" targetEnd="quarantana/cap17.xml#c17_14569">
+                    <ref rend="bold">Sempre la più composta in chiesa</ref>:  Delicatissimo accenno a Lucia, e, perchè di essa si fanno le lodi all’uomo che deve essere suo, se ne vanta innanzi tutto la pudicizia. Mi ricorda il passo del Purgatorio dantesco (I, 78 e 79), quando Virgilio ricorda a Catone gli occhi casti di Marzia tua.</note>
+                <note xml:id="Russo_cap17-n66" type="comm" target="quarantana/cap17.xml#c17_14613" targetEnd="quarantana/cap17.xml#c17_14617">
+                    <ref rend="bold">Quell’aspo, che girava, girava, girava</ref>:  Dopo le lodi alla pudicizia di Lucia, ora se ne può lodare anche la sedulità di massaia, e si può ricordare, senza che vi possa essere ombra di galanteria, quella sua casuccia, dove si sentiva sempre quell’aspo. Il triplice girava avvolge Lucia in un’aria di sogno.</note>
+                <note xml:id="Russo_cap17-n67" type="comm" target="quarantana/cap17.xml#c17_14900" targetEnd="quarantana/cap17.xml#c17_14981">
+                    <ref rend="bold">Lorenzo Torre, un dottore... Giovanbatista Biava, nunzio di Bergamo</ref>:  Del Torre e del Biava, si parla in un libro di Lorenzo Ghirardelli, che sarà ricordato al cap. XXXIII: Il memorando contagio seguitò in Bergamo l'anno 1630, ecc. (Bergamo, 1681). Le due mila some di grano e le quattro mila staia di miglio sono ricordate in questo libro, e vi si legge anche il discorso del Torre « da dare alle stampe », e che, recitato davanti al Doge, « ebbe forza di trarre le vive lagrime dagli occhi del pietosissimo Principe ». Il M. innesta signorilmente questa notizia storica nel discorso di Bortolo, travestendola in tono drammatico e popolaresco.</note>
+                <note xml:id="Russo_cap17-n68" type="comm" target="quarantana/cap17.xml#c17_15143" targetEnd="quarantana/cap17.xml#c17_15148">
+                    <ref rend="bold">Dar del baggiano a un milanese</ref>:  L'indugio su questo particolare vuole essere una delle consuete distrazioni artistiche del M., dopo una scena solenne e drammatica, come quella della fuga notturna di Renzo e del passaggio dell'Adda. Baggiano, come chi dicesse baccellone. Anche Lucia sarà una bella baggiana, e al cap. XXXVIII sarà ripreso il motivo del baggiano e dell'impetuosa intolleranza di Renzo. Nessun particolare, anche minimo, cade a vuoto per il Manzoni.</note>
+                <note xml:id="Russo_cap17-n69" type="comm" target="quarantana/cap17.xml#c17_15159" targetEnd="quarantana/cap17.xml#c17_15165">
+                    <ref rend="bold">A chi se lo vorrà lasciar dire</ref>:  La battuta coglie il carattere vivo e baldo di Renzo.</note>
+            </div>
+        </body>
+    </text>
+</TEI>
