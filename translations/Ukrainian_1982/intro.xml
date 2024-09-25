@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>INTRODUCTION</title>
+                <respStmt>
+                    <resp>Supervisione codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica automatizzata</resp>
+                    <persName xml:id="ML">Maria Levchenko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Scheda editoriale</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>The Betrothed Lovers</title>
+                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Longman, Brown, Green, and Longmans</publisher>
+                    <date>1845</date>
+                    <respStmt>
+                        <resp>Translated by</resp>
+                        <persName xml:id="BP">Anonymous</persName>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Benucci_intro">
+                <p xml:id="P1">
+                    <note xml:id="ukrainian_1982_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">«Історію воістину годилося б назвати славетною війною з Часом, бо ж, визволяючи з рук останнього його бранців — роки, що досі вже пооберталися трупами, вона воскрешає їх до життя, робить їм огляд і знову шикує до бою. </note>
+                    <note xml:id="ukrainian_1982_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">Та відважні Вояки-Літописці, котрі вкривають себе славою Перемог на сім Ратнім Полі, беруть звідти лише найпишніші та найблискучіші трофеї, увіковічнюючи своїм духмяним чорнилом Подвиги Царів і Володарів, а так само й визначних Осіб, вишиваючи тонюсінькою голкою свого розуму, золотими й шовковими нитками нескінченний візерунок славних Діянь. </note>
+                    <note xml:id="ukrainian_1982_intro-n3" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">Однак не моєму нікчемству підноситися до таких міркувань і таких небезпечних висот, так само як і заглиблюватись у Лабіринти Політичних Підступів і слухати войовниче гримотіння Міді; навпаки, ознайомившися з вікопомними подіями, дарма що вони сталися з людьми незнатними й незначними, я збираюсь залишити про них пам'ять Нащадкам, написавши про все щиру й правдиву Оповідь, або ж, вірніше, Повідомлення. </note>
+                    <note xml:id="ukrainian_1982_intro-n4" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">В ньому, в цім тіснім Театрі, постануть моторошні Трагедії й Сцени нечуваного Лиходійства упереміш із доброчинними Діяннями і янгольською добрістю, котрі опираються вражим хитрощам. </note>
+                    <note xml:id="ukrainian_1982_intro-n5" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">І справді, зважаючи на те, що наші краї перебувають під владою Синьйора нашого, Короля Католицького,— Сонця, яке ніколи не заходить, а над ним відбитим Світлом, як ото Місяць, який ніколи не убуває, сяє Герой шляхетного Сімені — правитель pro tempore, так само як і високі Сенатори незмінні Світила, та інші Шановні Магістрати — блукаючі планети, проливають світло своє повсюдно, витворюючи в такий спосіб вельми шляхетне Небо, то не можна, спостерігаючи його перетворення в пекло кромішніх діянь, підступності та жорстокостей, без ліку чинимих брутальними людьми, бачити в цьому якусь іншу причину, крім хитрощів та замірів ворога, бо ж самої тільки людської підступності забракло б для опору такій силі-силенній Героїв, котрі, з очима Аргуса та руками Бріарея віддають життя своє задля загального добра. </note>
+                    <note xml:id="ukrainian_1982_intro-n6" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">Тим-то, оповідаючи події часів квітучого віку мого, і, хоча більшість тодішніх дійових осіб досі зникла з Арени життя, постававши данниками Парок, я, все ж маючи належну до них повагу, не стану називати їх імен, тобто імен родових; так само вчиню я й з місцем дії — не вказуватиму його точної назви. </note>
+                    <note xml:id="ukrainian_1982_intro-n7" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10412">І ніхто не вважатиме це недосконалістю Оповіді чи якимсь спотворенням у моїй недовершеній праці, хіба, може, Критик виявиться особою, геть недосвідченою в філософії, тим часом як обізнані з нею люди легко зрозуміють, що зміст названої Оповіді анітрохи від цього не постраждав. </note>
+                    <note xml:id="ukrainian_1982_intro-n8" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10429">Адже цілком очевидно й незаперечно те, що імена — це не що інше, як чистісінькі акциденції...» </note>
+                    <note xml:id="ukrainian_1982_intro-n9" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">— Та коли я впораюся з героїчною працею, переписавши цю історію з побляклого й повного помарок рукопису, і коли вона, як це заведено казати, побачить світ, то чи знайдеться тоді охочий завдати собі роботу перечитати її? </note>
+                    <note xml:id="ukrainian_1982_intro-n10" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">Ці перейняті сумнівами роздуми, які обсіли мене при розборі карлючок, що йшли після «акциденції», змусили мене урвати переписування й серйозніше поміркувати над тим, як же мені краще вчинити. </note>
+                    <note xml:id="ukrainian_1982_intro-n11" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">— Цілком ясно,— говорив я собі, гортаючи рукопис,— цілком ясно, що такий град барвистих слів і риторичних фігур не триватиме аж до кінця цього твору. </note>
+                    <note xml:id="ukrainian_1982_intro-n12" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">Як справдешній сечентист, автор наприпочатку хотів похизуватися своєю вченістю, та далі, в ході розповіді (часом почерез довгі уривки), стиль поволі робиться природнішим і рівнішим. </note>
+                    <note xml:id="ukrainian_1982_intro-n13" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">Тільки ж який він посередній! Який незграбний! Який кострубатий! </note>
+                    <note xml:id="ukrainian_1982_intro-n14" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10580">Ломбардських ідіом — безліч, фрази повживано зовсім недоречно, граматика довільна, періоди невпорядковані. </note>
+                    <note xml:id="ukrainian_1982_intro-n15" type="comm" target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10643">Далі де-не-де розсипано вишукані іспанізми і, що набагато гірше,— в жахливих і зворушливих місцях, щоб при будь-якій нагоді викликати подив у читача або спонукати його до роздумів, одно слово, всюди, де потрібна певна кількість риторики, однак риторики скромної, тонкої, вишуканої, автор ніколи не минає нагоди напхати виклад думки отією своєю риторикою, до якої вдавався у вступі. </note>
+                    <note xml:id="ukrainian_1982_intro-n16" type="comm" target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10671">Змішуючи з дивовижною вправністю зовсім протилежні поняття, він умудряється в одному й тому самому періоді, в однім і тім вислові бути грубим і манірним водночас. </note>
+                    <note xml:id="ukrainian_1982_intro-n17" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10700">Ви тільки подивіться: яка високомовна декламація, рясно поцяткована граматичними помилками, повсюдно претензійна важкуватість, що надає особливого характеру творам даної доби в даній країні. </note>
+                    <note xml:id="ukrainian_1982_intro-n18" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">Справді, це не той твір, який було б варто пропонувати увазі сучасних читачів: надто-бо вони прискіпливі, надто відзвичаїлися від таких от викрутасів. </note>
+                    <note xml:id="ukrainian_1982_intro-n19" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_10740">Добре ще, що слушна думка прийшла мені до голови на самому початку цієї злощасної праці,— отож я просто умиваю руки. </note>
+                    <note xml:id="ukrainian_1982_intro-n20" type="comm" target="quarantana/intro.xml#intro_107401" targetEnd="quarantana/intro.xml#intro_10782">Проте, коли я вже був зібрався згорнути цього пошарпаного зошита, щоб сховати його, мені раптом зробилося шкода, що така чудова повість назавжди залишиться невідомою, бо ж як повість (читач, можливо, й не поділить моєї думки) вона мені, повторюю, видалася чудовою і навіть дуже чудовою. </note>
+                    <note xml:id="ukrainian_1982_intro-n21" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">«Чому б,— подумав я,— не взяти з цього рукопису всю вервечку подій, тільки переробивши його стиль?» </note>
+                    <note xml:id="ukrainian_1982_intro-n22" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#intro_10812">А що жодного розумного заперечення на це не знайшлося, то й ухвалу було прийнято негайно. </note>
+                    <note xml:id="ukrainian_1982_intro-n23" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">Ось таке походження цієї книжки, викладене з щиросердістю, якої ця книжка, з огляду на її важливість, і заслуговує. </note>
+                    <note xml:id="ukrainian_1982_intro-n24" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">Проте деякі з цих подій, деякі звичаї, описані нашим автором, видалися нам такими новими, такими дивними,— щоб не сказати гірше,— що ми, перш ніж їм повірити, вирішили допитати й інших свідків і з цією метою заходились копатися в тодішніх мемуарах, щоб з'ясувати, чи то правда, що за того часу так велося на білому світі. </note>
+                    <note xml:id="ukrainian_1982_intro-n25" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">Ці розшуки розвіяли всі наші сумніви: щокрок ми натрапляли на такі самі або й ще дивніші випадки і (що видалось нам особливо переконливим) прочитали там навіть про деяких осіб, про котрих не мали жодних відомостей, крім наведених у нашому рукописі, через що ми спершу були взяли під сумнів реальність їхнього існування. </note>
+                    <note xml:id="ukrainian_1982_intro-n26" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">При нагоді ми наведемо деякі з цих свідчень, щоб підтвердити вірогідність обставин, яким, через їхню незвичайність, читач був би схильний не повірити. </note>
+                    <note xml:id="ukrainian_1982_intro-n27" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">Але, відкидаючи стиль нашого автора як неприйнятний, який же стиль ми візьмемо замість нього? </note>
+                    <note xml:id="ukrainian_1982_intro-n28" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">В цім-то й уся заковика. </note>
+                    <note xml:id="ukrainian_1982_intro-n29" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">Всяк, хто ніким не прошений заходжується переробляти чужу працю, ставить себе перед необхідністю звітуватися за свою й до певної міри бере на себе зобов'язання зробити це: такі вже правила світові та юридичні, і ми зовсім не збираємось ухилятися від них. </note>
+                    <note xml:id="ukrainian_1982_intro-n30" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">Навпаки, залюбки до них пристосовуючись, ми були налагодилися дати тут якнайдокладніше пояснення обраної нами манери викладу, і з цією метою протягом усієї нашої роботи ми,незмінно старалися завбачити можливі та випадкові критичні зауваження, аби заздалегідь і повністю спростувати їх усі. </note>
+                    <note xml:id="ukrainian_1982_intro-n31" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">І не в цьому полягала б скрута,— бо ж (ми змушені сказати це, віддаючи належне правді) перед нашим розумом не поставало жодного критичного зауваження, на яке негайно не з'явилось би потрібне заперечення, з отих заперечень, котрі, я не хочу сказати — вирішують питання, однак змінюють їх постановку. </note>
+                    <note xml:id="ukrainian_1982_intro-n32" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">Частенько ми навіть зіштовхували дві критики між собою, примушуючи одну перемагати другу; або ж, грунтовно досліджуючи їх і уважно зіставляючи, ми спромоглися виявити й показати, що попри всю свою видиму різницю вони все ж майже однорідні й обидві породжені недостатньо уважним ставленням до фактів та засад, на яких мало б базуватися судження; отак спарувавши їх, на превеликий їхній подив, ми випускали обидві дружньо гуляти належними їм шляхами. </note>
+                    <note xml:id="ukrainian_1982_intro-n33" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">Навряд чи знайшовся б автор, котрий в отакий очевидний спосіб довів би доброякісність своєї роботи. </note>
+                    <note xml:id="ukrainian_1982_intro-n34" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">Тільки що ж! Коли ми врешті спромоглися охопити всі згадані заперечення та відповіді й розташувати їх у певному порядку, то — ой лишенько! — їх набралося на цілісіньку книжку. </note>
+                    <note xml:id="ukrainian_1982_intro-n35" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">Побачивши це, ми відмовились від нашого попереднього задуму з двох міркувань, які читач безперечно визнає ґрунтовними: перше з них — те, що книжка, призначена виправдувати іншу книжку або ж навіть її стиль, могла б видатися смішною; друге — те, що на перший раз досить і однієї книжки, якщо тільки взагалі і ця не зайва. </note>
+                </p>
+  </div>
+        </body>
+    </text>
+</TEI>

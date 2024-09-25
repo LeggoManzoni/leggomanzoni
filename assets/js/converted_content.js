@@ -88,7 +88,7 @@ function setupMutationObserver(selector) {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
-                    const chapter = document.querySelector('.chapter-link.active-chapter').getAttribute('data-chapter');
+                    const chapter = document.querySelector('.chapter-link').getAttribute('data-chapter');
                     fetchAndDisplayData(`./get-comment/${comment}/${chapter}`, '.text-comment-bottom');
                 }
             }

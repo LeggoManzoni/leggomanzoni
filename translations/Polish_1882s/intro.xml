@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WSTĘP</title>
+                <respStmt>
+                    <resp>Codifica automatizzata</resp>
+                    <persName xml:id="ML">Maria Levchenko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Scheda editoriale</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>The Betrothed Lovers</title>
+                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Longman, Brown, Green, and Longmans</publisher>
+                    <date>1845</date>
+                    <respStmt>
+                        <resp>Translated by</resp>
+                        <persName xml:id="BP">Anonymous</persName>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Polish_intro">
+                <p xml:id="P1">
+                    <note xml:id="Polish_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10011">
+                        Słusznie rzec można, iż Historya jest świetną wojną prowadzoną z Czasem; 
+                    </note>
+
+                    <note xml:id="Polish_intro-n2" type="comm" target="quarantana/intro.xml#intro_10012" targetEnd="quarantana/intro.xml#intro_10022">
+                        bo ona to wydzierając mu z rąk lata, tych więźniów, których już uśmiercił, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n3" type="comm" target="quarantana/intro.xml#intro_10023" targetEnd="quarantana/intro.xml#intro_10037">wskrzesza je, przygląda się im i na nowo do boju szykuje. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n4" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10060">
+                        Wszelako eni rycerze pióra, którzy na tém polu zbierają mnogie wawrzyny i palmy, unoszą stąd same tylko świetne i bogate łupy, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n5" type="comm" target="quarantana/intro.xml#intro_10061" targetEnd="quarantana/intro.xml#intro_10073">
+                        balsamem swego atramentu namaszczają dzieje Królów, Książąt i Możnych, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n6" type="comm" target="quarantana/intro.xml#intro_10074" targetEnd="quarantana/intro.xml#intro_10092">
+a zawlokłszy złote i srebrne nici do cienkiéj igły mądrości haftują misterny kobierzec z samych świetnych i rozgłośnych czynów. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n7" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10105">
+Nie memu to wszakże słabemu rozumowi pozwolono wznieść się do takich argumentów ani do takich niebezpiecznych świetności; 
+                    </note>
+
+                    <note xml:id="Polish_intro-n8" type="comm" target="quarantana/intro.xml#intro_10106" targetEnd="quarantana/intro.xml#intro_10118">
+nie mnie dano krążyć w labiryntach przemądréj Polityki, ani słuchać potężnego głosu surm wojowniczych; 
+                    </note>
+
+                    <note xml:id="Polish_intro-n9" type="comm" target="quarantana/intro.xml#intro_10119" targetEnd="quarantana/intro.xml#intro_10136">
+ja człowiek prosty i w mądrość ubogi, mając tylko wiadomość o wielce ciekawych i godnych pamięci dziejach, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n10" type="comm" target="quarantana/intro.xml#intro_10137" targetEnd="quarantana/intro.xml#intro_10155">
+postanowiłem, ku pożytkowi i nauce potomnych, spisać je w tej oto opowieści czyli relacyi, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n11" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10170">
+w której jak na żałobnym Teatrze każdy zobaczy Tragedye okropne i sceny wielkiej niegodziwości, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n12" type="comm" target="quarantana/intro.xml#intro_10171" targetEnd="quarantana/intro.xml#intro_10181">
+a podobnież i czyny najszlachetniejsze i dobroć anielskich serc, które walczyć tu będą z czartowską przemocą. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n13" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10203">
+Zważywszy jednak, że te nasze Klimata są pod panowaniem Arcykatolickiej Osoby Najmiłościwszego Króla naszego Pana, który jest owém Słońcem, co nigdy nie zachodzi, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n14" type="comm" target="quarantana/intro.xml#intro_10204" targetEnd="quarantana/intro.xml#intro_10228">
+i że odbijając w sobie Jego świetność w tych naszych Klimatach jest także i Księżyc nigdy nie zachodzący, Bohater szlachetnego rodu, który pro tempore sprawia tu rządy, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n15" type="comm" target="quarantana/intro.xml#intro_10229" targetEnd="quarantana/intro.xml#intro_10253">
+i że są tu cni Senatorowie, jako gwiazdy stałe i inni wielmoźni Dostojnicy, jako planety pomniejsze, które wszędzie światło sieją, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n16" type="comm" target="quarantana/intro.xml#intro_10254" targetEnd="quarantana/intro.xml#intro_10275">
+i że wszyscy razem stanowią tu Firmament najszlachetniejszy, innéj zatém racyi nie można wynaleść widząc te kraje nasze tak zmienione w piekło ciemnych czynów złości i niesprawiedliwości, które ludzie zuchwali mnożą, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n17" type="comm" target="quarantana/intro.xml#intro_10276" targetEnd="quarantana/intro.xml#intro_10311">
+tylko, że to się dzieje przez sprośny podstęp i moc dyabelską, gdyż sama złość człowiecza nie mogłaby się ostać tylu Bohaterom, którzy oczami Argusa i rękami Bryareusa czuwają nad szczęśliwością tych naszych Krajów. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n18" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10346">
+Dlatego więc w opisie tej Historyi, która działa się w latach mojej młodości i chociaż wszystkie prawie osoby w niej występujące już znikły ze sceny tego świata, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n19" type="comm" target="quarantana/intro.xml#intro_10347" targetEnd="quarantana/intro.xml#intro_10365">
+bo im Parki nić żywota przecięły, jednak dla przyczyn mnogich i godnych uwagi nie będą tu wymienione ich imiona, to jest ich parentela, a toż samo uczyni się i z miejscowościami, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n20" type="comm" target="quarantana/intro.xml#intro_10366" targetEnd="quarantana/intro.xml#None">
+gdyż będą wymienione tylko territoria generaliter. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n21" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10385">
+Powie zatem nie jeden, że to jest kalectwo téj oto opowieści i wielka w niej szpetność, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n22" type="comm" target="quarantana/intro.xml#intro_10386" targetEnd="quarantana/intro.xml#intro_10397">
+ale ten, co to powie, nie uprawiał nigdy pola Filozofii, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n23" type="comm" target="quarantana/intro.xml#intro_10398" targetEnd="quarantana/intro.xml#intro_10412">
+bo ludzie mądrzy, takową posiadający, nie znajdą, aby coś przez to miało ubyć substancyi tej mojej relacyi, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n24" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#None">
+ponieważ rzecz to widoczna i przez mądrych uznana, że imiona ludzkie są prostym trafem czyli przypadkiem, więc... 
+                    </note>
+                </p>
+                <p xml:id="P2">
+
+                    <note xml:id="Polish_intro-n25" type="comm" target="quarantana/intro.xml#intro_10431" targetEnd="quarantana/intro.xml#intro_10447">
+Lecz gdybym nawet podołał bohaterskiej pracy przepisania tego ciężkiego, nadętego, wyblakłego rękopismu, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n26" type="comm" target="quarantana/intro.xml#intro_10448" targetEnd="quarantana/intro.xml#intro_10456">
+i gdybym następnie, jak to mówią, na świat go wydał, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n27" type="comm" target="quarantana/intro.xml#intro_10457" targetEnd="quarantana/intro.xml#intro_10465">
+to i któż mi zaręczy, że się znajdą ludzie dość cierpliwi, aby go odczytać? 
+                    </note>
+                </p>
+                <p xml:id="P3">
+
+                    <note xml:id="Polish_intro-n28" type="comm" target="quarantana/intro.xml#intro_10467" targetEnd="quarantana/intro.xml#None">
+Myśl ta, zrodzona przy męczącém wyczytywaniu stosu starych gryzmołów, które trafiły do mnie po wielu i wielu nieszczęśliwych przygodach, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n29" type="comm" target="quarantana/intro.xml#intro_10482" targetEnd="quarantana/intro.xml#intro_10496">
+kazała mi zaniechać ich przepisywania i zmusiła do głębszego zastanowienia się nad tém, co z niemi uczynić wypada. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n30" type="comm" target="quarantana/intro.xml#intro_10498" targetEnd="quarantana/intro.xml#intro_10506">
+To prawda powtarzałem w duchu przerzucając daléj pożółkłe karty 
+                    </note>
+
+                    <note xml:id="Polish_intro-n31" type="comm" target="quarantana/intro.xml#intro_10507" targetEnd="quarantana/intro.xml#intro_10525">
+to prawda, że rękopism nie wszędzie jest tak niepospolicie kwiecisty i wzniosły. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n32" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10538">
+Szanowny pisarz z XVII stulecia, głównie na początku chciał cały zasób swéj mądrości wykazać, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n33" type="comm" target="quarantana/intro.xml#intro_10539" targetEnd="quarantana/intro.xml#intro_10558">
+w dalszym ciągu opowieści, nieraz przez czas dość długi, styl jest o wiele gładszy i naturalniejszy. Ale ztémwszystkiem, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n34" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">
+jakże mu wiele jeszcze brakuje! Jest tak tuzinkowy, tak nudny, tak nieprawidłowy! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n35" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10580">
+Język stary, pokaleczony, całe okresy śmieszne 
+                    </note>
+
+                    <note xml:id="Polish_intro-n36" type="comm" target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10630">
+i niewiadomo po co wstawione! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n37" type="comm" target="quarantana/intro.xml#intro_10631" targetEnd="quarantana/intro.xml#intro_10671">
+Oprócz tego, hiszpańskie wyrazy tu i ówdzie wyrastają, jak kwiatki na niwie, a co jeszcze gorzej, to to, iż w niektórych najbardziej strasznych, lub rozczulających miejscach, tam, gdzie się nadarza sposobność wzbudzenia podziwu lub jakiejś głębszej myśli, słowem wszędzie, gdzie niezbędném jest użycie retoryki, ale retoryki umiarkowanej, bystréj, delikatnéj, dobrze zrozumianéj, nasz autor wraca zawsze do stylu swéj znakomitéj przedmowy, i przy téj zręczności gromadząc w jednę całość najbardziej z sobą sprzeczne przymiotniki, porównania i zdania, znajduje możność stania się jednocześnie niezgrabnym, nieznośnym, nadętym i śmiesznym. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n38" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10681">
+Oto tu naprzykład: deklamacya szumna, pisownia haniebna, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n39" type="comm" target="quarantana/intro.xml#intro_10682" targetEnd="quarantana/intro.xml#intro_10700">
+styl niepojęty, a do tego jeszcze owa niesłychana zarozumiałość cechująca wszystkich prawie pisarzy z tej samej epoki i z tego kraju. 
+                    </note>
+                </p>
+                <p xml:id="P4">
+
+                    <note xml:id="Polish_intro-n40" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">
+Nie, w żadnym razie niepodobna uraczyć dziś czytającą publiczność tak niepospolitą książką; to nie dla niéj; tylko odrazę i śmiechby wzbudziła. 
+                    </note>
+                </p>
+                <p xml:id="P5">
+
+                    <note xml:id="Polish_intro-n41" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_10734">
+Jakież-to szczęście, że to mi na myśl przyszło zaraz na początku téj nieznośnej pracy! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n42" type="comm" target="quarantana/intro.xml#intro_11199" targetEnd="quarantana/intro.xml#None">
+A więc umywam ręce, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n43" type="comm" target="quarantana/intro.xml#None" targetEnd="quarantana/intro.xml#None">
+chowam rękopism 
+                    </note>
+
+                    <note xml:id="Polish_intro-n44" type="comm" target="quarantana/intro.xml#None" targetEnd="quarantana/intro.xml#None">
+i nic już o nim wiedzieć nie chcę. 
+                    </note>
+                </p>
+                <p xml:id="P6">
+
+                    <note xml:id="Polish_intro-n45" type="comm" target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10748">
+A jednak, zamykając tę starą księgę, aby ją gdzieś w kącie biblioteki zagrzebać, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n46" type="comm" target="quarantana/intro.xml#intro_10749" targetEnd="quarantana/intro.xml#intro_10760">
+niezmiernie przykro mi było, iż nikt oprócz mnie nie dowie się nigdy o téj cudnej powieści; 
+                    </note>
+
+                    <note xml:id="Polish_intro-n47" type="comm" target="quarantana/intro.xml#intro_10761" targetEnd="quarantana/intro.xml#intro_10772">
+gdyż treść rękopismu, nie wiem wprawdzie, jak się wyda moim czytelnikom, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n48" type="comm" target="quarantana/intro.xml#intro_10773" targetEnd="quarantana/intro.xml#intro_10782">
+lecz mnie zdawała się naprawdę piękną i bardzo piękną. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n49" type="comm" target="quarantana/intro.xml#intro_10784" targetEnd="quarantana/intro.xml#intro_10800">
+Mógłbym ją wszakże sam opracować podług starego wzoru, przerobić i podać do druku! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n50" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#10826">
+Uchwyciłem się chciwie téj nowej myśli, a ponieważ nie natrafiła już na żadne trudności, których-by zwalczyć było niepodobna, wziąłem się odrazu do dzieła. 
+                    </note>
+                </p>
+                <p xml:id="P7">
+
+                    <note xml:id="Polish_intro-n51" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">
+Wszakże, niektóre wypadki, pewne obyczaje i prawa, które rękopism przytacza, wydały mi się tak niezwyczajne, tak dziwne a nawet haniebne, że przed uwierzeniem w nie chciałem jeszcze innych świadectw zasięgnąć i zacząłem szperać i grzebać w pamiętnikach spółczesnych memu autorowi, szukając w nich potwierdzenia tego, czy istotnie, świat w owe czasy szedł tak niecnym torem. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n52" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10887">
+Te badania rozwiały wszelkie wątpliwości: 
+                    </note>
+
+                    <note xml:id="Polish_intro-n53" type="comm" target="quarantana/intro.xml#intro_10888" targetEnd="quarantana/intro.xml#intro_10900">
+co krok natrafiałem na gorsze jeszcze rzeczy, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n54" type="comm" target="quarantana/intro.xml#intro_10901" targetEnd="quarantana/intro.xml#intro_10931">
+i odnalazłem nawet wzmianki o niektórych osobach występujących w starym rękopiśmie. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n55" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10943">
+Kilka wyjątków z tych pamiętników przytoczę w ciągu mego opowiadania, aby świadczyły o prawdziwości faktów, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n56" type="comm" target="quarantana/intro.xml#intro_10944" targetEnd="quarantana/intro.xml#intro_10956">
+które bez tego mogłyby się wydać całkiem zmyślonemi. 
+                    </note>
+                </p>
+                <p xml:id="P8">
+                    <note xml:id="Polish_intro-n57" type="comm" target="quarantana/intro.xml#None" targetEnd="quarantana/intro.xml#None">
+Powiedziałem przed chwilą, iż niepodobna zachować w opowiadaniu nadętego stylu jego autora z XVII stulecia. 
+                    </note>
+                    <note xml:id="Polish_intro-n57" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">
+                     Lecz czém że ja go zastąpię i jak ta praca będzie przyjęta przez czytającą publiczność? 
+                    </note>
+
+                    <note xml:id="Polish_intro-n58" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">
+Oto nowe trudne pytanie... 
+                    </note>
+                </p>
+                <p xml:id="P9">
+
+                    <note xml:id="Polish_intro-n59" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_10999">
+Każdy, kto nie będąc do tego upoważnionym,, wtrąca się do spraw cudzych, musi już przez to samo zdać ścisły rachunek ze swojej czynności i zaciąga w tym razie pewien rodzaj moralnego zobowiązania. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n60" type="comm" target="quarantana/intro.xml#intro_11000" targetEnd="quarantana/intro.xml#intro_11015">
+Z pod tego prawa, wypływającego z saméj już natury rzeczy, nie myślę też się wcale usuwać. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n61" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11069">
+Przeciwnie, chcąc zupełnie zadość jemu uczynić, miałem zamiar w szczegółowém sprawozdaniu wyjaśnić wszystkie przyczyny, dla których tak a nie inaczej pisałem i w tym celu, w ciągu całej pracy starałem się odgadnąć i przewidzieć zgóry zarzuty i krytyki, na jakie mogę być narażony. Dla miłości prawdy muszę to wyznać, iż robota sama zbyt wiele mię kosztowała, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n62" type="comm" target="quarantana/intro.xml#intro_11070" targetEnd="quarantana/intro.xml#intro_11092">
+gdyż szukając zarzutów, nie zdarzyło mi się nigdy wynaleść takiego, z którym-by jednocześnie w umyśle moim nie zjawiła się zwycięska odpowiedź, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n63" type="comm" target="quarantana/intro.xml#intro_11093" targetEnd="quarantana/intro.xml#intro_11104">
+jedna z tych odpowiedzi, które nie rozwiązując stanowczo pytania, zupełnie je wszakże zmieniają. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n64" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11118">
+Często téź, biorąc dwa jakieś zarzuty, kazałem im ścierać się i walczyć ze sobą, 
+                    </note>
+
+                    <note xml:id="Polish_intro-n65" type="comm" target="quarantana/intro.xml#intro_11119" targetEnd="quarantana/intro.xml#intro_11141">
+aż w końcu udało mi się odkryć, że choć tak różne z pozoru, w gruncie jednak były téj samej natury 
+                    </note>
+
+                    <note xml:id="Polish_intro-n66" type="comm" target="quarantana/intro.xml#intro_11142" targetEnd="quarantana/intro.xml#intro_11159">
+i że oba wypływały z niedostatecznego zbadania przyczyn, które muszą być podstawą sądu. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n68" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">
+Zdaje mi się, iż nie znalazłoby się chyba pisarza, któryby lepiej dowiódł, że we wszystkiém miał słuszność i że postąpił doskonale. 
+                    </note>
+
+                    <note xml:id="Polish_intro-n69" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11187">
+Lecz cóż się dzieje! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n70" type="comm" target="quarantana/intro.xml#intro_11188" targetEnd="quarantana/intro.xml#intro_11211">
+Oto kiedy już byłem u kresu zbierania wszystkich możliwych i niemożliwych krytyk, i kiedy odpowiedzi na nie równie już były gotowe, okazało się niestety, że utworzyły razem całą wielką księgę! 
+                    </note>
+
+                    <note xml:id="Polish_intro-n71" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11230">
+Widząc to musiałem zaniechać myśli wydawania krytyk i niewłaściwej oceny, dla dwu powodów, które czytelnik uzna niewątpliwie za dobre: 
+                    </note>
+
+                    <note xml:id="Polish_intro-n72" type="comm" target="quarantana/intro.xml#intro_11231" targetEnd="quarantana/intro.xml#intro_11249">
+po pierwsze, iż książka przeznaczona do usprawiedliwienia innéj książki mogłaby się wydać rzeczą co najmniej śmieszną; 
+                    </note>
+
+                    <note xml:id="Polish_intro-n73" type="comm" target="quarantana/intro.xml#intro_11250" targetEnd="quarantana/intro.xml#intro_11262">
+powtóre, że i jednéj książki dosyć, jeżeli nawet nie zawiele na raz. 
+                    </note>
+                </p>
+  </div>
+        </body>
+    </text>
+</TEI>

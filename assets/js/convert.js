@@ -77,14 +77,14 @@ function convertCommentXMLToHtml(authorName, chapterName) {
 }
 
 
-function convertTranslationXMLToHtml(language) {
+function convertTranslationXMLToHtml(language, chapterName) {
   try {
     // Read and parse JSON file synchronously
     const data = fs.readFileSync('./translations/output.json', 'utf8');
-    const commentiInfo = JSON.parse(data);
+    const translationsInfo = JSON.parse(data);
 
     // Filter for the matching author's name
-    const matchingEntry = commentiInfo.find(entry => entry.language === language);
+    const matchingEntry = translationsInfo.find(entry => entry.language === language);
 
     // Check if a matching entry was found
     if (matchingEntry) {
@@ -92,7 +92,18 @@ function convertTranslationXMLToHtml(language) {
       const authorFile = matchingEntry.filename;
 
       // Read XML and XSLT files synchronously
-      const xmlDoc = fs.readFileSync(`./translations/${language}.xml`, 'utf8');
+      let xmlDoc;
+      try {
+        xmlDoc = fs.readFileSync(`./translations/${language}/${chapterName}.xml`, 'utf8');
+      } catch (error) {
+        console.error("Error reading XML file:", error);
+        return "Questo capitolo non è ancora stato digitalizzato."; // Error message for file read failure
+      }
+      // Check if the XML document is empty
+      if (!xmlDoc) {
+        console.log("No matching entry found for the specified language.", language);
+        return "This language is not available for this chapter yet."; // Message for no XML
+      }
       const xslStylesheet = fs.readFileSync(__dirname + '/translation.xslt', 'utf8');
 
       const xmlDocument = xmlParse(xmlDoc);

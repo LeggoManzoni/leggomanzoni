@@ -24,7 +24,7 @@ The project is not only a scientific endeavor but also a shared laboratory betwe
 
 ### Development Status:
 The project is ongoing. Currently, it includes:
-- Images for the Introduction and Chapter I
+- Images of all the pages of the Quarantana edition
 - Complete commentary by Luigi Russo and Mariarosa Bricchi
 - Commentaries on the Introduction and Chapter I from other commentators
 - Translations of the Introduction and Chapter I in various languages
@@ -93,7 +93,7 @@ LeggoManzoni/
 The main application is set up in `app.js`, which initializes Express, sets up middleware, and defines the main routes.
 
 ### 6.2 Static File Serving
-Static files are served from the `assets`, `quarantana`, `translations`, `commenti` and `data` directories.
+TEI files and XSLT templates are served from the `assets`, `quarantana`, `translations` and `commenti` directories.
 
 ### 6.3 View Engine Configuration
 EJS is used as the view engine, with views located in the `views` directory.

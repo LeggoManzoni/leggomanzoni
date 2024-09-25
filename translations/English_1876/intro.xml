@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>INTRODUCTION</title>
+                <respStmt>
+                    <resp>Supervisione codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica automatizzata</resp>
+                    <persName xml:id="ML">Maria Levchenko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Scheda editoriale</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>The Betrothed</title>
+                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
+                    <pubPlace>Lonond</pubPlace>
+                    <publisher>George Bell and Sons, York Street, Covent Garden</publisher>
+                    <date>1876</date>
+                    <respStmt>
+                        <resp>Translated by</resp>
+                        <persName xml:id="A1">Anonymous</persName>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduction, cap. 1 </p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="English_1876">
+                <p xml:id="P1">
+                    <note xml:id="English_1876-n1" type='comm' target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">
+                        "HISTORY may truly be defined a mighty Warfare against Time, forasmuch as, taking Prisoners by Force the Years of Time, already dead, she recalleth them to Life, bringeth them under Review, and re-arrangeth them in Battle-Array.
+                    </note>
+                    <note xml:id="English_1876-n2" type='comm' target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">
+                        But the illustrious Champions who in this Arena reap a Harvest of Palms and Laurels, do use to seize only upon the most pompous and brilliant of the Spoils, embalming with their empurpled Fluid the Enterprises of Princes and Potentates, and such-like qualified Personages, and embroidering with the acute Needle of Genius those golden and silken Threads which form an uninterrupted Tapestry of famous Actions.
+                    </note>
+                    <note xml:id="English_1876-n3" type='comm' target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">
+                        Whereas to my Feebleness it is not permitted to rise to such Arguments and perilous Sublimities, ranging among the Labyrinths of political Factions, and the warlike Clang of brazen Trumpets: but only this, that having come to the Knowledge of Facts worthy of Remembrance, even though they happened to Persons of low Condition and ordinary Rank, I would address myself to the Task of leaving their  Memoir to Posterity, by giving with all Accuracy and Genuineness the Account, or rather Relation, of them.
+                    </note>
+                    <note xml:id="English_1876-n4" type='comm' target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">
+                        Wherein will be seen, on a narrow Theatre, grievous Tragedies of Horror, and Scenes of great Wickedness, interspersed with virtuous Enterprises and angelic Goodness, opposed unto Satanic Operations.
+                    </note>
+                    <note xml:id="English_1876-n5" type='comm' target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">
+                        And in good Truth, seeing that this our Country is beneath the Rule of His Catholic Majesty, our Governor, who is that Sun which doth never set; and that, moreover, in Addition, shineth with reflected Light that Moon which never waneth, the Hero of Prosapia, who, for the Time present, occupieth his Place; and the most noble Senators, those fixed Stars, and the other admirable Magistrates, who, like wandering Planets, diffuse the Light in all Quarters, hereby forming a most glorious Firmament, — other Cause cannot be discovered wherefore it should be transmuted into the dark Shadows of infernal Deeds, Wickedness, and Cruelty, such as by rash Men are multiplied, except it come to pass by diabolical Art and Plottings, since human Malice alone could never suffice to resist so great a Force of Heroes, who, with the Eyes of Argus, and Limbs of Briareus, deal with the public Wealth. 
+                    </note>
+                    <note xml:id="English_1876-n6" type='comm' target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">
+                        Wherefore, describing these Events which took place in the Times of my still verdant Youth, notwithstanding the greater Part of the Persons here represented have disappeared from the Stage of this World, and become Tributaries to the Fates; nevertheless, for worthy Reasons, Silence shall shroud their Names, that is, the Names of their Families, and the same shall be observed of Places, only indicating the Territory generaliter.
+                    </note>
+                    <note xml:id="English_1876-n7" type='comm' target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10412">
+                        Nor let any one say that this will be an Unperfectness in the Story, and Deformity of this my unpolished Production; at least, let not such a Critic be a person greedy of philosophic Repute; for as to Men versed in the Stores of Philosophy, they will see clearly that there is Nothing wanting to the Substance of the said Narrative.
+                    </note>
+                    <note xml:id="English_1876-n8" type='comm' target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10429">
+                        Forasmuch as, it being self-evident, and denied by none, that Names are Nothing but mere — the merest Accidents..."
+                    </note>
+                </p>
+                <p xml:id="P2">
+                    <note xml:id="English_1876-n9" type='comm' target="quarantana/intro.xml#intro_10431" targetEnd="quarantana/intro.xml#intro_10465">
+                        — But when I shall have undergone the heroic fatigue of transcribing this history from this blotted and bescratched autograph, and shall have brought it, as they say, to light, will any one be found to endure the fatigue of reading it?
+                    </note>
+                </p>
+                <p xml:id="P3">
+                    <note xml:id="English_1876-n10" type='comm' target="quarantana/intro.xml#intro_10467" targetEnd="quarantana/intro.xml#intro_10496">
+                        This doubtful reflection, originating in the endeavour to decipher a great blot which came after Accidents, brought my copy to a stand-still, and made me reflect more seriously upon what ought to be done.
+                    </note>
+                    <note xml:id="English_1876-n11" type='comm' target="quarantana/intro.xml#intro_10498" targetEnd="quarantana/intro.xml#intro_10525">
+                        It is quite true, said I to myself, running my eye over the manuscript, it is very true, this hailstorm of little conceits and figures of speech, does not continue so uninterruptedly through the work.
+                    </note>
+                    <note xml:id="English_1876-n12" type='comm' target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">
+                        The good man, after the fashion of his time, was willing at first start to make a little show of his abilities; but afterwards, in the course of the narration, sometimes for a long time together, the style runs more naturally and smoothly.
+                    </note>
+                    <note xml:id="English_1876-n13" type='comm' target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10580">
+                        Yes; but then how commonplace he is! how dry! how incorrect! Lombard idioms without end, conversational terms introduced out of place, grammatical rules neglected at will, sentences awkwardly constructed.
+                    </note>
+                    <note xml:id="English_1876-n14" type='comm' target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10611">
+                        And then, sundry Spanish elegances scattered here and there; and then, which is worse, in tragic or pitiful portions of the story, on every event which excites wonder, or calls forth reflections 
+                    </note>
+                    <note xml:id="English_1876-n15" type='comm' target="quarantana/intro.xml#intro_10612" targetEnd="quarantana/intro.xml#intro_10626">
+                        — in all such passages, in short, as require a little eloquence, but discreet, delicate, and in good taste,  
+                    </note>
+                    <note xml:id="English_1876-n16" type='comm' target="quarantana/intro.xml#intro_10627" targetEnd="quarantana/intro.xml#intro_10643">
+                        this author never fails to indulge in something of similar character with his exordium. 
+                    </note>
+
+                    <note xml:id="English_1876-n17" type='comm' target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10671">
+                        And then, uniting, with wonderful talent, the most repugnant qualities, he manages to be unpolished and affected at once, in the same page, the same period, the same expression.                    </note>
+
+                    <note xml:id="English_1876-n18" type='comm' target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10700">
+                        Here are bombastic declamations made up by force of limping solecisms, and throughout the whole that ambitious dulness which is the peculiar characteristic of the writers of his country at that time.
+                    </note>
+
+                    <note xml:id="English_1876-n19" type='comm' target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">
+                        In very truth, it is not a production fit to present to readers of to-day, — they are too well advised, too much disgusted with extravagances of this kind.
+                    </note>
+                    <note xml:id="English_1876-n20" type='comm' target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_10740">
+                        A fortunate escape for me, that this good thought has suggested itself at the beginning of this unhappy work. I wash my hands of it.
+                    </note>
+                </p>
+                <p xml:id="P7">
+                    <note xml:id="English_1876-n21" type='comm' target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10782">
+                        But in the very act of shutting up the rejected manuscript, to put it away again, it seemed sad to me that so pretty a story should remain for ever unknown; for as to the story itself, it may appear differently to the reader, but to me, I say, it appears very pretty.
+                    </note>
+
+                    <note xml:id="English_1876-n22" type='comm' target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">
+                        Why, thought I, should I not take the series of facts from this manuscript, and re-cast the language?
+                    </note>
+                    <note xml:id="English_1876-n23" type='comm' target="quarantana/intro.xml#intro_10802" targetEnd="quarantana/intro.xml#intro_10812">
+                        No reasonable why not having presented itself, this plan was embraced at once.
+                    </note>
+                    <note xml:id="English_1876-n24" type='comm' target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">
+                        And now you have the origin of the present work, set forth with an ingenuousness corresponding to the importance of the same.  
+                    </note>
+
+                    <note xml:id="English_1876-n25" type='comm' target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">
+                        Some of these facts, however — certain customs described by our author — seemed to us so new, so strange, to say no worse, that, before putting faith in them, we determined to question other authorities. 
+                        And we set ourselves the task of groping among the records of that age, to certify ourselves whether the world in those days really so went.
+                    </note>
+                    <note xml:id="English_1876-n26" type='comm' target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10900">
+                        This search dissipated all our doubts: at every step we stumbled on similar events, and even more wonderful; 
+                    </note>
+                    <note xml:id="English_1876-n27" type='comm' target="quarantana/intro.xml#intro_10901" targetEnd="quarantana/intro.xml#intro_10931">
+                        and, what appeared to us most decisive, we have, in the course of our reading, met with some personages, of whom having never seen any notice beyond the pages of our manuscript, we had doubted whether they had ever enjoyed a real existence.
+                    </note>
+
+                    <note xml:id="English_1876-n28" type='comm' target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">
+                        In the course of the story we cite a few of these testimonies to gain credence for facts, from which, on account of their strangeness, the reader might have been most tempted to withhold it.
+                    </note>
+                </p>
+                <p xml:id="P10">
+                    <note xml:id="English_1876-n29" type='comm' target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10975">
+                        But having rejected as intolerable the diction of our author, — of what kind is that which we have substituted? Here's the point.
+                    </note>
+                </p>
+                <p xml:id="P11">
+                    <note xml:id="English_1876-n30" type='comm' target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_10999">
+                        Whoever, without being asked, sets himself to revise another's work, must be prepared to render a strict account of his own, and, as it were, contracts an obligation to do so.
+                    </note>
+                    <note xml:id="English_1876-n31" type='comm' target="quarantana/intro.xml#intro_11000" targetEnd="quarantana/intro.xml#intro_11015">
+                        This is a rule in fact and justice from which we do not pretend to exempt ourselves. 
+                    </note>
+                    <note xml:id="English_1876-n32" type='comm' target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11037">
+                        So much so, that in order to conform to it with a good grace, we had proposed to give here a minute account of the manner of composition adopted by us;  
+                    </note>
+                    <note xml:id="English_1876-n32_1" type='comm' target="quarantana/intro.xml#intro_11038" targetEnd="quarantana/intro.xml#intro_11062">
+                        and to this end we went seeking, all the time the work lasted, to divine all possible and contingent criticisms, with the intention of answering them by anticipation.
+                    </note>
+                    <note xml:id="English_1876-n33" type='comm' target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">
+                       Nor would the difficulty have lain here (since we must say this in honour of truth): not a single criticism occurred to us, but there came along with it a triumphant answer; I do not say such an answer as resolves questions, but reverses them.
+                    </note>
+
+                    <note xml:id="English_1876-n34" type='comm' target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">
+                        Often, too, putting two criticisms one over aainst the other, we made them beat each other down; or, examining well their inward essence, and attentively comparing them, we succeeded in discovering and showing that, opposed as they were in appearance, they were nevertheless of one genius, springing both one and other from not perceiving the facts and principles on which a judgement should be formed.
+                        To their great surprise, we put them both together, and together walked them off.
+                    </note>
+                    <note xml:id="English_1876-n35" type='comm' target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">
+                        Never was there an author who proced so undeniably that he had done well.
+                            </note>
+                    <note xml:id="English_1876-n36" type='comm' target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">
+                        But then! by the time we have developed all the said objections and replies, and put them in some order, alas! we shall have made a book.
+                    </note>
+                </p>
+                <p xml:id="P13">
+                    <note xml:id="English_1876-n37" type='comm' target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">
+                        When we saw this, we put aside the thought for two reasons, which the reader will certainly find convincing: first, that to print a book to defend another, not to say the style of another, might appear ridiculous; secondly, that of books, one at a time is enough, when there is no profit in advance.
+                    </note>
+                </p>
+  </div>
+        </body>
+    </text>
+</TEI>

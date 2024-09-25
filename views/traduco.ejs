@@ -61,44 +61,6 @@
                             </ul>
                         </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
-                                <div id="myModal" class="modal">
-
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <span class="close">&times;</span>
-                                            <h2>Tutorial rapido</h2>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                In questa pagina troverai gli strumenti necessari per una lettura
-                                                interattiva della Quarantana dei Promessi Sposi di Alessandro Manzoni.
-                                                <br>
-                                            </p>
-                                            <p>
-                                                Nella colonna a sinistra potrai navigare tra i capitoli e, cliccando su
-                                                questo bottone <i class="bi bi-arrows-angle-expand"
-                                                    id="enlargerRightI"></i> potrai allargare lo spazio di lettura a
-                                                schermo pieno. <br>
-                                            </p>
-                                            <p>Nella colonna a destra potrai scegliere quali commenti leggere. Il primo
-                                                che comparirà è il commento a cura di Mariarosa Bricchi, che è stato
-                                                reso disponibile per intero per tutti i capitoli. </p>
-                                            <p>Man mano che leggerai il testo della Quarantana il commento attivo
-                                                scorrerà automaticamente alla porzione di testo di riferimento. <br>
-                                            </p>
-                                            <p>I bottoncini in cima alla colonna dei commenti ti consentiranno di
-                                                allargare a tutto schermo la colonna a destra <i
-                                                    class="bi bi-arrows-angle-expand" id="enlargerRightI"></i>, di
-                                                leggere uno o due commenti per volta cliccando sul bottoncino circolare
-                                                <i class="bi bi-plus-circle" id="icon"></i> e, infine, di bloccare lo
-                                                scorrimento automatico del commento insieme al testo per uno o entrambi
-                                                i commenti attivi <i class="bi bi-toggle-on" id="icon"></i>.
-                                                <br>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="text-chapter" id="whichpage">
                                     <div class="section" id="2b-intro">
                                         <div class="header" id="2b-header">
@@ -115,10 +77,10 @@
                                             Lingua 1
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <% commenti.forEach((comment)=> { %>
-                                                <li><a class="dropdown-item comment-link" data-comment="<%= comment %>"
+                                            <% translations.forEach((translation)=> { %>
+                                                <li><a class="dropdown-item comment-link" data-comment="<%= translation %>"
                                                         href="#">
-                                                        <%= comment %>
+                                                        <%= translation %>
                                                     </a></li>
                                                 <% }); %>
                                         </ul>
@@ -128,23 +90,23 @@
                                             Lingua 2
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <% commenti.forEach((comment)=> { %>
+                                            <% translations.forEach((translation)=> { %>
                                                 <li><a class="dropdown-item comment-link-2"
-                                                        data-comment="<%= comment %>" href="#">
-                                                        <%= comment %>
+                                                        data-comment="<%= translation %>" href="#">
+                                                        <%= translation %>
                                                     </a></li>
                                                 <% }); %>
                                         </ul>
                                         <button class="add-button">
                                             <i class="bi bi-plus-circle" id="splitButton" onclick="toggleColumn();"></i>
                                         </button>
-                                        <div id="popup">Clicca qui per visualizzare due commenti.
+                                        <div id="popup">Clicca qui per visualizzare due traduzioni.
                                         </div>
                                         <button class="enlarger">
                                             <i class="bi bi-arrows-angle-expand" id="enlargerRight" onclick="enlargeRightColumn();"></i>
                                             <!-- Extension symbol -->
                                         </button>
-                                        <div id="popupR">Visualizza il commento in
+                                        <div id="popupR">Visualizza il traduzione in
                                             modalità full-screen.
                                         </div>
                                     </div>
@@ -172,6 +134,10 @@
                 <!-- Scripts-->
                 <%- include("partials/scripts"); %>
                 <script src="./assets/js/converted_translations.js"></script>
+                <!-- Add toggle icon for translation source -->
+                <button class="btn btn-secondary" id="toggle-translation-source" title="Toggle Translation Source">
+                    <i class="bi bi-toggle-on"></i> <!-- Replace with appropriate icon classes if needed -->
+                </button>
     </body>
 
 </html>

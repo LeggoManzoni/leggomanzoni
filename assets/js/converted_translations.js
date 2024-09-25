@@ -1,56 +1,72 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
-    const defaultComment = 'English_2022';
-    
-    const defaultChapter = 'intro';
+    const defaultLanguage = 'English_1972';
+    const defaultChapter = 'intro'; // Ensure defaultChapter is set
 
-    // Fetch and display the default comment and chapter
-    fetchAndDisplayData(`./get-translation/${defaultComment}`, '.text-comment-top', 'data-active-comment');
-    fetchChapter(defaultChapter);
+    // // Set default languages
+    // document.getElementById('toggle-commenti1').innerText = defaultLanguage;
+    // document.getElementById('toggle-commenti2').innerText = defaultLanguage;
+
+    const activeChapter = document.querySelector('.chapter-link.active-chapter') 
+        ? document.querySelector('.chapter-link.active-chapter').getAttribute('data-chapter') 
+        : defaultChapter;
+
+    console.log("Chapter from DOMContentLoaded", activeChapter);
+
+    // Fetch and display the default translation and chapter
+    fetchAndDisplayData(`./get-translation/${defaultLanguage}/${activeChapter}`, '.text-comment-top', 'data-active-comment');
+    fetchChapter(activeChapter);
 
     // Setup MutationObserver
     setupMutationObserver('.divisione');
 
     // Setup click event listeners for links
-    setupChapterClickListener('.chapter-link', fetchChapter, '.text-chapter');
+    setupChapterClickListener('.chapter-link', fetchChapter);
     setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
 
     setupHoverScrolling();
-
 });
 
-
-function fetchChapter(defaultChapter) {
+function fetchChapter(activeChapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
-    let chapterURL = imageElement ? `./get-chapter/${defaultChapter}` : `./get-chapter-with-images/${defaultChapter}`;
+    let chapterURL = imageElement ? `./get-chapter/${activeChapter}` : `./get-chapter-with-images/${activeChapter}`;
+    const activeCommentElement = document.querySelector('.comment-link.active-comment');
+    console.log("ActiveCommentElement", activeCommentElement);
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "English_1972"; // Fallback to defaultLanguage
 
-    // Proceed with the fetch operation
+    const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
+    console.log("ActiveCommentElement2", activeCommentElement2);
+    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : 'German_1880'; // Fallback to default comment if no active comment found
+    console.log("Chapter from fetchChapter", activeChapter);
+
+    // Fetch translations based on the active chapter
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
             
-            
             if (chapterElement) {
                 chapterElement.innerHTML = data;
                 const test_chapter = document.querySelector('.text-chapter#whichpage');
                 const h1Element = test_chapter.querySelector('h1');
-                h1Element.className = defaultChapter;
+                h1Element.className = activeChapter;
                 const promessisposiElement = document.getElementById('promessisposi');
                 if (promessisposiElement) {
                     promessisposiElement.scrollTop = 0;
                 }
 
-                highlightHoveredItem();  // Call the highlight function here
-                
+                highlightHoveredItem(); // Ensure highlighting is updated
+
+                // Fetch translations for both Lingua 1 and Lingua 2 based on the active chapter
+                fetchAndDisplayData(`./get-translation/${activeComment}/${activeChapter}`, '.text-comment-top');
+                fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
             }
         })
         .catch(console.error);
 }
 
-
-function changeClassAndFetchData(defaultChapter) {
+function changeClassAndFetchData(activeChapter) {
     // Change the image class to 'bi bi-image-fill'
     const test_chapter = document.querySelector('.text-chapter#whichpage');
     const h1Element = test_chapter.querySelector('h1');
@@ -66,11 +82,12 @@ function changeClassAndFetchData(defaultChapter) {
         imageIcon.className = "bi bi-card-image";
         popupImage.textContent = "Visualizza il testo con le immagini.";
     }
-    fetchChapter(chapter);
+    fetchChapter(activeChapter);
 }
 
-
 function fetchAndDisplayData(endpoint, selector, attribute) {
+    console.log("Endpoint", endpoint);
+
     fetch(endpoint)
         .then(response => response.text())
         .then(data => {
@@ -84,15 +101,17 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
         .catch(console.error);
 }
 
-
 function setupMutationObserver(selector) {
     const targetNode = document.querySelector(selector);
+    console.log("TargetNode", targetNode);
     if (targetNode) {
         const observer = new MutationObserver((mutationsList) => {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                    const comment = hasSingularTextClass(mutation.target) ? '' : 'English_1845';
-                    fetchAndDisplayData(`./get-translation/${comment}`, '.text-comment-bottom', 'data-active-comment');
+                    const translation = hasSingularTextClass(mutation.target) ? '' : 'English_1972';
+                    const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+                    const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : defaultChapter;
+                    fetchAndDisplayData(`./get-translation/${translation}/${activeChapter}`, '.text-comment-bottom');
                 }
             }
         });
@@ -104,19 +123,33 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
             event.preventDefault();
-            const data = event.target.getAttribute('data-comment');
-            fetchAndDisplayFunction(`./get-translation/${data}`, displaySelector, 'data-active-comment');
+            const selectedLanguage = event.target.getAttribute('data-comment');
+            const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+            const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "Introduzione";
+
+            fetchAndDisplayFunction(`./get-translation/${selectedLanguage}/${activeChapter}`, displaySelector, 'data-active-comment');
+
+            // Update the corresponding Lingua button label with the selected language
+            if (selector === '.comment-link') {
+                document.getElementById('toggle-commenti1').innerText = selectedLanguage;
+            } else if (selector === '.comment-link-2') {
+                document.getElementById('toggle-commenti2').innerText = selectedLanguage;
+            }
         });
     });
 }
 
-
-function setupChapterClickListener(selector, fetchAndDisplayFunction, displaySelector) {
+function setupChapterClickListener(selector, fetchAndDisplayFunction) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
             event.preventDefault();
-            const data = event.target.getAttribute('data-chapter');
-            fetchAndDisplayFunction(data, displaySelector, 'text-chapter');
+            const activeChapter = event.target.getAttribute('data-chapter');
+            
+            // Mark the clicked chapter as active
+            document.querySelectorAll('.chapter-link').forEach(link => link.classList.remove('active-chapter'));
+            event.target.classList.add('active-chapter');
+            
+            fetchAndDisplayFunction(activeChapter);
         });
     });
 }
@@ -128,9 +161,7 @@ function removeHighlightFromHoverItems() {
     hoverItems.forEach(hoverItem => {
         hoverItem.classList.remove('highlight');
     });
-
 }
-
 
 // Utility function to check if the target element has the specified classes
 function hasSingularTextClass(target) {
@@ -181,7 +212,6 @@ function highlightHoveredItemWithPencil() {
 
     }
 }
-
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById("upperDiv");

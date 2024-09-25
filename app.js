@@ -150,7 +150,7 @@ app.get('/get-comment/:authorName/:chapterName?', function (req, res) {
   var chapter = req.params.chapterName;
   if (chapter === "Introduzione") {
     chapter = "intro";
-  } 
+  }
 
   if (author && chapter) {
       try {
@@ -167,12 +167,17 @@ app.get('/get-comment/:authorName/:chapterName?', function (req, res) {
 });
 
 
-app.get('/get-translation/:language?', function (req, res) {
-  var author = req.params.language;
+app.get('/get-translation/:language/:chapterName?', function (req, res) {
+  var language = req.params.language;
+  var chapter = req.params.chapterName;
+  if (chapter === "Introduzione") {
+    chapter = "intro";
+  }
 
-  if (author) {
+  if (language && chapter) {
+    console.log(language, chapter);
       try {
-          var converted_data = convertTranslationXMLToHtml(author);
+          var converted_data = convertTranslationXMLToHtml(language, chapter);
           res.send(converted_data);
       } catch (error) {
           // Handle errors that might occur during conversion

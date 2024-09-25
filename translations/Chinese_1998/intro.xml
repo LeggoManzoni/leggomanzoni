@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>自 序</title>
+                <respStmt>
+                    <resp>Supervisione codifica</resp>
+                    <persName xml:id="ER">Ersilia Russo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica automatizzata</resp>
+                    <persName xml:id="ML">Maria Levchenko</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Scheda editoriale</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title>The Betrothed Lovers</title>
+                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Longman, Brown, Green, and Longmans</publisher>
+                    <date>1845</date>
+                    <respStmt>
+                        <resp>Translated by</resp>
+                        <persName xml:id="BP">Anonymous</persName>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Introduzione, cap. 1</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Benucci_intro">
+<p>
+                <note xml:id="chinese_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10311">自 序“对于历史,人们确实可以给它冠以抗衡时空的一场著名战争的定义,因为它总以时空手中夺回了它的风住,以及甚至乎已沦为尸体的年龄,然后再一次赋予它们新的生命,让它们在接受控制以后排列成行形成再次上场的.在这一特定的文化领域内等着将来被胜利和荣誉的,闻名遐迩的历史学家,他们摄取的只是施坎子古的名人遗骸,然后用臭水当作防腐液骨料涂抹和王绞公子和故贵妾等众人耀焰的业绩上,再用金线和金线穿过愁肠悒虑的.极其细小的针眼,绣出一幅幅显示他们休想不劳动的的,精美的艺术作品.就而,由于对瑞幸没,我本人没有资格应此上述题发表宏论.再说,让一个陷于政治阴谋和珠亮的勾计号角声包围中的人对意境如此崇高的主题高谈阔论,确实是一个件十分危险的事情.只有当我亲搓到值得回忆的史料(尽管它们都是发生在地位平微的工匠和农民中间一些足可轻重的琐事),我才决定采用平铺直叙的手法,将它们写成通俗易懂的故事并传说留给后人.通过这些故事,人们将看到发生当时人们对世俗的想法多么满怀无限依恋之情的场景,其间还穿插着一些与那些奇言行大相径庭的,恰现无羡美德的的故事.每当我想起,在无比宏伟壮丽的旷宇中,间耀着永不陨落的太阳,从万仞高的月亮,虽古来的恒星和遥无不定的行星(它们分别象征信奉天主教的国王庄坐下,显赫一时的家族英雄便),竟竟铭达的大法官和备受人们尊敬的地方行政司 官), 它们不仅起上述那样出落重于自己的保护之下,而且将其生苍海向村寨里的战争占每一个角落,我就没有任何特殊的理由相信,如旭明亮的天空会说它或无形魅魇幽魇,缥恶和暴力的黑暗地貌。 言行睿智的人正座成倍增多,俯浩施他们光凭凡人特有的计谋而不采取恶魔般的手段和行动,他们就在法掘偏人数众多的英雄,到身后者有了耳长斯的脱口和布里图斯的手第①,蓝用公关时言以其着肌腱的交易。 </note>
+                <note xml:id="chinese_intro-n2" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">由于我叙述的故事发生在战时停时代,故事中的大部分人物已从尘世的舞台上消失这成了一个个亡灵。 由于对他们应有的尊敬,我在故事中略去了他们的姓名,即使们家族的名号,至于故事发生的地点,我只是在指明一下它大概的方位。 </note>
+                <note xml:id="chinese_intro-n3" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10412">我想,没有人会觉得着作中的瑕疵或我这一部拙著的不足之处,除非持有批评视点的是一个终至哲学思想的庸人。 熟悉每部某文等作品的行家很快就会发现,在我叙述的故事中,主要的情节并未任何缺漏。 </note>
+                <note xml:id="chinese_intro-n4" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10429">啧啧显疑,与故事的情节相比,名字确实是最不起眼的一个纽扣部分,我想没人会否认这样的一个事实……” </note>
+                <note xml:id="chinese_intro-n5" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">然而,当我把这些谨慎和残缺不全的手稿抄写完毕之后(即按惯常的说法,将这本书公之于世),有人会不辞劳师敷阅读它吗?在我冥思苦想地试图解释“天哪”一词后面字迹潦草的段落时,心中不禁产生了上述的疑惑。 </note>
+                <note xml:id="chinese_intro-n6" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">我摊下手中的笔,开始认真地考虑下一步我干该如何走。 </note>
+                <note xml:id="chinese_intro-n7" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">毫无疑问,我一边圈阅手稿一边自言自语道,“整部作品里不可能自始至终都是一味迷溺奇特概念的词藻和怪异荒诞的形象。 </note>
+                <note xml:id="chinese_intro-n8" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">我们这位十七世纪的作家只是想在故事的开端烘耀一下自己的写作才华而已,随着故事情节一步步向纵深发展,尤其是在几个长段的描述中,其写作风格逐渐显得自然和明朗起来。 </note>
+                <note xml:id="chinese_intro-n9" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10643">是啊,即使在当时,这也是一种严肃,粗俗和不完美的文体:大量的伦巴第方言,使用不当的词组,任意堆砌的语法规则,结构条乱的句子和随处可见的体现西班牙语修辞法的痕迹……更为糟糕的是,上述语言弊病都出现在故事最容易引起读者恐惧,惊悚,惊异和思考的几个段落中。 没错,那几个段落确实需要恰如其分地加上一些华丽的词藻,但必须给人以清雅,优美的艺术享受。 本书的作者从不放弃显示他独辟蹊径的写作风格的机会,在这一方面,书中的序言就是一个典型的明证。 </note>
+                <note xml:id="chinese_intro-n10" type="comm" target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10671">他以非凡的才能,将性度迥异的几个部分组合在一起,用同样的词语成功地使同一页和同一句中的写作风格显得粗俗和难看。 </note>
+                <note xml:id="chinese_intro-n11" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10700">由于理不通和平淡无奇的句子勉强堆砌起来的段落只是在表面上显得懒散鄙夷,但贯串始终的却是拙劣,浮夸的文体,这正体现了当时意大利文坛的写作特点。 </note>
+                <note xml:id="chinese_intro-n12" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">确实,我们不该将此类怪诞的作品推荐给今天的读者,它们只能引起他们强烈的反感,导致他们完全丧失原先痴迷的乘性。 </note>
+                <note xml:id="chinese_intro-n13" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_10740">所幸,在我刚着手进行这一项讨厌的工作时,头脑中就萌生了就此搁笔的念头。 </note>
+                <note xml:id="chinese_intro-n14" type="comm" target="quarantana/intro.xml#intro_107401" targetEnd="quarantana/intro.xml#intro_10782">当我准备会掇记事本并将它束之高阁之后,我又为一则如此动人的故事从此将湮没无闻而深感遗憾。 也许,读者对它的评价不尽相同,但我觉得,它确实是一个感人肺腑的,十分美丽的故事。 </note>
+                <note xml:id="chinese_intro-n15" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10812">我心中思付:“我为何不把手稿中陈述的一连串事实归拢在一起后在语言上重新加以修饰呢?”由于无人从理性角度对我 的想法提出任何异议,我决定立即着手工作。 </note>
+                <note xml:id="chinese_intro-n16" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">这就是本书诞生的起源,我之所以只是寥寥数语加以解释,是想借此烘托本书的重要性。 </note>
+                <note xml:id="chinese_intro-n17" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">我们的作者在书中提及的某些史实和描述的某些当时的民间习俗,说一句不太难听的话,似乎十分怪异和荒诞。 正因如此,在坚信作者讲述的故事之真实性以前,我们还是想询问一下其他的证人。 我们开始在记载当时那个历史年代真实情况的回忆全部中查找明证,欲以此证实作者在书中向我们展示的世界是否真的同史实相符。 </note>
+                <note xml:id="chinese_intro-n18" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">调查的结果驱散了积压在我们心头的所有疑云,因为随着研究的不断深入,我们经常遇到一些同书中的情节十分相似或者甚至比它更为离奇的事情。 让我们感到更为心悦诚服的是,我们竟然在手稿中还发现了以前闻所未闻的一些人物的名字,至于他们是否在历史上真的存在过,我们心中曾产生过疑问。 </note>
+                <note xml:id="chinese_intro-n19" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">在必要时,我们将引用一部分查实的证据,让读者对史实的可靠性坚信不疑,因为你们很可能会拒绝接受在你们看来荒诞不经的事实。 </note>
+                <note xml:id="chinese_intro-n20" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10975">既然我们对本书作者采用的难以让人忍受的语言持否定态度,那么我们拿什么去取而代之呢?这无疑是个至关重要的问题。 </note>
+                <note xml:id="chinese_intro-n21" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">不管是谁,倘若在无人请求他的情况下主动修改贫穷人的作品,他就有义务详细说明自己对原文的理解,从来料意义上来说,他应将此视作一件责无旁贷的事情。 此乃涉及他人权利的一条惯常的原则,我们无意篡改地违背它。 </note>
+                <note xml:id="chinese_intro-n22" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">反之,为了表示自己遵循原则办事的诚意,我们曾建议就写作者手法作出详尽的说明。 正因为如此,在改写本书的整个过程中,我们始终在设想人们可能提出的(甚至是出乎意料的)批评意见,以便我们事先作好反驳的准备。 </note>
+                <note xml:id="chinese_intro-n23" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">这原本并不是一件困难的事情,凭心而论,对任何假设的批评意见,我们都能找到足以驳胜的相应回答,这些回答虽仍不能解决问题,但是它们却能改变问题的性质。 </note>
+                <note xml:id="chinese_intro-n24" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">不止一次,当我们将两种批评意见摆在对立位置上让它们互相争斗,或者通过深入细致的研究进行认真对比较,我们发现并证实,这两种意见尽管在某些点上迎异,但在实质上如出一撤,因为它们忽视了事实和评价所必须依据的原则。 正因为如此,我们才能出其不意地将它们分成一对一对,然后全部扔之一边。 </note>
+                <note xml:id="chinese_intro-n25" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">事实上,除了我们,没有一个作家能够以确当的证据表明自己在工作中是尽心竭力的。 </note>
+                <note xml:id="chinese_intro-n26" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">然而,要做到克尽其职又谈何容易!当我们将所有的异议和回答都拼凑在一起并准备按顺序把它们重新组合的时候,我们惊诧不已地发现,经维细之后,它们俨直成了一本完整的书。 </note>
+                <note xml:id="chinese_intro-n27" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">出于以下两个读者一定会赞同的理由,我们放弃了原先的想法:其一,试图用一本书去解释另一本书乃至它的写作风格似乎是一件十分荒唐的事情;其二,一次著述一部书已足矣,况且就是这部书也可能是多余的。 </note>
+         </p>   </div>
+        </body>
+    </text>
+</TEI>
