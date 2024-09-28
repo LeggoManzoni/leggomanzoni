@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
-    const defaultLanguage = 'English_1972';
+    const defaultLanguage = 'German_1880';
     const defaultChapter = 'intro'; // Ensure defaultChapter is set
 
     // // Set default languages
@@ -33,11 +33,11 @@ function fetchChapter(activeChapter) {
     let chapterURL = imageElement ? `./get-chapter/${activeChapter}` : `./get-chapter-with-images/${activeChapter}`;
     const activeCommentElement = document.querySelector('.comment-link.active-comment');
     console.log("ActiveCommentElement", activeCommentElement);
-    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "English_1972"; // Fallback to defaultLanguage
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "German_1880"; // Fallback to defaultLanguage
 
     const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
     console.log("ActiveCommentElement2", activeCommentElement2);
-    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : 'German_1880'; // Fallback to default comment if no active comment found
+    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : ''; // Fallback to default comment if no active comment found
     console.log("Chapter from fetchChapter", activeChapter);
 
     // Fetch translations based on the active chapter
@@ -108,7 +108,7 @@ function setupMutationObserver(selector) {
         const observer = new MutationObserver((mutationsList) => {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                    const translation = hasSingularTextClass(mutation.target) ? '' : 'English_1972';
+                    const translation = hasSingularTextClass(mutation.target) ? '' : 'German_1880';
                     const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
                     const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : defaultChapter;
                     fetchAndDisplayData(`./get-translation/${translation}/${activeChapter}`, '.text-comment-bottom');
