@@ -1,84 +1,78 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>ВСТУПЛЕНИЕ</title>
-                <respStmt>
-                    <resp>Supervisione codifica</resp>
-                    <persName xml:id="ER">Ersilia Russo</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Codifica automatizzata</resp>
-                    <persName xml:id="ML">Maria Levchenko</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Scheda editoriale</p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
-                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
-                <date>2023</date>
-                <availability>
-                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <author>Alessandro Manzoni</author>
-                    <title>The Betrothed Lovers</title>
-                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
-                    <pubPlace>London</pubPlace>
-                    <publisher>Longman, Brown, Green, and Longmans</publisher>
-                    <date>1845</date>
-                    <respStmt>
-                        <resp>Translated by</resp>
-                        <persName xml:id="BP">Anonymous</persName>
-                    </respStmt>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <p>Introduzione, cap. 1</p>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="Benucci_intro">
-                <p>
-                <note xml:id="russian_1854_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">Справедливо можно определить историю, достославной борьбой со временем; вырывая из рук его годы, плененные им и осужденные на смерть, она снова призывает их к жизни, пробегает их ряд и готовит на новый бой. </note>
-                <note xml:id="russian_1854_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">Но благородные витязи, которые на сем поприще пожинают пальмы и лавры, собирают только известнейшие останки, рассказами своими даруя бессмертие предприятиям царей, вельмож и мужей известнейших, и сплетая, всеми средства искусства, златые нити, из коих составляют беспрерывную ткань великих деяний. </note>
-                <note xml:id="russian_1854_intro-n3" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">Не дано мне, слабому, возвыситься до столь благородного предмета, и подвергнуться столь славной опасности, устремляясь в лабиринт политики и воинских происшествий: но, сведущий в занимательных событиях, касающихся жизни бедных ремесленников, я стараюсь передать их потомству в простом повествовании. </note>
-                <note xml:id="russian_1854_intro-n4" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">В нем увидят на весьма ограниченном театре ужасные трагедии и явления глубокомысленной злобы, подчас добродетельные предприятия, признаки ангельской души, противопоставленные адским замыслам. </note>
-                <note xml:id="russian_1854_intro-n5" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">И в самом деле, когда подумаешь, что страна наша, под властию католического государя, короля нашего, солнца, не знающего заката, что под ним горит вечно блестящий его же светом месяц, герой высокого рода, представляющий его pro tempore, и доблестные сенаторы, эти неподвижные звезды, и другие достославные власти, кометы, различающие свет повсюду, где нужда того требует, и таким образом являющие прекрасное небо; когда на место этого неба встречаешь ад мрачных деяний, злобы и преступлений, ежедневно умножаемых людьми дерзновенными: невольно приписываешь причину этой перемены власти демона, ибо человеческие неправды не могли бы противостоять стольким героям, которые с бдительностью Аргуса и с могуществом сторукого Бриарея пекутся о народном благе. </note>
-                <note xml:id="russian_1854_intro-n6" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">Но описывая события, случившиеся во время моей молодости, и зная, что большая часть действующих лиц еще не исчезла со сцены жизни, и не перешла в области Парк, мы умолчим, по уважительным причинам, как о фамильных именах, так и местностях, и станем обозначать страну только generaliter. </note>
-                <note xml:id="russian_1854_intro-n7" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10429">Если читатель сочтет такие умолчания недостатком нашей повести и несовершенством творения, он тем докажет, что совершенно чужд философии; а люди, в ней сведущие, легко удостоверятся, что в нашей рассказе нет важного упущения; ибо ясно, что имена собственные не что иное, как случайные обстоятельства... </note>
-                <note xml:id="russian_1854_intro-n8" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">Но взявши на себя геройский труд переписывать эту историческую, автографическую, истертую, измаранную рукопись, выдав ее в свет, как говорится, найду ли я кого, кто бы взял на себя труд читать ее? </note>
-                <note xml:id="russian_1854_intro-n9" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">Это скептическое размышление, порожденное во мне трудностию при разборе случайно попавшегося мне маранья, побудило меня пресечь переписку, и внимательнее пообдумать, что надлежало мне делать. </note>
-                <note xml:id="russian_1854_intro-n10" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">Вероятно, говорил я сам себе, перелистывая рукопись, подобный град риторических фигур и кончетти не продлится до конца сочинения. </note>
-                <note xml:id="russian_1854_intro-n11" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">Добрый историк хотел сперва несколько высказать свою ученость; но после, в течение рассказа, слог конечно будет проще и естественнее. </note>
-                <note xml:id="russian_1854_intro-n12" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">Да, но зато как он низок! неровен! </note>
-                <note xml:id="russian_1854_intro-n13" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10700">Бесчисленные ломбардизмы, бессмысленно связанные фразы, своевольные правила грамматики, неполные периоды и потом кое-где испанские изысканности; а что всего хуже, в местах самых трогательных и ужасных, везде, где требовалось несколько риторики скромной, чистой, приличной, он всегда, желая поразить или возбудить размышления, употребляет тот самый слог, которого мы представили образец в начале нашего предисловия; и тогда, соединяя с удивительным искусством два, по-видимому, весьма противоположные качества, он умеет казаться небрежным и замысловатым на одной и той же странице, в одном и том же периоде, в одной и той же фразе, и все это посредством напыщенного витийства и солецизмов, в особенности же благодаря неискусному самолюбию, составляющему в той стране отличительную черту писателей XVIII века. </note>
-                <note xml:id="russian_1854_intro-n14" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">Правду сказать, не заставишь читателей нынешнего времени любоваться подобным слогом: они слишком образованны, они слишком ненавидят такие сумасбродства. </note>
-                <note xml:id="russian_1854_intro-n15" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_10740">Слава богу, что эта умная мысль представилась мне с первого начала столь неблагодарного труда: теперь на мне не лежит никакой ответственности. </note>
-                <note xml:id="russian_1854_intro-n16" type="comm" target="quarantana/intro.xml#intro_107401" targetEnd="quarantana/intro.xml#intro_10782">Между тем, оканчивая чтение рукописи, я не мог подумать без сожаления, что прекрасная быль останется совершенно неизвестною; легко может статься, что читатель будет другого мнения; но я признаюсь откровенно, мне показалась она очень занимательною. </note>
-                <note xml:id="russian_1854_intro-n17" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">Может быть, сказал я сам себе, стоит только переменить слог, и сохранить ряд происшествий, описанных в рукописи? </note>
-                <note xml:id="russian_1854_intro-n18" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#intro_10826">Против этого мне не представилось никакого разумного возражения, и я немедленно приступил к делу: вот происхождение настоящей книги, изложенное с простотою, равною важности самой книги. </note>
-                <note xml:id="russian_1854_intro-n19" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">Между тем некоторые из происшествий и обычаев, упоминаемых нашим автором, показались нам столь новыми, столь странными, чтобы не сказать более, что прежде чем довериться ему, мы решились призвать на помощь других свидетелей, и приняли на себя труд порыться в хрониках того времени, чтобы удостовериться, точно ли так все происходило тогда. </note>
-                <note xml:id="russian_1854_intro-n20" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">Это изыскание рассеяло все наши сомнения: мы нашли примеры подобных и еще удивительнейших событий; еще более нас уверило и то, что мы встретили в них некоторые лица, о которых знали только из нашей рукописи, и потому сомневались, точно ли они существовали. </note>
-                <note xml:id="russian_1854_intro-n21" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">Мы при случае приведем некоторые из этих свидетельств, чтобы подтвердить те происшествия, которые читатели могли бы почесть невероятными, судя по их странности. </note>
-                <note xml:id="russian_1854_intro-n22" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">Но отвергая слог нашего автора, как слог тяжелый, каким слогом мы его заменили? </note>
-                <note xml:id="russian_1854_intro-n23" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">Вот в чем затруднение. </note>
-                <note xml:id="russian_1854_intro-n24" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">Всякий, кто без спросу вздумает переделывать чужое творение, подвергается строгой ответственности за свое собственное, и даже принимает в том обязательство; это практический и теоретический закон, которого и мы не хотим избежать. </note>
-                <note xml:id="russian_1854_intro-n25" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">Напротив, и в доказательство нашей ему покорности, мы было хотели в точности отдать отчет в избранном нами способе описания; и для того, во все продолжение наших занятий старались угадывать все возможные и правильные критики, чтоб заранее приготовиться к тем и другим. </note>
-                <note xml:id="russian_1854_intro-n26" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">Но не в том была бы трудность, ибо (нельзя не сказать ради истины) нам не представилось ни одного критического замечания, на которое бы вместе с тем не представилось и невозразимого ответа, не из тех, которые только изъясняют вопрос, но принуждают его к молчанию. </note>
-                <note xml:id="russian_1854_intro-n27" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">Часто даже, сводя две критики, мы выставляли одну против другой; или следуя за ними внимательно, мы наконец удачно находили, и доказывали, что противоположные по видимому, они не менее того принадлежали к одному роду, и происходили обе от того, что в них не были обозначены начала и основы, на которых должно полагать свои суждения; тогда, при сличении их, они, к великому удивлению, исчезали обе. </note>
-                <note xml:id="russian_1854_intro-n28" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">Во всем свете нет писателя, который лучше нас мог бы очевидно доказать, что он сделал хорошо. </note>
-                <note xml:id="russian_1854_intro-n29" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">Но, увы! когда мы достигли той поры, когда уже могли собрать все критики, и предложить на них возражения, то увидели, что из них можно составить целую книгу. </note>
-                <note xml:id="russian_1854_intro-n30" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">Вследствие чего мы оставили подобное намерение по двум причинам, которые читатель конечно уважит: во-первых, книга, служащая оправданием другой, или даже слогу другой, может показаться смешною; во-вторых, достаточно издать одну книгу за раз, если и того не слишком много. </note>
-                </p>
-            </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>INTRODUCTION</title>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Библиотека романов, повестей, путешествий и записок, изд. Н.Н. Улитиным</publisher>
+        <pubPlace>Москва</pubPlace>
+        <date>1854</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>Обрученные : Медиолан. быль XVIII [!XVII] столетия, найден. и передел. Александром Манзони</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Москва</pubPlace>
+          <publisher>Библиотека романов, повестей, путешествий и записок, изд. Н.Н. Улитиным</publisher>
+          <date>1854</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>V. Mezhevitch</persName>
+          </respStmt>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Вступление, cap. 1-6</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="russian_1854_intro">
+        <note xml:id="russian_1854_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">Справедливо можно определить историю, достославной борьбой со временем; вырывая из рук его годы, плененные им и осужденные на смерть, она снова призывает их к жизни, пробегает их ряд и готовит на новый бой. </note>
+        <note xml:id="russian_1854_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">Но благородные витязи, которые на сем поприще пожинают пальмы и лавры, собирают только известнейшие останки, рассказами своими даруя бессмертие предприятиям царей, вельмож и мужей известнейших, и сплетая, всеми средства искусства, златые нити, из коих составляют беспрерывную ткань великих деяний. </note>
+        <note xml:id="russian_1854_intro-n3" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">Не дано мне, слабому, возвыситься до столь благородного предмета, и подвергнуться столь славной опасности, устремляясь в лабиринт политики и воинских происшествий: но, сведущий в занимательных событиях, касающихся жизни бедных ремесленников, я стараюсь передать их потомству в простом повествовании. </note>
+        <note xml:id="russian_1854_intro-n4" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">В нем увидят на весьма ограниченном театре ужасные трагедии и явления глубокомысленной злобы, подчас добродетельные предприятия, признаки ангельской души, противопоставленные адским замыслам. </note>
+        <note xml:id="russian_1854_intro-n5" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">И в самом деле, когда подумаешь, что страна наша, под властию католического государя, короля нашего, солнца, не знающего заката, что под ним горит вечно блестящий его же светом месяц, герой высокого рода, представляющий его pro tempore, и доблестные сенаторы, эти неподвижные звезды, и другие достославные власти, кометы, различающие свет повсюду, где нужда того требует, и таким образом являющие прекрасное небо; когда на место этого неба встречаешь ад мрачных деяний, злобы и преступлений, ежедневно умножаемых людьми дерзновенными: невольно приписываешь причину этой перемены власти демона, ибо человеческие неправды не могли бы противостоять стольким героям, которые с бдительностью Аргуса и с могуществом сторукого Бриарея пекутся о народном благе. </note>
+        <note xml:id="russian_1854_intro-n6" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">Но описывая события, случившиеся во время моей молодости, и зная, что большая часть действующих лиц еще не исчезла со сцены жизни, и не перешла в области Парк, мы умолчим, по уважительным причинам, как о фамильных именах, так и местностях, и станем обозначать страну только generaliter. </note>
+        <note xml:id="russian_1854_intro-n7" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10429">Если читатель сочтет такие умолчания недостатком нашей повести и несовершенством творения, он тем докажет, что совершенно чужд философии; а люди, в ней сведущие, легко удостоверятся, что в нашей рассказе нет важного упущения; ибо ясно, что имена собственные не что иное, как случайные обстоятельства... </note>
+        <note xml:id="russian_1854_intro-n8" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">Но взявши на себя геройский труд переписывать эту историческую, автографическую, истертую, измаранную рукопись, выдав ее в свет, как говорится, найду ли я кого, кто бы взял на себя труд читать ее? </note>
+        <note xml:id="russian_1854_intro-n9" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">Это скептическое размышление, порожденное во мне трудностию при разборе случайно попавшегося мне маранья, побудило меня пресечь переписку, и внимательнее пообдумать, что надлежало мне делать. </note>
+        <note xml:id="russian_1854_intro-n10" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">Вероятно, говорил я сам себе, перелистывая рукопись, подобный град риторических фигур и кончетти не продлится до конца сочинения. </note>
+        <note xml:id="russian_1854_intro-n11" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">Добрый историк хотел сперва несколько высказать свою ученость; но после, в течение рассказа, слог конечно будет проще и естественнее. </note>
+        <note xml:id="russian_1854_intro-n12" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">Да, но зато как он низок! неровен! </note>
+        <note xml:id="russian_1854_intro-n13" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10700">Бесчисленные ломбардизмы, бессмысленно связанные фразы, своевольные правила грамматики, неполные периоды и потом кое-где испанские изысканности; а что всего хуже, в местах самых трогательных и ужасных, везде, где требовалось несколько риторики скромной, чистой, приличной, он всегда, желая поразить или возбудить размышления, употребляет тот самый слог, которого мы представили образец в начале нашего предисловия; и тогда, соединяя с удивительным искусством два, по-видимому, весьма противоположные качества, он умеет казаться небрежным и замысловатым на одной и той же странице, в одном и том же периоде, в одной и той же фразе, и все это посредством напыщенного витийства и солецизмов, в особенности же благодаря неискусному самолюбию, составляющему в той стране отличительную черту писателей XVIII века. </note>
+        <note xml:id="russian_1854_intro-n14" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">Правду сказать, не заставишь читателей нынешнего времени любоваться подобным слогом: они слишком образованны, они слишком ненавидят такие сумасбродства. </note>
+        <note xml:id="russian_1854_intro-n15" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_107401">Слава богу, что эта умная мысль представилась мне с первого начала столь неблагодарного труда: теперь на мне не лежит никакой ответственности. </note>
+        <note xml:id="russian_1854_intro-n16" type="comm" target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10782">Между тем, оканчивая чтение рукописи, я не мог подумать без сожаления, что прекрасная быль останется совершенно неизвестною; легко может статься, что читатель будет другого мнения; но я признаюсь откровенно, мне показалась она очень занимательною. </note>
+        <note xml:id="russian_1854_intro-n17" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">Может быть, сказал я сам себе, стоит только переменить слог, и сохранить ряд происшествий, описанных в рукописи? </note>
+        <note xml:id="russian_1854_intro-n18" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#intro_10826">Против этого мне не представилось никакого разумного возражения, и я немедленно приступил к делу: вот происхождение настоящей книги, изложенное с простотою, равною важности самой книги. </note>
+        <note xml:id="russian_1854_intro-n19" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">Между тем некоторые из происшествий и обычаев, упоминаемых нашим автором, показались нам столь новыми, столь странными, чтобы не сказать более, что прежде чем довериться ему, мы решились призвать на помощь других свидетелей, и приняли на себя труд порыться в хрониках того времени, чтобы удостовериться, точно ли так все происходило тогда. </note>
+        <note xml:id="russian_1854_intro-n20" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">Это изыскание рассеяло все наши сомнения: мы нашли примеры подобных и еще удивительнейших событий; еще более нас уверило и то, что мы встретили в них некоторые лица, о которых знали только из нашей рукописи, и потому сомневались, точно ли они существовали. </note>
+        <note xml:id="russian_1854_intro-n21" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">Мы при случае приведем некоторые из этих свидетельств, чтобы подтвердить те происшествия, которые читатели могли бы почесть невероятными, судя по их странности. </note>
+        <note xml:id="russian_1854_intro-n22" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">Но отвергая слог нашего автора, как слог тяжелый, каким слогом мы его заменили? </note>
+        <note xml:id="russian_1854_intro-n23" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">Вот в чем затруднение. </note>
+        <note xml:id="russian_1854_intro-n24" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">Всякий, кто без спросу вздумает переделывать чужое творение, подвергается строгой ответственности за свое собственное, и даже принимает в том обязательство; это практический и теоретический закон, которого и мы не хотим избежать. </note>
+        <note xml:id="russian_1854_intro-n25" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">Напротив, и в доказательство нашей ему покорности, мы было хотели в точности отдать отчет в избранном нами способе описания; и для того, во все продолжение наших занятий старались угадывать все возможные и правильные критики, чтоб заранее приготовиться к тем и другим. </note>
+        <note xml:id="russian_1854_intro-n26" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">Но не в том была бы трудность, ибо (нельзя не сказать ради истины) нам не представилось ни одного критического замечания, на которое бы вместе с тем не представилось и невозразимого ответа, не из тех, которые только изъясняют вопрос, но принуждают его к молчанию. </note>
+        <note xml:id="russian_1854_intro-n27" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">Часто даже, сводя две критики, мы выставляли одну против другой; или следуя за ними внимательно, мы наконец удачно находили, и доказывали, что противоположные по видимому, они не менее того принадлежали к одному роду, и происходили обе от того, что в них не были обозначены начала и основы, на которых должно полагать свои суждения; тогда, при сличении их, они, к великому удивлению, исчезали обе. </note>
+        <note xml:id="russian_1854_intro-n28" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">Во всем свете нет писателя, который лучше нас мог бы очевидно доказать, что он сделал хорошо. </note>
+        <note xml:id="russian_1854_intro-n29" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">Но, увы! когда мы достигли той поры, когда уже могли собрать все критики, и предложить на них возражения, то увидели, что из них можно составить целую книгу. </note>
+        <note xml:id="russian_1854_intro-n30" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">Вследствие чего мы оставили подобное намерение по двум причинам, которые читатель конечно уважит: во-первых, книга, служащая оправданием другой, или даже слогу другой, может показаться смешною; во-вторых, достаточно издать одну книгу за раз, если и того не слишком много. </note>
+      </div>
+    </body>
+  </text>
 </TEI>

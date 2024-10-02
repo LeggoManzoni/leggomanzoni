@@ -1,87 +1,83 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>INTRODUCTION</title>
-                <respStmt>
-                    <resp>Supervisione codifica</resp>
-                    <persName xml:id="ER">Ersilia Russo</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Codifica automatizzata</resp>
-                    <persName xml:id="ML">Maria Levchenko</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Scheda editoriale</p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
-                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
-                <date>2023</date>
-                <availability>
-                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <author>Alessandro Manzoni</author>
-                    <title>The Betrothed Lovers</title>
-                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
-                    <pubPlace>London</pubPlace>
-                    <publisher>Longman, Brown, Green, and Longmans</publisher>
-                    <date>1845</date>
-                    <respStmt>
-                        <resp>Translated by</resp>
-                        <persName xml:id="BP">Anonymous</persName>
-                    </respStmt>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <p>Introduzione, cap. 1</p>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="german_1880_intro">
-                <note xml:id="german_1880_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">»Die Geschichte kann man in Wahrheit einen rühmlichen Krieg gegen die Zeit nennen; denn indem sie ihr die Jahre, die schon Leichname geworden sind, als Gefangene aus der Hand nimmt, ruft sie dieselben wieder ins Leben zurück, hält Heerschau über sie und stellt sie von neuem in Schlachtordnung. </note>
-                <note xml:id="german_1880_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">Aber die erlauchten Helden, die auf diesem Kampfplatze Palmen und Lorbeeren ernten, rauben nur allein die prunkvollste und glänzendste Beute, indem sie die Unternehmungen der Fürsten, Potentaten und vornehmen Personen mit ihrer Dinte einbalsamiren, und mit der feinsten Nadel ihres Scharfsinns die Gold- und Seidefäden einnähen, die eine fortdauernde Stickerei ruhmreicher Handlungen bilden. </note>
-                <note xml:id="german_1880_intro-n3" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">Meiner Schwäche jedoch ist es nicht erlaubt, zu solchem Stoffe und zu einer so gefährlichen Höhe sich hinauf zu schwingen und in den Labyrinthen politischer Ränke und unter dem Getöse kriegerischer Trompeten herumzuschweifen; da ich hingegen Kenntnis von merkwürdigen Tatsachen erlangt habe, so schicke ich mich an, dieselben, obgleich sie nur Handwerker und sonst geringe Leute betreffen, den Nachkommen zu überliefern, indem ich von allem eine unverfälschte und einfache Erzählung oder nur einen Bericht abfasse. </note>
-                <note xml:id="german_1880_intro-n4" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">In demselben wird man auf einer engen Schaubühne ergreifende Trauerspiele voll Schauder und Auftritte großartiger Ruchlosigkeit, Zwischenspiele von Handlungen voller Tugend und engelgleicher Güte den teuflischen Werken gegenüber gestellt sehen. </note>
-                <note xml:id="german_1880_intro-n5" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">Und wahrhaftig, wenn man betrachtet, daß dieser unser Himmelsstrich unter der Herrschaft des katholischen Königs, unsers Herrn, steht, der die Sonne ist, die nie untergeht, und daß über ihm, mit zurückgeworfenem Lichte, wie ein nie abnehmender Mond, der Held edlen Stammes glänzt, welcher zur Zeit seine Stelle einnimmt, daß die hohen Senatoren gleich Fixsternen und die andern ansehnlichen Ratsherren gleich wandelnden Planeten ihr Licht überall hin ausstrahlen, also einen erhabenen Himmel bildend, so kann man, da man ihn in eine Hölle finsterer, ruchloser und grausamer Taten verwandelt sehen muß, die von übermütigen Menschen immer zahlreicher begangen werden, keine andere Ursache davon auffinden, als teuflische Künste und teuflisches Machwerk, denn die menschliche Bosheit an sich allein möchte nicht hinreichen, so vielen Helden zu widerstehen, die mit Argusaugen und Briareusarmen für das allgemeine Wohl wirken. </note>
-                <note xml:id="german_1880_intro-n6" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">Wenn ich aber diese Erzählung, die sich zur Zeit meiner ersten Jugend zugetragen hat, niederschreibe, so werde ich, obgleich die meisten Personen, die darin eine Rolle spielen, von dem Schauplatz der Welt abgetreten sind, um den Parzen ihren Tribut abzutragen, nur aus schuldigen Rücksichten ihre Namen, d.h. ihr Herkommen verschweigen; ein Gleiches werde ich mit den Orten tun und nur die Gegend im Allgemeinen bezeichnen. </note>
-                <note xml:id="german_1880_intro-n7" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10412">Es wird gewiß Niemand sagen, daß dies eine Unvollkommenheit der Erzählung, eine Verunstaltung dieses meines schlechten Machwerkes sei; es müßte denn ein Kritiker sein, der aller Philosophie ganz und gar baar wäre; denn was die Männer anlangt, die in ihr bewandert sind, so werden sie wohl einsehen, daß der besagten Erzählung im Wesentlichen nichts fehlt. </note>
-                <note xml:id="german_1880_intro-n8" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10429">Sintemal es eine einleuchtende und von Niemand geleugnete Sache ist, daß die Namen nichts als reine Nebensachen sind ...« </note>
-                <note xml:id="german_1880_intro-n9" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">– Wenn ich aber die heldenmäßige Anstrengung ausgehalten, diese Geschichte von der verblaßten und zerkratzten Urschrift abzuschreiben, und sie, wie man zu sagen pflegt, ans Licht gezogen habe, wird sich dann Jemand finden, der die Anstrengung aushält, sie zu lesen? </note>
-                <note xml:id="german_1880_intro-n10" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">– Diese zweifelhafte Betrachtung, die bei dem mühseligen Entziffern einer hinter Nebensachen stehenden unleserlichen Stelle in mir entstand, machte, daß ich das Abschreiben einstellte und ernstlicher darüber nachdachte, was zu tun sei. </note>
-                <note xml:id="german_1880_intro-n11" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">– Wohl ist es wahr, sagte ich bei mir, indem ich das Manuskript durchblätterte, wohl ist es wahr, daß dieser Hagel von rednerischem Flitterwerk und Figuren nicht durch das ganze Werk so fort geht. </note>
-                <note xml:id="german_1880_intro-n12" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">Der gute Mann aus dem 17. Jahrhundert hat gleich von vorn herein seine Fähigkeiten zeigen wollen; aber im Verlaufe der Erzählung und zuweilen durch lange Stellen hin wird der Stil weit natürlicher und einfacher. </note>
-                <note xml:id="german_1880_intro-n13" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">Ja, aber wie alltäglich ist er, wie plump, wie unkorrekt! </note>
-                <note xml:id="german_1880_intro-n14" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10580">Lombardische Idiotismen über und über, falsch angewandte Redensarten, willkürliche Sprachlehre, verschrobene Sätze. </note>
-                <note xml:id="german_1880_intro-n15" type="comm" target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10643">Dann hier und da einige spanische Zierlichkeit eingestreut, und was noch schlimmer ist, bei den schrecklichsten und rührendsten Stellen der Geschichte, bei jeder Gelegenheit, die geeignet ist, Verwunderung zu erregen, oder zu denken zu geben, kurz bei allen jenen Stellen, die wohl ein wenig Redekunst, aber eine maßvolle, feine, geschmackvolle Redekunst erfordern, verfehlt er niemals, die schon in seiner Einleitung angebrachte anzuwenden. </note>
-                <note xml:id="german_1880_intro-n16" type="comm" target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10671">Indem er alsdann mit erstaunlicher Geschicklichkeit die widersprechendsten Eigenschaften vereinigt, macht er es möglich, auf einer und derselben Seite, in einem und demselben Satze, in einem und demselben Worte plump und zugleich geziert zu sein. </note>
-                <note xml:id="german_1880_intro-n17" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10700">So bringt er z.B. hochtrabende Deklamationen, aus gemeinen Sprachfehlern zusammengesetzt, und überall jene gesuchte Ungeschicklichkeit, welche der eigentümliche Charakter der Schriften jenes Jahrhunderts in diesem Lande ist. </note>
-                <note xml:id="german_1880_intro-n18" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">Das ist aber wahrhaftig nichts, was man heutigen Lesern bieten kann; sie sind zu boshaft, dieser Art von Schwärmereien allzu überdrüssig. </note>
-                <note xml:id="german_1880_intro-n19" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_107401">Ein Glück, daß mir der gute Gedanke gleich im Anfange dieser unseligen Arbeit gekommen ist, und ich wasche mir die Hände. </note>
-                <note xml:id="german_1880_intro-n20" type="comm" target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10782">– Im Begriff jedoch, die alte Scharteke zuzumachen, um sie wegzulegen, tat es mir leid, daß eine so schöne Geschichte ganz unbekannt bleiben sollte; denn, was die Geschichte betrifft, so kann es sein, daß sie dem Leser anders scheint, mir aber schien sie schön, wie ich sage, sehr schön. </note>
-                <note xml:id="german_1880_intro-n21" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">– Warum könnte man nicht, dachte ich, die Reihe der Tatsachen diesem Manuskripte entnehmen und den Stil verbessern? </note>
-                <note xml:id="german_1880_intro-n22" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#intro_10812">Da sich keine vernünftige Entgegnung darbot, so wurde der Entschluß schnell gefaßt. </note>
-                <note xml:id="german_1880_intro-n23" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">Dies ist der Ursprung des gegenwärtigen Buches, mit einer der Wichtigkeit des Buches selbst gleichen Freimütigkeit erklärt. </note>
-                <note xml:id="german_1880_intro-n24" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">Einige von jenen Tatsachen, gewisse, von unserm Autor beschriebene Sitten, kamen uns jedoch so neu, so seltsam vor, um nichts Schlimmeres zu sagen, daß wir vorher andere Zeugen haben befragen wollen, ehe wir ihm Glauben schenken; und wir haben uns daran gemacht, in den Denkwürdigkeiten jener Zeit heimzusuchen, um uns zu überzeugen, ob es damals in der Welt wirklich so zugegangen ist. </note>
-                <note xml:id="german_1880_intro-n25" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">Eine solche Untersuchung zerstreute alle unsere Zweifel; bei jedem Schritte stießen wir auf ähnliche und noch stärkere Dinge; und was uns noch entscheidender dünkte, wir haben sogar einige Persönlichkeiten aufgefunden, über die wir im Zweifel waren, ob sie wirklich existirt hätten, da wir, außer in unserm Manuskripte, niemals von ihnen Kenntnis gehabt hatten. </note>
-                <note xml:id="german_1880_intro-n26" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">Bei Gelegenheit werden wir einige jener Zeugnisse anführen, um den Dingen Glauben zu verschaffen, die der Leser um ihrer Seltsamkeit willen eher versucht sein möchte zu leugnen. </note>
-                <note xml:id="german_1880_intro-n27" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">Da wir aber den Stil unsers Autors als unerträglich verwarfen, welchen Stil haben wir dafür an dessen Stelle gesetzt? </note>
-                <note xml:id="german_1880_intro-n28" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">Das bleibt die Frage. </note>
-                <note xml:id="german_1880_intro-n29" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">Wer sich auch herausnimmt, das Werk eines Andern umzuarbeiten, ohne darum gebeten zu sein, setzt sich dem aus, von dem seinigen eine strenge Rechenschaft abzulegen, und zieht sich in gewisser Weise die Verbindlichkeit dafür zu; es ist dies eine Regel nach Fug und Recht, der wir uns durchaus nicht zu entziehen gesonnen sind. </note>
-                <note xml:id="german_1880_intro-n30" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">Ja, um uns von freien Stücken nach ihr zu richten, hatten wir uns vorgenommen, uns über die von uns eingehaltene Art zu schreiben umständlich zu rechtfertigen; zu diesem Zwecke haben wir die ganze Zeit der Arbeit über darnach getrachtet, die möglichen und etwaigen Kritiken zu erraten, in der Absicht, sie alle im Voraus abzuweisen. </note>
-                <note xml:id="german_1880_intro-n31" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">Und hierin würde nicht die Schwierigkeit gelegen haben; denn – wir müssen es zur Ehre der Wahrheit sagen – es kam uns nicht eine Kritik in den Sinn, der nicht sogleich eine triumphirende Antwort gefolgt wäre, eine von den Antworten, die, ich sage nicht, die Fragen lösen, sondern sie umstellen. </note>
-                <note xml:id="german_1880_intro-n32" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">Oft auch ließen wir zwei Kritiken einander in die Haare geraten und die eine von der andern niederschlagen; oder wenn wir sie gründlich prüften und aufmerksam verglichen, gelang es uns zu entdecken und zu beweisen, daß sie, obgleich dem Anscheine nach sich widersprechend, doch von einer und derselben Art waren, alle beide daher rührten, daß man die Tatsachen und Grundsätze nicht beachtet hatte, auf welche das Urteil sich gründen mußte; indem wir sie dann zu ihrer großen Verwunderung zusammenstellten, schickten wir sie mit einander ihrer Wege. </note>
-                <note xml:id="german_1880_intro-n33" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">Es wird wohl niemals einen Autor gegeben haben, der so augenscheinlich bewiesen, daß er recht getan habe. </note>
-                <note xml:id="german_1880_intro-n34" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">Aber was? Da wir dabei waren, alle die besagten Einwendungen und Antworten aufzufinden, um sie in einige Ordnung zu stellen, lieber Himmel! da waren wir im Begriff, ein Buch zu machen. </note>
-                <note xml:id="german_1880_intro-n35" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">Als wir dies gewahr wurden, gaben wir den Gedanken aus zwei Gründen auf, die der Leser ganz gewiß billigen wird: erstens, weil es eine Lächerlichkeit wäre, ein Buch zu schreiben, um ein anderes, oder auch nur um den Stil eines andern zu rechtfertigen, zweitens, weil von Büchern eines auf einmal genug, wenn nicht gar schon zu viel ist. </note>
-            </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>INTRODUCTION</title>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>G.J. Manz</publisher>
+        <pubPlace>Regensburg</pubPlace>
+        <date>1884</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>Die Verlobten: eine Mailändischer Geschichte aus dem 17. Jahrhundert</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Regensburg</pubPlace>
+          <publisher>G.J. Manz</publisher>
+          <date>1884</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>Anonymous</persName>
+          </respStmt>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1-38</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="german_1880_intro">
+        <note xml:id="german_1880_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10037">»Die Geschichte kann man in Wahrheit einen rühmlichen Krieg gegen die Zeit nennen; denn indem sie ihr die Jahre, die schon Leichname geworden sind, als Gefangene aus der Hand nimmt, ruft sie dieselben wieder ins Leben zurück, hält Heerschau über sie und stellt sie von neuem in Schlachtordnung. </note>
+        <note xml:id="german_1880_intro-n2" type="comm" target="quarantana/intro.xml#intro_10038" targetEnd="quarantana/intro.xml#intro_10092">Aber die erlauchten Helden, die auf diesem Kampfplatze Palmen und Lorbeeren ernten, rauben nur allein die prunkvollste und glänzendste Beute, indem sie die Unternehmungen der Fürsten, Potentaten und vornehmen Personen mit ihrer Dinte einbalsamiren, und mit der feinsten Nadel ihres Scharfsinns die Gold- und Seidefäden einnähen, die eine fortdauernde Stickerei ruhmreicher Handlungen bilden. </note>
+        <note xml:id="german_1880_intro-n3" type="comm" target="quarantana/intro.xml#intro_10093" targetEnd="quarantana/intro.xml#intro_10155">Meiner Schwäche jedoch ist es nicht erlaubt, zu solchem Stoffe und zu einer so gefährlichen Höhe sich hinauf zu schwingen und in den Labyrinthen politischer Ränke und unter dem Getöse kriegerischer Trompeten herumzuschweifen; da ich hingegen Kenntnis von merkwürdigen Tatsachen erlangt habe, so schicke ich mich an, dieselben, obgleich sie nur Handwerker und sonst geringe Leute betreffen, den Nachkommen zu überliefern, indem ich von allem eine unverfälschte und einfache Erzählung oder nur einen Bericht abfasse. </note>
+        <note xml:id="german_1880_intro-n4" type="comm" target="quarantana/intro.xml#intro_10156" targetEnd="quarantana/intro.xml#intro_10181">In demselben wird man auf einer engen Schaubühne ergreifende Trauerspiele voll Schauder und Auftritte großartiger Ruchlosigkeit, Zwischenspiele von Handlungen voller Tugend und engelgleicher Güte den teuflischen Werken gegenüber gestellt sehen. </note>
+        <note xml:id="german_1880_intro-n5" type="comm" target="quarantana/intro.xml#intro_10182" targetEnd="quarantana/intro.xml#intro_10311">Und wahrhaftig, wenn man betrachtet, daß dieser unser Himmelsstrich unter der Herrschaft des katholischen Königs, unsers Herrn, steht, der die Sonne ist, die nie untergeht, und daß über ihm, mit zurückgeworfenem Lichte, wie ein nie abnehmender Mond, der Held edlen Stammes glänzt, welcher zur Zeit seine Stelle einnimmt, daß die hohen Senatoren gleich Fixsternen und die andern ansehnlichen Ratsherren gleich wandelnden Planeten ihr Licht überall hin ausstrahlen, also einen erhabenen Himmel bildend, so kann man, da man ihn in eine Hölle finsterer, ruchloser und grausamer Taten verwandelt sehen muß, die von übermütigen Menschen immer zahlreicher begangen werden, keine andere Ursache davon auffinden, als teuflische Künste und teuflisches Machwerk, denn die menschliche Bosheit an sich allein möchte nicht hinreichen, so vielen Helden zu widerstehen, die mit Argusaugen und Briareusarmen für das allgemeine Wohl wirken. </note>
+        <note xml:id="german_1880_intro-n6" type="comm" target="quarantana/intro.xml#intro_10312" targetEnd="quarantana/intro.xml#intro_10370">Wenn ich aber diese Erzählung, die sich zur Zeit meiner ersten Jugend zugetragen hat, niederschreibe, so werde ich, obgleich die meisten Personen, die darin eine Rolle spielen, von dem Schauplatz der Welt abgetreten sind, um den Parzen ihren Tribut abzutragen, nur aus schuldigen Rücksichten ihre Namen, d.h. ihr Herkommen verschweigen; ein Gleiches werde ich mit den Orten tun und nur die Gegend im Allgemeinen bezeichnen. </note>
+        <note xml:id="german_1880_intro-n7" type="comm" target="quarantana/intro.xml#intro_10371" targetEnd="quarantana/intro.xml#intro_10412">Es wird gewiß Niemand sagen, daß dies eine Unvollkommenheit der Erzählung, eine Verunstaltung dieses meines schlechten Machwerkes sei; es müßte denn ein Kritiker sein, der aller Philosophie ganz und gar baar wäre; denn was die Männer anlangt, die in ihr bewandert sind, so werden sie wohl einsehen, daß der besagten Erzählung im Wesentlichen nichts fehlt. </note>
+        <note xml:id="german_1880_intro-n8" type="comm" target="quarantana/intro.xml#intro_10413" targetEnd="quarantana/intro.xml#intro_10429">Sintemal es eine einleuchtende und von Niemand geleugnete Sache ist, daß die Namen nichts als reine Nebensachen sind ...« </note>
+        <note xml:id="german_1880_intro-n9" type="comm" target="quarantana/intro.xml#intro_10430" targetEnd="quarantana/intro.xml#intro_10465">– Wenn ich aber die heldenmäßige Anstrengung ausgehalten, diese Geschichte von der verblaßten und zerkratzten Urschrift abzuschreiben, und sie, wie man zu sagen pflegt, ans Licht gezogen habe, wird sich dann Jemand finden, der die Anstrengung aushält, sie zu lesen? </note>
+        <note xml:id="german_1880_intro-n10" type="comm" target="quarantana/intro.xml#intro_10466" targetEnd="quarantana/intro.xml#intro_10496">– Diese zweifelhafte Betrachtung, die bei dem mühseligen Entziffern einer hinter Nebensachen stehenden unleserlichen Stelle in mir entstand, machte, daß ich das Abschreiben einstellte und ernstlicher darüber nachdachte, was zu tun sei. </note>
+        <note xml:id="german_1880_intro-n11" type="comm" target="quarantana/intro.xml#intro_10497" targetEnd="quarantana/intro.xml#intro_10525">– Wohl ist es wahr, sagte ich bei mir, indem ich das Manuskript durchblätterte, wohl ist es wahr, daß dieser Hagel von rednerischem Flitterwerk und Figuren nicht durch das ganze Werk so fort geht. </note>
+        <note xml:id="german_1880_intro-n12" type="comm" target="quarantana/intro.xml#intro_10526" targetEnd="quarantana/intro.xml#intro_10558">Der gute Mann aus dem 17. Jahrhundert hat gleich von vorn herein seine Fähigkeiten zeigen wollen; aber im Verlaufe der Erzählung und zuweilen durch lange Stellen hin wird der Stil weit natürlicher und einfacher. </note>
+        <note xml:id="german_1880_intro-n13" type="comm" target="quarantana/intro.xml#intro_10559" targetEnd="quarantana/intro.xml#intro_10566">Ja, aber wie alltäglich ist er, wie plump, wie unkorrekt! </note>
+        <note xml:id="german_1880_intro-n14" type="comm" target="quarantana/intro.xml#intro_10567" targetEnd="quarantana/intro.xml#intro_10580">Lombardische Idiotismen über und über, falsch angewandte Redensarten, willkürliche Sprachlehre, verschrobene Sätze. </note>
+        <note xml:id="german_1880_intro-n15" type="comm" target="quarantana/intro.xml#intro_10581" targetEnd="quarantana/intro.xml#intro_10643">Dann hier und da einige spanische Zierlichkeit eingestreut, und was noch schlimmer ist, bei den schrecklichsten und rührendsten Stellen der Geschichte, bei jeder Gelegenheit, die geeignet ist, Verwunderung zu erregen, oder zu denken zu geben, kurz bei allen jenen Stellen, die wohl ein wenig Redekunst, aber eine maßvolle, feine, geschmackvolle Redekunst erfordern, verfehlt er niemals, die schon in seiner Einleitung angebrachte anzuwenden. </note>
+        <note xml:id="german_1880_intro-n16" type="comm" target="quarantana/intro.xml#intro_10644" targetEnd="quarantana/intro.xml#intro_10671">Indem er alsdann mit erstaunlicher Geschicklichkeit die widersprechendsten Eigenschaften vereinigt, macht er es möglich, auf einer und derselben Seite, in einem und demselben Satze, in einem und demselben Worte plump und zugleich geziert zu sein. </note>
+        <note xml:id="german_1880_intro-n17" type="comm" target="quarantana/intro.xml#intro_10672" targetEnd="quarantana/intro.xml#intro_10700">So bringt er z.B. hochtrabende Deklamationen, aus gemeinen Sprachfehlern zusammengesetzt, und überall jene gesuchte Ungeschicklichkeit, welche der eigentümliche Charakter der Schriften jenes Jahrhunderts in diesem Lande ist. </note>
+        <note xml:id="german_1880_intro-n18" type="comm" target="quarantana/intro.xml#intro_10701" targetEnd="quarantana/intro.xml#intro_10720">Das ist aber wahrhaftig nichts, was man heutigen Lesern bieten kann; sie sind zu boshaft, dieser Art von Schwärmereien allzu überdrüssig. </note>
+        <note xml:id="german_1880_intro-n19" type="comm" target="quarantana/intro.xml#intro_10721" targetEnd="quarantana/intro.xml#intro_107401">Ein Glück, daß mir der gute Gedanke gleich im Anfange dieser unseligen Arbeit gekommen ist, und ich wasche mir die Hände. </note>
+        <note xml:id="german_1880_intro-n20" type="comm" target="quarantana/intro.xml#intro_10741" targetEnd="quarantana/intro.xml#intro_10782">– Im Begriff jedoch, die alte Scharteke zuzumachen, um sie wegzulegen, tat es mir leid, daß eine so schöne Geschichte ganz unbekannt bleiben sollte; denn, was die Geschichte betrifft, so kann es sein, daß sie dem Leser anders scheint, mir aber schien sie schön, wie ich sage, sehr schön. </note>
+        <note xml:id="german_1880_intro-n21" type="comm" target="quarantana/intro.xml#intro_10783" targetEnd="quarantana/intro.xml#intro_10800">– Warum könnte man nicht, dachte ich, die Reihe der Tatsachen diesem Manuskripte entnehmen und den Stil verbessern? </note>
+        <note xml:id="german_1880_intro-n22" type="comm" target="quarantana/intro.xml#intro_10801" targetEnd="quarantana/intro.xml#intro_10812">Da sich keine vernünftige Entgegnung darbot, so wurde der Entschluß schnell gefaßt. </note>
+        <note xml:id="german_1880_intro-n23" type="comm" target="quarantana/intro.xml#intro_10813" targetEnd="quarantana/intro.xml#intro_10826">Dies ist der Ursprung des gegenwärtigen Buches, mit einer der Wichtigkeit des Buches selbst gleichen Freimütigkeit erklärt. </note>
+        <note xml:id="german_1880_intro-n24" type="comm" target="quarantana/intro.xml#intro_10827" targetEnd="quarantana/intro.xml#intro_10879">Einige von jenen Tatsachen, gewisse, von unserm Autor beschriebene Sitten, kamen uns jedoch so neu, so seltsam vor, um nichts Schlimmeres zu sagen, daß wir vorher andere Zeugen haben befragen wollen, ehe wir ihm Glauben schenken; und wir haben uns daran gemacht, in den Denkwürdigkeiten jener Zeit heimzusuchen, um uns zu überzeugen, ob es damals in der Welt wirklich so zugegangen ist. </note>
+        <note xml:id="german_1880_intro-n25" type="comm" target="quarantana/intro.xml#intro_10880" targetEnd="quarantana/intro.xml#intro_10931">Eine solche Untersuchung zerstreute alle unsere Zweifel; bei jedem Schritte stießen wir auf ähnliche und noch stärkere Dinge; und was uns noch entscheidender dünkte, wir haben sogar einige Persönlichkeiten aufgefunden, über die wir im Zweifel waren, ob sie wirklich existirt hätten, da wir, außer in unserm Manuskripte, niemals von ihnen Kenntnis gehabt hatten. </note>
+        <note xml:id="german_1880_intro-n26" type="comm" target="quarantana/intro.xml#intro_10932" targetEnd="quarantana/intro.xml#intro_10956">Bei Gelegenheit werden wir einige jener Zeugnisse anführen, um den Dingen Glauben zu verschaffen, die der Leser um ihrer Seltsamkeit willen eher versucht sein möchte zu leugnen. </note>
+        <note xml:id="german_1880_intro-n27" type="comm" target="quarantana/intro.xml#intro_10957" targetEnd="quarantana/intro.xml#intro_10971">Da wir aber den Stil unsers Autors als unerträglich verwarfen, welchen Stil haben wir dafür an dessen Stelle gesetzt? </note>
+        <note xml:id="german_1880_intro-n28" type="comm" target="quarantana/intro.xml#intro_10972" targetEnd="quarantana/intro.xml#intro_10975">Das bleibt die Frage. </note>
+        <note xml:id="german_1880_intro-n29" type="comm" target="quarantana/intro.xml#intro_10976" targetEnd="quarantana/intro.xml#intro_11015">Wer sich auch herausnimmt, das Werk eines Andern umzuarbeiten, ohne darum gebeten zu sein, setzt sich dem aus, von dem seinigen eine strenge Rechenschaft abzulegen, und zieht sich in gewisser Weise die Verbindlichkeit dafür zu; es ist dies eine Regel nach Fug und Recht, der wir uns durchaus nicht zu entziehen gesonnen sind. </note>
+        <note xml:id="german_1880_intro-n30" type="comm" target="quarantana/intro.xml#intro_11016" targetEnd="quarantana/intro.xml#intro_11062">Ja, um uns von freien Stücken nach ihr zu richten, hatten wir uns vorgenommen, uns über die von uns eingehaltene Art zu schreiben umständlich zu rechtfertigen; zu diesem Zwecke haben wir die ganze Zeit der Arbeit über darnach getrachtet, die möglichen und etwaigen Kritiken zu erraten, in der Absicht, sie alle im Voraus abzuweisen. </note>
+        <note xml:id="german_1880_intro-n31" type="comm" target="quarantana/intro.xml#intro_11063" targetEnd="quarantana/intro.xml#intro_11104">Und hierin würde nicht die Schwierigkeit gelegen haben; denn – wir müssen es zur Ehre der Wahrheit sagen – es kam uns nicht eine Kritik in den Sinn, der nicht sogleich eine triumphirende Antwort gefolgt wäre, eine von den Antworten, die, ich sage nicht, die Fragen lösen, sondern sie umstellen. </note>
+        <note xml:id="german_1880_intro-n32" type="comm" target="quarantana/intro.xml#intro_11105" targetEnd="quarantana/intro.xml#intro_11171">Oft auch ließen wir zwei Kritiken einander in die Haare geraten und die eine von der andern niederschlagen; oder wenn wir sie gründlich prüften und aufmerksam verglichen, gelang es uns zu entdecken und zu beweisen, daß sie, obgleich dem Anscheine nach sich widersprechend, doch von einer und derselben Art waren, alle beide daher rührten, daß man die Tatsachen und Grundsätze nicht beachtet hatte, auf welche das Urteil sich gründen mußte; indem wir sie dann zu ihrer großen Verwunderung zusammenstellten, schickten wir sie mit einander ihrer Wege. </note>
+        <note xml:id="german_1880_intro-n33" type="comm" target="quarantana/intro.xml#intro_11172" targetEnd="quarantana/intro.xml#intro_11185">Es wird wohl niemals einen Autor gegeben haben, der so augenscheinlich bewiesen, daß er recht getan habe. </note>
+        <note xml:id="german_1880_intro-n34" type="comm" target="quarantana/intro.xml#intro_11186" targetEnd="quarantana/intro.xml#intro_11211">Aber was? Da wir dabei waren, alle die besagten Einwendungen und Antworten aufzufinden, um sie in einige Ordnung zu stellen, lieber Himmel! da waren wir im Begriff, ein Buch zu machen. </note>
+        <note xml:id="german_1880_intro-n35" type="comm" target="quarantana/intro.xml#intro_11212" targetEnd="quarantana/intro.xml#intro_11262">Als wir dies gewahr wurden, gaben wir den Gedanken aus zwei Gründen auf, die der Leser ganz gewiß billigen wird: erstens, weil es eine Lächerlichkeit wäre, ein Buch zu schreiben, um ein anderes, oder auch nur um den Stil eines andern zu rechtfertigen, zweitens, weil von Büchern eines auf einmal genug, wenn nicht gar schon zu viel ist. </note>
+      </div>
+    </body>
+  </text>
 </TEI>
