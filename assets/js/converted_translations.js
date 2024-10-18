@@ -112,7 +112,7 @@ let toggleColumn = () => {
 
 function fetchChapter(activeChapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
-    let chapterURL = imageElement ? `./get-chapter/${activeChapter}` : `./get-chapter-with-images/${activeChapter}`;
+    let chapterURL = `./get-chapter/${activeChapter}`;
 
     // Get active translations
     const activeCommentElement = document.querySelector('.comment-link.active-comment');
@@ -153,24 +153,24 @@ function fetchChapter(activeChapter) {
 
 
 
-function changeClassAndFetchData(activeChapter) {
-    // Change the image class to 'bi bi-image-fill'
-    const test_chapter = document.querySelector('.text-chapter#whichpage');
-    const h1Element = test_chapter.querySelector('h1');
-    chapter = h1Element.className;
+// function changeClassAndFetchData(activeChapter) {
+//     // Change the image class to 'bi bi-image-fill'
+//     const test_chapter = document.querySelector('.text-chapter#whichpage');
+//     const h1Element = test_chapter.querySelector('h1');
+//     chapter = h1Element.className;
 
-    const imageIcon = document.getElementById("imageIcon");
-    const popupImage = document.getElementById("popupImage");
+//     const imageIcon = document.getElementById("imageIcon");
+//     const popupImage = document.getElementById("popupImage");
 
-    if (imageIcon.className === "bi bi-card-image") {        
-        imageIcon.className = "bi bi-image-fill";
-         popupImage.textContent = "Visualizza il testo senza le immagini.";
-    } else {
-        imageIcon.className = "bi bi-card-image";
-        popupImage.textContent = "Visualizza il testo con le immagini.";
-    }
-    fetchChapter(activeChapter);
-}
+//     if (imageIcon.className === "bi bi-card-image") {        
+//         imageIcon.className = "bi bi-image-fill";
+//          popupImage.textContent = "Visualizza il testo senza le immagini.";
+//     } else {
+//         imageIcon.className = "bi bi-card-image";
+//         popupImage.textContent = "Visualizza il testo con le immagini.";
+//     }
+//     fetchChapter(activeChapter);
+// }
 
 function fetchAndDisplayData(endpoint, selector, attribute) {
     fetch(endpoint)
