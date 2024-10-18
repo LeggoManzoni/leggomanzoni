@@ -96,7 +96,6 @@ function convertTranslationXMLToHtml(language, chapterName) {
       try {
         xmlDoc = fs.readFileSync(`./translations/${language}/${chapterName}.xml`, 'utf8');
       } catch (error) {
-        console.error("Error reading XML file:", error);
         return "Questo capitolo non è ancora stato digitalizzato."; // Error message for file read failure
       }
       // Check if the XML document is empty

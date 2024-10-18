@@ -25,7 +25,7 @@ app.set("views", [
   path.join(__dirname, "views")
 ]);
 app.set("view engine", "ejs");
-app.use("/views", express.static("views"));
+// app.use("/views", express.static("views"));
 
 /* index */
 app.get(process.env.URL_PATH, (req, res) => {
@@ -107,8 +107,6 @@ app.get('/get-chapter/:chapterName', function (req, res) {
 
   if (chapterName === "Introduzione") {
     chapterName = "intro";
-  } else if (chapterName === "Frontespizio") {
-    chapterName = "header";
   }
   converted_data = convertXmlToHtml(chapterName);
   res.send(converted_data);
@@ -127,44 +125,51 @@ app.get('/get-chapter-with-images/:chapterName', function (req, res) {
 });
 
 
-app.get('/get-comment/:authorName?', function (req, res) {
-  var author = req.params.authorName;
+// app.get('/get-comment/:authorName?', function (req, res) {
+//   var author = req.params.authorName;
 
-  if (author) {
-      try {
-          var converted_data = convertCommentXMLToHtml(author);
-          res.send(converted_data);
-      } catch (error) {
-          // Handle errors that might occur during conversion
-          console.error(error);
-          res.status(500).send('An error occurred while processing your request.');
-      }
-  } else {
-      // Send an empty object if the authorName parameter is not provided
-      res.status(200).send("");
-  }
-});
+//   if (author) {
+//       try {
+//           var converted_data = convertCommentXMLToHtml(author);
+//           res.send(converted_data);
+//       } catch (error) {
+//           // Handle errors that might occur during conversion
+//           console.error(error);
+//           res.status(500).send('An error occurred while processing your request.');
+//       }
+//   } else {
+//       // Send an empty object if the authorName parameter is not provided
+//       res.status(200).send("");
+//   }
+// });
 
 app.get('/get-comment/:authorName/:chapterName?', function (req, res) {
   var author = req.params.authorName;
-  var chapter = req.params.chapterName;
-  if (chapter === "Introduzione") {
-    chapter = "intro";
+  var chapter = req.params.chapterName || 'intro'; // Default to 'intro' if chapterName is not provided
+
+  if (chapter === 'Introduzione') {
+    chapter = 'intro';
   }
 
   if (author && chapter) {
-      try {
-          var converted_data = convertCommentXMLToHtml(author, chapter);
-          res.send(converted_data);
-      } catch (error) {
-          console.error(error);
-          res.status(500).send('An error occurred while processing your request.');
+    try {
+      var converted_data = convertCommentXMLToHtml(author, chapter);
+
+      if (converted_data && converted_data.trim()) {
+        res.send(converted_data);
+      } else {
+        // Comment not found
+        res.status(204).send(); // No Content
       }
+    } catch (error) {
+      console.error(error);
+      res.status(500).send('An error occurred while processing your request.');
+    }
   } else {
-      // Send an empty object if either parameter is not provided
-      res.status(200).send("");
+    res.status(400).send('Author name and chapter are required.');
   }
 });
+
 
 
 app.get('/get-translation/:language/:chapterName?', function (req, res) {
@@ -175,18 +180,17 @@ app.get('/get-translation/:language/:chapterName?', function (req, res) {
   }
 
   if (language && chapter) {
-    console.log(language, chapter);
-      try {
-          var converted_data = convertTranslationXMLToHtml(language, chapter);
-          res.send(converted_data);
-      } catch (error) {
-          // Handle errors that might occur during conversion
-          console.error(error);
-          res.status(500).send('An error occurred while processing your request.');
-      }
+    try {
+      var converted_data = convertTranslationXMLToHtml(language, chapter);
+      res.send(converted_data);
+    } catch (error) {
+      // Handle errors that might occur during conversion
+      console.error(error);
+      res.status(500).send('An error occurred while processing your request.');
+    }
   } else {
-      // Send an empty object if the authorName parameter is not provided
-      res.status(200).send("");
+    // Send an empty object if the authorName parameter is not provided
+    res.status(200).send("");
   }
 });
 

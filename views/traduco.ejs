@@ -22,6 +22,28 @@
                                 data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
                                 Capitoli
                             </button>
+                            <ul class="dropdown-menu" aria-labelledby="toggle-capitoli">
+                                <% chapters.forEach((chapter)=> { %>
+                                    <% 
+                                    let displayName, dataChapter; 
+                                    if (!isNaN(Number(chapter))) { // Ensuring chapter is properly converted to a number
+                                        displayName = 'Capitolo ' + chapter; 
+                                        dataChapter = 'cap' + chapter; 
+                                    } else { 
+                                        // Chapter is not a number (e.g., 'Introduzione' , 'Frontespizio')
+                                        displayName = chapter; 
+                                        dataChapter = chapter; 
+                                    } 
+                                %>
+                                
+                                        <li>
+                                            <a class="dropdown-item chapter-link" data-chapter="<%= dataChapter %>"
+                                                href="#">
+                                                <%= displayName %>
+                                            </a>
+                                        </li>
+                                        <% }); %>
+                            </ul>
                             <button class="underline" id="normalPencil">
                                 <i class="bi bi-pencil-fill" id="highlightHoveredItem" onclick="highlightHoveredItemWithPencil();"></i>
                             </button>
@@ -42,23 +64,6 @@
                             </button>
                             <div id="popupImage">Visualizza il testo con le immagini.
                             </div>
-                           
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <% chapters.forEach((chapter)=> {
-                                    if (!chapter.startsWith('1') && !chapter.startsWith('2') &&
-                                    !chapter.startsWith('3') && !chapter.startsWith('4') && !chapter.startsWith('5')
-                                    &&
-                                    !chapter.startsWith('6') && !chapter.startsWith('7') &&
-                                    !chapter.startsWith('8') && !chapter.startsWith('9')) { %>
-                                    <li><a class="dropdown-item chapter-link" data-chapter="<%= chapter %>"
-                                            href="#">
-                                            <%= chapter.replace('Capitolo', '' ) %>
-                                        </a></li>
-                                    <% } else { %>
-                                        <li><a class="dropdown-item chapter-link" data-chapter="cap<%= chapter %>"
-                                                href="#">Capitolo <%= chapter %></a></li>
-                                        <% } }); %>
-                            </ul>
                         </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
                                 <div class="text-chapter" id="whichpage">
@@ -109,6 +114,10 @@
                                         <div id="popupR">Visualizza il traduzione in
                                             modalità full-screen.
                                         </div>
+                                        <button class="infoButton">
+                                            <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./traduzione', '_blank');"></i>
+                                        </button>
+                                        <div id="popupI">Clicca qui per maggiori informazioni sulle traduzioni.                                    </div>
                                     </div>
                             <div class="colonnadestra" id="destra">
                                 <div class="divisione singularText" id="upperDiv">

@@ -1,26 +1,25 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
     const defaultLanguage = 'German_1880';
+    const defaultLanguage2 = 'French_1877';
     const defaultChapter = 'intro'; // Ensure defaultChapter is set
 
     // // Set default languages
-    // document.getElementById('toggle-commenti1').innerText = defaultLanguage;
-    // document.getElementById('toggle-commenti2').innerText = defaultLanguage;
+    document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(defaultChapter);
+    document.getElementById('toggle-commenti1').innerText = defaultLanguage;
+    document.getElementById('toggle-commenti2').innerText = defaultLanguage2;
 
-    const activeChapter = document.querySelector('.chapter-link.active-chapter') 
-        ? document.querySelector('.chapter-link.active-chapter').getAttribute('data-chapter') 
-        : defaultChapter;
-
-    console.log("Chapter from DOMContentLoaded", activeChapter);
+    markActiveSelections(defaultChapter, defaultLanguage, defaultLanguage2);
 
     // Fetch and display the default translation and chapter
-    fetchAndDisplayData(`./get-translation/${defaultLanguage}/${activeChapter}`, '.text-comment-top', 'data-active-comment');
-    fetchChapter(activeChapter);
+    fetchAndDisplayData(`./get-translation/${defaultLanguage}/${defaultChapter}`, '.text-comment-top');
+    fetchChapter(defaultChapter);
 
     // Setup MutationObserver
     setupMutationObserver('.divisione');
 
     // Setup click event listeners for links
+    setupMutationObserver('.divisione');
     setupChapterClickListener('.chapter-link', fetchChapter);
     setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
@@ -28,43 +27,131 @@ document.addEventListener('DOMContentLoaded', function () {
     setupHoverScrolling();
 });
 
+function getDisplayChapterName(chapter) {
+    if (chapter === 'intro') return 'Introduzione';
+    if (chapter.startsWith('cap')) {
+        return 'Capitolo ' + chapter.substring(3);
+    }
+    return chapter;
+}
+
+function markActiveSelections(chapter, comment1, comment2) {
+    // Mark active chapter
+    const chapterLinks = document.querySelectorAll('.chapter-link');
+    chapterLinks.forEach(link => {
+        if (link.getAttribute('data-chapter') === chapter) {
+            link.classList.add('active-chapter');
+        } else {
+            link.classList.remove('active-chapter');
+        }
+    });
+
+    // Mark active comments
+    const commentLinks1 = document.querySelectorAll('.comment-link');
+    commentLinks1.forEach(link => {
+        if (link.getAttribute('data-comment') === comment1) {
+            link.classList.add('active-comment');
+        } else {
+            link.classList.remove('active-comment');
+        }
+    });
+
+    if (comment2) {
+        const commentLinks2 = document.querySelectorAll('.comment-link-2');
+        commentLinks2.forEach(link => {
+            if (link.getAttribute('data-comment') === comment2) {
+                link.classList.add('active-comment');
+            } else {
+                link.classList.remove('active-comment');
+            }
+        });
+    }
+}
+
+
+
+let toggleColumn = () => {
+    const bottomDiv = document.getElementById("bottomDiv");
+    const upperDiv = document.getElementById("upperDiv");
+    const icon = document.getElementById("splitButton");
+    const text = document.getElementById("popup");
+    const buttonComments = document.getElementById("toggle-commenti2");
+
+    if (bottomDiv.classList.contains("hide")) {
+        // Show the bottom div
+        bottomDiv.classList.remove("hide");
+        upperDiv.classList.remove("singularText");
+        icon.classList.replace("bi-plus-circle", "bi-dash-circle");
+        text.textContent = "Clicca qui per visualizzare un solo commento.";
+        buttonComments.classList.remove("hide");
+
+        // Fetch the second translation
+        const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+        const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "intro";
+        const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
+        const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : defaultLanguage2;
+        fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
+    } else {
+        // Hide the bottom div
+        bottomDiv.classList.add("hide");
+        upperDiv.classList.add("singularText");
+        icon.classList.replace("bi-dash-circle", "bi-plus-circle");
+        text.textContent = "Clicca qui per visualizzare due commenti.";
+        buttonComments.classList.add("hide");
+
+        // Clear the content of the second translation
+        document.querySelector('.text-comment-bottom').innerHTML = '';
+    }
+
+    // Update the highlighting
+    highlightHoveredItem();
+};
+
+
+
+
 function fetchChapter(activeChapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
     let chapterURL = imageElement ? `./get-chapter/${activeChapter}` : `./get-chapter-with-images/${activeChapter}`;
+
+    // Get active translations
     const activeCommentElement = document.querySelector('.comment-link.active-comment');
-    console.log("ActiveCommentElement", activeCommentElement);
-    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "German_1880"; // Fallback to defaultLanguage
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "German_1880";
 
     const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
-    console.log("ActiveCommentElement2", activeCommentElement2);
-    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : ''; // Fallback to default comment if no active comment found
-    console.log("Chapter from fetchChapter", activeChapter);
+    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : defaultLanguage2;
 
-    // Fetch translations based on the active chapter
+    // Fetch the chapter
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
             const chapterElement = document.querySelector('.text-chapter');
-            
             if (chapterElement) {
                 chapterElement.innerHTML = data;
-                const test_chapter = document.querySelector('.text-chapter#whichpage');
-                const h1Element = test_chapter.querySelector('h1');
+                const h1Element = chapterElement.querySelector('h1');
                 h1Element.className = activeChapter;
-                const promessisposiElement = document.getElementById('promessisposi');
-                if (promessisposiElement) {
-                    promessisposiElement.scrollTop = 0;
-                }
+                document.getElementById('promessisposi').scrollTop = 0;
 
-                highlightHoveredItem(); // Ensure highlighting is updated
+                highlightHoveredItem();
 
-                // Fetch translations for both Lingua 1 and Lingua 2 based on the active chapter
+                // Fetch the active translations
                 fetchAndDisplayData(`./get-translation/${activeComment}/${activeChapter}`, '.text-comment-top');
-                fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
+
+                // Check if the second translation is visible
+                const bottomDiv = document.getElementById('bottomDiv');
+                const isBottomCommentActive = !bottomDiv.classList.contains('hide');
+                if (isBottomCommentActive && activeComment2) {
+                    fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
+                } else {
+                    // Clear the content if the second translation is hidden
+                    document.querySelector('.text-comment-bottom').innerHTML = '';
+                }
             }
         })
         .catch(console.error);
 }
+
+
 
 function changeClassAndFetchData(activeChapter) {
     // Change the image class to 'bi bi-image-fill'
@@ -86,8 +173,6 @@ function changeClassAndFetchData(activeChapter) {
 }
 
 function fetchAndDisplayData(endpoint, selector, attribute) {
-    console.log("Endpoint", endpoint);
-
     fetch(endpoint)
         .then(response => response.text())
         .then(data => {
@@ -103,15 +188,13 @@ function fetchAndDisplayData(endpoint, selector, attribute) {
 
 function setupMutationObserver(selector) {
     const targetNode = document.querySelector(selector);
-    console.log("TargetNode", targetNode);
     if (targetNode) {
         const observer = new MutationObserver((mutationsList) => {
             for (const mutation of mutationsList) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                    const translation = hasSingularTextClass(mutation.target) ? '' : 'German_1880';
-                    const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
-                    const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : defaultChapter;
-                    fetchAndDisplayData(`./get-translation/${translation}/${activeChapter}`, '.text-comment-bottom');
+                    // Remove the fetchAndDisplayData call
+                    // Just update the highlighting
+                    highlightHoveredItem();
                 }
             }
         });
@@ -119,37 +202,48 @@ function setupMutationObserver(selector) {
     }
 }
 
+
 function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelector) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
             event.preventDefault();
             const selectedLanguage = event.target.getAttribute('data-comment');
-            const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
-            const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "Introduzione";
 
-            fetchAndDisplayFunction(`./get-translation/${selectedLanguage}/${activeChapter}`, displaySelector, 'data-active-comment');
+            // Update active class
+            document.querySelectorAll(selector).forEach(link => link.classList.remove('active-comment'));
+            event.target.classList.add('active-comment');
 
-            // Update the corresponding Lingua button label with the selected language
-            if (selector === '.comment-link') {
+            // Update the Lingua button label
+            if (displaySelector === '.text-comment-top') {
                 document.getElementById('toggle-commenti1').innerText = selectedLanguage;
-            } else if (selector === '.comment-link-2') {
+            } else if (displaySelector === '.text-comment-bottom') {
                 document.getElementById('toggle-commenti2').innerText = selectedLanguage;
             }
+
+            // Get the active chapter
+            const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+            const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "intro";
+
+            fetchAndDisplayFunction(`./get-translation/${selectedLanguage}/${activeChapter}`, displaySelector);
         });
     });
 }
+
 
 function setupChapterClickListener(selector, fetchAndDisplayFunction) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
             event.preventDefault();
-            const activeChapter = event.target.getAttribute('data-chapter');
-            
-            // Mark the clicked chapter as active
-            document.querySelectorAll('.chapter-link').forEach(link => link.classList.remove('active-chapter'));
+            const data = event.target.getAttribute('data-chapter');
+
+            // Update active class
+            document.querySelectorAll(selector).forEach(link => link.classList.remove('active-chapter'));
             event.target.classList.add('active-chapter');
-            
-            fetchAndDisplayFunction(activeChapter);
+
+            // Update the Capitoli button text
+            document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(data);
+
+            fetchAndDisplayFunction(data);
         });
     });
 }
@@ -170,48 +264,36 @@ function hasSingularTextClass(target) {
 
 function highlightHoveredItem() {
     const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-    const scrollItems = Array.from(document.querySelectorAll('.scroll-item'));
-    hoverItems.forEach(hoverItem => {
-        const hoverItemId = hoverItem.getAttribute('data-id');
-        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+    let scrollItems = [];
 
-        // If a corresponding scroll-item exists, add the highlight class
-        if (correspondingScrollItem) {
-            hoverItem.classList.add('highlight');  // Use add instead of toggle
-        }
-    });
-}
+    const commentsContainer = document.getElementById("upperDiv");
+    const bottomCommentsContainer = document.getElementById("bottomDiv");
 
-function highlightHoveredItemWithPencil() {
-    const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-    const scrollItems = Array.from(document.querySelectorAll('.scroll-item'));
-    hoverItems.forEach(hoverItem => {
-        const hoverItemId = hoverItem.getAttribute('data-id');
-        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+    const isBottomCommentActive = !bottomCommentsContainer.classList.contains('hide');
 
-        // If a corresponding scroll-item exists, add the highlight class
-        if (correspondingScrollItem) {
-            hoverItem.classList.toggle('highlight');  // Use toggle
-        }
-    });
-    //Change style to the pencil together with the popup
-    var i = document.getElementById("highlightHoveredItem");
-    var captionFont = document.getElementById("popupUnderline");
+    // Collect scroll-items from active translations
+    const upperScrollItems = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
+    scrollItems = scrollItems.concat(upperScrollItems);
 
-    if (i.classList.contains("bi-pencil-fill")) {
-        
-        i.classList.add("bi-pencil");
-        i.classList.remove("bi-pencil-fill");
-        captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
-
-    } else {
-        
-        i.classList.add("bi-pencil-fill");
-        i.classList.remove("bi-pencil");
-        captionFont.textContent = "Clicca qui per eliminare le note di commento.";
-
+    if (isBottomCommentActive) {
+        const bottomScrollItems = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
+        scrollItems = scrollItems.concat(bottomScrollItems);
     }
+
+    // Remove existing highlights
+    hoverItems.forEach(item => item.classList.remove('highlight'));
+
+    // Add highlights based on active translations
+    hoverItems.forEach(hoverItem => {
+        const hoverItemId = hoverItem.getAttribute('data-id');
+        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+
+        if (correspondingScrollItem) {
+            hoverItem.classList.add('highlight');
+        }
+    });
 }
+
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById("upperDiv");
@@ -227,62 +309,55 @@ function setupHoverScrolling() {
             const upperElements = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
             const bottomElements = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
 
-            // Find the corresponding element in the upper block
-            for (let i = 0; i < upperElements.length; i++) {
-                const currentId = parseInt(upperElements[i].getAttribute('data-related-id'), 10);
+            // Find the corresponding element in the upper translation
+            upperElements.forEach(el => {
+                const currentId = parseInt(el.getAttribute('data-related-id'), 10);
                 if (currentId == dataId) {
-                    upperCorrespondingElement = upperElements[i];
+                    upperCorrespondingElement = el;
                     upperStartId = currentId;
-                    upperEndId = parseInt(upperElements[i].getAttribute('data-end-id'), 10);
-                    break;
+                    upperEndId = parseInt(el.getAttribute('data-end-id'), 10);
                 }
-            }
+            });
 
-            // Find the corresponding element in the bottom block
-            for (let i = 0; i < bottomElements.length; i++) {
-                const currentId = parseInt(bottomElements[i].getAttribute('data-related-id'), 10);
-                if (currentId == dataId) {
-                    bottomCorrespondingElement = bottomElements[i];
-                    bottomStartId = currentId;
-                    bottomEndId = parseInt(bottomElements[i].getAttribute('data-end-id'), 10);
-                    break;
-                }
+            // Find the corresponding element in the bottom translation if active
+            const isBottomCommentActive = !bottomCommentsContainer.classList.contains('hide');
+            if (isBottomCommentActive) {
+                bottomElements.forEach(el => {
+                    const currentId = parseInt(el.getAttribute('data-related-id'), 10);
+                    if (currentId == dataId) {
+                        bottomCorrespondingElement = el;
+                        bottomStartId = currentId;
+                        bottomEndId = parseInt(el.getAttribute('data-end-id'), 10);
+                    }
+                });
             }
 
             // Remove existing highlights
-            const allElements = [...upperElements, ...bottomElements];
-            for (let i = 0; i < allElements.length; i++) {
-                allElements[i].classList.remove('highlight-comment');
-            }
+            const allElements = upperElements.concat(bottomElements);
+            allElements.forEach(el => el.classList.remove('highlight-comment'));
 
-            // Scroll to the corresponding element in the upper block
+            // Scroll to and highlight the corresponding elements
             if (upperCorrespondingElement) {
-                const upperElementTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
-                commentsContainer.scrollTop = upperElementTop;
+                commentsContainer.scrollTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
                 upperCorrespondingElement.classList.add('highlight-comment');
             }
 
-            // Scroll to the corresponding element in the bottom block
-            if (bottomCorrespondingElement) {
-                const bottomElementBottom = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
-                bottomCommentsContainer.scrollTop = bottomElementBottom;
+            if (isBottomCommentActive && bottomCorrespondingElement) {
+                bottomCommentsContainer.scrollTop = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
                 bottomCorrespondingElement.classList.add('highlight-comment');
             }
 
-            
-
-            // Highlight the text
+            // Highlight the text in the original content
             const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
-            for (let i = 0; i < hoverItems.length; i++) {
-                const hoverItemId = hoverItems[i].getAttribute('data-id');
-                if ((hoverItemId >= upperStartId && hoverItemId <= upperEndId) || 
-                    (hoverItemId >= bottomStartId && hoverItemId <= bottomEndId) ||
-                    (hoverItemId == dataId))  {
-                    hoverItems[i].classList.add('highlight-text');
+            hoverItems.forEach(hoverItem => {
+                const hoverItemId = hoverItem.getAttribute('data-id');
+                if ((upperStartId && hoverItemId >= upperStartId && hoverItemId <= upperEndId) ||
+                    (isBottomCommentActive && bottomStartId && hoverItemId >= bottomStartId && hoverItemId <= bottomEndId)) {
+                    hoverItem.classList.add('highlight-text');
                 } else {
-                    hoverItems[i].classList.remove('highlight-text');
+                    hoverItem.classList.remove('highlight-text');
                 }
-            }
+            });
         }
     });
 }

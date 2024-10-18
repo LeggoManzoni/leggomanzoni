@@ -72,32 +72,6 @@ let navbarShrink = () => { // Navbar shrink function
 //     });
 // }
 
-/*Function toggleColumn*/
-let toggleColumn = () => {  // Function for modifying the right column and showing one or two comments at the same time
-  var bottomDiv = document.getElementById("bottomDiv");
-  var upperDiv = document.getElementById("upperDiv");
-  var icon = document.getElementById("splitButton");
-  var text = document.getElementById("popup");
-  var buttonComments = document.getElementById("toggle-commenti2");
-
-  if (bottomDiv.classList.contains("hide")) {
-    // Show the bottom div
-    bottomDiv.classList.remove("hide");
-    upperDiv.classList.remove("singularText");
-    icon.classList.remove("bi-plus-circle");
-    icon.classList.add("bi-dash-circle");
-    text.textContent = "Clicca qui per visualizzare un solo commento.";
-    buttonComments.classList.remove("hide");
-  } else {
-    // Hide the bottom div
-    bottomDiv.classList.add("hide");
-    upperDiv.classList.add("singularText");
-    icon.classList.remove("bi-dash-circle");
-    icon.classList.add("bi-plus-circle");
-    text.textContent = "Clicca qui per visualizzare due commenti.";
-    buttonComments.classList.add("hide");
-  };
-};
 
 /*Function enlargeRightColumn*/
 let enlargeRightColumn = () => {     // Function for enlarging the right column and hiding the left one
