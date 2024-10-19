@@ -10,8 +10,12 @@ router.get("/traduzione", (req, res) => {
     fs.readFile('./translations/output.json', 'utf8', (err, data) => {
         if (err) throw err;
         const jsonData = JSON.parse(data);
-        res.render('traduzione', { data: jsonData });
-      });
+        
+        // Filter out entries where the language ends with 's'
+        const filteredData = jsonData.filter(item => !item.language.endsWith('s'));
+        
+        res.render('traduzione', { data: filteredData });
+    });
 });
 
 /* export the module */

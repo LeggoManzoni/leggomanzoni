@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>INTRODUCTION</title>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Academia</publisher>
+        <pubPlace>Москва</pubPlace>
+        <date>1936</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>Обрученные : Повесть из истории Милана XVII века</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Москва</pubPlace>
+          <publisher>Academia</publisher>
+          <date>1936</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>I. I. Schitz</persName>
+          </respStmt>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Вступление, cap. 1-16</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="russian_1936_cap31">
+        <note xml:id="russian_1936_cap31-n1" type="comm" target="quarantana/cap31.xml#c31_10001" targetEnd="quarantana/cap31.xml#c31_10018">Чума, вторжения которой в миланские владения одновременно с немецкими бандами так опасался Санитарный трибунал, </note>
+        <note xml:id="russian_1936_cap31-n2" type="comm" target="quarantana/cap31.xml#c31_10019" targetEnd="quarantana/cap31.xml#c31_10024">как известно, в самом деле появилась; </note>
+        <note xml:id="russian_1936_cap31-n3" type="comm" target="quarantana/cap31.xml#c31_10025" targetEnd="quarantana/cap31.xml#c31_10033">равным образом известно, что она не остановилась тут, </note>
+        <note xml:id="russian_1936_cap31-n4" type="comm" target="quarantana/cap31.xml#c31_10034" targetEnd="quarantana/cap31.xml#c31_10041">но захватила и обезлюдила изрядную часть Италии. </note>
+        <note xml:id="russian_1936_cap31-n5" type="comm" target="quarantana/cap31.xml#c31_10042" targetEnd="quarantana/cap31.xml#c31_10047">Придерживаясь основной нити нашей истории, </note>
+        <note xml:id="russian_1936_cap31-n6" type="comm" target="quarantana/cap31.xml#c31_10048" targetEnd="quarantana/cap31.xml#c31_10057">мы переходим к рассказу о главных событиях этого общественного бедствия, </note>
+        <note xml:id="russian_1936_cap31-n7" type="comm" target="quarantana/cap31.xml#c31_10058" targetEnd="quarantana/cap31.xml#c31_10060">— разумеется, только в пределах Миланской области, </note>
+        <note xml:id="russian_1936_cap31-n8" type="comm" target="quarantana/cap31.xml#c31_10061" targetEnd="quarantana/cap31.xml#c31_10065">и даже почти исключительно в Милане, </note>
+        <note xml:id="russian_1936_cap31-n9" type="comm" target="quarantana/cap31.xml#c31_10066" targetEnd="quarantana/cap31.xml#c31_10075">так как мемуары этой эпохи касаются почти исключительно города, </note>
+        <note xml:id="russian_1936_cap31-n10" type="comm" target="quarantana/cap31.xml#c31_10076" targetEnd="quarantana/cap31.xml#c31_10091">как это по хорошим или по дурным основаниям бывает едва ли не всегда и всюду. </note>
+        <note xml:id="russian_1936_cap31-n11" type="comm" target="quarantana/cap31.xml#c31_10092" targetEnd="quarantana/cap31.xml#c31_10095">И в этом рассказе, </note>
+        <note xml:id="russian_1936_cap31-n13" type="comm" target="quarantana/cap31.xml#c31_10101" targetEnd="quarantana/cap31.xml#c31_10104">сказать по правде, </note>
+        <note xml:id="russian_1936_cap31-n14" type="comm" target="quarantana/cap31.xml#c31_10105" targetEnd="quarantana/cap31.xml#c31_10119">наша цель не только изобразить положение дел, в каком окажутся наши герои, </note>
+        <note xml:id="russian_1936_cap31-n15" type="comm" target="quarantana/cap31.xml#c31_10120" targetEnd="quarantana/cap31.xml#c31_10124">но вместе сообщить ко всеобщему сведению, </note>
+        <note xml:id="russian_1936_cap31-n16" type="comm" target="quarantana/cap31.xml#c31_10125" targetEnd="quarantana/cap31.xml#c31_10137">насколько возможно кратко и насколько это окажется нам по силам, </note>
+        <note xml:id="russian_1936_cap31-n17" type="comm" target="quarantana/cap31.xml#c31_10138" targetEnd="quarantana/cap31.xml#c31_10146">отрывок отечественной истории, скорее прославленный, чем хорошо известный. </note>
+        <note xml:id="russian_1936_cap31-n18" type="comm" target="quarantana/cap31.xml#c31_10147" targetEnd="quarantana/cap31.xml#c31_10150">Из многочисленных современных повествований нет ни одного, </note>
+        <note xml:id="russian_1936_cap31-n19" type="comm" target="quarantana/cap31.xml#c31_10151" targetEnd="quarantana/cap31.xml#c31_10177">которое само по себе было бы достаточно для того, чтобы дать сколько-нибудь отчетливое и стройное представление о нем. </note>
+        <note xml:id="russian_1936_cap31-n20" type="comm" target="quarantana/cap31.xml#c31_10178" targetEnd="quarantana/cap31.xml#c31_10182">В каждом из этих повествований, </note>
+        <note xml:id="russian_1936_cap31-n21" type="comm" target="quarantana/cap31.xml#c31_10183" targetEnd="quarantana/cap31.xml#c31_10204">не исключая и принадлежащего перу Рипамонти, </note>
+        <note xml:id="russian_1936_cap31-n23" type="comm" target="quarantana/cap31.xml#c31_10207" targetEnd="quarantana/cap31.xml#c31_10228">каковое превосходит все остальные по количеству и по выбору фактов и еще более по способу рассмотрения их, </note>
+        <note xml:id="russian_1936_cap31-n24" type="comm" target="quarantana/cap31.xml#c31_10229" targetEnd="quarantana/cap31.xml#c31_10234">в каждом опущены существенные факты, </note>
+        <note xml:id="russian_1936_cap31-n25" type="comm" target="quarantana/cap31.xml#c31_10235" targetEnd="quarantana/cap31.xml#c31_10239">занесенные в другие; </note>
+        <note xml:id="russian_1936_cap31-n26" type="comm" target="quarantana/cap31.xml#c31_10240" targetEnd="quarantana/cap31.xml#c31_10245">в каждом встречаются фактические ошибки, </note>
+        <note xml:id="russian_1936_cap31-n27" type="comm" target="quarantana/cap31.xml#c31_10246" targetEnd="quarantana/cap31.xml#c31_10264">которые можно установить и исправить с помощью какого-либо другого повествования или с помощью немногих уцелевших правительственных распоряжений, </note>
+        <note xml:id="russian_1936_cap31-n28" type="comm" target="quarantana/cap31.xml#c31_10265" targetEnd="quarantana/cap31.xml#c31_10269">изданных и не изданных; </note>
+        <note xml:id="russian_1936_cap31-n29" type="comm" target="quarantana/cap31.xml#c31_10270" targetEnd="quarantana/cap31.xml#c31_10283">часто в одном повествовании находишь причины, результаты которых, </note>
+        <note xml:id="russian_1936_cap31-n30" type="comm" target="quarantana/cap31.xml#c31_10284" targetEnd="quarantana/cap31.xml#c31_10286">словно висящие в воздухе, </note>
+        <note xml:id="russian_1936_cap31-n31" type="comm" target="quarantana/cap31.xml#c31_10287" targetEnd="quarantana/cap31.xml#c31_10288">приходилось видеть в другом. </note>
+        <note xml:id="russian_1936_cap31-n32" type="comm" target="quarantana/cap31.xml#c31_10289" targetEnd="quarantana/cap31.xml#c31_10300">Зато одинаково во всех царит странная путаница во времени и в событиях; </note>
+        <note xml:id="russian_1936_cap31-n33" type="comm" target="quarantana/cap31.xml#c31_10301" targetEnd="quarantana/cap31.xml#c31_10306">какое-то непрестанное хождение взад и вперед, </note>
+        <note xml:id="russian_1936_cap31-n34" type="comm" target="quarantana/cap31.xml#c31_10307" targetEnd="quarantana/cap31.xml#c31_10309">словно наугад, </note>
+        <note xml:id="russian_1936_cap31-n35" type="comm" target="quarantana/cap31.xml#c31_10310" targetEnd="quarantana/cap31.xml#c31_10312">без общего плана, </note>
+        <note xml:id="russian_1936_cap31-n36" type="comm" target="quarantana/cap31.xml#c31_10313" targetEnd="quarantana/cap31.xml#c31_10317">без плана в частностях, </note>
+        <note xml:id="russian_1936_cap31-n37" type="comm" target="quarantana/cap31.xml#c31_10318" targetEnd="quarantana/cap31.xml#c31_10319">— впрочем, </note>
+        <note xml:id="russian_1936_cap31-n38" type="comm" target="quarantana/cap31.xml#c31_10320" targetEnd="quarantana/cap31.xml#c31_10331">это одна из наиболее обычных и наиболее очевидных особенностей всех книг той эпохи, </note>
+        <note xml:id="russian_1936_cap31-n39" type="comm" target="quarantana/cap31.xml#c31_10332" targetEnd="quarantana/cap31.xml#c31_10338">особенно книг, написанных на народном языке, </note>
+        <note xml:id="russian_1936_cap31-n40" type="comm" target="quarantana/cap31.xml#c31_10339" targetEnd="quarantana/cap31.xml#c31_10341">по крайней мере, в Италии; </note>
+        <note xml:id="russian_1936_cap31-n41" type="comm" target="quarantana/cap31.xml#c31_10342" targetEnd="quarantana/cap31.xml#c31_10346">так ли это в остальной Европе, </note>
+        <note xml:id="russian_1936_cap31-n42" type="comm" target="quarantana/cap31.xml#c31_10347" targetEnd="quarantana/cap31.xml#c31_10350">про то знают ученые, </note>
+        <note xml:id="russian_1936_cap31-n43" type="comm" target="quarantana/cap31.xml#c31_10351" targetEnd="quarantana/cap31.xml#c31_10353">мы же об этом только догадываемся. </note>
+        <note xml:id="russian_1936_cap31-n44" type="comm" target="quarantana/cap31.xml#c31_10354" targetEnd="quarantana/cap31.xml#c31_10365">Ни один писатель последующей эпохи не ставил себе задачей исследовать и сопоставить эти мемуары, </note>
+        <note xml:id="russian_1936_cap31-n45" type="comm" target="quarantana/cap31.xml#c31_10366" targetEnd="quarantana/cap31.xml#c31_10372">чтобы извлечь из них связную цепь происшествий, </note>
+        <note xml:id="russian_1936_cap31-n46" type="comm" target="quarantana/cap31.xml#c31_10373" targetEnd="quarantana/cap31.xml#c31_10377">историю этой чумы, </note>
+        <note xml:id="russian_1936_cap31-n47" type="comm" target="quarantana/cap31.xml#c31_10378" targetEnd="quarantana/cap31.xml#c31_10393">так что обычное о ней представление по необходимости должно быть очень неточным и несколько смутным: </note>
+        <note xml:id="russian_1936_cap31-n48" type="comm" target="quarantana/cap31.xml#c31_10394" targetEnd="quarantana/cap31.xml#c31_10409">неопределенное представление о великих бедствиях и великих ошибках (а по правде сказать, и тех и других было свыше того, </note>
+        <note xml:id="russian_1936_cap31-n49" type="comm" target="quarantana/cap31.xml#c31_10410" targetEnd="quarantana/cap31.xml#c31_10418">что можно себе вообразить), представление, </note>
+        <note xml:id="russian_1936_cap31-n50" type="comm" target="quarantana/cap31.xml#c31_10419" targetEnd="quarantana/cap31.xml#c31_10426">построенное скорее на суждениях, чем на фактах, </note>
+        <note xml:id="russian_1936_cap31-n51" type="comm" target="quarantana/cap31.xml#c31_10427" targetEnd="quarantana/cap31.xml#c31_10429">немногих разрозненных фактах, </note>
+        <note xml:id="russian_1936_cap31-n52" type="comm" target="quarantana/cap31.xml#c31_10430" targetEnd="quarantana/cap31.xml#c31_10437">нередко оторванных от наиболее характерных обстоятельств, </note>
+        <note xml:id="russian_1936_cap31-n53" type="comm" target="quarantana/cap31.xml#c31_10438" targetEnd="quarantana/cap31.xml#c31_10441">без различения времени, </note>
+        <note xml:id="russian_1936_cap31-n54" type="comm" target="quarantana/cap31.xml#c31_10442" targetEnd="quarantana/cap31.xml#c31_10448">без понимания причины и действия, </note>
+        <note xml:id="russian_1936_cap31-n55" type="comm" target="quarantana/cap31.xml#c31_10449" targetEnd="quarantana/cap31.xml#c31_10452">последовательности в ходе событий. </note>
+        <note xml:id="russian_1936_cap31-n56" type="comm" target="quarantana/cap31.xml#c31_10453" targetEnd="quarantana/cap31.xml#c31_10456">Исследуя и сопоставляя, </note>
+        <note xml:id="russian_1936_cap31-n57" type="comm" target="quarantana/cap31.xml#c31_10457" targetEnd="quarantana/cap31.xml#c31_10462">по меньшей мере с полным старанием, </note>
+        <note xml:id="russian_1936_cap31-n58" type="comm" target="quarantana/cap31.xml#c31_10463" targetEnd="quarantana/cap31.xml#c31_10469">все напечатанные повествования и некоторые неизданные, </note>
+        <note xml:id="russian_1936_cap31-n59" type="comm" target="quarantana/cap31.xml#c31_10470" targetEnd="quarantana/cap31.xml#c31_10481">а также много (принимая во внимание малое число уцелевших) так называемых официальных документов, </note>
+        <note xml:id="russian_1936_cap31-n60" type="comm" target="quarantana/cap31.xml#c31_10482" targetEnd="quarantana/cap31.xml#c31_10491">мы старались сделать изо всего этого не то, что, конечно, хотелось бы, </note>
+        <note xml:id="russian_1936_cap31-n61" type="comm" target="quarantana/cap31.xml#c31_10492" targetEnd="quarantana/cap31.xml#c31_10500">но все же нечто, до сих пор еще не сделанное. </note>
+        <note xml:id="russian_1936_cap31-n62" type="comm" target="quarantana/cap31.xml#c31_10501" targetEnd="quarantana/cap31.xml#c31_10517">Мы не собираемся приводить все публичные акты и даже не все сколько-нибудь достойные памяти происшествия. </note>
+        <note xml:id="russian_1936_cap31-n63" type="comm" target="quarantana/cap31.xml#c31_10518" targetEnd="quarantana/cap31.xml#c31_10539">Еще меньше притязаем мы на то, чтобы сделать чтение оригинальных сообщений ненужным для того, кто хочет составить себе более полное представление о предмете: </note>
+        <note xml:id="russian_1936_cap31-n64" type="comm" target="quarantana/cap31.xml#c31_10540" targetEnd="quarantana/cap31.xml#c31_10544">мы слишком хорошо чувствуем живую, </note>
+        <note xml:id="russian_1936_cap31-n65" type="comm" target="quarantana/cap31.xml#c31_10545" targetEnd="quarantana/cap31.xml#c31_10546">непосредственную и, </note>
+        <note xml:id="russian_1936_cap31-n66" type="comm" target="quarantana/cap31.xml#c31_10547" targetEnd="quarantana/cap31.xml#c31_10549">так сказать, </note>
+        <note xml:id="russian_1936_cap31-n67" type="comm" target="quarantana/cap31.xml#c31_10550" targetEnd="quarantana/cap31.xml#c31_10550">непередаваемую силу, </note>
+        <note xml:id="russian_1936_cap31-n68" type="comm" target="quarantana/cap31.xml#c31_10551" targetEnd="quarantana/cap31.xml#c31_10557">какая всегда заключается в произведениях этого рода, </note>
+        <note xml:id="russian_1936_cap31-n69" type="comm" target="quarantana/cap31.xml#c31_10558" targetEnd="quarantana/cap31.xml#c31_10561">как бы они ни были задуманы и построены. </note>
+        <note xml:id="russian_1936_cap31-n70" type="comm" target="quarantana/cap31.xml#c31_10562" targetEnd="quarantana/cap31.xml#c31_10576">Мы попытались только выяснить и установить наиболее общие и важные факты, </note>
+        <note xml:id="russian_1936_cap31-n71" type="comm" target="quarantana/cap31.xml#c31_10577" targetEnd="quarantana/cap31.xml#c31_10583">расположить их в порядке действительной их последовательности, </note>
+        <note xml:id="russian_1936_cap31-n72" type="comm" target="quarantana/cap31.xml#c31_10584" targetEnd="quarantana/cap31.xml#c31_10593">насколько это допускает их значение и их природа, </note>
+        <note xml:id="russian_1936_cap31-n73" type="comm" target="quarantana/cap31.xml#c31_10594" targetEnd="quarantana/cap31.xml#c31_10602">рассмотреть их взаимоотношение и дать сжатый, </note>
+        <note xml:id="russian_1936_cap31-n74" type="comm" target="quarantana/cap31.xml#c31_10603" targetEnd="quarantana/cap31.xml#c31_10621">но правдивый и последовательный рассказ об этом бедствии, временно, впредь до того, как кто-нибудь не сделает этого лучше. </note>
+        <note xml:id="russian_1936_cap31-n75" type="comm" target="quarantana/cap31.xml#c31_10622" targetEnd="quarantana/cap31.xml#c31_10630">Так вот, по всей полосе территории, пройденной войском, </note>
+        <note xml:id="russian_1936_cap31-n76" type="comm" target="quarantana/cap31.xml#c31_10631" targetEnd="quarantana/cap31.xml#c31_10639">попадались отдельные трупы в домах и прямо на дороге. </note>
+        <note xml:id="russian_1936_cap31-n77" type="comm" target="quarantana/cap31.xml#c31_10640" targetEnd="quarantana/cap31.xml#c31_10641">Немного спустя, </note>
+        <note xml:id="russian_1936_cap31-n78" type="comm" target="quarantana/cap31.xml#c31_10642" targetEnd="quarantana/cap31.xml#c31_10650">то в той, то в другой деревне стали хворать, </note>
+        <note xml:id="russian_1936_cap31-n79" type="comm" target="quarantana/cap31.xml#c31_10651" targetEnd="quarantana/cap31.xml#c31_10654">помирать люди и целые семьи от странных, </note>
+        <note xml:id="russian_1936_cap31-n80" type="comm" target="quarantana/cap31.xml#c31_10655" targetEnd="quarantana/cap31.xml#c31_10658">жестоких болей с признаками, </note>
+        <note xml:id="russian_1936_cap31-n81" type="comm" target="quarantana/cap31.xml#c31_10659" targetEnd="quarantana/cap31.xml#c31_10666">неизвестными большинству живых. </note>
+        <note xml:id="russian_1936_cap31-n82" type="comm" target="quarantana/cap31.xml#c31_10667" targetEnd="quarantana/cap31.xml#c31_10674">Лишь для некоторых признаки эти оказались не новыми: </note>
+        <note xml:id="russian_1936_cap31-n83" type="comm" target="quarantana/cap31.xml#c31_10675" targetEnd="quarantana/cap31.xml#c31_10682">это были те немногие, которые могли припомнить чуму, </note>
+        <note xml:id="russian_1936_cap31-n84" type="comm" target="quarantana/cap31.xml#c31_10683" targetEnd="quarantana/cap31.xml#c31_10697">пятьдесят три года тому назад тоже опустошившую добрую часть Италии и особенно Миланскую область, </note>
+        <note xml:id="russian_1936_cap31-n85" type="comm" target="quarantana/cap31.xml#c31_10698" targetEnd="quarantana/cap31.xml#c31_10708">где она получила и поныне сохранившееся название чумы Сан-Карло. </note>
+        <note xml:id="russian_1936_cap31-n86" type="comm" target="quarantana/cap31.xml#c31_10709" targetEnd="quarantana/cap31.xml#c31_10713">Такова сила милосердия! </note>
+        <note xml:id="russian_1936_cap31-n87" type="comm" target="quarantana/cap31.xml#c31_10714" targetEnd="quarantana/cap31.xml#c31_10731">Среди столь различных, столь грозных воспоминаний о всеобщем несчастии милосердие может заставить первенствовать память об одном человеке, </note>
+        <note xml:id="russian_1936_cap31-n88" type="comm" target="quarantana/cap31.xml#c31_10732" targetEnd="quarantana/cap31.xml#c31_10744">потому что этому человеку оно внушило чувства и действия, еще более достопамятные, чем самые бедствия; </note>
+        <note xml:id="russian_1936_cap31-n89" type="comm" target="quarantana/cap31.xml#c31_10745" targetEnd="quarantana/cap31.xml#c31_10747">может запечатлеть его в умах, </note>
+        <note xml:id="russian_1936_cap31-n90" type="comm" target="quarantana/cap31.xml#c31_10748" targetEnd="quarantana/cap31.xml#c31_10754">как обобщение всех этих бедствий, </note>
+        <note xml:id="russian_1936_cap31-n91" type="comm" target="quarantana/cap31.xml#c31_10755" targetEnd="quarantana/cap31.xml#c31_10761">потому что милосердие толкнуло и вовлекло его в самую гущу их, </note>
+        <note xml:id="russian_1936_cap31-n92" type="comm" target="quarantana/cap31.xml#c31_10762" targetEnd="quarantana/cap31.xml#c31_10762">сделав его вождем, </note>
+        <note xml:id="russian_1936_cap31-n93" type="comm" target="quarantana/cap31.xml#c31_10763" targetEnd="quarantana/cap31.xml#c31_10763">поддержкой, </note>
+        <note xml:id="russian_1936_cap31-n94" type="comm" target="quarantana/cap31.xml#c31_10764" targetEnd="quarantana/cap31.xml#c31_10764">примером, </note>
+        <note xml:id="russian_1936_cap31-n95" type="comm" target="quarantana/cap31.xml#c31_10765" targetEnd="quarantana/cap31.xml#c31_10766">добровольной жертвой; </note>
+        <note xml:id="russian_1936_cap31-n96" type="comm" target="quarantana/cap31.xml#c31_10767" targetEnd="quarantana/cap31.xml#c31_10775">могло из бедствия для всех создать для этого человека поприще великого подвига; </note>
+        <note xml:id="russian_1936_cap31-n97" type="comm" target="quarantana/cap31.xml#c31_10776" targetEnd="quarantana/cap31.xml#c31_10778">назвать его именем самое бедствие это, </note>
+        <note xml:id="russian_1936_cap31-n98" type="comm" target="quarantana/cap31.xml#c31_10779" targetEnd="quarantana/cap31.xml#c31_10784">словно некое завоевание или великое открытие. </note>
+        <note xml:id="russian_1936_cap31-n99" type="comm" target="quarantana/cap31.xml#c31_10785" targetEnd="quarantana/cap31.xml#c31_10788">Протофизик Лодовико Сеттала, </note>
+        <note xml:id="russian_1936_cap31-n100" type="comm" target="quarantana/cap31.xml#c31_10789" targetEnd="quarantana/cap31.xml#c31_10795">который не только видел эту чуму, </note>
+        <note xml:id="russian_1936_cap31-n101" type="comm" target="quarantana/cap31.xml#c31_10796" targetEnd="quarantana/cap31.xml#c31_10804">но был и одним из самых деятельных, бесстрашных и, </note>
+        <note xml:id="russian_1936_cap31-n102" type="comm" target="quarantana/cap31.xml#c31_10805" targetEnd="quarantana/cap31.xml#c31_10808">несмотря на свою молодость в то время, </note>
+        <note xml:id="russian_1936_cap31-n103" type="comm" target="quarantana/cap31.xml#c31_10809" targetEnd="quarantana/cap31.xml#c31_10812">одним из самых признанных целителей ее, </note>
+        <note xml:id="russian_1936_cap31-n104" type="comm" target="quarantana/cap31.xml#c31_10813" targetEnd="quarantana/cap31.xml#c31_10820">и который теперь сильно подозревал ее приближение, </note>
+        <note xml:id="russian_1936_cap31-n105" type="comm" target="quarantana/cap31.xml#c31_10821" targetEnd="quarantana/cap31.xml#c31_10824">бдительно следил за всеми известиями о ней, </note>
+        <note xml:id="russian_1936_cap31-n106" type="comm" target="quarantana/cap31.xml#c31_10825" targetEnd="quarantana/cap31.xml#c31_10832">сообщил 20 октября в Санитарном трибунале о том, </note>
+        <note xml:id="russian_1936_cap31-n107" type="comm" target="quarantana/cap31.xml#c31_10833" targetEnd="quarantana/cap31.xml#c31_10842">как в районе Кьюзо (крайнем на территории Лекко, </note>
+        <note xml:id="russian_1936_cap31-n108" type="comm" target="quarantana/cap31.xml#c31_10843" targetEnd="quarantana/cap31.xml#c31_10851">на самой границе с владениями Бергамо) несомненно вспыхнула зараза. </note>
+        <note xml:id="russian_1936_cap31-n109" type="comm" target="quarantana/cap31.xml#c31_10852" targetEnd="quarantana/cap31.xml#c31_10858">Но никакого решения по этому поводу постановлено не было, </note>
+        <note xml:id="russian_1936_cap31-n110" type="comm" target="quarantana/cap31.xml#c31_10859" targetEnd="quarantana/cap31.xml#c31_10867">как это явствует из «Сообщения» Тадино. </note>
+        <note xml:id="russian_1936_cap31-n111" type="comm" target="quarantana/cap31.xml#c31_10868" targetEnd="quarantana/cap31.xml#c31_10878">Но вот поступают следом подобные же извещения из Лекко и Беллано. </note>
+        <note xml:id="russian_1936_cap31-n112" type="comm" target="quarantana/cap31.xml#c31_10879" targetEnd="quarantana/cap31.xml#c31_10891">Тогда Трибунал принял решение и удовольствовался посылкой комиссара, </note>
+        <note xml:id="russian_1936_cap31-n113" type="comm" target="quarantana/cap31.xml#c31_10892" targetEnd="quarantana/cap31.xml#c31_10908">который должен был по дороге захватить в Комо врача и отправиться с ним для посещения указанных мест. </note>
+        <note xml:id="russian_1936_cap31-n114" type="comm" target="quarantana/cap31.xml#c31_10909" targetEnd="quarantana/cap31.xml#c31_10910">Оба они, </note>
+        <note xml:id="russian_1936_cap31-n115" type="comm" target="quarantana/cap31.xml#c31_10911" targetEnd="quarantana/cap31.xml#c31_10916">«по невежеству ли, или почему-либо другому, </note>
+        <note xml:id="russian_1936_cap31-n116" type="comm" target="quarantana/cap31.xml#c31_10917" targetEnd="quarantana/cap31.xml#c31_10927">дали одному старому и тоже невежественному белланскому цырюльнику убедить себя в том, </note>
+        <note xml:id="russian_1936_cap31-n117" type="comm" target="quarantana/cap31.xml#c31_10928" targetEnd="quarantana/cap31.xml#c31_10936">что подобный вид заболеваний вовсе не Чума», </note>
+        <note xml:id="russian_1936_cap31-n118" type="comm" target="quarantana/cap31.xml#c31_10937" targetEnd="quarantana/cap31.xml#c31_10947">но обычное последствие осенних болотных испарений в некоторых местах, </note>
+        <note xml:id="russian_1936_cap31-n119" type="comm" target="quarantana/cap31.xml#c31_10948" targetEnd="quarantana/cap31.xml#c31_10961">а в других — последствие нужды и перенесенных за время нашествия немцев лишений. </note>
+        <note xml:id="russian_1936_cap31-n120" type="comm" target="quarantana/cap31.xml#c31_10962" targetEnd="quarantana/cap31.xml#c31_10968">Такое заверение доложено было Трибуналу, </note>
+        <note xml:id="russian_1936_cap31-n121" type="comm" target="quarantana/cap31.xml#c31_10969" targetEnd="quarantana/cap31.xml#c31_10978">который, повидимому, на нем и успокоился. </note>
+        <note xml:id="russian_1936_cap31-n122" type="comm" target="quarantana/cap31.xml#c31_10979" targetEnd="quarantana/cap31.xml#c31_10991">Но так как бесперерывно поступали со всех сторон всё новые и новые извещения о смерти, </note>
+        <note xml:id="russian_1936_cap31-n123" type="comm" target="quarantana/cap31.xml#c31_10992" targetEnd="quarantana/cap31.xml#c31_11000">то было отправлено два делегата с назначением посмотреть и предусмотреть; </note>
+        <note xml:id="russian_1936_cap31-n124" type="comm" target="quarantana/cap31.xml#c31_11001" targetEnd="quarantana/cap31.xml#c31_11008">это были вышеназванный Тадино и один аудитор Трибунала. </note>
+        <note xml:id="russian_1936_cap31-n125" type="comm" target="quarantana/cap31.xml#c31_11009" targetEnd="quarantana/cap31.xml#c31_11011">Когда они прибыли на место, </note>
+        <note xml:id="russian_1936_cap31-n126" type="comm" target="quarantana/cap31.xml#c31_11012" targetEnd="quarantana/cap31.xml#c31_11017">болезнь получила уже такое широкое распространение, </note>
+        <note xml:id="russian_1936_cap31-n127" type="comm" target="quarantana/cap31.xml#c31_11018" targetEnd="quarantana/cap31.xml#c31_11028">что доказательства были налицо и не приходилось их разыскивать. </note>
+        <note xml:id="russian_1936_cap31-n128" type="comm" target="quarantana/cap31.xml#c31_11029" targetEnd="quarantana/cap31.xml#c31_11033">Объехали территорию Лекко, </note>
+        <note xml:id="russian_1936_cap31-n129" type="comm" target="quarantana/cap31.xml#c31_11034" targetEnd="quarantana/cap31.xml#c31_11035">Вальсассины, </note>
+        <note xml:id="russian_1936_cap31-n130" type="comm" target="quarantana/cap31.xml#c31_11036" targetEnd="quarantana/cap31.xml#c31_11041">берега озера Комо, районы, </note>
+        <note xml:id="russian_1936_cap31-n131" type="comm" target="quarantana/cap31.xml#c31_11042" targetEnd="quarantana/cap31.xml#c31_11052">носившие название Монтеди-Брианца и Джера д'Aдда, </note>
+        <note xml:id="russian_1936_cap31-n132" type="comm" target="quarantana/cap31.xml#c31_11053" targetEnd="quarantana/cap31.xml#c31_11061">и всюду попадались селения, загороженные у входа решетками, </note>
+        <note xml:id="russian_1936_cap31-n133" type="comm" target="quarantana/cap31.xml#c31_11062" targetEnd="quarantana/cap31.xml#c31_11064">другие — почти опустевшие, </note>
+        <note xml:id="russian_1936_cap31-n134" type="comm" target="quarantana/cap31.xml#c31_11065" targetEnd="quarantana/cap31.xml#c31_11072">жители же их убежали и расположились в чистом поле, </note>
+        <note xml:id="russian_1936_cap31-n135" type="comm" target="quarantana/cap31.xml#c31_11073" targetEnd="quarantana/cap31.xml#c31_11074">либо рассеялись; </note>
+        <note xml:id="russian_1936_cap31-n136" type="comm" target="quarantana/cap31.xml#c31_11075" targetEnd="quarantana/cap31.xml#c31_11081">«и они показались нам, говорит Тадино, </note>
+        <note xml:id="russian_1936_cap31-n137" type="comm" target="quarantana/cap31.xml#c31_11082" targetEnd="quarantana/cap31.xml#c31_11090">какими-то дикими созданиями держащими в руках кто мяту, </note>
+        <note xml:id="russian_1936_cap31-n138" type="comm" target="quarantana/cap31.xml#c31_11091" targetEnd="quarantana/cap31.xml#c31_11093">кто руту, </note>
+        <note xml:id="russian_1936_cap31-n139" type="comm" target="quarantana/cap31.xml#c31_11094" targetEnd="quarantana/cap31.xml#c31_11101">кто розмарин, а кто склянку с уксусом». </note>
+        <note xml:id="russian_1936_cap31-n140" type="comm" target="quarantana/cap31.xml#c31_11102" targetEnd="quarantana/cap31.xml#c31_11106">Делегаты справились о числе умерших, </note>
+        <note xml:id="russian_1936_cap31-n141" type="comm" target="quarantana/cap31.xml#c31_11107" targetEnd="quarantana/cap31.xml#c31_11108">оно было ужасающе; </note>
+        <note xml:id="russian_1936_cap31-n142" type="comm" target="quarantana/cap31.xml#c31_11109" targetEnd="quarantana/cap31.xml#c31_11112">они осмотрели больных и трупы, </note>
+        <note xml:id="russian_1936_cap31-n143" type="comm" target="quarantana/cap31.xml#c31_11113" targetEnd="quarantana/cap31.xml#c31_11123">и всюду нашли отвратительные и страшные следы моровой язвы. </note>
+        <note xml:id="russian_1936_cap31-n144" type="comm" target="quarantana/cap31.xml#c31_11124" targetEnd="quarantana/cap31.xml#c31_11134">Они немедленно сообщили эти зловещие новости в письменной форме Санитарному трибуналу, </note>
+        <note xml:id="russian_1936_cap31-n145" type="comm" target="quarantana/cap31.xml#c31_11135" targetEnd="quarantana/cap31.xml#c31_11136">который, </note>
+        <note xml:id="russian_1936_cap31-n146" type="comm" target="quarantana/cap31.xml#c31_11137" targetEnd="quarantana/cap31.xml#c31_11138">в самый день получения их, </note>
+        <note xml:id="russian_1936_cap31-n147" type="comm" target="quarantana/cap31.xml#c31_11139" targetEnd="quarantana/cap31.xml#c31_11143">а именно 30 октября, </note>
+        <note xml:id="russian_1936_cap31-n148" type="comm" target="quarantana/cap31.xml#c31_11144" targetEnd="quarantana/cap31.xml#c31_11150">распорядился, как говорит тот же Тадино, </note>
+        <note xml:id="russian_1936_cap31-n149" type="comm" target="quarantana/cap31.xml#c31_11151" targetEnd="quarantana/cap31.xml#c31_11154">предписать обязательные пропуски, </note>
+        <note xml:id="russian_1936_cap31-n150" type="comm" target="quarantana/cap31.xml#c31_11155" targetEnd="quarantana/cap31.xml#c31_11169">чтобы держать подальше от города лиц, прибывающих из селений, где обнаружилась зараза, </note>
+        <note xml:id="russian_1936_cap31-n151" type="comm" target="quarantana/cap31.xml#c31_11170" targetEnd="quarantana/cap31.xml#c31_11183">и, «пока составлялся указ», отдал кое-какие предварительные общие распоряжения на этот счет таможенным чиновникам. </note>
+        <note xml:id="russian_1936_cap31-n152" type="comm" target="quarantana/cap31.xml#c31_11184" targetEnd="quarantana/cap31.xml#c31_11198">Тем временем делегаты наспех предприняли меры, которые казались им наилучшими, </note>
+        <note xml:id="russian_1936_cap31-n153" type="comm" target="quarantana/cap31.xml#c31_11199" targetEnd="quarantana/cap31.xml#c31_11202">и вернулись с печальным убеждением, </note>
+        <note xml:id="russian_1936_cap31-n154" type="comm" target="quarantana/cap31.xml#c31_11203" targetEnd="quarantana/cap31.xml#c31_11222">что этих мер недостаточно для врачевания и приостановки болезни, которая зашла уже так далеко и так распространилась. </note>
+        <note xml:id="russian_1936_cap31-n155" type="comm" target="quarantana/cap31.xml#c31_11223" targetEnd="quarantana/cap31.xml#c31_11238">Прибыв 14 ноября и сдав отчет Трибуналу устно и еще раз письменно, </note>
+        <note xml:id="russian_1936_cap31-n156" type="comm" target="quarantana/cap31.xml#c31_11239" targetEnd="quarantana/cap31.xml#c31_11252">делегаты получили от него поручение представиться губернатору и изложить ему положение вещей. </note>
+        <note xml:id="russian_1936_cap31-n157" type="comm" target="quarantana/cap31.xml#c31_11253" targetEnd="quarantana/cap31.xml#c31_11255">Они отправились и принесли такой ответ: </note>
+        <note xml:id="russian_1936_cap31-n158" type="comm" target="quarantana/cap31.xml#c31_11256" targetEnd="quarantana/cap31.xml#c31_11267">что ему очень неприятно было слышать эти известия и что он проявил глубокое соболезнование; </note>
+        <note xml:id="russian_1936_cap31-n159" type="comm" target="quarantana/cap31.xml#c31_11268" targetEnd="quarantana/cap31.xml#c31_11275">но заботы о войне все же более настоятельны: </note>
+        <note xml:id="russian_1936_cap31-n160" type="comm" target="quarantana/cap31.xml#c31_11276" targetEnd="quarantana/cap31.xml#c31_11281">sed belli graviores esse curas. </note>
+        <note xml:id="russian_1936_cap31-n161" type="comm" target="quarantana/cap31.xml#c31_11282" targetEnd="quarantana/cap31.xml#c31_11285">Так передает Рипамонти, </note>
+        <note xml:id="russian_1936_cap31-n162" type="comm" target="quarantana/cap31.xml#c31_11286" targetEnd="quarantana/cap31.xml#c31_11298">который разбирал реестры Санитарного ведомства и беседовал с Тадино, </note>
+        <note xml:id="russian_1936_cap31-n163" type="comm" target="quarantana/cap31.xml#c31_11299" targetEnd="quarantana/cap31.xml#c31_11302">специально облеченным этой миссией: </note>
+        <note xml:id="russian_1936_cap31-n165" type="comm" target="quarantana/cap31.xml#c31_11306" targetEnd="quarantana/cap31.xml#c31_11311">если читатель припомнит, </note>
+        <note xml:id="russian_1936_cap31-n166" type="comm" target="quarantana/cap31.xml#c31_11312" targetEnd="quarantana/cap31.xml#c31_11314">это была вторая миссия этого рода, </note>
+        <note xml:id="russian_1936_cap31-n167" type="comm" target="quarantana/cap31.xml#c31_11315" targetEnd="quarantana/cap31.xml#c31_11317">и с таким же результатом. </note>
+        <note xml:id="russian_1936_cap31-n168" type="comm" target="quarantana/cap31.xml#c31_11318" targetEnd="quarantana/cap31.xml#c31_11322">Два или три дня спустя, </note>
+        <note xml:id="russian_1936_cap31-n169" type="comm" target="quarantana/cap31.xml#c31_11323" targetEnd="quarantana/cap31.xml#c31_11326">19 ноября, </note>
+        <note xml:id="russian_1936_cap31-n170" type="comm" target="quarantana/cap31.xml#c31_11327" targetEnd="quarantana/cap31.xml#c31_11331">губернатор обнародовал указ, </note>
+        <note xml:id="russian_1936_cap31-n171" type="comm" target="quarantana/cap31.xml#c31_11332" targetEnd="quarantana/cap31.xml#c31_11342">которым предписывались общественные празднества по случаю рождения принца Карло, </note>
+        <note xml:id="russian_1936_cap31-n172" type="comm" target="quarantana/cap31.xml#c31_11343" targetEnd="quarantana/cap31.xml#c31_11347">первородного сына короля Филиппа IV, </note>
+        <note xml:id="russian_1936_cap31-n173" type="comm" target="quarantana/cap31.xml#c31_11348" targetEnd="quarantana/cap31.xml#c31_11360">нисколько не думая и не заботясь об опасности большого стечения народа при таких обстоятельствах, </note>
+        <note xml:id="russian_1936_cap31-n174" type="comm" target="quarantana/cap31.xml#c31_11361" targetEnd="quarantana/cap31.xml#c31_11365">— все, как в обычное время, </note>
+        <note xml:id="russian_1936_cap31-n175" type="comm" target="quarantana/cap31.xml#c31_11366" targetEnd="quarantana/cap31.xml#c31_11374">словно ему ни о чем и не говорили. </note>
+        <note xml:id="russian_1936_cap31-n176" type="comm" target="quarantana/cap31.xml#c31_11375" targetEnd="quarantana/cap31.xml#c31_11376">Человек этот, </note>
+        <note xml:id="russian_1936_cap31-n177" type="comm" target="quarantana/cap31.xml#c31_11377" targetEnd="quarantana/cap31.xml#c31_11380">как мы уже сказали, </note>
+        <note xml:id="russian_1936_cap31-n178" type="comm" target="quarantana/cap31.xml#c31_11381" targetEnd="quarantana/cap31.xml#c31_11384">был знаменитый Амброджо Спинола, </note>
+        <note xml:id="russian_1936_cap31-n179" type="comm" target="quarantana/cap31.xml#c31_11385" targetEnd="quarantana/cap31.xml#c31_11396">посланный поправить военное положение и загладить промахи дона Гонсало и кстати взять на себя управление Миланским герцогством; </note>
+        <note xml:id="russian_1936_cap31-n180" type="comm" target="quarantana/cap31.xml#c31_11397" targetEnd="quarantana/cap31.xml#c31_11398">мы, тоже кстати, </note>
+        <note xml:id="russian_1936_cap31-n181" type="comm" target="quarantana/cap31.xml#c31_11399" targetEnd="quarantana/cap31.xml#c31_11412">можем напомнить здесь, что он умер через несколько месяцев во время этой самой войны, </note>
+        <note xml:id="russian_1936_cap31-n182" type="comm" target="quarantana/cap31.xml#c31_11413" targetEnd="quarantana/cap31.xml#c31_11422">которую он так близко принимал к сердцу, </note>
+        <note xml:id="russian_1936_cap31-n183" type="comm" target="quarantana/cap31.xml#c31_11423" targetEnd="quarantana/cap31.xml#c31_11430">и умер не от ран на поле битвы, </note>
+        <note xml:id="russian_1936_cap31-n184" type="comm" target="quarantana/cap31.xml#c31_11431" targetEnd="quarantana/cap31.xml#c31_11433">а в постели, </note>
+        <note xml:id="russian_1936_cap31-n185" type="comm" target="quarantana/cap31.xml#c31_11434" targetEnd="quarantana/cap31.xml#c31_11439">от огорчения и сокрушения по поводу упреков, </note>
+        <note xml:id="russian_1936_cap31-n186" type="comm" target="quarantana/cap31.xml#c31_11440" targetEnd="quarantana/cap31.xml#c31_11440">несправедливостей, </note>
+        <note xml:id="russian_1936_cap31-n187" type="comm" target="quarantana/cap31.xml#c31_11441" targetEnd="quarantana/cap31.xml#c31_11449">неприятностей всякого рода со стороны тех, кому он служил. </note>
+        <note xml:id="russian_1936_cap31-n188" type="comm" target="quarantana/cap31.xml#c31_11450" targetEnd="quarantana/cap31.xml#c31_11460">История оплакала его судьбу и заклеймила неблагодарность, выпавшую ему на долю; </note>
+        <note xml:id="russian_1936_cap31-n189" type="comm" target="quarantana/cap31.xml#c31_11461" targetEnd="quarantana/cap31.xml#c31_11471">с большим старанием описала его военные и политические подвиги, </note>
+        <note xml:id="russian_1936_cap31-n190" type="comm" target="quarantana/cap31.xml#c31_11472" targetEnd="quarantana/cap31.xml#c31_11475">воздала хвалу его дальновидности, </note>
+        <note xml:id="russian_1936_cap31-n191" type="comm" target="quarantana/cap31.xml#c31_11476" targetEnd="quarantana/cap31.xml#c31_11476">энергии, </note>
+        <note xml:id="russian_1936_cap31-n192" type="comm" target="quarantana/cap31.xml#c31_11477" targetEnd="quarantana/cap31.xml#c31_11478">твердости; </note>
+        <note xml:id="russian_1936_cap31-n193" type="comm" target="quarantana/cap31.xml#c31_11479" targetEnd="quarantana/cap31.xml#c31_11487">она могла бы осведомиться и о том, как приложил он все эти качества, </note>
+        <note xml:id="russian_1936_cap31-n194" type="comm" target="quarantana/cap31.xml#c31_11488" targetEnd="quarantana/cap31.xml#c31_11491">когда угрожала чума, </note>
+        <note xml:id="russian_1936_cap31-n195" type="comm" target="quarantana/cap31.xml#c31_11492" targetEnd="quarantana/cap31.xml#c31_11497">когда она обрушилась на население, вверенное его попечению или, </note>
+        <note xml:id="russian_1936_cap31-n196" type="comm" target="quarantana/cap31.xml#c31_11498" targetEnd="quarantana/cap31.xml#c31_11501">лучше сказать, всецело предоставленное его произволу. </note>
+        <note xml:id="russian_1936_cap31-n197" type="comm" target="quarantana/cap31.xml#c31_11502" targetEnd="quarantana/cap31.xml#c31_11504">Но то, что, </note>
+        <note xml:id="russian_1936_cap31-n198" type="comm" target="quarantana/cap31.xml#c31_11505" targetEnd="quarantana/cap31.xml#c31_11508">нисколько не умаляя вполне заслуженного им порицания, уменьшает, </note>
+        <note xml:id="russian_1936_cap31-n199" type="comm" target="quarantana/cap31.xml#c31_11509" targetEnd="quarantana/cap31.xml#c31_11515">однако, изумление перед его поведением, </note>
+        <note xml:id="russian_1936_cap31-n200" type="comm" target="quarantana/cap31.xml#c31_11516" targetEnd="quarantana/cap31.xml#c31_11524">вызывая вместе изумление другого рода и гораздо более сильное, </note>
+        <note xml:id="russian_1936_cap31-n201" type="comm" target="quarantana/cap31.xml#c31_11525" targetEnd="quarantana/cap31.xml#c31_11530">— так это поведение самого населения, </note>
+        <note xml:id="russian_1936_cap31-n202" type="comm" target="quarantana/cap31.xml#c31_11531" targetEnd="quarantana/cap31.xml#c31_11534">я хочу сказать того, </note>
+        <note xml:id="russian_1936_cap31-n203" type="comm" target="quarantana/cap31.xml#c31_11535" targetEnd="quarantana/cap31.xml#c31_11535">которое, </note>
+        <note xml:id="russian_1936_cap31-n204" type="comm" target="quarantana/cap31.xml#c31_11536" targetEnd="quarantana/cap31.xml#c31_11540">не затронутое еще заразой, </note>
+        <note xml:id="russian_1936_cap31-n205" type="comm" target="quarantana/cap31.xml#c31_11541" targetEnd="quarantana/cap31.xml#c31_11545">имело столько оснований бояться ее. </note>
+        <note xml:id="russian_1936_cap31-n206" type="comm" target="quarantana/cap31.xml#c31_11546" targetEnd="quarantana/cap31.xml#c31_11556">При получении известий из селений, уже столь жестоко пораженных болезнью, </note>
+        <note xml:id="russian_1936_cap31-n207" type="comm" target="quarantana/cap31.xml#c31_11557" targetEnd="quarantana/cap31.xml#c31_11566">— селений, которые как бы полукругом охватывают город, </note>
+        <note xml:id="russian_1936_cap31-n208" type="comm" target="quarantana/cap31.xml#c31_11567" targetEnd="quarantana/cap31.xml#c31_11579">на расстоянии от него, местами, не более восемнадцати-двадцати миль, </note>
+        <note xml:id="russian_1936_cap31-n209" type="comm" target="quarantana/cap31.xml#c31_11580" targetEnd="quarantana/cap31.xml#c31_11589">следовало бы ожидать, что сейчас же поднимется общее движение, </note>
+        <note xml:id="russian_1936_cap31-n210" type="comm" target="quarantana/cap31.xml#c31_11590" targetEnd="quarantana/cap31.xml#c31_11597">стремление к предохранительным мерам, хорошо ли плохо ли задуманным, </note>
+        <note xml:id="russian_1936_cap31-n212" type="comm" target="quarantana/cap31.xml#c31_11598" targetEnd="quarantana/cap31.xml#c31_11601">хотя бы и бесплодное, беспокойство. </note>
+        <note xml:id="russian_1936_cap31-n213" type="comm" target="quarantana/cap31.xml#c31_11602" targetEnd="quarantana/cap31.xml#c31_11602">И что же? </note>
+        <note xml:id="russian_1936_cap31-n214" type="comm" target="quarantana/cap31.xml#c31_11603" targetEnd="quarantana/cap31.xml#c31_11613">Если записки этой эпохи в чем-нибудь вполне единодушны, </note>
+        <note xml:id="russian_1936_cap31-n215" type="comm" target="quarantana/cap31.xml#c31_11614" targetEnd="quarantana/cap31.xml#c31_11620">так это в утверждении, что ничего этого не произошло. </note>
+        <note xml:id="russian_1936_cap31-n216" type="comm" target="quarantana/cap31.xml#c31_11621" targetEnd="quarantana/cap31.xml#c31_11624">Прошлогодний неурожай, </note>
+        <note xml:id="russian_1936_cap31-n217" type="comm" target="quarantana/cap31.xml#c31_11625" targetEnd="quarantana/cap31.xml#c31_11628">вымогательства солдатни, </note>
+        <note xml:id="russian_1936_cap31-n218" type="comm" target="quarantana/cap31.xml#c31_11629" targetEnd="quarantana/cap31.xml#c31_11631">душевные потрясения, </note>
+        <note xml:id="russian_1936_cap31-n219" type="comm" target="quarantana/cap31.xml#c31_11632" targetEnd="quarantana/cap31.xml#c31_11640">— все это казалось более чем достаточным для оправдания смертности: </note>
+        <note xml:id="russian_1936_cap31-n220" type="comm" target="quarantana/cap31.xml#c31_11641" targetEnd="quarantana/cap31.xml#c31_11642">если на площадях, </note>
+        <note xml:id="russian_1936_cap31-n221" type="comm" target="quarantana/cap31.xml#c31_11643" targetEnd="quarantana/cap31.xml#c31_11644">в лавках, </note>
+        <note xml:id="russian_1936_cap31-n222" type="comm" target="quarantana/cap31.xml#c31_11645" targetEnd="quarantana/cap31.xml#c31_11656">в домах кто-нибудь заикался об опасности, упоминал чуму, </note>
+        <note xml:id="russian_1936_cap31-n223" type="comm" target="quarantana/cap31.xml#c31_11657" targetEnd="quarantana/cap31.xml#c31_11661">его встречали недоверчивым глумлением, </note>
+        <note xml:id="russian_1936_cap31-n224" type="comm" target="quarantana/cap31.xml#c31_11662" targetEnd="quarantana/cap31.xml#c31_11664">раздраженным презрением. </note>
+        <note xml:id="russian_1936_cap31-n225" type="comm" target="quarantana/cap31.xml#c31_11665" targetEnd="quarantana/cap31.xml#c31_11667">То же самое неверие, </note>
+        <note xml:id="russian_1936_cap31-n226" type="comm" target="quarantana/cap31.xml#c31_11668" targetEnd="quarantana/cap31.xml#c31_11669">та же, </note>
+        <note xml:id="russian_1936_cap31-n227" type="comm" target="quarantana/cap31.xml#c31_11670" targetEnd="quarantana/cap31.xml#c31_11672">лучше сказать, </note>
+        <note xml:id="russian_1936_cap31-n228" type="comm" target="quarantana/cap31.xml#c31_11673" targetEnd="quarantana/cap31.xml#c31_11678">слепота и то же упорство господствовали в Сенате, </note>
+        <note xml:id="russian_1936_cap31-n229" type="comm" target="quarantana/cap31.xml#c31_11679" targetEnd="quarantana/cap31.xml#c31_11682">в Совете декурионов, </note>
+        <note xml:id="russian_1936_cap31-n230" type="comm" target="quarantana/cap31.xml#c31_11683" targetEnd="quarantana/cap31.xml#c31_11685">в любом учреждении. </note>
+        <note xml:id="russian_1936_cap31-n231" type="comm" target="quarantana/cap31.xml#c31_11686" targetEnd="quarantana/cap31.xml#c31_11690">Зато кардинал Федериго, </note>
+        <note xml:id="russian_1936_cap31-n232" type="comm" target="quarantana/cap31.xml#c31_11691" targetEnd="quarantana/cap31.xml#c31_11700">как только сделались известны первые случаи заразной болезни, </note>
+        <note xml:id="russian_1936_cap31-n233" type="comm" target="quarantana/cap31.xml#c31_11701" targetEnd="quarantana/cap31.xml#c31_11705">пастырским посланием предписал, </note>
+        <note xml:id="russian_1936_cap31-n234" type="comm" target="quarantana/cap31.xml#c31_11706" targetEnd="quarantana/cap31.xml#c31_11745">чтобы приходское духовенство между прочим почаще внушало народу важность и строжайшую обязательность обнаруживать каждый подобный случай и сдавать все зараженные или подозрительные вещи, </note>
+        <note xml:id="russian_1936_cap31-n235" type="comm" target="quarantana/cap31.xml#c31_11746" targetEnd="quarantana/cap31.xml#c31_11758">— и это тоже приходится отнести к числу его особенностей, достойных похвалы. </note>
+        <note xml:id="russian_1936_cap31-n236" type="comm" target="quarantana/cap31.xml#c31_11759" targetEnd="quarantana/cap31.xml#c31_11763">Санитарный трибунал просил, </note>
+        <note xml:id="russian_1936_cap31-n237" type="comm" target="quarantana/cap31.xml#c31_11764" targetEnd="quarantana/cap31.xml#c31_11765">умолял о содействии, </note>
+        <note xml:id="russian_1936_cap31-n238" type="comm" target="quarantana/cap31.xml#c31_11766" targetEnd="quarantana/cap31.xml#c31_11770">но получал мало или ничего не получал. </note>
+        <note xml:id="russian_1936_cap31-n239" type="comm" target="quarantana/cap31.xml#c31_11771" targetEnd="quarantana/cap31.xml#c31_11783">Да и в самом Трибунале не проявляли той поспешности, которой требовала настоятельная необходимость; </note>
+        <note xml:id="russian_1936_cap31-n240" type="comm" target="quarantana/cap31.xml#c31_11784" targetEnd="quarantana/cap31.xml#c31_11802">как неоднократно утверждает Тадино и как это еще лучше вытекает из всего контекста его сообщения, </note>
+        <note xml:id="russian_1936_cap31-n241" type="comm" target="quarantana/cap31.xml#c31_11803" targetEnd="quarantana/cap31.xml#c31_11806">главным образом оба врача, </note>
+        <note xml:id="russian_1936_cap31-n242" type="comm" target="quarantana/cap31.xml#c31_11807" targetEnd="quarantana/cap31.xml#c31_11813">убежденные в серьезности и непосредственной близости опасности, </note>
+        <note xml:id="russian_1936_cap31-n243" type="comm" target="quarantana/cap31.xml#c31_11814" targetEnd="quarantana/cap31.xml#c31_11816">подстегивали эту почтенную корпорацию, </note>
+        <note xml:id="russian_1936_cap31-n244" type="comm" target="quarantana/cap31.xml#c31_11817" targetEnd="quarantana/cap31.xml#c31_11824">которой надлежало в свою очередь подстегивать других. </note>
+        <note xml:id="russian_1936_cap31-n245" type="comm" target="quarantana/cap31.xml#c31_11825" targetEnd="quarantana/cap31.xml#c31_11828">Мы уже видели, </note>
+        <note xml:id="russian_1936_cap31-n246" type="comm" target="quarantana/cap31.xml#c31_11829" targetEnd="quarantana/cap31.xml#c31_11838">какая проявлена была вялость не только в работе, но даже в собирании сведений при первых известиях о чуме. </note>
+        <note xml:id="russian_1936_cap31-n247" type="comm" target="quarantana/cap31.xml#c31_11839" targetEnd="quarantana/cap31.xml#c31_11848">А вот другой пример медлительности, не менее изумительной, </note>
+        <note xml:id="russian_1936_cap31-n248" type="comm" target="quarantana/cap31.xml#c31_11849" targetEnd="quarantana/cap31.xml#c31_11859">если только она не была вынуждена препятствиями со стороны высшего начальства: </note>
+        <note xml:id="russian_1936_cap31-n249" type="comm" target="quarantana/cap31.xml#c31_11860" targetEnd="quarantana/cap31.xml#c31_11864">упомянутый указ о пропусках, </note>
+        <note xml:id="russian_1936_cap31-n250" type="comm" target="quarantana/cap31.xml#c31_11865" targetEnd="quarantana/cap31.xml#c31_11868">принятый 30 октября, </note>
+        <note xml:id="russian_1936_cap31-n251" type="comm" target="quarantana/cap31.xml#c31_11869" targetEnd="quarantana/cap31.xml#c31_11878">был оформлен лишь 23-го числа следующего месяца, </note>
+        <note xml:id="russian_1936_cap31-n252" type="comm" target="quarantana/cap31.xml#c31_11879" targetEnd="quarantana/cap31.xml#c31_11884">а обнародован лишь 29-го. </note>
+        <note xml:id="russian_1936_cap31-n253" type="comm" target="quarantana/cap31.xml#c31_11885" targetEnd="quarantana/cap31.xml#c31_11891">Чума уже успела вступить в Милан. </note>
+        <note xml:id="russian_1936_cap31-n254" type="comm" target="quarantana/cap31.xml#c31_11892" targetEnd="quarantana/cap31.xml#c31_11907">Тадино и Рипамонти оба хотели отметить имя того, кто первый занес ее, </note>
+        <note xml:id="russian_1936_cap31-n255" type="comm" target="quarantana/cap31.xml#c31_11908" targetEnd="quarantana/cap31.xml#c31_11915">и другие обстоятельства, связанные с этой личностью и с этим случаем. </note>
+        <note xml:id="russian_1936_cap31-n256" type="comm" target="quarantana/cap31.xml#c31_11916" targetEnd="quarantana/cap31.xml#c31_11917">Действительно, </note>
+        <note xml:id="russian_1936_cap31-n257" type="comm" target="quarantana/cap31.xml#c31_11918" targetEnd="quarantana/cap31.xml#c31_11923">когда наблюдаешь начальные стадии огромной смертности, </note>
+        <note xml:id="russian_1936_cap31-n258" type="comm" target="quarantana/cap31.xml#c31_11924" targetEnd="quarantana/cap31.xml#c31_11933">при которой жертвы не только не могут быть переименованы, </note>
+        <note xml:id="russian_1936_cap31-n259" type="comm" target="quarantana/cap31.xml#c31_11934" targetEnd="quarantana/cap31.xml#c31_11938">но едва подсчитаны приблизительно, </note>
+        <note xml:id="russian_1936_cap31-n260" type="comm" target="quarantana/cap31.xml#c31_11939" targetEnd="quarantana/cap31.xml#c31_11943">в тысячах, </note>
+        <note xml:id="russian_1936_cap31-n261" type="comm" target="quarantana/cap31.xml#c31_11944" targetEnd="quarantana/cap31.xml#c31_11962">возникает какое-то странное любопытство знать те немногие первые имена, которые могли быть отмечены и сохранены: </note>
+        <note xml:id="russian_1936_cap31-n262" type="comm" target="quarantana/cap31.xml#c31_11963" targetEnd="quarantana/cap31.xml#c31_11966">это своеобразное отличие, </note>
+        <note xml:id="russian_1936_cap31-n263" type="comm" target="quarantana/cap31.xml#c31_11967" targetEnd="quarantana/cap31.xml#c31_11989">это первенство в гибели как будто заставляет видеть что-то роковое и достопримечательное и в них самих, и во всех относящихся к ним подробностях, более чем безразличных в других случаях. </note>
+        <note xml:id="russian_1936_cap31-n264" type="comm" target="quarantana/cap31.xml#c31_11990" targetEnd="quarantana/cap31.xml#c31_12003">Оба историка говорят, что это был итальянский солдат на испанской службе; </note>
+        <note xml:id="russian_1936_cap31-n265" type="comm" target="quarantana/cap31.xml#c31_12004" targetEnd="quarantana/cap31.xml#c31_12009">во всем остальном они сильно расходятся, </note>
+        <note xml:id="russian_1936_cap31-n266" type="comm" target="quarantana/cap31.xml#c31_12010" targetEnd="quarantana/cap31.xml#c31_12012">начиная с имени. </note>
+        <note xml:id="russian_1936_cap31-n268" type="comm" target="quarantana/cap31.xml#c31_12014" targetEnd="quarantana/cap31.xml#c31_12017">Согласно Тадино, </note>
+        <note xml:id="russian_1936_cap31-n269" type="comm" target="quarantana/cap31.xml#c31_12018" targetEnd="quarantana/cap31.xml#c31_12021">это был некий Пьетро-Антонио Ловато, </note>
+        <note xml:id="russian_1936_cap31-n271" type="comm" target="quarantana/cap31.xml#c31_12022" targetEnd="quarantana/cap31.xml#c31_12027">расквартированных на территории Лекко; </note>
+        <note xml:id="russian_1936_cap31-n272" type="comm" target="quarantana/cap31.xml#c31_12028" targetEnd="quarantana/cap31.xml#c31_12039">согласно Рипамонти — некий Пьер-Паоло Локати — из расквартированных в Кьявенне. </note>
+        <note xml:id="russian_1936_cap31-n273" type="comm" target="quarantana/cap31.xml#c31_12040" targetEnd="quarantana/cap31.xml#c31_12048">Расходятся они и относительно дня его прибытия в Милан: </note>
+        <note xml:id="russian_1936_cap31-n274" type="comm" target="quarantana/cap31.xml#c31_12049" targetEnd="quarantana/cap31.xml#c31_12055">первый указывает 22 октября, </note>
+        <note xml:id="russian_1936_cap31-n275" type="comm" target="quarantana/cap31.xml#c31_12056" targetEnd="quarantana/cap31.xml#c31_12062">второй — то же число, на следующего месяца: </note>
+        <note xml:id="russian_1936_cap31-n276" type="comm" target="quarantana/cap31.xml#c31_12063" targetEnd="quarantana/cap31.xml#c31_12071">и ни на того, ни на другого опираться нельзя. </note>
+        <note xml:id="russian_1936_cap31-n277" type="comm" target="quarantana/cap31.xml#c31_12072" targetEnd="quarantana/cap31.xml#c31_12082">Обе эти даты находятся в противоречии с другими, гораздо более достоверными. </note>
+        <note xml:id="russian_1936_cap31-n278" type="comm" target="quarantana/cap31.xml#c31_12083" targetEnd="quarantana/cap31.xml#c31_12086">И, однако, Рипамонти, </note>
+        <note xml:id="russian_1936_cap31-n279" type="comm" target="quarantana/cap31.xml#c31_12087" targetEnd="quarantana/cap31.xml#c31_12094">писавший по поручению Генерального совета декурионов, </note>
+        <note xml:id="russian_1936_cap31-n280" type="comm" target="quarantana/cap31.xml#c31_12095" targetEnd="quarantana/cap31.xml#c31_12105">должен был иметь в своем распоряжении много способов для собирания необходимых справок; </note>
+        <note xml:id="russian_1936_cap31-n281" type="comm" target="quarantana/cap31.xml#c31_12106" targetEnd="quarantana/cap31.xml#c31_12109">а Тадино, </note>
+        <note xml:id="russian_1936_cap31-n282" type="comm" target="quarantana/cap31.xml#c31_12110" targetEnd="quarantana/cap31.xml#c31_12114">в силу занимаемой им должности, </note>
+        <note xml:id="russian_1936_cap31-n283" type="comm" target="quarantana/cap31.xml#c31_12115" targetEnd="quarantana/cap31.xml#c31_12124">мог лучше всякого другого быть осведомлен о факте такого рода. </note>
+        <note xml:id="russian_1936_cap31-n284" type="comm" target="quarantana/cap31.xml#c31_12125" targetEnd="quarantana/cap31.xml#c31_12126">Впрочем, </note>
+        <note xml:id="russian_1936_cap31-n285" type="comm" target="quarantana/cap31.xml#c31_12127" targetEnd="quarantana/cap31.xml#c31_12133">из сопоставления других дат, которые, </note>
+        <note xml:id="russian_1936_cap31-n286" type="comm" target="quarantana/cap31.xml#c31_12134" targetEnd="quarantana/cap31.xml#c31_12136">как мы сказали, </note>
+        <note xml:id="russian_1936_cap31-n287" type="comm" target="quarantana/cap31.xml#c31_12137" targetEnd="quarantana/cap31.xml#c31_12141">кажутся нам более точными, вытекает, </note>
+        <note xml:id="russian_1936_cap31-n288" type="comm" target="quarantana/cap31.xml#c31_12142" targetEnd="quarantana/cap31.xml#c31_12148">что это случилось до обнародования указа о пропусках, </note>
+        <note xml:id="russian_1936_cap31-n289" type="comm" target="quarantana/cap31.xml#c31_12149" targetEnd="quarantana/cap31.xml#c31_12149">и, </note>
+        <note xml:id="russian_1936_cap31-n290" type="comm" target="quarantana/cap31.xml#c31_12150" targetEnd="quarantana/cap31.xml#c31_12153">если бы дело того стоило, </note>
+        <note xml:id="russian_1936_cap31-n291" type="comm" target="quarantana/cap31.xml#c31_12154" targetEnd="quarantana/cap31.xml#c31_12160">можно было бы доказать или почти доказать, </note>
+        <note xml:id="russian_1936_cap31-n292" type="comm" target="quarantana/cap31.xml#c31_12161" targetEnd="quarantana/cap31.xml#c31_12168">что это должно было произойти в первых числах этого месяца; </note>
+        <note xml:id="russian_1936_cap31-n293" type="comm" target="quarantana/cap31.xml#c31_12169" targetEnd="quarantana/cap31.xml#c31_12170">но, конечно, </note>
+        <note xml:id="russian_1936_cap31-n294" type="comm" target="quarantana/cap31.xml#c31_12171" targetEnd="quarantana/cap31.xml#c31_12175">читатель избавит нас от этого. </note>
+        <note xml:id="russian_1936_cap31-n295" type="comm" target="quarantana/cap31.xml#c31_12176" targetEnd="quarantana/cap31.xml#c31_12179">Как бы то ни было, </note>
+        <note xml:id="russian_1936_cap31-n296" type="comm" target="quarantana/cap31.xml#c31_12180" targetEnd="quarantana/cap31.xml#c31_12187">этот злополучный пехотинец и носитель злополучия вошел в Милан с большим узлом платья, </note>
+        <note xml:id="russian_1936_cap31-n297" type="comm" target="quarantana/cap31.xml#c31_12188" targetEnd="quarantana/cap31.xml#c31_12199">купленного или украденного у немецких солдат; </note>
+        <note xml:id="russian_1936_cap31-n298" type="comm" target="quarantana/cap31.xml#c31_12200" targetEnd="quarantana/cap31.xml#c31_12208">он остановился в доме своих родственников, </note>
+        <note xml:id="russian_1936_cap31-n299" type="comm" target="quarantana/cap31.xml#c31_12209" targetEnd="quarantana/cap31.xml#c31_12213">в предместьи Восточных ворот, </note>
+        <note xml:id="russian_1936_cap31-n300" type="comm" target="quarantana/cap31.xml#c31_12214" targetEnd="quarantana/cap31.xml#c31_12216">по соседству с капуцинским монастырем; </note>
+        <note xml:id="russian_1936_cap31-n301" type="comm" target="quarantana/cap31.xml#c31_12217" targetEnd="quarantana/cap31.xml#c31_12218">едва прибыв, </note>
+        <note xml:id="russian_1936_cap31-n302" type="comm" target="quarantana/cap31.xml#c31_12219" targetEnd="quarantana/cap31.xml#c31_12223">он захворал; его снесли в больницу; </note>
+        <note xml:id="russian_1936_cap31-n303" type="comm" target="quarantana/cap31.xml#c31_12224" targetEnd="quarantana/cap31.xml#c31_12232">нарыв, показавшийся у него подмышкой, </note>
+        <note xml:id="russian_1936_cap31-n304" type="comm" target="quarantana/cap31.xml#c31_12233" targetEnd="quarantana/cap31.xml#c31_12242">навел ходившего за ним на подозрение насчет того, что это такое; </note>
+        <note xml:id="russian_1936_cap31-n305" type="comm" target="quarantana/cap31.xml#c31_12243" targetEnd="quarantana/cap31.xml#c31_12246">на четвертый день он умер. </note>
+        <note xml:id="russian_1936_cap31-n306" type="comm" target="quarantana/cap31.xml#c31_12247" targetEnd="quarantana/cap31.xml#c31_12260">Санитарный трибунал велел изолировать и задержать в доме всю его родню; </note>
+        <note xml:id="russian_1936_cap31-n307" type="comm" target="quarantana/cap31.xml#c31_12261" targetEnd="quarantana/cap31.xml#c31_12272">одежда его и постель, на которой он лежал в больнице, </note>
+        <note xml:id="russian_1936_cap31-n308" type="comm" target="quarantana/cap31.xml#c31_12273" targetEnd="quarantana/cap31.xml#c31_12274">были сожжены. </note>
+        <note xml:id="russian_1936_cap31-n309" type="comm" target="quarantana/cap31.xml#c31_12275" targetEnd="quarantana/cap31.xml#c31_12281">Двое служителей, которые ходили за ним, </note>
+        <note xml:id="russian_1936_cap31-n310" type="comm" target="quarantana/cap31.xml#c31_12282" targetEnd="quarantana/cap31.xml#c31_12288">и монах, напутствовавший его, </note>
+        <note xml:id="russian_1936_cap31-n311" type="comm" target="quarantana/cap31.xml#c31_12289" targetEnd="quarantana/cap31.xml#c31_12294">тоже заболели через несколько дней, </note>
+        <note xml:id="russian_1936_cap31-n312" type="comm" target="quarantana/cap31.xml#c31_12295" targetEnd="quarantana/cap31.xml#c31_12298">все трое чумой. </note>
+        <note xml:id="russian_1936_cap31-n313" type="comm" target="quarantana/cap31.xml#c31_12299" targetEnd="quarantana/cap31.xml#c31_12313">Подозрение относительно характера болезни, возникшее в этом месте с самого начала, </note>
+        <note xml:id="russian_1936_cap31-n314" type="comm" target="quarantana/cap31.xml#c31_12314" targetEnd="quarantana/cap31.xml#c31_12319">и принятые в связи с этим меры сделали то, </note>
+        <note xml:id="russian_1936_cap31-n315" type="comm" target="quarantana/cap31.xml#c31_12320" targetEnd="quarantana/cap31.xml#c31_12330">что зараза не получила здесь дальнейшего распространения. </note>
+        <note xml:id="russian_1936_cap31-n316" type="comm" target="quarantana/cap31.xml#c31_12331" targetEnd="quarantana/cap31.xml#c31_12345">Но солдат оставил семена ее вне больницы, и они не замедлил прорасти. </note>
+        <note xml:id="russian_1936_cap31-n317" type="comm" target="quarantana/cap31.xml#c31_12346" targetEnd="quarantana/cap31.xml#c31_12350">Первый, к кому она пристала, </note>
+        <note xml:id="russian_1936_cap31-n318" type="comm" target="quarantana/cap31.xml#c31_12351" targetEnd="quarantana/cap31.xml#c31_12359">был хозяин дома, где проживал солдат, </note>
+        <note xml:id="russian_1936_cap31-n319" type="comm" target="quarantana/cap31.xml#c31_12360" targetEnd="quarantana/cap31.xml#c31_12365">некий Карло Колонна, по профессии игрок на лютне. </note>
+        <note xml:id="russian_1936_cap31-n320" type="comm" target="quarantana/cap31.xml#c31_12366" targetEnd="quarantana/cap31.xml#c31_12379">Тогда все жильцы этого дома по приказу Санитарного ведомства были отправлены в лазарет, </note>
+        <note xml:id="russian_1936_cap31-n321" type="comm" target="quarantana/cap31.xml#c31_12380" targetEnd="quarantana/cap31.xml#c31_12384">где большинство их захворало; </note>
+        <note xml:id="russian_1936_cap31-n322" type="comm" target="quarantana/cap31.xml#c31_12385" targetEnd="quarantana/cap31.xml#c31_12392">некоторые через короткое время умерли явно от заразы. </note>
+        <note xml:id="russian_1936_cap31-n323" type="comm" target="quarantana/cap31.xml#c31_12393" targetEnd="quarantana/cap31.xml#c31_12394">То, </note>
+        <note xml:id="russian_1936_cap31-n324" type="comm" target="quarantana/cap31.xml#c31_12395" targetEnd="quarantana/cap31.xml#c31_12402">что уже было посеяно ими, </note>
+        <note xml:id="russian_1936_cap31-n325" type="comm" target="quarantana/cap31.xml#c31_12403" targetEnd="quarantana/cap31.xml#c31_12405">их одеждой, </note>
+        <note xml:id="russian_1936_cap31-n326" type="comm" target="quarantana/cap31.xml#c31_12406" targetEnd="quarantana/cap31.xml#c31_12411">их обстановкой, растасканной родственниками, </note>
+        <note xml:id="russian_1936_cap31-n327" type="comm" target="quarantana/cap31.xml#c31_12412" targetEnd="quarantana/cap31.xml#c31_12413">прислугой, </note>
+        <note xml:id="russian_1936_cap31-n328" type="comm" target="quarantana/cap31.xml#c31_12414" targetEnd="quarantana/cap31.xml#c31_12425">жильцами и укрытой от конфискации и предписанного начальством сожжения, </note>
+        <note xml:id="russian_1936_cap31-n329" type="comm" target="quarantana/cap31.xml#c31_12426" targetEnd="quarantana/cap31.xml#c31_12437">— и то, что в дальнейшем проникло в город в силу несовершенства приказов, </note>
+        <note xml:id="russian_1936_cap31-n330" type="comm" target="quarantana/cap31.xml#c31_12438" targetEnd="quarantana/cap31.xml#c31_12446">нерадивости в их выполнении и в силу уменья их обходить, </note>
+        <note xml:id="russian_1936_cap31-n331" type="comm" target="quarantana/cap31.xml#c31_12447" targetEnd="quarantana/cap31.xml#c31_12462">— медленно созревало и расползалось по городу в течение всей остальной части этого года и в первые месяцы следующего, 1630-го. </note>
+        <note xml:id="russian_1936_cap31-n332" type="comm" target="quarantana/cap31.xml#c31_12463" targetEnd="quarantana/cap31.xml#c31_12469">Время от времени то в том, </note>
+        <note xml:id="russian_1936_cap31-n333" type="comm" target="quarantana/cap31.xml#c31_12470" targetEnd="quarantana/cap31.xml#c31_12479">то в другом городском квартале заражался кто-нибудь и умирал; </note>
+        <note xml:id="russian_1936_cap31-n334" type="comm" target="quarantana/cap31.xml#c31_12480" targetEnd="quarantana/cap31.xml#c31_12490">но самая редкость этих случаев устраняла всякое подозрение истинного их значения, наоборот, </note>
+        <note xml:id="russian_1936_cap31-n335" type="comm" target="quarantana/cap31.xml#c31_12491" targetEnd="quarantana/cap31.xml#c31_12506">всё более укрепляла в населении глупую и убийственную уверенность в том, что никакой чумы нет, </note>
+        <note xml:id="russian_1936_cap31-n336" type="comm" target="quarantana/cap31.xml#c31_12507" targetEnd="quarantana/cap31.xml#c31_12513">что ее ни одной минуты и не было. </note>
+        <note xml:id="russian_1936_cap31-n337" type="comm" target="quarantana/cap31.xml#c31_12514" targetEnd="quarantana/cap31.xml#c31_12516">К тому же и многие врачи, </note>
+        <note xml:id="russian_1936_cap31-n338" type="comm" target="quarantana/cap31.xml#c31_12517" targetEnd="quarantana/cap31.xml#c31_12530">являясь как бы отзвуком гласа народного (он и в этом случае был гласом божьим?), </note>
+        <note xml:id="russian_1936_cap31-n339" type="comm" target="quarantana/cap31.xml#c31_12531" targetEnd="quarantana/cap31.xml#c31_12534">поднимали насмех зловещие предсказания, </note>
+        <note xml:id="russian_1936_cap31-n340" type="comm" target="quarantana/cap31.xml#c31_12535" targetEnd="quarantana/cap31.xml#c31_12539">угрожающие предупреждения немногих; </note>
+        <note xml:id="russian_1936_cap31-n341" type="comm" target="quarantana/cap31.xml#c31_12540" targetEnd="quarantana/cap31.xml#c31_12557">и всегда у них наготове были названия обычных болезней для обозначения каждого случая чумы, лечить который их призывали, </note>
+        <note xml:id="russian_1936_cap31-n342" type="comm" target="quarantana/cap31.xml#c31_12558" targetEnd="quarantana/cap31.xml#c31_12560">каким бы симптомом, </note>
+        <note xml:id="russian_1936_cap31-n343" type="comm" target="quarantana/cap31.xml#c31_12561" targetEnd="quarantana/cap31.xml#c31_12565">каким бы признаком этот случай ни был отмечен. </note>
+        <note xml:id="russian_1936_cap31-n344" type="comm" target="quarantana/cap31.xml#c31_12566" targetEnd="quarantana/cap31.xml#c31_12575">Уведомления об этих случаях если когда и доходили до санитарного ведомства, </note>
+        <note xml:id="russian_1936_cap31-n345" type="comm" target="quarantana/cap31.xml#c31_12576" targetEnd="quarantana/cap31.xml#c31_12583">то доходили по большей части поздно и неопределенно. </note>
+        <note xml:id="russian_1936_cap31-n346" type="comm" target="quarantana/cap31.xml#c31_12584" targetEnd="quarantana/cap31.xml#c31_12593">Страх перед карантином и лазаретом напрягал все умы: </note>
+        <note xml:id="russian_1936_cap31-n347" type="comm" target="quarantana/cap31.xml#c31_12594" targetEnd="quarantana/cap31.xml#c31_12598">о больных не заявляли, </note>
+        <note xml:id="russian_1936_cap31-n348" type="comm" target="quarantana/cap31.xml#c31_12599" targetEnd="quarantana/cap31.xml#c31_12606">подкупали могильщиков и их начальство; </note>
+        <note xml:id="russian_1936_cap31-n349" type="comm" target="quarantana/cap31.xml#c31_12607" targetEnd="quarantana/cap31.xml#c31_12611">от младших служащих самого Трибунала, </note>
+        <note xml:id="russian_1936_cap31-n350" type="comm" target="quarantana/cap31.xml#c31_12612" targetEnd="quarantana/cap31.xml#c31_12618">командируемых для осмотра трупов, </note>
+        <note xml:id="russian_1936_cap31-n351" type="comm" target="quarantana/cap31.xml#c31_12619" targetEnd="quarantana/cap31.xml#c31_12623">за деньги добывали подложные удостоверения. </note>
+        <note xml:id="russian_1936_cap31-n352" type="comm" target="quarantana/cap31.xml#c31_12624" targetEnd="quarantana/cap31.xml#c31_12625">И все же, </note>
+        <note xml:id="russian_1936_cap31-n353" type="comm" target="quarantana/cap31.xml#c31_12626" targetEnd="quarantana/cap31.xml#c31_12632">так как при всяком обнаружении, </note>
+        <note xml:id="russian_1936_cap31-n354" type="comm" target="quarantana/cap31.xml#c31_12633" targetEnd="quarantana/cap31.xml#c31_12638">которое Трибуналу удавалось сделать, он отдавал приказание сжигать вещи, </note>
+        <note xml:id="russian_1936_cap31-n355" type="comm" target="quarantana/cap31.xml#c31_12639" targetEnd="quarantana/cap31.xml#c31_12646">закрывал дома, отправлял людей целыми семьями в лазарет, </note>
+        <note xml:id="russian_1936_cap31-n356" type="comm" target="quarantana/cap31.xml#c31_12647" targetEnd="quarantana/cap31.xml#c31_12662">то легко сделать вывод, каков должен был быть гнев и ропот населения, </note>
+        <note xml:id="russian_1936_cap31-n357" type="comm" target="quarantana/cap31.xml#c31_12663" targetEnd="quarantana/cap31.xml#c31_12664">«Знати, </note>
+        <note xml:id="russian_1936_cap31-n358" type="comm" target="quarantana/cap31.xml#c31_12665" targetEnd="quarantana/cap31.xml#c31_12670">Купцов и простонародья», </note>
+        <note xml:id="russian_1936_cap31-n359" type="comm" target="quarantana/cap31.xml#c31_12671" targetEnd="quarantana/cap31.xml#c31_12674">— как говорит Тадино; </note>
+        <note xml:id="russian_1936_cap31-n360" type="comm" target="quarantana/cap31.xml#c31_12675" targetEnd="quarantana/cap31.xml#c31_12677">ведь все были одинаково убеждены, </note>
+        <note xml:id="russian_1936_cap31-n361" type="comm" target="quarantana/cap31.xml#c31_12678" targetEnd="quarantana/cap31.xml#c31_12685">что всё это ничем не вызываемые и бесцельные придирки. </note>
+        <note xml:id="russian_1936_cap31-n362" type="comm" target="quarantana/cap31.xml#c31_12686" targetEnd="quarantana/cap31.xml#c31_12691">Гнев направлен был, главным образом, на обоих врачей: </note>
+        <note xml:id="russian_1936_cap31-n363" type="comm" target="quarantana/cap31.xml#c31_12692" targetEnd="quarantana/cap31.xml#c31_12698">на вышеназванного Тадино и на Сенаторе Сеттала, </note>
+        <note xml:id="russian_1936_cap31-n364" type="comm" target="quarantana/cap31.xml#c31_12699" targetEnd="quarantana/cap31.xml#c31_12701">сына главного врача, </note>
+        <note xml:id="russian_1936_cap31-n365" type="comm" target="quarantana/cap31.xml#c31_12702" targetEnd="quarantana/cap31.xml#c31_12704">и притом в такой степени, </note>
+        <note xml:id="russian_1936_cap31-n366" type="comm" target="quarantana/cap31.xml#c31_12705" targetEnd="quarantana/cap31.xml#c31_12720">что впредь им нельзя было перейти площади без того, чтобы их не осыпали бранными словами, а то и камнями. </note>
+        <note xml:id="russian_1936_cap31-n367" type="comm" target="quarantana/cap31.xml#c31_12721" targetEnd="quarantana/cap31.xml#c31_12724">И получилось в самом деле очень своеобразное, </note>
+        <note xml:id="russian_1936_cap31-n368" type="comm" target="quarantana/cap31.xml#c31_12725" targetEnd="quarantana/cap31.xml#c31_12731">заслуживающее упоминания положение, </note>
+        <note xml:id="russian_1936_cap31-n369" type="comm" target="quarantana/cap31.xml#c31_12732" targetEnd="quarantana/cap31.xml#c31_12742">в котором находились в течение нескольких месяцев эти люди: </note>
+        <note xml:id="russian_1936_cap31-n370" type="comm" target="quarantana/cap31.xml#c31_12743" targetEnd="quarantana/cap31.xml#c31_12749">они видели приближение ужасающего бедствия, </note>
+        <note xml:id="russian_1936_cap31-n371" type="comm" target="quarantana/cap31.xml#c31_12750" targetEnd="quarantana/cap31.xml#c31_12755">всеми мерами бились над его устранением, </note>
+        <note xml:id="russian_1936_cap31-n372" type="comm" target="quarantana/cap31.xml#c31_12756" targetEnd="quarantana/cap31.xml#c31_12760">встречали лишь одни препятствия там, где искали поддержки, </note>
+        <note xml:id="russian_1936_cap31-n373" type="comm" target="quarantana/cap31.xml#c31_12761" targetEnd="quarantana/cap31.xml#c31_12766">и становились вместе с тем мишенью для негодующей молвы, </note>
+        <note xml:id="russian_1936_cap31-n374" type="comm" target="quarantana/cap31.xml#c31_12767" targetEnd="quarantana/cap31.xml#c31_12777">прослыли врагами родины — pro patriae hostibus, </note>
+        <note xml:id="russian_1936_cap31-n375" type="comm" target="quarantana/cap31.xml#c31_12778" targetEnd="quarantana/cap31.xml#c31_12781">как говорит Рипамонти. </note>
+        <note xml:id="russian_1936_cap31-n376" type="comm" target="quarantana/cap31.xml#c31_12782" targetEnd="quarantana/cap31.xml#c31_12792">Доля этой ненависти доставалась и другим врачам, </note>
+        <note xml:id="russian_1936_cap31-n377" type="comm" target="quarantana/cap31.xml#c31_12793" targetEnd="quarantana/cap31.xml#c31_12795">убежденным, как и они, </note>
+        <note xml:id="russian_1936_cap31-n378" type="comm" target="quarantana/cap31.xml#c31_12796" targetEnd="quarantana/cap31.xml#c31_12801">в подлинности заразы и внушавшим всякие предосторожности, </note>
+        <note xml:id="russian_1936_cap31-n379" type="comm" target="quarantana/cap31.xml#c31_12802" targetEnd="quarantana/cap31.xml#c31_12810">старавшимся передать другим скорбную свою уверенность. </note>
+        <note xml:id="russian_1936_cap31-n380" type="comm" target="quarantana/cap31.xml#c31_12811" targetEnd="quarantana/cap31.xml#c31_12819">Люди более скромные упрекали их в легковерии и упорстве; </note>
+        <note xml:id="russian_1936_cap31-n381" type="comm" target="quarantana/cap31.xml#c31_12820" targetEnd="quarantana/cap31.xml#c31_12826">в глазах всех других тут был явный обман, </note>
+        <note xml:id="russian_1936_cap31-n382" type="comm" target="quarantana/cap31.xml#c31_12827" targetEnd="quarantana/cap31.xml#c31_12834">коварство, вызванное желанием нажиться на общем страхе. </note>
+        <note xml:id="russian_1936_cap31-n383" type="comm" target="quarantana/cap31.xml#c31_12835" targetEnd="quarantana/cap31.xml#c31_12838">Главный врач Лодовико Сеттала, </note>
+        <note xml:id="russian_1936_cap31-n384" type="comm" target="quarantana/cap31.xml#c31_12839" targetEnd="quarantana/cap31.xml#c31_12843">в ту пору почти восьмидесятилетний старец, </note>
+        <note xml:id="russian_1936_cap31-n385" type="comm" target="quarantana/cap31.xml#c31_12844" targetEnd="quarantana/cap31.xml#c31_12850">бывший профессором медицины в Павийском университете, </note>
+        <note xml:id="russian_1936_cap31-n386" type="comm" target="quarantana/cap31.xml#c31_12851" targetEnd="quarantana/cap31.xml#c31_12856">а потом моральной философии в Милане, </note>
+        <note xml:id="russian_1936_cap31-n387" type="comm" target="quarantana/cap31.xml#c31_12857" targetEnd="quarantana/cap31.xml#c31_12862">автор многих чрезвычайно ценимых в ту пору трудов, </note>
+        <note xml:id="russian_1936_cap31-n388" type="comm" target="quarantana/cap31.xml#c31_12863" targetEnd="quarantana/cap31.xml#c31_12869">знаменитый обращенными к нему приглашениями занять кафедру в других университетах, </note>
+        <note xml:id="russian_1936_cap31-n389" type="comm" target="quarantana/cap31.xml#c31_12870" targetEnd="quarantana/cap31.xml#c31_12870">в Ингольштате, </note>
+        <note xml:id="russian_1936_cap31-n390" type="comm" target="quarantana/cap31.xml#c31_12871" targetEnd="quarantana/cap31.xml#c31_12871">Пизе, </note>
+        <note xml:id="russian_1936_cap31-n391" type="comm" target="quarantana/cap31.xml#c31_12872" targetEnd="quarantana/cap31.xml#c31_12872">Болонье, </note>
+        <note xml:id="russian_1936_cap31-n392" type="comm" target="quarantana/cap31.xml#c31_12873" targetEnd="quarantana/cap31.xml#c31_12873">Падуе, </note>
+        <note xml:id="russian_1936_cap31-n393" type="comm" target="quarantana/cap31.xml#c31_12874" targetEnd="quarantana/cap31.xml#c31_12881">и отклонением всех этих приглашений, </note>
+        <note xml:id="russian_1936_cap31-n394" type="comm" target="quarantana/cap31.xml#c31_12882" targetEnd="quarantana/cap31.xml#c31_12891">был несомненно одним из самых авторитетных людей своего времени. </note>
+        <note xml:id="russian_1936_cap31-n395" type="comm" target="quarantana/cap31.xml#c31_12892" targetEnd="quarantana/cap31.xml#c31_12899">Его уважали не только за ученость, но и за весь его образ жизни, к нему относились не только с восхищением, </note>
+        <note xml:id="russian_1936_cap31-n396" type="comm" target="quarantana/cap31.xml#c31_12900" targetEnd="quarantana/cap31.xml#c31_12915">но и с благожелательством за великое его человеколюбие в уходе за бедными и в благотворительности. </note>
+        <note xml:id="russian_1936_cap31-n397" type="comm" target="quarantana/cap31.xml#c31_12916" targetEnd="quarantana/cap31.xml#c31_12916">Но одно обстоятельство, к сожалению, </note>
+        <note xml:id="russian_1936_cap31-n398" type="comm" target="quarantana/cap31.xml#c31_12917" targetEnd="quarantana/cap31.xml#c31_12932">нарушает в нас чувство уважения, внушаемое этими достоинствами, — обстоятельство, которое, </note>
+        <note xml:id="russian_1936_cap31-n399" type="comm" target="quarantana/cap31.xml#c31_12933" targetEnd="quarantana/cap31.xml#c31_12942">однако, в ту пору должно было делать это уважение к нему более общим и более сильным: </note>
+        <note xml:id="russian_1936_cap31-n400" type="comm" target="quarantana/cap31.xml#c31_12943" targetEnd="quarantana/cap31.xml#c31_12955">бедняга разделял самые обычные и самые пагубные предрассудки своих современников; он, </note>
+        <note xml:id="russian_1936_cap31-n401" type="comm" target="quarantana/cap31.xml#c31_12956" targetEnd="quarantana/cap31.xml#c31_12960">несомненно, опережал их, </note>
+        <note xml:id="russian_1936_cap31-n402" type="comm" target="quarantana/cap31.xml#c31_12961" targetEnd="quarantana/cap31.xml#c31_12965">но не отрываясь от толпы, </note>
+        <note xml:id="russian_1936_cap31-n403" type="comm" target="quarantana/cap31.xml#c31_12966" targetEnd="quarantana/cap31.xml#c31_12982">а ведь это-то и навлекает всякие беды и ведет к потере влияния, приобретенного другими путями. </note>
+        <note xml:id="russian_1936_cap31-n404" type="comm" target="quarantana/cap31.xml#c31_12983" targetEnd="quarantana/cap31.xml#c31_12987">И все же величайшее влияние, которым он пользовался, </note>
+        <note xml:id="russian_1936_cap31-n405" type="comm" target="quarantana/cap31.xml#c31_12988" targetEnd="quarantana/cap31.xml#c31_12996">оказалось в данном случае недостаточным не только для победы над мнением того, </note>
+        <note xml:id="russian_1936_cap31-n406" type="comm" target="quarantana/cap31.xml#c31_12997" targetEnd="quarantana/cap31.xml#c31_13005">что поэты именуют «невежественной чернью», </note>
+        <note xml:id="russian_1936_cap31-n407" type="comm" target="quarantana/cap31.xml#c31_13006" targetEnd="quarantana/cap31.xml#c31_13010">а первые актеры — «почтеннейшей публикой», </note>
+        <note xml:id="russian_1936_cap31-n408" type="comm" target="quarantana/cap31.xml#c31_13011" targetEnd="quarantana/cap31.xml#c31_13033">но оно не могло спасти его от враждебности и поношений со стороны той ее части, которая, в конце концов, от суждений легко переходит к выступлениям и действиям. </note>
+        <note xml:id="russian_1936_cap31-n409" type="comm" target="quarantana/cap31.xml#c31_13034" targetEnd="quarantana/cap31.xml#c31_13044">Однажды, когда он в носилках направлялся к своим больным, </note>
+        <note xml:id="russian_1936_cap31-n410" type="comm" target="quarantana/cap31.xml#c31_13045" targetEnd="quarantana/cap31.xml#c31_13049">кругом стал собираться народ, </note>
+        <note xml:id="russian_1936_cap31-n411" type="comm" target="quarantana/cap31.xml#c31_13050" targetEnd="quarantana/cap31.xml#c31_13065">кричавший, что он главарь тех, кто насильно хочет ввести чуму в Милан; </note>
+        <note xml:id="russian_1936_cap31-n412" type="comm" target="quarantana/cap31.xml#c31_13066" targetEnd="quarantana/cap31.xml#c31_13076">он де нагоняет страх на весь город своим нахмуренным видом, </note>
+        <note xml:id="russian_1936_cap31-n413" type="comm" target="quarantana/cap31.xml#c31_13077" targetEnd="quarantana/cap31.xml#c31_13080">своей страшной бородой, </note>
+        <note xml:id="russian_1936_cap31-n414" type="comm" target="quarantana/cap31.xml#c31_13081" targetEnd="quarantana/cap31.xml#c31_13087">и все для того, чтобы дать работу врачам. </note>
+        <note xml:id="russian_1936_cap31-n415" type="comm" target="quarantana/cap31.xml#c31_13088" targetEnd="quarantana/cap31.xml#c31_13094">Толпа и ее ярость все возрастали: </note>
+        <note xml:id="russian_1936_cap31-n416" type="comm" target="quarantana/cap31.xml#c31_13095" targetEnd="quarantana/cap31.xml#c31_13096">носильщики, </note>
+        <note xml:id="russian_1936_cap31-n417" type="comm" target="quarantana/cap31.xml#c31_13097" targetEnd="quarantana/cap31.xml#c31_13100">почуяв недоброе, </note>
+        <note xml:id="russian_1936_cap31-n418" type="comm" target="quarantana/cap31.xml#c31_13101" targetEnd="quarantana/cap31.xml#c31_13112">укрыли своего хозяина в случайно оказавшемся по соседству знакомом доме. </note>
+        <note xml:id="russian_1936_cap31-n419" type="comm" target="quarantana/cap31.xml#c31_13113" targetEnd="quarantana/cap31.xml#c31_13119">Всё это случилось с ним из-за того, что он ясно видел всё, </note>
+        <note xml:id="russian_1936_cap31-n420" type="comm" target="quarantana/cap31.xml#c31_13120" targetEnd="quarantana/cap31.xml#c31_13123">говорил то, что было, </note>
+        <note xml:id="russian_1936_cap31-n421" type="comm" target="quarantana/cap31.xml#c31_13124" targetEnd="quarantana/cap31.xml#c31_13132">и хотел спасти от чумы тысячи людей. </note>
+        <note xml:id="russian_1936_cap31-n422" type="comm" target="quarantana/cap31.xml#c31_13133" targetEnd="quarantana/cap31.xml#c31_13142">А вот когда он в другой раз злополучным своим советом способствовал тому, </note>
+        <note xml:id="russian_1936_cap31-n423" type="comm" target="quarantana/cap31.xml#c31_13143" targetEnd="quarantana/cap31.xml#c31_13151">что одну бедную несчастную женщину пытали, рвали калеными щипцами и предали сожжению как колдунью, </note>
+        <note xml:id="russian_1936_cap31-n424" type="comm" target="quarantana/cap31.xml#c31_13152" targetEnd="quarantana/cap31.xml#c31_13160">потому что ее хозяин страдал какими-то странными болями в животе, </note>
+        <note xml:id="russian_1936_cap31-n425" type="comm" target="quarantana/cap31.xml#c31_13161" targetEnd="quarantana/cap31.xml#c31_13183">а другой, прежний ее хозяин, безумно в нее влюбился, </note>
+        <note xml:id="russian_1936_cap31-n426" type="comm" target="quarantana/cap31.xml#c31_13184" targetEnd="quarantana/cap31.xml#c31_13208">— тогда он наверное заслужил у публики новые похвалы за свою мудрость и — что уже совершенно невыносимо себе представить — новое прозвище заслуженного гражданина. </note>
+        <note xml:id="russian_1936_cap31-n427" type="comm" target="quarantana/cap31.xml#c31_13209" targetEnd="quarantana/cap31.xml#c31_13215">Однако к концу марта, </note>
+        <note xml:id="russian_1936_cap31-n428" type="comm" target="quarantana/cap31.xml#c31_13216" targetEnd="quarantana/cap31.xml#c31_13222">сначала в предместье у Восточных ворот, </note>
+        <note xml:id="russian_1936_cap31-n429" type="comm" target="quarantana/cap31.xml#c31_13223" targetEnd="quarantana/cap31.xml#c31_13228">а затем и во всех остальных кварталах города, </note>
+        <note xml:id="russian_1936_cap31-n430" type="comm" target="quarantana/cap31.xml#c31_13229" targetEnd="quarantana/cap31.xml#c31_13235">начали учащаться случаи заболевания и смерти, </note>
+        <note xml:id="russian_1936_cap31-n431" type="comm" target="quarantana/cap31.xml#c31_13236" targetEnd="quarantana/cap31.xml#c31_13240">с необычными симптомами схваток, </note>
+        <note xml:id="russian_1936_cap31-n432" type="comm" target="quarantana/cap31.xml#c31_13241" targetEnd="quarantana/cap31.xml#c31_13242">сердцебиения, </note>
+        <note xml:id="russian_1936_cap31-n433" type="comm" target="quarantana/cap31.xml#c31_13243" targetEnd="quarantana/cap31.xml#c31_13246">летаргии, бреда, </note>
+        <note xml:id="russian_1936_cap31-n434" type="comm" target="quarantana/cap31.xml#c31_13247" targetEnd="quarantana/cap31.xml#c31_13255">со зловещими приметами — подтеками и нарывами; </note>
+        <note xml:id="russian_1936_cap31-n435" type="comm" target="quarantana/cap31.xml#c31_13256" targetEnd="quarantana/cap31.xml#c31_13260">смерть в большинстве случаев наступала быстро, </note>
+        <note xml:id="russian_1936_cap31-n436" type="comm" target="quarantana/cap31.xml#c31_13261" targetEnd="quarantana/cap31.xml#c31_13261">бурно, </note>
+        <note xml:id="russian_1936_cap31-n437" type="comm" target="quarantana/cap31.xml#c31_13262" targetEnd="quarantana/cap31.xml#c31_13265">нередко внезапно, </note>
+        <note xml:id="russian_1936_cap31-n438" type="comm" target="quarantana/cap31.xml#c31_13266" targetEnd="quarantana/cap31.xml#c31_13271">без малейшего предварительного признака болезни. </note>
+        <note xml:id="russian_1936_cap31-n439" type="comm" target="quarantana/cap31.xml#c31_13272" targetEnd="quarantana/cap31.xml#c31_13278">Врачи, возражавшие против заразы, </note>
+        <note xml:id="russian_1936_cap31-n440" type="comm" target="quarantana/cap31.xml#c31_13279" targetEnd="quarantana/cap31.xml#c31_13286">не желая теперь признавать того, что высмеивали раньше, </note>
+        <note xml:id="russian_1936_cap31-n441" type="comm" target="quarantana/cap31.xml#c31_13287" targetEnd="quarantana/cap31.xml#c31_13296">и все же вынужденные дать какое-либо родовое наименование новой болезни, </note>
+        <note xml:id="russian_1936_cap31-n442" type="comm" target="quarantana/cap31.xml#c31_13297" targetEnd="quarantana/cap31.xml#c31_13305">которая сделалась слишком распространенной и слишком явной, чтобы обойтись без названия, </note>
+        <note xml:id="russian_1936_cap31-n443" type="comm" target="quarantana/cap31.xml#c31_13306" targetEnd="quarantana/cap31.xml#c31_13313">остановились на злокачественных лихорадках, моровых лихорадках, </note>
+        <note xml:id="russian_1936_cap31-n444" type="comm" target="quarantana/cap31.xml#c31_13314" targetEnd="quarantana/cap31.xml#c31_13315">— жалкая условность, </note>
+        <note xml:id="russian_1936_cap31-n445" type="comm" target="quarantana/cap31.xml#c31_13316" targetEnd="quarantana/cap31.xml#c31_13319">прямо пустая игра слов, </note>
+        <note xml:id="russian_1936_cap31-n446" type="comm" target="quarantana/cap31.xml#c31_13320" targetEnd="quarantana/cap31.xml#c31_13325">которая однако причиняла огромный вред, </note>
+        <note xml:id="russian_1936_cap31-n447" type="comm" target="quarantana/cap31.xml#c31_13326" targetEnd="quarantana/cap31.xml#c31_13326">потому что, </note>
+        <note xml:id="russian_1936_cap31-n448" type="comm" target="quarantana/cap31.xml#c31_13327" targetEnd="quarantana/cap31.xml#c31_13331">под видом найденной истины, </note>
+        <note xml:id="russian_1936_cap31-n449" type="comm" target="quarantana/cap31.xml#c31_13332" targetEnd="quarantana/cap31.xml#c31_13343">она не допускала признания того, что необходимо было признать и видеть, </note>
+        <note xml:id="russian_1936_cap31-n450" type="comm" target="quarantana/cap31.xml#c31_13344" targetEnd="quarantana/cap31.xml#c31_13345">а именно, </note>
+        <note xml:id="russian_1936_cap31-n451" type="comm" target="quarantana/cap31.xml#c31_13346" targetEnd="quarantana/cap31.xml#c31_13353">что болезнь передавалась путем прикосновения. </note>
+        <note xml:id="russian_1936_cap31-n452" type="comm" target="quarantana/cap31.xml#c31_13354" targetEnd="quarantana/cap31.xml#c31_13363">Власти точно пробудившись от глубокого сна, </note>
+        <note xml:id="russian_1936_cap31-n453" type="comm" target="quarantana/cap31.xml#c31_13364" targetEnd="quarantana/cap31.xml#c31_13372">начали несколько больше прислушиваться к указаниям, </note>
+        <note xml:id="russian_1936_cap31-n454" type="comm" target="quarantana/cap31.xml#c31_13373" targetEnd="quarantana/cap31.xml#c31_13376">к предложениям Санитарного ведомства, </note>
+        <note xml:id="russian_1936_cap31-n455" type="comm" target="quarantana/cap31.xml#c31_13377" targetEnd="quarantana/cap31.xml#c31_13382">выполнять его постановления, </note>
+        <note xml:id="russian_1936_cap31-n456" type="comm" target="quarantana/cap31.xml#c31_13383" targetEnd="quarantana/cap31.xml#c31_13385">секвестры и карантины, </note>
+        <note xml:id="russian_1936_cap31-n457" type="comm" target="quarantana/cap31.xml#c31_13386" targetEnd="quarantana/cap31.xml#c31_13391">предписанные этим трибуналом. </note>
+        <note xml:id="russian_1936_cap31-n458" type="comm" target="quarantana/cap31.xml#c31_13392" targetEnd="quarantana/cap31.xml#c31_13409">Последний беспрестанно требовал также денег на покрытие все возраставших ежедневных расходов по лазарету и по множеству других служб, </note>
+        <note xml:id="russian_1936_cap31-n459" type="comm" target="quarantana/cap31.xml#c31_13410" targetEnd="quarantana/cap31.xml#c31_13414">и требовал их от декурионов, </note>
+        <note xml:id="russian_1936_cap31-n460" type="comm" target="quarantana/cap31.xml#c31_13415" targetEnd="quarantana/cap31.xml#c31_13423">пока не будет решено (кажется, это так никогда решено и не было, </note>
+        <note xml:id="russian_1936_cap31-n461" type="comm" target="quarantana/cap31.xml#c31_13424" targetEnd="quarantana/cap31.xml#c31_13436">а установилось фактически), касаются ли эти расходы города или королевской казны. </note>
+        <note xml:id="russian_1936_cap31-n462" type="comm" target="quarantana/cap31.xml#c31_13437" targetEnd="quarantana/cap31.xml#c31_13444">На декурионов, в свою очередь, наседал великий канцлер, </note>
+        <note xml:id="russian_1936_cap31-n463" type="comm" target="quarantana/cap31.xml#c31_13445" targetEnd="quarantana/cap31.xml#c31_13449">тоже по распоряжению губернатора, </note>
+        <note xml:id="russian_1936_cap31-n464" type="comm" target="quarantana/cap31.xml#c31_13450" targetEnd="quarantana/cap31.xml#c31_13460">который снова отправился осаждать несчастное Казале; </note>
+        <note xml:id="russian_1936_cap31-n465" type="comm" target="quarantana/cap31.xml#c31_13461" targetEnd="quarantana/cap31.xml#c31_13464">наседал и Сенат, требуя, </note>
+        <note xml:id="russian_1936_cap31-n466" type="comm" target="quarantana/cap31.xml#c31_13465" targetEnd="quarantana/cap31.xml#c31_13472">чтобы они позаботились о способе снабжения города провиантом, </note>
+        <note xml:id="russian_1936_cap31-n467" type="comm" target="quarantana/cap31.xml#c31_13473" targetEnd="quarantana/cap31.xml#c31_13486">прежде чем городу запрещено будет сноситься с другими местами, если к несчастию зараза распространится и там; </note>
+        <note xml:id="russian_1936_cap31-n468" type="comm" target="quarantana/cap31.xml#c31_13487" targetEnd="quarantana/cap31.xml#c31_13497">чтобы они изыскали средства содержать значительную часть населения, </note>
+        <note xml:id="russian_1936_cap31-n469" type="comm" target="quarantana/cap31.xml#c31_13498" targetEnd="quarantana/cap31.xml#c31_13503">у которой не оказалось работы. </note>
+        <note xml:id="russian_1936_cap31-n470" type="comm" target="quarantana/cap31.xml#c31_13504" targetEnd="quarantana/cap31.xml#c31_13512">Декурионы старались добывать деньги займами, </note>
+        <note xml:id="russian_1936_cap31-n471" type="comm" target="quarantana/cap31.xml#c31_13513" targetEnd="quarantana/cap31.xml#c31_13513">налогами, </note>
+        <note xml:id="russian_1936_cap31-n472" type="comm" target="quarantana/cap31.xml#c31_13514" targetEnd="quarantana/cap31.xml#c31_13519">и из того, что им удавалось собрать, </note>
+        <note xml:id="russian_1936_cap31-n473" type="comm" target="quarantana/cap31.xml#c31_13520" targetEnd="quarantana/cap31.xml#c31_13525">уделяли кое-что Санитарному ведомству, </note>
+        <note xml:id="russian_1936_cap31-n474" type="comm" target="quarantana/cap31.xml#c31_13526" targetEnd="quarantana/cap31.xml#c31_13529">кое-что бедным, </note>
+        <note xml:id="russian_1936_cap31-n475" type="comm" target="quarantana/cap31.xml#c31_13530" targetEnd="quarantana/cap31.xml#c31_13534">покупали и немного зерна; </note>
+        <note xml:id="russian_1936_cap31-n476" type="comm" target="quarantana/cap31.xml#c31_13535" targetEnd="quarantana/cap31.xml#c31_13540">словом, удовлетворяли часть нужды. </note>
+        <note xml:id="russian_1936_cap31-n477" type="comm" target="quarantana/cap31.xml#c31_13541" targetEnd="quarantana/cap31.xml#c31_13548">А дни великих бедствий еще не приходили. </note>
+        <note xml:id="russian_1936_cap31-n478" type="comm" target="quarantana/cap31.xml#c31_13549" targetEnd="quarantana/cap31.xml#c31_13550">В лазарете, </note>
+        <note xml:id="russian_1936_cap31-n479" type="comm" target="quarantana/cap31.xml#c31_13551" targetEnd="quarantana/cap31.xml#c31_13553">население которого, </note>
+        <note xml:id="russian_1936_cap31-n480" type="comm" target="quarantana/cap31.xml#c31_13554" targetEnd="quarantana/cap31.xml#c31_13557">несмотря на ежедневную убыль, </note>
+        <note xml:id="russian_1936_cap31-n481" type="comm" target="quarantana/cap31.xml#c31_13558" targetEnd="quarantana/cap31.xml#c31_13561">ежедневно же возрастало, </note>
+        <note xml:id="russian_1936_cap31-n482" type="comm" target="quarantana/cap31.xml#c31_13562" targetEnd="quarantana/cap31.xml#c31_13572">была другая трудная задача — обеспечение обслуживания и дисциплины, </note>
+        <note xml:id="russian_1936_cap31-n483" type="comm" target="quarantana/cap31.xml#c31_13573" targetEnd="quarantana/cap31.xml#c31_13577">соблюдение предписанного разделения, </note>
+        <note xml:id="russian_1936_cap31-n484" type="comm" target="quarantana/cap31.xml#c31_13578" targetEnd="quarantana/cap31.xml#c31_13582">вообще поддержание или, </note>
+        <note xml:id="russian_1936_cap31-n485" type="comm" target="quarantana/cap31.xml#c31_13583" targetEnd="quarantana/cap31.xml#c31_13585">лучше сказать, </note>
+        <note xml:id="russian_1936_cap31-n486" type="comm" target="quarantana/cap31.xml#c31_13586" targetEnd="quarantana/cap31.xml#c31_13594">установление режима, введенного Санитарным трибуналом: </note>
+        <note xml:id="russian_1936_cap31-n487" type="comm" target="quarantana/cap31.xml#c31_13595" targetEnd="quarantana/cap31.xml#c31_13611">ибо с самого уже начала там царила полнейшая неразбериха из-за разнузданности многих заключенных, </note>
+        <note xml:id="russian_1936_cap31-n488" type="comm" target="quarantana/cap31.xml#c31_13612" targetEnd="quarantana/cap31.xml#c31_13620">из-за беспечности и попустительства больничной прислуги. </note>
+        <note xml:id="russian_1936_cap31-n489" type="comm" target="quarantana/cap31.xml#c31_13621" targetEnd="quarantana/cap31.xml#c31_13625">Трибунал и декурионы, </note>
+        <note xml:id="russian_1936_cap31-n490" type="comm" target="quarantana/cap31.xml#c31_13626" targetEnd="quarantana/cap31.xml#c31_13631">потеряв голову, </note>
+        <note xml:id="russian_1936_cap31-n491" type="comm" target="quarantana/cap31.xml#c31_13632" targetEnd="quarantana/cap31.xml#c31_13643">вздумали обратиться к капуцинам и умоляли падре комиссара провинции, </note>
+        <note xml:id="russian_1936_cap31-n492" type="comm" target="quarantana/cap31.xml#c31_13644" targetEnd="quarantana/cap31.xml#c31_13653">который замещал незадолго до того умершего провинциала, </note>
+        <note xml:id="russian_1936_cap31-n493" type="comm" target="quarantana/cap31.xml#c31_13654" targetEnd="quarantana/cap31.xml#c31_13665">чтобы он соблаговолил дать им подходящих людей для управления этим царством отчаяния. </note>
+        <note xml:id="russian_1936_cap31-n494" type="comm" target="quarantana/cap31.xml#c31_13666" targetEnd="quarantana/cap31.xml#c31_13675">Комиссар предложил им в начальники некоего падре Феличе Казати, </note>
+        <note xml:id="russian_1936_cap31-n495" type="comm" target="quarantana/cap31.xml#c31_13676" targetEnd="quarantana/cap31.xml#c31_13678">человека зрелого возраста, </note>
+        <note xml:id="russian_1936_cap31-n496" type="comm" target="quarantana/cap31.xml#c31_13679" targetEnd="quarantana/cap31.xml#c31_13686">который пользовался широкой популярностью за свое человеколюбие, </note>
+        <note xml:id="russian_1936_cap31-n497" type="comm" target="quarantana/cap31.xml#c31_13687" targetEnd="quarantana/cap31.xml#c31_13687">энергию, </note>
+        <note xml:id="russian_1936_cap31-n498" type="comm" target="quarantana/cap31.xml#c31_13688" targetEnd="quarantana/cap31.xml#c31_13694">кротость, соединенную с твердостью духа, </note>
+        <note xml:id="russian_1936_cap31-n499" type="comm" target="quarantana/cap31.xml#c31_13695" targetEnd="quarantana/cap31.xml#c31_13703">— популярностью вполне заслуженной, как это покажет дальнейшее; </note>
+        <note xml:id="russian_1936_cap31-n500" type="comm" target="quarantana/cap31.xml#c31_13704" targetEnd="quarantana/cap31.xml#c31_13715">а в товарищи и помощники ему — некоего падре Микеле Поццобонелли, </note>
+        <note xml:id="russian_1936_cap31-n501" type="comm" target="quarantana/cap31.xml#c31_13716" targetEnd="quarantana/cap31.xml#c31_13717">еще молодого, </note>
+        <note xml:id="russian_1936_cap31-n502" type="comm" target="quarantana/cap31.xml#c31_13718" targetEnd="quarantana/cap31.xml#c31_13725">но серьезного и строгого как по складу мыслей, так и по виду. </note>
+        <note xml:id="russian_1936_cap31-n503" type="comm" target="quarantana/cap31.xml#c31_13726" targetEnd="quarantana/cap31.xml#c31_13730">Их приняли с большой радостью, </note>
+        <note xml:id="russian_1936_cap31-n504" type="comm" target="quarantana/cap31.xml#c31_13731" targetEnd="quarantana/cap31.xml#c31_13738">и 30 марта они вступили в лазарет. </note>
+        <note xml:id="russian_1936_cap31-n505" type="comm" target="quarantana/cap31.xml#c31_13739" targetEnd="quarantana/cap31.xml#c31_13746">Президент Санитарного ведомства совершил с ними обход, </note>
+        <note xml:id="russian_1936_cap31-n506" type="comm" target="quarantana/cap31.xml#c31_13747" targetEnd="quarantana/cap31.xml#c31_13751">как бы вводя их во владение, </note>
+        <note xml:id="russian_1936_cap31-n507" type="comm" target="quarantana/cap31.xml#c31_13752" targetEnd="quarantana/cap31.xml#c31_13752">и, </note>
+        <note xml:id="russian_1936_cap31-n508" type="comm" target="quarantana/cap31.xml#c31_13753" targetEnd="quarantana/cap31.xml#c31_13759">созвав больничную прислугу и служащих всех степеней, </note>
+        <note xml:id="russian_1936_cap31-n509" type="comm" target="quarantana/cap31.xml#c31_13760" targetEnd="quarantana/cap31.xml#c31_13775">объявил в их присутствии падре Феличе президентом всего лазарета с высшими и неограниченными полномочиями. </note>
+        <note xml:id="russian_1936_cap31-n510" type="comm" target="quarantana/cap31.xml#c31_13776" targetEnd="quarantana/cap31.xml#c31_13786">Мало-помалу, по мере того как жалкое скопище все возрастало, </note>
+        <note xml:id="russian_1936_cap31-n511" type="comm" target="quarantana/cap31.xml#c31_13787" targetEnd="quarantana/cap31.xml#c31_13789">присоединялись сюда другие капуцины, </note>
+        <note xml:id="russian_1936_cap31-n512" type="comm" target="quarantana/cap31.xml#c31_13790" targetEnd="quarantana/cap31.xml#c31_13795">и становились они в этом месте старшими заведующими, </note>
+        <note xml:id="russian_1936_cap31-n513" type="comm" target="quarantana/cap31.xml#c31_13796" targetEnd="quarantana/cap31.xml#c31_13796">исповедниками, </note>
+        <note xml:id="russian_1936_cap31-n514" type="comm" target="quarantana/cap31.xml#c31_13797" targetEnd="quarantana/cap31.xml#c31_13797">управляющими, </note>
+        <note xml:id="russian_1936_cap31-n515" type="comm" target="quarantana/cap31.xml#c31_13798" targetEnd="quarantana/cap31.xml#c31_13798">братьями милосердия, </note>
+        <note xml:id="russian_1936_cap31-n516" type="comm" target="quarantana/cap31.xml#c31_13799" targetEnd="quarantana/cap31.xml#c31_13801">поварами, гардеробщиками, прачешниками, </note>
+        <note xml:id="russian_1936_cap31-n517" type="comm" target="quarantana/cap31.xml#c31_13802" targetEnd="quarantana/cap31.xml#c31_13805">словом, всем, чем придется. </note>
+        <note xml:id="russian_1936_cap31-n518" type="comm" target="quarantana/cap31.xml#c31_13806" targetEnd="quarantana/cap31.xml#c31_13808">Падре Феличе, </note>
+        <note xml:id="russian_1936_cap31-n519" type="comm" target="quarantana/cap31.xml#c31_13809" targetEnd="quarantana/cap31.xml#c31_13813">вечно занятый и озабоченный, </note>
+        <note xml:id="russian_1936_cap31-n520" type="comm" target="quarantana/cap31.xml#c31_13814" targetEnd="quarantana/cap31.xml#c31_13822">и днем и ночью обходил портики, </note>
+        <note xml:id="russian_1936_cap31-n521" type="comm" target="quarantana/cap31.xml#c31_13823" targetEnd="quarantana/cap31.xml#c31_13825">камеры, </note>
+        <note xml:id="russian_1936_cap31-n522" type="comm" target="quarantana/cap31.xml#c31_13826" targetEnd="quarantana/cap31.xml#c31_13830">все обширное внутреннее пространство, </note>
+        <note xml:id="russian_1936_cap31-n523" type="comm" target="quarantana/cap31.xml#c31_13831" targetEnd="quarantana/cap31.xml#c31_13833">иногда с жезлом в руках, </note>
+        <note xml:id="russian_1936_cap31-n524" type="comm" target="quarantana/cap31.xml#c31_13834" targetEnd="quarantana/cap31.xml#c31_13839">а иногда защищенный одною лишь власяницей; </note>
+        <note xml:id="russian_1936_cap31-n525" type="comm" target="quarantana/cap31.xml#c31_13840" targetEnd="quarantana/cap31.xml#c31_13844">всюду он вносил одушевление и порядок, </note>
+        <note xml:id="russian_1936_cap31-n526" type="comm" target="quarantana/cap31.xml#c31_13845" targetEnd="quarantana/cap31.xml#c31_13851">успокаивал волнения, разбирал жалобы, </note>
+        <note xml:id="russian_1936_cap31-n527" type="comm" target="quarantana/cap31.xml#c31_13852" targetEnd="quarantana/cap31.xml#c31_13852">угрожал, </note>
+        <note xml:id="russian_1936_cap31-n528" type="comm" target="quarantana/cap31.xml#c31_13853" targetEnd="quarantana/cap31.xml#c31_13854">наказывал, распекал, </note>
+        <note xml:id="russian_1936_cap31-n529" type="comm" target="quarantana/cap31.xml#c31_13855" targetEnd="quarantana/cap31.xml#c31_13855">ободрял, </note>
+        <note xml:id="russian_1936_cap31-n530" type="comm" target="quarantana/cap31.xml#c31_13856" targetEnd="quarantana/cap31.xml#c31_13859">утирал и проливал слезы. </note>
+        <note xml:id="russian_1936_cap31-n531" type="comm" target="quarantana/cap31.xml#c31_13860" targetEnd="quarantana/cap31.xml#c31_13864">В самом начале он схватил было чуму, </note>
+        <note xml:id="russian_1936_cap31-n532" type="comm" target="quarantana/cap31.xml#c31_13865" targetEnd="quarantana/cap31.xml#c31_13876">но выздоровел и с новой бодростью принялся за прежние свои заботы. </note>
+        <note xml:id="russian_1936_cap31-n533" type="comm" target="quarantana/cap31.xml#c31_13877" targetEnd="quarantana/cap31.xml#c31_13886">Большинство его собратий положили на этом деле свою жизнь, </note>
+        <note xml:id="russian_1936_cap31-n534" type="comm" target="quarantana/cap31.xml#c31_13887" targetEnd="quarantana/cap31.xml#c31_13890">и все сделали это радостно. </note>
+        <note xml:id="russian_1936_cap31-n535" type="comm" target="quarantana/cap31.xml#c31_13891" targetEnd="quarantana/cap31.xml#c31_13891">Конечно, </note>
+        <note xml:id="russian_1936_cap31-n536" type="comm" target="quarantana/cap31.xml#c31_13892" targetEnd="quarantana/cap31.xml#c31_13898">такая диктатура была необычным средством, </note>
+        <note xml:id="russian_1936_cap31-n537" type="comm" target="quarantana/cap31.xml#c31_13899" targetEnd="quarantana/cap31.xml#c31_13902">— необычным, как и самое бедствие, </note>
+        <note xml:id="russian_1936_cap31-n538" type="comm" target="quarantana/cap31.xml#c31_13903" targetEnd="quarantana/cap31.xml#c31_13905">как и самые времена. </note>
+        <note xml:id="russian_1936_cap31-n539" type="comm" target="quarantana/cap31.xml#c31_13906" targetEnd="quarantana/cap31.xml#c31_13911">И не знай мы обо всем этом ничего другого, </note>
+        <note xml:id="russian_1936_cap31-n540" type="comm" target="quarantana/cap31.xml#c31_13912" targetEnd="quarantana/cap31.xml#c31_13914">уже одно зрелище того, </note>
+        <note xml:id="russian_1936_cap31-n541" type="comm" target="quarantana/cap31.xml#c31_13915" targetEnd="quarantana/cap31.xml#c31_13924">как те, </note>
+        <note xml:id="russian_1936_cap31-n542" type="comm" target="quarantana/cap31.xml#c31_13925" targetEnd="quarantana/cap31.xml#c31_13935">которым вверено было столь важное дело, </note>
+        <note xml:id="russian_1936_cap31-n543" type="comm" target="quarantana/cap31.xml#c31_13936" targetEnd="quarantana/cap31.xml#c31_13947">не нашли ничего лучшего, как переуступить его, </note>
+        <note xml:id="russian_1936_cap31-n544" type="comm" target="quarantana/cap31.xml#c31_13948" targetEnd="quarantana/cap31.xml#c31_13949">и притом людям, </note>
+        <note xml:id="russian_1936_cap31-n545" type="comm" target="quarantana/cap31.xml#c31_13950" targetEnd="quarantana/cap31.xml#c31_13956">по самому уставу своему наиболее далеким от этого, </note>
+        <note xml:id="russian_1936_cap31-n546" type="comm" target="quarantana/cap31.xml#c31_13957" targetEnd="quarantana/cap31.xml#c31_13975">— уже одно это зрелище могло бы служить доказательством и даже примером беспредельной грубости и неустройства тогдашнего общества. Но вместе с тем зрелище того, как мужественно эти люди выносили подобное бремя, может служить неплохим примером той силы и уменья, </note>
+        <note xml:id="russian_1936_cap31-n547" type="comm" target="quarantana/cap31.xml#c31_13976" targetEnd="quarantana/cap31.xml#c31_13981">какие во всякое время, </note>
+        <note xml:id="russian_1936_cap31-n548" type="comm" target="quarantana/cap31.xml#c31_13982" targetEnd="quarantana/cap31.xml#c31_13990">при всяком порядке вещей умеет обнаружить подлинное человеколюбие. </note>
+        <note xml:id="russian_1936_cap31-n549" type="comm" target="quarantana/cap31.xml#c31_13991" targetEnd="quarantana/cap31.xml#c31_13997">Прекрасно было то, что они взяли на себя это дело только потому, </note>
+        <note xml:id="russian_1936_cap31-n550" type="comm" target="quarantana/cap31.xml#c31_13998" targetEnd="quarantana/cap31.xml#c31_14006">что не было других желающих пойти на это, </note>
+        <note xml:id="russian_1936_cap31-n551" type="comm" target="quarantana/cap31.xml#c31_14007" targetEnd="quarantana/cap31.xml#c31_14011">и имели в виду только служение людям, </note>
+        <note xml:id="russian_1936_cap31-n552" type="comm" target="quarantana/cap31.xml#c31_14012" targetEnd="quarantana/cap31.xml#c31_14024">только одну надежду на этом свете — умереть смертью гораздо более завидной, чем желанной; </note>
+        <note xml:id="russian_1936_cap31-n553" type="comm" target="quarantana/cap31.xml#c31_14025" targetEnd="quarantana/cap31.xml#c31_14031">прекрасно было и то, что им предложили это дело только потому, </note>
+        <note xml:id="russian_1936_cap31-n554" type="comm" target="quarantana/cap31.xml#c31_14032" targetEnd="quarantana/cap31.xml#c31_14037">что оно было трудно и опасно, </note>
+        <note xml:id="russian_1936_cap31-n555" type="comm" target="quarantana/cap31.xml#c31_14038" targetEnd="quarantana/cap31.xml#c31_14047">и предполагалось, что выдержка и хладнокровие, </note>
+        <note xml:id="russian_1936_cap31-n556" type="comm" target="quarantana/cap31.xml#c31_14048" targetEnd="quarantana/cap31.xml#c31_14054">столь необходимые и редкие в такие моменты, </note>
+        <note xml:id="russian_1936_cap31-n557" type="comm" target="quarantana/cap31.xml#c31_14055" targetEnd="quarantana/cap31.xml#c31_14058">у них именно и должны оказаться. </note>
+        <note xml:id="russian_1936_cap31-n558" type="comm" target="quarantana/cap31.xml#c31_14059" targetEnd="quarantana/cap31.xml#c31_14075">И потому деяния и мужество этих монахов заслуживают быть помянутыми с восхищением, </note>
+        <note xml:id="russian_1936_cap31-n559" type="comm" target="quarantana/cap31.xml#c31_14076" targetEnd="quarantana/cap31.xml#c31_14077">с нежностью, </note>
+        <note xml:id="russian_1936_cap31-n560" type="comm" target="quarantana/cap31.xml#c31_14078" targetEnd="quarantana/cap31.xml#c31_14085">с тою благодарностью, которою мы, </note>
+        <note xml:id="russian_1936_cap31-n561" type="comm" target="quarantana/cap31.xml#c31_14086" targetEnd="quarantana/cap31.xml#c31_14088">как бы все вкупе, </note>
+        <note xml:id="russian_1936_cap31-n562" type="comm" target="quarantana/cap31.xml#c31_14089" targetEnd="quarantana/cap31.xml#c31_14097">обязаны за великие услуги, оказанные людьми людям, </note>
+        <note xml:id="russian_1936_cap31-n563" type="comm" target="quarantana/cap31.xml#c31_14098" targetEnd="quarantana/cap31.xml#c31_14109">и еще более обязаны тем, которые не ждут себе в награду этой благодарности. </note>
+        <note xml:id="russian_1936_cap31-n564" type="comm" target="quarantana/cap31.xml#c31_14110" targetEnd="quarantana/cap31.xml#c31_14121">«Не будь там этих Падре, — говорит Тадино, </note>
+        <note xml:id="russian_1936_cap31-n565" type="comm" target="quarantana/cap31.xml#c31_14122" targetEnd="quarantana/cap31.xml#c31_14129">— весь Город наверное оказался бы уничтоженным; </note>
+        <note xml:id="russian_1936_cap31-n566" type="comm" target="quarantana/cap31.xml#c31_14130" targetEnd="quarantana/cap31.xml#c31_14148">ибо дивное было дело, что эти Падре в столь короткий промежуток времени сделали так много для общественного блага, что, </note>
+        <note xml:id="russian_1936_cap31-n567" type="comm" target="quarantana/cap31.xml#c31_14149" targetEnd="quarantana/cap31.xml#c31_14158">не получая от Города никакой помощи, разве лишь очень малую, </note>
+        <note xml:id="russian_1936_cap31-n568" type="comm" target="quarantana/cap31.xml#c31_14159" targetEnd="quarantana/cap31.xml#c31_14172">они своим уменьем и прозорливостью содержали в лазарете столько тысяч бедняков». </note>
+        <note xml:id="russian_1936_cap31-n569" type="comm" target="quarantana/cap31.xml#c31_14173" targetEnd="quarantana/cap31.xml#c31_14178">Число лиц, призреваемых в этом месте, </note>
+        <note xml:id="russian_1936_cap31-n570" type="comm" target="quarantana/cap31.xml#c31_14179" targetEnd="quarantana/cap31.xml#c31_14189">за те семь месяцев, пока во главе его стоял падре Феличе, </note>
+        <note xml:id="russian_1936_cap31-n571" type="comm" target="quarantana/cap31.xml#c31_14190" targetEnd="quarantana/cap31.xml#c31_14192">доходило до пятидесяти тысяч, </note>
+        <note xml:id="russian_1936_cap31-n572" type="comm" target="quarantana/cap31.xml#c31_14193" targetEnd="quarantana/cap31.xml#c31_14196">согласно Рипамонти, </note>
+        <note xml:id="russian_1936_cap31-n573" type="comm" target="quarantana/cap31.xml#c31_14197" targetEnd="quarantana/cap31.xml#c31_14201">который справедливо замечает, </note>
+        <note xml:id="russian_1936_cap31-n574" type="comm" target="quarantana/cap31.xml#c31_14202" targetEnd="quarantana/cap31.xml#c31_14209">что о таком человеке ему одинаково пришлось бы говорить, </note>
+        <note xml:id="russian_1936_cap31-n575" type="comm" target="quarantana/cap31.xml#c31_14210" targetEnd="quarantana/cap31.xml#c31_14227">если бы вместо описания бедствий города пришлось рассказывать о делах, служащих к его прославлению. </note>
+        <note xml:id="russian_1936_cap31-n576" type="comm" target="quarantana/cap31.xml#c31_14228" targetEnd="quarantana/cap31.xml#c31_14241">И в самом населении это упрямое отрицание чумы, естественно, стало слабеть и исчезать, </note>
+        <note xml:id="russian_1936_cap31-n577" type="comm" target="quarantana/cap31.xml#c31_14242" targetEnd="quarantana/cap31.xml#c31_14260">по мере того как болезнь распространялась и притом распространялсь путем соприкосновения и общения, </note>
+        <note xml:id="russian_1936_cap31-n578" type="comm" target="quarantana/cap31.xml#c31_14261" targetEnd="quarantana/cap31.xml#c31_14264">и тем более, когда она, </note>
+        <note xml:id="russian_1936_cap31-n579" type="comm" target="quarantana/cap31.xml#c31_14265" targetEnd="quarantana/cap31.xml#c31_14272">погуляв некоторое время исключительно среди бедных, </note>
+        <note xml:id="russian_1936_cap31-n580" type="comm" target="quarantana/cap31.xml#c31_14273" targetEnd="quarantana/cap31.xml#c31_14278">начала поражать и людей более именитых. </note>
+        <note xml:id="russian_1936_cap31-n581" type="comm" target="quarantana/cap31.xml#c31_14279" targetEnd="quarantana/cap31.xml#c31_14281">И среди них был главный врач Сеттала; </note>
+        <note xml:id="russian_1936_cap31-n582" type="comm" target="quarantana/cap31.xml#c31_14282" targetEnd="quarantana/cap31.xml#c31_14287">чрезвычайно известный уже тогда, </note>
+        <note xml:id="russian_1936_cap31-n583" type="comm" target="quarantana/cap31.xml#c31_14288" targetEnd="quarantana/cap31.xml#c31_14296">он и теперь заслуживает особого упоминания. </note>
+        <note xml:id="russian_1936_cap31-n584" type="comm" target="quarantana/cap31.xml#c31_14297" targetEnd="quarantana/cap31.xml#c31_14305">Признали ли люди хотя бы после этого, что ведь бедный старик-то был прав? </note>
+        <note xml:id="russian_1936_cap31-n585" type="comm" target="quarantana/cap31.xml#c31_14306" targetEnd="quarantana/cap31.xml#c31_14308">Кто их знает! </note>
+        <note xml:id="russian_1936_cap31-n586" type="comm" target="quarantana/cap31.xml#c31_14309" targetEnd="quarantana/cap31.xml#c31_14313">Чумой заболел он сам, </note>
+        <note xml:id="russian_1936_cap31-n587" type="comm" target="quarantana/cap31.xml#c31_14314" targetEnd="quarantana/cap31.xml#c31_14315">жена, </note>
+        <note xml:id="russian_1936_cap31-n588" type="comm" target="quarantana/cap31.xml#c31_14316" targetEnd="quarantana/cap31.xml#c31_14317">двое сыновей, </note>
+        <note xml:id="russian_1936_cap31-n589" type="comm" target="quarantana/cap31.xml#c31_14318" targetEnd="quarantana/cap31.xml#c31_14321">семь человек прислуги. </note>
+        <note xml:id="russian_1936_cap31-n590" type="comm" target="quarantana/cap31.xml#c31_14322" targetEnd="quarantana/cap31.xml#c31_14328">Сам он и один из сыновей выжили, </note>
+        <note xml:id="russian_1936_cap31-n591" type="comm" target="quarantana/cap31.xml#c31_14329" targetEnd="quarantana/cap31.xml#c31_14331">остальные умерли. </note>
+        <note xml:id="russian_1936_cap31-n592" type="comm" target="quarantana/cap31.xml#c31_14332" targetEnd="quarantana/cap31.xml#c31_14337">«Случаи эти, — говорит Тадино, </note>
+        <note xml:id="russian_1936_cap31-n593" type="comm" target="quarantana/cap31.xml#c31_14338" targetEnd="quarantana/cap31.xml#c31_14343">— произошедшие в Городе в Знатных семьях, </note>
+        <note xml:id="russian_1936_cap31-n594" type="comm" target="quarantana/cap31.xml#c31_14344" targetEnd="quarantana/cap31.xml#c31_14351">заставили Знать и простонародье призадуматься, </note>
+        <note xml:id="russian_1936_cap31-n595" type="comm" target="quarantana/cap31.xml#c31_14352" targetEnd="quarantana/cap31.xml#c31_14355">а недоверчивые Врачи и невежественная, </note>
+        <note xml:id="russian_1936_cap31-n596" type="comm" target="quarantana/cap31.xml#c31_14356" targetEnd="quarantana/cap31.xml#c31_14365">безрассудная чернь начала поджимать губы, </note>
+        <note xml:id="russian_1936_cap31-n597" type="comm" target="quarantana/cap31.xml#c31_14366" targetEnd="quarantana/cap31.xml#c31_14372">стискивать зубы и поднимать брови». </note>
+        <note xml:id="russian_1936_cap31-n598" type="comm" target="quarantana/cap31.xml#c31_14373" targetEnd="quarantana/cap31.xml#c31_14374">Однако, </note>
+        <note xml:id="russian_1936_cap31-n599" type="comm" target="quarantana/cap31.xml#c31_14375" targetEnd="quarantana/cap31.xml#c31_14378">вылазки, уловки и, </note>
+        <note xml:id="russian_1936_cap31-n600" type="comm" target="quarantana/cap31.xml#c31_14379" targetEnd="quarantana/cap31.xml#c31_14381">так сказать, </note>
+        <note xml:id="russian_1936_cap31-n601" type="comm" target="quarantana/cap31.xml#c31_14382" targetEnd="quarantana/cap31.xml#c31_14399">мстительность уличенного упрямства в некоторых случаях бывают таковы, что заставляют желать, чтобы оно лучше уж оставалось твердым и непоколебимым до конца, </note>
+        <note xml:id="russian_1936_cap31-n602" type="comm" target="quarantana/cap31.xml#c31_14400" targetEnd="quarantana/cap31.xml#c31_14404">вопреки разуму и очевидности. </note>
+        <note xml:id="russian_1936_cap31-n603" type="comm" target="quarantana/cap31.xml#c31_14405" targetEnd="quarantana/cap31.xml#c31_14412">Это и был как раз один из таких случаев. </note>
+        <note xml:id="russian_1936_cap31-n604" type="comm" target="quarantana/cap31.xml#c31_14413" targetEnd="quarantana/cap31.xml#c31_14423">Те люди, которые так решительно и так долго не хотели признавать, </note>
+        <note xml:id="russian_1936_cap31-n605" type="comm" target="quarantana/cap31.xml#c31_14424" targetEnd="quarantana/cap31.xml#c31_14429">что рядом с ними, </note>
+        <note xml:id="russian_1936_cap31-n606" type="comm" target="quarantana/cap31.xml#c31_14430" targetEnd="quarantana/cap31.xml#c31_14435">среди них гнездится зародыш болезни, </note>
+        <note xml:id="russian_1936_cap31-n607" type="comm" target="quarantana/cap31.xml#c31_14436" targetEnd="quarantana/cap31.xml#c31_14445">который естественным путем может распространяться и производить истребление, </note>
+        <note xml:id="russian_1936_cap31-n608" type="comm" target="quarantana/cap31.xml#c31_14446" targetEnd="quarantana/cap31.xml#c31_14453">впредь не могли уже отрицать распространения болезни и, </note>
+        <note xml:id="russian_1936_cap31-n609" type="comm" target="quarantana/cap31.xml#c31_14454" targetEnd="quarantana/cap31.xml#c31_14473">не желая приписывать ее этим способам (ведь это значило бы одновременно сознаться в великом обмане и великой вине), </note>
+        <note xml:id="russian_1936_cap31-n610" type="comm" target="quarantana/cap31.xml#c31_14474" targetEnd="quarantana/cap31.xml#c31_14482">тем более расположены были найти для нее какую-нибудь другую причину, </note>
+        <note xml:id="russian_1936_cap31-n611" type="comm" target="quarantana/cap31.xml#c31_14483" targetEnd="quarantana/cap31.xml#c31_14491">признать всякую, какая только будет выдвинута кем угодно. </note>
+        <note xml:id="russian_1936_cap31-n612" type="comm" target="quarantana/cap31.xml#c31_14492" targetEnd="quarantana/cap31.xml#c31_14505">К несчастью одна такая причина была наготове в понятиях и традициях, </note>
+        <note xml:id="russian_1936_cap31-n613" type="comm" target="quarantana/cap31.xml#c31_14506" targetEnd="quarantana/cap31.xml#c31_14508">господствовавших тогда не только у нас, </note>
+        <note xml:id="russian_1936_cap31-n614" type="comm" target="quarantana/cap31.xml#c31_14509" targetEnd="quarantana/cap31.xml#c31_14513">но и во всех частях Европы: </note>
+        <note xml:id="russian_1936_cap31-n615" type="comm" target="quarantana/cap31.xml#c31_14514" targetEnd="quarantana/cap31.xml#c31_14515">приворотные зелья, </note>
+        <note xml:id="russian_1936_cap31-n616" type="comm" target="quarantana/cap31.xml#c31_14516" targetEnd="quarantana/cap31.xml#c31_14517">дьявольские махинации, </note>
+        <note xml:id="russian_1936_cap31-n617" type="comm" target="quarantana/cap31.xml#c31_14518" targetEnd="quarantana/cap31.xml#c31_14530">злодейские заговоры для распространения чумы посредством заразных ядов и колдовства. </note>
+        <note xml:id="russian_1936_cap31-n618" type="comm" target="quarantana/cap31.xml#c31_14531" targetEnd="quarantana/cap31.xml#c31_14544">Такие или подобные вещи уже предполагались и находили веру при многих других моровых язвах и, </note>
+        <note xml:id="russian_1936_cap31-n619" type="comm" target="quarantana/cap31.xml#c31_14545" targetEnd="quarantana/cap31.xml#c31_14547">в частности, </note>
+        <note xml:id="russian_1936_cap31-n621" type="comm" target="quarantana/cap31.xml#c31_14548" targetEnd="quarantana/cap31.xml#c31_14553">бывшей за полстолетия до этого. </note>
+        <note xml:id="russian_1936_cap31-n622" type="comm" target="quarantana/cap31.xml#c31_14554" targetEnd="quarantana/cap31.xml#c31_14555">Прибавьте к этому, </note>
+        <note xml:id="russian_1936_cap31-n623" type="comm" target="quarantana/cap31.xml#c31_14556" targetEnd="quarantana/cap31.xml#c31_14569">что в предыдущем году к губернатору прибыла подписанная королем Филиппом IV депеша, </note>
+        <note xml:id="russian_1936_cap31-n624" type="comm" target="quarantana/cap31.xml#c31_14570" targetEnd="quarantana/cap31.xml#c31_14577">с предупреждением о том, что из Мадрида убежали четверо французов, </note>
+        <note xml:id="russian_1936_cap31-n625" type="comm" target="quarantana/cap31.xml#c31_14578" targetEnd="quarantana/cap31.xml#c31_14585">преследуемых по подозрению в распространении ядовитых заразных мазей; </note>
+        <note xml:id="russian_1936_cap31-n626" type="comm" target="quarantana/cap31.xml#c31_14586" targetEnd="quarantana/cap31.xml#c31_14587">пусть губернатор будет начеку, </note>
+        <note xml:id="russian_1936_cap31-n627" type="comm" target="quarantana/cap31.xml#c31_14588" targetEnd="quarantana/cap31.xml#c31_14594">не объявятся ли они как-нибудь в Милане. </note>
+        <note xml:id="russian_1936_cap31-n628" type="comm" target="quarantana/cap31.xml#c31_14595" targetEnd="quarantana/cap31.xml#c31_14607">Губернатор сообщил депешу Сенату и Санитарному трибуналу; </note>
+        <note xml:id="russian_1936_cap31-n629" type="comm" target="quarantana/cap31.xml#c31_14608" targetEnd="quarantana/cap31.xml#c31_14608">но, </note>
+        <note xml:id="russian_1936_cap31-n630" type="comm" target="quarantana/cap31.xml#c31_14609" targetEnd="quarantana/cap31.xml#c31_14618">по-видимому, в то время на это мало обратили внимания. </note>
+        <note xml:id="russian_1936_cap31-n631" type="comm" target="quarantana/cap31.xml#c31_14619" targetEnd="quarantana/cap31.xml#c31_14619">Однако, </note>
+        <note xml:id="russian_1936_cap31-n632" type="comm" target="quarantana/cap31.xml#c31_14620" targetEnd="quarantana/cap31.xml#c31_14624">когда чума вспыхнула и была признана, </note>
+        <note xml:id="russian_1936_cap31-n633" type="comm" target="quarantana/cap31.xml#c31_14625" targetEnd="quarantana/cap31.xml#c31_14639">об этом предупреждении вспомнили и увидели в нем подтверждение неопределенных подозрений насчет злодейского умысла; </note>
+        <note xml:id="russian_1936_cap31-n634" type="comm" target="quarantana/cap31.xml#c31_14640" targetEnd="quarantana/cap31.xml#c31_14648">могло оно стать и первым поводом для их возникновения. </note>
+        <note xml:id="russian_1936_cap31-n635" type="comm" target="quarantana/cap31.xml#c31_14649" targetEnd="quarantana/cap31.xml#c31_14651">Но два случая, </note>
+        <note xml:id="russian_1936_cap31-n637" type="comm" target="quarantana/cap31.xml#c31_14652" targetEnd="quarantana/cap31.xml#c31_14657">один — со слепым и безудержным страхом, </note>
+        <note xml:id="russian_1936_cap31-n638" type="comm" target="quarantana/cap31.xml#c31_14658" targetEnd="quarantana/cap31.xml#c31_14663">другой — с каким-то злым умыслом, </note>
+        <note xml:id="russian_1936_cap31-n639" type="comm" target="quarantana/cap31.xml#c31_14664" targetEnd="quarantana/cap31.xml#c31_14675">превратили это неопределенное подозрение возможного покушения в подозрение, </note>
+        <note xml:id="russian_1936_cap31-n640" type="comm" target="quarantana/cap31.xml#c31_14676" targetEnd="quarantana/cap31.xml#c31_14687">а для многих — в наличие подлинного покушения и действительного заговора. </note>
+        <note xml:id="russian_1936_cap31-n641" type="comm" target="quarantana/cap31.xml#c31_14688" targetEnd="quarantana/cap31.xml#c31_14694">А именно, некоторые лица, которым показалось, </note>
+        <note xml:id="russian_1936_cap31-n642" type="comm" target="quarantana/cap31.xml#c31_14695" targetEnd="quarantana/cap31.xml#c31_14700">вечером 17 мая, </note>
+        <note xml:id="russian_1936_cap31-n643" type="comm" target="quarantana/cap31.xml#c31_14701" targetEnd="quarantana/cap31.xml#c31_14718">будто какие-то люди в соборе мазали перегородку, отделявшую пространства, отведенные порознь мужскому и женскому полу, </note>
+        <note xml:id="russian_1936_cap31-n644" type="comm" target="quarantana/cap31.xml#c31_14719" targetEnd="quarantana/cap31.xml#c31_14733">распорядились вынести ночью из церкви перегородку совсем со скамейками, огороженными ею, </note>
+        <note xml:id="russian_1936_cap31-n645" type="comm" target="quarantana/cap31.xml#c31_14734" targetEnd="quarantana/cap31.xml#c31_14738">хотя председатель Санитарного ведомства, </note>
+        <note xml:id="russian_1936_cap31-n646" type="comm" target="quarantana/cap31.xml#c31_14739" targetEnd="quarantana/cap31.xml#c31_14747">явившийся для осмотра с четырьмя членами коллегии, </note>
+        <note xml:id="russian_1936_cap31-n647" type="comm" target="quarantana/cap31.xml#c31_14748" targetEnd="quarantana/cap31.xml#c31_14750">осмотрев перегородку, </note>
+        <note xml:id="russian_1936_cap31-n648" type="comm" target="quarantana/cap31.xml#c31_14751" targetEnd="quarantana/cap31.xml#c31_14752">скамьи, </note>
+        <note xml:id="russian_1936_cap31-n649" type="comm" target="quarantana/cap31.xml#c31_14753" targetEnd="quarantana/cap31.xml#c31_14767">чаши со святой водой и не найдя ничего такого, что могло бы подтвердить невежественное подозрение о покушении с ядами, </note>
+        <note xml:id="russian_1936_cap31-n650" type="comm" target="quarantana/cap31.xml#c31_14768" targetEnd="quarantana/cap31.xml#c31_14768">решил, </note>
+        <note xml:id="russian_1936_cap31-n651" type="comm" target="quarantana/cap31.xml#c31_14769" targetEnd="quarantana/cap31.xml#c31_14772">в угоду чужим бредням, </note>
+        <note xml:id="russian_1936_cap31-n652" type="comm" target="quarantana/cap31.xml#c31_14773" targetEnd="quarantana/cap31.xml#c31_14779">и скорее из излишней предосторожности, </note>
+        <note xml:id="russian_1936_cap31-n653" type="comm" target="quarantana/cap31.xml#c31_14780" targetEnd="quarantana/cap31.xml#c31_14784">чем по необходимости, </note>
+        <note xml:id="russian_1936_cap31-n654" type="comm" target="quarantana/cap31.xml#c31_14785" targetEnd="quarantana/cap31.xml#c31_14792">что достаточно вымыть перегородку. </note>
+        <note xml:id="russian_1936_cap31-n655" type="comm" target="quarantana/cap31.xml#c31_14793" targetEnd="quarantana/cap31.xml#c31_14804">Нагромождение вещей в таком большом количестве произвело сильнейшее впечатление ужаса на толпу, </note>
+        <note xml:id="russian_1936_cap31-n656" type="comm" target="quarantana/cap31.xml#c31_14805" targetEnd="quarantana/cap31.xml#c31_14813">в глазах которой всякий предмет так легко становится вещественным доказательством. </note>
+        <note xml:id="russian_1936_cap31-n657" type="comm" target="quarantana/cap31.xml#c31_14814" targetEnd="quarantana/cap31.xml#c31_14828">Все стали говорить и считать достоверным, что в соборе вымазаны были все скамьи, </note>
+        <note xml:id="russian_1936_cap31-n658" type="comm" target="quarantana/cap31.xml#c31_14829" targetEnd="quarantana/cap31.xml#c31_14836">стены и даже веревки у колоколов. </note>
+        <note xml:id="russian_1936_cap31-n659" type="comm" target="quarantana/cap31.xml#c31_14837" targetEnd="quarantana/cap31.xml#c31_14841">И не только говорили тогда об этом: </note>
+        <note xml:id="russian_1936_cap31-n660" type="comm" target="quarantana/cap31.xml#c31_14842" targetEnd="quarantana/cap31.xml#c31_14855">все мемуары современников, упоминающие об этом факте (некоторые написаны были много лет спустя), </note>
+        <note xml:id="russian_1936_cap31-n661" type="comm" target="quarantana/cap31.xml#c31_14856" targetEnd="quarantana/cap31.xml#c31_14860">говорят о нем с одинаковой уверенностью, </note>
+        <note xml:id="russian_1936_cap31-n662" type="comm" target="quarantana/cap31.xml#c31_14861" targetEnd="quarantana/cap31.xml#c31_14868">и правду о нем пришлось бы устанавливать путем догадок, </note>
+        <note xml:id="russian_1936_cap31-n663" type="comm" target="quarantana/cap31.xml#c31_14869" targetEnd="quarantana/cap31.xml#c31_14881">не будь она помещена в одном письме Санитарного трибунала к губернатору, </note>
+        <note xml:id="russian_1936_cap31-n664" type="comm" target="quarantana/cap31.xml#c31_14882" targetEnd="quarantana/cap31.xml#c31_14889">хранящемся в так называемом архиве Сан-Феделе; </note>
+        <note xml:id="russian_1936_cap31-n665" type="comm" target="quarantana/cap31.xml#c31_14890" targetEnd="quarantana/cap31.xml#c31_14893">оттуда почерпнули ее и мы, </note>
+        <note xml:id="russian_1936_cap31-n666" type="comm" target="quarantana/cap31.xml#c31_14894" targetEnd="quarantana/cap31.xml#c31_14904">приведя курсивом заимствованные оттуда слова. </note>
+        <note xml:id="russian_1936_cap31-n667" type="comm" target="quarantana/cap31.xml#c31_14905" targetEnd="quarantana/cap31.xml#c31_14912">На другое утро новое и еще более странное, </note>
+        <note xml:id="russian_1936_cap31-n668" type="comm" target="quarantana/cap31.xml#c31_14913" targetEnd="quarantana/cap31.xml#c31_14923">еще более знаменательное зрелище поразило взоры и умы горожан. </note>
+        <note xml:id="russian_1936_cap31-n669" type="comm" target="quarantana/cap31.xml#c31_14924" targetEnd="quarantana/cap31.xml#c31_14948">Во всех частях города двери домов и стены на большом протяжении оказались вымазанными какою-то желтоватой мерзостью, </note>
+        <note xml:id="russian_1936_cap31-n670" type="comm" target="quarantana/cap31.xml#c31_14949" targetEnd="quarantana/cap31.xml#c31_14953">словно набрызганной посредством губки. </note>
+        <note xml:id="russian_1936_cap31-n671" type="comm" target="quarantana/cap31.xml#c31_14954" targetEnd="quarantana/cap31.xml#c31_14969">Не то это было глупое желание вызвать более шумный и общий страх, </note>
+        <note xml:id="russian_1936_cap31-n672" type="comm" target="quarantana/cap31.xml#c31_14970" targetEnd="quarantana/cap31.xml#c31_14980">не то более преступное намерение увеличить всеобщее смятение, </note>
+        <note xml:id="russian_1936_cap31-n673" type="comm" target="quarantana/cap31.xml#c31_14981" targetEnd="quarantana/cap31.xml#c31_14985">не то еще что-нибудь. </note>
+        <note xml:id="russian_1936_cap31-n674" type="comm" target="quarantana/cap31.xml#c31_14986" targetEnd="quarantana/cap31.xml#c31_14991">Во всяком случае обстоятельство это засвидетельствовано в таком духе, </note>
+        <note xml:id="russian_1936_cap31-n675" type="comm" target="quarantana/cap31.xml#c31_14992" targetEnd="quarantana/cap31.xml#c31_15002">что мы сочли бы более благоразумным приписать его не столько массовому расстройству воображения, </note>
+        <note xml:id="russian_1936_cap31-n676" type="comm" target="quarantana/cap31.xml#c31_15003" targetEnd="quarantana/cap31.xml#c31_15006">сколько деянию всего лишь нескольких лиц, </note>
+        <note xml:id="russian_1936_cap31-n677" type="comm" target="quarantana/cap31.xml#c31_15007" targetEnd="quarantana/cap31.xml#c31_15007">— деянию, </note>
+        <note xml:id="russian_1936_cap31-n678" type="comm" target="quarantana/cap31.xml#c31_15008" targetEnd="quarantana/cap31.xml#c31_15013">которое, впрочем, </note>
+        <note xml:id="russian_1936_cap31-n679" type="comm" target="quarantana/cap31.xml#c31_15014" targetEnd="quarantana/cap31.xml#c31_15021">является не первым и не последним в этом роде. </note>
+        <note xml:id="russian_1936_cap31-n680" type="comm" target="quarantana/cap31.xml#c31_15022" targetEnd="quarantana/cap31.xml#c31_15024">Рипамонти, </note>
+        <note xml:id="russian_1936_cap31-n681" type="comm" target="quarantana/cap31.xml#c31_15025" targetEnd="quarantana/cap31.xml#c31_15030">который в этом вопросе часто вышучивает, </note>
+        <note xml:id="russian_1936_cap31-n682" type="comm" target="quarantana/cap31.xml#c31_15031" targetEnd="quarantana/cap31.xml#c31_15038">а еще чаще оплакивает народное легковерие, </note>
+        <note xml:id="russian_1936_cap31-n683" type="comm" target="quarantana/cap31.xml#c31_15039" targetEnd="quarantana/cap31.xml#c31_15068">в данном случае подтверждает, </note>
+        <note xml:id="russian_1936_cap31-n684" type="comm" target="quarantana/cap31.xml#c31_15069" targetEnd="quarantana/cap31.xml#c31_15078">что видел сам эту пачкотню и описывает ее. </note>
+        <note xml:id="russian_1936_cap31-n685" type="comm" target="quarantana/cap31.xml#c31_15079" targetEnd="quarantana/cap31.xml#c31_15091">В вышеприведенном письме синьоры члены Санитарного ведомства передают дело в тех же выражениях; </note>
+        <note xml:id="russian_1936_cap31-n686" type="comm" target="quarantana/cap31.xml#c31_15092" targetEnd="quarantana/cap31.xml#c31_15094">они говорят об осмотрах, </note>
+        <note xml:id="russian_1936_cap31-n687" type="comm" target="quarantana/cap31.xml#c31_15095" targetEnd="quarantana/cap31.xml#c31_15106">об опытах, произведенных с этим веществом над собаками без всякого дурного исхода; </note>
+        <note xml:id="russian_1936_cap31-n688" type="comm" target="quarantana/cap31.xml#c31_15107" targetEnd="quarantana/cap31.xml#c31_15107">они прибавляют, </note>
+        <note xml:id="russian_1936_cap31-n689" type="comm" target="quarantana/cap31.xml#c31_15108" targetEnd="quarantana/cap31.xml#c31_15110">что, по их мнению, </note>
+        <note xml:id="russian_1936_cap31-n690" type="comm" target="quarantana/cap31.xml#c31_15111" targetEnd="quarantana/cap31.xml#c31_15119">подобное безрассудство явилось плодом скорее озорства, </note>
+        <note xml:id="russian_1936_cap31-n691" type="comm" target="quarantana/cap31.xml#c31_15120" targetEnd="quarantana/cap31.xml#c31_15124">чем злонамеренности: </note>
+        <note xml:id="russian_1936_cap31-n692" type="comm" target="quarantana/cap31.xml#c31_15125" targetEnd="quarantana/cap31.xml#c31_15129">образ мыслей, свидетельствующий о том, </note>
+        <note xml:id="russian_1936_cap31-n693" type="comm" target="quarantana/cap31.xml#c31_15130" targetEnd="quarantana/cap31.xml#c31_15145">что у них до этого момента было достаточно спокойствия духа для того, чтобы не видеть того, чего не было. </note>
+        <note xml:id="russian_1936_cap31-n694" type="comm" target="quarantana/cap31.xml#c31_15146" targetEnd="quarantana/cap31.xml#c31_15148">Другие современные мемуары, </note>
+        <note xml:id="russian_1936_cap31-n695" type="comm" target="quarantana/cap31.xml#c31_15149" targetEnd="quarantana/cap31.xml#c31_15151">сообщая про это, </note>
+        <note xml:id="russian_1936_cap31-n696" type="comm" target="quarantana/cap31.xml#c31_15152" targetEnd="quarantana/cap31.xml#c31_15153">тоже указывают, </note>
+        <note xml:id="russian_1936_cap31-n697" type="comm" target="quarantana/cap31.xml#c31_15154" targetEnd="quarantana/cap31.xml#c31_15160">что на первых порах многие держались того мнения, </note>
+        <note xml:id="russian_1936_cap31-n698" type="comm" target="quarantana/cap31.xml#c31_15161" targetEnd="quarantana/cap31.xml#c31_15165">что это было сделано ради шутки, </note>
+        <note xml:id="russian_1936_cap31-n699" type="comm" target="quarantana/cap31.xml#c31_15166" targetEnd="quarantana/cap31.xml#c31_15167">ради причуды; </note>
+        <note xml:id="russian_1936_cap31-n700" type="comm" target="quarantana/cap31.xml#c31_15168" targetEnd="quarantana/cap31.xml#c31_15174">ни одни мемуары не говорят ни о ком, кто бы отрицал это, </note>
+        <note xml:id="russian_1936_cap31-n701" type="comm" target="quarantana/cap31.xml#c31_15175" targetEnd="quarantana/cap31.xml#c31_15178">а они, конечно, сказали бы об этом, </note>
+        <note xml:id="russian_1936_cap31-n702" type="comm" target="quarantana/cap31.xml#c31_15179" targetEnd="quarantana/cap31.xml#c31_15183">если бы такие люди нашлись, </note>
+        <note xml:id="russian_1936_cap31-n703" type="comm" target="quarantana/cap31.xml#c31_15184" targetEnd="quarantana/cap31.xml#c31_15186">хотя бы ради того, </note>
+        <note xml:id="russian_1936_cap31-n704" type="comm" target="quarantana/cap31.xml#c31_15187" targetEnd="quarantana/cap31.xml#c31_15189">чтобы назвать их сумасбродными. </note>
+        <note xml:id="russian_1936_cap31-n705" type="comm" target="quarantana/cap31.xml#c31_15190" targetEnd="quarantana/cap31.xml#c31_15205">Я счел уместным привести и сопоставить эти подробности знаменитого исступления, </note>
+        <note xml:id="russian_1936_cap31-n706" type="comm" target="quarantana/cap31.xml#c31_15206" targetEnd="quarantana/cap31.xml#c31_15209">частью мало известные, </note>
+        <note xml:id="russian_1936_cap31-n707" type="comm" target="quarantana/cap31.xml#c31_15210" targetEnd="quarantana/cap31.xml#c31_15213">частью совершенно незнакомые, </note>
+        <note xml:id="russian_1936_cap31-n708" type="comm" target="quarantana/cap31.xml#c31_15214" targetEnd="quarantana/cap31.xml#c31_15217">потому что в заблуждениях, </note>
+        <note xml:id="russian_1936_cap31-n709" type="comm" target="quarantana/cap31.xml#c31_15218" targetEnd="quarantana/cap31.xml#c31_15225">и всего более в заблуждениях массовых, </note>
+        <note xml:id="russian_1936_cap31-n710" type="comm" target="quarantana/cap31.xml#c31_15226" targetEnd="quarantana/cap31.xml#c31_15235">самым интересным и самым полезным для наблюдения, </note>
+        <note xml:id="russian_1936_cap31-n711" type="comm" target="quarantana/cap31.xml#c31_15236" targetEnd="quarantana/cap31.xml#c31_15245">мне кажется, является как раз проделанный ими путь, </note>
+        <note xml:id="russian_1936_cap31-n712" type="comm" target="quarantana/cap31.xml#c31_15246" targetEnd="quarantana/cap31.xml#c31_15246">те формы, </note>
+        <note xml:id="russian_1936_cap31-n713" type="comm" target="quarantana/cap31.xml#c31_15247" targetEnd="quarantana/cap31.xml#c31_15257">те способы, какими они смогли войти в умы и завладеть ими. </note>
+        <note xml:id="russian_1936_cap31-n714" type="comm" target="quarantana/cap31.xml#c31_15258" targetEnd="quarantana/cap31.xml#c31_15264">В городе, и без того уже возбужденном, </note>
+        <note xml:id="russian_1936_cap31-n715" type="comm" target="quarantana/cap31.xml#c31_15265" targetEnd="quarantana/cap31.xml#c31_15268">все перевернулось вверх дном. </note>
+        <note xml:id="russian_1936_cap31-n716" type="comm" target="quarantana/cap31.xml#c31_15269" targetEnd="quarantana/cap31.xml#c31_15275">Домохозяева зажженной соломой опаливали вымазанные места; </note>
+        <note xml:id="russian_1936_cap31-n717" type="comm" target="quarantana/cap31.xml#c31_15276" targetEnd="quarantana/cap31.xml#c31_15279">прохожие останавливались, </note>
+        <note xml:id="russian_1936_cap31-n718" type="comm" target="quarantana/cap31.xml#c31_15280" targetEnd="quarantana/cap31.xml#c31_15280">глядели, </note>
+        <note xml:id="russian_1936_cap31-n719" type="comm" target="quarantana/cap31.xml#c31_15281" targetEnd="quarantana/cap31.xml#c31_15282">приходили в ужас, содрогались. </note>
+        <note xml:id="russian_1936_cap31-n720" type="comm" target="quarantana/cap31.xml#c31_15283" targetEnd="quarantana/cap31.xml#c31_15284">Чужеземцев, </note>
+        <note xml:id="russian_1936_cap31-n721" type="comm" target="quarantana/cap31.xml#c31_15285" targetEnd="quarantana/cap31.xml#c31_15296">уже по одному этому подозрительных и в те времена легко узнаваемых по одежде, </note>
+        <note xml:id="russian_1936_cap31-n722" type="comm" target="quarantana/cap31.xml#c31_15297" targetEnd="quarantana/cap31.xml#c31_15306">народ хватал на улицах и отводил в юстицию. </note>
+        <note xml:id="russian_1936_cap31-n723" type="comm" target="quarantana/cap31.xml#c31_15307" targetEnd="quarantana/cap31.xml#c31_15311">Производились допросы и дознания и схваченных, </note>
+        <note xml:id="russian_1936_cap31-n724" type="comm" target="quarantana/cap31.xml#c31_15312" targetEnd="quarantana/cap31.xml#c31_15312">и тех, кто схватил их, </note>
+        <note xml:id="russian_1936_cap31-n725" type="comm" target="quarantana/cap31.xml#c31_15313" targetEnd="quarantana/cap31.xml#c31_15314">и свидетелей; </note>
+        <note xml:id="russian_1936_cap31-n726" type="comm" target="quarantana/cap31.xml#c31_15315" targetEnd="quarantana/cap31.xml#c31_15319">виновных не оказалось; </note>
+        <note xml:id="russian_1936_cap31-n727" type="comm" target="quarantana/cap31.xml#c31_15320" targetEnd="quarantana/cap31.xml#c31_15326">умы еще доступны были сомнению, </note>
+        <note xml:id="russian_1936_cap31-n728" type="comm" target="quarantana/cap31.xml#c31_15327" targetEnd="quarantana/cap31.xml#c31_15327">вниканию, </note>
+        <note xml:id="russian_1936_cap31-n729" type="comm" target="quarantana/cap31.xml#c31_15328" targetEnd="quarantana/cap31.xml#c31_15328">пониманию. </note>
+        <note xml:id="russian_1936_cap31-n730" type="comm" target="quarantana/cap31.xml#c31_15329" targetEnd="quarantana/cap31.xml#c31_15335">Санитарный трибунал обнародовал указ, </note>
+        <note xml:id="russian_1936_cap31-n731" type="comm" target="quarantana/cap31.xml#c31_15336" targetEnd="quarantana/cap31.xml#c31_15353">в котором обещал денежную награду и безнаказанность тому, кто обнаружит виновника или виновников этого дела. </note>
+        <note xml:id="russian_1936_cap31-n732" type="comm" target="quarantana/cap31.xml#c31_15354" targetEnd="quarantana/cap31.xml#c31_15360">Находя никоим образом недопустимым, </note>
+        <note xml:id="russian_1936_cap31-n733" type="comm" target="quarantana/cap31.xml#c31_15361" targetEnd="quarantana/cap31.xml#c31_15366">— говорят эти синьоры в приведенном выше письме, </note>
+        <note xml:id="russian_1936_cap31-n734" type="comm" target="quarantana/cap31.xml#c31_15367" targetEnd="quarantana/cap31.xml#c31_15374">которое помечено 21 мая, </note>
+        <note xml:id="russian_1936_cap31-n735" type="comm" target="quarantana/cap31.xml#c31_15375" targetEnd="quarantana/cap31.xml#c31_15381">но написано было, очевидно, 19-го, </note>
+        <note xml:id="russian_1936_cap31-n736" type="comm" target="quarantana/cap31.xml#c31_15382" targetEnd="quarantana/cap31.xml#c31_15386">в день, проставленный на печатном указе, </note>
+        <note xml:id="russian_1936_cap31-n737" type="comm" target="quarantana/cap31.xml#c31_15387" targetEnd="quarantana/cap31.xml#c31_15394">— чтобы настоящее преступление каким бы то ни было образом осталось безнаказанным, </note>
+        <note xml:id="russian_1936_cap31-n738" type="comm" target="quarantana/cap31.xml#c31_15395" targetEnd="quarantana/cap31.xml#c31_15401">особенно в такое опасное и тревожное время, </note>
+        <note xml:id="russian_1936_cap31-n739" type="comm" target="quarantana/cap31.xml#c31_15402" targetEnd="quarantana/cap31.xml#c31_15414">мы в утешение и успокоение населения и с целью добыть какие-либо указания об этом поступке, </note>
+        <note xml:id="russian_1936_cap31-n740" type="comm" target="quarantana/cap31.xml#c31_15415" targetEnd="quarantana/cap31.xml#c31_15419">обнародовали ныне указ и т. д. </note>
+        <note xml:id="russian_1936_cap31-n741" type="comm" target="quarantana/cap31.xml#c31_15420" targetEnd="quarantana/cap31.xml#c31_15423">В самом указе, однако, </note>
+        <note xml:id="russian_1936_cap31-n742" type="comm" target="quarantana/cap31.xml#c31_15424" targetEnd="quarantana/cap31.xml#c31_15433">нет никакого сколько-нибудь ясного указания на то разумное и успокоительное предположение, </note>
+        <note xml:id="russian_1936_cap31-n743" type="comm" target="quarantana/cap31.xml#c31_15434" targetEnd="quarantana/cap31.xml#c31_15437">которое они сообщили губернатору, </note>
+        <note xml:id="russian_1936_cap31-n744" type="comm" target="quarantana/cap31.xml#c31_15438" targetEnd="quarantana/cap31.xml#c31_15448">— молчание, одновременно изобличающее безумную предубежденность в народе, </note>
+        <note xml:id="russian_1936_cap31-n745" type="comm" target="quarantana/cap31.xml#c31_15449" targetEnd="quarantana/cap31.xml#c31_15453">а в них самих потворство, </note>
+        <note xml:id="russian_1936_cap31-n746" type="comm" target="quarantana/cap31.xml#c31_15454" targetEnd="quarantana/cap31.xml#c31_15456">тем более достойное порицания, </note>
+        <note xml:id="russian_1936_cap31-n747" type="comm" target="quarantana/cap31.xml#c31_15457" targetEnd="quarantana/cap31.xml#c31_15461">чем пагубнее оно могло оказаться. </note>
+        <note xml:id="russian_1936_cap31-n748" type="comm" target="quarantana/cap31.xml#c31_15462" targetEnd="quarantana/cap31.xml#c31_15465">Пока Трибунал доискивался, </note>
+        <note xml:id="russian_1936_cap31-n749" type="comm" target="quarantana/cap31.xml#c31_15466" targetEnd="quarantana/cap31.xml#c31_15468">многие среди жителей, </note>
+        <note xml:id="russian_1936_cap31-n750" type="comm" target="quarantana/cap31.xml#c31_15469" targetEnd="quarantana/cap31.xml#c31_15470">как это бывает в таких случаях, </note>
+        <note xml:id="russian_1936_cap31-n751" type="comm" target="quarantana/cap31.xml#c31_15471" targetEnd="quarantana/cap31.xml#c31_15473">уже нашли. </note>
+        <note xml:id="russian_1936_cap31-n752" type="comm" target="quarantana/cap31.xml#c31_15474" targetEnd="quarantana/cap31.xml#c31_15480">Из тех, которые думали, что это ядовитое смазывание, </note>
+        <note xml:id="russian_1936_cap31-n753" type="comm" target="quarantana/cap31.xml#c31_15481" targetEnd="quarantana/cap31.xml#c31_15493">одни видели здесь месть со стороны дона Гонсало-Фернандеса ди-Кордова за оскорбление, </note>
+        <note xml:id="russian_1936_cap31-n754" type="comm" target="quarantana/cap31.xml#c31_15494" targetEnd="quarantana/cap31.xml#c31_15499">полученное им при отъезде; </note>
+        <note xml:id="russian_1936_cap31-n755" type="comm" target="quarantana/cap31.xml#c31_15500" targetEnd="quarantana/cap31.xml#c31_15513">другие — выдумку кардинала Ришелье с целью обезлюдить Милан и овладеть им без всякого усилия; </note>
+        <note xml:id="russian_1936_cap31-n756" type="comm" target="quarantana/cap31.xml#c31_15514" targetEnd="quarantana/cap31.xml#c31_15514">третьи, </note>
+        <note xml:id="russian_1936_cap31-n757" type="comm" target="quarantana/cap31.xml#c31_15515" targetEnd="quarantana/cap31.xml#c31_15521">неизвестно по каким соображениям, </note>
+        <note xml:id="russian_1936_cap31-n758" type="comm" target="quarantana/cap31.xml#c31_15522" targetEnd="quarantana/cap31.xml#c31_15528">считали виновником графа ди-Коллальто, </note>
+        <note xml:id="russian_1936_cap31-n759" type="comm" target="quarantana/cap31.xml#c31_15529" targetEnd="quarantana/cap31.xml#c31_15529">Валленштейна, </note>
+        <note xml:id="russian_1936_cap31-n760" type="comm" target="quarantana/cap31.xml#c31_15530" targetEnd="quarantana/cap31.xml#c31_15533">либо того или иного из миланской знати. </note>
+        <note xml:id="russian_1936_cap31-n761" type="comm" target="quarantana/cap31.xml#c31_15534" targetEnd="quarantana/cap31.xml#c31_15535">Не было, </note>
+        <note xml:id="russian_1936_cap31-n762" type="comm" target="quarantana/cap31.xml#c31_15536" targetEnd="quarantana/cap31.xml#c31_15538">как мы сказали, </note>
+        <note xml:id="russian_1936_cap31-n763" type="comm" target="quarantana/cap31.xml#c31_15539" targetEnd="quarantana/cap31.xml#c31_15555">недостатка и в таких, которые видели в этом поступке не более как глупую шутку и приписывали ее школярам, </note>
+        <note xml:id="russian_1936_cap31-n764" type="comm" target="quarantana/cap31.xml#c31_15556" targetEnd="quarantana/cap31.xml#c31_15557">синьорам, </note>
+        <note xml:id="russian_1936_cap31-n765" type="comm" target="quarantana/cap31.xml#c31_15558" targetEnd="quarantana/cap31.xml#c31_15564">офицерам, скучавшим осаждая Казале. </note>
+        <note xml:id="russian_1936_cap31-n766" type="comm" target="quarantana/cap31.xml#c31_15565" targetEnd="quarantana/cap31.xml#c31_15568">А когда оказалось, </note>
+        <note xml:id="russian_1936_cap31-n768" type="comm" target="quarantana/cap31.xml#c31_15569" targetEnd="quarantana/cap31.xml#c31_15572">как опасались было, </note>
+        <note xml:id="russian_1936_cap31-n769" type="comm" target="quarantana/cap31.xml#c31_15573" targetEnd="quarantana/cap31.xml#c31_15581">не последовало, то это, </note>
+        <note xml:id="russian_1936_cap31-n770" type="comm" target="quarantana/cap31.xml#c31_15582" targetEnd="quarantana/cap31.xml#c31_15592">по-видимому, послужило причиной того, что первоначальный страх тогда же стал стихать, </note>
+        <note xml:id="russian_1936_cap31-n771" type="comm" target="quarantana/cap31.xml#c31_15593" targetEnd="quarantana/cap31.xml#c31_15601">и все дело предано было или казалось преданным забвению. </note>
+        <note xml:id="russian_1936_cap31-n772" type="comm" target="quarantana/cap31.xml#c31_15602" targetEnd="quarantana/cap31.xml#c31_15602">Впрочем, </note>
+        <note xml:id="russian_1936_cap31-n774" type="comm" target="quarantana/cap31.xml#c31_15605" targetEnd="quarantana/cap31.xml#c31_15617">было некоторое количество лиц, еще не убедившихся в наличии чумы. </note>
+        <note xml:id="russian_1936_cap31-n775" type="comm" target="quarantana/cap31.xml#c31_15618" targetEnd="quarantana/cap31.xml#c31_15622">И так как и в лазарете, </note>
+        <note xml:id="russian_1936_cap31-n776" type="comm" target="quarantana/cap31.xml#c31_15623" targetEnd="quarantana/cap31.xml#c31_15630">и по городу некоторые от нее все же выздоравливали, </note>
+        <note xml:id="russian_1936_cap31-n777" type="comm" target="quarantana/cap31.xml#c31_15631" targetEnd="quarantana/cap31.xml#c31_15644">то (всегда любопытно знать последние доводы мнения, опровергнутого очевидностью) «в народе, </note>
+        <note xml:id="russian_1936_cap31-n778" type="comm" target="quarantana/cap31.xml#c31_15645" targetEnd="quarantana/cap31.xml#c31_15654">а также среди многих предубежденныx врачей стали поговаривать, </note>
+        <note xml:id="russian_1936_cap31-n779" type="comm" target="quarantana/cap31.xml#c31_15655" targetEnd="quarantana/cap31.xml#c31_15658">что это не настоящая чума, </note>
+        <note xml:id="russian_1936_cap31-n780" type="comm" target="quarantana/cap31.xml#c31_15659" targetEnd="quarantana/cap31.xml#c31_15664">иначе все бы перемерли». </note>
+        <note xml:id="russian_1936_cap31-n781" type="comm" target="quarantana/cap31.xml#c31_15665" targetEnd="quarantana/cap31.xml#c31_15670">Чтобы устранить всякое сомнение, </note>
+        <note xml:id="russian_1936_cap31-n782" type="comm" target="quarantana/cap31.xml#c31_15671" targetEnd="quarantana/cap31.xml#c31_15680">Санитарный трибунал нашел средство, соответствовавшее потребности, </note>
+        <note xml:id="russian_1936_cap31-n783" type="comm" target="quarantana/cap31.xml#c31_15681" targetEnd="quarantana/cap31.xml#c31_15686">способ вполне наглядный, </note>
+        <note xml:id="russian_1936_cap31-n784" type="comm" target="quarantana/cap31.xml#c31_15687" targetEnd="quarantana/cap31.xml#c31_15693">какой только могли потребовать и подсказать те времена. </note>
+        <note xml:id="russian_1936_cap31-n785" type="comm" target="quarantana/cap31.xml#c31_15694" targetEnd="quarantana/cap31.xml#c31_15720">В один из дней празднования Пятидесятницы граждане обычно стекались на кладбище Сан-Грегорио за Восточными воротами молиться за умерших в прошлую чуму, </note>
+        <note xml:id="russian_1936_cap31-n786" type="comm" target="quarantana/cap31.xml#c31_15721" targetEnd="quarantana/cap31.xml#c31_15723">которые были погребены там, </note>
+        <note xml:id="russian_1936_cap31-n787" type="comm" target="quarantana/cap31.xml#c31_15724" targetEnd="quarantana/cap31.xml#c31_15724">и, </note>
+        <note xml:id="russian_1936_cap31-n788" type="comm" target="quarantana/cap31.xml#c31_15725" targetEnd="quarantana/cap31.xml#c31_15733">пользуясь благочестивым обычаем, как поводом для развлечения и зрелища, </note>
+        <note xml:id="russian_1936_cap31-n789" type="comm" target="quarantana/cap31.xml#c31_15734" targetEnd="quarantana/cap31.xml#c31_15741">они отправлялись туда в самом нарядном своем одеянии. </note>
+        <note xml:id="russian_1936_cap31-n790" type="comm" target="quarantana/cap31.xml#c31_15742" targetEnd="quarantana/cap31.xml#c31_15748">В этот день, </note>
+        <note xml:id="russian_1936_cap31-n791" type="comm" target="quarantana/cap31.xml#c31_15749" targetEnd="quarantana/cap31.xml#c31_15751">наряду с другими, </note>
+        <note xml:id="russian_1936_cap31-n792" type="comm" target="quarantana/cap31.xml#c31_15752" targetEnd="quarantana/cap31.xml#c31_15753">умерла от чумы целая семья. </note>
+        <note xml:id="russian_1936_cap31-n793" type="comm" target="quarantana/cap31.xml#c31_15754" targetEnd="quarantana/cap31.xml#c31_15757">В час самого большого скопления народа, </note>
+        <note xml:id="russian_1936_cap31-n794" type="comm" target="quarantana/cap31.xml#c31_15758" targetEnd="quarantana/cap31.xml#c31_15761">посреди экипажей, </note>
+        <note xml:id="russian_1936_cap31-n795" type="comm" target="quarantana/cap31.xml#c31_15762" targetEnd="quarantana/cap31.xml#c31_15768">всадников и пеших, </note>
+        <note xml:id="russian_1936_cap31-n796" type="comm" target="quarantana/cap31.xml#c31_15769" targetEnd="quarantana/cap31.xml#c31_15785">по приказу Санитарного ведомства на вышеназванное кладбище отвезены были на простой телеге обнаженные трупы этой семьи, </note>
+        <note xml:id="russian_1936_cap31-n797" type="comm" target="quarantana/cap31.xml#c31_15786" targetEnd="quarantana/cap31.xml#c31_15797">чтобы толпа могла видеть на них явное клеймо моровой язвы. </note>
+        <note xml:id="russian_1936_cap31-n798" type="comm" target="quarantana/cap31.xml#c31_15798" targetEnd="quarantana/cap31.xml#c31_15801">Крики отвращения, </note>
+        <note xml:id="russian_1936_cap31-n799" type="comm" target="quarantana/cap31.xml#c31_15802" targetEnd="quarantana/cap31.xml#c31_15810">ужаса поднимались всюду, где проезжала телега: </note>
+        <note xml:id="russian_1936_cap31-n800" type="comm" target="quarantana/cap31.xml#c31_15811" targetEnd="quarantana/cap31.xml#c31_15817">долго еще стоял гул толпы там, где она проехала, </note>
+        <note xml:id="russian_1936_cap31-n801" type="comm" target="quarantana/cap31.xml#c31_15818" targetEnd="quarantana/cap31.xml#c31_15822">гул же предшествовал ее появлению в новом месте. </note>
+        <note xml:id="russian_1936_cap31-n802" type="comm" target="quarantana/cap31.xml#c31_15823" targetEnd="quarantana/cap31.xml#c31_15827">Чуме больше стали верить; </note>
+        <note xml:id="russian_1936_cap31-n803" type="comm" target="quarantana/cap31.xml#c31_15828" targetEnd="quarantana/cap31.xml#c31_15838">но, впрочем, она с каждым днем и сама все больше заставляла верить в себя; </note>
+        <note xml:id="russian_1936_cap31-n804" type="comm" target="quarantana/cap31.xml#c31_15839" targetEnd="quarantana/cap31.xml#c31_15848">и упомянутое скопление людей немало поспособствовало ее распространению. </note>
+        <note xml:id="russian_1936_cap31-n805" type="comm" target="quarantana/cap31.xml#c31_15849" targetEnd="quarantana/cap31.xml#c31_15855">Итак, вначале — не чума, решительно не чума, </note>
+        <note xml:id="russian_1936_cap31-n806" type="comm" target="quarantana/cap31.xml#c31_15856" targetEnd="quarantana/cap31.xml#c31_15858">никоим образом: </note>
+        <note xml:id="russian_1936_cap31-n807" type="comm" target="quarantana/cap31.xml#c31_15859" targetEnd="quarantana/cap31.xml#c31_15864">запрещается даже произносить это слово. </note>
+        <note xml:id="russian_1936_cap31-n808" type="comm" target="quarantana/cap31.xml#c31_15865" targetEnd="quarantana/cap31.xml#c31_15867">Дальше — чумные лихорадки; </note>
+        <note xml:id="russian_1936_cap31-n809" type="comm" target="quarantana/cap31.xml#c31_15868" targetEnd="quarantana/cap31.xml#c31_15874">понятие в чумы допускается обходным путем, в виде прилагательного. </note>
+        <note xml:id="russian_1936_cap31-n810" type="comm" target="quarantana/cap31.xml#c31_15875" targetEnd="quarantana/cap31.xml#c31_15878">Еще дальше — не настоящая чума; </note>
+        <note xml:id="russian_1936_cap31-n811" type="comm" target="quarantana/cap31.xml#c31_15879" targetEnd="quarantana/cap31.xml#c31_15883">собственно говоря, конечно, </note>
+        <note xml:id="russian_1936_cap31-n813" type="comm" target="quarantana/cap31.xml#c31_15884" targetEnd="quarantana/cap31.xml#c31_15888">но лишь в известном смысле этого слова; </note>
+        <note xml:id="russian_1936_cap31-n814" type="comm" target="quarantana/cap31.xml#c31_15889" targetEnd="quarantana/cap31.xml#c31_15891">не подлинная чума, </note>
+        <note xml:id="russian_1936_cap31-n815" type="comm" target="quarantana/cap31.xml#c31_15892" targetEnd="quarantana/cap31.xml#c31_15903">но что-то, чему нельзя подыскать другого названия. </note>
+        <note xml:id="russian_1936_cap31-n816" type="comm" target="quarantana/cap31.xml#c31_15904" targetEnd="quarantana/cap31.xml#c31_15904">И наконец, </note>
+        <note xml:id="russian_1936_cap31-n817" type="comm" target="quarantana/cap31.xml#c31_15905" targetEnd="quarantana/cap31.xml#c31_15907">— несомненная чума, </note>
+        <note xml:id="russian_1936_cap31-n818" type="comm" target="quarantana/cap31.xml#c31_15908" targetEnd="quarantana/cap31.xml#c31_15910">беспорная, </note>
+        <note xml:id="russian_1936_cap31-n819" type="comm" target="quarantana/cap31.xml#c31_15911" targetEnd="quarantana/cap31.xml#c31_15917">но тут уже привязалось к ней новое понятие, </note>
+        <note xml:id="russian_1936_cap31-n820" type="comm" target="quarantana/cap31.xml#c31_15918" targetEnd="quarantana/cap31.xml#c31_15923">понятие отравления и злого умысла, </note>
+        <note xml:id="russian_1936_cap31-n821" type="comm" target="quarantana/cap31.xml#c31_15924" targetEnd="quarantana/cap31.xml#c31_15941">вносящее изменение и путаницу в основное понятие, выраженное словом, которого теперь уже нельзя обойти. </note>
+        <note xml:id="russian_1936_cap31-n822" type="comm" target="quarantana/cap31.xml#c31_15942" targetEnd="quarantana/cap31.xml#c31_15942">Думается, </note>
+        <note xml:id="russian_1936_cap31-n823" type="comm" target="quarantana/cap31.xml#c31_15943" targetEnd="quarantana/cap31.xml#c31_15952">нет необходимости быть очень сведущим в истории понятий и слов для того, </note>
+        <note xml:id="russian_1936_cap31-n824" type="comm" target="quarantana/cap31.xml#c31_15953" targetEnd="quarantana/cap31.xml#c31_15961">чтобы увидеть, что многие из них проделали подобный путь. </note>
+        <note xml:id="russian_1936_cap31-n825" type="comm" target="quarantana/cap31.xml#c31_15962" targetEnd="quarantana/cap31.xml#c31_15965">Благодарение небу, </note>
+        <note xml:id="russian_1936_cap31-n826" type="comm" target="quarantana/cap31.xml#c31_15966" targetEnd="quarantana/cap31.xml#c31_15977">не так уж много понятий и слов такого рода и такой значительности, </note>
+        <note xml:id="russian_1936_cap31-n827" type="comm" target="quarantana/cap31.xml#c31_15978" targetEnd="quarantana/cap31.xml#c31_15987">да еще приобретающих свою очевидность такою ценою, таких, наконец, </note>
+        <note xml:id="russian_1936_cap31-n828" type="comm" target="quarantana/cap31.xml#c31_15988" targetEnd="quarantana/cap31.xml#c31_15997">с которыми могут сочетаться привходящие обстоятельства подобного рода. </note>
+        <note xml:id="russian_1936_cap31-n829" type="comm" target="quarantana/cap31.xml#c31_15998" targetEnd="quarantana/cap31.xml#c31_16000">Однако, </note>
+        <note xml:id="russian_1936_cap31-n830" type="comm" target="quarantana/cap31.xml#c31_16001" targetEnd="quarantana/cap31.xml#c31_16018">как в малых, так и в больших делах можно было бы в большинстве случаев избегнуть такого длинного и извилистого пути, </note>
+        <note xml:id="russian_1936_cap31-n831" type="comm" target="quarantana/cap31.xml#c31_16019" targetEnd="quarantana/cap31.xml#c31_16025">придерживаясь давно уже предложенного способа: </note>
+        <note xml:id="russian_1936_cap31-n832" type="comm" target="quarantana/cap31.xml#c31_16026" targetEnd="quarantana/cap31.xml#c31_16026">наблюдать, </note>
+        <note xml:id="russian_1936_cap31-n834" type="comm" target="quarantana/cap31.xml#c31_16028" targetEnd="quarantana/cap31.xml#c31_16028">сравнивать, </note>
+        <note xml:id="russian_1936_cap31-n835" type="comm" target="quarantana/cap31.xml#c31_16029" targetEnd="quarantana/cap31.xml#c31_16029">думать, </note>
+        <note xml:id="russian_1936_cap31-n836" type="comm" target="quarantana/cap31.xml#c31_16030" targetEnd="quarantana/cap31.xml#c31_16032">прежде чем говорить. </note>
+        <note xml:id="russian_1936_cap31-n837" type="comm" target="quarantana/cap31.xml#c31_16033" targetEnd="quarantana/cap31.xml#c31_16034">Однако, </note>
+        <note xml:id="russian_1936_cap31-n838" type="comm" target="quarantana/cap31.xml#c31_16035" targetEnd="quarantana/cap31.xml#c31_16046">говорить — само по себе дело настолько более легкое, чем все остальные, вместе взятые, </note>
+        <note xml:id="russian_1936_cap31-n839" type="comm" target="quarantana/cap31.xml#c31_16047" targetEnd="quarantana/cap31.xml#c31_16059">что мы (я имею в виду людей вообще) тоже заслуживаем некоторого снисхождения. </note>
+      </div>
+    </body>
+  </text>
+</TEI>

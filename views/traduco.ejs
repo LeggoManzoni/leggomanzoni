@@ -51,6 +51,11 @@
                             </button>
                             <div id="popupFont">Clicca qui per il font ad alta leggibilità.
                             </div>
+                            <button class="font-button normalFont" id="toggle-translation-source">
+                                <i class="bi bi-file-text"></i> <!-- You can replace this icon with any appropriate one -->
+                            </button>
+                            <div id="popupFont">Clicca qui per modificare il livello di allineamento.
+                            </div>
                             <!-- <button class="image-button" id="imageButton">
                                 <i class="bi bi-card-image" id="imageIcon" onclick="changeClassAndFetchData();"></i>
                             </button>
@@ -109,7 +114,7 @@
                                         <button class="infoButton">
                                             <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./traduzione', '_blank');"></i>
                                         </button>
-                                        <div id="popupI">Clicca qui per maggiori informazioni sulle traduzioni.                                    </div>
+                                        <div id="popupI">Clicca qui per maggiori informazioni sulle traduzioni.</div>
                                     </div>
                             <div class="colonnadestra" id="destra">
                                 <div class="divisione singularText" id="upperDiv">
@@ -136,9 +141,6 @@
                 <%- include("partials/scripts"); %>
                 <script src="./assets/js/converted_translations.js"></script>
                 <!-- Add toggle icon for translation source -->
-                <button class="btn btn-secondary" id="toggle-translation-source" title="Toggle Translation Source">
-                    <i class="bi bi-toggle-on"></i> <!-- Replace with appropriate icon classes if needed -->
-                </button>
     </body>
 
 </html>

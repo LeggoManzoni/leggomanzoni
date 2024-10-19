@@ -18,9 +18,10 @@ router.get("/traduco", (req, res) => {
             res.status(500).send("Unable to read JSON file: " + err);
         } else {
             const translationsInfo = JSON.parse(data);
+            const filteredData = translationsInfo.filter(item => !item.language.endsWith('s'));
 
             // Extract filenames or any other relevant information from the JSON
-            let translations = translationsInfo.map(fileInfo => fileInfo.language);
+            let translations = filteredData.map(fileInfo => fileInfo.language);
 
             // Render the view after commenti is populated
             res.render("traduco", {

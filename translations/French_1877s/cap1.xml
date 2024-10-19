@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>INTRODUCTION</title>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Charpentier</publisher>
+        <pubPlace>Paris</pubPlace>
+        <date>1874</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alexandre Manzoni</author>
+          <title>Les fiancés : histoire milanaise du XVIIe siècle</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Paris</pubPlace>
+          <publisher>Charpentier</publisher>
+          <date>1874</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>Rey Dussueil</persName>
+          </respStmt>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1-38</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="french_1877_cap1">
+        <note xml:id="french_1877_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10017">Ce bras du lac de Como qui se dirige vers le midi entre deux chaînes non interrompues de montagnes, </note>
+        <note xml:id="french_1877_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10018" targetEnd="quarantana/cap1.xml#c1_10033">en formant autant de petits golfes et de petites baies que ces montagnes forment elles-mêmes de sinuosités, </note>
+        <note xml:id="french_1877_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10034" targetEnd="quarantana/cap1.xml#c1_10047">se resserre comme tout à coup et prend le cours et l’apparence d’un fleuve, </note>
+        <note xml:id="french_1877_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10048" targetEnd="quarantana/cap1.xml#c1_10057">entre un promontoire à droite et une large côte à l’autre bord. </note>
+        <note xml:id="french_1877_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10058" targetEnd="quarantana/cap1.xml#c1_10087">Le pont qui dans ce lieu réunit les deux rives semble rendre plus sensible à l’œil cette transformation et marquer le point où le lac cesse et l’Adda recommence, </note>
+        <note xml:id="french_1877_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10088" targetEnd="quarantana/cap1.xml#c1_10096">pour reprendre ensuite le nom de lac là où les rives, </note>
+        <note xml:id="french_1877_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10097" targetEnd="quarantana/cap1.xml#c1_10099">s’éloignant de nouveau, </note>
+        <note xml:id="french_1877_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10100" targetEnd="quarantana/cap1.xml#c1_10111">laissent l’eau s’étendre et son cours se ralentir dans de nouveaux golfes et de nouvelles baies. </note>
+        <note xml:id="french_1877_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10112" targetEnd="quarantana/cap1.xml#c1_10113">La côte, </note>
+        <note xml:id="french_1877_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_10114" targetEnd="quarantana/cap1.xml#c1_10120">formée du dépôt de trois forts torrents, </note>
+        <note xml:id="french_1877_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_10121" targetEnd="quarantana/cap1.xml#c1_10126">vient en pente, s’appuyant dans sa partie supérieure au pied de deux monts contigus, </note>
+        <note xml:id="french_1877_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_10127" targetEnd="quarantana/cap1.xml#c1_10132">dont l’un porte le nom de San-Martino et l’autre s’appelle, </note>
+        <note xml:id="french_1877_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_10133" targetEnd="quarantana/cap1.xml#c1_10135">en dialecte lombard, </note>
+        <note xml:id="french_1877_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_10136" targetEnd="quarantana/cap1.xml#c1_10138">Il Resegone, </note>
+        <note xml:id="french_1877_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_10139" targetEnd="quarantana/cap1.xml#c1_10153">à cause de ses nombreuses dentelures qui le font en effet ressembler à une scie, </note>
+        <note xml:id="french_1877_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_10154" targetEnd="quarantana/cap1.xml#c1_10157">de sorte qu’il n’est personne qui, </note>
+        <note xml:id="french_1877_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_10158" targetEnd="quarantana/cap1.xml#c1_10164">le voyant de face, </note>
+        <note xml:id="french_1877_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_10165" targetEnd="quarantana/cap1.xml#c1_10177">comme par exemple des murs de Milan tournés vers le nord, </note>
+        <note xml:id="french_1877_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_10178" targetEnd="quarantana/cap1.xml#c1_10181">ne le distingue aussitôt, </note>
+        <note xml:id="french_1877_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_10182" targetEnd="quarantana/cap1.xml#c1_10185">à ce seul indice, </note>
+        <note xml:id="french_1877_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_10186" targetEnd="quarantana/cap1.xml#c1_10203">dans la longue et vaste chaîne de montagnes d’un nom moins connu et d’une forme plus ordinaire, parmi lesquelles il se montre. </note>
+        <note xml:id="french_1877_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_10204" targetEnd="quarantana/cap1.xml#c1_10216">Assez longtemps la côte s’élève sur une pente douce et continue ; </note>
+        <note xml:id="french_1877_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_10217" targetEnd="quarantana/cap1.xml#c1_10224">puis elle se rompt en coteaux et en petites vallées, </note>
+        <note xml:id="french_1877_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_10225" targetEnd="quarantana/cap1.xml#c1_10229">en éminences et en bas-fonds, </note>
+        <note xml:id="french_1877_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_10230" targetEnd="quarantana/cap1.xml#c1_10238">selon la structure des deux montagnes et l’ouvrage des eaux qui en descendent. </note>
+        <note xml:id="french_1877_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_10239" targetEnd="quarantana/cap1.xml#c1_10241">La rive extrême sur le lac, </note>
+        <note xml:id="french_1877_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_10242" targetEnd="quarantana/cap1.xml#c1_10246">coupée par les torrents à leur embouchure, </note>
+        <note xml:id="french_1877_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_10247" targetEnd="quarantana/cap1.xml#c1_10252">n’est à peu près que gravier et gros cailloux ; </note>
+        <note xml:id="french_1877_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_10253" targetEnd="quarantana/cap1.xml#c1_10260">le reste présente des champs cultivés et des vignobles, </note>
+        <note xml:id="french_1877_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_10261" targetEnd="quarantana/cap1.xml#c1_10264">des maisons de campagne, des hameaux, et, </note>
+        <note xml:id="french_1877_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_10265" targetEnd="quarantana/cap1.xml#c1_10268">sur quelques points, </note>
+        <note xml:id="french_1877_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_10269" targetEnd="quarantana/cap1.xml#c1_10275">des bois qui s’étendent jusqu’à la montagne et s’y prolongent. </note>
+        <note xml:id="french_1877_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_10276" targetEnd="quarantana/cap1.xml#c1_10276">Lecco, </note>
+        <note xml:id="french_1877_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_10277" targetEnd="quarantana/cap1.xml#c1_10281">le principal de ces lieux d’habitation, </note>
+        <note xml:id="french_1877_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_10282" targetEnd="quarantana/cap1.xml#c1_10287">et qui donne son nom à tout le territoire, </note>
+        <note xml:id="french_1877_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_10288" targetEnd="quarantana/cap1.xml#c1_10292">est situé à peu de distance du pont, </note>
+        <note xml:id="french_1877_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_10293" targetEnd="quarantana/cap1.xml#c1_10296">sur le bord du lac, </note>
+        <note xml:id="french_1877_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_10297" targetEnd="quarantana/cap1.xml#c1_10308">et même se trouve en partie dans ses eaux lorsqu’elles s’élèvent. </note>
+        <note xml:id="french_1877_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_10309" targetEnd="quarantana/cap1.xml#c1_10320">C’est maintenant un gros bourg qui tend à devenir ville. </note>
+        <note xml:id="french_1877_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10331">Au temps où se passèrent les événements que nous entreprenons de raconter, </note>
+        <note xml:id="french_1877_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_10332" targetEnd="quarantana/cap1.xml#c1_10339">ce bourg déjà considérable était en même temps un château fortifié, </note>
+        <note xml:id="french_1877_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_10340" targetEnd="quarantana/cap1.xml#c1_10346">et avait, en conséquence, l’honneur de loger un commandant, </note>
+        <note xml:id="french_1877_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_10347" targetEnd="quarantana/cap1.xml#c1_10368">ainsi que l’avantage de posséder une garnison permanente de soldats espagnols qui enseignaient la modestie aux jeunes filles et aux femmes de l’endroit, </note>
+        <note xml:id="french_1877_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_10369" targetEnd="quarantana/cap1.xml#c1_10381">caressaient de temps en temps les épaules de quelque mari ou de quelque père, </note>
+        <note xml:id="french_1877_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_10382" targetEnd="quarantana/cap1.xml#c1_10403">et vers la fin de l’été ne manquaient jamais de se répandre dans les vignes pour amoindrir la quantité du raisin et soulager ainsi les paysans dans les travaux de la vendange. </note>
+        <note xml:id="french_1877_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_10404" targetEnd="quarantana/cap1.xml#c1_10408">De l’un à l’autre de ces villages, </note>
+        <note xml:id="french_1877_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_10409" targetEnd="quarantana/cap1.xml#c1_10411">des hauteurs au lac, </note>
+        <note xml:id="french_1877_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_10412" targetEnd="quarantana/cap1.xml#c1_10415">d’une éminence à celle qui l’avoisine, </note>
+        <note xml:id="french_1877_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_10416" targetEnd="quarantana/cap1.xml#c1_10422">couraient et courent encore de petits chemins et des sentiers, </note>
+        <note xml:id="french_1877_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_10423" targetEnd="quarantana/cap1.xml#c1_10428">assez unis en quelques endroits, inégalement escarpés en d’autres, </note>
+        <note xml:id="french_1877_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_10429" targetEnd="quarantana/cap1.xml#c1_10436">tantôt enfoncés et comme ensevelis entre deux murs d’où, </note>
+        <note xml:id="french_1877_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_10437" targetEnd="quarantana/cap1.xml#c1_10439">levant la tête, </note>
+        <note xml:id="french_1877_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_10440" targetEnd="quarantana/cap1.xml#c1_10451">vous n’apercevez qu’une étroite bande du ciel et quelque cime de montagne, </note>
+        <note xml:id="french_1877_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_10452" targetEnd="quarantana/cap1.xml#c1_10457">tantôt élevés sur des plateaux ouverts : </note>
+        <note xml:id="french_1877_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_10458" targetEnd="quarantana/cap1.xml#c1_10469">et de là s’offrent des points de vue plus ou moins étendus, </note>
+        <note xml:id="french_1877_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_10470" targetEnd="quarantana/cap1.xml#c1_10476">mais toujours riches et toujours nouveaux en quelque chose, </note>
+        <note xml:id="french_1877_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_10477" targetEnd="quarantana/cap1.xml#c1_10489">selon que, des divers sites où vous vous trouvez, vous embrassez plus ou moins de la vaste scène environnante, </note>
+        <note xml:id="french_1877_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_10490" targetEnd="quarantana/cap1.xml#c1_10500">et que telle ou telle partie se détache ou se raccourcit, </note>
+        <note xml:id="french_1877_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_10501" targetEnd="quarantana/cap1.xml#c1_10505">se montre ou disparaît tour à tour. </note>
+        <note xml:id="french_1877_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_10506" targetEnd="quarantana/cap1.xml#c1_10508">Ici une échappée sur le vaste miroir des eaux, </note>
+        <note xml:id="french_1877_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_10509" targetEnd="quarantana/cap1.xml#c1_10511">là une autre, </note>
+        <note xml:id="french_1877_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_10512" targetEnd="quarantana/cap1.xml#c1_10522">là sa gracieuse variété s’étalant sur un plus grand espace. </note>
+        <note xml:id="french_1877_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_10523" targetEnd="quarantana/cap1.xml#c1_10533">De ce côté le lac fermé à l’extrémité ou plutôt dérobé dans un groupe, </note>
+        <note xml:id="french_1877_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_10534" targetEnd="quarantana/cap1.xml#c1_10538">un labyrinthe de montagnes, </note>
+        <note xml:id="french_1877_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_10539" targetEnd="quarantana/cap1.xml#c1_10557">puis reparaissant et s’élargissant parmi d’autres montagnes qui se déploient une à une à vos regards, </note>
+        <note xml:id="french_1877_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_10558" targetEnd="quarantana/cap1.xml#c1_10562">et que l’eau réfléchit, </note>
+        <note xml:id="french_1877_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_10563" targetEnd="quarantana/cap1.xml#c1_10567">renversées avec les villages et les habitations situés sur les rives : </note>
+        <note xml:id="french_1877_cap1-n69" type="comm" target="quarantana/cap1.xml#c1_10568" targetEnd="quarantana/cap1.xml#c1_10574">du côté opposé un bras de fleuve devenant lac, </note>
+        <note xml:id="french_1877_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_10575" targetEnd="quarantana/cap1.xml#c1_10577">puis fleuve encore, </note>
+        <note xml:id="french_1877_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_10578" targetEnd="quarantana/cap1.xml#c1_10592">qui serpente dans son cours lumineux et va de même se perdre à travers les monts qui l’accompagnent en s’abaissant par degrés et se perdant presque, </note>
+        <note xml:id="french_1877_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_10593" targetEnd="quarantana/cap1.xml#c1_10597">eux aussi, dans l’horizon. </note>
+        <note xml:id="french_1877_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_10598" targetEnd="quarantana/cap1.xml#c1_10612">Le lieu d’où vous contemplez ces divers spectacles vous fait lui-même spectacle de toutes parts. </note>
+        <note xml:id="french_1877_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_10613" targetEnd="quarantana/cap1.xml#c1_10624">La montagne dont vous parcourez les premiers plans déroule au-dessus de vous, </note>
+        <note xml:id="french_1877_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_10625" targetEnd="quarantana/cap1.xml#c1_10625">tout autour de vous, </note>
+        <note xml:id="french_1877_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_10626" targetEnd="quarantana/cap1.xml#c1_10631">ses cimes et ses précipices, </note>
+        <note xml:id="french_1877_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_10632" targetEnd="quarantana/cap1.xml#c1_10632">marqués, </note>
+        <note xml:id="french_1877_cap1-n78" type="comm" target="quarantana/cap1.xml#c1_10633" targetEnd="quarantana/cap1.xml#c1_10633">dessinés, </note>
+        <note xml:id="french_1877_cap1-n79" type="comm" target="quarantana/cap1.xml#c1_10634" targetEnd="quarantana/cap1.xml#c1_10638">changeants, presque à chaque pas, </note>
+        <note xml:id="french_1877_cap1-n80" type="comm" target="quarantana/cap1.xml#c1_10639" targetEnd="quarantana/cap1.xml#c1_10664">ce qui vous avait paru un mont s’ouvrant et se contournant en une chaîne de monts, une crête vous apparaissant là où vous n’aviez vu que la pente : et l’aspect riant, l’aspect, </note>
+        <note xml:id="french_1877_cap1-n81" type="comm" target="quarantana/cap1.xml#c1_10665" targetEnd="quarantana/cap1.xml#c1_10666">pourrait-on dire, </note>
+        <note xml:id="french_1877_cap1-n82" type="comm" target="quarantana/cap1.xml#c1_10667" targetEnd="quarantana/cap1.xml#c1_10675">domestique de ces plans inférieurs tempère agréablement ce que présentent de sauvage les autres perspectives, </note>
+        <note xml:id="french_1877_cap1-n83" type="comm" target="quarantana/cap1.xml#c1_10676" targetEnd="quarantana/cap1.xml#c1_10683">en orne d’autant plus la magnifique grandeur. </note>
+        <note xml:id="french_1877_cap1-n84" type="comm" target="quarantana/cap1.xml#c1_10684" targetEnd="quarantana/cap1.xml#c1_10688">C’est par l’un de ces petits chemins que, </note>
+        <note xml:id="french_1877_cap1-n85" type="comm" target="quarantana/cap1.xml#c1_10689" targetEnd="quarantana/cap1.xml#c1_10703">le 7 novembre 1628, vers la fin du jour, revenait à petits pas de la promenade, pour rentrer chez lui, </note>
+        <note xml:id="french_1877_cap1-n86" type="comm" target="quarantana/cap1.xml#c1_10704" targetEnd="quarantana/cap1.xml#c1_10705">don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n87" type="comm" target="quarantana/cap1.xml#c1_10706" targetEnd="quarantana/cap1.xml#c1_10712">curé de l’un des villages dont nous avons parlé tout à l’heure : </note>
+        <note xml:id="french_1877_cap1-n88" type="comm" target="quarantana/cap1.xml#c1_10713" targetEnd="quarantana/cap1.xml#c1_10716">le nom du village, </note>
+        <note xml:id="french_1877_cap1-n89" type="comm" target="quarantana/cap1.xml#c1_10717" targetEnd="quarantana/cap1.xml#c1_10721">non plus que le nom patronymique du curé, </note>
+        <note xml:id="french_1877_cap1-n90" type="comm" target="quarantana/cap1.xml#c1_10722" targetEnd="quarantana/cap1.xml#c1_10726">ne se trouvent dans le manuscrit, </note>
+        <note xml:id="french_1877_cap1-n91" type="comm" target="quarantana/cap1.xml#c1_10727" targetEnd="quarantana/cap1.xml#c1_10732">ni ici ni ailleurs. </note>
+        <note xml:id="french_1877_cap1-n92" type="comm" target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10737">Il disait tranquillement son office : </note>
+        <note xml:id="french_1877_cap1-n93" type="comm" target="quarantana/cap1.xml#c1_10738" targetEnd="quarantana/cap1.xml#c1_10739">et quelquefois, </note>
+        <note xml:id="french_1877_cap1-n94" type="comm" target="quarantana/cap1.xml#c1_10740" targetEnd="quarantana/cap1.xml#c1_10744">entre un psaume et l’autre, </note>
+        <note xml:id="french_1877_cap1-n95" type="comm" target="quarantana/cap1.xml#c1_10745" targetEnd="quarantana/cap1.xml#c1_10747">il fermait le bréviaire, </note>
+        <note xml:id="french_1877_cap1-n96" type="comm" target="quarantana/cap1.xml#c1_10748" targetEnd="quarantana/cap1.xml#c1_10755">y tenant en guise de signet l’index de la main droite : </note>
+        <note xml:id="french_1877_cap1-n97" type="comm" target="quarantana/cap1.xml#c1_10756" targetEnd="quarantana/cap1.xml#c1_10756">après quoi, </note>
+        <note xml:id="french_1877_cap1-n98" type="comm" target="quarantana/cap1.xml#c1_10757" targetEnd="quarantana/cap1.xml#c1_10763">mettant cette main dans l’autre derrière son dos, </note>
+        <note xml:id="french_1877_cap1-n99" type="comm" target="quarantana/cap1.xml#c1_10764" targetEnd="quarantana/cap1.xml#c1_10767">il poursuivait sa marche, </note>
+        <note xml:id="french_1877_cap1-n100" type="comm" target="quarantana/cap1.xml#c1_10768" targetEnd="quarantana/cap1.xml#c1_10785">regardant à terre et rejetant du pied vers le mur les cailloux qui faisaient obstacle sur son passage. </note>
+        <note xml:id="french_1877_cap1-n101" type="comm" target="quarantana/cap1.xml#c1_10786" targetEnd="quarantana/cap1.xml#c1_10795">Ensuite, relevant la tête et portant nonchalamment les yeux autour de lui, </note>
+        <note xml:id="french_1877_cap1-n102" type="comm" target="quarantana/cap1.xml#c1_10796" targetEnd="quarantana/cap1.xml#c1_10801">il les arrêtait sur une partie de montagne, </note>
+        <note xml:id="french_1877_cap1-n103" type="comm" target="quarantana/cap1.xml#c1_10802" targetEnd="quarantana/cap1.xml#c1_10808">où la lumière du soleil déjà caché, </note>
+        <note xml:id="french_1877_cap1-n104" type="comm" target="quarantana/cap1.xml#c1_10809" targetEnd="quarantana/cap1.xml#c1_10815">passant par les intervalles que laissait la montagne opposée, </note>
+        <note xml:id="french_1877_cap1-n105" type="comm" target="quarantana/cap1.xml#c1_10816" targetEnd="quarantana/cap1.xml#c1_10823">jetait ses teintes ça et là sur les masses saillantes de rochers, </note>
+        <note xml:id="french_1877_cap1-n106" type="comm" target="quarantana/cap1.xml#c1_10824" targetEnd="quarantana/cap1.xml#c1_10831">comme de larges et inégales bandes de pourpre. </note>
+        <note xml:id="french_1877_cap1-n107" type="comm" target="quarantana/cap1.xml#c1_10832" targetEnd="quarantana/cap1.xml#c1_10842">Puis, ayant ouvert de nouveau son bréviaire et récité une autre tirade de versets, </note>
+        <note xml:id="french_1877_cap1-n108" type="comm" target="quarantana/cap1.xml#c1_10843" targetEnd="quarantana/cap1.xml#c1_10856">il arriva à un détour du chemin où il avait l’habitude de lever toujours les yeux de dessus son livre ; </note>
+        <note xml:id="french_1877_cap1-n109" type="comm" target="quarantana/cap1.xml#c1_10857" targetEnd="quarantana/cap1.xml#c1_10866">et c’est ce qu’il fit encore ce jour-là. Le chemin, </note>
+        <note xml:id="french_1877_cap1-n110" type="comm" target="quarantana/cap1.xml#c1_10867" targetEnd="quarantana/cap1.xml#c1_10869">après ce coude, </note>
+        <note xml:id="french_1877_cap1-n111" type="comm" target="quarantana/cap1.xml#c1_10870" targetEnd="quarantana/cap1.xml#c1_10877">allait en droite ligne une soixantaine de pas, </note>
+        <note xml:id="french_1877_cap1-n112" type="comm" target="quarantana/cap1.xml#c1_10878" targetEnd="quarantana/cap1.xml#c1_10884">et puis se divisait en deux sentiers, </note>
+        <note xml:id="french_1877_cap1-n113" type="comm" target="quarantana/cap1.xml#c1_10885" targetEnd="quarantana/cap1.xml#c1_10888">à la manière d’un Y : </note>
+        <note xml:id="french_1877_cap1-n114" type="comm" target="quarantana/cap1.xml#c1_10889" targetEnd="quarantana/cap1.xml#c1_10899">celui de droite montait vers les hauteurs et menait à la cure : </note>
+        <note xml:id="french_1877_cap1-n115" type="comm" target="quarantana/cap1.xml#c1_10900" targetEnd="quarantana/cap1.xml#c1_10907">l’autre descendait dans le vallon jusqu’à un torrent ; </note>
+        <note xml:id="french_1877_cap1-n116" type="comm" target="quarantana/cap1.xml#c1_10908" targetEnd="quarantana/cap1.xml#c1_10919">et de ce côté le mur n’arrivait pas au-dessus des hanches du passant. </note>
+        <note xml:id="french_1877_cap1-n117" type="comm" target="quarantana/cap1.xml#c1_10920" targetEnd="quarantana/cap1.xml#c1_10925">Les murs intérieurs des deux sentiers, </note>
+        <note xml:id="french_1877_cap1-n118" type="comm" target="quarantana/cap1.xml#c1_10926" targetEnd="quarantana/cap1.xml#c1_10931">au lieu de se réunir en angle, </note>
+        <note xml:id="french_1877_cap1-n119" type="comm" target="quarantana/cap1.xml#c1_10932" targetEnd="quarantana/cap1.xml#c1_10942">se terminaient à un oratoire sur lequel étaient peintes certaines figures allongées, </note>
+        <note xml:id="french_1877_cap1-n120" type="comm" target="quarantana/cap1.xml#c1_10943" targetEnd="quarantana/cap1.xml#c1_10943">tortueuses, </note>
+        <note xml:id="french_1877_cap1-n121" type="comm" target="quarantana/cap1.xml#c1_10944" targetEnd="quarantana/cap1.xml#c1_10947">finissant en pointe, </note>
+        <note xml:id="french_1877_cap1-n122" type="comm" target="quarantana/cap1.xml#c1_10948" targetEnd="quarantana/cap1.xml#c1_10949">et qui, </note>
+        <note xml:id="french_1877_cap1-n123" type="comm" target="quarantana/cap1.xml#c1_10950" targetEnd="quarantana/cap1.xml#c1_10958">dans l’intention de l’artiste comme aux yeux des habitants du voisinage, </note>
+        <note xml:id="french_1877_cap1-n124" type="comm" target="quarantana/cap1.xml#c1_10959" targetEnd="quarantana/cap1.xml#c1_10961">signifiaient des flammes ; </note>
+        <note xml:id="french_1877_cap1-n125" type="comm" target="quarantana/cap1.xml#c1_10962" targetEnd="quarantana/cap1.xml#c1_10966">et à ces flammes se joignaient, alternant avec elles, </note>
+        <note xml:id="french_1877_cap1-n126" type="comm" target="quarantana/cap1.xml#c1_10967" targetEnd="quarantana/cap1.xml#c1_10972">certaines autres figures impossibles à décrire, </note>
+        <note xml:id="french_1877_cap1-n127" type="comm" target="quarantana/cap1.xml#c1_10973" targetEnd="quarantana/cap1.xml#c1_10978">qui étaient censées représenter les âmes du purgatoire : </note>
+        <note xml:id="french_1877_cap1-n128" type="comm" target="quarantana/cap1.xml#c1_10979" targetEnd="quarantana/cap1.xml#c1_10989">le tout, âmes et flammes, en couleur de brique sur un fond grisâtre, </note>
+        <note xml:id="french_1877_cap1-n129" type="comm" target="quarantana/cap1.xml#c1_10990" targetEnd="quarantana/cap1.xml#c1_10995">avec quelques brèches ça et là. </note>
+        <note xml:id="french_1877_cap1-n130" type="comm" target="quarantana/cap1.xml#c1_10996" targetEnd="quarantana/cap1.xml#c1_10997">Le curé, </note>
+        <note xml:id="french_1877_cap1-n131" type="comm" target="quarantana/cap1.xml#c1_10998" targetEnd="quarantana/cap1.xml#c1_11000">ayant passé le détour, </note>
+        <note xml:id="french_1877_cap1-n132" type="comm" target="quarantana/cap1.xml#c1_11001" targetEnd="quarantana/cap1.xml#c1_11002">et dirigeant, </note>
+        <note xml:id="french_1877_cap1-n133" type="comm" target="quarantana/cap1.xml#c1_11003" targetEnd="quarantana/cap1.xml#c1_11004">comme de coutume, </note>
+        <note xml:id="french_1877_cap1-n134" type="comm" target="quarantana/cap1.xml#c1_11005" targetEnd="quarantana/cap1.xml#c1_11008">ses regards vers l’oratoire, </note>
+        <note xml:id="french_1877_cap1-n135" type="comm" target="quarantana/cap1.xml#c1_11009" targetEnd="quarantana/cap1.xml#c1_11020">vit une chose à laquelle il ne s’attendait pas et qu’il n’aurait nullement voulu voir. </note>
+        <note xml:id="french_1877_cap1-n136" type="comm" target="quarantana/cap1.xml#c1_11021" targetEnd="quarantana/cap1.xml#c1_11023">Deux hommes, </note>
+        <note xml:id="french_1877_cap1-n137" type="comm" target="quarantana/cap1.xml#c1_11024" targetEnd="quarantana/cap1.xml#c1_11026">vis-à-vis l’un de l’autre, </note>
+        <note xml:id="french_1877_cap1-n138" type="comm" target="quarantana/cap1.xml#c1_11027" targetEnd="quarantana/cap1.xml#c1_11028">se tenaient au confluent, </note>
+        <note xml:id="french_1877_cap1-n139" type="comm" target="quarantana/cap1.xml#c1_11029" targetEnd="quarantana/cap1.xml#c1_11031">pour ainsi dire, </note>
+        <note xml:id="french_1877_cap1-n140" type="comm" target="quarantana/cap1.xml#c1_11032" targetEnd="quarantana/cap1.xml#c1_11034">des deux sentiers ; </note>
+        <note xml:id="french_1877_cap1-n141" type="comm" target="quarantana/cap1.xml#c1_11035" targetEnd="quarantana/cap1.xml#c1_11042">l’un à cheval sur le mur bas, </note>
+        <note xml:id="french_1877_cap1-n142" type="comm" target="quarantana/cap1.xml#c1_11043" targetEnd="quarantana/cap1.xml#c1_11049">une jambe pendante en dehors, </note>
+        <note xml:id="french_1877_cap1-n143" type="comm" target="quarantana/cap1.xml#c1_11050" targetEnd="quarantana/cap1.xml#c1_11057">et l’autre pied posé sur le sol du chemin ; </note>
+        <note xml:id="french_1877_cap1-n144" type="comm" target="quarantana/cap1.xml#c1_11058" targetEnd="quarantana/cap1.xml#c1_11061">son compagnon debout, </note>
+        <note xml:id="french_1877_cap1-n145" type="comm" target="quarantana/cap1.xml#c1_11062" targetEnd="quarantana/cap1.xml#c1_11070">appuyé contre le mur et les bras croisés sur la poitrine. </note>
+        <note xml:id="french_1877_cap1-n146" type="comm" target="quarantana/cap1.xml#c1_11071" targetEnd="quarantana/cap1.xml#c1_11071">Le costume, </note>
+        <note xml:id="french_1877_cap1-n147" type="comm" target="quarantana/cap1.xml#c1_11072" targetEnd="quarantana/cap1.xml#c1_11076">la tournure et ce que le curé, </note>
+        <note xml:id="french_1877_cap1-n148" type="comm" target="quarantana/cap1.xml#c1_11077" targetEnd="quarantana/cap1.xml#c1_11082">de l’endroit où il était arrivé, </note>
+        <note xml:id="french_1877_cap1-n149" type="comm" target="quarantana/cap1.xml#c1_11083" targetEnd="quarantana/cap1.xml#c1_11086">pouvait distinguer de leur physionomie, </note>
+        <note xml:id="french_1877_cap1-n150" type="comm" target="quarantana/cap1.xml#c1_11087" targetEnd="quarantana/cap1.xml#c1_11093">ne laissaient aucun doute sur leur condition. </note>
+        <note xml:id="french_1877_cap1-n151" type="comm" target="quarantana/cap1.xml#c1_11094" targetEnd="quarantana/cap1.xml#c1_11105">Ils avaient l’un et l’autre, autour de la tête, une résille verte qui leur tombait sur l’épaule gauche, </note>
+        <note xml:id="french_1877_cap1-n152" type="comm" target="quarantana/cap1.xml#c1_11106" targetEnd="quarantana/cap1.xml#c1_11110">finissant en une grosse houppe, </note>
+        <note xml:id="french_1877_cap1-n153" type="comm" target="quarantana/cap1.xml#c1_11111" targetEnd="quarantana/cap1.xml#c1_11119">et d’où sortait sur le front un énorme toupet ; </note>
+        <note xml:id="french_1877_cap1-n154" type="comm" target="quarantana/cap1.xml#c1_11120" targetEnd="quarantana/cap1.xml#c1_11125">deux longues moustaches bouclées en pointe ; </note>
+        <note xml:id="french_1877_cap1-n155" type="comm" target="quarantana/cap1.xml#c1_11126" targetEnd="quarantana/cap1.xml#c1_11136">une ceinture luisante de cuir à laquelle tenaient deux pistolets, </note>
+        <note xml:id="french_1877_cap1-n156" type="comm" target="quarantana/cap1.xml#c1_11137" targetEnd="quarantana/cap1.xml#c1_11148">une petite corne pleine de poudre suspendue à leur cou comme un agrément de collier ; </note>
+        <note xml:id="french_1877_cap1-n157" type="comm" target="quarantana/cap1.xml#c1_11149" targetEnd="quarantana/cap1.xml#c1_11162">un manche de grand couteau qui se montrait hors de la poche de larges et bouffantes braies ; </note>
+        <note xml:id="french_1877_cap1-n158" type="comm" target="quarantana/cap1.xml#c1_11163" targetEnd="quarantana/cap1.xml#c1_11176">un espadon à grosse garde, travaillée à jour, en lames de laiton tournées en chiffre, </note>
+        <note xml:id="french_1877_cap1-n159" type="comm" target="quarantana/cap1.xml#c1_11177" targetEnd="quarantana/cap1.xml#c1_11179">polies et reluisantes : </note>
+        <note xml:id="french_1877_cap1-n160" type="comm" target="quarantana/cap1.xml#c1_11180" targetEnd="quarantana/cap1.xml#c1_11193">au premier coup d’œil on les reconnaissait pour des individus de l’espèce des bravi. </note>
+        <note xml:id="french_1877_cap1-n161" type="comm" target="quarantana/cap1.xml#c1_11194" targetEnd="quarantana/cap1.xml#c1_11195">Cette espèce d’hommes, </note>
+        <note xml:id="french_1877_cap1-n162" type="comm" target="quarantana/cap1.xml#c1_11196" targetEnd="quarantana/cap1.xml#c1_11199">aujourd’hui tout à fait perdue, </note>
+        <note xml:id="french_1877_cap1-n163" type="comm" target="quarantana/cap1.xml#c1_11200" targetEnd="quarantana/cap1.xml#c1_11208">était alors très-florissante en Lombardie et déjà fort ancienne. Voici, </note>
+        <note xml:id="french_1877_cap1-n164" type="comm" target="quarantana/cap1.xml#c1_11209" targetEnd="quarantana/cap1.xml#c1_11213">pour qui n’en aurait pas une idée, </note>
+        <note xml:id="french_1877_cap1-n165" type="comm" target="quarantana/cap1.xml#c1_11214" targetEnd="quarantana/cap1.xml#c1_11226">quelques extraits de pièces authentiques qui pourront faire suffisamment connaître ses principaux caractères, </note>
+        <note xml:id="french_1877_cap1-n166" type="comm" target="quarantana/cap1.xml#c1_11227" targetEnd="quarantana/cap1.xml#c1_11231">les efforts tentés pour la détruire, </note>
+        <note xml:id="french_1877_cap1-n167" type="comm" target="quarantana/cap1.xml#c1_11232" targetEnd="quarantana/cap1.xml#c1_11238">et combien le principe vital était en elle tenace et vigoureux. </note>
+        <note xml:id="french_1877_cap1-n168" type="comm" target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11243">Dès le 8 avril de l’année 1583, </note>
+        <note xml:id="french_1877_cap1-n169" type="comm" target="quarantana/cap1.xml#c1_11244" targetEnd="quarantana/cap1.xml#c1_11250">l’Illustrissime et Excellentissime seigneur don Carlo d’Aragon, </note>
+        <note xml:id="french_1877_cap1-n170" type="comm" target="quarantana/cap1.xml#c1_11251" targetEnd="quarantana/cap1.xml#c1_11253">prince de Castelvetrano, </note>
+        <note xml:id="french_1877_cap1-n171" type="comm" target="quarantana/cap1.xml#c1_11254" targetEnd="quarantana/cap1.xml#c1_11256">duc de Terranuova, </note>
+        <note xml:id="french_1877_cap1-n172" type="comm" target="quarantana/cap1.xml#c1_11257" targetEnd="quarantana/cap1.xml#c1_11258">marquis d’Avola, </note>
+        <note xml:id="french_1877_cap1-n173" type="comm" target="quarantana/cap1.xml#c1_11259" targetEnd="quarantana/cap1.xml#c1_11261">comte de Burgeto, </note>
+        <note xml:id="french_1877_cap1-n174" type="comm" target="quarantana/cap1.xml#c1_11262" targetEnd="quarantana/cap1.xml#c1_11263">grand amiral, </note>
+        <note xml:id="french_1877_cap1-n175" type="comm" target="quarantana/cap1.xml#c1_11264" targetEnd="quarantana/cap1.xml#c1_11268">et grand connétable de Sicile, </note>
+        <note xml:id="french_1877_cap1-n176" type="comm" target="quarantana/cap1.xml#c1_11269" targetEnd="quarantana/cap1.xml#c1_11280">gouverneur de Milan et capitaine général de Sa Majesté Catholique en Italie, </note>
+        <note xml:id="french_1877_cap1-n177" type="comm" target="quarantana/cap1.xml#c1_11281" targetEnd="quarantana/cap1.xml#c1_11301">pleinement informé de l’intolérable souffrance dans laquelle a vécu et vit encore cette ville de Milan à cause des bravi et vagabonds, </note>
+        <note xml:id="french_1877_cap1-n178" type="comm" target="quarantana/cap1.xml#c1_11302" targetEnd="quarantana/cap1.xml#c1_11307">publie contre eux un édit de bannissement. </note>
+        <note xml:id="french_1877_cap1-n179" type="comm" target="quarantana/cap1.xml#c1_11308" targetEnd="quarantana/cap1.xml#c1_11323">Il déclare et décide que sont compris dans cet édit et doivent être tenus pour bravi et vagabonds........ </note>
+        <note xml:id="french_1877_cap1-n180" type="comm" target="quarantana/cap1.xml#c1_11324" targetEnd="quarantana/cap1.xml#c1_11325">tous ceux qui, </note>
+        <note xml:id="french_1877_cap1-n181" type="comm" target="quarantana/cap1.xml#c1_11326" targetEnd="quarantana/cap1.xml#c1_11330">soit étrangers, soit du pays, </note>
+        <note xml:id="french_1877_cap1-n182" type="comm" target="quarantana/cap1.xml#c1_11331" targetEnd="quarantana/cap1.xml#c1_11334">n’ont aucune profession, </note>
+        <note xml:id="french_1877_cap1-n183" type="comm" target="quarantana/cap1.xml#c1_11335" targetEnd="quarantana/cap1.xml#c1_11336">ou, en ayant une, </note>
+        <note xml:id="french_1877_cap1-n184" type="comm" target="quarantana/cap1.xml#c1_11337" targetEnd="quarantana/cap1.xml#c1_11339">ne l’exercent pas, </note>
+        <note xml:id="french_1877_cap1-n185" type="comm" target="quarantana/cap1.xml#c1_11340" targetEnd="quarantana/cap1.xml#c1_11346">mais s’attachent, avec ou sans salaire, </note>
+        <note xml:id="french_1877_cap1-n186" type="comm" target="quarantana/cap1.xml#c1_11347" targetEnd="quarantana/cap1.xml#c1_11352">à quelque chevalier ou gentilhomme, </note>
+        <note xml:id="french_1877_cap1-n187" type="comm" target="quarantana/cap1.xml#c1_11353" targetEnd="quarantana/cap1.xml#c1_11355">officier ou marchand........ </note>
+        <note xml:id="french_1877_cap1-n188" type="comm" target="quarantana/cap1.xml#c1_11356" targetEnd="quarantana/cap1.xml#c1_11360">pour lui prêter aide et main-forte, </note>
+        <note xml:id="french_1877_cap1-n189" type="comm" target="quarantana/cap1.xml#c1_11361" targetEnd="quarantana/cap1.xml#c1_11362">ou plutôt, </note>
+        <note xml:id="french_1877_cap1-n190" type="comm" target="quarantana/cap1.xml#c1_11363" targetEnd="quarantana/cap1.xml#c1_11366">comme on peut le présumer, </note>
+        <note xml:id="french_1877_cap1-n191" type="comm" target="quarantana/cap1.xml#c1_11367" targetEnd="quarantana/cap1.xml#c1_11371">pour tendre des pièges à autrui........ </note>
+        <note xml:id="french_1877_cap1-n192" type="comm" target="quarantana/cap1.xml#c1_11372" targetEnd="quarantana/cap1.xml#c1_11376">À tous ces gens il ordonne que, </note>
+        <note xml:id="french_1877_cap1-n193" type="comm" target="quarantana/cap1.xml#c1_11377" targetEnd="quarantana/cap1.xml#c1_11381">dans le terme de six jours, </note>
+        <note xml:id="french_1877_cap1-n194" type="comm" target="quarantana/cap1.xml#c1_11382" targetEnd="quarantana/cap1.xml#c1_11386">ils aient à vider le pays, </note>
+        <note xml:id="french_1877_cap1-n195" type="comm" target="quarantana/cap1.xml#c1_11387" targetEnd="quarantana/cap1.xml#c1_11409">prononce la peine de la galère contre ceux qui n’obéiront pas et donne à tous officiers de justice les pouvoirs les plus étrangement étendus et indéfinis pour l’exécution de cet ordre. </note>
+        <note xml:id="french_1877_cap1-n196" type="comm" target="quarantana/cap1.xml#c1_11410" targetEnd="quarantana/cap1.xml#c1_11412">Mais l’année suivante, </note>
+        <note xml:id="french_1877_cap1-n197" type="comm" target="quarantana/cap1.xml#c1_11413" targetEnd="quarantana/cap1.xml#c1_11415">et le 12 avril, </note>
+        <note xml:id="french_1877_cap1-n198" type="comm" target="quarantana/cap1.xml#c1_11416" targetEnd="quarantana/cap1.xml#c1_11428">le même seigneur voyant que cette ville est encore pleine des susdits bravi,........ </note>
+        <note xml:id="french_1877_cap1-n199" type="comm" target="quarantana/cap1.xml#c1_11429" targetEnd="quarantana/cap1.xml#c1_11434">lesquels se sont remis à vivre comme ils vivaient auparavant, </note>
+        <note xml:id="french_1877_cap1-n200" type="comm" target="quarantana/cap1.xml#c1_11435" targetEnd="quarantana/cap1.xml#c1_11445">sans que leurs habitudes soient en rien changées ni leur nombre diminué, </note>
+        <note xml:id="french_1877_cap1-n201" type="comm" target="quarantana/cap1.xml#c1_11446" targetEnd="quarantana/cap1.xml#c1_11454">fait paraître une nouvelle ordonnance plus sévère et plus remarquable, </note>
+        <note xml:id="french_1877_cap1-n202" type="comm" target="quarantana/cap1.xml#c1_11455" targetEnd="quarantana/cap1.xml#c1_11456">dans laquelle, </note>
+        <note xml:id="french_1877_cap1-n203" type="comm" target="quarantana/cap1.xml#c1_11457" targetEnd="quarantana/cap1.xml#c1_11459">entre autres mesures, </note>
+        <note xml:id="french_1877_cap1-n204" type="comm" target="quarantana/cap1.xml#c1_11460" targetEnd="quarantana/cap1.xml#c1_11460">il prescrit : </note>
+        <note xml:id="french_1877_cap1-n205" type="comm" target="quarantana/cap1.xml#c1_11461" targetEnd="quarantana/cap1.xml#c1_11463">Que tout individu, </note>
+        <note xml:id="french_1877_cap1-n206" type="comm" target="quarantana/cap1.xml#c1_11464" targetEnd="quarantana/cap1.xml#c1_11469">tant de cette ville que du dehors, </note>
+        <note xml:id="french_1877_cap1-n207" type="comm" target="quarantana/cap1.xml#c1_11470" targetEnd="quarantana/cap1.xml#c1_11485">que deux témoins déclarent être tenu et communément réputé pour bravo et en avoir le nom, </note>
+        <note xml:id="french_1877_cap1-n208" type="comm" target="quarantana/cap1.xml#c1_11486" targetEnd="quarantana/cap1.xml#c1_11493">quand bien même n’aurait été vérifié aucun délit de son fait........ </note>
+        <note xml:id="french_1877_cap1-n209" type="comm" target="quarantana/cap1.xml#c1_11494" targetEnd="quarantana/cap1.xml#c1_11502">pourra, pour cette seule réputation de bravo et sans autres indices, </note>
+        <note xml:id="french_1877_cap1-n210" type="comm" target="quarantana/cap1.xml#c1_11503" targetEnd="quarantana/cap1.xml#c1_11518">à la diligence desdits juges, et de chacun d’eux, être soumis à la cordeet à la question, </note>
+        <note xml:id="french_1877_cap1-n211" type="comm" target="quarantana/cap1.xml#c1_11519" targetEnd="quarantana/cap1.xml#c1_11521">pour procès d’information,........ </note>
+        <note xml:id="french_1877_cap1-n212" type="comm" target="quarantana/cap1.xml#c1_11522" targetEnd="quarantana/cap1.xml#c1_11527">et que, lors même qu’il n’avouerait aucun délit, </note>
+        <note xml:id="french_1877_cap1-n213" type="comm" target="quarantana/cap1.xml#c1_11528" targetEnd="quarantana/cap1.xml#c1_11535">il sera toutefois envoyé aux galères pour trois ans, </note>
+        <note xml:id="french_1877_cap1-n214" type="comm" target="quarantana/cap1.xml#c1_11536" targetEnd="quarantana/cap1.xml#c1_11543">pour la seule réputation et le nom de bravo, </note>
+        <note xml:id="french_1877_cap1-n215" type="comm" target="quarantana/cap1.xml#c1_11544" targetEnd="quarantana/cap1.xml#c1_11546">comme dessus ; </note>
+        <note xml:id="french_1877_cap1-n216" type="comm" target="quarantana/cap1.xml#c1_11547" targetEnd="quarantana/cap1.xml#c1_11548">le tout, </note>
+        <note xml:id="french_1877_cap1-n217" type="comm" target="quarantana/cap1.xml#c1_11549" targetEnd="quarantana/cap1.xml#c1_11555">ainsi que le surplus que nous omettons, </note>
+        <note xml:id="french_1877_cap1-n218" type="comm" target="quarantana/cap1.xml#c1_11556" targetEnd="quarantana/cap1.xml#c1_11566">parce que Son Excellence est décidée à se faire obéir de chacun. </note>
+        <note xml:id="french_1877_cap1-n219" type="comm" target="quarantana/cap1.xml#c1_11567" targetEnd="quarantana/cap1.xml#c1_11571">À entendre les paroles d’un si haut personnage, </note>
+        <note xml:id="french_1877_cap1-n220" type="comm" target="quarantana/cap1.xml#c1_11572" targetEnd="quarantana/cap1.xml#c1_11575">paroles si énergiques, si précises, </note>
+        <note xml:id="french_1877_cap1-n221" type="comm" target="quarantana/cap1.xml#c1_11576" targetEnd="quarantana/cap1.xml#c1_11580">et accompagnées de tels ordres, </note>
+        <note xml:id="french_1877_cap1-n222" type="comm" target="quarantana/cap1.xml#c1_11581" targetEnd="quarantana/cap1.xml#c1_11599">on serait grandement porté à supposer qu’il a suffi de leur seul retentissement pour que tous les bravi aient disparu à jamais. </note>
+        <note xml:id="french_1877_cap1-n223" type="comm" target="quarantana/cap1.xml#c1_11600" targetEnd="quarantana/cap1.xml#c1_11607">Mais le témoignage d’un autre personnage non moins imposant, </note>
+        <note xml:id="french_1877_cap1-n224" type="comm" target="quarantana/cap1.xml#c1_11608" targetEnd="quarantana/cap1.xml#c1_11612">non moins riche en noms et en titres, </note>
+        <note xml:id="french_1877_cap1-n225" type="comm" target="quarantana/cap1.xml#c1_11613" targetEnd="quarantana/cap1.xml#c1_11619">nous oblige à croire tout le contraire. </note>
+        <note xml:id="french_1877_cap1-n226" type="comm" target="quarantana/cap1.xml#c1_11620" targetEnd="quarantana/cap1.xml#c1_11629">Et celui-ci est l’Illustrissime et Excellentissime seigneur Juan Fernandez de Velasco, </note>
+        <note xml:id="french_1877_cap1-n227" type="comm" target="quarantana/cap1.xml#c1_11630" targetEnd="quarantana/cap1.xml#c1_11632">connétable de Castille, </note>
+        <note xml:id="french_1877_cap1-n228" type="comm" target="quarantana/cap1.xml#c1_11633" targetEnd="quarantana/cap1.xml#c1_11637">grand chambellan de Sa Majesté, </note>
+        <note xml:id="french_1877_cap1-n229" type="comm" target="quarantana/cap1.xml#c1_11638" targetEnd="quarantana/cap1.xml#c1_11642">duc de la cité de Frias, </note>
+        <note xml:id="french_1877_cap1-n230" type="comm" target="quarantana/cap1.xml#c1_11643" targetEnd="quarantana/cap1.xml#c1_11647">comte de Haro et Castelnovo, </note>
+        <note xml:id="french_1877_cap1-n231" type="comm" target="quarantana/cap1.xml#c1_11648" targetEnd="quarantana/cap1.xml#c1_11660">seigneur de la maison de Vélasco et de celle des sept Infants de Lara, </note>
+        <note xml:id="french_1877_cap1-n232" type="comm" target="quarantana/cap1.xml#c1_11661" targetEnd="quarantana/cap1.xml#c1_11665">gouverneur de l’État de Milan, </note>
+        <note xml:id="french_1877_cap1-n233" type="comm" target="quarantana/cap1.xml#c1_11666" targetEnd="quarantana/cap1.xml#c1_11666">etc. </note>
+        <note xml:id="french_1877_cap1-n234" type="comm" target="quarantana/cap1.xml#c1_11667" targetEnd="quarantana/cap1.xml#c1_11671">Le 5 juin de l’année 1593, </note>
+        <note xml:id="french_1877_cap1-n235" type="comm" target="quarantana/cap1.xml#c1_11672" targetEnd="quarantana/cap1.xml#c1_11681">pleinement informé, lui aussi, de quels dommage et ruine sont........ </note>
+        <note xml:id="french_1877_cap1-n236" type="comm" target="quarantana/cap1.xml#c1_11682" targetEnd="quarantana/cap1.xml#c1_11685">les bravi et vagabonds, </note>
+        <note xml:id="french_1877_cap1-n237" type="comm" target="quarantana/cap1.xml#c1_11686" targetEnd="quarantana/cap1.xml#c1_11699">et du très-mauvais effet que telle sorte de gens produit contre le bien public, </note>
+        <note xml:id="french_1877_cap1-n238" type="comm" target="quarantana/cap1.xml#c1_11700" targetEnd="quarantana/cap1.xml#c1_11704">et au mépris de la justice, </note>
+        <note xml:id="french_1877_cap1-n239" type="comm" target="quarantana/cap1.xml#c1_11705" targetEnd="quarantana/cap1.xml#c1_11709">il leur enjoint de nouveau d’avoir, </note>
+        <note xml:id="french_1877_cap1-n240" type="comm" target="quarantana/cap1.xml#c1_11710" targetEnd="quarantana/cap1.xml#c1_11714">dans le terme de six jours, </note>
+        <note xml:id="french_1877_cap1-n241" type="comm" target="quarantana/cap1.xml#c1_11715" targetEnd="quarantana/cap1.xml#c1_11719">à vider le pays, </note>
+        <note xml:id="french_1877_cap1-n242" type="comm" target="quarantana/cap1.xml#c1_11720" targetEnd="quarantana/cap1.xml#c1_11732">répétant à peu près les ordres et les menaces de son prédécesseur. </note>
+        <note xml:id="french_1877_cap1-n243" type="comm" target="quarantana/cap1.xml#c1_11733" targetEnd="quarantana/cap1.xml#c1_11738">Plus tard, et le 23 mai de l’année 1598, </note>
+        <note xml:id="french_1877_cap1-n244" type="comm" target="quarantana/cap1.xml#c1_11739" targetEnd="quarantana/cap1.xml#c1_11739">informé, </note>
+        <note xml:id="french_1877_cap1-n245" type="comm" target="quarantana/cap1.xml#c1_11740" targetEnd="quarantana/cap1.xml#c1_11745">au grand déplaisir de son âme, </note>
+        <note xml:id="french_1877_cap1-n246" type="comm" target="quarantana/cap1.xml#c1_11746" targetEnd="quarantana/cap1.xml#c1_11764">que le nombre de ces gens (bravi et vagabonds) va croissant chaque jour dans la ville et dans l’État, </note>
+        <note xml:id="french_1877_cap1-n247" type="comm" target="quarantana/cap1.xml#c1_11765" targetEnd="quarantana/cap1.xml#c1_11767">et qu’on n’entend parler, </note>
+        <note xml:id="french_1877_cap1-n248" type="comm" target="quarantana/cap1.xml#c1_11768" targetEnd="quarantana/cap1.xml#c1_11770">jour et nuit, </note>
+        <note xml:id="french_1877_cap1-n249" type="comm" target="quarantana/cap1.xml#c1_11771" targetEnd="quarantana/cap1.xml#c1_11777">que des blessures qu’ils font par guet-apens, </note>
+        <note xml:id="french_1877_cap1-n250" type="comm" target="quarantana/cap1.xml#c1_11778" targetEnd="quarantana/cap1.xml#c1_11786">des homicides, des vols et toutes autres sortes de crimes qu’ils commettent, </note>
+        <note xml:id="french_1877_cap1-n251" type="comm" target="quarantana/cap1.xml#c1_11787" targetEnd="quarantana/cap1.xml#c1_11802">et auxquels ils se rendent plus faciles dans la confiance où ils sont d’être soutenus par leurs chefs et leurs fauteurs,........ </note>
+        <note xml:id="french_1877_cap1-n252" type="comm" target="quarantana/cap1.xml#c1_11803" targetEnd="quarantana/cap1.xml#c1_11808">il prescrit de nouveau les mêmes remèdes, </note>
+        <note xml:id="french_1877_cap1-n253" type="comm" target="quarantana/cap1.xml#c1_11809" targetEnd="quarantana/cap1.xml#c1_11811">augmentant la dose, </note>
+        <note xml:id="french_1877_cap1-n254" type="comm" target="quarantana/cap1.xml#c1_11812" targetEnd="quarantana/cap1.xml#c1_11819">comme cela se pratique dans les maladies opiniâtres, </note>
+        <note xml:id="french_1877_cap1-n255" type="comm" target="quarantana/cap1.xml#c1_11820" targetEnd="quarantana/cap1.xml#c1_11821">et il conclut ainsi : </note>
+        <note xml:id="french_1877_cap1-n256" type="comm" target="quarantana/cap1.xml#c1_11822" targetEnd="quarantana/cap1.xml#c1_11832">Que chacun donc se garde pleinement de contrevenir en quoi que ce soit à la présente ordonnance, </note>
+        <note xml:id="french_1877_cap1-n257" type="comm" target="quarantana/cap1.xml#c1_11833" targetEnd="quarantana/cap1.xml#c1_11833">parce que, </note>
+        <note xml:id="french_1877_cap1-n258" type="comm" target="quarantana/cap1.xml#c1_11834" targetEnd="quarantana/cap1.xml#c1_11842">au lieu d’éprouver la clémence de Son Excellence, </note>
+        <note xml:id="french_1877_cap1-n259" type="comm" target="quarantana/cap1.xml#c1_11843" targetEnd="quarantana/cap1.xml#c1_11848">il éprouvera sa rigueur et sa colère,........ </note>
+        <note xml:id="french_1877_cap1-n260" type="comm" target="quarantana/cap1.xml#c1_11849" targetEnd="quarantana/cap1.xml#c1_11859">Son Excellence étant résolue et déterminée à ce que ce soit ici son dernier et péremptoire avertissement. </note>
+        <note xml:id="french_1877_cap1-n261" type="comm" target="quarantana/cap1.xml#c1_11860" targetEnd="quarantana/cap1.xml#c1_11869">Ce ne fut pourtant pas l’avis de l’Illustrissime et Excellentissime seigneur, </note>
+        <note xml:id="french_1877_cap1-n262" type="comm" target="quarantana/cap1.xml#c1_11870" targetEnd="quarantana/cap1.xml#c1_11876">le seigneur don Pietro Enriquez de Acevedo, </note>
+        <note xml:id="french_1877_cap1-n263" type="comm" target="quarantana/cap1.xml#c1_11877" targetEnd="quarantana/cap1.xml#c1_11879">comte de Fuentes, </note>
+        <note xml:id="french_1877_cap1-n264" type="comm" target="quarantana/cap1.xml#c1_11880" targetEnd="quarantana/cap1.xml#c1_11886">capitaine et gouverneur de l’État de Milan ; </note>
+        <note xml:id="french_1877_cap1-n265" type="comm" target="quarantana/cap1.xml#c1_11887" targetEnd="quarantana/cap1.xml#c1_11891">ce ne fut pas son avis, </note>
+        <note xml:id="french_1877_cap1-n266" type="comm" target="quarantana/cap1.xml#c1_11892" targetEnd="quarantana/cap1.xml#c1_11895">et pour bonnes raisons. </note>
+        <note xml:id="french_1877_cap1-n267" type="comm" target="quarantana/cap1.xml#c1_11896" targetEnd="quarantana/cap1.xml#c1_11917">Pleinement informé de la souffrance dans laquelle vit cette ville et État à cause du grand nombre de bravi qui y abondent........ </note>
+        <note xml:id="french_1877_cap1-n268" type="comm" target="quarantana/cap1.xml#c1_11918" targetEnd="quarantana/cap1.xml#c1_11926">et résolu d’extirper totalement une engeance si pernicieuse, </note>
+        <note xml:id="french_1877_cap1-n269" type="comm" target="quarantana/cap1.xml#c1_11927" targetEnd="quarantana/cap1.xml#c1_11928">il publie, </note>
+        <note xml:id="french_1877_cap1-n270" type="comm" target="quarantana/cap1.xml#c1_11929" targetEnd="quarantana/cap1.xml#c1_11932">le 16 décembre 1600, </note>
+        <note xml:id="french_1877_cap1-n271" type="comm" target="quarantana/cap1.xml#c1_11933" targetEnd="quarantana/cap1.xml#c1_11940">une nouvelle ordonnance pleine encore des plus sévères comminations, </note>
+        <note xml:id="french_1877_cap1-n272" type="comm" target="quarantana/cap1.xml#c1_11941" targetEnd="quarantana/cap1.xml#c1_11956">avec le ferme propos que les mesures prescrites soient de tout point exécutées en toute rigueur et sans espérance de rémission. </note>
+        <note xml:id="french_1877_cap1-n273" type="comm" target="quarantana/cap1.xml#c1_11957" targetEnd="quarantana/cap1.xml#c1_11985">Il faut croire cependant qu’il n’y mit pas toute cette bonne volonté qu’il savait employer à ourdir des trames et à susciter des ennemis à son grand ennemi Henri IV ; </note>
+        <note xml:id="french_1877_cap1-n274" type="comm" target="quarantana/cap1.xml#c1_11986" targetEnd="quarantana/cap1.xml#c1_12009">car en ceci l’histoire montre comme il parvint à armer contre ce roi le duc de Savoie auquel il fit perdre plus d’une ville ; </note>
+        <note xml:id="french_1877_cap1-n275" type="comm" target="quarantana/cap1.xml#c1_12010" targetEnd="quarantana/cap1.xml#c1_12018">comme il réussit à faire conspirer le duc de Biron, </note>
+        <note xml:id="french_1877_cap1-n276" type="comm" target="quarantana/cap1.xml#c1_12019" targetEnd="quarantana/cap1.xml#c1_12024">auquel il fit perdre la tête ; </note>
+        <note xml:id="french_1877_cap1-n277" type="comm" target="quarantana/cap1.xml#c1_12025" targetEnd="quarantana/cap1.xml#c1_12025">mais, </note>
+        <note xml:id="french_1877_cap1-n278" type="comm" target="quarantana/cap1.xml#c1_12026" targetEnd="quarantana/cap1.xml#c1_12035">quant à cette engeance si pernicieuse des bravi, </note>
+        <note xml:id="french_1877_cap1-n279" type="comm" target="quarantana/cap1.xml#c1_12036" targetEnd="quarantana/cap1.xml#c1_12047">il est certain qu’elle continuait à pulluler le 22 septembre de l’année 1612. </note>
+        <note xml:id="french_1877_cap1-n280" type="comm" target="quarantana/cap1.xml#c1_12048" targetEnd="quarantana/cap1.xml#c1_12060">Ce jour, l’Illustrissime et Excellentissime seigneur don Giovanni de Mendozza, </note>
+        <note xml:id="french_1877_cap1-n281" type="comm" target="quarantana/cap1.xml#c1_12061" targetEnd="quarantana/cap1.xml#c1_12064">marquis de la Hynojosa, </note>
+        <note xml:id="french_1877_cap1-n282" type="comm" target="quarantana/cap1.xml#c1_12065" targetEnd="quarantana/cap1.xml#c1_12066">gentilhomme, etc., </note>
+        <note xml:id="french_1877_cap1-n283" type="comm" target="quarantana/cap1.xml#c1_12067" targetEnd="quarantana/cap1.xml#c1_12068">gouverneur, etc., </note>
+        <note xml:id="french_1877_cap1-n284" type="comm" target="quarantana/cap1.xml#c1_12069" targetEnd="quarantana/cap1.xml#c1_12072">pensa sérieusement à l’extirper. </note>
+        <note xml:id="french_1877_cap1-n285" type="comm" target="quarantana/cap1.xml#c1_12073" targetEnd="quarantana/cap1.xml#c1_12074">À cet effet, </note>
+        <note xml:id="french_1877_cap1-n286" type="comm" target="quarantana/cap1.xml#c1_12075" targetEnd="quarantana/cap1.xml#c1_12081">il adressa à Pandolfo et Marco Tullio Malatesti, </note>
+        <note xml:id="french_1877_cap1-n287" type="comm" target="quarantana/cap1.xml#c1_12082" targetEnd="quarantana/cap1.xml#c1_12084">imprimeurs royaux, </note>
+        <note xml:id="french_1877_cap1-n288" type="comm" target="quarantana/cap1.xml#c1_12085" targetEnd="quarantana/cap1.xml#c1_12087">l’ordonnance accoutumée, </note>
+        <note xml:id="french_1877_cap1-n289" type="comm" target="quarantana/cap1.xml#c1_12088" targetEnd="quarantana/cap1.xml#c1_12090">avec corrections et additions, </note>
+        <note xml:id="french_1877_cap1-n290" type="comm" target="quarantana/cap1.xml#c1_12091" targetEnd="quarantana/cap1.xml#c1_12097">afin qu’ils l’imprimassent pour l’extermination des bravi. </note>
+        <note xml:id="french_1877_cap1-n291" type="comm" target="quarantana/cap1.xml#c1_12098" targetEnd="quarantana/cap1.xml#c1_12103">Mais ceux-ci vécurent encore pour recevoir, </note>
+        <note xml:id="french_1877_cap1-n292" type="comm" target="quarantana/cap1.xml#c1_12104" targetEnd="quarantana/cap1.xml#c1_12108">le 24 décembre de l’année 1618, </note>
+        <note xml:id="french_1877_cap1-n293" type="comm" target="quarantana/cap1.xml#c1_12109" targetEnd="quarantana/cap1.xml#c1_12118">des coups semblables, ou même plus forts, de l’Illustrissime et Excellentissime seigneur, </note>
+        <note xml:id="french_1877_cap1-n294" type="comm" target="quarantana/cap1.xml#c1_12119" targetEnd="quarantana/cap1.xml#c1_12125">le seigneur don Gomez Suarez de Figueroa, </note>
+        <note xml:id="french_1877_cap1-n295" type="comm" target="quarantana/cap1.xml#c1_12126" targetEnd="quarantana/cap1.xml#c1_12128">duc de Feria, </note>
+        <note xml:id="french_1877_cap1-n296" type="comm" target="quarantana/cap1.xml#c1_12129" targetEnd="quarantana/cap1.xml#c1_12131">gouverneur, etc. </note>
+        <note xml:id="french_1877_cap1-n297" type="comm" target="quarantana/cap1.xml#c1_12132" targetEnd="quarantana/cap1.xml#c1_12139">Comme pourtant ils n’en étaient pas encore morts, </note>
+        <note xml:id="french_1877_cap1-n298" type="comm" target="quarantana/cap1.xml#c1_12140" targetEnd="quarantana/cap1.xml#c1_12143">l’Illustrissime et Excellentissime seigneur, </note>
+        <note xml:id="french_1877_cap1-n299" type="comm" target="quarantana/cap1.xml#c1_12144" targetEnd="quarantana/cap1.xml#c1_12149">le seigneur Gonzalo Fernandez de Cordova, </note>
+        <note xml:id="french_1877_cap1-n300" type="comm" target="quarantana/cap1.xml#c1_12150" targetEnd="quarantana/cap1.xml#c1_12159">sous le gouvernement duquel eut lieu la promenade de don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n301" type="comm" target="quarantana/cap1.xml#c1_12160" targetEnd="quarantana/cap1.xml#c1_12172">s’était vu contraint de recorriger et republier l’ordonnance ordinaire contre les bravi, </note>
+        <note xml:id="french_1877_cap1-n302" type="comm" target="quarantana/cap1.xml#c1_12173" targetEnd="quarantana/cap1.xml#c1_12178">le 5 octobre 1627, </note>
+        <note xml:id="french_1877_cap1-n303" type="comm" target="quarantana/cap1.xml#c1_12179" targetEnd="quarantana/cap1.xml#c1_12181">c’est-à-dire un an, </note>
+        <note xml:id="french_1877_cap1-n304" type="comm" target="quarantana/cap1.xml#c1_12182" targetEnd="quarantana/cap1.xml#c1_12191">un mois et deux jours avant ce mémorable événement. </note>
+        <note xml:id="french_1877_cap1-n305" type="comm" target="quarantana/cap1.xml#c1_12192" targetEnd="quarantana/cap1.xml#c1_12196">Et cette publication ne fut pas la dernière, </note>
+        <note xml:id="french_1877_cap1-n306" type="comm" target="quarantana/cap1.xml#c1_12197" targetEnd="quarantana/cap1.xml#c1_12205">mais nous ne croyons pas devoir faire mention de celles qui suivirent, </note>
+        <note xml:id="french_1877_cap1-n307" type="comm" target="quarantana/cap1.xml#c1_12206" targetEnd="quarantana/cap1.xml#c1_12215">attendu qu’elles sont en dehors du période de notre histoire. </note>
+        <note xml:id="french_1877_cap1-n308" type="comm" target="quarantana/cap1.xml#c1_12216" targetEnd="quarantana/cap1.xml#c1_12224">Nous en citerons seulement une du 13 février de l’année 1632, </note>
+        <note xml:id="french_1877_cap1-n309" type="comm" target="quarantana/cap1.xml#c1_12225" targetEnd="quarantana/cap1.xml#c1_12230">dans laquelle l’Illustrissime et Excellentissime seigneur, </note>
+        <note xml:id="french_1877_cap1-n310" type="comm" target="quarantana/cap1.xml#c1_12231" targetEnd="quarantana/cap1.xml#c1_12235">le duc de Feria, </note>
+        <note xml:id="french_1877_cap1-n311" type="comm" target="quarantana/cap1.xml#c1_12236" targetEnd="quarantana/cap1.xml#c1_12240">pour la seconde fois gouverneur, </note>
+        <note xml:id="french_1877_cap1-n312" type="comm" target="quarantana/cap1.xml#c1_12241" targetEnd="quarantana/cap1.xml#c1_12253">nous avertit que les plus grandes scélératesses viennent de ceux qu’on appelle bravi. </note>
+        <note xml:id="french_1877_cap1-n313" type="comm" target="quarantana/cap1.xml#c1_12254" targetEnd="quarantana/cap1.xml#c1_12264">Cela suffit pour nous donner la certitude qu’au temps dont nous parlons, </note>
+        <note xml:id="french_1877_cap1-n314" type="comm" target="quarantana/cap1.xml#c1_12265" targetEnd="quarantana/cap1.xml#c1_12268">les bravi continuaient d’exister. </note>
+        <note xml:id="french_1877_cap1-n315" type="comm" target="quarantana/cap1.xml#c1_12269" targetEnd="quarantana/cap1.xml#c1_12279">Que les deux hommes à qui nous avons reconnu ce titre, en donnant leur portrait, fussent là pour attendre quelqu’un, </note>
+        <note xml:id="french_1877_cap1-n316" type="comm" target="quarantana/cap1.xml#c1_12280" targetEnd="quarantana/cap1.xml#c1_12283">c’était chose évidente ; </note>
+        <note xml:id="french_1877_cap1-n317" type="comm" target="quarantana/cap1.xml#c1_12284" targetEnd="quarantana/cap1.xml#c1_12295">mais ce qui causa le plus de déplaisir à don Abbondio fut de ne pouvoir se dissimuler, </note>
+        <note xml:id="french_1877_cap1-n318" type="comm" target="quarantana/cap1.xml#c1_12296" targetEnd="quarantana/cap1.xml#c1_12298">à certains mouvements qu’ils firent, </note>
+        <note xml:id="french_1877_cap1-n319" type="comm" target="quarantana/cap1.xml#c1_12299" targetEnd="quarantana/cap1.xml#c1_12302">que la personne attendue était lui. </note>
+        <note xml:id="french_1877_cap1-n320" type="comm" target="quarantana/cap1.xml#c1_12303" targetEnd="quarantana/cap1.xml#c1_12303">En effet, </note>
+        <note xml:id="french_1877_cap1-n321" type="comm" target="quarantana/cap1.xml#c1_12304" targetEnd="quarantana/cap1.xml#c1_12306">dès qu’il avait paru, </note>
+        <note xml:id="french_1877_cap1-n322" type="comm" target="quarantana/cap1.xml#c1_12307" targetEnd="quarantana/cap1.xml#c1_12311">ils s’étaient regardés l’un l’autre, </note>
+        <note xml:id="french_1877_cap1-n323" type="comm" target="quarantana/cap1.xml#c1_12312" targetEnd="quarantana/cap1.xml#c1_12329">levant la tête d’une certaine manière à faire voir qu’ils s’étaient dit tous deux en même temps : </note>
+        <note xml:id="french_1877_cap1-n324" type="comm" target="quarantana/cap1.xml#c1_12330" targetEnd="quarantana/cap1.xml#c1_12331">Le voici. </note>
+        <note xml:id="french_1877_cap1-n325" type="comm" target="quarantana/cap1.xml#c1_12332" targetEnd="quarantana/cap1.xml#c1_12338">Celui qui était à califourchon sur le mur s’était dressé, </note>
+        <note xml:id="french_1877_cap1-n326" type="comm" target="quarantana/cap1.xml#c1_12339" targetEnd="quarantana/cap1.xml#c1_12344">ramenant sa jambe sur le chemin ; </note>
+        <note xml:id="french_1877_cap1-n327" type="comm" target="quarantana/cap1.xml#c1_12345" targetEnd="quarantana/cap1.xml#c1_12349">l’autre avait quitté le mur où il était adossé, </note>
+        <note xml:id="french_1877_cap1-n328" type="comm" target="quarantana/cap1.xml#c1_12350" targetEnd="quarantana/cap1.xml#c1_12355">et tous deux s’acheminaient à sa rencontre. </note>
+        <note xml:id="french_1877_cap1-n329" type="comm" target="quarantana/cap1.xml#c1_12356" targetEnd="quarantana/cap1.xml#c1_12365">Le curé tenant toujours son bréviaire ouvert devant lui comme s’il lisait, </note>
+        <note xml:id="french_1877_cap1-n330" type="comm" target="quarantana/cap1.xml#c1_12366" targetEnd="quarantana/cap1.xml#c1_12376">jetait ses regards par dessus pour observer les mouvements de ces personnages ; </note>
+        <note xml:id="french_1877_cap1-n331" type="comm" target="quarantana/cap1.xml#c1_12377" targetEnd="quarantana/cap1.xml#c1_12377">et, </note>
+        <note xml:id="french_1877_cap1-n332" type="comm" target="quarantana/cap1.xml#c1_12378" targetEnd="quarantana/cap1.xml#c1_12381">les voyant marcher droit à lui, </note>
+        <note xml:id="french_1877_cap1-n333" type="comm" target="quarantana/cap1.xml#c1_12382" targetEnd="quarantana/cap1.xml#c1_12389">mille pensées toutes à la fois l’assaillirent. </note>
+        <note xml:id="french_1877_cap1-n334" type="comm" target="quarantana/cap1.xml#c1_12390" targetEnd="quarantana/cap1.xml#c1_12413">Il se demanda précipitamment si entre lui et les bravi il y aurait quelque issue dans le chemin à droite ou à gauche, </note>
+        <note xml:id="french_1877_cap1-n335" type="comm" target="quarantana/cap1.xml#c1_12414" targetEnd="quarantana/cap1.xml#c1_12419">et se souvint aussitôt qu’il n’y en avait aucune. </note>
+        <note xml:id="french_1877_cap1-n336" type="comm" target="quarantana/cap1.xml#c1_12420" targetEnd="quarantana/cap1.xml#c1_12429">Il fit un rapide examen dans ses souvenirs pour rechercher s’il aurait péché contre quelque homme puissant, </note>
+        <note xml:id="french_1877_cap1-n337" type="comm" target="quarantana/cap1.xml#c1_12430" targetEnd="quarantana/cap1.xml#c1_12432">contre quelque homme vindicatif ; </note>
+        <note xml:id="french_1877_cap1-n338" type="comm" target="quarantana/cap1.xml#c1_12433" targetEnd="quarantana/cap1.xml#c1_12433">mais, </note>
+        <note xml:id="french_1877_cap1-n339" type="comm" target="quarantana/cap1.xml#c1_12434" targetEnd="quarantana/cap1.xml#c1_12437">au milieu même de son trouble, </note>
+        <note xml:id="french_1877_cap1-n340" type="comm" target="quarantana/cap1.xml#c1_12438" targetEnd="quarantana/cap1.xml#c1_12445">le témoignage consolant de sa conscience le rassurait jusqu’à un certain point. </note>
+        <note xml:id="french_1877_cap1-n341" type="comm" target="quarantana/cap1.xml#c1_12446" targetEnd="quarantana/cap1.xml#c1_12449">Et les bravi cependant s’approchaient, </note>
+        <note xml:id="french_1877_cap1-n342" type="comm" target="quarantana/cap1.xml#c1_12450" targetEnd="quarantana/cap1.xml#c1_12451">les yeux attachés sur lui. </note>
+        <note xml:id="french_1877_cap1-n343" type="comm" target="quarantana/cap1.xml#c1_12452" targetEnd="quarantana/cap1.xml#c1_12461">Il mit l’index et le doigt du milieu de sa main gauche dans le col de son rabat, </note>
+        <note xml:id="french_1877_cap1-n344" type="comm" target="quarantana/cap1.xml#c1_12462" targetEnd="quarantana/cap1.xml#c1_12464">comme pour le rajuster ; </note>
+        <note xml:id="french_1877_cap1-n345" type="comm" target="quarantana/cap1.xml#c1_12465" targetEnd="quarantana/cap1.xml#c1_12465">et, </note>
+        <note xml:id="french_1877_cap1-n346" type="comm" target="quarantana/cap1.xml#c1_12466" targetEnd="quarantana/cap1.xml#c1_12472">faisant circuler les deux doigts autour de son cou, </note>
+        <note xml:id="french_1877_cap1-n347" type="comm" target="quarantana/cap1.xml#c1_12473" targetEnd="quarantana/cap1.xml#c1_12477">il tournait en même temps la tête en arrière, </note>
+        <note xml:id="french_1877_cap1-n348" type="comm" target="quarantana/cap1.xml#c1_12478" targetEnd="quarantana/cap1.xml#c1_12487">tordant la bouche et cherchant à voir du coin de l’œil, </note>
+        <note xml:id="french_1877_cap1-n349" type="comm" target="quarantana/cap1.xml#c1_12488" targetEnd="quarantana/cap1.xml#c1_12490">aussi loin qu’il pouvait, </note>
+        <note xml:id="french_1877_cap1-n350" type="comm" target="quarantana/cap1.xml#c1_12491" targetEnd="quarantana/cap1.xml#c1_12493">si quelqu’un n’arrivait pas ; </note>
+        <note xml:id="french_1877_cap1-n351" type="comm" target="quarantana/cap1.xml#c1_12494" targetEnd="quarantana/cap1.xml#c1_12497">mais il ne vit personne. </note>
+        <note xml:id="french_1877_cap1-n352" type="comm" target="quarantana/cap1.xml#c1_12498" targetEnd="quarantana/cap1.xml#c1_12504">Il lança un coup d’œil par-dessus le petit mur, </note>
+        <note xml:id="french_1877_cap1-n353" type="comm" target="quarantana/cap1.xml#c1_12505" targetEnd="quarantana/cap1.xml#c1_12506">dans les champs : </note>
+        <note xml:id="french_1877_cap1-n354" type="comm" target="quarantana/cap1.xml#c1_12507" targetEnd="quarantana/cap1.xml#c1_12507">personne ; </note>
+        <note xml:id="french_1877_cap1-n355" type="comm" target="quarantana/cap1.xml#c1_12508" targetEnd="quarantana/cap1.xml#c1_12513">un autre plus timide en avant sur le chemin ; </note>
+        <note xml:id="french_1877_cap1-n356" type="comm" target="quarantana/cap1.xml#c1_12514" targetEnd="quarantana/cap1.xml#c1_12517">personne que les bravi. </note>
+        <note xml:id="french_1877_cap1-n357" type="comm" target="quarantana/cap1.xml#c1_12518" targetEnd="quarantana/cap1.xml#c1_12519">Que faire ? </note>
+        <note xml:id="french_1877_cap1-n358" type="comm" target="quarantana/cap1.xml#c1_12520" targetEnd="quarantana/cap1.xml#c1_12521">Retourner sur ses pas ? </note>
+        <note xml:id="french_1877_cap1-n359" type="comm" target="quarantana/cap1.xml#c1_12522" targetEnd="quarantana/cap1.xml#c1_12525">Il n’était plus temps. </note>
+        <note xml:id="french_1877_cap1-n360" type="comm" target="quarantana/cap1.xml#c1_12526" targetEnd="quarantana/cap1.xml#c1_12528">Fuir ? </note>
+        <note xml:id="french_1877_cap1-n361" type="comm" target="quarantana/cap1.xml#c1_12529" targetEnd="quarantana/cap1.xml#c1_12533">c’était comme dire : </note>
+        <note xml:id="french_1877_cap1-n362" type="comm" target="quarantana/cap1.xml#c1_12534" targetEnd="quarantana/cap1.xml#c1_12534">poursuivez-moi, </note>
+        <note xml:id="french_1877_cap1-n363" type="comm" target="quarantana/cap1.xml#c1_12535" targetEnd="quarantana/cap1.xml#c1_12536">ou pis encore. </note>
+        <note xml:id="french_1877_cap1-n364" type="comm" target="quarantana/cap1.xml#c1_12537" targetEnd="quarantana/cap1.xml#c1_12541">Ne pouvant se soustraire au danger, </note>
+        <note xml:id="french_1877_cap1-n365" type="comm" target="quarantana/cap1.xml#c1_12542" targetEnd="quarantana/cap1.xml#c1_12544">il y courut, </note>
+        <note xml:id="french_1877_cap1-n366" type="comm" target="quarantana/cap1.xml#c1_12545" targetEnd="quarantana/cap1.xml#c1_12561">parce que les moments de cette incertitude lui étaient désormais si pénibles qu’il ne songeait plus qu’à les abréger. </note>
+        <note xml:id="french_1877_cap1-n367" type="comm" target="quarantana/cap1.xml#c1_12562" targetEnd="quarantana/cap1.xml#c1_12564">Il pressa le pas, </note>
+        <note xml:id="french_1877_cap1-n368" type="comm" target="quarantana/cap1.xml#c1_12565" targetEnd="quarantana/cap1.xml#c1_12571">récita un verset d’une voix plus haute, </note>
+        <note xml:id="french_1877_cap1-n369" type="comm" target="quarantana/cap1.xml#c1_12572" targetEnd="quarantana/cap1.xml#c1_12582">composa sa physionomie pour lui donner autant de calme et d’hilarité qu’il lui fut possible, </note>
+        <note xml:id="french_1877_cap1-n370" type="comm" target="quarantana/cap1.xml#c1_12583" targetEnd="quarantana/cap1.xml#c1_12589">fit tous ses efforts pour préparer un sourire, </note>
+        <note xml:id="french_1877_cap1-n371" type="comm" target="quarantana/cap1.xml#c1_12590" targetEnd="quarantana/cap1.xml#c1_12597">et quand il se trouva face à face avec les deux honnêtes gens, </note>
+        <note xml:id="french_1877_cap1-n372" type="comm" target="quarantana/cap1.xml#c1_12598" targetEnd="quarantana/cap1.xml#c1_12599">il dit mentalement : </note>
+        <note xml:id="french_1877_cap1-n373" type="comm" target="quarantana/cap1.xml#c1_12600" targetEnd="quarantana/cap1.xml#c1_12601">« Nous y voilà, </note>
+        <note xml:id="french_1877_cap1-n374" type="comm" target="quarantana/cap1.xml#c1_12602" targetEnd="quarantana/cap1.xml#c1_12607">» et s’arrêta tout court. </note>
+        <note xml:id="french_1877_cap1-n375" type="comm" target="quarantana/cap1.xml#c1_12608" targetEnd="quarantana/cap1.xml#c1_12614">« Monsieur le curé, dit l’un des deux, </note>
+        <note xml:id="french_1877_cap1-n376" type="comm" target="quarantana/cap1.xml#c1_12615" targetEnd="quarantana/cap1.xml#c1_12619">en le regardant fixement au visage. </note>
+        <note xml:id="french_1877_cap1-n377" type="comm" target="quarantana/cap1.xml#c1_12620" targetEnd="quarantana/cap1.xml#c1_12625">— Que désire monsieur ? répondit aussitôt don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n378" type="comm" target="quarantana/cap1.xml#c1_12626" targetEnd="quarantana/cap1.xml#c1_12636">levant les yeux de dessus son livre qui resta tout ouvert sur ses mains, </note>
+        <note xml:id="french_1877_cap1-n379" type="comm" target="quarantana/cap1.xml#c1_12637" targetEnd="quarantana/cap1.xml#c1_12640">comme sur un pupitre. </note>
+        <note xml:id="french_1877_cap1-n380" type="comm" target="quarantana/cap1.xml#c1_12641" targetEnd="quarantana/cap1.xml#c1_12645">— Vous avez l’intention, </note>
+        <note xml:id="french_1877_cap1-n381" type="comm" target="quarantana/cap1.xml#c1_12646" targetEnd="quarantana/cap1.xml#c1_12659">poursuivit l’autre du ton menaçant et irrité d’un homme qui surprend son inférieur prêt à faire une mauvaise action, </note>
+        <note xml:id="french_1877_cap1-n382" type="comm" target="quarantana/cap1.xml#c1_12660" targetEnd="quarantana/cap1.xml#c1_12670">vous avez l’intention de marier demain Renzo Tramaglino et Lucia Mondella ! </note>
+        <note xml:id="french_1877_cap1-n383" type="comm" target="quarantana/cap1.xml#c1_12671" targetEnd="quarantana/cap1.xml#c1_12672">— C’est-à-dire, </note>
+        <note xml:id="french_1877_cap1-n384" type="comm" target="quarantana/cap1.xml#c1_12673" targetEnd="quarantana/cap1.xml#c1_12677">répondit d’une voix tremblotante don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n385" type="comm" target="quarantana/cap1.xml#c1_12678" targetEnd="quarantana/cap1.xml#c1_12684">c’est-à-dire… ces messieurs sont gens du monde, </note>
+        <note xml:id="french_1877_cap1-n386" type="comm" target="quarantana/cap1.xml#c1_12685" targetEnd="quarantana/cap1.xml#c1_12691">et savent très-bien comment se passent ces sortes de choses. </note>
+        <note xml:id="french_1877_cap1-n387" type="comm" target="quarantana/cap1.xml#c1_12692" targetEnd="quarantana/cap1.xml#c1_12696">Le pauvre curé n’y entre pour rien : </note>
+        <note xml:id="french_1877_cap1-n388" type="comm" target="quarantana/cap1.xml#c1_12697" targetEnd="quarantana/cap1.xml#c1_12702">ils font leurs arrangements entre eux, </note>
+        <note xml:id="french_1877_cap1-n389" type="comm" target="quarantana/cap1.xml#c1_12703" targetEnd="quarantana/cap1.xml#c1_12716">et puis… et puis ils viennent à nous comme on irait à un comptoir recevoir son argent ; </note>
+        <note xml:id="french_1877_cap1-n390" type="comm" target="quarantana/cap1.xml#c1_12717" targetEnd="quarantana/cap1.xml#c1_12724">et nous nous sommes les serviteurs du public. </note>
+        <note xml:id="french_1877_cap1-n391" type="comm" target="quarantana/cap1.xml#c1_12725" targetEnd="quarantana/cap1.xml#c1_12731">— Eh bien, lui dit le bravo à l’oreille, </note>
+        <note xml:id="french_1877_cap1-n392" type="comm" target="quarantana/cap1.xml#c1_12732" targetEnd="quarantana/cap1.xml#c1_12737">mais d’un ton solennel de commandement, </note>
+        <note xml:id="french_1877_cap1-n393" type="comm" target="quarantana/cap1.xml#c1_12738" targetEnd="quarantana/cap1.xml#c1_12744">ce mariage ne doit point se faire, </note>
+        <note xml:id="french_1877_cap1-n394" type="comm" target="quarantana/cap1.xml#c1_12745" targetEnd="quarantana/cap1.xml#c1_12748">ni demain ni jamais. </note>
+        <note xml:id="french_1877_cap1-n395" type="comm" target="quarantana/cap1.xml#c1_12749" targetEnd="quarantana/cap1.xml#c1_12749">— Mais, </note>
+        <note xml:id="french_1877_cap1-n396" type="comm" target="quarantana/cap1.xml#c1_12750" targetEnd="quarantana/cap1.xml#c1_12766">messieurs, répliqua don Abbondio avec la voix douce et polie de celui qui veut persuader un impatient, </note>
+        <note xml:id="french_1877_cap1-n397" type="comm" target="quarantana/cap1.xml#c1_12767" targetEnd="quarantana/cap1.xml#c1_12767">mais, </note>
+        <note xml:id="french_1877_cap1-n398" type="comm" target="quarantana/cap1.xml#c1_12768" targetEnd="quarantana/cap1.xml#c1_12769">messieurs, </note>
+        <note xml:id="french_1877_cap1-n399" type="comm" target="quarantana/cap1.xml#c1_12770" targetEnd="quarantana/cap1.xml#c1_12776">daignez vous mettre à ma place. </note>
+        <note xml:id="french_1877_cap1-n400" type="comm" target="quarantana/cap1.xml#c1_12777" targetEnd="quarantana/cap1.xml#c1_12794">Si la chose dépendait de moi… vous voyez bien qu’il n’en entre rien dans ma poche… </note>
+        <note xml:id="french_1877_cap1-n401" type="comm" target="quarantana/cap1.xml#c1_12795" targetEnd="quarantana/cap1.xml#c1_12798">— Ah ça, interrompit le bravo, </note>
+        <note xml:id="french_1877_cap1-n402" type="comm" target="quarantana/cap1.xml#c1_12799" targetEnd="quarantana/cap1.xml#c1_12806">si la chose devait se décider par du bavardage, </note>
+        <note xml:id="french_1877_cap1-n403" type="comm" target="quarantana/cap1.xml#c1_12807" targetEnd="quarantana/cap1.xml#c1_12811">vous nous mettriez dans le sac. </note>
+        <note xml:id="french_1877_cap1-n404" type="comm" target="quarantana/cap1.xml#c1_12812" targetEnd="quarantana/cap1.xml#c1_12820">Nous n’en savons et n’en voulons pas savoir davantage. </note>
+        <note xml:id="french_1877_cap1-n405" type="comm" target="quarantana/cap1.xml#c1_12821" targetEnd="quarantana/cap1.xml#c1_12824">Homme averti… Vous entendez. </note>
+        <note xml:id="french_1877_cap1-n406" type="comm" target="quarantana/cap1.xml#c1_12825" targetEnd="quarantana/cap1.xml#c1_12830">— Mais ces messieurs sont trop justes, </note>
+        <note xml:id="french_1877_cap1-n407" type="comm" target="quarantana/cap1.xml#c1_12831" targetEnd="quarantana/cap1.xml#c1_12832">trop raisonnables… </note>
+        <note xml:id="french_1877_cap1-n408" type="comm" target="quarantana/cap1.xml#c1_12833" targetEnd="quarantana/cap1.xml#c1_12844">— Mais, interrompit cette fois l’autre camarade qui n’avait rien dit jusqu’alors, </note>
+        <note xml:id="french_1877_cap1-n409" type="comm" target="quarantana/cap1.xml#c1_12845" targetEnd="quarantana/cap1.xml#c1_12850">mais le mariage ne se fera pas, </note>
+        <note xml:id="french_1877_cap1-n410" type="comm" target="quarantana/cap1.xml#c1_12851" targetEnd="quarantana/cap1.xml#c1_12856">ou… et ici un bon juron, </note>
+        <note xml:id="french_1877_cap1-n411" type="comm" target="quarantana/cap1.xml#c1_12857" targetEnd="quarantana/cap1.xml#c1_12864">ou celui qui l’aura fait ne s’en repentira pas, </note>
+        <note xml:id="french_1877_cap1-n412" type="comm" target="quarantana/cap1.xml#c1_12865" targetEnd="quarantana/cap1.xml#c1_12869">car il n’en aura pas le temps, </note>
+        <note xml:id="french_1877_cap1-n413" type="comm" target="quarantana/cap1.xml#c1_12870" targetEnd="quarantana/cap1.xml#c1_12872">et… un autre juron. </note>
+        <note xml:id="french_1877_cap1-n414" type="comm" target="quarantana/cap1.xml#c1_12873" targetEnd="quarantana/cap1.xml#c1_12873">— Paix, </note>
+        <note xml:id="french_1877_cap1-n415" type="comm" target="quarantana/cap1.xml#c1_12874" targetEnd="quarantana/cap1.xml#c1_12878">paix, reprit le premier orateur, </note>
+        <note xml:id="french_1877_cap1-n416" type="comm" target="quarantana/cap1.xml#c1_12879" targetEnd="quarantana/cap1.xml#c1_12890">monsieur le curé est un homme qui sait vivre ; </note>
+        <note xml:id="french_1877_cap1-n417" type="comm" target="quarantana/cap1.xml#c1_12891" targetEnd="quarantana/cap1.xml#c1_12900">et nous, nous sommes d’honnêtes gens qui ne voulons pas lui faire du mal, </note>
+        <note xml:id="french_1877_cap1-n418" type="comm" target="quarantana/cap1.xml#c1_12901" targetEnd="quarantana/cap1.xml#c1_12903">pourvu qu’il soit prudent et sage. </note>
+        <note xml:id="french_1877_cap1-n419" type="comm" target="quarantana/cap1.xml#c1_12904" targetEnd="quarantana/cap1.xml#c1_12905">Monsieur le curé, </note>
+        <note xml:id="french_1877_cap1-n420" type="comm" target="quarantana/cap1.xml#c1_12906" targetEnd="quarantana/cap1.xml#c1_12914">l’Illustrissime seigneur don Rodrigo, notre maître, vous salue bien sincèrement. </note>
+        <note xml:id="french_1877_cap1-n421" type="comm" target="quarantana/cap1.xml#c1_12915" targetEnd="quarantana/cap1.xml#c1_12923">» Ce nom fut dans l’esprit de don Abbondio ce qu’est, </note>
+        <note xml:id="french_1877_cap1-n422" type="comm" target="quarantana/cap1.xml#c1_12924" targetEnd="quarantana/cap1.xml#c1_12928">dans le fort d’un orage pendant la nuit, </note>
+        <note xml:id="french_1877_cap1-n423" type="comm" target="quarantana/cap1.xml#c1_12929" targetEnd="quarantana/cap1.xml#c1_12938">un éclair qui, répandant sur les objets une lumière confuse et momentanée, </note>
+        <note xml:id="french_1877_cap1-n424" type="comm" target="quarantana/cap1.xml#c1_12939" targetEnd="quarantana/cap1.xml#c1_12942">ajoute encore à l’épouvante. </note>
+        <note xml:id="french_1877_cap1-n425" type="comm" target="quarantana/cap1.xml#c1_12943" targetEnd="quarantana/cap1.xml#c1_12950">Il fit comme par instinct une inclination profonde et dit : </note>
+        <note xml:id="french_1877_cap1-n426" type="comm" target="quarantana/cap1.xml#c1_12951" targetEnd="quarantana/cap1.xml#c1_12954">« Si ces messieurs pouvaient me suggérer… </note>
+        <note xml:id="french_1877_cap1-n427" type="comm" target="quarantana/cap1.xml#c1_12955" targetEnd="quarantana/cap1.xml#c1_12955">— Oh ! </note>
+        <note xml:id="french_1877_cap1-n428" type="comm" target="quarantana/cap1.xml#c1_12956" targetEnd="quarantana/cap1.xml#c1_12975">vous suggérer, à vous qui savez le latin ! interrompit encore le bravo avec un rire qui tenait de l’ignoble et du féroce. </note>
+        <note xml:id="french_1877_cap1-n429" type="comm" target="quarantana/cap1.xml#c1_12976" targetEnd="quarantana/cap1.xml#c1_12978">C’est votre affaire. </note>
+        <note xml:id="french_1877_cap1-n430" type="comm" target="quarantana/cap1.xml#c1_12979" targetEnd="quarantana/cap1.xml#c1_12981">Et surtout, </note>
+        <note xml:id="french_1877_cap1-n431" type="comm" target="quarantana/cap1.xml#c1_12982" targetEnd="quarantana/cap1.xml#c1_12996">qu’il ne vous échappe pas un mot sur cet avis que nous vous avons donné pour votre bien ; </note>
+        <note xml:id="french_1877_cap1-n432" type="comm" target="quarantana/cap1.xml#c1_12997" targetEnd="quarantana/cap1.xml#c1_13006">autrement… hem… ce serait tout comme si vous faisiez le mariage. </note>
+        <note xml:id="french_1877_cap1-n433" type="comm" target="quarantana/cap1.xml#c1_13007" targetEnd="quarantana/cap1.xml#c1_13007">Allons, </note>
+        <note xml:id="french_1877_cap1-n434" type="comm" target="quarantana/cap1.xml#c1_13008" targetEnd="quarantana/cap1.xml#c1_13019">que voulez-vous qu’il soit dit de votre part à l’illustrissime seigneur don Rodrigo ? </note>
+        <note xml:id="french_1877_cap1-n435" type="comm" target="quarantana/cap1.xml#c1_13020" targetEnd="quarantana/cap1.xml#c1_13022">— Mes respects… </note>
+        <note xml:id="french_1877_cap1-n436" type="comm" target="quarantana/cap1.xml#c1_13023" targetEnd="quarantana/cap1.xml#c1_13025">— Expliquez-vous mieux. </note>
+        <note xml:id="french_1877_cap1-n437" type="comm" target="quarantana/cap1.xml#c1_13026" targetEnd="quarantana/cap1.xml#c1_13030">— … Disposé,… toujours disposé à l’obéissance. </note>
+        <note xml:id="french_1877_cap1-n438" type="comm" target="quarantana/cap1.xml#c1_13031" targetEnd="quarantana/cap1.xml#c1_13034">Et en prononçant ces mots, </note>
+        <note xml:id="french_1877_cap1-n439" type="comm" target="quarantana/cap1.xml#c1_13035" targetEnd="quarantana/cap1.xml#c1_13045">il ne savait lui-même s’il faisait une promesse ou un compliment. </note>
+        <note xml:id="french_1877_cap1-n440" type="comm" target="quarantana/cap1.xml#c1_13046" targetEnd="quarantana/cap1.xml#c1_13057">Les bravi les prirent ou parurent les prendre dans leur sens le plus sérieux. </note>
+        <note xml:id="french_1877_cap1-n441" type="comm" target="quarantana/cap1.xml#c1_13058" targetEnd="quarantana/cap1.xml#c1_13058">— Fort bien, </note>
+        <note xml:id="french_1877_cap1-n442" type="comm" target="quarantana/cap1.xml#c1_13059" targetEnd="quarantana/cap1.xml#c1_13061">et bonne nuit, </note>
+        <note xml:id="french_1877_cap1-n443" type="comm" target="quarantana/cap1.xml#c1_13062" targetEnd="quarantana/cap1.xml#c1_13071">Sire curé, » dit l’un d’eux prêt à partir avec son compagnon. </note>
+        <note xml:id="french_1877_cap1-n444" type="comm" target="quarantana/cap1.xml#c1_13072" targetEnd="quarantana/cap1.xml#c1_13074">Don Abbondio qui, </note>
+        <note xml:id="french_1877_cap1-n445" type="comm" target="quarantana/cap1.xml#c1_13075" targetEnd="quarantana/cap1.xml#c1_13077">peu de moments avant, </note>
+        <note xml:id="french_1877_cap1-n446" type="comm" target="quarantana/cap1.xml#c1_13078" targetEnd="quarantana/cap1.xml#c1_13083">eût donné l’un de ses yeux pour les éviter, </note>
+        <note xml:id="french_1877_cap1-n447" type="comm" target="quarantana/cap1.xml#c1_13084" targetEnd="quarantana/cap1.xml#c1_13092">aurait voulu maintenant prolonger la conversation et les pourparlers. </note>
+        <note xml:id="french_1877_cap1-n448" type="comm" target="quarantana/cap1.xml#c1_13093" targetEnd="quarantana/cap1.xml#c1_13101">« Messieurs… » commençait-il à dire en fermant le livre de ses deux mains ; </note>
+        <note xml:id="french_1877_cap1-n449" type="comm" target="quarantana/cap1.xml#c1_13102" targetEnd="quarantana/cap1.xml#c1_13103">mais ceux-ci, </note>
+        <note xml:id="french_1877_cap1-n450" type="comm" target="quarantana/cap1.xml#c1_13104" targetEnd="quarantana/cap1.xml#c1_13107">sans l’écouter davantage, </note>
+        <note xml:id="french_1877_cap1-n451" type="comm" target="quarantana/cap1.xml#c1_13108" targetEnd="quarantana/cap1.xml#c1_13113">prirent le chemin par où il était venu lui-même, </note>
+        <note xml:id="french_1877_cap1-n452" type="comm" target="quarantana/cap1.xml#c1_13114" targetEnd="quarantana/cap1.xml#c1_13122">et s’éloignèrent en chantant une vilaine chanson que je ne veux pas transcrire. </note>
+        <note xml:id="french_1877_cap1-n453" type="comm" target="quarantana/cap1.xml#c1_13123" targetEnd="quarantana/cap1.xml#c1_13134">Le pauvre don Abbondio demeura un moment la bouche ouverte et comme frappé d’un charme ; </note>
+        <note xml:id="french_1877_cap1-n454" type="comm" target="quarantana/cap1.xml#c1_13135" targetEnd="quarantana/cap1.xml#c1_13145">puis il prit celui des deux sentiers qui conduisait à sa maison, </note>
+        <note xml:id="french_1877_cap1-n455" type="comm" target="quarantana/cap1.xml#c1_13146" targetEnd="quarantana/cap1.xml#c1_13153">mettant avec peine une jambe devant l’autre, </note>
+        <note xml:id="french_1877_cap1-n456" type="comm" target="quarantana/cap1.xml#c1_13154" targetEnd="quarantana/cap1.xml#c1_13156">tant la crampe paraissait les avoir saisies. </note>
+        <note xml:id="french_1877_cap1-n457" type="comm" target="quarantana/cap1.xml#c1_13157" targetEnd="quarantana/cap1.xml#c1_13160">Quant à l’état où il se trouvait intérieurement, </note>
+        <note xml:id="french_1877_cap1-n458" type="comm" target="quarantana/cap1.xml#c1_13161" targetEnd="quarantana/cap1.xml#c1_13180">on le comprendra mieux quand nous aurons dit quelque chose de son caractère et des temps où il lui avait été donné de vivre. </note>
+        <note xml:id="french_1877_cap1-n459" type="comm" target="quarantana/cap1.xml#c1_13181" targetEnd="quarantana/cap1.xml#c1_13196">Don Abbondio (le lecteur s’en est déjà aperçu) n’était pas né avec un cœur de lion. </note>
+        <note xml:id="french_1877_cap1-n460" type="comm" target="quarantana/cap1.xml#c1_13197" targetEnd="quarantana/cap1.xml#c1_13221">Mais dès ses premières années il avait dû comprendre que la pire des conditions dans ces temps-là était celle d’un animal sans dents et sans griffes, </note>
+        <note xml:id="french_1877_cap1-n461" type="comm" target="quarantana/cap1.xml#c1_13222" targetEnd="quarantana/cap1.xml#c1_13230">et qui pourtant ne se sent point de penchant à être dévoré. </note>
+        <note xml:id="french_1877_cap1-n462" type="comm" target="quarantana/cap1.xml#c1_13231" targetEnd="quarantana/cap1.xml#c1_13240">La force légale ne protégeait en aucune manière l’homme paisible, </note>
+        <note xml:id="french_1877_cap1-n463" type="comm" target="quarantana/cap1.xml#c1_13241" targetEnd="quarantana/cap1.xml#c1_13241">inoffensif, </note>
+        <note xml:id="french_1877_cap1-n464" type="comm" target="quarantana/cap1.xml#c1_13242" targetEnd="quarantana/cap1.xml#c1_13251">et qui n’avait pas d’autres moyens de faire peur. </note>
+        <note xml:id="french_1877_cap1-n465" type="comm" target="quarantana/cap1.xml#c1_13252" targetEnd="quarantana/cap1.xml#c1_13262">Ce n’est pas que l’on manquât de lois et de peines contre les violences entre particuliers. </note>
+        <note xml:id="french_1877_cap1-n466" type="comm" target="quarantana/cap1.xml#c1_13263" targetEnd="quarantana/cap1.xml#c1_13266">Bien au contraire, les lois venaient par déluge. </note>
+        <note xml:id="french_1877_cap1-n467" type="comm" target="quarantana/cap1.xml#c1_13267" targetEnd="quarantana/cap1.xml#c1_13275">Les délits étaient énumérés et particularisés avec une minutieuse prolixité ; </note>
+        <note xml:id="french_1877_cap1-n468" type="comm" target="quarantana/cap1.xml#c1_13276" targetEnd="quarantana/cap1.xml#c1_13284">les peines follement exorbitantes et de plus susceptibles d’être augmentées, </note>
+        <note xml:id="french_1877_cap1-n469" type="comm" target="quarantana/cap1.xml#c1_13285" targetEnd="quarantana/cap1.xml#c1_13288">presque pour chaque circonstance, </note>
+        <note xml:id="french_1877_cap1-n470" type="comm" target="quarantana/cap1.xml#c1_13289" targetEnd="quarantana/cap1.xml#c1_13297">à la discrétion du législateur lui-même et de cent exécuteurs ; </note>
+        <note xml:id="french_1877_cap1-n471" type="comm" target="quarantana/cap1.xml#c1_13298" targetEnd="quarantana/cap1.xml#c1_13316">les formes de procédures calculées seulement pour débarrasser le juge de tout ce qui aurait pu l’empêcher de prononcer une condamnation. </note>
+        <note xml:id="french_1877_cap1-n472" type="comm" target="quarantana/cap1.xml#c1_13317" targetEnd="quarantana/cap1.xml#c1_13333">Les extraits que nous avons rapportés des édits contre les bravi en sont un faible mais fidèle exemple. </note>
+        <note xml:id="french_1877_cap1-n473" type="comm" target="quarantana/cap1.xml#c1_13334" targetEnd="quarantana/cap1.xml#c1_13344">Malgré tout cela et même en grande partie pour cette cause, </note>
+        <note xml:id="french_1877_cap1-n474" type="comm" target="quarantana/cap1.xml#c1_13345" targetEnd="quarantana/cap1.xml#c1_13365">ces édits répétés et renforcés d’un gouverneur à l’autre ne servaient qu’à attester en termes ampoulés l’impuissance de leurs auteurs ; </note>
+        <note xml:id="french_1877_cap1-n475" type="comm" target="quarantana/cap1.xml#c1_13366" targetEnd="quarantana/cap1.xml#c1_13366">ou, </note>
+        <note xml:id="french_1877_cap1-n476" type="comm" target="quarantana/cap1.xml#c1_13367" targetEnd="quarantana/cap1.xml#c1_13371">s’ils produisaient quelque effet immédiat, </note>
+        <note xml:id="french_1877_cap1-n477" type="comm" target="quarantana/cap1.xml#c1_13372" targetEnd="quarantana/cap1.xml#c1_13388">c’était essentiellement d’ajouter de nombreuses vexations à celles que les personnes faibles et pacifiques souffraient déjà de la part des perturbateurs, </note>
+        <note xml:id="french_1877_cap1-n478" type="comm" target="quarantana/cap1.xml#c1_13389" targetEnd="quarantana/cap1.xml#c1_13396">et d’accroître les violences de ceux-ci comme leur astuce. </note>
+        <note xml:id="french_1877_cap1-n479" type="comm" target="quarantana/cap1.xml#c1_13397" targetEnd="quarantana/cap1.xml#c1_13411">L’impunité était organisée et avait des racines que les ordonnances n’atteignaient pas ou ne pouvaient ébranler. </note>
+        <note xml:id="french_1877_cap1-n480" type="comm" target="quarantana/cap1.xml#c1_13412" targetEnd="quarantana/cap1.xml#c1_13415">Tels étaient les asiles, </note>
+        <note xml:id="french_1877_cap1-n481" type="comm" target="quarantana/cap1.xml#c1_13416" targetEnd="quarantana/cap1.xml#c1_13420">tels étaient les privilèges de certaines classes, </note>
+        <note xml:id="french_1877_cap1-n482" type="comm" target="quarantana/cap1.xml#c1_13421" targetEnd="quarantana/cap1.xml#c1_13426">en partie reconnus par la force légale, </note>
+        <note xml:id="french_1877_cap1-n483" type="comm" target="quarantana/cap1.xml#c1_13427" targetEnd="quarantana/cap1.xml#c1_13432">en partie tolérés avec un envieux silence, </note>
+        <note xml:id="french_1877_cap1-n484" type="comm" target="quarantana/cap1.xml#c1_13433" targetEnd="quarantana/cap1.xml#c1_13437">ou combattus par de vaines protestations, </note>
+        <note xml:id="french_1877_cap1-n485" type="comm" target="quarantana/cap1.xml#c1_13438" targetEnd="quarantana/cap1.xml#c1_13454">mais soutenus de fait et défendus par ces classes avec l’activité de l’intérêt propre et la jalousie du point d’honneur. </note>
+        <note xml:id="french_1877_cap1-n486" type="comm" target="quarantana/cap1.xml#c1_13455" targetEnd="quarantana/cap1.xml#c1_13459">Or cette impunité menacée et insultée, </note>
+        <note xml:id="french_1877_cap1-n487" type="comm" target="quarantana/cap1.xml#c1_13460" targetEnd="quarantana/cap1.xml#c1_13464">mais non détruite par les ordonnances, </note>
+        <note xml:id="french_1877_cap1-n488" type="comm" target="quarantana/cap1.xml#c1_13465" targetEnd="quarantana/cap1.xml#c1_13466">devait naturellement, </note>
+        <note xml:id="french_1877_cap1-n489" type="comm" target="quarantana/cap1.xml#c1_13467" targetEnd="quarantana/cap1.xml#c1_13469">à chaque menace, </note>
+        <note xml:id="french_1877_cap1-n490" type="comm" target="quarantana/cap1.xml#c1_13470" targetEnd="quarantana/cap1.xml#c1_13473">à chaque insulte, </note>
+        <note xml:id="french_1877_cap1-n491" type="comm" target="quarantana/cap1.xml#c1_13474" targetEnd="quarantana/cap1.xml#c1_13481">faire de nouveaux efforts, recourir à de nouvelles inventions pour se conserver. </note>
+        <note xml:id="french_1877_cap1-n492" type="comm" target="quarantana/cap1.xml#c1_13482" targetEnd="quarantana/cap1.xml#c1_13485">C’est ce qui arrivait en effet ; </note>
+        <note xml:id="french_1877_cap1-n493" type="comm" target="quarantana/cap1.xml#c1_13486" targetEnd="quarantana/cap1.xml#c1_13494">et chaque fois que paraissaient des ordonnances ayant pour objet de réprimer les auteurs de méfaits et de violences, </note>
+        <note xml:id="french_1877_cap1-n494" type="comm" target="quarantana/cap1.xml#c1_13495" targetEnd="quarantana/cap1.xml#c1_13516">ceux-ci cherchaient dans leur force réelle des moyens nouveaux et plus opportuns pour continuer de faire ce que les ordonnances venaient leur prohiber. </note>
+        <note xml:id="french_1877_cap1-n495" type="comm" target="quarantana/cap1.xml#c1_13517" targetEnd="quarantana/cap1.xml#c1_13535">Elles pouvaient bien entraver à chaque pas et molester l’homme tranquille qui n’avait pas de force à lui propre et se trouvait sans protection, </note>
+        <note xml:id="french_1877_cap1-n496" type="comm" target="quarantana/cap1.xml#c1_13536" targetEnd="quarantana/cap1.xml#c1_13536">parce que, </note>
+        <note xml:id="french_1877_cap1-n497" type="comm" target="quarantana/cap1.xml#c1_13537" targetEnd="quarantana/cap1.xml#c1_13551">dans le but d’avoir chaque individu sous la main pour prévenir ou punir chaque délit, </note>
+        <note xml:id="french_1877_cap1-n498" type="comm" target="quarantana/cap1.xml#c1_13552" targetEnd="quarantana/cap1.xml#c1_13562">elles soumettaient toutes les actions privées à la volonté arbitraire d’exécuteurs de toute sorte. </note>
+        <note xml:id="french_1877_cap1-n499" type="comm" target="quarantana/cap1.xml#c1_13563" targetEnd="quarantana/cap1.xml#c1_13564">Mais celui qui, </note>
+        <note xml:id="french_1877_cap1-n500" type="comm" target="quarantana/cap1.xml#c1_13565" targetEnd="quarantana/cap1.xml#c1_13569">avant de commettre un délit, </note>
+        <note xml:id="french_1877_cap1-n501" type="comm" target="quarantana/cap1.xml#c1_13570" targetEnd="quarantana/cap1.xml#c1_13581">avait pris ses mesures pour se réfugier à temps dans un couvent, </note>
+        <note xml:id="french_1877_cap1-n502" type="comm" target="quarantana/cap1.xml#c1_13582" targetEnd="quarantana/cap1.xml#c1_13584">dans un palais, </note>
+        <note xml:id="french_1877_cap1-n503" type="comm" target="quarantana/cap1.xml#c1_13585" targetEnd="quarantana/cap1.xml#c1_13593">où les sbires n’auraient jamais osé mettre le pied ; </note>
+        <note xml:id="french_1877_cap1-n504" type="comm" target="quarantana/cap1.xml#c1_13594" targetEnd="quarantana/cap1.xml#c1_13594">celui qui, </note>
+        <note xml:id="french_1877_cap1-n505" type="comm" target="quarantana/cap1.xml#c1_13595" targetEnd="quarantana/cap1.xml#c1_13596">sans autres précautions, </note>
+        <note xml:id="french_1877_cap1-n506" type="comm" target="quarantana/cap1.xml#c1_13597" targetEnd="quarantana/cap1.xml#c1_13610">portait une livrée qui engageait la vanité et l’intérêt d’une famille puissante, </note>
+        <note xml:id="french_1877_cap1-n507" type="comm" target="quarantana/cap1.xml#c1_13611" targetEnd="quarantana/cap1.xml#c1_13614">de toute une classe, </note>
+        <note xml:id="french_1877_cap1-n508" type="comm" target="quarantana/cap1.xml#c1_13615" targetEnd="quarantana/cap1.xml#c1_13628">à le défendre, celui-là était libre dans ses œuvres et pouvait se rire de tout ce fracas d’édits et d’ordonnances. </note>
+        <note xml:id="french_1877_cap1-n509" type="comm" target="quarantana/cap1.xml#c1_13629" targetEnd="quarantana/cap1.xml#c1_13636">Parmi ceux mêmes à qui était confié le soin de les faire exécuter, </note>
+        <note xml:id="french_1877_cap1-n510" type="comm" target="quarantana/cap1.xml#c1_13637" targetEnd="quarantana/cap1.xml#c1_13643">les uns appartenaient par leur naissance à la partie de la société où résidaient les privilèges, </note>
+        <note xml:id="french_1877_cap1-n511" type="comm" target="quarantana/cap1.xml#c1_13644" targetEnd="quarantana/cap1.xml#c1_13648">d’autres en dépendaient par clientèle. </note>
+        <note xml:id="french_1877_cap1-n512" type="comm" target="quarantana/cap1.xml#c1_13649" targetEnd="quarantana/cap1.xml#c1_13653">Les uns et les autres, </note>
+        <note xml:id="french_1877_cap1-n513" type="comm" target="quarantana/cap1.xml#c1_13654" targetEnd="quarantana/cap1.xml#c1_13655">par éducation, </note>
+        <note xml:id="french_1877_cap1-n514" type="comm" target="quarantana/cap1.xml#c1_13656" targetEnd="quarantana/cap1.xml#c1_13657">par intérêt, </note>
+        <note xml:id="french_1877_cap1-n515" type="comm" target="quarantana/cap1.xml#c1_13658" targetEnd="quarantana/cap1.xml#c1_13659">par habitude, </note>
+        <note xml:id="french_1877_cap1-n516" type="comm" target="quarantana/cap1.xml#c1_13660" targetEnd="quarantana/cap1.xml#c1_13661">par imitation, </note>
+        <note xml:id="french_1877_cap1-n517" type="comm" target="quarantana/cap1.xml#c1_13662" targetEnd="quarantana/cap1.xml#c1_13681">en avaient embrassé les maximes et se seraient bien gardés d’aller à l’encontre pour un morceau de papier affiché au coin des rues. </note>
+        <note xml:id="french_1877_cap1-n518" type="comm" target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13687">Quant aux agents chargés de l’exécution immédiate, </note>
+        <note xml:id="french_1877_cap1-n519" type="comm" target="quarantana/cap1.xml#c1_13688" targetEnd="quarantana/cap1.xml#c1_13693">eussent-ils été entreprenants comme des héros, </note>
+        <note xml:id="french_1877_cap1-n520" type="comm" target="quarantana/cap1.xml#c1_13694" targetEnd="quarantana/cap1.xml#c1_13696">obéissants comme des moines, </note>
+        <note xml:id="french_1877_cap1-n521" type="comm" target="quarantana/cap1.xml#c1_13697" targetEnd="quarantana/cap1.xml#c1_13702">et prêts à se sacrifier comme des martyrs, </note>
+        <note xml:id="french_1877_cap1-n522" type="comm" target="quarantana/cap1.xml#c1_13703" targetEnd="quarantana/cap1.xml#c1_13709">ils n’auraient pu réussir, </note>
+        <note xml:id="french_1877_cap1-n523" type="comm" target="quarantana/cap1.xml#c1_13710" targetEnd="quarantana/cap1.xml#c1_13720">inférieurs, comme ils étaient, en nombre à ceux qu’il s’agissait de soumettre, </note>
+        <note xml:id="french_1877_cap1-n524" type="comm" target="quarantana/cap1.xml#c1_13721" targetEnd="quarantana/cap1.xml#c1_13729">sans compter la probabilité fort grande pour eux d’être abandonnés par ceux qui, </note>
+        <note xml:id="french_1877_cap1-n525" type="comm" target="quarantana/cap1.xml#c1_13730" targetEnd="quarantana/cap1.xml#c1_13737">abstractivement et pour ainsi dire en théorie, </note>
+        <note xml:id="french_1877_cap1-n526" type="comm" target="quarantana/cap1.xml#c1_13738" targetEnd="quarantana/cap1.xml#c1_13741">leur ordonnaient d’opérer. </note>
+        <note xml:id="french_1877_cap1-n527" type="comm" target="quarantana/cap1.xml#c1_13742" targetEnd="quarantana/cap1.xml#c1_13757">Mais d’ailleurs ces agents étaient généralement pris parmi les êtres les plus abjects et les plus pervers de leurs temps ; </note>
+        <note xml:id="french_1877_cap1-n528" type="comm" target="quarantana/cap1.xml#c1_13758" targetEnd="quarantana/cap1.xml#c1_13770">leur emploi était regardé comme vil par ceux-là même qui pouvaient en avoir peur, </note>
+        <note xml:id="french_1877_cap1-n529" type="comm" target="quarantana/cap1.xml#c1_13771" targetEnd="quarantana/cap1.xml#c1_13776">et leur titre valait une injure. </note>
+        <note xml:id="french_1877_cap1-n530" type="comm" target="quarantana/cap1.xml#c1_13777" targetEnd="quarantana/cap1.xml#c1_13793">Il était donc tout simple qu’au lieu d’exposer ou même de livrer leur vie dans une entreprise désespérée, </note>
+        <note xml:id="french_1877_cap1-n531" type="comm" target="quarantana/cap1.xml#c1_13794" targetEnd="quarantana/cap1.xml#c1_13797">ils vendissent leur inaction, </note>
+        <note xml:id="french_1877_cap1-n532" type="comm" target="quarantana/cap1.xml#c1_13798" targetEnd="quarantana/cap1.xml#c1_13804">et au besoin leur connivence, aux hommes puissants, </note>
+        <note xml:id="french_1877_cap1-n533" type="comm" target="quarantana/cap1.xml#c1_13805" targetEnd="quarantana/cap1.xml#c1_13819">et réservassent l’exercice de leur autorité exécrée et de la force dont ils étaient réellement investis, </note>
+        <note xml:id="french_1877_cap1-n534" type="comm" target="quarantana/cap1.xml#c1_13820" targetEnd="quarantana/cap1.xml#c1_13826">pour les occasions où il n’y avait pas de risque à courir, </note>
+        <note xml:id="french_1877_cap1-n535" type="comm" target="quarantana/cap1.xml#c1_13827" targetEnd="quarantana/cap1.xml#c1_13837">c’est-à-dire pour opprimer et tourmenter les gens paisibles et sans défense. </note>
+        <note xml:id="french_1877_cap1-n536" type="comm" target="quarantana/cap1.xml#c1_13838" targetEnd="quarantana/cap1.xml#c1_13841">L’homme qui veut attaquer les autres, </note>
+        <note xml:id="french_1877_cap1-n537" type="comm" target="quarantana/cap1.xml#c1_13842" targetEnd="quarantana/cap1.xml#c1_13853">ou qui craint à chaque instant d’être attaqué lui-même cherche naturellement des alliés et des compagnons. </note>
+        <note xml:id="french_1877_cap1-n538" type="comm" target="quarantana/cap1.xml#c1_13854" targetEnd="quarantana/cap1.xml#c1_13855">De là vient que, </note>
+        <note xml:id="french_1877_cap1-n539" type="comm" target="quarantana/cap1.xml#c1_13856" targetEnd="quarantana/cap1.xml#c1_13858">dans ce temps, </note>
+        <note xml:id="french_1877_cap1-n540" type="comm" target="quarantana/cap1.xml#c1_13859" targetEnd="quarantana/cap1.xml#c1_13870">on voyait portée au plus haut degré la tendance des individus à se tenir coalisés en classes, </note>
+        <note xml:id="french_1877_cap1-n541" type="comm" target="quarantana/cap1.xml#c1_13871" targetEnd="quarantana/cap1.xml#c1_13874">à en former de nouvelles, </note>
+        <note xml:id="french_1877_cap1-n542" type="comm" target="quarantana/cap1.xml#c1_13875" targetEnd="quarantana/cap1.xml#c1_13886">et chacun à procurer la plus grande somme de pouvoir à celle dont il faisait partie. </note>
+        <note xml:id="french_1877_cap1-n543" type="comm" target="quarantana/cap1.xml#c1_13887" targetEnd="quarantana/cap1.xml#c1_13897">Le clergé veillait au maintien et à l’extension de ses immunités ; </note>
+        <note xml:id="french_1877_cap1-n544" type="comm" target="quarantana/cap1.xml#c1_13898" targetEnd="quarantana/cap1.xml#c1_13902">la noblesse, de ses privilèges ; </note>
+        <note xml:id="french_1877_cap1-n545" type="comm" target="quarantana/cap1.xml#c1_13903" targetEnd="quarantana/cap1.xml#c1_13907">le militaire, de ses exemptions. </note>
+        <note xml:id="french_1877_cap1-n546" type="comm" target="quarantana/cap1.xml#c1_13908" targetEnd="quarantana/cap1.xml#c1_13909">Les marchands, </note>
+        <note xml:id="french_1877_cap1-n547" type="comm" target="quarantana/cap1.xml#c1_13910" targetEnd="quarantana/cap1.xml#c1_13918">les artisans étaient enrôlés en maîtrises et en confréries ; </note>
+        <note xml:id="french_1877_cap1-n548" type="comm" target="quarantana/cap1.xml#c1_13919" targetEnd="quarantana/cap1.xml#c1_13923">les hommes de loi formaient une association ; </note>
+        <note xml:id="french_1877_cap1-n549" type="comm" target="quarantana/cap1.xml#c1_13924" targetEnd="quarantana/cap1.xml#c1_13928">les médecins même, une corporation. </note>
+        <note xml:id="french_1877_cap1-n550" type="comm" target="quarantana/cap1.xml#c1_13929" targetEnd="quarantana/cap1.xml#c1_13940">Chacune de ces petites oligarchies avait sa force spéciale et propre ; </note>
+        <note xml:id="french_1877_cap1-n551" type="comm" target="quarantana/cap1.xml#c1_13941" targetEnd="quarantana/cap1.xml#c1_13949">dans chacune, l’individu trouvait l’avantage d’employer pour soi, </note>
+        <note xml:id="french_1877_cap1-n552" type="comm" target="quarantana/cap1.xml#c1_13950" targetEnd="quarantana/cap1.xml#c1_13958">à proportion de son autorité et de son adresse, </note>
+        <note xml:id="french_1877_cap1-n553" type="comm" target="quarantana/cap1.xml#c1_13959" targetEnd="quarantana/cap1.xml#c1_13963">les forces réunies de plusieurs. </note>
+        <note xml:id="french_1877_cap1-n554" type="comm" target="quarantana/cap1.xml#c1_13964" targetEnd="quarantana/cap1.xml#c1_13974">Les plus honnêtes n’usaient de cet avantage que pour la défense ; </note>
+        <note xml:id="french_1877_cap1-n555" type="comm" target="quarantana/cap1.xml#c1_13975" targetEnd="quarantana/cap1.xml#c1_13995">les fourbes et les méchants en profitaient pour mener à fin de mauvaises actions auxquelles leurs moyens personnels n’auraient pu suffire, </note>
+        <note xml:id="french_1877_cap1-n556" type="comm" target="quarantana/cap1.xml#c1_13996" targetEnd="quarantana/cap1.xml#c1_13999">et pour s’en assurer l’impunité. </note>
+        <note xml:id="french_1877_cap1-n557" type="comm" target="quarantana/cap1.xml#c1_14000" targetEnd="quarantana/cap1.xml#c1_14009">Les forces cependant de ces diverses ligues étaient très-inégales ; </note>
+        <note xml:id="french_1877_cap1-n558" type="comm" target="quarantana/cap1.xml#c1_14010" targetEnd="quarantana/cap1.xml#c1_14010">et, </note>
+        <note xml:id="french_1877_cap1-n559" type="comm" target="quarantana/cap1.xml#c1_14011" targetEnd="quarantana/cap1.xml#c1_14013">dans les campagnes surtout, </note>
+        <note xml:id="french_1877_cap1-n560" type="comm" target="quarantana/cap1.xml#c1_14014" targetEnd="quarantana/cap1.xml#c1_14018">le noble riche et pratiquant la violence, </note>
+        <note xml:id="french_1877_cap1-n561" type="comm" target="quarantana/cap1.xml#c1_14019" targetEnd="quarantana/cap1.xml#c1_14024">avec une troupe de bravi à ses gages, </note>
+        <note xml:id="french_1877_cap1-n562" type="comm" target="quarantana/cap1.xml#c1_14025" targetEnd="quarantana/cap1.xml#c1_14046">et de plus avec une population de paysans habitués par tradition de famille non moins qu’intéressés ou forcés à se regarder en quelque sorte comme sujets et soldats du maître, </note>
+        <note xml:id="french_1877_cap1-n563" type="comm" target="quarantana/cap1.xml#c1_14047" targetEnd="quarantana/cap1.xml#c1_14060">exerçait un pouvoir auquel il eût été difficile qu’aucune autre fraction de ligue pût dans le lieu même opposer quelque moyen de résister. </note>
+        <note xml:id="french_1877_cap1-n564" type="comm" target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14063">Notre don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n565" type="comm" target="quarantana/cap1.xml#c1_14064" targetEnd="quarantana/cap1.xml#c1_14065">qui n’était ni noble, </note>
+        <note xml:id="french_1877_cap1-n566" type="comm" target="quarantana/cap1.xml#c1_14066" targetEnd="quarantana/cap1.xml#c1_14067">ni riche, </note>
+        <note xml:id="french_1877_cap1-n567" type="comm" target="quarantana/cap1.xml#c1_14068" targetEnd="quarantana/cap1.xml#c1_14070">encore moins courageux, </note>
+        <note xml:id="french_1877_cap1-n568" type="comm" target="quarantana/cap1.xml#c1_14071" targetEnd="quarantana/cap1.xml#c1_14073">s’était donc aperçu, </note>
+        <note xml:id="french_1877_cap1-n569" type="comm" target="quarantana/cap1.xml#c1_14074" targetEnd="quarantana/cap1.xml#c1_14081">presque avant d’atteindre l’âge de la raison, </note>
+        <note xml:id="french_1877_cap1-n570" type="comm" target="quarantana/cap1.xml#c1_14082" targetEnd="quarantana/cap1.xml#c1_14082">qu’il était, </note>
+        <note xml:id="french_1877_cap1-n571" type="comm" target="quarantana/cap1.xml#c1_14083" targetEnd="quarantana/cap1.xml#c1_14085">dans cette société, </note>
+        <note xml:id="french_1877_cap1-n572" type="comm" target="quarantana/cap1.xml#c1_14086" targetEnd="quarantana/cap1.xml#c1_14101">comme un pot de terre obligé de faire route en compagnie de nombreux pots de fer. </note>
+        <note xml:id="french_1877_cap1-n573" type="comm" target="quarantana/cap1.xml#c1_14102" targetEnd="quarantana/cap1.xml#c1_14110">Il avait en conséquence obéi de fort bon gré à ses parents, </note>
+        <note xml:id="french_1877_cap1-n574" type="comm" target="quarantana/cap1.xml#c1_14111" targetEnd="quarantana/cap1.xml#c1_14114">lorsqu’ils avaient voulu en faire un prêtre. </note>
+        <note xml:id="french_1877_cap1-n575" type="comm" target="quarantana/cap1.xml#c1_14115" targetEnd="quarantana/cap1.xml#c1_14118">À dire vrai, </note>
+        <note xml:id="french_1877_cap1-n576" type="comm" target="quarantana/cap1.xml#c1_14119" targetEnd="quarantana/cap1.xml#c1_14135">il n’avait pas beaucoup réfléchi aux devoirs et aux nobles fins du ministère auquel il se consacrait. </note>
+        <note xml:id="french_1877_cap1-n577" type="comm" target="quarantana/cap1.xml#c1_14136" targetEnd="quarantana/cap1.xml#c1_14142">S’assurer de quoi vivre avec quelque aisance, </note>
+        <note xml:id="french_1877_cap1-n578" type="comm" target="quarantana/cap1.xml#c1_14143" targetEnd="quarantana/cap1.xml#c1_14150">et se placer dans une classe forte et respectée, </note>
+        <note xml:id="french_1877_cap1-n579" type="comm" target="quarantana/cap1.xml#c1_14151" targetEnd="quarantana/cap1.xml#c1_14162">étaient deux raisons qui lui avaient paru plus que suffisantes pour le déterminer à un tel choix. </note>
+        <note xml:id="french_1877_cap1-n580" type="comm" target="quarantana/cap1.xml#c1_14163" targetEnd="quarantana/cap1.xml#c1_14170">Mais une classe quelconque ne protège un individu, </note>
+        <note xml:id="french_1877_cap1-n581" type="comm" target="quarantana/cap1.xml#c1_14171" targetEnd="quarantana/cap1.xml#c1_14173">ne le garantit, </note>
+        <note xml:id="french_1877_cap1-n582" type="comm" target="quarantana/cap1.xml#c1_14174" targetEnd="quarantana/cap1.xml#c1_14179">que jusqu’à un certain point ; </note>
+        <note xml:id="french_1877_cap1-n583" type="comm" target="quarantana/cap1.xml#c1_14180" targetEnd="quarantana/cap1.xml#c1_14188">aucune ne le dispense de se faire un système particulier de conduite. </note>
+        <note xml:id="french_1877_cap1-n584" type="comm" target="quarantana/cap1.xml#c1_14189" targetEnd="quarantana/cap1.xml#c1_14190">Don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n585" type="comm" target="quarantana/cap1.xml#c1_14191" targetEnd="quarantana/cap1.xml#c1_14197">continuellement absorbé dans les pensées de son propre repos, </note>
+        <note xml:id="french_1877_cap1-n586" type="comm" target="quarantana/cap1.xml#c1_14198" targetEnd="quarantana/cap1.xml#c1_14215">ne recherchait point ces avantages qui n’eussent pu s’obtenir qu’en agissant beaucoup et se risquant un peu. </note>
+        <note xml:id="french_1877_cap1-n587" type="comm" target="quarantana/cap1.xml#c1_14216" targetEnd="quarantana/cap1.xml#c1_14234">Son système consistait principalement à fuir toutes contestations et à céder dans celles qu’il ne pouvait éviter. </note>
+        <note xml:id="french_1877_cap1-n588" type="comm" target="quarantana/cap1.xml#c1_14235" targetEnd="quarantana/cap1.xml#c1_14245">Neutralité désarmée dans toutes les guerres qui éclataient autour de lui, </note>
+        <note xml:id="french_1877_cap1-n589" type="comm" target="quarantana/cap1.xml#c1_14246" targetEnd="quarantana/cap1.xml#c1_14247">par les démêlés, </note>
+        <note xml:id="french_1877_cap1-n590" type="comm" target="quarantana/cap1.xml#c1_14248" targetEnd="quarantana/cap1.xml#c1_14249">alors très-fréquents, </note>
+        <note xml:id="french_1877_cap1-n591" type="comm" target="quarantana/cap1.xml#c1_14250" targetEnd="quarantana/cap1.xml#c1_14256">entre le clergé et le pouvoir séculier, </note>
+        <note xml:id="french_1877_cap1-n592" type="comm" target="quarantana/cap1.xml#c1_14257" targetEnd="quarantana/cap1.xml#c1_14262">entre le militaire et le civil, </note>
+        <note xml:id="french_1877_cap1-n593" type="comm" target="quarantana/cap1.xml#c1_14263" targetEnd="quarantana/cap1.xml#c1_14266">entre nobles et nobles, </note>
+        <note xml:id="french_1877_cap1-n594" type="comm" target="quarantana/cap1.xml#c1_14267" targetEnd="quarantana/cap1.xml#c1_14272">jusqu’aux disputes entre deux paysans, </note>
+        <note xml:id="french_1877_cap1-n595" type="comm" target="quarantana/cap1.xml#c1_14273" targetEnd="quarantana/cap1.xml#c1_14284">qu’un mot faisait naître et qui se décidaient à coups de poing ou de couteau. </note>
+        <note xml:id="french_1877_cap1-n596" type="comm" target="quarantana/cap1.xml#c1_14285" targetEnd="quarantana/cap1.xml#c1_14295">S’il se trouvait absolument obligé à prendre parti entre deux contendants, </note>
+        <note xml:id="french_1877_cap1-n597" type="comm" target="quarantana/cap1.xml#c1_14296" targetEnd="quarantana/cap1.xml#c1_14299">il se mettait du côté du plus fort, </note>
+        <note xml:id="french_1877_cap1-n598" type="comm" target="quarantana/cap1.xml#c1_14300" targetEnd="quarantana/cap1.xml#c1_14315">toujours pourtant à l’arrière-garde et tâchant de faire voir à l’autre qu’il n’était pas volontairement son ennemi. </note>
+        <note xml:id="french_1877_cap1-n599" type="comm" target="quarantana/cap1.xml#c1_14316" targetEnd="quarantana/cap1.xml#c1_14319">Il semblait lui dire : </note>
+        <note xml:id="french_1877_cap1-n600" type="comm" target="quarantana/cap1.xml#c1_14320" targetEnd="quarantana/cap1.xml#c1_14329">« Que n’avez-vous su être le plus fort vous-même ? </note>
+        <note xml:id="french_1877_cap1-n601" type="comm" target="quarantana/cap1.xml#c1_14330" targetEnd="quarantana/cap1.xml#c1_14336">je me serais rangé de votre bord. </note>
+        <note xml:id="french_1877_cap1-n602" type="comm" target="quarantana/cap1.xml#c1_14337" targetEnd="quarantana/cap1.xml#c1_14341">» Se tenant à distance des hommes connus pour opprimer les autres, </note>
+        <note xml:id="french_1877_cap1-n603" type="comm" target="quarantana/cap1.xml#c1_14342" targetEnd="quarantana/cap1.xml#c1_14348">dissimulant leurs injures lorsqu’elles étaient passagères et nées d’un caprice, </note>
+        <note xml:id="french_1877_cap1-n604" type="comm" target="quarantana/cap1.xml#c1_14349" targetEnd="quarantana/cap1.xml#c1_14362">répondant par de la soumission à celles qui venaient d’une intention plus sérieuse et plus réfléchie, </note>
+        <note xml:id="french_1877_cap1-n605" type="comm" target="quarantana/cap1.xml#c1_14363" targetEnd="quarantana/cap1.xml#c1_14363">obligeant, </note>
+        <note xml:id="french_1877_cap1-n606" type="comm" target="quarantana/cap1.xml#c1_14364" targetEnd="quarantana/cap1.xml#c1_14370">à force de révérences et de gracieux respect, </note>
+        <note xml:id="french_1877_cap1-n607" type="comm" target="quarantana/cap1.xml#c1_14371" targetEnd="quarantana/cap1.xml#c1_14385">les plus bourrus et les plus dédaigneux à lui accorder un sourire lorsqu’il les rencontrait sur son chemin, </note>
+        <note xml:id="french_1877_cap1-n608" type="comm" target="quarantana/cap1.xml#c1_14386" targetEnd="quarantana/cap1.xml#c1_14396">le pauvre homme était parvenu à dépasser ses soixante ans sans trop essuyer de bourrasques. </note>
+        <note xml:id="french_1877_cap1-n609" type="comm" target="quarantana/cap1.xml#c1_14397" targetEnd="quarantana/cap1.xml#c1_14411">Ce n’est pas qu’il n’eût, lui aussi, sa petite dose de fiel dans le corps, </note>
+        <note xml:id="french_1877_cap1-n610" type="comm" target="quarantana/cap1.xml#c1_14412" targetEnd="quarantana/cap1.xml#c1_14417">et cet exercice continuel de patience, </note>
+        <note xml:id="french_1877_cap1-n611" type="comm" target="quarantana/cap1.xml#c1_14418" targetEnd="quarantana/cap1.xml#c1_14424">cette obligation de donner si souvent raison aux autres, </note>
+        <note xml:id="french_1877_cap1-n612" type="comm" target="quarantana/cap1.xml#c1_14425" targetEnd="quarantana/cap1.xml#c1_14437">tant de morceaux amers avalés en silence lui avaient aigri ce fiel à tel point que, </note>
+        <note xml:id="french_1877_cap1-n613" type="comm" target="quarantana/cap1.xml#c1_14438" targetEnd="quarantana/cap1.xml#c1_14450">s’il n’avait pu de temps en temps le laisser un peu s’épancher, </note>
+        <note xml:id="french_1877_cap1-n614" type="comm" target="quarantana/cap1.xml#c1_14451" targetEnd="quarantana/cap1.xml#c1_14456">sa santé en aurait certainement souffert. </note>
+        <note xml:id="french_1877_cap1-n615" type="comm" target="quarantana/cap1.xml#c1_14457" targetEnd="quarantana/cap1.xml#c1_14477">Mais, comme après tout il y avait au monde et près de lui des personnes qu’il connaissait à fond pour être incapables de mal faire, </note>
+        <note xml:id="french_1877_cap1-n616" type="comm" target="quarantana/cap1.xml#c1_14478" targetEnd="quarantana/cap1.xml#c1_14489">il pouvait avec elles se soulager quelquefois de sa mauvaise humeur longtemps concentrée, </note>
+        <note xml:id="french_1877_cap1-n617" type="comm" target="quarantana/cap1.xml#c1_14490" targetEnd="quarantana/cap1.xml#c1_14503">et se passer comme un autre l’envie d’être un peu fantasque et de gronder à tort. </note>
+        <note xml:id="french_1877_cap1-n618" type="comm" target="quarantana/cap1.xml#c1_14504" targetEnd="quarantana/cap1.xml#c1_14516">Il était censeur rigide des hommes qui n’agissaient pas comme lui, </note>
+        <note xml:id="french_1877_cap1-n619" type="comm" target="quarantana/cap1.xml#c1_14517" targetEnd="quarantana/cap1.xml#c1_14524">pourvu toutefois que sa censure pût s’exercer sans aucun danger, </note>
+        <note xml:id="french_1877_cap1-n620" type="comm" target="quarantana/cap1.xml#c1_14525" targetEnd="quarantana/cap1.xml#c1_14527">quelque lointain qu’il pût être. </note>
+        <note xml:id="french_1877_cap1-n621" type="comm" target="quarantana/cap1.xml#c1_14528" targetEnd="quarantana/cap1.xml#c1_14534">Le battu était pour le moins un imprudent ; </note>
+        <note xml:id="french_1877_cap1-n622" type="comm" target="quarantana/cap1.xml#c1_14535" targetEnd="quarantana/cap1.xml#c1_14541">l’homme tué avait toujours été querelleur de caractère. </note>
+        <note xml:id="french_1877_cap1-n623" type="comm" target="quarantana/cap1.xml#c1_14542" targetEnd="quarantana/cap1.xml#c1_14543">Si quelqu’un, </note>
+        <note xml:id="french_1877_cap1-n624" type="comm" target="quarantana/cap1.xml#c1_14544" targetEnd="quarantana/cap1.xml#c1_14552">s’étant mis à soutenir ses raisons contre un homme puissant, </note>
+        <note xml:id="french_1877_cap1-n625" type="comm" target="quarantana/cap1.xml#c1_14553" targetEnd="quarantana/cap1.xml#c1_14556">perdait sa cause avec dommage, </note>
+        <note xml:id="french_1877_cap1-n626" type="comm" target="quarantana/cap1.xml#c1_14557" targetEnd="quarantana/cap1.xml#c1_14563">don Abbondio savait toujours lui trouver quelque tort ; </note>
+        <note xml:id="french_1877_cap1-n627" type="comm" target="quarantana/cap1.xml#c1_14564" targetEnd="quarantana/cap1.xml#c1_14566">chose qui n’était pas difficile, </note>
+        <note xml:id="french_1877_cap1-n628" type="comm" target="quarantana/cap1.xml#c1_14567" targetEnd="quarantana/cap1.xml#c1_14589">puisque la raison et le tort ne sont jamais si nettement tranchés que chacune des deux parties adverses n’ait absolument pour elle que l’un des deux. </note>
+        <note xml:id="french_1877_cap1-n629" type="comm" target="quarantana/cap1.xml#c1_14590" targetEnd="quarantana/cap1.xml#c1_14611">Il déclamait surtout contre ceux de ses confrères qui ne craignaient pas de s’exposer en prenant le parti d’un homme faible opprimé contre un méchant homme puissant. </note>
+        <note xml:id="french_1877_cap1-n630" type="comm" target="quarantana/cap1.xml#c1_14612" targetEnd="quarantana/cap1.xml#c1_14625">Il appelait cela acheter du souci à beaux deniers comptants et vouloir redresser les jambes aux chiens ; </note>
+        <note xml:id="french_1877_cap1-n631" type="comm" target="quarantana/cap1.xml#c1_14626" targetEnd="quarantana/cap1.xml#c1_14634">il disait aussi d’un ton sévère que c’était s’ingérer dans les choses profanes, </note>
+        <note xml:id="french_1877_cap1-n632" type="comm" target="quarantana/cap1.xml#c1_14635" targetEnd="quarantana/cap1.xml#c1_14641">au détriment de la dignité du ministère sacré ; </note>
+        <note xml:id="french_1877_cap1-n633" type="comm" target="quarantana/cap1.xml#c1_14642" targetEnd="quarantana/cap1.xml#c1_14645">et il se prononçait contre ceux-ci, </note>
+        <note xml:id="french_1877_cap1-n634" type="comm" target="quarantana/cap1.xml#c1_14646" targetEnd="quarantana/cap1.xml#c1_14654">toujours cependant entre quatre yeux ou dans un comité bien restreint, </note>
+        <note xml:id="french_1877_cap1-n635" type="comm" target="quarantana/cap1.xml#c1_14655" targetEnd="quarantana/cap1.xml#c1_14674">avec d’autant plus de véhémence qu’ils étaient plus connus pour ne pas montrer de ressentiment dans les offenses qui leur étaient personnelles. </note>
+        <note xml:id="french_1877_cap1-n636" type="comm" target="quarantana/cap1.xml#c1_14675" targetEnd="quarantana/cap1.xml#c1_14690">Il avait enfin une maxime favorite par laquelle il mettait toujours le sceau à ses discours en pareille matière. </note>
+        <note xml:id="french_1877_cap1-n637" type="comm" target="quarantana/cap1.xml#c1_14691" targetEnd="quarantana/cap1.xml#c1_14704">C’était que pour l’honnête homme qui prend garde à soi et ne se mêle que de ce qui le regarde, </note>
+        <note xml:id="french_1877_cap1-n638" type="comm" target="quarantana/cap1.xml#c1_14705" targetEnd="quarantana/cap1.xml#c1_14709">il n’y a jamais de mauvaises rencontres. </note>
+        <note xml:id="french_1877_cap1-n639" type="comm" target="quarantana/cap1.xml#c1_14710" targetEnd="quarantana/cap1.xml#c1_14726">Maintenant, que mes vingt-cinq lecteurs se figurent l’impression que dut faire sur l’âme du pauvre homme ce qui vient d’être raconté. </note>
+        <note xml:id="french_1877_cap1-n640" type="comm" target="quarantana/cap1.xml#c1_14727" targetEnd="quarantana/cap1.xml#c1_14735">La frayeur que lui avaient causée ces mauvais visages et ces vilaines paroles, </note>
+        <note xml:id="french_1877_cap1-n641" type="comm" target="quarantana/cap1.xml#c1_14736" targetEnd="quarantana/cap1.xml#c1_14744">les menaces d’un seigneur connu pour ne pas menacer en vain, </note>
+        <note xml:id="french_1877_cap1-n642" type="comm" target="quarantana/cap1.xml#c1_14745" targetEnd="quarantana/cap1.xml#c1_14749">un système de vie tranquille, </note>
+        <note xml:id="french_1877_cap1-n643" type="comm" target="quarantana/cap1.xml#c1_14750" targetEnd="quarantana/cap1.xml#c1_14757">qui lui avait coûté tant d’années d’étude et de patience, </note>
+        <note xml:id="french_1877_cap1-n644" type="comm" target="quarantana/cap1.xml#c1_14758" targetEnd="quarantana/cap1.xml#c1_14761">renversé en un instant, </note>
+        <note xml:id="french_1877_cap1-n645" type="comm" target="quarantana/cap1.xml#c1_14762" targetEnd="quarantana/cap1.xml#c1_14772">et un défilé d’où il ne voyait comment il pourrait sortir ; </note>
+        <note xml:id="french_1877_cap1-n646" type="comm" target="quarantana/cap1.xml#c1_14773" targetEnd="quarantana/cap1.xml#c1_14783">toutes ces pensées grondaient tumultueusement dans la tête de don Abbondio pendant qu’il cheminait les yeux à terre. </note>
+        <note xml:id="french_1877_cap1-n647" type="comm" target="quarantana/cap1.xml#c1_14784" targetEnd="quarantana/cap1.xml#c1_14795">— Si Renzo était un homme que l’on pût renvoyer en paix avec un bel et bon refus, </note>
+        <note xml:id="french_1877_cap1-n648" type="comm" target="quarantana/cap1.xml#c1_14796" targetEnd="quarantana/cap1.xml#c1_14796">passe encore ; </note>
+        <note xml:id="french_1877_cap1-n649" type="comm" target="quarantana/cap1.xml#c1_14797" targetEnd="quarantana/cap1.xml#c1_14800">mais il voudra des raisons, </note>
+        <note xml:id="french_1877_cap1-n650" type="comm" target="quarantana/cap1.xml#c1_14801" targetEnd="quarantana/cap1.xml#c1_14809">et, bon Dieu ! qu’aurai-je à lui répondre ? </note>
+        <note xml:id="french_1877_cap1-n651" type="comm" target="quarantana/cap1.xml#c1_14810" targetEnd="quarantana/cap1.xml#c1_14817">C’est une tête aussi, celui-là ! </note>
+        <note xml:id="french_1877_cap1-n652" type="comm" target="quarantana/cap1.xml#c1_14818" targetEnd="quarantana/cap1.xml#c1_14823">un agneau, si personne ne le touche ; </note>
+        <note xml:id="french_1877_cap1-n653" type="comm" target="quarantana/cap1.xml#c1_14824" targetEnd="quarantana/cap1.xml#c1_14838">mais si on le contrarie… prr !… et puis il est fou de cette Lucia, </note>
+        <note xml:id="french_1877_cap1-n654" type="comm" target="quarantana/cap1.xml#c1_14839" targetEnd="quarantana/cap1.xml#c1_14842">amoureux comme… Grands enfants qui, </note>
+        <note xml:id="french_1877_cap1-n655" type="comm" target="quarantana/cap1.xml#c1_14843" targetEnd="quarantana/cap1.xml#c1_14847">ne sachant que faire, </note>
+        <note xml:id="french_1877_cap1-n656" type="comm" target="quarantana/cap1.xml#c1_14848" targetEnd="quarantana/cap1.xml#c1_14848">se prennent d’amour, </note>
+        <note xml:id="french_1877_cap1-n657" type="comm" target="quarantana/cap1.xml#c1_14849" targetEnd="quarantana/cap1.xml#c1_14850">veulent se marier, </note>
+        <note xml:id="french_1877_cap1-n658" type="comm" target="quarantana/cap1.xml#c1_14851" targetEnd="quarantana/cap1.xml#c1_14855">et ne pensent pas à autre chose, </note>
+        <note xml:id="french_1877_cap1-n659" type="comm" target="quarantana/cap1.xml#c1_14856" targetEnd="quarantana/cap1.xml#c1_14867">ne s’inquiètent pas de la peine dans laquelle ils mettent un pauvre honnête homme. </note>
+        <note xml:id="french_1877_cap1-n660" type="comm" target="quarantana/cap1.xml#c1_14868" targetEnd="quarantana/cap1.xml#c1_14870">Oh ! malheureux que je suis ! </note>
+        <note xml:id="french_1877_cap1-n661" type="comm" target="quarantana/cap1.xml#c1_14871" targetEnd="quarantana/cap1.xml#c1_14885">Fallait-il donc que ces deux vilaines figures vinssent se planter tout juste sur mon chemin et s’attaquer à moi ? </note>
+        <note xml:id="french_1877_cap1-n662" type="comm" target="quarantana/cap1.xml#c1_14886" targetEnd="quarantana/cap1.xml#c1_14888">Est-ce que cela me regarde ? </note>
+        <note xml:id="french_1877_cap1-n663" type="comm" target="quarantana/cap1.xml#c1_14889" targetEnd="quarantana/cap1.xml#c1_14893">Est-ce moi qui veux me marier ? </note>
+        <note xml:id="french_1877_cap1-n664" type="comm" target="quarantana/cap1.xml#c1_14894" targetEnd="quarantana/cap1.xml#c1_14900">Que ne sont-ils plutôt allés parler… Ah ! </note>
+        <note xml:id="french_1877_cap1-n665" type="comm" target="quarantana/cap1.xml#c1_14901" targetEnd="quarantana/cap1.xml#c1_14904">voyez un peu la fatalité ! </note>
+        <note xml:id="french_1877_cap1-n666" type="comm" target="quarantana/cap1.xml#c1_14905" targetEnd="quarantana/cap1.xml#c1_14923">Les bonnes idées me viennent toujours après coup. </note>
+        <note xml:id="french_1877_cap1-n667" type="comm" target="quarantana/cap1.xml#c1_14924" targetEnd="quarantana/cap1.xml#c1_14957">Si j’avais pensé à leur suggérer d’aller porter leur message… — Mais ici il s’aperçut que se repentir de n’avoir pas été le conseiller et le coopérateur de l’iniquité était chose aussi trop inique, </note>
+        <note xml:id="french_1877_cap1-n668" type="comm" target="quarantana/cap1.xml#c1_14958" targetEnd="quarantana/cap1.xml#c1_14975">et il tourna toute l’aigreur de ses pensées contre celui qui venait si durement lui ravir son repos. </note>
+        <note xml:id="french_1877_cap1-n669" type="comm" target="quarantana/cap1.xml#c1_14976" targetEnd="quarantana/cap1.xml#c1_14985">Il ne connaissait don Rodrigo que de vue et sur le dire des autres, </note>
+        <note xml:id="french_1877_cap1-n670" type="comm" target="quarantana/cap1.xml#c1_14986" targetEnd="quarantana/cap1.xml#c1_15010">et n’avait jamais eu d’autres rapports avec lui que de se courber en deux doubles et de faire toucher la terre à son chapeau, </note>
+        <note xml:id="french_1877_cap1-n671" type="comm" target="quarantana/cap1.xml#c1_15011" targetEnd="quarantana/cap1.xml#c1_15019">lorsqu’il l’avait, par un hasard assez rare, rencontré sur ses pas. </note>
+        <note xml:id="french_1877_cap1-n672" type="comm" target="quarantana/cap1.xml#c1_15020" targetEnd="quarantana/cap1.xml#c1_15035">Il lui était arrivé de défendre en plus d’une occasion la réputation de ce seigneur contre ceux qui, </note>
+        <note xml:id="french_1877_cap1-n673" type="comm" target="quarantana/cap1.xml#c1_15036" targetEnd="quarantana/cap1.xml#c1_15038">à voix basse, </note>
+        <note xml:id="french_1877_cap1-n674" type="comm" target="quarantana/cap1.xml#c1_15039" targetEnd="quarantana/cap1.xml#c1_15045">soupirant et levant les yeux au ciel, </note>
+        <note xml:id="french_1877_cap1-n675" type="comm" target="quarantana/cap1.xml#c1_15046" targetEnd="quarantana/cap1.xml#c1_15049">maudissaient quelqu’un de ses actes ; </note>
+        <note xml:id="french_1877_cap1-n676" type="comm" target="quarantana/cap1.xml#c1_15050" targetEnd="quarantana/cap1.xml#c1_15057">il avait dit cent fois que c’était un respectable gentilhomme. </note>
+        <note xml:id="french_1877_cap1-n677" type="comm" target="quarantana/cap1.xml#c1_15058" targetEnd="quarantana/cap1.xml#c1_15084">Mais dans ce moment il lui donna dans son cœur tous ces titres qu’il ne lui avait jamais entendu appliquer par d’autres sans se hâter de les interrompre par un : « Allons donc ! » </note>
+        <note xml:id="french_1877_cap1-n678" type="comm" target="quarantana/cap1.xml#c1_15085" targetEnd="quarantana/cap1.xml#c1_15085">Arrivé, </note>
+        <note xml:id="french_1877_cap1-n679" type="comm" target="quarantana/cap1.xml#c1_15086" targetEnd="quarantana/cap1.xml#c1_15091">au milieu du tumulte de ces pensées, </note>
+        <note xml:id="french_1877_cap1-n680" type="comm" target="quarantana/cap1.xml#c1_15092" targetEnd="quarantana/cap1.xml#c1_15101">à la porte de sa maison qui était au bout du village, </note>
+        <note xml:id="french_1877_cap1-n681" type="comm" target="quarantana/cap1.xml#c1_15102" targetEnd="quarantana/cap1.xml#c1_15113">il mit précipitamment dans la serrure la clef qu’il tenait déjà dans sa main, </note>
+        <note xml:id="french_1877_cap1-n682" type="comm" target="quarantana/cap1.xml#c1_15114" targetEnd="quarantana/cap1.xml#c1_15114">ouvrit, </note>
+        <note xml:id="french_1877_cap1-n683" type="comm" target="quarantana/cap1.xml#c1_15115" targetEnd="quarantana/cap1.xml#c1_15115">entra, </note>
+        <note xml:id="french_1877_cap1-n684" type="comm" target="quarantana/cap1.xml#c1_15116" targetEnd="quarantana/cap1.xml#c1_15117">referma soigneusement, </note>
+        <note xml:id="french_1877_cap1-n685" type="comm" target="quarantana/cap1.xml#c1_15118" targetEnd="quarantana/cap1.xml#c1_15125">et pressé de se trouver en compagnie sûre : </note>
+        <note xml:id="french_1877_cap1-n686" type="comm" target="quarantana/cap1.xml#c1_15126" targetEnd="quarantana/cap1.xml#c1_15129">« Perpetua, Perpetua ! » cria-t-il aussitôt, </note>
+        <note xml:id="french_1877_cap1-n687" type="comm" target="quarantana/cap1.xml#c1_15130" targetEnd="quarantana/cap1.xml#c1_15146">en allant vers le petit salon où sûrement celle-ci devait être à mettre le couvert pour le souper. </note>
+        <note xml:id="french_1877_cap1-n688" type="comm" target="quarantana/cap1.xml#c1_15147" targetEnd="quarantana/cap1.xml#c1_15148">Perpetua, </note>
+        <note xml:id="french_1877_cap1-n689" type="comm" target="quarantana/cap1.xml#c1_15149" targetEnd="quarantana/cap1.xml#c1_15152">comme on voit, </note>
+        <note xml:id="french_1877_cap1-n690" type="comm" target="quarantana/cap1.xml#c1_15153" targetEnd="quarantana/cap1.xml#c1_15157">était la servante de don Abbondio ; </note>
+        <note xml:id="french_1877_cap1-n691" type="comm" target="quarantana/cap1.xml#c1_15158" targetEnd="quarantana/cap1.xml#c1_15161">servante fidèle et affectionnée, </note>
+        <note xml:id="french_1877_cap1-n692" type="comm" target="quarantana/cap1.xml#c1_15162" targetEnd="quarantana/cap1.xml#c1_15168">qui savait obéir et commander selon l’occasion, </note>
+        <note xml:id="french_1877_cap1-n693" type="comm" target="quarantana/cap1.xml#c1_15169" targetEnd="quarantana/cap1.xml#c1_15178">supporter à propos les gronderies et les caprices d’humeur de son maître, </note>
+        <note xml:id="french_1877_cap1-n694" type="comm" target="quarantana/cap1.xml#c1_15179" targetEnd="quarantana/cap1.xml#c1_15185">comme aussi lui faire à propos supporter les siens, </note>
+        <note xml:id="french_1877_cap1-n695" type="comm" target="quarantana/cap1.xml#c1_15186" targetEnd="quarantana/cap1.xml#c1_15203">qui devenaient de jour en jour plus fréquents depuis qu’elle avait dépassé l’âge canonique de quarante ans en restant fille, </note>
+        <note xml:id="french_1877_cap1-n696" type="comm" target="quarantana/cap1.xml#c1_15204" targetEnd="quarantana/cap1.xml#c1_15217">parce que, selon son dire, elle avait refusé tous les partis qui s’étaient présentés, </note>
+        <note xml:id="french_1877_cap1-n697" type="comm" target="quarantana/cap1.xml#c1_15218" targetEnd="quarantana/cap1.xml#c1_15233">ou, selon le dire de ses amies, parce qu’elle n’avait pas trouvé un chien qui voulût d’elle. </note>
+        <note xml:id="french_1877_cap1-n698" type="comm" target="quarantana/cap1.xml#c1_15234" targetEnd="quarantana/cap1.xml#c1_15235">« J’y vais, </note>
+        <note xml:id="french_1877_cap1-n699" type="comm" target="quarantana/cap1.xml#c1_15236" targetEnd="quarantana/cap1.xml#c1_15249">répondit-elle en mettant sur la table à la place ordinaire le flacon de vin favori de don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n700" type="comm" target="quarantana/cap1.xml#c1_15250" targetEnd="quarantana/cap1.xml#c1_15253">et elle vint lentement ; </note>
+        <note xml:id="french_1877_cap1-n701" type="comm" target="quarantana/cap1.xml#c1_15254" targetEnd="quarantana/cap1.xml#c1_15269">mais elle n’était pas encore à la porte du petit salon qu’il y entra d’un pas si incertain, </note>
+        <note xml:id="french_1877_cap1-n702" type="comm" target="quarantana/cap1.xml#c1_15270" targetEnd="quarantana/cap1.xml#c1_15274">avec un regard si troublé, </note>
+        <note xml:id="french_1877_cap1-n703" type="comm" target="quarantana/cap1.xml#c1_15275" targetEnd="quarantana/cap1.xml#c1_15279">un visage si décomposé, </note>
+        <note xml:id="french_1877_cap1-n704" type="comm" target="quarantana/cap1.xml#c1_15280" targetEnd="quarantana/cap1.xml#c1_15290">qu’il n’eût pas été besoin des yeux experts de Perpétua pouf découvrir, </note>
+        <note xml:id="french_1877_cap1-n705" type="comm" target="quarantana/cap1.xml#c1_15291" targetEnd="quarantana/cap1.xml#c1_15304">au premier abord, qu’il lui était arrivé quelque chose de fort extraordinaire. </note>
+        <note xml:id="french_1877_cap1-n706" type="comm" target="quarantana/cap1.xml#c1_15305" targetEnd="quarantana/cap1.xml#c1_15305">— Miséricorde ! </note>
+        <note xml:id="french_1877_cap1-n707" type="comm" target="quarantana/cap1.xml#c1_15306" targetEnd="quarantana/cap1.xml#c1_15306">qu’avez-vous donc, </note>
+        <note xml:id="french_1877_cap1-n708" type="comm" target="quarantana/cap1.xml#c1_15307" targetEnd="quarantana/cap1.xml#c1_15308">mon cher maître ? </note>
+        <note xml:id="french_1877_cap1-n709" type="comm" target="quarantana/cap1.xml#c1_15309" targetEnd="quarantana/cap1.xml#c1_15309">— Rien, </note>
+        <note xml:id="french_1877_cap1-n710" type="comm" target="quarantana/cap1.xml#c1_15310" targetEnd="quarantana/cap1.xml#c1_15313">rien, répondit don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n711" type="comm" target="quarantana/cap1.xml#c1_15314" targetEnd="quarantana/cap1.xml#c1_15320">en se laissant aller tout essoufflé sur son grand fauteuil. </note>
+        <note xml:id="french_1877_cap1-n712" type="comm" target="quarantana/cap1.xml#c1_15321" targetEnd="quarantana/cap1.xml#c1_15321">— Comment, </note>
+        <note xml:id="french_1877_cap1-n713" type="comm" target="quarantana/cap1.xml#c1_15322" targetEnd="quarantana/cap1.xml#c1_15322">rien ? </note>
+        <note xml:id="french_1877_cap1-n714" type="comm" target="quarantana/cap1.xml#c1_15323" targetEnd="quarantana/cap1.xml#c1_15329">C’est à moi que vous voudriez le faire croire ? </note>
+        <note xml:id="french_1877_cap1-n715" type="comm" target="quarantana/cap1.xml#c1_15330" targetEnd="quarantana/cap1.xml#c1_15332">Bouleversé comme vous êtes ? </note>
+        <note xml:id="french_1877_cap1-n716" type="comm" target="quarantana/cap1.xml#c1_15333" targetEnd="quarantana/cap1.xml#c1_15337">Quelque aventure étrange est arrivée. </note>
+        <note xml:id="french_1877_cap1-n717" type="comm" target="quarantana/cap1.xml#c1_15338" targetEnd="quarantana/cap1.xml#c1_15338">— Oh ! </note>
+        <note xml:id="french_1877_cap1-n718" type="comm" target="quarantana/cap1.xml#c1_15339" targetEnd="quarantana/cap1.xml#c1_15342">pour l’amour du ciel ! </note>
+        <note xml:id="french_1877_cap1-n719" type="comm" target="quarantana/cap1.xml#c1_15343" targetEnd="quarantana/cap1.xml#c1_15345">quand je dis rien, </note>
+        <note xml:id="french_1877_cap1-n720" type="comm" target="quarantana/cap1.xml#c1_15346" targetEnd="quarantana/cap1.xml#c1_15348">c’est que ce n’est rien, </note>
+        <note xml:id="french_1877_cap1-n721" type="comm" target="quarantana/cap1.xml#c1_15349" targetEnd="quarantana/cap1.xml#c1_15355">ou c’est quelque chose que je ne puis dire. </note>
+        <note xml:id="french_1877_cap1-n722" type="comm" target="quarantana/cap1.xml#c1_15356" targetEnd="quarantana/cap1.xml#c1_15362">— Que vous ne pouvez dire, pas même à moi ? </note>
+        <note xml:id="french_1877_cap1-n723" type="comm" target="quarantana/cap1.xml#c1_15363" targetEnd="quarantana/cap1.xml#c1_15369">Et qui prendra soin de votre santé ? </note>
+        <note xml:id="french_1877_cap1-n724" type="comm" target="quarantana/cap1.xml#c1_15370" targetEnd="quarantana/cap1.xml#c1_15374">Qui vous donnera un avis ?… </note>
+        <note xml:id="french_1877_cap1-n725" type="comm" target="quarantana/cap1.xml#c1_15375" targetEnd="quarantana/cap1.xml#c1_15375">— Hélas ! </note>
+        <note xml:id="french_1877_cap1-n726" type="comm" target="quarantana/cap1.xml#c1_15376" targetEnd="quarantana/cap1.xml#c1_15376">taisez-vous, </note>
+        <note xml:id="french_1877_cap1-n727" type="comm" target="quarantana/cap1.xml#c1_15377" targetEnd="quarantana/cap1.xml#c1_15380">et laissez là le couvert. </note>
+        <note xml:id="french_1877_cap1-n728" type="comm" target="quarantana/cap1.xml#c1_15381" targetEnd="quarantana/cap1.xml#c1_15386">Donnez-moi un verre de mon vin. </note>
+        <note xml:id="french_1877_cap1-n729" type="comm" target="quarantana/cap1.xml#c1_15387" targetEnd="quarantana/cap1.xml#c1_15397">— Et vous voudriez me soutenir que vous n’avez rien, dit Perpetua, </note>
+        <note xml:id="french_1877_cap1-n730" type="comm" target="quarantana/cap1.xml#c1_15398" targetEnd="quarantana/cap1.xml#c1_15405">en remplissant le verre et le gardant ensuite à la main, </note>
+        <note xml:id="french_1877_cap1-n731" type="comm" target="quarantana/cap1.xml#c1_15406" targetEnd="quarantana/cap1.xml#c1_15420">comme si elle voulait en faire le prix d’une confidence qui se faisait si longtemps attendre. </note>
+        <note xml:id="french_1877_cap1-n732" type="comm" target="quarantana/cap1.xml#c1_15421" targetEnd="quarantana/cap1.xml#c1_15422">— Donnez, </note>
+        <note xml:id="french_1877_cap1-n733" type="comm" target="quarantana/cap1.xml#c1_15423" targetEnd="quarantana/cap1.xml#c1_15441">donnez, dit don Abbondio en lui prenant le verre d’une main peu ferme et le vidant ensuite avec précipitation, </note>
+        <note xml:id="french_1877_cap1-n734" type="comm" target="quarantana/cap1.xml#c1_15442" targetEnd="quarantana/cap1.xml#c1_15446">ainsi qu’il eût fait d’une médecine. </note>
+        <note xml:id="french_1877_cap1-n735" type="comm" target="quarantana/cap1.xml#c1_15447" targetEnd="quarantana/cap1.xml#c1_15464">— Vous voulez donc que je sois obligée d’aller demander de côté et d’autre ce qui est arrivé à mon maître ? dit Perpetua, </note>
+        <note xml:id="french_1877_cap1-n736" type="comm" target="quarantana/cap1.xml#c1_15465" targetEnd="quarantana/cap1.xml#c1_15468">debout devant lui, </note>
+        <note xml:id="french_1877_cap1-n737" type="comm" target="quarantana/cap1.xml#c1_15469" targetEnd="quarantana/cap1.xml#c1_15474">les mains renversées sur les hanches, </note>
+        <note xml:id="french_1877_cap1-n738" type="comm" target="quarantana/cap1.xml#c1_15475" targetEnd="quarantana/cap1.xml#c1_15479">les coudes en avant, </note>
+        <note xml:id="french_1877_cap1-n739" type="comm" target="quarantana/cap1.xml#c1_15480" targetEnd="quarantana/cap1.xml#c1_15481">et regardant fixement, </note>
+        <note xml:id="french_1877_cap1-n740" type="comm" target="quarantana/cap1.xml#c1_15482" targetEnd="quarantana/cap1.xml#c1_15488">comme si elle eût voulu lui tirer des yeux son secret. </note>
+        <note xml:id="french_1877_cap1-n741" type="comm" target="quarantana/cap1.xml#c1_15489" targetEnd="quarantana/cap1.xml#c1_15492">— Pour l’amour du ciel ! </note>
+        <note xml:id="french_1877_cap1-n742" type="comm" target="quarantana/cap1.xml#c1_15493" targetEnd="quarantana/cap1.xml#c1_15495">ne faites pas de commérages, </note>
+        <note xml:id="french_1877_cap1-n743" type="comm" target="quarantana/cap1.xml#c1_15496" targetEnd="quarantana/cap1.xml#c1_15498">ne faites pas de bruit, </note>
+        <note xml:id="french_1877_cap1-n744" type="comm" target="quarantana/cap1.xml#c1_15499" targetEnd="quarantana/cap1.xml#c1_15504">il y va… il y va de la vie. </note>
+        <note xml:id="french_1877_cap1-n745" type="comm" target="quarantana/cap1.xml#c1_15505" targetEnd="quarantana/cap1.xml#c1_15506">— De la vie ? </note>
+        <note xml:id="french_1877_cap1-n746" type="comm" target="quarantana/cap1.xml#c1_15507" targetEnd="quarantana/cap1.xml#c1_15508">— De la vie. </note>
+        <note xml:id="french_1877_cap1-n747" type="comm" target="quarantana/cap1.xml#c1_15509" targetEnd="quarantana/cap1.xml#c1_15512">— Vous savez bien que, </note>
+        <note xml:id="french_1877_cap1-n748" type="comm" target="quarantana/cap1.xml#c1_15513" targetEnd="quarantana/cap1.xml#c1_15520">lorsque vous m’avez dit quelque chose sincèrement, </note>
+        <note xml:id="french_1877_cap1-n749" type="comm" target="quarantana/cap1.xml#c1_15521" targetEnd="quarantana/cap1.xml#c1_15522">en confidence, </note>
+        <note xml:id="french_1877_cap1-n750" type="comm" target="quarantana/cap1.xml#c1_15523" targetEnd="quarantana/cap1.xml#c1_15526">je n’ai jamais… </note>
+        <note xml:id="french_1877_cap1-n751" type="comm" target="quarantana/cap1.xml#c1_15527" targetEnd="quarantana/cap1.xml#c1_15527">— Oui, tout juste ! </note>
+        <note xml:id="french_1877_cap1-n752" type="comm" target="quarantana/cap1.xml#c1_15528" targetEnd="quarantana/cap1.xml#c1_15529">comme, par exemple, lorsque… » </note>
+        <note xml:id="french_1877_cap1-n753" type="comm" target="quarantana/cap1.xml#c1_15530" targetEnd="quarantana/cap1.xml#c1_15537">Perpetua s’aperçut qu’elle avait touché une fausse corde, </note>
+        <note xml:id="french_1877_cap1-n754" type="comm" target="quarantana/cap1.xml#c1_15538" targetEnd="quarantana/cap1.xml#c1_15541">et changeant subitement de ton : </note>
+        <note xml:id="french_1877_cap1-n755" type="comm" target="quarantana/cap1.xml#c1_15542" targetEnd="quarantana/cap1.xml#c1_15544">« Mon cher maître, </note>
+        <note xml:id="french_1877_cap1-n756" type="comm" target="quarantana/cap1.xml#c1_15545" targetEnd="quarantana/cap1.xml#c1_15550">dit-elle d’une voix émue et propre à émouvoir, </note>
+        <note xml:id="french_1877_cap1-n757" type="comm" target="quarantana/cap1.xml#c1_15551" targetEnd="quarantana/cap1.xml#c1_15556">je vous ai toujours été affectionnée ; </note>
+        <note xml:id="french_1877_cap1-n758" type="comm" target="quarantana/cap1.xml#c1_15557" targetEnd="quarantana/cap1.xml#c1_15561">et si maintenant je veux savoir ce qui vous trouble, </note>
+        <note xml:id="french_1877_cap1-n759" type="comm" target="quarantana/cap1.xml#c1_15562" targetEnd="quarantana/cap1.xml#c1_15564">c’est par intérêt pour vous, </note>
+        <note xml:id="french_1877_cap1-n760" type="comm" target="quarantana/cap1.xml#c1_15565" targetEnd="quarantana/cap1.xml#c1_15568">parce que je voudrais pouvoir vous prêter secours, </note>
+        <note xml:id="french_1877_cap1-n761" type="comm" target="quarantana/cap1.xml#c1_15569" targetEnd="quarantana/cap1.xml#c1_15572">vous donner un bon conseil, </note>
+        <note xml:id="french_1877_cap1-n762" type="comm" target="quarantana/cap1.xml#c1_15573" targetEnd="quarantana/cap1.xml#c1_15574">soulager votre cœur… » </note>
+        <note xml:id="french_1877_cap1-n763" type="comm" target="quarantana/cap1.xml#c1_15575" targetEnd="quarantana/cap1.xml#c1_15596">Le fait est que don Abbondio avait peut-être autant d’envie de se décharger de son douloureux secret que Perpetua de le connaître ; </note>
+        <note xml:id="french_1877_cap1-n764" type="comm" target="quarantana/cap1.xml#c1_15597" targetEnd="quarantana/cap1.xml#c1_15611">d’où il suit qu’après avoir repoussé toujours plus faiblement les nouveaux assauts toujours plus pressants de celle-ci, </note>
+        <note xml:id="french_1877_cap1-n765" type="comm" target="quarantana/cap1.xml#c1_15612" targetEnd="quarantana/cap1.xml#c1_15621">après lui avoir fait jurer plus d’une fois qu’elle ne soufflerait pas un mot de ce qu’il allait dire, </note>
+        <note xml:id="french_1877_cap1-n766" type="comm" target="quarantana/cap1.xml#c1_15622" targetEnd="quarantana/cap1.xml#c1_15622">il finit, </note>
+        <note xml:id="french_1877_cap1-n767" type="comm" target="quarantana/cap1.xml#c1_15623" targetEnd="quarantana/cap1.xml#c1_15625">avec maintes pauses, </note>
+        <note xml:id="french_1877_cap1-n768" type="comm" target="quarantana/cap1.xml#c1_15626" targetEnd="quarantana/cap1.xml#c1_15628">avec maints hélas, </note>
+        <note xml:id="french_1877_cap1-n769" type="comm" target="quarantana/cap1.xml#c1_15629" targetEnd="quarantana/cap1.xml#c1_15633">par lui raconter la déplorable aventure. </note>
+        <note xml:id="french_1877_cap1-n770" type="comm" target="quarantana/cap1.xml#c1_15634" targetEnd="quarantana/cap1.xml#c1_15641">Lorsqu’il en vint au nom terrible de celui qui avait ordonné le message, </note>
+        <note xml:id="french_1877_cap1-n771" type="comm" target="quarantana/cap1.xml#c1_15642" targetEnd="quarantana/cap1.xml#c1_15651">il fallut que Perpetua prononçât un nouveau serment encore plus solennel ; </note>
+        <note xml:id="french_1877_cap1-n772" type="comm" target="quarantana/cap1.xml#c1_15652" targetEnd="quarantana/cap1.xml#c1_15654">et don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n773" type="comm" target="quarantana/cap1.xml#c1_15655" targetEnd="quarantana/cap1.xml#c1_15657">ce nom une fois sorti de sa bouche, </note>
+        <note xml:id="french_1877_cap1-n774" type="comm" target="quarantana/cap1.xml#c1_15658" targetEnd="quarantana/cap1.xml#c1_15667">se renversa sur le dos de son siège en poussant un grand soupir, </note>
+        <note xml:id="french_1877_cap1-n775" type="comm" target="quarantana/cap1.xml#c1_15668" targetEnd="quarantana/cap1.xml#c1_15678">levant les mains d’un air tout à la fois de commandement et de supplications, </note>
+        <note xml:id="french_1877_cap1-n776" type="comm" target="quarantana/cap1.xml#c1_15679" targetEnd="quarantana/cap1.xml#c1_15680">et disant : </note>
+        <note xml:id="french_1877_cap1-n777" type="comm" target="quarantana/cap1.xml#c1_15681" targetEnd="quarantana/cap1.xml#c1_15684">« Pour l’amour du ciel ! </note>
+        <note xml:id="french_1877_cap1-n778" type="comm" target="quarantana/cap1.xml#c1_15685" targetEnd="quarantana/cap1.xml#c1_15688">— Encore une des siennes ! s’écria Perpetua. </note>
+        <note xml:id="french_1877_cap1-n779" type="comm" target="quarantana/cap1.xml#c1_15689" targetEnd="quarantana/cap1.xml#c1_15694">Ah ! quel coquin ! Oh ! quel méchant ! </note>
+        <note xml:id="french_1877_cap1-n780" type="comm" target="quarantana/cap1.xml#c1_15695" targetEnd="quarantana/cap1.xml#c1_15701">oh ! quel mécréant ! </note>
+        <note xml:id="french_1877_cap1-n781" type="comm" target="quarantana/cap1.xml#c1_15702" targetEnd="quarantana/cap1.xml#c1_15703">— Voulez-vous vous taire ? </note>
+        <note xml:id="french_1877_cap1-n782" type="comm" target="quarantana/cap1.xml#c1_15704" targetEnd="quarantana/cap1.xml#c1_15708">ou voulez-vous me perdre tout à fait ? </note>
+        <note xml:id="french_1877_cap1-n783" type="comm" target="quarantana/cap1.xml#c1_15709" targetEnd="quarantana/cap1.xml#c1_15709">— Oh ! </note>
+        <note xml:id="french_1877_cap1-n784" type="comm" target="quarantana/cap1.xml#c1_15710" targetEnd="quarantana/cap1.xml#c1_15716">nous sommes seuls ici, et personne ne nous entend. </note>
+        <note xml:id="french_1877_cap1-n785" type="comm" target="quarantana/cap1.xml#c1_15717" targetEnd="quarantana/cap1.xml#c1_15719">Mais comment ferez-vous, </note>
+        <note xml:id="french_1877_cap1-n786" type="comm" target="quarantana/cap1.xml#c1_15720" targetEnd="quarantana/cap1.xml#c1_15722">mon pauvre maître ? — Là ! </note>
+        <note xml:id="french_1877_cap1-n787" type="comm" target="quarantana/cap1.xml#c1_15723" targetEnd="quarantana/cap1.xml#c1_15730">voyez, dit don Abbondio d’une voix aigre, </note>
+        <note xml:id="french_1877_cap1-n788" type="comm" target="quarantana/cap1.xml#c1_15731" targetEnd="quarantana/cap1.xml#c1_15738">voyez quels beaux conseils elle sait me donner ! </note>
+        <note xml:id="french_1877_cap1-n789" type="comm" target="quarantana/cap1.xml#c1_15739" targetEnd="quarantana/cap1.xml#c1_15743">Elle vient me demander comment je ferai, </note>
+        <note xml:id="french_1877_cap1-n790" type="comm" target="quarantana/cap1.xml#c1_15744" targetEnd="quarantana/cap1.xml#c1_15745">comment je ferai ; </note>
+        <note xml:id="french_1877_cap1-n791" type="comm" target="quarantana/cap1.xml#c1_15746" targetEnd="quarantana/cap1.xml#c1_15749">comme si c’était elle qui fût dans l’embarras, </note>
+        <note xml:id="french_1877_cap1-n792" type="comm" target="quarantana/cap1.xml#c1_15750" targetEnd="quarantana/cap1.xml#c1_15755">et moi qui dusse l’en faire sortir. </note>
+        <note xml:id="french_1877_cap1-n793" type="comm" target="quarantana/cap1.xml#c1_15756" targetEnd="quarantana/cap1.xml#c1_15756">— Ah ! </note>
+        <note xml:id="french_1877_cap1-n794" type="comm" target="quarantana/cap1.xml#c1_15757" targetEnd="quarantana/cap1.xml#c1_15765">je l’aurais bien, mon pauvre avis, à vous donner ; </note>
+        <note xml:id="french_1877_cap1-n795" type="comm" target="quarantana/cap1.xml#c1_15766" targetEnd="quarantana/cap1.xml#c1_15767">mais ensuite… </note>
+        <note xml:id="french_1877_cap1-n796" type="comm" target="quarantana/cap1.xml#c1_15768" targetEnd="quarantana/cap1.xml#c1_15770">— Mais ensuite ? voyons. </note>
+        <note xml:id="french_1877_cap1-n797" type="comm" target="quarantana/cap1.xml#c1_15771" targetEnd="quarantana/cap1.xml#c1_15775">— Mon avis serait que, </note>
+        <note xml:id="french_1877_cap1-n798" type="comm" target="quarantana/cap1.xml#c1_15776" targetEnd="quarantana/cap1.xml#c1_15797">puisque tout le monde dit que notre archevêque est un saint homme qui n’a peur de personne, </note>
+        <note xml:id="french_1877_cap1-n799" type="comm" target="quarantana/cap1.xml#c1_15798" targetEnd="quarantana/cap1.xml#c1_15798">et qui, </note>
+        <note xml:id="french_1877_cap1-n800" type="comm" target="quarantana/cap1.xml#c1_15799" targetEnd="quarantana/cap1.xml#c1_15812">lorsqu’il peut mettre à la raison un de ces méchants pour soutenir un curé, </note>
+        <note xml:id="french_1877_cap1-n801" type="comm" target="quarantana/cap1.xml#c1_15813" targetEnd="quarantana/cap1.xml#c1_15814">s’y engraisse de plaisir ; </note>
+        <note xml:id="french_1877_cap1-n802" type="comm" target="quarantana/cap1.xml#c1_15815" targetEnd="quarantana/cap1.xml#c1_15829">je dirais et je dis qu’il faudrait que vous lui écrivissiez une belle lettre pour l’informer comme quoi… </note>
+        <note xml:id="french_1877_cap1-n803" type="comm" target="quarantana/cap1.xml#c1_15830" targetEnd="quarantana/cap1.xml#c1_15831">— Voulez-vous vous taire ? </note>
+        <note xml:id="french_1877_cap1-n804" type="comm" target="quarantana/cap1.xml#c1_15832" targetEnd="quarantana/cap1.xml#c1_15833">voulez-vous vous taire ? </note>
+        <note xml:id="french_1877_cap1-n805" type="comm" target="quarantana/cap1.xml#c1_15834" targetEnd="quarantana/cap1.xml#c1_15841">Sont-ce là des avis à donner à un pauvre homme ? </note>
+        <note xml:id="french_1877_cap1-n806" type="comm" target="quarantana/cap1.xml#c1_15842" targetEnd="quarantana/cap1.xml#c1_15849">Quand j’aurais attrapé un coup de fusil dans le dos, </note>
+        <note xml:id="french_1877_cap1-n807" type="comm" target="quarantana/cap1.xml#c1_15850" targetEnd="quarantana/cap1.xml#c1_15851">ce dont Dieu me garde ! </note>
+        <note xml:id="french_1877_cap1-n808" type="comm" target="quarantana/cap1.xml#c1_15852" targetEnd="quarantana/cap1.xml#c1_15855">l’archevêque me l’ôterait-il ? </note>
+        <note xml:id="french_1877_cap1-n809" type="comm" target="quarantana/cap1.xml#c1_15856" targetEnd="quarantana/cap1.xml#c1_15856">— Bah ! </note>
+        <note xml:id="french_1877_cap1-n810" type="comm" target="quarantana/cap1.xml#c1_15857" targetEnd="quarantana/cap1.xml#c1_15864">les coups de fusil ne se donnent pas comme des prunes : </note>
+        <note xml:id="french_1877_cap1-n811" type="comm" target="quarantana/cap1.xml#c1_15865" targetEnd="quarantana/cap1.xml#c1_15876">et où en serions-nous si tous ces chiens-là mordaient toutes les fois qu’ils aboient ? </note>
+        <note xml:id="french_1877_cap1-n812" type="comm" target="quarantana/cap1.xml#c1_15877" targetEnd="quarantana/cap1.xml#c1_15891">Pour moi, j’ai toujours vu que celui qui sait montrer les dents et se faire considérer comme il convient, </note>
+        <note xml:id="french_1877_cap1-n813" type="comm" target="quarantana/cap1.xml#c1_15892" targetEnd="quarantana/cap1.xml#c1_15895">celui-là, on le respecte ; </note>
+        <note xml:id="french_1877_cap1-n814" type="comm" target="quarantana/cap1.xml#c1_15896" targetEnd="quarantana/cap1.xml#c1_15913">et c’est précisément parce que vous ne voulez jamais dire vos raisons que nous en sommes réduits à voir chacun venir, </note>
+        <note xml:id="french_1877_cap1-n815" type="comm" target="quarantana/cap1.xml#c1_15914" targetEnd="quarantana/cap1.xml#c1_15915">sauf votre respect, </note>
+        <note xml:id="french_1877_cap1-n816" type="comm" target="quarantana/cap1.xml#c1_15916" targetEnd="quarantana/cap1.xml#c1_15916">nous… </note>
+        <note xml:id="french_1877_cap1-n817" type="comm" target="quarantana/cap1.xml#c1_15917" targetEnd="quarantana/cap1.xml#c1_15921">— Voulez-vous vous taire ? — Je me tais ; </note>
+        <note xml:id="french_1877_cap1-n818" type="comm" target="quarantana/cap1.xml#c1_15922" targetEnd="quarantana/cap1.xml#c1_15926">mais il n’en est pas moins vrai que, </note>
+        <note xml:id="french_1877_cap1-n819" type="comm" target="quarantana/cap1.xml#c1_15927" targetEnd="quarantana/cap1.xml#c1_15932">lorsque les gens s’aperçoivent qu’un homme, </note>
+        <note xml:id="french_1877_cap1-n820" type="comm" target="quarantana/cap1.xml#c1_15933" targetEnd="quarantana/cap1.xml#c1_15936">en toutes circonstances, </note>
+        <note xml:id="french_1877_cap1-n821" type="comm" target="quarantana/cap1.xml#c1_15937" targetEnd="quarantana/cap1.xml#c1_15941">est toujours prêt à mettre bas ses… </note>
+        <note xml:id="french_1877_cap1-n822" type="comm" target="quarantana/cap1.xml#c1_15942" targetEnd="quarantana/cap1.xml#c1_15943">— Voulez-vous vous taire ? </note>
+        <note xml:id="french_1877_cap1-n823" type="comm" target="quarantana/cap1.xml#c1_15944" targetEnd="quarantana/cap1.xml#c1_15950">Est-ce bien le moment de dire de pareilles sottises ? </note>
+        <note xml:id="french_1877_cap1-n824" type="comm" target="quarantana/cap1.xml#c1_15951" targetEnd="quarantana/cap1.xml#c1_15951">— Suffit : </note>
+        <note xml:id="french_1877_cap1-n825" type="comm" target="quarantana/cap1.xml#c1_15952" targetEnd="quarantana/cap1.xml#c1_15955">vous y penserez cette nuit ; </note>
+        <note xml:id="french_1877_cap1-n826" type="comm" target="quarantana/cap1.xml#c1_15956" targetEnd="quarantana/cap1.xml#c1_15964">mais, en attendant, ne commencez pas par vous faire du mal vous-même, </note>
+        <note xml:id="french_1877_cap1-n827" type="comm" target="quarantana/cap1.xml#c1_15965" targetEnd="quarantana/cap1.xml#c1_15968">par ruiner votre santé ; </note>
+        <note xml:id="french_1877_cap1-n828" type="comm" target="quarantana/cap1.xml#c1_15969" targetEnd="quarantana/cap1.xml#c1_15971">mangez un morceau. </note>
+        <note xml:id="french_1877_cap1-n829" type="comm" target="quarantana/cap1.xml#c1_15972" targetEnd="quarantana/cap1.xml#c1_15975">— J’y penserai, </note>
+        <note xml:id="french_1877_cap1-n830" type="comm" target="quarantana/cap1.xml#c1_15976" targetEnd="quarantana/cap1.xml#c1_15978">répondit en grommelant don Abbondio, </note>
+        <note xml:id="french_1877_cap1-n831" type="comm" target="quarantana/cap1.xml#c1_15979" targetEnd="quarantana/cap1.xml#c1_15982">sûrement que j’y penserai, </note>
+        <note xml:id="french_1877_cap1-n832" type="comm" target="quarantana/cap1.xml#c1_15983" targetEnd="quarantana/cap1.xml#c1_15987">et il faut que j’y pense. » </note>
+        <note xml:id="french_1877_cap1-n833" type="comm" target="quarantana/cap1.xml#c1_15988" targetEnd="quarantana/cap1.xml#c1_15990">Et il se leva en ajoutant : </note>
+        <note xml:id="french_1877_cap1-n834" type="comm" target="quarantana/cap1.xml#c1_15991" targetEnd="quarantana/cap1.xml#c1_15994">« Je ne veux rien prendre, </note>
+        <note xml:id="french_1877_cap1-n835" type="comm" target="quarantana/cap1.xml#c1_15995" targetEnd="quarantana/cap1.xml#c1_15995">rien ; </note>
+        <note xml:id="french_1877_cap1-n836" type="comm" target="quarantana/cap1.xml#c1_15996" targetEnd="quarantana/cap1.xml#c1_15998">j’ai bien autre chose en tête. </note>
+        <note xml:id="french_1877_cap1-n837" type="comm" target="quarantana/cap1.xml#c1_15999" targetEnd="quarantana/cap1.xml#c1_16007">Je le sais bien, que c’est à moi d’y penser. </note>
+        <note xml:id="french_1877_cap1-n838" type="comm" target="quarantana/cap1.xml#c1_16008" targetEnd="quarantana/cap1.xml#c1_16008">Allons, </note>
+        <note xml:id="french_1877_cap1-n839" type="comm" target="quarantana/cap1.xml#c1_16009" targetEnd="quarantana/cap1.xml#c1_16015">il fallait que cela tombât tout juste sur moi. </note>
+        <note xml:id="french_1877_cap1-n840" type="comm" target="quarantana/cap1.xml#c1_16016" targetEnd="quarantana/cap1.xml#c1_16023">— Avalez au moins encore cette petite goutte, dit Perpétua en lui versant du vin. </note>
+        <note xml:id="french_1877_cap1-n841" type="comm" target="quarantana/cap1.xml#c1_16024" targetEnd="quarantana/cap1.xml#c1_16032">Vous savez que cela vous remet toujours l’estomac. </note>
+        <note xml:id="french_1877_cap1-n842" type="comm" target="quarantana/cap1.xml#c1_16033" targetEnd="quarantana/cap1.xml#c1_16033">— Eh ! </note>
+        <note xml:id="french_1877_cap1-n843" type="comm" target="quarantana/cap1.xml#c1_16034" targetEnd="quarantana/cap1.xml#c1_16039">c’est autre chose qu’il me faut, c’est autre chose, </note>
+        <note xml:id="french_1877_cap1-n844" type="comm" target="quarantana/cap1.xml#c1_16040" targetEnd="quarantana/cap1.xml#c1_16042">c’est autre chose. » </note>
+        <note xml:id="french_1877_cap1-n845" type="comm" target="quarantana/cap1.xml#c1_16043" targetEnd="quarantana/cap1.xml#c1_16044">Et, en disant ces mots, </note>
+        <note xml:id="french_1877_cap1-n846" type="comm" target="quarantana/cap1.xml#c1_16045" targetEnd="quarantana/cap1.xml#c1_16047">il prit la lampe, </note>
+        <note xml:id="french_1877_cap1-n847" type="comm" target="quarantana/cap1.xml#c1_16048" targetEnd="quarantana/cap1.xml#c1_16048">et, </note>
+        <note xml:id="french_1877_cap1-n848" type="comm" target="quarantana/cap1.xml#c1_16049" targetEnd="quarantana/cap1.xml#c1_16050">murmurant toujours : </note>
+        <note xml:id="french_1877_cap1-n849" type="comm" target="quarantana/cap1.xml#c1_16051" targetEnd="quarantana/cap1.xml#c1_16053">« Petite bagatelle ! </note>
+        <note xml:id="french_1877_cap1-n850" type="comm" target="quarantana/cap1.xml#c1_16054" targetEnd="quarantana/cap1.xml#c1_16058">À un honnête homme comme moi ! </note>
+        <note xml:id="french_1877_cap1-n851" type="comm" target="quarantana/cap1.xml#c1_16059" targetEnd="quarantana/cap1.xml#c1_16065">Et demain, comment cela ira-t-il ? » et autres lamentations semblables, </note>
+        <note xml:id="french_1877_cap1-n852" type="comm" target="quarantana/cap1.xml#c1_16066" targetEnd="quarantana/cap1.xml#c1_16070">il s’achemina pour monter à sa chambre. </note>
+        <note xml:id="french_1877_cap1-n853" type="comm" target="quarantana/cap1.xml#c1_16071" targetEnd="quarantana/cap1.xml#c1_16074">Arrivé sur la porte, </note>
+        <note xml:id="french_1877_cap1-n854" type="comm" target="quarantana/cap1.xml#c1_16075" targetEnd="quarantana/cap1.xml#c1_16079">il se retourna vers Perpetua, </note>
+        <note xml:id="french_1877_cap1-n855" type="comm" target="quarantana/cap1.xml#c1_16080" targetEnd="quarantana/cap1.xml#c1_16084">se mit le doigt sur la bouche, </note>
+        <note xml:id="french_1877_cap1-n856" type="comm" target="quarantana/cap1.xml#c1_16085" targetEnd="quarantana/cap1.xml#c1_16090">dit d’un ton lent et solennel : </note>
+        <note xml:id="french_1877_cap1-n857" type="comm" target="quarantana/cap1.xml#c1_16091" targetEnd="quarantana/cap1.xml#c1_16096">« Pour l’amour du ciel ! » et disparut. </note>
+      </div>
+    </body>
+  </text>
+</TEI>

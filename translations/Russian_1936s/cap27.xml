@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>INTRODUCTION</title>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Academia</publisher>
+        <pubPlace>Москва</pubPlace>
+        <date>1936</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>Обрученные : Повесть из истории Милана XVII века</title>
+          <editor>Angelini, Cesare</editor>
+          <pubPlace>Москва</pubPlace>
+          <publisher>Academia</publisher>
+          <date>1936</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>I. I. Schitz</persName>
+          </respStmt>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Вступление, cap. 1-16</p>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="russian_1936_cap27">
+        <note xml:id="russian_1936_cap27-n1" type="comm" target="quarantana/cap27.xml#c27_10001" targetEnd="quarantana/cap27.xml#c27_10023">Уже не один раз нам приходилось упоминать о кипевшей в то время войне из-за наследования владениями Винченцо Гонзага, </note>
+        <note xml:id="russian_1936_cap27-n2" type="comm" target="quarantana/cap27.xml#c27_10024" targetEnd="quarantana/cap27.xml#c27_10027">второго герцога этого имени; </note>
+        <note xml:id="russian_1936_cap27-n3" type="comm" target="quarantana/cap27.xml#c27_10028" targetEnd="quarantana/cap27.xml#c27_10036">но приходилось это всегда в минуту большой спешки, </note>
+        <note xml:id="russian_1936_cap27-n4" type="comm" target="quarantana/cap27.xml#c27_10037" targetEnd="quarantana/cap27.xml#c27_10048">так что мы могли делать лишь беглое указание на эту войну. </note>
+        <note xml:id="russian_1936_cap27-n5" type="comm" target="quarantana/cap27.xml#c27_10049" targetEnd="quarantana/cap27.xml#c27_10062">Теперь же для понимания нашего рассказа настоятельно требуется иметь о ней более подробные сведения. </note>
+        <note xml:id="russian_1936_cap27-n6" type="comm" target="quarantana/cap27.xml#c27_10063" targetEnd="quarantana/cap27.xml#c27_10072">Всё это вещи, которые должен знать всякий, знакомый с историей; </note>
+        <note xml:id="russian_1936_cap27-n7" type="comm" target="quarantana/cap27.xml#c27_10073" targetEnd="quarantana/cap27.xml#c27_10074">но так как мы, </note>
+        <note xml:id="russian_1936_cap27-n8" type="comm" target="quarantana/cap27.xml#c27_10075" targetEnd="quarantana/cap27.xml#c27_10081">вполне зная себе настоящую цену, </note>
+        <note xml:id="russian_1936_cap27-n9" type="comm" target="quarantana/cap27.xml#c27_10082" targetEnd="quarantana/cap27.xml#c27_10093">должны предположить, что данного труда никто читать не станет кроме людей непросвещенных, </note>
+        <note xml:id="russian_1936_cap27-n10" type="comm" target="quarantana/cap27.xml#c27_10094" targetEnd="quarantana/cap27.xml#c27_10108">то не бесполезно будет рассказать здесь об этой войне, сколько требуется для того, чтобы сообщить, кому это нужно, </note>
+        <note xml:id="russian_1936_cap27-n12" type="comm" target="quarantana/cap27.xml#c27_10109" targetEnd="quarantana/cap27.xml#c27_10111">Мы уже говорили, </note>
+        <note xml:id="russian_1936_cap27-n13" type="comm" target="quarantana/cap27.xml#c27_10112" targetEnd="quarantana/cap27.xml#c27_10123">что со смертью этого герцога первый претендент в порядке наследования, </note>
+        <note xml:id="russian_1936_cap27-n14" type="comm" target="quarantana/cap27.xml#c27_10124" targetEnd="quarantana/cap27.xml#c27_10125">Карло Гонзага, </note>
+        <note xml:id="russian_1936_cap27-n15" type="comm" target="quarantana/cap27.xml#c27_10126" targetEnd="quarantana/cap27.xml#c27_10132">глава младшей линии, переселившейся во Францию, </note>
+        <note xml:id="russian_1936_cap27-n16" type="comm" target="quarantana/cap27.xml#c27_10133" targetEnd="quarantana/cap27.xml#c27_10141">где она владела герцогствами Невер и Ретель, </note>
+        <note xml:id="russian_1936_cap27-n17" type="comm" target="quarantana/cap27.xml#c27_10142" targetEnd="quarantana/cap27.xml#c27_10152">вступил во владение Мантуей и — прибавим теперь — также и Монферрато: </note>
+        <note xml:id="russian_1936_cap27-n18" type="comm" target="quarantana/cap27.xml#c27_10153" targetEnd="quarantana/cap27.xml#c27_10162">как раз из-за спешки это в свое время осталось у нас на кончике пера. </note>
+        <note xml:id="russian_1936_cap27-n19" type="comm" target="quarantana/cap27.xml#c27_10163" targetEnd="quarantana/cap27.xml#c27_10166">Мадридский двор, </note>
+        <note xml:id="russian_1936_cap27-n20" type="comm" target="quarantana/cap27.xml#c27_10167" targetEnd="quarantana/cap27.xml#c27_10183">который хотел во что бы то ни стало (об этом мы тоже говорили) отстранить нового государя от этих двух феодов, </note>
+        <note xml:id="russian_1936_cap27-n21" type="comm" target="quarantana/cap27.xml#c27_10184" targetEnd="quarantana/cap27.xml#c27_10199">а для отстранения нуждался в каком-нибудь основании (ибо война, затеянная без основания, была бы несправедливой), </note>
+        <note xml:id="russian_1936_cap27-n22" type="comm" target="quarantana/cap27.xml#c27_10200" targetEnd="quarantana/cap27.xml#c27_10207">объявил себя сторонником притязаний, </note>
+        <note xml:id="russian_1936_cap27-n23" type="comm" target="quarantana/cap27.xml#c27_10208" targetEnd="quarantana/cap27.xml#c27_10212">которые имел на Мантую другой Понзага, </note>
+        <note xml:id="russian_1936_cap27-n24" type="comm" target="quarantana/cap27.xml#c27_10213" targetEnd="quarantana/cap27.xml#c27_10213">Ферранте, </note>
+        <note xml:id="russian_1936_cap27-n25" type="comm" target="quarantana/cap27.xml#c27_10214" targetEnd="quarantana/cap27.xml#c27_10216">государь Гвасталлы, </note>
+        <note xml:id="russian_1936_cap27-n26" type="comm" target="quarantana/cap27.xml#c27_10217" targetEnd="quarantana/cap27.xml#c27_10221">а на Монферрато — Карло Эмануэле I, </note>
+        <note xml:id="russian_1936_cap27-n27" type="comm" target="quarantana/cap27.xml#c27_10222" targetEnd="quarantana/cap27.xml#c27_10224">герцог Савойский, </note>
+        <note xml:id="russian_1936_cap27-n28" type="comm" target="quarantana/cap27.xml#c27_10225" targetEnd="quarantana/cap27.xml#c27_10227">и Маргарита Гонзага, </note>
+        <note xml:id="russian_1936_cap27-n29" type="comm" target="quarantana/cap27.xml#c27_10228" targetEnd="quarantana/cap27.xml#c27_10231">вдовствующая герцогиня Лотарингская. </note>
+        <note xml:id="russian_1936_cap27-n30" type="comm" target="quarantana/cap27.xml#c27_10232" targetEnd="quarantana/cap27.xml#c27_10233">Дон Гонсало, </note>
+        <note xml:id="russian_1936_cap27-n31" type="comm" target="quarantana/cap27.xml#c27_10234" targetEnd="quarantana/cap27.xml#c27_10244">происходивший из рода великого капитана и носивший его имя, </note>
+        <note xml:id="russian_1936_cap27-n32" type="comm" target="quarantana/cap27.xml#c27_10245" targetEnd="quarantana/cap27.xml#c27_10260">уже участвовал во Фландрской войне и превыше всякой меры стремился повоевать в Италии и потому, </note>
+        <note xml:id="russian_1936_cap27-n33" type="comm" target="quarantana/cap27.xml#c27_10261" targetEnd="quarantana/cap27.xml#c27_10267">пожалуй, больше всех кипятился, </note>
+        <note xml:id="russian_1936_cap27-n34" type="comm" target="quarantana/cap27.xml#c27_10268" targetEnd="quarantana/cap27.xml#c27_10271">добиваясь объявления этой войны. </note>
+        <note xml:id="russian_1936_cap27-n35" type="comm" target="quarantana/cap27.xml#c27_10272" targetEnd="quarantana/cap27.xml#c27_10273">Пока что, </note>
+        <note xml:id="russian_1936_cap27-n36" type="comm" target="quarantana/cap27.xml#c27_10274" targetEnd="quarantana/cap27.xml#c27_10282">истолковывая на свой лад намерения вышеупомянутого двора и опережая его распоряжения, </note>
+        <note xml:id="russian_1936_cap27-n37" type="comm" target="quarantana/cap27.xml#c27_10283" targetEnd="quarantana/cap27.xml#c27_10306">он заключил с герцогом Савойским договор о вторжении в Монферрато и его разделе и вслед за этим без труда добился ратификации этого договора графом-герцогом, </note>
+        <note xml:id="russian_1936_cap27-n38" type="comm" target="quarantana/cap27.xml#c27_10307" targetEnd="quarantana/cap27.xml#c27_10313">расписав ему чрезвычайную легкость приобретения Казале, </note>
+        <note xml:id="russian_1936_cap27-n39" type="comm" target="quarantana/cap27.xml#c27_10314" targetEnd="quarantana/cap27.xml#c27_10325">наиболее защищенного пункта той части герцогства, которая была выговорена для испанского короля. </note>
+        <note xml:id="russian_1936_cap27-n40" type="comm" target="quarantana/cap27.xml#c27_10326" targetEnd="quarantana/cap27.xml#c27_10331">Однако, он заявлял от имени последнего, </note>
+        <note xml:id="russian_1936_cap27-n41" type="comm" target="quarantana/cap27.xml#c27_10332" targetEnd="quarantana/cap27.xml#c27_10342">что собирается занять территорию лишь в виде обеспечения, </note>
+        <note xml:id="russian_1936_cap27-n42" type="comm" target="quarantana/cap27.xml#c27_10343" targetEnd="quarantana/cap27.xml#c27_10346">впредь до решения императора, </note>
+        <note xml:id="russian_1936_cap27-n43" type="comm" target="quarantana/cap27.xml#c27_10347" targetEnd="quarantana/cap27.xml#c27_10348">который, </note>
+        <note xml:id="russian_1936_cap27-n44" type="comm" target="quarantana/cap27.xml#c27_10349" targetEnd="quarantana/cap27.xml#c27_10354">частью по настоянию других, </note>
+        <note xml:id="russian_1936_cap27-n45" type="comm" target="quarantana/cap27.xml#c27_10355" targetEnd="quarantana/cap27.xml#c27_10360">частью по собственным побуждениям, </note>
+        <note xml:id="russian_1936_cap27-n46" type="comm" target="quarantana/cap27.xml#c27_10361" targetEnd="quarantana/cap27.xml#c27_10367">отказал тем временем новому герцогу в инвеституре, </note>
+        <note xml:id="russian_1936_cap27-n47" type="comm" target="quarantana/cap27.xml#c27_10368" targetEnd="quarantana/cap27.xml#c27_10378">потребовав, чтобы он отдал спорные владения в его временное управление, </note>
+        <note xml:id="russian_1936_cap27-n48" type="comm" target="quarantana/cap27.xml#c27_10379" targetEnd="quarantana/cap27.xml#c27_10380">а он, император, </note>
+        <note xml:id="russian_1936_cap27-n49" type="comm" target="quarantana/cap27.xml#c27_10381" targetEnd="quarantana/cap27.xml#c27_10383">выслушав претендентов, </note>
+        <note xml:id="russian_1936_cap27-n50" type="comm" target="quarantana/cap27.xml#c27_10384" targetEnd="quarantana/cap27.xml#c27_10390">передаст эти владения тому, на чьей стороне окажется право. </note>
+        <note xml:id="russian_1936_cap27-n51" type="comm" target="quarantana/cap27.xml#c27_10391" targetEnd="quarantana/cap27.xml#c27_10399">Такому решению герцог Неверский не склонен был подчиниться. </note>
+        <note xml:id="russian_1936_cap27-n52" type="comm" target="quarantana/cap27.xml#c27_10400" targetEnd="quarantana/cap27.xml#c27_10404">У него тоже были влиятельные друзья: </note>
+        <note xml:id="russian_1936_cap27-n53" type="comm" target="quarantana/cap27.xml#c27_10405" targetEnd="quarantana/cap27.xml#c27_10408">кардинал Ришелье, </note>
+        <note xml:id="russian_1936_cap27-n54" type="comm" target="quarantana/cap27.xml#c27_10409" targetEnd="quarantana/cap27.xml#c27_10414">венецианские синьоры и папа, </note>
+        <note xml:id="russian_1936_cap27-n55" type="comm" target="quarantana/cap27.xml#c27_10415" targetEnd="quarantana/cap27.xml#c27_10415">которым в ту пору был, </note>
+        <note xml:id="russian_1936_cap27-n56" type="comm" target="quarantana/cap27.xml#c27_10416" targetEnd="quarantana/cap27.xml#c27_10418">как мы уже сказали, </note>
+        <note xml:id="russian_1936_cap27-n57" type="comm" target="quarantana/cap27.xml#c27_10419" targetEnd="quarantana/cap27.xml#c27_10420">Урбан VIII. </note>
+        <note xml:id="russian_1936_cap27-n58" type="comm" target="quarantana/cap27.xml#c27_10421" targetEnd="quarantana/cap27.xml#c27_10423">Но первый, </note>
+        <note xml:id="russian_1936_cap27-n59" type="comm" target="quarantana/cap27.xml#c27_10424" targetEnd="quarantana/cap27.xml#c27_10434">поглощенный в ту пору осадой Ла-Рошели и войной с Англией, </note>
+        <note xml:id="russian_1936_cap27-n60" type="comm" target="quarantana/cap27.xml#c27_10435" targetEnd="quarantana/cap27.xml#c27_10443">встречая препоны со стороны партии королевы-матери Марии Медичи, </note>
+        <note xml:id="russian_1936_cap27-n61" type="comm" target="quarantana/cap27.xml#c27_10444" targetEnd="quarantana/cap27.xml#c27_10452">которая по каким-то своим причинам была противницей Неверского дома, </note>
+        <note xml:id="russian_1936_cap27-n62" type="comm" target="quarantana/cap27.xml#c27_10453" targetEnd="quarantana/cap27.xml#c27_10458">ограничивался, пока что, одними обещаниями. </note>
+        <note xml:id="russian_1936_cap27-n63" type="comm" target="quarantana/cap27.xml#c27_10459" targetEnd="quarantana/cap27.xml#c27_10463">Венецианцы не желали ни трогаться с места, </note>
+        <note xml:id="russian_1936_cap27-n64" type="comm" target="quarantana/cap27.xml#c27_10464" targetEnd="quarantana/cap27.xml#c27_10466">ни даже определенно высказываться, </note>
+        <note xml:id="russian_1936_cap27-n65" type="comm" target="quarantana/cap27.xml#c27_10467" targetEnd="quarantana/cap27.xml#c27_10476">пока не вторгнется в Италию французское войско, </note>
+        <note xml:id="russian_1936_cap27-n66" type="comm" target="quarantana/cap27.xml#c27_10477" targetEnd="quarantana/cap27.xml#c27_10477">и, </note>
+        <note xml:id="russian_1936_cap27-n67" type="comm" target="quarantana/cap27.xml#c27_10478" targetEnd="quarantana/cap27.xml#c27_10482">тайно поддерживая герцога, </note>
+        <note xml:id="russian_1936_cap27-n68" type="comm" target="quarantana/cap27.xml#c27_10483" targetEnd="quarantana/cap27.xml#c27_10484">насколько это было возможно, </note>
+        <note xml:id="russian_1936_cap27-n69" type="comm" target="quarantana/cap27.xml#c27_10485" targetEnd="quarantana/cap27.xml#c27_10497">одновременно выступали по отношению к мадридскому двору и миланскому губернатору с заявлениями, </note>
+        <note xml:id="russian_1936_cap27-n70" type="comm" target="quarantana/cap27.xml#c27_10498" targetEnd="quarantana/cap27.xml#c27_10500">предположениями, увещаниями, </note>
+        <note xml:id="russian_1936_cap27-n71" type="comm" target="quarantana/cap27.xml#c27_10501" targetEnd="quarantana/cap27.xml#c27_10503">то мирными, то угрожающими, </note>
+        <note xml:id="russian_1936_cap27-n72" type="comm" target="quarantana/cap27.xml#c27_10504" targetEnd="quarantana/cap27.xml#c27_10506">смотря по обстоятельствам. </note>
+        <note xml:id="russian_1936_cap27-n73" type="comm" target="quarantana/cap27.xml#c27_10507" targetEnd="quarantana/cap27.xml#c27_10513">Папа рекомендовал герцога Неверского друзьям, </note>
+        <note xml:id="russian_1936_cap27-n74" type="comm" target="quarantana/cap27.xml#c27_10514" targetEnd="quarantana/cap27.xml#c27_10520">выступал в его интересах перед противниками, </note>
+        <note xml:id="russian_1936_cap27-n75" type="comm" target="quarantana/cap27.xml#c27_10521" targetEnd="quarantana/cap27.xml#c27_10523">строил проекты соглашения; </note>
+        <note xml:id="russian_1936_cap27-n76" type="comm" target="quarantana/cap27.xml#c27_10524" targetEnd="quarantana/cap27.xml#c27_10533">но о том, чтобы выставить в поле войско, и знать не хотел. </note>
+        <note xml:id="russian_1936_cap27-n77" type="comm" target="quarantana/cap27.xml#c27_10534" targetEnd="quarantana/cap27.xml#c27_10546">Благодаря этому, оба союзника могли с тем большей уверенностью начать согласованное свое предприятие. </note>
+        <note xml:id="russian_1936_cap27-n78" type="comm" target="quarantana/cap27.xml#c27_10547" targetEnd="quarantana/cap27.xml#c27_10557">Герцог Савойский с своей стороны вступил в Монферрато; </note>
+        <note xml:id="russian_1936_cap27-n79" type="comm" target="quarantana/cap27.xml#c27_10558" targetEnd="quarantana/cap27.xml#c27_10566">дон Гонсало с большим подъемом принялся за осаду Казале, </note>
+        <note xml:id="russian_1936_cap27-n80" type="comm" target="quarantana/cap27.xml#c27_10567" targetEnd="quarantana/cap27.xml#c27_10576">но не нашел в этом всего того удовлетворения, какого ожидал: </note>
+        <note xml:id="russian_1936_cap27-n81" type="comm" target="quarantana/cap27.xml#c27_10577" targetEnd="quarantana/cap27.xml#c27_10585">не думайте, что на войне бывают одни розы. </note>
+        <note xml:id="russian_1936_cap27-n82" type="comm" target="quarantana/cap27.xml#c27_10586" targetEnd="quarantana/cap27.xml#c27_10594">Двор не оказывал ему помощи в желанных для него размерах, </note>
+        <note xml:id="russian_1936_cap27-n83" type="comm" target="quarantana/cap27.xml#c27_10595" targetEnd="quarantana/cap27.xml#c27_10602">оставляя его даже без самых необходимых средств; </note>
+        <note xml:id="russian_1936_cap27-n84" type="comm" target="quarantana/cap27.xml#c27_10603" targetEnd="quarantana/cap27.xml#c27_10605">союзник же помогал ему сверх меры, </note>
+        <note xml:id="russian_1936_cap27-n85" type="comm" target="quarantana/cap27.xml#c27_10606" targetEnd="quarantana/cap27.xml#c27_10608">а именно, </note>
+        <note xml:id="russian_1936_cap27-n86" type="comm" target="quarantana/cap27.xml#c27_10609" targetEnd="quarantana/cap27.xml#c27_10614">захватив свою долю, </note>
+        <note xml:id="russian_1936_cap27-n87" type="comm" target="quarantana/cap27.xml#c27_10615" targetEnd="quarantana/cap27.xml#c27_10622">он принялся захватывать по частям и долю, предназначенную испанскому королю. </note>
+        <note xml:id="russian_1936_cap27-n88" type="comm" target="quarantana/cap27.xml#c27_10623" targetEnd="quarantana/cap27.xml#c27_10632">Можно представить себе, как это раздражало дона Гонсало; </note>
+        <note xml:id="russian_1936_cap27-n89" type="comm" target="quarantana/cap27.xml#c27_10633" targetEnd="quarantana/cap27.xml#c27_10634">но он опасался, </note>
+        <note xml:id="russian_1936_cap27-n90" type="comm" target="quarantana/cap27.xml#c27_10635" targetEnd="quarantana/cap27.xml#c27_10645">что при малейшем шуме с его стороны этот самый Карло Эмануэле, </note>
+        <note xml:id="russian_1936_cap27-n91" type="comm" target="quarantana/cap27.xml#c27_10646" targetEnd="quarantana/cap27.xml#c27_10656">одинаково предприимчивый на всякие козни и ненадежный в соблюдении договоров и храбрый в бою, </note>
+        <note xml:id="russian_1936_cap27-n92" type="comm" target="quarantana/cap27.xml#c27_10657" targetEnd="quarantana/cap27.xml#c27_10660">перейдет на сторону Франции, </note>
+        <note xml:id="russian_1936_cap27-n93" type="comm" target="quarantana/cap27.xml#c27_10661" targetEnd="quarantana/cap27.xml#c27_10664">— а потому дону Гонсало приходилось закрывать один глаз, </note>
+        <note xml:id="russian_1936_cap27-n94" type="comm" target="quarantana/cap27.xml#c27_10665" targetEnd="quarantana/cap27.xml#c27_10669">молча проглатывать обиду и держаться смирно. </note>
+        <note xml:id="russian_1936_cap27-n95" type="comm" target="quarantana/cap27.xml#c27_10670" targetEnd="quarantana/cap27.xml#c27_10673">К тому же и осада подвигалась плохо, </note>
+        <note xml:id="russian_1936_cap27-n96" type="comm" target="quarantana/cap27.xml#c27_10674" targetEnd="quarantana/cap27.xml#c27_10675">затягивалась, </note>
+        <note xml:id="russian_1936_cap27-n97" type="comm" target="quarantana/cap27.xml#c27_10676" targetEnd="quarantana/cap27.xml#c27_10678">порою даже дело шло назад, </note>
+        <note xml:id="russian_1936_cap27-n98" type="comm" target="quarantana/cap27.xml#c27_10679" targetEnd="quarantana/cap27.xml#c27_10683">и вследствие стойкости, </note>
+        <note xml:id="russian_1936_cap27-n99" type="comm" target="quarantana/cap27.xml#c27_10684" targetEnd="quarantana/cap27.xml#c27_10684">бдительности, </note>
+        <note xml:id="russian_1936_cap27-n100" type="comm" target="quarantana/cap27.xml#c27_10685" targetEnd="quarantana/cap27.xml#c27_10687">решимости осажденных, </note>
+        <note xml:id="russian_1936_cap27-n101" type="comm" target="quarantana/cap27.xml#c27_10688" targetEnd="quarantana/cap27.xml#c27_10693">и оттого, что у него самого мало было людей, </note>
+        <note xml:id="russian_1936_cap27-n102" type="comm" target="quarantana/cap27.xml#c27_10694" targetEnd="quarantana/cap27.xml#c27_10699">а по словам некоторых историков, </note>
+        <note xml:id="russian_1936_cap27-n103" type="comm" target="quarantana/cap27.xml#c27_10700" targetEnd="quarantana/cap27.xml#c27_10705">— из-за множества допущенных им самим промахов. </note>
+        <note xml:id="russian_1936_cap27-n104" type="comm" target="quarantana/cap27.xml#c27_10706" targetEnd="quarantana/cap27.xml#c27_10714">Мы охотно верим, что это правда, </note>
+        <note xml:id="russian_1936_cap27-n105" type="comm" target="quarantana/cap27.xml#c27_10715" targetEnd="quarantana/cap27.xml#c27_10716">— больше того: </note>
+        <note xml:id="russian_1936_cap27-n106" type="comm" target="quarantana/cap27.xml#c27_10717" targetEnd="quarantana/cap27.xml#c27_10722">коли дело действительно было так, </note>
+        <note xml:id="russian_1936_cap27-n107" type="comm" target="quarantana/cap27.xml#c27_10723" targetEnd="quarantana/cap27.xml#c27_10725">мы даже склонны тому радоваться, </note>
+        <note xml:id="russian_1936_cap27-n108" type="comm" target="quarantana/cap27.xml#c27_10726" targetEnd="quarantana/cap27.xml#c27_10734">если оно было причиной того, что от этого похода осталось меньше мертвых, </note>
+        <note xml:id="russian_1936_cap27-n109" type="comm" target="quarantana/cap27.xml#c27_10735" targetEnd="quarantana/cap27.xml#c27_10735">изуродованных, </note>
+        <note xml:id="russian_1936_cap27-n110" type="comm" target="quarantana/cap27.xml#c27_10736" targetEnd="quarantana/cap27.xml#c27_10741">калек и, </note>
+        <note xml:id="russian_1936_cap27-n111" type="comm" target="quarantana/cap27.xml#c27_10742" targetEnd="quarantana/cap27.xml#c27_10744">ceteris paribus, </note>
+        <note xml:id="russian_1936_cap27-n112" type="comm" target="quarantana/cap27.xml#c27_10745" targetEnd="quarantana/cap27.xml#c27_10754">хотя бы только меньше поврежденных черепичных кровель в Казале. </note>
+        <note xml:id="russian_1936_cap27-n113" type="comm" target="quarantana/cap27.xml#c27_10755" targetEnd="quarantana/cap27.xml#c27_10769">Среди всех этих неприятностей он получил известие о мятеже в Милане и самолично прибыл туда. </note>
+        <note xml:id="russian_1936_cap27-n114" type="comm" target="quarantana/cap27.xml#c27_10770" targetEnd="quarantana/cap27.xml#c27_10776">Здесь в докладе, ему сделанном, </note>
+        <note xml:id="russian_1936_cap27-n115" type="comm" target="quarantana/cap27.xml#c27_10777" targetEnd="quarantana/cap27.xml#c27_10787">упомянуто было также о возмутительном и наделавшем шуму побеге Ренцо и об обстоятельствах, </note>
+        <note xml:id="russian_1936_cap27-n116" type="comm" target="quarantana/cap27.xml#c27_10788" targetEnd="quarantana/cap27.xml#c27_10798">истинных и предполагаемых, послуживших причиной его задержания; </note>
+        <note xml:id="russian_1936_cap27-n117" type="comm" target="quarantana/cap27.xml#c27_10799" targetEnd="quarantana/cap27.xml#c27_10813">не упустили сказать и о том, что человек этот укрылся на территории Бергамо. </note>
+        <note xml:id="russian_1936_cap27-n118" type="comm" target="quarantana/cap27.xml#c27_10814" targetEnd="quarantana/cap27.xml#c27_10820">Это обстоятельство привлекло внимание дона Гонсало. </note>
+        <note xml:id="russian_1936_cap27-n119" type="comm" target="quarantana/cap27.xml#c27_10821" targetEnd="quarantana/cap27.xml#c27_10825">С совершенно другой стороны он был осведомлен о том, </note>
+        <note xml:id="russian_1936_cap27-n120" type="comm" target="quarantana/cap27.xml#c27_10826" targetEnd="quarantana/cap27.xml#c27_10837">что в Венеции задирают нос в связи с миланским бунтом; </note>
+        <note xml:id="russian_1936_cap27-n121" type="comm" target="quarantana/cap27.xml#c27_10838" targetEnd="quarantana/cap27.xml#c27_10850">что по началу там даже полагали, что это вынудит его снять осаду с Казале, </note>
+        <note xml:id="russian_1936_cap27-n122" type="comm" target="quarantana/cap27.xml#c27_10851" targetEnd="quarantana/cap27.xml#c27_10862">и все время думали, что он все растерян и чрезвычайно озабочен, </note>
+        <note xml:id="russian_1936_cap27-n123" type="comm" target="quarantana/cap27.xml#c27_10863" targetEnd="quarantana/cap27.xml#c27_10865">тем более, </note>
+        <note xml:id="russian_1936_cap27-n124" type="comm" target="quarantana/cap27.xml#c27_10866" targetEnd="quarantana/cap27.xml#c27_10872">что тут же, вслед за этим происшествием прибыло известие, </note>
+        <note xml:id="russian_1936_cap27-n125" type="comm" target="quarantana/cap27.xml#c27_10873" targetEnd="quarantana/cap27.xml#c27_10880">которого синьория жадно ждала, а он так боялся, </note>
+        <note xml:id="russian_1936_cap27-n126" type="comm" target="quarantana/cap27.xml#c27_10881" targetEnd="quarantana/cap27.xml#c27_10884">— именно известие о сдаче Ла-Рошели. </note>
+        <note xml:id="russian_1936_cap27-n127" type="comm" target="quarantana/cap27.xml#c27_10885" targetEnd="quarantana/cap27.xml#c27_10893">Сильно уязвленный и как человек и как политик тем, </note>
+        <note xml:id="russian_1936_cap27-n128" type="comm" target="quarantana/cap27.xml#c27_10894" targetEnd="quarantana/cap27.xml#c27_10903">что синьоры составили себе о нем такое мнение, </note>
+        <note xml:id="russian_1936_cap27-n129" type="comm" target="quarantana/cap27.xml#c27_10904" targetEnd="quarantana/cap27.xml#c27_10911">он выискивал случай убедить их и заставить прийти к выводу, при прочих равных условиях, </note>
+        <note xml:id="russian_1936_cap27-n130" type="comm" target="quarantana/cap27.xml#c27_10912" targetEnd="quarantana/cap27.xml#c27_10918">что он ни в малейшей степени не утратил прежней уверенности; </note>
+        <note xml:id="russian_1936_cap27-n131" type="comm" target="quarantana/cap27.xml#c27_10919" targetEnd="quarantana/cap27.xml#c27_10922">потому что сказать определенно: </note>
+        <note xml:id="russian_1936_cap27-n132" type="comm" target="quarantana/cap27.xml#c27_10923" targetEnd="quarantana/cap27.xml#c27_10925">Я не боюсь, </note>
+        <note xml:id="russian_1936_cap27-n134" type="comm" target="quarantana/cap27.xml#c27_10926" targetEnd="quarantana/cap27.xml#c27_10930">что не сказать ничего. </note>
+        <note xml:id="russian_1936_cap27-n135" type="comm" target="quarantana/cap27.xml#c27_10931" targetEnd="quarantana/cap27.xml#c27_10938">Отличное средство — разыгрывать оскорбленного, </note>
+        <note xml:id="russian_1936_cap27-n136" type="comm" target="quarantana/cap27.xml#c27_10939" targetEnd="quarantana/cap27.xml#c27_10942">жаловаться, заявлять претензии. </note>
+        <note xml:id="russian_1936_cap27-n137" type="comm" target="quarantana/cap27.xml#c27_10943" targetEnd="quarantana/cap27.xml#c27_10944">Вот почему, </note>
+        <note xml:id="russian_1936_cap27-n138" type="comm" target="quarantana/cap27.xml#c27_10945" targetEnd="quarantana/cap27.xml#c27_10958">когда к нему явился венецианский резидент для изъявления своего почтения и вместе с тем для того, </note>
+        <note xml:id="russian_1936_cap27-n139" type="comm" target="quarantana/cap27.xml#c27_10959" targetEnd="quarantana/cap27.xml#c27_10965">чтобы по лицу и поведению его разведать, </note>
+        <note xml:id="russian_1936_cap27-n140" type="comm" target="quarantana/cap27.xml#c27_10966" targetEnd="quarantana/cap27.xml#c27_10972">как он себя чувствует (обратите внимание на все: </note>
+        <note xml:id="russian_1936_cap27-n141" type="comm" target="quarantana/cap27.xml#c27_10973" targetEnd="quarantana/cap27.xml#c27_10980">это-то и есть старинная тонкая политика), </note>
+        <note xml:id="russian_1936_cap27-n142" type="comm" target="quarantana/cap27.xml#c27_10981" targetEnd="quarantana/cap27.xml#c27_10982">— дон Гонсало, </note>
+        <note xml:id="russian_1936_cap27-n143" type="comm" target="quarantana/cap27.xml#c27_10983" targetEnd="quarantana/cap27.xml#c27_10987">слегка поговорив о беспорядках, </note>
+        <note xml:id="russian_1936_cap27-n144" type="comm" target="quarantana/cap27.xml#c27_10988" targetEnd="quarantana/cap27.xml#c27_10998">тоном человека, который все уже уладил, </note>
+        <note xml:id="russian_1936_cap27-n145" type="comm" target="quarantana/cap27.xml#c27_10999" targetEnd="quarantana/cap27.xml#c27_11007">заявил по поводу Ренцо тот резкий протест, о котором читатель уже знает, </note>
+        <note xml:id="russian_1936_cap27-n146" type="comm" target="quarantana/cap27.xml#c27_11008" targetEnd="quarantana/cap27.xml#c27_11016">как знает он и о том, что произошло отсюда в дальнейшем. </note>
+        <note xml:id="russian_1936_cap27-n147" type="comm" target="quarantana/cap27.xml#c27_11017" targetEnd="quarantana/cap27.xml#c27_11025">После этого дон Гонсало больше уже не занимался таким пустяковым делом, </note>
+        <note xml:id="russian_1936_cap27-n148" type="comm" target="quarantana/cap27.xml#c27_11026" targetEnd="quarantana/cap27.xml#c27_11030">для него вполне исчерпанным. </note>
+        <note xml:id="russian_1936_cap27-n149" type="comm" target="quarantana/cap27.xml#c27_11031" targetEnd="quarantana/cap27.xml#c27_11033">И когда потом, </note>
+        <note xml:id="russian_1936_cap27-n150" type="comm" target="quarantana/cap27.xml#c27_11034" targetEnd="quarantana/cap27.xml#c27_11038">уже много позднее, </note>
+        <note xml:id="russian_1936_cap27-n151" type="comm" target="quarantana/cap27.xml#c27_11039" targetEnd="quarantana/cap27.xml#c27_11046">дошел до него ответ в лагерь под Казале, </note>
+        <note xml:id="russian_1936_cap27-n152" type="comm" target="quarantana/cap27.xml#c27_11047" targetEnd="quarantana/cap27.xml#c27_11053">куда он успел вернуться и где у него были совсем другие заботы, </note>
+        <note xml:id="russian_1936_cap27-n153" type="comm" target="quarantana/cap27.xml#c27_11054" targetEnd="quarantana/cap27.xml#c27_11058">он поднял голову и повел ею, </note>
+        <note xml:id="russian_1936_cap27-n154" type="comm" target="quarantana/cap27.xml#c27_11059" targetEnd="quarantana/cap27.xml#c27_11067">как шелковичный червь, ищущий листа. </note>
+        <note xml:id="russian_1936_cap27-n155" type="comm" target="quarantana/cap27.xml#c27_11068" targetEnd="quarantana/cap27.xml#c27_11071">Он приостановился на минуту, </note>
+        <note xml:id="russian_1936_cap27-n156" type="comm" target="quarantana/cap27.xml#c27_11072" targetEnd="quarantana/cap27.xml#c27_11079">чтобы вызвать в памяти этот факт, </note>
+        <note xml:id="russian_1936_cap27-n157" type="comm" target="quarantana/cap27.xml#c27_11080" targetEnd="quarantana/cap27.xml#c27_11087">от которого в ней осталась лишь какая-то тень; </note>
+        <note xml:id="russian_1936_cap27-n158" type="comm" target="quarantana/cap27.xml#c27_11088" targetEnd="quarantana/cap27.xml#c27_11091">он вспомнил дело, </note>
+        <note xml:id="russian_1936_cap27-n159" type="comm" target="quarantana/cap27.xml#c27_11092" targetEnd="quarantana/cap27.xml#c27_11098">у него промелькнуло беглое и смутное представление о данной личности; </note>
+        <note xml:id="russian_1936_cap27-n160" type="comm" target="quarantana/cap27.xml#c27_11099" targetEnd="quarantana/cap27.xml#c27_11101">он перешел к другим предметам, </note>
+        <note xml:id="russian_1936_cap27-n161" type="comm" target="quarantana/cap27.xml#c27_11102" targetEnd="quarantana/cap27.xml#c27_11106">а об этом бросил думать. </note>
+        <note xml:id="russian_1936_cap27-n162" type="comm" target="quarantana/cap27.xml#c27_11107" targetEnd="quarantana/cap27.xml#c27_11120">Зато Ренцо на основании того немногого, что ему удалось уловить, </note>
+        <note xml:id="russian_1936_cap27-n163" type="comm" target="quarantana/cap27.xml#c27_11121" targetEnd="quarantana/cap27.xml#c27_11128">должен был предполагать все, что угодно, кроме добродушной беспечности, </note>
+        <note xml:id="russian_1936_cap27-n164" type="comm" target="quarantana/cap27.xml#c27_11129" targetEnd="quarantana/cap27.xml#c27_11134">и потому изрядное время им владела единственная мысль, или, </note>
+        <note xml:id="russian_1936_cap27-n165" type="comm" target="quarantana/cap27.xml#c27_11135" targetEnd="quarantana/cap27.xml#c27_11137">точнее сказать, </note>
+        <note xml:id="russian_1936_cap27-n166" type="comm" target="quarantana/cap27.xml#c27_11138" targetEnd="quarantana/cap27.xml#c27_11143">единственное стремление — жить, скрываясь. </note>
+        <note xml:id="russian_1936_cap27-n167" type="comm" target="quarantana/cap27.xml#c27_11144" targetEnd="quarantana/cap27.xml#c27_11158">Легко представить себе, как он томился желанием дать знать о себе Лючии с матерью и получить весточку от них; </note>
+        <note xml:id="russian_1936_cap27-n168" type="comm" target="quarantana/cap27.xml#c27_11159" targetEnd="quarantana/cap27.xml#c27_11163">но тут на пути стояли два затруднения. </note>
+        <note xml:id="russian_1936_cap27-n169" type="comm" target="quarantana/cap27.xml#c27_11164" targetEnd="quarantana/cap27.xml#c27_11173">Одно заключалось в том, что и ему пришлось бы довериться писцу, </note>
+        <note xml:id="russian_1936_cap27-n170" type="comm" target="quarantana/cap27.xml#c27_11174" targetEnd="quarantana/cap27.xml#c27_11179">потому что бедняга не умел писать, </note>
+        <note xml:id="russian_1936_cap27-n171" type="comm" target="quarantana/cap27.xml#c27_11180" targetEnd="quarantana/cap27.xml#c27_11187">да собственно и читать — в широком смысле этого слова; </note>
+        <note xml:id="russian_1936_cap27-n172" type="comm" target="quarantana/cap27.xml#c27_11188" targetEnd="quarantana/cap27.xml#c27_11192">и если на вопрос об этом доктора Крючкотвора он, </note>
+        <note xml:id="russian_1936_cap27-n173" type="comm" target="quarantana/cap27.xml#c27_11193" targetEnd="quarantana/cap27.xml#c27_11196">как вы, может быть, помните, </note>
+        <note xml:id="russian_1936_cap27-n175" type="comm" target="quarantana/cap27.xml#c27_11200" targetEnd="quarantana/cap27.xml#c27_11203">ответил утвердительно, </note>
+        <note xml:id="russian_1936_cap27-n176" type="comm" target="quarantana/cap27.xml#c27_11204" targetEnd="quarantana/cap27.xml#c27_11207">то это было не хвастовство, не то, </note>
+        <note xml:id="russian_1936_cap27-n177" type="comm" target="quarantana/cap27.xml#c27_11208" targetEnd="quarantana/cap27.xml#c27_11212">что называется втиранием очков; </note>
+        <note xml:id="russian_1936_cap27-n178" type="comm" target="quarantana/cap27.xml#c27_11213" targetEnd="quarantana/cap27.xml#c27_11222">правдой было то, что по печатному он читать умел, </note>
+        <note xml:id="russian_1936_cap27-n179" type="comm" target="quarantana/cap27.xml#c27_11223" targetEnd="quarantana/cap27.xml#c27_11226">хотя и очень медленно, </note>
+        <note xml:id="russian_1936_cap27-n180" type="comm" target="quarantana/cap27.xml#c27_11227" targetEnd="quarantana/cap27.xml#c27_11234">а вот по писаному — это совсем дело другое. </note>
+        <note xml:id="russian_1936_cap27-n181" type="comm" target="quarantana/cap27.xml#c27_11235" targetEnd="quarantana/cap27.xml#c27_11246">Стало быть, он вынужден был вмешивать третье лицо в свои дела, </note>
+        <note xml:id="russian_1936_cap27-n182" type="comm" target="quarantana/cap27.xml#c27_11247" targetEnd="quarantana/cap27.xml#c27_11250">требовавшие сохранения полной тайны; </note>
+        <note xml:id="russian_1936_cap27-n183" type="comm" target="quarantana/cap27.xml#c27_11251" targetEnd="quarantana/cap27.xml#c27_11267">а найти такого человека, который умел бы держать перо в руках и на которого можно было бы положиться, </note>
+        <note xml:id="russian_1936_cap27-n184" type="comm" target="quarantana/cap27.xml#c27_11268" targetEnd="quarantana/cap27.xml#c27_11275">в те времена было не так-то легко, </note>
+        <note xml:id="russian_1936_cap27-n185" type="comm" target="quarantana/cap27.xml#c27_11276" targetEnd="quarantana/cap27.xml#c27_11286">тем более в деревне, где у него не было никаких давних знакомств. </note>
+        <note xml:id="russian_1936_cap27-n186" type="comm" target="quarantana/cap27.xml#c27_11287" targetEnd="quarantana/cap27.xml#c27_11293">Другое затруднение состояло в том, как найти посланца, </note>
+        <note xml:id="russian_1936_cap27-n187" type="comm" target="quarantana/cap27.xml#c27_11294" targetEnd="quarantana/cap27.xml#c27_11301">— человека, который ехал бы именно в те места, </note>
+        <note xml:id="russian_1936_cap27-n188" type="comm" target="quarantana/cap27.xml#c27_11302" targetEnd="quarantana/cap27.xml#c27_11313">который согласился бы взять с собой письмо с намерением действительно доставить его; </note>
+        <note xml:id="russian_1936_cap27-n189" type="comm" target="quarantana/cap27.xml#c27_11314" targetEnd="quarantana/cap27.xml#c27_11324">найти все это в одном человеке — тоже дело не легкое. </note>
+        <note xml:id="russian_1936_cap27-n190" type="comm" target="quarantana/cap27.xml#c27_11325" targetEnd="quarantana/cap27.xml#c27_11325">Наконец, </note>
+        <note xml:id="russian_1936_cap27-n191" type="comm" target="quarantana/cap27.xml#c27_11326" targetEnd="quarantana/cap27.xml#c27_11328">после долгих поисков он нашел человека, </note>
+        <note xml:id="russian_1936_cap27-n192" type="comm" target="quarantana/cap27.xml#c27_11329" targetEnd="quarantana/cap27.xml#c27_11333">который взялся написать за него. </note>
+        <note xml:id="russian_1936_cap27-n193" type="comm" target="quarantana/cap27.xml#c27_11334" targetEnd="quarantana/cap27.xml#c27_11345">Не зная, однако, находятся ли женщины все еще в Монце или они уже в ином месте, </note>
+        <note xml:id="russian_1936_cap27-n194" type="comm" target="quarantana/cap27.xml#c27_11346" targetEnd="quarantana/cap27.xml#c27_11360">он счел за лучшее вложить письмо к Аньезе в другое, направленное к падре Кристофоро. </note>
+        <note xml:id="russian_1936_cap27-n195" type="comm" target="quarantana/cap27.xml#c27_11361" targetEnd="quarantana/cap27.xml#c27_11370">Писец взял на себя поручение и по доставке пакета; </note>
+        <note xml:id="russian_1936_cap27-n196" type="comm" target="quarantana/cap27.xml#c27_11371" targetEnd="quarantana/cap27.xml#c27_11381">он передал его человеку, который должен был проезжать неподалеку от Пескаренико, </note>
+        <note xml:id="russian_1936_cap27-n197" type="comm" target="quarantana/cap27.xml#c27_11382" targetEnd="quarantana/cap27.xml#c27_11391">а тот с длинными увещаниями оставил письмо в остерии на большой дороге, </note>
+        <note xml:id="russian_1936_cap27-n198" type="comm" target="quarantana/cap27.xml#c27_11392" targetEnd="quarantana/cap27.xml#c27_11395">в ближайшем пункте к месту назначения. </note>
+        <note xml:id="russian_1936_cap27-n199" type="comm" target="quarantana/cap27.xml#c27_11396" targetEnd="quarantana/cap27.xml#c27_11404">Так как дело шло о пакете, адресованном в монастырь, </note>
+        <note xml:id="russian_1936_cap27-n200" type="comm" target="quarantana/cap27.xml#c27_11405" targetEnd="quarantana/cap27.xml#c27_11406">то он дошел туда, </note>
+        <note xml:id="russian_1936_cap27-n201" type="comm" target="quarantana/cap27.xml#c27_11407" targetEnd="quarantana/cap27.xml#c27_11410">но что произошло с ним дальше, </note>
+        <note xml:id="russian_1936_cap27-n202" type="comm" target="quarantana/cap27.xml#c27_11411" targetEnd="quarantana/cap27.xml#c27_11415">это навсегда осталось неизвестным. </note>
+        <note xml:id="russian_1936_cap27-n203" type="comm" target="quarantana/cap27.xml#c27_11416" targetEnd="quarantana/cap27.xml#c27_11419">Не получая ответа, </note>
+        <note xml:id="russian_1936_cap27-n204" type="comm" target="quarantana/cap27.xml#c27_11420" targetEnd="quarantana/cap27.xml#c27_11423">Ренцо велел составить второе письмо, </note>
+        <note xml:id="russian_1936_cap27-n205" type="comm" target="quarantana/cap27.xml#c27_11424" targetEnd="quarantana/cap27.xml#c27_11430">почти такое же, как и первое, </note>
+        <note xml:id="russian_1936_cap27-n206" type="comm" target="quarantana/cap27.xml#c27_11431" targetEnd="quarantana/cap27.xml#c27_11444">и вложить его в другое на имя одного своего не то друга, не то родственника в Лекко. </note>
+        <note xml:id="russian_1936_cap27-n207" type="comm" target="quarantana/cap27.xml#c27_11445" targetEnd="quarantana/cap27.xml#c27_11449">Стали опять искать, через кого бы доставить письмо; </note>
+        <note xml:id="russian_1936_cap27-n208" type="comm" target="quarantana/cap27.xml#c27_11450" targetEnd="quarantana/cap27.xml#c27_11451">нашли: </note>
+        <note xml:id="russian_1936_cap27-n209" type="comm" target="quarantana/cap27.xml#c27_11452" targetEnd="quarantana/cap27.xml#c27_11460">на этот раз письмо дошло по назначению. </note>
+        <note xml:id="russian_1936_cap27-n210" type="comm" target="quarantana/cap27.xml#c27_11461" targetEnd="quarantana/cap27.xml#c27_11474">Аньезе живо сбегала в Маджанико и попросила двоюродного своего брата Алессио прочитать и растолковать ей письмо: </note>
+        <note xml:id="russian_1936_cap27-n211" type="comm" target="quarantana/cap27.xml#c27_11475" targetEnd="quarantana/cap27.xml#c27_11479">с ним же вместе она составила ответ, </note>
+        <note xml:id="russian_1936_cap27-n212" type="comm" target="quarantana/cap27.xml#c27_11480" targetEnd="quarantana/cap27.xml#c27_11484">и он изложил его на бумаге; </note>
+        <note xml:id="russian_1936_cap27-n213" type="comm" target="quarantana/cap27.xml#c27_11485" targetEnd="quarantana/cap27.xml#c27_11498">нашелся способ отправить письмо к Антонио Ривольта по месту его жительства, </note>
+        <note xml:id="russian_1936_cap27-n214" type="comm" target="quarantana/cap27.xml#c27_11499" targetEnd="quarantana/cap27.xml#c27_11508">— все это, однако, делалось не так быстро, как в нашем рассказе. </note>
+        <note xml:id="russian_1936_cap27-n215" type="comm" target="quarantana/cap27.xml#c27_11509" targetEnd="quarantana/cap27.xml#c27_11515">Ренцо получил ответ и с своей стороны снова велел отписать. </note>
+        <note xml:id="russian_1936_cap27-n216" type="comm" target="quarantana/cap27.xml#c27_11516" targetEnd="quarantana/cap27.xml#c27_11524">В общем между двумя сторонами завязалась переписка, </note>
+        <note xml:id="russian_1936_cap27-n217" type="comm" target="quarantana/cap27.xml#c27_11525" targetEnd="quarantana/cap27.xml#c27_11528">не быстрая и не регулярная, </note>
+        <note xml:id="russian_1936_cap27-n218" type="comm" target="quarantana/cap27.xml#c27_11529" targetEnd="quarantana/cap27.xml#c27_11530">но все же постоянная, </note>
+        <note xml:id="russian_1936_cap27-n219" type="comm" target="quarantana/cap27.xml#c27_11531" targetEnd="quarantana/cap27.xml#c27_11536">хоть и со скачками и с перерывами. </note>
+        <note xml:id="russian_1936_cap27-n220" type="comm" target="quarantana/cap27.xml#c27_11537" targetEnd="quarantana/cap27.xml#c27_11543">Но чтобы иметь понятие об этой переписке, </note>
+        <note xml:id="russian_1936_cap27-n221" type="comm" target="quarantana/cap27.xml#c27_11544" targetEnd="quarantana/cap27.xml#c27_11552">надо немножко ознакомиться с тем, как в ту пору делались такие дела, </note>
+        <note xml:id="russian_1936_cap27-n222" type="comm" target="quarantana/cap27.xml#c27_11553" targetEnd="quarantana/cap27.xml#c27_11555">или даже как они делаются и посейчас; </note>
+        <note xml:id="russian_1936_cap27-n223" type="comm" target="quarantana/cap27.xml#c27_11556" targetEnd="quarantana/cap27.xml#c27_11559">ибо по этой части, </note>
+        <note xml:id="russian_1936_cap27-n224" type="comm" target="quarantana/cap27.xml#c27_11560" targetEnd="quarantana/cap27.xml#c27_11568">думается мне, произошло очень мало изменений, а то и совсем никаких. </note>
+        <note xml:id="russian_1936_cap27-n225" type="comm" target="quarantana/cap27.xml#c27_11569" targetEnd="quarantana/cap27.xml#c27_11580">Деревенский житель, который не умеет писать и которому нужно послать письмо, </note>
+        <note xml:id="russian_1936_cap27-n226" type="comm" target="quarantana/cap27.xml#c27_11581" targetEnd="quarantana/cap27.xml#c27_11587">обращается к знающему это искусство, </note>
+        <note xml:id="russian_1936_cap27-n227" type="comm" target="quarantana/cap27.xml#c27_11588" targetEnd="quarantana/cap27.xml#c27_11588">выбирая его, </note>
+        <note xml:id="russian_1936_cap27-n228" type="comm" target="quarantana/cap27.xml#c27_11589" targetEnd="quarantana/cap27.xml#c27_11591">по возможности, </note>
+        <note xml:id="russian_1936_cap27-n229" type="comm" target="quarantana/cap27.xml#c27_11592" targetEnd="quarantana/cap27.xml#c27_11596">среди людей своего положения, </note>
+        <note xml:id="russian_1936_cap27-n230" type="comm" target="quarantana/cap27.xml#c27_11597" targetEnd="quarantana/cap27.xml#c27_11605">потому что других он стесняется либо мало им доверяет. </note>
+        <note xml:id="russian_1936_cap27-n231" type="comm" target="quarantana/cap27.xml#c27_11606" targetEnd="quarantana/cap27.xml#c27_11606">Выбранного он прежде всего осведомляет, </note>
+        <note xml:id="russian_1936_cap27-n232" type="comm" target="quarantana/cap27.xml#c27_11607" targetEnd="quarantana/cap27.xml#c27_11613">с большей или меньшей последовательностью и ясностью, </note>
+        <note xml:id="russian_1936_cap27-n233" type="comm" target="quarantana/cap27.xml#c27_11614" targetEnd="quarantana/cap27.xml#c27_11621">о предшествовавших обстоятельствах и затем излагает ему в таком же роде и то, </note>
+        <note xml:id="russian_1936_cap27-n234" type="comm" target="quarantana/cap27.xml#c27_11622" targetEnd="quarantana/cap27.xml#c27_11629">о чем нужно написать. Грамотей одно понимает, </note>
+        <note xml:id="russian_1936_cap27-n235" type="comm" target="quarantana/cap27.xml#c27_11630" targetEnd="quarantana/cap27.xml#c27_11633">другое — толкует вкривь и вкось, </note>
+        <note xml:id="russian_1936_cap27-n236" type="comm" target="quarantana/cap27.xml#c27_11634" targetEnd="quarantana/cap27.xml#c27_11636">кое в чем дает совет от себя, </note>
+        <note xml:id="russian_1936_cap27-n237" type="comm" target="quarantana/cap27.xml#c27_11637" targetEnd="quarantana/cap27.xml#c27_11639">предлагает кое-какие изменения, </note>
+        <note xml:id="russian_1936_cap27-n238" type="comm" target="quarantana/cap27.xml#c27_11640" targetEnd="quarantana/cap27.xml#c27_11640">заявляет: </note>
+        <note xml:id="russian_1936_cap27-n239" type="comm" target="quarantana/cap27.xml#c27_11641" targetEnd="quarantana/cap27.xml#c27_11644">«Предоставьте все мне». </note>
+        <note xml:id="russian_1936_cap27-n240" type="comm" target="quarantana/cap27.xml#c27_11645" targetEnd="quarantana/cap27.xml#c27_11647">Берет перо, </note>
+        <note xml:id="russian_1936_cap27-n241" type="comm" target="quarantana/cap27.xml#c27_11648" targetEnd="quarantana/cap27.xml#c27_11656">облекает, как умеет, в литературную форму чужие мысли, </note>
+        <note xml:id="russian_1936_cap27-n242" type="comm" target="quarantana/cap27.xml#c27_11657" targetEnd="quarantana/cap27.xml#c27_11660">исправляет их, приукрашает, </note>
+        <note xml:id="russian_1936_cap27-n243" type="comm" target="quarantana/cap27.xml#c27_11661" targetEnd="quarantana/cap27.xml#c27_11665">иное преувеличивает или же смягчает, </note>
+        <note xml:id="russian_1936_cap27-n244" type="comm" target="quarantana/cap27.xml#c27_11666" targetEnd="quarantana/cap27.xml#c27_11668">а то и совсем опускает, </note>
+        <note xml:id="russian_1936_cap27-n245" type="comm" target="quarantana/cap27.xml#c27_11669" targetEnd="quarantana/cap27.xml#c27_11676">сообразно с тем, как по его мнению будет лучше. </note>
+        <note xml:id="russian_1936_cap27-n246" type="comm" target="quarantana/cap27.xml#c27_11677" targetEnd="quarantana/cap27.xml#c27_11680">И ничего с этим не поделаешь: </note>
+        <note xml:id="russian_1936_cap27-n247" type="comm" target="quarantana/cap27.xml#c27_11681" targetEnd="quarantana/cap27.xml#c27_11694">раз кто знает больше других, он ни за что не согласится быть простым орудием в их руках, </note>
+        <note xml:id="russian_1936_cap27-n248" type="comm" target="quarantana/cap27.xml#c27_11695" targetEnd="quarantana/cap27.xml#c27_11700">и когда он входит в чужие дела, </note>
+        <note xml:id="russian_1936_cap27-n249" type="comm" target="quarantana/cap27.xml#c27_11701" targetEnd="quarantana/cap27.xml#c27_11708">он невольно хочет и повернуть их немножко на свой лад. </note>
+        <note xml:id="russian_1936_cap27-n250" type="comm" target="quarantana/cap27.xml#c27_11709" targetEnd="quarantana/cap27.xml#c27_11724">К тому же вышеназванному грамотею не всегда удается сказать все то, что ему хочется, </note>
+        <note xml:id="russian_1936_cap27-n251" type="comm" target="quarantana/cap27.xml#c27_11725" targetEnd="quarantana/cap27.xml#c27_11731">иной раз случается сказать и совсем другое: </note>
+        <note xml:id="russian_1936_cap27-n252" type="comm" target="quarantana/cap27.xml#c27_11732" targetEnd="quarantana/cap27.xml#c27_11736">случается это ведь и с нашей братией, </note>
+        <note xml:id="russian_1936_cap27-n253" type="comm" target="quarantana/cap27.xml#c27_11737" targetEnd="quarantana/cap27.xml#c27_11741">пишущей для печатания. </note>
+        <note xml:id="russian_1936_cap27-n254" type="comm" target="quarantana/cap27.xml#c27_11742" targetEnd="quarantana/cap27.xml#c27_11751">Когда письмо, составленное таким способом, попадает в руки адресата, </note>
+        <note xml:id="russian_1936_cap27-n255" type="comm" target="quarantana/cap27.xml#c27_11752" targetEnd="quarantana/cap27.xml#c27_11758">который тоже не силен в азбуке, </note>
+        <note xml:id="russian_1936_cap27-n256" type="comm" target="quarantana/cap27.xml#c27_11759" targetEnd="quarantana/cap27.xml#c27_11767">он несет его к другому ученому того же калибра, </note>
+        <note xml:id="russian_1936_cap27-n257" type="comm" target="quarantana/cap27.xml#c27_11768" targetEnd="quarantana/cap27.xml#c27_11774">который ему читает и толкует его. </note>
+        <note xml:id="russian_1936_cap27-n258" type="comm" target="quarantana/cap27.xml#c27_11775" targetEnd="quarantana/cap27.xml#c27_11780">Возникают вопросы, как понимать то или другое, </note>
+        <note xml:id="russian_1936_cap27-n259" type="comm" target="quarantana/cap27.xml#c27_11781" targetEnd="quarantana/cap27.xml#c27_11782">— потому что заинтересованный, </note>
+        <note xml:id="russian_1936_cap27-n260" type="comm" target="quarantana/cap27.xml#c27_11783" targetEnd="quarantana/cap27.xml#c27_11788">опираясь на знакомство с предшествовавшими обстоятельствами, </note>
+        <note xml:id="russian_1936_cap27-n261" type="comm" target="quarantana/cap27.xml#c27_11789" targetEnd="quarantana/cap27.xml#c27_11796">полагает, что те или иные слова выражают одно; </note>
+        <note xml:id="russian_1936_cap27-n262" type="comm" target="quarantana/cap27.xml#c27_11797" targetEnd="quarantana/cap27.xml#c27_11798">а чтец, </note>
+        <note xml:id="russian_1936_cap27-n263" type="comm" target="quarantana/cap27.xml#c27_11799" targetEnd="quarantana/cap27.xml#c27_11805">исходя из своего составительского опыта, </note>
+        <note xml:id="russian_1936_cap27-n264" type="comm" target="quarantana/cap27.xml#c27_11806" targetEnd="quarantana/cap27.xml#c27_11811">полагает, что они выражают другое. </note>
+        <note xml:id="russian_1936_cap27-n265" type="comm" target="quarantana/cap27.xml#c27_11812" targetEnd="quarantana/cap27.xml#c27_11824">В конце концов, тому, кто не знает, приходится отдавать себя в руки того, кто знает, </note>
+        <note xml:id="russian_1936_cap27-n266" type="comm" target="quarantana/cap27.xml#c27_11825" targetEnd="quarantana/cap27.xml#c27_11831">и возлагать на него поручение писать ответ: </note>
+        <note xml:id="russian_1936_cap27-n267" type="comm" target="quarantana/cap27.xml#c27_11832" targetEnd="quarantana/cap27.xml#c27_11833">сей последний, </note>
+        <note xml:id="russian_1936_cap27-n268" type="comm" target="quarantana/cap27.xml#c27_11834" targetEnd="quarantana/cap27.xml#c27_11838">составленный в таком же духе, </note>
+        <note xml:id="russian_1936_cap27-n269" type="comm" target="quarantana/cap27.xml#c27_11839" targetEnd="quarantana/cap27.xml#c27_11844">подвергается потом подобному же истолкованию. </note>
+        <note xml:id="russian_1936_cap27-n270" type="comm" target="quarantana/cap27.xml#c27_11845" targetEnd="quarantana/cap27.xml#c27_11846">А если, </note>
+        <note xml:id="russian_1936_cap27-n271" type="comm" target="quarantana/cap27.xml#c27_11847" targetEnd="quarantana/cap27.xml#c27_11849">сверх этого, </note>
+        <note xml:id="russian_1936_cap27-n272" type="comm" target="quarantana/cap27.xml#c27_11850" targetEnd="quarantana/cap27.xml#c27_11861">самое содержание переписки немножко щекотливо и если в нее входят интимные дела, </note>
+        <note xml:id="russian_1936_cap27-n273" type="comm" target="quarantana/cap27.xml#c27_11862" targetEnd="quarantana/cap27.xml#c27_11870">в которые не хочется посвящать постороннего человека, </note>
+        <note xml:id="russian_1936_cap27-n274" type="comm" target="quarantana/cap27.xml#c27_11871" targetEnd="quarantana/cap27.xml#c27_11877">на случай если бы письмо попало не по адресу; </note>
+        <note xml:id="russian_1936_cap27-n275" type="comm" target="quarantana/cap27.xml#c27_11878" targetEnd="quarantana/cap27.xml#c27_11893">если из такой предосторожности преднамеренно не говорится обо всем вполне ясно, </note>
+        <note xml:id="russian_1936_cap27-n276" type="comm" target="quarantana/cap27.xml#c27_11894" targetEnd="quarantana/cap27.xml#c27_11894">— тогда, </note>
+        <note xml:id="russian_1936_cap27-n277" type="comm" target="quarantana/cap27.xml#c27_11895" targetEnd="quarantana/cap27.xml#c27_11900">стоит лишь переписке принять сколько-нибудь длительный характер, </note>
+        <note xml:id="russian_1936_cap27-n278" type="comm" target="quarantana/cap27.xml#c27_11901" targetEnd="quarantana/cap27.xml#c27_11926">как обе стороны в конце концов будут понимать друг друга не лучше, чем, бывало, два схоластика, которые четыре часа спорили об энтелехии (мы намеренно не берем уподобления из современной жизни: </note>
+        <note xml:id="russian_1936_cap27-n279" type="comm" target="quarantana/cap27.xml#c27_11927" targetEnd="quarantana/cap27.xml#c27_11934">как бы не влетело за это по затылку). </note>
+        <note xml:id="russian_1936_cap27-n280" type="comm" target="quarantana/cap27.xml#c27_11935" targetEnd="quarantana/cap27.xml#c27_11947">С двумя нашими корреспондентами дело обстояло именно так, как мы сказали. </note>
+        <note xml:id="russian_1936_cap27-n281" type="comm" target="quarantana/cap27.xml#c27_11948" targetEnd="quarantana/cap27.xml#c27_11958">Первое письмо, написанное от имени Ренцо, содержало в себе множество всяких тем. </note>
+        <note xml:id="russian_1936_cap27-n282" type="comm" target="quarantana/cap27.xml#c27_11959" targetEnd="quarantana/cap27.xml#c27_11960">Прежде всего, </note>
+        <note xml:id="russian_1936_cap27-n283" type="comm" target="quarantana/cap27.xml#c27_11961" targetEnd="quarantana/cap27.xml#c27_11965">помимо рассказа о бегстве, </note>
+        <note xml:id="russian_1936_cap27-n284" type="comm" target="quarantana/cap27.xml#c27_11966" targetEnd="quarantana/cap27.xml#c27_11968">рассказа гораздо более сжатого, </note>
+        <note xml:id="russian_1936_cap27-n285" type="comm" target="quarantana/cap27.xml#c27_11969" targetEnd="quarantana/cap27.xml#c27_11977">но зато и более путаного, чем сделанный нами выше, </note>
+        <note xml:id="russian_1936_cap27-n286" type="comm" target="quarantana/cap27.xml#c27_11978" targetEnd="quarantana/cap27.xml#c27_11983">в письме был еще отчет о теперешнем положении Ренцо. </note>
+        <note xml:id="russian_1936_cap27-n287" type="comm" target="quarantana/cap27.xml#c27_11984" targetEnd="quarantana/cap27.xml#c27_12001">Из него ни Аньезе, ни ее посредник никак не могли извлечь сколько-нибудь ясной и цельной картины: </note>
+        <note xml:id="russian_1936_cap27-n288" type="comm" target="quarantana/cap27.xml#c27_12002" targetEnd="quarantana/cap27.xml#c27_12003">тайное предупреждение, </note>
+        <note xml:id="russian_1936_cap27-n289" type="comm" target="quarantana/cap27.xml#c27_12004" targetEnd="quarantana/cap27.xml#c27_12006">перемена имени, </note>
+        <note xml:id="russian_1936_cap27-n290" type="comm" target="quarantana/cap27.xml#c27_12007" targetEnd="quarantana/cap27.xml#c27_12008">безопасность, </note>
+        <note xml:id="russian_1936_cap27-n291" type="comm" target="quarantana/cap27.xml#c27_12009" targetEnd="quarantana/cap27.xml#c27_12012">но соединенная с необходимостью скрываться, </note>
+        <note xml:id="russian_1936_cap27-n292" type="comm" target="quarantana/cap27.xml#c27_12013" targetEnd="quarantana/cap27.xml#c27_12021">— всё вещи, уже сами по себе не слишком доступные для понимания, </note>
+        <note xml:id="russian_1936_cap27-n293" type="comm" target="quarantana/cap27.xml#c27_12022" targetEnd="quarantana/cap27.xml#c27_12030">к тому же еще они были изложены в письме несколько темно. </note>
+        <note xml:id="russian_1936_cap27-n294" type="comm" target="quarantana/cap27.xml#c27_12031" targetEnd="quarantana/cap27.xml#c27_12035">Затем были какие-то тревожные, </note>
+        <note xml:id="russian_1936_cap27-n295" type="comm" target="quarantana/cap27.xml#c27_12036" targetEnd="quarantana/cap27.xml#c27_12040">страстные расспросы о приключениях Лючии, </note>
+        <note xml:id="russian_1936_cap27-n296" type="comm" target="quarantana/cap27.xml#c27_12041" targetEnd="quarantana/cap27.xml#c27_12055">с какими-то темными и мрачными намеками в связи с дошедшими до Ренцо слухами. </note>
+        <note xml:id="russian_1936_cap27-n297" type="comm" target="quarantana/cap27.xml#c27_12056" targetEnd="quarantana/cap27.xml#c27_12061">Наконец, были неуверенные и отдаленные надежды, </note>
+        <note xml:id="russian_1936_cap27-n298" type="comm" target="quarantana/cap27.xml#c27_12062" targetEnd="quarantana/cap27.xml#c27_12064">отодвинутые в далекое будущее планы, </note>
+        <note xml:id="russian_1936_cap27-n299" type="comm" target="quarantana/cap27.xml#c27_12065" targetEnd="quarantana/cap27.xml#c27_12074">а пока что — обещания и просьбы сдержать данное слово, </note>
+        <note xml:id="russian_1936_cap27-n300" type="comm" target="quarantana/cap27.xml#c27_12075" targetEnd="quarantana/cap27.xml#c27_12082">не терять терпения и бодрости, </note>
+        <note xml:id="russian_1936_cap27-n301" type="comm" target="quarantana/cap27.xml#c27_12083" targetEnd="quarantana/cap27.xml#c27_12085">ждать более благоприятных обстоятельств. </note>
+        <note xml:id="russian_1936_cap27-n302" type="comm" target="quarantana/cap27.xml#c27_12086" targetEnd="quarantana/cap27.xml#c27_12104">В скором времени Аньезе нашла надежный способ переслать на имя Ренцо ответ с пятьюдесятью скуди, </note>
+        <note xml:id="russian_1936_cap27-n303" type="comm" target="quarantana/cap27.xml#c27_12105" targetEnd="quarantana/cap27.xml#c27_12110">предназначенными ему Лючией. </note>
+        <note xml:id="russian_1936_cap27-n304" type="comm" target="quarantana/cap27.xml#c27_12111" targetEnd="quarantana/cap27.xml#c27_12119">При виде этой уймы золота Ренцо не знал, что и подумать. </note>
+        <note xml:id="russian_1936_cap27-n305" type="comm" target="quarantana/cap27.xml#c27_12120" targetEnd="quarantana/cap27.xml#c27_12136">Охваченный изумлением и тревогой, которые не оставляли никакого места радости, </note>
+        <note xml:id="russian_1936_cap27-n306" type="comm" target="quarantana/cap27.xml#c27_12137" targetEnd="quarantana/cap27.xml#c27_12141">он побежал разыскивать писца, </note>
+        <note xml:id="russian_1936_cap27-n307" type="comm" target="quarantana/cap27.xml#c27_12142" targetEnd="quarantana/cap27.xml#c27_12154">чтобы получить от него разъяснение письма и ключ к такой странной тайне. </note>
+        <note xml:id="russian_1936_cap27-n308" type="comm" target="quarantana/cap27.xml#c27_12155" targetEnd="quarantana/cap27.xml#c27_12159">В письме этом секретарь Аньезе, </note>
+        <note xml:id="russian_1936_cap27-n309" type="comm" target="quarantana/cap27.xml#c27_12160" targetEnd="quarantana/cap27.xml#c27_12167">после некоторых жалоб на малую ясность планов Ренцо, </note>
+        <note xml:id="russian_1936_cap27-n310" type="comm" target="quarantana/cap27.xml#c27_12168" targetEnd="quarantana/cap27.xml#c27_12185">переходил к изложению — с почти такою же ясностью — страшной истории известной вам особы (он так именно и выразился); </note>
+        <note xml:id="russian_1936_cap27-n311" type="comm" target="quarantana/cap27.xml#c27_12186" targetEnd="quarantana/cap27.xml#c27_12192">и тут он давал разъяснение насчет пятидесяти скуди; </note>
+        <note xml:id="russian_1936_cap27-n312" type="comm" target="quarantana/cap27.xml#c27_12193" targetEnd="quarantana/cap27.xml#c27_12198">затем он принимался говорить об обете, </note>
+        <note xml:id="russian_1936_cap27-n313" type="comm" target="quarantana/cap27.xml#c27_12199" targetEnd="quarantana/cap27.xml#c27_12203">прибегая однако к иносказанию, </note>
+        <note xml:id="russian_1936_cap27-n314" type="comm" target="quarantana/cap27.xml#c27_12204" targetEnd="quarantana/cap27.xml#c27_12223">присоединяя к этому — словами более прямыми и определенными — совет успокоиться сердцем и больше не думать об этом. </note>
+        <note xml:id="russian_1936_cap27-n315" type="comm" target="quarantana/cap27.xml#c27_12224" targetEnd="quarantana/cap27.xml#c27_12234">Ренцо чуть было не подрался с чтецом-истолкователем; </note>
+        <note xml:id="russian_1936_cap27-n316" type="comm" target="quarantana/cap27.xml#c27_12235" targetEnd="quarantana/cap27.xml#c27_12235">он трепетал, </note>
+        <note xml:id="russian_1936_cap27-n317" type="comm" target="quarantana/cap27.xml#c27_12236" targetEnd="quarantana/cap27.xml#c27_12242">ужасался, негодовал по поводу того, что понял, </note>
+        <note xml:id="russian_1936_cap27-n318" type="comm" target="quarantana/cap27.xml#c27_12243" targetEnd="quarantana/cap27.xml#c27_12250">а заодно уж и по поводу того, чего не мог понять. </note>
+        <note xml:id="russian_1936_cap27-n319" type="comm" target="quarantana/cap27.xml#c27_12251" targetEnd="quarantana/cap27.xml#c27_12260">Раза три-четыре он заставлял перечитывать себе ужасное послание: </note>
+        <note xml:id="russian_1936_cap27-n320" type="comm" target="quarantana/cap27.xml#c27_12261" targetEnd="quarantana/cap27.xml#c27_12264">то ему казалось, что он лучше понимает, </note>
+        <note xml:id="russian_1936_cap27-n321" type="comm" target="quarantana/cap27.xml#c27_12265" targetEnd="quarantana/cap27.xml#c27_12274">а то вдруг становилось для него потемками и то, что раньше казалось ясным. </note>
+        <note xml:id="russian_1936_cap27-n322" type="comm" target="quarantana/cap27.xml#c27_12275" targetEnd="quarantana/cap27.xml#c27_12280">И в этой горячке страстей он пожелал, </note>
+        <note xml:id="russian_1936_cap27-n323" type="comm" target="quarantana/cap27.xml#c27_12281" targetEnd="quarantana/cap27.xml#c27_12291">чтобы писец немедленно взял в руки перо для ответа. </note>
+        <note xml:id="russian_1936_cap27-n324" type="comm" target="quarantana/cap27.xml#c27_12292" targetEnd="quarantana/cap27.xml#c27_12309">После самых сильных, какие только можно представить себе, выражений жалости и ужаса по поводу приключений Лючии, </note>
+        <note xml:id="russian_1936_cap27-n325" type="comm" target="quarantana/cap27.xml#c27_12310" targetEnd="quarantana/cap27.xml#c27_12312">он продолжал диктовать: «Отпишите, </note>
+        <note xml:id="russian_1936_cap27-n326" type="comm" target="quarantana/cap27.xml#c27_12313" targetEnd="quarantana/cap27.xml#c27_12322">что я не хочу успокоиться сердцем; </note>
+        <note xml:id="russian_1936_cap27-n327" type="comm" target="quarantana/cap27.xml#c27_12323" targetEnd="quarantana/cap27.xml#c27_12327">и никогда не успокоюсь; </note>
+        <note xml:id="russian_1936_cap27-n328" type="comm" target="quarantana/cap27.xml#c27_12328" targetEnd="quarantana/cap27.xml#c27_12339">и что таких советов нечего давать такому малому, как я; </note>
+        <note xml:id="russian_1936_cap27-n329" type="comm" target="quarantana/cap27.xml#c27_12340" targetEnd="quarantana/cap27.xml#c27_12346">что денег я не трону, </note>
+        <note xml:id="russian_1936_cap27-n330" type="comm" target="quarantana/cap27.xml#c27_12347" targetEnd="quarantana/cap27.xml#c27_12354">я их спрячу, буду держать их на хранении, </note>
+        <note xml:id="russian_1936_cap27-n331" type="comm" target="quarantana/cap27.xml#c27_12355" targetEnd="quarantana/cap27.xml#c27_12359">они пойдут ей на приданое; </note>
+        <note xml:id="russian_1936_cap27-n332" type="comm" target="quarantana/cap27.xml#c27_12360" targetEnd="quarantana/cap27.xml#c27_12365">а она должна быть моей, </note>
+        <note xml:id="russian_1936_cap27-n333" type="comm" target="quarantana/cap27.xml#c27_12366" targetEnd="quarantana/cap27.xml#c27_12371">никаких обетов я и знать не хочу; </note>
+        <note xml:id="russian_1936_cap27-n334" type="comm" target="quarantana/cap27.xml#c27_12372" targetEnd="quarantana/cap27.xml#c27_12391">и что я, мол, всегда слышал, что мадонна вступается, чтобы помочь угнетенным и добиться милости для них, </note>
+        <note xml:id="russian_1936_cap27-n335" type="comm" target="quarantana/cap27.xml#c27_12392" targetEnd="quarantana/cap27.xml#c27_12400">но чтобы она поощряла нанесение обиды и нарушение слова, </note>
+        <note xml:id="russian_1936_cap27-n336" type="comm" target="quarantana/cap27.xml#c27_12401" targetEnd="quarantana/cap27.xml#c27_12404">этого я никогда не слышал; </note>
+        <note xml:id="russian_1936_cap27-n337" type="comm" target="quarantana/cap27.xml#c27_12405" targetEnd="quarantana/cap27.xml#c27_12412">и этому не бывать; </note>
+        <note xml:id="russian_1936_cap27-n338" type="comm" target="quarantana/cap27.xml#c27_12413" targetEnd="quarantana/cap27.xml#c27_12421">и что с этими деньгами мы сумеем устроиться здесь, </note>
+        <note xml:id="russian_1936_cap27-n339" type="comm" target="quarantana/cap27.xml#c27_12422" targetEnd="quarantana/cap27.xml#c27_12429">и что если сейчас я немного запутался, </note>
+        <note xml:id="russian_1936_cap27-n340" type="comm" target="quarantana/cap27.xml#c27_12430" targetEnd="quarantana/cap27.xml#c27_12435">— то это буря, которую скоро пронесет», </note>
+        <note xml:id="russian_1936_cap27-n341" type="comm" target="quarantana/cap27.xml#c27_12436" targetEnd="quarantana/cap27.xml#c27_12438">— и дальше все в этом роде. </note>
+        <note xml:id="russian_1936_cap27-n342" type="comm" target="quarantana/cap27.xml#c27_12439" targetEnd="quarantana/cap27.xml#c27_12446">Аньезе получила это письмо и заказала ответ, </note>
+        <note xml:id="russian_1936_cap27-n343" type="comm" target="quarantana/cap27.xml#c27_12447" targetEnd="quarantana/cap27.xml#c27_12450">и переписка продолжалась все в том же духе, </note>
+        <note xml:id="russian_1936_cap27-n344" type="comm" target="quarantana/cap27.xml#c27_12451" targetEnd="quarantana/cap27.xml#c27_12455">как мы говорили выше. </note>
+        <note xml:id="russian_1936_cap27-n345" type="comm" target="quarantana/cap27.xml#c27_12456" targetEnd="quarantana/cap27.xml#c27_12461">Когда мать, </note>
+        <note xml:id="russian_1936_cap27-n346" type="comm" target="quarantana/cap27.xml#c27_12462" targetEnd="quarantana/cap27.xml#c27_12466">не знаю каким способом, </note>
+        <note xml:id="russian_1936_cap27-n347" type="comm" target="quarantana/cap27.xml#c27_12467" targetEnd="quarantana/cap27.xml#c27_12478">смогла дать знать Лючии, что такой-то жив и невредим и обо всем осведомлен, </note>
+        <note xml:id="russian_1936_cap27-n348" type="comm" target="quarantana/cap27.xml#c27_12479" targetEnd="quarantana/cap27.xml#c27_12487">Лючия почувствовала большое облегчение и только одного и желала, </note>
+        <note xml:id="russian_1936_cap27-n349" type="comm" target="quarantana/cap27.xml#c27_12488" targetEnd="quarantana/cap27.xml#c27_12494">чтобы он забыл ее, </note>
+        <note xml:id="russian_1936_cap27-n350" type="comm" target="quarantana/cap27.xml#c27_12495" targetEnd="quarantana/cap27.xml#c27_12495">или, </note>
+        <note xml:id="russian_1936_cap27-n351" type="comm" target="quarantana/cap27.xml#c27_12496" targetEnd="quarantana/cap27.xml#c27_12503">если уж выразиться совсем точно, </note>
+        <note xml:id="russian_1936_cap27-n352" type="comm" target="quarantana/cap27.xml#c27_12504" targetEnd="quarantana/cap27.xml#c27_12507">чтобы он постарался ее забыть. </note>
+        <note xml:id="russian_1936_cap27-n353" type="comm" target="quarantana/cap27.xml#c27_12508" targetEnd="quarantana/cap27.xml#c27_12526">Со своей стороны она сто раз в день принимала такое же решение относительно него и применяла всякие средства, </note>
+        <note xml:id="russian_1936_cap27-n354" type="comm" target="quarantana/cap27.xml#c27_12527" targetEnd="quarantana/cap27.xml#c27_12530">чтобы выполнить это решение. </note>
+        <note xml:id="russian_1936_cap27-n355" type="comm" target="quarantana/cap27.xml#c27_12531" targetEnd="quarantana/cap27.xml#c27_12534">Она усердно отдавалась работе, </note>
+        <note xml:id="russian_1936_cap27-n356" type="comm" target="quarantana/cap27.xml#c27_12535" targetEnd="quarantana/cap27.xml#c27_12539">стараясь целиком уйти в нее, </note>
+        <note xml:id="russian_1936_cap27-n357" type="comm" target="quarantana/cap27.xml#c27_12540" targetEnd="quarantana/cap27.xml#c27_12546">а когда образ Ренцо вставал перед нею, </note>
+        <note xml:id="russian_1936_cap27-n358" type="comm" target="quarantana/cap27.xml#c27_12547" targetEnd="quarantana/cap27.xml#c27_12556">она принималась в уме повторять или напевать молитвы. </note>
+        <note xml:id="russian_1936_cap27-n359" type="comm" target="quarantana/cap27.xml#c27_12557" targetEnd="quarantana/cap27.xml#c27_12564">Но образ этот словно обладал каким-то лукавством: </note>
+        <note xml:id="russian_1936_cap27-n360" type="comm" target="quarantana/cap27.xml#c27_12565" targetEnd="quarantana/cap27.xml#c27_12572">в большинстве случаев он не являлся так просто, открыто; </note>
+        <note xml:id="russian_1936_cap27-n361" type="comm" target="quarantana/cap27.xml#c27_12573" targetEnd="quarantana/cap27.xml#c27_12577">он пробирался тайком, под прикрытием других образов, </note>
+        <note xml:id="russian_1936_cap27-n362" type="comm" target="quarantana/cap27.xml#c27_12578" targetEnd="quarantana/cap27.xml#c27_12586">так что сознание тогда только замечало его присутствие, </note>
+        <note xml:id="russian_1936_cap27-n363" type="comm" target="quarantana/cap27.xml#c27_12587" targetEnd="quarantana/cap27.xml#c27_12594">когда он успевал уже укрепиться в нем. </note>
+        <note xml:id="russian_1936_cap27-n364" type="comm" target="quarantana/cap27.xml#c27_12595" targetEnd="quarantana/cap27.xml#c27_12603">Мысли Лючии часто сосредоточивались около матери, </note>
+        <note xml:id="russian_1936_cap27-n365" type="comm" target="quarantana/cap27.xml#c27_12604" targetEnd="quarantana/cap27.xml#c27_12608">да и могло ли это быть иначе? </note>
+        <note xml:id="russian_1936_cap27-n366" type="comm" target="quarantana/cap27.xml#c27_12609" targetEnd="quarantana/cap27.xml#c27_12619">И Ренцо в ее воображении потихоньку являлся третьим, </note>
+        <note xml:id="russian_1936_cap27-n367" type="comm" target="quarantana/cap27.xml#c27_12620" targetEnd="quarantana/cap27.xml#c27_12626">как это столько раз бывало раньше в действительности. </note>
+        <note xml:id="russian_1936_cap27-n368" type="comm" target="quarantana/cap27.xml#c27_12627" targetEnd="quarantana/cap27.xml#c27_12631">Так, вместе со всеми лицами, </note>
+        <note xml:id="russian_1936_cap27-n369" type="comm" target="quarantana/cap27.xml#c27_12632" targetEnd="quarantana/cap27.xml#c27_12635">во всех местах, </note>
+        <note xml:id="russian_1936_cap27-n370" type="comm" target="quarantana/cap27.xml#c27_12636" targetEnd="quarantana/cap27.xml#c27_12641">во всех воспоминаниях прошлого, </note>
+        <note xml:id="russian_1936_cap27-n371" type="comm" target="quarantana/cap27.xml#c27_12642" targetEnd="quarantana/cap27.xml#c27_12646">неизменно обнаруживался Ренцо. </note>
+        <note xml:id="russian_1936_cap27-n372" type="comm" target="quarantana/cap27.xml#c27_12647" targetEnd="quarantana/cap27.xml#c27_12660">И когда бедняжка иной раз позволяла себе помечтать о своем будущем, </note>
+        <note xml:id="russian_1936_cap27-n373" type="comm" target="quarantana/cap27.xml#c27_12661" targetEnd="quarantana/cap27.xml#c27_12664">то и тут являлся он, </note>
+        <note xml:id="russian_1936_cap27-n374" type="comm" target="quarantana/cap27.xml#c27_12665" targetEnd="quarantana/cap27.xml#c27_12669">хотя бы для того только, чтобы сказать: </note>
+        <note xml:id="russian_1936_cap27-n375" type="comm" target="quarantana/cap27.xml#c27_12670" targetEnd="quarantana/cap27.xml#c27_12676">«А меня при этом уж никак не будет». </note>
+        <note xml:id="russian_1936_cap27-n376" type="comm" target="quarantana/cap27.xml#c27_12677" targetEnd="quarantana/cap27.xml#c27_12677">И все же, </note>
+        <note xml:id="russian_1936_cap27-n377" type="comm" target="quarantana/cap27.xml#c27_12678" targetEnd="quarantana/cap27.xml#c27_12686">если не думать о нем совсем и было безнадежной затеей, </note>
+        <note xml:id="russian_1936_cap27-n378" type="comm" target="quarantana/cap27.xml#c27_12687" targetEnd="quarantana/cap27.xml#c27_12705">то Лючии до известной степени удалось думать о нем меньше и менее напряженно, чем этого хотелось бы ее сердцу. </note>
+        <note xml:id="russian_1936_cap27-n379" type="comm" target="quarantana/cap27.xml#c27_12706" targetEnd="quarantana/cap27.xml#c27_12710">Она преуспела бы в этом и еще больше, </note>
+        <note xml:id="russian_1936_cap27-n380" type="comm" target="quarantana/cap27.xml#c27_12711" targetEnd="quarantana/cap27.xml#c27_12716">если бы этого хотелось только ей одной. </note>
+        <note xml:id="russian_1936_cap27-n381" type="comm" target="quarantana/cap27.xml#c27_12717" targetEnd="quarantana/cap27.xml#c27_12720">Но на беду тут была донна Прасседе, </note>
+        <note xml:id="russian_1936_cap27-n382" type="comm" target="quarantana/cap27.xml#c27_12721" targetEnd="quarantana/cap27.xml#c27_12722">которая, </note>
+        <note xml:id="russian_1936_cap27-n383" type="comm" target="quarantana/cap27.xml#c27_12723" targetEnd="quarantana/cap27.xml#c27_12731">со своей стороны, целиком увлекшись задачей вырвать Ренцо из сердца Лючии, </note>
+        <note xml:id="russian_1936_cap27-n384" type="comm" target="quarantana/cap27.xml#c27_12732" targetEnd="quarantana/cap27.xml#c27_12740">не находила для этого лучшего средства, как почаще говорить о нем. </note>
+        <note xml:id="russian_1936_cap27-n385" type="comm" target="quarantana/cap27.xml#c27_12741" targetEnd="quarantana/cap27.xml#c27_12743">— Ну что же, — повторяла она, </note>
+        <note xml:id="russian_1936_cap27-n386" type="comm" target="quarantana/cap27.xml#c27_12744" targetEnd="quarantana/cap27.xml#c27_12749">— мы перестали думать о нем? </note>
+        <note xml:id="russian_1936_cap27-n387" type="comm" target="quarantana/cap27.xml#c27_12750" targetEnd="quarantana/cap27.xml#c27_12756">— Я ни о ком не думаю, — отвечала Лючия. </note>
+        <note xml:id="russian_1936_cap27-n388" type="comm" target="quarantana/cap27.xml#c27_12757" targetEnd="quarantana/cap27.xml#c27_12763">Донна Прасседе не удовлетворялась подобным ответом; </note>
+        <note xml:id="russian_1936_cap27-n389" type="comm" target="quarantana/cap27.xml#c27_12764" targetEnd="quarantana/cap27.xml#c27_12771">она возражала, что тут мало слов, нужны дела; </note>
+        <note xml:id="russian_1936_cap27-n390" type="comm" target="quarantana/cap27.xml#c27_12772" targetEnd="quarantana/cap27.xml#c27_12779">она распространялась насчет обыкновения девушек, </note>
+        <note xml:id="russian_1936_cap27-n391" type="comm" target="quarantana/cap27.xml#c27_12780" targetEnd="quarantana/cap27.xml#c27_12781">которые, </note>
+        <note xml:id="russian_1936_cap27-n392" type="comm" target="quarantana/cap27.xml#c27_12782" targetEnd="quarantana/cap27.xml#c27_12782">по ее словам, </note>
+        <note xml:id="russian_1936_cap27-n393" type="comm" target="quarantana/cap27.xml#c27_12783" targetEnd="quarantana/cap27.xml#c27_12794">коли уж отдадут свое сердце какому-нибудь шалопаю (а на это они всегда горазды), </note>
+        <note xml:id="russian_1936_cap27-n394" type="comm" target="quarantana/cap27.xml#c27_12795" targetEnd="quarantana/cap27.xml#c27_12799">так их уж не оторвешь. </note>
+        <note xml:id="russian_1936_cap27-n395" type="comm" target="quarantana/cap27.xml#c27_12800" targetEnd="quarantana/cap27.xml#c27_12802">Вот если хорошая партия, </note>
+        <note xml:id="russian_1936_cap27-n396" type="comm" target="quarantana/cap27.xml#c27_12803" targetEnd="quarantana/cap27.xml#c27_12803">подходящая, </note>
+        <note xml:id="russian_1936_cap27-n397" type="comm" target="quarantana/cap27.xml#c27_12804" targetEnd="quarantana/cap27.xml#c27_12808">с человеком порядочным, положительным, </note>
+        <note xml:id="russian_1936_cap27-n398" type="comm" target="quarantana/cap27.xml#c27_12809" targetEnd="quarantana/cap27.xml#c27_12815">вдруг по какому-либо случаю расстроится, </note>
+        <note xml:id="russian_1936_cap27-n399" type="comm" target="quarantana/cap27.xml#c27_12816" targetEnd="quarantana/cap27.xml#c27_12818">с этим они сразу примиряются; </note>
+        <note xml:id="russian_1936_cap27-n400" type="comm" target="quarantana/cap27.xml#c27_12819" targetEnd="quarantana/cap27.xml#c27_12821">другое дело, если головорез какой-нибудь, </note>
+        <note xml:id="russian_1936_cap27-n401" type="comm" target="quarantana/cap27.xml#c27_12822" targetEnd="quarantana/cap27.xml#c27_12824">это — рана неизлечимая. </note>
+        <note xml:id="russian_1936_cap27-n402" type="comm" target="quarantana/cap27.xml#c27_12825" targetEnd="quarantana/cap27.xml#c27_12832">И тут начиналось славословие отсутствующему бедняге, </note>
+        <note xml:id="russian_1936_cap27-n403" type="comm" target="quarantana/cap27.xml#c27_12833" targetEnd="quarantana/cap27.xml#c27_12841">этому разбойнику, пришедшему в Милан грабить и резать; </note>
+        <note xml:id="russian_1936_cap27-n404" type="comm" target="quarantana/cap27.xml#c27_12842" targetEnd="quarantana/cap27.xml#c27_12855">и донна Прасседе добивалась от Лючии признания о плутнях, которые Ренцо, по ее мнению, </note>
+        <note xml:id="russian_1936_cap27-n405" type="comm" target="quarantana/cap27.xml#c27_12856" targetEnd="quarantana/cap27.xml#c27_12860">должен был совершить и у себя в деревне. </note>
+        <note xml:id="russian_1936_cap27-n406" type="comm" target="quarantana/cap27.xml#c27_12861" targetEnd="quarantana/cap27.xml#c27_12866">Голосом, дрожащим от стыда, </note>
+        <note xml:id="russian_1936_cap27-n407" type="comm" target="quarantana/cap27.xml#c27_12867" targetEnd="quarantana/cap27.xml#c27_12868">боли и того негодования, </note>
+        <note xml:id="russian_1936_cap27-n408" type="comm" target="quarantana/cap27.xml#c27_12869" targetEnd="quarantana/cap27.xml#c27_12885">на какое только способна была ее кроткая душа и зависимое ее положение, </note>
+        <note xml:id="russian_1936_cap27-n409" type="comm" target="quarantana/cap27.xml#c27_12886" targetEnd="quarantana/cap27.xml#c27_12888">Лючия уверяла и ручалась, </note>
+        <note xml:id="russian_1936_cap27-n410" type="comm" target="quarantana/cap27.xml#c27_12889" targetEnd="quarantana/cap27.xml#c27_12905">что у них в деревне об этом бедняге никто иначе как хорошо никогда не отзывался; </note>
+        <note xml:id="russian_1936_cap27-n411" type="comm" target="quarantana/cap27.xml#c27_12906" targetEnd="quarantana/cap27.xml#c27_12907">ей очень хотелось бы, </note>
+        <note xml:id="russian_1936_cap27-n412" type="comm" target="quarantana/cap27.xml#c27_12908" targetEnd="quarantana/cap27.xml#c27_12908">говорила она, </note>
+        <note xml:id="russian_1936_cap27-n413" type="comm" target="quarantana/cap27.xml#c27_12909" targetEnd="quarantana/cap27.xml#c27_12914">чтобы был налицо кто-нибудь оттуда, </note>
+        <note xml:id="russian_1936_cap27-n414" type="comm" target="quarantana/cap27.xml#c27_12915" targetEnd="quarantana/cap27.xml#c27_12918">кого она попросила бы засвидетельствовать это. </note>
+        <note xml:id="russian_1936_cap27-n415" type="comm" target="quarantana/cap27.xml#c27_12919" targetEnd="quarantana/cap27.xml#c27_12922">И при упоминании миланских происшествий, </note>
+        <note xml:id="russian_1936_cap27-n416" type="comm" target="quarantana/cap27.xml#c27_12923" targetEnd="quarantana/cap27.xml#c27_12928">о которых она не была хорошо осведомлена, </note>
+        <note xml:id="russian_1936_cap27-n417" type="comm" target="quarantana/cap27.xml#c27_12929" targetEnd="quarantana/cap27.xml#c27_12930">она защищала его именно в силу того, </note>
+        <note xml:id="russian_1936_cap27-n418" type="comm" target="quarantana/cap27.xml#c27_12931" targetEnd="quarantana/cap27.xml#c27_12945">что знала о нем и о поведении его с самого детства. </note>
+        <note xml:id="russian_1936_cap27-n419" type="comm" target="quarantana/cap27.xml#c27_12946" targetEnd="quarantana/cap27.xml#c27_12957">Защищала и собиралась защищать в силу одного только человеколюбия, </note>
+        <note xml:id="russian_1936_cap27-n420" type="comm" target="quarantana/cap27.xml#c27_12958" targetEnd="quarantana/cap27.xml#c27_12962">из любви к правде и, </note>
+        <note xml:id="russian_1936_cap27-n421" type="comm" target="quarantana/cap27.xml#c27_12963" targetEnd="quarantana/cap27.xml#c27_12977">если уж произнести прямо то слово, которым она сама объясняла себе свое чувство, — защищала его, </note>
+        <note xml:id="russian_1936_cap27-n422" type="comm" target="quarantana/cap27.xml#c27_12978" targetEnd="quarantana/cap27.xml#c27_12979">как своего ближнего. </note>
+        <note xml:id="russian_1936_cap27-n423" type="comm" target="quarantana/cap27.xml#c27_12980" targetEnd="quarantana/cap27.xml#c27_12991">Но из всех этих защитительных речей донна Прасседе черпала новые доводы для того, чтобы убеждать Лючию, </note>
+        <note xml:id="russian_1936_cap27-n424" type="comm" target="quarantana/cap27.xml#c27_12992" targetEnd="quarantana/cap27.xml#c27_13001">что сердце ее попрежнему во власти Ренцо. </note>
+        <note xml:id="russian_1936_cap27-n425" type="comm" target="quarantana/cap27.xml#c27_13002" targetEnd="quarantana/cap27.xml#c27_13004">И, по правде говоря, </note>
+        <note xml:id="russian_1936_cap27-n426" type="comm" target="quarantana/cap27.xml#c27_13005" targetEnd="quarantana/cap27.xml#c27_13015">в такие минуты я не сумел бы сказать путем, как обстояло дело. </note>
+        <note xml:id="russian_1936_cap27-n427" type="comm" target="quarantana/cap27.xml#c27_13016" targetEnd="quarantana/cap27.xml#c27_13023">Недостойный портрет бедного Ренцо, который создавала старушка, </note>
+        <note xml:id="russian_1936_cap27-n428" type="comm" target="quarantana/cap27.xml#c27_13024" targetEnd="quarantana/cap27.xml#c27_13033">в силу противоречия будил в сознании девушки более живое и отчетливое, чем когда-либо, </note>
+        <note xml:id="russian_1936_cap27-n429" type="comm" target="quarantana/cap27.xml#c27_13034" targetEnd="quarantana/cap27.xml#c27_13047">представление о юноше, сложившееся у нее за время такого долгого общения; воспоминания, </note>
+        <note xml:id="russian_1936_cap27-n430" type="comm" target="quarantana/cap27.xml#c27_13048" targetEnd="quarantana/cap27.xml#c27_13052">насильственно приглушаемые, </note>
+        <note xml:id="russian_1936_cap27-n431" type="comm" target="quarantana/cap27.xml#c27_13053" targetEnd="quarantana/cap27.xml#c27_13056">вставали толпой; </note>
+        <note xml:id="russian_1936_cap27-n432" type="comm" target="quarantana/cap27.xml#c27_13057" targetEnd="quarantana/cap27.xml#c27_13066">отвращение и презрение вызывали к жизни столько давних поводов к уважению; </note>
+        <note xml:id="russian_1936_cap27-n433" type="comm" target="quarantana/cap27.xml#c27_13067" targetEnd="quarantana/cap27.xml#c27_13076">слепая и неистовая ненависть сильнее будила жалость; </note>
+        <note xml:id="russian_1936_cap27-n434" type="comm" target="quarantana/cap27.xml#c27_13077" targetEnd="quarantana/cap27.xml#c27_13080">а вместе с этими чувствами, </note>
+        <note xml:id="russian_1936_cap27-n435" type="comm" target="quarantana/cap27.xml#c27_13081" targetEnd="quarantana/cap27.xml#c27_13100">кто знает, сколько могло быть или не быть того чувства, которое вслед за этими так легко возникает в душе; </note>
+        <note xml:id="russian_1936_cap27-n436" type="comm" target="quarantana/cap27.xml#c27_13101" targetEnd="quarantana/cap27.xml#c27_13105">представим же себе, что вызовет это чувство в тех душах, </note>
+        <note xml:id="russian_1936_cap27-n437" type="comm" target="quarantana/cap27.xml#c27_13106" targetEnd="quarantana/cap27.xml#c27_13112">из которых пытаются насильно изгнать его. </note>
+        <note xml:id="russian_1936_cap27-n438" type="comm" target="quarantana/cap27.xml#c27_13113" targetEnd="quarantana/cap27.xml#c27_13116">Как бы то ни было, </note>
+        <note xml:id="russian_1936_cap27-n439" type="comm" target="quarantana/cap27.xml#c27_13117" targetEnd="quarantana/cap27.xml#c27_13130">такой разговор никогда не затягивался по милости Лючии: </note>
+        <note xml:id="russian_1936_cap27-n440" type="comm" target="quarantana/cap27.xml#c27_13131" targetEnd="quarantana/cap27.xml#c27_13137">слова ее быстро разрешались слезами. </note>
+        <note xml:id="russian_1936_cap27-n441" type="comm" target="quarantana/cap27.xml#c27_13138" targetEnd="quarantana/cap27.xml#c27_13155">Если бы к такому обращению с Лючией донну Прасседе побуждала какая-нибудь закоренелая к ней ненависть, </note>
+        <note xml:id="russian_1936_cap27-n442" type="comm" target="quarantana/cap27.xml#c27_13156" targetEnd="quarantana/cap27.xml#c27_13159">эти слезы, быть может, </note>
+        <note xml:id="russian_1936_cap27-n443" type="comm" target="quarantana/cap27.xml#c27_13160" targetEnd="quarantana/cap27.xml#c27_13163">тронули бы ее и заставили бы ее отстать. </note>
+        <note xml:id="russian_1936_cap27-n444" type="comm" target="quarantana/cap27.xml#c27_13164" targetEnd="quarantana/cap27.xml#c27_13169">Но, говоря с добрым намерением, </note>
+        <note xml:id="russian_1936_cap27-n445" type="comm" target="quarantana/cap27.xml#c27_13170" targetEnd="quarantana/cap27.xml#c27_13171">она шла вперед, </note>
+        <note xml:id="russian_1936_cap27-n446" type="comm" target="quarantana/cap27.xml#c27_13172" targetEnd="quarantana/cap27.xml#c27_13174">не позволяя себе уклониться с пути, </note>
+        <note xml:id="russian_1936_cap27-n447" type="comm" target="quarantana/cap27.xml#c27_13175" targetEnd="quarantana/cap27.xml#c27_13180">подобно тому, как стенания, умоляющие вопли способны, </note>
+        <note xml:id="russian_1936_cap27-n448" type="comm" target="quarantana/cap27.xml#c27_13181" targetEnd="quarantana/cap27.xml#c27_13186">пожалуй, остановить оружие врага, </note>
+        <note xml:id="russian_1936_cap27-n449" type="comm" target="quarantana/cap27.xml#c27_13187" targetEnd="quarantana/cap27.xml#c27_13192">но не нож хирурга. А потому, </note>
+        <note xml:id="russian_1936_cap27-n450" type="comm" target="quarantana/cap27.xml#c27_13193" targetEnd="quarantana/cap27.xml#c27_13201">честно выполнив свой долг, </note>
+        <note xml:id="russian_1936_cap27-n451" type="comm" target="quarantana/cap27.xml#c27_13202" targetEnd="quarantana/cap27.xml#c27_13208">она от уколов и головомойки всякий раз переходила к увещаниям, </note>
+        <note xml:id="russian_1936_cap27-n452" type="comm" target="quarantana/cap27.xml#c27_13209" targetEnd="quarantana/cap27.xml#c27_13210">советам, </note>
+        <note xml:id="russian_1936_cap27-n453" type="comm" target="quarantana/cap27.xml#c27_13211" targetEnd="quarantana/cap27.xml#c27_13215">приправленным некоторыми похвалами, </note>
+        <note xml:id="russian_1936_cap27-n454" type="comm" target="quarantana/cap27.xml#c27_13216" targetEnd="quarantana/cap27.xml#c27_13225">дабы таким образом смягчить кислое сладким и скорее добиться успеха, </note>
+        <note xml:id="russian_1936_cap27-n455" type="comm" target="quarantana/cap27.xml#c27_13226" targetEnd="quarantana/cap27.xml#c27_13231">действуя на душу всеми способами. </note>
+        <note xml:id="russian_1936_cap27-n456" type="comm" target="quarantana/cap27.xml#c27_13232" targetEnd="quarantana/cap27.xml#c27_13232">В сущности, </note>
+        <note xml:id="russian_1936_cap27-n457" type="comm" target="quarantana/cap27.xml#c27_13233" targetEnd="quarantana/cap27.xml#c27_13245">от всех этих приставаний (которые всегда почти имели одинаковое начало, </note>
+        <note xml:id="russian_1936_cap27-n458" type="comm" target="quarantana/cap27.xml#c27_13246" targetEnd="quarantana/cap27.xml#c27_13258">ход и конец) у доброй Лючии не оставалось прямого озлобления против суровой проповедницы, </note>
+        <note xml:id="russian_1936_cap27-n459" type="comm" target="quarantana/cap27.xml#c27_13259" targetEnd="quarantana/cap27.xml#c27_13268">которая к тому же во всем остальном обращалась с ней чрезвычайно мягко; </note>
+        <note xml:id="russian_1936_cap27-n460" type="comm" target="quarantana/cap27.xml#c27_13269" targetEnd="quarantana/cap27.xml#c27_13277">и в этом тоже видно было доброе ее намерение. Но, конечно, </note>
+        <note xml:id="russian_1936_cap27-n461" type="comm" target="quarantana/cap27.xml#c27_13278" targetEnd="quarantana/cap27.xml#c27_13282">в Лючии оставалось такое кипение, </note>
+        <note xml:id="russian_1936_cap27-n462" type="comm" target="quarantana/cap27.xml#c27_13283" targetEnd="quarantana/cap27.xml#c27_13289">такое смятение мыслей и чувств, </note>
+        <note xml:id="russian_1936_cap27-n463" type="comm" target="quarantana/cap27.xml#c27_13290" targetEnd="quarantana/cap27.xml#c27_13305">что требовалось много времени и много усилий, чтобы вернуться к прежнему относительному спокойствию. </note>
+        <note xml:id="russian_1936_cap27-n464" type="comm" target="quarantana/cap27.xml#c27_13306" targetEnd="quarantana/cap27.xml#c27_13308">Хорошо еще для нее, </note>
+        <note xml:id="russian_1936_cap27-n465" type="comm" target="quarantana/cap27.xml#c27_13309" targetEnd="quarantana/cap27.xml#c27_13322">что она была не единственным предметом добрых устремлений донны Прасседе, </note>
+        <note xml:id="russian_1936_cap27-n466" type="comm" target="quarantana/cap27.xml#c27_13323" targetEnd="quarantana/cap27.xml#c27_13330">так что приставания эти не могли быть такими частыми. </note>
+        <note xml:id="russian_1936_cap27-n467" type="comm" target="quarantana/cap27.xml#c27_13331" targetEnd="quarantana/cap27.xml#c27_13340">Помимо остальной прислуги (всё сплошь мозги, </note>
+        <note xml:id="russian_1936_cap27-n468" type="comm" target="quarantana/cap27.xml#c27_13341" targetEnd="quarantana/cap27.xml#c27_13347">более или менее нуждавшиеся в выправлении и руководстве), </note>
+        <note xml:id="russian_1936_cap27-n469" type="comm" target="quarantana/cap27.xml#c27_13348" targetEnd="quarantana/cap27.xml#c27_13356">помимо всяких других случаев (которых она искала, если они не представлялись ей сами) оказать, </note>
+        <note xml:id="russian_1936_cap27-n470" type="comm" target="quarantana/cap27.xml#c27_13357" targetEnd="quarantana/cap27.xml#c27_13359">по доброте сердечной, </note>
+        <note xml:id="russian_1936_cap27-n471" type="comm" target="quarantana/cap27.xml#c27_13360" targetEnd="quarantana/cap27.xml#c27_13371">ту же услугу многим лицам, по отношению к которым она ничем не была обязана, </note>
+        <note xml:id="russian_1936_cap27-n472" type="comm" target="quarantana/cap27.xml#c27_13372" targetEnd="quarantana/cap27.xml#c27_13380">помимо всего этого, у нее было пять дочерей; ни одна из них, правда, </note>
+        <note xml:id="russian_1936_cap27-n473" type="comm" target="quarantana/cap27.xml#c27_13381" targetEnd="quarantana/cap27.xml#c27_13383">не жила с ней, </note>
+        <note xml:id="russian_1936_cap27-n474" type="comm" target="quarantana/cap27.xml#c27_13384" targetEnd="quarantana/cap27.xml#c27_13390">но все они вызывали в ней больше забот, </note>
+        <note xml:id="russian_1936_cap27-n475" type="comm" target="quarantana/cap27.xml#c27_13391" targetEnd="quarantana/cap27.xml#c27_13395">чем если бы были при ней. </note>
+        <note xml:id="russian_1936_cap27-n476" type="comm" target="quarantana/cap27.xml#c27_13396" targetEnd="quarantana/cap27.xml#c27_13398">Три были монахинями, </note>
+        <note xml:id="russian_1936_cap27-n477" type="comm" target="quarantana/cap27.xml#c27_13399" targetEnd="quarantana/cap27.xml#c27_13400">две замужем, </note>
+        <note xml:id="russian_1936_cap27-n478" type="comm" target="quarantana/cap27.xml#c27_13401" targetEnd="quarantana/cap27.xml#c27_13415">и само собой оказалось, что донне Прасседе пришлось верховодить тремя монастырями и двумя семейными домами, </note>
+        <note xml:id="russian_1936_cap27-n479" type="comm" target="quarantana/cap27.xml#c27_13416" targetEnd="quarantana/cap27.xml#c27_13423">— предприятие обширное и сложное и тем более утомительное, </note>
+        <note xml:id="russian_1936_cap27-n480" type="comm" target="quarantana/cap27.xml#c27_13424" targetEnd="quarantana/cap27.xml#c27_13426">что двое мужей, </note>
+        <note xml:id="russian_1936_cap27-n481" type="comm" target="quarantana/cap27.xml#c27_13427" targetEnd="quarantana/cap27.xml#c27_13429">поддерживаемых отцами, </note>
+        <note xml:id="russian_1936_cap27-n482" type="comm" target="quarantana/cap27.xml#c27_13430" targetEnd="quarantana/cap27.xml#c27_13431">матерями, </note>
+        <note xml:id="russian_1936_cap27-n483" type="comm" target="quarantana/cap27.xml#c27_13432" targetEnd="quarantana/cap27.xml#c27_13433">братьями, </note>
+        <note xml:id="russian_1936_cap27-n484" type="comm" target="quarantana/cap27.xml#c27_13434" targetEnd="quarantana/cap27.xml#c27_13436">и три аббатиссы, </note>
+        <note xml:id="russian_1936_cap27-n485" type="comm" target="quarantana/cap27.xml#c27_13437" targetEnd="quarantana/cap27.xml#c27_13444">опирающихся на другие власти и на множество монахинь, </note>
+        <note xml:id="russian_1936_cap27-n486" type="comm" target="quarantana/cap27.xml#c27_13445" targetEnd="quarantana/cap27.xml#c27_13450">вовсе не желали мириться с ее верховодством. </note>
+        <note xml:id="russian_1936_cap27-n487" type="comm" target="quarantana/cap27.xml#c27_13451" targetEnd="quarantana/cap27.xml#c27_13453">В результате — война, </note>
+        <note xml:id="russian_1936_cap27-n488" type="comm" target="quarantana/cap27.xml#c27_13454" targetEnd="quarantana/cap27.xml#c27_13456">точнее, пять войн, </note>
+        <note xml:id="russian_1936_cap27-n489" type="comm" target="quarantana/cap27.xml#c27_13457" targetEnd="quarantana/cap27.xml#c27_13457">скрытых, </note>
+        <note xml:id="russian_1936_cap27-n490" type="comm" target="quarantana/cap27.xml#c27_13458" targetEnd="quarantana/cap27.xml#c27_13463">учтивых до известной степени, </note>
+        <note xml:id="russian_1936_cap27-n491" type="comm" target="quarantana/cap27.xml#c27_13464" targetEnd="quarantana/cap27.xml#c27_13468">но очень оживленных и без передышки: </note>
+        <note xml:id="russian_1936_cap27-n492" type="comm" target="quarantana/cap27.xml#c27_13469" targetEnd="quarantana/cap27.xml#c27_13480">во всех этих местах непрерывно стремились отстранить ее заботы, </note>
+        <note xml:id="russian_1936_cap27-n493" type="comm" target="quarantana/cap27.xml#c27_13481" targetEnd="quarantana/cap27.xml#c27_13486">закрыть доступ ее советам, </note>
+        <note xml:id="russian_1936_cap27-n494" type="comm" target="quarantana/cap27.xml#c27_13487" targetEnd="quarantana/cap27.xml#c27_13491">отклонить ее расспросы, </note>
+        <note xml:id="russian_1936_cap27-n495" type="comm" target="quarantana/cap27.xml#c27_13492" targetEnd="quarantana/cap27.xml#c27_13497">делать так, чтобы она была, </note>
+        <note xml:id="russian_1936_cap27-n496" type="comm" target="quarantana/cap27.xml#c27_13498" targetEnd="quarantana/cap27.xml#c27_13501">насколько возможно больше, </note>
+        <note xml:id="russian_1936_cap27-n497" type="comm" target="quarantana/cap27.xml#c27_13502" targetEnd="quarantana/cap27.xml#c27_13503">впотьмах относительно всех дел. </note>
+        <note xml:id="russian_1936_cap27-n498" type="comm" target="quarantana/cap27.xml#c27_13504" targetEnd="quarantana/cap27.xml#c27_13507">Я уже не говорю о сопротивлении, </note>
+        <note xml:id="russian_1936_cap27-n499" type="comm" target="quarantana/cap27.xml#c27_13508" targetEnd="quarantana/cap27.xml#c27_13518">о трудностях, с которыми она встречалась в ведении других, еще более посторонних дел: </note>
+        <note xml:id="russian_1936_cap27-n500" type="comm" target="quarantana/cap27.xml#c27_13519" targetEnd="quarantana/cap27.xml#c27_13532">известно ведь, что делать добро людям в большинстве случаев приходится не иначе как насильно. </note>
+        <note xml:id="russian_1936_cap27-n501" type="comm" target="quarantana/cap27.xml#c27_13533" targetEnd="quarantana/cap27.xml#c27_13539">Где ее усердие могло проявляться свободно, </note>
+        <note xml:id="russian_1936_cap27-n502" type="comm" target="quarantana/cap27.xml#c27_13540" targetEnd="quarantana/cap27.xml#c27_13547">так это в собственном доме: тут все, </note>
+        <note xml:id="russian_1936_cap27-n503" type="comm" target="quarantana/cap27.xml#c27_13548" targetEnd="quarantana/cap27.xml#c27_13555">во всем и целиком были подчинены ее власти, </note>
+        <note xml:id="russian_1936_cap27-n504" type="comm" target="quarantana/cap27.xml#c27_13556" targetEnd="quarantana/cap27.xml#c27_13558">исключая дона Ферранте, </note>
+        <note xml:id="russian_1936_cap27-n505" type="comm" target="quarantana/cap27.xml#c27_13559" targetEnd="quarantana/cap27.xml#c27_13568">с которым отношения складывались совершенно особенным образом. </note>
+        <note xml:id="russian_1936_cap27-n506" type="comm" target="quarantana/cap27.xml#c27_13569" targetEnd="quarantana/cap27.xml#c27_13571">Человек ученый, </note>
+        <note xml:id="russian_1936_cap27-n507" type="comm" target="quarantana/cap27.xml#c27_13572" targetEnd="quarantana/cap27.xml#c27_13579">он не любил ни распоряжаться, ни повиноваться. </note>
+        <note xml:id="russian_1936_cap27-n508" type="comm" target="quarantana/cap27.xml#c27_13580" targetEnd="quarantana/cap27.xml#c27_13592">Пусть во всех домашних делах хозяйкой являлась его супруга, </note>
+        <note xml:id="russian_1936_cap27-n509" type="comm" target="quarantana/cap27.xml#c27_13593" targetEnd="quarantana/cap27.xml#c27_13594">— в добрый час! </note>
+        <note xml:id="russian_1936_cap27-n510" type="comm" target="quarantana/cap27.xml#c27_13595" targetEnd="quarantana/cap27.xml#c27_13598">Но быть рабом — ни под каким видом. </note>
+        <note xml:id="russian_1936_cap27-n511" type="comm" target="quarantana/cap27.xml#c27_13599" targetEnd="quarantana/cap27.xml#c27_13600">И если, </note>
+        <note xml:id="russian_1936_cap27-n512" type="comm" target="quarantana/cap27.xml#c27_13601" targetEnd="quarantana/cap27.xml#c27_13608">при случае, он, по просьбе ее, предоставлял к ее услугам свое перо, </note>
+        <note xml:id="russian_1936_cap27-n513" type="comm" target="quarantana/cap27.xml#c27_13609" targetEnd="quarantana/cap27.xml#c27_13615">то лишь потому, что это было в его вкусе; </note>
+        <note xml:id="russian_1936_cap27-n514" type="comm" target="quarantana/cap27.xml#c27_13616" targetEnd="quarantana/cap27.xml#c27_13617">впрочем, </note>
+        <note xml:id="russian_1936_cap27-n515" type="comm" target="quarantana/cap27.xml#c27_13618" targetEnd="quarantana/cap27.xml#c27_13624">и тут он умел отказывать, </note>
+        <note xml:id="russian_1936_cap27-n516" type="comm" target="quarantana/cap27.xml#c27_13625" targetEnd="quarantana/cap27.xml#c27_13635">если не был убежден в том, о чем она хотела заставить его писать. </note>
+        <note xml:id="russian_1936_cap27-n517" type="comm" target="quarantana/cap27.xml#c27_13636" targetEnd="quarantana/cap27.xml#c27_13641">«А вот постарайтесь-ка, — говорил он в таслучаях, </note>
+        <note xml:id="russian_1936_cap27-n518" type="comm" target="quarantana/cap27.xml#c27_13642" targetEnd="quarantana/cap27.xml#c27_13644">— сделайте сами, </note>
+        <note xml:id="russian_1936_cap27-n519" type="comm" target="quarantana/cap27.xml#c27_13645" targetEnd="quarantana/cap27.xml#c27_13651">если все кажется вам таким ясным». </note>
+        <note xml:id="russian_1936_cap27-n521" type="comm" target="quarantana/cap27.xml#c27_13654" targetEnd="quarantana/cap27.xml#c27_13668">Попытавшись в течение некоторого времени — и совершенно бесполезно — притянуть его к делу, </note>
+        <note xml:id="russian_1936_cap27-n522" type="comm" target="quarantana/cap27.xml#c27_13669" targetEnd="quarantana/cap27.xml#c27_13676">донна Прасседе часто вынуждена бывала ограничиться ворчанием, </note>
+        <note xml:id="russian_1936_cap27-n523" type="comm" target="quarantana/cap27.xml#c27_13677" targetEnd="quarantana/cap27.xml#c27_13680">причем называла его чудаком, </note>
+        <note xml:id="russian_1936_cap27-n524" type="comm" target="quarantana/cap27.xml#c27_13681" targetEnd="quarantana/cap27.xml#c27_13686">упрямым эгоистом, </note>
+        <note xml:id="russian_1936_cap27-n525" type="comm" target="quarantana/cap27.xml#c27_13687" targetEnd="quarantana/cap27.xml#c27_13688">ученым; </note>
+        <note xml:id="russian_1936_cap27-n526" type="comm" target="quarantana/cap27.xml#c27_13689" targetEnd="quarantana/cap27.xml#c27_13695">в последнее наименование она вместе с раздражением вкладывала, однако, </note>
+        <note xml:id="russian_1936_cap27-n527" type="comm" target="quarantana/cap27.xml#c27_13696" targetEnd="quarantana/cap27.xml#c27_13701">и некоторую долю снисходительного тщеславия. </note>
+        <note xml:id="russian_1936_cap27-n528" type="comm" target="quarantana/cap27.xml#c27_13702" targetEnd="quarantana/cap27.xml#c27_13709">Дон Ферранте целые часы проводил в своем рабочем кабинете, </note>
+        <note xml:id="russian_1936_cap27-n529" type="comm" target="quarantana/cap27.xml#c27_13710" targetEnd="quarantana/cap27.xml#c27_13716">где у него было значительное собрание книг, </note>
+        <note xml:id="russian_1936_cap27-n530" type="comm" target="quarantana/cap27.xml#c27_13717" targetEnd="quarantana/cap27.xml#c27_13721">около трехсот томов, </note>
+        <note xml:id="russian_1936_cap27-n531" type="comm" target="quarantana/cap27.xml#c27_13722" targetEnd="quarantana/cap27.xml#c27_13724">— всё вещи отборные, </note>
+        <note xml:id="russian_1936_cap27-n532" type="comm" target="quarantana/cap27.xml#c27_13725" targetEnd="quarantana/cap27.xml#c27_13729">всё сочинения из числа самых знаменитых, </note>
+        <note xml:id="russian_1936_cap27-n533" type="comm" target="quarantana/cap27.xml#c27_13730" targetEnd="quarantana/cap27.xml#c27_13732">в разных областях, </note>
+        <note xml:id="russian_1936_cap27-n534" type="comm" target="quarantana/cap27.xml#c27_13733" targetEnd="quarantana/cap27.xml#c27_13741">в каждой из которых он был более или менее сведущ. </note>
+        <note xml:id="russian_1936_cap27-n535" type="comm" target="quarantana/cap27.xml#c27_13742" targetEnd="quarantana/cap27.xml#c27_13752">В астрологии он слыл — и не без основания — более чем дилетантом, </note>
+        <note xml:id="russian_1936_cap27-n536" type="comm" target="quarantana/cap27.xml#c27_13753" targetEnd="quarantana/cap27.xml#c27_13765">ибо владел в этой области не только общими сведениями и обычной терминологией по части всяких влияний, </note>
+        <note xml:id="russian_1936_cap27-n537" type="comm" target="quarantana/cap27.xml#c27_13766" targetEnd="quarantana/cap27.xml#c27_13766">аспектов, </note>
+        <note xml:id="russian_1936_cap27-n538" type="comm" target="quarantana/cap27.xml#c27_13767" targetEnd="quarantana/cap27.xml#c27_13768">соединений, </note>
+        <note xml:id="russian_1936_cap27-n539" type="comm" target="quarantana/cap27.xml#c27_13769" targetEnd="quarantana/cap27.xml#c27_13782">но умел кстати и вполне по-ученому поговорить о двенадцати небесных домах, </note>
+        <note xml:id="russian_1936_cap27-n540" type="comm" target="quarantana/cap27.xml#c27_13783" targetEnd="quarantana/cap27.xml#c27_13785">о больших кругах, </note>
+        <note xml:id="russian_1936_cap27-n541" type="comm" target="quarantana/cap27.xml#c27_13786" targetEnd="quarantana/cap27.xml#c27_13790">о светлых и темных градусах, </note>
+        <note xml:id="russian_1936_cap27-n542" type="comm" target="quarantana/cap27.xml#c27_13791" targetEnd="quarantana/cap27.xml#c27_13799">о возмущениях и склонениях, о прохождениях и обращениях, </note>
+        <note xml:id="russian_1936_cap27-n543" type="comm" target="quarantana/cap27.xml#c27_13800" targetEnd="quarantana/cap27.xml#c27_13810">словом, о самых верных и самых тайных началах науки. </note>
+        <note xml:id="russian_1936_cap27-n544" type="comm" target="quarantana/cap27.xml#c27_13811" targetEnd="quarantana/cap27.xml#c27_13815">И, пожалуй, уже лет двадцать, </note>
+        <note xml:id="russian_1936_cap27-n545" type="comm" target="quarantana/cap27.xml#c27_13816" targetEnd="quarantana/cap27.xml#c27_13836">как он на неоднократных и длительных диспутах поддерживал систему Кардано против другого ученого, яростно стоявшего за Алкабиция, </note>
+        <note xml:id="russian_1936_cap27-n546" type="comm" target="quarantana/cap27.xml#c27_13837" targetEnd="quarantana/cap27.xml#c27_13839">— просто из упрямства, </note>
+        <note xml:id="russian_1936_cap27-n547" type="comm" target="quarantana/cap27.xml#c27_13840" targetEnd="quarantana/cap27.xml#c27_13844">как говорил дон Ферранте. </note>
+        <note xml:id="russian_1936_cap27-n548" type="comm" target="quarantana/cap27.xml#c27_13845" targetEnd="quarantana/cap27.xml#c27_13850">Охотно признавая превосходство древних, </note>
+        <note xml:id="russian_1936_cap27-n549" type="comm" target="quarantana/cap27.xml#c27_13851" targetEnd="quarantana/cap27.xml#c27_13861">дон Ферранте не мог, однако, переносить прямого нежелания соглашаться с современными учеными даже там, </note>
+        <note xml:id="russian_1936_cap27-n550" type="comm" target="quarantana/cap27.xml#c27_13862" targetEnd="quarantana/cap27.xml#c27_13869">где превосходство явно на их стороне, как это видно всякому. </note>
+        <note xml:id="russian_1936_cap27-n551" type="comm" target="quarantana/cap27.xml#c27_13870" targetEnd="quarantana/cap27.xml#c27_13878">Историю науки он знал тоже более чем посредственно; он умел, при случае, </note>
+        <note xml:id="russian_1936_cap27-n552" type="comm" target="quarantana/cap27.xml#c27_13879" targetEnd="quarantana/cap27.xml#c27_13888">привести наиболее знаменитые подтвердившиеся предсказания, </note>
+        <note xml:id="russian_1936_cap27-n553" type="comm" target="quarantana/cap27.xml#c27_13889" targetEnd="quarantana/cap27.xml#c27_13900">умел и рассуждать, учено и тонко, по поводу других, не оправдавшихся знаменитых предсказаний, </note>
+        <note xml:id="russian_1936_cap27-n554" type="comm" target="quarantana/cap27.xml#c27_13901" targetEnd="quarantana/cap27.xml#c27_13909">с целью показать, что тут была вина не науки, </note>
+        <note xml:id="russian_1936_cap27-n555" type="comm" target="quarantana/cap27.xml#c27_13910" targetEnd="quarantana/cap27.xml#c27_13917">а тех, кто не умел правильно ее применять. </note>
+        <note xml:id="russian_1936_cap27-n556" type="comm" target="quarantana/cap27.xml#c27_13918" targetEnd="quarantana/cap27.xml#c27_13932">Из античной философии он усвоил все необходимое и непрерывно продолжал усваивать ее дальше, </note>
+        <note xml:id="russian_1936_cap27-n557" type="comm" target="quarantana/cap27.xml#c27_13933" targetEnd="quarantana/cap27.xml#c27_13938">читая Диогена Лаэрция. </note>
+        <note xml:id="russian_1936_cap27-n558" type="comm" target="quarantana/cap27.xml#c27_13939" targetEnd="quarantana/cap27.xml#c27_13942">Однако, в виду того, что системы эти, </note>
+        <note xml:id="russian_1936_cap27-n559" type="comm" target="quarantana/cap27.xml#c27_13943" targetEnd="quarantana/cap27.xml#c27_13946">как они ни хороши, </note>
+        <note xml:id="russian_1936_cap27-n560" type="comm" target="quarantana/cap27.xml#c27_13947" targetEnd="quarantana/cap27.xml#c27_13951">не могут быть совмещены, </note>
+        <note xml:id="russian_1936_cap27-n561" type="comm" target="quarantana/cap27.xml#c27_13952" targetEnd="quarantana/cap27.xml#c27_13960">и при желании быть философом необходимо остановить свой выбор на одном каком-нибудь авторе, </note>
+        <note xml:id="russian_1936_cap27-n562" type="comm" target="quarantana/cap27.xml#c27_13961" targetEnd="quarantana/cap27.xml#c27_13967">— дон Ферранте избрал Аристотеля, </note>
+        <note xml:id="russian_1936_cap27-n563" type="comm" target="quarantana/cap27.xml#c27_13968" targetEnd="quarantana/cap27.xml#c27_13969">который, </note>
+        <note xml:id="russian_1936_cap27-n564" type="comm" target="quarantana/cap27.xml#c27_13970" targetEnd="quarantana/cap27.xml#c27_13972">по его словам, </note>
+        <note xml:id="russian_1936_cap27-n565" type="comm" target="quarantana/cap27.xml#c27_13973" targetEnd="quarantana/cap27.xml#c27_13978">не был ни античным, ни современным, </note>
+        <note xml:id="russian_1936_cap27-n566" type="comm" target="quarantana/cap27.xml#c27_13979" targetEnd="quarantana/cap27.xml#c27_13981">— он философ единственный. </note>
+        <note xml:id="russian_1936_cap27-n567" type="comm" target="quarantana/cap27.xml#c27_13982" targetEnd="quarantana/cap27.xml#c27_13996">Были у него также различные труды наиболее мудрых и тонких его последователей из числа современных; </note>
+        <note xml:id="russian_1936_cap27-n568" type="comm" target="quarantana/cap27.xml#c27_13997" targetEnd="quarantana/cap27.xml#c27_14005">трудов же его противников он никогда не хотел читать, чтобы, </note>
+        <note xml:id="russian_1936_cap27-n569" type="comm" target="quarantana/cap27.xml#c27_14006" targetEnd="quarantana/cap27.xml#c27_14012">как он выражался, не тратить зря времени; </note>
+        <note xml:id="russian_1936_cap27-n570" type="comm" target="quarantana/cap27.xml#c27_14013" targetEnd="quarantana/cap27.xml#c27_14014">не хотел их и приобретать, </note>
+        <note xml:id="russian_1936_cap27-n571" type="comm" target="quarantana/cap27.xml#c27_14015" targetEnd="quarantana/cap27.xml#c27_14020">чтобы не тратить зря денег. </note>
+        <note xml:id="russian_1936_cap27-n572" type="comm" target="quarantana/cap27.xml#c27_14021" targetEnd="quarantana/cap27.xml#c27_14023">Однако, в виде исключения, </note>
+        <note xml:id="russian_1936_cap27-n573" type="comm" target="quarantana/cap27.xml#c27_14024" targetEnd="quarantana/cap27.xml#c27_14036">он в библиотеке своей отводил место знаменитым двадцати двум книгам De subtilitate и кое-каким другим, </note>
+        <note xml:id="russian_1936_cap27-n574" type="comm" target="quarantana/cap27.xml#c27_14037" targetEnd="quarantana/cap27.xml#c27_14044">направленным против перипатетиков творениям Кардано, </note>
+        <note xml:id="russian_1936_cap27-n575" type="comm" target="quarantana/cap27.xml#c27_14045" targetEnd="quarantana/cap27.xml#c27_14051">в уважение к его заслугам в астрологии: </note>
+        <note xml:id="russian_1936_cap27-n576" type="comm" target="quarantana/cap27.xml#c27_14052" targetEnd="quarantana/cap27.xml#c27_14072">по его словам, тот, кто сумел написать трактат De restitutione temporum et motuum caelestium и книгу Duodecim geniturarum, </note>
+        <note xml:id="russian_1936_cap27-n577" type="comm" target="quarantana/cap27.xml#c27_14073" targetEnd="quarantana/cap27.xml#c27_14075">заслуживает быть выслушанным, </note>
+        <note xml:id="russian_1936_cap27-n578" type="comm" target="quarantana/cap27.xml#c27_14076" targetEnd="quarantana/cap27.xml#c27_14078">даже когда он делает промахи; </note>
+        <note xml:id="russian_1936_cap27-n579" type="comm" target="quarantana/cap27.xml#c27_14079" targetEnd="quarantana/cap27.xml#c27_14090">и что великий недостаток этого человека в том, что у него слишком много ума; </note>
+        <note xml:id="russian_1936_cap27-n580" type="comm" target="quarantana/cap27.xml#c27_14091" targetEnd="quarantana/cap27.xml#c27_14102">и что никто и представить себе не может, до чего он дошел бы также и в философии, </note>
+        <note xml:id="russian_1936_cap27-n581" type="comm" target="quarantana/cap27.xml#c27_14103" targetEnd="quarantana/cap27.xml#c27_14109">если бы все время оставался на правильном пути. </note>
+        <note xml:id="russian_1936_cap27-n582" type="comm" target="quarantana/cap27.xml#c27_14110" targetEnd="quarantana/cap27.xml#c27_14112">Во всяком случае, </note>
+        <note xml:id="russian_1936_cap27-n583" type="comm" target="quarantana/cap27.xml#c27_14113" targetEnd="quarantana/cap27.xml#c27_14123">хотя во мнении ученых людей дон Ферранте слыл изощренным перипатетиком, </note>
+        <note xml:id="russian_1936_cap27-n584" type="comm" target="quarantana/cap27.xml#c27_14124" targetEnd="quarantana/cap27.xml#c27_14132">ему самому все-таки казалось, что он знает еще недостаточно, </note>
+        <note xml:id="russian_1936_cap27-n585" type="comm" target="quarantana/cap27.xml#c27_14133" targetEnd="quarantana/cap27.xml#c27_14140">и он не раз говаривал с большою скромностью, </note>
+        <note xml:id="russian_1936_cap27-n586" type="comm" target="quarantana/cap27.xml#c27_14141" targetEnd="quarantana/cap27.xml#c27_14142">что сущность, </note>
+        <note xml:id="russian_1936_cap27-n587" type="comm" target="quarantana/cap27.xml#c27_14143" targetEnd="quarantana/cap27.xml#c27_14144">универсалии, </note>
+        <note xml:id="russian_1936_cap27-n588" type="comm" target="quarantana/cap27.xml#c27_14145" targetEnd="quarantana/cap27.xml#c27_14157">душа мира и природа вещей вовсе не такие уж ясные вещи, </note>
+        <note xml:id="russian_1936_cap27-n589" type="comm" target="quarantana/cap27.xml#c27_14158" targetEnd="quarantana/cap27.xml#c27_14161">как можно было бы думать. </note>
+        <note xml:id="russian_1936_cap27-n590" type="comm" target="quarantana/cap27.xml#c27_14162" targetEnd="quarantana/cap27.xml#c27_14172">Натурфилософия служила ему скорее развлечением, чем предметом научных занятий; </note>
+        <note xml:id="russian_1936_cap27-n591" type="comm" target="quarantana/cap27.xml#c27_14173" targetEnd="quarantana/cap27.xml#c27_14179">даже труды Аристотеля в этой области, </note>
+        <note xml:id="russian_1936_cap27-n592" type="comm" target="quarantana/cap27.xml#c27_14180" targetEnd="quarantana/cap27.xml#c27_14189">равно как и Плиниевы труды он скорее прочитал, чем изучил. </note>
+        <note xml:id="russian_1936_cap27-n593" type="comm" target="quarantana/cap27.xml#c27_14190" targetEnd="quarantana/cap27.xml#c27_14192">Тем не не менее, </note>
+        <note xml:id="russian_1936_cap27-n594" type="comm" target="quarantana/cap27.xml#c27_14193" targetEnd="quarantana/cap27.xml#c27_14195">благодаря этому чтению, </note>
+        <note xml:id="russian_1936_cap27-n595" type="comm" target="quarantana/cap27.xml#c27_14196" targetEnd="quarantana/cap27.xml#c27_14205">благодаря сведениям, попутно усвоенным из трактатов по общей философии, </note>
+        <note xml:id="russian_1936_cap27-n596" type="comm" target="quarantana/cap27.xml#c27_14206" targetEnd="quarantana/cap27.xml#c27_14215">благодаря неоднократному заглядыванию в Magia naturalis Порта, </note>
+        <note xml:id="russian_1936_cap27-n597" type="comm" target="quarantana/cap27.xml#c27_14216" targetEnd="quarantana/cap27.xml#c27_14220">в три истории lapidum, </note>
+        <note xml:id="russian_1936_cap27-n598" type="comm" target="quarantana/cap27.xml#c27_14221" targetEnd="quarantana/cap27.xml#c27_14222">animalium, </note>
+        <note xml:id="russian_1936_cap27-n599" type="comm" target="quarantana/cap27.xml#c27_14223" targetEnd="quarantana/cap27.xml#c27_14227">plantarum Кардано, </note>
+        <note xml:id="russian_1936_cap27-n600" type="comm" target="quarantana/cap27.xml#c27_14228" targetEnd="quarantana/cap27.xml#c27_14230">в Трактат Альберта Великого о травах, </note>
+        <note xml:id="russian_1936_cap27-n601" type="comm" target="quarantana/cap27.xml#c27_14231" targetEnd="quarantana/cap27.xml#c27_14232">растениях, </note>
+        <note xml:id="russian_1936_cap27-n602" type="comm" target="quarantana/cap27.xml#c27_14233" targetEnd="quarantana/cap27.xml#c27_14235">животных, </note>
+        <note xml:id="russian_1936_cap27-n604" type="comm" target="quarantana/cap27.xml#c27_14240" targetEnd="quarantana/cap27.xml#c27_14245">и кое в какие менее важные труды, </note>
+        <note xml:id="russian_1936_cap27-n605" type="comm" target="quarantana/cap27.xml#c27_14246" targetEnd="quarantana/cap27.xml#c27_14264">он умел, при случае, занять беседой общество, рассуждая о наиболее удивительных свойствах и наиболее своеобразных особенностях многих целебных трав; </note>
+        <note xml:id="russian_1936_cap27-n606" type="comm" target="quarantana/cap27.xml#c27_14265" targetEnd="quarantana/cap27.xml#c27_14275">описывая в точности наружность и привычки сирен и чудесного феникса; </note>
+        <note xml:id="russian_1936_cap27-n607" type="comm" target="quarantana/cap27.xml#c27_14276" targetEnd="quarantana/cap27.xml#c27_14284">объясняя, как держится в огне, не сгорая, саламандра; </note>
+        <note xml:id="russian_1936_cap27-n608" type="comm" target="quarantana/cap27.xml#c27_14285" targetEnd="quarantana/cap27.xml#c27_14287">как прилипало, </note>
+        <note xml:id="russian_1936_cap27-n609" type="comm" target="quarantana/cap27.xml#c27_14288" targetEnd="quarantana/cap27.xml#c27_14289">эта крохотная рыбка, </note>
+        <note xml:id="russian_1936_cap27-n610" type="comm" target="quarantana/cap27.xml#c27_14290" targetEnd="quarantana/cap27.xml#c27_14306">обладает силою и способностью вдруг останавливать в открытом море любой большой корабль; </note>
+        <note xml:id="russian_1936_cap27-n611" type="comm" target="quarantana/cap27.xml#c27_14307" targetEnd="quarantana/cap27.xml#c27_14317">как капли росы внутри раковин становятся жемчужинами; </note>
+        <note xml:id="russian_1936_cap27-n612" type="comm" target="quarantana/cap27.xml#c27_14318" targetEnd="quarantana/cap27.xml#c27_14323">как хамелеон питается воздухом; </note>
+        <note xml:id="russian_1936_cap27-n613" type="comm" target="quarantana/cap27.xml#c27_14324" targetEnd="quarantana/cap27.xml#c27_14328">как изо льда, медленно затвердевающего, </note>
+        <note xml:id="russian_1936_cap27-n614" type="comm" target="quarantana/cap27.xml#c27_14329" targetEnd="quarantana/cap27.xml#c27_14336">с течением веков образуется кристалл, </note>
+        <note xml:id="russian_1936_cap27-n615" type="comm" target="quarantana/cap27.xml#c27_14337" targetEnd="quarantana/cap27.xml#c27_14344">— и всякие другие удивительнейшие тайны природы. </note>
+        <note xml:id="russian_1936_cap27-n616" type="comm" target="quarantana/cap27.xml#c27_14345" targetEnd="quarantana/cap27.xml#c27_14355">В тайны магии и колдовства он погрузился сильнее, </note>
+        <note xml:id="russian_1936_cap27-n617" type="comm" target="quarantana/cap27.xml#c27_14356" targetEnd="quarantana/cap27.xml#c27_14356">так как здесь, </note>
+        <note xml:id="russian_1936_cap27-n618" type="comm" target="quarantana/cap27.xml#c27_14357" targetEnd="quarantana/cap27.xml#c27_14360">говорит наш аноним, </note>
+        <note xml:id="russian_1936_cap27-n619" type="comm" target="quarantana/cap27.xml#c27_14361" targetEnd="quarantana/cap27.xml#c27_14369">дело шло о науке, гораздо более модной и необходимой, </note>
+        <note xml:id="russian_1936_cap27-n620" type="comm" target="quarantana/cap27.xml#c27_14370" targetEnd="quarantana/cap27.xml#c27_14386">притом такой, в которой факты являются гораздо более значительными и гораздо более доступными для удостоверения. </note>
+        <note xml:id="russian_1936_cap27-n621" type="comm" target="quarantana/cap27.xml#c27_14387" targetEnd="quarantana/cap27.xml#c27_14392">Нет надобности говорить, </note>
+        <note xml:id="russian_1936_cap27-n622" type="comm" target="quarantana/cap27.xml#c27_14393" targetEnd="quarantana/cap27.xml#c27_14414">что в этих занятиях он никогда не преследовал другой цели, кроме желания научиться и досконально узнать коварное искусство колдунов, </note>
+        <note xml:id="russian_1936_cap27-n623" type="comm" target="quarantana/cap27.xml#c27_14415" targetEnd="quarantana/cap27.xml#c27_14419">дабы иметь возможность остеречься и защититься от них. </note>
+        <note xml:id="russian_1936_cap27-n624" type="comm" target="quarantana/cap27.xml#c27_14420" targetEnd="quarantana/cap27.xml#c27_14431">И под руководством, главным образом, великого Мартина Дельрио («мужа науки»), </note>
+        <note xml:id="russian_1936_cap27-n625" type="comm" target="quarantana/cap27.xml#c27_14432" targetEnd="quarantana/cap27.xml#c27_14441">он достиг того, что мог ex professo рассуждать о чарах, накликающих любовь, </note>
+        <note xml:id="russian_1936_cap27-n626" type="comm" target="quarantana/cap27.xml#c27_14442" targetEnd="quarantana/cap27.xml#c27_14444">сон, </note>
+        <note xml:id="russian_1936_cap27-n627" type="comm" target="quarantana/cap27.xml#c27_14445" targetEnd="quarantana/cap27.xml#c27_14451">вражду, и о бесконечных видах этих трех главных родов чародейств, </note>
+        <note xml:id="russian_1936_cap27-n628" type="comm" target="quarantana/cap27.xml#c27_14452" targetEnd="quarantana/cap27.xml#c27_14453">которые, </note>
+        <note xml:id="russian_1936_cap27-n629" type="comm" target="quarantana/cap27.xml#c27_14454" targetEnd="quarantana/cap27.xml#c27_14456">по словам опять-таки нашего анонима, </note>
+        <note xml:id="russian_1936_cap27-n630" type="comm" target="quarantana/cap27.xml#c27_14457" targetEnd="quarantana/cap27.xml#c27_14473">к сожалению, и по сей день применяются всюду с такими тяжелыми последствиями. </note>
+        <note xml:id="russian_1936_cap27-n631" type="comm" target="quarantana/cap27.xml#c27_14474" targetEnd="quarantana/cap27.xml#c27_14487">Одинаково обширны и основательны были и познания дона Ферранте по части истории, </note>
+        <note xml:id="russian_1936_cap27-n632" type="comm" target="quarantana/cap27.xml#c27_14488" targetEnd="quarantana/cap27.xml#c27_14489">особенно универсальной: </note>
+        <note xml:id="russian_1936_cap27-n633" type="comm" target="quarantana/cap27.xml#c27_14490" targetEnd="quarantana/cap27.xml#c27_14497">здесь его любимыми авторами были Тарканьота, </note>
+        <note xml:id="russian_1936_cap27-n634" type="comm" target="quarantana/cap27.xml#c27_14498" targetEnd="quarantana/cap27.xml#c27_14499">Дольче, </note>
+        <note xml:id="russian_1936_cap27-n635" type="comm" target="quarantana/cap27.xml#c27_14500" targetEnd="quarantana/cap27.xml#c27_14502">Бугатти, </note>
+        <note xml:id="russian_1936_cap27-n636" type="comm" target="quarantana/cap27.xml#c27_14503" targetEnd="quarantana/cap27.xml#c27_14504">Кампана, </note>
+        <note xml:id="russian_1936_cap27-n637" type="comm" target="quarantana/cap27.xml#c27_14505" targetEnd="quarantana/cap27.xml#c27_14506">Гуаццо, </note>
+        <note xml:id="russian_1936_cap27-n638" type="comm" target="quarantana/cap27.xml#c27_14507" targetEnd="quarantana/cap27.xml#c27_14511">словом, наиболее знаменитые. </note>
+        <note xml:id="russian_1936_cap27-n639" type="comm" target="quarantana/cap27.xml#c27_14512" targetEnd="quarantana/cap27.xml#c27_14516">Но какой смысл имеет история без политики? </note>
+        <note xml:id="russian_1936_cap27-n640" type="comm" target="quarantana/cap27.xml#c27_14517" targetEnd="quarantana/cap27.xml#c27_14520">— часто говаривал дон Ферранте. </note>
+        <note xml:id="russian_1936_cap27-n642" type="comm" target="quarantana/cap27.xml#c27_14524" targetEnd="quarantana/cap27.xml#c27_14528">Это вожатый, который идет и идет вперед, </note>
+        <note xml:id="russian_1936_cap27-n643" type="comm" target="quarantana/cap27.xml#c27_14529" targetEnd="quarantana/cap27.xml#c27_14535">и нет никого за ним, кто изучил бы пройденный им путь, </note>
+        <note xml:id="russian_1936_cap27-n644" type="comm" target="quarantana/cap27.xml#c27_14536" targetEnd="quarantana/cap27.xml#c27_14543">и он, стало быть, шагает совершенно впустую, </note>
+        <note xml:id="russian_1936_cap27-n645" type="comm" target="quarantana/cap27.xml#c27_14544" targetEnd="quarantana/cap27.xml#c27_14555">но и политика без истории все равно, что путник без вожатого. </note>
+        <note xml:id="russian_1936_cap27-n646" type="comm" target="quarantana/cap27.xml#c27_14556" targetEnd="quarantana/cap27.xml#c27_14565">А посему в его книжном шкафу отведена была своя полка политикам; </note>
+        <note xml:id="russian_1936_cap27-n647" type="comm" target="quarantana/cap27.xml#c27_14566" targetEnd="quarantana/cap27.xml#c27_14566">на ней, </note>
+        <note xml:id="russian_1936_cap27-n648" type="comm" target="quarantana/cap27.xml#c27_14567" targetEnd="quarantana/cap27.xml#c27_14575">среди многих малозначительных и второстепенных, </note>
+        <note xml:id="russian_1936_cap27-n649" type="comm" target="quarantana/cap27.xml#c27_14576" targetEnd="quarantana/cap27.xml#c27_14578">обретались Боден, </note>
+        <note xml:id="russian_1936_cap27-n650" type="comm" target="quarantana/cap27.xml#c27_14579" targetEnd="quarantana/cap27.xml#c27_14580">Кавальканти, </note>
+        <note xml:id="russian_1936_cap27-n651" type="comm" target="quarantana/cap27.xml#c27_14581" targetEnd="quarantana/cap27.xml#c27_14582">Сансовино, </note>
+        <note xml:id="russian_1936_cap27-n652" type="comm" target="quarantana/cap27.xml#c27_14583" targetEnd="quarantana/cap27.xml#c27_14584">Парута, </note>
+        <note xml:id="russian_1936_cap27-n653" type="comm" target="quarantana/cap27.xml#c27_14585" targetEnd="quarantana/cap27.xml#c27_14586">Боккалини. </note>
+        <note xml:id="russian_1936_cap27-n654" type="comm" target="quarantana/cap27.xml#c27_14587" targetEnd="quarantana/cap27.xml#c27_14604">Но были в этой области две книги, которые дон Ферранте ставил значительно выше всех, </note>
+        <note xml:id="russian_1936_cap27-n655" type="comm" target="quarantana/cap27.xml#c27_14605" targetEnd="quarantana/cap27.xml#c27_14606">— две, </note>
+        <note xml:id="russian_1936_cap27-n656" type="comm" target="quarantana/cap27.xml#c27_14607" targetEnd="quarantana/cap27.xml#c27_14617">которые он до некоторого времени обычно называл первыми, </note>
+        <note xml:id="russian_1936_cap27-n657" type="comm" target="quarantana/cap27.xml#c27_14618" targetEnd="quarantana/cap27.xml#c27_14629">причем никак не мог решить, которой из двух исключительно подобает отвести это место: </note>
+        <note xml:id="russian_1936_cap27-n658" type="comm" target="quarantana/cap27.xml#c27_14630" targetEnd="quarantana/cap27.xml#c27_14639">одна — это «Государь» и «Рассуждения», знаменитого флорентийского канцлера. «Он, </note>
+        <note xml:id="russian_1936_cap27-n659" type="comm" target="quarantana/cap27.xml#c27_14640" targetEnd="quarantana/cap27.xml#c27_14641">конечно, плут, </note>
+        <note xml:id="russian_1936_cap27-n660" type="comm" target="quarantana/cap27.xml#c27_14642" targetEnd="quarantana/cap27.xml#c27_14644">— говорил дон Ферранте, </note>
+        <note xml:id="russian_1936_cap27-n661" type="comm" target="quarantana/cap27.xml#c27_14645" targetEnd="quarantana/cap27.xml#c27_14646">— но глубокий». </note>
+        <note xml:id="russian_1936_cap27-n662" type="comm" target="quarantana/cap27.xml#c27_14647" targetEnd="quarantana/cap27.xml#c27_14658">Другая — «Государственный интерес» не менее знаменитого Джованни Ботеро. «Он, </note>
+        <note xml:id="russian_1936_cap27-n663" type="comm" target="quarantana/cap27.xml#c27_14659" targetEnd="quarantana/cap27.xml#c27_14660">конечно, благородный человек, </note>
+        <note xml:id="russian_1936_cap27-n664" type="comm" target="quarantana/cap27.xml#c27_14661" targetEnd="quarantana/cap27.xml#c27_14664">— говаривал он также, — но тонкий». </note>
+        <note xml:id="russian_1936_cap27-n665" type="comm" target="quarantana/cap27.xml#c27_14665" targetEnd="quarantana/cap27.xml#c27_14665">Однако, </note>
+        <note xml:id="russian_1936_cap27-n666" type="comm" target="quarantana/cap27.xml#c27_14666" targetEnd="quarantana/cap27.xml#c27_14676">незадолго до того времени, в пределах которого разыгрывалась наша история, </note>
+        <note xml:id="russian_1936_cap27-n667" type="comm" target="quarantana/cap27.xml#c27_14677" targetEnd="quarantana/cap27.xml#c27_14687">вышла книга, которая положила конец спору о первенстве, </note>
+        <note xml:id="russian_1936_cap27-n668" type="comm" target="quarantana/cap27.xml#c27_14688" targetEnd="quarantana/cap27.xml#c27_14695">оставляя позади даже творения этих двух «матадоров», </note>
+        <note xml:id="russian_1936_cap27-n669" type="comm" target="quarantana/cap27.xml#c27_14696" targetEnd="quarantana/cap27.xml#c27_14698">как выражался дон Ферранте; </note>
+        <note xml:id="russian_1936_cap27-n670" type="comm" target="quarantana/cap27.xml#c27_14699" targetEnd="quarantana/cap27.xml#c27_14711">книга, в которой заключались как бы в процеженном виде все хитрости, </note>
+        <note xml:id="russian_1936_cap27-n671" type="comm" target="quarantana/cap27.xml#c27_14712" targetEnd="quarantana/cap27.xml#c27_14714">для того чтобы научиться разузнавать их, </note>
+        <note xml:id="russian_1936_cap27-n672" type="comm" target="quarantana/cap27.xml#c27_14715" targetEnd="quarantana/cap27.xml#c27_14718">и все добродетели, </note>
+        <note xml:id="russian_1936_cap27-n673" type="comm" target="quarantana/cap27.xml#c27_14719" targetEnd="quarantana/cap27.xml#c27_14721">чтобы научиться их применять; </note>
+        <note xml:id="russian_1936_cap27-n674" type="comm" target="quarantana/cap27.xml#c27_14722" targetEnd="quarantana/cap27.xml#c27_14724">крошечная книжка, </note>
+        <note xml:id="russian_1936_cap27-n675" type="comm" target="quarantana/cap27.xml#c27_14725" targetEnd="quarantana/cap27.xml#c27_14727">зато чистого золота, </note>
+        <note xml:id="russian_1936_cap27-n676" type="comm" target="quarantana/cap27.xml#c27_14728" targetEnd="quarantana/cap27.xml#c27_14738">— словом «Правитель у власти» дона Валерьяно Кастильоне, </note>
+        <note xml:id="russian_1936_cap27-n677" type="comm" target="quarantana/cap27.xml#c27_14739" targetEnd="quarantana/cap27.xml#c27_14741">этого знаменитейшего человека, </note>
+        <note xml:id="russian_1936_cap27-n678" type="comm" target="quarantana/cap27.xml#c27_14742" targetEnd="quarantana/cap27.xml#c27_14746">про которого можно сказать, </note>
+        <note xml:id="russian_1936_cap27-n679" type="comm" target="quarantana/cap27.xml#c27_14747" targetEnd="quarantana/cap27.xml#c27_14763">что крупнейшие ученые взапуски превозносили его и самые значительные лица старались привлечь его к себе; </note>
+        <note xml:id="russian_1936_cap27-n680" type="comm" target="quarantana/cap27.xml#c27_14764" targetEnd="quarantana/cap27.xml#c27_14765">этого человека, </note>
+        <note xml:id="russian_1936_cap27-n681" type="comm" target="quarantana/cap27.xml#c27_14766" targetEnd="quarantana/cap27.xml#c27_14771">которого папа Урбан VIII, </note>
+        <note xml:id="russian_1936_cap27-n682" type="comm" target="quarantana/cap27.xml#c27_14772" targetEnd="quarantana/cap27.xml#c27_14774">как известно, </note>
+        <note xml:id="russian_1936_cap27-n683" type="comm" target="quarantana/cap27.xml#c27_14775" targetEnd="quarantana/cap27.xml#c27_14777">почтил пышными похвалами; </note>
+        <note xml:id="russian_1936_cap27-n684" type="comm" target="quarantana/cap27.xml#c27_14778" targetEnd="quarantana/cap27.xml#c27_14793">которого кардинал Боргезе и наместник неаполитанский дон Пьетро ди-Толедо упрашивавали — и оба тщетно — описать: </note>
+        <note xml:id="russian_1936_cap27-n685" type="comm" target="quarantana/cap27.xml#c27_14794" targetEnd="quarantana/cap27.xml#c27_14801">первый — деяния папы Павла V, </note>
+        <note xml:id="russian_1936_cap27-n686" type="comm" target="quarantana/cap27.xml#c27_14802" targetEnd="quarantana/cap27.xml#c27_14809">второй — войны короля католического в Италии; </note>
+        <note xml:id="russian_1936_cap27-n688" type="comm" target="quarantana/cap27.xml#c27_14814" targetEnd="quarantana/cap27.xml#c27_14815">этого человека, </note>
+        <note xml:id="russian_1936_cap27-n689" type="comm" target="quarantana/cap27.xml#c27_14816" targetEnd="quarantana/cap27.xml#c27_14821">которого король Франции, Людовик XIII, </note>
+        <note xml:id="russian_1936_cap27-n690" type="comm" target="quarantana/cap27.xml#c27_14822" targetEnd="quarantana/cap27.xml#c27_14827">по внушению кардинала Ришелье, </note>
+        <note xml:id="russian_1936_cap27-n691" type="comm" target="quarantana/cap27.xml#c27_14828" targetEnd="quarantana/cap27.xml#c27_14830">назначил своим историографом; </note>
+        <note xml:id="russian_1936_cap27-n692" type="comm" target="quarantana/cap27.xml#c27_14831" targetEnd="quarantana/cap27.xml#c27_14842">на которого герцог Карло-Эмануэле Савойский возложил то же поручение; </note>
+        <note xml:id="russian_1936_cap27-n693" type="comm" target="quarantana/cap27.xml#c27_14843" targetEnd="quarantana/cap27.xml#c27_14854">в похвалу которому — если уж пройти мимо всех других громких свидетельств — сама герцогиня Христина, </note>
+        <note xml:id="russian_1936_cap27-n694" type="comm" target="quarantana/cap27.xml#c27_14855" targetEnd="quarantana/cap27.xml#c27_14860">дочь христианнейшего короля Генриха IV, </note>
+        <note xml:id="russian_1936_cap27-n695" type="comm" target="quarantana/cap27.xml#c27_14861" targetEnd="quarantana/cap27.xml#c27_14864">могла в одной грамоте, </note>
+        <note xml:id="russian_1936_cap27-n696" type="comm" target="quarantana/cap27.xml#c27_14865" targetEnd="quarantana/cap27.xml#c27_14868">наряду со многими другими прозваниями, </note>
+        <note xml:id="russian_1936_cap27-n697" type="comm" target="quarantana/cap27.xml#c27_14869" targetEnd="quarantana/cap27.xml#c27_14883">отметить «установившуюся за ним в Италии неоспоримую репутацию первого писателя нашего времени». </note>
+        <note xml:id="russian_1936_cap27-n698" type="comm" target="quarantana/cap27.xml#c27_14884" targetEnd="quarantana/cap27.xml#c27_14895">Но если во всех вышеназванных науках дон Ферранте мог считаться сведущим, </note>
+        <note xml:id="russian_1936_cap27-n699" type="comm" target="quarantana/cap27.xml#c27_14896" targetEnd="quarantana/cap27.xml#c27_14907">то была одна, в которой он заслуженно носил звание профессора: </note>
+        <note xml:id="russian_1936_cap27-n700" type="comm" target="quarantana/cap27.xml#c27_14908" targetEnd="quarantana/cap27.xml#c27_14910">это — наука чести. </note>
+        <note xml:id="russian_1936_cap27-n701" type="comm" target="quarantana/cap27.xml#c27_14911" targetEnd="quarantana/cap27.xml#c27_14917">Он не только говорил о ней с истинным мастерством, </note>
+        <note xml:id="russian_1936_cap27-n702" type="comm" target="quarantana/cap27.xml#c27_14918" targetEnd="quarantana/cap27.xml#c27_14928">но и при неоднократных обращениях к нему с просьбой вмешаться в вопросы чести он всегда давал какое-нибудь решение. </note>
+        <note xml:id="russian_1936_cap27-n703" type="comm" target="quarantana/cap27.xml#c27_14929" targetEnd="quarantana/cap27.xml#c27_14932">В библиотеке своей и, </note>
+        <note xml:id="russian_1936_cap27-n704" type="comm" target="quarantana/cap27.xml#c27_14933" targetEnd="quarantana/cap27.xml#c27_14938">можно сказать, </note>
+        <note xml:id="russian_1936_cap27-n705" type="comm" target="quarantana/cap27.xml#c27_14939" targetEnd="quarantana/cap27.xml#c27_14947">прямо в голове он держал творения наиболее авторитетных писателей в этой области: </note>
+        <note xml:id="russian_1936_cap27-n706" type="comm" target="quarantana/cap27.xml#c27_14948" targetEnd="quarantana/cap27.xml#c27_14951">Париде дальПоццо, </note>
+        <note xml:id="russian_1936_cap27-n707" type="comm" target="quarantana/cap27.xml#c27_14952" targetEnd="quarantana/cap27.xml#c27_14955">Фаусто да-Лонджано, </note>
+        <note xml:id="russian_1936_cap27-n708" type="comm" target="quarantana/cap27.xml#c27_14956" targetEnd="quarantana/cap27.xml#c27_14958">Урреа, </note>
+        <note xml:id="russian_1936_cap27-n709" type="comm" target="quarantana/cap27.xml#c27_14959" targetEnd="quarantana/cap27.xml#c27_14961">Муцио, </note>
+        <note xml:id="russian_1936_cap27-n710" type="comm" target="quarantana/cap27.xml#c27_14962" targetEnd="quarantana/cap27.xml#c27_14964">Ромеи, </note>
+        <note xml:id="russian_1936_cap27-n711" type="comm" target="quarantana/cap27.xml#c27_14965" targetEnd="quarantana/cap27.xml#c27_14967">Альбергато, </note>
+        <note xml:id="russian_1936_cap27-n712" type="comm" target="quarantana/cap27.xml#c27_14968" targetEnd="quarantana/cap27.xml#c27_14978">оба диалога Торквато Тассо, </note>
+        <note xml:id="russian_1936_cap27-n713" type="comm" target="quarantana/cap27.xml#c27_14979" targetEnd="quarantana/cap27.xml#c27_14984">причем у него всегда были наготове — так что, </note>
+        <note xml:id="russian_1936_cap27-n714" type="comm" target="quarantana/cap27.xml#c27_14985" targetEnd="quarantana/cap27.xml#c27_15000">при надобности, он мог тут же на память их привести — все места как из «Освобожденного Иерусалима», </note>
+        <note xml:id="russian_1936_cap27-n715" type="comm" target="quarantana/cap27.xml#c27_15001" targetEnd="quarantana/cap27.xml#c27_15004">так и из «Завоеванного», </note>
+        <note xml:id="russian_1936_cap27-n716" type="comm" target="quarantana/cap27.xml#c27_15005" targetEnd="quarantana/cap27.xml#c27_15012">которые могут служить авторитетной ссылкой в вопросах чести. </note>
+        <note xml:id="russian_1936_cap27-n717" type="comm" target="quarantana/cap27.xml#c27_15013" targetEnd="quarantana/cap27.xml#c27_15016">Однако, всем авторам автор был, </note>
+        <note xml:id="russian_1936_cap27-n718" type="comm" target="quarantana/cap27.xml#c27_15017" targetEnd="quarantana/cap27.xml#c27_15019">по его представлению, </note>
+        <note xml:id="russian_1936_cap27-n719" type="comm" target="quarantana/cap27.xml#c27_15020" targetEnd="quarantana/cap27.xml#c27_15026">знаменитый наш Франческо Бираго, </note>
+        <note xml:id="russian_1936_cap27-n720" type="comm" target="quarantana/cap27.xml#c27_15027" targetEnd="quarantana/cap27.xml#c27_15043">с которым ему даже не раз приходилось давать свое заключение в делах чести и который, </note>
+        <note xml:id="russian_1936_cap27-n721" type="comm" target="quarantana/cap27.xml#c27_15044" targetEnd="quarantana/cap27.xml#c27_15046">с своей стороны, </note>
+        <note xml:id="russian_1936_cap27-n722" type="comm" target="quarantana/cap27.xml#c27_15047" targetEnd="quarantana/cap27.xml#c27_15055">говорил о доне Ферранте в выражениях особенного почтения. </note>
+        <note xml:id="russian_1936_cap27-n723" type="comm" target="quarantana/cap27.xml#c27_15056" targetEnd="quarantana/cap27.xml#c27_15067">А как только вышли «Рыцарские разговоры» этого славного автора, </note>
+        <note xml:id="russian_1936_cap27-n724" type="comm" target="quarantana/cap27.xml#c27_15068" targetEnd="quarantana/cap27.xml#c27_15072">дон Ферранте без колебания предсказал, </note>
+        <note xml:id="russian_1936_cap27-n725" type="comm" target="quarantana/cap27.xml#c27_15073" targetEnd="quarantana/cap27.xml#c27_15078">что это творение разрушило авторитет Олевано и, </note>
+        <note xml:id="russian_1936_cap27-n726" type="comm" target="quarantana/cap27.xml#c27_15079" targetEnd="quarantana/cap27.xml#c27_15087">вместе с другими родственными ему благородными произведениями, </note>
+        <note xml:id="russian_1936_cap27-n727" type="comm" target="quarantana/cap27.xml#c27_15088" targetEnd="quarantana/cap27.xml#c27_15095">останется у потомков первостепенным по своему влиянию сводом, </note>
+        <note xml:id="russian_1936_cap27-n728" type="comm" target="quarantana/cap27.xml#c27_15096" targetEnd="quarantana/cap27.xml#c27_15106">— о том, в какой мере оправдалось это пророчество, может судить всякий, как говорит наш аноним. </note>
+        <note xml:id="russian_1936_cap27-n729" type="comm" target="quarantana/cap27.xml#c27_15107" targetEnd="quarantana/cap27.xml#c27_15113">Отсюда аноним переходит к изящной литературе. </note>
+        <note xml:id="russian_1936_cap27-n730" type="comm" target="quarantana/cap27.xml#c27_15114" targetEnd="quarantana/cap27.xml#c27_15133">Но мы начинаем сомневаться, подлинно ли у читателя есть охота идти с ним дальше в этом обзоре, </note>
+        <note xml:id="russian_1936_cap27-n731" type="comm" target="quarantana/cap27.xml#c27_15134" targetEnd="quarantana/cap27.xml#c27_15157">и даже опасаемся, не заслужили ли мы уже для самих себя клички рабского копировщика и клички надоеды — для себя же пополам с вышеупомянутым анонимом, </note>
+        <note xml:id="russian_1936_cap27-n732" type="comm" target="quarantana/cap27.xml#c27_15158" targetEnd="quarantana/cap27.xml#c27_15163">за то, что мы в простоте души следовали за ним до сих пор в этом вопросе, </note>
+        <note xml:id="russian_1936_cap27-n733" type="comm" target="quarantana/cap27.xml#c27_15164" targetEnd="quarantana/cap27.xml#c27_15169">постороннем для главного рассказа, </note>
+        <note xml:id="russian_1936_cap27-n734" type="comm" target="quarantana/cap27.xml#c27_15170" targetEnd="quarantana/cap27.xml#c27_15177">и где он, по всей вероятности, потому так и распространился, </note>
+        <note xml:id="russian_1936_cap27-n735" type="comm" target="quarantana/cap27.xml#c27_15178" targetEnd="quarantana/cap27.xml#c27_15191">что хотел щегольнуть ученостью и показать, что он не отстает от века. </note>
+        <note xml:id="russian_1936_cap27-n736" type="comm" target="quarantana/cap27.xml#c27_15192" targetEnd="quarantana/cap27.xml#c27_15192">А посему, </note>
+        <note xml:id="russian_1936_cap27-n737" type="comm" target="quarantana/cap27.xml#c27_15193" targetEnd="quarantana/cap27.xml#c27_15198">оставив в неприкосновенности то, что уже написано, </note>
+        <note xml:id="russian_1936_cap27-n738" type="comm" target="quarantana/cap27.xml#c27_15199" targetEnd="quarantana/cap27.xml#c27_15204">чтобы даром не пропал наш труд, </note>
+        <note xml:id="russian_1936_cap27-n739" type="comm" target="quarantana/cap27.xml#c27_15205" targetEnd="quarantana/cap27.xml#c27_15207">мы опустим остальное с тем, </note>
+        <note xml:id="russian_1936_cap27-n740" type="comm" target="quarantana/cap27.xml#c27_15208" targetEnd="quarantana/cap27.xml#c27_15211">чтобы вернуться на большую дорогу, </note>
+        <note xml:id="russian_1936_cap27-n741" type="comm" target="quarantana/cap27.xml#c27_15212" targetEnd="quarantana/cap27.xml#c27_15221">тем более, что нам предстоит сделать еще изрядную часть пути, </note>
+        <note xml:id="russian_1936_cap27-n742" type="comm" target="quarantana/cap27.xml#c27_15222" targetEnd="quarantana/cap27.xml#c27_15227">не встречая никого из наших персонажей, </note>
+        <note xml:id="russian_1936_cap27-n743" type="comm" target="quarantana/cap27.xml#c27_15228" targetEnd="quarantana/cap27.xml#c27_15232">и еще более длинную, </note>
+        <note xml:id="russian_1936_cap27-n744" type="comm" target="quarantana/cap27.xml#c27_15233" targetEnd="quarantana/cap27.xml#c27_15246">прежде чем встретить тех, чьи судьбы для читателя, конечно, более занимательны, </note>
+        <note xml:id="russian_1936_cap27-n745" type="comm" target="quarantana/cap27.xml#c27_15247" targetEnd="quarantana/cap27.xml#c27_15254">если только вообще что-нибудь занимает его во всем этом. </note>
+        <note xml:id="russian_1936_cap27-n746" type="comm" target="quarantana/cap27.xml#c27_15255" targetEnd="quarantana/cap27.xml#c27_15260">До осени следующего, 1629-го года, </note>
+        <note xml:id="russian_1936_cap27-n747" type="comm" target="quarantana/cap27.xml#c27_15261" targetEnd="quarantana/cap27.xml#c27_15262">все, </note>
+        <note xml:id="russian_1936_cap27-n748" type="comm" target="quarantana/cap27.xml#c27_15263" targetEnd="quarantana/cap27.xml#c27_15265">кто по своей воле, </note>
+        <note xml:id="russian_1936_cap27-n749" type="comm" target="quarantana/cap27.xml#c27_15266" targetEnd="quarantana/cap27.xml#c27_15268">а кто вынужденно, </note>
+        <note xml:id="russian_1936_cap27-n750" type="comm" target="quarantana/cap27.xml#c27_15269" targetEnd="quarantana/cap27.xml#c27_15279">оставались почти в том же положении, в каком мы их покинули. </note>
+        <note xml:id="russian_1936_cap27-n751" type="comm" target="quarantana/cap27.xml#c27_15280" targetEnd="quarantana/cap27.xml#c27_15284">Ни с кем из них не случилось, </note>
+        <note xml:id="russian_1936_cap27-n752" type="comm" target="quarantana/cap27.xml#c27_15285" targetEnd="quarantana/cap27.xml#c27_15294">никому из них не довелось свершить чего-либо достойного поминания. </note>
+        <note xml:id="russian_1936_cap27-n753" type="comm" target="quarantana/cap27.xml#c27_15295" targetEnd="quarantana/cap27.xml#c27_15296">Наступила осень, </note>
+        <note xml:id="russian_1936_cap27-n754" type="comm" target="quarantana/cap27.xml#c27_15297" targetEnd="quarantana/cap27.xml#c27_15307">когда Аньезе и Лючия рассчитывали было увидеться, </note>
+        <note xml:id="russian_1936_cap27-n755" type="comm" target="quarantana/cap27.xml#c27_15308" targetEnd="quarantana/cap27.xml#c27_15316">но одно значительное общественное событие разрушило все эти расчеты, </note>
+        <note xml:id="russian_1936_cap27-n756" type="comm" target="quarantana/cap27.xml#c27_15317" targetEnd="quarantana/cap27.xml#c27_15326">— это было, конечно, одно из самых незначительных последствий этого события. </note>
+        <note xml:id="russian_1936_cap27-n757" type="comm" target="quarantana/cap27.xml#c27_15327" targetEnd="quarantana/cap27.xml#c27_15331">Затем последовали другие значительные происшествия, </note>
+        <note xml:id="russian_1936_cap27-n758" type="comm" target="quarantana/cap27.xml#c27_15332" targetEnd="quarantana/cap27.xml#c27_15343">которые, однако, не внесли никакого заметного изменения в судьбу наших персонажей. </note>
+        <note xml:id="russian_1936_cap27-n759" type="comm" target="quarantana/cap27.xml#c27_15344" targetEnd="quarantana/cap27.xml#c27_15348">Наконец, новые обстоятельства более общего характера, </note>
+        <note xml:id="russian_1936_cap27-n760" type="comm" target="quarantana/cap27.xml#c27_15349" targetEnd="quarantana/cap27.xml#c27_15350">более сильные, </note>
+        <note xml:id="russian_1936_cap27-n761" type="comm" target="quarantana/cap27.xml#c27_15351" targetEnd="quarantana/cap27.xml#c27_15352">более резкие, </note>
+        <note xml:id="russian_1936_cap27-n762" type="comm" target="quarantana/cap27.xml#c27_15353" targetEnd="quarantana/cap27.xml#c27_15357">докатились до них, </note>
+        <note xml:id="russian_1936_cap27-n763" type="comm" target="quarantana/cap27.xml#c27_15358" targetEnd="quarantana/cap27.xml#c27_15362">до самых маленьких из них, </note>
+        <note xml:id="russian_1936_cap27-n764" type="comm" target="quarantana/cap27.xml#c27_15363" targetEnd="quarantana/cap27.xml#c27_15367">стоявших на нижней ступеньке общественной лестницы: </note>
+        <note xml:id="russian_1936_cap27-n765" type="comm" target="quarantana/cap27.xml#c27_15368" targetEnd="quarantana/cap27.xml#c27_15372">подобно тому как могучий ураган, </note>
+        <note xml:id="russian_1936_cap27-n766" type="comm" target="quarantana/cap27.xml#c27_15373" targetEnd="quarantana/cap27.xml#c27_15373">бешено несясь, </note>
+        <note xml:id="russian_1936_cap27-n767" type="comm" target="quarantana/cap27.xml#c27_15374" targetEnd="quarantana/cap27.xml#c27_15377">ломая и с корнем вырывая деревья, </note>
+        <note xml:id="russian_1936_cap27-n768" type="comm" target="quarantana/cap27.xml#c27_15378" targetEnd="quarantana/cap27.xml#c27_15379">срывая крыши, </note>
+        <note xml:id="russian_1936_cap27-n769" type="comm" target="quarantana/cap27.xml#c27_15380" targetEnd="quarantana/cap27.xml#c27_15381">сбрасывая верхушки колоколен, </note>
+        <note xml:id="russian_1936_cap27-n770" type="comm" target="quarantana/cap27.xml#c27_15382" targetEnd="quarantana/cap27.xml#c27_15390">низвергая стены и раскидывая повсюду обломки, </note>
+        <note xml:id="russian_1936_cap27-n771" type="comm" target="quarantana/cap27.xml#c27_15391" targetEnd="quarantana/cap27.xml#c27_15397">вместе с тем поднимает и сухие прутики, скрытые в траве, </note>
+        <note xml:id="russian_1936_cap27-n772" type="comm" target="quarantana/cap27.xml#c27_15398" targetEnd="quarantana/cap27.xml#c27_15407">извлекает из закоулков увядшие легкие листья, </note>
+        <note xml:id="russian_1936_cap27-n773" type="comm" target="quarantana/cap27.xml#c27_15408" targetEnd="quarantana/cap27.xml#c27_15414">занесенные туда более слабым ветром, </note>
+        <note xml:id="russian_1936_cap27-n774" type="comm" target="quarantana/cap27.xml#c27_15415" targetEnd="quarantana/cap27.xml#c27_15423">и, подхватив, увлекает их в вихре бурного своего неистовства. </note>
+        <note xml:id="russian_1936_cap27-n775" type="comm" target="quarantana/cap27.xml#c27_15424" targetEnd="quarantana/cap27.xml#c27_15433">Для того чтобы частные события, которые нам остается рассказать, </note>
+        <note xml:id="russian_1936_cap27-n776" type="comm" target="quarantana/cap27.xml#c27_15434" targetEnd="quarantana/cap27.xml#c27_15435">были вполне понятны, </note>
+        <note xml:id="russian_1936_cap27-n777" type="comm" target="quarantana/cap27.xml#c27_15436" targetEnd="quarantana/cap27.xml#c27_15445">мы непременно должны теперь предпослать им отчетливый рассказ о событиях общественных, </note>
+        <note xml:id="russian_1936_cap27-n778" type="comm" target="quarantana/cap27.xml#c27_15446" targetEnd="quarantana/cap27.xml#c27_15451">начав тоже несколько издалека. </note>
+      </div>
+    </body>
+  </text>
+</TEI>

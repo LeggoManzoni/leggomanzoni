@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const defaultLanguage2 = 'French_1877';
     const defaultChapter = 'intro'; // Ensure defaultChapter is set
 
-    // // Set default languages
+    // Set default languages
     document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(defaultChapter);
     document.getElementById('toggle-commenti1').innerText = defaultLanguage;
     document.getElementById('toggle-commenti2').innerText = defaultLanguage2;
@@ -19,12 +19,16 @@ document.addEventListener('DOMContentLoaded', function () {
     setupMutationObserver('.divisione');
 
     // Setup click event listeners for links
-    setupMutationObserver('.divisione');
     setupChapterClickListener('.chapter-link', fetchChapter);
     setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
     setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
 
     setupHoverScrolling();
+
+    // Add event listener for the translation source toggle button
+    document.getElementById('toggle-translation-source').addEventListener('click', function () {
+        toggleTranslationSource();
+    });
 });
 
 function getDisplayChapterName(chapter) {
@@ -68,8 +72,6 @@ function markActiveSelections(chapter, comment1, comment2) {
     }
 }
 
-
-
 let toggleColumn = () => {
     const bottomDiv = document.getElementById("bottomDiv");
     const upperDiv = document.getElementById("upperDiv");
@@ -107,21 +109,21 @@ let toggleColumn = () => {
     highlightHoveredItem();
 };
 
-
-
-
 function fetchChapter(activeChapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
     let chapterURL = `./get-chapter/${activeChapter}`;
 
     // Get active translations
     const activeCommentElement = document.querySelector('.comment-link.active-comment');
-    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : "German_1880";
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : defaultLanguage;
 
     const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
     const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : defaultLanguage2;
 
-    // Fetch the chapter
+    // Construct the source suffix based on the isAlternateSource flag
+    const sourceSuffix = isAlternateSource ? 's' : '';
+
+    // Fetch the chapter content
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
@@ -134,14 +136,14 @@ function fetchChapter(activeChapter) {
 
                 highlightHoveredItem();
 
-                // Fetch the active translations
-                fetchAndDisplayData(`./get-translation/${activeComment}/${activeChapter}`, '.text-comment-top');
+                // Fetch the translations using the source suffix
+                fetchAndDisplayData(`./get-translation/${activeComment}${sourceSuffix}/${activeChapter}`, '.text-comment-top');
 
                 // Check if the second translation is visible
                 const bottomDiv = document.getElementById('bottomDiv');
                 const isBottomCommentActive = !bottomDiv.classList.contains('hide');
                 if (isBottomCommentActive && activeComment2) {
-                    fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
+                    fetchAndDisplayData(`./get-translation/${activeComment2}${sourceSuffix}/${activeChapter}`, '.text-comment-bottom');
                 } else {
                     // Clear the content if the second translation is hidden
                     document.querySelector('.text-comment-bottom').innerHTML = '';
@@ -151,28 +153,7 @@ function fetchChapter(activeChapter) {
         .catch(console.error);
 }
 
-
-
-// function changeClassAndFetchData(activeChapter) {
-//     // Change the image class to 'bi bi-image-fill'
-//     const test_chapter = document.querySelector('.text-chapter#whichpage');
-//     const h1Element = test_chapter.querySelector('h1');
-//     chapter = h1Element.className;
-
-//     const imageIcon = document.getElementById("imageIcon");
-//     const popupImage = document.getElementById("popupImage");
-
-//     if (imageIcon.className === "bi bi-card-image") {        
-//         imageIcon.className = "bi bi-image-fill";
-//          popupImage.textContent = "Visualizza il testo senza le immagini.";
-//     } else {
-//         imageIcon.className = "bi bi-card-image";
-//         popupImage.textContent = "Visualizza il testo con le immagini.";
-//     }
-//     fetchChapter(activeChapter);
-// }
-
-function fetchAndDisplayData(endpoint, selector, attribute) {
+function fetchAndDisplayData(endpoint, selector) {
     fetch(endpoint)
         .then(response => response.text())
         .then(data => {
@@ -202,7 +183,6 @@ function setupMutationObserver(selector) {
     }
 }
 
-
 function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelector) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
@@ -229,7 +209,6 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
     });
 }
 
-
 function setupChapterClickListener(selector, fetchAndDisplayFunction) {
     document.querySelectorAll(selector).forEach(link => {
         link.addEventListener('click', event => {
@@ -255,11 +234,6 @@ function removeHighlightFromHoverItems() {
     hoverItems.forEach(hoverItem => {
         hoverItem.classList.remove('highlight');
     });
-}
-
-// Utility function to check if the target element has the specified classes
-function hasSingularTextClass(target) {
-    return target.classList.contains('divisione') && target.classList.contains('singularText');
 }
 
 function highlightHoveredItem() {
@@ -293,7 +267,6 @@ function highlightHoveredItem() {
         }
     });
 }
-
 
 function setupHoverScrolling() {
     const commentsContainer = document.getElementById("upperDiv");
@@ -360,4 +333,43 @@ function setupHoverScrolling() {
             });
         }
     });
+}
+
+// Add this variable to keep track of the translation source state
+let isAlternateSource = false;
+
+function toggleTranslationSource() {
+    console.log("toggleTranslationSource");
+    // Toggle the source flag
+    isAlternateSource = !isAlternateSource;
+
+    // Optionally, update the button appearance
+    const toggleButton = document.getElementById('toggle-translation-source');
+    const toggleIcon = toggleButton.querySelector('i');
+    if (isAlternateSource) {
+        toggleIcon.classList.remove('bi-file-text');
+        toggleIcon.classList.add('bi-file-text-fill');
+    } else {
+        toggleIcon.classList.remove('bi-file-text-fill');
+        toggleIcon.classList.add('bi-file-text');
+    }
+
+    // Get active chapter and translations
+    const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+    const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "intro";
+
+    const activeCommentElement = document.querySelector('.comment-link.active-comment');
+    const activeComment = activeCommentElement ? activeCommentElement.getAttribute('data-comment') : defaultLanguage;
+
+    const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
+    const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : defaultLanguage2;
+
+    // Construct the endpoints with or without the 's' suffix
+    const sourceSuffix = isAlternateSource ? 's' : '';
+    const translationEndpoint1 = `./get-translation/${activeComment}${sourceSuffix}/${activeChapter}`;
+    const translationEndpoint2 = `./get-translation/${activeComment2}${sourceSuffix}/${activeChapter}`;
+
+    // Fetch and display the updated translations
+    fetchAndDisplayData(translationEndpoint1, '.text-comment-top');
+    fetchAndDisplayData(translationEndpoint2, '.text-comment-bottom');
 }
