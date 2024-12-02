@@ -56,11 +56,6 @@
                             </button>
                             <div id="popupFont">Clicca qui per modificare il livello di allineamento.
                             </div>
-                            <!-- <button class="image-button" id="imageButton">
-                                <i class="bi bi-card-image" id="imageIcon" onclick="changeClassAndFetchData();"></i>
-                            </button>
-                            <div id="popupImage">Visualizza il testo con le immagini.
-                            </div> -->
                         </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
                                 <div class="text-chapter" id="whichpage">
@@ -78,7 +73,7 @@
                                             style="text-align: left">
                                             Lingua 1
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <ul class="dropdown-menu dropdown-menu-large" aria-labelledby="dropdownMenuButton1">
                                             <% translations.forEach((translation)=> { %>
                                                 <li><a class="dropdown-item comment-link" data-comment="<%= translation %>"
                                                         href="#">
@@ -91,7 +86,7 @@
                                             style="text-align: left">
                                             Lingua 2
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <ul class="dropdown-menu dropdown-menu-large" aria-labelledby="dropdownMenuButton1">
                                             <% translations.forEach((translation)=> { %>
                                                 <li><a class="dropdown-item comment-link-2"
                                                         data-comment="<%= translation %>" href="#">

@@ -1,3 +1,5 @@
+let isAlternateSource = false;
+
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
     const defaultLanguage = 'German_1880';
@@ -10,9 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('toggle-commenti2').innerText = defaultLanguage2;
 
     markActiveSelections(defaultChapter, defaultLanguage, defaultLanguage2);
+    const sourceSuffix = isAlternateSource ? 's' : '';
 
     // Fetch and display the default translation and chapter
-    fetchAndDisplayData(`./get-translation/${defaultLanguage}/${defaultChapter}`, '.text-comment-top');
+    fetchAndDisplayData(`./get-translation/${defaultLanguage}${sourceSuffix}/${defaultChapter}`, '.text-comment-top');
     fetchChapter(defaultChapter);
 
     // Setup MutationObserver
@@ -84,7 +87,7 @@ let toggleColumn = () => {
         bottomDiv.classList.remove("hide");
         upperDiv.classList.remove("singularText");
         icon.classList.replace("bi-plus-circle", "bi-dash-circle");
-        text.textContent = "Clicca qui per visualizzare un solo commento.";
+        text.textContent = "Clicca qui per visualizzare una singola traduzione.";
         buttonComments.classList.remove("hide");
 
         // Fetch the second translation
@@ -98,7 +101,7 @@ let toggleColumn = () => {
         bottomDiv.classList.add("hide");
         upperDiv.classList.add("singularText");
         icon.classList.replace("bi-dash-circle", "bi-plus-circle");
-        text.textContent = "Clicca qui per visualizzare due commenti.";
+        text.textContent = "Clicca qui per visualizzare le due traduzioni.";
         buttonComments.classList.add("hide");
 
         // Clear the content of the second translation
@@ -161,11 +164,25 @@ function fetchAndDisplayData(endpoint, selector) {
             if (element) {
                 element.innerHTML = data;
                 highlightHoveredItem();
+
+                // Scroll the container to the top
+                if (selector === '.text-comment-top') {
+                    const containerElement = document.getElementById('upperDiv');
+                    if (containerElement) {
+                        containerElement.scrollTop = 0;
+                    }
+                } else if (selector === '.text-comment-bottom') {
+                    const containerElement = document.getElementById('bottomDiv');
+                    if (containerElement) {
+                        containerElement.scrollTop = 0;
+                    }
+                }
             }
         })
         .then(removeHighlightFromHoverItems())
         .catch(console.error);
 }
+
 
 function setupMutationObserver(selector) {
     const targetNode = document.querySelector(selector);
@@ -204,10 +221,17 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
             const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
             const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "intro";
 
-            fetchAndDisplayFunction(`./get-translation/${selectedLanguage}/${activeChapter}`, displaySelector);
+            // Include the sourceSuffix based on isAlternateSource
+            const sourceSuffix = isAlternateSource ? 's' : '';
+
+            // Construct the endpoint with sourceSuffix
+            const endpoint = `./get-translation/${selectedLanguage}${sourceSuffix}/${activeChapter}`;
+
+            fetchAndDisplayFunction(endpoint, displaySelector);
         });
     });
 }
+
 
 function setupChapterClickListener(selector, fetchAndDisplayFunction) {
     document.querySelectorAll(selector).forEach(link => {
@@ -335,11 +359,8 @@ function setupHoverScrolling() {
     });
 }
 
-// Add this variable to keep track of the translation source state
-let isAlternateSource = false;
 
 function toggleTranslationSource() {
-    console.log("toggleTranslationSource");
     // Toggle the source flag
     isAlternateSource = !isAlternateSource;
 

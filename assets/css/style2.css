@@ -72,6 +72,13 @@
     overflow: hidden;
 }
 
+#schoolMapDiv {
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 /* Country stats styling */
 #country-stats {
     margin-top: 20px;
@@ -113,3 +120,8 @@
     margin-left: -1em;
 }
 
+
+.dropdown-menu-large {
+    max-height: none; /* Show all items without scrolling */
+    overflow: visible;
+}

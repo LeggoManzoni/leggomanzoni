@@ -26,16 +26,15 @@
                                     <% chapters.forEach((chapter)=> { %>
                                         <% 
                                         let displayName, dataChapter; 
-                                        if (!isNaN(Number(chapter))) { // Ensuring chapter is properly converted to a number
+                                        if (!isNaN(Number(chapter))) {
                                             displayName = 'Capitolo ' + chapter; 
                                             dataChapter = 'cap' + chapter; 
                                         } else { 
-                                            // Chapter is not a number (e.g., 'Introduzione' , 'Frontespizio')
+                                            // Chapter is not a number (e.g., 'Introduzione')
                                             displayName = chapter; 
                                             dataChapter = chapter; 
                                         } 
                                     %>
-                                    
                                             <li>
                                                 <a class="dropdown-item chapter-link" data-chapter="<%= dataChapter %>"
                                                     href="#">
@@ -44,7 +43,6 @@
                                             </li>
                                             <% }); %>
                                 </ul>
-
                                 <button class="underline" id="normalPencil">
                                     <i class="bi bi-pencil-fill" id="highlightHoveredItem"
                                         onclick="highlightHoveredItemWithPencil();"></i>
@@ -53,7 +51,6 @@
                                 <button class="enlarger">
                                     <i class="bi bi-arrows-angle-expand" id="enlargerLeft"
                                         onclick="enlargeLeftColumn();"></i>
-                                    <!-- Extension symbol -->
                                 </button>
                                 <div id="popupL">Visualizza il testo in modalità
                                     full-screen.</div>
@@ -70,7 +67,6 @@
                             </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
                                 <div id="myModal" class="modal">
-
                                 </div>
                                 <div class="text-chapter" id="whichpage">
                                     <div class="section" id="2b-intro">
@@ -96,7 +92,7 @@
                                         </li>
                                         <% }); %>
                                 </ul>
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-commenti2"
+                                <button class="btn btn-secondary dropdown-toggle hide" type="button" id="toggle-commenti2"
                                     data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
                                     Commento 2
                                 </button>
@@ -112,31 +108,32 @@
                                         <% }); %>
                                 </ul>
                                 <button class="add-button">
-                                    <i class="bi bi-dash-circle" id="splitButton" onclick="toggleColumn();"></i>
+                                    <i class="bi bi-plus-circle" id="splitButton" onclick="toggleColumn();"></i>
                                 </button>
                                 <div id="popup">Clicca qui per visualizzare due commenti.
                                 </div>
                                 <button class="enlarger">
                                     <i class="bi bi-arrows-angle-expand" id="enlargerRight"
                                         onclick="enlargeRightColumn();"></i>
-                                    <!-- Extension symbol -->
                                 </button>
                                 <div id="popupR">Visualizza il commento in
                                     modalità full-screen.
                                 </div>
+                                <button class="infoButton">
+                                    <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./commenti', '_blank');"></i>
+                                </button>
+                                <div id="popupI">Clicca qui per maggiori informazioni sui commenti.</div>
                             </div>
                             <div class="colonnadestra" id="destra">
-                                <div class="divisione" id="upperDiv">
+                                <div class="divisione singularText" id="upperDiv">
                                     <div class="header" id="2b-header">
-
                                     </div>
                                     <div class="text-comment-top">
                                     </div>
                                 </div>
-                                <div class="divisione" id="bottomDiv">
+                                <div class="divisione hide" id="bottomDiv">
                                     <div class="header" id="2b-header">
                                         <div class="text-comment-bottom">
-
                                         </div>
                                     </div>
                                 </div>
@@ -150,5 +147,4 @@
                 <%- include("partials/scripts"); %>
                     <script src="./assets/js/converted_content.js"></script>
     </body>
-
 </html>

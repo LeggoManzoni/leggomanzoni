@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var icon = document.getElementById("splitButton");
     var text = document.getElementById("popup");
 
-    icon.classList.remove("bi-plus-circle");
-    icon.classList.add("bi-dash-circle");
+    icon.classList.remove("bi-dash-circle");
+    icon.classList.add("bi-plus-circle");
     text.textContent = "Clicca qui per visualizzare un solo commento.";
 
     fetchChapter(defaultChapter);
@@ -31,6 +31,12 @@ document.addEventListener('DOMContentLoaded', function () {
     setupHoverScrolling();
     highlightHoveredItem();
 });
+
+function isCommentBlockActive(blockId) {
+    const blockElement = document.getElementById(blockId);
+    return blockElement && !blockElement.classList.contains('hide');
+  }
+  
 
 function fetchChapter(chapter) {
     const imageElement = document.querySelector('.bi.bi-card-image');
@@ -184,6 +190,18 @@ async function fetchAndDisplayData(endpoint, selector) {
                 element.innerHTML = data;
                 // Update highlights after loading new content
                 highlightHoveredItem();
+                // Scroll the container to the top
+                if (selector === '.text-comment-top') {
+                    const containerElement = document.getElementById('upperDiv');
+                    if (containerElement) {
+                        containerElement.scrollTop = 0;
+                    }
+                } else if (selector === '.text-comment-bottom') {
+                    const containerElement = document.getElementById('bottomDiv');
+                    if (containerElement) {
+                        containerElement.scrollTop = 0;
+                    }
+                }
             }
         } else {
             // Handle other HTTP errors
@@ -203,33 +221,34 @@ async function fetchAndDisplayData(endpoint, selector) {
 
 
 let toggleColumn = () => {
-    var bottomDiv = document.getElementById("bottomDiv");
-    var upperDiv = document.getElementById("upperDiv");
-    var icon = document.getElementById("splitButton");
-    var text = document.getElementById("popup");
-    var buttonComments = document.getElementById("toggle-commenti2");
-
+    const bottomDiv = document.getElementById("bottomDiv");
+    const upperDiv = document.getElementById("upperDiv");
+    const icon = document.getElementById("splitButton");
+    const text = document.getElementById("popup");
+    const buttonComments = document.getElementById("toggle-commenti2");
+  
     if (bottomDiv.classList.contains("hide")) {
-        // Show the bottom div
-        bottomDiv.classList.remove("hide");
-        upperDiv.classList.remove("singularText");
-        icon.classList.remove("bi-plus-circle");
-        icon.classList.add("bi-dash-circle");
-        text.textContent = "Clicca qui per visualizzare un solo commento.";
-        buttonComments.classList.remove("hide");
+      // Show the bottom div
+      bottomDiv.classList.remove("hide");
+      upperDiv.classList.remove("singularText");
+      icon.classList.remove("bi-dash-circle");
+      icon.classList.add("bi-plus-circle");
+      text.textContent = "Clicca qui per visualizzare due commenti.";
+      buttonComments.classList.remove("hide");
     } else {
-        // Hide the bottom div
-        bottomDiv.classList.add("hide");
-        upperDiv.classList.add("singularText");
-        icon.classList.remove("bi-dash-circle");
-        icon.classList.add("bi-plus-circle");
-        text.textContent = "Clicca qui per visualizzare due commenti.";
-        buttonComments.classList.add("hide");
+      // Hide the bottom div
+      bottomDiv.classList.add("hide");
+      upperDiv.classList.add("singularText");
+      icon.classList.remove("bi-plus-circle");
+      icon.classList.add("bi-dash-circle");
+      text.textContent = "Clicca qui per visualizzare un solo commento.";
+      buttonComments.classList.add("hide");
     }
-
+  
     // Update the highlighting based on the visibility of the second comment
     highlightHoveredItem();
-};
+  };
+  
 
 
 function setupMutationObserver(selector) {
@@ -307,155 +326,158 @@ function hasSingularTextClass(target) {
 function highlightHoveredItem() {
     const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
     let scrollItems = [];
-
-    const commentsContainer = document.getElementById("upperDiv");
-    const bottomCommentsContainer = document.getElementById("bottomDiv");
-
-    // Determine if the bottom comment is active (visible)
-    const isBottomCommentActive = !bottomCommentsContainer.classList.contains('hide');
-
+  
+    const upperDiv = document.getElementById("upperDiv");
+    const bottomDiv = document.getElementById("bottomDiv");
+  
+    const isTopCommentActive = isCommentBlockActive('upperDiv');
+    const isBottomCommentActive = isCommentBlockActive('bottomDiv');
+  
     // Collect scroll-items from active comments
-    if (isBottomCommentActive) {
-        // Both comments are active
-        const upperScrollItems = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
-        const bottomScrollItems = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
-        scrollItems = upperScrollItems.concat(bottomScrollItems);
-    } else {
-        // Only the top comment is active
-        scrollItems = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
+    if (isTopCommentActive) {
+      const upperScrollItems = Array.from(upperDiv.querySelectorAll('.scroll-item'));
+      scrollItems = scrollItems.concat(upperScrollItems);
     }
-
+  
+    if (isBottomCommentActive) {
+      const bottomScrollItems = Array.from(bottomDiv.querySelectorAll('.scroll-item'));
+      scrollItems = scrollItems.concat(bottomScrollItems);
+    }
+  
     // Remove existing highlights
     hoverItems.forEach(item => item.classList.remove('highlight'));
-
+  
     // Add highlights based on active comments
     hoverItems.forEach(hoverItem => {
-        const hoverItemId = hoverItem.getAttribute('data-id');
-        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
-
-        if (correspondingScrollItem) {
-            hoverItem.classList.add('highlight');
-        }
+      const hoverItemId = hoverItem.getAttribute('data-id');
+      const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+  
+      if (correspondingScrollItem) {
+        hoverItem.classList.add('highlight');
+      }
     });
-}
+  }
+  
 
 
-function highlightHoveredItemWithPencil() {
+  function highlightHoveredItemWithPencil() {
     const hoverItems = Array.from(document.querySelectorAll('.hover-item'));
     let scrollItems = [];
-
-    const commentsContainer = document.getElementById("upperDiv");
-    const bottomCommentsContainer = document.getElementById("bottomDiv");
-
-    // Determine if the bottom comment is active (visible)
-    const isBottomCommentActive = !bottomCommentsContainer.classList.contains('hide');
-
-    // Collect scroll-items from active comments
+  
+    const upperDiv = document.getElementById("upperDiv");
+    const bottomDiv = document.getElementById("bottomDiv");
+  
+    const isTopCommentActive = isCommentBlockActive('upperDiv');
+    const isBottomCommentActive = isCommentBlockActive('bottomDiv');
+  
+    if (isTopCommentActive) {
+      const upperScrollItems = Array.from(upperDiv.querySelectorAll('.scroll-item'));
+      scrollItems = scrollItems.concat(upperScrollItems);
+    }
+  
     if (isBottomCommentActive) {
-        // Both comments are active
-        const upperScrollItems = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
-        const bottomScrollItems = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
-        scrollItems = upperScrollItems.concat(bottomScrollItems);
-    } else {
-        // Only the top comment is active
-        scrollItems = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
+      const bottomScrollItems = Array.from(bottomDiv.querySelectorAll('.scroll-item'));
+      scrollItems = scrollItems.concat(bottomScrollItems);
     }
-
+  
     hoverItems.forEach(hoverItem => {
-        const hoverItemId = hoverItem.getAttribute('data-id');
-        const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
-
-        if (correspondingScrollItem) {
-            hoverItem.classList.toggle('highlight');  // Use toggle
-        }
+      const hoverItemId = hoverItem.getAttribute('data-id');
+      const correspondingScrollItem = scrollItems.find(scrollItem => scrollItem.getAttribute('data-related-id') === hoverItemId);
+  
+      if (correspondingScrollItem) {
+        hoverItem.classList.toggle('highlight');  // Toggle highlight
+      }
     });
-
+  
     // Change style of the pencil icon and update the tooltip
-    var i = document.getElementById("highlightHoveredItem");
-    var captionFont = document.getElementById("popupUnderline");
-
-    if (i.classList.contains("bi-pencil-fill")) {
-        i.classList.add("bi-pencil");
-        i.classList.remove("bi-pencil-fill");
-        captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
+    const pencilIcon = document.getElementById("highlightHoveredItem");
+    const captionFont = document.getElementById("popupUnderline");
+  
+    if (pencilIcon.classList.contains("bi-pencil-fill")) {
+      pencilIcon.classList.add("bi-pencil");
+      pencilIcon.classList.remove("bi-pencil-fill");
+      captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
     } else {
-        i.classList.add("bi-pencil-fill");
-        i.classList.remove("bi-pencil");
-        captionFont.textContent = "Clicca qui per eliminare le note di commento.";
+      pencilIcon.classList.add("bi-pencil-fill");
+      pencilIcon.classList.remove("bi-pencil");
+      captionFont.textContent = "Clicca qui per eliminare le note di commento.";
     }
-}
+  }
+  
 
 
-function setupHoverScrolling() {
-    const commentsContainer = document.getElementById("upperDiv");
-    const bottomCommentsContainer = document.getElementById("bottomDiv");
-
+  function setupHoverScrolling() {
+    const upperDiv = document.getElementById("upperDiv");
+    const bottomDiv = document.getElementById("bottomDiv");
+  
     document.addEventListener('click', function (event) {
-        if (event.target.classList.contains('hover-item')) {
-            const dataId = event.target.getAttribute('data-id');
-
-            let upperCorrespondingElement, bottomCorrespondingElement;
-            let upperStartId, upperEndId, bottomStartId, bottomEndId;
-
-            const upperElements = Array.from(commentsContainer.querySelectorAll('.scroll-item'));
-            let bottomElements = [];
-            const isBottomCommentActive = !bottomCommentsContainer.classList.contains('hide');
-
-            if (isBottomCommentActive) {
-                bottomElements = Array.from(bottomCommentsContainer.querySelectorAll('.scroll-item'));
-            }
-
-            // Find corresponding elements in the upper comment
-            upperElements.forEach(el => {
-                const currentId = el.getAttribute('data-related-id');
-                if (currentId == dataId) {
-                    upperCorrespondingElement = el;
-                    upperStartId = currentId;
-                    upperEndId = el.getAttribute('data-end-id');
-                }
-            });
-
-            // Find corresponding elements in the bottom comment if active
-            if (isBottomCommentActive) {
-                bottomElements.forEach(el => {
-                    const currentId = el.getAttribute('data-related-id');
-                    if (currentId == dataId) {
-                        bottomCorrespondingElement = el;
-                        bottomStartId = currentId;
-                        bottomEndId = el.getAttribute('data-end-id');
-                    }
-                });
-            }
-
-            // Remove previous highlights
-            upperElements.forEach(el => el.classList.remove('highlight-comment'));
-            if (isBottomCommentActive) {
-                bottomElements.forEach(el => el.classList.remove('highlight-comment'));
-            }
-
-            // Scroll to the corresponding comment(s)
-            if (upperCorrespondingElement) {
-                commentsContainer.scrollTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
-                upperCorrespondingElement.classList.add('highlight-comment');
-            }
-
-            if (isBottomCommentActive && bottomCorrespondingElement) {
-                bottomCommentsContainer.scrollTop = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
-                bottomCorrespondingElement.classList.add('highlight-comment');
-            }
-
-            // Highlight the text in the left column
-            document.querySelectorAll('.hover-item').forEach(hoverItem => {
-                const hoverItemId = hoverItem.getAttribute('data-id');
-                const isInUpperRange = upperStartId !== undefined && hoverItemId >= upperStartId && hoverItemId <= upperEndId;
-                const isInBottomRange = isBottomCommentActive && bottomStartId !== undefined && hoverItemId >= bottomStartId && hoverItemId <= bottomEndId;
-
-                if (isInUpperRange || isInBottomRange || hoverItemId == dataId) {
-                    hoverItem.classList.add('highlight-text');
-                } else {
-                    hoverItem.classList.remove('highlight-text');
-                }
-            });
+      if (event.target.classList.contains('hover-item')) {
+        const dataId = event.target.getAttribute('data-id');
+  
+        let upperCorrespondingElement, bottomCorrespondingElement;
+        let upperStartId, upperEndId, bottomStartId, bottomEndId;
+  
+        const isTopCommentActive = isCommentBlockActive('upperDiv');
+        const isBottomCommentActive = isCommentBlockActive('bottomDiv');
+  
+        // Arrays to store elements
+        const upperElements = isTopCommentActive ? Array.from(upperDiv.querySelectorAll('.scroll-item')) : [];
+        const bottomElements = isBottomCommentActive ? Array.from(bottomDiv.querySelectorAll('.scroll-item')) : [];
+  
+        // Find corresponding elements in active comments
+        upperElements.forEach(el => {
+          const currentId = el.getAttribute('data-related-id');
+          if (currentId == dataId) {
+            upperCorrespondingElement = el;
+            upperStartId = currentId;
+            upperEndId = el.getAttribute('data-end-id');
+          }
+        });
+  
+        bottomElements.forEach(el => {
+          const currentId = el.getAttribute('data-related-id');
+          if (currentId == dataId) {
+            bottomCorrespondingElement = el;
+            bottomStartId = currentId;
+            bottomEndId = el.getAttribute('data-end-id');
+          }
+        });
+  
+        // Remove previous highlights
+        upperElements.forEach(el => el.classList.remove('highlight-comment'));
+        bottomElements.forEach(el => el.classList.remove('highlight-comment'));
+  
+        // Scroll to the corresponding comment(s)
+        if (upperCorrespondingElement) {
+          upperDiv.scrollTop = upperCorrespondingElement.offsetTop - upperDiv.offsetTop;
+          upperCorrespondingElement.classList.add('highlight-comment');
         }
+  
+        if (bottomCorrespondingElement) {
+          bottomDiv.scrollTop = bottomCorrespondingElement.offsetTop - bottomDiv.offsetTop;
+          bottomCorrespondingElement.classList.add('highlight-comment');
+        }
+  
+        // Highlight the text in the left column
+        document.querySelectorAll('.hover-item').forEach(hoverItem => {
+          const hoverItemId = hoverItem.getAttribute('data-id');
+          let shouldHighlight = false;
+  
+          if (upperStartId !== undefined && hoverItemId >= upperStartId && hoverItemId <= upperEndId) {
+            shouldHighlight = true;
+          }
+  
+          if (bottomStartId !== undefined && hoverItemId >= bottomStartId && hoverItemId <= bottomEndId) {
+            shouldHighlight = true;
+          }
+  
+          if (shouldHighlight || hoverItemId == dataId) {
+            hoverItem.classList.add('highlight-text');
+          } else {
+            hoverItem.classList.remove('highlight-text');
+          }
+        });
+      }
     });
-}
+  }
+  
