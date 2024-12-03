@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:ns0="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>INTRODUCTION</title>
+        <title>ВВЕДЕНИЕ</title>
         <respStmt>
           <resp>Codifica automatizzata</resp>
           <persName xml:id="P1">Maria Levchenko</persName>
@@ -42,6 +42,7 @@
   <text>
     <body>
       <div xml:id="russian_1936_intro">
+<p>
         <note xml:id="russian_1936_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10011">История, поистине, может быть определена, как славная война со Временем, </note>
         <note xml:id="russian_1936_intro-n2" type="comm" target="quarantana/intro.xml#intro_10012" targetEnd="quarantana/intro.xml#intro_10022">ибо, отбирая из рук его годы, им плененные и даже успевшие стать трупами, </note>
         <note xml:id="russian_1936_intro-n3" type="comm" target="quarantana/intro.xml#intro_10023" targetEnd="quarantana/intro.xml#intro_10026">она возвращает их к жизни, </note>
@@ -224,6 +225,7 @@
         <note xml:id="russian_1936_intro-n180" type="comm" target="quarantana/intro.xml#intro_11250" targetEnd="quarantana/intro.xml#intro_11251">другое, </note>
         <note xml:id="russian_1936_intro-n181" type="comm" target="quarantana/intro.xml#intro_11252" targetEnd="quarantana/intro.xml#intro_11258">— что на раз хватит и одной книги, </note>
         <note xml:id="russian_1936_intro-n182" type="comm" target="quarantana/intro.xml#intro_11259" targetEnd="quarantana/intro.xml#intro_11262">если только и она не лишняя. </note>
+</p>
       </div>
     </body>
   </text>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:ns0="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>INTRODUCTION</title>
+        <title>EINLEITUNG</title>
         <respStmt>
           <resp>Codifica automatizzata</resp>
           <persName xml:id="P1">Maria Levchenko</persName>
@@ -42,6 +42,7 @@
   <text>
     <body>
       <div xml:id="german_1880_intro">
+<p>
         <note xml:id="german_1880_intro-n1" type="comm" target="quarantana/intro.xml#intro_10001" targetEnd="quarantana/intro.xml#intro_10011">»Die Geschichte kann man in Wahrheit einen rühmlichen Krieg gegen die Zeit nennen; </note>
         <note xml:id="german_1880_intro-n2" type="comm" target="quarantana/intro.xml#intro_10012" targetEnd="quarantana/intro.xml#intro_10022">denn indem sie ihr die Jahre, die schon Leichname geworden sind, als Gefangene aus der Hand nimmt, </note>
         <note xml:id="german_1880_intro-n3" type="comm" target="quarantana/intro.xml#intro_10023" targetEnd="quarantana/intro.xml#intro_10026">ruft sie dieselben wieder ins Leben zurück, </note>
@@ -206,6 +207,7 @@
         <note xml:id="german_1880_intro-n162" type="comm" target="quarantana/intro.xml#intro_11250" targetEnd="quarantana/intro.xml#intro_11251">zweitens, </note>
         <note xml:id="german_1880_intro-n163" type="comm" target="quarantana/intro.xml#intro_11252" targetEnd="quarantana/intro.xml#intro_11258">weil von Büchern eines auf einmal genug, </note>
         <note xml:id="german_1880_intro-n164" type="comm" target="quarantana/intro.xml#intro_11259" targetEnd="quarantana/intro.xml#intro_11262">wenn nicht gar schon zu viel ist. </note>
+</p>
       </div>
     </body>
   </text>
