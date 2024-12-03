@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     icon.classList.remove("bi-dash-circle");
     icon.classList.add("bi-plus-circle");
-    text.textContent = "Clicca qui per visualizzare un solo commento.";
+    text.textContent = "Clicca qui per visualizzare due commenti.";
 
     fetchChapter(defaultChapter);
     fetchAndDisplayData(`./get-comment/${defaultComment}/${defaultChapter}`, '.text-comment-top');
@@ -231,17 +231,17 @@ let toggleColumn = () => {
       // Show the bottom div
       bottomDiv.classList.remove("hide");
       upperDiv.classList.remove("singularText");
-      icon.classList.remove("bi-dash-circle");
-      icon.classList.add("bi-plus-circle");
-      text.textContent = "Clicca qui per visualizzare due commenti.";
+      icon.classList.remove("bi-plus-circle");
+      icon.classList.add("bi-dash-circle");
+      text.textContent = "Clicca qui per visualizzare un solo commento.";
       buttonComments.classList.remove("hide");
     } else {
       // Hide the bottom div
       bottomDiv.classList.add("hide");
       upperDiv.classList.add("singularText");
-      icon.classList.remove("bi-plus-circle");
-      icon.classList.add("bi-dash-circle");
-      text.textContent = "Clicca qui per visualizzare un solo commento.";
+      icon.classList.remove("bi-dash-circle");
+      icon.classList.add("bi-plus-circle");
+      text.textContent = "Clicca qui per visualizzare due commenti.";
       buttonComments.classList.add("hide");
     }
   
