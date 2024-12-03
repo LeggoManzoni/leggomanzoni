@@ -28,7 +28,7 @@
                                         target="_blank">Paola Italia</a>, <a class="creditsLink"
                                         href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
                                         target="_blank">Beatrice Nava</a>, <a class="creditsLink"
-                                        href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia
+                                        href="https://www.letterefilosofia.unifi.it/vp-960-ersilia-russo.html" target="_blank">Ersilia
                                         Russo</a>
                                 </p>
                                 <p>
@@ -38,7 +38,8 @@
                                         href="https://www.linkedin.com/in/giulia-menna-340606233/"
                                         target="_blank">Giulia Menna</a>, con la collaborazione di <a
                                         class="creditsLink" href="https://www.unibo.it/sitoweb/martina.dellobuono2"
-                                        target="_blank">Martina Dello Buono</a> e Tommaso Vitale
+                                        target="_blank">Martina Dello Buono</a> e <a class="creditsLink" href="https://site.unibo.it/adlab/it/laboratorio/chi-siamo-2"
+                                        target="_blank">Tommaso Vitale</a>.
                                 </p>
                                 <p>
                                     <b>Sviluppo modello di codifica XML e marcatura</b><br>
@@ -46,7 +47,7 @@
                                         target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
                                         href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
                                         target="_blank">Beatrice Nava</a>, <a class="creditsLink"
-                                        href="https://www.unibo.it/sitoweb/ersilia.russo2" target="_blank">Ersilia
+                                        href="https://www.letterefilosofia.unifi.it/vp-960-ersilia-russo.html" target="_blank">Ersilia
                                         Russo</a>
                                 </p>
                                 <p>
@@ -209,9 +210,10 @@
                                     Coordinamento tecnico: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/paolo.bonora" target="_blank"> Paolo
                                         Bonora</a>, <a class="creditsLink"
-                                        href="https://www.unibo.it/sitoweb/enrica.iemmi2" target="_blank">Enrica Iemmi
+                                        href="https://site.unibo.it/adlab/it/laboratorio/collaboratori-tirocinanti" target="_blank">Enrica Iemmi
                                     </a>, <a class="creditsLink" href="https://www.unibo.it/sitoweb/marco.serra"
-                                        target="_blank">Marco Serra</a>, Tommaso Vitale e il <a class="creditsLink"
+                                        target="_blank">Marco Serra</a>, <a class="creditsLink" href="https://site.unibo.it/adlab/it/laboratorio/chi-siamo-2"
+                                        target="_blank">Tommaso Vitale</a> e il <a class="creditsLink"
                                         href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab </a>
                                     <br>Sviluppo: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/sara.obbiso2" target="_blank">Sara
@@ -278,7 +280,7 @@
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 <script>
-     am5.ready(function() {
+  am5.ready(function() {
   // Create root element
   var root = am5.Root.new("schoolMapDiv");
 
@@ -308,7 +310,7 @@
       fill: am5.color(0xFF0000),
       stroke: am5.color(0xFFFFFF),
       strokeWidth: 2,
-      tooltipText: "{title}"
+      tooltipText: "[bold]{title}[/]\n{students}\nDocenti: {teachers}"
     });
 
     return am5.Bullet.new(root, {
@@ -316,82 +318,121 @@
     });
   });
 
+  // Add data
   pointSeries.data.setAll([
     {
       geometry: { type: "Point", coordinates: [9.3977, 45.8557] },
-      title: "IIS Bachelet (Lecco)"
+      title: "I.I.S. V. BACHELET (Lecco)",
+      students: "40 studenti",
+      teachers: "Marianna Villa"
     },
     {
       geometry: { type: "Point", coordinates: [8.6227, 45.4465] },
-      title: "Liceo Carlo Alberto (Novara)"
+      title: "Liceo Classico e Linguistico Carlo Alberto (Novara)",
+      students: "19 studenti",
+      teachers: "Federica Mingozzi"
     },
     {
       geometry: { type: "Point", coordinates: [11.2558, 43.7696] },
-      title: "ISS A. Checchi (Firenze)"
+      title: "ISS A. CHECCHI (Firenze)",
+      students: "36 studenti",
+      teachers: "Nella Frediani, Fiorina Izzo"
     },
     {
       geometry: { type: "Point", coordinates: [13.5764, 37.3109] },
-      title: "IIS Ugo Foscolo (Agrigento)"
+      title: "IIS Ugo Foscolo (Agrigento)",
+      students: "42 studenti",
+      teachers: "Rafaela Lo Brutto, Carla Carafa"
     },
     {
       geometry: { type: "Point", coordinates: [10.7914, 45.1564] },
-      title: "Liceo Gonzaga (Mantova)"
+      title: "Istituto S. F. Gonzaga (Mantova)",
+      students: "1 studente",
+      teachers: "Ottavio Baldi, Cristina Remelli"
     },
     {
       geometry: { type: "Point", coordinates: [11.3396, 44.4891] },
-      title: "Liceo Sant'Alberto Magno (Bologna)"
+      title: "Istituto S. Alberto Magno (Bologna)",
+      students: "6 studenti",
+      teachers: "Benedetto Sbaraglia"
     },
     {
       geometry: { type: "Point", coordinates: [11.3391, 44.4942] },
-      title: "Liceo Minghetti (Bologna)"
+      title: "Liceo Classico Marco Minghetti (Bologna)",
+      students: "2 studenti",
+      teachers: "Filomena Maria Paolicelli"
     },
     {
       geometry: { type: "Point", coordinates: [11.3428, 44.5013] },
-      title: "Liceo Sabin (Bologna)"
+      title: "Liceo Sabin (Bologna)",
+      students: "25 studenti",
+      teachers: "Caterina Scrimali, Grazia Silvestri"
     },
     {
       geometry: { type: "Point", coordinates: [15.0830, 37.5079] },
-      title: "Liceo Ettore Majorana (Catania)"
+      title: "Liceo scientifico E. Majorana (Catania)",
+      students: "52 studenti",
+      teachers: "Maria Belfiore, Antonia Lo Brutto, Maria Rita Giansanti, Rosa Petralia, Maria Teresa Rizzo"
     },
     {
       geometry: { type: "Point", coordinates: [10.9917, 45.4384] },
-      title: "Liceo Angelo Messedaglia (Verona)"
+      title: "Liceo scientifico statale Angelo Messedaglia (Verona)",
+      students: "15 studenti",
+      teachers: "Claudia Mizzotti, Lucia Olini"
     },
     {
       geometry: { type: "Point", coordinates: [18.1718, 40.3516] },
-      title: "Liceo G. Palmieri (Lecce)"
+      title: "Liceo Classico Musicale G. Palmieri (Lecce)",
+      students: "36 studenti",
+      teachers: "Annamaria Masciullo"
     },
     {
       geometry: { type: "Point", coordinates: [16.8719, 41.1171] },
-      title: "ISS Domenico Romanazzi (Bari)"
+      title: "I.I.S.S. Domenico Romanazzi (Bari)",
+      students: "24 studenti",
+      teachers: "Domenica Virgilio"
     },
     {
       geometry: { type: "Point", coordinates: [12.5151, 41.8851] },
-      title: "Liceo Bertrand Russell (Roma)"
+      title: "Liceo Bertrand Russell (Roma)",
+      students: "36 studenti",
+      teachers: "Emanuela Brescia, Paolo Grazioli, Rita Sepe"
     },
     {
       geometry: { type: "Point", coordinates: [12.4833, 41.8619] },
-      title: "Liceo Socrate (Roma)"
+      title: "Liceo Socrate (Roma)",
+      students: "42 studenti",
+      teachers: "Giovanna Colone"
     },
     {
       geometry: { type: "Point", coordinates: [12.4932, 41.9098] },
-      title: "Liceo Torquato Tasso (Roma)"
+      title: "Liceo classico statale Torquato Tasso (Roma)",
+      students: "30 studenti",
+      teachers: "Fabio De Propris"
     },
     {
       geometry: { type: "Point", coordinates: [12.5695, 44.0678] },
-      title: "Liceo Giulio Cesare Valgimigli (Rimini)"
+      title: "Liceo Giulio Cesare Valgimigli (Rimini)",
+      students: "45 studenti",
+      teachers: "Carlotta Frenquellucci, Rossella Pogliaghi, Paola Zanini"
     },
     {
       geometry: { type: "Point", coordinates: [10.0242, 45.1367] },
-      title: "Liceo Vida (Cremona)"
+      title: "Liceo Vida (Cremona)",
+      students: "19 studenti",
+      teachers: "Marco Baroni, Valeria Picazzi"
     },
     {
       geometry: { type: "Point", coordinates: [14.2681, 40.8518] },
-      title: "Liceo Villari (Napoli)"
+      title: "Liceo Statale Villari (Napoli)",
+      students: "20 studenti",
+      teachers: "Loredana Palma"
     },
     {
       geometry: { type: "Point", coordinates: [10.9252, 44.6471] },
-      title: "Liceo Wiligelmo (Modena)"
+      title: "Liceo Scientifico Statale Wiligelmo (Modena)",
+      students: "23 studenti",
+      teachers: "Francesca Magelli"
     }
   ]);
 
@@ -414,7 +455,7 @@
   // Make map animated
   chart.appear(1000, 100);
 });
-</script>
+  </script>
 
 <!-- Google Analytics API Script -->
 <script>
