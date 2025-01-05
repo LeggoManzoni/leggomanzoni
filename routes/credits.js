@@ -6,7 +6,9 @@ const router = express.Router();
 
 /* credits */
 router.get("/credits", (req, res) => {
-    res.render("credits");
+    res.render("credits", { 
+        currentLang: req.getLocale()
+    });
 });
 
 /* export the module */

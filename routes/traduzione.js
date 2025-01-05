@@ -14,7 +14,10 @@ router.get("/traduzione", (req, res) => {
         // Filter out entries where the language ends with 's'
         const filteredData = jsonData.filter(item => !item.language.endsWith('s'));
         
-        res.render('traduzione', { data: filteredData });
+        res.render('traduzione', { 
+            data: filteredData,
+            currentLang: req.getLocale()
+        });
     });
 });
 

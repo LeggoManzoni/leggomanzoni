@@ -9,37 +9,53 @@
         <header class="masthead">
             <div class="container container-commenti px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <h2>Indice dei commenti</h2>
+                    <h2 class="page-title" data-page-type="comments"><%= __('comments.title') %></h2>
                     <hr class="divider" />
-                    <div class="order-button-group">
-                        <button type="button" class="btn btn-light order-button activeBtn" data-order="chronological" id="chronologicalBtn">Dal più antico</button>
-                        <button type="button" class="btn btn-light order-button" data-order="chronological" id="antichronologicalBtn">Dal più recente</button>
-                        <button type="button" class="btn btn-light order-button"data-order="alphabetical" id="alphabeticalBtn">Ordine alfabetico</button>
-                      </div>
-                    <div class="comment-list">
+                    <<div class="order-button-group">
+                        <button type="button" 
+                                class="btn btn-light order-button activeBtn" 
+                                data-order="chronological" 
+                                data-sort-type="comments"
+                                id="chronologicalBtn">
+                            <%= __('comments.sorting.oldest') %>
+                        </button>
+                        <button type="button" 
+                                class="btn btn-light order-button" 
+                                data-order="chronological" 
+                                data-sort-type="comments"
+                                id="antichronologicalBtn">
+                            <%= __('comments.sorting.newest') %>
+                        </button>
+                        <button type="button" 
+                                class="btn btn-light order-button" 
+                                data-order="alphabetical" 
+                                data-sort-type="comments"
+                                id="alphabeticalBtn">
+                            <%= __('comments.sorting.alphabetical') %>
+                        </button>
+                    </div>
+                      <div class="comment-list">
                         <ul class="list-group comment-list-items">
                             <% data.forEach(item => { %>
                             <li class="list-group-item dropdown-item toggleBtn"><%= item.curator %> (<%= item.date %>) <i class="bi bi-caret-down-fill"></i>
                                 <ul class="dropdownContent">
-                                    <li class="list-group-item">Autore: <%= item.author %></li>
-                                    <li class="list-group-item">Titolo: I promessi sposi</li>
-                                    <li class="list-group-item">Curatore: <%= item.curator %></li>
-                                    <li class="list-group-item">Luogo di pubblicazione: <%= item.city %></li>
-                                    <li class="list-group-item">Editore: <%= item.publisher %></li>
-                                    <li class="list-group-item">Anno: <%= item.date %></li>
+                                    <li class="list-group-item"><%= __('comments.details.author') %>: <%= item.author %></li>
+                                    <li class="list-group-item"><%= __('comments.details.title') %>: I promessi sposi</li>
+                                    <li class="list-group-item"><%= __('comments.details.curator') %>: <%= item.curator %></li>
+                                    <li class="list-group-item"><%= __('comments.details.publishingPlace') %>: <%= item.city %></li>
+                                    <li class="list-group-item"><%= __('comments.details.publisher') %>: <%= item.publisher %></li>
+                                    <li class="list-group-item"><%= __('comments.details.year') %>: <%= item.date %></li>
                                     <% if (item && Array.isArray(item.marcatura)) { %>
-                                        <li class="list-group-item">Marcatura:
+                                        <li class="list-group-item"><%= __('comments.details.markup') %>:
                                           <% item.marcatura.forEach(function(worker) { %>
-                                            <%= worker.resp %> di <%= worker.persName %><br/>
+                                            <%= worker.resp %> <%= __('comments.details.markupBy') %> <%= worker.persName %><br/>
                                           <% }); %>
                                         </li>
-                                      <% } else { %>
-                                        <li class="list-group-item">Marcatura: No data available.</li>
-                                      <% } %>
-                                      
-                                     <li class="list-group-item">Note: <%= item.description ? (item.description ? item.description : 'N/A') : 'N/A' %></li>
-                                    <li class="list-group-item">Capitoli disponibili: <%= item.notes ? (item.notes.p ? item.notes.p : 'N/A') : 'N/A' %></li>
-
+                                    <% } else { %>
+                                        <li class="list-group-item"><%= __('comments.details.markup') %>: <%= __('comments.details.noData') %></li>
+                                    <% } %>
+                                    <li class="list-group-item"><%= __('comments.details.notes') %>: <%= item.description ? (item.description || __('comments.details.noData')) : __('comments.details.noData') %></li>
+                                    <li class="list-group-item"><%= __('comments.details.availableChapters') %>: <%= item.notes ? (item.notes.p || __('comments.details.noData')) : __('comments.details.noData') %></li>
                                 </ul>
                             </li>
                             <% }) %>

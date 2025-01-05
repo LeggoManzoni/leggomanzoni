@@ -10,11 +10,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   navbarActive();
- /* navbarShrink();*/
+  /* navbarShrink();*/
   //collectId();
   // popupButtons();
   // modalFunction();
-  
+
 
 });
 
@@ -90,7 +90,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     columnToMantain.classList.add("col-6");
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
-    testo.textContent = "Clicca qui per visualizzare il commento in modalità full-screen.";
+    testo.textContent = window.translations.fullscreen;
     //style
     fixedContent.style.position = "absolute";
     fixedContent.style.paddingTop = "1rem";
@@ -104,7 +104,7 @@ let enlargeRightColumn = () => {     // Function for enlarging the right column 
     columnToMantain.classList.add("col-12");
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
-    testo.textContent = "Clicca qui per tornare alla visualizzazione su due colonne.";
+    testo.textContent = window.translations.smallscreen;
     //style
     fixedContent.style.position = "sticky";
     fixedContent.style.paddingTop = "0";
@@ -131,7 +131,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     columnToMantain.classList.add("col-6");
     i.classList.add("bi-arrows-angle-expand");
     i.classList.remove("bi-arrows-angle-contract");
-    caption.textContent = "Clicca qui per visualizzare il commento in modalità full-screen.";
+    caption.textContent = window.translations.fullscreen;
     //style
     fixedContent.style.position = "absolute";
     fixedContent.style.paddingTop = "1rem";
@@ -145,7 +145,7 @@ let enlargeLeftColumn = () => {     // Function for enlarging the left column an
     columnToMantain.classList.add("col-12");
     i.classList.add("bi-arrows-angle-contract");
     i.classList.remove("bi-arrows-angle-expand");
-    caption.textContent = "Clicca qui per tornare alla visualizzazione su due colonne.";
+    caption.textContent = window.translations.smallscreen;
     //style
     fixedContent.style.position = "sticky";
     fixedContent.style.paddingTop = "0";
@@ -167,10 +167,10 @@ let changeFont = () => {     // Function for changing the font and switching to 
     styleFont.classList.add("accessibilityFont");
     i.classList.add("bi-file-earmark-font-fill");
     i.classList.remove("bi-file-earmark-font");
-    captionFont.textContent = "Torna al font principale.";
+    captionFont.textContent = window.translations.baseFont;
 
     // Change the font style of the body back to the main font
-    document.body.style.fontFamily =  "Montserrat"; 
+    document.body.style.fontFamily = "Montserrat";
     document.body.style.fontSize = "20px";
   } else {
     // Hide the bottom div
@@ -178,8 +178,7 @@ let changeFont = () => {     // Function for changing the font and switching to 
     styleFont.classList.remove("accessibilityFont");
     i.classList.add("bi-file-earmark-font");
     i.classList.remove("bi-file-earmark-font-fill");
-    captionFont.textContent = "Clicca qui per il font ad alta leggibilità.";
-
+    captionFont.textContent = window.translations.accessibleFont;
     document.body.style.fontFamily = "";
     document.body.style.fontSize = "17px";
   }
@@ -301,16 +300,16 @@ let arrowCommenti = () => {
 }
 )}*/
 
-/*Function orderByTimeOrName*/
-let orderByTimeOrName = () => {
+// For comments page
+let orderByTimeOrNameComments = () => {
   var toggleBtns = document.querySelectorAll(".toggleBtn");
   var dictionary = {};
 
   toggleBtns.forEach(function (toggleBtn) {
     var nameElement = toggleBtn.firstChild;
     var name = nameElement.textContent.trim();
-    var yearElement = toggleBtn.querySelector(".dropdownContent .list-group-item:nth-child(6)");
-    var year = parseInt(yearElement.textContent.trim().replace("Anno: ", ""));
+    var yearElement = toggleBtn.querySelector(".dropdownContent li:nth-child(6)");
+    var year = parseInt(yearElement.textContent.split(":")[1].trim());
 
     dictionary[name] = year;
   });
@@ -319,115 +318,166 @@ let orderByTimeOrName = () => {
     return { name: name, year: year };
   });
 
-  var button = document.getElementById("chronologicalBtn");
-  button.addEventListener("click", function () {
-
-    var btns = document.querySelectorAll(".order-button")
-
-    btns.forEach((btn) =>{
+  // Chronological sorting
+  var chronologicalBtn = document.getElementById("chronologicalBtn");
+  chronologicalBtn.addEventListener("click", function () {
+    var btns = document.querySelectorAll(".order-button");
+    btns.forEach((btn) => {
       btn.classList.remove("activeBtn");
-    })
-    button.classList.add("activeBtn");
-
+    });
+    chronologicalBtn.classList.add("activeBtn");
 
     items.sort(function (a, b) {
       return a.year - b.year;
     });
 
-    var listGroup = document.querySelector(".list-group.comment-list-items");
-    listGroup.innerHTML = "";
-
-    items.forEach(function (item) {
-      for (var i = 0; i < toggleBtns.length; i++) {
-        var toggleBtn = toggleBtns[i];
-        var nameElement = toggleBtn.firstChild;
-        var name = nameElement.textContent.trim();
-
-        if (name === item.name) {
-          listGroup.appendChild(toggleBtn);
-          break;
-        }
-      }
-    });
+    updateCommentsList(items, toggleBtns);
   });
 
+  // Anti-chronological sorting
   var antichronologicalBtn = document.getElementById("antichronologicalBtn");
   antichronologicalBtn.addEventListener("click", function () {
-
-    var btns = document.querySelectorAll(".order-button")
-
-    btns.forEach((btn) =>{
+    var btns = document.querySelectorAll(".order-button");
+    btns.forEach((btn) => {
       btn.classList.remove("activeBtn");
-    })
+    });
     antichronologicalBtn.classList.add("activeBtn");
 
     items.sort(function (a, b) {
       return b.year - a.year;
     });
 
-    var listGroup = document.querySelector(".list-group.comment-list-items");
-    listGroup.innerHTML = "";
-
-    items.forEach(function (item) {
-      for (var i = 0; i < toggleBtns.length; i++) {
-        var toggleBtn = toggleBtns[i];
-        var nameElement = toggleBtn.firstChild;
-        var name = nameElement.textContent.trim();
-
-        if (name === item.name) {
-          listGroup.appendChild(toggleBtn);
-          break;
-        }
-      }
-    });
+    updateCommentsList(items, toggleBtns);
   });
 
+  // Alphabetical sorting
   var alphabeticalBtn = document.getElementById("alphabeticalBtn");
   alphabeticalBtn.addEventListener("click", function () {
-    //remove active style
-    var btns = document.querySelectorAll(".order-button")
-
-    btns.forEach((btn) =>{
+    var btns = document.querySelectorAll(".order-button");
+    btns.forEach((btn) => {
       btn.classList.remove("activeBtn");
-    })
+    });
     alphabeticalBtn.classList.add("activeBtn");
+
+    var sortedBtns = Array.from(toggleBtns);
+    sortedBtns.sort((a, b) => {
+      var nameA = a.firstChild.textContent.trim().split(" (")[0];
+      var nameB = b.firstChild.textContent.trim().split(" (")[0];
+      return nameA.localeCompare(nameB);
+    });
 
     var listGroup = document.querySelector(".list-group.comment-list-items");
     listGroup.innerHTML = "";
-
-    toggleBtns.forEach(function (toggleBtn) {
-      listGroup.appendChild(toggleBtn);
-    });
+    sortedBtns.forEach(btn => listGroup.appendChild(btn));
   });
 };
 
-/*Function of all Comments*/
+// For translations page
+let orderByTimeOrNameTranslations = () => {
+  var toggleBtns = document.querySelectorAll(".toggleBtn");
+  var items = [];
+
+  // Create array of items with year and element
+  toggleBtns.forEach(function (toggleBtn) {
+    var year = parseInt(toggleBtn.getAttribute('data-year')) || 0;
+    items.push({
+      element: toggleBtn,
+      year: year
+    });
+  });
+
+  // Chronological sorting
+  var chronologicalBtn = document.getElementById("chronologicalBtn");
+  chronologicalBtn.addEventListener("click", function () {
+    var btns = document.querySelectorAll(".order-button");
+    btns.forEach((btn) => {
+      btn.classList.remove("activeBtn");
+    });
+    chronologicalBtn.classList.add("activeBtn");
+
+    items.sort((a, b) => a.year - b.year);
+    updateTranslationsList(items);
+  });
+
+  // Anti-chronological sorting
+  var antichronologicalBtn = document.getElementById("antichronologicalBtn");
+  antichronologicalBtn.addEventListener("click", function () {
+    var btns = document.querySelectorAll(".order-button");
+    btns.forEach((btn) => {
+      btn.classList.remove("activeBtn");
+    });
+    antichronologicalBtn.classList.add("activeBtn");
+
+    items.sort((a, b) => b.year - a.year);
+    updateTranslationsList(items);
+  });
+};
+
+// Simplified update function
+function updateTranslationsList(items) {
+  var listGroup = document.querySelector(".list-group.comment-list-items");
+  listGroup.innerHTML = "";
+  
+  items.forEach(item => {
+    listGroup.appendChild(item.element);
+  });
+}
+
+// Helper function for comments
+function updateCommentsList(items, toggleBtns) {
+  var listGroup = document.querySelector(".list-group.comment-list-items");
+  listGroup.innerHTML = "";
+
+  items.forEach(function (item) {
+    for (var i = 0; i < toggleBtns.length; i++) {
+      var toggleBtn = toggleBtns[i];
+      var nameElement = toggleBtn.firstChild;
+      var name = nameElement.textContent.trim();
+
+      if (name === item.name) {
+        listGroup.appendChild(toggleBtn);
+        break;
+      }
+    }
+  });
+}
+
+
 let comments = () => {
   arrowCommenti();
-  orderByTimeOrName();
+  // Check which page we're on by data attribute
+  const pageTitle = document.querySelector('.page-title');
+  if (pageTitle) {
+    const pageType = pageTitle.getAttribute('data-page-type');
+    if (pageType === 'translations') {
+      orderByTimeOrNameTranslations();
+    } else if (pageType === 'comments') {
+      orderByTimeOrNameComments();
+    }
+  }
 };
 
 
 let navbarActive = () => {
 
-    var path = window.location.pathname;
+  var path = window.location.pathname;
 
-    var page = path.split("/").pop();
+  var page = path.split("/").pop();
 
-    [].forEach.call(document.querySelectorAll(".nav-link"), (el) => {
-      
-      var item = el.getAttribute("href").replace("./", "");
-      
-        if (item == page) {
+  [].forEach.call(document.querySelectorAll(".nav-link"), (el) => {
 
-            el.classList.add("activeNav");
+    var item = el.getAttribute("href").replace("./", "");
 
-        } else {
+    if (item == page) {
 
-            el.classList.remove("activeNav");
+      el.classList.add("activeNav");
 
-        };
+    } else {
 
-    });
+      el.classList.remove("activeNav");
+
+    };
+
+  });
 
 };

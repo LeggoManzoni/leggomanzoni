@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<%- include ("partials/head"); %>
+    <style>
+        .tify-header-title {
+            color: #343a40;
+            font-size: 18px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .text-vignette {
+            margin-top: 40px;
+        }
+        
+    </style>
+
+    <body id="page-top" class="normalFont">
+        <!-- Navigation-->
+        <%- include ("partials/navbar"); %>
+            <!-- Masthead-->
+            <header>
+                <div class="container px-4 px-lg-5">
+                    <div class="gx-4 gx-lg-5 align-items-center justify-content-center text-center">
+                        <div class="justify-content-center">
+                            <div class="col-lg-5 align-self-end">
+                                <h2 class="text-vignette font-weight-bold"><i>Vedo Manzoni / I SEE MANZONI</i></h2>
+                                <h4 class="text-vignette font-weight-bold justify-content-center text-center">Paths through the illustrations of the “Quarantana”</h4>
+                                <div class="testo3">
+
+                                    <div id="tify" class="mx-auto" style="height: 640px; width: 80%;"></div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5 align-self-baseline px-4 px-lg-5">
+                    <p class="text-vignette mb-4">The <a href="https://dlrc.ficlit.unibo.it/s/lib/faceted-browse/7" target="_blank">VEDO MANZONI</b></a> 
+                        project proposes a journey through the illustrations that Manzoni intended 
+                        to accompany the reading of the final version of the novel. He entrusted <b>Francesco Gonin</b> and his engravers with an ambitious iconographic project that transformed <i>I promessi
+                            sposi (The Betrothed)</i> into the first illustrated novel in Italian literature.
+
+                            From a copy of the Quarantana, which can be browsed in its entirety in
+                        <a href="https://dl.ficlit.unibo.it/s/lib/page/home" target="_blank">the Digital Library of the University of Bologna’s Department of Classical Philology and Italian Studies</a>
+                          the 505 illustrations have been catalogued, described and ascribed metadata. 
+                        
+                        They can be viewed, chapter by chapter, through different search keys: 
+                        the characters (from Don Abbondio to Sarto), the places (from Renzo and Lucia's village to Giangiacomo Mora's house), 
+                        the themes (41 keywords, from Love to Violence), as well as the illustrators and engravers of the cartoons. 
+                        Reading the novel thus becomes a new visual experience, as Manzoni had planned it, 
+                        considerably anticipating the forms of iconographic narration characteristic of modernity.
+                    </p>
+                </div>
+            </header>
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+                    <script>
+                        new Tify({
+                            container: '#tify',
+                            manifestUrl: 'https://dlrc.ficlit.unibo.it/iiif/2/232045/manifest',
+                            pageLabelFormat: 'P (L)',
+                            urlQueryKey: 'tify',
+                            pages: [6, 7],
+                        })
+                    </script>
+    </body>
+
+</html>

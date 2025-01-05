@@ -26,7 +26,8 @@ router.get("/reader", (req, res) => {
             res.render("reader", {
                 chapters: chapters,
                 commenti: commenti,
-                defaultChapter: 'intro'
+                defaultChapter: 'intro',
+                currentLang: req.getLocale()
             });
         }
     });

@@ -6,7 +6,11 @@ const router = express.Router();
 
 /* introduzione */
 router.get("/progetto", (req, res) => {
-    res.render("progetto");
+    const language = req.getLocale();
+
+    res.render(`progetto_${language}`, {
+        currentLang: language
+    });
 });
 
 /* export the module */

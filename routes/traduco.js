@@ -27,7 +27,8 @@ router.get("/traduco", (req, res) => {
             res.render("traduco", {
                 chapters: chapters,
                 translations: translations,
-                defaultChapter: 'intro'
+                defaultChapter: 'intro',
+                currentLang: req.getLocale()
             });
         }
     });

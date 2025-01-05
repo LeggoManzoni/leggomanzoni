@@ -16,14 +16,14 @@
                                 <hr class="divider">
                                 </hr>
                                 <p>
-                                    <b>Responsabili scientifici</b><br>
+                                    <b><%= __('credits.scientific') %></b><br>
                                     <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
                                         target="_blank">Paola Italia</a>, <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca
                                         Tomasi</a>
                                 </p>
                                 <p>
-                                    <b>Progettazione </b><br>
+                                    <b><%= __('credits.design') %></b><br>
                                     <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
                                         target="_blank">Paola Italia</a>, <a class="creditsLink"
                                         href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
@@ -32,7 +32,7 @@
                                         Russo</a>
                                 </p>
                                 <p>
-                                    <b>Sviluppo applicazione web</b><br>
+                                    <b><%= __('credits.webDevelopment') %></b><br>
                                     <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
                                         target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
                                         href="https://www.linkedin.com/in/giulia-menna-340606233/"
@@ -42,7 +42,7 @@
                                         target="_blank">Tommaso Vitale</a>.
                                 </p>
                                 <p>
-                                    <b>Sviluppo modello di codifica XML e marcatura</b><br>
+                                    <b><%= __('credits.xmlDevelopment') %></b><br>
                                     <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
                                         target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
                                         href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
@@ -51,14 +51,13 @@
                                         Russo</a>
                                 </p>
                                 <p>
-                                    <b>Correzione txt e collaborazione alla marcatura</b><br>
+                                    <b><%= __('credits.textCorrection') %></b><br>
                                     Alice Caputa, Isabella Greco, Ludovica Grillini, Lorenzo Laconi, Matilde
                                     Lallbahadoor, Chiara Leali, Guido Manfredini, Beatrice Nava, Alessia Panebianco,
                                     Stefania Paolino, Filippo Pelacci, Jacopo Pesaresi, Arianna Roffi, Rachele Rossi,
                                     Ersilia Russo, Isabel Zamboni
                                 </p>
-                                <p><b id="scuole">Scuole coinvolte in “Adotta un commento ai <i>Promessi
-                                            Sposi</i>"</b><br>
+                                <p><b id="scuole"><%= __('credits.schools.title') %></b><br>
                                     IIS Bachelet (Lecco), Liceo Carlo Alberto (Novara), ISS A. Checchi (Firenze), IIS
                                     Ugo Foscolo (Agrigento), Liceo Gonzaga (Mantova), Liceo Sant’Alberto Magno
                                     (Bologna), Liceo Ettore Majorana (Catania), Liceo Angelo Messedaglia (Verona), Liceo
@@ -69,11 +68,11 @@
 
                                 </p>
                                 <div class="centered-container">
-                                        <h3 class="text-center">Scuole partecipanti</h3>
+                                        <h3 class="text-center"><%= __('credits.schools.participating') %></h3>
                                         <div id="schoolMapDiv" style="width: 100%; height: 500px;"></div>
                                     </div>
                                 
-                                <p><b id="insegnanti">Docenti referenti per le scuole</b><br>
+                                <p><b id="insegnanti"><%= __('credits.teachers') %></b><br>
                                     Ottavio Baldi, Marco Baroni, Maria Belfiore, Emanuela Brescia, Antonia Lo Brutto,
                                     Rafaela Lo Brutto, Giovanna Colone, Carla Carafa, Fabio De Propris, Nella Frediani,
                                     Carlotta Frenquellucci, Maria Rita Giansanti, Paolo Grazioli, Fiorina Izzo,
@@ -83,8 +82,7 @@
                                     Caterina Scrimali, Grazia Silvestri, Rita Sepe, Marianna Villa, Domenica Virgilio,
                                     Paola Zanini
                                 </p>
-                                <p class="studentList"><b>Studenti di scuola secondaria di II grado coinvolti in “Adotta
-                                        un commento ai <i>Promessi Sposi</i>”</b><br>
+                                <p class="studentList"><b><%= __('credits.schools.students') %></b><br>
 
                                     Simona Maria Abate, Beatrice Abbafati, Daniele Abbate, Giulia Abbrescia, Anna Gaia
                                     Acito, Stefano Albini, Matilda Alippi, Gaia Amati, Clivia Pia Amato, Valerio
@@ -193,21 +191,17 @@
                                     Zerbini, Valentina Zezza, Elenia José Zizi, Nicole Zoppi.
                                 </p>
 
-                                <p><b>Ringraziamenti</b><br>
-                                    Si ringraziano tutte le studentesse e gli studenti che hanno collaborato alla
-                                    realizzazione del progetto e <a class="creditsLink"
-                                        href="https://www.italianisti.it/" target="_blank">l’Associazione degli
-                                        Italianisti - Sezione Didattica (ADI-SD)</a>, che ha contribuito alla diffusione
-                                    dei progetti PCTO “Adotta un commento ai <i>Promessi sposi</i>”. <br>Si ringrazia
-                                    inoltre Martina Dello Buono per la collaborazione nella progettazione e nello
-                                    sviluppo dell’applicazione e dell’interfaccia web.
-                                    <br>Un ringraziamento speciale a Tommaso Vitale per il supporto nel deployment del server.
+                                <p><b><%= __('credits.title') %></b><br>
+                                  <%- __('credits.students') %> 
+                                  <br><%= __('credits.development') %>
+                                  <br><%= __('credits.translation') %>
+                                    <br><%= __('credits.deployment') %>
                                 </p>
                                 <p><b>Sezione Vedo Manzoni</b><br>
-                                    Coordinamento scientifico: <a class="creditsLink"
+                                  <%= __('credits.coordination_science') %>: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
                                         Italia</a><br>
-                                    Coordinamento tecnico: <a class="creditsLink"
+                                        <%= __('credits.coordination_technic') %>: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/paolo.bonora" target="_blank"> Paolo
                                         Bonora</a>, <a class="creditsLink"
                                         href="https://site.unibo.it/adlab/it/laboratorio/collaboratori-tirocinanti" target="_blank">Enrica Iemmi
@@ -215,42 +209,31 @@
                                         target="_blank">Marco Serra</a>, <a class="creditsLink" href="https://site.unibo.it/adlab/it/laboratorio/chi-siamo-2"
                                         target="_blank">Tommaso Vitale</a> e il <a class="creditsLink"
                                         href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab </a>
-                                    <br>Sviluppo: <a class="creditsLink"
+                                    <br><%= __('credits.development_name') %>: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/sara.obbiso2" target="_blank">Sara
                                         Obbiso</a>, <a class="creditsLink"
                                         href="https://www.linkedin.com/in/matilde-passafaro-2b7271291/"
                                         target="_blank">Matilde Passafaro </a>
                                 <p><b>Sezione Traduco Manzoni</b><br>
-                                        Coordinamento scientifico: <a class="creditsLink"
+                                        <%= __('credits.coordination_science') %>: <a class="creditsLink"
                                         href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
                                         Italia</a>, <a class="creditsLink" href="https://www.linkedin.com/in/silvanocheng/" target="_blank">Silvano Cheng</a><br>
-                                        Coordinamento tecnico: <a class="creditsLink"
+                                        <%= __('credits.coordination_technic') %>: <a class="creditsLink"
                                         href="https://www.linkedin.com/in/maria-levchenko-39953284/" target="_blank">Mariia Levchenko</a>
-                                    <p>Si ringraziano: il direttore del <a class="creditsLink"
-                                        href="https://ficlit.unibo.it/it" target="_blank">Dipartimento di Filologia
-                                        Classica e Italianistica</a> <a class="creditsLink"
-                                        href="https://www.unibo.it/sitoweb/nicola.grandi" target="_blank">Nicola
-                                        Grandi</a>, la responsabile scientifica del centro<a class="creditsLink"
-                                        href="https://ficlit.unibo.it/it/ricerca/centri-di-ricerca/dharc"
-                                        target="_blank"> DH.arc</a> <a class="creditsLink"
-                                        href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca
-                                        Tomasi</a>, la responsabile scientifica del <a class="creditsLink"
-                                        href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab</a> <a
-                                        class="creditsLink" href="https://www.unibo.it/sitoweb/maddalena.modesti3"
-                                        target="_blank"> Maddalena Modesti</a>.
+                                    <p><%- __('credits.department') %>
                                 </p>
-                                <p><b>Stringa citazionale corrente </b><br>
+                                <p><b><%= __('credits.citations') %> </b><br>
                                     Leggo Manzoni, a cura del DH.arc, versione 1.0, 2023.
                                 </p>
-                                <p><b>Licenza</b><br>
+                                <p><b><%= __('credits.license') %></b><br>
                                     Leggo Manzoni® is licensed under a <a class="creditsLink"
                                         href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
                                         Commons Attribution 4.0 International License</a>.
                                 </p>
-                                <p><b><a href="./commenti">Commenti pubblicati</a></b></p>
-                                <p><b><a href="./traduzione">Traduzioni pubblicate</a></b></p>
+                                <p><b><a href="./commenti"><%= __('credits.published_comments') %></a></b></p>
+                                <p><b><a href="./traduzione"><%= __('credits.published_translations') %></a></b></p>
                                 <div class="centered-container">
-                                        <p><b id="visitors-count">LeggoManzoni nel mondo: <span id="active-users">Loading...</span> utenti nell'ultimo semestre</b></p>
+                                        <p><b id="visitors-count"><%= __('credits.stats_title') %> <span id="active-users">Loading...</span> <%= __('credits.stats_text') %></b></p>
                                         <div id="chartdiv" style="width: 100%; height: 500px;"></div>
                                     </div>
                             </div>

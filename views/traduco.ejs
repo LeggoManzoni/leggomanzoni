@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head-->
+<script>
+    // Create a global translations object
+    window.translations = {
+      chapter: '<%= __("reader.chapter") %>',
+      introduction: '<%= __("reader.introduction") %>',
+      accessibleFont: '<%= __("reader.accessibleFont") %>',
+      baseFont: '<%= __("reader.baseFont") %>',
+      fullscreen: '<%= __("reader.fullscreen") %>',
+      smallscreen: '<%= __("reader.smallscreen") %>',
+      showImages: '<%= __("reader.showImages") %>',
+      hideImages: '<%= __("reader.hideImages") %>',
+      showComments: '<%= __("reader.showComments") %>',
+      hideComments: '<%= __("reader.hideComments") %>',
+      showTwoComments: '<%= __("reader.showTwoComments") %>',
+      showOneComment: '<%= __("reader.showOneComment") %>',
+      commentNotFound: '<%= __("reader.commentNotFound") %>',
+      loadingError: '<%= __("reader.loadingError") %>',
+    changeLevel: '<%= __("translation.changeLevel") %>',
+    twoTranslations: '<%= __("translation.twoTranslations") %>',
+    oneTranslation: '<%= __("translation.oneTranslation") %>',
+    information: '<%= __("translation.information") %>',
+    };
+  </script>
 <%- include ("partials/head"); %>
 
     <body id="page-top"  class="normalFont">
@@ -44,18 +67,15 @@
                                         </li>
                                         <% }); %>
                             </ul>
-                            <div id="popupL">Visualizza il testo in modalità
-                                full-screen.</div>
+                            <div id="popupL"><%= __('reader.fullscreen') %></div>
                             <button class="font-button normalFont" id="fontToChange">
                                 <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
                             </button>
-                            <div id="popupFont">Clicca qui per il font ad alta leggibilità.
-                            </div>
+                            <div id="popupFont"><%= __('reader.accessibleFont') %></div>
                             <button class="font-button normalFont" id="toggle-translation-source">
                                 <i class="bi bi-file-text"></i> <!-- You can replace this icon with any appropriate one -->
                             </button>
-                            <div id="popupFont">Clicca qui per modificare il livello di allineamento.
-                            </div>
+                            <div id="popupFont"><%= __('translation.changeLevel') %></div>
                         </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
                                 <div class="text-chapter" id="whichpage">
@@ -97,19 +117,16 @@
                                         <button class="add-button">
                                             <i class="bi bi-plus-circle" id="splitButton" onclick="toggleColumn();"></i>
                                         </button>
-                                        <div id="popup">Clicca qui per visualizzare due traduzioni.
-                                        </div>
+                                        <div id="popup"><%= __("translation.twoTranslations") %></div>
                                         <button class="enlarger">
                                             <i class="bi bi-arrows-angle-expand" id="enlargerRight" onclick="enlargeRightColumn();"></i>
                                             <!-- Extension symbol -->
                                         </button>
-                                        <div id="popupR">Visualizza il traduzione in
-                                            modalità full-screen.
-                                        </div>
+                                        <div id="popupR"><%= __("translation.fullscreen") %></div>
                                         <button class="infoButton">
                                             <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./traduzione', '_blank');"></i>
                                         </button>
-                                        <div id="popupI">Clicca qui per maggiori informazioni sulle traduzioni.</div>
+                                        <div id="popupI"><%= __("translation.information") %></div>
                                     </div>
                             <div class="colonnadestra" id="destra">
                                 <div class="divisione singularText" id="upperDiv">

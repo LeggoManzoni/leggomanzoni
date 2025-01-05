@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head-->
+<script>
+    // Create a global translations object
+    window.translations = {
+      chapter: '<%= __("reader.chapter") %>',
+      introduction: '<%= __("reader.introduction") %>',
+      accessibleFont: '<%= __("reader.accessibleFont") %>',
+      baseFont: '<%= __("reader.baseFont") %>',
+      fullscreen: '<%= __("reader.fullscreen") %>',
+      smallscreen: '<%= __("reader.smallscreen") %>',
+      showImages: '<%= __("reader.showImages") %>',
+      hideImages: '<%= __("reader.hideImages") %>',
+      showComments: '<%= __("reader.showComments") %>',
+      hideComments: '<%= __("reader.hideComments") %>',
+      showTwoComments: '<%= __("reader.showTwoComments") %>',
+      showOneComment: '<%= __("reader.showOneComment") %>',
+      commentNotFound: '<%= __("reader.commentNotFound") %>',
+      or: '<%= __("reader.or") %>',
+      loadingError: '<%= __("reader.loadingError") %>',
+      russo: '<%= __("reader.russo") %>',
+      bricchi: '<%= __("reader.bricchi") %>'
+    };
+  </script>
 <%- include ("partials/head"); %>
 
     <body id="page-top" class="normalFont">
@@ -47,22 +69,21 @@
                                     <i class="bi bi-pencil-fill" id="highlightHoveredItem"
                                         onclick="highlightHoveredItemWithPencil();"></i>
                                 </button>
-                                <div id="popupUnderline">Clicca qui per eliminare le note di commento.</div>
+                                <div id="popupUnderline"><%= __('reader.hideComments') %></div>
                                 <button class="enlarger">
                                     <i class="bi bi-arrows-angle-expand" id="enlargerLeft"
                                         onclick="enlargeLeftColumn();"></i>
                                 </button>
-                                <div id="popupL">Visualizza il testo in modalità
-                                    full-screen.</div>
+                                <div id="popupL"><%= __('reader.fullscreen') %></div>
                                 <button class="font-button normalFont" id="fontToChange">
                                     <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
                                 </button>
-                                <div id="popupFont">Clicca qui per il font ad alta leggibilità.
+                                <div id="popupFont"><%= __('reader.accessibleFont') %>
                                 </div>
                                 <button class="image-button" id="imageButton">
                                     <i class="bi bi-card-image" id="imageIcon" onclick="changeClassAndFetchData();"></i>
                                 </button>
-                                <div id="popupImage">Visualizza il testo con le immagini.
+                                <div id="popupImage"><%= __('reader.showImages') %>
                                 </div>
                             </div>
                             <div class="colonnasinistra text-break" id="promessisposi">
@@ -110,19 +131,18 @@
                                 <button class="add-button">
                                     <i class="bi bi-plus-circle" id="splitButton" onclick="toggleColumn();"></i>
                                 </button>
-                                <div id="popup">Clicca qui per visualizzare due commenti.
+                                <div id="popup"><%= __('reader.showTwoComments') %>
                                 </div>
                                 <button class="enlarger">
                                     <i class="bi bi-arrows-angle-expand" id="enlargerRight"
                                         onclick="enlargeRightColumn();"></i>
                                 </button>
-                                <div id="popupR">Visualizza il commento in
-                                    modalità full-screen.
+                                <div id="popupR"><%= __('reader.commentFullScreen') %>
                                 </div>
                                 <button class="infoButton">
                                     <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./commenti', '_blank');"></i>
                                 </button>
-                                <div id="popupI">Clicca qui per maggiori informazioni sui commenti.</div>
+                                <div id="popupI"><%= __('reader.information') %></div>
                             </div>
                             <div class="colonnadestra" id="destra">
                                 <div class="divisione singularText" id="upperDiv">
@@ -145,6 +165,7 @@
             <%- include("partials/footer"); %>
                 <!-- Scripts-->
                 <%- include("partials/scripts"); %>
+                
                     <script src="./assets/js/converted_content.js"></script>
     </body>
 </html>

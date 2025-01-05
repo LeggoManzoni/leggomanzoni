@@ -9,6 +9,8 @@ const path = require("path");
 const ejs = require('ejs');
 const fs = require('fs');
 const { google } = require('googleapis');
+const i18n = require('./config/i18n');
+const cookieParser = require('cookie-parser'); 
 
 const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml } = require('./assets/js/convert.js');
 //const { xmlInfo } = require('./assets/js/collect_info.js');
@@ -16,9 +18,13 @@ const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, c
 /* app */
 const app = express();
 
+app.use(cookieParser());
+app.use(i18n.init);
+
 /* static files */
 app.use("/assets", express.static("assets"));
 app.use("/data", express.static("data"));
+
 
 /* views */
 app.set("views", [
@@ -27,11 +33,23 @@ app.set("views", [
 app.set("view engine", "ejs");
 // app.use("/views", express.static("views"));
 
+app.get('/change-language/:lang', (req, res) => {
+  const lang = req.params.lang;
+  if (['en', 'it'].includes(lang)) {
+    res.cookie('lang', lang);
+    // Redirect back to the previous page
+    res.redirect(req.headers.referer || '/');
+  } else {
+    res.redirect('/');
+  }
+});
+
 /* index */
 app.get(process.env.URL_PATH, (req, res) => {
   var arrayN = ["1", "2", "3"];
   res.render("index", {
-    arrayN: arrayN
+    arrayN: arrayN,
+    currentLang: req.getLocale()
   });
 });
 

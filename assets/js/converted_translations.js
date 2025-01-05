@@ -87,7 +87,7 @@ let toggleColumn = () => {
         bottomDiv.classList.remove("hide");
         upperDiv.classList.remove("singularText");
         icon.classList.replace("bi-plus-circle", "bi-dash-circle");
-        text.textContent = "Clicca qui per visualizzare una singola traduzione.";
+        text.textContent = window.translations.oneTranslation;
         buttonComments.classList.remove("hide");
 
         // Fetch the second translation
@@ -101,7 +101,7 @@ let toggleColumn = () => {
         bottomDiv.classList.add("hide");
         upperDiv.classList.add("singularText");
         icon.classList.replace("bi-dash-circle", "bi-plus-circle");
-        text.textContent = "Clicca qui per visualizzare le due traduzioni.";
+        text.textContent = window.translations.twoTranslations;
         buttonComments.classList.add("hide");
 
         // Clear the content of the second translation

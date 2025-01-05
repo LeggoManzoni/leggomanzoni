@@ -8,7 +8,11 @@ const router = express.Router();
 
 /* vedo */
 router.get("/vedo", (req, res) => {
-    res.render("vedo");
+    const language = req.getLocale();
+
+    res.render(`vedo_${language}`, {
+        currentLang: language
+    });
 });
 
 

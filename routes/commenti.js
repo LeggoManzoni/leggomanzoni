@@ -10,7 +10,10 @@ router.get("/commenti", (req, res) => {
     fs.readFile('./commenti/output.json', 'utf8', (err, data) => {
         if (err) throw err;
         const jsonData = JSON.parse(data);
-        res.render('commenti', { data: jsonData });
+        res.render('commenti', { 
+          data: jsonData,
+            currentLang: req.getLocale() 
+         });
       });
 });
 

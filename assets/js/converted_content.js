@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     icon.classList.remove("bi-dash-circle");
     icon.classList.add("bi-plus-circle");
-    text.textContent = "Clicca qui per visualizzare due commenti.";
+    text.textContent = window.translations.showTwoComments;
 
     fetchChapter(defaultChapter);
     fetchAndDisplayData(`./get-comment/${defaultComment}/${defaultChapter}`, '.text-comment-top');
@@ -142,10 +142,10 @@ function changeClassAndFetchData() {
 
     if (imageIcon.className === "bi bi-card-image") {        
         imageIcon.className = "bi bi-image-fill";
-        popupImage.textContent = "Visualizza il testo senza le immagini.";
+        popupImage.textContent = window.translations.hideImages;
     } else {
         imageIcon.className = "bi bi-card-image";
-        popupImage.textContent = "Visualizza il testo con le immagini.";
+        popupImage.textContent = window.translations.showImages;
     }
     fetchChapter(chapter);
 }
@@ -160,9 +160,9 @@ async function fetchAndDisplayData(endpoint, selector) {
             if (element) {
                 element.innerHTML = `
                     <p class="not-found-message">
-                        Il commento selezionato per questo capitolo non è ancora disponibile. Vuoi leggere il commento di 
-                        <a href="#" id="bricchi-link">Mariarosa Bricchi</a> o 
-                        <a href="#" id="russo-link">Luigi Russo</a>?
+                        ${window.translations.commentNotFound} 
+                        <a href="#" id="bricchi-link">${window.translations.bricchi}</a> ${window.translations.or}
+                        <a href="#" id="russo-link">${window.translations.russo}</a>?
                     </p>
                 `;
                 const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
@@ -207,14 +207,14 @@ async function fetchAndDisplayData(endpoint, selector) {
             // Handle other HTTP errors
             console.error('Error fetching data:', response.statusText);
             if (element) {
-                element.innerHTML = '<p class="error-message">Si è verificato un errore durante il caricamento del commento.</p>';
+                element.innerHTML = `<p class="error-message">${window.translations.loadingError}</p>`;
             }
         }
     } catch (error) {
         console.error('Error fetching data:', error);
         const element = document.querySelector(selector);
         if (element) {
-            element.innerHTML = '<p class="error-message">Si è verificato un errore durante il caricamento del commento.</p>';
+            element.innerHTML = `<p class="error-message">${window.translations.loadingError}</p>`;
         }
     }
 }
@@ -233,7 +233,7 @@ let toggleColumn = () => {
       upperDiv.classList.remove("singularText");
       icon.classList.remove("bi-plus-circle");
       icon.classList.add("bi-dash-circle");
-      text.textContent = "Clicca qui per visualizzare un solo commento.";
+      text.textContent = window.translations.showOneComment;
       buttonComments.classList.remove("hide");
     } else {
       // Hide the bottom div
@@ -241,7 +241,7 @@ let toggleColumn = () => {
       upperDiv.classList.add("singularText");
       icon.classList.remove("bi-dash-circle");
       icon.classList.add("bi-plus-circle");
-      text.textContent = "Clicca qui per visualizzare due commenti.";
+      text.textContent = window.translations.showTwoComments;
       buttonComments.classList.add("hide");
     }
   
@@ -396,11 +396,11 @@ function highlightHoveredItem() {
     if (pencilIcon.classList.contains("bi-pencil-fill")) {
       pencilIcon.classList.add("bi-pencil");
       pencilIcon.classList.remove("bi-pencil-fill");
-      captionFont.textContent = "Clicca qui per visualizzare le note di commento.";
+      captionFont.textContent = window.translations.showComments;
     } else {
       pencilIcon.classList.add("bi-pencil-fill");
       pencilIcon.classList.remove("bi-pencil");
-      captionFont.textContent = "Clicca qui per eliminare le note di commento.";
+      captionFont.textContent = window.translations.hideComments;
     }
   }
   
