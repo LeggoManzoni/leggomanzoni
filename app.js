@@ -61,6 +61,14 @@ app.use("/", introduzione);
 const progetto = require("./routes/progetto");
 app.use("/", progetto);
 
+/* notizie */
+const news = require("./routes/news");
+app.use("/", news);
+
+/* Pekino */
+const pekino = require("./routes/pekino");
+app.use("/", pekino);
+
 /* commenti */
 const commenti = require("./routes/commenti");
 app.use("/", commenti);

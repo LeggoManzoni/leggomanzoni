@@ -2,7 +2,7 @@ let isAlternateSource = false;
 
 document.addEventListener('DOMContentLoaded', function () {
     // Constants and variables
-    const defaultLanguage = 'German_1880';
+    const defaultLanguage = 'English_2022';
     const defaultLanguage2 = 'French_1877';
     const defaultChapter = 'intro'; // Ensure defaultChapter is set
 
