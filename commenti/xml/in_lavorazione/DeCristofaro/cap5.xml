@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-19">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap5">
+        <note xml:id="DeCristofaro_cap5-n2" type="comm" target="quarantana/cap5.xml#c5_10001">
+          <ref rend="bold">Intestazione</ref>:  [Francesco] Gonin. Il rapace che si libra in volo su due colombe ai suoi due lati è il quarto tipo di intestazione di capitoli. Esso appare altre cinque volte, ai capp. IX, XVI, XXII, XXVI, XXXI. Nigro (2002) ha mostrato che il modello proviene dal <hi rend="italic">Napoléon en Egypte</hi> di Raffet, pubblicato nel 1839, quindi appena pochi mesi prima che iniziasse il lavoro per l’edizione della Quarantana (cfr. la lettera a Gonin del 27 gennaio 1840). Barelli (1991) ritiene si tratti di una variante del tipo serpente con colomba.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n4" type="comm" target="quarantana/cap5.xml#c5_10001">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale del C. 5° Il p. Crist. si fermò ritto sulla soglia.» Del rapporto con l’immagine conclusiva del capitolo precedente s’è già detto nel commento a fig. IV 11. Qui vale la pena di aggiungere che il montaggio tra le immagini realizzato con una sofisticata e intelligente alternanza di “inquadrature” va senz’altro attribuito alla supervisione dello stesso Manzoni. In gergo cinemantografico, abbiamo qui a che fare con un “campo/ controcampo”, cioè quella sequenza di montaggio che funge da “raccordo di movimenti” e viene spesso utilizzata per dare continuità all’azione.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n6" type="comm" target="quarantana/cap5.xml#c5_10001" targetEnd="quarantana/cap5.xml#c5_10143">
+          <ref rend="bold">Il qual… a quando...!»</ref>:  Il relativo fa coincidere senza alcuna frattura la fine del quarto capitolo con l’inizio del quinto. Nell’ascolto della vicenda di Renzo e Lucia, l’atteggiamento di fra Cristoforo è quello dell’uomo che si sforza di trattenere la rabbia e lo sdegno di fronte all’ingiustizia del mondo. Il corpo rivela il turbamento interiore e la difficoltà nel dominarsi davanti allo spettacolo del male. Sin dal suo primo ingresso nel romanzo il frate ci era stato presentato come un uomo in perenne dissidio interiore.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n8" type="comm" target="quarantana/cap5.xml#c5_10036">
+          <ref rend="bold">trista</ref>:  ‘cattiva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n10" type="comm" target="quarantana/cap5.xml#c5_10144" targetEnd="quarantana/cap5.xml#c5_10161">
+          <ref rend="bold">Ma, senza… Povera Lucia!»</ref>:  Fra Cristoforo parla la lingua del salmista. Qui Manzoni fonde in unico discorso il Salmo 13 («Fino a quando, Signore, continuerai a dimenticarmi?») e il 74 («Fino a quando, o Dio, insulterà l’avversario, il nemico continuerà a disprezzare il tuo nome?»); ed elimina significativamente la coloritura ciceroniana che le parole del frate avevano nelle pagine del <hi rend="italic">Fermo</hi> («Dio benedetto! […] fino a quando li lascerai fare costoro»). Anche l’espressione «Dio vi ha visitate» è un calco biblico (così nel Vangelo di Luca: «benedetto il Signore Dio d’Israele, perché ha visitato e redento il suo popolo») che riemerge, nella memoria manzoniana, nel terribile Natale del 1833, quando a proposito della morte della prima moglie Enrichetta Blondel si descrive al Granduca di Toscana come «un uomo terribilmente visitato da Dio» (cfr. Stella-Repossi, <hi rend="italic">ad loc.</hi>).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n12" type="comm" target="quarantana/cap5.xml#c5_10169" targetEnd="quarantana/cap5.xml#c5_10223">
+          <ref rend="bold">«Abbandonarvi!»... possa fare.»</ref>:  Il Dio di fra Cristoforo è una divinità possente che scalza i potenti dalle loro sedi per esaltare gli umili, come si legge nel <hi rend="italic">Magnificat</hi>. Qui sono le parole della <hi rend="italic">Prima lettera ai Corinzi</hi> ad affiorare sulle labbra del cappuccino, e in particolare il momento in cui san Paolo scrive: «Ma Dio ha scelto ciò che nel mondo è stolto per confondere i sapienti, Dio ha scelto ciò che nel mondo è debole per confondere i forti».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n14" type="comm" target="quarantana/cap5.xml#c5_10224" targetEnd="quarantana/cap5.xml#c5_10256">
+          <ref rend="bold">Così dicendo,... dell'animo</ref>:  Nella posa del frate v’è forse un ricordo del poemetto giovanile dell’<hi rend="italic">Urania</hi>, dove il pensamento era ritratto mentre stava «ne la palma alzata, dimettendo la fronte». L’atteggiamento di fra Cristoforo è quello di chi contiene a fatica la propria forza e ha bisogno di non disperdere le energie ma di trasformarle in risorse del pensiero. Manzoni è sempre meticoloso nel descrivere la fisicità dei suoi personaggi, e in particolare quella del frate; i cui gesti, specie quando impegnati nel complicato dominio del corpo, sono un prolungamento di una complessa interiorità.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n16" type="comm" target="quarantana/cap5.xml#c5_10257" targetEnd="quarantana/cap5.xml#c5_10453">
+          <ref rend="bold">Ma la più… questa poveretta</ref>:  Nella sua analisi fra Cristoforo dimostra un grande senso di realismo. Nel «romanzo dei rapporti di forza» l’individuo non è mai libero dai lacci della sua appartenenza sociale. Neppure l’ordine dei Cappuccini è esente dalla corruttela del potere e dagli obblighi del quieto vivere. La virtù tutta secentesca della prudenza consiglia al frate il colloquio personale, il tentativo di una privata conversione del persecutore.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n18" type="comm" target="quarantana/cap5.xml#c5_10454" targetEnd="quarantana/cap5.xml#c5_10523">
+          <ref rend="bold">Contrappesato… da ciò</ref>:  Considerata l’impossibilità di chiedere aiuto ad altri, al frate battagliero non resta che affrontare direttamente il suo avversario. Fra Cristoforo si prepara a fronteggiare «quel diavolo in carne» (come dice il suo omologo nel <hi rend="italic">Fermo</hi>) con l’armamentario dei predicatori del Seicento, alternando al ricordo e alle minacce delle punizioni nell’aldilà la persuasione a seguire la strada della giustizia in questo mondo. Abile oratore e predicatore, il frate spera quanto meno di costringere don Rodrigo a dichiarare apertamente le sue basse intenzioni. L’incontro fra i due si prefigura come un «duello» (secondo la lezione del <hi rend="italic">Fermo</hi>), come un combattimento di retorica e astuzia. Nei <hi rend="italic">Promessi Sposi</hi> scompare l’accenno di critica sociale ch’era presente nelle riflessioni del frate: «Ah! se fosse una gran signora! Ma se fosse una gran signora non sarebbe in questo caso. Oh poveretti noi! Oh, che tempi!».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n20" type="comm" target="quarantana/cap5.xml#c5_10465">
+          <ref rend="bold">partito</ref>:  ‘scelta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n21" type="comm" target="quarantana/cap5.xml#c5_10511">
+          <ref rend="bold">sporco</ref>:  ‘meschino’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n24" type="comm" target="quarantana/cap5.xml#c5_10524" targetEnd="quarantana/cap5.xml#c5_10778">
+          <ref rend="bold">Mentre il frate... si ritirano...»</ref>:  Mentre fra Cristoforo indica le vie del cielo, Renzo (che, orfano com’è di entrambi i genitori, verso il cappuccino prova «un’affezione consueta», cioè antica, forte) è incapace di staccarsi dalle angosce terrene. Accecato dall’ingiustizia subita, egli, lasciata la casa di Lucia, si è allontanato alla ricerca di aiuto nella realizzazione dei suoi piani di vendetta. Ma gli «amici del mondo» si sono rivelati inaffidabili. Già presenti nella lingua della <hi rend="italic">Morale cattolica</hi>, gli «amici del mondo» sono, secondo Nigro, un calco degli «amici mondali» che Paolo Segneri descriveva come coloro che «spacciano nel mondo gran fedeltà», ma una volta chiamati alla prova si dimostrano generosi solo con le parole e non coi fatti.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n26" type="comm" target="quarantana/cap5.xml#c5_10779" targetEnd="quarantana/cap5.xml#c5_10816">
+          <ref rend="bold">A questo… volevo dire....»</ref>:  L’espressione della vendetta personale non è stato un dialogo, ma un soliloquio che si interrompe solo davanti al turbamento del cappuccino. L’immagine paterna di fra Cristoforo incarna il principio di autorità nel quale Renzo è cresciuto. Davanti alle silenziose obiezioni di fra Cristoforo, il filatore perde le sue ragioni; il monologo cominciato con tanta sicurezza diventa balbettìo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n28" type="comm" target="quarantana/cap5.xml#c5_10817" targetEnd="quarantana/cap5.xml#c5_10974">
+          <ref rend="bold">«Cosa volevi... da me.»</ref>:  L’assassinio mai espiato di Lodovico è un monito tremendo nelle parole di fra Cristoforo. L’ombra del cadavere ritorna nella voce «sotterranea» del religioso, mentre ricorda quale «terribile guadagno» sia l’uccisione del proprio nemico. La morale del cappuccino è sottomessa alla legge divina, non è ignara delle meschine leggi del mondo: ecco perché poco più sotto (in quel «scansate le ciarle» che è forse una stoccata ad Agnese) egli invita i «figliuoli» alla discrezione, a non alimentare pettegolezzi e dicerie inutili.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n30" type="comm" target="quarantana/cap5.xml#c5_11060" targetEnd="quarantana/cap5.xml#c5_11087">
+          <ref rend="bold">S'avviò al… d'ammansare</ref>:  Il «covile della fiera» è la tana dell’animale feroce; nel <hi rend="italic">Fermo</hi>, con maggiore forza, don Rodrigo era un «orso», e il cappuccino si recava da lui «senza riporre, a dir vero, molta speranza nel suo tentativo»: un’incertezza che il narratore dei <hi rend="italic">Promessi Sposi</hi> preferisce eliminare.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n32" type="comm" target="quarantana/cap5.xml#c5_11070" targetEnd="quarantana/cap5.xml#c5_11071">
+          <ref rend="bold">cantar sesta</ref>:  cantare in coro l’ufficio divino dell’ora sesta, uno dei sette momenti in cui era divisa la giornata dei religiosi (corrispondente a mezzogiorno).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n34" type="comm" target="quarantana/cap5.xml#c5_11088" targetEnd="quarantana/cap5.xml#c5_11303">
+          <ref rend="bold">Il palazzotto… di provocativo</ref>:  La dimora, in cui sta svolgendosi il pranzo di don Rodrigo e della sua scelta compagnia, riassume e preannuncia il proprietario. Quello che nel <hi rend="italic">Fermo</hi> era un «castellotto» diventa ora un «palazzotto» simile ad una «bicocca» (che nel vocabolario di Cherubini indica un «luogo fortificato di non grande levatura», anche se qui si gioca con l’ambiguità del termine), circondato da un «mucchietto di casupole». Da questa modesta altezza, don Rodrigo domina il «paesello» dei promessi sposi. La descrizione della «piccola capitale del […] piccolo regno», cadenzata di diminutivi, ridimensiona il personaggio a nobile di provincia, ansioso di mostrare una forza che non possiede realmente, assai lontana da quella immaginata e temuta dai sottoposti. Il disordine degli oggetti messi «alla rinfusa», in cui si mescolano oggetti del lavoro quotidiano (zappe, rastrelli, cappelli di paglia) e armi da fuoco (schioppi e tromboni), le imposte sconnesse, il silenzio generale costituiscono l’allegoria di un potere tardofeudale, che si regge sull’arbitrio dell’irrazionale ed è circondato da strane creature, ibride di umano e bestiale, poste a sua difesa. La dimora di don Rodrigo fa pessima figura davanti all’unico castello del romanzo, quello abitato dall’innominato e dai suoi scherani: un castello che Manzoni va a prendere direttamente dal tenebroso immaginario del romanzo gotico. La descrizione è arricchita dal consueto sdoppiamento delle voci narranti, in virtù del quale il trascrittore romantico può ironicamente prendere le distanze dai «degni rispetti» che inibiscono l’anonimo barocco a rivelare nomi e toponimi della storia che racconta.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n36" type="comm" target="quarantana/cap5.xml#c5_11304" targetEnd="quarantana/cap5.xml#c5_11442">
+          <ref rend="bold">Fra Cristoforo… del portone</ref>:  L’uso di inchiodare i trofei di caccia sui battenti delle porte rimase nel Lombardo-Veneto per tutto il Seicento. Ma la scelta delle prede trasforma il realismo storico in scelta straniante: gli avvoltoi sono trofeo di una caccia «gratuita, insulsa e sudicia», bestiacce che per i predicatori del Seicento vanno lette come allegorie di vizio e perdizione. Il disfacimento dei luoghi è coronato dalla putrefazione del corpo «mezzo roso dal tempo»: con possibile, e ironico, rimando all’<hi rend="italic">incipit</hi> dell’<hi rend="italic">Introduzione</hi>, dove la «Historia» è stata dipinta nell’atto di muovere una «guerra illustre contro il Tempo», riportando in vita i cadaveri del passato. Nel romanzo il tempo, e la dimenticanza, corrodono tutto.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n38" type="comm" target="quarantana/cap5.xml#c5_11443" targetEnd="quarantana/cap5.xml#c5_11471">
+          <ref rend="bold">e due bravi… del signore</ref>:  Se poco più avanti il testo aveva computato in un’unica classe logica le «quattro creature», cioè i due bravi e i due «grand’avoltoi», adesso rincara l’ibridazione fra uomo e animale: come due fedeli cani da guardia i bravi aspettano che venga loro gettato un osso dalla mensa del padrone. Nel <hi rend="italic">Fermo</hi> si specificava che i bravi erano «quei due medesimi che avevano messa quella bella paura in corpo al curato».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n41" type="comm" target="quarantana/cap5.xml#c5_11472" targetEnd="quarantana/cap5.xml#c5_11688">
+          <ref rend="bold">Il padre… di soverchiarsi</ref>:  Dopo aver attraversato i luoghi del disfacimento e del disordine, il frate giunge finalmente in presenza di don Rodrigo. Secondo Raimondi-Bottoni «nel “covile della fiera” il borbottìo del vecchio servitore rivela l’unico segno positivo, la presenza d’una coscienza morale che sopravvive alla debolezza senile»; subito dopo, il concerto sarà piuttosto una sorta di cacofonia, il suono sconnesso del male. Nella confusione del pranzo le voci cercano d’imporsi l’una sull’altra; nel <hi rend="italic">Tom Jones</hi> Henry Fielding aveva scritto che «ascoltando la conversazione alla tavola di un gran signore potete farvi un’idea, un giudizio della sua religione, delle sue conoscenze in politica, dei suoi gusti e, per finire, del suo carattere».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n43" type="comm" target="quarantana/cap5.xml#c5_11688">
+          <ref rend="bold">soverchiarsi</ref>:  ‘superarsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n46" type="comm" target="quarantana/cap5.xml#c5_11767" targetEnd="quarantana/cap5.xml#c5_11824">
+          <ref rend="bold">Don Rodrigo… de’ commensali</ref>:  Di fronte all’apparizione improvvisa, quasi teatrale, del frate, don Rodrigo comincia immediatamente a inquietarsi, quasi per un oscuro presentimento. Comincia adesso una sezione del capitolo nella quale il lungo dialogo con i commensali allontana – in un clima di tensione crescente – la scena madre del duello fra il religioso ed il libertino, che occuperà la prima parte del capitolo successivo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n48" type="comm" target="quarantana/cap5.xml#c5_11790" targetEnd="quarantana/cap5.xml#c5_11791">
+          <ref rend="bold">lo spensierato</ref>:  ‘quello spensierato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n49" type="comm" target="quarantana/cap5.xml#c5_11818" targetEnd="quarantana/cap5.xml#c5_11820">
+          <ref rend="bold">a due mani</ref>:  ‘benedicendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n52" type="comm" target="quarantana/cap5.xml#c5_11825" targetEnd="quarantana/cap5.xml#c5_11970">
+          <ref rend="bold">L'uomo onesto… un rimprovero</ref>:  La scrittura manzoniana è negazione del <hi rend="italic">romanesque</hi> e della sua rassicurante visione del mondo. Il passaggio scorcia e semplifica, per non appesantire il flusso della narrazione, la lunga pagina del <hi rend="italic">Fermo</hi> nella quale si polemizzava contro quei «romanzi» e quelle «opere teatrali» che mostrano la lotta fra l’empio e l’onesto senza la drammatica dialettica dell’anima e delle sue esitazioni. Alla consolatoria idealizzazione di uomini onesti che, «per quanto inferiori di forze e battuti dalla fortuna», hanno «in faccia all’empio ancor che trionfante una sicurezza, una risoluzione, una superiorità d’animo e di linguaggio che dà loro sempre buona coscienza», Manzoni oppone lo scavo nelle contrastanti passioni del cuore. L’occhio narrante interroga il mondo segreto che sta sotto le apparenze, alla ricerca di una verità non semplice né consolatoria. L’«uomo onesto che non ha che sè per testimonio e per approvatore e che vede negli altri contraddizione e scherno», continua la meditazione pascaliana del <hi rend="italic">Fermo</hi>, «perde facilmente fiducia e quasi è disposto a dubitare: o almeno si trova in quello stato di contrasto che fa comparire l’uomo imbarazzato». Di fronte al «ribaldo» che non conosce i tormenti della coscienza, l’eroe onesto continua a seguire una complessa etica personale; e «mostra e prova talvolta una specie d’angustia e di vergogna che si crederebbe rimorso; dimodochè a poco a poco finisce per essere soperchiato non solo nei fatti, ma anche nel discorso, e nel contegno, e sta come un supplichevole e quasi come un reo dinnanzi a colui che lo è veramente».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n54" type="comm" target="quarantana/cap5.xml#c5_11848">
+          <ref rend="bold">rilevato</ref>:  ‘in avanti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n55" type="comm" target="quarantana/cap5.xml#c5_11851">
+          <ref rend="bold">scilinguagnolo</ref>:  ‘parlantina’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n58" type="comm" target="quarantana/cap5.xml#c5_12006" targetEnd="quarantana/cap5.xml#c5_12057">
+          <ref rend="bold">A sinistra… di sopra</ref>:  È infatti uno dei «giudici ordinari» citati nelle gride di Azzecca-garbugli. Il podestà, rappresentante dello stato, non si avvale dei suoi poteri per amministrare la giustizia, ma s’inorgoglisce della sua carica che gli permette di stare in mezzo ai nobili in «una certa sicurezza», e «una certa saccenteria». La superbia del piccolo amministratore è tale che di qui a poco lo vedremo identificarsi col duca d’Olivares, il capo della politica spagnola del tempo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n60" type="comm" target="quarantana/cap5.xml#c5_11989" targetEnd="quarantana/cap5.xml#c5_11992">
+          <ref rend="bold">libertinaggio e soverchieria</ref>:  condotta di vita licenziosa e contrassegnata dalla prepotenza.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n62" type="comm" target="quarantana/cap5.xml#c5_12058" targetEnd="quarantana/cap5.xml#c5_12126">
+          <ref rend="bold">In faccia… non contraddicesse</ref>:  Dopo aver indugiato sull’Azzecca-garbugli – che, «rubicondo» per i piaceri della tavola e per il vino in particolare, porta l’abito delle grandi occasioni («in cappa nera») ed esprime il suo più appassionato («sviscerato») rispetto per il padrone di casa – la descrizione della tavola di don Rodrigo sfuma nell’indeterminato e nell’indistinto. Questi due anonimi parassiti costituiscono l’ultimo, quasi irrappresentabile, grado di una scala di servilismo e pusillanimità: la loro vita è subordinata alla loro sudditanza. Esistono perché mangiano.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n65" type="comm" target="quarantana/cap5.xml#c5_12127" targetEnd="quarantana/cap5.xml#c5_12247">
+          <ref rend="bold">«Da sedere... miei boschi.»</ref>:  Dietro la rudezza del motto di spirito, il signorotto minaccia fra Cristoforo, il quale non sarebbe altro che un «creditore» venuto a riscuotere. Don Rodrigo, come vedremo anche successivamente, parla l’ambiguo linguaggio del potere, dove la ferocia si esprime per allusioni oscure.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n67" type="comm" target="quarantana/cap5.xml#c5_12266" targetEnd="quarantana/cap5.xml#c5_12332">
+          <ref rend="bold">Un servitore… di lei;»</ref>:  Il Tasso viene citato come «autorità», secondo i modi della discussione scolastica, in fatto di consuetudini cavalleresche. Il brano cui si allude è l’ottava 17 del canto VI della <hi rend="italic">Liberata</hi>, nel quale Argante chiede licenza a Buglione di esporre ai cavalieri cristiani il messaggio di cui è ambasciatore. Ma l’oggetto della conversazione, interrotta dall’arrivo del frate, è in realtà la miseranda bastonatura toccata al portatore di una sfida a duello. Comincia così la seconda parte del capitolo, interamente occupata dalla conversazione dei commensali e dalle loro idee sulla morale cavalleresca e sulla politica del tempo. I grandi avvenimenti del secolo, che nel romanzo storico alla maniera di Scott sono sempre sullo sfondo, entrano nella trama manzoniana attraverso il chiacchiericcio inconsistente dei convitati alla mensa di Rodrigo. Tavola triste e soprattutto senza cibo: anzi, il solo accenno a una vivanda del <hi rend="italic">Fermo</hi> («un gran piatto piramidale di marroni arrostiti») viene cancellato nella riscrittura. Il pasto è sostituito dalla storia evenemenziale, che in questa superba scena corale si scorge «attraverso le lenti di un cannocchiale rovesciato» (Momigliano).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n69" type="comm" target="quarantana/cap5.xml#c5_12271">
+          <ref rend="bold">sottocoppa</ref>:  ‘vassoio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n72" type="comm" target="quarantana/cap5.xml#c5_12333" targetEnd="quarantana/cap5.xml#c5_12600">
+          <ref rend="bold">riprese a urlare... la questione.»</ref>:  Se prima Attilio aveva contrapposto (dietro l’alibi delle regole cavalleresche) l’orgoglio di classe alle ragioni giuridiche e alle giustificazioni del podestà, don Rodrigo colpisce adesso il frate, riluttante a rispondere alla questione che gli era stata proposta, ricordandogli il suo peccato originale.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n74" type="comm" target="quarantana/cap5.xml#c5_12464" targetEnd="quarantana/cap5.xml#c5_12465">
+          <ref rend="bold">le prime</ref>:  le basilari regole cavalleresche.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n75" type="comm" target="quarantana/cap5.xml#c5_12403" targetEnd="quarantana/cap5.xml#c5_12404">
+          <ref rend="bold">iure gentium</ref>:  ‘per diritto delle genti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n77" type="comm" target="quarantana/cap5.xml#c5_12601" targetEnd="quarantana/cap5.xml#c5_12666">
+          <ref rend="bold">«Il fatto… Si tratta...»</ref>:  L’episodio prende ispirazione da un caso contemplato nel trattato d’ispirazione tassesca <hi rend="italic">Dichiarazione et avvenimenti sulla Gerusalemme Conquistata</hi> (1616) di Francesco Birago: dove si discute «sopra il caso avvenuto delle percosse date dal Cavaliere Spagnuolo a casa del Cavaliere Milanese, nella quale, non trovato il provocato, ma suo fratello, senza dir parola, ad esso diede la sfida, il quale, letta che l’ebbe, diede alcune bastonate al portator d’essa».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n79" type="comm" target="quarantana/cap5.xml#c5_12645">
+          <ref rend="bold">cartello</ref>:  ‘biglietto di sfida’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n82" type="comm" target="quarantana/cap5.xml#c5_12667" targetEnd="quarantana/cap5.xml#c5_12805">
+          <ref rend="bold">«Ben date... antichi Romani?</ref>:  Attilio confonde i «feciali», cioè i membri della corporazione di sacerdoti latini cui spettavano ambascerie e custodie di trattati, con gli ufficiali: l’<hi rend="italic">aequivocatio</hi>, il prendere fischi per fiaschi, procedimento tipico della satira del povero e del villano, è reinventata per mettere alla berlina l’ignoranza del nobile. All’interno dell’insensato dibattito sull’etica della bastonatura, questa sortita amplifica il grottesco della scena, e rende irrimediabilmente ridicola l’intera disputa.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n84" type="comm" target="quarantana/cap5.xml#c5_12846" targetEnd="quarantana/cap5.xml#c5_12858">
+          <ref rend="bold">gente che… indietro</ref>:  Attento ai modi di pensare, Manzoni paròdia un altro momento forte della cultura del Seicento, ovvero il dibattito fra antichi e moderni e l’orgogliosa rivendicazione della superiorità del nuovo (l’<hi rend="italic">hoggidì</hi>), rispetto alle forme consacrate dalla tradizione. Attilio è dunque un partigiano dei moderni, ma in questo modo il nobile «rinnega uno degli assiomi più frequenti della trattatistica sull’ambasciare» (Nigro): assioma che, proprio come il podestà, riconosceva il primato dei Romani e delle loro usanze.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n86" type="comm" target="quarantana/cap5.xml#c5_11571" targetEnd="quarantana/cap5.xml#c5_11574">
+          <ref rend="bold">Ma, secondo… il padre...»</ref>:  Se il podestà, di fronte all’ignoranza del nobile, sfoggia la sua cultura giuridica rifacendosi al modello speculativo della logica aristotelica e perfino al formulario della scolastica («<hi rend="italic">atqui... ergo</hi>»); e se il conte Attilio cade in nuovi, forse involontari, effetti comici dalle sonorità rossiniane, da opera buffa («bene, benissimo», «violabile violabilissimo», «bastonabile bastonabilissimo»), la risposta dell’Azzecca-garbugli richiama la preziosa, e concettuosa, prosa dell’Anonimo che si è già letta nell’<hi rend="italic">incipit</hi> dell’<hi rend="italic">Introduzione</hi>. Il vezzeggiativo «confusetto», poi, crea – quasi nei modi di certa poesia rococò – un effetto comico ulteriore.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n88" type="comm" target="quarantana/cap5.xml#c5_12942" targetEnd="quarantana/cap5.xml#c5_12943">
+          <ref rend="bold">atto proditorio</ref>:  ‘tradimento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n89" type="comm" target="quarantana/cap5.xml#c5_12922" targetEnd="quarantana/cap5.xml#c5_12923">
+          <ref rend="bold">de quo</ref>:  ‘del quale di parla’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n90" type="comm" target="quarantana/cap5.xml#c5_13035">
+          <ref rend="bold">tabella</ref>:  «il foglio su cui veggasi ridotto a compendio una materia qualunque» (Cherubini).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n92" type="comm" target="quarantana/cap5.xml#c5_12590" targetEnd="quarantana/cap5.xml#c5_12593">
+          <ref rend="bold">«È vero… il mondo.»</ref>:  L’utopia di pace di fra Cristoforo riesce a suscitare solo lo stupore dei commensali, che formano un compatto blocco sociale. Un effetto misero se si pensa alla grande scena del perdono del capitolo precedente, dove i modi del religioso erano riusciti ad ammansire l’orgoglio di casta di un’intera famiglia aristocratica.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n95" type="comm" target="quarantana/cap5.xml#c5_10882" targetEnd="quarantana/cap5.xml#c5_13347">
+          <ref rend="bold">«Lui?»... è impossibile.»</ref>:  Fra Cristoforo – che continua qui, di fronte alle continue provocazioni di don Rodrigo, a osservare la sua difficile etica della pazienza – è un eversore dell’ordine feudale fondato sulla violenza e sui privilegi di classe. Prima della battaglia verbale del capitolo successivo, Manzoni mette in scena la contrapposizione fra due differenti visioni del mondo, in un crescendo di tensione acuito da non detti e mezze parole.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n97" type="comm" target="quarantana/cap5.xml#c5_13249">
+          <ref rend="bold">carovana</ref>:  la sua esperienza del mondo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n98" type="comm" target="quarantana/cap5.xml#c5_13316">
+          <ref rend="bold">colendissimo</ref>:  ‘rispettabilissimo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n99" type="comm" target="quarantana/cap5.xml#c5_13345">
+          <ref rend="bold">supposto</ref>:  ‘ipotesi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n101" type="comm" target="quarantana/cap5.xml#c5_13873" targetEnd="quarantana/cap5.xml#c5_13507">
+          <ref rend="bold">«Animo... nostro frate</ref>:  Coinvolto nella discussione per allontanare («divertire») Attilio e il podestà da una <hi rend="italic">querelle</hi> che rischiava di degenerare, il dottore impugna, come se fosse un’arma – la sua unica arma –, la forchetta. La «sapienza» antica e nuova di Azzecca-garbugli è quella che permette di accomodare l’etica con la volontà dei potenti. Per il Manzoni della <hi rend="italic">Morale cattolica</hi> invece l’etica è universale solo quando si fonda sui precetti della religione cattolica.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n103" type="comm" target="quarantana/cap5.xml#c5_13508" targetEnd="quarantana/cap5.xml#c5_13567">
+          <ref rend="bold">Ma don Rodrigo… di Nevers</ref>:  Il francese duca di Nevers e di Rethel, appartenente a un ramo cadetto dei Gonzaga, si era insediato a Mantova all’inizio di quell’anno. La scena del convito si svolge il 9 novembre 1628, nei giorni in cui a Mantova venivano fatti saltare la chiesa e il convento di San Biagio e la chiesa di San Matteo sul Te, che il duca intendeva fortificare per difendersi da un eventuale assedio spagnolo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n105" type="comm" target="quarantana/cap5.xml#c5_13531">
+          <ref rend="bold">accomodamento</ref>:  ‘intesa’ (la guerra cui si allude è quella di successione per i ducati di Mantova e del Monferrato, 1628-1631).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n108" type="comm" target="quarantana/cap5.xml#c5_13568" targetEnd="quarantana/cap5.xml#c5_13578">
+          <ref rend="bold">suo parente… di Richelieu</ref>:  «Quegl’<hi rend="italic">ossia</hi> sono ironici: non sono i re che governano, ma i loro ministri, i quali, secondo il Manzoni, fanno e disfanno per ragioni non sempre obiettive e non sempre politicamente utili: è il consueto scetticismo sulle arti della politica» (Russo, <hi rend="italic">ad loc.</hi>). Armand-Jean du Plessis, cardinale di Richelieu, governò la Francia dal 1624 al 1642, anno della sua morte. Il duca di Nevers era devoto («ben affetto») della monarchia francese.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n112" type="comm" target="quarantana/cap5.xml#c5_13579" targetEnd="quarantana/cap5.xml#c5_13653">
+          <ref rend="bold">sosteneva quel… quello stato</ref>:  Con perfetto tempismo, il narratore interrompe il concerto conviviale e politico nel palazzotto, fornendo (mentre affetta il consueto gesto di garbata concessione) alcune notizie precise, di quelle che non tutti i lettori di Manzoni – dall’Ottocento a oggi, dai salotti letterari ai banchi di scuola – hanno mostrato di gradire. Fanno così la loro comparsa personaggi storici, come il conte d’Olivares (don Gaspar Guzmán, conte di Olivares e duca di San Lucar, ministro di Filippo IV di Spagna dal 1621 al 1665) e Ferdinando II d’Asburgo, re di Germania e imperatore del Sacro Romano Impero dal 1619 al 1637.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n114" type="comm" target="quarantana/cap5.xml#c5_13672" targetEnd="quarantana/cap5.xml#c5_13716">
+          <ref rend="bold">«Non creda… d’ogni cosa...»</ref>:  Il podestà rappresenta in modo esatto il tipo umano che, vivendo in una piccola provincia, vanta illustri amicizie (ovvero il capo della guarnigione di un borgo insignificante), qui allusivamente designate come fonte certa («buon luogo»); e si illude di saper indovinare dove va il mondo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n116" type="comm" target="quarantana/cap5.xml#c5_13684">
+          <ref rend="bold">cantuccio</ref>:  cioè Lecco.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n117" type="comm" target="quarantana/cap5.xml#c5_13866" targetEnd="quarantana/cap5.xml#c5_13867">
+          <ref rend="bold">castellano spagnolo</ref>:  il comandante della guarnigione spagnola a Lecco.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n118" type="comm" target="quarantana/cap5.xml#c5_13709">
+          <ref rend="bold">creato</ref>:  ‘favorito, protetto’ (da criado che in spagnolo moderno sta per servitore).
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n121" type="comm" target="quarantana/cap5.xml#c5_13717" targetEnd="quarantana/cap5.xml#c5_13838">
+          <ref rend="bold">«Le dico… di Vallistai</ref>:  Si tratta del boemo Albrecht Wenzel Eusebius von Wallenstein: il cognome è pronunciato dal conte Attilio con adattamento alla fonetica italiana del nome in forma «alemanna». Quella storpiatura darà molto «fastidio» al podestà (che peraltro, poco più avanti, in omaggio alla sua devozione verso il conte duca pronuncerà il nome alla spagnola), e non solo a lui. La discesa di «Vagliensteino» in Italia al comando di un esercito di lanzi portò con sé il focolaio della peste. il papa: Urbano VIII, che, a detta del podestà, avrebbe avanzato proposte («ha fatto proposizioni») per risolvere la complessa questione.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n124" type="comm" target="quarantana/cap5.xml#c5_13914" targetEnd="quarantana/cap5.xml#c5_13918">
+          <ref rend="bold">«Il nome… sua eloquenza</ref>:  Per ridicolizzare il personaggio, Manzoni degrada la grande metafora della nave dell’ingegno, topos della poesia classica, in una fragile barchetta dell’eloquenza che riprende il mare a «vele gonfie» e continua con «vento in poppa» e senza «incontrar mai uno scoglio», grazie all’accondiscendenza dei commensali, timorosi degli sguardi di don Rodrigo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n126" type="comm" target="quarantana/cap5.xml#c5_13919" targetEnd="quarantana/cap5.xml#c5_14270">
+          <ref rend="bold">«Vagliensteino… conte duca...»</ref>:  Il podestà continua placido il suo discorso fluviale. Lo scrittore romantico, che vive «dugent’anni» dopo questa faticosa conversazione, sa che proprio a causa della politica del «conte duca» la potenza spagnola è stata annientata dalla Francia di «Riciliù». Se fosse rinato al tempo di Manzoni, il podestà si sarebbe reso conto della solennità ridicola delle sue parole attraverso le quali nel romanzo sono satireggiate le filosofie della storia del Sei e dell’Ottocento.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n128" type="comm" target="quarantana/cap5.xml#c5_13986" targetEnd="quarantana/cap5.xml#c5_14243">
+          <ref rend="bold">Nivers... Riciliù</ref>:  ancora deformazioni spagnolesche, stavolta di «Nevers» e di «Richelieu».
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n129" type="comm" target="quarantana/cap5.xml#c5_14186">
+          <ref rend="bold">appuntino</ref>:  ‘per filo e per segno’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n130" type="comm" target="quarantana/cap5.xml#c5_14203">
+          <ref rend="bold">diritti</ref>:  ‘scaltri’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n133" type="comm" target="quarantana/cap5.xml#c5_14271" targetEnd="quarantana/cap5.xml#c5_14619">
+          <ref rend="bold">Sa il cielo… la splendidezza.»</ref>:  Se al podestà Manzoni ha concesso un’ultima immagine di risibile compiacenza prima di farlo tornare dell’indistinto coro dei commensali di don Rodrigo, ben diverso è il trattamento riservato ad Azzecca-garbugli. Ormai decisamente alticcio, questi mescola formule giuridiche e ricordi dei suoi cari imperatori romani e formula sciapi giochi di parole sul valore del vino del padrone di casa.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n135" type="comm" target="quarantana/cap5.xml#c5_14278" targetEnd="quarantana/cap5.xml#c5_14279">
+          <ref rend="bold">preso terra</ref>:  ‘approdato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n136" type="comm" target="quarantana/cap5.xml#c5_14380" targetEnd="quarantana/cap5.xml#c5_14381">
+          <ref rend="bold">gran privato</ref>:  è lo spagnolo privado: o meglio, come Manzoni spiega, il favorito del principe.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n137" type="comm" target="quarantana/cap5.xml#c5_14433">
+          <ref rend="bold">disordine</ref>:  qui vale come ‘eccezione alla regola’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n138" type="comm" target="quarantana/cap5.xml#c5_14455">
+          <ref rend="bold">navarrini</ref>:  la denominazione sineddotica di navarrini per Francesi era entrata in senso dispregiativo.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n140" type="comm" target="quarantana/cap5.xml#c5_14561" targetEnd="quarantana/cap5.xml#c5_14566">
+          <ref rend="bold">censui, et in eam ivi sententiam</ref>:  ‘ho valutato e approvo l’opinione dichiarata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n142" type="comm" target="quarantana/cap5.xml#c5_14620" targetEnd="quarantana/cap5.xml#c5_14687">
+          <ref rend="bold">«Ben detto!... gl’incettatori...»</ref>:  Presenza minacciosa e costante, la carestia torna come un incubo nei discorsi dei personaggi. Ma quello che per Renzo era una concreta minaccia, e per fra Cristoforo lo spettacolo di un’umanità desolata, nelle discussioni dei ricchi diventa quasi una leggenda; una montatura creata dai fornai – non sfugga la diffidenza degli aristocratici verso il commercio borghese – per guadagnare di più. nel principale: ‘in buona sostanza’; incettatori: coloro che accumulano un bene (alimentare per lo più) per rimetterlo sul mercato a prezzo maggiorato quando scarseggia.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n144" type="comm" target="quarantana/cap5.xml#c5_14739" targetEnd="quarantana/cap5.xml#c5_14744">
+          <ref rend="bold">«E i fornai… e impiccarli</ref>:  La scena si chiude con un vortice di voci e di prese di posizione, dove edonismo dei piaceri (col vino paragonato alle bevande degli dei) e libido del potere violento («Impiccarli! impiccarli!») si fondono in una disarmonia stridente simile ai suoni confusi di poveri musicisti («una compagnia di cantambanchi») di una fiera di paese. Il quadro cominciato con le tinte caricaturali della disputa cavalleresca si chiude su note sinistre, che prefigurano le persecuzioni oscure della <hi rend="italic">Colonna infame</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n146" type="comm" target="quarantana/cap5.xml#c5_14795">
+          <ref rend="bold">affine</ref>:  ‘ al fine’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n148" type="comm" target="quarantana/cap5.xml#c5_14857" targetEnd="quarantana/cap5.xml#c5_14985">
+          <ref rend="bold">Don Rodrigo… un’altra sala</ref>:  In questa lunga sequenza del capitolo, col frate che appare all’improvviso alla mensa del libertino per invitarlo al pentimento, certa critica nobile, a cominciare da Macchia (1989), ha notato un’analogia con la grande scena del <hi rend="italic">Don Giovanni</hi> mozartiano in cui il Commendatore accetta di tornare dall’aldilà per cenare col protagonista dell’opera. Dopo aver ripetutamente rifiutato di pentirsi davanti al Convitato di pietra, don Giovanni è dannato e si spalancano per lui le porte dell’inferno. Allo stesso modo la figura di fra Cristoforo perseguiterà don Rodrigo dei terribili momenti della sua agonia.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n150" type="comm" target="quarantana/cap5.xml#c5_14882">
+          <ref rend="bold">atto</ref>:  ‘gesto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n151" type="comm" target="quarantana/cap5.xml#c5_14947">
+          <ref rend="bold">seco</ref>:  ‘con sé’.
+                     </note>
+        <note xml:id="DeCristofaro_cap5-n152" type="comm" target="quarantana/cap5.xml#c5_14964">
+          <ref rend="bold">contegnoso</ref>:  ‘imperturbabile’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-27">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap11">
+        <note xml:id="DeCristofaro_cap11-n1" type="comm" target="quarantana/cap11.xml#c11_10001">
+          <ref rend="bold">Intestazione</ref>:  F[rancesco] Gonin. Per l’intestazione con la mano che stringe un pugnale a separare le due giovani mani sul punto di toccarsi, cfr. II <hi rend="italic">Intestazione</hi>. Capolettera [Francesco] Gonin. «Iniziale del cap. Come un branco di segugi.» Per la visualizzazione della metafora venatoria e per la rete di rimandi interni tra le vignette, cfr. la nota a fig. VIII 7.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n4" type="comm" target="quarantana/cap11.xml#c11_10001" targetEnd="quarantana/cap11.xml#c11_10331">
+          <ref rend="bold">Come un… se prega... –</ref>:  Il capoverso con cui si apre questo capitolo di raccordo è, dall’inizio alla fine, una variazione sul tema dell’animalità. Ma se nell’attacco la ripresa di una similitudine tassiana («Qual dopo lunga e faticosa caccia / tornansi mesti ed anelanti i cani / che la fera perduta abbian di traccia»: <hi rend="italic">Lib</hi>. VIII 2, 1-3) sembra, grazie anche al soggiacente idiotismo «la coa in mezz ai gamb», evolversi in «ritratto carico» e zoomorfo, più velata è la modulazione del tema nelle righe seguenti: dove provvedono piuttosto la gestualità («camminava innanzi e indietro, al buio»; «tendeva l’orecchio») e la “nuvoletta” dei pensieri semplici e nervosi, mitomani e oltraggiosi del <hi rend="italic">villain</hi>, a dare il segno della sua disumanità. Disumanità che quasi prorompe dall’ultima frase, quando proprio don Rodrigo – questo «brav’uomo» le cui «passioni» vanno al «pascolo» – conclude il suo flusso di coscienza affermando di avere, anzi di <hi rend="italic">essere</hi> «il viso più umano» all’interno del microcosmo ferino in cui egli stesso segregherà Lucia. Disumanità, infine, che non esclude il suo opposto, quel “troppo umano” delle debolezze e delle variazioni mentali del personaggio: giacché, a dispetto della vulgata desanctisiana, il desiderio di don Rodrigo non si esaurisce nel puntiglio e nella <hi rend="italic">honra</hi>, ma è anche narcisistico e libidinoso, screziato da insicurezze, predisposto a grevi «lusinghe». Il potere non esclude l’impotenza; anzi.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n6" type="comm" target="quarantana/cap11.xml#c11_10005">
+          <ref rend="bold">segugi</ref>:  cani da caccia per inseguire la selvaggina.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n7" type="comm" target="quarantana/cap11.xml#c11_10052" targetEnd="quarantana/cap11.xml#c11_10054">
+          <ref rend="bold">rispondeva sulla spianata</ref>:  ‘si affacciava sulla pianura’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n8" type="comm" target="quarantana/cap11.xml#c11_10134">
+          <ref rend="bold">voglioso</ref>:  ‘volenteroso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n11" type="comm" target="quarantana/cap11.xml#c11_10332" targetEnd="quarantana/cap11.xml#c11_10851">
+          <ref rend="bold">Mentre fa… aveva accolto</ref>:  Il sogno di perversa tenerezza di don Rodrigo è interrotto dalla constatazione del fallimento della spedizione dei bravi: Manzoni si diverte allora a disegnare una specie di dialettica servo-padrone della malavita, dove l’iniziale aggressività del signorotto è subito addomesticata dai referti esaustivi del sottoposto: per poi venire espulsa fuori di quel rapporto di forza, nel condiviso sospetto della presenza occulta di una spia, negli strategici «ordini» per il contrattacco del giorno dopo, infine in una sin troppo prevedibile e agevole (oltre che malriposta, come scopriremo alla fine del romanzo) conferma di fiducia, corroborata da encomi riparatori.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n13" type="comm" target="quarantana/cap11.xml#c11_10852" targetEnd="quarantana/cap11.xml#c11_10962">
+          <ref rend="bold">Va a dormire… di questa</ref>:  La sortita bonaria, che non risparmia il tecnicismo giuridico del «rapto di donna honesta» (ricorrente nelle gride del tempo), è fra le più ardue del romanzo: l’apostrofe di compassione verso il «povero Griso» e la scorta premurosa verso il sonno ristoratore, intrise entrambe di umori shakespeariani (in particolare dall’<hi rend="italic">Amleto</hi> e dal <hi rend="italic">Giulio Cesare</hi>), risuonano di accenti ambigui, fra il realismo creaturale e la satira civile, fra l’empatia e lo sdegno. La carezza del narratore è bifida, anzi è l’abbrivo di una danza macabra cui assisteremo molti capitoli dopo, al lazzeretto: egli sta conducendo per mano il suo personaggio verso il suo giaciglio, ma in verità ha già cominciato ad accompagnarlo verso quell’«altra prova, […] più notabile di questa».
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n16" type="comm" target="quarantana/cap11.xml#c11_10963" targetEnd="quarantana/cap11.xml#c11_11325">
+          <ref rend="bold">La mattina… sarà servito.»</ref>:  Come già il dialogo fra il Griso e don Rodrigo, anche l’incontro di questi col conte Attilio parte in sordina, nei modi di una canzonatura irriverente e imprecatoria (e stavolta è il tirannello a subire), che attraverso san Martino richiama il giorno dell’<hi rend="italic">ultimatum</hi> della scommessa; per poi quasi subito incanalarsi nella complicità criminale dei soverchiatori, nell’individuazione di un nemico comune, in una politica d’offesa fatta in casa (ovvero in famiglia) e sempre nel formale rispetto delle «regole della prudenza». Così, il «dirittone» e «impiccione» cappuccino dovrà fare i conti con il «politicone» conte zio del Consiglio segreto. La sequenza dei suffissi accrescitivi (due su tre di conio manzoniano; mentre l’ultimo è presente solo, manco a dirlo, ne <hi rend="italic">L’uomo prudente</hi> di Carlo Goldoni) stilizza e stigmatizza, in modo definitivo, le categorie dozzinali che improntano la mentalità e l’azione del cugino.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n18" type="comm" target="quarantana/cap11.xml#c11_11032">
+          <ref rend="bold">rimanere</ref>:  ‘restare stupefatto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n19" type="comm" target="quarantana/cap11.xml#c11_11068">
+          <ref rend="bold">balzano</ref>:  ‘stravagante’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n20" type="comm" target="quarantana/cap11.xml#c11_11112">
+          <ref rend="bold">impastocchiarvi</ref>:  ‘ingannarvi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n21" type="comm" target="quarantana/cap11.xml#c11_11125">
+          <ref rend="bold">sofferenza</ref>:  ‘pazienza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n22" type="comm" target="quarantana/cap11.xml#c11_11193" targetEnd="quarantana/cap11.xml#c11_11196">
+          <ref rend="bold">a tutto il corpo</ref>:  cioè a tutto l’ordine dei cappuccini.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n23" type="comm" target="quarantana/cap11.xml#c11_11237" targetEnd="quarantana/cap11.xml#c11_11239">
+          <ref rend="bold">co’ pari nostri</ref>:  ‘con persone del nostro rango’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n27" type="comm" target="quarantana/cap11.xml#c11_11326" targetEnd="quarantana/cap11.xml#c11_11806">
+          <ref rend="bold">Venne intanto… sua relazione</ref>:  Il consulto privato tra «affini» si trasforma presto in colazione di lavoro, senza che ciò spezzi l’eccitazione strategica, il gioco al massacro fra complicità e irrisione, l’eloquenza tutta d’un pezzo, classista e a tratti paradossale di don Rodrigo («mascalzoni» per designare la gente comune; «barbaramente» per qualificarne i discorsi), la contraddizione fra la sicurezza ostentata e gli atti di intimidazione. E soprattutto, senza che smetta di far capolino, in modo dapprima sottile e poi più eclatante, quel suo «larvato complesso d’inferiorità» (Raimondi-Bottoni) che indurrà il narratore a irriderlo (abbassando volutamente il registro e dedicandogli un fragrante anacoluto: «gli era andato fallito con fracasso»), e che porterà Attilio a rivolgergli l’insinuante e «maravigliato» quesito finale. Agli occhi del ben più gradasso cugino – e dunque anche ai nostri occhi – il re è già nudo: tanto che il suo «po’ di stizza» viene subito decrittato, con perfetta congruenza di costrutto, come «po’ di paura». Né è un caso che nel capoverso seguente, mentre il conte Attilio (dopo aver recitato battute di pura tracotanza) se ne va ad esercitare la «selvaggia dilettanza» della caccia, il signore se ne starà ad attendere, con l’apprensione dei comandanti in declino, la relazione del Griso: il quale farà ritorno, non a caso, sempre a ora di cena. Emblematicamente, il «segno del comando» di don Rodrigo, il modo in cui questi manifesta il suo potere, si manifesta solo tra le desuete mura di un castello (consueto carcere dei tiranni), nei rituali di una fiacca routine aristocratica.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n29" type="comm" target="quarantana/cap11.xml#c11_11430">
+          <ref rend="bold">mascalzoni</ref>:  ‘poveruomini’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n30" type="comm" target="quarantana/cap11.xml#c11_11757" targetEnd="quarantana/cap11.xml#c11_11759">
+          <ref rend="bold">farò di buono</ref>:  ‘farò davvero’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n34" type="comm" target="quarantana/cap11.xml#c11_11807" targetEnd="quarantana/cap11.xml#c11_12081">
+          <ref rend="bold">Lo scompiglio… che vino è</ref>:  Dalle tenebrose stanze del potere, che vedono la “vil razza dannata” di don Rodrigo, di Egidio e del conte zio impegnata in una sorta di torneo familiare d’illegalità e di violenza, l’azione si sposta, senza soluzione di continuità, nel «paesello»: dove si scatena la ridda dei segreti poco segreti, dei rimuginii, degli epiteti popolari, fra i quali spicca quella «madonnina infilzata». Un predicato che certo spinge la fanciulla perseguitata nell’imagologia mariana della Madonna dei Sette Dolori, ma al contempo la ricopre di un manto così fiorentino sul piano linguistico, come inconfondibilmente meneghino su quello iconico (fra l’altro, tra pochi paragrafi il personaggio, e con lui il lettore, scorgerà la «gran macchina del Duomo»; ed è dunque come se Manzoni ci facesse intravedere qui, attraverso la sua più alta cima, il monumento-simbolo di Milano). Se la malignità sarcastica di Perpetua trasfigura la vittima in pittima, in campionessa di acque chete e di querele, alle effusioni pettegole della domestica tocca una figurazione ancora più vivace. La vividezza della similitudine enologica (vividezza che, singolarmente, latita nei convivi non metaforici descritti nel romanzo) attinge all’<hi rend="italic">humus</hi> dialettale e alle risorse dell’onomatopea.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n36" type="comm" target="quarantana/cap11.xml#c11_11832" targetEnd="quarantana/cap11.xml#c11_11833">
+          <ref rend="bold">per premura</ref>:  ‘per preoccupazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n37" type="comm" target="quarantana/cap11.xml#c11_11899">
+          <ref rend="bold">raccapezzandosi</ref>:  ‘comprendendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n38" type="comm" target="quarantana/cap11.xml#c11_11903">
+          <ref rend="bold">infinocchiata</ref>:  ‘ingannata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n39" type="comm" target="quarantana/cap11.xml#c11_11987">
+          <ref rend="bold">cordialmente</ref>:  ‘con tutto il cuore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n40" type="comm" target="quarantana/cap11.xml#c11_12034">
+          <ref rend="bold">grilla</ref>:  ‘prende il bollore’, «stride e canta come un grillo» (Caretti).
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n44" type="comm" target="quarantana/cap11.xml#c11_12082" targetEnd="quarantana/cap11.xml#c11_12373">
+          <ref rend="bold">Gervaso, a cui… discorsi comuni</ref>:  La mimesi romanzesca dei meccanismi psicologici di propagazione (e di mancata segretazione) delle informazioni riservate ricalca ciò che avviene usualmente nei sistemi sociali ad alto tasso di entropia: prima di scatenare essi stessi la fuga delle notizie, i depositari di queste ultime sembrano aver bisogno di pronunciare un divieto ai danni dei più deboli o disadattati: rientrano in tale legge universale colta intuitivamente (anche se non formulata) da Manzoni, sia Tonio «co’ pugni sul viso» di Gervaso, sia i «più forti e minacciosi comandi» dei genitori di Menico.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n46" type="comm" target="quarantana/cap11.xml#c11_12089" targetEnd="quarantana/cap11.xml#c11_12090">
+          <ref rend="bold">una volta</ref>:  ‘per una volta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n47" type="comm" target="quarantana/cap11.xml#c11_12195">
+          <ref rend="bold">sembiante</ref>:  ‘aspetto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n52" type="comm" target="quarantana/cap11.xml#c11_12374" targetEnd="quarantana/cap11.xml#c11_12937">
+          <ref rend="bold">Con tutti… quel frate...!»</ref>:  La ricostruzione dei fatti si scontra, nell’interrogazione incalzante e impersonale del narratore, con un crescendo di congetture circa l’identità incognita del «pellegrino»: congetture che, riguardando forestieri erranti e anime in pena, sembrano abitare la terra di mezzo fra indagine raziocinante e irrazionalismo superstizioso. E la polifonia della comunità rurale fa stagliare ancor più, per contrasto, il rilievo psicologico della tirata stizzosa di don Rodrigo, con i suoi <hi rend="italic">tic</hi> somatici e gli effetti linguistici che ne sortiscono.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n54" type="comm" target="quarantana/cap11.xml#c11_12714">
+          <ref rend="bold">immediatamente</ref>:  ‘personalmente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n55" type="comm" target="quarantana/cap11.xml#c11_12867">
+          <ref rend="bold">arrantolata</ref>:  ‘come un rantolo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n58" type="comm" target="quarantana/cap11.xml#c11_12938" targetEnd="quarantana/cap11.xml#c11_13319">
+          <ref rend="bold">Il Griso… a Milano</ref>:  Per introdurre e motivare la fuoriuscita di notizie di cui è responsabile il barocciaio, viene qui approfondita – e in questo caso dimostrata «per evidenza» matematica – la propagazione del segreto che, in un precedente paragrafo, il narratore «moralista» aveva adombrato grazie al doppio atto linguistico (dapprima proibitorio, poi divulgatorio) di Tonio e dei genitori di Menico. L’assioma su cui poggia il teorema è quello della promiscuità dei rapporti di amicizia, che «non sono a due a due, come gli sposi»: il che implica l’infinita riproducibilità delle confidenze, il passaparola dei segreti, il numero ennesimo delle consolazioni. Inoltre, nel formulare tali leggi, la prosa del romanzo finisce per mimarne le mosse: prediligendo, per una volta, la ripetizione dei medesimi verbi e sostantivi alla consueta (e più raffinata) variazione.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n60" type="comm" target="quarantana/cap11.xml#c11_13247" targetEnd="quarantana/cap11.xml#c11_13249">
+          <ref rend="bold">verso le ventitrè</ref>:  un’ora prima del tramonto (nell’Ottocento, era ancora il calar del sole il riferimento per il calcolo delle ore).
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n64" type="comm" target="quarantana/cap11.xml#c11_13320" targetEnd="quarantana/cap11.xml#c11_13636">
+          <ref rend="bold">Don Rodrigo… a partire.»</ref>:  Il battibecco militaresco fra padrone e servo, fatto di pose imperiose e di piccole paure, è coerentemente sviluppato all’interno di quelle metafore che si sono più volte già viste all’opera nel corso della narrazione. L’uso di fraseologie ad elevato tasso retorico e la marcetta da <hi rend="italic">miles gloriosus</hi> («cuor di leone, gamba di lepre») con cui il Griso replica all’epiteto oltraggioso di «can da pagliaio», oltre a creare una rima interna con la famosa litote di don Abbondio, servono anche ad anticipare la straordinaria trovata intertestuale in cui il lettore sta per imbattersi.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n66" type="comm" target="quarantana/cap11.xml#c11_13563">
+          <ref rend="bold">banditi</ref>:  ‘proscritti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n67" type="comm" target="quarantana/cap11.xml#c11_13571">
+          <ref rend="bold">riesci</ref>:  ‘pari’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n71" type="comm" target="quarantana/cap11.xml#c11_13637" targetEnd="quarantana/cap11.xml#c11_13946">
+          <ref rend="bold">«E io non… suoi manoscritti</ref>:  Il contrasto tra la postura boriosa del Griso e le sue intime imprecazioni (dopo che don Rodrigo gli aveva detto «va’ di buon animo, e sii il Griso»: quasi riecheggiando il «Soffri, e sii grande» di Adelchi) produce un effetto di inadeguatezza e di scarto che sembra presagire le più paradigmatiche declinazioni novecentesche del comico. Al contempo, Manzoni omaggia, a carte scoperte, un’opera lirica caratterizzata da un grado supremo di patriottismo e di coinvolgimento affettivo, <hi rend="italic">I Lombardi alla prima Crociata</hi> di Tommaso Grossi, suo sodale nonché inquilino per tanti anni, giusto nella stanza affianco. Ne sortisce un grado di ridondanza eccezionalmente elevato, non solo perché nella Quarantana Gonin visualizza in modo efficace la scena, ma anche in quanto lo stesso nome del personaggio è sintomo di fisicità e di moralità: oltre ad essere nel dialetto lombardo traslato della fiducia, «griso» vale infatti il bigio lupino del pelo. Il personaggio è davvero la quintessenza del bravo: tira dritto e grugna poco, obbedendo ai nomi parlanti degli altri sgherri della truppa.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n74" type="comm" target="quarantana/cap11.xml#c11_13947" targetEnd="quarantana/cap11.xml#c11_14198">
+          <ref rend="bold">L’altra cosa… saputi trovare</ref>:  Recluso nel silenzio e nella solitudine titanica del suo «castellaccio», il signorotto è ossessionato, più che dal suo fantasma d’amore, dal suo rivale d’amore: e, ricercando il modo per sbarazzarsene, arriva quasi al punto di additare come «atto sedizioso» la retata matrimoniale a casa di don Abbondio, senza avvedersi che criminale e aggressivo sarebbe stato, invece, il simultaneo «rapto di donna honesta» che egli stesso aveva organizzato.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n76" type="comm" target="quarantana/cap11.xml#c11_14072">
+          <ref rend="bold">cattura</ref>:  ‘mandato di cattura’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n78" type="comm" target="quarantana/cap11.xml#c11_14199" targetEnd="quarantana/cap11.xml#c11_14355">
+          <ref rend="bold">Ho visto… perduto di vista</ref>:  Nella contrada del Morone, probabilmente dal tavolo da gioco che aveva eletto a suo scrittoio per poter sfruttare la luce naturale, l’autore osserva con sguardo sornione e ludica immedesimazione i passatempi ai quali si dedica, con le sue piccole cavie, il figlioletto Enrico: che gli sembra un po’ troppo «vispo», e in effetti un giorno lo ridurrà sul lastrico proprio a causa dei debiti contratti nel gioco d’azzardo. Ma il quadretto digressivo, che è anche un rintocco a breve distanza della scena familiare di poche righe più sopra (con don Lisander che «frugava a piacer <hi rend="italic">suo</hi>» tra le carte inedite del suo ospite), non va considerato un divertimento minimalista: è, al contrario, la condensazione di una poetica e l’emblematizzazione di un dialogo intertestuale di gittata europea. In quella figurazione – su quel tavolino verde e davanti a quel domestico giardino d’infanzia – si ritrovano e si ricompongono frammenti di un Parnaso anticanonico: c’è Sterne, con zio Tobia che si diletta con soldatini e fortini; c’è Balzac, coi suoi «ossi» disposti a schiera sul banco del paleontologo; ci sono Ariosto e Scott, con la loro costante ostensione speculare della finzione. E c’è già, in prospettiva, la sagoma di Lev Tolstoj: che molti anni più tardi farà trastullare altri bambini con dei treni in miniatura, nelle prime pagine di <hi rend="italic">Anna Karénina</hi>; prima di fare perire i suoi eroi, naturalmente, sotto il treno.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n81" type="comm" target="quarantana/cap11.xml#c11_14356" targetEnd="quarantana/cap11.xml#c11_14712">
+          <ref rend="bold">Dopo la separazione… bravo giovine?»</ref>:  Emblema dell’avventura del picaresco, la strada disegna la dimensione psicologica e finanche etica del «viaggio» nella modernità urbana del pellegrino, che trova nella religione i motivi per perdonare il suo antagonista: un viaggio che inizia in queste righe e proseguirà per ben sei capitoli. Essa è il luogo della molteplicità, ma anche della ripetizione, degli incontri inessenziali che divengono svolte narrative, del pensiero che si avvolge come una spirale, fino a sfociare nella coazione a ripetere (cfr. Maffei [2012]). Non è un caso che saranno nell’ordine delle decine sia le bestemmie seguite da pentimenti («ebbe ammazzato in cuor suo don Rodrigo, e risuscitatolo, almeno venti volte»), sia i famosi «giudizj fisionomici» che seguiranno. Il realismo della descrizione non impedisce lo slittamento allegorico e perfino la configurazione di un paesaggio moralizzato, dove da un lato stanno la «maravigliosa» stratificazione e la metamorfosi perenne della «fabbrica» del Duomo, dall’altro l’origine, l’immobilità, il riparo impossibile del Resegone: da un lato le guglie della cattedrale, dall’altro i frastagli delle montagne. La contrapposizione fra arte e natura non potrebbe essere più netta, quasi come in un quadro astratto e ascendente di punte e di cime.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n83" type="comm" target="quarantana/cap11.xml#c11_14504">
+          <ref rend="bold">rive</ref>:  ‘ripe’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n84" type="comm" target="quarantana/cap11.xml#c11_14509">
+          <ref rend="bold">rotaie</ref>:  solchi impressi dalle ruote dei carri.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n87" type="comm" target="quarantana/cap11.xml#c11_14713" targetEnd="quarantana/cap11.xml#c11_15272">
+          <ref rend="bold">«Saprebbe insegnarmi… quella stagione</ref>:  La famosa sentenza delle «cappe che s’inchinavano ai farsetti» (ovvero dei signori che si mostrano ossequiosi verso il popolo) mette subito in moto l’investigazione sociopolitica del narratore e del suo beniamino, volta a interrogare ogni minima traccia della realtà. Il primo sconosciuto che Renzo incontra sulla sua strada è, inconfondibilmente (almeno per il lettore), un “borghese gentiluomo” della periferia di Milano. La voce che racconta non impiega però molto tempo a dirci che quelle sue «buone maniere», lungi dall’essere il segno di una diffusa <hi rend="italic">bonheur</hi> e di un’armonia sociale, scaturiscono da un evento recente e «fuor dell’ordinario». Il passaggio repentino dalla focalizzazione spaesata del protagonista alla chiosa esplicativa del narratore provoca uno straniamento che si replica subito dopo, a partire dalla frustrazione provata dal protagonista alla vista di un luogo culturalmente già carico quale «porta orientale»: giacché, in luogo della bellezza architettonica che Renzo si aspetterebbe (e in luogo dei due grandi caselli daziari che si aspetterebbe il lettore moderno, emblemi tutti ottocenteschi di prosperità e di commercio internazionale), si schiude davanti ai suoi occhi un paesaggio urbano dissestato e fetido, a lui indifferente, inquietante nel suo indecifrabile biancore.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n89" type="comm" target="quarantana/cap11.xml#c11_15173">
+          <ref rend="bold">gabellini</ref>:  ‘guardie daziarie’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n90" type="comm" target="quarantana/cap11.xml#c11_15087" targetEnd="quarantana/cap11.xml#c11_15088">
+          <ref rend="bold">Porta Tosa</ref>:  quella che divenne, dopo il 1848, Porta Vittoria.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n91" type="comm" target="quarantana/cap11.xml#c11_15128">
+          <ref rend="bold">borghetto</ref>:  la prima via a sinistra, entrando in città.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n94" type="comm" target="quarantana/cap11.xml#c11_15273" targetEnd="quarantana/cap11.xml#c11_15563">
+          <ref rend="bold">Si chinò… fosse quella</ref>:  Renzo vive, in queste righe più che mai, in un “paradiso dei semplici” ove i segni tangibili del tempo possono traslarsi in una dimensione magica, da paese di cuccagna; dove la neve può esser farina, e i «ciottoli» possono essere «pani». L’archetipo puntuale di questo brano è la <hi rend="italic">Storia</hi> di Ripamonti; ma l’investimento di senso manzoniano risulta particolarmente pregnante. Siamo davvero di fronte al trionfo barocco della metafora: la labilità intrinseca dello statuto degli enti – quello scarto fra parole e cose la cui portata epistemologica fu colta in modo definitivo da Foucault (1966) – è la stessa di don Chisciotte e di Sancho Panza a cospetto dei giganteschi mulini a vento. Eppure, la personalità stralunata di Renzo non resta nella metafisica: viceversa, entra subito, «desideroso di chiarirsi che storia fosse quella», nell’analisi del presente, interrogandosi circa le dinamiche economiche e i rapporti di forza tra la città prospera e la «povera gente di campagna». Ed è così, tra il ristoro del corpo e il desiderio della mente, che comincia il suo “viaggio di formazione” nella Storia.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n96" type="comm" target="quarantana/cap11.xml#c11_15495">
+          <ref rend="bold">deliberava</ref>:  ‘considerava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n100" type="comm" target="quarantana/cap11.xml#c11_15564" targetEnd="quarantana/cap11.xml#c11_15982">
+          <ref rend="bold">Appena mosso… abbondanza.»</ref>:  La paradossale e sbilenca “trinità” («tutt’e tre in una figura strana») in cui il protagonista incappa è formata da un brav’uomo mediamente disposto alla solidarietà sociale, da un ragazzo che fa del suo meglio per aiutare l’impresa familiare, e soprattutto da una donna dal gran corpo matronale e grottesco, virago nei modi e «sconcia» nell’aspetto. Dopo la descrizione della bellezza «scomposta» di Gertrude, è questo il secondo ritratto muliebre in chiave evidentemente disforica: ma tanto sinistra era la descrizione della monaca, quanto grottesco è il tratteggio della popolana, con quella sua brutale eloquenza, con quella sua morale egoistica, e con quell’incrocio illegittimo fra utensili, vestiario, parti anatomiche che si consuma sul suo corpo. Di questa donna-pentolaccia ha genialmente scritto Salvatore Nigro nel suo commento: «La “pentolaccia” punta a correlare le dissennatezze della rivolta frumentaria del 1628 […] e l’insensato gioco politico delle corti europee (nelle quali la storia “bolle in pentola”) e della contesa del 1629 tra Spagna e Francia (che “bolliva” nella guerra per la successione nel ducato di Mantova). […] La donna-pentolaccia è un paradigma che collabora alla spietata fenomenologia manzoniana del comportamento delle folle durante la carestia e la peste».
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n102" type="comm" target="quarantana/cap11.xml#c11_15636" targetEnd="quarantana/cap11.xml#c11_15637">
+          <ref rend="bold">sopra doglia</ref>:  ‘penosamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n104" type="comm" target="quarantana/cap11.xml#c11_15983" targetEnd="quarantana/cap11.xml#c11_16186">
+          <ref rend="bold">Da queste… al convento</ref>:  Il protagonista sta camminando il sentiero dei perplessi: tentenna fra il desiderio di pace («ricovero») e la fatale attrazione del tumulto (il «vortice», leggeremo infine), tra le spinte di rivalsa sociale e l’osservazione confusa dei «nuovi conquistatori […] carichi di preda», contrapposti a quegli «incettatori» che sono, secondo la sua istintiva logica, i responsabili della carestia. Questa costitutiva incertezza gli deriva in buona parte dalla sua condizione di orfano (e difatti ora sta andando verso «un cappuccino, che […] gli farebbe da padre»): condizione che, per quanto mai tematizzata direttamente – anzi, il termine non è mai messo a testo –, incide in profondità, oltre che sul suo carattere, sulla complessiva costruzione di senso nel romanzo.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n106" type="comm" target="quarantana/cap11.xml#c11_16187" targetEnd="quarantana/cap11.xml#c11_16489">
+          <ref rend="bold">Dove ora… quello sconvolgimento</ref>:  Dopo una scheggia di topografia spicciola, che consente al narratore una strizzatina d’occhio nei confronti del pubblico giovane (in singolare simmetria con la corrispondente veduta del monastero di Monza, nel cap. IX), accade quel che non ci attenderemmo. Renzo ha appena scelto, fra la deviazione del tumulto e la retta via della religione, quest’ultima; ma è proprio il convento a respingerlo, a causa dell’assenza del «padre» Bonaventura, e a gettarlo verso la sarabanda furiosa degli eventi, dove non potrà beneficiare della protezione che spetta ai figli, ma potrà almeno conoscere il mondo. L’ultima frase da lui borbottata sposta anche – nei modi delle sprezzatura graziosa a cui Manzoni ha ormai abituato il lettore – il <hi rend="italic">focus</hi> della narrazione verso la Storia: della quale dapprima verrà prodotta una ricostruzione estremamente analitica ed erudita, e poi sarà raccontata la formidabile incidenza sull’esperienza vissuta del protagonista maschile.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n108" type="comm" target="quarantana/cap11.xml#c11_16190" targetEnd="quarantana/cap11.xml#c11_16192">
+          <ref rend="bold">quel bel palazzo</ref>:  si tratta di palazzo Rocca Saporiti, costruito nel 1812.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n109" type="comm" target="quarantana/cap11.xml#c11_16314">
+          <ref rend="bold">pressante</ref>:  ‘urgente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n110" type="comm" target="quarantana/cap11.xml#c11_16347" targetEnd="quarantana/cap11.xml#c11_16350">
+          <ref rend="bold">fate a mio modo</ref>:  ‘statemi a sentire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n111" type="comm" target="quarantana/cap11.xml#c11_16362" targetEnd="quarantana/cap11.xml#c11_16366">
+          <ref rend="bold">fare un po’ di bene</ref>:  pregare.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n112" type="comm" target="quarantana/cap11.xml#c11_16466">
+          <ref rend="bold">sbocconcellando</ref>:  ‘mangiucchiando’.
+                     </note>
+        <note xml:id="DeCristofaro_cap11-n113" type="comm" target="quarantana/cap11.xml#c11_16489">
+          <ref rend="bold">sconvolgimento</ref>:  ‘agitazione’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

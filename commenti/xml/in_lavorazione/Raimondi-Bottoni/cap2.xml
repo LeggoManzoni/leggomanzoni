@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini_Monica_Valentini">Laura Trombini Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini_Monica_Valentini" when="2025-03-08">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap2">
+        <note xml:id="Raimondi-Bottoni_cap2-n2" type="comm" target="quarantana/cap2.xml#c2_10004" targetEnd="quarantana/cap2.xml#c2_10066">
+          <ref rend="bold">il principe di Condé... consulte angosciose</ref>:  il ventiduenne Luigi il di Borbone, figlio di Enrico II, che al comando dell’esercito francese sconfisse, il 16 maggio 1643, gli Spagnoli nelle Ardenne. Lo aveva celebrato il grande predicatore J. Bossuet (1627-1704), ma il narratore si rifà ad una pagina del <hi rend="italic">Siècle de Louis XIV </hi> in cui Voltaire, celiando appunto sulla commemorazione del Bossuet, scriveva: «Si osserva che il principe, avendo dato tutti gli ordini la sera, vigilia della battaglia, s’addormentò così profondamente che fu necessario svegliarlo per combattere. La stessa cosa si racconta di Alessandro. È naturale che un uomo giovane, spossato dalla fatica...». L’ironico accostamento d’un condottiero secentesco con il consultarsi angoscioso di don Abbondio ha un duplice effetto: da un lato la dimensione illustre del Condé schiaccia comicamente quella angusta del prete, questi dall’altro contagia con la sua meschinità il modello eroico del paragone e lo rende grottesco. La ripresa del tono epico-comico accennato dalla passeggiata - come avvertiva con perspicacia L. Russo - «qui ha il suo pieno sviluppo» e sottolinea l’effetto di contrasto con la rallentata chiusa pantomimica del capitolo precedente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n4" type="comm" target="quarantana/cap2.xml#c2_10088">
+          <ref rend="bold">deliberazione</ref>:  come «consulte» è termine ironicamente preso dal linguaggio alto-diplomatico per quello che dovrebbe essere «un solenne dibattito dinanzi al tribunale della propria coscienza».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n6" type="comm" target="quarantana/cap2.xml#c2_10140" targetEnd="quarantana/cap2.xml#c2_10143">
+          <ref rend="bold">Fuggire? Dove? E poi!</ref>:  l’eroe della paura riesce a concepire come sua unica ed estrema azione ipotetica quella della fuga; ma la sua è frase da teatro drammatico, esaurisce col punto esclamativo il dinamismo delle interrogative.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n8" type="comm" target="quarantana/cap2.xml#c2_10192" targetEnd="quarantana/cap2.xml#c2_10196">
+          <ref rend="bold">tempo proibito per le nozze</ref>:  quello tra la prima domenica dell’Avvento - che nel 1628 cadeva il 12 novembre - e l’Epifania. Quindi cinque giorni dopo la passeggiata del 7 novembre.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n10" type="comm" target="quarantana/cap2.xml#c2_10225" targetEnd="quarantana/cap2.xml#c2_10267">
+          <ref rend="bold">Ruminò pretesti... giovanetto ignorante</ref>:  la caratterizzazione verbale di don Abbondio, che ha deciso di abusare dell’ignoranza di Renzo, si esplica non solo nei monologhi ma anche nel discorso indiretto che riporta il pensiero del personaggio. Così l’uso di «giovanetto», in alternativa a « ragazzone », sembra obbedire alla psicologia del curato che per farsi coraggio ora avvicina ora allontana la figura del giovane antagonista.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n12" type="comm" target="quarantana/cap2.xml#c2_10275" targetEnd="quarantana/cap2.xml#c2_10315">
+          <ref rend="bold">egli pensa alla morosa... andarne di mezzo</ref>:  «morosa» è lombardismo volgare e con l’altra espressione cruda «ti senti il bruciore addosso» rende, con la fisicità di <hi rend="italic">brusor</hi> - quasi fregola (il Passeroni scriveva: «...Elvia, la quale un gran prurito / e una gran frega avea di tor marito», <hi rend="italic">Il Cicerone</hi>, II, 41) - tutto il cinismo e la meschinità del curato ossessionato dalla sola idea di salvare la pelle (si ricordino le osservazioni del Gadda alle rr. 207-208 del CAP. 1). Il «sistema» di don Abbondio, persuaso della propria furberia, si traduce in termini grossolani, in ragioni egoistiche; il curato sembra addirittura autoconvincersi che Renzo ha torto perché pensa al matrimonio mentre la ragione sua, la pelle, è ben più importante. Don Abbondio fino in fondo è l’uomo della propria «pelle».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n14" type="comm" target="quarantana/cap2.xml#c2_10330" targetEnd="quarantana/cap2.xml#c2_10343">
+          <ref rend="bold">che sonno!... schioppettate</ref>:  la paura, appena soffocata dalla risoluzione presa, sembra insorgere col sogno in un crescendo enumerativo che esplode nell’incubo delle schioppettate. E le schioppettate, si noti, diventano una fissazione giacché nessuno gliele aveva esplicitamente minacciate. All’agitata notte di don Abbondio risponde ancora - osserva l’Isella - un’altra memorabile notte del Bongee che presenta un analogo catalogo nominale: «Preson, cadenn, ballin, sbir, rabbi, frecc, / Quist hin staa i mee bej sogn, quist el mè lecc» («Prigione, catene,pagliericcio, sbirri, rabbie, freddo, questi sono stati i miei bei sogni, questo il mio letto»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n17" type="comm" target="quarantana/cap2.xml#c2_10344" targetEnd="quarantana/cap2.xml#c2_10393">
+          <ref rend="bold">Il primo svegliarsi... istantaneo</ref>:  è una caratteristica sentenza diegetica, da attribuirsi cioè alla voce del narratore. La scrittura manzoniana è straordinariamente attenta a ricostruire la sfera di quella soggettività interiore che sta sotto gli eventi, conscia e inconscia. Qui la situazione emotiva di don Abbondio è ripresa nel processo di forze misteriose, di sensazioni che scorrono in una dialettica di opacità, di sopori, di ansie.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n19" type="comm" target="quarantana/cap2.xml#c2_13568" targetEnd="quarantana/cap2.xml#c2_10581">
+          <ref rend="bold">Renzo... con la lieta furia... agiato</ref>:  il personaggio di Renzo, con il «bruciore addosso», l’avevamo già intravisto attraverso i patemi d’animo del curato: «un agnello se nessun lo tocca, ma se uno vuol contraddirgli... ih! E poi, perduto dietro a quella Lucia» (cap. I, rr. 378-380). Il tratto che ora lo caratterizza, rispetto all’impazienza e al timore di don Abbondio è la sua «lieta furia», quindi la baldanza e la vitalità giovanile in antitesi alla pavidità rinunciataria e senile che ormai pensa solo «alla pelle».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n21" type="comm" target="quarantana/cap2.xml#c2_10582" targetEnd="quarantana/cap2.xml#c2_10599">
+          <ref rend="bold">E quantunque... annata... scarsa... carestia</ref>:  la decadenza dell’agricoltura, dell’industria tessile e del commercio - accentuatasi durante la dominazione spagnola - convertì progressivamente i principali centri che esportavano prodotti manufatti in importatori esportatori di materie prime o di prodotti agricoli. Tutto questo comportò anche fenomeni di carestia (cfr. B. Caizzi, <hi rend="italic">Le classi sociali nela vita milanese</hi>, in <hi rend="italic">Storia di Milano</hi>, vol. XI, e AA.VV., <hi rend="italic">Storia d'Italia</hi>, vol. II, Torino, Einaudi, 1974). È il primo accenno tematico, attraverso il personaggio di Renzo, al grande motivo della carestia; al cap. successivo affiorerà di nuovo nei discorsi tra Agnese, Lucia e fra Galdino.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n23" type="comm" target="quarantana/cap2.xml#c2_10615" targetEnd="quarantana/cap2.xml#c2_10628">
+          <ref rend="bold">divenuto massaio... fame</ref>:  cauto e parsimonioso amministratore dal momento che all’orizzonte incombe la carestia e la fame. Alla sua indipendenza economica corrisponde un’indipendenza morale, una cordiale risolutezza. Determinatezza realistica è conferita al «ragazzone» dalla sua condizione economica di «filatore di seta», attività in crisi ma ancora richiesta nei territori limitrofi della Repubblica di Venezia. Renzo inoltre è un piccolo proprietario agricolo, figura sociale cara agli ideali politico-sociali del liberalismo cattolico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n25" type="comm" target="quarantana/cap2.xml#c2_10634" targetEnd="quarantana/cap2.xml#c2_10671">
+          <ref rend="bold">in gran gala... braverìa... più quieti</ref>:  i dettagli dell’abbigliamento insieme al portamento hanno una loro funzionalità decorativa e inseriscono anche Renzo nel costume secentesco. Un costume sociale i cui elementi di sfarzo e di spavalderia («braverìa») investono, sia pure in un falso giorno di festa, anche il modesto filatore d’un villaggio di montagna.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n27" type="comm" target="quarantana/cap2.xml#c2_10691" targetEnd="quarantana/cap2.xml#c2_10725">
+          <ref rend="bold">Che abbia qualche pensiero... Di che giorno volete parlare?</ref>:  Renzo si dimostra subito tutt'altro che un «giovanetto ignorante» e intuisce che qualcosa non va; di contro don Abbondio, confidando nella sua «antica esperienza», ostenta una sorpresa non credibile e ricorre a tutta una serie di argomenti pretestuosi: la salute, gli «imbrogli», la «bontà», il «dovere».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n29" type="comm" target="quarantana/cap2.xml#c2_10767" targetEnd="quarantana/cap2.xml#c2_10805">
+          <ref rend="bold">non mi sento bene... c’è degli imbrogli</ref>:  il mutare dei pretesti non può che insospettire Renzo; il parlare strascicato e stanco, le sospensioni e le ripetizioni del curato sono l’inizio verbale della sua incertezza psicologica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n31" type="comm" target="quarantana/cap2.xml#c2_10831" targetEnd="quarantana/cap2.xml#c2_10860">
+          <ref rend="bold">son troppo dolce di cuore... e trascuro il mio dovere</ref>:  la resa psicologica del personaggio, la sua parola (mil. <hi rend="italic">dolz de cœur</hi>), è straordinariamente complessa. L’insensibilità etica di don Abbondio è tale che egli non sembra rendersi conto di mancare ai propri doveri pastorali e di compiere un sopruso nei confronti del suo parrocchiano; si intenerisce anzi ammettendo la sua eccessiva arrendevolezza e camuffandola da bontà di cuore. Senonché dall’ambigua confessione il lettore comprende come il «piacere altrui», che lo induce a trascurare il proprio dovere, è quello di don Rodrigo non quello del povero Renzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n33" type="comm" target="quarantana/cap2.xml#c2_10874" targetEnd="quarantana/cap2.xml#c2_10879">
+          <ref rend="bold">non mi tenga... sulla corda</ref>:  in sospeso, alla tortura, come il mil. <hi rend="italic">tegnì su la corda</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n35" type="comm" target="quarantana/cap2.xml#c2_10988" targetEnd="quarantana/cap2.xml#c2_10995">
+          <ref rend="bold">i superiori... non si può dir tutto</ref>:  per Renzo dovrebbero essere l’Arcivescovo, la Curia; per don Abbondio quasi inconsciamente si tratta di don Rodrigo e dei suoi bravi. Sarà Perpetua a chiarire l’equivoco accennando a «de’ prepotenti», «de’ birboni», che non possono identificarsi con «i superiori» ipotizzati da Renzo (perchè mi fa male... timor di Dio).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n38" type="comm" target="quarantana/cap2.xml#c2_11027" targetEnd="quarantana/cap2.xml#c2_11047">
+          <ref rend="bold">gl’impedimenti dirimenti... Si sis affinis</ref>:  i motivi che impediscono o rendon nullo un matrimonio - secondo le disposizioni del Concilio di Trento (1563) - furono raccolti in sei esametri latini dal rituale ambrosiano; così venivano appresi mnemonicamente dai chierici. Per questo don Abbondio li scandisce contando sulle dita; <hi rend="italic">Error</hi>, errore di persona; <hi rend="italic">conditio</hi>, errore sulla condizione della persona; <hi rend="italic">votum</hi>, l’aver fatto un voto, la «professione» religiosa; <hi rend="italic">cognatio</hi>, la parentela; <hi rend="italic">crimen</hi>, un delitto o un adulterio; <hi rend="italic">cultus disparitas</hi>, differenza di religione; <hi rend="italic">vis</hi>, violenza, mancanza di libero consenso; <hi rend="italic">ordo</hi>, l’ordine sacro; <hi rend="italic">ligamen</hi>, vincolo matrimoniale già contratto con altri; <hi rend="italic">honestas</hi>, motivi di onestà, promessa mancata; <hi rend="italic">si sis affinis</hi>, l’affinità tra uno degli sposi e i parenti dell’altro.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n40" type="comm" target="quarantana/cap2.xml#c2_11069" targetEnd="quarantana/cap2.xml#c2_11129">
+          <ref rend="bold">suo latinorum... il grillo di maritarvi</ref>:  nel romanzo il linguaggio è spesso il luogo in cui si falsifica il significato o della realtà o di un evento. Soprattutto il latino, come lingua dei dotti, è mezzo di mistificazioni e Renzo inconsapevolmente sembra avvertirlo; con l’espressione «il suo <hi rend="italic">latinorum</hi> » inventa infatti una formula quasi satirica e spregiativa. Già il Maggi diceva: «imbrojà el volgaer cont i latin ». Quando il curato cambia argomento, passando al tono affettuoso, compie un altro passo falso col ribadire all’innamorato la sua improponibile teoria della rinuncia («saltare il grillo» è il mil. <hi rend="italic">saltà la matta</hi>). Renzo replicherà, «con un volto tra l’attonito e l’adirato», perché è giovane e vitale, ma il curato vorrebbe volgarmente reprimere questa vitalità che gli crea delle complicazioni e turba il suo «sistema».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n42" type="comm" target="quarantana/cap2.xml#c2_11239" targetEnd="quarantana/cap2.xml#c2_11241">
+          <ref rend="bold">antequam... denunciet</ref>:  prima delle pubblicazioni, della comunicazione al pubblico attraverso «denuncia di matrimonio».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n44" type="comm" target="quarantana/cap2.xml#c2_11246" targetEnd="quarantana/cap2.xml#c2_11248">
+          <ref rend="bold">non voglio latino</ref>:  è lo stesso fastidio, ormai diffidente, d’un personaggio portiano per la «longa farfojada / ch’el ghe leggeva sù el pret in latin». Quanto al dialetto come fenomenologia d’una prassi sociale il Borsieri delle <hi rend="italic">Avventure letterarie di un giorno </hi>aveva già chiaro che «i dialetti, del pari che le lingue, sono immagini fedelissime delle abitudini, dei costumi, delle idee e delle passioni predominanti dei popoli che li parlano»: «un acuto osservatore potrebbe dai vari dialetti scritti d’Italia desumere una verissima storia delle parziali costumanze e indoli italiane».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n46" type="comm" target="quarantana/cap2.xml#c2_11336" targetEnd="quarantana/cap2.xml#c2_11434">
+          <ref rend="bold">Siamo a buon punto... amorevolezza timida e premurosa</ref>:  don Abbondio ha ormai la meschina certezza di riuscire ad imporre quella settimana di attesa che precede la domenica dell’Avvento; rassicurato del proprio imbroglio, frena ora l’ira di Renzo con premura, con amorevolezza timorosa di per sé spontanea, ma resa ambigua dall’inganno perpetrato; «manieroso» è il mil. <hi rend="italic">ceros </hi> per «affabile, ilare, umano, manieroso» e anche «bella maniera». Nella sua funzione di mediatore fra Renzo e un sistema di violenza e disordine, spetta al curato, il retore della «pazienza», imporre all’ «ignorante» le ragioni della prudenza o della rinunzia: il viaggio di Renzo nell’oscuro universo dell’arbitrio incomincia proprio in una canonica di paese.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n48" type="comm" target="quarantana/cap2.xml#c2_11481" targetEnd="quarantana/cap2.xml#c2_11486">
+          <ref rend="bold">tutta la colpa addosso a me</ref>:  quasi entusiasta per la scappatoia trovata, il curato sembra commuoversi: non della menzogna imposta anche alla povera Lucia, ma della propria generosa disponibilità a fare da capro espiatorio. L’attore finisce per credere alla propria parte.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n50" type="comm" target="quarantana/cap2.xml#c2_11542" targetEnd="quarantana/cap2.xml#c2_11546">
+          <ref rend="bold">un’occhiata più espressiva che riverente</ref>:  i gesti e gli sguardi parlano di più delle parole lasciando intendere l'insoddisfazione, la perplessità, la rassegnazione non convinta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n52" type="comm" target="quarantana/cap2.xml#c2_11595" targetEnd="quarantana/cap2.xml#c2_11614">
+          <ref rend="bold">que’ due occhi grigi... paura d’incontrarsi</ref>:  nel pensiero di Renzo - e nella mente dei lettori - gli occhi grigi di don Abbondio, che sembrano temere le parole, diventano l’equivalente fisiognomico dell’insincerità, dell’inquietudine smarrita. La dialettica dello sguardo recupera la vicinanza, la fisicità del personaggio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n54" type="comm" target="quarantana/cap2.xml#c2_11659" targetEnd="quarantana/cap2.xml#c2_11661">
+          <ref rend="bold">un mistero diverso</ref>:  avvertendo la segreta minaccia che incombe sul matrimonio Renzo assume nel racconto il ruolo dell’eroe che tenta di conoscere la verità («col disegno di scovar qualche cosa di più positivo»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n56" type="comm" target="quarantana/cap2.xml#c2_13569" targetEnd="quarantana/cap2.xml#c2_11842">
+          <ref rend="bold">«Ma!... il mio povero Renzo»</ref>:  la frase, quasi un invito alla rassegnazione, conferma al giovane che la serva conosce una verità per lui ancora misteriosa. <hi rend="italic">Mala cosa nascer povero </hi>: la battuta è terribile perché conferma la realtà dell’intrigo ai danni del «povero» e l’antica esperienza di chi deve rassegnarsi a subire.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n58" type="comm" target="quarantana/cap2.xml#c2_11831" targetEnd="quarantana/cap2.xml#c2_11865">
+          <ref rend="bold">aiutate un povero figliuolo... tocca ai preti</ref>:  Renzo provoca Perpetua facendo appello con la sua retorica istintiva, ad una solidarietà di classe, di condizione; l'autocompatimento è una sorta di sceneggiatura, una recita di cui il giovanotto si mostra capace nei momenti d’urgenza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n60" type="comm" target="quarantana/cap2.xml#c2_11893" targetEnd="quarantana/cap2.xml#c2_11902">
+          <ref rend="bold">non vuol far torto, nè a voi nè a nessuno</ref>:  Perpetua intende soprattutto scagionare il suo padrone, ma la sua onestà pettegola la porta a lasciar filtrare degli indizi (il «nessuno» contrapposto al «voi») che orientano la ricerca di Renzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n62" type="comm" target="quarantana/cap2.xml#c2_11967" targetEnd="quarantana/cap2.xml#c2_12015">
+          <ref rend="bold">C’è bene a questo mondo de’ birboni... non posso parlare</ref>:  con l’indeterminatezza apparente di un discorso generico Perpetua conferma in Renzo il sospetto d’una prepotenza così come il gioco delle negazioni rivela che sa ma ha giurato di tacere. Si noti che Perpetua sembra contraffare in modo quasi parodistico l’analoga argomentazione di don Abbondio: «Quando dico niente, o è niente, o è cosa che non posso dire». Sono i fenomeni di eco, di contraffazione, di distorsione del parlato, per cui un personaggio con le sue battute fa da supporto - anche a distanza - all’altro.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n64" type="comm" target="quarantana/cap2.xml#c2_12098">
+          <ref rend="bold">diviato</ref>:  difilato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n66" type="comm" target="quarantana/cap2.xml#c2_12116" targetEnd="quarantana/cap2.xml#c2_12119">
+          <ref rend="bold">con gli occhi stralunati</ref>:  Renzo, eroe d’una realtà prosaica, è stravolto dall’ira; l’aggettivo ha la pregnanza semantica del termine dialettale e sostituisce il letterario «arrovellati» della prima edizione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n68" type="comm" target="quarantana/cap2.xml#c2_12170" targetEnd="quarantana/cap2.xml#c2_12185">
+          <ref rend="bold">bianco e floscio... spiccò un salto</ref>:  il realismo prosaico del paragone visualizza (con l'idiomatico <hi rend="italic">bianch come on pann lavaa</hi>) lo smarrimento del curato, poi la scrittura registra il sussulto di paura che gli consente un’imprevedibile sveltezza riconducendo alle sensazioni dirette dell’evento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n70" type="comm" target="quarantana/cap2.xml#c2_12248" targetEnd="quarantana/cap2.xml#c2_12250">
+          <ref rend="bold">pensate all’anima vostra</ref>:  don Abbondio per difendersi ricorre a quanto di sacro è nel suo ministero mescolandolo al profano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n72" type="comm" target="quarantana/cap2.xml#c2_12263" targetEnd="quarantana/cap2.xml#c2_12265">
+          <ref rend="bold">forse senza avvedersene</ref>:  l’inciso suggerisce più che l’intenzione di commettere una prepotenza la volontà di ottenere anche con la forza quanto gli è dovuto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n74" type="comm" target="quarantana/cap2.xml#c2_12310" targetEnd="quarantana/cap2.xml#c2_12323">
+          <ref rend="bold">Ma se parlo... Dunque parli</ref>:  Renzo ha compreso che l’unico argomento che ha effetto con il curato è quello della forza minacciosa e quindi minaccia. Nel <hi rend="italic">Fermo</hi> la situazione di secentesca violenza era più esplicita: «Ah! le preme dunque la sua vita? Bene la sua vita è in mano mia in questo momento».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n76" type="comm" target="quarantana/cap2.xml#c2_12383" targetEnd="quarantana/cap2.xml#c2_12384">
+          <ref rend="bold">nuovo scongiuro</ref>:  promessa solenne e minacciosa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n78" type="comm" target="quarantana/cap2.xml#c2_12396" targetEnd="quarantana/cap2.xml#c2_12435">
+          <ref rend="bold">in bocca le tenaglie... i pugni stretti all’indietro</ref>:  ancora una volta la scrittura visualizza ironicamente la situazione e la tensione emotiva nell’evidenza di un atteggiamento pantomimico (cfr. l’idiomatico <hi rend="italic">la tenaja per tiragh-fœura una parola ed bocca</hi>). Anche la pittura settecentesca - quella d’un Longhi per esempio - esaltava l’espressività del gesto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n80" type="comm" target="quarantana/cap2.xml#c2_12467" targetEnd="quarantana/cap2.xml#c2_12482">
+          <ref rend="bold">fare una transazione... fare scomparir la parola</ref>:  un accomodamento - il termine giuridico è usato con ironia - una concessione reciproca fra la paura di Renzo e quella dei bravi. E la tecnica del meschino calcolo utilitaristico che persuade don Abbondio a rivelare il segreto cercando nello stesso tempo di occultarlo di nuovo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n82" type="comm" target="quarantana/cap2.xml#c2_12530" targetEnd="quarantana/cap2.xml#c2_12556">
+          <ref rend="bold">Vorrei che la fosse... tanti grilli in capo</ref>:  la situazione si è rovesciata e la voce «quasi sdegnosa» del curato usa le sue forme idiomatiche («che la fosse») per accusare la vitalità, la giovinezza, «i grilli» di Renzo che si ostina a volersi sposare.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n84" type="comm" target="quarantana/cap2.xml#c2_12611" targetEnd="quarantana/cap2.xml#c2_12612">
+          <ref rend="bold">continuò allegramente</ref>:  con l’impeto e la foga del pavido, che diventa collerico e recupera la sua meschina oratoria, il curato si atteggia a vittima, a «galantuomo» che ha subito un torto «in luogo sacro». In modo blasfemo identifica addirittura la sua casa con la chiesa ed estende alla canonica la prerogativa di inviolabilità di un luogo sacro. Una pagina della <hi rend="italic">Morale cattolica</hi> sembrerebbe inchiodare implacabile il curato alle proprie responsabilità: «...ogni potere ingiusto, per far male agli uomini, ha bisogno di cooperatori che rinunzino ad ubbidire alla legge divina, e quindi l’inesecuzione di essa è la condizione più essenziale perché esso possa agire».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n86" type="comm" target="quarantana/cap2.xml#c2_12678" targetEnd="quarantana/cap2.xml#c2_12685">
+          <ref rend="bold">Non si scherza... si tratta di forza</ref>:  don Abbondio inconsciamente confessa la logica del proprio comportamento, la filosofia del suo «sistema». Anche Adelchi morendo giungeva alla dolente conclusione che: «...non resta / che far torto o patirlo. Una feroce / forza il mondo possiede, e fa nomarsi / diritto...». Don Abbondio ha accettato il «mondo» e si adatta a vivere. Ma nel contesto romanzesco la battuta è ancora più spietata perché la dice un prete che ha scelto per debolezza di non opporsi mai alla forza; un prete senza amore, tristemente umano e tristemente «onesto». D’altro canto, a proposito della paura e dell’esaltazione astratta del coraggio, una pagina del <hi rend="italic">Discorso sur alcuni punti dela storia longobardica</hi> osserva: « sembra quasi che ogni uomo, volendo allontanare da sè il sospetto della paura, affetti di risguardarla come ima mostruosità, come un vizio quasi impossibile; si direbbe che quell’iracondo biasimo della pusillanimità altrui sia negli scrittori una protesta di eroismo personale».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n88" type="comm" target="quarantana/cap2.xml#c2_12791" targetEnd="quarantana/cap2.xml#c2_12803">
+          <ref rend="bold">con volto serio... le tre prime dita</ref>:  affidandosi ansiosamente al giuramento il curato ricorre all’usuale gesto di alzare tre dita a simbolo forse della Trinità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n90" type="comm" target="quarantana/cap2.xml#c2_12746" targetEnd="quarantana/cap2.xml#c2_12748">
+          <ref rend="bold">Posso aver fallato</ref>:  si confronti al mil. «hoo fallaa - i mee brugnon» («ho sbagliato, garzoni miei» del Porta, <hi rend="italic">Brindes</hi>, v. 92).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n92" type="comm" target="quarantana/cap2.xml#c2_12859" targetEnd="quarantana/cap2.xml#c2_12864">
+          <ref rend="bold">al pari d’una questione di letteratura</ref>:  il commento aurorale allude con scetticismo ironico a certe polemiche intellettualistiche (forse a quelle fra Classici e Romantici) che non riescono ad approdare a nessuna conclusione quando all’intelligenza reciproca manca un impegno morale, un’autentica etica della comprensione. Il narratore discuterà sempre, nel romanzo, la «letteratura » quasi che la letteratura sia essa stessa una realtà problematica, un’attività che si giudica dinanzi a uno specchio critico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n94" type="comm" target="quarantana/cap2.xml#c2_12984" targetEnd="quarantana/cap2.xml#c2_13001">
+          <ref rend="bold">Affannato e balordo... si guardava le unghie</ref>:  nel gesto di guardarsi le unghie - il colore livido è sintomo della febbre - c’è insieme la paura e il desiderio di star male, l’istinto di regressione che cerca un rifugio, una protezione nella sicurezza infantile delle coltri. <hi rend="italic">Balordo</hi>: ancora un lombardismo che diventa invenzione verbale e si carica della realtà icastica del particolare. Un frate guardiano del Porta, spaventato da un’apparizione, esclama «...me senti tant balord» (<hi rend="italic">Fraa Diodatt</hi>).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n96" type="comm" target="quarantana/cap2.xml#c2_13015" targetEnd="quarantana/cap2.xml#c2_13021">
+          <ref rend="bold">La venne... con un gran cavolo</ref>:  la forma toscaneggiante (<hi rend="italic">La</hi> per <hi rend="italic">Lei</hi>) sottolinea la memorabile apparizione di Perpetua; l’accostamento per parallelismo grammaticale («con un gran cavolo» e «con la faccia tosta») crea una comica correlazione a dittico: «un ritratto pacioso che fa sembrare più meschino quello sparuto e gemebondo del padrone» - osservava il Momigliano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n98" type="comm" target="quarantana/cap2.xml#c2_13040" targetEnd="quarantana/cap2.xml#c2_13041">
+          <ref rend="bold">le condoglianze</ref>:  le reciproche lamentele; il termine mantiene ironicamente una funerea valenza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n100" type="comm" target="quarantana/cap2.xml#c2_13568" targetEnd="quarantana/cap2.xml#c2_13149">
+          <ref rend="bold">Renzo... qualcosa di strano e di terribile</ref>:  i due aggettivi specificano di riflesso la «smania» del protagonista e anticipano uno dei grandi temi del romanzo: quello della violenza omicida. L’angheria patita scatena fantasie di vendetta, anche se Renzo si è avviato d’istinto verso casa mentre nel <hi rend="italic">Fermo</hi> si dirigeva «da quella parte che conduceva al palazzotto di don Rodrigo».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n102" type="comm" target="quarantana/cap2.xml#c2_13150" targetEnd="quarantana/cap2.xml#c2_13181">
+          <ref rend="bold">I provocatori... sono rei... del pervertimento... degli offesi</ref>:  nella logica interna del romanzo la massima, che di fatto assolve Renzo, si applica sia a don Rodrigo che a don Abbondio. Se da una parte suggerisce che l’idea dell’omicidio ha origine dallo stato stesso della società, come segno d’una corruzione che contagia anche i pensieri dell’uomo «alieno dal sangue», dall’altra vale soprattutto ad indicare l’ethos del racconto, a specificarne il senso per la compagine sociale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n104" type="comm" target="quarantana/cap2.xml#c2_13304" targetEnd="quarantana/cap2.xml#c2_13348">
+          <ref rend="bold">se mai…  con feroce compiacenza... dare i tratti</ref>:  la fantasia sconvolta procede nel suo sogno di vendetta e si compiace dei dettagli più feroci; dall’ansia dell’attesa («se mai») alla gioia dell’agguato («una pedata, quella pedata»), agli estremi sussulti dell’agonia. Si osservi come il termine renda il mil. <hi rend="italic">pedanna</hi> che significa «il suono della pedata» mentre «dare i tratti» è associato dal Cherubini a <hi rend="italic">trà l'ultem fiaa</hi>, mandare l’ultimo respiro. Il Marchionn del Porta racconta direttamente: «...che noce eterna! / Se sarava palperà, / no vedeva che sangu, che beccaria, / e tracch soltava via / de la pagura ch’el podess vess vera («...che notte eterna! Se chiudevo palpebra, non vedevo che sangue, che macelleria, e tracch! balzavo via dalla paura che potesse esser vero»; <hi rend="italic">Lament del Marchionn di gamb avert</hi>, vv. 556-560).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n106" type="comm" target="quarantana/cap2.xml#c2_13364" targetEnd="quarantana/cap2.xml#c2_13439">
+          <ref rend="bold">E Lucia?... si risvegliò da quel sogno di sangue</ref>:  Renzo ha sognato ad occhi aperti un agguato, quella stessa violenza che aveva riempito d’incubi la lunga notte di don Abbondio. Il pensiero, il nome di Lucia, di fatto introducono nel romanzo la dimensione morale dell’eroina, avvertita nella confidente dedizione amorosa di Renzo, in quella sua sollecitudine affettuosa che allontana il «sogno di sangue». Si ricordi che ad evocare l’impetuosità di Renzo era stato invece il pavido don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n108" type="comm" target="quarantana/cap2.xml#c2_13518" targetEnd="quarantana/cap2.xml#c2_13609">
+          <ref rend="bold">un'ombra tormentosa... una parola a lui! al suo promesso!</ref>:  Renzo è ora tormentato dall’idea che Lucia conoscesse in parte le intenzioni di don Rodrigo ed è in apprensione perché teme una mancanza di confidenza. Nel <hi rend="italic">Fermo</hi>, più rozzamente, era assillato dal «martello della gelosia».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n110" type="comm" target="quarantana/cap2.xml#c2_13639" targetEnd="quarantana/cap2.xml#c2_13655">
+          <ref rend="bold">quella casetta... piccolo cortile... murettino</ref>:  si noti l’ottica affettuosa dei diminutivi assunta dal narratore, quasi per delega di Renzo, appropriandosi del suo punto di vista. È stato osservato da un linguista, Charles Bally, che in tutte le lingue la parlata familiare ha una predilezione per i diminutivi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n112" type="comm" target="quarantana/cap2.xml#c2_13691" targetEnd="quarantana/cap2.xml#c2_13693">
+          <ref rend="bold">a quel mercato</ref>:  il brusio festoso diventa per Renzo una confusione fastidiosa, un paesano <hi rend="italic">mercaa</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n114" type="comm" target="quarantana/cap2.xml#c2_13764" targetEnd="quarantana/cap2.xml#c2_13766">
+          <ref rend="bold">lieta e superba</ref>:  la notazione psicologica coglie con realismo quasi «pedagogico» l’orgoglio felice di Bettina, fiera della sua missione di fiducia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n116" type="comm" target="quarantana/cap2.xml#c2_13462" targetEnd="quarantana/cap2.xml#c2_13832">
+          <ref rend="bold">Lucia... s’andava schermendo... sorriso</ref>:  la ritrosia sorridente e la modestia schiva sono gli elementi d’un ritratto interiore che poi sembra riverberarsi sulle sembianze e sul costume di Lucia; con la solita perspicacia Stendhal scriveva a proposito di abbigliamenti e di «descrizioni materiali»; «L’habit et le collier de cuivre d’un serf du moyen age sont plus faciles à décrire que les mouvements du cœur humain».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n118" type="comm" target="quarantana/cap2.xml#c2_13833" targetEnd="quarantana/cap2.xml#c2_13857">
+          <ref rend="bold">I neri e giovanili capelli... di trecce</ref>:  i parchi dettagli descrittivi si limitano ai sopraccigli, alla bocca sorridente, ai capelli divisi da una sottile scriminatura. La rigogliosa bellezza delle chiome sembra richiamare un altro famoso ritratto del Porta: «I cavij a la zœura (alla contadina)... spartii in duu sulla front, negher e folt...»; ma il dettaglio topico dello stereotipo comico-realistico diventa elemento figurativo storico-realistico completato dai particolari del costume. Un ritrattino di maniera della «forosetta» viene già fornito dal «Conciliatore», la rivista dei romantici lombardi, in un testo epistolare di Giuseppe Pecchio (19 ottobre 1818); «M’immaginavo già di aver a trattare con una forosetta di campagna colle trecce sparse di spilloni d’argento, com’è il costume delle contadine lombarde, con un pulito grembiule, con occhi vivaci, ecc....».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n120" type="comm" target="quarantana/cap2.xml#c2_13963" targetEnd="quarantana/cap2.xml#c2_13992">
+          <ref rend="bold">una gioia temperata... carattere particolare</ref>:  l’immagine psicologica e morale di Lucia è delineata con delicatissima discrezione definendo un’emozione, l’indefinibile malinconia propria d’ogni sposa che abbandona la casa e inizia una nuova vita; «accoramento è il mil. <hi rend="italic">magòn</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n122" type="comm" target="quarantana/cap2.xml#c2_14149" targetEnd="quarantana/cap2.xml#c2_14155">
+          <ref rend="bold">non m’avete mai detto... Ah Renzo!</ref>:  il promesso sposo non riesce a frenare l’assillo tormentoso, ma il suo velato rimprovero rientra immediatamente avvertendo il tono accorato con cui Lucia pronuncia il suo nome. Il dialogo fra i due innamorati quando diventa il luogo degli affetti ha sempre questa dimensione discreta, naturale, fatta di toni allusivi o di pudori silenziosi che rendono superflue le parole.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap2-n124" type="comm" target="quarantana/cap2.xml#c2_14269" targetEnd="quarantana/cap2.xml#c2_14293">
+          <ref rend="bold">Le donne sfilarono... Due o tre andaron... Un febbrone</ref>:  il sipario del primo atto si chiudeva sull’impaurito disparire di don Abbondio, su una paura che è «passione carnale» - secondo la formula manzoniana d’un frammento del <hi rend="italic">Discorso</hi> sulla storia dei Longobardi. Quest ’altro capitolo si conclude sulla strada del villaggio con la risolutiva battuta di Perpetua e con le curiose congetture delle comari che sfilano, rompono cioè il «corteggio», cfr. il mil. <hi rend="italic">romp la fila</hi>. Le frasi «tronche» e «misteriose» che incominciano a «brulicare» nei loro cervelli creano già l’attesa per gli avvenimenti successivi.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

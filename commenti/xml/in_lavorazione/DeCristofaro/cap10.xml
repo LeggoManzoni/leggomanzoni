@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-26">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap10">
+        <note xml:id="DeCristofaro_cap10-n3" type="comm" target="quarantana/cap10.xml#c10_10001">
+          <ref rend="bold">Intestazione</ref>:  [Francesco] Gonin. Per l’intestazione col tipo della lotta tra la colomba e il serpente, cfr. III <hi rend="italic">Intestazione</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n5" type="comm" target="quarantana/cap10.xml#c10_10001">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale del C. 10. Un fiore appena sbucciato [sic!].» Il capolettera impreziosito dal gioco vegetale è qui, come ha notato Badini Confalonieri (2006), non solo esornativo, ma direttamente collegato alla metafora utilizzata nel testo e ripresa dall’autore come istruzione per realizzare l’immagine. Badini Confalonieri ha giustamente insistito sulla pertinenza testuale di questa immagine, facendo peraltro osservare che simili decorazioni erano presenti nell’edizione del <hi rend="italic">Gil Blas</hi> illustrata da J. Gigoux (Paris 1835), che Manzoni ebbe come riferimento per il suo progetto editoriale.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n7" type="comm" target="quarantana/cap10.xml#c10_10001" targetEnd="quarantana/cap10.xml#c10_10086">
+          <ref rend="bold">Vi son… si guarda</ref>:  Se il primo capitolo del “dittico della signora” si era aperto con il passaggio – coincidente con l’istantaneo «urtar» della barca contro la riva – dal dormiveglia alla prosa del mondo, il secondo ha un attacco altamente immaginoso: la dimensione gnomica di questo viene per contrasto accentuata da quel repentino passaggio alla trama che segnerà il capoverso successivo, a schiudere l’abisso della monacazione forzata di Gertrude. Ma prima ancora di questa sorta di “montaggio delle attrazioni”, è già l’immagine del «fiore appena sbocciato» a provocare un sottile effetto di straniamento, rilevata com’è da un sapiente “iconismo”: giacché Manzoni parte con un pedale moralistico e solenne («animo», «bene», «sacrifizio»), ma presto la sua prosa sembra collassare, o meglio piegarsi – proprio come il figurante selezionato – dentro il lessico dei sensi e della natura: «mollemente», «fragranze», «aliti» e così via.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n9" type="comm" target="quarantana/cap10.xml#c10_10018">
+          <ref rend="bold">istanza</ref>:  ‘insistenza nel chiedere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n10" type="comm" target="quarantana/cap10.xml#c10_10084" targetEnd="quarantana/cap10.xml#c10_10086">
+          <ref rend="bold">non si guarda</ref>:  ‘non si sorveglia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n13" type="comm" target="quarantana/cap10.xml#c10_10087" targetEnd="quarantana/cap10.xml#c10_10123">
+          <ref rend="bold">Al legger… mentr’era caldo</ref>:  La capacità di Manzoni di configurare un universo finzionale a metà strada fra i corpi e i fantasmi, fra i sentimenti e le sensazioni, si fa in questa pagina particolarmente acuta, e prepara l’angoscioso alternarsi di emozioni che segue: una sorta di “dialogo vissuto” fatto di poche parole e molti tratti sovrasegmentali (sospensioni allusive, modulazioni vocali, gesti), in cui la reticenza sembra restituire, a un tempo, la stilizzazione delle convenzioni sociali e l’ineluttabilità del precipizio del personaggio. Quasi il suo destino fosse già scritto (in molti altri libri), e non toccasse ai suoi attori che recitarne stancamente e sciattamente il copione.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n17" type="comm" target="quarantana/cap10.xml#c10_10124" targetEnd="quarantana/cap10.xml#c10_10393">
+          <ref rend="bold">Gertrude comparve… il principe</ref>:  Con un’impennata imprevista ma predisposta ad arte, interviene una brusca e duplicata interiezione, quasi a squarciare il discorso riportato tra padre e figlia; ne sortisce una sorta di comunione menzognera, giacché in effetti quei due «ah!» asseverativi hanno intenzioni ed effetti opposti: l’uno mosso da «timore» e «vergogna», l’altro che conferma vigorosamente l’ammissione (sincera?) della figlia.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n19" type="comm" target="quarantana/cap10.xml#c10_10261" targetEnd="quarantana/cap10.xml#c10_10263">
+          <ref rend="bold">collocarla nel secolo</ref>:  maritarla, collocarla nella vita del mondo.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n20" type="comm" target="quarantana/cap10.xml#c10_10391">
+          <ref rend="bold">incontanente</ref>:  ‘subito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n23" type="comm" target="quarantana/cap10.xml#c10_10394" targetEnd="quarantana/cap10.xml#c10_10517">
+          <ref rend="bold">«Ebbene, non… padre amoroso.»</ref>:  La perfida strategia retorica del principe lo induce a cristallizzare ed a formalizzare l’unica esclamazione estorta per sfinimento dell’avversario. La politica domestica che egli adotterà per “assicurare” quel segno intimo e volontario sarà per un verso la riammissione nella piccola cellula familiare attraversata da rigidi rapporti di forza e da schiaccianti ricatti psicologici; per altro verso il richiamo ad un sistema di valori moralizzato, spiccatamente cristiano e penitenziale, in ragione del quale il «padre severo» può ora lasciare il posto a quello «amoroso». La parabola evangelica della «pecora smarrita» disegna intanto, risuonando di inquietante solennità, un connotato e rassicurante scenario di riferimento, dalla simbologia intellegibile.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n26" type="comm" target="quarantana/cap10.xml#c10_10518" targetEnd="quarantana/cap10.xml#c10_10796">
+          <ref rend="bold">A queste parole… un sogno</ref>:  La «principessa» e il «principino» sono stati chiamati a raccolta per recitare la parte di testimoni dell’indotto cambiamento di Gertrude: il padre ha fornito loro pure l’indicazione del «contegno» da osservare, e dei sentimenti da esprimere con la mimica del volto; gli avverbi che il narratore adopera («spontaneamente», «francamente») enfatizzano, ironicamente, la discrepanza che si dà fra la dimensione autentica degli eventi e quella finta, illusoria. Persino il pianto non costituisce più un segnale autotrasparente, ma è fatto oggetto di un’ermeneutica privata e capziosa, dove «il <hi rend="italic">senso</hi> che conta non è più quello confuso di Gertrude, ma quello, desiderato e pattuito, della famiglia» (Raimondi-Bottoni). Infine, gli slanci di congratulazione («Brava! Bene!») e gli stessi «applausi» in cui i rampolli della casta si producono contribuiscono alla spettacolarizzazione della sequenza, alla sua meccanica ricaduta in uno spazio altro: quello di una surreale scena onirica che finisce per «dominare» il soggetto.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n28" type="comm" target="quarantana/cap10.xml#c10_10406" targetEnd="quarantana/cap10.xml#c10_10408">
+          <ref rend="bold">il solo partito</ref>:  ‘la sola decisione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n29" type="comm" target="quarantana/cap10.xml#c10_10607" targetEnd="quarantana/cap10.xml#c10_10611">
+          <ref rend="bold">ne prescriveva loro un somigliante</ref>:  ‘ne imponeva loro uno simile’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n30" type="comm" target="quarantana/cap10.xml#c10_10674" targetEnd="quarantana/cap10.xml#c10_10675">
+          <ref rend="bold">che sospendesse</ref>:  ‘che si fermasse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n31" type="comm" target="quarantana/cap10.xml#c10_15482">
+          <ref rend="bold">francamente</ref>:  ‘con sicurezza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n35" type="comm" target="quarantana/cap10.xml#c10_10797" targetEnd="quarantana/cap10.xml#c10_11116">
+          <ref rend="bold">«Converrà poi… spiegata vocazione</ref>:  Dopo il lavaggio del cervello e le sofistiche sottigliezze del principe, la «macchina» della monacazione forzata va ormai avanti da sola, come per inerzia; la sua efficacia risiede soprattutto nella rapidità con cui gli avvenimenti, le occupazioni più o meno vane, gli ipocriti convenevoli si succedono in modo frenetico, mantenendo Gertrude in uno stato di ottusità quasi ipnotica, così da compromettere ogni discernimento e iniziativa.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n37" type="comm" target="quarantana/cap10.xml#c10_11043">
+          <ref rend="bold">gabinetto</ref>:  ‘spogliatoio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n39" type="comm" target="quarantana/cap10.xml#c10_11117" targetEnd="quarantana/cap10.xml#c10_11321">
+          <ref rend="bold">La sposina… in carrozza.»</ref>:  Il carattere di “mascherata” della cerimonia di congedo dalla famiglia e dal mondo si estende anche agli illogici e oltraggiosi rituali di designazione della comunità: così – lo si legge subito dopo – la monacanda viene «da tutti salutata», secondo un costume invalso, con l’apposizione viscidamente vezzeggiativa di «sposina». E i commenti più beffardi sono quelli che, dopo una irrinunciabile visita pastorale attraverso le laiche stazioni della «ricreazione» dei ricchi, le vengono indirizzati dagli «zii» intriganti e parolai, pronti a bestemmiare qualsiasi vocazione, rivestendola del tegumento di una vita «beata» in quanto opportunisticamente lontana dalle preoccupazioni quotidiane; una vita dove perfino il paradiso si è imborghesito, tanto che i «dirittoni» ci arrivano «in carrozza».
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n41" type="comm" target="quarantana/cap10.xml#c10_13392">
+          <ref rend="bold">trottata</ref>:  passeggiata in carrozza al piccolo trotto.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n42" type="comm" target="quarantana/cap10.xml#c10_11302">
+          <ref rend="bold">dirittona</ref>:  ‘furbona’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n43" type="comm" target="quarantana/cap10.xml#c10_11308">
+          <ref rend="bold">mondani</ref>:  ‘gente del secolo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n45" type="comm" target="quarantana/cap10.xml#c10_11322" targetEnd="quarantana/cap10.xml#c10_11372">
+          <ref rend="bold">Sul tardi… la vittima</ref>:  Nel luogo deputato alla «conversazione» si consuma il cerimoniale – percepito dall’<hi rend="italic">élite</hi> come un «dovere» – dell’adulazione della monacanda, della celebrazione sociale di una « ricuperata salute» e di una «spiegata vocazione». Ma l’<hi rend="italic">anticlimax</hi> ironica e straniante («l’idolo, il trastullo, la vittima») lascia subito intendere che di quella congrega di ipocriti Gertrude non è, in realtà, che il capro espiatorio; ed è significativo e modernamente perturbante che tra il primo e il terzo termine (riconducibili rispettivamente alle categorie del culto e del sacrificio) si inserisca il «trastullo», sinonimo di quei «balocchi» che erano stati, lo si ricorderà, i mezzi più nocivi d’una pedagogia scellerata e volta al plagio. Ormai il circolo dell’identificazione feticistica e dell’alienazione dell’individuo si è conchiuso: Gertrude <hi rend="italic">è divenuta</hi> i suoi giocattoli.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n48" type="comm" target="quarantana/cap10.xml#c10_11373" targetEnd="quarantana/cap10.xml#c10_11743">
+          <ref rend="bold">Ognuno la… sentita d’avere</ref>:  La piccola rappresaglia personale è, per la giovane «contristata» e «indispettita» ma anche caricata nell’amor proprio grazie a tutti quei convenevoli di cui non riesce a realizzare appieno il formalismo, il solo risarcimento concesso, anzi il solo concepito. Un risarcimento che però si rivelerà frustrante: perché il padre promette, certo, di vendicare la mancanza di «rispetto»; ma, a dispetto del decisionismo e della rapidità di esecuzione fin qui ostentati, lo farà «Domani, domani». Mediante l’innesto di due espedienti retorico-linguistici (la topicalizzazione a sinistra e il raddoppiamento dell’avverbio di tempo), Manzoni rende una importante sfumatura psicologica del complesso controllo della coscienza messo in atto dal padre-tiranno.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n50" type="comm" target="quarantana/cap10.xml#c10_11572">
+          <ref rend="bold">auge</ref>:  ‘condizione di favore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n54" type="comm" target="quarantana/cap10.xml#c10_11967" targetEnd="quarantana/cap10.xml#c10_11970">
+          <ref rend="bold">La donna… di Monza</ref>:  La contropartita della vendetta è l’affidamento a una «vecchia di casa», guardiana della prigione domestica così come la donna “esonerata” lo era stata della prigione claustrale. A una replica della funzione-carceriera si somma così una replica del passato familiare, quasi sotto le spoglie del “perturbante” freudiano: la dimora è ancora più angusta e segregante del monastero, giacché porta in dote il fardello delle perversioni, delle menzogne, dei costumi pregressi di quella casa che era stato l’interno claustrofobico dell’educazione di Gertrude, così come di quella di suo padre. Dalla dannazione della <hi rend="italic">tristitia</hi> di casta non si esce.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n56" type="comm" target="quarantana/cap10.xml#c10_11809">
+          <ref rend="bold">succiarsi</ref>:  ‘sorbirsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n59" type="comm" target="quarantana/cap10.xml#c10_11971" targetEnd="quarantana/cap10.xml#c10_12129">
+          <ref rend="bold">«Andiamo, andiamo… della cuccia.»</ref>:  Ciarliera e arruffona, plenipotenziaria e onnisciente, la «governante» realmente <hi rend="italic">governa</hi> tutti quei «signori» con la sua eloquenza pragmatica e diretta, con la sua filosofia spicciola, con la sua foga impudente. Né è un caso che emerga qui, in parte addomesticato rispetto al <hi rend="italic">Fermo</hi>, un bestiario che attinge in modo indistinto a zooepica e Vangeli, a <hi rend="italic">imagery</hi> drammatica ed a sapere proverbiale. In questa surreale <hi rend="italic">masquerade</hi> da giardino d’infanzia, dove i rilevati vezzeggiativi sono in realtà segreti dispregiativi, se il «principino» è «vispo come una lepre», la «sposina» dovrebbe divenire più «lesta» e abbandonare la «cuccia». Mentre, all’inizio del capoverso seguente, saranno i pensieri a «levarsi subito, come uno stormo di passere all’apparir del nibbio»: quasi incastrando la similitudine del nibbio che porta via «i pulcini da un’aia deserta» del cap. VIII e quella – riferita proprio a Gertrude – del «brulichio davanti a un alveare» del cap. IX; e insieme prefigurando le infamie di un altro Nibbio, scritto però con la maiuscola, che entrerà in scena più avanti.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n62" type="comm" target="quarantana/cap10.xml#c10_12130" targetEnd="quarantana/cap10.xml#c10_12282">
+          <ref rend="bold">All’immagine del… sopra di voi</ref>:  La tirata del principe, inzeppata di valori afferenti all’etichetta piuttosto che all’etica – «onore», «dignità», «disinvoltura», fare «sciolto», «manieroso», «modesto» – è pronunciata tutta d’un fiato, senza incertezze né interruzioni: né egli si premurerà di attendere la risposta della giovane, passando subito dalle parole ai fatti. Nel frattempo, l’unico che si sarà potuto permettere di sottrarre, sia pure per un giro di frase, la parola al personaggio è il narratore stesso. attaccato: si riferisce al tiro dei cavalli alla carrozza.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n65" type="comm" target="quarantana/cap10.xml#c10_12400" targetEnd="quarantana/cap10.xml#c10_12773">
+          <ref rend="bold">Senza aspettar… negar nulla</ref>:  Il paragrafo è tutto fondato sul gioco degli sguardi che si intersecano: gli occhi spauriti di Gertrude, gli occhi della moltitudine, ma soprattutto quelli del padre che hanno il potere di comandare a distanza la gestualità e l’espressione della giovane, «come per mezzo di redini invisibili»; infine, «alcuni occhietti» che baluginano qua e là nel «chiostro interno» e che sono altrettante armi di minaccia – non a caso «luccicanti» – nei confronti dell’intimità oppressa di Gertrude.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n67" type="comm" target="quarantana/cap10.xml#c10_16475">
+          <ref rend="bold">manierosa</ref>:  ‘cortesemente affabile’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n68" type="comm" target="quarantana/cap10.xml#c10_12390" targetEnd="quarantana/cap10.xml#c10_12392">
+          <ref rend="bold">fuor della famiglia</ref>:  ‘tranne la famiglia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n70" type="comm" target="quarantana/cap10.xml#c10_12774" targetEnd="quarantana/cap10.xml#c10_17379">
+          <ref rend="bold">«Son qui...»... del resto...»</ref>:  Come accadrebbe in una trama d’avventura, la salvezza fatale, la deviazione della linea della vita sembra, per un istante troppo breve, giungere da un volto nella folla: un volto (e soprattutto, ancora una volta, due occhi) che fa ribollire in Gertrude l’amor proprio e l’orgoglio, sentimenti destinati a esser subito schiacciati dalla severità del principe. Seguono la formula di richiesta da lei proferita meccanicamente; il discorso riportato della badessa, con i suoi falsi distinguo e le sue sottigliezze, resi da Manzoni mediante un polisindeto che ne sottolinea il convenzionalismo e l’affettazione; e soprattutto il deferente quanto maldestro «avvertimento» al principe padre.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n72" type="comm" target="quarantana/cap10.xml#c10_13030">
+          <ref rend="bold">guantiere</ref>:  ‘vassoi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n75" type="comm" target="quarantana/cap10.xml#c10_13166" targetEnd="quarantana/cap10.xml#c10_13850">
+          <ref rend="bold">«Certo, certo… più prossimi</ref>:  Dopo l’ultimo incontro visivo-psicologico fra Gertrude e il padre (che ormai si svolge, per lo più, nella “stanza della memoria” della giovane, perché sulla sua retina si è come impresso il «cipiglio» di «collera» del principe), s’inaugura la sarabanda ottusa e convulsa dei rituali prescritti del debutto in società: la <hi rend="italic">toilette</hi>, il pranzo, le visite, la trottata, la conversazione, la cena, infine la scelta “libera” della «madrina», anch’essa pilotata ad arte e finalizzata a qualcosa che ha a che vedere con la convenienza economica; e che è, insieme, esterno e interno alla giovane.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n77" type="comm" target="quarantana/cap10.xml#c10_13512">
+          <ref rend="bold">capitolo</ref>:  adunanza plenaria delle monache.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n78" type="comm" target="quarantana/cap10.xml#c10_13383">
+          <ref rend="bold">rilisciarsi</ref>:  ‘occuparsi del proprio aspetto esteriore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n81" type="comm" target="quarantana/cap10.xml#c10_13851" targetEnd="quarantana/cap10.xml#c10_14098">
+          <ref rend="bold">Il giorno dopo… risoluzione e...»</ref>:  A un passo dalla vittoria, il principe cambia tattica, minimizzando e in definitiva esorcizzando ogni eventuale diversione di Gertrude dalla strada maestra e ineluttabile che ha imboccato (si veda la singolare ridondanza «grillo di gioventù»… «ragazzate», ma soprattutto il neologismo «pentimentuccio», <hi rend="italic">hapax</hi> assoluto nella nostra tradizione letteraria). La pressione così esercitata su Gertrude non è fine a se stessa, ma serve a preparare la falsa compassione bonaria che, con calcolata torsione, seguirà.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n83" type="comm" target="quarantana/cap10.xml#c10_13982" targetEnd="quarantana/cap10.xml#c10_13985">
+          <ref rend="bold">vi terrà sulla corda</ref>:  ‘vi farà molte domande’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n84" type="comm" target="quarantana/cap10.xml#c10_13990">
+          <ref rend="bold">uggia</ref>:  ‘fastidio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n87" type="comm" target="quarantana/cap10.xml#c10_14099" targetEnd="quarantana/cap10.xml#c10_14127">
+          <ref rend="bold">Ma qui… la burrasca</ref>:  Il risultato è stato raggiunto: e il volto di Gertrude diviene una sorta di cartina di tornasole, dove si effonde lo scarlatto del sangue, e delle vesti ecclesiastiche; mentre il figurante prescelto per visualizzare la contrazione del viso discende in modo palmare dall’indimenticabile immagine liminare del capitolo, da quel fiore fragile e indifeso dalle vigliacche offese di una natura matrigna: se non fosse che, come argomenta acutamente Raimondi-Bottoni <hi rend="italic">ad loc.</hi>, «l’immagine nella sua figuratività interiorizzata (<hi rend="italic">afa</hi> è già umano) fa scattare la dialettica di sguardo e pensiero all’interno della scrittura narrativa».
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n91" type="comm" target="quarantana/cap10.xml#c10_14259" targetEnd="quarantana/cap10.xml#c10_14904">
+          <ref rend="bold">L’uomo dabbene… si licenziò</ref>:  Tutto il dialogo è condotto in un continuo andirivieni fra le enunciazioni fredde dell’«uomo dabbene» e gli abissi brucianti, insondabili, pascaliani di Gertrude, malamente contenuti negli inerti e piatti moduli frastici della catechesi. Ma è evidente che non sono due mondi rispettivamente sordi quelli che entrano in contatto, e che il vicario, anche se non è certo un «uomo dabbene», non è nemmeno un <hi rend="italic">villain</hi>, ma solo un esaminatore troppo corrivo e viziato da preconcetti; la comunione fra i due è mancata, e in definitiva impossibile, solo perché i condizionamenti e le costrizioni determinate dal principe (e da una religiosità penitenziale, e dalla stessa mentalità del secolo) rendono Gertrude – che, si noti, già a quest’altezza è «sventurata» – refrattaria e recalcitrante ad ogni impulso esterno e ad ogni minima istanza di scavo analitico, fosse pure a fin di bene.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n93" type="comm" target="quarantana/cap10.xml#c10_14326">
+          <ref rend="bold">preoccupazioni</ref>:  ‘opinioni preformate’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n94" type="comm" target="quarantana/cap10.xml#c10_14456">
+          <ref rend="bold">riguardi</ref>:  ‘timori’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n95" type="comm" target="quarantana/cap10.xml#c10_14558" targetEnd="quarantana/cap10.xml#c10_14560">
+          <ref rend="bold">di mio genio</ref>:  ‘di mia volontà’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n98" type="comm" target="quarantana/cap10.xml#c10_14905" targetEnd="quarantana/cap10.xml#c10_14992">
+          <ref rend="bold">Attraversando le… cuore umano</ref>:  Per lo spazio di un paragrafo, che coincide anche con la sua definitiva uscita di scena, il principe ci appare paterno e – sia pure «in gran parte» – schietto, così da incontrare la simpatia del narratore: che pare ormai aver raffreddato, ma non diminuito, l’indignazione civile per la coercizione delle coscienze. Cassando l’argomentazione ben più severa sviluppata nel luogo corrispondente del <hi rend="italic">Fermo</hi>, egli accorda al personaggio il salvacondotto di una chiusa sentenziosa e bonaria: dove la punta stilistica è, naturalmente, quel «guazzabuglio» attestato, nella nostra tradizione, in autori come Pulci, Franco, Aretino, Lasca. Ma Manzoni sa essere ancora più tagliente: se si riflette che è solo nelle due ultime parole che il lettore scopre come il padre abbia un «cuore», perfino «umano».
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n101" type="comm" target="quarantana/cap10.xml#c10_14993" targetEnd="quarantana/cap10.xml#c10_15238">
+          <ref rend="bold">Noi non seguiremo… a fatica</ref>:  Il brano presenta quello che si direbbe, in termini narratologici, un protratto “sommario”, che disegna lo sfondo (dichiaratamente «fluttuante» e «monotono») degli avvenimenti a seguire. Il risentimento per le tentazioni della vita del secolo, di quella felicità piena e inattingibile, si trasforma talvolta in autoinganno e illusione: salvo che il periodico «fissar gli occhi in viso al principe» inibisce ogni desiderio, come un severo e riaffiorante memento. Infine l’immagine conclusiva riconduce al piano della carne e dei sensi ciò che rischierebbe altrimenti di sembrare un dolore solo morale, tutto consumato nell’“entroterra” della psiche.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n103" type="comm" target="quarantana/cap10.xml#c10_15239" targetEnd="quarantana/cap10.xml#c10_15526">
+          <ref rend="bold">Intanto il… lieto fine</ref>:  Dall’imperfetto durativo e dal definitivo passato remoto che chiude il paragrafo precedente, il tempo della narrazione si sposta al presente, ricercando conforto e salvezza nei precetti del cristianesimo. A ragione, il commento di Nigro sottolinea il rilievo di alcuni intertesti d’autore (dalla <hi rend="italic">Morale cattolica</hi>, in cui la coscienza è richiamata alla sua responsabilità e al suo dovere primario di «combattere» contro la corruzione, pur con gli ausili della fede, alla <hi rend="italic">Lettre</hi> allo Chauvet). professione: atto conclusivo prescritto per la monacazione, dopo la vestizione e l’anno di prova del noviziato; con la professione vengono emessi i voti di castità, povertà, ubbidienza.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n107" type="comm" target="quarantana/cap10.xml#c10_15527" targetEnd="quarantana/cap10.xml#c10_15909">
+          <ref rend="bold">Con questo… da quelle</ref>:  Per Gertrude, irrimediabilmente “fuori posto” in monastero e impossibilitata a stare nel mondo, è ormai vero tutto e il contrario di tutto, e la successione di rimorso e di rimpianto, di rancore e di risentimento, di narcisismo e di annientamento del sé, di autofustigazione e di invidia. E nell’atteggiamento labile e contraddittorio osservato verso le suore «pie, occupate e ilari», la cui «contentezza» è letta dalla monaca di Monza come ipocrisia bigotta e biasimo inconsapevole della propria stessa irrequietezza «bisbetica», possiamo spingerci a rintracciare qualcosa che proprio all’epoca della composizione del romanzo cominciava ad essere all’ordine del giorno: vale a dire quell’isterismo – se non addirittura psiconevrosi – che di lì a pochi decenni avrebbe occupato i gabinetti dei medici e le pagine della letteratura. Il fatto interessante è che, come sovente accade, quest’ultima ci arriva prima della scienza. bossolo: l’urna delle votazioni (le palle nere indicavano i voti contrari).
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n109" type="comm" target="quarantana/cap10.xml#c10_15873">
+          <ref rend="bold">pinzochere</ref>:  ‘beghine, bigotte’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n112" type="comm" target="quarantana/cap10.xml#c10_15910" targetEnd="quarantana/cap10.xml#c10_16009">
+          <ref rend="bold">Qualche consolazione… d’istinto</ref>:  La posizione sociale di Gertrude potrebbe essere fonte di consolazione e di piccole rivalse, ma finisce per isolarla ancora di più; e ne decreta il naufragio. La similitudine gnomica posta a suggello del paragrafo attua invece, in modo non casuale, un rimarchevole spostamento rispetto alla lezione del <hi rend="italic">Fermo</hi>, che al posto delle «alghe», coerenti con la metaforica vegetale del capitolo, assumeva come figuranti le più compromettenti e robinsoniane «monete». Al contempo, essa sposa l’immaginario equoreo del <hi rend="italic">Cinque maggio</hi>, dove il tormento del personaggio non coinvolge umani manufatti, ma si esercita contro i soli elementi naturali (i flutti che incombono sulla testa del naufrago); il che equivale a dire: al di fuori della cultura e della storia.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n116" type="comm" target="quarantana/cap10.xml#c10_16010" targetEnd="quarantana/cap10.xml#c10_16241">
+          <ref rend="bold">Poco dopo… di prima</ref>:  Dalla «rabbia» e dalla psicosi ossessivo-coattiva si passa – per servirci ancora, con voluto anacronismo, di termini clinici – a una sorta di atteggiamento schizofrenico: Gertrude rielabora la frustrazione del corpo e i guasti dell’anima in modo sconnesso e sconcertante, convertendo la propria repressione in repressione delle altrui pulsioni e fluttuando tra un magistero persecutorio e punitivo, intriso di «spiritualità salvatica» (l’ossimoro manzoniano è di quelli che si spingono nell’oltranza nascosta delle «imprecazioni travestite»), a una goliardia sguaiata e inopportuna: da cui non può che scaturire un riso grottesco, simile a quello – avrebbe detto Luigi Pirandello – della lumaca che brucia sul fuoco.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n118" type="comm" target="quarantana/cap10.xml#c10_16096" targetEnd="quarantana/cap10.xml#c10_16098">
+          <ref rend="bold">le teneva sotto</ref>:  ‘le sottometteva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n119" type="comm" target="quarantana/cap10.xml#c10_16230">
+          <ref rend="bold">sgangheratamente</ref>:  ‘in modo sguaiato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n121" type="comm" target="quarantana/cap10.xml#c10_16265" targetEnd="quarantana/cap10.xml#c10_16387">
+          <ref rend="bold">Tra l’altre… sventurata rispose</ref>:  L’entrata in scena del complice criminale (si tratta della figura storica di Gian Paolo Osio, su cui effettivamente il Ripamonti è reticente; ma parlano le carte processuali) dà luogo, nella riscrittura dei <hi rend="italic">Promessi Sposi</hi>, a un cospicuo lavorìo di rastremazione e di limatura: il risultato è una sintesi funzionale e una delega all’immaginazione del lettore, le cui implicazioni estetiche e morali appariranno di grande momento. Seguendo probabilmente i suggerimenti di Fauriel, legati a «ragioni di proporzione e di estetica», vengono eliminati moltissimi aggettivi e dettagli sui costumi di Egidio, tra cui il rimando, dal <hi rend="italic">Don Giovanni</hi> mozartiano, alla «passion predominante»; ma viene soppressa anche la ricostruzione della sua adolescenza educata al vizio e alla violenza, traumatizzata dall’omicidio del padre, coronata e segnata per sempre dalla sua vendetta. Infine, Manzoni taglia – e stavolta il sacrificio figurale è di quelli consistenti – la scena, con annesso richiamo mitologico alla romanità (Annibale che giura davanti all’altare, secondo la narrazione di Livio), della promessa solenne fatta dal figlio al padre, e destinata ad essere tradita: la promessa, cioè, di non abusare della visuale sul convento che l’abbaino (qui tradotto in «finestrina») concede. Né la riscrittura riguarda il solo comprimario; le mutazioni dei sentimenti di Gertrude, dalla disapprovazione all’«occupazione forte, gradita, continua», occupavano nel <hi rend="italic">Fermo</hi> tre pagine fitte, con scialo di monologhi (e di rivolgimenti) interiori, e con l’ornamento di una metafora significativamente animale, quella del «pettirosso sbadato [che] saltella di ramo in ramo senza pure immaginarsi che in quella macchia vi sia dei panioni, e nascosto dietro a quella il cacciatore che gli ha disposti». Nei <hi rend="italic">Promessi Sposi</hi> l’intera relazione scabrosa viene contratta, e come <hi rend="italic">interiorizzata</hi>, entro una sola frase che diverrà presto canonica.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n123" type="comm" target="quarantana/cap10.xml#c10_16289">
+          <ref rend="bold">quartiere</ref>:  ‘appartamento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n124" type="comm" target="quarantana/cap10.xml#c10_16366">
+          <ref rend="bold">girandolar</ref>:  ‘passeggiare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n127" type="comm" target="quarantana/cap10.xml#c10_16388" targetEnd="quarantana/cap10.xml#c10_16563">
+          <ref rend="bold">In que’ primi… quella bocca</ref>:  La regressione all’iniziale motivo del candore – acquisizione <hi rend="italic">in toto</hi> dei <hi rend="italic">Promessi Sposi</hi> – sancisce, attraverso le manifestazioni dell’umore e con l’influsso dell’intertesto scritturale (Raimondi-Bottoni richiamano «l’immagine biblica del sepolcro imbiancato»), lo scontro vivo fra il vigore inedito dei sensi e la morigeratezza conseguita nei modi. Eppure, dietro quella scorza di autocontrollo, Gertrude resta passiva, anche perché è sotto effetto di sedativi: se è vero che alla «chicchera di cioccolata» munificamente elargita poco prima – e a sua volta assente dal <hi rend="italic">Fermo</hi> – si aggiunge ora la medicina venefica della «bevanda ristorativa» somministrata per resistere ai «tormenti» (ancora più evidente la lezione della minuta: «al martirio»). Questo trattamento farmacologico invasivo, che contempla placebo e anestetizzanti e che si riverbera persino nelle metafore trofiche impiegate («masticare», «succiarsi»), è un forte segnale della «presa del corpo» sotto la cui insegna si svolge l’ultimo atto del plagio di Gertrude.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n129" type="comm" target="quarantana/cap10.xml#c10_16564" targetEnd="quarantana/cap10.xml#c10_16824">
+          <ref rend="bold">Però, ad… scavato vicino</ref>:  «L’albero della scienza aveva maturato un frutto amaro e schifoso, ma Geltrude aveva la passione nell’animo e il serpente al fianco; e lo colse»: quest’immagine potente, che intrecciava l’immagine biblica e il teatro della memoria del Lullo, era nel <hi rend="italic">Fermo</hi> il centro figurale dell’“opera al nero” sull’assassinio della “suora che sapeva troppo”: un episodio di gusto gotico e insieme shakespeariano che occupava quasi per intero i libri V e VI del secondo tomo, e che non lesinava particolari cruenti sulla complicità di due converse nell’omicidio e sulle modalità dello stesso, insistendo inoltre sul plagio scellerato messo in atto da Egidio nei confronti della signora. Qui Manzoni, se da un lato aggiunge un unico dettaglio (quello del paese di provenienza della conversa, Meda) desunto dalle carte processuali, dall’altro taglia moltissimo, optando per una estrema velocità narrativa; fino a quella specie di micidiale <hi rend="italic">aprosdóketon</hi> in cui si rapprende infine, con una punta di umorismo nero, il racconto del delitto.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n131" type="comm" target="quarantana/cap10.xml#c10_16622" targetEnd="quarantana/cap10.xml#c10_16624">
+          <ref rend="bold">venuta a parole</ref>:  ‘avendo litigato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n132" type="comm" target="quarantana/cap10.xml#c10_15744">
+          <ref rend="bold">sofferto</ref>:  ‘sopportato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n133" type="comm" target="quarantana/cap10.xml#c10_16706" targetEnd="quarantana/cap10.xml#c10_16707">
+          <ref rend="bold">ufizi consueti</ref>:  ‘abituali occupazioni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n134" type="comm" target="quarantana/cap10.xml#c10_16774">
+          <ref rend="bold">sfrattata</ref>:  ‘scappata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n135" type="comm" target="quarantana/cap10.xml#c10_16785">
+          <ref rend="bold">contorni</ref>:  ‘dintorni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n139" type="comm" target="quarantana/cap10.xml#c10_16825" targetEnd="quarantana/cap10.xml#c10_17051">
+          <ref rend="bold">Dopo molte… non ebbe mai</ref>:  Che si trovi nella vaghezza del «lontano, lontano» o che sia stata accolta nella protestante e pertanto ospitale terra olandese, che insomma abiti nell’inaccessibilità del mito o nei ricettacoli della storia, la suora ammazzata è per Gertrude un fantasma che non dà pace, un <hi rend="italic">revenant</hi> più oppressivo e ossessivo (si noti l’anafora dei «Quante volte», certo debitrice, ancora, all’ode napoleonica) di qualsiasi persona vivente: continuamente, ella spira «nell’intimo dell’orecchio mentale il susurro fantastico di quella stessa voce».
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n143" type="comm" target="quarantana/cap10.xml#c10_17052" targetEnd="quarantana/cap10.xml#c10_17399">
+          <ref rend="bold">Era scorso… ne sentirai.»</ref>:  Non differentemente da tanti racconti di monacazione forzata del secolo precedente, con speciale riferimento alla seconda parte della <hi rend="italic">Réligiéuse</hi> di Diderot, il testo apre all’ultima beffa: quella della complicità impossibile e della paradossale condivisione fra quelle due fanciulle così diversamente «perseguitate», e così diversamente candide. Ma si tratta, ormai, della tragedia che si presenta al cospetto del quotidiano. Così, se la comunicazione fra Gertrude e Lucia collassa immediatamente, basterà la mediazione di Agnese a fornire una soluzione banaleggiante all’enigma della signora. Peraltro, riducendo il problema all’alterità sociale, al «po’ del matto» che contraddistinguerebbe «i signori», e solfeggiando coi tre pittoreschi rintocchi della nenia conclusiva («ne sentirai, ne sentirai, ne sentirai»), la madre finisce per sancire un “diverso di classe” senza vie di uscita: non solo per Manzoni e per i suoi eroi di carta, ma anche, in prospettiva, per la tradizione romanzesca italiana che si muoverà nel suo solco, fino almeno ai <hi rend="italic">Vinti</hi> verghiani.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n145" type="comm" target="quarantana/cap10.xml#c10_17334" targetEnd="quarantana/cap10.xml#c10_17337">
+          <ref rend="bold">m’ha dato sulla voce</ref>:  ‘mi ha rimproverato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n148" type="comm" target="quarantana/cap10.xml#c10_17400" targetEnd="quarantana/cap10.xml#c10_17580">
+          <ref rend="bold">Il desiderio… scellerata spedizione</ref>:  Dopo il lungo indugio negli anfratti del passato di Gertrude, e dopo l’illustrazione degli effetti sulla psiche pudica di Lucia e sulla dozzinale mentalità di Agnese, può finalmente calare il sipario sul monastero di Monza; e può roteare il palcoscenico. Perché ciò avvenga in modo discreto, viene escogitata la <hi rend="italic">callida iunctura</hi> d’una coordinata correlativa il cui soggetto sottinteso (ovviamente don Rodrigo) viene reso però esplicito dai predicati a seguire. Solo a questo punto il detentore del <hi rend="italic">récit</hi> (lo stesso che nel <hi rend="italic">Fermo</hi>, giusto sulle soglie del dittico della signora, poteva gigioneggiare col suo interlocutore immaginario: «Sparisci; e torniamo alla storia») può finalmente tornare a dire <hi rend="italic">noi</hi>, mostrare in iscorcio il fondale dei capitoli seguenti, campire al suo centro la figura volubile di don Rodrigo; e tradurre il lettore dai notturni muliebri a quelli rocamboleschi, dai labirinti della psiche ai misfatti degli uomini. In altre parole, il montaggio si concreta nei dettagli fisici e nelle congiunzioni sintattiche, più che nel gesto di (auto)rappresentazione da parte del narratore. È la nuova sprezzatura del romanzo.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n150" type="comm" target="quarantana/cap10.xml#c10_17402">
+          <ref rend="bold">obbligare</ref>:  ‘rendersi obbligato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap10-n151" type="comm" target="quarantana/cap10.xml#c10_17545">
+          <ref rend="bold">picca</ref>:  ‘impegno’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

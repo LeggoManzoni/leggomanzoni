@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap2">
+        <note xml:id="DeCristofaro_cap2-n1" type="comm" target="quarantana/cap2.xml#c2_10001">
+          <ref rend="bold">Intestazione</ref>:  F[rancesco] Gonin. La mano col pugnale che piomba a separare le due giovani mani sul punto di toccarsi per lo scambio della fede matrimoniale, chiara allusione alla storia di Renzo e Lucia, torna ai capp. VII, XI, XVIII, XXVII, XXXIII.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n3" type="comm" target="quarantana/cap2.xml#c2_10001">
+          <ref rend="bold">Capolettera</ref>:  s. i. [ma Francesco Gonin.] «Iniziale del Cap. 2. Ritratto del gran Condè.» Questa illustrazione, situata in posizione di capolettera, va colta nella serie delle “immagini di ritratto”, tipologia iconografica che ha un rilievo fondamentale nel corso dell’opera. Qui si osservi che l’immagine svolge due funzioni: da un lato rafforza la “storicità” dell’ambientazione (ma si tenga presente che la «giornata di Rocroi» avvenne più di un decennio dopo rispetto ai fatti inventati da Manzoni, il 19 maggio 1643); dall’altro stabilisce un’antitesi comica tra il lucido coraggio del condottiero militare e la pavidità del curato. Le immagini sottolineano l’antitesi e al contempo contribuiscono alla continuità narrativa del romanzo, giacché al lettore viene sottoposta una sequenza che passa dalla vignetta in cui don Abbondio è raffigurato dall’esterno mentre s’incammina verso la stanza da letto alla “visione con” il personaggio, i cui incubi notturni sono sinteticamente rappresentati nella fig. 3.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n5" type="comm" target="quarantana/cap2.xml#c2_10001" targetEnd="quarantana/cap2.xml#c2_10066">
+          <ref rend="bold">Si racconta che… consulte angosciose</ref>:  Il raffronto fra un curato di campagna vecchio e pavido e un giovane e vittorioso condottiero è la geniale parodia degli stilemi dei moralisti classici. Il tradizionale racconto delle vite parallele di uomini illustri, piegato alle esigenze del racconto romanzesco, genera il cortocircuito umoristico di questa pagina. La comica solennità dell’<hi rend="italic">incipit</hi> si estende alle «consulte angosciose» che esprimono, col linguaggio austero della diplomazia (dove «consulta» sta per «consultazione»), il tormentato soliloquio notturno del prete pauroso.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n7" type="comm" target="quarantana/cap2.xml#c2_10067" targetEnd="quarantana/cap2.xml#c2_10182">
+          <ref rend="bold">Non far caso… per le lunghe</ref>:  Manzoni ricopre l’angoscia del suo personaggio con la veste solenne del linguaggio cancelleresco e militaresco così caro al Seicento: «neutralità disarmata», «alla retroguardia», «giorno di battaglia», «consulte angosciose», «guadagnar tempo»; e, di qui a poco, «deliberazione». Commenta Luigi Russo: «tutti termini di moda, messi lì, è vero, per generare una sproporzione comica tra il paziente e quello stile di guerra e di curia, ma in ogni momento pur scrupolosissimi quei termini nel serbare una loro sfumatura storica».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n9" type="comm" target="quarantana/cap2.xml#c2_10071">
+          <ref rend="bold">ribalda</ref>:  ‘scellerata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n10" type="comm" target="quarantana/cap2.xml#c2_10092">
+          <ref rend="bold">occorrente</ref>:  ‘ciò che stava accadendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n11" type="comm" target="quarantana/cap2.xml#c2_10137">
+          <ref rend="bold">ciarlato</ref>:  ‘chiacchierato a vanvera’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n13" type="comm" target="quarantana/cap2.xml#c2_10183" targetEnd="quarantana/cap2.xml#c2_10315">
+          <ref rend="bold">Si rammentò… andarne di mezzo</ref>:  Soldato poco coraggioso, don Abbondio è capace solo di una strategia della dilazione. Il rito ambrosiano vietava di celebrare le nozze nel lasso di tempo intercorrente tra la seconda domenica di novembre e l’Epifania. Nella confusione dei pensieri, il curato alterna soggezione e spavalderia verso Renzo, che ai suoi occhi appare ora un pericoloso e irresponsabile «ragazzone», ora «un giovanetto ignorante» che «pensa alla morosa» e «sente il bruciore addosso» (si noti il forte sapore lombardo di entrambe le espressioni) per le nozze imminenti.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n15" type="comm" target="quarantana/cap2.xml#c2_10317" targetEnd="quarantana/cap2.xml#c2_10343">
+          <ref rend="bold">Fermato così… inseguimenti, grida, schioppettate</ref>:  Nel racconto della notte di don Abbondio, il narratore dei <hi rend="italic">Promessi Sposi</hi> segue l’affaccendarsi confuso delle paure e delle inquietudini del suo personaggio, cui delega la «piena responsabilità morale» della sua mediocrità (Stella-Repossi). Il terrore invade lo spazio dei sogni e deforma gli avvenimenti della giornata in fantasmi angosciosi e oscuri, dietro cui si intravede un fondale di «viottoli, rupi, fughe, inseguimenti, schioppettate» preso da un <hi rend="italic">bric-à-brac</hi> da romanzo gotico. È il medesimo sfondo sinistro delle disavventure a venire di Lucia, fra il monastero della signora e il castello dell’innominato.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n17" type="comm" target="quarantana/cap2.xml#c2_10088">
+          <ref rend="bold">deliberazione</ref>:  ‘decisione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n19" type="comm" target="quarantana/cap2.xml#c2_10467" targetEnd="quarantana/cap2.xml#c2_10628">
+          <ref rend="bold">Era, fin dall'adolescenza… con la fame</ref>:  Come molti altri eroi da romanzo, Renzo ha perso i genitori («parenti») e deve provvedere a se stesso col proprio lavoro; senza rendite o protezioni. L’importanza del mestiere, da cui deriva il cognome del personaggio, è un fatto senza precedenti nella storia della letteratura italiana. Le secentesche «gente meccaniche, e di piccol affare» di cui parlava l’anonimo nell’<hi rend="italic">Introduzione</hi> corrispondono, nella trascrizione moderna del lettore del «Conciliatore», a quella classe borghese verso la quale l’<hi rend="italic">intelighenzia</hi> romantica lombarda stava volgendo i suoi interessi. Basti pensare alla riflessione sociologica di Berchet nella sua <hi rend="italic">Lettera semiseria di Grisostomo al suo figliuolo</hi> (1816) e alla sua tripartizione del corpo sociale in «parigini» (aristocratici) e «ottentotti» (plebe) separati dalla classe di mezzo del «popolo». Di questo «popolo» fa parte Renzo, contemporaneamente operaio specializzato che aspira a emancipare la sua condizione, anche a costo di emigrare, e piccolo proprietario agricolo («figura sociale cara agli ideali politico-sociali del liberalismo cattolico», secondo Raimondi-Bottoni). L’amore per Lucia attenua l’irruenza del carattere, lo porta a contenere gli slanci d’impeto, a meglio amministrare tanto le risorse spirituali quanto quelle materiali. Il fidanzamento lo rende cauto risparmiatore: «massaio», come scrive Manzoni prendendo a prestito l’espressione direttamente dalla novella boccacciana di Federigo degli Alberighi – quasi che la borghesia italiana di primo Ottocento potesse essere messa in forma di romanzo solo mutuando le parole dalla tradizione, in attesa d’un lessico adeguato. Le attitudini di oculatezza e parsimonia, oltre a farne un uomo che «poteva dirsi agiato», permetteranno a Renzo di attraversare indenne, o quasi, la tragedia del suo tempo; e di trovarsi, alla fine del suo <hi rend="italic">Bildungsroman</hi> , cioè del suo romanzo di formazione, con una posizione sociale migliorata, ma sempre dentro quella condizione che Defoe aveva definito, nel <hi rend="italic">Robinson Crusoe</hi> (1719), «middle station of life».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n21" type="comm" target="quarantana/cap2.xml#c2_10502" targetEnd="quarantana/cap2.xml#c2_10504">
+          <ref rend="bold">a segno che</ref>:  ‘tanto che’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n22" type="comm" target="quarantana/cap2.xml#c2_10510">
+          <ref rend="bold">cavarne</ref>:  ‘ricavarne’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n23" type="comm" target="quarantana/cap2.xml#c2_10522">
+          <ref rend="bold">scemando</ref>:  ‘diminuendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n24" type="comm" target="quarantana/cap2.xml#c2_10542" targetEnd="quarantana/cap2.xml#c2_10546">
+          <ref rend="bold">che non ne mancasse ancora</ref>:  ‘che ancora ce ne fosse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n25" type="comm" target="quarantana/cap2.xml#c2_10619">
+          <ref rend="bold">provvisto</ref>:  ‘provvisto di rendite’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n27" type="comm" target="quarantana/cap2.xml#c2_10629" targetEnd="quarantana/cap2.xml#c2_10689">
+          <ref rend="bold">Comparve davanti a... del giovinotto</ref>:  Renzo appare a don Abbondio con spavalderia, nell’abito delle grandi occasioni («in gran gala»). Il costume delle nozze risponde al gusto, segnatamente secentesco, dell’abbigliamento vistoso e spettacolare. Il vestito racconta un lato non secondario del carattere di Renzo: che, incapace di praticare le arti della simulazione e dissimulazione, è talvolta sedotto dalla possibilità di utilizzare la forza. Tuttavia i sentimenti religiosi e la costanza, tutta operosa e lombarda, del suo carattere gli proibiscono di portare a termine i piani violenti che talvolta vagheggia e lo riducono a miti consigli.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n29" type="comm" target="quarantana/cap2.xml#c2_10664">
+          <ref rend="bold">braveria</ref>:  ‘spavalderia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n31" type="comm" target="quarantana/cap2.xml#c2_10806" targetEnd="quarantana/cap2.xml#c2_10811">
+          <ref rend="bold">«Degl’imbrogli? Che imbrogli ci può essere?»</ref>:  Nella lingua del romanzo l’«imbroglio» – come il «garbuglio», suo stretto parente – esprime l’inconoscibilità del mondo. In questi primi capitoli la ritroviamo spesso, sia nei discorsi dei protagonisti della storia, quali Agnese («Oh che imbroglio, per amor di Dio», e ancora «A noi poverelli le matasse paion più imbrogliate, perché non sappiam trovarne il bandolo», cap. III) e Lucia («Son imbrogli […] non son cose lisce», cap. VI), sia in quelli dei subdoli aiutanti dell’ordine costituito come Azzecca-garbugli, che ne fa quasi l’orgogliosa insegna del suo losco mestiere («All’avvocato bisogna raccontar le cose chiare: a noi tocca poi a imbrogliarle»). Il culmine di questa prima sequela di «imbrogli» sarà il capitolo VIII: la famosa «notte degl’imbrogli e de’ sotterfugi» – ma nella Ventisettana quella dei «garbugli» e delle «infinte». La legge del caos che domina l’universo manzoniano è stata perfettamente “raccontata” da Gadda nell’<hi rend="italic">Apologia manzoniana</hi> : «Egli disegnò con un disegno segreto e non appariscente gli avvenimenti inavvertiti: tragiche e livide luci d’una società che il vento del caso trascina in un corso di miserie senza nome, se caso può chiamarsi lo spostamento risultante della indigenza, della bassezza, della ignavia politica (pubblica), della cieca ignoranza, della paura d’una razza e dell’avidità e dell’orgoglio d’un’altra. Se caso può chiamarsi la noia della vita, sensuale e disorganica, che fa ricercare nel male i veleni di un più fosco desiderio, d’una più abominevole discesa verso cupi silenzi».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n33" type="comm" target="quarantana/cap2.xml#c2_10714" targetEnd="quarantana/cap2.xml#c2_10715">
+          <ref rend="bold">le comoda</ref>:  ‘le fa comodo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n34" type="comm" target="quarantana/cap2.xml#c2_10762" targetEnd="quarantana/cap2.xml#c2_10763">
+          <ref rend="bold">cos’è nato?</ref>:  ‘cosa è cambiato?’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n36" type="comm" target="quarantana/cap2.xml#c2_10812" targetEnd="quarantana/cap2.xml#c2_10868">
+          <ref rend="bold">«Bisognerebbe... e peggio.»</ref>:  La frase, se letta in modo antifrastico, esprime semplicemente la verità delle cose: per favorire «il piacere altrui» – ma di don Rodrigo, non di Renzo e Lucia – don Abbondio trascura i suoi doveri di religioso.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n38" type="comm" target="quarantana/cap2.xml#c2_10827" targetEnd="quarantana/cap2.xml#c2_10829">
+          <ref rend="bold">s’ha da rendere</ref>:  ‘si devono rendere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n40" type="comm" target="quarantana/cap2.xml#c2_10902" targetEnd="quarantana/cap2.xml#c2_11004">
+          <ref rend="bold">«Bisogna ben… andiam di mezzo.»</ref>:  Le risposte di don Abbondio giocano ancora con l’ambiguità di una verità inconfessabile a un parrocchiano. I «superiori», senza l’accordo dei quali il sacerdote è impossibilitato ad agire, non vanno ricercati nella gerarchia ecclesiastica, a cui il nostro non ha voluto rivolgersi secondo il suggerimento di Perpetua, ma nei palazzi del potere feudale.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n42" type="comm" target="quarantana/cap2.xml#c2_10939" targetEnd="quarantana/cap2.xml#c2_10941">
+          <ref rend="bold">s’aveva a fare</ref>:  ‘si doveva fare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n43" type="comm" target="quarantana/cap2.xml#c2_10977">
+          <ref rend="bold">ancudine</ref>:  ‘incudine’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n45" type="comm" target="quarantana/cap2.xml#c2_11034" targetEnd="quarantana/cap2.xml#c2_11047">
+          <ref rend="bold">«Error, conditio… sis affinis,...»</ref>:  Si tratta degli impedimenti che rendono nullo il matrimonio, anche se contratto. L’espressione tecnica è usata per intimidire Renzo, così come, poco dopo, le parole latine che designano quegli impedimenti: «<hi rend="italic">error</hi>»: errore di persona; «<hi rend="italic">conditio</hi>»: errore sulla condizione della persona; «<hi rend="italic">votum</hi>»: voto precedentemente pronunciato da uno dei contraenti; «<hi rend="italic">cognatio</hi>»: consanguineità fino al terzo grado, cioè stretta parentela; «<hi rend="italic">crimen</hi>»: delitto compiuto per arrivare al matrimonio; «<hi rend="italic">cultus disparitas</hi>»: differenza di religione; «<hi rend="italic">vis</hi>»: violenza per forzare il consenso; «<hi rend="italic">ordo</hi>»: l’aver preso gli ordini sacri maggiori (diaconato e presbiterato); «<hi rend="italic">ligamen</hi>»: precedente vincolo matrimoniale; «<hi rend="italic">honestas</hi>»: onestà, cioè «promessa mancata, che impedisce il matrimonio coi consanguinei di primo grado della persona a cui s’è mancato di parola» (Pistelli [1927]); «<hi rend="italic">si sis affinis</hi>»: parentela tra uno degli sposi e la famiglia dell’altro.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n47" type="comm" target="quarantana/cap2.xml#c2_11056" targetEnd="quarantana/cap2.xml#c2_11071">
+          <ref rend="bold">«Si piglia gioco… suo latinorum?»</ref>:  Il promesso sposo usa qui in modo incongruo, ma efficace a screditare la scienza capziosa del curato, il genitivo plurale. La desinenza -<hi rend="italic">orum</hi> è chiara reminiscenza delle preghiere (i <hi rend="italic">peccatorum</hi> dell’Ave Maria). L’uso strumentale della cultura da parte del potere costituisce uno dei temi ricorrenti dell’intero romanzo. Come leggiamo in Raimondi-Bottoni, «il viaggio di Renzo nell’oscuro universo dell’arbitrio incomincia proprio in una canonica di paese».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n49" type="comm" target="quarantana/cap2.xml#c2_11087" targetEnd="quarantana/cap2.xml#c2_11448">
+          <ref rend="bold">«Via, caro Renzo… in una settimana...»</ref>:  Giocando sulla buona fede del debole, il parroco impegna tutta la sua abilità retorica nel tessere l’inganno: guadagnare i pochi giorni per arrivare alla domenica significa raggiungere il periodo che precede l’Avvento, ovvero il sospirato intervallo alla celebrazione dei matrimoni. Renzo, dopo aver tentato qualche resistenza, cade ingenuamente nella trappola apparecchiata da chi aveva il dovere di occuparsi della sua felicità.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n51" type="comm" target="quarantana/cap2.xml#c2_11125" targetEnd="quarantana/cap2.xml#c2_11127">
+          <ref rend="bold">saltato il grillo</ref>:  ‘venuto il capriccio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n52" type="comm" target="quarantana/cap2.xml#c2_11239" targetEnd="quarantana/cap2.xml#c2_11241">
+          <ref rend="bold">antequam... denunciet</ref>:  ‘prima di esporre le pubblicazioni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n53" type="comm" target="quarantana/cap2.xml#c2_11351">
+          <ref rend="bold">manieroso</ref>:  ‘con cortesia affettata’; diavoleria: ‘sproposito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n55" type="comm" target="quarantana/cap2.xml#c2_11547" targetEnd="quarantana/cap2.xml#c2_11744">
+          <ref rend="bold">Uscito poi… discorso con essa</ref>:  Il narratore dà voce ai pensieri del personaggio appena uscito dalla canonica. L’incontro fortuito con la serva apre una nuova sezione del capitolo; la scena è un duello verbale nel quale Renzo dà prova della sua abilità linguistica portando avanti un discorso di allusioni e inviti alla confidenza, cui Perpetua risponde con massime, proverbi e giri di frasi appena accennati: ben contenta del potere che le tristi informazioni di cui è a conoscenza le danno sul giovane.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n57" type="comm" target="quarantana/cap2.xml#c2_11982" targetEnd="quarantana/cap2.xml#c2_11985">
+          <ref rend="bold">– Prepotenti! birboni! —</ref>:  «Birboni» indica, letteralmente, i ‘disonesti’. Il lemma, già introdotto da Perpetua alla fine del capitolo I, ha un valore semantico più radicale di quello odierno ed è una delle parole forti del romanzo. <hi rend="italic">Birboni</hi> sono sempre i potenti del tempo; <hi rend="italic">birbone</hi> chi comanda e abusa della sua posizione per ottenere vantaggi personali, senza riguardi verso poveri e innocenti. Ma in un mondo dominato dal caos, ove tutto è falso e capovolto, anche i poveri possono «comparir birboni» per i raggiri messi in atto dai potenti, come sospirerà malinconicamente Agnese nel capitolo XXIV.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n59" type="comm" target="quarantana/cap2.xml#c2_12006" targetEnd="quarantana/cap2.xml#c2_12048">
+          <ref rend="bold">«Ah! voi vorreste… per tutt’e due.»</ref>:  Il dialogo notturno fra Renzo e Perpetua si chiude sulle note comiche di una scenetta da commedia. Ma la tragedia avvolge i personaggi. Perpetua, mentre protesta di non voler dire nulla, ha detto tutto, senza che Renzo abbia provveduto a torturarla, letteralmente «darle la corda».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n61" type="comm" target="quarantana/cap2.xml#c2_12049" targetEnd="quarantana/cap2.xml#c2_12119">
+          <ref rend="bold">Così dicendo… gli occhi stralunati</ref>:  Il volto del giovane, che poche pagine prima (fig. 4) ci guardava sereno dalla vignetta a lui dedicata, è ora irriconoscibile e tremendo. L’urto con i meccanismi dell’ingiustizia e del sopruso sconvolge la figura umana e la rende bestiale. Il passaggio si intensifica nella Quarantana, dove Manzoni preferisce, alla lezione «arroventati» del ’27, il più forte «stralunati». Malgrado la violenza del combattimento interiore, Renzo trattiene gli istinti ferini e resta sempre, nel corso di tutto il romanzo, nel cerchio di una umanità offesa ma mai violenta. Poco più avanti, a mitigare una posa <hi rend="italic">bravesca</hi> di Renzo, Manzoni introdurrà un «forse» per la portata di una minaccia involontaria (quella della «mano sul manico del coltello che gli usciva dal taschino»), riducendola a gesto meccanico di un momento di agitazione.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n63" type="comm" target="quarantana/cap2.xml#c2_12381" targetEnd="quarantana/cap2.xml#c2_10632">
+          <ref rend="bold">A quel nuovo... «don...»</ref>:   Il tocco da grande scrittore del «cavadenti», immagine che sembra presa dall’universo delle stampe popolari, permette al narratore di distrarre il lettore dalla violenza della scena, interrompendo – come spesso nel romanzo – la simpatia del fruitore dell’opera verso i personaggi e le loro passioni. Manzoni chiede sempre al suo lettore la riflessione attenta sulle vicende che gli racconta, e mai il coinvolgimento emotivo.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n65" type="comm" target="quarantana/cap2.xml#c2_12504" targetEnd="quarantana/cap2.xml#c2_12723">
+          <ref rend="bold">«Come eh? come?… la mia chiave.»</ref>:  Dopo l’ombra dell’«imbroglio», la diffidenza verso i «birboni» e la codarda stigmatizzazione dei «grilli in capo» (una fraseologia, quest’ultima, particolarmente cara a don Abbondio), il lettore arriva al cuore ideologico del capitolo. La paura, divenuta «prudente e triste consapevolezza di una ferrea legge di vita» (Russo), provoca in don Abbondio, «prete senza amore, tristemente umano e tristemente “onesto”» (Raimondi-Bottoni), un’insolita chiarezza ed efficacia espositiva; quando non addirittura una maligna, terribile allegria. Per il curato la «forza» cancella gli scrupoli morali e i richiami della vocazione; la sua ideologia è la grottesca parodia della disperata filosofia di Adelchi, morto con la sconsolata visione della convivenza umana dominata da una «feroce | forza» che «il mondo possiede, e fa nomarsi | dritto». Nella prosa del romanzo, la meditazione dell’eroe tragico, spogliata di ogni aura poetica, è degradata a meschina costatazione di un ordine immutabile.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n67" type="comm" target="quarantana/cap2.xml#c2_12590">
+          <ref rend="bold">involta</ref>:  ‘racchiusa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n68" type="comm" target="quarantana/cap2.xml#c2_12623" targetEnd="quarantana/cap2.xml#c2_12627">
+          <ref rend="bold">un tiro di questa sorte</ref>:  ‘un simile colpo basso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n70" type="comm" target="quarantana/cap2.xml#c2_12724" targetEnd="quarantana/cap2.xml#c2_12886">
+          <ref rend="bold">«Posso aver fallato… suo proprio argomento</ref>:  Renzo rimane frastornato e stordito dalla «trama iniqua […] ordita contro di lui», di cui aveva parlato il narratore del <hi rend="italic">Fermo</hi>. Il giovane resta inchiodato alla sua ammissione di colpa per il «tiro» giocato al suo curato («posso aver fallato»), ripetendo la stessa frase ben quattro volte. Intontito davanti ai disegni di don Rodrigo, lo sposo promesso scopre ora il disordine morale del mondo. Se fin qui il giovane era solo un filatore di seta, speranzoso nel futuro e in procinto di sposare la donna amata, a partire da questa pagina il filatore diviene un <hi rend="italic">personaggio da romanzo</hi>, l’eroe destinato ad attraversare un mondo infernale per arrivare al compimento della sua felicità. Il guizzo di ironia colpisce la vieta contesa fra classicisti e romantici: che – nata, in Italia, nel 1816 e vivissima ancora negli anni Venti – non si era del tutto spenta nel 1840. Come già accennato, l’atteggiamento del narratore muta profondamente nel passaggio dalla minuta ai <hi rend="italic">Promessi Sposi</hi>. Se nel romanzo definitivo la voce narrante si fa da parte, lasciando spazio alla teatralità del dialogo, la voce del <hi rend="italic">Fermo e Lucia</hi>, più nervosa e inquieta, non aveva risparmiato interventi ironici e stranianti. Così, quando Fermo, reduce dall’incontro con Vittoria/Perpetua, era tornato dal prete per urlargli contro «Cosa pensare? Mi si è coperta la vista», il narratore aveva commentato che «un Toscano avrebbe detto: non vedo più lume». Successivamente, con un gusto un po’ alla Fielding, i tentativi vani di don Abbondio di trattenere Fermo e di fargli giurare il riserbo sul nome di don Rodrigo erano stati paragonati all’incapacità di Enea di trattenere la moglie Creusa. Il gioco di parole, callido e ricercatamente euritmico, sul nome della serva aveva poi chiuso tutta la scena: «Don Abbondio […] cercò Vittoria; Vittoria non v’era».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n72" type="comm" target="quarantana/cap2.xml#c2_12887" targetEnd="quarantana/cap2.xml#c2_13121">
+          <ref rend="bold">«Perpetua! Perpetua!... dove lo lasceremo.</ref>:  Dopo il furore giovanile di Renzo, il tono si stempera nella commedia degli anziani che riproducono le ripicche quotidiane e i <hi rend="italic">tic</hi> di una lunga convivenza. Don Abbondio scompare di scena come vi era apparso: la sua parte, cominciata coi tormenti e gli incubi notturni, finisce col ritorno al letto, alla ricerca di un riparo, seppure effimero, alla violenza del mondo. Il moralista che aveva giocato con l’ironico avvicinamento all’illustre Condé ora accomuna il povero prete a non meglio identificati «personaggi di più alto affare», ai quali, trovandosi «in frangenti […] fastidiosi», «parve […] un ottimo ripiego mettersi a letto con la febbre».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n74" type="comm" target="quarantana/cap2.xml#c2_12986">
+          <ref rend="bold">balordo</ref>:  ‘stordito’, ‘instupidito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n76" type="comm" target="quarantana/cap2.xml#c2_13122" targetEnd="quarantana/cap2.xml#c2_13362">
+          <ref rend="bold">Renzo intanto… mettersi in salvo</ref>:  Visioni terribili di violenza nascono dalla furia di Renzo; fantasticherie crudeli che vengono fuori da un cupo immaginario <hi rend="italic">romanesque</hi>. Ma Renzo è l’eroe del mondo della Storia e non di quello delle ombre; il suo percorso attraverserà i territori del <hi rend="italic">novel</hi> e non quelli sanguinari del romanzo nero. L’esperienza diretta del male è un velo opaco sugli occhi che inquina la visione dell’innocenza. In questo caso l’incontro col male porta con sé il dubbio persino verso la fedeltà della donna amata.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n78" type="comm" target="quarantana/cap2.xml#c2_13146">
+          <ref rend="bold">strano</ref>:  ‘inaudito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n79" type="comm" target="quarantana/cap2.xml#c2_13243">
+          <ref rend="bold">guarnita</ref>:  ‘piena’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n80" type="comm" target="quarantana/cap2.xml#c2_13314">
+          <ref rend="bold">internandosi</ref>:  ‘sprofondando’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n81" type="comm" target="quarantana/cap2.xml#c2_13325">
+          <ref rend="bold">pedata</ref>:  ‘passo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n82" type="comm" target="quarantana/cap2.xml#c2_13346" targetEnd="quarantana/cap2.xml#c2_13348">
+          <ref rend="bold">dare i tratti</ref>:  ‘morire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n84" type="comm" target="quarantana/cap2.xml#c2_13393" targetEnd="quarantana/cap2.xml#c2_13609">
+          <ref rend="bold">Si rammentò… al suo promesso!</ref>:  Renzo precorre, nella convulsione dell’angoscia, il suo destino di fuggiasco dopo la lunga giornata della rivolta per il pane. Anche in quella faticosa notte, il personaggio, nell’avvicinarsi all’Adda – che era la linea di confine tra lo stato milanese e la repubblica di Venezia – si calmerà non prima di aver ritrovato, nel fondo della coscienza, il volto di Lucia, intermediaria fra gli affanni umani e la consolazione celeste. Solo nei pensieri di Renzo Dio viene «significativamente nominato per la prima volta nel romanzo». Il nome sacro, blasfemo sulle labbra dei bravi nel capitolo precedente, «non è mai passato per la mente di don Abbondio o di Perpetua» se non «in espressioni proverbiali che non impegnano il sentimento religioso. [...] Soltanto nel giovine contadino Dio diventa preoccupante pensiero, voce interiore» (Getto [1964]: 239).
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n86" type="comm" target="quarantana/cap2.xml#c2_13477" targetEnd="quarantana/cap2.xml#c2_13478">
+          <ref rend="bold">tenuto sicuro</ref>:  ‘dato per certo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n87" type="comm" target="quarantana/cap2.xml#c2_13696">
+          <ref rend="bold">nuova</ref>:  ‘notizia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n88" type="comm" target="quarantana/cap2.xml#c2_13506">
+          <ref rend="bold">iniquo</ref>:  ‘ingiusto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n90" type="comm" target="quarantana/cap2.xml#c2_13773" targetEnd="quarantana/cap2.xml#c2_14018">
+          <ref rend="bold">Lucia usciva… parolina all’orecchio</ref>:  Lucia finalmente entra in scena sotto il segno di una bellezza scontrosa e riluttante al mostrarsi; una bellezza che verrà anche messa in discussione, se non negata, nel corso del romanzo. La descrizione del personaggio non è statica ma nei gesti e negli atteggiamenti ne suggerisce l’indole. La giovane appare vestita col «busto» che le donne portavano sul corpetto e cogli «spilli d’argento» con cui le contadine lombarde fermavano l’acconciatura dei capelli (spilli che l’illustrazione di Gonin ha reso famosi anche fuori di Lombardia).
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n92" type="comm" target="quarantana/cap2.xml#c2_13779">
+          <ref rend="bold">attillata</ref>:  ‘agghindata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n93" type="comm" target="quarantana/cap2.xml#c2_13847">
+          <ref rend="bold">dirizzatura</ref>:  ‘scriminatura’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n94" type="comm" target="quarantana/cap2.xml#c2_13885" targetEnd="quarantana/cap2.xml#c2_13887">
+          <ref rend="bold">vezzo di granati</ref>:  ‘monile di pietre rosse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n95" type="comm" target="quarantana/cap2.xml#c2_13892" targetEnd="quarantana/cap2.xml#c2_13893">
+          <ref rend="bold">a filigrana</ref>:  ‘a fili variamente intrecciati’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n96" type="comm" target="quarantana/cap2.xml#c2_13915" targetEnd="quarantana/cap2.xml#c2_13917">
+          <ref rend="bold">filaticcio di seta</ref>:  ‘seta di qualità scadente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n97" type="comm" target="quarantana/cap2.xml#c2_13927">
+          <ref rend="bold">pianelle</ref>:  ‘scarpe senza tacco’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n98" type="comm" target="quarantana/cap2.xml#c2_13956">
+          <ref rend="bold">affezioni</ref>:  ‘emozioni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n100" type="comm" target="quarantana/cap2.xml#c2_11778" targetEnd="quarantana/cap2.xml#c2_14117">
+          <ref rend="bold">«Che?»... questo segno!»</ref>:  La ragazza reagisce all’annuncio di Renzo col doloroso e sincero stupore dell’innocenza offesa; mentre nel <hi rend="italic">Fermo</hi>, con un guizzo di rabbia, definiva il nobilotto seduttore un «demonio in carne» – espressione inimmaginabile sulla bocca della Lucia dei <hi rend="italic">Promessi Sposi</hi>. Nella trama del primo romanzo, il rapporto fra fanciulla perseguitata e suo oppressore veniva declinato secondo i modi della tradizione romanzesca; l’Abbé Prévost, come fa notare Nigro, nel suo adattamento francese della <hi rend="italic">Pamela</hi> di Samuel Richardson aveva contrapposto la cameriera, «ange de lumière», al seduttore «démon incarné». Specificamente per quell’«arrossendo», si veda invece questo cartiglio dalla <hi rend="italic">Pentecoste</hi>, vv. 131-132: «spargi la casta porpora | alle donzelle in viso».
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n102" type="comm" target="quarantana/cap2.xml#c2_14105" targetEnd="quarantana/cap2.xml#c2_14323">
+          <ref rend="bold">«Dunque voi… né loro discorsi</ref>:  Il capitolo si avvia precipitosamente verso la fine. Tutto è giocato su gesti rapidi, cenni e parole appena pronunciate. Il narratore termina questa parte del racconto come si chiude «un atto in teatro, creando l’attesa dell’atto successivo» (Bonora [1972]: 58); ma in questa velocità non mancano le contraddizioni: «come faceva Lucia a sapere che don Abbondio era ammalato? Renzo l’aveva lasciato prima che trovasse conveniente ammalarsi» (Bianchi [1950]: 292). Nelle ultime battute l’improvvisa sospensione delle nozze è già oggetto di pettegolezzi di una folla sfaccendata e grigia.
+                     </note>
+        <note xml:id="DeCristofaro_cap2-n104" type="comm" target="quarantana/cap2.xml#c2_14137">
+          <ref rend="bold">licenziar</ref>:  ‘congedare’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

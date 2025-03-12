@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-23">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap8">
+        <note xml:id="DeCristofaro_cap8-n1" type="comm" target="quarantana/cap8.xml#c8_10001">
+          <ref rend="bold">Intestazione</ref>:  [Francesco] Gonin. Il sesto e ultimo tipo di intestazione raffigura due bracchi che cacciano una lepre. Si tratta dell’allegoria di «un’investigazione», la quale «non è necessariamente attuata dall’antagonista» (Barelli [1991]), come infatti avviene in questo caso, dove la lepre-don Abbondio è braccata, ma senza successo, da Renzo e dai suoi aiutanti. L’immagine proviene da un’illustrazione di Grandville per le <hi rend="italic">Fables</hi> di La Fontaine (cfr. lettera del 27 gennaio 1840 a Gonin). Essa torna ai capp. XIII, XX, XXV, XXIX, XXXIV.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n3" type="comm" target="quarantana/cap8.xml#c8_10002">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale del C. 8 (C).» La “C” maiuscola iniziale contiene in sé il filosofo di età ellenistica mentre è seduto intento a leggere. L’immagine è collegata a fig. 4, dov’è raffigurato don Abbondio, seduto, «con un libro dinanzi». Ne viene fuori, secondo Barelli (1991) la costruzione di «un percorso di lettura anche recursivo»: più che un effettivo ritornare indietro, sfogliando materialmente le pagine, questo tipo di montaggio produce dei raccordi iconografici e metaforici che progressivamente indirizzano la comprensione della storia, operando in maniera implicita e allusiva. Nigro (2002) sostiene che il rapporto tra il capolettera e la fig. 4 suggerisca «la sostanziale identità tra l’utilitarismo del filosofo antico e il “sistema” del parroco».
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n5" type="comm" target="quarantana/cap8.xml#c8_10217" targetEnd="quarantana/cap8.xml#c8_10079">
+          <ref rend="bold">Carneade!... sul capo</ref>:  Filosofo nordafricano del III secolo a.C., scettico radicale, critico dello stoicismo, affilato dialettico, propugnatore di un pensiero relativista e utilitaristico (famosa la sua orazione, riportata da Cicerone nel <hi rend="italic">De re publica</hi>, in cui di fatto scinde onestà e convenienza, con la stringente argomentazione che se i Romani avessero pagato i loro debiti agli Ateniesi sarebbero stati giusti ma stolti), Carneade – nome destinato a un fortunatissimo riuso antonomastico – non è messo lì a caso da Manzoni. Don Abbondio si è ora accomodato («sul suo seggiolone», «con un libricciolo», alle prese con «letteratoni»: si noti lo schizzo pittoresco, affidato ai suffissi alterativi, di dimensioni e qualità degli oggetti), e sta meditando un panegirico di san Carlo: l’erudizione e l’<hi rend="italic">agudeza</hi> del narratore fanno in modo che impatti in Carneade di Cirene, malnoto precursore di quell’autentica, e in lui conclamata, patologia culturale del secolo decimosettimo che fu il probabilismo.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n7" type="comm" target="quarantana/cap8.xml#c8_10032">
+          <ref rend="bold">imbasciata</ref>:  ‘ambasciata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n9" type="comm" target="quarantana/cap8.xml#c8_10080" targetEnd="quarantana/cap8.xml#c8_10224">
+          <ref rend="bold">Bisogna sapere… rimasto arrenato</ref>:  Come già segnalato dal Cantù, si tratta di <hi rend="italic">La dottrina di San Carlo Borromeo spiegata da Vincenzo Tasca veneziano nel duomo di Milano addì 4 novembre 1626</hi>: «[…] ceda pur, Signori, all’ardor di Carlo nell’apparar le scienze l’ingegnoso Archimede […]. Ceda Carneade, a cui la dolcezza della contemplazione toglieva la memoria nel ristorare il corpo». Nigro annota: «Concentrato nella lettura, don Abbondio, come Archimede, non presagisce la “pugnalata” che gli sta arrivando. Come Carneade, è astratto, dal mondo al corpo». libreria: ‘biblioteca’; panegirico: discorso encomiastico. San Carlo Borromeo (1538-1584), cardinale e arcivescovo di Milano, era stato canonizzato nel 1610.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n11" type="comm" target="quarantana/cap8.xml#c8_10225" targetEnd="quarantana/cap8.xml#c8_10420">
+          <ref rend="bold">In quel momento… metter male.»</ref>:  Consumato il gustoso antipasto da bibliofilo, il narratore imprime l’accelerata iniziale all’oliatissimo congegno della notte degli imbrogli e dei sotterfugi: così, in attesa della gran baraonda del «matrimonio a sorpresa», l’«allegro temperato, da opera buffa» (secondo l’acuta annotazione di Geno Pampaloni) si trasferisce, dall’interno farraginoso della testa di don Abbondio ai dialoghi briosi tra il curato, la cameriera ed Agnese. Condisce il tutto il forse più euforico cesello del registro basso-espressionistico che Manzoni si sia concesso in tutto il romanzo: l’onomastica parlante, e smaccatamente caricaturale, dei mariti mancati della donna, Beppe Suolavecchia e Anselmo Lunghigna, che certo non annunciano gran che in quanto a risorse economiche e a prestanza fisica.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n13" type="comm" target="quarantana/cap8.xml#c8_10336" targetEnd="quarantana/cap8.xml#c8_10338">
+          <ref rend="bold">in grazia vostra</ref>:  ‘a causa vostra’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n16" type="comm" target="quarantana/cap8.xml#c8_10421" targetEnd="quarantana/cap8.xml#c8_10643">
+          <ref rend="bold">«Me lo… al muro</ref>:  Glissando sulla «narrazione appassionata» di Perpetua, quella manzoniana governa con plastica vividezza scenografia e coreografia, acrobatica e segnaletica, logistica e ritmica del racconto: dapprima la descrizione precisa della mappa dell’azione, poi la definizione della prospettiva e del campo visuale dei personaggi; infine i movimenti con passo felpato di questi ultimi, che vengono resi per ben due volte mediante raddoppiamento intensivo («zitti zitti», «adagino adagino»), col <hi rend="italic">surplus</hi> della paronomasia a seguire («cheti e chinati»).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n18" type="comm" target="quarantana/cap8.xml#c8_10506">
+          <ref rend="bold">casipole</ref>:  ‘casupole’ (incrocio di “casupola” e “casina”).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n19" type="comm" target="quarantana/cap8.xml#c8_10596">
+          <ref rend="bold">andito</ref>:  ‘ingresso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n21" type="comm" target="quarantana/cap8.xml#c8_10733" targetEnd="quarantana/cap8.xml#c8_10737">
+          <ref rend="bold">Il chiamato… di Lucia</ref>:  In un «angusto Teatro» qual è ormai la casa di don Abbondio, la scena è squarciata da fasci di luce, a tracciare le diagonali che la rendono praticabile, e conoscibile, per gli attori. Se però quella luce rischia di portare allo scoperto i desideri dei promessi sposi, se questi ultimi sono indotti, per conseguire il loro fine, a compiere uno sforzo di attenzione e autoannullamento, ciò che resta, insopprimibile, è la creaturale essenza degli uomini, il loro cuore messo a nudo; e il fragore assordante e ormai quasi meccanico che, nell’iperbolica figurazione del narratore, esso produce.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n23" type="comm" target="quarantana/cap8.xml#c8_10738" targetEnd="quarantana/cap8.xml#c8_10816">
+          <ref rend="bold">Don Abbondio… di luna</ref>:  In posizione dislocata rispetto a quella canonica, ritroviamo il curato in questo pezzo di bravura, un vero “classico” del romanzo dell’Ottocento: una ipotiposi gioconda e al tempo stesso oscura. In realtà l’enfasi sull’obsolescenza degli oggetti e sulla peluria sovrabbondante sul volto ci parla, in due diversi modi, della stessa cosa: della decadenza, fino alla regressione prima animale e poi vegetale, di quest’uomo senza qualità.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n25" type="comm" target="quarantana/cap8.xml#c8_10752">
+          <ref rend="bold">zimarra</ref>:  lungo e raffinato soprabito maschile.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n26" type="comm" target="quarantana/cap8.xml#c8_10758">
+          <ref rend="bold">papalina</ref>:  copricapo di lana tondo e senza tese.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n29" type="comm" target="quarantana/cap8.xml#c8_10895" targetEnd="quarantana/cap8.xml#c8_10911">
+          <ref rend="bold">«Son venticinque… di tasca</ref>:  Le venticinque (cifra, come si è detto, cara alla numerologia manzoniana) monete sonanti che Tonio rende tatticamente al curato raffigurano sant’Ambrogio a cavallo. Tempo della Chiesa e tempo del mercante cominciano qui a corteggiarsi: ancora poche pagine e l’incesto sarà consumato, precorrendo tante figurazioni moderne (si pensi al <hi rend="italic">Mastro-don Gesualdo</hi> di Giovanni Verga, dove il canonico Lupi incarna una Chiesa predatrice e usuraia; e dove i santini, insieme alle ostie, si confondono senz’altro coi «pegni dei denari dati a prestito», rinchiusi nella «cassa della confraternita, come una bara da morto»).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n31" type="comm" target="quarantana/cap8.xml#c8_10909">
+          <ref rend="bold">involtino</ref>:  ‘pacchetto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n34" type="comm" target="quarantana/cap8.xml#c8_10912" targetEnd="quarantana/cap8.xml#c8_11006">
+          <ref rend="bold">«Vediamo,»... «va bene?»</ref>:  Se fin qui don Abbondio – questo estremo baluardo della <hi rend="italic">comedy of humour</hi> alla Jonson – ha fondamentalmente strizzato l’occhio a Il malato immaginario, la scena della restituzione del debito, pur non cancellando la filigrana di quel modello, sembra omaggiare un’altra gloriosa invenzione di Molière, l’avaro Arpagone. La lentezza e la circospezione dei movimenti e delle battute e il bifido inciso «come per tener lontani gli spettatori», dove il complemento oggetto è senza dubbio connotativo, alludono proprio a una dimensione di tipo teatrale.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n36" type="comm" target="quarantana/cap8.xml#c8_10920">
+          <ref rend="bold">rimesse</ref>:  ‘indossò di nuovo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n39" type="comm" target="quarantana/cap8.xml#c8_11007" targetEnd="quarantana/cap8.xml#c8_11622">
+          <ref rend="bold">«Ora,» disse… a salvamento</ref>:  Il paragrafo è un capolavoro di virtuosismo ritmico, di plastica dei corpi, di prossemica dei gesti: dalla scrittura meccanica del curato alla pantomima del calpestìo diversivo da parte di Tonio, dal <hi rend="italic">coup de théâtre</hi> dello spostamento ai lati di questo e di Gervaso, che diventano le quinte antropomorfe della “uscita” dei due fidanzati, alla schidionata in graduazione dei predicati verbali riferiti al prete: sette passati remoti, tutti pertinenti alla sfera interiore, nello spazio di una riga, e nel tempo di una battuta di Renzo. Subito dopo, una sequenza o meglio un soqquadro di azioni, che coinvolgono una miriade di cose: carta, lucerna, tappeto, tavolino, libro, calamaio, polverino. Attorno a tali oggetti (che sono, si badi bene, nello stesso numero dei verbi riferiti a don Abbondio: coincidenza che ci dice molto dei maniacali dosaggi manzoniani) si sdipana anche il movimento a seguire. Le esclamazioni che si rincorrono, le figurazioni surreali di Renzo «a mosca cieca», di Tonio «carpone» e di Gervaso «spiritato», che «gridava e saltellava», compongono il finale della coreografia, che pare infine dileguare e «spostarsi dietro il fondale» (Raimondi-Bottoni).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n41" type="comm" target="quarantana/cap8.xml#c8_11010" targetEnd="quarantana/cap8.xml#c8_11019">
+          <ref rend="bold">si contenti… bianco</ref>:  ‘faccia il favore di rilasciare una ricevuta scritta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n42" type="comm" target="quarantana/cap8.xml#c8_11057">
+          <ref rend="bold">libraccio</ref>:  ‘registro di contabilità’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n43" type="comm" target="quarantana/cap8.xml#c8_11355" targetEnd="quarantana/cap8.xml#c8_11357">
+          <ref rend="bold">con la mancina</ref>:  ‘con la sinistra’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n44" type="comm" target="quarantana/cap8.xml#c8_11360" targetEnd="quarantana/cap8.xml#c8_11363">
+          <ref rend="bold">ghermito… diritta</ref>:  ‘afferrato con la mano destra’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n45" type="comm" target="quarantana/cap8.xml#c8_11381">
+          <ref rend="bold">polverino</ref>:  sabbia finissima utilizzata per asciugare l’inchiostro dopo aver scritto.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n46" type="comm" target="quarantana/cap8.xml#c8_11447">
+          <ref rend="bold">imbacuccarla</ref>:  ‘rigirarla’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n47" type="comm" target="quarantana/cap8.xml#c8_11466">
+          <ref rend="bold">lucignolo</ref>:  treccina di fili da immergere nell’olio da lucerna per aumentare la luce.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n48" type="comm" target="quarantana/cap8.xml#c8_11481">
+          <ref rend="bold">affatto</ref>:  ‘del tutto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n49" type="comm" target="quarantana/cap8.xml#c8_11595">
+          <ref rend="bold">carpone</ref>:  ‘carponi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n50" type="comm" target="quarantana/cap8.xml#c8_11606">
+          <ref rend="bold">raccapezzare</ref>:  ‘recuperare da terra’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n53" type="comm" target="quarantana/cap8.xml#c8_11623" targetEnd="quarantana/cap8.xml#c8_11712">
+          <ref rend="bold">In mezzo a... decimo settimo</ref>:  L’intervento del narratore sposta nei territori, insieme solenni e sornioni, della massima sapienziale l’empirico e tragicomico minimalismo degli eventi. Per operare questo vertiginoso salto dal <hi rend="italic">minimo</hi> al <hi rend="italic">massimo</hi>, e per “secolarizzare” un discorso radicato nell’ideologia cristiana, il narratore – non differentemente dal venerabile zio Tobia del <hi rend="italic">Tristram Shandy</hi>, il quale per giocare con la Storia amava fabbricare fortini e schierare soldatini – fa uso di un apparato figurale di stampo bellico. Ma la battaglia che si svolge dinanzi ai nostri occhi è, ancora una volta, una battaglia di retorica, la cui strategia prevede un equilibrio misurabile tra le forze in campo: si noti la struttura ternaria che governa non solo i predicati di pertinenza di don Abbondio, ma anche le perifrasi che riguardano Renzo.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n55" type="comm" target="quarantana/cap8.xml#c8_11627" targetEnd="quarantana/cap8.xml#c8_11628">
+          <ref rend="bold">serra serra</ref>:  ‘parapiglia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n58" type="comm" target="quarantana/cap8.xml#c8_11713" targetEnd="quarantana/cap8.xml#c8_11791">
+          <ref rend="bold">L’assediato… persona vivente</ref>:  All’arruffata «cospirazione bianca» dei promessi sposi e dei loro complici, conato di un sentimento che ricerca una consacrazione simbolica e istituzionale, il curato reagisce implorando con gli occhi e con la voce il soccorso di quella stessa Chiesa che tradisce giorno dopo giorno, con atti – linguistici e non – di egoismo e di pavidità. Di fronte a lui, però, si distende un paesaggio maestoso quanto indifferente, connotato da una ossimorica luminosità notturna: mentre il campanile proietta solo un’«ombra lunga e acuta», non offrendo scampo al prete assediato.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n61" type="comm" target="quarantana/cap8.xml#c8_11792" targetEnd="quarantana/cap8.xml#c8_12035">
+          <ref rend="bold">Contiguo però… a vedere</ref>:  In ricercato contrasto con l’<hi rend="italic">en plein air</hi> al chiaro di luna, è a partire da un «bugigattolo» che si ridiscende al registro farsesco: ecco allora riaffiorare la lingua espressiva e semplice, gli sbalzi al presente storico, la tendenza paratattica, l’onomatopea.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n63" type="comm" target="quarantana/cap8.xml#c8_11810" targetEnd="quarantana/cap8.xml#c8_11814">
+          <ref rend="bold">un piccolo abituro, un bugigattolo</ref>:  ‘tugurio, casa angusta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n64" type="comm" target="quarantana/cap8.xml#c8_11874">
+          <ref rend="bold">impannata</ref>:  riparo di stoffa o cartaceo assicurato al telaio della finestra.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n65" type="comm" target="quarantana/cap8.xml#c8_11843" targetEnd="quarantana/cap8.xml#c8_11847">
+          <ref rend="bold">con gli occhi tra’ peli</ref>:  mezzo addormentato.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n66" type="comm" target="quarantana/cap8.xml#c8_11954" targetEnd="quarantana/cap8.xml#c8_11955">
+          <ref rend="bold">a martello</ref>:  a rintocchi fermi per dare l’allarme e chiamare a raccolta.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n67" type="comm" target="quarantana/cap8.xml#c8_11971">
+          <ref rend="bold">fenile</ref>:  ‘fienile’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n68" type="comm" target="quarantana/cap8.xml#c8_12005">
+          <ref rend="bold">poltroni</ref>:  ‘codardi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n69" type="comm" target="quarantana/cap8.xml#c8_12064">
+          <ref rend="bold">bravi</ref>:  ‘audaci’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n71" type="comm" target="quarantana/cap8.xml#c8_13401" targetEnd="quarantana/cap8.xml#c8_13405">
+          <ref rend="bold">Ma, prima… un altro</ref>:  Secondo un montaggio di formidabile modernità, prossimo alle tecniche del cinema adulto, il narratore effettua una sorta di “marcia indietro”, andando a ripescare due file di personaggi che erano stati sbalzati fuori dalla via maestra dell’affabulazione. Con finezza critica, Bologna (2013) ha illustrato il funzionamento e il senso di tale principio di composizione (nonché la sua peculiare strategia ritmica), che fra l’altro conquistò e ispirò l’ingegner Gadda.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n73" type="comm" target="quarantana/cap8.xml#c8_12041">
+          <ref rend="bold">all’ordine</ref>:  ‘pronti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n75" type="comm" target="quarantana/cap8.xml#c8_12074" targetEnd="quarantana/cap8.xml#c8_12323">
+          <ref rend="bold">Diremo prima… a giorno</ref>:  Il capo del manipolo di malviventi, chiamato per antifrasi reverenziale – e con adozione straniante del codice dei suoi sgherri – «il signor Griso», indossa vesti militari e decisamente incongrue. Ma lo straniamento non si produce tanto in virtù di questo vestiario eteroclito e dallo statuto così sfuggente, quanto per l’esortazione del Griso («andiamo da bravi»), in cui risuona un accento polifonico e ambivalente: si crea difatti un cortocircuito tra il significato proprio dell’aggettivo “bravo” e l’uso secentesco di “bravo” per indicare “soldati mercenari agli ordini di un signore”. La microsequenza seguente, che è posta a specchio rispetto a quella della “coppia più suocera” che penetra nella dimora di don Abbondio, ci mostra per la prima volta (la prima di una lunga serie) la banda in movimento, di soppiatto, nell’“altro reame” della casa di Lucia: tutto – ruoli, spazi, funzioni – appare molto stilizzato e polarizzato, e avvertiamo l’eco delle «narrazioni magiche» teorizzate da Jameson (1990).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n77" type="comm" target="quarantana/cap8.xml#c8_12173">
+          <ref rend="bold">diviato</ref>:  ‘difilato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n78" type="comm" target="quarantana/cap8.xml#c8_12195">
+          <ref rend="bold">sanrocchino</ref>:  mantellino di stoffa tipico dei viandanti (e di san Rocco, loro protettore, donde il nome).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n79" type="comm" target="quarantana/cap8.xml#c8_13152">
+          <ref rend="bold">bordone</ref>:  bastone col manico ricurvo.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n80" type="comm" target="quarantana/cap8.xml#c8_12275">
+          <ref rend="bold">tristi</ref>:  ‘ribaldi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n83" type="comm" target="quarantana/cap8.xml#c8_12324" targetEnd="quarantana/cap8.xml#c8_12497">
+          <ref rend="bold">Nessun risponde… e silenzio</ref>:  La sequenza è montata con tecnica paratattica, che non solo fa collimare ancora una volta tempi sfalsati, mediante una costante forzatura degli “aspetti” verbali, ma alterna senza soluzione di continuità le prospettive e le voci del narratore e quelle dei personaggi: giocando con i codici e i registri, inserendo frammenti del parlato secondo un sistema diacritico non coerente (si vedano i modi diversi con cui sono introdotti i potenziali «zitto» e «chi va là?» e il reale onomatopeico «st»), intercalando ulteriori solfeggi («adagio adagio», «pian pianissimo»), ospitando con libertà di elocuzione i “riflessi” istintivi, degni di animali della giungla, di quei ladruncoli: «meglio non può andare», «non c’è nessuno», «solitudine e silenzio».
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n85" type="comm" target="quarantana/cap8.xml#c8_12396" targetEnd="quarantana/cap8.xml#c8_12397">
+          <ref rend="bold">vi posta</ref>:  ‘mette in guardia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n86" type="comm" target="quarantana/cap8.xml#c8_12413">
+          <ref rend="bold">e’</ref>:  ‘egli’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n87" type="comm" target="quarantana/cap8.xml#c8_12463" targetEnd="quarantana/cap8.xml#c8_12467">
+          <ref rend="bold">esca… zolfanelli</ref>:  con la fiamma dello zolfanello si appiccava il fuoco alla legna e si accendevano lucerne.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n90" type="comm" target="quarantana/cap8.xml#c8_12498" targetEnd="quarantana/cap8.xml#c8_12709">
+          <ref rend="bold">Lascia due… la casa</ref>:  La scorribanda dei bravi realizza gradualmente il proprio fallimento: se la strategia narrativa avanza sulla falsariga delle precedenti sequenze – con i suoi presenti storici, i suoi periodi spezzettati, l’“impunità organizzata” di una sintassi senza centro né legge, al limite dell’anacoluto, e perfino i congiuntivi messi al bando – , la tecnica stilistica offre alcune punte espressionistiche, come quel «nome-ritratto» del bravo «dicitore»; o come quel «qui giace la lepre» idiomatico che riemerge dalle ceneri dell’<hi rend="italic">Introduzione</hi> al <hi rend="italic">Fermo</hi>, dove costituiva un vero e proprio emblema, o «asterisco» (Nigro), del disagio linguistico (si veda la nostra <hi rend="italic">Introduzione</hi>).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n92" type="comm" target="quarantana/cap8.xml#c8_12509">
+          <ref rend="bold">Grignapoco</ref>:  soprannome che sta per ‘ride poco’: grignà in bergamasco vale infatti ‘digrignare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n93" type="comm" target="quarantana/cap8.xml#c8_12522">
+          <ref rend="bold">acchetare</ref>:  ‘placare’, ‘tacitare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n94" type="comm" target="quarantana/cap8.xml#c8_12578" targetEnd="quarantana/cap8.xml#c8_12581">
+          <ref rend="bold">qui giace la lepre</ref>:  ‘qui sta la difficoltà’ (secondo il vocabolario milanese del Cherubini).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n95" type="comm" target="quarantana/cap8.xml#c8_12609">
+          <ref rend="bold">brulica</ref>:  ‘si agita’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n98" type="comm" target="quarantana/cap8.xml#c8_12710" targetEnd="quarantana/cap8.xml#c8_13000">
+          <ref rend="bold">Mentre costoro… doveva essere</ref>:  La “comica” di cui è protagonista Menico inizia coi primi «passini frettolosi» di costui, fuori campo; e si chiude con una fuga a gambe levate, vista di spalle: mentre quella «tempesta di rintocchi in fila» che erompe dalla campana viene interpretata dai bravacci come un richiamo all’ordine, davanti alla porta della Legge. Bastano alcune riprese («perché… il perché lo sapete», «quel primo tocco di campana così fatto») a connettere questo recuperato filamento di storia alla trama maestra: qui più che altrove l’autore sembra far tesoro della poetica affinata (e affilata) nella <hi rend="italic">Lettre</hi>, nei <hi rend="italic">Materiali estetici</hi> e altrove, a cavallo fra la forma drammaturgica e quella romanzesca – su questo problema si veda soprattutto Lonardi (1990).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n100" type="comm" target="quarantana/cap8.xml#c8_12729">
+          <ref rend="bold">passini</ref>:  ‘passettini’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n101" type="comm" target="quarantana/cap8.xml#c8_12925" targetEnd="quarantana/cap8.xml#c8_12931">
+          <ref rend="bold">Chi… sospetto</ref>:  calco di un modo di dire meneghino («chi è in difett è in sospett»).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n104" type="comm" target="quarantana/cap8.xml#c8_13001" targetEnd="quarantana/cap8.xml#c8_13266">
+          <ref rend="bold">Agli altri… buon ordine</ref>:  Attingendo alla fonte primigenia (ossia all’incipitaria epigrafe omerica dell’<hi rend="italic">Ivanhoe</hi>, nella libera traduzione eroicomica di Alexander Pope), nonché ai dialoghi surreali e allegorici che sfrangiavano il capitolo di apertura del romanzo di Walter Scott, Manzoni decide di specificare il movimento brulicante della folla borghigiana e di regalare un bozzetto del manipolo di delinquenti, con al comando questo «doppio servile del padrone» (Raimondi-Bottoni): ancora una volta, la sovrabbondante <hi rend="italic">imagery</hi> animale che era disseminata nel <hi rend="italic">Fermo</hi> viene, più che asciugata, “agglutinata” in una figurazione a maglie più strette.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n106" type="comm" target="quarantana/cap8.xml#c8_13040" targetEnd="quarantana/cap8.xml#c8_13044">
+          <ref rend="bold">avvezza… viso</ref>:  ‘solita affrontare a viso aperto il nemico e il rischio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n107" type="comm" target="quarantana/cap8.xml#c8_13115">
+          <ref rend="bold">ischiera</ref>:  ‘branco’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n108" type="comm" target="quarantana/cap8.xml#c8_13176">
+          <ref rend="bold">raccozzò</ref>:  ‘mise insieme alla men peggio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n109" type="comm" target="quarantana/cap8.xml#c8_13232">
+          <ref rend="bold">aringa</ref>:  ‘arringa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n111" type="comm" target="quarantana/cap8.xml#c8_13267" targetEnd="quarantana/cap8.xml#c8_13535">
+          <ref rend="bold">Lasciamoli andare… «aiuto! aiuto!»</ref>:  Il cicaleccio fra le due “iper-comari”, l’una zitella e l’altra vedova – dove peraltro si allude a matrimoni «andati a monte» proprio mentre, per ironia della sorte, ne sta andando a monte un altro –, è, sottotraccia, una strampalata <hi rend="italic">mise en abyme</hi> dell’affabulazione, vista come spazio dell’infinito intrattenimento e della funzione “fàtica”, ossia volta al contatto, del linguaggio (basti guardare all’empatia generata dagli intercalari rassicuranti della suocera), dell’astuto differimento della malasorte (alla Sherazade), dell’andatura narrativa ritmata (alla madonna Oretta), a «corserelle e a fermatine»: dove il plastico gioco dei diminutivi restituisce la “cinetica” della situazione e l’alternanza tra gli scatti di Perpetua e le soste di Agnese.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n114" type="comm" target="quarantana/cap8.xml#c8_13536" targetEnd="quarantana/cap8.xml#c8_13872">
+          <ref rend="bold">«Misericordia!... saremo fuori.»</ref>:  Viene qui messa a segno una seconda “ricucitura” narrativa, il cui lembo è ancora l’“istantanea” del tocco di campana. Tuttavia, sotto la pelle degli eventi a catafascio, dei recitativi a due («Cosa c’è? Cosa c’è?» è il ritornello dapprima di Agnese, poi di Perpetua) e delle interiezioni di panico, il brano è ideologicamente non neutrale e culmina in quella costruzione sintatticamente involuta che dà modo a Menico di pronunciare la parola-feticcio del romanzo: lì dove nella minuta si potevano incontrare, a breve distanza, un «per amor del cielo» e «Dio vi liberi». Contrariamente a quanto si pensi, nel romanzo il termine «Provvidenza» è centellinato, e in qualche caso censurato nel corso dell’«eterno lavoro»: ad esempio, nei <hi rend="italic">Promessi Sposi</hi> cade una <hi rend="italic">correctio</hi> paradigmatica, e categorialmente decisiva, presente nel finale del <hi rend="italic">Fermo</hi> («la Fortuna – non osiamo dire la Provvidenza»). Si deve quindi supporre che l’autore, allorché decide di metterlo a testo, intenda enfatizzarne la salienza pure all’interno del mondo narrativo prosaico, disincantato, secolarizzato che configura.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n116" type="comm" target="quarantana/cap8.xml#c8_13651">
+          <ref rend="bold">compariscono</ref>:  ‘compaiono’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n117" type="comm" target="quarantana/cap8.xml#c8_13663">
+          <ref rend="bold">saltelloni</ref>:  ‘saltellando’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n118" type="comm" target="quarantana/cap8.xml#c8_13702">
+          <ref rend="bold">poscia</ref>:  ‘poi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n119" type="comm" target="quarantana/cap8.xml#c8_13707">
+          <ref rend="bold">raffigurata</ref>:  ‘riconosciuta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n120" type="comm" target="quarantana/cap8.xml#c8_13834" targetEnd="quarantana/cap8.xml#c8_13836">
+          <ref rend="bold">gli ho visti</ref>:  ‘li ho visti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n123" type="comm" target="quarantana/cap8.xml#c8_13873" targetEnd="quarantana/cap8.xml#c8_14566">
+          <ref rend="bold">Renzo, ch’era… addosso!»</ref>:  La comitiva del matrimonio a sorpresa fa giusto in tempo a evadere dalla baraonda perché il suo privato, già ferito da un potere feudale, non sia dato in pasto al pubblico. Ma l’orologeria perfetta non è solo quella delle corse a perdifiato; è anche quella delle parole proferite, in una coazione a ripetere che sfiora l’ecolalismo («Cos’è? Dov’è? Chi è?»), tanto dalle comparse d’una folla senza volto, quanto dal sagrestano e dal «console», modesti comprimari di questa zona testuale.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n125" type="comm" target="quarantana/cap8.xml#c8_13922" targetEnd="quarantana/cap8.xml#c8_13924">
+          <ref rend="bold">si potrebbe domandare</ref>:  ‘si sarebbe potuto domandare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n126" type="comm" target="quarantana/cap8.xml#c8_14365">
+          <ref rend="bold">canzonare</ref>:  ‘scherzare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n127" type="comm" target="quarantana/cap8.xml#c8_14368">
+          <ref rend="bold">sagrare</ref>:  ‘bestemmiare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n129" type="comm" target="quarantana/cap8.xml#c8_14567" targetEnd="quarantana/cap8.xml#c8_14789">
+          <ref rend="bold">A quest’avviso… casa sua</ref>:  La “descrizione della battaglia” dura lo spazio di mezzo capoverso, pieno di sintagmi del lessico guerriero, da «tumulto» a «ordini», da «capitano» a «esercito», da «vanguardia» a «corpo della battaglia» (cioè “schiera”); per poi regredire sintomaticamente alla creaturalità d’una natura domestica e disarmata (il «nibbio» che porta via «i pulcini da un’aia deserta»), che non esita a mescolare tropi di ambito entomologico e similitudini ornitologiche. Così l’immaginario narrativo batte in ritirata e «si sparpaglia», quasi a imitazione dei movimenti dei personaggi che lo popolano.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n131" type="comm" target="quarantana/cap8.xml#c8_14790" targetEnd="quarantana/cap8.xml#c8_14995">
+          <ref rend="bold">Era un… di malattia</ref>:  Dileguato il «tumulto», smobilitata la velleitaria e a sua volta «tumultuosa» consulta, rincasati i paesani, gli eventi di quel microcosmo tornano al loro luogo naturale: nelle dimore della gente comune, dove è custodita la <hi rend="italic">privacy</hi> degli altri più che la propria. È lì che i pettegolezzi, quasi antropomorfizzandosi e piegandosi alle leggi biologiche del vivente, sono vinti dalla stanchezza fisica e si preparano a risorgere, ancora più insidiosi, all’indomani; così che la fatalità di quel decorso anticipa in miniatura lo stesso esito della “cantafavola”. Di lontano, Manzoni sembra qui intravedere il momento in cui i cronotopi dell’avventura finiranno per esser rimpianti, nell’angustia di una quotidianità «senza idillio» (Raimondi [1974]). Forse proprio per questo, dopo il ricercato iperrealismo mimetico della posa del «console» campagnolo, si concede, nello schizzo delle chiome dei bravi che lo minacciano, un mitologico <hi rend="italic">divertissement</hi> in codice: ammiccando ai «Franchi della prima razza» – nonché del “primo tempo” della sua drammaturgia. Lo straniante paragone è assai più di una parodia anticavalleresca: è, piuttosto, uno spaesante <hi rend="italic">cameo</hi> dell’<hi rend="italic">Adelchi</hi> conficcato nel corpo del romanzo.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n133" type="comm" target="quarantana/cap8.xml#c8_14878">
+          <ref rend="bold">vangile</ref>:  piccola asta metallica piantata alla base del manico della vanga, su cui si preme col piede per far affondare meglio la lama nel terreno.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n136" type="comm" target="quarantana/cap8.xml#c8_14996" targetEnd="quarantana/cap8.xml#c8_15456">
+          <ref rend="bold">I nostri… saper di che</ref>:  La scena, dopo la fuga affannosa e il ricovero insperato in un «campo disabitato», si assesta progressivamente, stringendosi attorno alla figura di Menico: è lui, in un <hi rend="italic">mistery play</hi> (o meglio un “carnevaletto”) di immediata leggibilità, l’«angelo tutelare» giunto a salvare Renzo, Lucia ed Agnese da «quel diavolo in casa»; meriterà pertanto le ricompense, i conforti e la compassione di costoro. Ma soprattutto – lo scopriamo solo nelle ultime righe – Menico diviene, in maniera discreta fin quasi all’indecidibilità, l’umana controfigura del contraddittorio sentire di Lucia: di quel pudore che, proprio come era appena capitato a lui, «trema nelle tenebre, senza saper di che».
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n138" type="comm" target="quarantana/cap8.xml#c8_15457" targetEnd="quarantana/cap8.xml#c8_15801">
+          <ref rend="bold">«E la… di me.»</ref>:  Infine – e simmetricamente rispetto alla pelosità ispida e bruna di don Abbondio, nel cui segno s’era inaugurato il capitolo – <hi rend="italic">appare</hi> fra Cristoforo, con la «barba d’argento» che risplende sul viso smunto grazie ai raggi lunari. La contrapposizione <hi rend="italic">in figuris</hi> tra Chiesa buona e Chiesa cattiva non potrebbe essere più radicale e inappellabile. Ma è prerogativa della Chiesa buona non tanto salvaguardare in astratto i valori, quanto durare la lotta quotidiana contro le ingiustizie del mondo, anche a costo di sospendere le «regole» e di abusare della suggestione oscurantistica di una lingua morta e risuonante.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n140" type="comm" target="quarantana/cap8.xml#c8_15506" targetEnd="quarantana/cap8.xml#c8_15507">
+          <ref rend="bold">bel bello</ref>:  ‘con modi cauti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n141" type="comm" target="quarantana/cap8.xml#c8_15608">
+          <ref rend="bold">laico</ref>:  frate non ordinato sacerdote.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n142" type="comm" target="quarantana/cap8.xml#c8_15703" targetEnd="quarantana/cap8.xml#c8_15705">
+          <ref rend="bold">omnia munda mundis</ref>:  ‘tutto è puro per i puri’ (Paolo, <hi rend="italic">Epistola a Tito</hi> 1, 15).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n144" type="comm" target="quarantana/cap8.xml#c8_15802" targetEnd="quarantana/cap8.xml#c8_15907">
+          <ref rend="bold">«Fidatevi pure,»... de’ sotterfugi</ref>:  Lo scarto fra le parole di paternalistico conforto spese dal frate, persuaso di essere il solo ad avere controllo della situazione mentre è l’unico fra tutti (ivi compresi i lettori) a non conoscere la verità degli eventi, produce un ironico sorriso nella voce narrante; e quella metaletteraria “sigla” posta a suggello – un’insegna del capriccio narrativo, paragonabile alla linea serpentina che dal <hi rend="italic">Tristram Shandy</hi> di Sterne transita all’esergo di <hi rend="italic">Peau de chagrin</hi> di Balzac – può persino fornire a Lucia una giustifica alla sua poco rituale «dissimulazione».
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n147" type="comm" target="quarantana/cap8.xml#c8_15908" targetEnd="quarantana/cap8.xml#c8_15604">
+          <ref rend="bold">«Dopo di ciò,»... di santo</ref>:  Siamo a un punto di snodo della trama, quello che più decisamente ha contribuito (non senza forzature) a rubricare i <hi rend="italic">Promessi Sposi</hi> nella classe di testi inaugurata dal romanzo ellenistico: quasi la “forma” della trama fosse riconducibile a quell’essenziale matrice morfologica, e tutto il resto non avesse che carattere secondario e accessorio. Per fortuna, la complessità dell’opera e la sua resistenza a consimili riduzioni tipologiche sono ormai dati condivisi dai più; eppure, non smette di stonare, tanto più in una concertazione attenta e raffinata come quella del capitolo, il modo un po’ abruptivo e demiurgico con cui fra Cristoforo posiziona le pedine degli «sposi rimasti promessi». Tanto che la replica finale all’eventuale contestazione circa i «mezzi di trasporto» potrebbe nascondere un’obliqua autodifesa d’autore a ben più radicali contestazioni sul «potere» (parola-chiave dell’ultima frase) detenuto dal frate «santo».
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n149" type="comm" target="quarantana/cap8.xml#c8_16057" targetEnd="quarantana/cap8.xml#c8_16058">
+          <ref rend="bold">padre guardiano</ref>:  il padre superiore di un convento francescano.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n151" type="comm" target="quarantana/cap8.xml#c8_16172">
+          <ref rend="bold">baroccio</ref>:  ‘carro’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n154" type="comm" target="quarantana/cap8.xml#c8_16216" targetEnd="quarantana/cap8.xml#c8_16508">
+          <ref rend="bold">Restava da… già accaduto</ref>:  Il sermone privato di fra Cristoforo è solo in apparenza convenzionale e omiletico: in realtà, <hi rend="italic">contiene</hi> in sé delle bestemmie, e la prima bestemmia è quella di un «tirannello in retta linea» che sfida Dio, al pari di Napoleone Bonaparte. Sembra poi innescarsi una sorta di triangolazione dinamica fra questa pagina, il profetico e punitivo «verrà un giorno…» del capitolo VI e il «Giudizii di Dio!» che sigillerà l’<hi rend="italic">hora mortis</hi> di don Rodrigo. Alla famiglia perseguitata, invece, il frate riserva parole di commossa consolazione, alle quali fa eco la voce, subito inquieta e problematica (nel grande solco delle <hi rend="italic">Confessiones</hi> agostiniane), del narratore: mai così schietto nell’esternazione del suo irriducibile “fondo” ideologico.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n156" type="comm" target="quarantana/cap8.xml#c8_16371">
+          <ref rend="bold">tribolazione</ref>:  ‘pena, dolore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n158" type="comm" target="quarantana/cap8.xml#c8_16509" targetEnd="quarantana/cap8.xml#c8_16816">
+          <ref rend="bold">Senza aspettar… pianse segretamente</ref>:  Questo famoso notturno al chiaro di luna, che precede l’<hi rend="italic">enclave</hi> lirica in prima persona dell’«addio» propriamente detto, in qualche modo lo prepara anche: poiché vive in una dimensione mediana fra il referto di un narratore onnisciente e sovrano e il monologo interiore, emozionato e segreto, di Lucia. In qualche modo, se nelle prime battute del romanzo l’«occhio di Dio» (cfr. Eco [1989]) aveva effettuato un progressivo ingrandimento da «quel ramo del lago di Como» all’ambiente dell’azione, cioè dalla geografia alla storia, stavolta quel movimento scava ancora più a fondo, infiltrandosi nell’<hi rend="italic">intérieur</hi> della protagonista e gettando sulla coscienza figurata una sorta di «luce di penombra». L’elemento che rende possibile tale graduale accesso ai territori della psiche è quello equoreo: è attraverso lo spettro delle sensazioni che l’acqua suscita, attraverso i riverberi mutevoli del cielo sulla sua superficie, ma soprattutto attraverso la modulazione della sua sinfonia naturale (tra il «frangersi» del «fiotto», il «gorgoglìo», il «tonfo» etc.) che si può giungere, in virtù d’una stringente filosofia analitica, alla visione dapprima dei «remi […] grondanti», dell’«onda segata» e della «striscia increspata», e dopo dell’intero panorama di «grand’ombre» e di «tenebre», sovrastato dalla minaccia del castello di don Rodrigo. L’acqua, cioè, induce la sinestesia; e quest’ultima apre alla psicologia.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n160" type="comm" target="quarantana/cap8.xml#c8_16536">
+          <ref rend="bold">alterata</ref>:  ‘emozionata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n161" type="comm" target="quarantana/cap8.xml#c8_16556" targetEnd="quarantana/cap8.xml#c8_16558">
+          <ref rend="bold">barattata la parola</ref>:  ‘scambiata la parola d’ordine’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n162" type="comm" target="quarantana/cap8.xml#c8_16566">
+          <ref rend="bold">proda</ref>:  ‘riva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n164" type="comm" target="quarantana/cap8.xml#c8_16817" targetEnd="quarantana/cap8.xml#c8_17012">
+          <ref rend="bold">Addio, monti… suoi monti</ref>:  Oltre a rappresentare una pausa elegiaca dall’intenso pathos e dalla tecnica sorvegliatissima, una sorta di novello «cantuccio» lirico debitore a modelli diversi e prestigiosi (tra gli altri, si sono segnalati Rousseau e Scott, ma anche <hi rend="italic">La vergine d’Orléans</hi> di Schiller, letta col filtro di Madame de Staël) e destinato a svettare nel canone della letteratura italiana, il “primo movimento” dell’Addio ai monti agisce anche sul piano dell’ideologia. Vi si può leggere in embrione, difatti, quella sorta di apoteosi della «santa campagna» che sarebbe stata, solo qualche decennio più tardi, il contraccolpo culturale e mitografico dell’«apocalissi operaia» (cfr. Mazzacurati [1996]). Da questo punto di vista il cimento di Manzoni, senza dubbio “antico” nell’impianto stilistico e persino nella base metrica (si considerino lo scialo nominale, il solenne fraseggio musicale, i versi e le rime disseminati e dissimulati nella prosa), si affaccia con curiosità conoscitiva e perplessità agorafobica sull’abisso della modernità, ben oltre le stantie e idilliche retoriche degli <hi rend="italic">otia</hi> e dei «topi di campagna». Finisce così per torcere lo stesso paradigma della natura, facendolo reagire con le nuove inquietudini economiche di cui lo spazio cittadino è teatro; e provocando un cruciale senso di sospensione allegorico.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n166" type="comm" target="quarantana/cap8.xml#c8_17013" targetEnd="quarantana/cap8.xml#c8_17207">
+          <ref rend="bold">Ma chi… più grande</ref>:  Il «ma» che apre il paragrafo lascia credere che l’Addio abbia accolto fin qui, nelle ampie volute della sua prosa in forma di poesia, una sorta di falso movimento. Esso ha parlato, in modo insieme analitico e struggente, di qualcosa che è remoto dal personaggio che sta vivendo e trasfigurando quei momenti: qualcosa, cioè, che non appartiene a Lucia, alla semplice e innocente Lucia, ai suoi silenzi composti, al suo sublime minimale, ai suoi frustrati sogni di sposa. Lei non può che elaborare la disillusione e il distacco forzato dalle dimore del passato, e la nostalgia di un futuro che sembra dissolversi; non può che ricercare l’illusione di una consolazione trascendentale nella <hi rend="italic">Imitatio Christi</hi> di Tommaso da Kempis (un cui pensiero, peraltro già ripreso nella <hi rend="italic">Morale cattolica</hi>, è qui ricalcato nel lacerto più marcatamente provvidenzialistico).
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n168" type="comm" target="quarantana/cap8.xml#c8_17120">
+          <ref rend="bold">sogguardata</ref>:  ‘guardata di sottecchi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap8-n170" type="comm" target="quarantana/cap8.xml#c8_17208" targetEnd="quarantana/cap8.xml#c8_17238">
+          <ref rend="bold">Di tal… dell’Adda</ref>:  La formula conclusiva, apparentemente didascalica come quella di un teorema, è da prendere molto sul serio: giacché, mentre da un lato riconduce il canto fin qui modulato alla meditazione di Lucia, dall’altro tiene a specificare che «gli altri due pellegrini» stanno elaborando pensieri non identici, ma «poco diversi». In altre parole, se è vero che il racconto romanzesco ha eletto la giovane donna a <hi rend="italic">focus</hi>, è altrettanto vero che sulla barca che punta «alla riva destra dell’Adda» sta viaggiando anche Renzo: quel Renzo che, viceversa, nel capitolo XVIII «cammina cammina» dai reami già battuti della fiaba all’imprevisto della città, spazio per eccellenza della sovradeterminazione sociale (ma anche dell’autodeterminazione dell’individuo) e dell’accumulazione capitalistica; quel Renzo che, da orfano, farà esperienza, darà prova di spirito imprenditoriale, <hi rend="italic">si imborghesirà</hi>. Forse allora l’Addio ai monti, nel complesso dei suoi due movimenti così distinti, che paiono elidersi a vicenda, intende incorporare e <hi rend="italic">sciogliere</hi> la differenza profonda che si dà fra quei due soggetti, uniti dall’amore e separati dalla storia.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

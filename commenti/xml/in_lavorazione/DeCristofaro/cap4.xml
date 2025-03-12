@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap4">
+        <note xml:id="DeCristofaro_cap4-n3" type="comm" target="quarantana/cap4.xml#c4_10001">
+          <ref rend="bold">Intestazione</ref>:  F[rancesco] Gonin. La nave in tempesta è il terzo tipo di intestazione di capitolo; appare per altre cinque volte, ai capp. XII, XXI, XXIV, XXX, XXXVII. Qui sintetizza chiaramente la situazione di pericolo nella quale si trovano i due promessi, bisognosi di un valido nocchiero che li riconduca in porto. La nave nella tempesta sintetizza peraltro la storia personale di fra Cristoforo, cui il capitolo è interamente dedicato.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n5" type="comm" target="quarantana/cap4.xml#c4_10001">
+          <ref rend="bold">Capolettera</ref>:  F[rancesco] G[onin]. «Iniziale.» Abbiamo già sottolineato il riscontro luministico e sentimentale tramonto/alba che contrappone e unisce questo incipit alla conclusione del III capitolo. La continuità tra dimensione iconica e dimensione verbale è qui realizzata facendo in modo che la colonna del primo piano (scollegata dalla descrizione paesistica presente nel romanzo) possa essere interpretata come la “I” maiuscola dell’articolo determinativo “Il” con cui inizia il capitolo.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n7" type="comm" target="quarantana/cap4.xml#c4_10001" targetEnd="quarantana/cap4.xml#c4_10024">
+          <ref rend="bold">Il sole… aspettato</ref>:  Dopo l’attraversamento delle tenebre dell’ingiustizia e della paura, assistiamo finalmente al ritorno della luce. L’alba dà l’avvio alla giornata del religioso: «Fra Cristoforo spunta assieme al sole […] e lo segue nel suo corso […]. Oltre che latore di Cristo, il cappuccino è <hi rend="italic">figura Dei</hi>. Su di sé assume Cristo ed il Calvario» (Nigro [1996]: 146-147).
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n10" type="comm" target="quarantana/cap4.xml#c4_10025" targetEnd="quarantana/cap4.xml#c4_10375">
+          <ref rend="bold">È Pescarenico… qualche sciagura</ref>:  Anche stavolta, come nel primo capitolo, alla bellezza della natura e del paesaggio autunnale, striato dal volo delle foglie di gelso, si contrappone il dolore dell’uomo: quello della disperazione quotidiana in un tempo di carestia. A partire da questa pagina, ha scritto Calvino (1973), i <hi rend="italic">Promessi Sposi</hi> diventano «il romanzo della carestia»: attraverso la prospettiva di Cristoforo lo sguardo del narratore si stende sopra una terra guasta, una «natura abbandonata da Dio», dove si accumulano le immagini scheletriche di una società fragile. Su questo sfondo, le figure incontrate dal frate portano i segni della crisi e dell’incertezza: chi semina ha paura di sprecare i semi in una terra arida e chi zappa lo fa «svogliatamente», senza motivazione, perché diffida delle possibilità di successo. Nel <hi rend="italic">Fermo</hi> la descrizione era ancora più cruda: l’occhio narrante procedeva nel male della Storia senza nascondere né le tristi lotte fra poveri per un tozzo di pane, né l’avanzata di chi era stato costretto a mendicare a causa della guerra e della carestia. La magrezza della «fanciulla scarna», che si sovrappone, confondendovisi, a quella della «vacchetta», conclude il racconto della quotidianità degradata dell’uomo che vive nelle condizioni dell’animale, imparando a mangiare le erbe, pur di sopravvivere al centro dell’inferno.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n12" type="comm" target="quarantana/cap4.xml#c4_10028">
+          <ref rend="bold">terricciola</ref>:  ‘piccolo villaggio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n13" type="comm" target="quarantana/cap4.xml#c4_10071">
+          <ref rend="bold">fabbrica</ref>:  ‘edificio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n14" type="comm" target="quarantana/cap4.xml#c4_10058">
+          <ref rend="bold">tramagli</ref>:  ‘reti da pesca’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n15" type="comm" target="quarantana/cap4.xml#c4_10074">
+          <ref rend="bold">tuttavia</ref>:  ‘tuttora’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n16" type="comm" target="quarantana/cap4.xml#c4_10160" targetEnd="quarantana/cap4.xml#c4_10161">
+          <ref rend="bold">ancor tesi</ref>:  ‘non ancora potati’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n17" type="comm" target="quarantana/cap4.xml#c4_10187">
+          <ref rend="bold">guazza</ref>:  ‘rugiada’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n18" type="comm" target="quarantana/cap4.xml#c4_10222" targetEnd="quarantana/cap4.xml#c4_10224">
+          <ref rend="bold">tender la mano</ref>:  ‘chieder l’elemosina’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n19" type="comm" target="quarantana/cap4.xml#c4_10314">
+          <ref rend="bold">scarna</ref>:  ‘ossuta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n22" type="comm" target="quarantana/cap4.xml#c4_10376" targetEnd="quarantana/cap4.xml#c4_10414">
+          <ref rend="bold">- Ma perchè… queste domande</ref>:  Il narratore abbandona fra Cristoforo sulla strada verso Agnese e Lucia e impiega il tempo del cammino rispondendo alla domanda di uno dei venticinque lettori. La storia del personaggio occupa lo spazio eversivo di una digressione: procedimento tipico del romanzo umoristico, qui traslato nel registro serio del romanzo storico. Testimonianza importante, questa, della presenza problematica e vitale dell’«effetto Sterne» (cfr. Mazzacurati [1990]) nel laboratorio della scrittura manzoniana. Il «padre provinciale» è il capo della provincia ecclesiastica cui il convento appartiene.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n24" type="comm" target="quarantana/cap4.xml#c4_10415" targetEnd="quarantana/cap4.xml#c4_10566">
+          <ref rend="bold">Il padre… di morso</ref>:  Manzoni sostituisce, all’indicazione della provenienza del personaggio, un triplo asterisco, «mentre il <hi rend="italic">Fermo</hi> indicando Cremona finiva col togliere qualcosa alla figura di fra Cristoforo, rendendola in un certo modo troppo familiare, troppo limitata da un’origine che si ama invece sentire un po’ remota e quasi mitica» (Getto [1964]: 173). Generazioni di interpreti hanno condotto appassionate ricerche sull’identità storica di padre Cristoforo, che hanno portato a un Cristoforo Picenardi da Cremona morto nel giugno 1630, o ad un Bernardo da Corleone che prese i voti dopo aver ucciso in duello un commissario, per sottrarsi alla vendetta dei suoi congiunti. Il volto del frate proviene invece dalla ritrattistica della religiosità barocca; quasi una tela di Zurbarán. La barba bianca resta impressa nella memoria dei personaggi come immagine ora di conforto (Renzo), ora di angoscia (don Rodrigo). Il dettaglio fisiognomico che accosta gli occhi a cavalli, di ascendenza platonica, ci parla del perenne conflitto tra un carattere ardente e una volontà incline all’autocontrollo e alla repressione degli impulsi primari. Già da questa prima pagina del nuovo capitolo Cristoforo è un personaggio non rappacificato; un uomo inquieto, in movimento: che, sin dal suo ingresso nella narrazione, cammina al centro di un mondo irredimibile.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n26" type="comm" target="quarantana/cap4.xml#c4_10567" targetEnd="quarantana/cap4.xml#c4_10625">
+          <ref rend="bold">Il padre… da signore</ref>:  Il nome di Lodovico evoca fasti guerrieri e orgoglio feudale. Forse in questa selezione onomastica ha giocato una reminiscenza shakespeariana (e Shakespeare viene peraltro subito evocato tramite la citazione di Banco e Macbeth): frate Lodowick è il nome assunto dal duca protagonista di <hi rend="italic">Misura per misura</hi> quando decide di travestirsi da religioso «per poter soddisfare certa sua vanagloria, come ebbe a notare Schlegel, di “far le parti di una provvidenza invisibile”: e non sarà stato presente questo nome all’autore dei <hi rend="italic">Promessi Sposi</hi> al momento di battezzare il figlio del mercante, presentato come un “protettor degli oppressi, e un vendicatore dei torti”, e inquietato dalla “fantasia di farsi frate”, e divenuto poi realmente frate e così inesorabilmente sconfitto dalla Provvidenza nell’elementare strategia da lui messa in atto per mettere in salvo Renzo e Lucia?» (Getto [1971]: 73).
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n28" type="comm" target="quarantana/cap4.xml#c4_10618">
+          <ref rend="bold">traffico</ref>:  ‘traffici’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n31" type="comm" target="quarantana/cap4.xml#c4_10626" targetEnd="quarantana/cap4.xml#c4_11000">
+          <ref rend="bold">Nel suo nuovo… e giovinetto</ref>:  Le ombre del passato mercantile angosciano la memoria del parvenu: sono presenze terribili che il narratore paragona all’orrore di Macbeth verso il fantasma di Banco, che egli stesso ha ucciso. Lo spettro che terrorizza la nuova identità dell’antico mercante è quello del «banco» di vendita. Mettendo in scena il disprezzo aristocratico verso il commercio, e in generale verso il lavoro, Manzoni riattualizza un aspetto della vita secentesca già oggetto di riprovazione da parte degli illuministi lombardi. L’involontario motto di spirito («celia») dell’«onesto mangiatore» (ossia dell’uomo che pensa solo al cibo e non vorrebbe litigare con nessuno, specie se rischia di perdere un invito a pranzo o cena) riporta in superficie ciò che quella piccola società di «parassiti» tentava di rimuovere: le origini che l’ospite cerca affannosamente di nascondere e di dimenticare. La scena, che manca nel <hi rend="italic">Fermo</hi>, è anche una riflessione sull’inconsistenza etica delle distinzioni di casta.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n33" type="comm" target="quarantana/cap4.xml#c4_10676">
+          <ref rend="bold">balle</ref>:  ‘balle di merci’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n34" type="comm" target="quarantana/cap4.xml#c4_10678">
+          <ref rend="bold">libro</ref>:  ‘libro dei conti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n35" type="comm" target="quarantana/cap4.xml#c4_10680">
+          <ref rend="bold">braccio</ref>:  unità di misura corrispondente a circa 1,8288 metri.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n36" type="comm" target="quarantana/cap4.xml#c4_10695">
+          <ref rend="bold">pompa</ref>:  ‘ricchezza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n37" type="comm" target="quarantana/cap4.xml#c4_10697">
+          <ref rend="bold">mense</ref>:  ‘banchetti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n38" type="comm" target="quarantana/cap4.xml#c4_10759">
+          <ref rend="bold">sparecchiare</ref>:  ‘mangiare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n39" type="comm" target="quarantana/cap4.xml#c4_10764">
+          <ref rend="bold">apparecchiato</ref>:  ‘allestito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n40" type="comm" target="quarantana/cap4.xml#c4_10852">
+          <ref rend="bold">sopire</ref>:  ‘calmare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n41" type="comm" target="quarantana/cap4.xml#c4_13780">
+          <ref rend="bold">scandolo</ref>:  ‘scandalo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n42" type="comm" target="quarantana/cap4.xml#c4_10924">
+          <ref rend="bold">angustie</ref>:  ‘sofferenze’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n44" type="comm" target="quarantana/cap4.xml#c4_11001" targetEnd="quarantana/cap4.xml#c4_11462">
+          <ref rend="bold">Lodovico aveva… fosse capitato</ref>:  L’inclinazione verso la giustizia, che tormenta il personaggio fin dalla giovinezza, viene presentata in principio come una «gara» nei confronti del mondo; un puntiglio simile al desiderio paterno di essere accolto nella società dei nobili («principali»), oppure allo sfoggio della propria ricchezza. Dall’«orrore spontaneo e sincero per le angherie» di Lodovico nasceranno i combattimenti di fra Cristoforo contro il male e le sue incarnazioni. Ma mentre il religioso segue con convinzione una legge morale ineludibile, Lodovico vive ancora immerso nella contraddizione di «adoperare raggiri e violenze», di comportarsi come tutti i piccoli potenti di quel mondo, per proteggere quanti gli hanno chiesto aiuto; infine, di compiere il bene quasi per capriccio o, come dice esplicitamente il narratore del <hi rend="italic">Fermo</hi>, spinto dal «timore di perdere ad un tratto tutta la sua riputazione». Nell’ottica ancora mondana di Lodovico, la possibilità di divenire frate è un’astuzia per sottrarsi ai meccanismi perversi della società, un modo per cavarsi dagli «impicci» del presente. L’irrequietudine del giovane che non sa adeguarsi all’etichetta del bel mondo si trasforma, dopo la conversione, in una religiosità inquieta e incapace di riposo, sempre attiva nel porgere sostegno ed aiuto a chi ne ha bisogno; infine, per fra Cristoforo l’ingresso nella vita religiosa non sarà un rifugio dai mali del mondo ma una posizione privilegiata per combatterli e soccorrere chi ne è rimasto vittima, in un cammino che lo condurrà dritto fra gli appestati nell’inferno del lazzeretto di Milano.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n46" type="comm" target="quarantana/cap4.xml#c4_11041">
+          <ref rend="bold">accostumato</ref>:  ‘abituato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n47" type="comm" target="quarantana/cap4.xml#c4_11071">
+          <ref rend="bold">ingozzarne</ref>:  ‘ingoiarne’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n48" type="comm" target="quarantana/cap4.xml#c4_11130">
+          <ref rend="bold">famigliarmente</ref>:  ‘alla pari’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n49" type="comm" target="quarantana/cap4.xml#c4_11216">
+          <ref rend="bold">ruggine</ref>:  ‘astio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n50" type="comm" target="quarantana/cap4.xml#c4_11245">
+          <ref rend="bold">briga</ref>:  ‘lite’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n51" type="comm" target="quarantana/cap4.xml#c4_11293">
+          <ref rend="bold">tribolato</ref>:  ‘assillato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n52" type="comm" target="quarantana/cap4.xml#c4_11354">
+          <ref rend="bold">arrischiati</ref>:  ‘temerari’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n53" type="comm" target="quarantana/cap4.xml#c4_11373">
+          <ref rend="bold">scoraggito</ref>:  ‘scoraggiato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n54" type="comm" target="quarantana/cap4.xml#c4_11376">
+          <ref rend="bold">trista</ref>:  ‘cattiva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n55" type="comm" target="quarantana/cap4.xml#c4_11454">
+          <ref rend="bold">accidente</ref>:  ‘evento fortuito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n58" type="comm" target="quarantana/cap4.xml#c4_11463" targetEnd="quarantana/cap4.xml#c4_11965">
+          <ref rend="bold">Andava un… vil sangue.»</ref>:  L’incontro col «soverchiatore di professione» avviene con una sequenza quasi cinematografica in cui il nobile, seguito dal codazzo di bravi, appare da lontano appena distinguibile e prende poi figura mentre si avvicina. Il contrasto fra i due nasce per motivi di precedenza. Il cosiddetto «diritto di strada» era stato oggetto di riflessione in più di un teorico della vita cavalleresca del Seicento: si pensi a Giovanni Battista Olevano, autore presente nella biblioteca di don Ferrante (cap. XXVII), o a Francesco Birago, che scrisse le sue opere in opposizione a quelle dell’Olevano. Le brevi battute che costituiscono il dialogo fra i duellanti sono di prammatica e le ritroviamo in entrambe le opere citate. Nell’immaginario collettivo lo scontro per il diritto di passo è diventato quasi emblema dell’orgoglio feudale, tanto da essere fatto più volte oggetto di parodia: basti pensare alla lite fra Susanna e Marcellina nelle <hi rend="italic">Nozze di Figaro</hi> mozartiane o, in tempi più recenti, all’indimenticabile duello dell’<hi rend="italic">Armata Brancaleone</hi> (1966) di Mario Monicelli, fra Brancaleone (Gassman) e Teofilatto dei Leonzi (Volonté), in una scena che presenta forti vicinanze, seppure in chiave di rovesciamento parodico, con il passaggio manzoniano. Gli incisi del narratore sono altrettante stoccate all’idiozia umana e alla sua pericolosità sociale.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n60" type="comm" target="quarantana/cap4.xml#c4_11482" targetEnd="quarantana/cap4.xml#c4_11483">
+          <ref rend="bold">altre volte</ref>:  ‘in passato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n61" type="comm" target="quarantana/cap4.xml#c4_11543" targetEnd="quarantana/cap4.xml#c4_11544">
+          <ref rend="bold">di professione</ref>:  ‘per costume’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n62" type="comm" target="quarantana/cap4.xml#c4_11611">
+          <ref rend="bold">rasente</ref>:  ‘vicinissimo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n63" type="comm" target="quarantana/cap4.xml#c4_11687">
+          <ref rend="bold">perocché</ref>:  ‘dal momento che’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n64" type="comm" target="quarantana/cap4.xml#c4_11763" targetEnd="quarantana/cap4.xml#c4_11764">
+          <ref rend="bold">cipiglio imperioso</ref>:  ‘espressione autoritaria’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n65" type="comm" target="quarantana/cap4.xml#c4_11781">
+          <ref rend="bold">diritta</ref>:  ‘destra’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n66" type="comm" target="quarantana/cap4.xml#c4_11822">
+          <ref rend="bold">daghe</ref>:  ‘spade corte con lame a due tagli’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n68" type="comm" target="quarantana/cap4.xml#c4_12155" targetEnd="quarantana/cap4.xml#c4_12346">
+          <ref rend="bold">«Com’è andata?... i capelli.»</ref>:  Le parole della folla sono un’innovazione dei <hi rend="italic">Promessi Sposi</hi> rispetto al <hi rend="italic">Fermo</hi>. La doppia uccisione è avvenuta in pubblico, divenendo un affare della città. Ed è la stessa folla cittadina, per desiderio condiviso («voto comune»), a consegnare letteralmente Lodovico nelle mani dei frati; per le leggi del tempo il convento godeva di completa immunità nei riguardi dell’amministrazione della giustizia. La contesa privata si fa, così, affare diplomatico tra ordine dei Cappuccini, presso cui Lodovico trova accoglienza, e la nobiltà cittadina, da cui provengono i parenti dell’ucciso. Il romanzo intreccia di continuo le esistenze degli individui con le grandi corporazioni sociali.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n70" type="comm" target="quarantana/cap4.xml#c4_12093" targetEnd="quarantana/cap4.xml#c4_12095">
+          <ref rend="bold">a un punto</ref>:  ‘contemporaneamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n71" type="comm" target="quarantana/cap4.xml#c4_12168">
+          <ref rend="bold">occhiello</ref>:  ‘ferita di punta a fior di pelle’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n72" type="comm" target="quarantana/cap4.xml#c4_12227">
+          <ref rend="bold">concio</ref>:  ‘malridotto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n74" type="comm" target="quarantana/cap4.xml#c4_12347" targetEnd="quarantana/cap4.xml#c4_12607">
+          <ref rend="bold">Lodovico non… al frate</ref>:  Sulla tremenda scoperta della morte si legga quanto ha scritto Matteo Palumbo in un saggio dove Manzoni dialoga con Lévinas e Jankélévitich: «L’improvvisa e inattesa vicinanza di un corpo vivo che diventa cadavere offre la visione sconvolgente con cui Ludovico fa improvvisamente i conti. La morte, da puro nome privo di sostanza, per la prima volta penetra veramente nel circuito della coscienza e la sconvolge. Una tale percezione diventa destabilizzante. Essa, con lo <hi rend="italic">choc</hi> della propria presenza, prima che qualunque riflessione intervenga, trasmette oscuramente, ma anche implacabilmente, il bisogno di una legge antagonista» (Palumbo [2007]: 48).
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n76" type="comm" target="quarantana/cap4.xml#c4_12613" targetEnd="quarantana/cap4.xml#c4_12703">
+          <ref rend="bold">Frattanto… in viso</ref>:  Sul sagrato del convento sono presenti tutti gli ordini della società del tempo: il potere statale, rappresentato dalla “sbirraglia”; il potere feudale dell’aristocrazia; il potere ecclesiastico; la minaccia pressante delle masse popolari che, seppure non in modo esplicito, tradiscono soddisfazione per l’uccisione del nobile altezzoso. Dentro le mura del convento sta invece Lodovico con la sua coscienza e la sua ansia di rinascere, di risorgere a nuova vita. Ma il suo destino sembra ora appartenere più al complesso organismo dei rapporti sociali che alla sua libera scelta. La storia messa in scena da Manzoni è una storia immobile, dove gli uomini sono prigionieri di sistemi sociali preesistenti, e dove lo sviluppo della libertà umana è sottoposto all’arbitrio dei potenti, all’immobilismo dei ceti e delle corporazioni. La conversione sbaraglia l’immobilità, mette in crisi l’ordine sociale precostituito.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n78" type="comm" target="quarantana/cap4.xml#c4_12621">
+          <ref rend="bold">formicolavano</ref>:  ‘brulicavano confusamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n79" type="comm" target="quarantana/cap4.xml#c4_12629" targetEnd="quarantana/cap4.xml#c4_12630">
+          <ref rend="bold">fece smaltir</ref>:  ‘disperse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n80" type="comm" target="quarantana/cap4.xml#c4_12634" targetEnd="quarantana/cap4.xml#c4_12635">
+          <ref rend="bold">si postò</ref>:  ‘prese posizione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n81" type="comm" target="quarantana/cap4.xml#c4_12677" targetEnd="quarantana/cap4.xml#c4_12679">
+          <ref rend="bold">far la ronda</ref>:  ‘vigilare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n83" type="comm" target="quarantana/cap4.xml#c4_12704" targetEnd="quarantana/cap4.xml#c4_13131">
+          <ref rend="bold">Appena Lodovico… più borioso</ref>:  Come avverrà anche per l’innominato, la voce di Dio parla alla coscienza: gli uomini possono ascoltarla solo se smettono di resistere e ne riconoscono la presenza dentro di loro. Sul piano delle forze sociali, la conversione di Lodovico è un perfetto compromesso che evita il conflitto fra il privilegio dell’ordine religioso e le rivendicazioni feudali della famiglia dell’ucciso. Ma la nuova vita di Lodovico rappresenta una messa in crisi di tutto quell’impianto sociale; fra Cristoforo è il personaggio della rottura degli schemi, è il cappuccino che sa essere forte con i forti e umile con gli umili, è soprattutto il personaggio cui è affidata la missione etica del romanzo, che poggia sull’esercizio della pazienza e sulla pratica del perdono. Ma se fra Cristoforo è il portatore ostinato dell’etica nel romanzo, l’ordine dei Cappuccini è trattato da Manzoni con lo stesso distacco che egli riserva ad altre forze sociali; anzi se nel <hi rend="italic">Fermo</hi>, che pure abbiamo visto essere un testo più spregiudicato della successiva stesura, l’autore inseriva in un inciso la preoccupazione morale per il destino di Lodovico, a partire dalla Ventisettana un tratto di penna cancella la vacillante <hi rend="italic">pietas</hi> dei religiosi. Si confronti la lezione del <hi rend="italic">Fermo</hi> con quella definitiva: «Consegnarlo alla giustizia, cioè alla vendetta de’ suoi nemici, oltrechè l’esser cosa vile e crudele (ragione che è più potente quando è accompagnata da altre), sarebbe stato lo stesso che rinunziare al privilegio d’asilo, screditare il convento presso tutto il popolo, attirarsi l’avversione di tutti i cappuccini dell’universo per aver lasciato ledere il diritto di tutti, tirarsi contra tutte le autorità ecclesiastiche, le quali allora si consideravano come tutrici di questo diritto». Nei <hi rend="italic">Promessi Sposi</hi> la politica annulla lo zelo e l’amore per l’individuo.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n85" type="comm" target="quarantana/cap4.xml#c4_12748" targetEnd="quarantana/cap4.xml#c4_12753">
+          <ref rend="bold">prendeva la famiglia sopra di sé</ref>:  ‘si sobbarcava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n86" type="comm" target="quarantana/cap4.xml#c4_12804">
+          <ref rend="bold">congiuntura</ref>:  ‘circostanza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n87" type="comm" target="quarantana/cap4.xml#c4_12916">
+          <ref rend="bold">partito</ref>:  ‘risoluzione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n88" type="comm" target="quarantana/cap4.xml#c4_13548">
+          <ref rend="bold">guardiano</ref>:  ‘padre guardiano’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n89" type="comm" target="quarantana/cap4.xml#c4_10074">
+          <ref rend="bold">tuttavia</ref>:  ‘tuttora’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n90" type="comm" target="quarantana/cap4.xml#c4_12868">
+          <ref rend="bold">contraddote</ref>:  la donazione che il marito faceva alla moglie proporzionalmente all’ammontare della dote.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n91" type="comm" target="quarantana/cap4.xml#c4_12920" targetEnd="quarantana/cap4.xml#c4_12921">
+          <ref rend="bold">in consulta</ref>:  ‘in considerazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n92" type="comm" target="quarantana/cap4.xml#c4_12953">
+          <ref rend="bold">concitarsi</ref>:  ‘provocare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n93" type="comm" target="quarantana/cap4.xml#c4_12981">
+          <ref rend="bold">aderenze</ref>:  ‘appoggi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n94" type="comm" target="quarantana/cap4.xml#c4_12982" targetEnd="quarantana/cap4.xml#c4_12985">
+          <ref rend="bold">s’era messa al punto</ref>:  ‘ne aveva fatto un punto d’onore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n95" type="comm" target="quarantana/cap4.xml#c4_13047">
+          <ref rend="bold">un’emenda</ref>:  ‘una riparazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n96" type="comm" target="quarantana/cap4.xml#c4_13102">
+          <ref rend="bold">spropriarsi</ref>:  ‘rinunciare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n97" type="comm" target="quarantana/cap4.xml#c4_13126">
+          <ref rend="bold">competente</ref>:  ‘congrua’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n99" type="comm" target="quarantana/cap4.xml#c4_13918" targetEnd="quarantana/cap4.xml#c4_13922">
+          <ref rend="bold">Il padre… fra Cristoforo</ref>:  Uomo del suo tempo, il padre guardiano, come tutti gli altri personaggi di potere, sa utilizzare un’oratoria tutta secentesca, fatta di simulazioni e dissimulazioni, litoti e giri di parole, che solo in apparenza ha la forma di un dialogo: ma che serve in realtà a comunicare decisioni già prese altrove. La generale contentezza per l’accomodamento della situazione e la spettacolarizzazione della conversione di Lodovico sono solo l’involucro di una profonda, per quanto immediata, maturazione spirituale. Se tutti gli attori sociali evocati da Manzoni restano contenti ed immobili, Lodovico inizia qui un’esistenza dinamica tutta volta verso il bene e il suo arduo esercizio sulla terra. La scelta del nuovo nome sancisce il momento della sua rinascita, dopo la notte di introspezione e la lunga vita dissipata: «Cristoforo» non è tanto l’omaggio all’uomo morto affinché Lodovico possa risorgere a nuova vita, quanto la consacrazione del frate cappuccino a Cristo; il religioso è, anche etimologicamente, «portatore di Cristo» (cfr. Pozzi [1996]). Sulla conversione di Lodovico, il narratore del <hi rend="italic">Fermo</hi> si era concesso un lampo d’ironia poco consono alla serietà dei <hi rend="italic">Promessi Sposi</hi>: «Così Ludovico a trent’anni si avvolse, come si direbbe poeticamente, nelle ruvide lane, diede un eterno addio al mondo ed al barbiere, e fu novizio».
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n101" type="comm" target="quarantana/cap4.xml#c4_13139">
+          <ref rend="bold">disinvolta</ref>:  ‘capace di districarsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n102" type="comm" target="quarantana/cap4.xml#c4_13152">
+          <ref rend="bold">casa</ref>:  ‘casata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n103" type="comm" target="quarantana/cap4.xml#c4_13259">
+          <ref rend="bold">partirebbe</ref>:  ‘partisse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n104" type="comm" target="quarantana/cap4.xml#c4_13321">
+          <ref rend="bold">cavalleria</ref>:  ‘dottrina della cavalleria’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n105" type="comm" target="quarantana/cap4.xml#c4_13380" targetEnd="quarantana/cap4.xml#c4_13382">
+          <ref rend="bold">rintuzzare il pungolo</ref>:  ‘respingere l’assillo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n106" type="comm" target="quarantana/cap4.xml#c4_13424">
+          <ref rend="bold">sacco</ref>:  ‘la ruvida stoffa del saio francescano’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n108" type="comm" target="quarantana/cap4.xml#c4_13455" targetEnd="quarantana/cap4.xml#c4_13621">
+          <ref rend="bold">Appena compita… consenso desiderato</ref>:  «“Il sangue d’un sol uomo, sparso per mano del suo fratello, è troppo per tutti i secoli e per tutta la terra”: è forse la più luminosa sentenza che sia dato leggere nell’intera <hi rend="italic">Morale cattolica</hi>. Questa coscienza del valore della vita umana e della irreparabilità del delitto […] comunica al personaggio di fra Cristoforo il suo pathos più vivo, la sua malinconia di sempre […]. Lungi dall’essere il risultato di un inconsapevole desiderio di primeggiare nato dall’inversione di un complesso di inferiorità, l’umiltà di fra Cristoforo nasce come riconoscimento di una colpa irreparabile e come strumento di una espiazione» (Getto [1971]: 53).
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n110" type="comm" target="quarantana/cap4.xml#c4_13570">
+          <ref rend="bold">diviato</ref>:  ‘subito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n111" type="comm" target="quarantana/cap4.xml#c4_13610" targetEnd="quarantana/cap4.xml#c4_13611">
+          <ref rend="bold">assegnò l’ora</ref>:  ‘fissò l’appuntamento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n113" type="comm" target="quarantana/cap4.xml#c4_13622" targetEnd="quarantana/cap4.xml#c4_13883">
+          <ref rend="bold">Il gentiluomo… sul petto</ref>:  Con un colpo di coda, l’<hi rend="italic">ethos</hi> feudale decide di trasformare l’umiliazione del penitente in una pubblica autorappresentazione del suo potere, in una terribile macchina teatrale («apparecchio»). Centro dell’imponente scena di massa è il fratello dell’ucciso, forse il capo della casa, che si prepara a ricevere il novizio con posa pittorica da grande di Spagna in dodicesimo. Ma la sua superbia scompare di fronte alla dignità dei due francescani e al silenzio che si crea intorno a loro. La sicurezza dei modi e delle parole di fra Cristoforo rompe l’apparato scenico, fa emergere un dolore che non può essere blandito e che converte gli spettatori di quell’autodafé in miniatura in uomini e donne sensibili al comune destino degli esseri viventi. Fin dalla passeggiata iniziale del capitolo, il narratore sa passare dalla descrizione oggettiva allo sguardo in soggettiva di fra Cristoforo; la sua inquietudine è movimento, prospettiva dinamica e dolorosa sul mondo.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n115" type="comm" target="quarantana/cap4.xml#c4_13674" targetEnd="quarantana/cap4.xml#c4_13675">
+          <ref rend="bold">restassero serviti</ref>:  ‘si degnassero’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n116" type="comm" target="quarantana/cap4.xml#c4_13716">
+          <ref rend="bold">librato</ref>:  ‘in equilibrio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n120" type="comm" target="quarantana/cap4.xml#c4_13884" targetEnd="quarantana/cap4.xml#c4_14254">
+          <ref rend="bold">C'è talvolta… di pace</ref>:  L’emozione che proibisce al nobile di elaborare un discorso logico è l’effetto della presenza del frate. Il sincero pentimento di fra Cristoforo, non dettato da «timore umano», travolge l’apparato di quello che doveva essere un rito feudale e diviene una vera cerimonia del perdono; l’incontro fra l’aristocratico e il frate è l’incontro di due uomini. Il «repentino passaggio dal <hi rend="italic">voi</hi> al <hi rend="italic">lei</hi> (si legge in Raimondi-Bottoni), dal pronome che segnava la distanza dall’inferiore al pronome usato fra pari, registra – dopo il turbamento – un crescente rispetto».
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n122" type="comm" target="quarantana/cap4.xml#c4_13899">
+          <ref rend="bold">effusione</ref>:  ‘manifestazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n123" type="comm" target="quarantana/cap4.xml#c4_14042" targetEnd="quarantana/cap4.xml#c4_14046">
+          <ref rend="bold">in atto di degnazione forzata</ref>:  ‘sdegnoso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n124" type="comm" target="quarantana/cap4.xml#c4_11194">
+          <ref rend="bold">vivo</ref>:  ‘vivace’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n125" type="comm" target="quarantana/cap4.xml#c4_14198">
+          <ref rend="bold">astanti</ref>:  ‘i presenti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n126" type="comm" target="quarantana/cap4.xml#c4_14217">
+          <ref rend="bold">compunzione</ref>:  ‘rimorso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n130" type="comm" target="quarantana/cap4.xml#c4_14255" targetEnd="quarantana/cap4.xml#c4_13471">
+          <ref rend="bold">Un «bravo!... suo noviziato</ref>:  Custodito gelosamente in una scatoletta di legno, il pane del perdono è uno dei protagonisti di questa storia; reliquia del passato di fra Cristoforo, accompagnerà ovunque il religioso nel suo itinerario terrestre e verrà poi donato a Renzo e Lucia nel lazzeretto a Milano. Ma è un dono che non va ai promessi sposi, bensì ai loro discendenti che vivranno in un mondo degradato e selvaggio come quello dei padri.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n132" type="comm" target="quarantana/cap4.xml#c4_14279">
+          <ref rend="bold">copia</ref>:  ‘abbondanza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n133" type="comm" target="quarantana/cap4.xml#c4_14295">
+          <ref rend="bold">licenziare</ref>:  ‘accomiatarsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n134" type="comm" target="quarantana/cap4.xml#c4_14411">
+          <ref rend="bold">sporta</ref>:  ‘borsa di paglia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n135" type="comm" target="quarantana/cap4.xml#c4_14447">
+          <ref rend="bold">isbrigarsi</ref>:  ‘liberarsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n136" type="comm" target="quarantana/cap4.xml#c4_14491" targetEnd="quarantana/cap4.xml#c4_14492">
+          <ref rend="bold">pedestre viaggio</ref>:  ‘cammino’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n139" type="comm" target="quarantana/cap4.xml#c4_14499" targetEnd="quarantana/cap4.xml#c4_15010">
+          <ref rend="bold">Il fratello… energia primitiva</ref>: 	Il <hi rend="italic">Fermo</hi> si dilungava sulla doppia lingua di fra Cristoforo, dove si sentiva, in sottofondo, la presenza di Lodovico. Vale la pena di riportare il passo per esteso: «Era a quei tempi comunissima a tutte le classi di persone l’usanza d’infiorare il discorso di quelle parole delle quali quando si vogliono stampare non si pone che l’iniziale con alcuni puntini, di quelle parole che esprimono o ciò che vi ha di più sozzo o ciò che vi ha di più riverito, di quelle parole le quali quando scappano ad un signorino nella puerizia, fanno fare il viso dell’arme alla mamma, e la fanno sclamare: “ohibò! dove hai tu inteso questo: nella via o dai servitori certamente” (e l’avrà inteso dal signor padre) di quelle parole che non sono sconosciute nelle sale fastose, e che formano la terza parte dei colloquj del popolo, al quale dicono alcuni sapienti che converrebbe abbandonarle; ma questi sapienti non dicono bene, perchè comunque gli uomini sieno classificati, non vi ha alcuna classe d’uomini alla quale convenga ciò che è turpe. Quest’uso era adunque comunissimo in allora, e chi ne vuol la prova dia una occhiata alle leggi che bestemmiavano pene atroci per impedir la bestemmia, guardi alla cura che i vescovi prendevano per togliere questa vergogna dal clero stesso. Il signor Ludovico aveva fatto un tale uso di queste frasi che la lingua del Padre Cristoforo durava fatica a rimandarle tutte le volte che si presentavano, cioè ad ogni primo impeto di passione di qualunque genere; ma il Padre Cristoforo faceva stare la sua lingua. Solamente in certi casi rari, nei quali la passione era tanto viva che quasi quasi Cristoforo tornava per un momento Ludovico, veniva ad un componimento. Si proferivano le parole, ma trasformate: ad alcune consonanti radicali n’erano sostituite altre che toglievano il senso ordinario alla parola, e lasciavano soltanto travedere una lontana intenzione, quasi un bisogno di proferirla. Così mutato, trasformato, temperato era l’animo, in modo però che riteneva alquanto dell’antica sua natura».
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n141" type="comm" target="quarantana/cap4.xml#c4_14561" targetEnd="quarantana/cap4.xml#c4_14562">
+          <ref rend="bold">impegni spuntati</ref>:  ‘contrasti vinti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n142" type="comm" target="quarantana/cap4.xml#c4_14597" targetEnd="quarantana/cap4.xml#c4_14600">
+          <ref rend="bold">far stare a dovere</ref>:  ‘rimettere al suo posto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n143" type="comm" target="quarantana/cap4.xml#c4_14606">
+          <ref rend="bold">rodomonte</ref>:  ‘arrogante’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n144" type="comm" target="quarantana/cap4.xml#c4_14707">
+          <ref rend="bold">precipitoso</ref>:  ‘impetuoso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n145" type="comm" target="quarantana/cap4.xml#c4_14813">
+          <ref rend="bold">claustrale</ref>:  ‘da frate’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n146" type="comm" target="quarantana/cap4.xml#c4_14852" targetEnd="quarantana/cap4.xml#c4_14853">
+          <ref rend="bold">accomodar differenze</ref>:  ‘appianare contrasti’. macerazioni: ‘penitenze’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n149" type="comm" target="quarantana/cap4.xml#c4_15011" targetEnd="quarantana/cap4.xml#c4_15158">
+          <ref rend="bold">Se una poverella… sia benedetto!»</ref>:  In attesa di chi possa aiutarle a sciogliere i «garbugli» e gli «imbrogli» in cui sono inciampate, le due donne lavorano alla filatura; anche fra Cristoforo si proverà nell’arte di tessere una storia, di costruire una trama, inviando i personaggi verso rifugi creduti sicuri che si riveleranno infidi. Ma più che annodare un intreccio, il religioso dovrà sciogliere un voto, e così permettere il sospirato epilogo matrimoniale.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n151" type="comm" target="quarantana/cap4.xml#c4_15057">
+          <ref rend="bold">indegnazione</ref>:  ‘indignazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n152" type="comm" target="quarantana/cap4.xml#c4_15105">
+          <ref rend="bold">ingenita</ref>:  ‘congenita’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n153" type="comm" target="quarantana/cap4.xml#c4_15110">
+          <ref rend="bold">angustia</ref>:  ‘ansia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap4-n154" type="comm" target="quarantana/cap4.xml#c4_15141">
+          <ref rend="bold">aspo</ref>:  ‘arcolaio’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

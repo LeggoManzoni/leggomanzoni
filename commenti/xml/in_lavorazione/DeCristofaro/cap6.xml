@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-21">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap6">
+        <note xml:id="DeCristofaro_cap6-n3" type="comm" target="quarantana/cap6.xml#c6_10001">
+          <ref rend="bold">Intestazione</ref>:  F[rancesco] Gonin. Per questa tipologia, cfr. <hi rend="italic">Introduzione Intestazione </hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n5" type="comm" target="quarantana/cap6.xml#c6_10001" targetEnd="quarantana/cap6.xml#c6_10004">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale del C. 6. In che posso obbedirla?» Come si è già notato (cfr. fig. V 11), il rapporto tra l’immagine dei cantambanchi alla fine del capitolo precedente e l’isolamento della figurina all’inizio del capitolo nuovo crea un contrasto, che drammatizza l’imminente confronto tra il nobiluomo e il cappuccino. La rappresentazione eretta del personaggio presenta anche una suggestione iconica, giacché raddoppia, anticipandola, la “I” maiuscola dell’apertura: l’immagine di don Rodrigo sembra così <hi rend="italic">produrre</hi> il discorso di don Rodrigo.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n7" type="comm" target="quarantana/cap6.xml#c6_10001" targetEnd="quarantana/cap6.xml#c6_10004">
+          <ref rend="bold">«In che posso ubbidirla?»</ref>:  L’azione riprende, ancora una volta, senza soluzione di continuità. Questo modo di legare è una scelta stilistica peculiare dei <hi rend="italic">Promessi Sposi</hi>; nel <hi rend="italic">Fermo</hi> il capitolo, umoristicamente intitolato «Peggio che peggio», era difatti introdotto da una lunga digressione sulla gestualità dei cappuccini, qui sintetizzata in una sola frase. Nella domanda l’arroganza del tono è rinforzata rispetto all’analogo momento del <hi rend="italic">Fermo</hi>, dove don Rodrigo riconosceva al religioso il titolo di «padre»: che qui, significativamente, viene a cadere.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n9" type="comm" target="quarantana/cap6.xml#c6_10005" targetEnd="quarantana/cap6.xml#c6_10014">
+          <ref rend="bold">disse don… della sala</ref>:  La superbia del <hi rend="italic">villain</hi> aumenta nei <hi rend="italic">Promessi Sposi</hi>: invece che invitare il frate a sedersi, come aveva fatto nel <hi rend="italic">Fermo</hi>, il feudatario gli si pone davanti minaccioso al centro del salone. Evitando ogni cortesia, ribadisce così all’ospite la differenza di ceto.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n11" type="comm" target="quarantana/cap6.xml#c6_10041" targetEnd="quarantana/cap6.xml#c6_10110">
+          <ref rend="bold">Per dar coraggio… del bisogno</ref>:  Al centro di un secolo che ha fatto delle arti della simulazione il proprio vanto, fra Cristoforo è insofferente alle strettoie e agli inganni del linguaggio; anzi, abituato com’è al confronto senza mediazioni con la sua coscienza, non ha paura del male che si manifesta senza ipocrisie e senza veli.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n13" type="comm" target="quarantana/cap6.xml#c6_10064">
+          <ref rend="bold">sospeso</ref>:  ‘incerto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n14" type="comm" target="quarantana/cap6.xml#c6_10081" targetEnd="quarantana/cap6.xml#c6_10082">
+          <ref rend="bold">a cintola</ref>:  ‘legate alla cintura’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n17" type="comm" target="quarantana/cap6.xml#c6_10111" targetEnd="quarantana/cap6.xml#c6_10145">
+          <ref rend="bold">Ma pensando… guardinga umiltà</ref>:  In fra Cristoforo sono sempre presenti il vecchio e il nuovo uomo, in tormentato conflitto. Nella <hi rend="italic">climax</hi> drammatica della scena, le due anime del cappuccino si esprimeranno all’unisono con indimenticabile potenza. Alla presenza incombente di don Rodrigo, e nella consapevolezza della responsabilità verso chi s’è affidato a lui, la sua umiltà si fa «guardinga»; così che, con evidente sforzo, usa le stesse cautele di linguaggio dei commensali del capitolo precedente, senza lesinare rispetto verso il malvagio («vossignoria illustrissima»).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n19" type="comm" target="quarantana/cap6.xml#c6_10146" targetEnd="quarantana/cap6.xml#c6_10218">
+          <ref rend="bold">«vengo a... l’onore...»</ref>:  La «coscienza» e l’«onore» sono i termini attorno a cui ruotano le due morali antagoniste di fra Cristoforo e di don Rodrigo. L’onore del nobile è un sentimento senza trascendenza, mentre quello del frate si fonda sulla consapevolezza di operare per il bene. La «frase di circostanza» esprime il desiderio «di eludere una richiesta di giustizia e di carità» (Raimondi-Bottoni). All’etica del cappuccino, il mondo feudale risponde con la violenza connaturata al suo potere.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n21" type="comm" target="quarantana/cap6.xml#c6_10155" targetEnd="quarantana/cap6.xml#c6_10156">
+          <ref rend="bold">d’una carità</ref>:  ‘d’un atto di carità’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n22" type="comm" target="quarantana/cap6.xml#c6_10185">
+          <ref rend="bold">soverchiare</ref>:  ‘opprimere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n23" type="comm" target="quarantana/cap6.xml#c6_10193">
+          <ref rend="bold">confonder</ref>:  ‘turbare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n26" type="comm" target="quarantana/cap6.xml#c6_10219" targetEnd="quarantana/cap6.xml#c6_10332">
+          <ref rend="bold">«Lei mi… mia intenzione</ref>:  Mentre don Rodrigo persegue una sua strategia retorica che alza i toni, ricercando lo scontro a tutti i costi, l’oratoria di fra Cristoforo, il personaggio antiretorico per eccellenza (come voleva Luigi Russo), procede in modo nervoso, con frasi incompiute e improvvise illuminazioni, scongiurando il pericolo di uno scontro verbale («volgere il discorso in contesa»). Se il nobile trae le sue risposte dal lessico ambiguo della forza e dell’ingiustizia, il religioso interiorizza il repertorio dei predicatori barocchi che svilisce la gloria terrestre e afferma la fragilità della vita umana.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n28" type="comm" target="quarantana/cap6.xml#c6_10252" targetEnd="quarantana/cap6.xml#c6_10259">
+          <ref rend="bold">entrare a parte con me di questa cura</ref>:  ‘condividere questa preoccupazione con me’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n29" type="comm" target="quarantana/cap6.xml#c6_10294" targetEnd="quarantana/cap6.xml#c6_10296">
+          <ref rend="bold">venire alle strette</ref>:  ‘giungere alla conclusione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n30" type="comm" target="quarantana/cap6.xml#c6_11249">
+          <ref rend="bold">sofferenza</ref>:  ‘pazienza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n32" type="comm" target="quarantana/cap6.xml#c6_10333" targetEnd="quarantana/cap6.xml#c6_10361">
+          <ref rend="bold">Mi corregga… tutti comparire...»</ref>:  Nel <hi rend="italic">Fermo</hi> il religioso si esprimeva con toni assai crudi e ricorreva ad immagini realistiche: «Signor don Rodrigo, […] io son disposto ad ingojare tutto quello che le piacesse di dirmi». Parole che cadono nella Ventisettana, sia per ragioni di stile (troppo ravvicinata la successiva immagine di chi «inghiottisce una medicina molto amara»), sia per ragioni ideologiche. Nella lingua del nuovo Cristoforo risuona l’eco della parola sacra, della Scrittura. Nel romanzo definitivo, di fronte al libertino ostinato, il cappuccino si spoglia della sua individualità e diventa voce del mondo morale cristiano.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n34" type="comm" target="quarantana/cap6.xml#c6_10362" targetEnd="quarantana/cap6.xml#c6_10386">
+          <ref rend="bold">e, così dicendo… sua corona</ref>:  Il piccolo teschio è un <hi rend="italic">memento mori</hi> di gusto barocco, che ricorda quanto siano effimeri i poteri e i piaceri del mondo terreno. Il gesto accompagna l’apparizione del nome di Dio. La tensione fra i duellanti si allarga alla fisicità dei personaggi; il corpo amplifica le strategie retoriche del discorso. Il nobile sicuro della sua potenza terrena sta crucciato e immobile di fronte al frate agitatissimo che sente il tormento di una legge morale difficile e senza riposo.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n38" type="comm" target="quarantana/cap6.xml#c6_10465" targetEnd="quarantana/cap6.xml#c6_10515">
+          <ref rend="bold">Questa parola… nè spregevole</ref>:  Con l’espressione («sembiante») di chi è costretto a inghiottire una medicina amara, fra Cristoforo tenta di far leva sulla coscienza dell’interlocutore, sulla sua capacità di discernimento. Sono «parole importanti per tutta la trama morale dei <hi rend="italic">Promessi Sposi</hi>, dove non si presuppone mai la malvagità assoluta, dove a nessuno è negata la capacità di distinguere il bene dal male» (Momigliano, <hi rend="italic">ad loc.</hi>). Solo poco più avanti, egli farà suo uno dei grandi <hi rend="italic">topoi</hi> della predicazione del Seicento: la mortificazione della gloria.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n40" type="comm" target="quarantana/cap6.xml#c6_10562" targetEnd="quarantana/cap6.xml#c6_10573">
+          <ref rend="bold">«Sa lei,»... qualche raccapriccio</ref>:  Il «raccapriccio» che accompagna la rabbia («istizza») di don Rodrigo davanti alle parole di fra Cristoforo è la memoria di ferite lontane e segrete che il narratore lascia solo intuire. L’anima del «cattivo» è uno spazio problematico.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n42" type="comm" target="quarantana/cap6.xml#c6_10562" targetEnd="quarantana/cap6.xml#c6_10814">
+          <ref rend="bold">«sa lei che… far tutto.»</ref>:  Le polarità dell’orgoglio feudale e della carità cristiana continuano a opporsi e contrastarsi senza una possibile soluzione di compromesso: al nobile che ironizza sulle sua condizione di classe, e implicitamente riafferma la “gloria” terrena, il frate non risponde direttamente, ma replica all’insinuazione volgare («non capisco altro se non che ci dev’essere qualche fanciulla che le preme molto») con la dichiarazione di una missione sacerdotale incentrata sull’amore verso l’altro («la mi preme, è vero, ma non più di lei; son due anime che, l’una e l’altra, mi premon più del mio sangue»).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n44" type="comm" target="quarantana/cap6.xml#c6_10581">
+          <ref rend="bold">schiribizzo</ref>:  ‘capriccio’ (nel <hi rend="italic">Fermo</hi> si leggeva «ghiribizzo», mentre qui Manzoni sceglie la forma vicina al milanese «schiribizzi», conferendo alle parole del personaggio un’impronta realistica e sprezzante al tempo stesso).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n46" type="comm" target="quarantana/cap6.xml#c6_10815" targetEnd="quarantana/cap6.xml#c6_10886">
+          <ref rend="bold">«Ebbene,» disse… son cavaliere.»</ref>:  Le parole riportano i personaggi ai ruoli archetipici che incarnano in questo dialogo: mentre nella voce di fra Cristoforo parla la lingua della Scrittura, don Rodrigo riattualizza il lessico libertino del <hi rend="italic">Don Giovanni</hi> di Mozart e Da Ponte. La scandalosa proposta del signorotto è la stessa che il personaggio mozartiano, proprio dopo aver «esibito» la sua «protezione» ai due giovani, aveva avanzato a Zerlina e al suo promesso sposo Masetto, quando aveva messo a loro disposizione il proprio palazzo per festeggiarne le imminenti nozze. La garanzia derivante dall’essere «cavaliere» è quella che don Giovanni aveva opposto a Masetto quando questi rifiuta di allontanarsi e di lasciarlo solo con l’innamorata («Oh! la Zerlina | è in man d’un cavalier. | Va’ pur: fra poco | ella meco verrà»).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n48" type="comm" target="quarantana/cap6.xml#c6_10887" targetEnd="quarantana/cap6.xml#c6_10986">
+          <ref rend="bold">A siffatta… temo più.»</ref>:  La solennità dell’atteggiamento amplifica le parole del religioso; il corpo diventa risonanza della parola. La postura è ieratica e melodrammatica: manifesta una verità profonda che le parole da sole non riescono a dire. L’indignazione prende forma fisica e il frate si trasforma in emblema vivente del messaggio etico di cui è portatore.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n50" type="comm" target="quarantana/cap6.xml#c6_10990" targetEnd="quarantana/cap6.xml#c6_11089">
+          <ref rend="bold">«Parlo come… quattro sgherri</ref>:  Il nome di Lucia è, come sempre nel romanzo, un lampo di luce fra le tenebre dell’errore. Dopo il lacerto scritturale «sotto la protezione di Dio», la lingua del frate si emancipa dai lacci della diplomazia e della prudenza. L’emergere del conflitto fa saltare le regole dell’educazione. Se il dialogo precedente si era svolto tutto con le forme di riguardo del <hi rend="italic">lei</hi>, adesso don Rodrigo passa a un <hi rend="italic">tu</hi> di scortesia («Come parli, frate?»), mentre fra Cristoforo passa dal lei al voi, con procedimento inverso rispetto a quello del fratello dell’uomo da lui ucciso: che, nel IV capitolo, aveva iniziato il dialogo col novizio dandogli del <hi rend="italic">voi</hi>, per poi passare, con formula di rispetto, al <hi rend="italic">lei</hi> che rende simili. Nella maledizione della casa si sommano più citazioni scritturali: tra queste il Salmo 36, «E ancora un poco, e il peccatore non sarà più; e cercherai della casa di lui e nol troverai».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n52" type="comm" target="quarantana/cap6.xml#c6_11090" targetEnd="quarantana/cap6.xml#c6_11107">
+          <ref rend="bold">Voi avete… di tormentarla</ref>:  Il piacere che l’uomo prova a «tormentare» l’innocente è un’angoscia radicata dei pensieri di fra Cristoforo, che nel <hi rend="italic">Fermo</hi>, già nel V capitolo del primo tomo, aveva rassicurato Lucia dicendo: «[Dio]non vi ha mica creata perchè foste tormentata da costui». Commenta Nigro: «La <hi rend="italic">Colonna infame</hi> rivelerà […] la radice giuridica dell’esclamazione; che è fatta esplodere da una sentenza dei criminalisti Farinacci e Casoni: “è error comune de’ giudici il credere che la tortura sia arbitraria; come se la natura avesse creati i corpi de’ rei perché essi potessero straziarli a loro capriccio” (III, 51)».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n54" type="comm" target="quarantana/cap6.xml#c6_11108" targetEnd="quarantana/cap6.xml#c6_11138">
+          <ref rend="bold">Voi avete… saputo spezzarlo</ref>:  La lezione del <hi rend="italic">Fermo</hi> recitava: «Ne ho visti di più potenti, di più temuti di voi; e mentre agguantavano la loro preda, mentre non avevano altro timore che di vederla fuggire, la mano di Dio si allungava in silenzio dietro alle loro spalle per coglierli». La citazione biblica (<hi rend="italic">Esodo</hi> 8, 13) sostituisce il ricordo personale del frate. La strategia del narratore ha cancellato le tracce dell’individualità del personaggio, per farne simbolo vivente della morale e della carità cattolica. Secondo Russo (cfr. comm. cit., <hi rend="italic">ad loc.</hi>), per don Rodrigo il cappuccino «non è l’antagonista di un momento, di un colloquio, ma l’antagonista eterno della sua fantasia, è l’ipostasi stessa della sua coscienza. In tutte le scene grandi, in cui don Rodrigo significa qualche cosa, è sempre presente il frate di Pescarenico».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n56" type="comm" target="quarantana/cap6.xml#c6_14081" targetEnd="quarantana/cap6.xml#c6_11163">
+          <ref rend="bold">Lucia è... un giorno...»</ref>:  Le parole di fra Cristoforo si fanno oscure e solenni. Dopo aver parlato con le espressioni dei profeti della Scrittura, qui fra Cristoforo si fa egli stesso profeta e riattualizza la terribile severità del Salmo 36 nello scontro fra potere dell’uomo e misericordia di Dio. Sul brano, e sui riscontri infratestuali con gli ultimi istanti di don Rodrigo al lazzeretto, si veda de Cristofaro ([2002]: 112-118).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n59" type="comm" target="quarantana/cap6.xml#c6_11164" targetEnd="quarantana/cap6.xml#c6_11369">
+          <ref rend="bold">Don Rodrigo era… la vedremo.»</ref>:  Quasi a sigillare icasticamente un segreto e prolungato dialogo intertestuale, don Rodrigo afferra la mano del frate: come nel libretto del <hi rend="italic">Don Giovanni</hi> il seduttore prende la mano del Commendatore e viene trascinato da questi all’inferno. Per costruire il suo libertino, Manzoni ha tenuto ben presente l’archetipo del genere e ha sparso nel romanzo i riferimenti all’eroe mozartiano. Il frate resta nella memoria di don Rodrigo; lo rivedrà durante il delirio della peste trasformato in un fantasma mentale.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n61" type="comm" target="quarantana/cap6.xml#c6_11217">
+          <ref rend="bold">poltrone</ref>:  ‘uomo di bassa condizione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n62" type="comm" target="quarantana/cap6.xml#c6_11301" targetEnd="quarantana/cap6.xml#c6_11302">
+          <ref rend="bold">nel forte</ref>:  ‘nel pieno’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n65" type="comm" target="quarantana/cap6.xml#c6_11370" targetEnd="quarantana/cap6.xml#c6_11406">
+          <ref rend="bold">Così dicendo… di battaglia</ref>:  Il duello si conclude con la solitudine nervosa nel vincitore, che percorre a grandi passi la sala dove si è svolta la battaglia. Il <hi rend="italic">Fermo</hi> sottolineava immediatamente la speranza di fra Cristoforo per il futuro: «Gli pareva che la superbia e l’iniquità di don Rodrigo fossero salite a quell’altezza, dove la provvidenza le arresta, e le rovina. Questi calcoli son spesse volte fallaci, e l’ingiustizia a questo mondo talvolta sale, sale, sale, quando si crede che giunta al colmo, non possa che precipitare: ma fra Cristoforo la pensava così come abbiam detto, e sperava più che mai che la cosa si terminasse con una uscita inaspettata e favorevole all’innocenza».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n67" type="comm" target="quarantana/cap6.xml#c6_11374">
+          <ref rend="bold">impero</ref>:  ‘gesto imperioso’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n70" type="comm" target="quarantana/cap6.xml#c6_11407" targetEnd="quarantana/cap6.xml#c6_11547">
+          <ref rend="bold">Quando il frate… minuti particolari</ref>:  Nel mondo alla rovescia di don Rodrigo si disprezzano gli scrupoli morali del vecchio membro della servitù («famiglia»), e se ne apprezza invece l’attaccamento alla dignità della casa e il rispetto delle forme e delle apparenze.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n74" type="comm" target="quarantana/cap6.xml#c6_14480" targetEnd="quarantana/cap6.xml#c6_11863">
+          <ref rend="bold">«Verrò,»... mi nomini.»</ref>:  La benedizione del vecchio servitore è un atto sacrale; è il riconoscimento del giusto che vive e opera nella casa maledetta, e che per salvare l’anima è disposto a tradire la fedeltà verso la famiglia che ha rappresentato la missione della sua vita.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n76" type="comm" target="quarantana/cap6.xml#c6_12933" targetEnd="quarantana/cap6.xml#c6_12935">
+          <ref rend="bold">se gli</ref>:  ‘gli si’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n77" type="comm" target="quarantana/cap6.xml#c6_11772">
+          <ref rend="bold">sull’intesa</ref>:  ‘starò attento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n80" type="comm" target="quarantana/cap6.xml#c6_11920" targetEnd="quarantana/cap6.xml#c6_11997">
+          <ref rend="bold">Quell’uomo… da raccontare</ref>:  Come d’abitudine, la digressione del narratore interviene a spezzare il flusso della narrazione, e di conseguenza a distrarre il lettore da una simpatia acritica verso i personaggi del romanzo. In questa pagina Manzoni vuole evidenziare la pluralità delle scelte e la difficoltà di far coincidere le infinite possibilità della realtà con una morale prefissata. La dichiarazione d’una preferenza per i fatti rispetto alle opinioni di un narratore poco incline a nascondere il proprio pensiero rende particolarmente ironico questo passaggio.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n82" type="comm" target="quarantana/cap6.xml#c6_11998" targetEnd="quarantana/cap6.xml#c6_12175">
+          <ref rend="bold">Uscito fuori… codice cappuccinesco</ref>:  Nel <hi rend="italic">Fermo</hi> la severità del «codice cappuccinesco» dava luogo a una più generale riflessione sulle «piccole società» che aguzzano «gli ingegni per trovare rigori e pene più raffinate: di modo che parrebbe quasi che tormentare altrui sia più dolce che assicurar se stesso».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n84" type="comm" target="quarantana/cap6.xml#c6_12052">
+          <ref rend="bold">ristorativo</ref>:  ‘conforto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n85" type="comm" target="quarantana/cap6.xml#c6_12128">
+          <ref rend="bold">gravi</ref>:  ‘pesanti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n86" type="comm" target="quarantana/cap6.xml#c6_12138" targetEnd="quarantana/cap6.xml#c6_12142">
+          <ref rend="bold">studiò di più il passo</ref>:  ‘affrettò il passo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n87" type="comm" target="quarantana/cap6.xml#c6_11121">
+          <ref rend="bold">avviso</ref>:  ‘notizia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n90" type="comm" target="quarantana/cap6.xml#c6_12176" targetEnd="quarantana/cap6.xml#c6_12259">
+          <ref rend="bold">Intanto, nella… questi termini</ref>:  Dopo essere stato così a lungo del «palazzotto» di don Rodrigo, con le sue sale affollate da un’umanità deforme e rapace, il lettore è riportato dal vezzeggiativo della «casetta» allo spazio umano degli affetti. Qui anche Agnese, come fra Cristoforo, lavorando all’aspo crede di trovare un filo capace di sciogliere la trama della storia e permettere ai due giovani di raggiungere la felicità. Con pochi bellissimi tocchi Manzoni ha appena descritto la tristezza degli innamorati nel giorno che ha stravolto le loro speranze di felicità.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n92" type="comm" target="quarantana/cap6.xml#c6_12260" targetEnd="quarantana/cap6.xml#c6_12333">
+          <ref rend="bold">«Sentite, figliuoli!... può fare.»</ref>:  Il gesto minimo di sussulto di Lucia, subito dopo il <hi rend="italic">lapsus</hi> di Agnese (che usando l’aggettivo «vostra» fa capire di considerare già sposati i due giovani ancor prima della consacrazione religiosa) rivela sorpresa e forse imbarazzo. Lucia, figlia fedele e appassionata, è ben consapevole della visione del mondo della madre e dei suoi limiti. Renzo, come al solito, è più facile agli entusiasmi.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n94" type="comm" target="quarantana/cap6.xml#c6_12334" targetEnd="quarantana/cap6.xml#c6_12513">
+          <ref rend="bold">«Non è vero,»... che sa</ref>:  Pur nella convinzione che don Rodrigo sia animalesco – un predatore (lo dice subito prima) dotato di «artigli» e di «unghie» temibili, la cui presa non lascia scampo – «Agnese, che è saccente, ha il mito delle classi superiori e sembra riporre una sorta di potere taumaturgico nel sapere, nella scienza o nell’esperienza che sia» (Raimondi-Bottoni). sul <hi rend="italic">bergamasco</hi>: si ricorderà che Bergamo ed il suo contado erano allora territorio della Serenissima repubblica di Venezia.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n97" type="comm" target="quarantana/cap6.xml#c6_12514" targetEnd="quarantana/cap6.xml#c6_12541">
+          <ref rend="bold">e anzi… ci sia.»</ref>:  Nel <hi rend="italic">Fermo</hi> Manzoni aveva evidenziato l’ignoranza di Agnese facendole dire: «Bisogna fare un matrimonio gran destino», dove <hi rend="italic">gran destino</hi> era uno svarione per «clandestino»; nei <hi rend="italic">Promessi Sposi</hi> la povertà, materiale e culturale, dei piccoli è invece oggetto di rispetto. Se in un primo momento la voce narrante aveva colpito simmetricamente la scarsa cultura dei nobili (gli «ufficiali»/«feciali» del conte Attilio) e quella delle classi popolari, ora reprime la sua ironia: non ha il coraggio di attaccare gli umili.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n99" type="comm" target="quarantana/cap6.xml#c6_12542" targetEnd="quarantana/cap6.xml#c6_12633">
+          <ref rend="bold">«Come sta… e moglie.»</ref>:  I celebranti effettivi del matrimonio sono gli sposi stessi, l’officiante prende solo atto della loro libera volontà e controlla che non vi siano impedimenti (il valore del matrimonio a sorpresa, «coram parocho reluctante», è stato abolito da Pio X, solo nel 1907, col decreto <hi rend="italic">Ne temere</hi>). Donna di cuore e di esperienza, Agnese fornisce, con il suo idioletto franco e umoroso, le “istruzioni per l’uso” del matrimonio clandestino; subito dopo, ella non saprà rinunciare ad uno dei suoi piaceri maggiori, quello di far pettegolezzi e di commentare le vicende dei conoscenti.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n101" type="comm" target="quarantana/cap6.xml#c6_12859" targetEnd="quarantana/cap6.xml#c6_12886">
+          <ref rend="bold">«Ah no!... mia madre.»</ref>:  Per calmare Agnese, offesa peraltro da un fraintendimento, Renzo riporta il discorso sulla sacralità degli affetti, rispondendo al «vostra madre» di qualche rigo sopra. Nel <hi rend="italic">Fermo</hi> la dichiarazione d’affetto era espressa con colore locale; il giovane diceva ad Agnese: «io vi considero come se foste la madre che ha patito». E il narratore aggiungeva in nota: «Così chiamano i contadini di Lombardia la madre, per distinguerla dalla suocera che chiamano madre semplicemente». <hi rend="italic">Proteo</hi>: figlio di Oceano e Teti, era un dio marino dotato del dono della profezia, che era però restio ad esercitare (solo sorprendendolo nel sonno e dopo averlo tenuto fermo durante le continue metamorfosi cui ricorreva per sfuggire all’interrogante avrebbe risposto in maniera veritiera e sincera).
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n104" type="comm" target="quarantana/cap6.xml#c6_13040" targetEnd="quarantana/cap6.xml#c6_13051">
+          <ref rend="bold">«Se è cosa… bisogna farla.»</ref>:  La legge morale di Lucia le proibisce di condividere l’entusiasmo della madre e del futuro sposo; la sua profonda religiosità si manifesta nella riluttanza ai compromessi e agli imbrogli del mondo. Alla dilagante corruzione degli uomini, Lucia oppone, durante tutto il romanzo, una resistenza passiva che trae forza da una semplice, ma intransigente, religiosità popolare.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n107" type="comm" target="quarantana/cap6.xml#c6_13425" targetEnd="quarantana/cap6.xml#c6_13572">
+          <ref rend="bold">Le tribolazioni… la fatica</ref>:  La vita regolare e piana di Renzo è diventata un labirinto per il capriccio del signore locale: il “romanzo di formazione” del giovane inizia qui, nella ricerca di testimoni per il suo matrimonio <hi rend="italic">gran destino</hi>. Fa ora il suo ingresso in scena, oltre alla sagoma indimenticabile di Tonio, un diverso genere di “scienza del passato”, non ufficiale e non evenemenziale: qualcosa che sta fra la storia sociale, la cultura materiale e la microstoria. Vediamo con i nostri occhi quella che nel Fermo era designata come «una bigia polenta di fraina (o se volete di <hi rend="italic">poligonum fagopyrum</hi>)», e che qui viene chiamata con l’equivalente italiano di “grano saraceno” (il cereale costituiva una parte importante dell’alimentazione dei contadini nella Lombardia del Seicento). Ma soprattutto, in questo bellissimo interno contadino, e in particolare negli «sguardi <hi rend="italic">biechi</hi> d’amor rabbioso» dei commensali, per la prima volta il lettore vede direttamente gli effetti terribili della carestia su personaggi di cui conosce il nome e la vicenda. La descrizione della famiglia di Tonio ha un tono più dignitoso rispetto a quella del <hi rend="italic">Fermo</hi>, dove, non senza paternalismo, si lodavano le virtù domestiche dei «poverelli».
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n109" type="comm" target="quarantana/cap6.xml#c6_13510">
+          <ref rend="bold">matterello</ref>:  ‘mestolo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n113" type="comm" target="quarantana/cap6.xml#c6_13573" targetEnd="quarantana/cap6.xml#c6_13644">
+          <ref rend="bold">La mole...di vapori</ref>:  Nella piccola luna di polenta fumante, che compare solo nei <hi rend="italic">Promessi Sposi</hi>, il ricordo del barocco più stralunato (si pensi al Tommaso Stigliani di «Materazzi del cielo, oscure nubi | ch’or tenete celata | la celeste frittata») è impiegato nella pittura di una quotidianità dimessa e umbratile. La descrizione arricchisce la scena di malinconia: il vapore del pasto che si perde del fumo è immagine quasi allegorica della difficoltà di procurarsi del cibo sostanzioso in tempi di carestia.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n115" type="comm" target="quarantana/cap6.xml#c6_13626">
+          <ref rend="bold">tafferìa</ref>:  ‘piatto di legno largo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n118" type="comm" target="quarantana/cap6.xml#c6_13645" targetEnd="quarantana/cap6.xml#c6_13692">
+          <ref rend="bold">Nondimeno le… all’ultimo boccone</ref>:  Nella dimensione “territoriale” del <hi rend="italic">Fermo</hi> mancava questo inciso che allarga ai contadini in genere, e non solo a quelli di Lombardia, il sentimento dell’ospitalità e della condivisione. Il capitolo iniziato con la boria del nobile è ora costellato del rispetto del narratore verso il popolo minuto.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n120" type="comm" target="quarantana/cap6.xml#c6_13693" targetEnd="quarantana/cap6.xml#c6_13773">
+          <ref rend="bold">«Vi ringrazio,»... con Renzo</ref>:  Nel <hi rend="italic">Fermo</hi> la fame della famiglia di Tonio era occasione per una stoccata malevola, e stereotipa, verso le donne: «La proposta fu per Tonio tanto gradita quanto meno aspettata; e le donne che in un’altra occasione forse avrebbero avuto che dire su questa partita videro con piacere che si scemasse alla polenta un concorrente, e il più formidabile». Nel romanzo finale, come già notato, la povertà onesta è sempre descritta con dignità. Lo sguardo del narratore si fa penetrante quando aggiunge il dettaglio, nuovo rispetto al <hi rend="italic">Fermo</hi>, della felicità dei figli di non avere il padre fra i «concorrenti» alla divisione del cibo.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n123" type="comm" target="quarantana/cap6.xml#c6_13847" targetEnd="quarantana/cap6.xml#c6_13853">
+          <ref rend="bold">«Tu hai… venticinque lire</ref>:  La somma è esigua; è il piccolo debito di un contadino povero verso un curato avaro che non si fa scrupoli di chiedere in garanzia gli oggetti d’oro di una famiglia duramente colpita dalla carestia. Non sfugga che la somma è apparentata agli esigui lettori dell’opera, anch’essi venticinque.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n126" type="comm" target="quarantana/cap6.xml#c6_13866" targetEnd="quarantana/cap6.xml#c6_14284">
+          <ref rend="bold">«Ah, Renzo… concerti presi</ref>:  Il dialogo da osteria è portato avanti da Manzoni con la giovialità di una scenetta comica dove non mancano né l’esuberanza dei gesti, né la forza delle espressioni dialettali («birba chi manca»), né l’ammicco col lettore sui vizi delle donne. Nel dialogo Renzo mostra di aver imparato particolarmente bene l’arte della reticenza, se definisce «senza sugo» le ragioni del mancato matrimonio. Ragioni sugosissime per don Abbondio, qualora si pensi al terrore che gli provocano don Rodrigo e i bravi. Tacere i veri motivi del mancato matrimonio è il trucco da «giureconsulto», è l’astuzia di chi ha dovuto aguzzare il cervello di fronte alle difficoltà.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n128" type="comm" target="quarantana/cap6.xml#c6_14283">
+          <ref rend="bold">concerti</ref>:  ‘accordi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n130" type="comm" target="quarantana/cap6.xml#c6_14563" targetEnd="quarantana/cap6.xml#c6_14667">
+          <ref rend="bold">«Io non… padre Cristoforo?»</ref>:  Fra tanti personaggi che si illudono di possedere un filo per sciogliere il groviglio del matrimonio mancato, Lucia è consapevole che il bandolo delle vicende umane è prerogativa divina, e che all’uomo è concessa solo la possibilità della fiducia. Una fiducia difficile, in contrasto col mondo delle passioni che Lucia conosce bene: se non riesce a trattenere una vampa di ansia e di sincero rossore di fronte alle lusinghe del matrimonio («Io voglio esser vostra moglie… io voglio esser vostra moglie»). In questo rifiuto dei mezzi umani e nel totale affidamento alla trascendenza, Lucia è davvero l’eroina della resistenza silenziosa ai mali del mondo; la sua tristezza di fronte ai capricci di don Rodrigo è la contrizione di chi vorrebbe un mondo ordinato ed è costretto, per ragioni incomprensibili, a fare i conti con la violenta confusione delle cose.
+                     </note>
+        <note xml:id="DeCristofaro_cap6-n132" type="comm" target="quarantana/cap6.xml#c6_14668" targetEnd="quarantana/cap6.xml#c6_14727">
+          <ref rend="bold">La disputa… dirgli nulla.»</ref>:  L’energico arrivo di fra Cristoforo interrompe la discussione familiare: che Manzoni ironicamente definisce «disputa», quasi fosse un dibattito di elevato valore etico o filosofico. Il cappuccino è energia pura in movimento: la sua forza prorompente guida i passi ed arriva sulla scena con la stessa potenza che hanno i messi divini nella <hi rend="italic">Commedia</hi> dantesca. La battuta finale del capitolo riporta la preparazione della matrimonio clandestino nell’alveo della tradizione comica; ma di una comicità tesa, che può essere rovesciata in tragedia in qualsiasi momento.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

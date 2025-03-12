@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-04">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap3">
+        <note xml:id="Raimondi-Bottoni_cap3-n1" type="comm" target="quarantana/cap3.xml#c3_10009" targetEnd="quarantana/cap3.xml#c3_10016">
+          <ref rend="bold">
+            angosciosamente... lo ascoltava
+          </ref>:  il resoconto di Renzo suscita in Agnese un medesimo sentimento d’angoscia, sottolineato dall’iterazione dell’avverbio; diverso invece l’affetto e l’ansia con cui si rivolgono a Lucia. Con il resoconto di quest’ultima il movimento narrativo del capitolo - che inizia con un cambiamento di scena - prende dialogicamente a chiarire la situazione nei suoi antefatti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n3" type="comm" target="quarantana/cap3.xml#c3_10166" targetEnd="quarantana/cap3.xml#c3_10210">
+          <ref rend="bold">
+            in compagnia d’un altro signore... scommettiamo
+          </ref>:  la scommessa di don Rodrigo con il conte Attilio, suo cugino, qualifica il signorotto come un prepotente che non solo ritiene lecito soddisfare i suoi capricci, ma per puntiglio vi impegna il suo prestigio. Nel <hi rend="italic">Fermo</hi> si narrava anche della seduzione di Bettina, un’altra filandaia traviata e abbandonata da don Rodrigo, che figurava piuttosto come uno scapestrato libertino: «Andava da un fornello all’altro facendo a questa e a quella mille vezzi l’uno peggio dell’altro: a chi ne diceva una trista a chi una peggio... e si pigliava tante libertà: chi fuggiva, chi gridava; e purtroppo v’era chi lasciava fare!...». L’espressione «non punto belle» è una litote ed è tipica del personaggio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n5" type="comm" target="quarantana/cap3.xml#c3_10227" targetEnd="quarantana/cap3.xml#c3_10230">
+          <ref rend="bold">
+            con gli occhi bassi
+          </ref>:  piuttosto che per umiltà e modestia, per la speranza di passare inosservata. Con lo stesso pudore che ha usato nella litote «non punto belle» riferita alle chiacchiere di don Rodrigo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n7" type="comm" target="quarantana/cap3.xml#c3_10275" targetEnd="quarantana/cap3.xml#c3_10279">
+          <ref rend="bold">
+            Al padre Cristoforo, in confessione
+          </ref>:  il vincolo della confessione esclude, senza offenderlo, lo spirito materno di interferenza. Al Manzoni si è rimproverato che, stando alle leggi canoniche, i cappuccini non avrebbero potuto confessare estranei all’Ordine, ma uno studioso autorevole come M. Barbi replicava che di fatto essi non furono mai privati della facoltà di confessare i laici. Certo Lucia, per ragioni di logica artistica, non poteva confidarsi con un don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n9" type="comm" target="quarantana/cap3.xml#c3_10343" targetEnd="quarantana/cap3.xml#c3_10348">
+          <ref rend="bold">
+            le strade... tanta paura
+          </ref>:  sembra una sorta di presagio. Lungo una strada - il luogo esterno deputato agli incontri fortuiti, aperto agli eventi - Lucia sarà rapita (CAP. XX); le strade disegneranno l’odissea di Renzo e su di una stradicciola, come si è visto, è iniziata la fatidica passeggiata di don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n11" type="comm" target="quarantana/cap3.xml#c3_10403" targetEnd="quarantana/cap3.xml#c3_10408">
+          <ref rend="bold">
+            rischio di viaggiar per molte bocche
+          </ref>:  «Agnese è fondamentalmente della stessa stoffa di Perpetua, curiosa e chiacchierona» - commenta secco il Getto.
+                     </note>
+          <note xml:id="Raimondi-Bottoni_cap3-n12" type="comm" target="quarantana/cap3.xml#c3_10537" targetEnd="quarantana/cap3.xml#c3_10570">
+            <ref rend="bold">arrossendo tutta... cosa avrete pensato di me!</ref>:  il rossore caratterizza costantemente l'interiorità di Lucia, i suoi turbamenti schivi e pudichi, il suo amore che purifica la passione d'ogni sessualità. Manzoni non esclude la sensualità, semplicemente la tace o la allude; è don Abbondio che parla del «bruciore addosso» e con la sua deformazione ne rifiuta il momento vivo. In Lucia la fede verginale diventa comportamento etico, autocensura e giovinezza coincidono; «sfacciata» sa ancora del mil. sfacciaa.
+          </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n15" type="comm" target="quarantana/cap3.xml#c3_10603" targetEnd="quarantana/cap3.xml#c3_10628">
+          <ref rend="bold">
+            Ah birbone!... coltello
+          </ref>:  la nuova sfuriata di Renzo ne riconferma l’impetuosa impulsività, l’animo offeso, la mestizia rabbiosa e sospinta alla vendetta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n17" type="comm" target="quarantana/cap3.xml#c3_10681" targetEnd="quarantana/cap3.xml#c3_10697">
+          <ref rend="bold">
+            Il Signore... volete che ci aiuti, se facciam del male?
+          </ref>:  la religiosità di Lucia è quella spontanea e innocente di una popolana che possiede ima semplicità evangelica, la certezza e il privilegio della fede.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n19" type="comm" target="quarantana/cap3.xml#c3_10751" targetEnd="quarantana/cap3.xml#c3_10755">
+          <ref rend="bold">
+           La fede di stato libero
+          </ref>:  il certificato attestante che i due non sono sposati.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n21" type="comm" target="quarantana/cap3.xml#c3_10802" targetEnd="quarantana/cap3.xml#c3_10854">
+          <ref rend="bold">
+            Io son venuta al mondo... un uomo che abbia studiato
+          </ref>:  di fronte alla silenziosa «costernazione» che ha travolto tutti, la spicciola saggezza di Agnese propone i rimedi suggeriti dall’esperienza del mondo («el diavol l’è pœu minga insù brutt come el dipinsgen»). La semplicità e la speranza di Lucia non rifiuta questo ricorso ad un avvocato, ad un uomo di studio, che pur si risolverà in un nuovo scontro con l’ingiustizia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n23" type="comm" target="quarantana/cap3.xml#c3_10874" targetEnd="quarantana/cap3.xml#c3_10928">
+          <ref rend="bold">
+            Azzecca-garbugli... lampone sulla guancia
+          </ref>:  il nome determina il destino romanzesco del personaggio; in una commedia del Maggi - rappresentante d’una Arcadia protoilluministica e dialettale - troviamo «el Sior Garbuj Zaccagna» (<hi rend="italic">Il falso filosofo</hi>, I, IV). «Azzecca» viene da azzeccare, attaccare, appiccicare - nel CAP. XI, rr. 323-324, don Rodrigo si ripromette di «azzeccare» qualche «garbuglio» a Renzo appunto per mezzo del dottore -, «garbuglio» vale per imbroglio, trappola. Non deve sfuggire la straordinaria composizione fonica del nome: le doppie, gli impasti consonantici ne fanno quasi un lombardismo in veste italiana, un equivalente italiano dei «petty-fogger», dei «Slaw Kenbergius», di Fielding e Sterne. Il soprannome definisce la doppiezza del leguleio mentre il naso rosso - che ricompare appena fatto il nome di don Rodrigo, r. 266 - fa pensare ad un buon bevitore. La «voglia di lampone» confermerebbe proverbialmente questa tendenza: d’altronde ritroveremo questa «cima d’uomo» come parassita e beone alla mensa di don Rodrigo (CAP. V).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n25" type="comm" target="quarantana/cap3.xml#c3_10941" targetEnd="quarantana/cap3.xml#c3_10942">
+          <ref rend="bold">
+            cima d'uomo
+          </ref>:  è l’espressione milanese <hi rend="italic">scimma de dottor</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n27" type="comm" target="quarantana/cap3.xml#c3_10973" targetEnd="quarantana/cap3.xml#c3_10978">
+          <ref rend="bold">
+            badate... non chiamarlo cosi!
+          </ref>:  nel Fermo il leguleio - la «cima d’uomo» dalla prospettiva d’Agnese - si chiamava dottor Pettola (CAP. III) e poi compariva alla tavola di don Rodrigo come dottor Duplica (CAP. V); nel primo caso l’allusione onomastica andava ad una maschera lombarda della Commedia dell’Arte, nel secondo suggeriva semanticamente la doppiezza, l’ipocrisia dell’uomo di legge, della sua distorta professionalità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n29" type="comm" target="quarantana/cap3.xml#c3_11047" targetEnd="quarantana/cap3.xml#c3_11072">
+          <ref rend="bold">
+            Agnese, superba... mazzetta di fiori
+          </ref>:  i consigli di Agnese risulteranno spesso inefficienti, l’ironia implicita del racconto investe quindi anche i gesti esperti della massaia fiduciosa, esuberante di consigli e di chiacchiere.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n31" type="comm" target="quarantana/cap3.xml#c3_11120" targetEnd="quarantana/cap3.xml#c3_11124">
+          <ref rend="bold">
+            come dicon... i luoghi
+          </ref>:  il «come dicon» è spia del prestito dialettale, di due codici messi. esplicitamente l’uno a fianco dell’altro. Con <hi rend="italic">luoghi</hi> - spiega il Cherubini - s’intende «podere o campagna ove sono grani, gelsi e viti, in cui si lavora a zappa o vanga e senza aiuto d’animali... quel luogo in cui lavora l’aratro dicesi più propriamente <hi rend="italic">camp</hi> se non ha viti».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n33" type="comm" target="quarantana/cap3.xml#c3_11177" targetEnd="quarantana/cap3.xml#c3_11241">
+          <ref rend="bold">
+            accompagnava col gesto... tra compagni di sventura
+          </ref>:  il gesticolare agitato di Renzo e il convulso sobbalzare dei capponi che continuano a beccarsi diventano gli equivalenti visivi, le immagini grottesche d’un piccolo universo paesano percorso da vittime litigiose: i capponi sono come poveri diavoli che di fronte alla sventura cercano 1 inimicizia invece della solidarietà. La conclusione moralistica può alludere ai contrasti che nel 1821 dividevano i patrioti milanesi perseguitati dalla polizia austriaca.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n35" type="comm" target="quarantana/cap3.xml#c3_11312" targetEnd="quarantana/cap3.xml#c3_11321">
+          <ref rend="bold">
+            mise loro le mani addosso... tirando indietro
+          </ref>:  la briosa pantomima della cessione spiega visivamente con l’immediatezza significante del gesto questa logica del donativo, la sua ritualità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n37" type="comm" target="quarantana/cap3.xml#c3_11352" targetEnd="quarantana/cap3.xml#c3_11353">
+          <ref rend="bold">
+           ’accolse umanamente
+          </ref>:  benevolmente, con «1'ipocrisia paterna del mestierante». Quindi fino a questo punto la saggezza del «poverello illetterato», che non va a mani vuote, ha funzionato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n39" type="comm" target="quarantana/cap3.xml#c3_11368" targetEnd="quarantana/cap3.xml#c3_11464">
+          <ref rend="bold">
+            uno stanzone... i ritratti de’dodici Cesari... qua e là
+          </ref>:  la prima descrizione d interno del romanzo ritrae questo decrepito studio barocco ove i segni antichi e consunti della legge sopravvivono al tempo e all’incuria suggerendo un senso di inesorabile e triste decadenza. I ritratti dei primi dodici imperatori romani, da Giulio Cesare a Domiziano — da Svetonio in poi rappresentarono la maestà del diritto romano - qui diventano elemento iconico e, per le relazioni col personaggio, danno il senso d’una romanità in burla, farsesca. I libri polverosi negli scaffali, il tavolo gremito dagli allegati di parti in causa («allegazioni»), l’imponente seggiolone dalla pelle accartocciata compongono il «quadro simbolo» di un secolo che il M. definisce superbo e cencioso.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n41" type="comm" target="quarantana/cap3.xml#c3_11486" targetEnd="quarantana/cap3.xml#c3_11488">
+          <ref rend="bold">
+            ne’giorni d’apparato
+          </ref>:  fìssati per le tornate della corte giudiziaria. Ma «apparato»  implica anche festa, spettacolo. I segni d’una decadenza decrepita ricordano l’accademia monzese descritta dal Porta: «Al primm entrà se troeuva on gran salon / cont i mur tapezzaa tutt de librazz: / gh’è in mezz on vecc settaa su un cardegon / ch’el volta e el volta i foeuj d’un scartapazz...» (<hi rend="italic">Sestinn per el matrimoni del sur cont don Gabrieli Verr</hi>, vv. 49-51).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n43" type="comm" target="quarantana/cap3.xml#c3_11529" targetEnd="quarantana/cap3.xml#c3_11614">
+          <ref rend="bold">
+            Renzo, ritto... una mano nel cocuzzolo... c'è penale
+          </ref>:  di fronte a chi ha studiato, l’imbarazzo di Renzo - il senso d’inferiorità dell’illetterato - si manifesta prima nei gesti poi nella sua equivoca richiesta che mette in moto il meccanismo comico del fraintendimento. Il leguleio abituato a soccorrere i prevaricatori crede che sia stato Renzo - ancora «in gran gala» e quindi con una cert’aria «di braveria» - a minacciare un curato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n45" type="comm" target="quarantana/cap3.xml#c3_11641" targetEnd="quarantana/cap3.xml#c3_11705">
+          <ref rend="bold">
+            serietà mista... di premura... toccar con mano
+          </ref>:  la professionalità distorta dell’uomo di legge prevede anche una sorta di finta « compassione » per la gravità del caso. La forma idiomatica «toccar con mano» si incontra in una caratteristica apertura allocutoria del Porta: «Per fav toccà con man sur Carlantoni / che mi porti respett ai proprietaa...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n47" type="comm" target="quarantana/cap3.xml#c3_11721" targetEnd="quarantana/cap3.xml#c3_11757">
+          <ref rend="bold">
+            rimescolandole dal sotto... vien fuori... ecco, ecco
+          </ref>:  la mimica ciarliera del dottore, il suo rimescolare alla rinfusa, la sua amplificata e meschina prosopopea rivelano ironicamente l’aspetto ciarlatanesco della sua dottrina e l’inconsistenza etico-giuridica di tutta una categoria professionale. Dante Isella segnala un possibile prototipo lombardo nell’avvocato di <hi rend="italic">II Manco male</hi>: «E vù, che fé ’l Vocatt hì da stà là / Settàe su ’l Cadregon / In pantoffij, besongs, e strigozzent, / Co’i cavij lighàe in dré, / E ona mezza baretta da Posté. / Denanz su ’l tavorin vott, o des liber / Avert a rebellion, / La penna e, e’1 carimàe, / Diutel, e tabacch, e on paer d’oggiàe» («e voi che fate l’avvocato, avete da star là, sul seggiolone, in pantofole, bisunto e sbrindellato, coi capelli legati all’indietro e una mezza berretta da bottegaio - Dinanzi, sul tavolino, otto o dieci libri aperti alla rinfusa, penna, calamaio, agenda, tabacco e un paio d’occhiali»); cfr. Carlo Maria Maggi, <hi rend="italic">Il teatro milanese</hi>, a cura di D. Isella, Torino, Einaudi, 1964, vv. 596-604.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n49" type="comm" target="quarantana/cap3.xml#c3_11773" targetEnd="quarantana/cap3.xml#c3_11788">
+          <ref rend="bold">
+            il 15 d'ottobre 1627!... gridafresca... più paura
+          </ref>:  al figliastro Stefano Stampa il M. confidava che proprio la lettura di questa grida (riportata dal volume di Melchiorre Gioia, <hi rend="italic">Sul commercio de' commestibili</hi>, Milano, Pirotta e Maspero, 1802) gli suggerì la prima idea d’un matrimonio contrastato come argomento romanzesco. Il ritmo della lettura di Azzecca-garbugli, variato tra borbottìi precipitosi ed enfasi espressiva, è di straordinaria efficacia caricaturale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n51" type="comm" target="quarantana/cap3.xml#c3_11789" targetEnd="quarantana/cap3.xml#c3_11829">
+          <ref rend="bold">
+            Sapete leggere... grand'espressione... secondo il bisogno
+          </ref>:  come la voce aurorale ha commentato e fatto il verso alle grida (CAP. I) così Azzecca-garbugli fa il suo commento orale in registro mimico-comico; la stessa operazione farà l’oste al CAP. XIV per cui il narratore ha evidentemente anticipato un’operazione «interpretativa» che poi delega anche agli altri personaggi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n53" type="comm" target="quarantana/cap3.xml#c3_11870">
+          <ref rend="bold">
+            concussioni
+          </ref>:  estorsioni.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n55" type="comm" target="quarantana/cap3.xml#c3_12040" targetEnd="quarantana/cap3.xml#c3_12076">
+          <ref rend="bold">
+           Ah ci siamo... sentite, sentite
+          </ref>:  la scienza giuridica del leguleio mostra ima sorta di autocompiacimento ermeneutico, di entusiasmo interpretativo ed esplicativo nei confronti del giovinetto «illetterato»; il «dottore» recita con il piacere di suscitare meraviglia, con il gusto di presentare se stesso; di fatto introduce Renzo nella sfera, cinica e servile della legge degradata,ridotta a fiera d’imbrogli e di trucchi a pagamento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n57" type="comm" target="quarantana/cap3.xml#c3_12096" targetEnd="quarantana/cap3.xml#c3_12102">
+          <ref rend="bold">
+           è come la valle di Giosafat
+          </ref>:  presso Gerusalemme, dove secondo il libro biblico di Gioele si raccoglieranno i vivi e i morti nel giorno del giudizio universale. La similitudine apocalittica dà risalto alle solite minacce iperboliche della grida e, in bocca al dottore, indica insieme i cadaveri delle parole, i loro fantasmi vuoti o alterati di significato. Per la formula si confronti il Porta di «Gh’è al mond di cristian tant ostinaa»; «tucc i vivent / unii insemma in la vall de Giosafatt» (vv. 10-11).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n59" type="comm" target="quarantana/cap3.xml#c3_12170" targetEnd="quarantana/cap3.xml#c3_12229">
+          <ref rend="bold">
+           fino alla morte... una piccola bagattella!... non ci manca niente
+          </ref>:  la tecnica di utilizzazione del documento storico è qui variata dal commento ciarlatanesco dell’avvocato che sembra vantare le qualità mirabolanti - e sappiamo quanto inefficaci - dell’ordinanza sino al visto siglato dal Governatore di Milano (don Gonzalo), dal Segretario del Consiglio Segreto (Marc'Antonio Platone), dal Gran Cancelliere (Antonio Ferrer). Grazie alla sillabazione grafica, quasi al rallentatore («ir-re-mis-si-bil-mente»), la sottolineatura espressiva diventa citazione acustica e la parola sembra caricarsi d’una sua fisionomia sonora.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n61" type="comm" target="quarantana/cap3.xml#c3_12252" targetEnd="quarantana/cap3.xml#c3_12253">
+          <ref rend="bold">
+            sacrosante parole
+          </ref>:  l’operazione interpretativa del dottore, fatta su presupposizioni opposte a quelle di Renzo, ha come esito l’equivoco totale...le parole che dovevano render concreta la minaccia della legge al giovane suonano «sacrosante».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n63" type="comm" target="quarantana/cap3.xml#c3_12277">
+          <ref rend="bold">
+            matricolato
+          </ref>:  birbante, furbacchione. Nell’uso toscano è solitamente usato con il sostantivo aggettivale («furbo matricolato»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n65" type="comm" target="quarantana/cap3.xml#c3_12324" targetEnd="quarantana/cap3.xml#c3_12393">
+          <ref rend="bold">
+           Per intender... gride... questa moda
+          </ref>:  la digressione che obbliga il narratore a citare una grida ulteriore rischia di essere eccessiva - non drammatizza come la precedente il personaggio di Azzecca-garbugli - anche se completa, con il gusto del «colore storico», la satira dell’assurda giustizia secentesca.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n67" type="comm" target="quarantana/cap3.xml#c3_12414" targetEnd="quarantana/cap3.xml#c3_12417">
+          <ref rend="bold">
+           fino alli cigli esclusivamente
+          </ref>:  soltanto fino alle ciglia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n69" type="comm" target="quarantana/cap3.xml#c3_12437">
+          <ref rend="bold">
+            d'inhabilità
+          </ref>:  di inabilità al pagamento, di insolvenza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n71" type="comm" target="quarantana/cap3.xml#c3_12501">
+          <ref rend="bold">
+            mancamenti
+          </ref>:  difetti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n73" type="comm" target="quarantana/cap3.xml#c3_12566" targetEnd="quarantana/cap3.xml#c3_12567">
+          <ref rend="bold">
+            zuffi, rizzi
+          </ref>:  ciuffi e riccioli. Nel Maggi <hi rend="italic">zuff</hi> vale «bravaccio, smargiasso» e anche «fare il viso dell’arme», «mostrare i denti» («Che la ghe mostra el zuff par spaventasc», ossia «gli mostri il ciuffo, come uno spaventapasseri»; <hi rend="italic">Il Manco male</hi>, atto III, scena 14, 837).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n75" type="comm" target="quarantana/cap3.xml#c3_12627" targetEnd="quarantana/cap3.xml#c3_12683">
+          <ref rend="bold">
+            Questo termine... è un ciuffetto
+          </ref>:  la pausa parentetica, con l’affettuosa menzione dei «lettori milanesi», prepara il passaggio dal tono digressivo e diegetico a quello drammatico dell’azione in atto e della mimesi dialogica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n77" type="comm" target="quarantana/cap3.xml#c3_12727" targetEnd="quarantana/cap3.xml#c3_12730">
+          <ref rend="bold">
+            le bugie al dottore
+          </ref>:  «bugie», «imbroglio», «fandonie» (r. 269) sono termini ad alta frequenza nel romanzo; per C. Varese la scelta, la costanza delle parole equivale ad una elezione di giudizio, ad una cristallizzazione ideologica che diventa cristallizzazione semantica (cfr. C. Varese, <hi rend="italic">L’originale e il ritratto</hi>, Firenze, La Nuova Italia, 1977).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n79" type="comm" target="quarantana/cap3.xml#c3_12772" targetEnd="quarantana/cap3.xml#c3_12800">
+          <ref rend="bold">
+            Dovete nominarmi... atto di dovere
+          </ref>:  il dottore incomincia a sciorinare il suo grottesco prontuario giuridico che contempla una visita riguardosa all’eventuale mandante, al potente di cui mai - dirà - si devono ledere gli interessi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n81" type="comm" target="quarantana/cap3.xml#c3_12847" targetEnd="quarantana/cap3.xml#c3_12880">
+          <ref rend="bold">
+            Se poi la scappata... con un po’ di spesa
+          </ref>:  il basso concetto che Azzecca-garbugli ha della giustizia, oltre alla deferenza nei confronti dei potenti, contempla la corruzione, l’intimidazione e la ritorsione ricattatoria.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n83" type="comm" target="quarantana/cap3.xml#c3_12915" targetEnd="quarantana/cap3.xml#c3_12918">
+          <ref rend="bold">
+            d’attaccarlo noi in criminale
+          </ref>:  denunciarlo a nostra volta per un suo eventuale reato. Come ha scritto un filosofo cristiano del nostro tempo, «la frode è il sempre pronto ministro dell’ingiustizia» (F. Rosenzweig).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n85" type="comm" target="quarantana/cap3.xml#c3_12925">
+          <ref rend="bold">
+            a saper ben maneggiare... nessuno è innocente
+          </ref>:  Azzecca-garbugli scopre insieme al suo cinismo personale il caos legislativo dell’epoca; nello stesso tempo svela qualcosa di terribile sull’uomo e la società. Di fronte ai cavilli della legge - che consente ai legulei di «azzeccare» a tutti «una pulce» - nessuno può avere la certezza della propria innocenza, ritenersi certo del proprio diritto: «a saper ben maneggiare le gride, nessuno è reo, e nessuno è innocente». Un cinismo tranquillo e insieme sinistro. Sempre il Gioia della <hi rend="italic">Breve analisi</hi> fa sostenere - da uno che pratica questa logica degli imbrogli -: «ogni azione diventa giusta, quando si sa sostenerla coll’astuzia o colla forza».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n87" type="comm" target="quarantana/cap3.xml#c3_12954" targetEnd="quarantana/cap3.xml#c3_12955">
+          <ref rend="bold">
+            una testolina
+          </ref>:  un ostinato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n89" type="comm" target="quarantana/cap3.xml#c3_12967" targetEnd="quarantana/cap3.xml#c3_13031">
+          <ref rend="bold">
+            ci vuole un uomo... danari e sincerità... sarà suggerito
+          </ref>:  il leguleio, con la furbesca vanità dell’uomo di legge, non ha scrupoli nell’esporre il repertorio dei suoi imbrogli, il suo codice di sopraffazioni legali o cavillose. A rassicurazione del cliente sfoggia poi una massima del tutto adeguata, «danari e sincerità», ove il secondo termine si carica di feroce ironia, nella prospettiva dei suoi suggerimenti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n91" type="comm" target="quarantana/cap3.xml#c3_13043" targetEnd="quarantana/cap3.xml#c3_13057">
+          <ref rend="bold">
+            guardando... come un materialone... al giocator di bussolotti
+          </ref>:  finalmente Renzo si rende conto dell’equivoco e quello che credeva un uomo di legge gli si rivela, in un’ottica quasi carnevalesca, un grottesco ciarlatano di provincia: l’immagine sottolinea la situazione d’equivoco, l’ingenuità del giovane e ne incupisce la delusione. Sono due punti di vista che cozzano: Renzo visto da Azzecca-garbugli e il dottore visto dal giovane. Nel Cherubini <hi rend="italic">mangiastoppa</hi> è l’equivalente milanese di ciarlatano o saltimbanco.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n93" type="comm" target="quarantana/cap3.xml#c3_13094" targetEnd="quarantana/cap3.xml#c3_13099">
+          <ref rend="bold">
+            gli troncò il nastro in bocca
+          </ref>:  trasforma il mil. <hi rend="italic">sarà i paroll in bocca</hi>. Si osservi il fenomeno di costruzione grottesca del reale. Il «nastro e nastro e nastro» che viene ripreso da quello ultimo della nuova frase fa parte di una comparazione, cioè d’un evento fittizio rispetto all’evento descritto come reale dal racconto. Nel secondo caso, invece, appartiene proprio allo spazio, alla scena narrativa diretta: il «nastro» dell’analogia è divenuto un oggetto concreto «in bocca» al dottore, come per un gioco di prestigio che annulla le differenze fra l’immaginario e l’oggettivo. Così la maschera del «giocator di bussolotti» si sovrappone sino in fondo all’immagine di Azzecca-garbugli «alto, asciutto, pelato...». Il «nastro» si beffa, per così dire, del suo inconsapevole portatore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n95" type="comm" target="quarantana/cap3.xml#c3_13127" targetEnd="quarantana/cap3.xml#c3_13131">
+          <ref rend="bold">
+            a tutto il mio comune
+          </ref>:  ai miei compaesani. Nel tono risentito s’aVVerte la dolorosa esperienza dell’oppresso che resta di stucco, trasognato, <hi rend="italic">estategh</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n97" type="comm" target="quarantana/cap3.xml#c3_13160" targetEnd="quarantana/cap3.xml#c3_13162">
+          <ref rend="bold">
+            per ottener giustizia
+          </ref>:  per la prima volta il termine «giustizia» compare nel suo significato autentico di negazione dell’arbitrio e non in quello fittizio e poliziesco dell’avvocato. Ma immediatamente incomincia il suo processo di deformazione, prima da parte del dottore che alle «fandonie» del contadino oppone la sua saviezza di «galantuomo», poi da parte di Renzo stesso che penserà alla possibilità di farsi giustizia con la vendetta, con l’omicidio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n99" type="comm" target="quarantana/cap3.xml#c3_13288" targetEnd="quarantana/cap3.xml#c3_13289">
+          <ref rend="bold">
+            Quel prepotente
+          </ref>:  al lemma <hi rend="italic">prepotent</hi> il Cherubini aggiunge «prepotente, ossia tracotante, soperchiante»; nel Porta di <hi rend="italic">Olter desgrazzi</hi> lo sdegnato Giovannin passa a sua volta per «el prepotent, el birbon, / el boja, can, sassin» (vv. 374-375).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n101" type="comm" target="quarantana/cap3.xml#c3_13342">
+          <ref rend="bold">
+            galantuomo
+          </ref>:  anche Azzecca-garbugli nella sua deformazione etica abusa del termine, proprio come avveniva a don Abbondio nel colloquio con i bravi. Ma ci sono personaggi che non useranno mai il termine «galantuomo» forse perché indica un ruolo in cui essi non si riconoscono.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n103" type="comm" target="quarantana/cap3.xml#c3_13487" targetEnd="quarantana/cap3.xml#c3_13515">
+          <ref rend="bold">
+            Prese le quattro... far cerimonie
+          </ref>:  si noti come nella restituzione dei capponi, simmetrica per la sua pantomima alla consegna, sia ora la serva, dopo il padrone, ad equivocare sull’onestà del malcapitato cliente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n105" type="comm" target="quarantana/cap3.xml#c3_13524" targetEnd="quarantana/cap3.xml#c3_13525">
+          <ref rend="bold">
+            più attonito
+          </ref>:  incapace di raccapezzarsi, sbalordito e stupefatto per aver chiesto giustizia ed essere stato trattato come un ribaldo. L’aggettivo manzoniano (nell’ode <hi rend="italic">II cinque maggio</hi> «attonita / la terra al nunzio sta»; «attonito» è anche lo sguardo di Lucia rapita nel CAP. XXI)conserva nella dimensione prosaica del romanzo l’emozione profonda del linguaggio. Registra che la commedia «buffa» è finita e il personaggio vive in proprio il teatro drammatico dell’esistenza; nel CAP. I era capitato a don Abbondio di restare come «incantato» (r. 246).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n107" type="comm" target="quarantana/cap3.xml#c3_13557">
+          <ref rend="bold">
+            tristamente
+          </ref>:  l’avverbio, in forte contrasto con la tonalità comica della situazione precedente, ci riporta alla tristezza della situazione iniziale. Si torna al patetico di quella commedia seria che chiedeva un Diderot.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n109" type="comm" target="quarantana/cap3.xml#c3_13597" targetEnd="quarantana/cap3.xml#c3_13640">
+          <ref rend="bold">
+            Lucia disse... padre Cristoforo... ciò ch’era accaduto
+          </ref>:  con la ripresa del racconto ha risalto l’iniziativa energica e fiduciosa di Lucia, cui si associa anche Agnese.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n112" type="comm" target="quarantana/cap3.xml#c3_13661" targetEnd="quarantana/cap3.xml#c3_13662">
+          <ref rend="bold">
+            due miglia
+          </ref>:  negli statuti di Milano e di Lecco il miglio equivaleva a 1.784 metri. Quindi circa tre chilometri e mezzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n114" type="comm" target="quarantana/cap3.xml#c3_13704" targetEnd="quarantana/cap3.xml#c3_13793">
+          <ref rend="bold">
+            Deo gratias... un laico cercatore...fra Galdino
+          </ref>:  la formula liturgica «Rendiamo grazie a Dio» annuncia questo frate laico, addetto ai vari servizi del convento - come appunto la cerca delle noci - che ha funzione di raccordo nei confronti di padre Cristoforo. Il personaggio parla la lingua della propria condizione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n116" type="comm" target="quarantana/cap3.xml#c3_13896" targetEnd="quarantana/cap3.xml#c3_13936">
+          <ref rend="bold">
+            Le son tutte qui... le annate... scarse
+          </ref>:  il rammarico di fra Galdino per gli scarsi risultati della questua introduce il primo indizio della crisi incombente sulle campagne e può giustificare il suo racconto edificante, le sue chiacchiere devote.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n118" type="comm" target="quarantana/cap3.xml#c3_13954" targetEnd="quarantana/cap3.xml#c3_13967">
+          <ref rend="bold">
+           E per far tornare il buon tempo... L’elemosina
+          </ref>:  il frate ha il gusto professionale della catechesi, dell’aneddotica sacra che si leggeva nei refettori durante i pasti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n123" type="comm" target="quarantana/cap3.xml#c3_14026" targetEnd="quarantana/cap3.xml#c3_14027">
+          <ref rend="bold">
+            uomo dabbene
+          </ref>:  è il mil. <hi rend="italic">om de ben</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n125" type="comm" target="quarantana/cap3.xml#c3_14051" targetEnd="quarantana/cap3.xml#c3_14055">
+          <ref rend="bold">
+            principiavano a scalzar la pianta... la terra sulle radici
+          </ref>:  gli ingredienti della predica, dal benefattore fiducioso al figlio scapestrato, ai processi di sterilità / fertilità miracolosa, provengono da un famoso testo secentesco, il <hi rend="italic">Prato fiorito di varii essempi</hi> del padre cappuccino Valerio Veneziano. Questa sorta di enciclopedia di leggende, miracoli, esempi morali, rappresentava per Ermes Visconti - il postillatore del <hi rend="italic">Fermo</hi> - un campionario del cattolicesimo magico e filisteo e un oggetto di satira giocosa per l’amico Carlo Porta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n127" type="comm" target="quarantana/cap3.xml#c3_14172" targetEnd="quarantana/cap3.xml#c3_14173">
+          <ref rend="bold">
+            a bizzeffe
+          </ref>:  in grande quantità (dall’arabo <hi rend="italic">bizzẽf</hi>,molto); risponde al mil. <hi rend="italic">stravaccaseggia</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n130" type="comm" target="quarantana/cap3.xml#c3_14189">
+          <ref rend="bold">
+            bacchiarle
+          </ref>:  farle cadere percuotendole con la pertica (da <hi rend="italic">baculum</hi>, bastone).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n132" type="comm" target="quarantana/cap3.xml#c3_14265" targetEnd="quarantana/cap3.xml#c3_14333">
+          <ref rend="bold">
+            Un giorno (sentite questa)... sentite... e vede... che cosa?
+          </ref>:  il frate e le due donne partecipano d’una comune fede nel meraviglioso e la parentesi sottolinea il formulario stilistico della favola edificante con tutti gli ammiccamenti, i cenni d’intesa, gli appelli agli stupefatti ascoltatori.Come aveva fatto Azzecca-garbugli con Renzo così fra Caldino usa la propria retorica con le donne.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n134" type="comm" target="quarantana/cap3.xml#c3_14408" targetEnd="quarantana/cap3.xml#c3_14427">
+          <ref rend="bold">
+            Siam come il mare...i fiumi
+          </ref>:  il finale sentenzioso completa 1'esercizio oratorio di fra Caldino esaltando l’epica cristiana della carità con l’eloquenza «popolare» del cercatore buono e ottuso, commosso e curioso.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n136" type="comm" target="quarantana/cap3.xml#c3_14472" targetEnd="quarantana/cap3.xml#c3_14481">
+          <ref rend="bold">
+            l'abbondante elemosina... un volto attonito e severo
+          </ref>:  quindi, a parte il suo successo di affabulatore, fra Caldino con tutta la sua oratoria agiografìca non è riuscito a convincere Agnese.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n138" type="comm" target="quarantana/cap3.xml#c3_14651" targetEnd="quarantana/cap3.xml#c3_14654">
+          <ref rend="bold">
+           la condizione de’ cappuccini
+          </ref>:  l’ordine era stato istituito nel 1528 per iniziativa di Matteo del Bascio, ridando vigore al vecchio tronco francescano, e si era affiancato ad altri ordini religiosi come i frati minori «eremiti», impegnati a difesa e per lo sviluppo dei programmi controriformistici. Nel Seicento, ad un secolo dalla fondazione, l’ordine raggiungeva il suo massimo vigore e per il suo fervore di povertà francescana era il più vicino - come il M. ricordava con Ruggero Bonghi - alla vita del popolo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n140" type="comm" target="quarantana/cap3.xml#c3_14665" targetEnd="quarantana/cap3.xml#c3_14724">
+          <ref rend="bold">
+            Servir gl’infimi... un cappuccino
+          </ref>:  la serie di antitesi e parallelismi lascia avvertire la « rettorica discreta » dell’<hi rend="italic">Introduzione</hi>. Il Momigliano esaltando la straordinaria capacità manzoniana di ritrarre le folle e le classi sociali scriveva: «la sorte contraddittoria di questi frati è riassunta nella frase <hi rend="italic">a tutto era avvezzo un cappuccino</hi> che si leva come una sintesi nel centro del ritratto, e che riecheggia il tono di tutta la descrizione, apparentemente impassibile, in realtà governata da una sovrana padronanza interiore ». Di fatto l’attività dei cappuccini disegna, attraverso le coppie antinomiche «basso» / «elevato», «infimi» / «potenti», «palazzi» / «tuguri», l’asse verticale della vita civile su cui si muoverà padre Cristoforo salendo dalla casa di Lucia al palazzotto di don Rodrigo. Tale attività rappresentava per il M. uno dei pochi aspetti edificanti d’un secolo caratterizzato dall’alterigia autoritaria, dal disordine sociale, da fastosità e trasandatezza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n142" type="comm" target="quarantana/cap3.xml#c3_14725" targetEnd="quarantana/cap3.xml#c3_14836">
+          <ref rend="bold">
+            Andando per la strada... degli uomini
+          </ref>:  le colorite opposizioni della tecnica ritrattistica classica («baciasse» / «inzaccherassero»; «gran rispetto» / « amaro disprezzo » ; «venerazione» / «vilipendio») epicizzano retoricamente l’attività dell’Ordine, il suo spirito di evangelizzazione e di servizio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n144" type="comm" target="quarantana/cap3.xml#c3_14840" targetEnd="quarantana/cap3.xml#c3_14842">
+          <ref rend="bold">
+            tutte quelle noci!
+          </ref>:  l’oratoria del frate, il suo opaco ottimismo miracolistico è svanito ed Agnese con desolata franchezza ribadisce le preoccupazioni «economiche» per una dura realtà.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n146" type="comm" target="quarantana/cap3.xml#c3_14904" targetEnd="quarantana/cap3.xml#c3_14909">
+          <ref rend="bold">
+            è tutta carità... buon frutto
+          </ref>:  è una conclusione consolatoria con la quale la devozione popolare riconosce il senso generoso della carità e, nella sua sapienza ingenua, non vuole precludere alla speranza la possibilità del « miracolo », dell’ intervento provvidenziale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n148" type="comm" target="quarantana/cap3.xml#c3_14944" targetEnd="quarantana/cap3.xml#c3_15000">
+          <ref rend="bold">
+           arrivò Renzo... mortificato... col dottore
+          </ref>:  l’intreccio romanzesco, attraverso i casi angosciosi di Renzo e l’esemplare vicenda dei capponi, dissolve definitivamente l’atmosfera di miracoli e prodigi evocata da fra Galdino. Era stato una sorta di intermezzo affabulatorio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n151" type="comm" target="quarantana/cap3.xml#c3_15044" targetEnd="quarantana/cap3.xml#c3_15071">
+          <ref rend="bold">
+            Renzo accolse... questa speranza... un ripiego, lo troverò io
+          </ref>:  di fatto a coltivare la speranza sembrerebbe essere solo la quieta fiducia di Lucia mentre il giovane non abbandona il suo proposito ultimo, quello di farsi giustizia da solo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n153" type="comm" target="quarantana/cap3.xml#c3_15167" targetEnd="quarantana/cap3.xml#c3_15169">
+          <ref rend="bold">
+           ancor più tristamente
+          </ref>:  come il ragguaglio iniziale di Lucia era introdotto da un ripetuto «angosciosamente» cosi il congedo di Renzo si chiude sulla nota grave di questo doppio «tristamente ». La ripetizione ha un effetto dinamico di corrispondenza e di intensificazione progressiva come segnala lo stesso comparativo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap3-n155" type="comm" target="quarantana/cap3.xml#c3_15205" targetEnd="quarantana/cap3.xml#c3_15222">
+          <ref rend="bold">
+            c’è giustizia, finalmente!... quel che si dica
+          </ref>:  per Renzo l’ultima alternativa alla speranza, al miracolo, resta la vendetta omicida, il «sogno di sangue», una giustizia fuori e contro la legge. L’intervento aurorale biasima la confusione tra giustizia e violenza, il pervertimento che può entrare anche nei propositi d’un innocente contaminando la sua sofferenza con l’idea all’omicidio. Ma il narratore lascia aperto il discorso e il dialogo con il lettore. Usando prospetticamente i significati intenzionali del personaggio, la scrittura rifrange e allarga la sfera semantica del termine «giustizia», sino a rovesciarla nel suo termine negativo...la vendetta.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

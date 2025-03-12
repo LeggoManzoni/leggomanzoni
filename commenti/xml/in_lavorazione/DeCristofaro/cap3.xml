@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-12">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap3">
+        <note xml:id="DeCristofaro_cap3-n1" type="comm" target="quarantana/cap3.xml#c3_10001">
+          <ref rend="bold">Intestazione</ref>:  [Francesco] Gonin. La lotta tra la colomba e il serpente è il secondo tipo di intestazione di capitoli; appare per altre sei volte, ai capp. X, xv, xix, xxviii, xxxii, xxxv. Si tratta di una rappresentazione allegorica «della sopraffazione della malvagità sull’innocenza». Qui l’immagine sintetizza quanto si è appreso nel precedente capitolo, polarizzando la storia tra don Rodrigo (il minaccioso serpente) e Lucia (la candida colomba).
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n3" type="comm" target="quarantana/cap3.xml#c3_10001">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale: Lucia che affretta il passo etc.» Si osservi che la fonte luminosa dell’immagine è supposta provenire da tergo rispetto alla figurina; ciò fa sì che la parte davanti del corpo della giovane, scura per mancanza di luce, e la proiezione d’ombra a terra suggeriscano la “L” iniziale del suo nome. E col suo nome inizia un capitolo che, pur incentrato sullo spostamento di Renzo, deve proprio a Lucia l’individuazione di un aiutante, col conseguente sviluppo della trama. Sia Nigro (2002) sia Badini Confalonieri (2006) ricordano che la prima stesura del disegno (che mostrava Lucia mentre si sottrae all’abbraccio di don Rodrigo) non piacque a Manzoni (lettera a Gonin del 27 gennaio 1840), che invece apprezzò la soluzione definitiva così tanto da sceglierla per il lancio promozionale dell’opera. Dal punto di vista del rapporto tra immagine e racconto, Daniela Picamus (2001-2003) ha osservato che il capolettera anticipa quanto Lucia sta per raccontare, ossia l’incontro con don Rodrigo sulla via per la filanda.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n5" type="comm" target="quarantana/cap3.xml#c3_10001" targetEnd="quarantana/cap3.xml#c3_10097">
+          <ref rend="bold">Lucia entrò… cosa simile!»</ref>:  L’iterazione dell’avverbio «angosciosamente», su cui si apre il capitolo, accomuna i personaggi in scena nella preoccupazione che entrambi («tutt’e due... tutt’e due»), con sentimenti simili e contrapposti nello stesso tempo («amore diverso», «cruccio pur diverso»), provano per Lucia. Lo stupore di Agnese e Renzo di fronte al racconto di Lucia crea un clima quasi di diffidenza, che ciascuno dei due lascia scorgere («travedere») in attesa d’una spiegazione («uno schiarimento»). Si noti il gioco dei pronomi: il <hi rend="italic">tu</hi> nelle parole della madre, il <hi rend="italic">voi</hi> di riverenza (consueto fra promessi sposi, al tempo) in quelle di Renzo. Secondo il vocabolario della Crusca, la «stanza terrena» è «la Stanza prima della casa, che si trova giù rasente la terra, presso alla porta».
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n7" type="comm" target="quarantana/cap3.xml#c3_10138" targetEnd="quarantana/cap3.xml#c3_10205">
+          <ref rend="bold">E, con voce… rider forte</ref>:  Filtrato dalle parole di Lucia, don Rodrigo entra finalmente in scena. Nel ricordo della ragazza, lui e il cugino sono profili a malapena intravisti, voci incomprensibili, quasi «un puro ritmo di passi […], sullo sfondo di una strada appena suggerita» (Getto [1964]: 219). Il conte Attilio, istigatore delle azioni del cugino, recita nel romanzo la parte del libertino: è il <hi rend="italic">giovin signore</hi>, dissoluto e senza Dio, capace di qualsiasi scelleratezza e irriverente verso ogni autorità morale; anche lo «sghignazzo» che annuncia la sua presenza getta immediatamente un’ombra satanica su di lui.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n9" type="comm" target="quarantana/cap3.xml#c3_10206" targetEnd="quarantana/cap3.xml#c3_10252">
+          <ref rend="bold">e don Rodrigo...della filanda</ref>:  L’origine dei mali di Renzo e Lucia è la scommessa fra i due cugini. Più che la passione sensuale, è l’orgoglio di casta, l’<hi rend="italic">ethos</hi> dell’arbitrio feudale a spingere Rodrigo alla caccia della giovane. Manzoni costruisce il suo piccolo tiranno ispirandosi a modelli dell’immaginario culturale europeo, e fra questi gli eroi mozartiani come il Conte d’Almaviva (l’avversario di Figaro che tenta di sedurne la sposa) e don Giovanni. Rispetto alla corrispondente pagina del <hi rend="italic">Fermo</hi>, il narratore ha scorciato il racconto della preistoria del romanzo, eliminando gli accenni alle conquiste violente del libertino a danno delle filatrici, la compiacenza del padrone della filanda e la storia (di cui però Lucia avrebbe parlato solo qualche capitolo dopo) della seduzione, e dell’abbandono, dell’operaia Bettina. A partire dalla Ventisettana, la carica erotica di don Rodrigo si attenua rispetto al <hi rend="italic">Fermo</hi> e il narratore preferisce concentrarsi sulla dimensione tragica del personaggio, che diventa allegoria di un potere dispotico, forte con gli umili e ossequioso coi forti; e impermeabile ai richiami della morale.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n11" type="comm" target="quarantana/cap3.xml#c3_10373" targetEnd="quarantana/cap3.xml#c3_10440">
+          <ref rend="bold">Lucia aveva… che la prima</ref>:  Passata nell’opinione comune come figura remissiva e mite per eccellenza, Lucia mostra più volte una certa attitudine all’intraprendenza e una discreta abilità nel districarsi nelle faccende della vita, senza però mai perdere la sua buona fede; dimostra così di seguire l’invito evangelico ad essere candidi come colombe e prudenti come serpenti in un mondo popolato di lupi (cfr. <hi rend="italic">Matteo</hi> 10, 16). Si ricorderà che la lotta fra colomba e serpente è la prima illustrazione del capitolo. Molti commentatori del testo hanno notato, in modo forse un po’ ozioso, che qui Manzoni commette un errore storico perché nel 1628, data dell’inizio della storia, ai cappuccini non era consentito confessare i fedeli. Rispetto alle cautele dei <hi rend="italic">Promessi Sposi</hi>, il narratore del <hi rend="italic">Fermo</hi> aveva rimarcato con modi assai più bruschi il carattere loquace di Agnese: «Lucia non rispose perché la risposta che si sentiva in mente non era da dirsi a sua madre: tutto il vicinato ne sarebbe stato informato».
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n13" type="comm" target="quarantana/cap3.xml#c3_10382">
+          <ref rend="bold">contristare</ref>:  ‘addolorare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n14" type="comm" target="quarantana/cap3.xml#c3_10415">
+          <ref rend="bold">sepolta</ref>:  ‘nascosta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n15" type="comm" target="quarantana/cap3.xml#c3_10429">
+          <ref rend="bold">abbominata</ref>:  ‘detestata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n16" type="comm" target="quarantana/cap3.xml#c3_10437">
+          <ref rend="bold">allegò</ref>:  ‘disse’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n18" type="comm" target="quarantana/cap3.xml#c3_10791" targetEnd="quarantana/cap3.xml#c3_10862">
+          <ref rend="bold">«Sentite, figliuoli… voglio dire</ref>:  Di fronte alla «costernazione», un po’ melodrammatica, che ha atterrito tutti, la spicciola saggezza di Agnese propone i rimedi suggeriti dall’esperienza del mondo (“el diavol l’è pœu minga inscì brutt come el dipinsgen”). Il registro linguistico del personaggio è intessuto di modismi popolari come quello di don Abbondio e di Perpetua. Nel romanzo, Agnese gioca il doppio ruolo di madre amorosissima e di donna d’età che fa troppo affidamento sulla sua conoscenza dei comportamenti umani. I suoi rimedi si riveleranno tutti inefficaci, perché sottovalutano l’intrigo delle «matasse» e la difficoltà di trovarne il proverbiale «bandolo». Per lei, come per tutti i personaggi del romanzo, il mondo è un intricato imbroglio, un labirinto da percorrere alla ricerca d’una possibile uscita.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n20" type="comm" target="quarantana/cap3.xml#c3_10751" targetEnd="quarantana/cap3.xml#c3_10755">
+          <ref rend="bold">la fede di stato libero</ref>:  l’attestato certificante la loro condizione di sposi privi dal ligamen (che è uno degli «impedimenti dirimenti» dietro i quali si era nascosto don Abbondio nel capitolo precedente).
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n21" type="comm" target="quarantana/cap3.xml#c3_10784">
+          <ref rend="bold">contrapposto</ref>:  ‘contrapposizione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n22" type="comm" target="quarantana/cap3.xml#c3_10786" targetEnd="quarantana/cap3.xml#c3_10787">
+          <ref rend="bold">pompa festiva</ref>:  ‘eleganza della festa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n24" type="comm" target="quarantana/cap3.xml#c3_10863" targetEnd="quarantana/cap3.xml#c3_10928">
+          <ref rend="bold">Fate a mio...sulla guancia.»</ref>:  La caricatura dell’uomo di legge è una delle figure caratteristiche del romanzo inglese del XVIII secolo: dal <hi rend="italic">petty-fogger</hi> di Fielding allo <hi rend="italic">Slaw Kenbergius</hi> di Sterne. Il personaggio segna, in primo luogo, una vetta dell’onomastica manzoniana: la sua qualità principale è quella di indovinare (<hi rend="italic">azzeccare</hi>) i giusti intrighi (<hi rend="italic">garbugli</hi>) per salvare i clienti; ed è facile capire che il soprannome possa attrarre chi pensa che ai «poverelli le matasse paion più imbrogliate, perché non <hi rend="italic">sanno</hi> trovarne il bandolo». Nel nome c’è probabilmente un ricordo dei versi di Carlo Maria Maggi, che nelle sue poesie adopera il temine milanese “zaccagarbuij” e nel <hi rend="italic">Falso filosofo</hi> evoca il Sior Garbuj Zaccagna. Ma non è da escludere un’eco dei versi cantati dal dottor Bartolo nelle mozartiane <hi rend="italic">Nozze di Figaro</hi> : «Se tutto il codice | dovessi volgere, | se tutto l’indice | dovessi leggere, | con un equivoco | con un sinonimo | qualche garbuglio | si troverà». Il battesimo del personaggio è stato particolarmente travagliato: nel <hi rend="italic">Fermo</hi> Manzoni era indeciso fra Pettola, come appare nel terzo capitolo, e Duplica, com’è chiamato del quinto. Nella sua prima intenzione, l’autore presenta il personaggio immerso nella sporcizia, fisica e morale, mentre è intento ad inviluppare gli eventi per compiacere i suoi mille padroni. La «pèttola» aveva infatti (come ricorda Cherubini) il doppio significato di camicia «sporca, sudicia, merdosa» e «gagno, intrigo, viluppo». Viceversa, la scelta di Duplica derivava dalla natura duplice, ambigua e impalpabile del personaggio. Nel nome era dichiarata l’ipocrisia, la doppia morale, l’inconsistenza dell’uomo di legge; e la sua attitudine a fare da eco, a duplicare all’infinito, la voce di chi comanda. I tratti grotteschi del personaggio, come il naso rosso e la voglia di lampone sulla guancia, sono segni del suo amore per i piaceri della tavola e in particolar modo della passione per il vino, sul quale Manzoni ritornerà anche in seguito: e chissà che non se sia ricordato Balzac nell’inventare, giusto in quel torno di anni, il suo indimenticabile Séchard delle <hi rend="italic">Illusioni perdute</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n27" type="comm" target="quarantana/cap3.xml#c3_11143" targetEnd="quarantana/cap3.xml#c3_11241">
+          <ref rend="bold">Lascio poi… compagni di sventura</ref>:  I proverbiali «capponi di Renzo» sono diventati l’allegoria di una condizione umana: vittime innocenti, disarmate e incapaci di solidarizzare contro il nemico comune. Più di un commentatore vi ha colto un’allusione ai contrasti che divisero i patrioti italiani dopo il fallimento dei moti napoletani e piemontesi del ’20-’21. <hi rend="italic">luoghi</hi>: «podere o campagna ove sono grani, gelsi e viti, in cui si lavora a zappa e vanga e senza ajuto d’animali» (Cherubini).
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n30" type="comm" target="quarantana/cap3.xml#c3_11366" targetEnd="quarantana/cap3.xml#c3_12974">
+          <ref rend="bold">Era questo... il vostro caso.»</ref>:  La descrizione dell’ambiente trascurato, rovinato, desueto in cui vive e riceve il dottore è uno dei pezzi di bravura di Manzoni: lo «stanzone» è metafora di una cultura decrepita che preferisce all’inquietudine del pensiero il sostegno incondizionato delle ragioni del più forte. I giudici della <hi rend="italic">Colonna infame</hi> operarono in stanze assai simili a questa. Nella pagina il generale disfacimento accomuna, senza confini fra «la nota fisica e il significato morale» (Auerbach [1946]), la decadenza dell’arredo, l’usura degli abiti e la corruzione etica dell’uomo di legge. È un precoce esempio di quello che l’autore di <hi rend="italic">Mimesis</hi> avrebbe poi chiamato «realismo atmosferico», ovvero di quella strettissima correlazione fra uomo e ambiente che caratterizza molti romanzi dell’Ottocento.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n32" type="comm" target="quarantana/cap3.xml#c3_11264">
+          <ref rend="bold">illetterati</ref>:  ‘analfabeti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n33" type="comm" target="quarantana/cap3.xml#c3_11302">
+          <ref rend="bold">adocchiò</ref>:  ‘guardò’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n34" type="comm" target="quarantana/cap3.xml#c3_11353">
+          <ref rend="bold">umanamente</ref>:  ‘cordialmente’;
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n35" type="comm" target="quarantana/cap3.xml#c3_11399">
+          <ref rend="bold">allegazioni</ref>:  ‘prove e testimonianze allegate ai discorsi giudiziari’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n36" type="comm" target="quarantana/cap3.xml#c3_11401">
+          <ref rend="bold">suppliche</ref>:  ‘richieste di grazia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n37" type="comm" target="quarantana/cap3.xml#c3_11485">
+          <ref rend="bold">perorare</ref>:  ‘tenere arrighe’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n38" type="comm" target="quarantana/cap3.xml#c3_11487" targetEnd="quarantana/cap3.xml#c3_11488">
+          <ref rend="bold">giorni d’apparato</ref>:  ‘giorni in cui si discutono le cause’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n42" type="comm" target="quarantana/cap3.xml#c3_11630" targetEnd="quarantana/cap3.xml#c3_11705">
+          <ref rend="bold">– Ho capito... toccar con mano.»</ref>:  Naturalmente Azzecca-garbugli non ha capito niente: pensa di trovarsi di fronte al colpevole, all’oppressore, a un <hi rend="italic">bravo</hi>. Forse per deformazione professionale: giacché l’uomo di legge si trova ad avere a che fare quasi solo con delinquenti. Ancora un tassello mozartiano lega la figura dell’avvocato (che peraltro, ha notato Luigi Russo, «stringe sempre le labbra, e quando assapora i vini, e ora che assapora i suoi garbugli») a Bartolo, fido servitore del potere feudale nelle <hi rend="italic">Nozze</hi>, che nella sua aria canta: «il fatto è serio | ma credete si farà»; tanto più che poco oltre Azzecca-garbugli ripeterà due volte «il caso è serio».
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n45" type="comm" target="quarantana/cap3.xml#c3_12097" targetEnd="quarantana/cap3.xml#c3_12102">
+          <ref rend="bold">E, tenendo… valle di Giosafat</ref>:  Secondo la profezia biblica, nella valle di Josafat, in Palestina, dovrebbe raccogliersi tutta l’umanità nel giorno del giudizio universale. «La similitudine apocalittica dà risalto alle solite minacce iperboliche della gride e, in bocca al dottore, indica insieme i cadaveri delle parole, i loro fantasmi vuoti o alterati di significato» (Raimondi-Bottoni).
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n47" type="comm" target="quarantana/cap3.xml#c3_11807">
+          <ref rend="bold">sciorinata</ref>:  ‘distesa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n48" type="comm" target="quarantana/cap3.xml#c3_11952">
+          <ref rend="bold">concussioni</ref>:  ‘estorsioni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n49" type="comm" target="quarantana/cap3.xml#c3_11883">
+          <ref rend="bold">divoti</ref>:  ‘devoti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n50" type="comm" target="quarantana/cap3.xml#c3_11896">
+          <ref rend="bold">malitia</ref>:  ‘malizia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n51" type="comm" target="quarantana/cap3.xml#c3_11900" targetEnd="quarantana/cap3.xml#c3_11902">
+          <ref rend="bold">a segno che</ref>:  ‘fino al punto da’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n52" type="comm" target="quarantana/cap3.xml#c3_11943">
+          <ref rend="bold">ville</ref>:  ‘in campagna’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n53" type="comm" target="quarantana/cap3.xml#c3_11968">
+          <ref rend="bold">violenti</ref>:  ‘imposti con la violenza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n55" type="comm" target="quarantana/cap3.xml#c3_12103" targetEnd="quarantana/cap3.xml#c3_12683">
+          <ref rend="bold">Sentite ora… un ciuffetto</ref>:  Nel monologo di Azzecca-garbugli compaiono schietti tratti dialettali come «matricolato», che italianizza il milanese <hi rend="italic">matriculàa</hi> col significato di ‘scaltro, furbo, abile’, e «ciuffetto», dal milanese <hi rend="italic">zuff</hi> qui accolto nel senso, parzialmente traslato, di ‘scapestrato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n57" type="comm" target="quarantana/cap3.xml#c3_12165">
+          <ref rend="bold">relegatione</ref>:  ‘confino’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n58" type="comm" target="quarantana/cap3.xml#c3_12175">
+          <ref rend="bold">bagattella</ref>:  ‘inezia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n59" type="comm" target="quarantana/cap3.xml#c3_12208">
+          <ref rend="bold">sottoscrizioni</ref>:  ‘firme’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n60" type="comm" target="quarantana/cap3.xml#c3_12343">
+          <ref rend="bold">facinorosi</ref>:  ‘ribelli’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n61" type="comm" target="quarantana/cap3.xml#c3_12370">
+          <ref rend="bold">travisarsi</ref>:  ‘rendere irriconoscibile il viso’ (in linguaggio giuridico). trezza: ‘treccia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n62" type="comm" target="quarantana/cap3.xml#c3_12437">
+          <ref rend="bold">inhabilità</ref>:  ‘insolvibilità’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n63" type="comm" target="quarantana/cap3.xml#c3_12501">
+          <ref rend="bold">mancamenti</ref>:  ‘difetti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n64" type="comm" target="quarantana/cap3.xml#c3_12538" targetEnd="quarantana/cap3.xml#c3_12540">
+          <ref rend="bold">tratti di corda</ref>:  è una pena corporale.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n65" type="comm" target="quarantana/cap3.xml#c3_12566">
+          <ref rend="bold">zuffi</ref>:  ‘ciuffi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n66" type="comm" target="quarantana/cap3.xml#c3_12567">
+          <ref rend="bold">rizzi</ref>:  ‘ricci’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n69" type="comm" target="quarantana/cap3.xml#c3_12700" targetEnd="quarantana/cap3.xml#c3_13031">
+          <ref rend="bold">«Non facciam… sarà suggerito.»</ref>:  Dopo aver descritto il disordine dell’ambiente e la miseria dell’uomo, il narratore ci porta al cuore dell’ideologia dell’Azzezza-garbugli; nei suoi discorsi compiaciuti ed enfatici, le polverose gride del Seicento spagnolo perdono ogni credibilità; resta solo il suono delle parole che il dottore scandisce con voce nasale, e con pause enfatiche (il sillabato «ir-re-mis-si-bil-men-te»). I nomi dei potenti – don Gonzalo de Córdoba, governatore di Milano; Platonus, segretario del consiglio segreto; Ferrer, gran cancelliere – sigillano in prima persona l’impossibilità di punire i colpevoli. Nella confusione delle leggi – rappresentata dal «caos di carte» che la mano dell’avvocato rimescola «come se mettesse grano in uno staio» (ovvero un recipiente di legno usato per misurare cereali, sabbia o comunque materiali macinati) – l’innocenza non si impone per se stessa, ma deve affidarsi alle abilità disoneste del sofista. Cristoforo Fabris nella sua <hi rend="italic">Serata in casa Manzoni</hi> fa dire allo scrittore: «viste le gride dei governatori di Milano, riportate dal Gioia, ho pensato: “Non si potrebbe inventare un fatto, a cui prendessero parte tutti questi personaggi e in cui vi entrassero tutti questi avvenimenti?”. E fu la grida che il dottor Azzeccagarbugli fa vedere a Renzo e in cui si parla delle violenze che si facevano per impedire qualche matrimonio, quella che mi spinse ad inventare il fatto dei <hi rend="italic">Promessi Sposi</hi>». L’episodio fu confermato da Stefano Stampa, figlio della seconda moglie di Manzoni.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n71" type="comm" target="quarantana/cap3.xml#c3_12833">
+          <ref rend="bold">concerti</ref>:  ‘accordi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n72" type="comm" target="quarantana/cap3.xml#c3_12850">
+          <ref rend="bold">scappata</ref>:  ‘imprudenza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n73" type="comm" target="quarantana/cap3.xml#c3_12906" targetEnd="quarantana/cap3.xml#c3_12907">
+          <ref rend="bold">a segno</ref>:  ‘a bada’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n74" type="comm" target="quarantana/cap3.xml#c3_12954" targetEnd="quarantana/cap3.xml#c3_12955">
+          <ref rend="bold">una testolina</ref>:  ‘una persona cocciuta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n76" type="comm" target="quarantana/cap3.xml#c3_13032" targetEnd="quarantana/cap3.xml#c3_13170">
+          <ref rend="bold">Mentre il dottore...quella grida.»</ref>:  Di fronte al desiderio naturale di Renzo di sposarsi, di fondare una famiglia e avere dei figli, il mondo delle gride, dei potenti e di Azzecca-garbugli è davvero un mondo alla rovescia. Stordito da questi discorsi, Renzo è come un villano («un materialone») che assiste rapito («estatica») al truffaldino gioco di abilità («bussolotti»: oggi diremmo “gioco delle tre carte”). Nel <hi rend="italic">Fermo</hi>, il narratore aveva raccontato la sospensione del giovane con similitudine dal vago sapore dantesco: «Quando questi [Azzecca-garbugli] faceva questa cicalata, Fermo lo stava ascoltando coll’attenzione di un uomo che sognando s’immagina di cercar qualche cosa, ed ora gli pare di averla trovata, di mettergli le mani sopra, e poi la vede scomparire, e se ne va di nuovo in cerca, tanto era lontano dal sospettare l’equivoco preso dal dottore».
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n78" type="comm" target="quarantana/cap3.xml#c3_13064">
+          <ref rend="bold">stoppa</ref>:  ‘stoffa vile’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n79" type="comm" target="quarantana/cap3.xml#c3_13097">
+          <ref rend="bold">nastro</ref>:  ‘stoffa pregiata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n80" type="comm" target="quarantana/cap3.xml#c3_13145">
+          <ref rend="bold">bricconeria</ref>:  ‘prepotenza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n83" type="comm" target="quarantana/cap3.xml#c3_13293" targetEnd="quarantana/cap3.xml#c3_13549">
+          <ref rend="bold">«Eh via!»... sua spedizione</ref>:  La reazione di Azzecca-garbugli non è dissimile da quella di don Abbondio di fronte al terribile nome del piccolo tiranno; lo spettro di don Rodrigo porta con sé terrore e spavento nel ristretto mondo di Renzo e Lucia. In un contesto degradato come quello in cui si muovono Azzecca-garbugli e la sua serva, dove il colpevole viene protetto ed esaltato, il sentimento cristiano della compassione viene oltraggiato dal disprezzo e dalla superbia per l’innocente.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n85" type="comm" target="quarantana/cap3.xml#c3_13520">
+          <ref rend="bold">inespugnabile</ref>:  ‘irremovibile’; attonito: ‘stupito’; vittime: cioè, i capponi; costrutto: ‘risultato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n88" type="comm" target="quarantana/cap3.xml#c3_13747" targetEnd="quarantana/cap3.xml#c3_13749">
+          <ref rend="bold">«Oh fra Galdino!»</ref>:  Il mite, e chiacchierone, cercatore laico frate Galdino fa parte di quella schiera di personaggi minori che svolgono in realtà una funzione importante nel corso della storia. Nel <hi rend="italic">Fermo</hi>, il questuante si chiamava Canziano (mentre Galdino era il nome in origine destinato a fra Cristoforo). Il nuovo battesimo lega il personaggio a figure precise della religiosità lombarda: oltre a trattarsi del nome di vescovo santo milanese vissuto nel secolo XIII, i documenti cappuccini ricordano la figura di un secentesco padre Galdino della Brusada (cfr. il commento di Nigro).
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n90" type="comm" target="quarantana/cap3.xml#c3_13954" targetEnd="quarantana/cap3.xml#c3_13983">
+          <ref rend="bold">«E per… di Romagna?»</ref>:  Il racconto del miracolo, che apre nel romanzo lo spazio del favoloso e del visionario, è il grande assolo di fra Galdino. Si è già osservata l’importanza che riveste l’illustrazione iniziale, con la lotta fra il serpente e la colomba. I due animali sono il simbolo araldico di un capitolo diviso fra le spire venefiche della legge degli uomini e il candore di chi crede in Dio. Il racconto di Galdino sta in rapporto dialettico con l’episodio di Azzeca-garbugli; ricorda alla povera Agnese, che lo ascolta, la fiducia nell’intervento di un Dio buono che non lascia soffrire i suoi. Ma come hanno notato Ezio Raimondi e Giovanni Pozzi, la dimensione del miracolo è tutta interna all’ottica dei personaggi, e non compartecipa della visione del mondo dell’autore: che, anzi, in alcuni luoghi della <hi rend="italic">Morale cattolica</hi> si era scagliato contro quanti sperano «in quelle cose da cui non viene la salute» e sostituiscono «alle cose più gravi della legge», «le tradizioni volgari» e «le favole anili».
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n94" type="comm" target="quarantana/cap3.xml#c3_13990" targetEnd="quarantana/cap3.xml#c3_14427">
+          <ref rend="bold">«Oh! dovete… tutti i fiumi.»</ref>:  Anche nella parabola di fra Galdino lo scellerato ride, come aveva fatto a inizio capitolo il conte Attilio nelle parole di Lucia. Nel <hi rend="italic">Fermo</hi> il racconto del miracolo terminava con la punizione dei colpevoli; questa aggiunta finale appare solo nella Ventisettana, quasi che Manzoni senta il bisogno di mettere al riparo la figura del cercatore fra Galdino dal sospetto di smerciatore di miracoli in cambio di noci. Il povero fra Galdino esprime il dovere della carità che è proprio della Chiesa cattolica. Sull’obbligo di ridistribuire quanto ricevuto, la severa religiosità manzoniana va d’accordo con quella semplice e bisognosa di miracoli del personaggio.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n97" type="comm" target="quarantana/cap3.xml#c3_14592" targetEnd="quarantana/cap3.xml#c3_14836">
+          <ref rend="bold">Al vedere… degli uomini</ref>:  La digressione del narratore spiega la normalità della richiesta di Lucia con l’eccezionalità della figura dei frati cappuccini. Nell’immobilità classista del Seicento lombardo, l’ordine dei Cappuccini rappresenta una messa in discussione di questa realtà pietrificata. È a loro, cui pure non risparmierà critiche e ironie, che Manzoni attribuisce il compito di portare il fuoco vivo della carità e dell’amore di Dio e dell’uomo nel corpo morto di una società in putrefazione.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n99" type="comm" target="quarantana/cap3.xml#c3_14445">
+          <ref rend="bold">cocche</ref>:  ‘punte’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n102" type="comm" target="quarantana/cap3.xml#c3_14847" targetEnd="quarantana/cap3.xml#c3_15076">
+          <ref rend="bold">«Mamma, perdonatemi… nell’altro.»</ref>:  L’arrivo di Renzo, amareggiato dal colloquio con l’Azzecca-garbugli, dissolve il piccolo idillio religioso della scena e il ricordo del miracolo delle noci. Dopo un momento di consolazione, le speranze del giorno svaniscono e l’arrivo della sera – quella sera che doveva essere la sera del banchetto nuziale e l’inizio della notte coniugale – riporta i nostri personaggi alla dura realtà. Nei pensieri del giovane la giustizia e la vendetta si confondono; l’ansia giovanile del personaggio lo spinge ad agire mentre le due donne lo invitano alla “prudenza”.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n104" type="comm" target="quarantana/cap3.xml#c3_14998">
+          <ref rend="bold">abboccamento</ref>:  ‘colloquio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap3-n106" type="comm" target="quarantana/cap3.xml#c3_15180" targetEnd="quarantana/cap3.xml#c3_15222">
+          <ref rend="bold">La madre… che si dica</ref>:  Il capitolo si chiude con una nota amarissima: l’ultima parola, infatti, non spetta ai personaggi, ma al narratore che, con l’ironia di chi è consapevole dei mali del mondo, riconduce allo sconvolgimento del momento l’ansia di giustizia del giovane. Come è detto nei <hi rend="italic">Materiali estetici</hi>, il lettore deve sempre essere «mente estrinseca» all’opera: il narratore lo obbliga alla riflessione, e non gli consente mai di abbandonarsi.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

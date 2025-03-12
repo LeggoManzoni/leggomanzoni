@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-04">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap6">
+        <note xml:id="Raimondi-Bottoni_cap6-n1" type="comm" target="quarantana/cap6.xml#c6_10001" targetEnd="quarantana/cap6.xml#c6_10040">
+          <ref rend="bold">In che posso ubbidirla?... sbrigati</ref>:  dopo al teatralità dialogica e divagante della pausa conviviale, il capitolo ha un drammatico inizio («cossa commandel?» è del Maggi) e la nascosta tensione degli antagonisti produce un effetto contrastivo rispetto alle divagazioni cavalleresche, politiche, economiche del convito. Nonostante la deferenza esteriore il tono delle parole (il mil. <hi rend="italic">In cosse poss servirla</hi>?) rivela la durezza del signorotto che, bandite le cortesie conviviali, affronta deliberatamente «in piedi» il suo fastidioso interlocutore per far precipitare il colloquio in uno scontro; e il narratore ne rivela gli intenti proprio giocando sull'opposizione di codici.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n3" type="comm" target="quarantana/cap6.xml#c6_10061" targetEnd="quarantana/cap6.xml#c6_14030">
+          <ref rend="bold">Egli... facendo scorrere... bisogno</ref>:  fra Cristoforo, inizialmente imbarazzato, pensando a come iniziare il discorso fa scorrere le «ave Marie», i grani della corona del rosario, con uno di quei gesti familiari - tutte le classi, spiega il <hi rend="italic">Fermo</hi>, hanno un loro repertorio - che servono nel momento di comunicare ad un estraneo qualcosa di sgradevole. Anche il frate ha una coscienza teatrale del suo ruolo giacché consapevolmente prepara l'«esordio».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n5" type="comm" target="quarantana/cap6.xml#c6_10144" targetEnd="quarantana/cap6.xml#c6_10145">
+          <ref rend="bold">guardinga umiltà</ref>:  si ricordi la diversa situazione, i diversi rapporti di forza che nel CAP. IV consentivano al padre guardiano di visitare il fratello del nobile ucciso in duello con «umiltà disinvolta».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n8" type="comm" target="quarantana/cap6.xml#c6_10150" targetEnd="quarantana/cap6.xml#c6_10156">
+          <ref rend="bold">atto di giustizia... una carità</ref>:  le parole di fra Cristoforo sono dettate da un sentimento altissimo e tragico della giustizia e della carità; un sentimento che, nel suo afflato biblico, deve confrontarsi con le prevaricazioni quotidiane dei potenti e con la stessa «indole focosa e risentita» del frate.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n11" type="comm" target="quarantana/cap6.xml#c6_10224" targetEnd="quarantana/cap6.xml#c6_10230">
+          <ref rend="bold">coscienza... confessarmi da lei</ref>:  per don Rodrigo la coscienza sembra essere solo un problema legato al rituale della confessione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n13" type="comm" target="quarantana/cap6.xml#c6_10231" targetEnd="quarantana/cap6.xml#c6_10266">
+          <ref rend="bold">In quanto al mio onore... offende</ref>:  la replica ricorre al frasario convenzionale dell'aristocratico sempre a suo agio se lo pseudodiritto cavalleresco gli offre con una frase di circostanza la possibilità di eludere una richiesta di giustizia e di carità. Ma per don Rodrigo la coscienza è una semplice funzione dell'onore e dell'esteriorità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n16" type="comm" target="quarantana/cap6.xml#c6_10278" targetEnd="quarantana/cap6.xml#c6_10280">
+          <ref rend="bold">tirare al peggio</ref>:  dare alle sue parole l'interpretazione peggiore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n19" type="comm" target="quarantana/cap6.xml#c6_11249">
+          <ref rend="bold">sofferenza</ref>:  alla pazienza, alla sopportazione. Ma è anche dolore, umiliazione da «mandar giù».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n22" type="comm" target="quarantana/cap6.xml#c6_10371" targetEnd="quarantana/cap6.xml#c6_10421">
+          <ref rend="bold">metteva davanti... il teschietto... giustizia... de' poverelli... ascoltati lassù</ref>:  mentre ricorre anche alle risorse macabre della predicazione secentesca, fra Cristoforo appoggia al propria supplica sulla parola biblica rivelata dai profeti...«Alla tua cura, o Dio, è affidato il povero. Il Signore ha esaudito il desiderio de' poveri; il suo orecchio ha ascoltato la preparazione del loro cuore; per far giustizia al pupillo e all'oppresso, affinché non seguiti a farla da grande l'uomo sula terra» (<hi rend="italic">Salmo</hi> ,9 12, 18, 37-38). Gli innocenti divengono ora «poverelli» in una proposta di «giustizia» che comprende lo stesso «povero» curato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n24" type="comm" target="quarantana/cap6.xml#c6_10422">
+          <ref rend="bold">L'innocenza... al suo... </ref>:  al suo cospetto. La sospensione, dovuta all'interruzione di don Rodrigo, si deve al fatto che per il signorotto l'innocenza è evidentemente quella di Lucia. Si spiega così la sua immediata e dura replica che accusa il frate di venirgli a fare la spia in casa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n26" type="comm" target="quarantana/cap6.xml#c6_10516" targetEnd="quarantana/cap6.xml#c6_10556">
+          <ref rend="bold">M'ascolti... e voglia il cielo... Non voglia... qual gloria... a Dio!</ref>:  l'ethos del frate vibra attraverso il movimento oratorio delle esortazioni, delle anafore, delle esclamazioni... è la grande retorica messianica del ricorso al futuro, alla morte, alle alterne vicende della vita che riprende i luoghi topici del terrore devoto, il tema del «Verrà un giorno...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n28" type="comm" target="quarantana/cap6.xml#c6_10570" targetEnd="quarantana/cap6.xml#c6_10573">
+          <ref rend="bold">non senza qualche raccapriccio</ref>:  la visita del frate aveva già allarmato don Rodrigo con «un presentimento confuso», poi nel divagare della conversazione gli sguardi e i silenzi dei due interlocutori s'erano di tanto in tanto intersecati; ora le parole del frate suscitano una irritazione stizzosa accompagnata da una sorta di timore superstizioso. Si preannunzia li motivo del castigo, ma sembra anche che in don Rodrigo si nasconda, sotto l'alterigia, un complesso di colpa, da ragazzo ubbidiente suo malgrado, come dirà il Conte zio al CAP. XIX.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n30" type="comm" target="quarantana/cap6.xml#c6_10581">
+          <ref rend="bold">schiribizzo</ref>:  è iL mil. schirribizzi, più espressivo di «ghiribizzo», nel senso di capriccio, quasi stramberia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n32" type="comm" target="quarantana/cap6.xml#c6_10617" targetEnd="quarantana/cap6.xml#c6_10625">
+          <ref rend="bold">Il predicatore in casa... i principi</ref>:  l'aggressività e la volgare presunzione del signorotto, per il quale le prediche morali sono accettabili solo in chiesa quando vengono dal pulpito, diventa sarcastica e scherza sul privilegio dei principi di tenersi il predicatore in casa. Ma don Rodrigo individua proprio un aspetto, quello oratorio, di fra Cristoforo che sembra echeggiare una famosa frase di Bossuet, il predicatore di Luigi XVI...«Dio tiene dal più alto dei cieli le redini di tutti i regni...» (<hi rend="italic">Discours sur l'histoire universelle</hi>, 16).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n34" type="comm" target="quarantana/cap6.xml#c6_10677" targetEnd="quarantana/cap6.xml#c6_10720">
+          <ref rend="bold">io non so... qualche fanciulla... le preme molto... un gentiluomo</ref>:  ora don Rodrigo mente con arroganza, poi, dopo aver insinuato volgarmente una protezione interessata di Lucia, usa la propria alterigia e il proprio ruolo per licenziare l'interlocutore di rango inferiore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n36" type="comm" target="quarantana/cap6.xml#c6_10753" targetEnd="quarantana/cap6.xml#c6_10774">
+          <ref rend="bold">mi preme... non più di lei... due anime... più del mio sangue</ref>:  fra Cristoforo trasforma l'insinuazione maliziosa del signorotto in quella che è l'essenza della sua missione sacerdotale, ma il contrasto fra il bene e il male, fra l'immoralità libertina e la carità religiosa si polarizza inesorabilmente in due codici alternativi, nella parola biblica che si confronta con un'ideologia pseudocavaleresca, con l'<hi rend="italic">ideologema</hi> d'un signorotto prepotente, d'un «cavaliere».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n38" type="comm" target="quarantana/cap6.xml#c6_10863" targetEnd="quarantana/cap6.xml#c6_10886">
+          <ref rend="bold">la consigli di... mettersi sotto la mia protezione... son cavaliere</ref>:  il cinismo beffardo di don Rodrigo non può comprendere lo spirito di carità del cappuccino ed offre una sorta di protezione feudale per cui la fanciulla dovrebbe rinunciare al proprio onore in cambio del cibo e della sicurezza. La cupida proposta è poi suggellata da una frase protocollare nelle dispute cavalleresche.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n40" type="comm" target="quarantana/cap6.xml#c6_10911" targetEnd="quarantana/cap6.xml#c6_10912">
+          <ref rend="bold">l'uomo vecchio</ref>:  quello dell'indole «focosa e risentita», di spiriti guerreschi ed impetuosi; ma la concordanza delle due tendenze serve anche per trarne la conclusione arguta del valere «per due».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n42" type="comm" target="quarantana/cap6.xml#c6_10936" targetEnd="quarantana/cap6.xml#c6_10960">
+          <ref rend="bold">postandosi fieramente... l'indice teso... occhi infiammati</ref>:  è un atteggiamento pittorico che riprende il «piantandosi in piedi» iniziale e fa pensare ad un duellante. Di fatto fra Cristoforo sostituisce Renzo, l'eroe, di fronte al suo antagonista e il confronto trascende in uno scontro, anche se si tratta di un conflitto tra volontà di violenza e desiderio di giustizia; a episodio concluso si dirà che fra Cristoforo lasciò il «campo di battaglia».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n44" type="comm" target="quarantana/cap6.xml#c6_11009" targetEnd="quarantana/cap6.xml#c6_11019">
+          <ref rend="bold">Sapevo bene... protezione di Dio</ref>:  ancora un'eco biblica si intesse all'eloquenza di fra Cristoforo: «Chi riposa nell'aiuto del Signore, vivrà sotto la protezione del Dio del cielo...» (<hi rend="italic">Salmo</hi> 90, 13-15). È una sorta di identificazione verbale nella parola di Cristo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n46" type="comm" target="quarantana/cap6.xml#c6_11061" targetEnd="quarantana/cap6.xml#c6_11071">
+          <ref rend="bold">Ho compassione di questa casa... sospesa</ref>:  si possono richiamare più luoghi biblici...«E ancora un poco, e il peccatore non sarà più; e cercherai della casa di lui e noi troverai...» (<hi rend="italic">Salmo</hi> 36, 10-11); ma anche le parole di Achimelech nel Saul alfieriano: «Dov'è la casa di Saul? Nell'onda fondata ei l'ha; già già crolla...» (atto IV, 4).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n48" type="comm" target="quarantana/cap6.xml#c6_11125" targetEnd="quarantana/cap6.xml#c6_11163">
+          <ref rend="bold">Il cuore di Faraone... Verrà un giorno...</ref>:  «..et induratum est cor Pharaonis» (<hi rend="italic">Esodo</hi>,7 13) è citazione biblica divenuta patrimonio popolare, catechistico; così come la minacciosa predizione «Verrà un giorno», che ha una possibile fonte in «il peccatore apposterà il giusto... ma il Signore si farà beffe di quello; perché vede che il uso giorno verrà» (<hi rend="italic">Salmo</hi> 36, 12-13); un'espressione ripresa poi nella <hi rend="italic">Imitazione di Cristo</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n50" type="comm" target="quarantana/cap6.xml#c6_11189" targetEnd="quarantana/cap6.xml#c6_11193">
+          <ref rend="bold">un lontano e misterioso spavento</ref>:  un critico, il Galletti, ha scritto che un nobile educato secondo i dettami controriformistici non poteva sottrarsi, per un naturale condizionamento psicologico, ai timori inculcatigli sin dall'infanzia. La stizza è diventata ora rabbia spaventata e lo spavento di don Rodrigo che sembra confinare con la superstizione, sebbene resti subito soffocato dall'abituale protervia, ricomparirà una note di fine agosto con gli incubi notturni della malattia, nella disperazione e nel terrore della morte (CAP. XXXIII). Un'anticipazione dunque di orrori nascosti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n53" type="comm" target="quarantana/cap6.xml#c6_11208" targetEnd="quarantana/cap6.xml#c6_11209">
+          <ref rend="bold">infausto profeta</ref>:  è il punto di vista di don Rodrigo che prevale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n56" type="comm" target="quarantana/cap6.xml#c6_11322" targetEnd="quarantana/cap6.xml#c6_11217">
+          <ref rend="bold">villano... poltrone</ref>:  plebeo temerario (perché ha insultato un nobile) e gaglioffo (uomo d'animo vile) incappucciato. Gli insulti sono legati ad una concezione feudale e gerarchica dei rapporti sociali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n59" type="comm" target="quarantana/cap6.xml#c6_11232">
+          <ref rend="bold">strapazzo</ref>:  maltrattamento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n62" type="comm" target="quarantana/cap6.xml#c6_11256" targetEnd="quarantana/cap6.xml#c6_11321">
+          <ref rend="bold">complimento... artigli del gentiluomo... il ciel la manda</ref>:  l'ironia della diegesi coincide con lo spegnersi dell'indignazione e del fervore, con l'evidenza del gesto che - grazie all'ossimoro (<hi rend="italic">artigli</hi>/<hi rend="italic">gentiluomo</hi> = animalità/nobiltà) - scioglie la tensione dello scontro. La similitudine, attraverso l'immagine archetipica dell'albero, associa all'idea di rassegnazione quella di resistenza pacata e forte; «entusiasmo» vale «fervore devoto». Nell'ultima espressione colloquiale s'avverte il mil. <hi rend="italic">che Dio le manda</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n64" type="comm" target="quarantana/cap6.xml#c6_11340" targetEnd="quarantana/cap6.xml#c6_11369">
+          <ref rend="bold">spalle di mascalzone... la vedremo</ref>:  il signorotto ritorna ai luoghi comuni del suo codice cavalleresco - che non deve lesinare le legnate, argomentava il conte Attilio, sulle spalle plebee - e replica alla predizione del frate con una contro-minaccia da puntiglio d'onore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n66" type="comm" target="quarantana/cap6.xml#c6_11373" targetEnd="quarantana/cap6.xml#c6_11375">
+          <ref rend="bold">con impero sprezzante</ref>:  con imperiosità, con gesto autoritario e atteggiamento sprezzante; quasi ad aggiungere un'immagine, un gesto, all'offensivo «esci con le tue gambe».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n68" type="comm" target="quarantana/cap6.xml#c6_11398" targetEnd="quarantana/cap6.xml#c6_11406">
+          <ref rend="bold">a passi infuriati, il campo di battaglia</ref>:  don Rodrigo esce dallo scontro vincitore solo in apparenza (e si muove a «passi infuriati» proprio come Renzo nel CAP. II). Il <hi rend="italic">Fermo</hi> sottolineava di contro la fiducia di fra Cristoforo con queste parole...«Gli pareva che la superbia e l'iniquità di don Rodrigo fossero salite a quell'altezza, dove la provvidenza le arresta, le rovina. Questi calcoli riescono spesse volte fallaci, e l'ingiustizia a questo mondo talvolta sale, sale, sale, quando si crede che giunta al colmo, non possa che precipitare: ma fra Cristoforo la pensava così come abbiam detto; e sperava più che mai che la cosa si terminerebbe con una uscita inaspettata e favorevole all'innocenza».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n70" type="comm" target="quarantana/cap6.xml#c6_11468" targetEnd="quarantana/cap6.xml#c6_11475">
+          <ref rend="bold">del padre, il quale era stato tutt'un'altra cosa</ref>:  per il Manzoni quindi l'appartenenza ad una classe sociale non era di per sé ragione o motivo istituzionale di prevaricazione, di ingiustizia, di corruzione. Si noti come la tecnica della ripresa sia funzionale al recupero di notizie chiarificatrici.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n72" type="comm" target="quarantana/cap6.xml#c6_11484" targetEnd="quarantana/cap6.xml#c6_11487">
+          <ref rend="bold">a famiglia</ref>:  la servitù, i servi di casa - dal latino <hi rend="italic">famuli</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n74" type="comm" target="quarantana/cap6.xml#c6_12933" targetEnd="quarantana/cap6.xml#c6_12935">
+          <ref rend="bold">se gli</ref>:  per «gli si».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n76" type="comm" target="quarantana/cap6.xml#c6_11772">
+          <ref rend="bold">sull'intesa</ref>:  sull'avviso, starò attento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n78" type="comm" target="quarantana/cap6.xml#c6_11808" targetEnd="quarantana/cap6.xml#c6_11838">
+          <ref rend="bold">proferendo... sul capo bianco... vi ricompenserà</ref>:  la benedizione assume il significato d'un atto sacrale, consacrazione del buono che pur vivendo tra i malvagi deve salvare la propria anima e non volendo farsi complice della violenza la denuncia a costo di origliare, di venir meno alla propria «fedeltà». Il vecchio servo contrasta a distanza con la «vecchia» dell'Innominato (CAP. XX).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n80" type="comm" target="quarantana/cap6.xml#c6_11920" targetEnd="quarantana/cap6.xml#c6_11997">
+          <ref rend="bold">Quell'uomo... cosa molto brutta... un'eccezione... da raccontare</ref>:  la digressione ironica sembra rinunciare da un giudizio definitivo, ma rimettendo la valutazione al lettore, dimostra che tutte le casistiche, tutte le opinioni comuni devono tener conto d'una possibile eccezione. La voce autorale si fa carico delle contraddizioni invitando il senso morale del lettore a confrontarsi con l'ambivalenza della realtà, dei «fatti da raccontare». È quindi un'indicazione primaria sul modo di leggere il romanzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n82" type="comm" target="quarantana/cap6.xml#c6_12050" targetEnd="quarantana/cap6.xml#c6_12078">
+          <ref rend="bold">un gran ristorativo... li pareva... un filo che la provvidenza</ref>:  il gran conforto è solo un'illusione, una convinzione rituale e fiduciosa di fra Cristoforo, cui l'aiuto del vecchio servo non giungerà in tempo; già il Braccesi osservava che nel romanzo la Provvidenza «circola come sentimento che ne hanno i personaggi, piuttosto che come invadente e ottimistico <hi rend="italic">deus ex machina</hi>». A proposito del «cielo», nell'<hi rend="italic">Italiano</hi> di Anna Radcliffe si legge, ma senza intonazione ironica...«Sembrava che il cielo volgesse al trionfo dell'una e alla sconfitta dell'altro i mezzi che ambedue impiegavano ciecamente, secondo che questi mezzi erano generosi o perversi» (CAP. XXII).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n84" type="comm" target="quarantana/cap6.xml#c6_12138" targetEnd="quarantana/cap6.xml#c6_10505">
+          <ref rend="bold">studiò... il passo</ref>:  affrettò il passo e lo regolò (il mil. <hi rend="italic">slongà el pass</hi>) sul percorso da compiere. Nel <hi rend="italic">Fermo</hi> i rigori del «codice cappuccinesco» erano commentati esplicitamente deprecando la consuetudine delle «piccole società» di aguzzare «gl'ingegni per trovare rigori e pene più raffinate...di modo che parrebbe quasi che tormentare altrui sia più dolce che assicurar se stesso».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n86" type="comm" target="quarantana/cap6.xml#c6_12274" targetEnd="quarantana/cap6.xml#c6_12281">
+          <ref rend="bold">vostra madre... Lucia si riscosse</ref>:  sentendo che la madre considera ormai lei e Renzo come sposi - è la forza dell'aggettivo possessivo - Lucia si scuote, sembra uscire dal suo silenzioso accoramento. Un'implicita confessione di quel suo amore che alcuni vorrebbero più passionale, se non addirittura erotico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n88" type="comm" target="quarantana/cap6.xml#c6_12311" targetEnd="quarantana/cap6.xml#c6_12314">
+          <ref rend="bold">più maraviglia che fiducia</ref>:  pur nella sua docilità filiale Lucia è più ponderata della madre e dubita delle soluzioni affidate alla «destrezza»; Renzo invece è di un'intraprendenza insieme ingenua e spregiudicata. Così sarà anche alla fine del romanzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n90" type="comm" target="quarantana/cap6.xml#c6_12417" targetEnd="quarantana/cap6.xml#c6_12426">
+          <ref rend="bold">gli è... il mio cuore era qui</ref>:  Renzo, spontaneo e concreto, ha anticipato il finale del romanzo; ma in questa situazione si mostra istintivamente diplomatico, esitando solo un attimo prima di rilasciare questa dichiarazione d'amore in presenza della suocera.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n92" type="comm" target="quarantana/cap6.xml#c6_12510" targetEnd="quarantana/cap6.xml#c6_12513">
+          <ref rend="bold">da gente che sa</ref>:  Agnese, che è saccente, ha il mito delle classi superiori e sembra riporre una sorta di potere taumaturgico nel sapere, nella scienza o nell'esperienza che sia - anche quella d'Azzecca-garbugli, come si è visto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n94" type="comm" target="quarantana/cap6.xml#c6_12538" targetEnd="quarantana/cap6.xml#c6_12541">
+          <ref rend="bold">basta che ci sia</ref>:  infatti il sacerdote - accertato che non ci siano impedimenti - non fa che prendere atto della volontà degli sposi; la sua è solo una necessaria funzione testimoniale giacché i celebranti effettivi sono gli sposi stessi. Il matrimonio per sorpresa «coram parocho reluctante» fu definitivamente cancellato dal decreto <hi rend="italic">Ne temere</hi> (1907) di Pio X.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n96" type="comm" target="quarantana/cap6.xml#c6_12608" targetEnd="quarantana/cap6.xml#c6_12627">
+          <ref rend="bold">sacrosanto... il papa... fare il diavolo</ref>:  per il pragmatismo di Agnese - la cui religiosità ha qualche aspetto della superstizione popolare - ogni espressione è buona se serve a rendere convincente la sua proposta, quindi non si preoccupa di accostare spregiudicatamente papa e diavolo; più sotto il curato è calato direttamente nella maschera del demonio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n98" type="comm" target="quarantana/cap6.xml#c6_12774" targetEnd="quarantana/cap6.xml#c6_12783">
+          <ref rend="bold">i parrochi... scansare... cooperazione forzata</ref>:  ironicamente il narratore lega la vicenda romanzesca all'uso abbastanza frequente che nel Seicento si faceva del matrimonio a sorpresa; la Chiesa poi, per impedirne gli abusi, li invalidò.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n100" type="comm" target="quarantana/cap6.xml#c6_12802" targetEnd="quarantana/cap6.xml#c6_12815">
+          <ref rend="bold">per iscapolarsene, come Proteo... per forza</ref>:  l'immagine della divinità marina che poteva vaticinare il futuro (Omero, <hi rend="italic">Odissea</hi>, IV, 532; Virgilio, <hi rend="italic">Georgiche</hi>, IV, 387) nel suo ricalco parodistico accoppia ironicamente l'elemento illustre della tradizione, il vaticinio, con la mediocrità del quotidiano, il fuggire divincolandosi (il mil. <hi rend="italic">scappà-fœura</hi>). La mitologia offre così il suo repertorio agli interventi ironici, didascalici, discorsivi, del narratore «romantico» che recupera la tecnica d'un Fielding.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n102" type="comm" target="quarantana/cap6.xml#c6_12804" targetEnd="quarantana/cap6.xml#c6_12850">
+          <ref rend="bold">Come!... fandonie... cavatevi d'impiccio</ref>:  Agnese nella sua sicurezza è abbastanza permalosa e oltretutto, dopo aver frainteso Renzo, finge un risentimento quasi ricattatorio finché il giovanotto non placa il suo «piccolo sdegno» con l'appellativo di «mia madre», simmetrico a «vostra madre».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n105" type="comm" target="quarantana/cap6.xml#c6_12971" targetEnd="quarantana/cap6.xml#c6_13121">
+          <ref rend="bold">Come può essere... non istia bene... fatta?</ref>:  in questa specie di commedia tra la morale dei vecchi e quella dei giovani - che svaluta obiettivamente il progetto di Agnese - entra anche un notevole e sottile problema religioso, quello della non liceità della forma contrapposta alla validità della sostanza. Un'arbitrarietà di magistero da parte della Chiesa secentesca incomprensibile per questi semplici popolani.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n107" type="comm" target="quarantana/cap6.xml#c6_13010" targetEnd="quarantana/cap6.xml#c6_13039">
+          <ref rend="bold">E poi quante cose... un pugno a un cristiano... levare</ref>:  l'argomentazione incongrua di Agnese denuncia comicamente l'arbitrarietà d'una situazione che contrapponeva teologi e canonisti. Il paragone concretissimo del pugno risponde bene al pragmatismo spregiudicato della popolana che ha appreso come i «povereli» debbano destreggiarsi contro ingiustizie e arbitri dentro le maglie delle disposizioni pubbliche.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n109" type="comm" target="quarantana/cap6.xml#c6_11393" targetEnd="quarantana/cap6.xml#c6_13051">
+          <ref rend="bold">Se... non istà bene... non bisogna farla</ref>:  Lucia sebbene remissiva è moralmente intransigente; la sua ostinazione, il suo dire di no è anche la sua forza; può subire le pressioni o la volontà altrui, ma non ne resta convinta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n111" type="comm" target="quarantana/cap6.xml#c6_11270">
+          <ref rend="bold">Che!... contro il timor di Dio?... e il signor curato... </ref>:  la dialogicità del romanzo, nel gioco complicato delle motivazioni, dà voce senza riserve a tutti i personaggi. La valutazione di Agnese s'arresta di fronte alla complicità del curato con una eloquente sospensione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n114" type="comm" target="quarantana/cap6.xml#c6_13100" targetEnd="quarantana/cap6.xml#c6_13104">
+          <ref rend="bold">L'è chiara... ognuno</ref>:  Renzo, oltre che impulsivo di caratere, è mosso dalle affezioni del cuore e il suo consenso è ovviamente incondizionato. Ma - notava il Titta Rosa - nel dialettismo di questa sua battuta («L'è chiara») più del lombardo s'avverte «il fiorentino di via del Campuccio», che era la via dove abitava il dottor Gaetano Cioni, amico del Manzoni, uno dei «risciacquatori» del romanzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n116" type="comm" target="quarantana/cap6.xml#c6_13138" targetEnd="quarantana/cap6.xml#c6_13161">
+          <ref rend="bold">è una scappata grossa... I religiosi devon... anche lui</ref>:  Agnese sa distinguere tra l'ufficialità della parte e l'intenzione della proposta e lo lascia intendere con le reticenze e le allusioni del dialogo. Il suo pragmatismo, la sua scelta di ricorrere ad un espediente solo formalmente «illecito», troverà un autorevole avallo nel cardinale Borromeo. Quando don Abbondio per giustificarsi accuserà i giovani d'aver tentato un matrimonio clandestino, il cardinale li assolverà perché essi non avrebbero «cercato quella vai irregolare, se la legittima non fosse stata chiusa» (CAP. XXVI).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n118" type="comm" target="quarantana/cap6.xml#c6_13239">
+          <ref rend="bold">conformità</ref>:  lombardismo per situazione, maniera. Nel Porta: «te ghe rispondi in sta conformitaa».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n120" type="comm" target="quarantana/cap6.xml#c6_13247" targetEnd="quarantana/cap6.xml#c6_13251">
+          <ref rend="bold">come il diavolo dall'acqua santa</ref>:  nella sfera discorsiva d'Agnese, nel suo rovesciamento comico della dimensione agiografica, il diavolo diventa ora il parroco e l'acqua santa i due che lo vorrebbero ingannare. Il fondo dialettale della parlata di Agnese, delle sue immagini icastiche, è attestato dal Cherubini...<hi rend="italic">Scappà (o stà lontan) come el diavol de l'acqua santa</hi>. La lestezza felina del curato («lesto come un gatto») avrà riscontro semantico nel «balzare» del CAP. VIII, r. 118, e rende il mil. <hi rend="italic">alest come on gatt;</hi> anche nel <hi rend="italic">Cicerone</hi> troviamo «tosto saltava in piedi come un gatto» (II, XXVIII, 67).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n122" type="comm" target="quarantana/cap6.xml#c6_13338" targetEnd="quarantana/cap6.xml#c6_13340">
+          <ref rend="bold">Dio dice... aiutati</ref>:  iL pragmatismo di Agnese, prima nascosto negli interstizi delle battute, diventa tanto esplicito da far intervenire la stessa «voce» di Dio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n124" type="comm" target="quarantana/cap6.xml#c6_13353" targetEnd="quarantana/cap6.xml#c6_13402">
+          <ref rend="bold">volete voi mancarmi... non mi mancherete</ref>:  come non si era lasciata persuadere dalla maggiore esperienza della madre così Lucia lascia che Renzo risponda da solo alle cinque domande appassionate con le quali cerca di convincerla agli «imbrogli», ad aiutarsi con un po' d'astuzia («ingegno»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n126" type="comm" target="quarantana/cap6.xml#c6_13425" targetEnd="quarantana/cap6.xml#c6_13467">
+          <ref rend="bold">Le tribolazioni... far onore a un giureconsulto</ref>:  il luogo comune è rimesso in discussione dal momento che Renzo, costretto ad abbandonare la sua abituale rettitudine, si trova a competere in imbrogli e astuzie con le furberie d'un Azzecca-garbugli. Il giovanotto sta facendo la sua esperienza nel «diritto».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n128" type="comm" target="quarantana/cap6.xml#c6_13546">
+          <ref rend="bold">paiolo</ref>:  è il mil. pairrœù o stagnàa; il vaso rotondo di rame «con manico di ferro arcato - spiega li Cherubini - serve specialmente per farvi la pulenda».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n130" type="comm" target="quarantana/cap6.xml#c6_13509" targetEnd="quarantana/cap6.xml#c6_13518">
+          <ref rend="bold">col matterello... gran saraceno</ref>:  il mestone di legno lievemente ricurvo da una parte. Attraverso i dettagli di questo interno, l'elemento descrittivo-ornamentale alla Scott risponde funzionalmente alla condizione sociale del personaggio; ma il dettaglio serve anche alla interiorizzazione dei caratteri. Il <hi rend="italic">gran saraceno</hi>, un cereale meno nutriente del granoturco, fu importato in Italia solo nel 1630; nel Fermo era «una bigia polenta di <hi rend="italic">fraina</hi> o (se volete di <hi rend="italic">poligonum fagopyrum</hi>)», in consonanza con il lemma del Cherubini per «frajna», dove a fianco della resa «grano saraceno» si cita anche la «pianta cereale solita coltivarsi nei luoghi montani e detta dai bot. <hi rend="italic">Polygonum fagopirum</hi> ». Il cerchio di vapori, che richiama l'alone lunare (<hi rend="italic">el cerch</hi>), consente alla scrittura di giocare sul contrasto piccolo/grande. Il romanzo con la realtà modesta della povera cucina paesana spezza la tradizione di una letteratura aristocratica e contrappone alle propensioni idilliache della «bella natura» il tema «economico» della «polenta bigia». Qui - direbbe il Longhi - è veramente una natura morta dei poveri.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n132" type="comm" target="quarantana/cap6.xml#c6_13571" targetEnd="quarantana/cap6.xml#c6_13612">
+          <ref rend="bold">La mole della polenta... sguardo... appetito... sopravvivere</ref>:  la mesta presenza della carestia che aveva accompagnato il cammino di fra Cristoforo (CAP. III), che era stata esorcizzata alla tavola di don Rodrigo (CAP. V), ritorna in questa ironica rappresentazione di commensali dallo «sguardo bieco d'amor rabbioso»; solo in seguito la carestia diverrà pubblica disgrazia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n134" type="comm" target="quarantana/cap6.xml#c6_13626" targetEnd="quarantana/cap6.xml#c6_13644">
+          <ref rend="bold">tafferìa... vapori</ref>:  tafferia è il vassoio leggermente incavato, usato come tagliere (il mil. <hi rend="italic">basletta</hi>, quasi «piatto di legno largo e piano»). Si noti l'ironica sproporzione fra la «<hi rend="italic">piccola</hi> luna» e il «<hi rend="italic">gran</hi> cerchio di vapori», una volta scodellata la povera polenta che fa da sfondo alla sacralità del pasto comune. Sotto, il termine «ricco epulone» richiama al parabola evangelica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n136" type="comm" target="quarantana/cap6.xml#c6_13652" targetEnd="quarantana/cap6.xml#c6_13654">
+          <ref rend="bold">volete restar servito?</ref>:  il desinare della povera famiglia, l'invito rituale (mil. <hi rend="italic">Ch'el resta servii</hi>), è visto in netto contrasto col banchetto che don Rodrigo ha offerto ai suoi rumorosi e istrionici ospiti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n138" type="comm" target="quarantana/cap6.xml#c6_13786" targetEnd="quarantana/cap6.xml#c6_13748">
+          <ref rend="bold">(giacchè... principian... a ragionare)</ref>:  con il bonario intervento aurorale la parentesi diegetica allenta la tristezza della situazione, questa precoce razionalizzazione d'un esperienza imposta dalla fame.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n140" type="comm" target="quarantana/cap6.xml#c6_13796" targetEnd="quarantana/cap6.xml#c6_13846">
+          <ref rend="bold">luogo di delizie... mi butterei nel fuoco per te</ref>:  all'osteria, promossa a luogo di «delizie» - mil. <hi rend="italic">sit de delizi</hi>—, Tonio col suo buonumore può anche apparire una versione ironica di quegli amici di Renzo che a parole «eran pronti a dare il sangue».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n142" type="comm" target="quarantana/cap6.xml#c6_13985" targetEnd="quarantana/cap6.xml#c6_13986">
+          <ref rend="bold">venticinque lire</ref>:  monete da venti soldi, dette anche «berlinghe». Sono in numero esiguo, proprio come i «venticinque lettori» del primo capitolo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n144" type="comm" target="quarantana/cap6.xml#c6_13925" targetEnd="quarantana/cap6.xml#c6_13576">
+          <ref rend="bold">que' versacci... il signor curato... la collana... polenta</ref>:  nella sua umorosa vivacità il racconto di Tonio aggiunge alcuni spietati dettagli al «sistema» e al personaggio di don Abbondio. L'«occhio» di Tonio registra un'insistenza petulante - fatta di smorfie (mil. <hi rend="italic">verseri</hi>) e di cenni - che vorebbe forse essere minacciosa e non desiste neppure durante la predica; l'egoismo e la grettezza morale di chi, oltre a richiedere il debito in un anno di fame, pretende a garanzia dai suoi poveri parrocchiani l'oro di famiglia, una collana altrimenti da barattare «in tanta polenta». Dunque i personaggi con il loro punto di vista arricchiscono sempre la nostra conoscenza dei loro interlocutori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n146" type="comm" target="quarantana/cap6.xml#c6_14045" targetEnd="quarantana/cap6.xml#c6_14046">
+          <ref rend="bold">senza sugo</ref>:  Renzo - cui le tribolazioni hanno aguzzato il cervello-sa che parlando delle minacce di don Rodrigo avrebbe spaventato il suo eventuale adiuvante; «senza sugo» vale per stupide, inconsistenti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n148" type="comm" target="quarantana/cap6.xml#c6_14111" targetEnd="quarantana/cap6.xml#c6_14113">
+          <ref rend="bold">Birba chi manca</ref>:  idiomatico, come a dire furfante (ladro) chi manca di parola, chi non sta all'impegno (Cherubini).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n150" type="comm" target="quarantana/cap6.xml#c6_14125" targetEnd="quarantana/cap6.xml#c6_14127">
+          <ref rend="bold">mio fratel Gervaso</ref>:  ha fatto osservare un attento studioso del M. che l'onomastica manzoniana sembra suggerita dal Canone della Consacrazione, incluso nell'ordinario della messa. Di fatto sr incontriamo «(cum) Felicitate, Perpetua, Agatha, Lucia, Agnete, Caecilia...» nelle Litanie dei santi si invoca, accanto a «Sancte Laurenti» e «Sancte Antoni», anche «Sancti Gervasi et Protasi» (cfr. G. Contini, <hi rend="italic">Onomastica manzoniana</hi>, in <hi rend="italic">Varianti e altra linguistica</hi> (1938-1968), Torino, Einaudi, 1970).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n152" type="comm" target="quarantana/cap6.xml#c6_14025" targetEnd="quarantana/cap6.xml#c6_14205">
+          <ref rend="bold">il dito alla bocca... alzando la mano... fai torto</ref>:  all'osteria il dialogo tra amici, la minaccia allusiva, hanno un andamento furbesco da commedia; si ha quindi un mutamento di registro narrativo, di genere. Più tardi l'orrore della peste trasformerà Tonio in un folle inebetito che Renzo scambia proprio con quel «sempliciotto» di Gervaso (CAP. XXXIII).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n154" type="comm" target="quarantana/cap6.xml#c6_14240">
+          <ref rend="bold">pastocchia</ref>:  bugia, scusa (il mil. <hi rend="italic">pastoccia</hi>), spiegazione improvvisata (come una pasta). Per Renzo erano «impastocchiate» le ragioni di don Abbondio al CAP. II, rr. 164-165.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n156" type="comm" target="quarantana/cap6.xml#c6_14283">
+          <ref rend="bold">concerti</ref>:  accordi, disposizioni (è machiavelliano).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n158" type="comm" target="quarantana/cap6.xml#c6_14308" targetEnd="quarantana/cap6.xml#c6_14321">
+          <ref rend="bold">suo dilemma... o la cosa è cattiva... o non è</ref>:  dilemma è la scelta fra due alternative, fra le due proposizioni di eguale validità (i cosiddetti <hi rend="italic">corni</hi> del dilemma) offerte da un argomento. La logica di Lucia nella sua elementare fermezza va diritto all'essenza della problematica situazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n160" type="comm" target="quarantana/cap6.xml#c6_14341">
+          <ref rend="bold">ahn?</ref>:  l'interiezione - osserva il Cherubini - è usata da chi mostra di rammentare qualcosa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n162" type="comm" target="quarantana/cap6.xml#c6_14366" targetEnd="quarantana/cap6.xml#c6_14400">
+          <ref rend="bold">Lucia tentennava mollemente il capo... un fanciullo... s'indurrà</ref>:  la complessa interiorità di Lucia, la sua femminilità soave, invece di opporre un'inopportuna resistenza all'entusiasmo di Renzo, al suo ritenersi «un uomo», si manifesta in una specie di involontario diniego, nel movimento del capo (il mil. <hi rend="italic">dondà el coo</hi>) che quasi inavvertitamente tradisce la sua perplessità. All'interno della coppia affettiva, alla «semplicità» di Renzo fa riscontro la delicatezza ombrosa e reticente di Lucia. Ma i primi a fraintenderla, a scambiare la sua perplessità per ostinazione o ingenuità puerile, sono proprio il promesso sposo e la madre.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n164" type="comm" target="quarantana/cap6.xml#c6_14454" targetEnd="quarantana/cap6.xml#c6_14462">
+          <ref rend="bold">tenervi lontani... un ragazzo da un pero</ref>:  la sfera discorsiva di Agnese dispone d'un repertorio di similitudini contadine sempre puntuali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n166" type="comm" target="quarantana/cap6.xml#c6_14480" targetEnd="quarantana/cap6.xml#c6_14512">
+          <ref rend="bold">Verrò io... per incantarla... vedrete</ref>:  Agnese, per non essere da meno del genero «in tutte codeste furberie», promette addirittura una sorta di incantagione, d'inganno magico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n168" type="comm" target="quarantana/cap6.xml#c6_14535" targetEnd="quarantana/cap6.xml#c6_14539">
+          <ref rend="bold">se non si persuade costei</ref>:  Agnese aveva ripetuto <hi rend="italic">io</hi> per tre volte; il <hi rend="italic">costei</hi> sembra isolare la renitente Lucia dagli altri due organizzatori dell'imbroglio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n170" type="comm" target="quarantana/cap6.xml#c6_13696" targetEnd="quarantana/cap6.xml#c6_14556">
+          <ref rend="bold">Renzo... la sua eloquenza</ref>:  i personaggi ricorrono tutti alla propria retorica; soprattutto quando la verità è ambigua o viene conculcata.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n172" type="comm" target="quarantana/cap6.xml#c6_10677" targetEnd="quarantana/cap6.xml#c6_14641">
+          <ref rend="bold">Io non so che rispondere... Quell lassù </ref>:  il discorso di Lucia, dimostrando nella sua pacatezza dialettale ( <hi rend="italic">Quell lassù</hi> è mil.) che lei in fondo ha già risolto ogni dilemma, pone fine anche al dialogo e alla situazione da commedia. Nei registri multipli del romanzo lo spazio di Lucia è quello della coscienza intransigente entro la stessa scena comica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n174" type="comm" target="quarantana/cap6.xml#c6_14648" targetEnd="quarantana/cap6.xml#c6_14650">
+          <ref rend="bold">il bandolo d'aiutarci</ref>:  il capo della matassa. L'immagine rimanda al «filo» della provvidenza che fra Cristoforo s'illudeva d'aver intravisto, sopra (r. 166).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n176" type="comm" target="quarantana/cap6.xml#c6_14679" targetEnd="quarantana/cap6.xml#c6_14698">
+          <ref rend="bold">un calpestìo... tonaca sbattuta... vela allentata</ref>:  l'arrivo del frate solerte è ironicamente assimilato - siamo in un paese rivierasco di pescatori - all'approdo d'una barca a vela. L'immagine dinamica rende l'impeto, la sensazione del fatto (cfr. il «bastimento disimbrogliato», CAP. V r.332); il vento può anche esere quelo du' na tempesta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap6-n179" type="comm" target="quarantana/cap6.xml#c6_14708" targetEnd="quarantana/cap6.xml#c6_14727">
+          <ref rend="bold">Si chetaron... dirgli nulla</ref>:  come il precedente anche il sesto capitolo si conclude con una breve pausa dopo la quale riprenderà immediatamente l'azione.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

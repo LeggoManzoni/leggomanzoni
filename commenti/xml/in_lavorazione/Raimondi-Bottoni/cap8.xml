@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-05">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap8">
+        <note xml:id="Raimondi-Bottoni_cap8-n1" type="comm" target="quarantana/cap8.xml#c8_10002" targetEnd="quarantana/cap8.xml#c8_10009">
+          <ref rend="bold">Carneade! Chi era costui? - ruminava tra sè</ref>:  don Abbondio, dopo le notizie sul febbrone, torna in scena con questa battuta di intensa efficacia teatrale che lo fissa nella curiosità oziosa dell'abitudinario. Su Carneade, filosofo greco di Cirene (213-129 a.C.), ci informa Cicerone con il <hi rend="italic">De finibus</hi>; ne scrive anche S. Ambrogio, che fa dire a un interlocutore del dialogo <hi rend="italic">Contra Academicos</hi>... «Ego, ait, graecus non sum, nescio Carneade iste qui fuerit»; ma del «letteratone» si era occupato anche Pietro Verri in un articolo <hi rend="italic">Di Carneade, e di Grozio</hi> apparso sul numero XXIX del «Caffé» (cfr. <hi rend="italic">Il Caffè</hi>, a cura di Sergio Romagnoli, Milano, Feltrinelli, 1960). Di fatto, in forza dell'uso manzoniano, nel nostro lessico il personaggio antico ha perso la sua anagrafe diventando il fantasma oscuro dell'ignoranza di don Abbondio...così la sua domanda ci porta ad una figura che non è nessuno. Il <hi rend="italic">ruminava</hi> sta per cercava nella memoria, nella sua modesta erudizione. Il verbo è caro al Manzoni (se aveva come motto «<hi rend="italic">pensarci su</hi>»), riprendeva il meneghino «fantastegand /masnand e ruminand» (<hi rend="italic">On esempi</hi>, v. 5-6).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n3" type="comm" target="quarantana/cap8.xml#c8_10050" targetEnd="quarantana/cap8.xml#c8_10079">
+          <ref rend="bold">un letteratone... burrasca... sul capo</ref>:  incerto tra il giudizio ammirativo e il fastidio della sospetta dimenticanza, il curato - proprio come durante la passeggiata iniziale - non prevede la «burrasca». Si noti l'uso, sempre ironico, che il narratore fa del termine «letteratone»; qui il suo punto di vista s'avvicina a quello di don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n5" type="comm" target="quarantana/cap8.xml#c8_10085" targetEnd="quarantana/cap8.xml#c8_10092">
+          <ref rend="bold">si dilettava... un pochino ogni giorno</ref>:  quella del curato sembra proprio una lettura fatta per passatempo, affidata al caso, senza desiderio di sapere; una curiosità passiva trasformata in abitudine.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n7" type="comm" target="quarantana/cap8.xml#c8_10103">
+          <ref rend="bold">libreria</ref>:  letteralmente è il mobile che raccoglie i libri; quindi, una modesta disponibilità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n9" type="comm" target="quarantana/cap8.xml#c8_10132" targetEnd="quarantana/cap8.xml#c8_10136">
+          <ref rend="bold">più guarito (quanto alla febbre)</ref>:  l'ironico inciso ricorda la realtà biologica, viscerale delle paure di don Abbondio ed ha la forza polemica della ripetizione in falsetto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n11" type="comm" target="quarantana/cap8.xml#c8_10143" targetEnd="quarantana/cap8.xml#c8_10165">
+          <ref rend="bold">un panegirico... due anni prima</ref>:  il discorso elogiativo, recitato nel 1626 dal comasco Vincenzo Tasca, esaltava la brama di sapere (quella che mancava a don Abbondio) di san Carlo Borromeo (1538-1584), cardinale e arcivescovo di Milano. L'opuscolo, che ci informa sulla biblioteca «circolante» del curato, declamava...«...ceda pur, Signori, all'ardor di Carlo nell'apparar le scienze l'ingegnoso Archimede, ch'intento alle linee, le quali stampava in terra, non sentì entro le vene il ferro di furibondo soldato...Ceda Carneade, a cui la dolcezza della contemplazione toglieva la memoria nel ristorare il corpo, ed estinto anche sarebbe stato dalla fame, se la provida consorte non l'havesse a forza imboccato, qual bamboletto da latte...». Ricorda il Cantù che nella serie di panegirici recitati ogni anno dopo la santificazione di san Carlo manca appunto quello del 1628, «sicché il M. non poté metter in mano di don Abbondio se non quello dell'anno precedente» (<hi rend="italic">Commento storico ai P.S.</hi>, Milano, Agnelli, 1874).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n13" type="comm" target="quarantana/cap8.xml#c8_10189" targetEnd="quarantana/cap8.xml#c8_10208">
+          <ref rend="bold">di così curiose... erudizione molto vasta</ref>:  la scrittura diegetica sembra seguire le considerazioni dello stesso don Abbondio; l'inventore degli specchi ustori è consegnato all'aneddotica soprattutto perché, avendo intuito la legge del peso specifico dei corpi mentre era immerso in una vasca, sarebbe uscito nudo dal bagno gridando il famoso <hi rend="italic">éureka</hi> (ho trovato).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n17" type="comm" target="quarantana/cap8.xml#c8_10224">
+          <ref rend="bold">arrenato</ref>:  per «arenato», incagliato come una nave sul fondo (il mil. <hi rend="italic">insabià</hi>).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n21" type="comm" target="quarantana/cap8.xml#c8_10374" targetEnd="quarantana/cap8.xml#c8_10388">
+          <ref rend="bold">non vi siete maritata... non 'hanno voluta</ref>:  è uno dei motivi che individualizzano il personaggio. Già presentata (CAP. I) con il cruccio d'esser rimasta nubile «per non aver mai trovato un cane che la volesse, come dicevano le sue amiche», Perpetua alla fine del romanzo (CAP. XXXVIII) sarà oggetto anche delle ironie di don Abbondio: «Ha proprio fatto uno sproposito Perpetua a morire ora; chè questo era il momento che trovava l'avventore anche lei» commenta il parroco, constatando con crassa letizia l'incremento di matrimoni dopo al peste. «Suolavecchia», «Lunghigna» (da «ghignare» o dal mil. <hi rend="italic">longhignon</hi> per «ciondolone») appartengono al genere dei nomi-caricatura e si prestano a questi pettegolezzi da canonica. Il Cherubini spiegando il termine «soranòmm» osserva...«Nel nostro contado quasi tutti, oltre al nome e al cognome, si trovano affibbiato un soprannome, che nell'uso comune suol essere il prediletto».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n25" type="comm" target="quarantana/cap8.xml#c8_10403" targetEnd="quarantana/cap8.xml#c8_10407">
+          <ref rend="bold">Oh la bugiarda! la bugiardona!</ref>:  sorpresa e sdegno nel crescendo di esclamativi, nel tono più affetivo della ripresa (cfr. il mil. <hi rend="italic">bosionna</hi> per bugiardona).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n29" type="comm" target="quarantana/cap8.xml#c8_10495" targetEnd="quarantana/cap8.xml#c8_10496">
+          <ref rend="bold">narrazione appassionata</ref>:  l'aggettivo mette ironicamente in risalto il fervore «romanzesco» di questa tipica situazione da commedia... la vecchia serva del curato che rievoca «tutti i partiti che le si erano offerti».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n34" type="comm" target="quarantana/cap8.xml#c8_10584" targetEnd="quarantana/cap8.xml#c8_10594">
+          <ref rend="bold">zitti zitti... adagino adagino; cheti e chinati</ref>:  il periodo a brevi coordinate è orchestrato con la sapienza d'un balletto pantomimo; attraverso le pause le coppie anaforiche rallentano e visualizzano l'azione. L'orchestrazione è retorico-grammaticale... il raddoppio («zitti zitti») ha l'effetto d'un superlativo, l'allitterazione («cheti e chinati») raffigura la circospezione dei movimenti. Il superlativo per raddoppiamento è poi tipico del dialetto milanese (Cherubini).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n38" type="comm" target="quarantana/cap8.xml#c8_10645" targetEnd="quarantana/cap8.xml#c8_10646">
+          <ref rend="bold">Deo gratias</ref>:  è la stessa formula liturgica usata da fra Galdino (CAP. III, r. 299), e come saluto riverente, tende a rassicurare il sospettoso curato che replica appunto con un'interiezione autorassicurante... «Tonio eh?».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n42" type="comm" target="quarantana/cap8.xml#c8_10679" targetEnd="quarantana/cap8.xml#c8_10737">
+          <ref rend="bold">La striscia di luce... il povero cuore di Lucia</ref>:  la scrittura manzoniana crea il senso dinamico del reale... il tema della luce - che rende possibile la significazione degli oggetti - accompagna gli sbalordimenti e le angosce di Lucia cui toccano le grandi paure del romanzo. Le sensazioni interiori della contadina, il «povero cuore» con il suo martellare, la profondità del suo sentimento morale sembrano rivelarsi attraverso un contatto immediato e biologico con il mondo, con le ombre e le luci della coscienza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n46" type="comm" target="quarantana/cap8.xml#c8_10240" targetEnd="quarantana/cap8.xml#c8_11745">
+          <ref rend="bold">Don Abbondio... vecchia zimarra... folte ciocche... cespugli... chiaro di luna</ref>:  la sopravveste, il copricapo a scodella, la seggiola, sono dettagli che l'insistenza ripetitiva dell'aggettivo «vecchio» trasforma nei segni grottesco-caricaturali d'un gretto attaccamento agli oggetti. Un ritratto del Borsieri, nel «Conciliatore» del 3 gennaio 1819, descrive un professore di metafisica...«Magro magro, pallido pallido, con due sopracciglia vellose come quelle d'un orso»; per non dire degli occhi loschi dello sfratato <hi rend="italic">fraa Condutt</hi> «sott a duu zij ruff e scarpignaa» («sotto due ciglia lerce e arruffate»). Così l'insistenza ripetitiva sull'aggettivo «folto», in funzione del paragone che riprende il tema d'una luce lunare - sempre la luce condiziona i rapporti fra i dati -diventa il segno d'una vecchiaia ispida e diffidente...il curato diventa una sorta di uomo/natura. Come osserva il Nardi «l'immagine offerta dal grottesco è quella del quieto vivere cristallizzato, per così dire, nella passività del personaggio che si lascia invecchiare».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n51" type="comm" target="quarantana/cap8.xml#c8_10867" targetEnd="quarantana/cap8.xml#c8_10863">
+          <ref rend="bold">L'avrete sentito... sono ammalato</ref>:  la notizia è data e ripetuta perché sia diffusa; ma il curato sembra accondiscendere anche ad un egoismo interessato che si compiace dell'immaginaria malattia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n56" type="comm" target="quarantana/cap8.xml#c8_10925" targetEnd="quarantana/cap8.xml#c8_10936">
+          <ref rend="bold">le contò... le trovò senza difetto</ref>:  ai predicativi è affidata una sorta di attualizzazione verbale del gesto pantomimico. Ricorda il Bonora, citando le <hi rend="italic">Memorie</hi> di Pietro Veri, che nel Seicento ci si doveva preoccupare non solo della falsificazione del conio ma anche della «tosatura», operazione con cui si erodevano i bordi delle monete d'oro o d'argento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n61" type="comm" target="quarantana/cap8.xml#c8_11013" targetEnd="quarantana/cap8.xml#c8_11019">
+          <ref rend="bold">mettere... sul bianco</ref>:  rilasciare una ricevuta. Anche il Mefistofele goethiano chiede a Faust... «Ma - vivo o morto - una cosina ancora... di un po' di carta scritta avrei piacere» (<hi rend="italic">Faust</hi>, Studio); da parte sua Sancho - diffidando degli «svolazzi» e dei ghirigori di don Chisciotte - chiedeva invece...«...la signoria vostra scriva qui dietro l'ordine di consegna dei tre somari e ci metta una firma ben chiara, perché sia riconosciuta appena vista» (<hi rend="italic">Don Chisciotte</hi>, I, cap. XXV).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n63" type="comm" target="quarantana/cap8.xml#c8_11029" targetEnd="quarantana/cap8.xml#c8_11033">
+          <ref rend="bold">com'è divenuto sospettoso il mondo!</ref>:  è l'incongruenza comica di chi ha appena mostrato la propria diffidenza ostruendo l'armadio con tutta la persona.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n65" type="comm" target="quarantana/cap8.xml#c8_11073" targetEnd="quarantana/cap8.xml#c8_11076">
+          <ref rend="bold">dalla vita alla morte...</ref>:  l'espressione idiomatica - un lombardismo - sottintende «il passo è breve». Nel contesto il senso diventa più vasto, quasi ad esprimere la rassegnazione, la ciclicità del vivere e del morire, ma implica il contrario, il dialettale <hi rend="italic">resuscità de mort a vitta</hi> in rapporto al <hi rend="italic">liber di mort</hi> o <hi rend="italic">de la ricevuda</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n67" type="comm" target="quarantana/cap8.xml#c8_11088">
+          <ref rend="bold">cassetta</ref>:  il fiorentinismo sta per «cassetto» - il mil. <hi rend="italic">cassett</hi> - della ventisettana.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n69" type="comm" target="quarantana/cap8.xml#c8_11102" targetEnd="quarantana/cap8.xml#c8_11107">
+          <ref rend="bold">ripetendo a viva voce le parole</ref>:  il gerundio crea un effetto di rallentamento dell'azione aumentando la <hi rend="italic">suspense</hi> di questa sequenza ove i movimenti concordati dei quattro personaggi hanno un'orchestrazione coreografica tutta visiva; compreso il tremito impaurito di Lucia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n71" type="comm" target="quarantana/cap8.xml#c8_11240" targetEnd="quarantana/cap8.xml#c8_11292">
+          <ref rend="bold">la piegò... la porse... alzando il viso... al dividersi d'una scena</ref>:  ancora una sequela pantomimica affidata all'attualizzazione verbale, mentre la scrittura evoca l'evidenza d'una scena su cui s'apre il sipario.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n75" type="comm" target="quarantana/cap8.xml#c8_11299" targetEnd="quarantana/cap8.xml#c8_11312">
+          <ref rend="bold">vide confusamente... si spaventò... prese una risoluzione</ref>:  dopo la flemmatica meticolosità del curato contabile, la fitta successione seriale dei verbi porta al culmine l'azione con il ritmo precipitoso delle tronche. Al riconoscimento progressivo dell'occhio («vide... poi vide chiaro») don Abbondio, reso aggressivo dalla paura, non avverte tra «il pensiero» e «l'esecuzione» le angosce paralizzanti della povera Lucia; «diventerà lesto come un gatto» aveva già previsto Agnese (e si ricordi il «spiccò un salto» del CAP. II, r. 201).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n79" type="comm" target="quarantana/cap8.xml#c8_11350" targetEnd="quarantana/cap8.xml#c8_11393">
+          <ref rend="bold">aveva già afferrata... ghermito... avvicinato a Lucia</ref>:  con quest'ultima fitta serie di verbi d'azione che accelerano il ritmo, drammatizzano la spazialità - e completano la sottolineatura caricaturale del personaggio - l'intrigo notturno giunge ad una catastrofe da farsa. <hi rend="italic">Polverino</hi> è il vasello, il contenitore, della sabbia o della cenere usata per asciugare l'inchiostro.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n81" type="comm" target="quarantana/cap8.xml#c8_11394" targetEnd="quarantana/cap8.xml#c8_11200">
+          <ref rend="bold">La poveretta... tremante</ref>:  il tremito di Lucia è un <hi rend="italic">Leitmotiv</hi> emotivo del capitolo, ripetuto o variato con formule equivalenti («affatto smarrita», sotto).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n83" type="comm" target="quarantana/cap8.xml#c8_11452" targetEnd="quarantana/cap8.xml#c8_11460">
+          <ref rend="bold">la soffogava... in canna</ref>:  la forma fiorentina sta per «soffocare» e la voce idiomatica per «gola»; i due termini s'accordano alla violenza grossolana dell'azione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n85" type="comm" target="quarantana/cap8.xml#c8_11465" targetEnd="quarantana/cap8.xml#c8_11503">
+          <ref rend="bold">Il lucignolo... luce languida... statua abbozzata... umido panno</ref>:  ancora il tema della luce - che muta la vista in presa degli oggetti - torna e dà rilievo allo smarrimento di Lucia. La scrittura in una dialettica di «sguardo» e «pensiero» fissa la giovane nell'immagine della statua solo abbozzata in una statuaria del caso. La malinconia delle «cose incompiute» sottrae Lucia - il personaggio che ha subito l'intrigo - al comico della situazione. Quando la tormentata notte si conclude la diegesi narrativa accenna tristemente al matrimonio... «svanito così dolorosamente quel sogno».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n87" type="comm" target="quarantana/cap8.xml#c8_11504" targetEnd="quarantana/cap8.xml#c8_15875">
+          <ref rend="bold">Cessata ogni luce... andò cercando... trovò... aiuto!... casa!</ref>:  la consecuzione dei verbi, intervallata dalle invocazioni e dalle grida del curato, segna il passaggio dalla tragicommedia alla farsa. «Remando», «mosca cieca» (<hi rend="italic">a l'orbisœu</hi>), «gridando», «spazzando» appartengono alla semantica della confusione, diventano metafore gestuali; così Renzo che procede a moscacieca, ancora illuso di convincere il curato, Tonio carponi alla ricerca della ricevuta, Gervaso che saltella impaurito. Con ritmo crescente la «notte degli imbrogli», in cui si rovesciano tutte le situazioni e tutte le parti in gioco, sta per coinvolgere l'intero villaggio. L'azione è interrotta; nel buio la scena pare quasi spostarsi dietro il fondale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n89" type="comm" target="quarantana/cap8.xml#c8_11626" targetEnd="quarantana/cap8.xml#c8_11628">
+          <ref rend="bold">questo serra serra</ref>:  il Cherubini considera l'espressione equipollente ad una «mezza rivoluzion»; di fatto Renzo ha intrapreso un tentativo sovversivo - da «oppresso» come sottolinea il narratore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n91" type="comm" target="quarantana/cap8.xml#c8_15499" targetEnd="quarantana/cap8.xml#c8_11033">
+          <ref rend="bold">Renzo... l'apparenza d'un oppresore... sopruso... il mondo</ref>:  l'intervento autorale usa ironicamente, soprattutto nei confronti del curato - ma dallo stesso espediente era contrassegnata la spedizione dei bravi - una terminologia militare inserendola su un ritmo ternario a <hi rend="italic">climax</hi>, a progressione ascendente («sorpreso, messo in fuga, spaventato»). L'esperienza del personaggio passa attraverso la riflessione del narratore sulla paradossalità del rapporto oppresso/oppressore. Il Gramsci di <hi rend="italic">Passato e Presente</hi> parla in proposito di «Manzoni dialettico». L'interruzione del racconto, l'analisi delle sue funzioni, è un'operazione del narratore che si può assomigliare allo «straniamento» dialettico proposto dal teatro di Bertolt Brecht. La contrapposizione attraverso la duplice postilla avversativa introdotta da «eppure» approda allo stile gnomico della massima. Anche la correzione «Così va... così andava...» è straniata nel senso che ironicamente agisce a rovescio perché il presente è più forte del passato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n93" type="comm" target="quarantana/cap8.xml#c8_11739" targetEnd="quarantana/cap8.xml#c8_11779">
+          <ref rend="bold">Era il più bel chiaro... ogni oggetto... di giorno</ref>:  allontanandosi dalla tradizione neoclassica, la prosa realistica del romanzo inaugura una visione quasi scientifica dei fenomeni naturali scoprendo nelle precise circostanze fisiche la «sensazione» degli oggetti. Lo spazio si apre, l'aria sembra circolare fra le cose, la luce è quella vera di una notte paesana, esplorata dallo sguardo nella sua profondità. È questa pura fisicità delle cose, questa loro indifferenza - naturale più che idilliaca - a creare un effetto di contrasto con l'agitazione, con il grido «sgangherato» di don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n95" type="comm" target="quarantana/cap8.xml#c8_11874">
+          <ref rend="bold">impannata</ref>:  imposta di legno o di tela o di carta, il mil. <hi rend="italic">stamegna</hi> (Cherubini).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n97" type="comm" target="quarantana/cap8.xml#c8_11843" targetEnd="quarantana/cap8.xml#c8_11847">
+          <ref rend="bold">con gli occhi tra' peli</ref>:  è modo idiomatico, il mil. <hi rend="italic">œucch ingarbiàa</hi>, per dire con le palpebre impaniate, ancora chiuse.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n99" type="comm" target="quarantana/cap8.xml#c8_11852" targetEnd="quarantana/cap8.xml#c8_11853">
+          <ref rend="bold">Correte, Ambrogio!</ref>:  questa volta il nome - S. Ambrogio è il vescovo protettore del comune di Milano - ha una sua familiarità geografica; nel <hi rend="italic">Fermo</hi> il sagrestano portava il nome di Lorenzo. Un'avventura notturna di monache e ladri è raccontata anche dal Maggi, con un «Sior Miché» che «con gran furor / Salta foeura del legg sentend i sgarr» e «corr alla fenestra e par defesa / Ciappa ona canna da fà sgiò i ragner» («con gran furore salta fuori dal letto, sentendo gli strilli» e «corre alla finestra e a difesa brandisce una canna per levare le ragnatele»). Sempre nelle ottave del Maggi si scopre alla mattina «che il fracass / On stremizij l'è stà di fantasia» («che il fracasso è stato uno spavento immaginario»; cfr. <hi rend="italic">Le rime milanesi</hi>, Pistoia, Edizioni Can bianco, 1985, pp. 127-130).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n101" type="comm" target="quarantana/cap8.xml#c8_11910" targetEnd="quarantana/cap8.xml#c8_11955">
+          <ref rend="bold">Dà di piglio... se le caccia... corre... suona a martello</ref>:  sul modulo della serie verbale che visualizza l'azione - l'Isella persuasivamente ne rinviene la matrice generativa nel Porta - il Manzoni introduce la variante comica di queste braghe infilate (ma si noti l'esuberanza del verbo «cacciare») sotto il braccio come la feluca d'un diplomatico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n103" type="comm" target="quarantana/cap8.xml#c8_11956" targetEnd="quarantana/cap8.xml#c8_11959">
+          <ref rend="bold">Ton, ton, ton, ton</ref>:  «voce imitante il suono della campana quando suona a fuoco» - precisa il Cherubini.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n105" type="comm" target="quarantana/cap8.xml#c8_11968" targetEnd="quarantana/cap8.xml#c8_11971">
+          <ref rend="bold">giovinetti... fenile</ref>:  i garzoni che i contadini assumevano per i lavori stagionali; «fenile» è il mil. <hi rend="italic">fenil</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n107" type="comm" target="quarantana/cap8.xml#c8_11984" targetEnd="quarantana/cap8.xml#c8_12035">
+          <ref rend="bold">Molte donne... gli altri... i poltroni... i più curiosi... a vedere</ref>:  la simultaneità dell'azione, delle reazioni più o meno prudenti, è ottenuta soprattutto dalla sapiente catena di indefiniti. Per qualche critico la tecnica compositiva «ha qualche / passaggio forse un po' rigido» (Getto). Piuttosto che accostare il movimento narrativo a una composizione sinfonica (Bonora), converrebbe considerarla come tecnica orchestica; una complessa azione scenica, di quelle che allestiva, negli anni fra il 1813 e il 1821, Salvatore Vigano, il coreografo della Milano romantica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n109" type="comm" target="quarantana/cap8.xml#c8_12074" targetEnd="quarantana/cap8.xml#c8_12093">
+          <ref rend="bold">Diremo... parte all'osteria</ref>:  l'intervento autorale interrompe ancora una volta lo sviluppo del presente narrato per incrociare, con il movimento all'indietro dell'analessi, la vana spedizione degli sposi promessi e l'altrettanto fallimentare spedizione dei bravi. Sono operazioni di sceneggiatura contrapposta rispetto a «i bravi in un luogo, Agnese e Perpetua in un altro».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n111" type="comm" target="quarantana/cap8.xml#c8_12113">
+          <ref rend="bold">avvisti</ref>:  accorti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n113" type="comm" target="quarantana/cap8.xml#c8_12173">
+          <ref rend="bold">diviato</ref>:  difilato (mil. <hi rend="italic">divià</hi>).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n115" type="comm" target="quarantana/cap8.xml#c8_12182" targetEnd="quarantana/cap8.xml#c8_13152">
+          <ref rend="bold">signor Griso... sanrocchino... conchiglie... bordone</ref>:  ironicamente il capo dei bravi riceve dal narratore - che entra nella loro prospettiva - il titolo che gli assegnano i suoi scherani. Il «sanrocchino» era un corto mantello così chiamato da S. Rocco protettore dei pellegrini; per il Cherubini equivale al mil. <hi rend="italic">pellegrinna</hi>, «sorta di vestimento che si porta dai pellegrini per coprire le spalle e buona parte delle braccia e del petto..». Il santo veniva raffigurato anche con il «bordone», un lungo bastone dal manico ricurvo; le conchiglie testimoniavano, per la loro esoticità, la lunghezza del viaggio compiuto; anche il Passeroni ricorda «il pellegrin che col bordone in mano / si parte per andare in terra santa... (<hi rend="italic">Il Cicerone</hi>, XXX, I).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n117" type="comm" target="quarantana/cap8.xml#c8_12208" targetEnd="quarantana/cap8.xml#c8_12210">
+          <ref rend="bold">andiamo da bravi</ref>:  l'espressione nella sua familiarità si presta all'equivoco semantico bravo/bravi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n119" type="comm" target="quarantana/cap8.xml#c8_12240" targetEnd="quarantana/cap8.xml#c8_12242">
+          <ref rend="bold">La nostra brigatella</ref>:  la scrittura palesa una simpatia affettuosa per i protagonisti del mancato matrimonio (è una ripresa semantica della «brigata avventuriera», VII, r. 493) in antitesi semantica con la «truppa» del Griso; questa alla fine dell'episodio verrà ridotta ad «una mandra di porci».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n121" type="comm" target="quarantana/cap8.xml#c8_12324" targetEnd="quarantana/cap8.xml#c8_12333">
+          <ref rend="bold">Nessun risponde... ripicchia... uno zitto</ref>:  il tempo del racconto s'è inserito dal passato («picchiò pian piano») sul presente, quasi ad orchestrare il tema favoloso della cautela silenziosa; esplorazione d'una quiete silenziosa, d'una solitudine furtiva in cui al bussare discreto non risponde neppure un invito al silenzio. La prospettiva verbale del pellegrino replica al mil. <hi rend="italic">no se sent on citto</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n123" type="comm" target="quarantana/cap8.xml#c8_12355" targetEnd="quarantana/cap8.xml#c8_12356">
+          <ref rend="bold">il paletto</ref>:  la spranga di legno o di ferro che scorrendo tra due anelli ferma i battenti d'una porta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n125" type="comm" target="quarantana/cap8.xml#c8_12488" targetEnd="quarantana/cap8.xml#c8_12416">
+          <ref rend="bold">Va... li fa entrar... accosta... va diritto... aspettare</ref>:  per la tecnica paratattica dei gesti si confronti...«Vo dent... ciappi la scara... stoo lì on bott,/doo a ment... e senti in suj basij de legn/ dessora inscimma arent al spazzacà...» («Vado dentro... infilo la scala... sto lì un attimo, faccio attenzione... e sento sui gradini di legno, di sopra, in cima, vicino al solaio...»; <hi rend="italic">Desgrazzi de Giovannin Bongee</hi>, vv. 75-77).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n127" type="comm" target="quarantana/cap8.xml#c8_12455">
+          <ref rend="bold">scelleratamente</ref>:  preparando un tradimento, dunque contro ogni codice di carità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n129" type="comm" target="quarantana/cap8.xml#c8_12467">
+          <ref rend="bold">zolfanelli</ref>:  stoppini di canapa, intinti nello zolfo, che s'accendevano battendo l'acciarino sulla pietra focaia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n131" type="comm" target="quarantana/cap8.xml#c8_12492" targetEnd="quarantana/cap8.xml#c8_12494">
+          <ref rend="bold">guarda, porge l'orecchio</ref>:  solitudine e silenzio... i due sostantivi allitteranti rispondono splendidamente ad un'esplorazione «semantica» della vista e dei suoni; il capitolo sviluppa tutta una dimensione prospettica e sonora.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n133" type="comm" target="quarantana/cap8.xml#c8_12508" targetEnd="quarantana/cap8.xml#c8_12509">
+          <ref rend="bold">il Grignapoco</ref>:  riguardo al nomignolo di questo bravo bergamasco, che doveva essere il portavoce, «il dicitore» di tutta al truppa, il Manzoni scriveva all'amico Tommaso Grossi... «Voglio o una parola indicante qualche qualità fisica notabile che non sia però parola ingiuriosa, o una parola di giuramento, però decente; o un aggiunto di qualità morale, etc. Io ho dovuto inventarne due, e sono lo Sfregiato, e il Tira-dritto. Così s'inventano i soprannomi». Nomi-ritratto quindi, quasi emblemi di un carattere.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n136" type="comm" target="quarantana/cap8.xml#c8_12578" targetEnd="quarantana/cap8.xml#c8_12581">
+          <ref rend="bold">Qui giace la lepre</ref>:  idiomatico, come registra il vocabolario milanese del Cherubini. L'espressione toscana equivale a «qui sta la difficoltà». Si avverta il segno d'una attenzione espressiva assai simile al «Che sem nun chi al busillis» («qui sta la difficoltà») del Porta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n139" type="comm" target="quarantana/cap8.xml#c8_12607" targetEnd="quarantana/cap8.xml#c8_12609">
+          <ref rend="bold">russa, fiata, brulica</ref>:  la progressione verbale che sonda il silenzio con l'aspettativa d'un movimento appena percettibile («brulica») crea la grande suspense della pagina.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n143" type="comm" target="quarantana/cap8.xml#c8_12730" targetEnd="quarantana/cap8.xml#c8_16430">
+          <ref rend="bold">frettolosi... in fretta</ref>:  la variazione allitterativa rende prima la sensazione auditiva poi la percezione emotiva d'allarme con cui i bravacci avvertono l'avvicinarsi di Menico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n145" type="comm" target="quarantana/cap8.xml#c8_10880" targetEnd="quarantana/cap8.xml#c8_12791">
+          <ref rend="bold">perchè... il perchè lo sapete</ref>:  il narratore, a questo punto, è come dentro l'azione, racconta a voce diretta, vivendo la scena e coinvolgendo i lettori nel suo gesto affabulatorio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n147" type="comm" target="quarantana/cap8.xml#c8_12816" targetEnd="quarantana/cap8.xml#c8_12857">
+          <ref rend="bold">spinge... con paura... mette... si sente... o sei morto</ref>:  la scrittura con la sua straordinaria efficacia affabulatoria recupera, per calco stilematico, anche le forme fossilizzate del linguaggio fiabesco e il <hi rend="italic">sott vos</hi> («voci sommesse»), il <hi rend="italic">tremà come ona foja </hi>del dialetto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n149" type="comm" target="quarantana/cap8.xml#c8_12911" targetEnd="quarantana/cap8.xml#c8_14179">
+          <ref rend="bold">primo tocco di campana... lasciano... ritirano... spalancan... corrono</ref>:  in questa «notte della paura» il capitolo registra il fallimento di tutte le imprese tentate... dal matrimonio clandestino al rapimento, dal tentativo di informare le vittime predestinate a quello di soccorrerle. Tutti i protagonisti finiscono per cedere alla paura («Chi è in difetto è in sospetto» è il milanese <hi rend="italic">chi è in difett è in sospett</hi>) e lo sgomento dei bravi è visualizzato nella grottesca pantomima della mano e della bocca spalancata, poi «si confondono, si scompigliano, s'urtano a vicenda». Il «proverbio milanese» sancisce in una prospettiva familiare una verità che è di tutti, dell'autore e dell'Anonimo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n151" type="comm" target="quarantana/cap8.xml#c8_13051" targetEnd="quarantana/cap8.xml#c8_13053">
+          <ref rend="bold">un pericolo indeterminato</ref>:  dopo che il Griso aveva deriso le «Ubbie» dei villani, il realismo manzoniano registra che anche per i bravi agiscono le suggestioni inquietanti, le paure collettive... nessuno è immune dalla paura e il «profondo» emerge di continuo nel <hi rend="italic">mélange</hi> comico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n153" type="comm" target="quarantana/cap8.xml#c8_13072" targetEnd="quarantana/cap8.xml#c8_13207">
+          <ref rend="bold">la superiorità del Griso... Come il cane... raccozzò... sciocconi?</ref>:  nella gerarchia della violenza il «fidatissimo» Griso è l'esecutore materiale dei voleri di don Rodrigo; e l'ironia del narratore non risparmia questa sorta di Doppio servile del padrone. Così il paragone della «mandra di porci» - suggerito dal capitolo iniziale dello scottiano <hi rend="italic">Ivanhoe</hi> - acquista nella sua pittoresca icasticità una valenza derisoria che circola anche nella breve arringa, nell'accostamento sprezzante fra gli «sciocconi» e i «villani».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n156" type="comm" target="quarantana/cap8.xml#c8_13267" targetEnd="quarantana/cap8.xml#c8_13268">
+          <ref rend="bold">Lasciamoli andare</ref>:  l'espediente tecnico dell'intervento autorale si cala dentro l'azione, in una dialettica di presenza/assenza del narratore.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n159" type="comm" target="quarantana/cap8.xml#c8_13372">
+          <ref rend="bold">udienza</ref>:  ascolto; ricalca il mil. <hi rend="italic">dà udienza</hi>, come poi «cicalio» <hi rend="italic">ciaccera</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n162" type="comm" target="quarantana/cap8.xml#c8_13467" targetEnd="quarantana/cap8.xml#c8_13471">
+          <ref rend="bold">a corserelle e a fermatine</ref>:  l'antitesi descrittiva coglie e ritma, con i diminutivi, i movimenti di questa commedia fra comari, il contrasto riposo/movimento, ove all'una spetta l'iniziativa della corsa, all'altra il compito delle soste (il mil. <hi rend="italic">fermadinne</hi>). Si noti la passione narrativa di Perpetua che s'arresta ad «un punto importante del racconto».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n166" type="comm" target="quarantana/cap8.xml#c8_13529">
+          <ref rend="bold">sgangherato</ref>:  il grido, prima «disordinato», ora si carica d'un grottesco valore espressivo che rende lacerante e disarmonico il contrasto (<hi rend="italic">sgarattà</hi> è gridare e s'avverte l'associazione interna col milanese) con «l'ampio silenzio della notte». Nello spazio che disegna il «vano immoto dell'aria» è la stessa semantica preziosa, solenne degli aggettivi e dei sostantivi ad essere lacerata.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n170" type="comm" target="quarantana/cap8.xml#c8_13536" targetEnd="quarantana/cap8.xml#c8_13573">
+          <ref rend="bold">«Misericordia!... cosa c'è?... Diavolo d'una donna!»</ref>:  si noti l'inversione comica delle battute; altrove abbiamo trovato... diavolo d'un frate! È il linguaggio della quotidianità prosaica; le parole divengono quasi personaggi sonori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n173" type="comm" target="quarantana/cap8.xml#c8_13592" targetEnd="quarantana/cap8.xml#c8_13596">
+          <ref rend="bold">si sentì l'urlo di Menico</ref>:  il grido raccorda la simultaneità delle tre azioni che falliscono... il tentativo degli «sposi», il rapimento dei bravi, il soccorso di padre Cristoforo; la struttura concentrica del racconto ha fato convergere le tre azioni portandole aa una sorta di diàpason.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n177" type="comm" target="quarantana/cap8.xml#c8_13536" targetEnd="quarantana/cap8.xml#c8_13626">
+          <ref rend="bold">Misericordia!... anche Agnese... galoppo... sproni</ref>:  dopo che i ruoli delle due comari si sono invertiti, la concomitanza del loro ansioso galoppare (è il dialettale <hi rend="italic">de galop</hi>, per «di corsa») crea un effetto di straordinaria comicità (nel Porta troviamo...«e de trott e de galopp», «se corren vun dree a l'olter de galopp»). La scrittura indugia nel gioco comico d'un teatro del mondo che investe la dimensione familiare e paesana, che trasforma i tocchi di campana in «sproni»; <hi rend="italic">bott</hi>, rintocco, in mil. significa anche colpo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n181" type="comm" target="quarantana/cap8.xml#c8_13707">
+          <ref rend="bold">raffigurata</ref>:  riconosciuta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n185" type="comm" target="quarantana/cap8.xml#c8_13738" targetEnd="quarantana/cap8.xml#c8_13770">
+          <ref rend="bold">I due sposi... promessi... aver sentito</ref>:  la tristezza dell'impresa fallita emerge dalla scrittura comica quando, nella dinamica degli eventi, il romanzo verifica la mescolanza, la presenza del comico nel dramma. Il sintagma «promesso sposo» si legge già in una pagina del Borsieri, sul «Conciliatore» dell'agosto 1819, dedicata alla commedia di Sheridan <hi rend="italic">I Rivali</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n189" type="comm" target="quarantana/cap8.xml#c8_13861" targetEnd="quarantana/cap8.xml#c8_13862">
+          <ref rend="bold">provvidenza che</ref>:  fortuna che; è il mil. <hi rend="italic">fortunna del Signor che!</hi>
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n193" type="comm" target="quarantana/cap8.xml#c8_14090">
+          <ref rend="bold">l'arnese</ref>:  le brache, ed il termine (per il mil. <hi rend="italic">robb</hi>) è ancora più comico, quasi si trattasse d'un'arma di difesa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n197" type="comm" target="quarantana/cap8.xml#c8_14119" targetEnd="quarantana/cap8.xml#c8_14136">
+          <ref rend="bold">Come, chi è?... tenendo... un battente... il lembo</ref>:  Ambrogio, che è l'ignaro e pavido <hi rend="italic">deus ex machina</hi> sia delle fughe sia dei soccorsi, replicando quasi a rimprovero la domanda con la domanda, sembra contrariato dall'ignoranza dei soccorritori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n201" type="comm" target="quarantana/cap8.xml#c8_10240" targetEnd="quarantana/cap8.xml#c8_14246">
+          <ref rend="bold">Don Abbondio... fuga degl'invasori... bisticciar sottovoce</ref>:  il curato, superato il momento critico, torna alla sua abituale angustia, alle sue piccole e prudenti rivalse sulla non innocente Perpetua.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n205" type="comm" target="quarantana/cap8.xml#c8_14323" targetEnd="quarantana/cap8.xml#c8_14368">
+          <ref rend="bold">Cattiva gente... alcuni... a brontolare... altri a sagrare</ref>:  la risposta evasiva - che non- dimeno è troppo ostile ai due sposi promessi - nel suo superficiale paternalismo non soddisfa i soccorritori che finiscono sarcasticamente per «sagrare», ossia per bestemmiare.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n209" type="comm" target="quarantana/cap8.xml#c8_14426" targetEnd="quarantana/cap8.xml#c8_14430">
+          <ref rend="bold">non è qui il diavolo</ref>:  nel pericolo trapela la mitologia notturna, le credenze e le superstizioni di questo piccolo mondo contadino che subito fantastica d'un pellegrino ucciso; d'altronde si credeva anche alle streghe - come canzonava il Griso - e Menico aveva detto che c'era «il diavolo in casa». La parola-motivo rimbalza quindi tra i vari personaggi. Già <hi rend="italic">L'Antiquario</hi> (1816) di Scott introduceva il tema delle credenze superstiziose ma con una più rozza sensibilità figurativa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n213" type="comm" target="quarantana/cap8.xml#c8_14463" targetEnd="quarantana/cap8.xml#c8_14851">
+          <ref rend="bold">una consulta tumultuosa... il console!</ref>:  l'ironia non risparmia la prudente incertezza di questa folla anonima e del suo capo amministrativo, pomposamente definito «console». La massa è prima definita «esercito», poi da «corpo della battaglia» (schiera) diventa «sciame confuso»... i due termini si scontrano e si confondono.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n217" type="comm" target="quarantana/cap8.xml#c8_14645" targetEnd="quarantana/cap8.xml#c8_14646">
+          <ref rend="bold">del terreno</ref>:  del piano terreno.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n221" type="comm" target="quarantana/cap8.xml#c8_14688" targetEnd="quarantana/cap8.xml#c8_14733">
+          <ref rend="bold">Ci fu allora di quelli... un'infamità...Nuova consulta</ref>:  le virtù civiche del tumultuoso consiglio di popolani non vanno oltre la sicurezza e il prestigio campanilistico, ma restano velleiarie, si dissolvono alla prima occasione. La psicologia collettiva, oltre che dai modi di mimetismo indiretto del discorso, è resa dal lombardismo «infamità». L'immagine del «nibbio» sembra reminiscenza ironica dell'ariostesco...«Così il rapace nibio furar suole / il misero pulcin presso alla chioccia..» (<hi rend="italic">Orlando Furioso</hi>, canto II, 39).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n224" type="comm" target="quarantana/cap8.xml#c8_14745" targetEnd="quarantana/cap8.xml#c8_14747">
+          <ref rend="bold">chi fosse stato</ref>:  probabilmente una spia del Griso, ma «uno» potrebbe anche essere l'Anonimo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n227" type="comm" target="quarantana/cap8.xml#c8_14790" targetEnd="quarantana/cap8.xml#c8_14831">
+          <ref rend="bold">Era un bisbiglio... sparir di lucerne... negli sbadigli</ref>:  ritorna il tema del silenzio, incrociandosi ed esaurendosi simultaneamente con il motivo della luce, per chiudere in sordina l'ultima scena corale della tumultuosa notte dei «consulti»; «deserta e silenziosa» è un equivalente aggettivale di «silenzio e solitudine».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n230" type="comm" target="quarantana/cap8.xml#c8_14850" targetEnd="quarantana/cap8.xml#c8_14893">
+          <ref rend="bold">il console... sul vangile... a speculare... sulla ragion composta</ref>:  l'ironia del narratore si esercita nei confronti di quest'altra modesta autorità campagnola - che soppesa, con il piede sula staffa della vanga (<hi rend="italic">gamber</hi> nel milanese del Cherubini), l'opportunità di denunziare o di tacere il tentativo di rapimento. Un'ironia che strania, nella prospettiva del narratore, l'icastico atteggiamento di perplessità del personaggio usando una terminologia scientifico-filosofica... «ragion composta» indica per la matematica il rapporto fra due numeri prodotti da una coppia di proporzionali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n233" type="comm" target="quarantana/cap8.xml#c8_14916" targetEnd="quarantana/cap8.xml#c8_14924">
+          <ref rend="bold">chiomati come due re... della prima razza</ref>:  anche Carlo Magno nell'<hi rend="italic">Adelchi</hi> è «il chiomato sir»; ma l'ironico paragone, che nella prospettiva del console innalza i due bravi al livello epico dei Merovingi o dei popolari paladini di Francia (li troveremo nel romanzo esaltati da un sarto), opera un accostamento tendenzioso e sconsacra la mitologia degli eroi cavallereschi sdoppiandola nelle minacciose figure dei due bravi. Il dettaglio appartiene al tema anticavalleresco della scrittura.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n236" type="comm" target="quarantana/cap8.xml#c8_14996" targetEnd="quarantana/cap8.xml#c8_15048">
+          <ref rend="bold">I nostri fuggiaschi... oscuro pericolo</ref>:  dopo la drammatica comicità della notte degli inganni, il registro narrativo, tornando ai protagonisti affannati, avviliti e in ansiosa apprensione, recupera la dimensione interna del personaggio e prepara, per contrappunto, la notte delle delusioni e dell'Addio. Per i bravi era un «pericolo indeterminato» (cfr. r. 246).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n239" type="comm" target="quarantana/cap8.xml#c8_15199" targetEnd="quarantana/cap8.xml#c8_15252">
+          <ref rend="bold">con un movimento unanime... ringraziarlo tacitamente... scusa</ref>:  la scrittura traduce e commenta nei gesti il pathos, i sentimenti e le emozioni della situazione. L'espressione «angelo tutelare» entra in opposizione con il «diavolo in casa» e assegna al ruolo di Menico (Domenico = Colui che è del Signore) il ruolo d'un arcano messaggero (l'<hi rend="italic">angiol custod</hi> del mil.).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n242" type="comm" target="quarantana/cap8.xml#c8_15309" targetEnd="quarantana/cap8.xml#c8_15311">
+          <ref rend="bold">non dir nulla</ref>:  di fatto i genitori di Menico, pur fingendo di non saperne più degli altri, a le voci sula fuga aggiungeranno «come cosa conosciuta, che s'eran rifugiati a Pescarenico» (CAP. XI).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n245" type="comm" target="quarantana/cap8.xml#c8_11296" targetEnd="quarantana/cap8.xml#c8_13174">
+          <ref rend="bold">Lucia... scansava dolcemente... tremava... senza saper di che</ref>:  nella flessibilità domestica e realistica d'una prosa che riesce a rivelare le avventure più segrete dell'anima, la scrittura manzoniana sembra giungere con straordinaria delicatezza introspettiva all'etimo spirituale di Lucia, al vero e inconsapevole compenetrarsi di anima e natura, di sogni pudichi e di innocenti ma impetuosi pudori. Si noti come il verbo «tremare» si ripeta tre volte nella frase. Rilevando come la pulsione erotica si affacci alla pagina solo in forma ellittica V. Spinazzola scrive...«....il pudore femminile è qualcosa che il codice sessuale della religiosità cattolica si limita a consacrare, riconoscendone la virtù». Ma all'etimo di Lucia oltre ai «tremori» appartengono anche i «ribollimenti» - il milanese <hi rend="italic">calòr</hi>, come spiega il Cherubini.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n248" type="comm" target="quarantana/cap8.xml#c8_15457" targetEnd="quarantana/cap8.xml#c8_15459">
+          <ref rend="bold">E la casa?</ref>:  la domanda, che nella sua preoccupata naturalezza resta forzatamente elusa e sospesa, anticipa uno dei dolorosi motivi dell'Addio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n251" type="comm" target="quarantana/cap8.xml#c8_15514" targetEnd="quarantana/cap8.xml#c8_15536">
+          <ref rend="bold">la luna... illuminò... in aspettativa</ref>:  lo scorcio luminoso riaccenna un altro tema del notturno lunare e sembra conferire un'aura di santità all'attesa del frate. Per antitesi si può ricordare il lume di lucerna che rischiarava grottescamente la vecchiaia diffidente di don Abbondio. Qui la sensazione fa parte dell'evento ed è vissuta, nell'azione, attraverso il personaggio di Renzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n254" type="comm" target="quarantana/cap8.xml#c8_15610" targetEnd="quarantana/cap8.xml#c8_15614">
+          <ref rend="bold">condiscendenza... irregolare</ref>:  fra Fazio, nel suo tentennante conformismo è in buona fede e si sente vincolato dalle norme che imponevano ai cappuccini di colloquiare con donne solo in presenza d'un compagno, e proscrivevano soprattutto tali incontri in luoghi appartati.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n257" type="comm" target="quarantana/cap8.xml#c8_15913" targetEnd="quarantana/cap8.xml#c8_15680">
+          <ref rend="bold">vedete... se fosse un masnadiero</ref>:  fra Cristoforo ha la percezione d'una incongruenza, ma per lui è l'intenzione che decide dell'onestà.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n260" type="comm" target="quarantana/cap8.xml#c8_15703" targetEnd="quarantana/cap8.xml#c8_15705">
+          <ref rend="bold">«Omnia munda mundis»</ref>:  «Tuto è puro per chi è puro»; le parole di .S Paolo (<hi rend="italic">Lettera a Tito</hi>, I, 15) persuadono l'umile sacrestano, con la misteriosa gravità del latino, a trasgredire un codice solo formale. Qui - nonostante l'ironico commento autorale - non è il latinorum, usato da don Abbondio per imbrogliare Renzo; ma l'altro non lo capisce, avverte solo il «senso misterioso».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n264" type="comm" target="quarantana/cap8.xml#c8_15902" targetEnd="quarantana/cap8.xml#c8_15907">
+          <ref rend="bold">la notte degl'imbrogli e de' sotterfugi</ref>:  la definizione mentre sembra siglare le arruffate vicende dell'intrigo paesano parrebbe anche assolvere, attraverso il ma del narratore, i disillusi protagonisti... Lucia soprattutto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n266" type="comm" target="quarantana/cap8.xml#c8_15941" targetEnd="quarantana/cap8.xml#c8_15968">
+          <ref rend="bold">È una prova, figliuoli... verrà un tempo... accade</ref>:  l'esortazione di fra Cristoforo ricorda le parole dell'<hi rend="italic">Ecclesiaste</hi>... «Aspetta in pazienza ciò che Dio ti prepara... acciocché in appresso la tua vita sia più prospera. e nel dolore soffri costante, e nella tua umiliazione abbi pazienza; giacché nel fuoco si fa prova dell'oro e dell'argento... Confida in Dio e ti trarrà in salvo»(<hi rend="italic">Ecclesiaste</hi>, 2, 3-6). Ma l'esortazione rappresenta anche il rovescio della profezia minacciosa pronunciata contro don Rodrigo con l'apocalittico «Verrà un giorno...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n268" type="comm" target="quarantana/cap8.xml#c8_16087" targetEnd="quarantana/cap8.xml#c8_16089">
+          <ref rend="bold">e dalla tua</ref>:  la specificazione pronominale, tutta in crescendo, allude al tema profondo che accomuna i due personaggi, il desiderio della vendetta ancora vivo nell'animo del fuggiasco.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n270" type="comm" target="quarantana/cap8.xml#c8_16137">
+          <ref rend="bold">Bione</ref>:  uno dei «tre grossi torrenti» che scendono nel lago (CAP. I).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n272" type="comm" target="quarantana/cap8.xml#c8_16176">
+          <ref rend="bold">addirittura</ref>:  direttamente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n274" type="comm" target="quarantana/cap8.xml#c8_16212" targetEnd="quarantana/cap8.xml#c8_16215">
+          <ref rend="bold">in concetto di santo</ref>:  lo ha detto anche Agnese con Menico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n276" type="comm" target="quarantana/cap8.xml#c8_13827" targetEnd="quarantana/cap8.xml#c8_13828">
+          <ref rend="bold">il diavolo</ref>:  l'espressione di popolaresca superstizione indica qui la rapidità dei rapitori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n278" type="comm" target="quarantana/cap8.xml#c8_16335" targetEnd="quarantana/cap8.xml#c8_16425">
+          <ref rend="bold">noi vi preghiamo... per quel poveretto... noi stessi</ref>:  la preghiera del frate ubbidisce sino in fondo al precetto di perdonare e di amare anche chi ci ha fatto del male, ma alla fine la parola evangelica, l'eroismo della morale cristiana assumono una didascalicità quasi melodrammatica... «Ma lui!... è vostro nemico. Oh disgraziato! compete con Voi!».«Disgraziato», sventurato perché senza grazia; è il registro dell'«enfasi solenne, venutagli dall'uso del predicare» (CAP. IV, r. 387-388); ma «toccare il cuore», per commuovere, ha l'equivalente milanese di <hi rend="italic">toccà el cœur</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n280" type="comm" target="quarantana/cap8.xml#c8_16470" targetEnd="quarantana/cap8.xml#c8_16508">
+          <ref rend="bold">il cuor mi dice... Ma che sa il cuore?... già accaduto</ref>:  la commozione induce fra Cristoforo ad un auspicio fiducioso - che ricalca il dialettale <hi rend="italic">Cosse te disse el cœur</hi>...=( pronosticare) - ma di fatto il frate e i due promessi sposi si rivedranno soltanto al lazzaretto in un universo sconvolto dalla peste (CAP. XXXVI). Il commento aurorale nel suo lucido razionalismo non vuole però riprendere la commozione senza parole, l'affetto silenzioso, l'umana speranza del frate - che qui non fonda il suo sapere sul verbo di Dio - quanto quella letteratura che della scienza o prescienza del cuore abusava. Già S. Agostino (<hi rend="italic">Confessioni</hi>)... «Quante cose vorrebbe sapere il cuore! Ma che sa il cuore?». E il Porta nel <hi rend="italic">Lament</hi>... «Ma el cœur? El cœur, sant March, ch'el staga lì». Si è già osservato come la prospettiva del narratore escluda la prospettiva della totalità, dello sguardo divino; d'altronde anche la parola biblica avverte... «La mente dell'uomo pensa molto alla sua via, / ma il Signore dirige i suoi passi» (<hi rend="italic">Proverbi</hi>, 16, 9).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n282" type="comm" target="quarantana/cap8.xml#c8_10584" targetEnd="quarantana/cap8.xml#c8_10585">
+          <ref rend="bold">zitti zitti</ref>:  come nell'altra avventura fallita.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n284" type="comm" target="quarantana/cap8.xml#c8_16586" targetEnd="quarantana/cap8.xml#c8_16683">
+          <ref rend="bold">Non tirava un alito di vento... allontanando dal lido</ref>:  nel tema del notturno lunare il senso dinamico del reale - che traduce l'immediatezza espressiva del <hi rend="italic">Tirà nanca on boff d'aria</hi> - si fa autentico linguaggio poetico. L'attenta percezione visiva («non fosse stato li tremolare») e auditiva («S'udiva soltanto il fiotto... il gorgoglio..») dei fenomeni e degli oggetti diventano le forme interne d'una letteratura che si è definitivamente allontanata dalle forme auliche della tradizione neoclassica. Lo scenario di una natura invasa dalla storia del cuore, diventa atmosfera, spazio che partecipa l'avventura dell'anima umana.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n287" type="comm" target="quarantana/cap8.xml#c8_16684" targetEnd="quarantana/cap8.xml#c8_16751">
+          <ref rend="bold">I passeggieri silenziosi... meditando un delitto</ref>:  ancora l'occhio del personaggio che registra paesaggi ed emozioni; guardare i monti è un gesto tipico del romanzo. Nelle pause che scandiscono i periodi la prosa narrativa inventa un ritmo interno ove la stessa presenza di endecasillabi (chiusa in un endecasillabo è la similitudine «come branchi di pecore pascenti» a r. 546-547) acquista una estensione tonale più liberamente modulata e dettata dalla catena di immagini. Così il palazzotto di don Rodrigo, nella precisione dei dettagli e nella sapiente disposizione delle pause, evoca un'immagine di minacciosa ferocia in cui si compendia l'incubo sovrastante la drammatica notte - ne diventa l'emblema vivo, lo specchio simbolico... «un feroce... ritto... meditando un delitto» («quel feroce» troviamo poi in <hi rend="italic">Adelchi</hi>, IV, I.) L'uso dell'aggettivo sostantivato ha poi grandi antecedenti patetici nel Tasso... «La generosa i suoi seguaci incita»; «Risponde la feroce... - Indarno chiedi...» (<hi rend="italic">Ger. lib.</hi>, III, 13; XII, 61).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n290" type="comm" target="quarantana/cap8.xml#c8_16752" targetEnd="quarantana/cap8.xml#c8_16816">
+          <ref rend="bold">Lucia lo vide... e pianse segretamente</ref>:  con la descrizione iniziale del primo capitolo il paesaggio generava l'universo del romanzo nella sua serena oggettività; l'alba di fra Cristoforo (CAP. IV) introduceva nello spettacolo della natura una dimensione temporale mortificata dalla fame e dalla carestia; ora il paesaggio progressivamente si interiorizza prima attraverso lo sguardo affettuoso di Lucia - che è già in azione prima che se ne faccia il nome-, poi nel suo pianto segreto. In antitesi a «palazzotto» si noti la dimensione affettuosa dei diminutivi «paesello», «casetta».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n293" type="comm" target="quarantana/cap8.xml#c8_16817" targetEnd="quarantana/cap8.xml#c8_16885">
+          <ref rend="bold">Addio, monti sorgenti... se ne allontana!</ref>:  tra Settecento e Ottocento il patetico motivo dell'Addio ha illustri precedenti nei padri spirituali del Romanticismo. Rousseau scriveva... «o lac sur les bordes duquel j'ai passé les douces heures de mon enfance... Ces clochers qui s'élèvent au milieu des chênes... ces troupeaux bêlans... ces montagnes qui m'ont vu naître, elles ne me verront plus». Giovanna d'Arco, nella <hi rend="italic">Vergine d'Orléans</hi> di Schiler, così salutava il gregge e i campi paterni... «Addio montagne, e voi care praterie, fide e tranquille valli, addio! Giovanna non passeggerà più tra di voi; per sempre Giovanna vi dà l'addio.». Passi questi che il fortunato volume di M.me de Stael, <hi rend="italic">De l'Allemagne </hi> (1810), riportava commentando. Ma anche un Frank Olbaldistone, il protagonista scottiano di <hi rend="italic">Rob Roy</hi>, abbandonando le Highlands intona a sua volta un addio in versi che nella versione francese del romanzo - letto dal M. - suona... «Adieu, contrée où les nuages - Comme un vaste linceul s'arrêtent sur les monts...». Al di là d'ogni associazione tematica o d'una topica persistenza delle immagini, l'intonazione lirica si distende nelle ampie frasi d'un periodare lento e solenne che conferisce alla pagina - giacché lo scrittore si fz interprete e testimone - il significato e la funzione che hanno i cori delle tragedie.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n296" type="comm" target="quarantana/cap8.xml#c8_16886" targetEnd="quarantana/cap8.xml#c8_16929">
+          <ref rend="bold">Alla fantasia... si disabbelliscono... tornerà dovizioso</ref>:  la considerazione negativa per chi abbandona il paese attratto dal miraggio della ricchezza fa avvertire, in forza del contrasto, la tristezza più cocente degli esuli perseguitati. Come nei cori delle tragedie, l'intrusione autorale intreccia al pathos della situazione la riflessione del grande moralista. Senonché, qui, è l'anima che si fa scena, i sentimenti sconosciuti al lessico del personaggio che si chiariscono nella scrittura del romanzo. Del «montanaro» lombardo aveva già scritto Giuseppe Pecchio, nel «Conciliatore» del 17 dic. 1818, che «vive frugalmente; ha poche idee, pochi bisogni, e posto quasi fuori del mondo né conosce, né invidia le ricchezze».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n300" type="comm" target="quarantana/cap8.xml#c8_16930" targetEnd="quarantana/cap8.xml#c8_16818">
+          <ref rend="bold">Quanto più s'avanza... l'aria gli par gravosa e morta... monti</ref>:  in margine al tema dell'Addio e allo spazio «idillico» del borgo, emerge anche un ideale di vita raccolta ed estranea alle sollecitazioni economiche dello spazio cittadino. Uno spazio, quello della città, che sembra suscitare l'ostilità dell'agorafobico Manzoni.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n303" type="comm" target="quarantana/cap8.xml#c8_17013" targetEnd="quarantana/cap8.xml#c8_17088">
+          <ref rend="bold">Ma chi non aveva mai spinto... il ritorno</ref>:  si noti come il «ma» avversativo misuri uno scarto di progressione che orienta il discorso di nuovo sui fuggiaschi e soprattutto su Lucia, il personaggio d'elezione del racconto. Lucia che in tutto il capitolo pronuncia soltanto la battuta «e questo...» subito interrotta da don Abbondio. Uno dei paradossi del romanzo è che il narratore in parte traduce, intuendoli, i pensieri del proprio personaggio, e in parte fa del personaggio il portavoce della sua segreta identità. Questa introspettiva prosastica crea - con le sue non vinte spinte liriche- una tensione nascosta fra prosa e poesia, fra lirismo e analisi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n305" type="comm" target="quarantana/cap8.xml#c8_17089" targetEnd="quarantana/cap8.xml#c8_17142">
+          <ref rend="bold">Addio, casa natìa... pensiero occulto... misterioso timore... di sposa</ref>:  l'uso anaforico della struggente forma di commiato («Addio...») scandisce il movimento patetico del brano; al principio d'ogni frase saluta il distacco dalle cose più care, dagli spazi di occulti pensieri d'amore e di tranquilli sogni di sposa. Il romanzo, nella sua orchestrazione patetica, si appropria e prosaiciza dei sottogeneri come la «ballata dell'esilio»... nel più fortunato dei romanzi «gotici», <hi rend="italic">Il Monaco</hi> (1796) di Mathew G. Lewis, il motivo è così svolto... «Terra ove nacqui, addio! Addio dimora /ove conobbi gioie e santi affetti, /or ch'è perduto il ben, come m'accora /rimembrare quei giorni benedetti...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n307" type="comm" target="quarantana/cap8.xml#c8_17143" targetEnd="quarantana/cap8.xml#c8_17089">
+          <ref rend="bold">Addio, chiesa... l'amore... comandato... addio!</ref>:  la chiesa è lo spazio che congiunge i giorni delle infantili e innocenti lodi al Signore ai giorni d'un futuro il cui sogno è svanito dolorosamente. Qualcuno, a cominciare dal Fogazzaro, ha rimproverato al Manzoni un'eccessiva reticenza sulle «dimostrazioni d'amore» dei due protagonisti, ma la scelta narrativa è quella di sublimare l'<hi rend="italic">eros</hi>, di purificare la passione d'ogni sessualità trasformandola nel più alto dei sentimenti cristiani. Si notino gli straordinari trapassi ossimorici... «sospiro segreto/benedetto», «amore/comandato». «In tal modo - scrive V. Spinazzola - lo struggimento amoroso appare complessivamente inquadrato fra due assi prospettici, la sublimazione elegiaca e la sublimazione religiosa».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n309" type="comm" target="quarantana/cap8.xml#c8_17179" targetEnd="quarantana/cap8.xml#c8_17207">
+          <ref rend="bold">Chi dava a voi... non turba mai la gioia... più grande</ref>:  la frase, nella sua solennità, richiama due concetti dell'<hi rend="italic">Imitazione di Cristo</hi>... «Che in verità essendo tu presente, gioconde sono tutte le cose... Tu solamente la mia salute anteponi e il mio profitto, e tutte le cose mi converti in bene. E se a varie tentazioni e avversità mi esponi, tutto questo ordini alla mia utilità...» (<hi rend="italic">De im. Christi</hi>, III, I, 4). Ma una pagina della <hi rend="italic">Morale cattolica</hi>, nella sua lucida razionalità, così argomenta... «A far conoscere il futuro l'esperienza è inetta per chi non conosce il tutto, superflua per Chi lo conosce... E appunto perchè l'uomo non possiede l'onniscienza, deve contentarsi della semplice probabilità» (<hi rend="italic">M. cattolica</hi>, Appendice al cap. III). Si noti infine la straordinaria progressione di motivi e di cadenze musicali, la vocalità dispersa che la pagina del romanzo organizza e concerta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap8-n311" type="comm" target="quarantana/cap8.xml#c8_17208" targetEnd="quarantana/cap8.xml#c8_17213">
+          <ref rend="bold">Di tal genere, se non tali</ref>:  è stato osservato che Lucia come personaggio salva l'autore dalla retorica e l'autore, con la sua precisazione, salva la verisimiglianza del personaggio.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

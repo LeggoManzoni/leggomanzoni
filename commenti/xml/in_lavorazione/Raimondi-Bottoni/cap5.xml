@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-04">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap5">
+        <note xml:id="Raimondi-Bottoni_cap5-n1" type="comm" target="quarantana/cap5.xml#c5_10001" targetEnd="quarantana/cap5.xml#c5_10004">
+          <ref rend="bold">Il qual padre Cristoforo</ref>:  il relativo collega, senza soluzione di continuità, l'inizio del capitolo alle battute finali del precedente. Per l'articolarsi del racconto in capitoli cfr. D. Delcorno Branca, <hi rend="italic">Strutture narrative e scansione in capitoli</hi>, in «Lettere Italiane», XXXII, 3, 1980.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n3" type="comm" target="quarantana/cap5.xml#c5_10036">
+          <ref rend="bold">trista</ref>:  cattiva, penosa. Si avverta l'allitterazione «trista risposta».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n5" type="comm" target="quarantana/cap5.xml#c5_10042" targetEnd="quarantana/cap5.xml#c5_10047">
+          <ref rend="bold">un moto leggiero... all'indietro</ref>:  è quel suo movimento consueto da cui traspariva - come informa il CAP. IV - «un non so che d'altero e d'inquieto».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n7" type="comm" target="quarantana/cap5.xml#c5_10111" targetEnd="quarantana/cap5.xml#c5_10125">
+          <ref rend="bold">diventava di mille colori... batteva i piedi</ref>:  nel gioco fisiognomico del frate, come nel suo linguaggio, le intemperanze tradiscono sempre il suo carattere battagliero.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n9" type="comm" target="quarantana/cap5.xml#c5_10137" targetEnd="quarantana/cap5.xml#c5_10159">
+          <ref rend="bold">esclamò... fino a quando... Dio vi ha visitate</ref>:  la domanda «Usquequo?» - come ricorda il Barbi - è di tradizione testamentaria. Puntualmente il Negri richiama al Salmista: «E fino a quando, o Dio, insulterà l'inimico...irriterà l'avversario il nome tuo senza fine?...» (<hi rend="italic">Salmo</hi> 73, 10, 19). Così come è motivo mistico e biblico quello del Dio che si rivela attraverso il dolore per porre il credente alla prova.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n11" type="comm" target="quarantana/cap5.xml#c5_10193">
+          <ref rend="bold">confida</ref>:  affida.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n13" type="comm" target="quarantana/cap5.xml#c5_10203" targetEnd="quarantana/cap5.xml#c5_10215">
+          <ref rend="bold">Egli può servirsi... per confondere</ref>:  ricorda l'Angelini che san Paolo nella <hi rend="italic">Prima Lettera ai Corinti</hi> scrive...«Dio sceglie la debolezza del mondo per umiliare i potenti». Le parole di fra Cristoforo quindi non sono genericamente consolatorie ma riecheggiano la verità del messaggio cristiano, il suo sapere si fonda sulla parola di Dio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n15" type="comm" target="quarantana/cap5.xml#c5_10226" targetEnd="quarantana/cap5.xml#c5_10246">
+          <ref rend="bold">appoggiò il gomito... il mento</ref>:  l'atteggiamento ha qualcosa di pittorico (in <hi rend="italic">Urania</hi> il Pensamento era ritratto...«ne la palma alzata reclinando la fronte»), e in effetti deve integrare l'enfasi deliberativa cui danno luogo le varie alternative del monologo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n17" type="comm" target="quarantana/cap5.xml#c5_10380" targetEnd="quarantana/cap5.xml#c5_10397">
+          <ref rend="bold">potessi tirar dalla mia... non è un affare comune</ref>:  il frate - come l'ironico narratore - sa che le comunità di religiosi più che per amore di giustizia si muovono quando sono in gioco comuni interessi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n19" type="comm" target="quarantana/cap5.xml#c5_10433">
+          <ref rend="bold">imbroglione</ref>:  qui etimologicamente sta per «chi ama complicare, imbrogliare le cose», quindi impiccione, attaccabrighe.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n21" type="comm" target="quarantana/cap5.xml#c5_10466" targetEnd="quarantana/cap5.xml#c5_10472">
+          <ref rend="bold">il migliore gli parve d'affrontar don Rodrigo</ref>:  è la soluzione più consona al suo carattere battagliero, quella diametralmente opposta alla scelta fatta, sempre durante un soliloquio (CAP. II), da don Abbondio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n23" type="comm" target="quarantana/cap5.xml#c5_10662" targetEnd="quarantana/cap5.xml#c5_10672">
+          <ref rend="bold">Lei non è di quelli... sempre torto a' poveri</ref>:  il dialogo procede sfasato per fraintendimenti. Fra Cristoforo ha parlato di Dio, ma Renzo ragiona nei termini terreni della sua sfortunata esperienza e pensa al curato e ad Azzecca-garbugli.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n25" type="comm" target="quarantana/cap5.xml#c5_10724" targetEnd="quarantana/cap5.xml#c5_10771">
+          <ref rend="bold">gli amici del mondo... un nemico... avrebbe finito... di mangiar pane</ref>:  Renzo, l'eroe del romanzo, lamenta di non poter attuare la sua vendetta o meglio il suo progetto omicida con fra Cristoforo, l'antieroe romanzesco, che solo con il pane del perdono suggellò la tragedia insensata d'un omicidio; «amici del mondo» è espressione della <hi rend="italic">Morale cattolica</hi>, cap. XVII.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n28" type="comm" target="quarantana/cap5.xml#c5_10849" targetEnd="quarantana/cap5.xml#c5_10878">
+          <ref rend="bold">quali amici!... Dio è l'amico de' tribolati</ref>:  si può ricordare il biblico «maledetto l'uomo che confida nell'uomo», ma anche i versi della <hi rend="italic">Pentecoste</hi>... «Non sa che al regno i miseri / seco il Signor solleva?», cui fanno sempre da supporto le parole del Salmista... «e il Signore è stato rifugio al povero, aiutatore al tempo opportuno, nella tribolazione. E sperino in te quei che conoscono il nome tuo; perché tu, o Signore, non hai abbandonato coloro che ti cercano» (<hi rend="italic">Salmo</hi> 9, 9-10; anche <hi rend="italic">Ecclesiaste</hi>, 2, 6-12).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n30" type="comm" target="quarantana/cap5.xml#c5_10887" targetEnd="quarantana/cap5.xml#c5_10933">
+          <ref rend="bold">a meter fuori l'unghie... un terribile guadagno!</ref>:  più che una massima della rinuncia - di catechismo «della rassegnazione turca e della pazienza asinina» parlava il Sailer - è una considerazione realistica, cui s'aggiunge l'esperienza terribile e profonda, dolorosamente umana («la voce divenne lenta e come sotterranea»), di quale sia il prezzo della vendetta. In Renzo, che disegna ancora di colpire il nemico, fra Cristoforo riconosce quasi una parte di se stesso e quindi la sua funzione diventa quella di guidare il giovane ad un'altra idea di giustizia, che comporti il rispetto dell'uomo invece della violenza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n32" type="comm" target="quarantana/cap5.xml#c5_10937" targetEnd="quarantana/cap5.xml#c5_10950">
+          <ref rend="bold">confidare in me?... confidare in Dio?</ref>:  la fede religiosa si concretizza «mondanamente» nella fiducia che Dio non è estraneo al gioco misterioso degli eventi umani; ancora la <hi rend="italic">Morale cattolica</hi> spiega che «la legge divina predica a tutti gli uomini la giustizia, e se a quelli che la vogliono seguire non propone in molti casi che la pazienza, propone il solo mezzo ch'essi abbiano per la loro felicità, perché tutti gli altri, facendoli rei, li fanno per conseguenza abbieti e infelici».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n34" type="comm" target="quarantana/cap5.xml#c5_11070" targetEnd="quarantana/cap5.xml#c5_11071">
+          <ref rend="bold">cantar sesta</ref>:  l'ufficio divino o Breviario che secondo le consuetudini della Regola si cantava in coro prima di mezzogiorno. Le ore canoniche erano sette...mattutino, prima, terza, sesta, nona, vespro, compieta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n36" type="comm" target="quarantana/cap5.xml#c5_11080" targetEnd="quarantana/cap5.xml#c5_11083">
+          <ref rend="bold">il covile della fiera</ref>:  «Mentre l'empio... sta in agguato come leone nella sua tana» (<hi rend="italic">Salmo</hi> 9, 28-29); ma l'espressione richiama anche i modi della favola edificante.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n38" type="comm" target="quarantana/cap5.xml#c5_11088" targetEnd="quarantana/cap5.xml#c5_11132">
+          <ref rend="bold">Il palazzotto... l'anonimo aggiunge... più in su del paeselo</ref>:  il Cantù lo individuava nel castello di Pomerio, per lo Stoppani sorgeva invece sul poggio dello Zucco, per altri corrisponde ad un palazzo sopra Acquate. Ma nel dialetto mil. bicocca indica un fortino, «un luogo fortificato di non grande levatura» (Cherubini). Incolpandone ironicamente l'Anonimo, il narratore ne descrive soltanto l'umanità arcigna e rissosa che lo circonda, la rozza architettura barocca, la trascuratezza inveterata, il cupo silenzio. Invece d'un profilo etico-sociale del signorotto - un malvagio mediocre senza personalità, per il Russo - il romanzo sembrerebbe identificare il tirannello di provincia con l'ambiente che lo circonda, con la brutalità del suo «piccol regno».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n40" type="comm" target="quarantana/cap5.xml#c5_11207">
+          <ref rend="bold">tromboni</ref>:  i tipici fucili dei briganti, con la canna ad imbuto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n42" type="comm" target="quarantana/cap5.xml#c5_11250" targetEnd="quarantana/cap5.xml#c5_11252">
+          <ref rend="bold">chi nulla nulla</ref>:  se appena qualcuno.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n44" type="comm" target="quarantana/cap5.xml#c5_10016" targetEnd="quarantana/cap5.xml#c5_11303">
+          <ref rend="bold">donne... nerborute... fanciulli... petulante... provocativo</ref>:  descrivendo la «condizione» ed i «costumi» del paese, invece dei quadri pittoreschi e folcloristici familiari ai romanzi scottiani, il narratore delinea con ironia (i vecchi pronti <hi rend="italic">a digrignar le gengive</hi>) un grottesco microcosmo alterato dalla violenza e degenerato nella protervia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n46" type="comm" target="quarantana/cap5.xml#c5_11304" targetEnd="quarantana/cap5.xml#c5_11089">
+          <ref rend="bold">Fra Cristoforo... salì... a chiocciola... palazzotto</ref>:  al scrittura dando il senso della salita conferisce all'ascesa dell'adiuvante anche il significato di una prova. Va poi rilevato come lo spazio del racconto si ordini (da r. 93) tra il basso delle case ove dimora la «gente di nessuno» e il mondo signorile, alto, del palazzotto. Alla contrapposizione verticale che struttura lo spazio (in termini di «basso»/«elevato», «infimo»/«potente», «palazzo»/ «tugurio») e ne rappresenta la gerarchia di valori, corrispondono nel movimento dell'intreccio le antitesi di «scendere» e «salire», associate a quelle di «violenza» e «giustizia», di «sicurezza» e «paura». Così come lo spazio, il mondo degli uomini è assiologicamente diviso in potenti e inermi, ricchi e poveri, mandanti e intermediari. Spetta a fra Cristoforo, l'intermediario, salire dal basso verso l'alto del «palazzotto». Ma il nobile finirà per vedere nell'uomo che ha di fronte un «villano temerario», un «mascalzone» da bastonare su due piedi, se non fosse protetto dal «saio».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n48" type="comm" target="quarantana/cap5.xml#c5_11414" targetEnd="quarantana/cap5.xml#c5_11460">
+          <ref rend="bold">Due grand'avoltoi... inchiodati... e due bravi, sdraiati... la guardia</ref>:  la simmetria fra la macabra ostentazione dei trofei di caccia e la squallida guardia montata dai due bravi, in attesa di «avanzi», denuncia la grottesca e cupa violenza della scena. La simmetria diventa emblema del palazzotto nel contrasto iconografico tra figure di morte e figure di vita, sonnacchiose ma violente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n50" type="comm" target="quarantana/cap5.xml#c5_11567" targetEnd="quarantana/cap5.xml#c5_11635">
+          <ref rend="bold">borbottando un vecchio... non è lei... per far del bene</ref>:  nel «covile della fiera» il borbottio del vecchio servitore rivela l'unico segno positivo, la presenza d'una coscienza morale che sopravvive alla debolezza senile.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n52" type="comm" target="quarantana/cap5.xml#c5_11664" targetEnd="quarantana/cap5.xml#c5_11688">
+          <ref rend="bold">Quivi... frastono confuso di forchette... di voci discordi... soverchiarsi</ref>:  dopo il silenzio esterno, il disordine tumultuoso e litigioso d'un convito che a qualcuno ha ricordato il dantesco... «Quivi sospiri, pianti e alti lai / risonavan...». Ma nel <hi rend="italic">Tom Jones</hi> (1749) di Henry Fielding, conosciuto attraverso l'<hi rend="italic">Essais sur les fictions</hi> della Stael e ammirato modello narrativo nella cerchia del «Conciliatore», si legge: «...ascoltando la conversazione alla tavola d'un gran signore potete farvi un'idea, un giudizio della sua religione, delle sue conoscenze in politica, dei suoi gusti e, per finire, del suo carattere...»•
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n54" type="comm" target="quarantana/cap5.xml#c5_11718" targetEnd="quarantana/cap5.xml#c5_11764">
+          <ref rend="bold">Un certo conte Attilio... non ci scappi, padre riverito</ref>:  è il cugino nobile e cinico che viene dalla città; le sue risposte hanno spinto don Rodrigo alla scommessa libertina. Una mondana disinvoltura gli consente di alternare la familiarità piuttosto incivile («ehi! ehi!») alle riverenze salottiere («padre riverito»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n56" type="comm" target="quarantana/cap5.xml#c5_11767" targetEnd="quarantana/cap5.xml#c5_11804">
+          <ref rend="bold">Don Rodrigo. presentimento confuso... tirarsene indietro</ref>:  l'indole del signorotto di provincia si precisa da un lato nell'inquietudine che prova avvertendo la presenza del frate, il suo antagonista, dall'altro nella puntigliosa determinazione di non essere da meno del cinico Attilio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n58" type="comm" target="quarantana/cap5.xml#c5_11825" targetEnd="quarantana/cap5.xml#c5_11851">
+          <ref rend="bold">L'uomo onesto... piace.... immaginarselo... con lo scilinguagnolo</ref>:  questo atteggiamento il <hi rend="italic">Fermo</hi> l'addebitava ai «romanzi» e alle «opere teatrali» e quindi l'accenno polemico del narratore realistico è rivolto alla retorica di tutta una letteratura <hi rend="italic">romanesque</hi>, declamatoria e insieme illusoria; una letteratura artificiosa costruita sulla inverosimiglianza degli intrecci, dei sentimenti, delle passioni.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n60" type="comm" target="quarantana/cap5.xml#c5_11874" targetEnd="quarantana/cap5.xml#c5_11962">
+          <ref rend="bold">non vi maravigliate... aria di suggezione... non che un rimprovero</ref>:  l'intervento diegetico, ammettendo l'impaccio di fra Cristoforo, sottolinea l'istanza romanzesca di sovvertire i codici comportamentali del timore, della sicurezza, del coraggio. Di fatto il romanzo ha già sovvertito la tipologia sociale dei propri eroi con l'eleggere a protagonisti una coppia di contadini.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n62" type="comm" target="quarantana/cap5.xml#c5_12016" targetEnd="quarantana/cap5.xml#c5_12030">
+          <ref rend="bold">con gran rispetto... certa saccenteria, il signor podestà</ref>:  il podestà è l'autorità locale e può far valere tra quei nobili ignoranti la sua saccenteria, l'autonomia sociale e la cultura formale del giudice ordinario che rappresenta lo Stato. Stando alla grida letta da Azzeccagarbugli spettava a lui, per giurisdizione, proteggere Renzo; qui rappresenta invece la tacita connivenza della giustizia di stato con una nobiltà tracotante e col dispotismo straniero.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n64" type="comm" target="quarantana/cap5.xml#c5_12065" targetEnd="quarantana/cap5.xml#c5_12084">
+          <ref rend="bold">rispetto... più sviscerato... più rubicondo</ref>:  un ironico dettaglio comportamentale, insieme al naso paonazzo, spiega a sufficienza la sudditanza parassita del leguleio beone.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n66" type="comm" target="quarantana/cap5.xml#c5_12092" targetEnd="quarantana/cap5.xml#c5_12113">
+          <ref rend="bold">due convitati.. mangiare... approvare</ref>:  anche a tavola i rapporti di forza o di compiacenza sono espressi quasi visivamente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n68" type="comm" target="quarantana/cap5.xml#c5_14915" targetEnd="quarantana/cap5.xml#c5_12244">
+          <ref rend="bold">un cappuccino... del mio vino... un creditore... legna</ref>:  la battuta sembrerebbe gratuita ma la grossolanità di don Rodrigo deve suonare come un avvertimento per il frate, venuto a chiedere qualcosa di più che non il saldo d'un debito.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n70" type="comm" target="quarantana/cap5.xml#c5_12317" targetEnd="quarantana/cap5.xml#c5_12370">
+          <ref rend="bold">L'autorità del Tasso... pio Buglione</ref>:  il conte Attilio si riferisce al passo (<hi rend="italic">Ger. lib.</hi>, VI, st. 17) in cui Argante, inviato come ambasciatore, chiede a Goffredo di Buglione...«...o Signore, a i messaggier licenza / Dassi tra voi di liberi sermoni?». All'autorità del Tasso - che compose anche due dialoghi, il <hi rend="italic">Forno primo e il Forno secondo</hi>, sule regole della cavalleria - si richiama- va per una siffatta questione il già noto autore di trattati cavallereschi Francesco Birago, nello scritto <hi rend="italic">Dichiaratione et avvertimenti politici, storici, cavallereschi e morali sulla Gerusalemme
+            conquistata</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n72" type="comm" target="quarantana/cap5.xml#c5_12371" targetEnd="quarantana/cap5.xml#c5_12449">
+          <ref rend="bold">Ma questo... diritto delle genti... i proverbi... in iscritto</ref>:  il vociante diverbio accomuna per bocca del podestà il<hi rend="italic">jus gentium</hi> - il diritto che s'applicava nei rapporti tra cittadini romani e stranieri - le sottili distinzioni formali («un ornamento poetico») e un proverbiale luogo comune (<hi rend="italic">mess mandaa no porta penna</hi> nel milanese del Cherubini). La discussione accampa gli stessi argomenti discussi dai <hi rend="italic">Consigli cavallereschi </hi>del Birago, sicché le parole e le ragioni dei personaggi caratterizzano, oltre agli attanti, la mentalità e il costume, la liturgia culturale del Seicento. I testi del Birago e del Tasso si ritroveranno nella emblematica biblioteca di don Ferrante, che sapeva appunto a memoria tutti quei passi della <hi rend="italic">Liberata </hi> e della <hi rend="italic">Conquistata</hi> indispensabili e decisivi in materia di cavalleria.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n74" type="comm" target="quarantana/cap5.xml#c5_12464" targetEnd="quarantana/cap5.xml#c5_12465">
+          <ref rend="bold">le prime</ref>:  le più elementari regole della cavalleria.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n76" type="comm" target="quarantana/cap5.xml#c5_12336" targetEnd="quarantana/cap5.xml#c5_12540">
+          <ref rend="bold">il conte Attilio... molto garbata... il podestà... ragazzate</ref>:  da una parte la curiosità bizzara e beffarda dell'uomo di mondo, dall'altra la seriosità, l'insofferenza dell'uomo di legge convinto del suo argomentare «teorico».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n78" type="comm" target="quarantana/cap5.xml#c5_12575" targetEnd="quarantana/cap5.xml#c5_12595">
+          <ref rend="bold">Eh via... il mondo l'ha conosciuto</ref>:  la rozzezza di don Rodrigo non risparmia al frate un'indiscreta, forse provocatoria, allusione al suo passato «cavalleresco». Già i dialoghi «sule sfide» e «sulle bastonate» chiamano in causa, di sbieco, la sua storia di convertito, la sua esperienza mondana come dice sogghignando don Rodrigo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n80" type="comm" target="quarantana/cap5.xml#c5_12622" targetEnd="quarantana/cap5.xml#c5_12664">
+          <ref rend="bold">Ecco la storia... bastonate al portatore</ref>:  nella Dichiaratione del Birago si legge il «fatto» in termini pressoché analoghi...«Un cavaliere spagnolo manda una sfida ad un cavalier milanese, et il portatore gliela porta a casa, nella quale lui non trovato; ma un suo fratello senza dire altro gli dà la sfida, la quale da lui letta, diede poi molte bastonate al portatore». Sembrerebbe proprio che il narratore si sia limitato a correggere la «grammatica arbitraria» come prometteva l'<hi rend="italic">Introduzione</hi>, ma nel contesto del romanzo il caso esemplare diventa un elemento di caratterizzazione dialogica per il personaggio di don Rodrigo. La dialogizzazione crea una dialettica dall'esterno all'interno del personaggio sulla cui dinamica individualizzante il Manzoni spiegava...«..là dove la storia non dà che delle indicazioni, inventare, se occorre, dei personaggi per rappresentare i costumi conosciuti di un'epoca determinata, prendere infine tutto ciò che esiste e aggiungervi ciò che manca, ma in modo che l'invenzione si accordi con la realtà, e sia soltanto un mezzo di più per farla risaltare, ecco ciò che si può ragionevolmente dir creare»... (<hi rend="italic">Lettre à M. Chauvet</hi>).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n82" type="comm" target="quarantana/cap5.xml#c5_12724" targetEnd="quarantana/cap5.xml#c5_12753">
+          <ref rend="bold">se fossero stati pugni... le spalle d'un mascalzone</ref>:  anche la «cavalleria» del conte ha i suoi inderogabili principi secondo i quali i pugni avrebbero degradato chi li dava mentre il bastone, usato sulle spalle d'un plebeo, non sporcava le nobili mani del «cavalier milanese». Nel <hi rend="italic">Quentin Durward </hi>di W. Scott la questione si poneva invece tra il duca di Borgogna e il messaggero inviato dal Jabalì delle Ardenne...«Nessun araldo se ne andò giammai dalla corte di Borgogna senza una prova della mia liberalità. Che gli sia data dunque una buona dose di legnate sulla pelle delle spalle prima che si allontani». Ma Crève-Coeur e Hymbercout consigliavano...«Vostra Altezza si degni di riflettere che è un araldo, un uomo inviolabile».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n84" type="comm" target="quarantana/cap5.xml#c5_12779" targetEnd="quarantana/cap5.xml#c5_12780">
+          <ref rend="bold">del carattere</ref>:  delle qualità di ambasciatore, di portatore di sfida.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n86" type="comm" target="quarantana/cap5.xml#c5_12793" targetEnd="quarantana/cap5.xml#c5_12834">
+          <ref rend="bold">Mi dica... che un feciale... bastonato</ref>:  ai Feciali, collegio di sacerdoti istituito da Numa Pompilio, competevano i rapporti con i popoli stranieri; così ad esempio avevano il compito di intimare la guerra scagliando un giavellotto in territorio nemico. Il podestà, come uomo di toga, è interessato a ricondurre il caso di cavalleria ad un principio del diritto romano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n88" type="comm" target="quarantana/cap5.xml#c5_12841" targetEnd="quarantana/cap5.xml#c5_12857">
+          <ref rend="bold">gli ufiziali degli antichi... in queste cose... indietro</ref>:  il forbito ma ignorante conte Attilio fa tutt'uno fra Feciali e ufficiali; la sua è la tipica <hi rend="italic">equivocatio</hi> del genere comico. Egli esalta, secondo lo spirito secentesco, la modernità contro la tradizione classica sennonché la sua alterigia di casta antepone delle norme cavalleresche all'universalità del diritto romano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n90" type="comm" target="quarantana/cap5.xml#c5_12902" targetEnd="quarantana/cap5.xml#c5_12926">
+          <ref rend="bold">questo sillogismo... Percotere... ergo</ref>:  il procedimento sillogistico, tipico della logica aristotelica, era stato codificato dai trattatisti del Seicento. Data una premessa generale, detta maggiore («Percotere un disarmato è atto proditorio»), ed un elemento di fatto particolare, la premessa minore («ma il messo in questione era senz'arme»), se ne ricavava una conseguenza. Quella conclusione che il conte Attilio non consente al podestà di dedurre, interrompendolo mentre stava per sillogizzare...«quindi percuotere quel messo fu atto proditorio». <hi rend="italic">Atqui, de quo, ergo</hi>sono appunto i tre nessi logici del sillogismo scolastico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n92" type="comm" target="quarantana/cap5.xml#c5_12966" targetEnd="quarantana/cap5.xml#c5_12967">
+          <ref rend="bold">certi casi</ref>:  la casistica del conte, soprattutto nei confronti dei plebei o «mascalzoni», non conosce limiti di sorta; d'altronde l'assassinio con una schioppettata alle spalle era una delle «audaci scelleratezze» perpetrate nel Fermo dallo stesso Innominato o Conte del Sagrato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n94" type="comm" target="quarantana/cap5.xml#c5_12329" targetEnd="quarantana/cap5.xml#c5_13035">
+          <ref rend="bold">E lei... de sogghigni... con la sua buona tabella</ref>:  il cinismo del conte non esita a mettere in pubblico le tacite approvazioni di Azzecca-garbugli che non vuole compromettersi dichiarando contro il podestà le norme del suo codice, il suo elenco di regole (<hi rend="italic">tabella</hi> - spiega il Cherubini - è «il foglio su cui veggasi ridotto a compendio una materia qualunque...»).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n96" type="comm" target="quarantana/cap5.xml#c5_13064" targetEnd="quarantana/cap5.xml#c5_13067">
+          <ref rend="bold">guerra d'ingegni cosi graziosa</ref>:  il parassita, nonostante l'imbarazzo iniziale, riesce con un'ingegnosa metafora a non dar torto a nessuno dei contendenti; ma sono le sue stesse espressioni a denunciarne il servilismo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n98" type="comm" target="quarantana/cap5.xml#c5_13139" targetEnd="quarantana/cap5.xml#c5_13141">
+          <ref rend="bold">serietà mezzo canzonatoria</ref>:  è detto di don Rodrigo ma la prospettiva del personaggio viene a coincidere con quella del narratore, con una funzione - si direbbe - di secondo grado.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n100" type="comm" target="quarantana/cap5.xml#c5_13163" targetEnd="quarantana/cap5.xml#c5_13164">
+          <ref rend="bold">Scuse magre</ref>:  l'affinità sociale dei due cugini li associa in una comune e indiscreta familiarità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n102" type="comm" target="quarantana/cap5.xml#c5_10882" targetEnd="quarantana/cap5.xml#c5_13249">
+          <ref rend="bold">Lui?... dica... la sua carovana?</ref>:  è il mil. avé faa la soa garavanna, vale a dire «aver fatto il noviziato, aver preso pratica in chicchessia (Cherubini). Ma il noviziato di Lodovico sappiamo bene quale è stato. E padre Cristoforo - cui indirettamente don Rodrigo dà la patente beffarda di uomo navigato - intende benissimo l'allusione per lui «solo». Inoltre il giudizio che fra Cristoforo dovrebbe dare su <hi rend="italic">un punto di cavalleria</hi> appartiene a una logica completamente opposta all'atto di giustizia per cui è salito al palazzotto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n104" type="comm" target="quarantana/cap5.xml#c5_13453" targetEnd="quarantana/cap5.xml#c5_13347">
+          <ref rend="bold">Ma, padre... Senza bastonate... è impossibile</ref>:  per il fatuo e chiassoso difensore della cavalleria e del suo puntiglioso codice d'onore l'intero ordine sociale, nonché ogni valore etico, dipende dall'esercizio della violenza... quella del duello per i nobili, quella delle bastonate per i plebei. E a suo avviso ogni altra ipotesi è improbabile.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n106" type="comm" target="quarantana/cap5.xml#c5_13358" targetEnd="quarantana/cap5.xml#c5_13360">
+          <ref rend="bold">divertire la disputa</ref>:  distogliere dalla disputa il conte Attilio e il podestà.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n108" type="comm" target="quarantana/cap5.xml#c5_13390" targetEnd="quarantana/cap5.xml#c5_13484">
+          <ref rend="bold">in verità... il perfetto religioso e l'uomo di mondo... una sentenza</ref>:  di fatto Azzeccagarbugli prova che il grossolano apprezzamento di don Rodrigo - il padrone di casa gli ha rinfacciato di <hi rend="italic">dar ragione a tutti </hi>- ha un'efficace base argomentativa in un machiavelismo che sa distinguere, con scaltrezza professionale, due verità... una buona per il pulpito, l'altra per le dispute cavalleresche.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n110" type="comm" target="quarantana/cap5.xml#c5_13494" targetEnd="quarantana/cap5.xml#c5_13500">
+          <ref rend="bold">una sapienza cosi antica, e sempre nuova?</ref>:  l'intervento dell'autore denuncia ironicamente la presunta saggezza di quanti, come Azzecca-garbugli, subordinano la validità della legge morale agli ambienti o alle circostanze contingenti. Al proposito il Manzoni della <hi rend="italic">Morale cattolica</hi> afferma che l'etica può essere universale solo legandosi alla verità della religione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n112" type="comm" target="quarantana/cap5.xml#c5_13532" targetEnd="quarantana/cap5.xml#c5_13546">
+          <ref rend="bold">Il lettore sa... successione al ducato di Mantova</ref>:  la digressione storica, di fatto, informa l'ignaro lettore (il sa equivale a un «deve sapere») di questo marginale episodio della guerra dei Trent'anni affinché non resti sconcertato dalla nuova disputa tra il podestà e il conte Attilio. L'episodio indirettamente interesserà anche i personaggi del romanzo e sarà più minuziosamente ripreso con il CAP. XXVII.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n114" type="comm" target="quarantana/cap5.xml#c5_13982" targetEnd="quarantana/cap5.xml#c5_13986">
+          <ref rend="bold">il duca di Nevers</ref>:  come ricorda il Nardi siamo all'indomani di quel 17 gennaio 1628 che vide il duca di Nevers entrare in Mantova dove fece immediatamente saltare due chiese ed un convento per predisporre le difese contro un eventuale assedio degli Spagnoli.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n116" type="comm" target="quarantana/cap5.xml#c5_13572" targetEnd="quarantana/cap5.xml#c5_14029">
+          <ref rend="bold">Luigi XIII, ossia... Richelieu... Filippo IV, ossia... Olivares</ref>:  l'ironica esposizione, con il parallelismo che sostituisce ai due monarchi i loro onnipotenti ministri, deforma, descrivendola, tutta una politica di meschine questioni dinastiche e di capziosi raggiri tramati dai Consigli privati. Il cardinale di Richelieu (1585-1642) che guidò la politica francese per ben trentatré anni, cercò di contrastare la supremazia spagnola in Italia, una supremazia mantenuta - nonostante qualche insuccesso - dalle complesse trame del conte Olivares (1587-1645) duca di San Lucar, primo ministro «privato» di Spagna dal 1621 al 1643.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n118" type="comm" target="quarantana/cap5.xml#c5_13632" targetEnd="quarantana/cap5.xml#c5_13633">
+          <ref rend="bold">Ferdinando II</ref>:  d'Asburgo, re di Germania e Imperatore del Sacro Romano Impero dal 1619 al 1637.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n120" type="comm" target="quarantana/cap5.xml#c5_13681" targetEnd="quarantana/cap5.xml#c5_13716">
+          <ref rend="bold">Io, in questo cantuccio... informato d'ogni cosa</ref>:  il podestà è caratterizzato nella saccenteria del provinciale che, dopo aver finto falsa modestia, dal suo <hi rend="italic">cantuccio</hi> di Lecco, vanta importanti aderenze e pretende di saperla lunga. Pratica quindi la logica «nobilitante» dei rapporti sociali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n122" type="comm" target="quarantana/cap5.xml#c5_13708" targetEnd="quarantana/cap5.xml#c5_13709">
+          <ref rend="bold">un creato</ref>:  spagnolismo; da <hi rend="italic">criado</hi>, protetto, favorito.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n124" type="comm" target="quarantana/cap5.xml#c5_12935" targetEnd="quarantana/cap5.xml#c5_13748">
+          <ref rend="bold">Le dico... proposizioni</ref>:  con al sua albagia di nobile il conte Attilio non può né vuole accettare la competenza d'un funzionario; replica quindi lasciando intendere che attraverso le sue aderenze ecclesiastiche conosce le stesse proposte del Papa. Si tratta di quell'Urbano VIII di cui (nel CAP. XXVII) si leggerà... «..raccomandava il Nevers agli amici, intercedeva in suo favore presso gli avversari, faceva progetti d'accomodamento; di metter gente in campo non voleva saper nulla».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n126" type="comm" target="quarantana/cap5.xml#c5_13780" targetEnd="quarantana/cap5.xml#c5_13835">
+          <ref rend="bold">E, e, e; sa lei, signor mio... fidarsi... di Valdistano</ref>:  il conte si è del tutto spazientito e, dopo aver fatto il verso al suo interlocutore, chiama in causa l'affidabilità, la fedeltà dello stesso generalissimo degli eserciti imperiali. Il principe Albrecht von Wallenstein (1583-1634) fu nominato duca di Friedland nel 1624, dopo una serie di decisive vittorie; successivamente sottomise la Germania del nord e le isole baltiche. Nel 1628 cercò di dissuadere l'imperatore dal portare la guerra in Italia e la sua condotta incominciò a divenire sospetta; mirava di fatto a costituire un regno suo proprio e pertanto fu ucciso dagli emissari imperiali nel 1634. Le sue vicende erano note ai primi dell'Ottocento soprattutto per la trilogia drammatica <hi rend="italic">Wallenstein</hi> dedicatagli da Schiller.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n128" type="comm" target="quarantana/cap5.xml#c5_13906">
+          <ref rend="bold">disimbrogliato</ref>:  che ha sciolto al vento le vele; è il mil. <hi rend="italic">desimbrojà</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n130" type="comm" target="quarantana/cap5.xml#c5_13856" targetEnd="quarantana/cap5.xml#c5_14045">
+          <ref rend="bold">Vagliensteino... un Olivares... diranno i posteri</ref>:  nella sua naturale e incondizionata ammirazione per la Spagna il podestà storpia alla spagnola il nome del generalissimo e la stessa sorte serba al <hi rend="italic">Nivers</hi> e al <hi rend="italic">Riciliù</hi>. Con ironia maliziosa poi il narratore gli fa tessere un elogio sperticato a favore dell'Olivares - <hi rend="italic">quel gran politico che è</hi>- mentre i posteri, cui s'appella, sanno come la politica del «conte duca», nonostante certe velleità riformistiche, abbia registrato tutta una serie di fallimenti ed abbia coinciso con un periodo di aggravata decadenza. L'espressione «fissare il chiodo» risponde al mil. <hi rend="italic">pettàa el ciod</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n132" type="comm" target="quarantana/cap5.xml#c5_14100" targetEnd="quarantana/cap5.xml#c5_14158">
+          <ref rend="bold">è una volpe vecchia... i dispacci, non ne capiscon niente</ref>:  l'elogio alla furberia finisce in un'involontaria ammissione di totale indecifrabilità. L'ambiguità e la doppiezza - la decifrazione mancata - diventano confusione incomprensibile, non per gli avversari, ma per coloro che tali dispacci avrebbero dovuto mettere in esecuzione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n134" type="comm" target="quarantana/cap5.xml#c5_14185" targetEnd="quarantana/cap5.xml#c5_14250">
+          <ref rend="bold">sa appuntino cosa bolle... politiconi.. diritti assai... Riciliù tenta... suda</ref>:  nelle definizioni date dal podestà la politica diventa una prassi triviale, doppiezza di furboni (i <hi rend="italic">diritti</hi> del gergale lombardo) resa con un linguaggio che va verso il gesto espressivo e deforma grottescamente la parola destituendola d'ogni dignità etica («bolle in pentola», «tenta», «fiuta», «suda»), su calchi dialettali (<hi rend="italic">save' cassa buj in la pignatta; politegòn</hi>). Così nella lingua, nella varietà della parlata si riflette il principio della «pluralità intrinseca» al «reale finito» - per ripetere una proposizione attribuita dal Bonghi al Manzoni (cfr. <hi rend="italic">Le Stresiane</hi>, Brescia, Camunia, 1985, p. 69).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n136" type="comm" target="quarantana/cap5.xml#c5_14277" targetEnd="quarantana/cap5.xml#c5_14279">
+          <ref rend="bold">avrebbe preso terra</ref>:  conclude sull'immagine iniziale del «bastimento disimbrogliato», continuata poi nell'altro dettaglio «col vento in poppa» di r. 34; che hanno un equivalente mil. in <hi rend="italic">toccà terra</hi> e in <hi rend="italic">la ghe va in poppa</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n138" type="comm" target="quarantana/cap5.xml#c5_14455" targetEnd="quarantana/cap5.xml#c5_14473">
+          <ref rend="bold">navarrini... Enrico IV</ref>:  per i sostenitori della Spagna «navarrini» («i Navarin», s'incontra già nel <hi rend="italic">Falso filosofo</hi> del Maggi) equivaleva ad usurpatori, in quanto Enrico IV, re di Navarra nel 1572 e protettore degli Ugonotti, aveva sposato Margherita di Valois, sorella del re di Francia, ed era riuscito, abiurando nel 1594 il credo protestante, a far valere i suoi diritti ala successione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n140" type="comm" target="quarantana/cap5.xml#c5_14481">
+          <ref rend="bold">scongiuro</ref>:  letteralmente è l'esorcismo destinato a piegare la volontà del demonio. Qui sta per minacciosa sollecitazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n142" type="comm" target="quarantana/cap5.xml#c5_13393" targetEnd="quarantana/cap5.xml#c5_14537">
+          <ref rend="bold">il dottore... le labbra strette... un naso più vermiglio</ref>:  l'atteggiamento estatico e la precisione del dettaglio fisiognomico rendono grottesco l'entusiasmo del leguleio, il cui naso tutto rosso e lucente è già un tacito «elogio del vino»: già il Porta annotava...«...ecco ven don Vittor del nas scarlatt»; e «vermiglio» è appunto il mil. <hi rend="italic">ross scarlatt</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n144" type="comm" target="quarantana/cap5.xml#c5_12869" targetEnd="quarantana/cap5.xml#c5_14566">
+          <ref rend="bold">dico... e sentenzio... censui... sententiam</ref>:  alla formula usata dai giudici del tempo per dar lettura delle sentenze Azzecca-garbugli aggiunge la frase latina con cui i senatori romani si associavano alle deliberazioni dei colleghi...«Ho valutato, e approvo quell'opinione che afferma..». Dopo il <hi rend="italic">latinorum</hi> mistificatorio di don Abbondio, il leguleio teatralizza il latino, la lingua della sua cultura, lo degrada a conferire maggiore solennità al suo verdetto conviviale. Il suo è un parere-processo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n146" type="comm" target="quarantana/cap5.xml#c5_14599">
+          <ref rend="bold">Eliogabalo</ref>:  l'imperatore romano (218-222 d.C.) che praticava il culto orientale del dio Sole era figlio di Caracalla e famoso per al sua dissolutezza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n148" type="comm" target="quarantana/cap5.xml#c5_14602" targetEnd="quarantana/cap5.xml#c5_14618">
+          <ref rend="bold">la carestia è bandita... la splendidezza</ref>:  il tema era già stato accennato a proposito del lavoro di Renzo che diminuiva; Agnese aveva alluso ad un anno di scarsi prodotti; il quarto capitolo aveva tristemente presentato lo spettacolo doloroso dei mendicanti e dei contadini, della «fanciulla scarna» che sottraeva l'erba a una vaccherella «magra stecchita». Qui la sordità morale dei convitati, nella superficiale foga della discussione, riprende il tema della carestia per escluderne la reale esistenza e per imputarla agli incettatori e ai fornai.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n150" type="comm" target="quarantana/cap5.xml#c5_14703" targetEnd="quarantana/cap5.xml#c5_14744">
+          <ref rend="bold">De buoni processi... impiccarli</ref>:  il podestà, uomo di legge, li avrebbe impiccati dopo un buon processo, il conte è per una esecuzione sommaria, ancora più spiccia ed esemplare. Sono le alternative della violenza prepotente, sostituita alla giustizia, che minaccia più gli innocenti che non i colpevoli.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n152" type="comm" target="quarantana/cap5.xml#c5_14778">
+          <ref rend="bold">cantambanchi</ref>:  saltimbanchi. Nella prospettiva del narratore, guidata dall'occhio di fra Cristoforo, torna un'immagine da fiera paesana analoga a quella del «giocator di bussolotti» che nel campo prospettico di Renzo smascherava l'imbroglio legalizzato di Azzecca-garbugli.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n154" type="comm" target="quarantana/cap5.xml#c5_14852" targetEnd="quarantana/cap5.xml#c5_14855">
+          <ref rend="bold">ambrosia, e impiccarli</ref>:  le macabre proposte di impiccagione e l'iperbolica esaltazione d'un vino, degno d'essere eletto a vivanda divina, sono il grottesco <hi rend="italic">Leitmotiv</hi> della discussione conviviale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n156" type="comm" target="quarantana/cap5.xml#c5_11906" targetEnd="quarantana/cap5.xml#c5_14942">
+          <ref rend="bold">Don Rodrigo... occhiate... fatto di meno... liberarsene</ref>:  rispetto al tenace silenzio del frate, don Rodrigo rivela qualche segno di fastidio, quasi una larvata inquietudine; ma la sua politica era quella di spacciatasi per «amico» del convento e quindi dà udienza al postulante. Sintomatico è che il suo desiderio di liberatasi d'una <hi rend="italic">seccatura</hi> lo spinga ad affrontarla subito, proprio come capitava a don Abbondio di fronte ai bravi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap5-n158" type="comm" target="quarantana/cap5.xml#c5_14962" targetEnd="quarantana/cap5.xml#c5_14985">
+          <ref rend="bold">in atto contegnoso... in un'altra sala</ref>:  la chiusa muta il registro narrativo che dalla divertita e ironica mimesi dialogica trapassa - con un netto salto di tono - ad un'ultima sequenza diegetica e crea, con il sussiego e la deferenza formale del signorotto, la tensione drammatica del colloquio imminente.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

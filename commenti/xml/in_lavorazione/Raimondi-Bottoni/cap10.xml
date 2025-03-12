@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-06">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap10">
+        <note xml:id="Raimondi-Bottoni_cap10-n1" type="comm" target="quarantana/cap10.xml#c10_10001" targetEnd="quarantana/cap10.xml#c10_10031">
+          <ref rend="bold">Vi son de' momenti... apparenza di bene e di sacrifizio</ref>:  la pausa riflessiva del grande attacco tematico segna il punto cruciale nella vicenda di Gertrude; il punto di crisi in cui alla minima richiesta («ogni poco d'istanza») l'animo accetta la prospettiva del sacrificio. Si noti il presente dell'enunciato... come in altri casi non è un presente narrativo, ma analitico, di valore gnomico generale perché si riferisce a un comportamento umano che non muta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n3" type="comm" target="quarantana/cap10.xml#c10_10032" targetEnd="quarantana/cap10.xml#c10_10055">
+          <ref rend="bold">come un fiore... che gli aliti punto d'intorno</ref>:  l'immagine topica del fiore dal «fragile stelo» coglie il processo misterioso degli slanci, dei cedimenti, della disponibilità giovanile nella dialettica vitale delle sensazioni inesplorate; ma insieme viene maliziosamente straniata dal riscontro di tanta improvvisa disponibilità a cedere la propria fragranza «alla prim'aria» che appena «gli aliti» intorno.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n5" type="comm" target="quarantana/cap10.xml#c10_10094" targetEnd="quarantana/cap10.xml#c10_10123">
+          <ref rend="bold">vide subito lo spiraglio... batter il ferro... caldo</ref>:  all'arrendevolezza della figlia fa da contrapposto la dura determinazione («antiche e costanti mire») del padre, nella grezza brutalità della metafora «batter ferro». L'immagine sembra come schiacciare quella lirica del fiore con il suo realismo pragmatico, d'uso corrente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n7" type="comm" target="quarantana/cap10.xml#c10_10147" targetEnd="quarantana/cap10.xml#c10_10193">
+          <ref rend="bold">perdono!... bisognava meritarlo</ref>:  la lettera al paggio era stata un atto di sconsiderata debolezza che aveva degradato soprattutto l'orgoglio sociale di Gertrude, ma l'ipocrisia del padre nasconde la violenza sotto la maschera della «dissimulazione» moralistica e obliqua. E qui la voce narrativa rende esplicito il conflitto, la divergenza funzionale tra principe e padre. Tra poco lo stesso personaggio distinguerà, nella sfera del padre, tra «severo» e «amoroso».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n9" type="comm" target="quarantana/cap10.xml#c10_10225" targetEnd="quarantana/cap10.xml#c10_10247">
+          <ref rend="bold">parlare a lungo del fallo... una mano ruvida sur una ferita</ref>:  nella prospettiva del perdono il padre, di fatto, esercita il potere d'infierire sadicamente («a lungo») sulla figlia; ne fa la vittima d'un sacrificio cui ha dato «un'apparenza di bene». Si noti la sensazione acutissima del «frizzare».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n11" type="comm" target="quarantana/cap10.xml#c10_10252" targetEnd="quarantana/cap10.xml#c10_10299">
+          <ref rend="bold">caso mai... qualche intenzione... onore... regalare... saggio di sè</ref>:  la forma indiretta e le sospensioni rendono abilmente il tono allusivo, la logica perfida,la menzognera intenzionalità del discorso. La scrittura diegetica si avvicina a quella mimetica, trascrive le stesse parole con cui il principe accenna da una precisa possibilità d'accasare la figlia («collocarla nel secolo»)... solo per rinfacciarle tra sarcasmo e eufemismi la sconvenienza di «regalare» ad un gentiluomo una «signorina» compromessa con un paggio (cfr. le espressioni <hi rend="italic">logà una tosa, vess al secol</hi>).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n13" type="comm" target="quarantana/cap10.xml#c10_10355" targetEnd="quarantana/cap10.xml#c10_10358">
+          <ref rend="bold">la vita del secolo</ref>:  la vita mondana. Le parole interessate del principe giocano allusivamente ma inflessibilmente sulla contrapposizione «secolo»/religione, vita mondana/vita monastica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n15" type="comm" target="quarantana/cap10.xml#c10_10391">
+          <ref rend="bold">incontanente</ref>:  subito, immediatamente. L'espressione sostenuta e aulica (da <hi rend="italic">in continenti tempore</hi>) s'intona al calcolato e burocratico opportunismo del genitore che approfitta del «sì» generico della figlia, per costringerla all'ultimo passo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n17" type="comm" target="quarantana/cap10.xml#c10_10404" targetEnd="quarantana/cap10.xml#c10_10782">
+          <ref rend="bold">Avete preso... di buona voglia... la principessa e il principino subito</ref>:  alla cautela iniziale subentra la rapidità, a le accuse avvilenti la subitanea ma voluta trasformazione del <hi rend="italic">padre severo</hi> in <hi rend="italic">padre amoroso</hi>. Sono le metamorfosi della politica domestica nell'ostentato rispetto formale delle convenzioni di casta. Il principe non può ragionare in altro modo, e la stessa mala fede diventa, nella sua ottica, un atto d'amore in aiuto a chi ha sbagliato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n19" type="comm" target="quarantana/cap10.xml#c10_10540" targetEnd="quarantana/cap10.xml#c10_10578">
+          <ref rend="bold">cercava... ristringerne il senso... gioia cosi gelosa... turbarle menomamente</ref>:  la lotta fra il padre tiranno che sposta il ricatto sul piano affettivo e la figlia incauta che cerca di restringere «il senso» della propria compromissione non è cessata. Si è solo spostata nel segno della prevaricazione occulta, della «benignità» più insidiosa che non la violenza palese. E spettatori ora sono «i due chiamati», cioè la principessa e il principino; ma «chiamati», che è un altro esempio di participio o aggettivo sostantivato, dichiara la funzione dei due personaggi, ridotti a testimoni dell'evento pilotato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n21" type="comm" target="quarantana/cap10.xml#c10_10626" targetEnd="quarantana/cap10.xml#c10_10686">
+          <ref rend="bold">ecco... la pecora smarrita... che è risoluta... il velo</ref>:  nelle parole dirette del principe, la logica evangelica del perdono, con la parabola del Buon pastore, ha un suono di sinistra eloquenza. Ma il personaggio mentre recita la sua parte crede anche a quanto dice. Il vangelo di Cristo si trasforma in un vangelo personale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n23" type="comm" target="quarantana/cap10.xml#c10_10715" targetEnd="quarantana/cap10.xml#c10_13012">
+          <ref rend="bold">lacrime... interpretate... di consolazione</ref>:  la simulazione, l'inganno, la violenza, si sono spostati a livello di «interpretazione». Il «senso» che conta non è più quello confuso di Gertrude, ma quello, desiderato e pattuito, della famiglia. Ricordiamo ancora le parole del Borsieri a proposito del «carattere d'Eugenia»... «costei s'era formato un tal misto d'idee claustrali e d'idee mondane, che la sua povera testa era veramente un piccolo caos» («Il Conciliatore», 4 aprile 1819).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n25" type="comm" target="quarantana/cap10.xml#c10_10792" targetEnd="quarantana/cap10.xml#c10_10796">
+          <ref rend="bold">come dominata da un sogno</ref>:  di fronte alle «congratulazioni» familiari, orchestrate dal «padre amoroso», la passività di Gertrude fa pensare a un sogno, a una sorta di impotente lucidità onirica. Essa si vede come in un teatro di incubo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n27" type="comm" target="quarantana/cap10.xml#c10_10884" targetEnd="quarantana/cap10.xml#c10_10934">
+          <ref rend="bold">Domani... ha stabilito... domani... per l'esame</ref>:  così i deboli tentativi di dilazione da parte di Gertrude (ma <hi rend="italic">fiacca</hi> insieme con la voce raffigura anche la volontà) sono trasformati in inesorabili vincoli formali dall'«interpretazione» paterna, che manipola con strategia sofistica le sue decisioni apparenti per comprometterla pubblicamente. Nella <hi rend="italic">Morale cattolica</hi> si legge che il linguaggio può essere «lo strumento di una astuta dominazione». E il principe è un maestro d'eloquenza, dal tono solenne a quelo discorsivo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n29" type="comm" target="quarantana/cap10.xml#c10_11040" targetEnd="quarantana/cap10.xml#c10_11058">
+          <ref rend="bold">fu condotta nel gabinetto... pettinata... cameriera</ref>:  anche le concessioni alla vanità, il privilegio d'essere accolta nelle stanze private della madre, fanno parte di quel meccanismo («macchina») che travolge a precipizio Gertrude, in un incastro di pezzi che non falliscono, dalla pettinatura agli inchini.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n31" type="comm" target="quarantana/cap10.xml#c10_11108" targetEnd="quarantana/cap10.xml#c10_11116">
+          <ref rend="bold">felici avvenimenti... salute. spiegata vocazione</ref>:  l'apparente oggettività narrativa affida agli aggettivi e ia participi l'amara ironia di una situazione ove al «sposina» è felicemente festeggiata per una salute che non aveva mai perso e per una vocazione più estorta che professata (<hi rend="italic">spiegata</hi> vuol dire «resa esplicita», quasi chiarita in ogni sua parte). Il punto di vista dell'enunciazione appartiene, naturalmente, al principe di cui al famiglia è una docile copia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n33" type="comm" target="quarantana/cap10.xml#c10_11199" targetEnd="quarantana/cap10.xml#c10_11233">
+          <ref rend="bold">un solito giro... alla strada Marina... giornata</ref>:  anche se manca ogni segnale del narratore, è ai lettori milanesi che sembra ammiccare la precisione topografica di questo «solito giro», che vedeva il corso delle carrozze sfilare dal Castello Sforzesco verso i giardini pubblici di porta Orientale e poi per i Boschetti di strada Marina; qui il passeggio elegante - celebrato dal <hi rend="italic">Giorno</hi> pariniano - sostava per la conversazione, dopo «l'ora della trottata». Come attesta il Cherubini era il <hi rend="italic">Córs</hi> per eccellenza, con la <hi rend="italic">Corsia del Giardin</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n35" type="comm" target="quarantana/cap10.xml#c10_11290" targetEnd="quarantana/cap10.xml#c10_11321">
+          <ref rend="bold">ah furbetta!... noi poveri mondani... paradiso in carrozza</ref>:  il dialogo «pariniano» del signore che si ricrea mondanamente «delle fatiche della giornata» impone ala vittima, costretta alla rinuncia del mondo, le «corbellerie» crudeli del suo discorsetto di circostanza con il gioco crudele di «furbetta», «dirittona». Più avanti - al centro della festa - la «Sposina» is rivelerà in drammatica progressione semantica «l'idolo, il trastullo, la vittima» del grande apparato mondano... il suo «paradiso in carrozza» ha già qualcosa dell'inferno. L'espressione idiomatica (<hi rend="italic">andà in paradis in caroccia</hi>) tornerà nella sfera discorsiva di don Abbondio (CAP. XXIII, г. 404).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n37" type="comm" target="quarantana/cap10.xml#c10_11368" targetEnd="quarantana/cap10.xml#c10_11372">
+          <ref rend="bold">l'idolo, il trastullo, la vittima</ref>:  la scrittura arresta il racconto su una spietata gradazione ascendente. Ad un'analoga complicità collettiva il Maggi dava voce ironico-sarcastica... « -Poverinna, la va / A sarass in dù mur finché la moeur! / N'hala mò da slargass on pò 'l sò Coeur? - / Se tira sù l'incaster, / Cors, Comedij, Festin, / E inscì allegrarnent la ved, la sent, / Tut memorij devott da portà dent» («- Poverina, va a serrarsi tra due muri fino alla morte! non ha mo' da allargarsi un po' il cuore? - Si tira su la saracinesca... corsi, commedie, veglie, e così la giovane vede e sente tante memorie devote da portare là dentro»; <hi rend="italic">I Consigli di Meneghin</hi>, vv. 56-62).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n39" type="comm" target="quarantana/cap10.xml#c10_11408" targetEnd="quarantana/cap10.xml#c10_11410">
+          <ref rend="bold">con gran sapore</ref>:  «Con un discorsetto ben condito, con un parlare così saporato, da renderle accetta la nuova condizione» (Barbi). Ma si noti il <hi rend="italic">gran</hi> che lega «sapore» a «figura». È il gusto, come sempre, dell'ostentazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n41" type="comm" target="quarantana/cap10.xml#c10_11438" targetEnd="quarantana/cap10.xml#c10_11439">
+          <ref rend="bold">certo rimorso</ref>:  la ripetizione con il successivo «senza rimorso» rivela il cinismo meccanico di una complicità collettiva.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n43" type="comm" target="quarantana/cap10.xml#c10_11503" targetEnd="quarantana/cap10.xml#c10_11507">
+          <ref rend="bold">a far la prima figura</ref>:  ad essere la figura più importante (mil. <hi rend="italic">far la prima figura</hi>), la protagonista nel monastero. Si ritorna alla tattica dell'orgoglio lusingato, del «decoro» familiare. Il prestigio funge tanto da maschera quanto da risarcimento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n45" type="comm" target="quarantana/cap10.xml#c10_11571" targetEnd="quarantana/cap10.xml#c10_13703">
+          <ref rend="bold">approfittare dell'auge... una delle passioni. ripugnanza... maniere</ref>:  al condizione favorevole di sentirsi «in auge», cioè in alto, scatena nella vittima il desiderio di rivalsa, la volontà d'una piccola e insulsa vendetta, conforme però alla logica del punto d'onore. Gertrude è schiava del sistema anche in questo, complice dello stile che la vuole infelice.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n47" type="comm" target="quarantana/cap10.xml#c10_11625" targetEnd="quarantana/cap10.xml#c10_11681">
+          <ref rend="bold">chi è lei, e chi siete voi... soddisfazione... poco sugo</ref>:  mentre il padre le offre la riprova dell'orgoglio e del potere di casta, Gertrude scopre presto che la soddisfazione, a compenso delle umiliazioni subite, le torna di «poco sugo»... è un desiderio già deluso.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n49" type="comm" target="quarantana/cap10.xml#c10_11778" targetEnd="quarantana/cap10.xml#c10_11782">
+          <ref rend="bold">riposte tutte le sue compiacenze</ref>:  la solennità biblica dell'espressione getta un colore ironico su questa vecchia governante che si esalta nella gloria del casato, ancora secondo una specularità del rapporto servo/padrone. Ma la «donna» è una figurina viva, come tutti i personaggi di queste scene, dove i profili vengono singolarizzati in forme pittoresche dalle funzioni dell'ordine sociale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n51" type="comm" target="quarantana/cap10.xml#c10_11809">
+          <ref rend="bold">succiarsi</ref>:  quasi che i complimenti e tutto il resto fossero mielosi, pieni di «sapore». È una sensazione diretta di sapidità e di fastidio. Il verbo ha la forza espressiva del succiar dialettale che - per il Cherubini - vale «sorbire, inghiottire, sopportare».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n53" type="comm" target="quarantana/cap10.xml#c10_11819" targetEnd="quarantana/cap10.xml#c10_11911">
+          <ref rend="bold">sentir parlare... perchè... uno zampino di fuori... gran signorona... in moto</ref>:  pur nei modi indiretti della diegesi il narratore concerta le diverse voci dei personaggi. I termini <hi rend="italic">zampino</hi>, <hi rend="italic">signorona</hi>, l'anacoluto («cose che... non c'eran potute arrivare») appartengono espressivamente alla sfera verbale della vecchia, che in due periodi evoca le glorie passate e future del casato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n55" type="comm" target="quarantana/cap10.xml#c10_11940" targetEnd="quarantana/cap10.xml#c10_11970">
+          <ref rend="bold">Il sonno... torbido... sogni penosi... Monza</ref>:  nella dimensione notturna del romanzo ogni personaggio ha i suoi sogni e i suoi risvegli che si caricano della tensione psicologica e del senso oscuro degli eventi. Anche in questo Gertrude prefigura, al polo negativo dell'universo femminile, il risveglio di Lucia nel castello dell'Innominato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n57" type="comm" target="quarantana/cap10.xml#c10_11884" targetEnd="quarantana/cap10.xml#c10_12122">
+          <ref rend="bold">Il signor principino... diavoletto... strepita... un giorno... sarà lui... incantata?</ref>:  nella sua ammirata tenerezza per l'erede iracondo - il beneficiario del maggiorasco - la governante riproduce in proporzioni servili la mentalità padronale della casa e vede Gertrude con l'occhio del «signor principe». Di suo aggiunge solo il gusto della chiacchiera, la parlata confidenziale e idiomatica, così manifesta in «incantata» e «cuccia».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n59" type="comm" target="quarantana/cap10.xml#c10_12137" targetEnd="quarantana/cap10.xml#c10_12156">
+          <ref rend="bold">pensieri... come uno stormo di passere.... nibbio</ref>:  la similitudine ristabilisce indirettamente, attraverso la semantica delle immagini, il reale rapporto fra la dura rapacità dei familiari e il timore istintivo della vittima indifesa. <hi rend="italic">Nibbio</hi> sarà poi il nome del bravo che rapisce Lucia e che la vede «pulcino bagnato».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n61" type="comm" target="quarantana/cap10.xml#c10_12190" targetEnd="quarantana/cap10.xml#c10_12209">
+          <ref rend="bold">chicchera di cioccolata... veste virile</ref>:  l'equazione tra la cioccolata (<hi rend="italic">on cicolatt</hi> è al chicchera di cioccolata, spiega il Cherubini) e la veste virile - che i Romani assumevano a diciassette anni come segno d'emancipazione - ha la funzione «didascalica» di sollecitare l'intelligenza del lettore da una complicità riflessiva e canzonatoria, ad un giudizio sulla cerimonia che è una sorta d'iniziazione, di passaggio alla maturità. Anche il Parini prescriveva al suo «giovin signore» di bere «il brun cioccolato». Nel Seicento la «cioccolata» non era ancora giunta in Europa, e quindi rappresenta nel romanzo un anacronismo di anticipazione («Al tempo d'Elvia non su' sava ancora / di far tanto sciupio di cioccolatte», <hi rend="italic">Il Cicerone</hi>, I, XIV, 74). La verità storica vien sacrificata, insomma, alla bizzarria letteraria di combinare insieme cioccolata e toga virile.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n63" type="comm" target="quarantana/cap10.xml#c10_12320" targetEnd="quarantana/cap10.xml#c10_12322">
+          <ref rend="bold">la pura verità</ref>:  formalmente il principe osserva sempre una certa correttezza, di personaggio che interpreta sino in fondo la propria parte pubblica. E parole come «prima figura», «solenne comparsa», «dignità», «disinvoltura», «formalità» sottolineano proprio questa sua etica teatrale, come forma di vita.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n65" type="comm" target="quarantana/cap10.xml#c10_12346" targetEnd="quarantana/cap10.xml#c10_14178">
+          <ref rend="bold">Quelle buone madri... un segreto... di che sangue uscite... voi</ref>:  il principe, prevedendo le esitazioni della figlia, calcola come sempre il suo discorso dosando l'ipocrisia, la violenza del segreto, l'orgoglio del «sangue». Il monito dietro le quinte, prima che si apra la scena, finisce col diventare una lezione di recitazione, con Gertrude <hi rend="italic">manierosa</hi> (cioè cortese, affabile) e <hi rend="italic">modesta</hi>, ma conscia, nel reale, di non avere nessuno <hi rend="italic">sopra</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n67" type="comm" target="quarantana/cap10.xml#c10_12488" targetEnd="quarantana/cap10.xml#c10_12501">
+          <ref rend="bold">non so quali signori... non so qual complimento</ref>:  i notabili del luogo e i magistrati che rendono il dovuto omaggio al feudatario. L'informazione viene subito deformata dal doppio «non so quale», che può anche rappresentare la prospettiva sfocata di Gertrude.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n69" type="comm" target="quarantana/cap10.xml#c10_12548" targetEnd="quarantana/cap10.xml#c10_12550">
+          <ref rend="bold">ale di popolo</ref>:  «ale» è la forma della tradizione letteraria, in luogo del comune «ali».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n71" type="comm" target="quarantana/cap10.xml#c10_12602" targetEnd="quarantana/cap10.xml#c10_12618">
+          <ref rend="bold">E quegli occhi... redini invisibili</ref>:  nonostante la paura, la figlia è costretta a cercare lo sguardo del padre, quasi vittima d'una suggestione tirannica, d'un plagio misterioso, come da padrone ad animale docile per forza. Si ricorderà invece come gli occhi <hi rend="italic">incavati</hi> di fra Cristoforo - nella loro espressività volitiva - evocassero il fervore di due cavalli bizzarri «condotti a mano da un cocchiere».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n73" type="comm" target="quarantana/cap10.xml#c10_12642" targetEnd="quarantana/cap10.xml#c10_12714">
+          <ref rend="bold">Nella prima fila, la badessa... luccicare... occhietti... qualche cosa</ref>:  l'apparato scenografico, l'ordine gerarchico del convento, è reso festoso soprattutto dall'insubordinata destrezza dell'infanzia.. «fra tanto ossequio e tanto rispetto delle convenzioni la curiosità delle educande, è il solo segno di schietta vitalità» (Bonora). Commedia e cerimonia si sostengono a vicenda.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n75" type="comm" target="quarantana/cap10.xml#c10_12750" targetEnd="quarantana/cap10.xml#c10_12758">
+          <ref rend="bold">con una maniera tra il giulivo e il solenne</ref>:  la badessa recita il proprio ruolo sulle stesse tonalità complementari previste e raccomandate a Gertrude (dignità e disinvoltura) dalla navigata esperienza del principe.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n77" type="comm" target="quarantana/cap10.xml#c10_10316" targetEnd="quarantana/cap10.xml#c10_12808">
+          <ref rend="bold">le parole... del suo destino... esitò... occhi fisi... davanti</ref>:  la drammaticità della scena che decide «quasi irrevocabilmente» della vita di Gertrude è affidata alla fissità d'uno sguardo esitante estraneo a quanto accade; solo un altro sguardo «di compassione e di malizia» sembra risvegliarlo, con la sua dissonanza espressiva, dagli automatismi di soggezione cui la ricondurrà la <hi rend="italic">cupa</hi> inquietudine del padre. Nello sguardo si consuma dunque lo sterile conflitto di una coscienza già vinta, la cui risoluzione proviene dalla paura, dalla «fuga dinanzi un oggetto terribile».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n79" type="comm" target="quarantana/cap10.xml#c10_12936" targetEnd="quarantana/cap10.xml#c10_13436">
+          <ref rend="bold">La badessa rispose subito... licenza de superiori... richiesta</ref>:  la prontezza della risposta nella sua convenzionalità cerimoniosa dice che si tratta d'una «formalità» preparata e consueta, proprio come aveva anticipato il principe, le cui parole «educata così amorevolmente» sono anche quelle di Gertrude («allevata così amorevolmente»). Più minuzioso e archeologico il <hi rend="italic">Fermo</hi> precisava con scrupolo antiquario che la badessa s'era imparata a memoria una risposta nello stile dei «celebri romanzi del Pasta», il secentesco autore d'un dimenticato <hi rend="italic">Dernando overo il Principe sofferente</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n81" type="comm" target="quarantana/cap10.xml#c10_13030">
+          <ref rend="bold">guantiere</ref>:  vassoi; il mil. cabaré - spiega il Cherubini - il «baciletto su cui si posano le chicchere del caffé, della cioccolata o altro».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n83" type="comm" target="quarantana/cap10.xml#c10_10808" targetEnd="quarantana/cap10.xml#c10_13136">
+          <ref rend="bold">la badessa... accompagnata da due anziane... formalità... scomunica</ref>:  è l'ultima formalità della cerimonia, eseguita con imbarazzo e reticenza rispetto ai discorsi precedenti di festevole e ossequioso compiacimento. Il formalismo del feudatario e della badessa sanziona così la prevaricazione esercitata su Gertrude, vittima d'una «ragione di famiglia» e di un pregiudizio di casta che nel fatto neppure le disposizioni ecclesiastiche riuscivano da evitare. Anche la «scomunica» si riduce qui a un gesto di rito, a un avvertimento scontato. Le pause dell'enunciato sembrano a un tempo un segno di imbarazzo e di liturgia prescritta dal codice ecclesiastico-mondano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n85" type="comm" target="quarantana/cap10.xml#c10_13139" targetEnd="quarantana/cap10.xml#c10_17379">
+          <ref rend="bold">Benissimo... Ma lei non può dubitare... per obbligo preciso... del resto</ref>:  la madre badessa sa di aver favorito l'operazione con la certezza che di fronte a qualsiasi ostacolo sarebbe intervenuto il feudatario; ma, viso a viso, quando non basta più il gioco indiretto delle maschere la situazione pesa ad entrambi. Storicamente, le poche parole <hi rend="italic">barattate</hi> in fretta e con reciproca circospezione, al modo di una merce, coprono i presupposti economici d'una vicenda familiare che vide don Martino de Leyva sottrarre, con la monacazione della figlia, due terzi dell'eredità lasciata dalla moglie per trasferirli al «principino», al figlio di seconde nozze. Il principe è un <hi rend="italic">exemplum</hi> di «morale utilitaristica»; nel <hi rend="italic">Fermo</hi> gli si attribuisce la convinzione che «senza l'interesse l'uomo non si determina a nulla in questo mondo».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n87" type="comm" target="quarantana/cap10.xml#c10_13339" targetEnd="quarantana/cap10.xml#c10_13377">
+          <ref rend="bold">un'occhiata... alla sfuggita... bella cosa... contenta</ref>:  la sudditanza psicologica di fronte alla presenza paterna passa ancora attraverso lo sguardo furtivo della giovane figlia, nella sua femminile soggezione a ogni <hi rend="italic">vestigio</hi>, cioè traccia di collera. Gertrude sperimenta su di sé la «moralità autoritaria» che è «tipica», dice il Rawls, del «bambino», ma poichè non si sente amata dai genitori né li ammira, non subordina questa moralità che le viene imposta dalla famiglia ai «principi di giusto e giustizia» senza di cui ogni «vincolo» risulta ingiustificato (p. 382).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n89" type="comm" target="quarantana/cap10.xml#c10_13381" targetEnd="quarantana/cap10.xml#c10_13383">
+          <ref rend="bold">rivestirsi e rilisciarsi</ref>:  ravviarsi imbellettandosi. Il succedersi frenetico degli impegni mondani (reso dalla iterazione del <hi rend="italic">poi</hi> in costrutto nominale) si accumula sulla «sposina» come a schiacciarla. L'enumerazione ha la brutalità del movimento meccanico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n91" type="comm" target="quarantana/cap10.xml#c10_13438">
+          <ref rend="bold">entratura</ref>:  è voce toscana, che forse implica pure, nel contesto, una sfumatura di familiarità signorile. Così i <hi rend="italic">contorni</hi> sono, come sempre, i dintorni.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n93" type="comm" target="quarantana/cap10.xml#c10_13483" targetEnd="quarantana/cap10.xml#c10_13485">
+          <ref rend="bold">davano un calcio</ref>:  la stessa disinvolta espressione dello zio «mondano» («voi date un calcio a tutte queste corbellerie», il mil. <hi rend="italic">cascià-via i bolgir</hi>) ritorna carica di amara ironia. La voce narrativa contiene, dunque, la parlata di un attore dell'evento narrato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n95" type="comm" target="quarantana/cap10.xml#c10_13503" targetEnd="quarantana/cap10.xml#c10_13504">
+          <ref rend="bold">formalità dell'esame</ref>:  l'espressione del padre ribadisce che l'atto non ha alcuna importanza dando per scontato che la decisione «fatale» è già stata presa. È una decisione fatta anche di desiderio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n97" type="comm" target="quarantana/cap10.xml#c10_13511" targetEnd="quarantana/cap10.xml#c10_13512">
+          <ref rend="bold">in capitolo</ref>:  l'assemblea generale delle monache che decideva su tutte le questioni importanti - e di interesse comune - nella vita del convento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n99" type="comm" target="quarantana/cap10.xml#c10_13630" targetEnd="quarantana/cap10.xml#c10_13631">
+          <ref rend="bold">scegliete voi</ref>:  la solita tecnica del coinvolgimento, dell'orgoglio blandito e della compromissione affettiva. Ma gli imperativi veri si nascondono nella frase precedente del giudizio e della «assennatezza» dove «ha» significa in fondo «deve avere, guai a lei».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n101" type="comm" target="quarantana/cap10.xml#c10_13714">
+          <ref rend="bold">contraffanno</ref>:  il verbo suggerisce l'idea della simulazione, dell'affettuosità travestita, da gente avvezza alla finzione dei sentimenti.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n103" type="comm" target="quarantana/cap10.xml#c10_13736" targetEnd="quarantana/cap10.xml#c10_13739">
+          <ref rend="bold">il giocator di bussolotti</ref>:  la scena in similitudine del prestigiatore dipinge l'astuzia del principe in termini di commedia; nel terzo capitolo illuminava il contesto falsamente carnevalesco delle disavventure di Renzo attraverso il suo ingenuo stupore di fronte ai prodigi esegetici di Azzecca-garbugli.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n105" type="comm" target="quarantana/cap10.xml#c10_13820" targetEnd="quarantana/cap10.xml#c10_13823">
+          <ref rend="bold">per farlo suo genero</ref>:  affiora la motivazione economica, la convenienza mascherata delle maniere, tra la volgarità degli «occhi addosso», il rispetto familiare di «principino» e la confidenza mondana, compiaciuta e disinvolta, di «quella cara Gertrude».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n107" type="comm" target="quarantana/cap10.xml#c10_13945" targetEnd="quarantana/cap10.xml#c10_13946">
+          <ref rend="bold">Quel'uomo dabbene</ref>:  la formula ricorda «on prett dabben» del Porta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n109" type="comm" target="quarantana/cap10.xml#c10_14052" targetEnd="quarantana/cap10.xml#c10_14098">
+          <ref rend="bold">In questo caso... partiti dolorosi... o lasciar... svelare... risoluzione e</ref>:  riprospettando le circostanze della situazione, il principe, che da consumato diplomatico non sottovaluta le formalità delle norme canoniche, fa scattare con la forza del dilemma l'ultimo ricatto emotivo della sua trappola logica. Il suo è stato un abile concerto retorico, su vari registri d'affetto... «coronar l'opera, pentimentuccio, grilli di gioventù, ragazzate, guaio, sulla corda, il perchè e il come, onore, leggerezza, risoluzione».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n111" type="comm" target="quarantana/cap10.xml#c10_10369" targetEnd="quarantana/cap10.xml#c10_14123">
+          <ref rend="bold">Gertrude... scarlatta... come le foglie d'un fiore, nell'afa</ref>:  schiacciata fra la subdola prepotenza e la condiscendenza untuosa del padre, l'arrendevolezza trepida di Gertrude si rispecchia poeticamente nell'immagine del fiore indifeso che si contrae all'avvicinarsi della tempesta. La similitudine rimanda all'<hi rend="italic">incipit</hi> tematico del capitolo, al motivo del fiore appena sbocciato «pronto a concedere le sue fragranze». L'immagine nella sua figuratività interiorizzata (<hi rend="italic">afa</hi> è già umano) fa scattare la dialettica di sguardo e pensiero all'interno della scrittura narrativa... vi corrisponde subito, con un senso più profondo, l'«aria serena» del principe.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n113" type="comm" target="quarantana/cap10.xml#c10_14259" targetEnd="quarantana/cap10.xml#c10_14354">
+          <ref rend="bold">L'uomo dabbene... diffidenza... ma... persona autorevole... ascolta</ref>:  il narratore riprende per la terza volta l'espressione di gusto setecentesco (ma il milanese replicava con un equivoco l'<hi rend="italic">omm de ben</hi>, il religioso), già usata dal principe, per indicare il vicario delle monache e l'alterna poi con il buon prete. Le qualificazioni ritornano con insistenza antifrastica sino ala dichiarazione scoperta che il vicario esamina Gertrude «più per adempiere interamente il suo obbligo, che per la persuasione che ce ne fosse bisogno», e che «fu prima stanco d'interrogare, che la sventurata di mentire». Questo difetto d'accertamento, questo procedere fiducioso e corrivo, nonostante la «diffidenza» imposta dall'ufficio, è commentato a voce alta e desolata dal moralismo del <hi rend="italic">Fermo</hi>... «avrebbe dovuto sospenderlo fino a tanto che da un attento esame egli avesse potuto formarlo, buono o tristo, ma con quella maggior certezza che è data a quello strumento guasto che si chiama ragione umana». Ma è Gertrude, in fondo, che come vittima sopraffatta completa l'inganno cominciato con le «parole affermative» del padre. L'<hi rend="italic">opinione</hi> del vicario equivale a sua volta a una «preoccupazione», ossia a un giudizio precostituito, incapace di riconoscere nelle parole di chi ha di fronte il segno di altre, e più atroci, «preoccupazioni».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n115" type="comm" target="quarantana/cap10.xml#c10_14367" targetEnd="quarantana/cap10.xml#c10_14369">
+          <ref rend="bold">parte del diavolo</ref>:  è il mil. <hi rend="italic">fà al part del diavol</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n117" type="comm" target="quarantana/cap10.xml#c10_14424" targetEnd="quarantana/cap10.xml#c10_16225">
+          <ref rend="bold">Sente lei... libera... risoluzione... monaca?</ref>:  nell'ambiente letterario e culturale milanese il meccanismo della coercizione che spinge una fanciulla a entrare in convento - lo si è visto per il Passeroni - fu per tutto il Settecento un bersaglio polemico. Ma già alle soglie del secolo «illuminato» il Maggi metteva in scena un sommario «esame»... «Sù prest l'esamen. - Vala volentera? - /- Sì Signor, volentera; / Quel che voeur el Sur Paeder. - / Prest el Capitel, prest. - O chaere lé / On inscì bel Capitel / No l'è maci reussì-; Dù feripp al Fattor / C'ha dàe la bonna noeuva...» («Su presto l'esame. - Ci va volentieri? - Sissignore, volentieri; come vuole il Signor Padre. - Presto il capitolo, presto. - Oh cara Lei, un capitolo così bello non è mai riuscito -; due filippi al fattore che ha portato al buona nuova...»; <hi rend="italic">I consigli di Meneghino</hi>, Intermezzo primo).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n119" type="comm" target="quarantana/cap10.xml#c10_14484" targetEnd="quarantana/cap10.xml#c10_14546">
+          <ref rend="bold">La vera risposta... evidenza terribile... L'infelice rifuggì... al vero</ref>:  quando l'occasione decisiva per evitare che «le venga usata violenza» è lasciata cadere da Gertrude, la vittima scivola dalla difesa passiva, dalla dilazione disperata, alla menzogna complice, al «mentire contro sè stessa», che è come dire la scelta di una maschera contro il «vero» dell'anima. Questa sua fuga, tragica e inorridita, che ne fa una vinta colpevole, è contrassegnata di nuovo dal pathos semplicissimo ma potente del soggetto <hi rend="italic">L'infelice</hi>, dove la qualificazione è nel medesimo tempo oggettiva e soggettiva poiché descrive e interpreta un «supplizio» noto solo a Gertrude. Si ricordi la nota al CAP. VIII, r. 532-538 (cfr.commento I passeggieri silenziosi... meditando un delitto).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n122" type="comm" target="quarantana/cap10.xml#c10_16489" targetEnd="quarantana/cap10.xml#c10_14647">
+          <ref rend="bold">Il motivo... servire a Dio... pericoli del mondo</ref>:  la menzogna assume le ragioni suggerite dal padre nelle formule impersonali della catechesi. Le parole vere di Gertrude si spostano invece dentro la scrittura narrativa, nella frase oggettivata del «terribile tasto».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n124" type="comm" target="quarantana/cap10.xml#c10_13921" targetEnd="quarantana/cap10.xml#c10_13664">
+          <ref rend="bold">qualche... capriccio?</ref>:  si veda come la situazione dialogica è rappresentata nell'Intermezzo de <hi rend="italic"> I consigli di Meneghino </hi> di Carlo Maria Maggi alla nota alla r. 349.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n126" type="comm" target="quarantana/cap10.xml#c10_14720" targetEnd="quarantana/cap10.xml#c10_14721">
+          <ref rend="bold">determinata d'ingannarlo</ref>:  la coartazione morale, dominata dalla paura, distorce la stessa volontà d'una <hi rend="italic">poveretta</hi> ormai sola e rassegnata a subire un male cui ha «dato cagione o pretesto». Dopo il «precipitosamente» viene la decisione lucida, con il terrore di trovarsi di fronte al principe, «a patire in quella casa».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n128" type="comm" target="quarantana/cap10.xml#c10_16386" targetEnd="quarantana/cap10.xml#c10_14588">
+          <ref rend="bold">sventurata... mentire</ref>:  la progressione nella menzogna, nel tradimento di se stessa è segnata dalle espressioni «infelice», «poveretta», «sventurata». Sono i termini che nella <hi rend="italic">Storia della Colonna infame</hi> designano le vittime degli atroci e assurdi processi agli untori; d'una vittima forzata con la tortura a mentire e ad accusare un altro innocente si legge... «Ma basta chiamarlo sventurato? A una tale interrogazione la coscienza si confonde, rifugge, vorrebbe dichiararsi incompetente; par quasi un'arroganza spietata, un'ostentazione farisaica il giudicare chi operava in tali angosce, e tra tali insidie. Ma costretta a rispondere la coscienza deve dire... fu anche colpevole..» «Sventurata» come «esaminatore» diventa un sostantivo di funzione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n130" type="comm" target="quarantana/cap10.xml#c10_13881" targetEnd="quarantana/cap10.xml#c10_14991">
+          <ref rend="bold">Il principe... sospensione... penosa... respirò... tenerezza... guazzabuglio del cuore</ref>:  il racconto, sempre tagliente, riconosce anche al prevaricatore l'ansia penosa dell'incertezza, sin dall'incontro a caso con il vicario, e gli concede, quando tutto è finito, una breve tenerezza che non è più fittizia ma «in gran parte sincera», con un «giubilo» che sgorga dal cuore e fa cadere lz maschera della «gravità consueta». Mentre il <hi rend="italic">Fermo</hi> commentava con sarcasmo... «la benevolenza per chi fa quello che uno desidera, in modo da togliersi ogni inquietudine e ogni scrupolo è una virtù concessa a tutto il genere umano», i <hi rend="italic">Promessi</hi> pongono in luce nel «guazzabuglio del cuore» il gioco delle contraddizioni, la mescolanza degli affetti che restano anche nell'attore più consumato. Così, proprio all'ultimo atto, il principe può tornare per un momento ad essere padre e la sua prepotenza si muta in commozione. La postilla del narratore, in apparenza bonaria, insieme con la problematicità cupa del personaggio afferma il mistero confuso della psiche umana, il suo «miscuglio» di bene e di male. Chi deve trarne le conseguenze, è a questo punto, il lettore... il sorriso si rivela alla fine un problema.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n132" type="comm" target="quarantana/cap10.xml#c10_15005">
+          <ref rend="bold">divertimenti</ref>:  nella storia di Gertrude li termine diventa quasi una variante del pascaliano <hi rend="italic">divertissement</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n134" type="comm" target="quarantana/cap10.xml#c10_15065" targetEnd="quarantana/cap10.xml#c10_15076">
+          <ref rend="bold">del luogo... per l'ultima volta, per sempre</ref>:  per Gertrude il monastero diventa l'equivalente d'un sepolcro, l'approdo di un cammino senza speranza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n136" type="comm" target="quarantana/cap10.xml#c10_15116" targetEnd="quarantana/cap10.xml#c10_15118">
+          <ref rend="bold">qualche altro personaggio</ref>:  il termine appare volutamente ambiguo come a designare nello stesso tempo una figura del mondo reale e un essere della fantasia di Gertrude, così pronta ad accogliere «certi personaggi stranamente composti». Sono ancora le «feste brillanti e faticose» della sua inappagata teatralità romanzesca.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n138" type="comm" target="quarantana/cap10.xml#c10_16550" targetEnd="quarantana/cap10.xml#c10_15178">
+          <ref rend="bold">Talvolta... brulichio... delle feste... ombra... morta del chiostro</ref>:  le ultime esitazioni, le fluttuazioni, le pulsioni vitali della vittima che si dibatte - «come uccello preso nella rete», annotava il Pistelli - si polarizzano nel disperato contrasto fra dense sensazioni di vita (dal «rodimento» al «brulichio») e fredde impressioni sepolcrali. (Per il frequentativo «brulichio» si veda alle r. 332-334 del cap. precedente). E c'è sempre, a spegnere ogni <hi rend="italic">ebbrezza</hi>, il «viso» del principe... gli occhi della figlia ne sono calamitati («fissi»). E sa, si dice subito dopo, è come «l'infermo assetato» che detesta ogni conforto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n140" type="comm" target="quarantana/cap10.xml#c10_15284" targetEnd="quarantana/cap10.xml#c10_15369">
+          <ref rend="bold">stanca di quel lungo strazio... vestì l'abito... fu monaca per sempre</ref>:  la logica inesorabile della situazione è scandita dalla definitività dei perfetti verbali e la conclusione tragicamente isolata - osservava già il Momigliano - fa l'effetto d'una pietra sepolcrale che scende sopra la vita. Il «lo ripetè» implica un atto caparbio e meccanico di volontà, cui segue l'effetto di uno stato definitivo... il «fu».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n142" type="comm" target="quarantana/cap10.xml#c10_15370" targetEnd="quarantana/cap10.xml#c10_15394">
+          <ref rend="bold">È una delle facoltà... della religione... consolare... ad essa</ref>:  probabilmente la considerazione (di nuovo nel presente dell'analisi morale) è suggerita dal sermone <hi rend="italic">Sur la vocation</hi> del Massilon, il quale scriveva... È « una verità della fede che qualunque possa essere la situazione di una creatura la sua sorte non è mai disperata sulla terra». Ma la <hi rend="italic">Morale cattolica</hi> s'avvicina più strettamente alla tematica sottintesa, argomentando che «se l'impudicizia può mettere radice ne' cori, malgrado il voto di verginità», significa che la corruttela dell'uomo resiste anche ai mezzi stessi proposti dall'Uomo-Dio, «che sono bensì armi per poter vincere, ma che non dispensano dal combattere». Anche nello stato più terribile di sventura resta sempre, dunque, la responsabilità della coscienza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n144" type="comm" target="quarantana/cap10.xml#c10_15449" targetEnd="quarantana/cap10.xml#c10_14273">
+          <ref rend="bold">piega l'animo... dà a una scelta... temeraria... vocazione</ref>:  indirettamente il testo può alludere -come ha dimostrato il Trompeo - all'<hi rend="italic">exemplum</hi> di Jacqueline Arnaud che avviata contro voglia al chiostro trovò, dopo uno smarrimento iniziale, la dedizione della fede... l'esperienza è narrata nei <hi rend="italic">Mémoires pour servir à l'histoire de Port-Royal</hi> (Utrecht, 1743). Ma si osservi anche all'interno del discorso analitico il contrasto fortissimo tra «precipizio», «laberinto» (due immagini-simbolo che ci conducono direttamente a Gertrude) e «lietamente a un lieto fine».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n146" type="comm" target="quarantana/cap10.xml#c10_15543" targetEnd="quarantana/cap10.xml#c10_15668">
+          <ref rend="bold">Ma l'infelice si dibatteva... Rimasticava... Idolatrava... que' doni</ref>:  per l'ultima volta si designa Gertrude con l'epiteto compassionevole di <hi rend="italic">infelice</hi>, rincalzato dall'immagine del <hi rend="italic">giogo</hi> che è biblica... «Sicut boum iugum, quod movetur, ita et mulier nequam» (Ecclesiaste, 26, 10). Ora sono scomparse le figure che l'hanno angariata, tormentata; la giovane monaca nel momento in cui rinuncia alle consolazioni religiose, si abbandona alle passioni mondane del narcisismo deluso, la vanità e l'invidia in un «vagar faticoso» che ripete, in un carcere ormai consacrato, le «feste brillanti e faticose» della fantasia adolescente. Eccola quindi idolatrare, commiserandosi peccaminosamente, la propria bellezza, «struggersi in un lento martirio», mentre riprende un processo di autoannientamento che le fa invidiare qualunque donna, in qualunque condizione, con qualunque coscienza. L'amore distorto e negato si fa risentimento, squilibrio di un desiderio corrotto, che ignora ancora se stesso. Il racconto, con un'acutezza fermissima, scruta l'interno del personaggio, nella sua meccanica interiore. Gli eventi esterni ne sono poi lo sviluppo, l'intrigo che si aggiunge all'intrigo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n148" type="comm" target="quarantana/cap10.xml#c10_15841" targetEnd="quarantana/cap10.xml#c10_15853">
+          <ref rend="bold">La loro aria... di contentezza... come un rimprovero</ref>:  il processo di sottile perversione della monaca si concentra nel suo torbido desiderio di ritorsione immotivata, di anomalia insoddisfatta ma orgogliosa. L'astio verso le altre suore è anche, nel suo squilibrio, odio, «aborrimento» di sé. <hi rend="italic">Starci bene</hi> in contrapposto a <hi rend="italic">vivere</hi> anticipa l'antitesi di «star bene» e «far bene» nell'epilogo del romanzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n150" type="comm" target="quarantana/cap10.xml#c10_16600">
+          <ref rend="bold">bisbetica</ref>:  lunatica e litigiosa. Più avanti, nell'ottica delle suore, <hi rend="italic">vivere</hi> farà coppia con <hi rend="italic">leggiera</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n152" type="comm" target="quarantana/cap10.xml#c10_15873">
+          <ref rend="bold">pinzochere</ref>:  mil. per bigotte, già sulla strada delle «bigotte». Il punto di vista è quello, naturalmente, di Gertrude.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n154" type="comm" target="quarantana/cap10.xml#c10_15898">
+          <ref rend="bold">bossolo</ref>:  vaso di legno ove si deponevano le palline, nere per il voto contrario all'accettazione, bianche per il voto favorevole. Gertrude ignora li fatto e neppure l'intuisce. L'occhio non sa più vedere l'ombra del vero.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n155" type="comm" target="quarantana/cap10.xml#c10_15933" targetEnd="quarantana/cap10.xml#c10_15935">
+          <ref rend="bold">470. spuntar qualche impegno</ref>:  averla vinta in qualche impegno assunto, spuntarla.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n157" type="comm" target="quarantana/cap10.xml#c10_15980" targetEnd="quarantana/cap10.xml#c10_16009">
+          <ref rend="bold">come il naufrago... allargare il pugno... rabbia d'istinto</ref>:  il paragone, per esprimere l'istinto disperato cui cede Gertrude nel suo naufragio, sostituisce quello del <hi rend="italic">Fermo</hi> che equiparava le dolorose rivalse della monaca alle consolazioni di Robinson (il protagonista del <hi rend="italic">Crusoe</hi> di Daniel Defoe)... questi invano contemplava le monete trovate tra i «frantumi del vasselo sul quale era naufragato». A parte va notato il triplice uso di <hi rend="italic">consolazioni</hi>, con un senso variato secondo la Prospettiva di riferimento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n159" type="comm" target="quarantana/cap10.xml#c10_16088" targetEnd="quarantana/cap10.xml#c10_16094">
+          <ref rend="bold">un astio, un desiderio quasi di vendetta</ref>:  il guasto interiore della giovane monaca, incapace d'una religiosità autentica, è passato dalle ritorsioni bisbetiche alle tentazioni della vendetta astiosa; ma è la <hi rend="italic">rabbia</hi>, non lo si dimentichi, di chi va a fondo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n161" type="comm" target="quarantana/cap10.xml#c10_16120" targetEnd="quarantana/cap10.xml#c10_16136">
+          <ref rend="bold">sdegno magistrale... spiritualità... indiscreta</ref>:  indignazione pedagogica il cui alibi sta nell'apparenza, paradossale e improbabile, d'una religiosità rude e senza discrezione, tutta d'un pezzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n163" type="comm" target="quarantana/cap10.xml#c10_16173" targetEnd="quarantana/cap10.xml#c10_16230">
+          <ref rend="bold">giochi... più sregolati... imitava... contraffaceva... rideva... sgangheratamente</ref>:  sono gli indizi sintomatici del «disordine che regnava nella sua mente», come dichiarava il <hi rend="italic">Fermo</hi>. Il Protoromanzo raffigurava esteriormente Gertrude simile «ad una attrice ardimentosa di quelle che nei paesi separati dalla comunione cattolica facevano le parti di monaca in quelle commedie dove i riti cattolici erano soggetto di beffa e di parodia caricata». Un possibile prototipo di queste commedie è stato ravvisato nella shakespeariana <hi rend="italic">Misura per misura</hi>. In ogni caso, si tratta di una comicità mimetica e volgare, priva di misura e sforzata, velenosa più per chi deride che per chi è deriso.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n165" type="comm" target="quarantana/cap10.xml#c10_16278" targetEnd="quarantana/cap10.xml#c10_16281">
+          <ref rend="bold">non poter esser badessa</ref>:  perché non aveva ancor l'età di quarant'anni prescritta dalla regola. Sono passati solo alcuni anni infatti, dalla sua monacazione di giovinetta «sventurata».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n167" type="comm" target="quarantana/cap10.xml#c10_16303" targetEnd="quarantana/cap10.xml#c10_16342">
+          <ref rend="bold">un giovine, scellerato di professione... Egidio</ref>:  il referente storico è Gianpaolo Osio, un giovane depravato, la cui tresca viene esposta così dal Ripamonti, la fonte del Manzoni... «Stava contigua al monastero una casa, la cui parte posteriore e secreta guardava in un cortiletto, ove le educande meriggiavano e si intrattenevano per diporto. Il padrone della casa, giovane, ricco, abbondante d'ozio, spesso di là guardando, fissò gli occhi sopra di una, ed amorosamente si parlavano. Ma come quella uscì di monastero, ed andò sposa, l'amoroso, toltogli il pascolo degli occhi e l'occupazione del vuoto accidioso dell'animo suo, volse alla maestra l'amore che aveva concepito nel conversare con l'allieva». L'ipotetico «manoscritto» usato dal narratore moderno omette, come al solito, l'anagrafe del personaggio, ma riproduce esattamente le notizie dello storico ambrosiano, in un colore più fosco di «empietà» da romanzo nero.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n169" type="comm" target="quarantana/cap10.xml#c10_16347" targetEnd="quarantana/cap10.xml#c10_16384">
+          <ref rend="bold">Costui, da una sua finestrina... osò rivolgerle il discorso</ref>:  la situazione, e la sua resa semantica, presentano alcune inquietanti analogie con un oscuro episodio di seduzione che contrassegnò la breve «carriera» libertina del diciottenne Manzoni; una sua lettera ad un ex compagno di collegio, G. B. Pagani, lo rievoca così.. «..protraggo a caso l'ora della mia ritirata... mi affaccio alla finestra.. ella v'è pure; m'interroga, le rispondo, e facciamo giorno d'uno in altro discorso... ordiniamo di trovarci l'altra notte a un finestrino che dà sulla scala in fondo, per uscire alla porta...». È un esempio scoperto di paradigma autobiografico celato nella scrittura del romanzo. Gertrude <hi rend="italic">c'est moi</hi> ha commentato, non per nula, qualcuno (cfr. T. Gallarati Scotti, <hi rend="italic">La giovinezza del M.</hi>, Milano, Mondadori, 1969, e G. P. Bagnetti, <hi rend="italic">M. giovane</hi>, Guida, Napoli, 1972).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n171" type="comm" target="quarantana/cap10.xml#c10_16385" targetEnd="quarantana/cap10.xml#c10_16387">
+          <ref rend="bold">La sventurata rispose</ref>:  dopo aver romanzato, psicologizzandola («allettato anzi che atterrito»), la cronaca del Ripamonti, la narrazione conclude il processo di corruzione di Gertrude con la brevità e l'apparente distacco d'un referto. Ma il verbo «rispose» in dialogo con «osò rivolgerle» implica una volizione, una responsabilità personale, quasi fosse un «decise di rispondere», conforme al principio agostiniano che la libertà è sempre una risposta voluta a un'occasione. Così l'enunciato si realizza a due livelli, quello immediato dell'evento colloquiale e quello simbolico o interiore dell'atto metafisico. Di qui la sua risonanza misteriosa, la sua ambiguità d'accento; soprattutto in rapporto a una <hi rend="italic">sventurata</hi>, che vale come un giudizio ma anche come un segno di pietà, di pudore di fronte a un'anima messa a nudo nella penombra di un racconto che s'arresta alle soglie del mondo oscuro ma umanissimo della sessualità. A commento della battuta che, con un grande stacco porta al gesto finale d'una storia sinistra, scrive il Getto...«Tre parole interrotte e sospese da una fine di proposizione e di periodo, da un violento a capo. Questo punto e a capo apre come un vuoto, quasi un abisso angoscioso, un silenzio di indicibile orrore...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n173" type="comm" target="quarantana/cap10.xml#c10_16401" targetEnd="quarantana/cap10.xml#c10_16442">
+          <ref rend="bold">Nel vòto uggioso... una vita potente... simile... al condannato... tormenti</ref>:  il motivo erotico-passionale scorre sotterraneo, appena alluso, prima dalle calde fantasie dell'adolescenza che sboccia alla «potenza misteriosa» della pubertà, poi nei fantasmi compiacenti della tresca col paggio, sino alla illusione distruttiva d'una passione torbida che finisce nell'incubo d'un delitto. L'eros proibito ha «una vita potente», ma è una «bevanda ristorativa» (un'altra «cioccolata») che raddoppia le torture della condanna.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n175" type="comm" target="quarantana/cap10.xml#c10_16448" targetEnd="quarantana/cap10.xml#c10_16450">
+          <ref rend="bold">di gran novità</ref>:  delle grandi novità, analogamente a quanto era avvenuto per il romanzetto col paggio («una tranquillità e un'inquietudine diversa dalla solita...»), solo che ora si tratta di <hi rend="italic">ipocrisia</hi>, di tranquillità appagata ma vuota che si compiace, alla fine, della propria finzione, del proprio inganno segreto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n177" type="comm" target="quarantana/cap10.xml#c10_16513" targetEnd="quarantana/cap10.xml#c10_16514">
+          <ref rend="bold">imbiancatura esteriore</ref>:  semanticamente evoca l'immagine biblica del sepolcro imbiancato e si aggiunge a «magagne». Si pensa al «pallore» del ritratto iniziale.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n179" type="comm" target="quarantana/cap10.xml#c10_16690" targetEnd="quarantana/cap10.xml#c10_16743">
+          <ref rend="bold">Non passò però molto tempo... ufizi consueti... nessun luogo</ref>:  l'episodio delittuoso che con l'Osio coinvolse altre due converse si verificò quando un'altra giovane «che in un certo diverbio - racconta il Ripamonti - erasi lasciata intendere di sapere qualche cosa, e che a suo tempo avrebbe parlato, con uno sgabello lanciatole al capo viene uccisa nell'officina stessa di tante scelleratezze, voglio dire nella cella della Signora... ad occultare il cadavere, si sparge che fosse tra la notte fuggita, essendosi fatto apposta un gran rotto nella muraglia del giardino..». Il <hi rend="italic">Fermo</hi> ricostruisce con tecnica shakespeariana questo romanzo criminoso della monaca adulta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n181" type="comm" target="quarantana/cap10.xml#c10_16760" targetEnd="quarantana/cap10.xml#c10_16761">
+          <ref rend="bold">una buca</ref>:  un buco in basso. Il termine è già nel Boccaccio, così come appartiene all'uso letterario <hi rend="italic">sfrattare</hi> per «andarsene via, scappare».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n183" type="comm" target="quarantana/cap10.xml#c10_16774">
+          <ref rend="bold">sfrattata</ref>:  l'idiomatico <hi rend="italic">spassaa</hi>, per svignata.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n185" type="comm" target="quarantana/cap10.xml#c10_16788" targetEnd="quarantana/cap10.xml#c10_16697">
+          <ref rend="bold">a Meda... conversa</ref>:  solo i documenti d'archivio messi a disposizione dalla curia milanese dopo le prime due stesure del romanzo precisano che si trattava di Caterina Cassini, nativa di Meda, in Brianza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n187" type="comm" target="quarantana/cap10.xml#c10_16847" targetEnd="quarantana/cap10.xml#c10_16857">
+          <ref rend="bold">E perchè scappò detto... in Olanda</ref>:  come paese protestante, era il più ospitale per chi abiurasse il cattolicesimo (per la scelta del nome va tenuto presente l'idiomatico <hi rend="italic">dritton d'Olanda</hi>, registrato dal Cherubini). Il luogo qui serve solo a dare un nome autorevole e definitivo a «lontano, lontano», dopo l'antitesi verbale, nell'enunciazione riflessiva del narratore, tra «cercar lontano» e «scavare vicino»; dove lo «scavare» ipotetico (<hi rend="italic">se</hi>...) denuncia di colpo la realtà prossima del delitto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n189" type="comm" target="quarantana/cap10.xml#c10_17006" targetEnd="quarantana/cap10.xml#c10_10528">
+          <ref rend="bold">Quante volte... forma vana... la voce... susurro fantastico... mai!</ref>:  la triplice ripresa anaforica dell'indefinito temporale, simile al «quante volte» del <hi rend="italic">Cinque Maggio</hi>, scandisce l'angosciosa ossessione del rimorso - ma è un rimorso senza contrizione - e rivela progressivamente «il fondo di quel mistero». Ciò che è accaduto si disegna veramente, attraverso la proiezione interiore di uno dei colpevoli, nel teatro della sua mente. Gli incubi del delitto si materializzano con la presenza fantasmatica d'una «forma vana, terribile, impassibile», parlano nel «sussurro fantastico» («fantastico» è termine tecnico, si è già visto, del linguaggio psicologico) d'una voce «che nessuna persona vivente non ebbe mai!». Le sensazioni del personaggio, persino tra gli esclamativi della sua percezione onirica («si piantava lì»), si combinano con il rendiconto analitico della scrittura narrativa, come in una spirale sempre più fitta. Al culmine dela rappresentazione delirante, il quadro si interrompe, si blocca e si chiude. Subito dopo riprende la scena con Lucia e Agnese... il tragico torna a celarsi nelle pieghe, nelle cadenze del dramma quotidiano.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n191" type="comm" target="quarantana/cap10.xml#c10_17082" targetEnd="quarantana/cap10.xml#c10_17199">
+          <ref rend="bold">domande... stupire e arrossire l'interrogata</ref>:  è come se in questo incontro fra curiosità morbosa e innocenza pudica si unissero le due funzioni del pudore e dell'eros rappresentate in Lucia e Gertrude. Due funzioni che si coniugavano nell'«Amor tremendo» di Ermengarda... «..né tutta mai / questo labbro pudico osato avria / dirti l'ebbrezza del mio cor segreto» (<hi rend="italic">Adelchi</hi>, IV, I).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n193" type="comm" target="quarantana/cap10.xml#c10_17259" targetEnd="quarantana/cap10.xml#c10_17264">
+          <ref rend="bold">con poche parole, tutti que' dubbi</ref>:  nella sua innocenza, proprio perché si sente addosso un «confuso spavento», Lucia ha avvertito in fondo «tutto il mistero», mentre Agnese con la facilità curiosa della esperienza crede di risolverlo «con poche parole» di proverbio. Quasi visivamente, l'antitesi reattiva realizza la diversa finezza morale delle due donne. Solo Lucia, nella struttura delle simmetrie romanzesche, può state accanto a Gertrude ed essere colpita, senza sapere perché, dalla sua «intrepidezza» vivace.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n195" type="comm" target="quarantana/cap10.xml#c10_17291" targetEnd="quarantana/cap10.xml#c10_17310">
+          <ref rend="bold">I signori... per un verso... tutti un po' del matto</ref>:  il grosso buon senso di Agnese rispecchia le semplificazioni, la diffidenza e lo scetticismo delle classi subalterne nei confronti dei «signori» (<hi rend="italic">avegh on poo del matt</hi> è del dialetto milanese), ma trascrive anche la polemica <hi rend="italic">verve</hi> illuministica, l'estro conversevole della voce autorale, dentro il triplice <hi rend="italic">ne sentirai</hi>, che risuona pittoresco e allusivo, quasi cantilenante.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n197" type="comm" target="quarantana/cap10.xml#c10_17429" targetEnd="quarantana/cap10.xml#c10_17445">
+          <ref rend="bold">anche un certo sollievo... nel soccorrere... oppressi</ref>:  tra i moventi della convenienza utilitaria l'oggettività del narratore («realmente») che conosce i misteri, gli abissi del cuore umano, introduce anche il piacere consolante di «far del bene», contro il principio sensistico dell'amor proprio. Ma ciò che avvicina Gertrude a Lucia è in primo luogo, per l'affinità dei contrari, una «inclinazione» istintiva, il fascino della forza ingenua.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n199" type="comm" target="quarantana/cap10.xml#c10_17511" targetEnd="quarantana/cap10.xml#c10_17523">
+          <ref rend="bold">ignorate... non era facile in un monastero</ref>:  la «curiosità delle monache» che ha già stupito Lucia sembra fatta apposta per propalare le notizie, per «confidare un segreto», come si dirà dell'amicizia nel capitolo seguente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap10-n201" type="comm" target="quarantana/cap10.xml#c10_17566" targetEnd="quarantana/cap10.xml#c10_17570">
+          <ref rend="bold">torneremo al palazzotto di costui</ref>:  la diegesi narrativa, conclusa la grande analessi della Signora, ritorna indietro per retrospezione temporale - all'azione interrotta nel palazzotto di don Rodrigo, con la sua attesa mista di <hi rend="italic">passione</hi>, di <hi rend="italic">picca</hi> e di <hi rend="italic">stizza</hi>.. Prima ancora di vederlo, il lettore è già informato di quanto accade dentro il suo animo, quasi fosse ll didascalia interna a una nuova scena che sta per cominciare.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

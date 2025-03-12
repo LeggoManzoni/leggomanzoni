@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Laura_Trombini">Laura Trombini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni</title>
+          <editor>Raimondi, Ezio, Bottoni, Luciano</editor>
+          <pubPlace>Roma</pubPlace>
+          <publisher>Carocci</publisher>
+          <date>2021</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Laura_Trombini" when="2025-03-04">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Raimondi-Bottoni_cap4">
+        <note xml:id="Raimondi-Bottoni_cap4-n1" type="comm" target="quarantana/cap4.xml#c4_10001" targetEnd="quarantana/cap4.xml#c4_10008">
+          <ref rend="bold">Il sole... sull'orizzonte</ref>:  il capitolo inizia spostando il luogo dell'azione, con un cambiamento di atto, piuttosto che di scena, se vogliamo usare un'analogia teatrale. Già un Fielding scriveva nel <hi rend="italic">Tom Jones</hi> (1749)...«I buoni scrittori faranno bene a imitare i viaggiatori intelligenti che regolano le loro fermate in proporzione con el bellezze e curiosità dei vari luoghi».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n3" type="comm" target="quarantana/cap4.xml#c4_10016" targetEnd="quarantana/cap4.xml#c4_10028">
+          <ref rend="bold">convento di Pescarenico... una terricciola</ref>:  il piccolo paese di Pescarenico è oggi un sobborgo di Lecco; il convento dei Cappuccini, fondato nel 1576, fu soppresso dai Francesi nel 1798.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n5" type="comm" target="quarantana/cap4.xml#c4_10058">
+          <ref rend="bold">tramagli</ref>:  reti di tre o quattro teli tesi a formare una sacca ad imbuto (il mil. <hi rend="italic">tremagg</hi>). Ricordano il cognome di Renzo, la sua possibile origine da una famiglia di pescatori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n7" type="comm" target="quarantana/cap4.xml#c4_10095" targetEnd="quarantana/cap4.xml#c4_10142">
+          <ref rend="bold">Il cielo...Un venticello...le foglie appassite del gelso</ref>:  molti interpreti (dal Momigliano all'Angelini) vedevano nel limpido paesaggio autunnale i «segni della rinuncia e del dolore»; il Getto avverte invece, rispetto alla dimensione tutta spaziale della prima descrizione, il prevalere d'una dimensione temporale: l'alba e l'autunno; il Caccia con il Nardi preferisce registrare le note temperate d'una luminosa realtà naturale, indifferente al mesto spettacolo della povertà e della carestia. Anche l'elemento «economico» è presente...i gelsi erano piantati come sostegni dei filari di vite e le foglie servivano per allevare i bachi da seta; ma l'industria lombarda della seta era in crisi.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n9" type="comm" target="quarantana/cap4.xml#c4_10188" targetEnd="quarantana/cap4.xml#c4_10311">
+          <ref rend="bold">La scena... rattristava... mendichi laceri... svogliatamente la zolla</ref>:  sono le figure umane che portano nel paesaggio i segni della tristezza e del dolore come se la responsabilità etica del male ricadesse sugli uomini, dai mendicanti ai contadini sfiduciati («semente» è uso letterario per «sementi»). Si noti come il narratore, quasi impercettibilmente, con un raccordo visuale, abbia proceduto ad una restrizione di campo e si sia calato nel punto di vista del personaggio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n11" type="comm" target="quarantana/cap4.xml#c4_10310" targetEnd="quarantana/cap4.xml#c4_11360">
+          <ref rend="bold">La fanciulla scarna... vivere</ref>:  nel quadro di miseria e di fatica entra la fame e - ben a proposito commenta il Nardi - «l'episodio della fanciulla e della vaccherella, già così strettamente unite nella rappresentazione della comune magrezza, chiudendosi con questo ravvicinamento, ch'è scadimento dell'esigenza umana all'esigenza animale, tocca un fondo di corrucciato realismo».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n13" type="comm" target="quarantana/cap4.xml#c4_10377" targetEnd="quarantana/cap4.xml#c4_10414">
+          <ref rend="bold">Ma perchè... padre provinciale?... domande</ref>:  la serie di interrogative con cui il narratore sollecita la curiosità dei lettori è artificio tipico del romanzo storico scottiano; il diretto intervento autorale, rilevando la sorprendente sollecitudine di padre Cristoforo - che risponde a Lucia come ad una chiamata del superiore preposto alla sua provincia ecclesiastica - crea l'esigenza di presentare il ritratto-biografia del personaggio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n15" type="comm" target="quarantana/cap4.xml#c4_10415" targetEnd="quarantana/cap4.xml#c4_10418">
+          <ref rend="bold">Il padre Cristoforo da***</ref>:  il Fermo e Lucia specificava «da Cremona». Quindi riguardo al nome e ad alcune vicende è probabile che il Manzoni abbia ricordato un fra Cristoforo Picenardi, appunto da Cremona (ne parlano le <hi rend="italic">Memorie</hi> di Pio La Croce, cronista della peste del 1630) che accorse volontariamente a curare gli appestati del Lazzaretto e morì di contagio. Ma non trattandosi d'un personaggio storico in senso stretto il Manzoni sovrappose ai dati cronachistici altri elementi «verisimili». Circa la conversione da una vita di violenze, compiute per rendere giustizia agli oppressi, si è avanzata l'ipotesi d'un'eco dele vicende di Alfonso III d'Este - raccontate dal Muratori neLle <hi rend="italic">Antichità estensi</hi> -... dopo la morte della moglie, il giovane principe abdicò nel 1629 per farsi cappuccino e condusse una vita esemplare con tal zelo che «talora ad alcuni parve anche troppo impetuoso». Si è anche fatto il nome di un Bernardo da Corleone entrato nei cappuccini, dopo aver ucciso in duello un commissario, per sottrarsi alla vendetta dei familiari. Ma uccisioni, vendette, conversioni erano episodi frequenti della cronaca secentesca; di là dei protagonisti materiali, appartengono alla reinvenzione romanzesca d'un passato reso «tipico».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n17" type="comm" target="quarantana/cap4.xml#c4_10459" targetEnd="quarantana/cap4.xml#c4_10465">
+          <ref rend="bold">un non so che d'altero e d'inquieto</ref>:  è la tipica formula romantica - di matrice rousseauiana ma con notevoli premesse nel Tasso - che serve ad esprimere impressioni o sentimenti sfumati, «misti», indefiniti. Qui le vestigia d'un carattere altero e insieme l'ansia, la determinazione di domare la propria indole impulsiva, sono colte nella rapidità d'un movimento interno/esterno che rivela l'interiorità del personaggio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n19" type="comm" target="quarantana/cap4.xml#c4_10489" targetEnd="quarantana/cap4.xml#c4_10491">
+          <ref rend="bold">le forme rilevate</ref>:  il naso, gli zigomi e le tempie.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n21" type="comm" target="quarantana/cap4.xml#c4_10514" targetEnd="quarantana/cap4.xml#c4_10566">
+          <ref rend="bold">Due occhi incavati... come due cavalli... tirata di morso</ref>:  il paragone ha lontane origini letterarie... Omero equiparava cavalli e guerrieri; da Platone l'anima è rappresentata come un carro alato trainato da un cavallo bianco, la componente irascibile, e da un cavallo nero, l'elemento concupiscibile. Ma la pagina manzoniana ritrae nel comportamento la figura morale di padre Cristoforo, la tensione etica d'un uomo già anziano che al vigile sentimento dell'umiltà ha sottomesso l'ardore battagliero e l'impulsività della gioventù - anche se a prezzo di qualche «tirata di morso».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n23" type="comm" target="quarantana/cap4.xml#c4_10598" targetEnd="quarantana/cap4.xml#c4_10601">
+          <ref rend="bold">circospezione del mio anonimo</ref>:  l'ironica reticenza - giustificata dall'Introduzione...«per degni rispetti si tacerà li loro nome» - consente al narratore una totale libertà d'invenzione, di ricostruzione pseudostorica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n25" type="comm" target="quarantana/cap4.xml#c4_10617" targetEnd="quarantana/cap4.xml#c4_10618">
+          <ref rend="bold">al traffico</ref>:  al commercio, quindi al negozzi che il lessicografo traduce anche nel senso di «fondaco, bottega, telonio, banco».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n27" type="comm" target="quarantana/cap4.xml#c4_10626" targetEnd="quarantana/cap4.xml#c4_10665">
+          <ref rend="bold">Nel suo nuovo ozio... gran vergogna... fantasia... mercante</ref>:  il padre di Lodovico scontava il pregiudizio secentesco-nobiliare che considerava degradanti le attività mercantili. Il Settecento illuminista avrebbe invece riconosciuto nel commercio un'attività essenziale al progresso civile. Sul giornale milanese il «Caffè» un articolo di Alessandro Verri (<hi rend="italic">Alcune riflessioni sull'opinione che il commercio deroghi alla nobiltà</hi>) aveva contrapposto «le arti più utili. che arricchiscono la patria e la fanno grande e rispettabile... e queste fallaci idee di decoro, di purezza, di sangue».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n29" type="comm" target="quarantana/cap4.xml#c4_10672" targetEnd="quarantana/cap4.xml#c4_10689">
+          <ref rend="bold">Ma il fondaco, le balle... come l'ombra di Banco</ref>:  la bottega, le pezze di tela, il libro mastro, la misura (di 66 cm), ossia gli strumenti di lavoro, perseguitavano l'ex mercante e lo ossessionavano. Per il doppio senso nascosto nel nome proprio <hi rend="italic">Banco</hi> (= banco) è singolare che un Sigmund Freud rilevasse lo stesso doppio senso nella frase... «Qui ad Amburgo non comanda l'infame Macbeth; qui comanda il <hi rend="italic">Banco</hi>» (cfr. <hi rend="italic">Il motto di spirito</hi>, Torino, Boringhieri, 1975). L'oggetto d'una realtà mercantile e prosaica, di una cavalleria a rovescio, subentra così la personaggio che, fatto uccidere da Macbeth - nell'omonima tragedia shakespeariana - compare minaccioso durante il banchetto a perseguitare l'assassino. L'uso ironico dell'immagine drammatica, la prosaicizzazione del materiale shakespeariano negli anni della polemica fra Classici e Romantici (1821-1823), equivaleva ad un'aperta professione a favore del partito romantico. I Romantici vedevano in Shakespeare il prototipo d'una nuova letteratura e di un moderno realismo etico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n31" type="comm" target="quarantana/cap4.xml#c4_11464" targetEnd="quarantana/cap4.xml#c4_10665">
+          <ref rend="bold">Un giorno... il più onesto mangiatore... col candore... mercante</ref>:  l'aneddoto del commensale che resta folgorato dall'allusività della sua involontaria battuta crea tutta una dimensione ironicamente derisoria grazie alla maliziosa prospettiva etica del narratore... il protagonista della gaffe è «onesto» perché pensa solo a mangiare e pur celiando senza «ombra di malizia» crea un irreparabile scandalo («scandolo» è forma fiorentina).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n33" type="comm" target="quarantana/cap4.xml#c4_10873" targetEnd="quarantana/cap4.xml#c4_10891">
+          <ref rend="bold">Ognuno scansava... dissimulare</ref>:  la situazione psicologica collettiva è resa con straordinaria finezza.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n35" type="comm" target="quarantana/cap4.xml#c4_10904" targetEnd="quarantana/cap4.xml#c4_10906">
+          <ref rend="bold">con più giustizia</ref>:  non sta per «con più precisione»; allude piuttosto ad una giustizia che non era più nello spirito del mercante ormai succube della propria orgogliosa suscettibilità.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n37" type="comm" target="quarantana/cap4.xml#c4_11120" targetEnd="quarantana/cap4.xml#c4_11160">
+          <ref rend="bold">Con questo misto d'inclinazione... ridicolo</ref>:  negli accostamenti ossimorici, contrastanti, misti («inclinazione / rancore», «comprandosi... inimicizie») il narratore fissa sapientemente le caratteristiche morali e caratteriali del giovane ambizioso ma di indole «onesta insieme e violenta» che, reagendo drammaticamente ad una società «anarchica e autoritaria», si trasformerà con grande coerenza in padre Cristoforo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n39" type="comm" target="quarantana/cap4.xml#c4_11238" targetEnd="quarantana/cap4.xml#c4_11241">
+          <ref rend="bold">farci stare un soverchiatore</ref>:  naturalmente nel ruolo del debole sopraffatto. Quindi si trattava non di giustizia ma di angheria contrapposta ad angheria; il puntiglio è infatti espresso dal verbo «si piccava».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n41" type="comm" target="quarantana/cap4.xml#c4_11317" targetEnd="quarantana/cap4.xml#c4_11318">
+          <ref rend="bold">adoperar raggiri</ref>:  ricorrere ad intrighi, inganni.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n43" type="comm" target="quarantana/cap4.xml#c4_11363" targetEnd="quarantana/cap4.xml#c4_11366">
+          <ref rend="bold">per amor della giustizia</ref>:  è al solita deformazione che il termine «giustizia» subisce quando è usato nella prospettiva «limitata» d'un personaggio; d'altronde l'intenzione ironica è evidente, a prescindere dall'antimachiavellismo del Manzoni cui si richiamano alcuni commentatori.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n45" type="comm" target="quarantana/cap4.xml#c4_11372" targetEnd="quarantana/cap4.xml#c4_11422">
+          <ref rend="bold">O scoraggito... stomacato... la fantasia di farsi frate</ref>:  lo scoraggiamento, al noia, li disagio non sono ancora motivati da una crisi morale, ma si devono alle circostanze incresciose in cui Lodovico va a cacciarsi. Così anche la «fantasia di farsi frate» gli balena come un ripiego che spiega, anche se non contiene, le premesse della conversione. Sarà il fortuito «accidente» a combinarsi con gli elementi etici del carattere provocando al conversione di Lodovico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n47" type="comm" target="quarantana/cap4.xml#c4_11492" targetEnd="quarantana/cap4.xml#c4_11494">
+          <ref rend="bold">maestro di casa</ref>:  amministratore che sovrintende anche alla servitù.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n49" type="comm" target="quarantana/cap4.xml#c4_11570" targetEnd="quarantana/cap4.xml#c4_11585">
+          <ref rend="bold">è uno de vantaggi... poter odiare... senza conoscersi</ref>:  l'educazione illuministica, l'ironia voltairiana del buon senso, il cristianesimo spregiudicato del narratore non risparmiano i pregiudizi sociali («il vendere non è cosa più ridicola che il comprare») così come non perdonano l'assurdità degli istinti o dei pregiudizi irrazionali e immotivati.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n51" type="comm" target="quarantana/cap4.xml#c4_11591" targetEnd="quarantana/cap4.xml#c4_11607">
+          <ref rend="bold">s'avanzava... composta all'alterigia e allo sprezzo</ref>:  la rapida cronaca dell'episodio in stile lapidario o laconico è animata da queste annotazioni che individualizzano e tipicizzano tutta una psicologia dei comportamenti sociali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n53" type="comm" target="quarantana/cap4.xml#c4_11629" targetEnd="quarantana/cap4.xml#c4_11639">
+          <ref rend="bold">dava il diritto (dove mai si va a ficcare il diritto!)</ref>:  gli interventi parenetici - per inciso, fra parentesi, come il precedente «notate bene» - sottolineano la futilità del contenzioso e insieme l'assurdità di accogliere nel diritto anche certe norme create da semplici consuetudini e magari contrastanti. La ripetizione del termine ha anche un effetto di smascheramento. Per al teorizzazione del cosiddetto «sistema dell'onore», che sancisce il trapasso dallo stile comportamentale del «cortigiano» alle ferree regole della «scienza cavalleresca», cfr. .F Erspamer, <hi rend="italic">La biblioteca di don Ferrante. Duello e onore nella cultura del Cinquecento</hi>, Roma, Bulzoni, 1982.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n55" type="comm" target="quarantana/cap4.xml#c4_11741" targetEnd="quarantana/cap4.xml#c4_11746">
+          <ref rend="bold">due figure di basso rilievo ambulanti</ref>:  l'inesorabile procedere dei due su un percorso di collisione - «la testa dura» imbattutasi in un'altra della stessa tempra - è denunciato nella sua esasperata ostinazione dall'immagine del bassorilievo che rende grottesco questo conflitto altezzoso, impettito e sprezzante.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n57" type="comm" target="quarantana/cap4.xml#c4_11773" targetEnd="quarantana/cap4.xml#c4_11801">
+          <ref rend="bold">«Fate luogo voi... per i pari miei»</ref>:  la questione in contenzioso, le battute e le risposte si informano al frasario pomposo delle vertenze cavalleresche. Nel Seicento queste situazioni erano addirittura codificate da trattati celeberrimi. Un G. B. Olevano, <hi rend="italic">Trattato</hi>, Venezia, Somascho, 1605 - che troveremo nella biblioteca di don Ferrante al CAP. XXVI - nell'intento di «ridurre a pace ogni sorta di privata inimicitia, nata per cagion d'honore», illustra un caso analogo: «Curtio s'incontra in Carlo, co'l quale passava alcuni disgusti; e volendo Carlo tenersi ad alto (poiché la strada era sua, camminando egli co'l braccio destro al muro), Curtio gli dice... - Tiratevi a basso-;-e Carlo risponde...-Non vi voglio andare...perché la strada è mia-;-Curtio ritorna a dirgli...-Co' pari vostri la strada è sempre mia-; e Carlo gli replica...-Io sono nobile quanto voi-;-e Curtio gli soggiunge... - Questo no...». L'Olevano però giudicava questa «la più sciocca occasione di contesa» al contrario di quel Francesco Birago che nei suoi <hi rend="italic">Discorsi cavallereschi</hi>, Venezia, 1623-1627 ne trattava ampiamente proprio per confutare l'Olevano e ribadire in ogni caso il prevalere dei diritti nobiliari su quelli dei borghesi. Anche W. Scott descrive una contesa del genere in <hi rend="italic">L'Abate</hi>, un romanzo che il Manzoni riceveva a prestito dal Cattaneo nel 1821.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n59" type="comm" target="quarantana/cap4.xml#c4_11858" targetEnd="quarantana/cap4.xml#c4_11859">
+          <ref rend="bold">vile meccanico</ref>:  come nell'<hi rend="italic">Introduzione</hi> per designare chi si sostenta col proprio lavoro. La rappresentazione caratteristica dell'evento - da stampa secentesca, come diceva Russo - non si limita alla teatralità esteriore del conflitto, ma vi produce e interpreta una situazione tipica del sistema di forze: una società, quella secentesca, governata dalla legge dell'onore che è anche quella del puntiglio. Osserva José Antonio Maravall (<hi rend="italic">Potere, onore, élites nella Spagna del secolo d'oro</hi>, Bologna, Il Mulino, 1984) che i mestieri «manuali e vili» erano incompatibili con «l'onore nobiliare» e che «l'onore e la sua rivendicazione erano prerogativa del nobile». Lodovico invece appartiene alla «gente media», al ceto dei ricchi che aspirano ad essere «quasi-nobili». Di qui il duello non solo tra due individui, ma tra due gruppi, due condizioni d'élite.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n61" type="comm" target="quarantana/cap4.xml#c4_11870" targetEnd="quarantana/cap4.xml#c4_11884">
+          <ref rend="bold">Voi mentite... Tu menti ch'io abbia mentito... di prammatica</ref>:  quando uno dei contendenti ingiuriava l'altro il codice cavalleresco prevedeva che questi replicasse accusando l'avversario di mendacio con la cosiddetta «mentita». La smentita di Lodovico s'appunta sulla qualifica di «vile» e, secondo consuetudine, segue la «rimentita»... «Tu menti ch'io abbia mentito». Formidabile nella sua epica comicità la «mentita» preventiva che dà don Chisciotte accettando il consiglio di Sancho di sottrarsi alla Santa Confraternita... «...lo farò a una condizione... che mai, né in vita né in morte, tu dirai ad alcuno che io mi sono ritirato da questo pericolo e l'ho schivato per paura, ma solo per compiacere alle tue preghiere; ché se dicessi altrimenti, mentiresti, e fin da ora per allora, come da allora per ora, ti smentisco e dico che menti e mentirai ogni qualvolta lo pensassi o lo dicessi» (<hi rend="italic">Don Chiscotte</hi>, Parte I, cap. XXIII, in <hi rend="italic">Tutte le Opere</hi>, II, Milano, Mursia, 1978).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n63" type="comm" target="quarantana/cap4.xml#c4_11885" targetEnd="quarantana/cap4.xml#c4_11906">
+          <ref rend="bold">E, se tu fossi cavaliere... con la cappa</ref>:  i nobili duellavano senza armatura, con la sola cappa, segno della distinzione nobiliare. Nel <hi rend="italic">Trattato </hi>dell'Olevano, una disputa tra Tolomeo e un Conte (caso XV) si conclude... «Se foste Conte, come son io, vi vorrei far vedere con la spada, e la cappa, come il difetto...». Ma nel romanzo gli scarni stereotipi cavallereschi sono calati in una scrittura parodica che delinea l'orizzonte sociale del Seicento...l'immagine e la parola rispondono ad una precisa ideologia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n65" type="comm" target="quarantana/cap4.xml#c4_11926" targetEnd="quarantana/cap4.xml#c4_11928">
+          <ref rend="bold">Gettate nel fango</ref>:  le strette strade di quei tempi raccoglievano acqua fango e rifiuti in un canaletto che scorreva al mezzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n67" type="comm" target="quarantana/cap4.xml#c4_11950" targetEnd="quarantana/cap4.xml#c4_11965">
+          <ref rend="bold">Temerario!... macchiata del tuo vil sangue</ref>:  l'espressione diventerà uno stereotipo del romanzo di «cappa e spada»; qui riecheggia l'ampollosa solennità del frasario nobiliare con l'iperbolica decisione di spezzare la spada «macchiata» dal sangue d'un avversario «vile».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n69" type="comm" target="quarantana/cap4.xml#c4_12073" targetEnd="quarantana/cap4.xml#c4_12098">
+          <ref rend="bold">A quella vista, Lodovico... fuor di sè... col povero Cristoforo</ref>:  indirettamente il narratore, che ha già osservato come il giovane «mirava piuttosto a scansare i colpi», interviene a giustificarne la furia omicida attribuendola alla vista del morente Cristoforo. Così risulterà motivata anche la reazione della folla a favore di Lodovico, rimasto solo con ai piedi i cadaveri del nemico ucciso e dell'amico <hi rend="italic">morto </hi> per lui.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n71" type="comm" target="quarantana/cap4.xml#c4_12167" targetEnd="quarantana/cap4.xml#c4_12235">
+          <ref rend="bold">un occhiello nel ventre... che sconquasso... sta fresco... scappi</ref>:  il romanzo è il primo genere letterario che - sull'esempio dei drammi storici shakespeariani - riesce veramente a dar voce alla folla anonima. La tecnica è quella di battute brevi, commenti ironici distaccati, anche volgari, che rendono il senso della curiosità, d'una compassione occasionale, della confusione e anche d'un certo compiacimento. È un altro aspetto della polifonia del romanzo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n73" type="comm" target="quarantana/cap4.xml#c4_12309" targetEnd="quarantana/cap4.xml#c4_12312">
+          <ref rend="bold">quasi fuor di sentimento</ref>:  quasi incosciente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n75" type="comm" target="quarantana/cap4.xml#c4_11779" targetEnd="quarantana/cap4.xml#c4_12397">
+          <ref rend="bold">Lodovico... sparso sangue... l'impressione... indicibile</ref>:  lo smarrimento del giovane di fronte ai due cadaveri era già stato registrato in mezzo alla folla durante il fatto («si trovò solo, con que' due funesti compagni ai piedi»); ora riecheggia nella ripetizione del termine <hi rend="italic">morto</hi>, «l'uomo morto per lui» e «l'uomo morto da lui», ove la seconda accezione letteraria ed arcaica (sta per «ucciso da lui») dà alla frase una concisione terribile. È la grande retorica del pensiero che mette grammaticalmente in risalto antitesi esistenziali e totali.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n77" type="comm" target="quarantana/cap4.xml#c4_12410" targetEnd="quarantana/cap4.xml#c4_12428">
+          <ref rend="bold">l'alterazione... dalla minaccia... alla quiete solenne</ref>:  questa espressione di minaccia e di furore che improvvisamente si placa di fronte alla morte è la percezione tragica (il <hi rend="italic">mathema</hi>) che segue un irrevocabile mutamento nella coscienza morale del personaggio. La rivelazione del «volto» annienta al logica assurda dell'odio, dell'omicidio. Nella «rivelazione con il volto» si nega l'impersonalità della violenza. Il «faccia a faccia» instaura la conoscenza dell'Altro, l'etica del colloquio autentico tra uomo e uomo, nella struttura misteriosa della giustizia. Per questo la «vista» dell'ucciso trasforma radicalmente la coscienza confusa e infelice di Lodovico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n79" type="comm" target="quarantana/cap4.xml#c4_12482">
+          <ref rend="bold">faldelle</ref>:  garze, pezzi di tela morbida da applicare sulle ferite prima di fasciarle; il mil. <hi rend="italic">filàper</hi>, «fila sfilate per lo più del pannolino vecchio, sulle quali i cerusici sogliono distendere i loro unguenti» (Cherubini).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n81" type="comm" target="quarantana/cap4.xml#c4_12545" targetEnd="quarantana/cap4.xml#c4_12597">
+          <ref rend="bold">chiedere il vostro perdono... sgomento... angosciosa compassione</ref>:  per dare il senso di come lentamente maturi la conversione il narratore - che ha la competenza, la conoscenza dell'animo umano del grande moralista - distribuisce «in una serie di tempi, distinti dal resoconto di fatti esterni, il sondaggio nell'anima di Lodovico» (Getto).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n83" type="comm" target="quarantana/cap4.xml#c4_10830" targetEnd="quarantana/cap4.xml#c4_10831">
+          <ref rend="bold">E l'altro?</ref>:  il fedele e affezionato Cristoforo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n85" type="comm" target="quarantana/cap4.xml#c4_12630" targetEnd="quarantana/cap4.xml#c4_12635">
+          <ref rend="bold">smaltir... si postò</ref>:  dopo aver fatto sgombrare, allontanare la folla, la sbirraglia attende; ma «postarsi» è il verbo degli agguati e delle vendette.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n87" type="comm" target="quarantana/cap4.xml#c4_12650" targetEnd="quarantana/cap4.xml#c4_12698">
+          <ref rend="bold">Un fratello... un vecchio zio... gli sta bene</ref>:  con la folla dei curiosi e il dispetto minaccioso dei parenti - dai cugini al vecchio zio - si torna per un attimo al resoconto ironico di questo episodio di puntiglio «cavalleresco».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n89" type="comm" target="quarantana/cap4.xml#c4_12748" targetEnd="quarantana/cap4.xml#c4_12753">
+          <ref rend="bold">prendeva la famiglia sopra di sè</ref>:  assumeva l'impegno di mantenere al famiglia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n91" type="comm" target="quarantana/cap4.xml#c4_12781" targetEnd="quarantana/cap4.xml#c4_12809">
+          <ref rend="bold">gli parve che Dio... datogli un segno... fu preso</ref>:  la conversione affonda quindi le sue radici nella validità d'una decisione balenata come «fantasia» in un animo generosamente impetuoso e maturata a pensiero «vivo e serio» attraverso la colpa, la desolazione, il rimorso. Al personaggio sembra allora che Dio l'abbia «messo sulla strada»: e il significato simbolico della «strada» si apre al concetto di Provvidenza entrando nella costellazione mentale-discorsiva di chi ha visto un volto, muto per sempre, presentare e reclamare giustizia. La conclusione ha una reticenza lapidaria... «e il partito fu preso». Nella prospettiva laica d'un Rawls «la colpa viene attenuata dal risarcimento e dal perdono che permette la conciliazione, mentre la vergogna viene rimossa attenuando le prove delle mancanze e dalla rinnovata fiducia nella perfezione della propria persona» (p. 395). Ma il Rawls, naturalmente, punta non sull'«abnegazione» bensì sull' «affermazione di sé».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n93" type="comm" target="quarantana/cap4.xml#c4_10074">
+          <ref rend="bold">tuttavia</ref>:  tuttora, ancora.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n95" type="comm" target="quarantana/cap4.xml#c4_12868">
+          <ref rend="bold">contraddote</ref>:  la donazione che il marito assegnava per testamento alla moglie, nell'eventualità che restasse vedova, in genere era proporzionale alla dote portata dalla moglie.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n97" type="comm" target="quarantana/cap4.xml#c4_12904" targetEnd="quarantana/cap4.xml#c4_12910">
+          <ref rend="bold">esporlo così alla giustizia, cioè alla vendetta</ref>:  il chiarimento in effetti risulta un altro sarcasmo nei confronti del sistema secentesco.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n99" type="comm" target="quarantana/cap4.xml#c4_12920" targetEnd="quarantana/cap4.xml#c4_12921">
+          <ref rend="bold">in consulta</ref>:  in discussione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n101" type="comm" target="quarantana/cap4.xml#c4_12953" targetEnd="quarantana/cap4.xml#c4_12966">
+          <ref rend="bold">concitarsi contro tutte l'autorità... tutrici di questo diritto</ref>:  l'ironia feroce non risparmia neppure il potere ecclesiastico che difendeva «concitatamente» i propri privilegi come fossero norme di diritto.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n103" type="comm" target="quarantana/cap4.xml#c4_12998" targetEnd="quarantana/cap4.xml#c4_13033">
+          <ref rend="bold">La storia non dice... vivo o morto</ref>:  il ricorso all'Anonimo sottolinea un complesso rilievo sarcastico... non era l'affetto ma il desiderio di vendetta che muoveva smaniosamente il parentado a perseguitare il colpevole; e questo con la giustificazione di riparare ad un'offesa familiare.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n105" type="comm" target="quarantana/cap4.xml#c4_12296" targetEnd="quarantana/cap4.xml#c4_12297">
+          <ref rend="bold">si chiamava</ref>:  si dichiarava.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n107" type="comm" target="quarantana/cap4.xml#c4_13098" targetEnd="quarantana/cap4.xml#c4_13126">
+          <ref rend="bold">ridurre un uomo a spropriarsi... punizione competente</ref>:  le rinunce di Lodovico sono viste nell'ottica dei parenti e risultano quindi delle umiliazioni mondane capaci soltanto di soddisfare la loro puntigliosa volontà di vendetta, la loro boria offesa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n109" type="comm" target="quarantana/cap4.xml#c4_13132" targetEnd="quarantana/cap4.xml#c4_13202">
+          <ref rend="bold">Il padre guardiano... con un'umiltà disinvolta... doveva essere</ref>:  l'ironia manzoniana, spesso critica nei confronti dei personaggi autorevoli, non risparmia neppure l'umiltà mondanamente disinvolta del padre guardiano. Nel confronto fra potere nobiliare e potere ecclesiastico, l'ironia gioca sul divertimento intellettuale, si avvalora della lucida osservazione d'un'abilità diplomatica che «soavemente» impone il proprio volere come se si trattasse d'una garbata insinuazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n111" type="comm" target="quarantana/cap4.xml#c4_13203" targetEnd="quarantana/cap4.xml#c4_13293">
+          <ref rend="bold">Il fratello diede in ismanie... impose... fu concluso</ref>:  la minacciosa commedia del fratello si esaurisce di fronte alle locuzioni convenzionali del frate («è un troppo giusto dolore») che con reticenza astuta e apparente arrendevolezza consente al puntiglioso interlocutore di salvare il prestigio della famiglia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n113" type="comm" target="quarantana/cap4.xml#c4_13294" targetEnd="quarantana/cap4.xml#c4_13385">
+          <ref rend="bold">Contenta la famiglia. contento... Lodovico... del rimorso</ref>:  attraverso la iterazione anaforica («Contenta... contenti. contenti... contento... contento...») la prospettiva del racconto passa dalla dimensione pubblica d'una vicenda esemplare a quella che è, per Lodovico, la sua realtà interiore, il suo significato di espiazione e di dedizione («servizio») al prossimo.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n115" type="comm" target="quarantana/cap4.xml#c4_13423" targetEnd="quarantana/cap4.xml#c4_13424">
+          <ref rend="bold">nel sacco</ref>:  nel saio. Anche padre Cristoforo, come don Abbondio, entra nella vita religiosa perché ossessionato dalla violenza, ma le ragioni sono opposte... in Cristoforo è volontà di espiazione e accettazione di quell'assurdo dell'esistenza che si rivela un omicidio; in don Abbondio è la paura carnale della morte. E opposti sono gli effetti se don Abbondio può dialogare con la violenza, mentre fra Cristoforo deve rifiutarla per rifiutare il passato.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n117" type="comm" target="quarantana/cap4.xml#c4_13451" targetEnd="quarantana/cap4.xml#c4_13454">
+          <ref rend="bold">si chiamò fra Cristoforo</ref>:  ossia portatore di Cristo; il nome per il frate è la metonimia dell'ucciso, quasi Cristo sofferente vittima d'espiazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n119" type="comm" target="quarantana/cap4.xml#c4_13469" targetEnd="quarantana/cap4.xml#c4_13473">
+          <ref rend="bold">il suo noviziato a ***</ref>:  il Fermo specificava a Modena. Il noviziato è un periodo di prova - preghiere, obbedienza, silenzio - cui per la durata di un anno doveva sottoporsi, prima dei voti, chi entrava nell'ordine dei Cappuccini.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n121" type="comm" target="quarantana/cap4.xml#c4_13500" targetEnd="quarantana/cap4.xml#c4_13505">
+          <ref rend="bold">ho sparso il sangue d'un uomo</ref>:  la richiesta di fra Cristoforo può apparire retorico- apologetica ma il personaggio deve rappresentare, anche emblematicamente, una vocazione all'ascesi penitenziale che spieghi anche il suo fervore di carità. Inoltre va ricordato quanto scrive il Getto...«- il sangue d'un uomo solo, sparso per mano del fratello, è troppo per tutti i secoli e per tutta la terra -. È forse al più luminosa sentenza che sia dato leggere nell'intera <hi rend="italic">Morale cattolica</hi>. Questa coscienza del valore della vita umana e della irreparabilità del delitto, profondamente sentita dal Manzoni, comunica al personaggio di fra Cristoforo il suo pathos più vivo, la sua malinconia di sempre».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n123" type="comm" target="quarantana/cap4.xml#c4_13592" targetEnd="quarantana/cap4.xml#c4_13595">
+          <ref rend="bold">un ribollimento di sdegno</ref>:  il lessema fisico del «ribollire» - nella parlata del Porta «sentiva el sangu come a buì» - registrerà poi le emozioni profonde di Lucia (CAP. XXIV,r. 254), la sua «sollevazione di pensieri e di affetti» (CAPP. XXVII, rr. 251-253, XXXVI, r. 353), ma darà corpo anche alla vitalità senza rimorsi dell'Innominato (CAP. XX, rr. 114-115).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n125" type="comm" target="quarantana/cap4.xml#c4_13653" targetEnd="quarantana/cap4.xml#c4_13655">
+          <ref rend="bold">con un'eleganza moderna</ref>:  cioè ricalcata sul francese. L'espressione era venuta di moda durante il periodo napoleonico.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n127" type="comm" target="quarantana/cap4.xml#c4_13674" targetEnd="quarantana/cap4.xml#c4_13675">
+          <ref rend="bold">restassero serviti</ref>:  si compiacessero, si degnassero. È espressione di stile cancelleresco ricalcata sullo spagnolo: «Ser servido de» era una delle molte «eleganze» spagnole introdotte in Italia fra il sedicesimo e il diciassettesimo secolo (cfr. G. L. Beccaria, <hi rend="italic">Spagnolo e spagnoli in Italia</hi>,Torino, Giappichelli, 1968).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n129" type="comm" target="quarantana/cap4.xml#c4_13689" targetEnd="quarantana/cap4.xml#c4_13727">
+          <ref rend="bold">A mezzogiorno, il palazzo brulicava... di rabescate zimarre</ref>:  la cerimonia del perdono è trasformata dalla famiglia in uno spettacolo di grande pompa («ona fola de Pagg, Staffer, e Gentiromen» come nel <hi rend="italic">Meneghin</hi> del Maggi) che l'ironia della scrittura denuncia già dalle prime battute... dall'amplificazione retorica del parallelismo («d'ogni età e d'ogni sesso», quasi che ad ogni età corrispondesse un sesso diverso) ala scansione ritmica della frase («un muoversi librato di gorgiere» è un endecasillabo, «inamidate e crespe» è un settenario) alla posizione esornativa di «strascicate». Altrettanto memorabile la scena portiana: «Ecco che riva intant al gran mattina, / ecco el palazz tutt quant in moviment, / pret in cort, pret suj scal, pret in cusina, / pienn i anticamer de l'appartament...» (<hi rend="italic">La nomina del cappellan</hi>). Le <hi rend="italic">durlindane</hi> (lunghe spade dal nome celeberrimo di quella d'Orlando), le <hi rend="italic">gorgiere</hi> (gli alti e rigidi collari, increspati a fitti cannelli),le <hi rend="italic">zimarre</hi> (i lunghi e ampi soprabiti a strascico) creano l'apparato sfarzoso della scena e insieme l'atmosfera d'arroganza e d'orgoglio che culmina nell'atteggiamento altezzoso del padrone di casa.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n131" type="comm" target="quarantana/cap4.xml#c4_13809" targetEnd="quarantana/cap4.xml#c4_13833">
+          <ref rend="bold">squadrava... cento sguardi</ref>:  negli sguardi della folla c'è prima la consapevolezza della consapevolezza altrui, poi il cerimoniale tenderà a sciogliersi in umanità diretta.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n133" type="comm" target="quarantana/cap4.xml#c4_13848" targetEnd="quarantana/cap4.xml#c4_13961">
+          <ref rend="bold">stava ritto... lo sguardo a terra... sul petto</ref>:  è un atteggiamento da quadro barocco, da ritrattistica magniloquente e celebrativa; già il Nardi parlava degli orpelli e «delle convenzioni di un secolo, o della convenzione senz'altro, per le quali la sostanza umana si perde nel meccanicismo». Ricostruendo al dimensione figurativa del romanzo uno storico dell'arte ricorda che nella <hi rend="italic">Benedizione della Croce</hi> del Cerano è tutto «un girare, un rimescolarsi di gran cappe...».
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n135" type="comm" target="quarantana/cap4.xml#c4_13884" targetEnd="quarantana/cap4.xml#c4_13914">
+          <ref rend="bold">C'è talvolta, nel volto... un'effusione dell'animo... un solo</ref>:  distogliendo il lettore dalla superba esteriorità dell' «apparecchio», l'intervento diegetico del narratore - attento ai fenomeni umani nelle loro costanti - richiama il lettore sulla psicologia della folla e sul colpo di scena che sta per accadere.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n137" type="comm" target="quarantana/cap4.xml#c4_13952" targetEnd="quarantana/cap4.xml#c4_14002">
+          <ref rend="bold">si pose in ginocchioni... io sono l'omicida... per l'amor di Dio</ref>:  la formula con la quale fra Cristoforo supplica il perdono è quella della massima umiliazione, prescritta dettagliatamente dai trattati cavallereschi. Ma - come osserva il Bonora - oltre al rispetto per il costume secentesco, oltre al gusto della ricostruzione filologico-erudita, importa soprattutto la verità psicologica del turbamento che coglie il gentiluomo e la folla.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n139" type="comm" target="quarantana/cap4.xml#c4_14059" targetEnd="quarantana/cap4.xml#c4_14119">
+          <ref rend="bold">alzatevi... codesta positura</ref>:  il turbamento del gentiluomo, preparatosi a recitare una parte di «degnazione» congrua ad un atteggiamento d'«ira compressa», è reso splendidamente dalla mimesi verbale per cui, quasi a cancellare i segni dell'ostilità, l'«offesa» diventa «il fatto», il fratello «un uomo... un po' impetuoso» e la considerazione per l'abito si trasforma in considerazione per la persona. Il gentiluomo che già prima aveva ceduto alla spregiudicata diplomazia del padre guardiano ora si arrende a discrezione, suggestionato più che dalle circostanze dalla sincerità e totale volontà di espiazione di fra Cristoforo. Il repentino passaggio dal <hi rend="italic">voi</hi> al <hi rend="italic">lei</hi> («alzatevi. S'alzi, padre»), dal pronome che segnava la distanza dell'inferiore al pronome usato fra i pari, registra - dopo il turbamento - un crescente rispetto. La rettifica pronominale inverte quella anteriore della disputa di Lodovico e della «mentita» («Voi mentite... tu menti ch'io abbia mentito», rr. 146-147).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n141" type="comm" target="quarantana/cap4.xml#c4_14785" targetEnd="quarantana/cap4.xml#c4_14254">
+          <ref rend="bold">Perdono?... il bacio di pace</ref>:  se queste effusioni di fraternità del gentiluomo nascono dall'euforia generale, segnano invece - da parte di fra Cristoforo - l'inizio della sua espiazione. Il perdono agisce sul passato, ripete e rievoca in qualche modo l'accaduto purificandolo, lo conserva nel presente purificato. Ma l'essere perdonato non è l'essere innocente.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n143" type="comm" target="quarantana/cap4.xml#c4_14352" targetEnd="quarantana/cap4.xml#c4_14374">
+          <ref rend="bold">un pane... del suo perdono</ref>:  padre Cristoforo porterà sempre con sé questo pane del perdono per lasciarlo a Renzo prima di morire come ricordo e monito (CAP. XXXVI).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n145" type="comm" target="quarantana/cap4.xml#c4_14388" targetEnd="quarantana/cap4.xml#c4_14390">
+          <ref rend="bold">in gran gala</ref>:  è il mil. <hi rend="italic">de  parada</hi>.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n147" type="comm" target="quarantana/cap4.xml#c4_14529" targetEnd="quarantana/cap4.xml#c4_14621">
+          <ref rend="bold">La compagnia... il conte Muzio... marchese Stanislao... fra Simone</ref>:  dopo la tensione dell'abbraccio, del bacio di pace e del dono del pane, lentamente tutti gli invitati tendono a rientrare nella loro dimensione abituale e la commozione degrada nella bonaria cordialità degli aneddoti apologetici, miracolistici. Ma con puntiglio documentario il narratore utilizza i nomi di personaggi ricordati dalle <hi rend="italic">Memorie</hi> di Pio La Croce, ossia il cremonese conte Muzio Pallavicino e il marchese Stanislao Piasio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n149" type="comm" target="quarantana/cap4.xml#c4_14561" targetEnd="quarantana/cap4.xml#c4_14562">
+          <ref rend="bold">d'impegni spuntati</ref>:  assolti secondo la logica del puntiglio o punto d'onore. Già il Maggi - con la moralità popolare del savio Segretario del Senato milanese - invitava... «da nun sia sbandì / Quell'orgoeuij da Ciappin de tegnì 'l pont» («da noi sia bandito quell'orgoglio del demonio di stare in puntiglio»; cfr. C. M. Maggi, <hi rend="italic">Le rime milanesi</hi>, a cura di D. Isella, Pistoia, Edizioni Can bianco, 1985, p. 57).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n151" type="comm" target="quarantana/cap4.xml#c4_14666" targetEnd="quarantana/cap4.xml#c4_14688">
+          <ref rend="bold">diavolo d'un frate... scusa io... ammazzato il fratello</ref>:  nella spiritosaggine del gentiluomo, nella superficialità del suo gioco ossimorico («diavolo-frate») si avverte quasi lo stupore per la resa incondizionata, per l'imprevisto ravvedimento.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n153" type="comm" target="quarantana/cap4.xml#c4_14690" targetEnd="quarantana/cap4.xml#c4_14713">
+          <ref rend="bold">La nostra storia... più alla mano</ref>:  il ricorso al manoscritto, fingendo lo scrupolo del cronista, mentre conferma l'effetto edificante del gesto di fra Cristoforo ne riduce l'aura apologetico-miracolistica.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n155" type="comm" target="quarantana/cap4.xml#c4_14852" targetEnd="quarantana/cap4.xml#c4_14853">
+          <ref rend="bold">accomodar differenze</ref>:  appianare contrasti. Quella di fra Cristoforo è, per dirla nel linguaggio laico di un Rawls, una «moralità di supererogazione», che «rappresenta la forma più elevata di perfezione morale, l'amore per l'umanità e il dominio di sé» e «rischia l'insuccesso a causa della sua stessa natura» (pp. 396 ss.).
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n157" type="comm" target="quarantana/cap4.xml#c4_14859">
+          <ref rend="bold">genio</ref>:  inclinazione.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n159" type="comm" target="quarantana/cap4.xml#c4_14919" targetEnd="quarantana/cap4.xml#c4_14920">
+          <ref rend="bold">enfasi solenne</ref>:  il piglio sostenuto della predicazione. Il narratore sembra preannunciare il tono oratorio che fra Cristoforo talvolta assumerà, giustificandolo come deformazione professionale e come traccia dell'antico spirito battagliero.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n161" type="comm" target="quarantana/cap4.xml#c4_14962" targetEnd="quarantana/cap4.xml#c4_14966">
+          <ref rend="bold">Un suo confratello ed amico</ref>:  il «confratello» è il narratore travestito che sdoppiandosi delega ad un personaggio il suo giudizio.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n163" type="comm" target="quarantana/cap4.xml#c4_14977" targetEnd="quarantana/cap4.xml#c4_14994">
+          <ref rend="bold">parole troppo espressive... smozzicate</ref>:  il Fermo precisava che erano parole esprimenti «ciò che vi ha di più sozzo o ciò che vi ha di più riverito», ossia bestemmie, esclamazioni blasfeme e interiezioni sul tipo di «perdio» mutato in «permio», «cribbio» (alterazione eufemistica di Cristo), «diamine» (derivato dalla fusione di <hi rend="italic">diabole</hi> e <hi rend="italic">domine</hi>). Attraverso la prospettiva dell'amicizia si produce dunque, sul piano del racconto, una sorta di distanza confidenziale dal personaggio e la perifrasi attenua ciò che vi è di sconveniente o pericoloso nella parola, nel lessico abnorme della bestemmia.
+                     </note>
+        <note xml:id="Raimondi-Bottoni_cap4-n165" type="comm" target="quarantana/cap4.xml#c4_15141">
+          <ref rend="bold">aspo</ref>:  la spola girevole su cui si ravvolge il filo per formare una matassa.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

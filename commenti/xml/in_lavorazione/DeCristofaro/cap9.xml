@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-25">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap9">
+        <note xml:id="DeCristofaro_cap9-n2" type="comm" target="quarantana/cap9.xml#c9_10001">
+          <ref rend="bold">Intestazione</ref>:  [Francesco] Gonin. Per l’intestazione col tipo del rapace che vola su due colombe, cfr. V <hi rend="italic">Intestazione</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n4" type="comm" target="quarantana/cap9.xml#c9_10001">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale del C. 9. Il baroccio era quivi preparato.» Nell’edizione originale l’immagine di apertura è affrontata a quella conclusiva del capitolo precedente: il passaggio dal viaggio in barca allo spostamento via terra risulta rafforzato dall’accostamento delle immagini. «Dalla barca al baroccio», ha sintetizzato Nigro (2002).
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n6" type="comm" target="quarantana/cap9.xml#c9_10001" targetEnd="quarantana/cap9.xml#c9_10026">
+          <ref rend="bold">L’urtar che… svegliasse</ref>:  Come spesso in Manzoni e in specie nei suoi <hi rend="italic">incipit</hi>, entro un solo periodo (breve, scandito, con la sola inarcatura sublime di «proda») viene offerta all’occhio del lettore una serie continuata di inquadrature. È un cominciamento di singolare efficacia, che non solo restituisce con immediatezza di sguardo la semplicità dei gesti e dei sensi, ma mette anche a profitto le risorse ritmiche e fonosimboliche della forma romanzo: così che alla rapidità della paratassi e della punteggiatura fa da frizione, più ancora che da contrappunto, la lentezza dei movimenti e delle posture. Lucia non sta <hi rend="italic">realmente</hi> uscendo dal sonno; ma, se prima aveva posato la fronte sul braccio, «come per dormire», ora è «come se» stesse svegliandosi: quasi da una fase di dormiveglia ipnagogico e d’incanto elegiaco fosse chiamata alla vita vera, alla materialità del quotidiano, alla realtà. E anche il narratore deve ormai abbandonare la tentazione lirica e il «controlinguaggio notturno» (de Certeau [1975]), per volgersi infine ai rigori della prosa.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n9" type="comm" target="quarantana/cap9.xml#c9_10027" targetEnd="quarantana/cap9.xml#c9_10111">
+          <ref rend="bold">Renzo uscì… malgrado, servito</ref>:  Davanti alla mancia rifiutata dal barcaiolo, già destinata a ricompensare il pavido curato, si distende, in maniera anche troppo didascalica e manichea, la tavola di valori manzoniana, che vede contrapporsi i valori della carità e dell’altruismo ai disvalori dell’utilitarismo e della meschinità. Intravediamo così, giusto sulla soglia dei capitoli più tenebrosi e ideologicamente carichi dei <hi rend="italic">Promessi Sposi</hi>, un primo e inatteso spiraglio di salvezza: il tempo del mercante ha invaso la Chiesa, ma il tempo della Chiesa si prende una sua piccola rivincita proprio nel momento paradigmatico della retribuzione di una prestazione d’opera.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n11" type="comm" target="quarantana/cap9.xml#c9_10084">
+          <ref rend="bold">sdrucciolare</ref>:  ‘scivolare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n12" type="comm" target="quarantana/cap9.xml#c9_10102">
+          <ref rend="bold">regalar</ref>:  ‘ricompensare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n15" type="comm" target="quarantana/cap9.xml#c9_10112" targetEnd="quarantana/cap9.xml#c9_10185">
+          <ref rend="bold">Il baroccio… trovano avviluppate</ref>:  L’uso della metafora del “viluppo” collima singolarmente con la contemporanea teoria hegeliana sulla sovradeterminazione che limita e appunto <hi rend="italic">inviluppa</hi> l’individuo (Estetica, 1835). Un’immagine che, peraltro, discende dal sensismo di un Condillac: dove però era modulata in modo opposto, riguardando il soggetto e non la trama della realtà.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n17" type="comm" target="quarantana/cap9.xml#c9_10165">
+          <ref rend="bold">progresso</ref>:  ‘seguito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n18" type="comm" target="quarantana/cap9.xml#c9_16290">
+          <ref rend="bold">cagione</ref>:  ‘causa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n21" type="comm" target="quarantana/cap9.xml#c9_10186" targetEnd="quarantana/cap9.xml#c9_10260">
+          <ref rend="bold">in un intrigo… altra parte</ref>:  Quello che cominciava qui era, nel <hi rend="italic">Fermo</hi>, un vero e proprio “romanzo nel romanzo”, che occupava la maggior parte del secondo tomo: diversa era la misura accordata alla trama secondaria sulla «Signora», diversi lo stile e la costruzione narrativa, vacillanti fra realismo e melodramma. Assai più stridente, inoltre, risultava la transizione dall’avventura amorosa e medio-borghese fin qui al centro della scena alla lunga <hi rend="italic">enclave</hi> morbosa e aristocratica della monaca di Monza. Come si è detto, il <hi rend="italic">Fermo</hi> recava titoli assai singolari, inscritti in una tradizione umoristica nota a Manzoni in modo indiretto (cioè attraverso le traduzioni francesi del <hi rend="italic">Tristram Shandy</hi> e del <hi rend="italic">Viaggio sentimentale</hi> del maestro inglese dell’antiromanzo, Laurence Sterne): i due primi capitoli del secondo tomo si presentavano rispettivamente come «Digressione – La Signora» e «La Signora, tuttavia...». Un modo di “montare” e di scandire la storia fortemente metaletterario e patetico, quasi da didascalia: il che è evidente specie nel secondo titolo, che sembra presagire certi impieghi tipici del muto o del fotoromanzo. Subito dopo questa “soglia”, iniziava appunto una <hi rend="italic">Digressione</hi> a carattere saggistico e in forma dialogica (di ascendenza diderotiana), forma che consentiva a Manzoni di drammatizzare le proprie idee estetiche, decisamente scomode, e di disporle sopra un bonario registro conversevole. Nel rielaborare la giuntura, l’estensore dei <hi rend="italic">Promessi Sposi</hi> ha cancellato quella “digressione nella digressione”, il cui idolo polemico erano il cattivo gusto <hi rend="italic">romanesque</hi> e le sue derive <hi rend="italic">kitsch</hi>. Ha reso invece pertinente un corollario dell’artificio narrativo del manoscritto, e ne ha messo a frutto le implicazioni teoriche: ha, cioè, avvolto nel mistero la “storia vera” che si accinge a riprendere, attribuendo all’anonimo «autore» la responsabilità delle lacune. Così, se i capitoli a seguire saranno all’insegna della <hi rend="italic">reticentia</hi> e della censura, tanto che Bragantini (2011) ha parlato di diegesi «silenziaria», ciò sarà dovuto agli <hi rend="italic">omissis</hi> della testimonianza storica a cui ci si riferisce.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n23" type="comm" target="quarantana/cap9.xml#c9_10223" targetEnd="quarantana/cap9.xml#c9_10224">
+          <ref rend="bold">in succinto</ref>:  ‘sinteticamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n24" type="comm" target="quarantana/cap9.xml#c9_10251" targetEnd="quarantana/cap9.xml#c9_10253">
+          <ref rend="bold">le nostre diligenze</ref>:  ‘le nostre diligenti ricerche’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n27" type="comm" target="quarantana/cap9.xml#c9_10261" targetEnd="quarantana/cap9.xml#c9_10263">
+          <ref rend="bold">Uno storico milanese</ref>:  Josephi Ripamontii, Historiae Patriae, Decadis V, Lib. VI, Cap. III, pag. 358 et seq. [N.d.A.]
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n29" type="comm" target="quarantana/cap9.xml#c9_10275" targetEnd="quarantana/cap9.xml#c9_10336">
+          <ref rend="bold">che ha avuto… senz’altro</ref>:  Il passaggio dall’intrigo comico della trama maestra alla fosca sottotrama di Gertrude – fatta di «mezze tinte dei mezzi sentimenti», avrebbe detto Verga – implica anche un inedito paradigma di <hi rend="italic">documentalità</hi>: così, mentre viene tirata in ballo, senza filtri e con inedita salienza, la parola dell’Anonimo, il narratore si autorappresenta come attore di una <hi rend="italic">detection</hi> storica, sulle tracce di indizi ed elementi da collazionare, in un gioco di pazienza che coniuga etica intellettuale e curiosità erudita.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n31" type="comm" target="quarantana/cap9.xml#c9_10337" targetEnd="quarantana/cap9.xml#c9_10366">
+          <ref rend="bold">Nel vasto… della famiglia</ref>:  Spagnoli, i de Leyva si erano trasferiti a Milano nel primo Cinquecento: a cavallo tra i due secoli un Antonio de Leyva fu dapprima feudatario di Monza e poi governatore di Milano, mentre il suo secondogenito don Martino (15501600) sposò Virginia Marino, possidente vedova di un Savoia, e dall’innesto di queste due prestigiose dinastie nacque il personaggio reale che fornì a Manzoni lo spunto per la storia di Gertrude. Già all’altezza del <hi rend="italic">Fermo</hi>, la fonte dichiarata in nota è costituita dall’<hi rend="italic">Historia Patria</hi> del canonico Giuseppe Ripamonti (1574-1643), cattedratico di sacra eloquenza presso il seminario di Milano; tra la Ventisettana e la Quarantana Manzoni poté accedere agli atti del processo, conservati all’Archivio della Curia milanese e pubblicati nel 1985 da G. Vigorelli.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n33" type="comm" target="quarantana/cap9.xml#c9_10340">
+          <ref rend="bold">induzioni</ref>:  ‘supposizioni’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n36" type="comm" target="quarantana/cap9.xml#c9_10367" targetEnd="quarantana/cap9.xml#c9_10463">
+          <ref rend="bold">ma, sebbene… più abbondante</ref>:  La scenetta del barcaiolo si replica con un altro personaggio umile e dotato di una religiosità “trascendentale”, il barocciaio: né si tratta di un banale bis, perché stavolta non ne va di altruismo orizzontale fra i cristiani, ma dell’«altra ricompensa, più lontana, ma più abbondante» che può essere elargita nel regno dei cieli.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n38" type="comm" target="quarantana/cap9.xml#c9_10474">
+          <ref rend="bold">governare</ref>:  ‘accudire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n40" type="comm" target="quarantana/cap9.xml#c9_10478" targetEnd="quarantana/cap9.xml#c9_10704">
+          <ref rend="bold">Dopo una... e partì</ref>:  In questo paragrafo più che altrove, la prospettiva manzoniana si produce in una sorta di basculamento fra l’interno e l’esterno, in un moto perpetuo dalle coscienze dei personaggi ai loro affaccendamenti, dalle sensazioni alle azioni e ai pochi, stremati atti linguistici. Realistici sono i moti dell’aria e del corpo, così come lo è l’accenno economicistico e irrituale alla frugalità della colazione (viene persino adoperato un termine tecnico quale «contingenti»); realistico è l’affondo psicologico sul rimpianto per il matrimonio e il banchetto che non si sono realizzati, suscitando un diffuso scoramento negli antieroi manzoniani. Al pari dei sospiri, anche le lacrime non possono essere trattenute, nonostante l’esercizio profondamente morale del contegno e della dignità. I personaggi «si concertano», ma è soprattutto il narratore a concertarne le voci e le sensazioni, facendo di essi una sorta di super-soggetto unico, empaticamente saldato: tanto da suggellare la sequenza con un paradossale commiato «per delega» (Raimondi-Bottoni), dove, con infrazione d’un <hi rend="italic">topos</hi> antichissimo, l’amante è surrogata dalla madre; e tanto da configurare un registro segnatamente e icasticamente mimetico rispetto alla parlata dei suoi eroi di carta («forte forte»).
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n42" type="comm" target="quarantana/cap9.xml#c9_10564">
+          <ref rend="bold">contingenti</ref>:  ‘eventuali’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n43" type="comm" target="quarantana/cap9.xml#c9_10607">
+          <ref rend="bold">allogate</ref>:  ‘sistemate’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n44" type="comm" target="quarantana/cap9.xml#c9_10640">
+          <ref rend="bold">ciarlerebbe</ref>:  ‘avrebbe fatto pettegolezzi’
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n45" type="comm" target="quarantana/cap9.xml#c9_10665" targetEnd="quarantana/cap9.xml#c9_10666">
+          <ref rend="bold">si concertaron</ref>:  ‘presero accordi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n48" type="comm" target="quarantana/cap9.xml#c9_10705" targetEnd="quarantana/cap9.xml#c9_10748">
+          <ref rend="bold">Le donne… ognun sa</ref>:  L’occhio vivente del narratore non risparmia vezzosi cenni d’intesa nei confronti del pubblico della “cantafavola”, adombrandola come una ciurma di uomini di mondo, sufficientemente scaltriti e pratici del luogo. È con staffilate repentine e in apparenza innocue come questa che Manzoni designa la dimensione e lo statuto del “mondo possibile” che inventa: la vicenda di Gertrude viene percepita come un aneddoto locale, qualcosa che ha coordinate precise e un raggio di manovra agevolmente gestibile dal lettore medio. Naturalmente, è proprio tale mossa (un esemplare “effetto di verità”) ad accentuarne, per contrasto, la sublime, tragica, universale potenza simbolica.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n50" type="comm" target="quarantana/cap9.xml#c9_10711">
+          <ref rend="bold">impicciate</ref>:  ‘in difficoltà’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n54" type="comm" target="quarantana/cap9.xml#c9_10777" targetEnd="quarantana/cap9.xml#c9_10857">
+          <ref rend="bold">«Oh! fra… e d’interesse</ref>:  Identificazione della calligrafia, decifrazione dei tratti del viso e dei toni vocali del padre guardiano, infine lettura e interpretazione della sua espressione («sorpresa», «indignazione», «pietà», «interesse») di questi: si consolidano qui un paradigma e un codice di natura fisiognomica, assai vicini – malgrado Manzoni, almeno a giudicare dalle straordinarie testimonianze dell’incontro tra i due scrittori: cfr. Bongiovanni Bertini (2012) – al realismo e alla visione del mondo di Balzac.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n56" type="comm" target="quarantana/cap9.xml#c9_10783">
+          <ref rend="bold">carattere</ref>:  ‘grafia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n59" type="comm" target="quarantana/cap9.xml#c9_10858" targetEnd="quarantana/cap9.xml#c9_10879">
+          <ref rend="bold">Finito ch’ebbe… quest’impegno...»</ref>:  Da subito la figura di Gertrude è una specie di ente separato: anche la prima frase che la riguarda, lasciata in sospeso, pare rendere pertinente ed enfatizzare questo suo carattere di alterità assoluta, questo fluttuare del personaggio fra universale e reale. Reale, peraltro, Gertrude almeno in parte lo è: essendo modellata su Marianna de Leyva (1575-1650), figura storica di cui Ripamonti (cfr. <hi rend="italic">supra</hi>) aveva narrato soprattutto il pentimento, e assai meno le colpe connesse alla sua relazione con Giovanni Paolo Osio (l’Egidio manzoniano).
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n61" type="comm" target="quarantana/cap9.xml#c9_10936" targetEnd="quarantana/cap9.xml#c9_10994">
+          <ref rend="bold">Le donne… voglio dire»</ref>:  L’importanza accordata dal padre guardiano alla reputazione sociale, con quel sovrappiù di ironia sorniona addotto dalla rettifica in coda («con una bella giovine… con donne voglio dire»), è sufficiente per fornire un’idea della pasta dell’uomo: soprattutto se il lettore rapporta il suo discorso all’«omnia munda mundis» di fra Cristoforo. Anche il fatto che, prima di prendere una decisione, egli si apparti a interloquire con Agnese (perfino Gertrude farà l’esatto contrario), piuttosto che con la persona più direttamente coinvolta, restituisce in modo sintomatico una mentalità di tipo familista e retrivo, fondamentalmente incapace di auscultare le istanze profonde del soggetto.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n63" type="comm" target="quarantana/cap9.xml#c9_10957">
+          <ref rend="bold">discoste</ref>:  ‘lontane’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n65" type="comm" target="quarantana/cap9.xml#c9_10995" targetEnd="quarantana/cap9.xml#c9_11232">
+          <ref rend="bold">Così dicendo… sull’altare.»</ref>:  La prima volta che la signora compare nel testo, in effetti noi non la <hi rend="italic">vediamo</hi>; e anche l’apparente scioglimento dell’enigma affidato alle parole del barocciaio è una falsa partenza, un ulteriore ingarbugliamento: perché parte con un’approssimazione (in negativo) tutta concentrata sulle cariche ecclesiastiche, perché riguarda il solo livello politico-sociale, perché è completamente filtrato attraverso le categorie mentali e linguistiche di un povero diavolo, infine perché non sappiamo quanto la parola del personaggio sia affidabile. Tuttavia, Manzoni ha avuto l’arguzia di consegnare a questa figura minore non solo un’informazione esaustiva, ma anche un’enunciazione figuralmente spinta, soprattutto nell’immagine della «costola d’Adamo» (che è fraseologia meneghina, di derivazione biblica, per indicare il sangue blu) e nella <hi rend="italic">pointe</hi> finale: dove la parola del testo si fa biaccentata, bifida, giacché sull’altare si eseguono anche sacrifici.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n67" type="comm" target="quarantana/cap9.xml#c9_11181" targetEnd="quarantana/cap9.xml#c9_11184">
+          <ref rend="bold">far alto e basso</ref>:  ‘fare il bello e il cattivo tempo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n69" type="comm" target="quarantana/cap9.xml#c9_11233" targetEnd="quarantana/cap9.xml#c9_11255">
+          <ref rend="bold">Quando fu… anch’esso</ref>:  L’«antico torracchione mezzo rovinato» e il «pezzo di castellaccio, diroccato anch’esso» costituiscono i principali formanti di un paesaggio degenerato: degenerato negli incongrui esiti suffissali dei sostantivi, nella ridondanza dei participi passati, nell’enfasi sulla residualità degli elementi architettonici. Secondo una tecnica antica, già indagata da Orlando (1993), attraverso gli oggetti viene restituita la decadenza di un <hi rend="italic">ancien régime</hi>: decadenza che, movendo dal piano politico ed economico, finisce per intaccare le stesse tavole morali dei soggetti. alla porta del borgo: porta Milano.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n71" type="comm" target="quarantana/cap9.xml#c9_11256" targetEnd="quarantana/cap9.xml#c9_11268">
+          <ref rend="bold">che forse… in piedi</ref>:  Il riferimento ai ruderi del castello di Monza, costruito nel 1325 da Galeazzo Visconti e totalmente abbattuto nel 1814, induce il narratore, che nel primo capitolo s’era esibito nella proverbiale professione di modestia dei «venticinque lettori», in un bizzarro <hi rend="italic">lapsus</hi> numerico. Se infatti i testimoni autoptici e ben informati (in quanto, al contempo, locali e anziani: dove sembra già di vedere, un secolo prima, il «narratore» di Walter Benjamin, capace di custodire e tramandare la memoria dei luoghi) ammontassero davvero a dieci – cifra che peraltro corrisponde al «numero d’affetto», cioè dei presunti lettori, dichiarato in una lettera a Fauriel dell’11 giugno 1827 – ne risulterebbe una ben più nutrita <hi rend="italic">audience</hi> attesa. Le bugie degli scrittori eccessivamente confidenziali hanno le gambe corte.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n74" type="comm" target="quarantana/cap9.xml#c9_11269" targetEnd="quarantana/cap9.xml#c9_11553">
+          <ref rend="bold">il guardiano… monaca ritta</ref>:  Con una carrellata al rallentatore, e con una precisione topografica degna di un antiquario, Manzoni, dopo aver disegnato la scena dei prossimi capitoli (il monastero di Santa Margherita, tenuto fino al 1511 dalle Umiliate e, una volta soppresso tale ordine, dalle Benedettine), insegue le due donne e il religioso attraverso lo spazio sinistro – “l’altro reame” delle “narrazioni magiche” – del convento: le raccomandazioni del padre guardiano, le inquisizioni della fattoressa, lo stato di “incantamento” (termine proveniente dall’idiomatico <hi rend="italic">incantàa</hi>), che è poi spaesamento, di Lucia preparano l’epifania della signora, che emana subito una risonanza figurale e un carisma quasi massonici.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n76" type="comm" target="quarantana/cap9.xml#c9_12985">
+          <ref rend="bold">fattoressa</ref>:  donna dedita alla gestione e all’approvvigionamento del convento.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n77" type="comm" target="quarantana/cap9.xml#c9_11405" targetEnd="quarantana/cap9.xml#c9_11407">
+          <ref rend="bold">modo di portarsi</ref>:  ‘contegno’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n78" type="comm" target="quarantana/cap9.xml#c9_11508" targetEnd="quarantana/cap9.xml#c9_11510">
+          <ref rend="bold">non iscorgendo persona</ref>:  ‘non vedendo nessuno’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n79" type="comm" target="quarantana/cap9.xml#c9_11546" targetEnd="quarantana/cap9.xml#c9_11547">
+          <ref rend="bold">un palmo</ref>:  misura corrispondente alla distanza tra la punta del pollice e quella del mignolo.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n82" type="comm" target="quarantana/cap9.xml#c9_11554" targetEnd="quarantana/cap9.xml#c9_11903">
+          <ref rend="bold">Il suo aspetto… del vestimento</ref>:  Il “medaglione”, fra i più lunghi e celebrati del romanzo, intreccia, secondo l’ortodossia realista, etopea e prosopopea, cioè ritratto morale e ritratto fisico. L’ossimoro protratto della «bellezza sbattuta, sfiorita e, direi quasi, scomposta», l’attenzione verso l’abbigliamento, replicato in modo perfino ridondante nell’illustrazione di Gonin (il nero del velo, il bianco della benda e della fronte, il nero delle sopracciglia, della ciocca “ribelle” di capelli e degli occhi, il bianco delle gote e del sottogola, poi di nuovo il nero del saio), l’espressione facciale dinamica e icastica (con quegli occhi subliminalmente zoomorfi che sembrano «cercare un nascondiglio»), tutto si unisce in una descrizione in cui l’aspetto esteriore descrive e riassume anche l’interiorità della signora, prefigurandone addirittura il destino. Valori come «dolore», «superbia», «pietà», «odio», «disprezzo», «preoccupazione», «orgoglio» sono evocati come “modalizzatori” o predicati degli elementi della descrizione (cfr. Magli [1989]: 220).
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n84" type="comm" target="quarantana/cap9.xml#c9_11577">
+          <ref rend="bold">scomposta</ref>:  ‘anormale’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n85" type="comm" target="quarantana/cap9.xml#c9_11629">
+          <ref rend="bold">soggolo</ref>:  ‘sottogola’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n86" type="comm" target="quarantana/cap9.xml#c9_11647">
+          <ref rend="bold">raggrinzava</ref>:  ‘aggrottava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n87" type="comm" target="quarantana/cap9.xml#c9_11697">
+          <ref rend="bold">argomentato</ref>:  ‘arguito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n88" type="comm" target="quarantana/cap9.xml#c9_11701">
+          <ref rend="bold">corrispondenza</ref>:  ‘solidarietà’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n89" type="comm" target="quarantana/cap9.xml#c9_11713" targetEnd="quarantana/cap9.xml#c9_11715">
+          <ref rend="bold">inveterato e compresso</ref>:  antico e quindi come rappreso.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n90" type="comm" target="quarantana/cap9.xml#c9_11779">
+          <ref rend="bold">estenuazione</ref>:  ‘consumazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n91" type="comm" target="quarantana/cap9.xml#c9_11848" targetEnd="quarantana/cap9.xml#c9_11852">
+          <ref rend="bold">di studiato o di negletto</ref>:  di ricercatamente trascurato.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n92" type="comm" target="quarantana/cap9.xml#c9_11866">
+          <ref rend="bold">secolaresca</ref>:  ‘mondana’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n93" type="comm" target="quarantana/cap9.xml#c9_11903">
+          <ref rend="bold">vestimento</ref>:  cerimonia durante la quale le monache prendono i voti.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n97" type="comm" target="quarantana/cap9.xml#c9_11904" targetEnd="quarantana/cap9.xml#c9_12250">
+          <ref rend="bold">Queste cose… di Lucia</ref>:  L’interrogazione insinuante che segue a questa prima reticenza subita dalla monaca – da un personaggio, cioè, che ha fatto proprio di quella figura retorica un’arte e un modo di stare al mondo – proietta immediatamente un’ombra di inquietante modernità sui meccanismi di autocensura e di denegazione che costelleranno il resto del capitolo. Inoltre il narratore configura un campo semiotico di sicura leggibilità, che, contrapponendo i candori e i rossori di Lucia a quelli di Gertrude, finisce per dicotomizzare lo scarto morale fra i personaggi.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n99" type="comm" target="quarantana/cap9.xml#c9_11978">
+          <ref rend="bold">vòti</ref>:  i fori della grata.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n100" type="comm" target="quarantana/cap9.xml#c9_12174" targetEnd="quarantana/cap9.xml#c9_12175">
+          <ref rend="bold">in enimma</ref>:  ‘misteriosamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n101" type="comm" target="quarantana/cap9.xml#c9_12188" targetEnd="quarantana/cap9.xml#c9_12189">
+          <ref rend="bold">per minuto</ref>:  ‘in modo approfondito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n102" type="comm" target="quarantana/cap9.xml#c9_12216">
+          <ref rend="bold">verecondia</ref>:  ‘pudore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n105" type="comm" target="quarantana/cap9.xml#c9_12251" targetEnd="quarantana/cap9.xml#c9_12410">
+          <ref rend="bold">«Basterà dire,»... a rispondere</ref>:  La strana confidenza tra Gertrude e Lucia, insorta sotto l’insegna della condivisione muliebre e dunque di una sorta di surrogazione del rapporto protettivo fra «madre» e figlia, assume subito le tinte viscide del «dubbio maligno», inibendo ogni risposta alla giovane. L’intervento sollecito e intempestivo della «madre» autentica, di Agnese, frustrerà ancora di più questa comunione scandalosa fra il bene e il male, provocando l’ira (e perfino una fulminea metamorfosi) di Gertrude e la mortificazione di Agnese.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n107" type="comm" target="quarantana/cap9.xml#c9_12299" targetEnd="quarantana/cap9.xml#c9_12300">
+          <ref rend="bold">ebbe cuore</ref>:  ‘non si fece scrupoli’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n110" type="comm" target="quarantana/cap9.xml#c9_12411" targetEnd="quarantana/cap9.xml#c9_12772">
+          <ref rend="bold">«Signora...… a solo</ref>:  Che l’unica interlocuzione dialogica dotata di «verità» fosse quella duale, che cioè l’intervento di terzi inquinasse a priori ogni <hi rend="italic">conversazione</hi> fra gli individui, era tra gli assunti che governavano la narrazione del grande modello di queste pagine, <hi rend="italic">La réligieuse</hi> di Diderot, ma la tentazione polifonica di Manzoni era troppo forte perché questo capitolo, sebbene tragico e “interiore” come forse nessun altro, togliesse il diritto di parola e di pronto intervento alle molteplici e rumorose controvoci dei comprimari.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n112" type="comm" target="quarantana/cap9.xml#c9_12421" targetEnd="quarantana/cap9.xml#c9_12422">
+          <ref rend="bold">a dire</ref>:  ‘da dire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n113" type="comm" target="quarantana/cap9.xml#c9_12614">
+          <ref rend="bold">impicciata</ref>:  ‘imbarazzata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n114" type="comm" target="quarantana/cap9.xml#c9_12633">
+          <ref rend="bold">sgranchirsi</ref>:  ‘sciogliersi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n115" type="comm" target="quarantana/cap9.xml#c9_12637" targetEnd="quarantana/cap9.xml#c9_12639">
+          <ref rend="bold">lasciare in secco</ref>:  ‘lasciare in difficoltà’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n116" type="comm" target="quarantana/cap9.xml#c9_12659" targetEnd="quarantana/cap9.xml#c9_12661">
+          <ref rend="bold">che mi discorreva</ref>:  ‘con il quale ero fidanzata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n117" type="comm" target="quarantana/cap9.xml#c9_12719" targetEnd="quarantana/cap9.xml#c9_12722">
+          <ref rend="bold">a far questa faccia</ref>:  ‘a rimediare questa brutta figura’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n118" type="comm" target="quarantana/cap9.xml#c9_12728">
+          <ref rend="bold">incomodare</ref>:  ‘scomodare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n121" type="comm" target="quarantana/cap9.xml#c9_12773" targetEnd="quarantana/cap9.xml#c9_12949">
+          <ref rend="bold">Non che… e sorelle?»</ref>:  È già la terza volta, nel corso del capitolo, che la decodifica dell’espressione della monaca si serve del paradossale espediente dell’indefinizione («un non so che»). Né si può postulare, dato il perfezionismo dell’«eterno lavoro», un’inerzialità stilistica: viceversa, Manzoni tiene a estendere la resistenza dell’enigma di Gertrude al punto di vista, altrimenti onnisciente e onnicomprensivo, del narratore.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n123" type="comm" target="quarantana/cap9.xml#c9_12778">
+          <ref rend="bold">schiarimenti</ref>:  ‘chiarimenti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n124" type="comm" target="quarantana/cap9.xml#c9_12783" targetEnd="quarantana/cap9.xml#c9_12785">
+          <ref rend="bold">servire alle premure</ref>:  ‘accontentare i desideri’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n125" type="comm" target="quarantana/cap9.xml#c9_12796" targetEnd="quarantana/cap9.xml#c9_12797">
+          <ref rend="bold">compitezza studiata</ref>:  ‘affettata cortesia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n126" type="comm" target="quarantana/cap9.xml#c9_12920" targetEnd="quarantana/cap9.xml#c9_12922">
+          <ref rend="bold">far capitale di</ref>:  ‘trarre frutto da’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n129" type="comm" target="quarantana/cap9.xml#c9_12950" targetEnd="quarantana/cap9.xml#c9_13126">
+          <ref rend="bold">Così detto… qualche cosa. –</ref>:  Lo «stile semplice» manzoniano, dopo avere vinto a più riprese la sfida del parlato, si cimenta in una umorosa “mimesi del pensato”. Le frasi idiomatiche, i capricci del lessico, la sapienzialità bonaria ci restituiscono, nella forma d’un soliloquio deambulante che replica la passeggiata di don Abbondio all’inizio della storia, lo spaccato di un <hi rend="italic">intérieur</hi> leggero e schiacciato, la cui intelligenza pratica e genuina da «provetto cappuccino» fa spiccare ancor più quell’anima nera che si accinge a occupare il proscenio.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n131" type="comm" target="quarantana/cap9.xml#c9_12954">
+          <ref rend="bold">conversa</ref>:  suora laica, cioè che non ha preso i voti, ma veste l’abito religioso svolgendo nel convento le mansioni più umili.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n132" type="comm" target="quarantana/cap9.xml#c9_12981" targetEnd="quarantana/cap9.xml#c9_12982">
+          <ref rend="bold">concerti opportuni</ref>:  ‘accordi necessari’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n133" type="comm" target="quarantana/cap9.xml#c9_12995">
+          <ref rend="bold">ritenne</ref>:  ‘trattenne’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n134" type="comm" target="quarantana/cap9.xml#c9_13019">
+          <ref rend="bold">cervellino</ref>:  strano personaggio.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n135" type="comm" target="quarantana/cap9.xml#c9_13096">
+          <ref rend="bold">apparato</ref>:  ‘messa in scena’ .
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n136" type="comm" target="quarantana/cap9.xml#c9_13097" targetEnd="quarantana/cap9.xml#c9_13099">
+          <ref rend="bold">senza tante faccende</ref>:  ‘senza darsi troppo da fare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n139" type="comm" target="quarantana/cap9.xml#c9_13127" targetEnd="quarantana/cap9.xml#c9_13323">
+          <ref rend="bold">La signora… stessa maniera</ref>:  L’inusuale iterazione del «tormento» sortisce l’effetto di marcare la durezza d’un meccanismo che si riproduce fatalmente e filogeneticamente: come avveniva nella tragedia antica e come accadrà sempre di più nel romanzo dell’Ottocento, fino alla conclamazione del darwinismo (si veda, in Italia, la linea che porta dalla «ruga ostinata» dei Trao del <hi rend="italic">Mastro-don Gesualdo</hi> a L’incalco di Tozzi).
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n141" type="comm" target="quarantana/cap9.xml#c9_13295">
+          <ref rend="bold">cadetti</ref>:  figli non primogeniti di una famiglia aristocratica.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n145" type="comm" target="quarantana/cap9.xml#c9_13324" targetEnd="quarantana/cap9.xml#c9_13627">
+          <ref rend="bold">La nostra… si va.»</ref>:  La pedagogia della monaca (quello che gli studiosi dell’età evolutiva definirebbero oggi <hi rend="italic">imprinting</hi>: e si noti che Manzoni già usa un’espressione come «stampavano nel cervello della fanciullina») è all’insegna di una casalinga tortura quotidiana, che solleva i giocattoli alla stregua di feticci; che attua plagi subliminali e perversi; che giunge perfino a censurare le pulsioni e le prime istanze del corpo, ammantandole – all’ombra del divin Marchese – di vieta <hi rend="italic">imagerie</hi> conventuale, e imponendone così una sorta di diserotizzazione.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n147" type="comm" target="quarantana/cap9.xml#c9_13337">
+          <ref rend="bold">condizione</ref>:  ‘destino’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n148" type="comm" target="quarantana/cap9.xml#c9_13357" targetEnd="quarantana/cap9.xml#c9_13358">
+          <ref rend="bold">faceva bisogno</ref>:  ‘appariva necessario’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n149" type="comm" target="quarantana/cap9.xml#c9_13448">
+          <ref rend="bold">principino</ref>:  il rampollo, il primogenito.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n150" type="comm" target="quarantana/cap9.xml#c9_13496">
+          <ref rend="bold">incidentemente</ref>:  ‘incidentalmente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n151" type="comm" target="quarantana/cap9.xml#c9_13568">
+          <ref rend="bold">trascorreva</ref>:  ‘si lasciava andare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n152" type="comm" target="quarantana/cap9.xml#c9_13602" targetEnd="quarantana/cap9.xml#c9_13605">
+          <ref rend="bold">star sopra di te</ref>:  ‘ad avere un buon autocontrollo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n153" type="comm" target="quarantana/cap9.xml#c9_13619" targetEnd="quarantana/cap9.xml#c9_13620">
+          <ref rend="bold">il sangue</ref>:  la nobiltà.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n156" type="comm" target="quarantana/cap9.xml#c9_13628" targetEnd="quarantana/cap9.xml#c9_13780">
+          <ref rend="bold">Tutte le parole… quel paese</ref>:  L’orchestrazione delle voci testimoniali – documento storico, parola del personaggio, ricostruzione del narratore – è condotta con mano decisa, la cui arte sta tutta nel celare l’arte: l’argomentazione abduttiva, insieme alla disseminazione degli scandali logici e alla mancanza di profondità dovuta all’uso sapientemente non prospettico dei tempi sintattici («nel monastero dove l’abbiamo veduta», «il buon conduttore […] ha detto»), conferisce allo stile una rapidità di scorcio, stornando la gravità marmorea del <hi rend="italic">factum</hi> nel piacere del <hi rend="italic">fictum</hi>, dell’illusione romanzesca, dell’inchiesta storica “in diretta”.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n158" type="comm" target="quarantana/cap9.xml#c9_13717">
+          <ref rend="bold">istradamento</ref>:  ‘per essere indirizzata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n159" type="comm" target="quarantana/cap9.xml#c9_13734">
+          <ref rend="bold">disegno</ref>:  ‘calcolo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n160" type="comm" target="quarantana/cap9.xml#c9_13754">
+          <ref rend="bold">accozzando</ref>:  ‘mettendo insieme’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n162" type="comm" target="quarantana/cap9.xml#c9_13781" targetEnd="quarantana/cap9.xml#c9_13891">
+          <ref rend="bold">Comunque sia… le loro</ref>:  A quest’altezza della narrazione, qualcosa è cambiato nella logica che le presiede: uno scatto di automatizzazione, diremmo, un aumento della sua forza gravitazionale e della sua pressione “telica”. In altre parole, ormai la «congiura» più micidiale non viene messa in atto da soggetti liberi, ma coincide perfettamente con quell’ingranaggio necessario – a loro preesistente, e incancrenito nel tempo – che combina le istituzioni e le sopraffazioni, i rapporti di potere e le indifferenze, i silenzi colpevoli e quelli inconsapevoli, le facili consolazioni e i lavacri purificatori. Così, non ci sarà da sorprendersi quando si leggerà, appena poche righe più sotto, che, una volta che Gertrude viene deportata dalla casa al convento, «la faccenda camminava»: il complotto (e il <hi rend="italic">plot</hi>) funziona, «cammina» giacché è la sovradeterminazione sociale, con i suoi addentellati cogenti, a disporre degli individui, riducendoli a mere funzioni attanziali.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n164" type="comm" target="quarantana/cap9.xml#c9_13806">
+          <ref rend="bold">finezze</ref>:  ‘cortesia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n165" type="comm" target="quarantana/cap9.xml#c9_13827">
+          <ref rend="bold">faccendiere</ref>:  ‘intriganti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n166" type="comm" target="quarantana/cap9.xml#c9_13829" targetEnd="quarantana/cap9.xml#c9_13837">
+          <ref rend="bold">avevano […] il mestolo in mano</ref>:  ‘esercitavano autorità’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n167" type="comm" target="quarantana/cap9.xml#c9_13842" targetEnd="quarantana/cap9.xml#c9_13843">
+          <ref rend="bold">il pegno</ref>:  ‘la garanzia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n170" type="comm" target="quarantana/cap9.xml#c9_13892" targetEnd="quarantana/cap9.xml#c9_14186">
+          <ref rend="bold">Gertrude, appena… di carrozze</ref>:  La natura e il desiderio, esautorati ad arte dalla casa del feudatario, s’infiltrano nella psiche di Gertrude in modo paradossale, attraverso le confidenze e le prurigini delle educande. Inizia così una lotta interiore tra virtù e desiderio, ove riaffiorano quelle costruzioni concettuali dicotomiche che erano state impresse nell’infanzia della giovane; e il richiamo delle «immagini maestose» (tra cui spicca quella della «principessa del monastero», rielaborazione in chiave fiabesca del monito pedagogico «ricordati che tu devi essere, in ogni cosa, la prima del monastero») trova un contrappunto e un antagonista nei luccichii del mondo e della vita del secolo.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n173" type="comm" target="quarantana/cap9.xml#c9_13916">
+          <ref rend="bold">chicche</ref>:  ‘dolci’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n174" type="comm" target="quarantana/cap9.xml#c9_13962" targetEnd="quarantana/cap9.xml#c9_13963">
+          <ref rend="bold">nel laccio</ref>:  ‘nella trappola’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n175" type="comm" target="quarantana/cap9.xml#c9_14003">
+          <ref rend="bold">maneggi</ref>:  ‘intrighi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n176" type="comm" target="quarantana/cap9.xml#c9_14014" targetEnd="quarantana/cap9.xml#c9_14017">
+          <ref rend="bold">dal farvi sopra esame</ref>:  ‘dal condurre indagini in merito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n177" type="comm" target="quarantana/cap9.xml#c9_14071">
+          <ref rend="bold">camminava</ref>:  ‘proseguiva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n178" type="comm" target="quarantana/cap9.xml#c9_14148">
+          <ref rend="bold">punto</ref>:  ‘per niente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n181" type="comm" target="quarantana/cap9.xml#c9_14187" targetEnd="quarantana/cap9.xml#c9_14327">
+          <ref rend="bold">Queste immagini… in fatti</ref>:  La <hi rend="italic">climax</hi> del grado di intenzionalità – conseguita grazie all’eclisse delle forme verbali, dal congiuntivo al condizionale all’indicativo – rende con icasticità lo sfumato e il movimento degli stati d’animo di Gertrude. Del «brulichio […] davanti a un alveare» suscitato dalle due costellazioni di immagini si ricorderà invece, con citazione quasi diretta, il Verga del <hi rend="italic">Mastro-don Gesualdo</hi>, allorché dovrà rappresentare la fantasmatica adolescenza dell’Isabellina.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n183" type="comm" target="quarantana/cap9.xml#c9_14189">
+          <ref rend="bold">cagionarono</ref>:  ‘provocarono’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n184" type="comm" target="quarantana/cap9.xml#c9_14268">
+          <ref rend="bold">condiscendere</ref>:  ‘consentire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n185" type="comm" target="quarantana/cap9.xml#c9_14275">
+          <ref rend="bold">genio</ref>:  ‘inclinazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n186" type="comm" target="quarantana/cap9.xml#c9_14285" targetEnd="quarantana/cap9.xml#c9_14289">
+          <ref rend="bold">mettere il velo in capo</ref>:  ‘farle prendere i voti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n188" type="comm" target="quarantana/cap9.xml#c9_14328" targetEnd="quarantana/cap9.xml#c9_14580">
+          <ref rend="bold">L’idea della… corso impreveduto</ref>:  Secondo un gesto tipico della prosa manzoniana, si ha qui un moto dall’<hi rend="italic">esistenza</hi> all’<hi rend="italic">essenza</hi>: ossia un fulmineo – tanto nel montaggio quanto nella durata – trapasso dall’analisi psicologica d’un soggetto alla formulazione di una legge universale, con l’enfasi e la concisione di un aforisma.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n190" type="comm" target="quarantana/cap9.xml#c9_14398" targetEnd="quarantana/cap9.xml#c9_14399">
+          <ref rend="bold">lo teneva</ref>:  ‘lo stimava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n191" type="comm" target="quarantana/cap9.xml#c9_14454">
+          <ref rend="bold">s’esalava</ref>:  ‘si sfogava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n192" type="comm" target="quarantana/cap9.xml#c9_14460" targetEnd="quarantana/cap9.xml#c9_14461">
+          <ref rend="bold">motti pungenti</ref>:  ‘frasi offensive’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n193" type="comm" target="quarantana/cap9.xml#c9_14473">
+          <ref rend="bold">intrinsichezza</ref>:  ‘familiarità’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n196" type="comm" target="quarantana/cap9.xml#c9_14581" targetEnd="quarantana/cap9.xml#c9_14742">
+          <ref rend="bold">Ciò che Gertrude… felicità terrena</ref>:  Mutata in dispositivo dell’<hi rend="italic">orgoglio santificato</hi>, accolta nel vacuo apparato del “regno dei fini”, profondamente compromessa con la «felicità terrena», la religione non può che snaturarsi, riducendosi a una «larva come l’altre», foriera di «terrori» ed espressione di una ideologia penitenziale e fustigatoria. È la religiosità di marca tridentina, già indagata dal magistrale e già citato studio di Giovanni Pozzi e vero bersaglio polemico del Manzoni di questi capitoli, e prima ancora di Diderot. Vale la pena, per una volta, riportare integralmente la ben più ampia trattazione del tema presente nel <hi rend="italic">Fermo</hi> (dove peraltro, sia detto per inciso, la categoria recava la maiuscola): «E, quanto alla Religione, ciò che è in essa di più essenziale, di più intimo, ciò che fa resistere alle passioni, e vincerle con una dolcezza superiore d’assai a quella che le passioni soddisfatte possono arrecare, ciò che preserva dalla corruttela, e mette in avvertenza anche contra i pericoli non conosciuti, non era stato mai istillato nè meno insegnato alla picciola Geltrude; anzi il suo intelletto era stato nodrito di pensieri opposti affatto alla Religione. Non vogliamo qui parlare di alcuni pregiudizj, che a quei tempi principalmente si ritenevano per verità sacrosante, e s’insegnavano insieme con le verità, pregiudizj non del tutto estirpati, e Dio sa quando lo saranno, pregiudizj dannosi principalmente perchè nella mente di molti associano all’idea della Religione quella della credulità e della sciocchezza, e dei quali perciò ogni onesto deve desiderare e promovere la distruzione; ma pregiudizj che in gran parte non tolgono l’essenziale, e si possono combinare con un sentimento di pietà profonda e sincera, e con una vita non solo innocente, ma operosa nel bene, e sagrificata all’utile altrui, del che tanti esempj hanno lasciati i tempi trascorsi, e ne offrono fors’anche i presenti».
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n198" type="comm" target="quarantana/cap9.xml#c9_14588" targetEnd="quarantana/cap9.xml#c9_14589">
+          <ref rend="bold">distintamente vagheggiato</ref>:  ‘chiaramente immaginato con desiderio’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n199" type="comm" target="quarantana/cap9.xml#c9_14600">
+          <ref rend="bold">pompa</ref>:  ‘sfarzo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n200" type="comm" target="quarantana/cap9.xml#c9_14606">
+          <ref rend="bold">molle</ref>:  ‘tenero’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n201" type="comm" target="quarantana/cap9.xml#c9_14727">
+          <ref rend="bold">bandiva</ref>:  ‘scacciava’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n204" type="comm" target="quarantana/cap9.xml#c9_14743" targetEnd="quarantana/cap9.xml#c9_14982">
+          <ref rend="bold">Privata così… d’averla sottoscritta</ref>:  Tutta la fenomenologia del dimidiamento di Gertrude si imbatte, all’altezza redazionale dei <hi rend="italic">Promessi Sposi</hi>, in una sorta di filtro fin qui inesistente, diffrangendosi attraverso nuove menzogne. Si tratta della scrittura <hi rend="italic">dentro</hi> il romanzo: una scrittura intesa non già come atto di libera autodeterminazione ed espressione del soggetto, bensì come luogo di soggiogamento e di coazione, di “trascrizione” passiva e di “sottoscrizione” ingenua. Così, sono le monache stesse a cogliere, a tradimento, il momento maggiormente propizio all’atto formale della supplica; ma soprattutto, poco più avanti toccherà a «quattro o cinque confidenti» tra le sue compagne «più franche» aiutare la sventurata a redigere, con ipocrita complicità, la contro-lettera di rinuncia che farà tanto incollerire il principe padre. Un molteplice “pasticcio” epistolare di cui, sintomaticamente, non compariva alcuna traccia nel <hi rend="italic">Fermo</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n206" type="comm" target="quarantana/cap9.xml#c9_14887" targetEnd="quarantana/cap9.xml#c9_14889">
+          <ref rend="bold">il tristo incarico</ref>:  ‘lo sciagurato compito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n207" type="comm" target="quarantana/cap9.xml#c9_14901">
+          <ref rend="bold">cognizione</ref>:  ‘consapevolezza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n208" type="comm" target="quarantana/cap9.xml#c9_14937">
+          <ref rend="bold">finalmente</ref>:  ‘dopotutto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n209" type="comm" target="quarantana/cap9.xml#c9_14956" targetEnd="quarantana/cap9.xml#c9_14957">
+          <ref rend="bold">atti posteriori</ref>:  ‘azioni che avrebbe potuto compiere in seguito’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n213" type="comm" target="quarantana/cap9.xml#c9_14983" targetEnd="quarantana/cap9.xml#c9_15451">
+          <ref rend="bold">Si pentiva… essere sacrificata. –</ref>:  Questo soliloquio schematico e candido, in cui il personaggio si appresta a reagire ai due soli sviluppi possibili che gli è dato di immaginare, rappresenta in realtà una sapiente parodia della stilizzazione dei mondi narrativi che governa il <hi rend="italic">romanesque</hi>. Il narratore ha buon gioco a sottolineare lo scarto della realtà rispetto alla semplificazione incongrua di «simili previdenze». E può così ricominciare il dramma – narrato tutto all’imperfetto: così che, direbbe un Weinrich, lo sfondo finisce per divorare il primo piano – dei silenzi e dei chiaroscuri, degli enigmi e dei misteri, delle soggezioni e delle segregazioni, dei ricatti e delle contraddizioni, delle delusioni e delle umiliazioni.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n215" type="comm" target="quarantana/cap9.xml#c9_16298">
+          <ref rend="bold">vicenda</ref>:  ‘avvicendarsi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n216" type="comm" target="quarantana/cap9.xml#c9_15225">
+          <ref rend="bold">concertata</ref>:  ‘concordata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n217" type="comm" target="quarantana/cap9.xml#c9_15236" targetEnd="quarantana/cap9.xml#c9_15239">
+          <ref rend="bold">ricapitare per via d’artifizi</ref>:  ‘giungere con accorgimenti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n218" type="comm" target="quarantana/cap9.xml#c9_13662">
+          <ref rend="bold">contegno</ref>:  ‘espressione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n219" type="comm" target="quarantana/cap9.xml#c9_16736">
+          <ref rend="bold">fallo</ref>:  ‘errore’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n222" type="comm" target="quarantana/cap9.xml#c9_15452" targetEnd="quarantana/cap9.xml#c9_15939">
+          <ref rend="bold">Ma, come… genere particolare</ref>:  In un microcosmo governato da forme di affettività cristallizzate, l’unico genere di «amore» che può germinare è comunque qualcosa di surrogale, che lambisce valori altri come il «rispetto» e la «compassione», allargando a dismisura la sfera del sentimento e ricercando nell’«ordine di cose» contingente qualche elemento che richiami – si badi alla selezione terminologica manzoniana, tecnicamente impeccabile – l’«immaginativa» pregressa.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n224" type="comm" target="quarantana/cap9.xml#c9_15497">
+          <ref rend="bold">parenti</ref>:  ‘genitori’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n225" type="comm" target="quarantana/cap9.xml#c9_15517">
+          <ref rend="bold">rea</ref>:  ‘colpevole’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n226" type="comm" target="quarantana/cap9.xml#c9_15736">
+          <ref rend="bold">tuttavia</ref>:  ‘tuttora’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n227" type="comm" target="quarantana/cap9.xml#c9_15785">
+          <ref rend="bold">coretto</ref>:  balcone sull’interno di una chiesa.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n228" type="comm" target="quarantana/cap9.xml#c9_15838" targetEnd="quarantana/cap9.xml#c9_15839">
+          <ref rend="bold">c’era invito</ref>:  ‘c’erano ospiti’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n232" type="comm" target="quarantana/cap9.xml#c9_13661" targetEnd="quarantana/cap9.xml#c9_13664">
+          <ref rend="bold">Il contegno… del principe</ref>:  È ancora una «carta» dal contenuto ignoto a suggellare la condanna di Gertrude, dopo che una sollecitazione erotica, incarnata dalla figura effimera del paggio, le ha consentito per breve tempo di gettare un ponte immaginario tra la vita del secolo e la clausura del convento e poi della casa. Sorvegliata e punita, la giovane pare essersi giocata male la sua ultima occasione: né è priva di senso la serie ternaria, costituitasi solo nei Promessi Sposi, delle carte (supplica-rinuncia-biglietto) giocate dalla sventurata, prima ancora che ella «risponda» e tessa le sue trame con la turpe complicità di Egidio.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n234" type="comm" target="quarantana/cap9.xml#c9_15964">
+          <ref rend="bold">immaginativa</ref>:  ‘immaginazione’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n235" type="comm" target="quarantana/cap9.xml#c9_16054">
+          <ref rend="bold">iscriver</ref>:  ‘scrivere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n239" type="comm" target="quarantana/cap9.xml#c9_16076" targetEnd="quarantana/cap9.xml#c9_16592">
+          <ref rend="bold">Il terrore di… a divezzarsene</ref>:  Terrore, senso di colpa, minaccia reticente, umiliazione del sottomesso, vergogna, rimorso: la quantità e la complessità dei sentimenti e delle azioni evocate in queste righe è strettamente funzionale, giacché prepara il «guazzabuglio» e la catarsi di Gertrude. Ma la modernità del capitolo risiede nella tortura psicologica che si innesca fra costei e la sua odiata carceriera (per inciso, negli stessi anni in cui Balzac disegna il torbido interno della <hi rend="italic">Femme de trente ans</hi>); e nel processo di deterioramento che investe ogni cosa, anche le memorie dolci e i fantasmi d’amore. Un processo che riporterà infine la giovane a carezzare l’idea del monastero, e ad impugnare di nuovo «quella penna fatale»: per salvarsi con un’ultima lettera, scritta stavolta senza collaboratori più o meno leali.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n241" type="comm" target="quarantana/cap9.xml#c9_16109">
+          <ref rend="bold">cipiglio</ref>:  ‘espressione severa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n242" type="comm" target="quarantana/cap9.xml#c9_16118" targetEnd="quarantana/cap9.xml#c9_16119">
+          <ref rend="bold">cento braccia</ref>:  ‘centinaia di metri’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n243" type="comm" target="quarantana/cap9.xml#c9_16238">
+          <ref rend="bold">coonestare</ref>:  ‘giustificare il licenziamento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n244" type="comm" target="quarantana/cap9.xml#c9_16257">
+          <ref rend="bold">incomodata</ref>:  ‘indisposta’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n245" type="comm" target="quarantana/cap9.xml#c9_16525">
+          <ref rend="bold">infestar</ref>:  ‘riproporsi tormentosamente’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n246" type="comm" target="quarantana/cap9.xml#c9_16592">
+          <ref rend="bold">divezzarsene</ref>:  ‘distaccarsene’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n249" type="comm" target="quarantana/cap9.xml#c9_16593" targetEnd="quarantana/cap9.xml#c9_17009">
+          <ref rend="bold">Nè più a... doveva accordarlo</ref>:  Il flusso dei sentimenti contrastanti di Gertrude si cristallizza infine – oltre che nella sequenza esatta e repentina dei gesti e perfino dei pensieri <hi rend="italic">puntuali</hi> – in un duplice ossimoro: dapprima «entusiasmo» e «abbattimento» (termini dislocati agli antipodi sopra l’asse delle emozioni), poi «afflizione» e «speranza», che coinvolgono invece valori etici.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n251" type="comm" target="quarantana/cap9.xml#c9_16849" targetEnd="quarantana/cap9.xml#c9_16851">
+          <ref rend="bold">stuccata e invelenita</ref>:  ‘nauseata e irritata’.
+                     </note>
+        <note xml:id="DeCristofaro_cap9-n252" type="comm" target="quarantana/cap9.xml#c9_16998">
+          <ref rend="bold">indeterminatamente</ref>:  ‘incondizionatamente’.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Francesco De Cristofaro</title>
+        <author>Alessandro Manzoni</author>
+        <editor>De Cristofaro, Francesco</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Monica_Valentini">Monica Valentini</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Francesco De Cristofaro</title>
+          <editor>De Cristofaro, Francesco</editor>
+          <pubPlace>Milano</pubPlace>
+          <publisher>BUR</publisher>
+          <date>2014</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Monica_Valentini" when="2025-02-23">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="DeCristofaro_cap7">
+        <note xml:id="DeCristofaro_cap7-n1" type="comm" target="quarantana/cap7.xml#c7_10001">
+          <ref rend="bold">Intestazione</ref>:  F[rancesco] Gonin. Per l’intestazione col tipo del pugnale che separa le due mani, cfr. II Intestazione.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n3" type="comm" target="quarantana/cap7.xml#c7_10001">
+          <ref rend="bold">Capolettera</ref>:  [Francesco] Gonin. «Iniziale (I) La pace sia con voi.» L’indicazione manzoniana mostra bene l’intenzione iconica della vignetta: la sagoma di padre Cristoforo deve ribadire la linearità della “I” maiuscola con cui si apre il capitolo. È interessante notare che la continuità narrativa con quanto precede è garantita dallo sfruttamento dello spazio raffigurato nell’ultima pagina del cap. VI, in base alla logica del raccordo visivo del campo/controcampo: lì si vede l’interno della casetta dove avviene la discussione tra Agnese e i due promessi; qui invece è rappresentato l’uscio della casetta, ma con un punto di vista fissato all’interno di essa. È dunque con gli occhi dei tre personaggi che il lettore assiste all’ingresso del religioso, la cui formula di saluto («La pace sia con voi») contrasta con il loro stato d’animo.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n5" type="comm" target="quarantana/cap7.xml#c7_10001" targetEnd="quarantana/cap7.xml#c7_10051">
+          <ref rend="bold">Il padre… nuovi ordini</ref>:  La Chiesa è un esercito che ha i suoi soldati e i suoi ufficiali. Nella <hi rend="italic">Morale cattolica</hi> leggiamo che «la religione è stata, fino ne’ suoi primi tempi, e da’ suoi primi apostoli, paragonata a una milizia». L’<hi rend="italic">incipit</hi> richiama quello del secondo capitolo, col grottesco paragone fra la notte tormentata da incubi di don Abbondio e il sonno sereno del principe di Condé. Ma mentre don Abbondio è un soldato che abbandona il campo prima di combattere, fra Cristoforo incarna la difficoltà della esistenza cristiana in un mondo confuso. Nel nuovo sistema delle metafore militari il grado più alto è assegnato unicamente al cardinale Borromeo che, nel cap. XXIII, rimprovera il cappellano che lo scoraggia dall’incontrare l’innominato, dicendo: «Oh, che disciplina è codesta, […] che i soldati esortino il generale ad aver paura?».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n7" type="comm" target="quarantana/cap7.xml#c7_10005">
+          <ref rend="bold">attitudine</ref>:  ‘atteggiamento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n8" type="comm" target="quarantana/cap7.xml#c7_10020">
+          <ref rend="bold">scoraggito</ref>:  ‘scoraggiato’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n9" type="comm" target="quarantana/cap7.xml#c7_10040">
+          <ref rend="bold">premunire</ref>:  ‘rafforzare’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n11" type="comm" target="quarantana/cap7.xml#c7_10052" targetEnd="quarantana/cap7.xml#c7_10078">
+          <ref rend="bold">«La pace… protezione.»</ref>:  Il resoconto della battaglia con don Rodrigo è l’occasione per una riflessione generale sull’uomo e sulla sua difficoltà a fare del bene. Dopo il saluto paraliturgico, la lingua del frate torna ad immettere nella dolorosa concretezza dell’esistenza le parole antichissime del salmista: «è meglio rifugiarsi nel Signore che confidare nei potenti» (Salmo 117). In queste prime battute del capitolo il cappuccino, che ha ancora nella memoria le parole del suo avversario, cancella il ricordo dell’ambigua «protezione» offerta dal nobile, invitando Renzo, Lucia e Agnese a sperare nel soccorso divino di cui ha già avuto «qualche pegno».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n13" type="comm" target="quarantana/cap7.xml#c7_10079" targetEnd="quarantana/cap7.xml#c7_10166">
+          <ref rend="bold">Sebbene nessuno… di Lucia</ref>:  Agli occhi dei nostri personaggi don Rodrigo è un «potente» dotato di risorse illimitate e misteriose per realizzare i suoi desideri e portare a termine i suoi soprusi («soverchieria»). Ma la voce narrante ha già mostrato ai «venticinque lettori» l’incertezza e la miseria che sta dietro alle apparenze.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n15" type="comm" target="quarantana/cap7.xml#c7_10105">
+          <ref rend="bold">condiscendenza</ref>:  ‘accondiscendenza’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n16" type="comm" target="quarantana/cap7.xml#c7_10150">
+          <ref rend="bold">vòto</ref>:  ‘vuoto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n18" type="comm" target="quarantana/cap7.xml#c7_10189" targetEnd="quarantana/cap7.xml#c7_10209">
+          <ref rend="bold">«Vorrei sapere,»... mia sposa.»</ref>:  Nell’accesso di rabbia, Lucia è la «sua sposa» e non più la sua promessa; il giovane si sente già investito delle sue responsabilità di marito e nel pieno diritto di chiedere conto della ingiustizia che sta subendo. Il volto di Renzo perde il controllo e l’equilibrio che avevamo visto in fig. II 4; l’ira ne stravolge i tratti, capovolgendo la serenità del giovane «massaio» in una inquietante smorfia animalesca.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n20" type="comm" target="quarantana/cap7.xml#c7_10210" targetEnd="quarantana/cap7.xml#c7_10289">
+          <ref rend="bold">«Povero Renzo!»... d’inferno?»</ref>:  «Cane» e «tizzone d’inferno» per Renzo, più in là don Rodrigo viene chiamato «anima nera», e ancora «tizzone d’inferno» da Agnese. Solo Lucia non augura mai la dannazione al suo persecutore; anche se nel <hi rend="italic">Fermo</hi> la ragazza dalla «modestia» un po’ «guerriera» aveva definito il nobile un «demonio in carne».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n22" type="comm" target="quarantana/cap7.xml#c7_10290" targetEnd="quarantana/cap7.xml#c7_10386">
+          <ref rend="bold">«Le sue…  ch’è irremovibile</ref>:  Le parole di don Rodrigo lasciano, a chi le ha ascoltate, un ricordo stordito e inquietante. Le risposte elusive e minacciose, che Cristoforo – personaggio antiretorico per eccellenza – è incapace persino di ripetere, sono la metonimia d’un più complesso apparato di potere, impenetrabile e opaco per l’innocente che prova a comprenderne le leggi.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n24" type="comm" target="quarantana/cap7.xml#c7_10312">
+          <ref rend="bold">adirarsi</ref>:  ‘andare in collera’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n25" type="comm" target="quarantana/cap7.xml#c7_10338">
+          <ref rend="bold">schernire</ref>:  ‘irridere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n26" type="comm" target="quarantana/cap7.xml#c7_10368">
+          <ref rend="bold">figurato</ref>:  ‘finto’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n29" type="comm" target="quarantana/cap7.xml#c7_10387" targetEnd="quarantana/cap7.xml#c7_10451">
+          <ref rend="bold">Nondimeno… la giustizia</ref>:  La «magra parola», pronunciata dal frate nel momento di più triste disillusione per i promessi sposi, immerge la regola etica del religioso nella commozione di chi sta subendo l’ingiustizia. Richiamando Renzo al dominio di sé, il cappuccino non lo invita alla sottomissione e alla compiacenza verso don Rodrigo, ma al contrario gli mostra l’orrore irreparabile dell’omicidio, ricordandogli con un cenno rapidissimo («e tu, Renzo…») le terribili angosce che produce la violenza in chi la compie. Nel <hi rend="italic">Fermo</hi> il dialogo tra il giovane e fra Cristoforo era più lungo e drammatico: il filatore non aveva imbarazzi nell’esporre i suoi piani delittuosi al religioso, che li respingeva con severità e partecipazione emotiva.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n31" type="comm" target="quarantana/cap7.xml#c7_10388">
+          <ref rend="bold">confidenza</ref>:  ‘fiducia’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n34" type="comm" target="quarantana/cap7.xml#c7_10452" targetEnd="quarantana/cap7.xml#c7_10543">
+          <ref rend="bold">Il tempo… e addio.»</ref>:  Il tempo appartiene solo a Dio. Lo sa bene Giobbe, le cui parole risuonano nella bocca del cappuccino: «all’onnipotente non sono ascosi i tempi, ma coloro stessi che lo conoscono, i giorni di lui non conoscono» (<hi rend="italic">Giobbe</hi> 24, 1). Il richiamo alla figura del profeta rafforza l’invito alla pazienza e alla confidenza nell’operato divino di tutto il discorso; sulla stessa nota viene modulato anche il commiato del religioso: «Fede, coraggio; e addio».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n36" type="comm" target="quarantana/cap7.xml#c7_10544" targetEnd="quarantana/cap7.xml#c7_10605">
+          <ref rend="bold">Detto questo… suoi protetti</ref>:  Manzoni fa uscire di scena il personaggio soffermandosi sulla sua straordinaria energia mentre va correndo «saltelloni» verso il convento, attraversando una «viottola» che è «storta e sassosa» come l’intricata vicenda che tanto ha a cuore. Il ritorno al convento di fra Cristoforo forniva al narratore del <hi rend="italic">Fermo</hi> il pretesto di una pungente pagina contro i cappuccini e la loro mediocrità, assai coerente con l’impianto nervoso e umorale della prima minuta, ma oramai fuori luogo nei <hi rend="italic">Promessi Sposi</hi>. Nella scrittura del ’21 il narratore mostrava l’appagamento del «frate portinajo» e del «frate guardiano» nel poter finalmente cogliere in fallo un confratello normalmente irreprensibile e quasi in odore di santità. Di fronte al suo superiore, fra Cristoforo si era rivolto con la formula di rito del monaco resosi passibile di sanzione: «Padre, son balordo». Parole che stonerebbero molto sulle labbra del personaggio definitivo. La chiusa dell’episodio era poi particolarmente amara, con la focalizzazione ironica sul padre guardiano che si «gittò sul duro pagliericcio; più soddisfatto però che se si fosse posto sul letto il più delicato: poichè non è da dire quanta consolazione si senta nel far fare agli altri il loro dovere, e nel riprenderli quando se ne allontanano».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n39" type="comm" target="quarantana/cap7.xml#c7_10606" targetEnd="quarantana/cap7.xml#c7_10876">
+          <ref rend="bold">«Avete sentito… tre salti...!»</ref>:  Una volta partito il frate, tutto sembra tornato nella situazione iniziale. Nei loro discorsi la giustizia è angosciosa e irrazionale, punisce gli oppressi secondo Agnese («contro i poveri c’è sempre giustizia»); mentre per Renzo si identifica con l’esercizio della vendetta. La sua «pazienza» è attesa del momento opportuno, strategia del castigo, allucinazione di palingenesi sociale («Sì, la farò io, la giustizia: lo libererò io, il paese: quanta gente mi benedirà...!»). Una «pazienza» ben diversa dalla «magra parola» di fra Cristoforo. La memoria mozartiana di Manzoni si riverbera anche sul giovane, che in «tre salti» vuole raggiungere il confine con lo stato veneto, come Figaro in «in tre passi» si era detto pronto «a servir» il conte d’Almaviva, prima di scoprire i maneggi del padrone per sedurre Susanna, sua promessa sposa.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n41" type="comm" target="quarantana/cap7.xml#c7_10714">
+          <ref rend="bold">finalmente</ref>:  ‘alla fin fine’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n44" type="comm" target="quarantana/cap7.xml#c7_10877" targetEnd="quarantana/cap7.xml#c7_10946">
+          <ref rend="bold">L’orrore… del re...»</ref>:  Le immagini dell’infanzia e del mondo favolistico dei contadini lombardi tornano nell’opposizione ferma, ma mite, di Lucia di fronte alla «vendetta» mascherata da «giustizia».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n46" type="comm" target="quarantana/cap7.xml#c7_11853" targetEnd="quarantana/cap7.xml#c7_11020">
+          <ref rend="bold">«E bene!»... per acquietarlo</ref>:  Mentre la fisicità dei fidanzati si cristallizza nelle allegorie della pietà e dell’orgoglio, Agnese svolge il suo ruolo di madre e, corpo mobile fra due corpi pietrificati, tenta di tranquillizzare con parole e carezze il «giovine»: che, giusto un attimo prima, non era riuscito a completare la sua imprecazione contro don Rodrigo, perché interrotto da Lucia.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n49" type="comm" target="quarantana/cap7.xml#c7_11021" targetEnd="quarantana/cap7.xml#c7_11159">
+          <ref rend="bold">Stette egli…  doppiamente contenta</ref>:  Nel <hi rend="italic">Fermo</hi> la promessa di Lucia era avvenuta alla presenza di fra Cristoforo, che restava per molto più tempo coi tre protagonisti della scena. Di fronte a Fermo, che non abbandonava il suo desiderio di violenza, la ragazza, osando il linguaggio della dissimulazione, aveva detto: «fate quel che ci dice quest’uomo del Signore, ed io vi prometto che io farò tutto quello che si potrà, tutto quello che vorrete perch’io possa esser vostra moglie». Ora che la commedia degli equivoci diviene melodramma agitato, la promessa arriva al culmine di un crescendo nel quale all’istinto omicida del giovane sono contrapposte le preghiere «inginocchioni» della giovane.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n51" type="comm" target="quarantana/cap7.xml#c7_11042" targetEnd="quarantana/cap7.xml#c7_11043">
+          <ref rend="bold">diede addietro</ref>:  ‘indietreggiò’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n54" type="comm" target="quarantana/cap7.xml#c7_11160" targetEnd="quarantana/cap7.xml#c7_11260">
+          <ref rend="bold">In mezzo… che predomini</ref>:  Dopo aver sfiorato un possibile finale tragico, il concitato melodramma da camera si chiude sul consenso strappato alla giovane promessa; la digressione del narratore – nuova rispetto al <hi rend="italic">Fermo</hi> – torna, non senza ironia, sull’insondabilità del cuore umano e, allo stesso tempo, costringe i venticinque lettori a ripercorrere la pagina appena letta alla ricerca di segni di affettazione e di esasperazione nel comportamento di Renzo. Passaggio incriminato è la pausa che il giovane, qualche riga prima, concede alla rabbia per poi gridare la sua esasperazione: «Stette egli immobile e pensieroso, qualche tempo, a contemplar quella faccia supplichevole di Lucia; poi, tutt’a un tratto, la guardò torvo, diede addietro, tese il braccio e l’indice verso di essa, e gridò: “questa! sì questa egli vuole. Ha da morire!”». Se i gesti e le espressioni del giovane siano stati espressione di uno stato d’animo confuso o sapiente regia di un uomo che vuole ottenere l’effetto sperato, resta un mistero. Il narratore non scioglie, ma insinua il dubbio.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n56" type="comm" target="quarantana/cap7.xml#c7_11362" targetEnd="quarantana/cap7.xml#c7_11391">
+          <ref rend="bold">Qui l’autore… in dubbio</ref>:  Per la seconda volta nella stessa sequenza il narratore confessa l’incapacità di guardare al fondo delle coscienze. Ma qui la rapidissima digressione apre uno squarcio inaspettato sull’interiorità di Lucia, sul mondo segreto dei suoi desideri. A differenza della prima, questa parentesi era già presente nelle pagine del <hi rend="italic">Fermo</hi>, a testimoniare l’attenzione antica di Manzoni per gli aspetti più complessi della vita interiore della ragazza.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n58" type="comm" target="quarantana/cap7.xml#c7_11392" targetEnd="quarantana/cap7.xml#c7_11532">
+          <ref rend="bold">Renzo avrebbe… che saprebbe</ref>:  Renzo è ancora un personaggio mozartiano, un Figaro protoborghese e intraprendente che ha l’illusione, comune a tutti in questi capitoli, di avere in mano un filo per rovesciare le macchinazioni di don Rodrigo. Il silenzio di Lucia, di quella stessa Lucia della quale abbiamo appena intravisto il segreto dei desideri, è l’espressione di una personale opposizione davanti alla furberia del mondo.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n60" type="comm" target="quarantana/cap7.xml#c7_11494">
+          <ref rend="bold">antivedendo</ref>:  ‘prevedendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n62" type="comm" target="quarantana/cap7.xml#c7_11552" targetEnd="quarantana/cap7.xml#c7_11553">
+          <ref rend="bold">«Le zucche!»</ref>:  Il vigoroso lombardismo (che Badini Confalonieri rende con “Fossi matto!” e che secondo Raimondi-Bottoni è associato all’espressione “i verz”, cioè “i cavoli”), esprime il timore, quasi fanciullesco, e la reverenza verso quei «diavoli d’occhi» del sant’uomo su cui il narratore è tornato più volte e da cui si comprendono la forza e il tormento del frate.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n64" type="comm" target="quarantana/cap7.xml#c7_11616" targetEnd="quarantana/cap7.xml#c7_11738">
+          <ref rend="bold">Agnese andò… qualche santino.»</ref>:  Agli occhi del ragazzo la figura monumentale di fra Cristoforo assume connotati affettuosi, quasi familiari. Il «santo» descritto dalla voce adulta di Agnese si trasforma, senza che la figura ne risulti mortificata, in «santino» – gioco lessicale ricercato da Manzoni, che nel <hi rend="italic">Fermo</hi> parlava genericamente di «immagini». Le immaginette sacre sono fra gli strumenti di propaganda della fede e di evangelizzazione delle campagne più diffusi nell’epoca della Controriforma.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n67" type="comm" target="quarantana/cap7.xml#c7_11739" targetEnd="quarantana/cap7.xml#c7_11816">
+          <ref rend="bold">«Appunto, Menico… quelle sole</ref>:  La presenza di Menico permette a Manzoni di sfiorare, ma solo per un momento, lo spazio dell’idillio lacustre, col ricordo dei giochi di ragazzi sulle rive, accanto alle «reti attaccate al muro ad asciugare». Una nostalgica <hi rend="italic">Kinderszene</hi> che termina, come spesso i momenti di abbandono del romanzo, con una massima appuntita, pensata per disturbare il lettore dall’accordo coi personaggi e richiamarlo al suo ruolo di attento spettatore.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n69" type="comm" target="quarantana/cap7.xml#c7_11756">
+          <ref rend="bold">sviare</ref>:  ‘andare lontano’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n73" type="comm" target="quarantana/cap7.xml#c7_11817" targetEnd="quarantana/cap7.xml#c7_12176">
+          <ref rend="bold">«Poh! zia… la sera</ref>:  Dagli atteggiamenti di questi torvi personaggi allo stesso tempo familiari e minacciosi, e in particolare da quello «oscuro e sinistro» del mendico che riceve il pane della carità «con un’indifferenza mal dissimulata», deriva l’atmosfera perturbante di tutta la scena, che provoca la diffidenza e la cautela delle due donne.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n75" type="comm" target="quarantana/cap7.xml#c7_11837">
+          <ref rend="bold">parpagliole</ref>:  «monetine di bassa lega del valore di dieci quattrini milanesi, l’ottavo della lira milanese» (Cherubini).
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n76" type="comm" target="quarantana/cap7.xml#c7_11879">
+          <ref rend="bold">[conturbava</ref>:  ‘turbava’].
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n77" type="comm" target="quarantana/cap7.xml#c7_11885">
+          <ref rend="bold">rifinito</ref>:  ‘macilento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n78" type="comm" target="quarantana/cap7.xml#c7_12125">
+          <ref rend="bold">proferiva</ref>:  ‘diceva’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n81" type="comm" target="quarantana/cap7.xml#c7_12177" targetEnd="quarantana/cap7.xml#c7_12246">
+          <ref rend="bold">Convien però… varie generazioni</ref>:  Con un abilissimo movimento di camera, «analogo al flash-back del racconto filmico» (Raimondi-Bottoni), il narratore ci ha riportati nel luogo della battaglia fra don Rodrigo e fra Cristoforo. La sala si popola di presenze sinistre e incombenti; immagini di un potere logoro ma duro a morire. La galleria degli avi di don Rodrigo, destinata a ritornare nei romanzi del futuro (si pensi agli interni siciliani di Verga, De Roberto, Tomasi di Lampedusa), è un teatro di fantasmi cristallizzati nelle attitudini del comando e del «terrore». La parola, ribalzando da un quadro all’altro, smarrisce ogni concreto valore semantico per diventare il cardine di un’anti-etica dell’insensato e della crudeltà. Dietro la sontuosità dei portamenti, tocchi quasi impercettibili portano in superficie le crepe e le ferite d’una nobiltà che, malgrado le apparenze, è «macilenta» come il magistrato dipinto mentre temporeggia la risposta a una richiesta di pietà. Ciascuno di questi personaggi è una figura caricaturale e grottesca, colta nell’autocompiacimento delle terrene vanità (basti il riferimento all’abito senatoriale portato solo d’inverno). L’inquieta passeggiata sotto gli sguardi vuoti e severi degli antenati apre una breccia nel carattere, e nella biografia, di don Rodrigo: la «gloria del casato» (si legge ancora in Raimondi-Bottoni) letteralmente «pesa» sulle sue spalle. Da questa tormentata responsabilità verso gli antenati nasce il concetto di onore del personaggio, la sua irrequieta coscienza di sé. Con un nuovo, formidabile esempio di realismo atmosferico, Manzoni conclude l’oppressione della stanza nell’angoscia del soggetto, la cui «vergogna» completa il movimento della sequenza narrativa. La ferita nell’orgoglio è più cocente sotto gli occhi di avi che hanno fatto della paura e del dominio la loro regola di vita.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n83" type="comm" target="quarantana/cap7.xml#c7_12247" targetEnd="quarantana/cap7.xml#c7_12296">
+          <ref rend="bold">Quando si… l’eroe</ref>:  Nella trascrizione del «dilavato e graffiato autografo», «eroica fatica» come si legge nell’<hi rend="italic">Introduzione</hi>, gli «eroi» sono pochissimi; lo sguardo del narratore si concentra sulla «gente meccaniche» e sulle loro misere vicende dentro l’affresco, grandioso e tragico, della storia universale. Tolto lo “strombazzo” barocco dell’anonimo che definisce il governatore di Milano, don Gonzalo Fernández de Córdoba, «Heroe di nobil Prosapia», il sostantivo in questione ricorre solo cinque volte nell’insieme dei <hi rend="italic">Promessi Sposi</hi>: e sempre in situazioni antieroiche, anzi degradanti. Al singolare la parola è adoperata solo per questo condottiero-meccanico «tutto di ferro» e per la 
+          ridicola morte di don Ferrante, che si congeda dal mondo come un patetico «eroe di Metastasio», incolpando le stelle crudeli per il suo destino di appestato. Si noti che l’acconciatura assai curata dell’eroe di cui si parla qui, con tanto di «baffi» sapientemente «tirati e a punta», tradisce più un’attenzione all’aspetto – una libido della posa – che una reale indole guerriera e militare.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n87" type="comm" target="quarantana/cap7.xml#c7_12324" targetEnd="quarantana/cap7.xml#c7_12799">
+          <ref rend="bold">Don Rodrigo… dell’altro</ref>:  In un gioco di riflessi e sdoppiamenti, la passeggiata di Rodrigo somiglia molto a quella che aveva preceduto il delirio omicida di Lodovico. L’ostentazione della potenza è il primo, immediato rimedio che don Rodrigo impiega per sanare la ferita che il frate aveva inferto alla sua identità di discendente dei terribili antenati: una ferita che si era rappresa, dentro la parola del testo, nel crudo idiomatismo dei «bordoni» (letteralmente, «la pelle d’oca»: a Firenze l’espressione indica le penne degli uccelli), e che ora si effonde, a rincarare la rabbia, nella comparazione col mare agitato, sicuramente memore del lombardo «marina turbada» (Cherubini). La sfilata per le vie del feudo è una barocca lezione di terrore; una macchina teatrale apparecchiata per ottenere la soddisfazione degli omaggi forzati di un popolo sottomesso al duplice capriccio dei vicari del Re di Spagna e della nobiltà lombarda.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n89" type="comm" target="quarantana/cap7.xml#c7_12476">
+          <ref rend="bold">Nathan</ref>:  il profeta Nathan rimproverò re David di aver mandato a morire il suo generale Uria per poi sedurne la moglie Betsabea.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n91" type="comm" target="quarantana/cap7.xml#c7_12800" targetEnd="quarantana/cap7.xml#c7_12866">
+          <ref rend="bold">Per passare… suo palazzotto</ref>:  La «casa, dove andava, per il solito, molta gente» è un covo del malaffare designato dall’autore con perifrasi elegante ma perfettamente comprensibile al lettore lombardo – perifrasi che «attraverso <hi rend="italic">molta gente</hi> […] risale al milanese “bordeleri”» (Raimondi-Bottoni). La sequenza narrativa passa dalle inquietudini dell’anima al bisogno fisico del piacere. Don Rodrigo sfugge alla doppia angoscia del pungolo morale di fra Cristoforo e del sentimento di inferiorità verso i suoi avi, riaffermando se stesso dapprima nella grande parata della passeggiata coi servitori armati e poi nel possesso dei corpi mercificati delle prostitute. L’orgoglio offeso viene compensato dalla virilità; il libertino trasforma, come un petrarchista allucinato, il letto nel suo campo di battaglia.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n93" type="comm" target="quarantana/cap7.xml#c7_12805">
+          <ref rend="bold">mattana</ref>:  ‘ira’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n94" type="comm" target="quarantana/cap7.xml#c7_12843">
+          <ref rend="bold">affaccendata</ref>:  ‘premurosa’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n97" type="comm" target="quarantana/cap7.xml#c7_12867" targetEnd="quarantana/cap7.xml#c7_13125">
+          <ref rend="bold">Il conte Attilio… gli occhi...»</ref>:  Alle battute del cugino, dapprima di modo sentenzioso («San Martino non è ancora passato»: dove la precisazione sulla data di scadenza della scommessa è screziata, in filigrana, dalla fraseologia meneghina «vegnì el so’ sammartin», che vale «venire il nodo al pettine») segue la caricaturale predica del conte Attilio, espressa nella stessa lingua secentesca dell’Anonimo («per degni rispetti»). È un autentico virtuosismo manzoniano: i commentatori del romanzo vi hanno rintracciato tanto rimembranze della cultura romanzesca, quanto riuso di <hi rend="italic">topoi</hi> della predicazione barocca. Questa finta predica viaggia nella memoria di don Rodrigo che si vendicherà, dopo la triste fine di Attilio colpito dal contagio, con uno stravolto e parodistico elogio funebre pronunciato dinanzi a una masnada di amici libertini. Poche ore dopo l’offesa simbolica alla memoria del cugino, lo stesso don Rodrigo sarà colto da peste e sognerà – facendosi abitare dai fantasmi – un’intera chiesa, gremita di gente indifferente al suo dolore, intenta ad ascoltare la predica di un lontano, irraggiungibile, «frate ritto».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n99" type="comm" target="quarantana/cap7.xml#c7_13203" targetEnd="quarantana/cap7.xml#c7_13423">
+          <ref rend="bold">La mattina… nell’opinione</ref>:  Superato il turbamento della giornata precedente, il nobile si sente reintegrato nel suo destino familiare di potenza e terrore: «don Rodrigo si destò don Rodrigo» è la geniale frase che, coinnestando tautologia e complemento predicativo del soggetto, inchioda la persona nel suo personaggio. Chiama allora il Griso, il capo dei bravi della famiglia (lo stesso che abbiamo visto entrare in casa di Agnese e Lucia travestito da pellegrino): la storia di costui capovolge la vicenda semi-agiografica di Lodovico-Cristoforo in una sanguinaria parodia nella quale Rodrigo e la sua ambizione svolgono per il Griso lo stesso ruolo che per il frate hanno avuto l’ordine dei cappuccini e la protezione divina. Ma mentre per il religioso il trauma dell’omicidio rappresenta l’inizio d’un tormentato percorso di salvezza ed espiazione, per il bravo «aver ammazzato uno, di giorno, in piazza» è il cominciamento di una storia di violenza e di angherie, che culmina col tradimento verso lo stesso padrone, derubato da lui e dai feroci monatti non appena scopre di essere stato contagiato dalla peste. Capo degli uomini d’arme della casa (la «famiglia»), il Griso è un Leporello espressionistico e aggressivo, così che il rapporto fra lui e don Rodrigo ricalca la dialettica servo-padrone che lega don Giovanni al suo servitore; ma sulle sue labbra può affiorare anche, nel <hi rend="italic">divertissement</hi> manzoniano, una sorta di rustica galanteria: come poche righe più sotto, quando, nel sentenziare che «non si può levare un fiore da una pianta», degraderà il <hi rend="italic">topos</hi> della verginella simile alla rosa, dall’originario respiro rinascimentale, al «modulo romanzesco dell’intesa fra i cattivi» (Stella-Repossi).
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n101" type="comm" target="quarantana/cap7.xml#c7_13794">
+          <ref rend="bold">Griso</ref>:  dal milanese «gris», significa letteralmente il «grigio» e anche, come si legge nel vocabolario di Cherubini, il «fedelissimo».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n102" type="comm" target="quarantana/cap7.xml#c7_13391">
+          <ref rend="bold">valente</ref>:  ‘capace’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n103" type="comm" target="quarantana/cap7.xml#c7_13406">
+          <ref rend="bold">attentar</ref>:  ‘compiere’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n106" type="comm" target="quarantana/cap7.xml#c7_13563" targetEnd="quarantana/cap7.xml#c7_13675">
+          <ref rend="bold">«Ci stavo… fatti nostri.»</ref>:  Per quanto poco indagata dalla critica, esiste nel romanzo un’ampia geografia del fantastico, dell’irrazionale e del tenebroso che comprende tanto il mondo delle credenze popolari (il miracolo delle noci e in genere il piacere dei racconti agiografici, nonché la biblioteca del sarto che accoglie Lucia dopo essere stata prigioniera dell’innominato), quanto la paura dell’irrazionale (le streghe e, più avanti, gli untori). Il Griso compartecipa delle paure del suo mondo; teme le streghe ma, a differenza degli abitanti del borgo, non ha timore di andarci la sera del 10 novembre, perché sa che «non è sabato», giorno del tradizionale incontro delle streghe col diavolo. Il calendario del 1628 ci conferma che siamo a venerdì, alla vigilia del sabba; nella stesura della sua storia Manzoni non tralascia nessun dettaglio.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n108" type="comm" target="quarantana/cap7.xml#c7_13646">
+          <ref rend="bold">ubbie</ref>:  ‘preoccupazioni inutili’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n111" type="comm" target="quarantana/cap7.xml#c7_13808" targetEnd="quarantana/cap7.xml#c7_13532">
+          <ref rend="bold">«Senti... inteso.»</ref>:  Il narratore riconduce la lingua di don Rodrigo nell’alveo di un più vasto sistema linguistico. Il «buon ricordo» da lasciare «sulle spalle» di Renzo fa sistema con la battuta del capitolo quinto sulla «legna» dei «boschi» da far «assaggiare» ai «creditori insolenti», ed è imparentato col modo in cui il narratore descrive le imprese della «stabile guarnigione di soldati spagnoli» che, nel primo capitolo, abbiamo visto insegnare «la modestia alle fanciulle ed alle donne del paese», ed accarezzare «di tempo in tempo le spalle a qualche marito, a qualche padre». Nella lingua del potere che innerva questo romanzo, e che Manzoni ricostruisce con strepitosa coerenza, la «classe dominante» non si assume la responsabilità dei propri soprusi e delle angherie; ma, ha scritto Raimondi nel suo saggio sull’<hi rend="italic">Ironia polifonica</hi> del romanzo, «usa travestire i gesti della violenza nel decoro istituzionalizzato dell’eufemismo, dell’ironia riduttiva a proprio discarico» (Raimondi [1990]).
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n114" type="comm" target="quarantana/cap7.xml#c7_13952" targetEnd="quarantana/cap7.xml#c7_14603">
+          <ref rend="bold">Tornati che… del capo</ref>:  Al confronto col capitolo precedente, dove l’osteria ci era parsa deserta a causa della carestia, l’insieme dei bravacci urlanti e smaniosi pare davvero una scena chiassosa e infernale. E la prima «cariatide» che il personaggio e il lettore incontrano, l’uomo d’arme che giganteggia sulla porta dell’osteria, è a sua volta un perfetto “segnalatore” di quell’inferno: del resto egli ha «occhi grifagni», come il Cesare incontrato da Dante nel limbo, sulle soglie dell’oltremondo. 
+          <hi rend="italic">il soccorso di Pisa</hi>: soccorso promesso per tempo, ma arrivato troppo tardi. L’espressione pare derivi dagli aiuti più volte promessi, e mai inviati, dall’imperatore tedesco Massimiliano ai Pisani contro i Fiorentini, che infatti conquistarono la città nel 1508.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n116" type="comm" target="quarantana/cap7.xml#c7_14351">
+          <ref rend="bold">chermisi</ref>:  ‘cremisi’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n117" type="comm" target="quarantana/cap7.xml#c7_14451">
+          <ref rend="bold">scabrosa</ref>:  ‘difficile’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n118" type="comm" target="quarantana/cap7.xml#c7_14487">
+          <ref rend="bold">evoluzione</ref>:  ‘movimento’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n120" type="comm" target="quarantana/cap7.xml#c7_14604" targetEnd="quarantana/cap7.xml#c7_14801">
+          <ref rend="bold">Renzo insospettito… mai mangiate.»</ref>:  Nel mondo dei <hi rend="italic">Promessi Sposi</hi>, l’oste rappresenta la gretta morale del guadagno e della tutela del proprio interesse. La sua etica si contrappone a quella religiosa espressa dal mite, e credulone, fra Galdino alla fine del suo monologo. L’antitesi fra valori della Chiesa e valori del mercante è acuita dalla profanazione, che l’oste farà di qui a poco, della massima evangelica dell’uomo che si conosce dalle azioni (<hi rend="italic">Matteo</hi> 7, 15-20). Ma qui i comportamenti distintivi del galantuomo, come vedremo, son quelli che non mettono a repentaglio la sicurezza e il profitto dell’osteria. Valori miopi di un uomo che ha a cuore solo la propria tranquillità piccolo-borghese. Dopo la canonica di don Abbondio e lo studio dell’Azzecca-garbugli, il viaggio negli inferi continua in questa osteria di paese.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n122" type="comm" target="quarantana/cap7.xml#c7_14677">
+          <ref rend="bold">grossolana</ref>:  ‘ruvida’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n123" type="comm" target="quarantana/cap7.xml#c7_14691">
+          <ref rend="bold">spiegando</ref>:  ‘aprendo’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n127" type="comm" target="quarantana/cap7.xml#c7_14802" targetEnd="quarantana/cap7.xml#c7_15074">
+          <ref rend="bold">«Come potete… in cucina</ref>:  Nel viavai del personaggio fra un tavolo e un altro del suo «porto di mare», le polpette rotolano felicemente sulla pagina manzoniana come l’emblema della professione del nostro oste. Amico di tutti, questi non usa la prudenza in modo equanime e finisce con l’allearsi naturalmente, e senza riflessione, con gli emissari del potere. Tuttavia sono le sue polpette, vertice d’una ristretta arte culinaria, l’unico argomento che gli stia davvero a cuore. Un grande irregolare dell’Ottocento lombardo come Giovanni Rajberti, nella sua <hi rend="italic">Arte di convitare</hi> (1850-51), ha dedicato una pagina all’elogio delle polpette nella cucina milanese, definendo il piatto «una vivanda tutta italiana e nostrale» di cui «fare orgogliosa mostra sulle nostre mense». Con sottinteso politico che sfuggì al censore austriaco, il panegirico delle polpette nasconde uno stralunato, ma ben comprensibile, messaggio politico: «Non difenderemo fino all’ultimo respiro la nazionalità e l’indipendenza… almeno nelle polpette?».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n129" type="comm" target="quarantana/cap7.xml#c7_14825">
+          <ref rend="bold">summentovate</ref>:  ‘sopra ricordate’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n131" type="comm" target="quarantana/cap7.xml#c7_15075" targetEnd="quarantana/cap7.xml#c7_15130">
+          <ref rend="bold">Il nostro… singolare! eh</ref>:  Il trascrittore romantico salva la banalità della constatazione dell’anonimo, la cui autorità qui si limita a ratificare il comportamento opportunistico dell’oste con un guizzo ironico che chiede l’approvazione complice del lettore. Non è solo uno dei tanti ammiccamenti manzoniani al lettore; è anche uno straordinario effetto illusionistico, che “schiaccia” il registro dell’enunciazione narrativa sopra la tastiera dominante del narrato: in altre parole, fa in modo che la voce dell’affabulazione romanzesca e quella dei personaggi consuonino, anzi che sembrino emesse da uno stesso <hi rend="italic">luogo</hi>.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n133" type="comm" target="quarantana/cap7.xml#c7_15185" targetEnd="quarantana/cap7.xml#c7_15187">
+          <ref rend="bold">«Che bella cosa,»</ref>:  L’uscita inopportuna di Gervaso, nella quale Nigro ravvisa un ricordo del <hi rend="italic">Barbiere di Siviglia</hi> di Rossini, connota il personaggio: è lo sciocco del villaggio, che si esprime in modo inopportuno, senza mediazioni. Se Gervaso è Bertoldino, suo fratello, incarnando la furbizia contadina, pare indossare la «maschera di Bertoldo». Sarà la peste, grande livellatrice, a confondere i ruoli, trasformando Bertoldo in Bertoldino, l’uomo di senno in un povero stordito.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n136" type="comm" target="quarantana/cap7.xml#c7_15195" targetEnd="quarantana/cap7.xml#c7_15597">
+          <ref rend="bold">«che Renzo… già notte</ref>:  Nella malinconia della sera l’anonimo villaggio prende improvvisamente vita, «si trasforma in un ambiente umano, in uno spazio e in un tempo morale» (Getto [1964]: 75). La voce narrante non fa di questa elegia della sera una pacificata scena di genere o una variazione paternalista sull’onesto lavoro dei campi, ma insiste sulle incertezze di un tempo di carestia. La posizione e le ansie di Renzo non sono contrapposte al respiro della collettività, ma anzi la sequenza narrativa termina solo con la notte che accoglie i tre viandanti alle soglie della «casetta di Lucia».
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n138" type="comm" target="quarantana/cap7.xml#c7_15267" targetEnd="quarantana/cap7.xml#c7_15271">
+          <ref rend="bold">che aveva fatto meno guasto</ref>:  ‘che aveva mangiato di meno’ (la perifrasi indica Renzo).
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n139" type="comm" target="quarantana/cap7.xml#c7_15437" targetEnd="quarantana/cap7.xml#c7_15441">
+          <ref rend="bold">lasciamoli andar tutti a pollaio</ref>:  ‘lasciamoli andare tutti a dormire’.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n142" type="comm" target="quarantana/cap7.xml#c7_15598" targetEnd="quarantana/cap7.xml#c7_15740">
+          <ref rend="bold">Tra il… più sicurezza</ref>:  Dopo averci portato nel caos minaccioso dell’osteria e tra la povertà solenne del ritorno a casa, la narrazione invade lo spazio della coscienza; centra i suoi fantasmi e l’agitarsi delle forze oscure del cuore. Dietro la soglia cui sono giunti Renzo, Tonio e Gervaso, albergano i timori e i dubbi di Lucia. Nei territori mobili della coscienza, le inquietudini del personaggio da romanzo – per quanto modesta sia la sua condizione – hanno la stessa dignità di quelle dell’eroe tragico. Come ha notato Nigro, il ricordo del <hi rend="italic">Giulio Cesare</hi> di Shakespeare, qui evocato attraverso il famoso giudizio di Voltaire sul drammaturgo «sauvage avec des énticelles de génie qui brillent dans une nuit horrible», filtra la traduzione francese di Le Tourner («Entre le première pensée d’une entreprise terrible et son exécution, tout l’intervalle est comme un vision fantastique») col ricordo di alcuni luoghi della poesia di Vincenzo Monti.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n144" type="comm" target="quarantana/cap7.xml#c7_15741" targetEnd="quarantana/cap7.xml#c7_15826">
+          <ref rend="bold">Al picchiare… brigata avventuriera</ref>:  Lucia se ne va «come strascinata» verso il compimento del matrimonio clandestino, prendendo «un braccio della madre, un braccio del promesso». Nel III atto dell’<hi rend="italic">Adelchi</hi> il principe longobardo, sgomento davanti all’idea di muover guerra al Papa, diceva: «e strascinato | vo per la via ch’io non mi scelsi, oscura, | senza scopo; e il mio cor s’inaridisce, | come il germe caduto in rio terreno, | e balzato dal vento». In entrambi i casi i personaggi si trovano dinanzi a un’azione che accettano di compiere malgrado confligga con le loro leggi etiche. «Sceso dal livello eroico a quello quotidiano di una contadina, il dramma della coscienza non conosce più – nel “tempo ideale” dell’immaginazione – alcuna gerarchia sociale. La “storia” dell’anima è di tutti» (Raimondi-Bottoni, <hi rend="italic"> loc.</hi>).
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n146" type="comm" target="quarantana/cap7.xml#c7_15909" targetEnd="quarantana/cap7.xml#c7_15936">
+          <ref rend="bold">Tonio, con… e picchiarono</ref>:  Secondo la teoria bachtiniana, lo sciocco («scempiato») è colui che mette in discussione l’ordine prestabilito del mondo; e non sorprende che in questa sera che prelude alla notte «degl’imbrogli e de’ sotterfugi» proprio a uno <hi rend="italic">stultus</hi>, a un parente di Bertoldino, sia affidata la parte più importante per la riuscita dei piani.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n149" type="comm" target="quarantana/cap7.xml#c7_16110" targetEnd="quarantana/cap7.xml#c7_16169">
+          <ref rend="bold">A questo… un momento</ref>:  L’ingresso in scena di Agnese, che da attrice consumata sa far coraggio a sé e ai due protagonisti di questa microrappresentazione, chiude il capitolo sotto il segno di una teatralità accentuata e brillante. Adesso tutti i pezzi sono stati messi sulla scacchiera, e questo lungo ed elaborato capitolo di preparazione può finalmente chiudersi. L’apertura del prossimo sarà decisamente sorprendente.
+                     </note>
+        <note xml:id="DeCristofaro_cap7-n151" type="comm" target="quarantana/cap7.xml#c7_16017">
+          <ref rend="bold">berlinghe</ref>:  monete d’argento di 24 grammi: quelle che Tonio ha con sé hanno l’effigie di sant’Ambrogio, ma all’epoca circolavano anche quelle ornate con lo stemma del ducato di Milano.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>
