@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>第 四 章</title>
+        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Me">Me</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>孟佐尼</author>
+          <title>约婚夫妇</title>
+          <pubPlace>南京</pubPlace>
+          <publisher>译林出版社</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Me" when="2025-03-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Chinese_1998.xml_cap4">
+        <note xml:id="chinese_cap4-n1" type="comm" target="quarantana/cap4.xml#c4_10001" targetEnd="quarantana/cap4.xml#c4_10024">
+                           太阳还尚未完全跃出地平线，克里斯托弗洛神甫已出了佩斯卡雷尼柯修道院，并朝着阿涅珊家的方向走去，住在那间陋屋里的母女俩正企盼着他的到来。</note>
+        <note xml:id="chinese_cap4-n2" type="comm" target="quarantana/cap4.xml#c4_10025" targetEnd="quarantana/cap4.xml#c4_10064">
+                          佩斯卡雷尼柯是阿达河西岸离大桥不远的一座小村庄，村子里一小群房子的住户绝大部分是渔民，各家的屋前都晒着各种鱼网。</note>
+        <note xml:id="chinese_cap4-n3" type="comm" target="quarantana/cap4.xml#c4_10065" targetEnd="quarantana/cap4.xml#c4_10094">
+                          修道院（该建筑物今天依然高耸在那里）坐落在村外不远处，其大门面对着村口，从莱柯通往贝尔加莫的道路打那儿经过。</note>
+        <note xml:id="chinese_cap4-n4" type="comm" target="quarantana/cap4.xml#c4_10095" targetEnd="quarantana/cap4.xml#c4_10150">
+                          那一日，天气晴朗，碧空如洗，一轮太阳正从山后冉冉升起，万道霞光罩住了对面高山的顶峰，然后迅速地向山坡和峡谷方向铺展开去，习习秋风把桑树上的枯叶吹落在离树不远处的地面上。</note>
+        <note xml:id="chinese_cap4-n5" type="comm" target="quarantana/cap4.xml#c4_10151" targetEnd="quarantana/cap4.xml#c4_10187">
+                          在左右两侧的葡萄园里，挺直的枝条上深浅不同的、略带红色的叶子在阳光下闪闪发亮，刚用型翻起的泥块，在已经发白、挂着晶莹露珠的庄稼茬的衬托之下，黑油油的显得分外的整齐。</note>
+        <note xml:id="chinese_cap4-n6" type="comm" target="quarantana/cap4.xml#c4_10188" targetEnd="quarantana/cap4.xml#c4_10204">
+                          这该是一幅多么令人赏心悦目的画面！ 然而，画面上呈现出来的一个个身影却使我们的目光和心绪变得忧愁起来。</note>
+        <note xml:id="chinese_cap4-n7" type="comm" target="quarantana/cap4.xml#c4_10205" targetEnd="quarantana/cap4.xml#c4_10224">
+                          要是走在路上，你会不时遇见一些衣衫褴褛、瘦骨嶙峋的乞丐，他们中有的是昔日自己行业中的好手，有的则迫于生计，才向路人伸出乞讨的手。</note>
+        <note xml:id="chinese_cap4-n8" type="comm" target="quarantana/cap4.xml#c4_10225" targetEnd="quarantana/cap4.xml#c4_10267">
+                          他们默默无语地从克里斯托弗洛神甫身旁走过，向他投来令人哀怜的目光，他们心中并没有得到他施舍的奢望，因为嘉布遗会的修士从不跟金钱打交道。 想到自己以前去修道院行乞时曾经得到过他的施舍物，他们便纷纷向他鞠躬致谢。</note>
+        <note xml:id="chinese_cap4-n9" type="comm" target="quarantana/cap4.xml#c4_10268" targetEnd="quarantana/cap4.xml#c4_10279">
+                          极目望去，在地里劳动的人寥寥无几，呈现在眼前的是一片让人备感哀伤的景象：有几</note>
+        <note xml:id="chinese_cap4-n10" type="comm" target="quarantana/cap4.xml#c4_10280" targetEnd="quarantana/cap4.xml#c4_10311">
+                          个农民正在撒种，但为了节省种子，他们不得不连心地把原本不多的种子撒得间隔相当大，好像惋惜丢失早已显得匮乏的东西一样；另外几个农民在费力地挥动铁锄，无精打采地翻着土。</note>
+        <note xml:id="chinese_cap4-n11" type="comm" target="quarantana/cap4.xml#c4_10312" targetEnd="quarantana/cap4.xml#c4_10351">
+                          这时，迎面走来一个身材瘦削的小女孩，手中用绳子牵着一头干瘦的奶牛找草吃，只见她的目光仔细地搜索着眼前的地面，并不时地突然弯下身去为自己的家人从奶牛口中夺下某一种野草，饥饿教会了她如何识别哪一类野草能够食用。</note>
+        <note xml:id="chinese_cap4-n12" type="comm" target="quarantana/cap4.xml#c4_10352" targetEnd="quarantana/cap4.xml#c4_10375">
+                          沿路的所见所闻使神甫庞先忧郁的心情愈加沉重起来，因为他马上要面对的将是一场更大的灾难。</note>
+        <note xml:id="chinese_cap4-n13" type="comm" target="quarantana/cap4.xml#c4_10376" targetEnd="quarantana/cap4.xml#c4_10384">
+                          ——他为什么对鲁齐娅如此关怀备至？</note>
+        <note xml:id="chinese_cap4-n14" type="comm" target="quarantana/cap4.xml#c4_10385" targetEnd="quarantana/cap4.xml#c4_10401">
+                          为什么当他被告知鲁齐娅有事求见，就好像接到一个教省大主教的召见令一样，迫不及待地赶往她家去？</note>
+        <note xml:id="chinese_cap4-n15" type="comm" target="quarantana/cap4.xml#c4_10402" targetEnd="quarantana/cap4.xml#c4_10407">
+                          克里斯托弗洛神甫究竟是一个什么样的人呢？</note>
+        <note xml:id="chinese_cap4-n16" type="comm" target="quarantana/cap4.xml#c4_10408" targetEnd="quarantana/cap4.xml#c4_10414">
+                          ——这几个问题我们必须向读者逐一作答。</note>
+        <note xml:id="chinese_cap4-n17" type="comm" target="quarantana/cap4.xml#c4_10415" targetEnd="quarantana/cap4.xml#c4_10429">
+                          克里斯托弗洛神甫出生在……有人说他快近五十岁了，但他看上去却更像一位六十来岁的人。</note>
+        <note xml:id="chinese_cap4-n18" type="comm" target="quarantana/cap4.xml#c4_10430" targetEnd="quarantana/cap4.xml#c4_10471">
+                          根据嘉布遗修会的会规，他剃了光头，仅仅在头部边上蓄有一小圈头发。 此刻，他不时地昂首凝望，神态中蕴含着一丝不可名状的忧虑和高傲，但随即又谦卑地低下了头。</note>
+        <note xml:id="chinese_cap4-n19" type="comm" target="quarantana/cap4.xml#c4_10472" targetEnd="quarantana/cap4.xml#c4_10513">
+                          他脸颊和下巴上的长长的白须，使他上半部分脸凸出的轮廓显得格外清晰，但脸部表情并没有因为长期的禁欲生活而变得呆滞无神，反之，它给人一种异常压重的感觉。</note>
+        <note xml:id="chinese_cap4-n20" type="comm" target="quarantana/cap4.xml#c4_10514" targetEnd="quarantana/cap4.xml#c4_10566">
+                          一双深陷的眼睛常看着地面，但有时也会霍然大放异彩，使人不禁想起马车夫驾御的两匹烈马，明知无用，可依旧不时地猛然跃起，并紧紧咬住套在嘴上的嚼子。</note>
+        <note xml:id="chinese_cap4-n21" type="comm" target="quarantana/cap4.xml#c4_10567" targetEnd="quarantana/cap4.xml#c4_10586">
+                          从前的克里斯托弗洛神甫可不是那么一个人，他的名字亦不叫克里斯托弗洛，他的教名为洛多维柯。</note>
+        <note xml:id="chinese_cap4-n22" type="comm" target="quarantana/cap4.xml#c4_10587" targetEnd="quarantana/cap4.xml#c4_10625">
+                          他原来是某一位商人的儿子（出于谨慎，我不想披露此人的详细情况，故隐去真名），晚年的他，膝下只有洛多维柯这么一个独子，生活颇为阔绰，但他决定 在小说的原稿中，在类似的地方都写着克雷莫纳以及神甫的姓名。</note>
+        <note xml:id="chinese_cap4-n23" type="comm" target="quarantana/cap4.xml#c4_10626" targetEnd="quarantana/cap4.xml#c4_10650">
+                          弃商，开始过起绅士的生活。 他的新生活固然清闲、安逸，但是他开始为虚度的年华深感羞愧。</note>
+        <note xml:id="chinese_cap4-n24" type="comm" target="quarantana/cap4.xml#c4_10651" targetEnd="quarantana/cap4.xml#c4_10671">
+                          这种负疚的心情压得他喘不过气来，他想尽办法试图让人们忘掉他的过去，甚至希望自己亦能将往事深埋在心底。</note>
+        <note xml:id="chinese_cap4-n25" type="comm" target="quarantana/cap4.xml#c4_10672" targetEnd="quarantana/cap4.xml#c4_10702">
+                          然而，仓库，大捆的货物，账本及码尺，即使在由笑容可掬的食客们作陪的盛宴上，也总是在他脑海中不断浮现，就好像在麦克佩斯眼前一晃而过的邓肯的影子一样。</note>
+        <note xml:id="chinese_cap4-n26" type="comm" target="quarantana/cap4.xml#c4_10703" targetEnd="quarantana/cap4.xml#c4_10726">
+                          为了避免使用任何可能被认为影射他昔日经商生涯的字眼，那些可怜的客人用词得斟酌再三，处处倍加小心。</note>
+        <note xml:id="chinese_cap4-n27" type="comm" target="quarantana/cap4.xml#c4_10727" targetEnd="quarantana/cap4.xml#c4_10779">
+                          这儿，我们不妨举一例说明。 一天，晚餐即将结束，大家正坐在餐桌边上，心情特别舒畅，欢快。 在那样的时刻，很难说谁更为得意，是正在扫清盘中剩菜的客人还是设宴款待他们的主人。 只见后者摆出一副谦恭的样子，和善地逗引一个为人极其厚道的食客取乐。</note>
+        <note xml:id="chinese_cap4-n28" type="comm" target="quarantana/cap4.xml#c4_10780" targetEnd="quarantana/cap4.xml#c4_10802">
+                          听罢主人的一番戏言，客人像纯真的孩童一样，不带任何恶意地回答说："那我就装作是个商人，什么也没听见。"</note>
+        <note xml:id="chinese_cap4-n29" type="comm" target="quarantana/cap4.xml#c4_10803" targetEnd="quarantana/cap4.xml#c4_10841">
+                          话一出口，他自己也不由得大吃一惊，不知所措地望着主人那张阴沉的脸，两人都希望能改变尴尬的局面，但已为时晚矣。</note>
+        <note xml:id="chinese_cap4-n30" type="comm" target="quarantana/cap4.xml#c4_10842" targetEnd="quarantana/cap4.xml#c4_10872">
+                          餐桌上的其他客人，个个都在寻思该如何掩息这一场小小的风波，但他们只是默默地在思考，在一片沉寂之中，这场风波所造成的严重后果显得更加清楚。</note>
+        <note xml:id="chinese_cap4-n31" type="comm" target="quarantana/cap4.xml#c4_10873" targetEnd="quarantana/cap4.xml#c4_10891">
+                          人人都没法避开对方的目光，尽管大家能感觉到，在场的每个人都在努力掩饰自己的心态。</note>
+        <note xml:id="chinese_cap4-n32" type="comm" target="quarantana/cap4.xml#c4_10892" targetEnd="quarantana/cap4.xml#c4_10912">
+                          对大家来说，那一天已无欢乐而言，而那一个讲话欠谨慎者，或者更公正地说，那个不幸的人，从此再也没有接到主人的邀请。</note>
+        <note xml:id="chinese_cap4-n33" type="comm" target="quarantana/cap4.xml#c4_10913" targetEnd="quarantana/cap4.xml#c4_10965">
+                          就这样，洛多维柯的父亲在悲戚之中凄然度过了他的晚年。 他总是担心会遭到别人的嘲笑，可他却从不认真地想一想，实际上售货并不比购货来得可笑，而他为之深感羞愧的那份职业，他已在众目睽睽之下毫无内疚之心地干了许 莎士比亚悲剧《麦克佩斯》中的苏格兰国王，被雄才大略的大将麦克佩斯所谋杀。 多年。</note>
+        <note xml:id="chinese_cap4-n34" type="comm" target="quarantana/cap4.xml#c4_10966" targetEnd="quarantana/cap4.xml#c4_11000">
+                          他根据当时的情况，以及法律和社会习俗赋予他的条件决定让他儿子接受高尚的教育。 为此，他特地替儿子聘请了几位讲授文学和骑士风度的导师。 在离开尘寰时，他给其年轻的儿子留下了一大笔遗产。</note>
+        <note xml:id="chinese_cap4-n35" type="comm" target="quarantana/cap4.xml#c4_11001" targetEnd="quarantana/cap4.xml#c4_11021">
+                          洛多维柯渐渐成为一位风度儒雅的绅士，因自小在追媚者的包围中长大，处处得到别人格外的敬重。</note>
+        <note xml:id="chinese_cap4-n36" type="comm" target="quarantana/cap4.xml#c4_11022" targetEnd="quarantana/cap4.xml#c4_11074">
+                          可当他同城里的显贵们在一起的时候，他发现他们的谈吐举止与他平时习以为常的那一套截然不一样。 他很想和他们坐在一起，但要是这样做的话，他必须重新学会耐心和顺从，所以每一回他总是坐在他们背后，忍受着他们的冷落和轻慢。</note>
+        <note xml:id="chinese_cap4-n37" type="comm" target="quarantana/cap4.xml#c4_11075" targetEnd="quarantana/cap4.xml#c4_11090">
+                          显然，这样的生活方式同洛多维柯所接受的教育以及他的寡性是格格不入的。</note>
+        <note xml:id="chinese_cap4-n38" type="comm" target="quarantana/cap4.xml#c4_11091" targetEnd="quarantana/cap4.xml#c4_11119">
+                          他愤火地疏远他们，但这一连心之举却使他深感遗憾，因为他认为那些人确实应该成为他的知己，他只是希望他们的态度能更加和善一些而已。</note>
+        <note xml:id="chinese_cap4-n39" type="comm" target="quarantana/cap4.xml#c4_11120" targetEnd="quarantana/cap4.xml#c4_11160">
+                          在他的内心深处，欲与他们继续交往的热望以及对他们举止的反感相互矛盾地交织在一起：一方面，他不能同他们亲密无间地相处；但另一方面，他又想以某种方式继续同他们保持接触。 出于这种矛盾的心态，他开始炫耀自己的财富，生活挥霍无度，欲借此与他们争一高低，殊不知这为已招来了更深的敌意和妒忌，并使自己沦为他们的笑柄。</note>
+        <note xml:id="chinese_cap4-n40" type="comm" target="quarantana/cap4.xml#c4_11161" targetEnd="quarantana/cap4.xml#c4_11177">
+                          他性情耿直而暴躁，这促使他很快又卷入了其他性质更为严重的争斗。</note>
+        <note xml:id="chinese_cap4-n41" type="comm" target="quarantana/cap4.xml#c4_11178" targetEnd="quarantana/cap4.xml#c4_11216">
+                          出于本能和真挚的情感，他平素特别憎恨滥用权势欺压他人的暴力行为，尤其当他知道，屡屡发生的暴力事件的肇事者竟是那些同他之间存有宿仇的人时，不禁怒火中烧。</note>
+        <note xml:id="chinese_cap4-n42" type="comm" target="quarantana/cap4.xml#c4_11217" targetEnd="quarantana/cap4.xml#c4_11269">
+                          为了平息，或者说是发泄心中的怨愤不平，他心甘情愿地与受欺凌的弱者为伍，执拗地与恶霸周旋，一次又一次地被卷进是非的旋涡中去。 久而久之，他把自己自诩为受压者的保护人和替人洗刷冤屈的使义者。</note>
+        <note xml:id="chinese_cap4-n43" type="comm" target="quarantana/cap4.xml#c4_11270" targetEnd="quarantana/cap4.xml#c4_11286">
+                          不言而喻，伸张正义是一件十分艰难的事情，可怜的洛多维柯为之殚精竭虑，不遗余力，但他的拳拳之忱却招致对手更加明显的忌恨。</note>
+        <note xml:id="chinese_cap4-n44" type="comm" target="quarantana/cap4.xml#c4_11287" targetEnd="quarantana/cap4.xml#c4_11328">
+                          在积极参预公开争斗的同时，他的内心世界也由于两种矛盾 心理的撞击而得不到片刻的安宁,因为欲想战胜对手(暂且不提他未能获得成功的几次经历),他同样得采用欺骗和暴力的手段,而这同他的良知显然相悖。</note>
+        <note xml:id="chinese_cap4-n45" type="comm" target="quarantana/cap4.xml#c4_11329" targetEnd="quarantana/cap4.xml#c4_11366">
+                          出于无奈,他也雇用了一群打手,而且为了自身的安全和获得有力的帮助,他得把那些胆大妄为之徒,即一批无赖招为膝下,为了主持正义而不得不和这些恶棍沉浸一气。</note>
+        <note xml:id="chinese_cap4-n46" type="comm" target="quarantana/cap4.xml#c4_11367" targetEnd="quarantana/cap4.xml#c4_11434">
+                          不止一次,他遭挫后精神沮丧,或因为面临紧迫的危险而惶惶不安。 他开始厌恶处处设防的生活,对自己周围的朋友也十分反感,深为自己的未来以及自己在完成善举和冒险行动中锐气日益减弱的倾向而忧心忡忡。 许多次,在他脑海里闪现出家修道的念头,当时这可谓是一个逃离烟霾的尘世最为常见的权宜之计。</note>
+        <note xml:id="chinese_cap4-n47" type="comm" target="quarantana/cap4.xml#c4_11435" targetEnd="quarantana/cap4.xml#c4_11462">
+                          要不是他遇到了一件震撼人心的事情,这个念头也许将伴随他终身而成不了现实。</note>
+        <note xml:id="chinese_cap4-n48" type="comm" target="quarantana/cap4.xml#c4_11463" targetEnd="quarantana/cap4.xml#c4_11494">
+                          一日,他走在城里的一条马路上,身边除了两个打手以外,还有一个名叫克里斯托弗洛的人,他原先是商店里的一名伙计,店关闭后成了他的管家。</note>
+        <note xml:id="chinese_cap4-n49" type="comm" target="quarantana/cap4.xml#c4_11495" targetEnd="quarantana/cap4.xml#c4_11531">
+                          此人五十岁光景,从年轻时候起一直同洛多维柯感情甚笃,他是看着洛多维柯长大的。 除了薪俸外,洛多维柯还时而有礼物赠送与他,靠这些收入他不仅能维持自己一个人的生计,而且还足以负担一个人口众多的家庭的日常开支。</note>
+        <note xml:id="chinese_cap4-n50" type="comm" target="quarantana/cap4.xml#c4_11532" targetEnd="quarantana/cap4.xml#c4_11585">
+                          洛多维柯看到一位乡绅从远处正迎面朝他走来,他虽同那个生性骄矜、臭名昭著的恶霸从未交谈过,但彼此对对方都怀有发自内心的仇恨。 是啊,两人虽互不相识,但彼此对对方存有宿仇,这也真可谓是人世间的一大奇事。</note>
+        <note xml:id="chinese_cap4-n51" type="comm" target="quarantana/cap4.xml#c4_11586" targetEnd="quarantana/cap4.xml#c4_11607">
+                          在四名打手的簇拥下,乡绅撇着嘴,正昂首阔步地走来,显示出一副高傲轻蔑,目空一切的神气。</note>
+        <note xml:id="chinese_cap4-n52" type="comm" target="quarantana/cap4.xml#c4_11608" targetEnd="quarantana/cap4.xml#c4_11660">
+                          此时,两人都紧贴着墙根走,但请读者注意:洛多维柯走在右侧,根据当时的惯例,他因此有权(天晓得这样的权利是由谁赋予的!)一直朝前走下去,不管是谁都得给他让路,这一做法在当时颇为流行。</note>
+        <note xml:id="chinese_cap4-n53" type="comm" target="quarantana/cap4.xml#c4_11661" targetEnd="quarantana/cap4.xml#c4_11686">
+                          但是,乡绅则认为自己是贵族,唯独他才可享受此权,而根据这一惯例,洛多维柯必须退至路的中央。</note>
+        <note xml:id="chinese_cap4-n54" type="comm" target="quarantana/cap4.xml#c4_11687" targetEnd="quarantana/cap4.xml#c4_11731">
+                          像此类由于两种规定相悖而产 生的纠纷在当时可谓屡见不鲜，且每一回都在两个互不相让的对手之间引发出一场恶斗。</note>
+        <note xml:id="chinese_cap4-n55" type="comm" target="quarantana/cap4.xml#c4_11732" targetEnd="quarantana/cap4.xml#c4_11746">
+                          此时，只见两人面面相觑，酷似墙根边上的两尊活动浮雕。</note>
+        <note xml:id="chinese_cap4-n56" type="comm" target="quarantana/cap4.xml#c4_11747" targetEnd="quarantana/cap4.xml#c4_11774">
+                          乡绅从头到脚打量着对方，然后皱眉蹙额，不满地对他说："你让开。"</note>
+        <note xml:id="chinese_cap4-n57" type="comm" target="quarantana/cap4.xml#c4_11775" targetEnd="quarantana/cap4.xml#c4_11783">
+                          "你让开，"洛多维柯回答说，"明明是我走在路的右侧。"</note>
+        <note xml:id="chinese_cap4-n58" type="comm" target="quarantana/cap4.xml#c4_11784" targetEnd="quarantana/cap4.xml#c4_11789">
+                          "你这号人见了我应该让路。"</note>
+        <note xml:id="chinese_cap4-n59" type="comm" target="quarantana/cap4.xml#c4_11790" targetEnd="quarantana/cap4.xml#c4_11801">
+                          "可惜出自你这号人口中的狂言对我来说并不是法律条文。"</note>
+        <note xml:id="chinese_cap4-n60" type="comm" target="quarantana/cap4.xml#c4_11802" targetEnd="quarantana/cap4.xml#c4_11825">
+                          双方的打手纹丝不动地站在各自主子的身后，互相怒目而视，手扶着短剑，随时准备决战。</note>
+        <note xml:id="chinese_cap4-n61" type="comm" target="quarantana/cap4.xml#c4_11826" targetEnd="quarantana/cap4.xml#c4_11855">
+                          路过这里的人都站在远处注视着事态的发展，像往常一样，见了围观的人，敌对双方更显露出寸土不让的决心。</note>
+        <note xml:id="chinese_cap4-n62" type="comm" target="quarantana/cap4.xml#c4_11856" targetEnd="quarantana/cap4.xml#c4_11869">
+                          "快退至路中央去，你这个无耻的手艺人。 让我再教你一回该如何对待我这样的绅士。"</note>
+        <note xml:id="chinese_cap4-n63" type="comm" target="quarantana/cap4.xml#c4_11870" targetEnd="quarantana/cap4.xml#c4_11879">
+                          "你在胡说，我可不是什么无耻的手艺人。" "我讲的是实话，是你自己在胡说。"</note>
+        <note xml:id="chinese_cap4-n64" type="comm" target="quarantana/cap4.xml#c4_11880" targetEnd="quarantana/cap4.xml#c4_11911">
+                          (这是他在反驳他人时惯用的伎俩)接着他又说："你要是同我一样是位绅士的话，我用短剑和披风就可让你这个说谎者的真实面目暴露无遗。"</note>
+        <note xml:id="chinese_cap4-n65" type="comm" target="quarantana/cap4.xml#c4_11912" targetEnd="quarantana/cap4.xml#c4_11925">
+                          "这仅仅是一个动听的托词而已，因为你无法用事实证明你所说的带有侮辱性的话是可信的。"</note>
+        <note xml:id="chinese_cap4-n66" type="comm" target="quarantana/cap4.xml#c4_11926" targetEnd="quarantana/cap4.xml#c4_11936">
+                          "你们替我把这恶棍扔到路边的沟里去，"乡绅转身对他的打手们说。</note>
+        <note xml:id="chinese_cap4-n67" type="comm" target="quarantana/cap4.xml#c4_11937" targetEnd="quarantana/cap4.xml#c4_11949">
+                          "动手啊！" 洛多维柯一边说，一边往后退去，一只手紧握着短剑。</note>
+        <note xml:id="chinese_cap4-n68" type="comm" target="quarantana/cap4.xml#c4_11950" targetEnd="quarantana/cap4.xml#c4_11965">
+                          "你狗胆包天！" 乡绅大喝一声，同时将剑拔出鞘，"待剑刃上沾上你贱民的血，我将把它掰成两段。"</note>
+        <note xml:id="chinese_cap4-n69" type="comm" target="quarantana/cap4.xml#c4_11966" targetEnd="quarantana/cap4.xml#c4_11981">
+                          说罢，两人互相朝对方猛扑过去，打手们也冲上前去保护各自的主子。</note>
+        <note xml:id="chinese_cap4-n70" type="comm" target="quarantana/cap4.xml#c4_11982" targetEnd="quarantana/cap4.xml#c4_12017">
+                          在这场敌对双方人数不均的搏斗中，洛多维柯并不想杀死对方，他只是一再躲开向他劈来的剑，并设法迫使敌人交出武 器；而多纳却千方百计要将他置于死地。</note>
+        <note xml:id="chinese_cap4-n71" type="comm" target="quarantana/cap4.xml#c4_12018" targetEnd="quarantana/cap4.xml#c4_12072">
+                          洛多维柯的左臂被一名打手的匕首刺中，面颊的一侧也被轻轻擦伤，与此同时多纳也朝他猛扑过去，欲将他杀死。 见主人的性命危在旦夕，克里斯托弗洛忙拔出匕首向多纳刺去；多纳勃然大怒，乘势拔剑刺中了他的身体。</note>
+        <note xml:id="chinese_cap4-n72" type="comm" target="quarantana/cap4.xml#c4_12073" targetEnd="quarantana/cap4.xml#c4_12098">
+                          见此状，洛多维柯怒不可遏，一剑扎进了多纳的腹部，只见他几乎和可怜的克里斯托弗洛同时奄奄一息地倒在地上。</note>
+        <note xml:id="chinese_cap4-n73" type="comm" target="quarantana/cap4.xml#c4_12099" targetEnd="quarantana/cap4.xml#c4_12154">
+                          见事情已经到了无可挽回的地步，多纳的几个打手狼狈不堪地拔腿就逃；洛多维柯的打手虽然在搏斗中占了上风，但身上也有多处被砍伤和刺破，他们不愿意被挤在正围拢过来的人群当中，故撇下洛多维柯和两具倒在他脚下的、脸色苍白如纸的尸体，随之也溜之大吉。</note>
+        <note xml:id="chinese_cap4-n74" type="comm" target="quarantana/cap4.xml#c4_12155" targetEnd="quarantana/cap4.xml#c4_12156">
+                          "打死人了吗？</note>
+        <note xml:id="chinese_cap4-n75" type="comm" target="quarantana/cap4.xml#c4_12157" targetEnd="quarantana/cap4.xml#c4_12162">
+                          ——死了一个。 ——不，死了两个。</note>
+        <note xml:id="chinese_cap4-n76" type="comm" target="quarantana/cap4.xml#c4_12163" targetEnd="quarantana/cap4.xml#c4_12170">
+                          ——他肚子上被捅破了一个洞。</note>
+        <note xml:id="chinese_cap4-n77" type="comm" target="quarantana/cap4.xml#c4_12171" targetEnd="quarantana/cap4.xml#c4_12175">
+                          ——死者是谁？</note>
+        <note xml:id="chinese_cap4-n78" type="comm" target="quarantana/cap4.xml#c4_12176" targetEnd="quarantana/cap4.xml#c4_12178">
+                          ——那个恶霸。</note>
+        <note xml:id="chinese_cap4-n79" type="comm" target="quarantana/cap4.xml#c4_12179" targetEnd="quarantana/cap4.xml#c4_12184">
+                          ——啊，圣母玛利亚，多么可怕的残杀场面！</note>
+        <note xml:id="chinese_cap4-n80" type="comm" target="quarantana/cap4.xml#c4_12185" targetEnd="quarantana/cap4.xml#c4_12188">
+                          ——这是他们自找的。</note>
+        <note xml:id="chinese_cap4-n81" type="comm" target="quarantana/cap4.xml#c4_12189" targetEnd="quarantana/cap4.xml#c4_12193">
+                          ——就这么一下子前债全清了。</note>
+        <note xml:id="chinese_cap4-n82" type="comm" target="quarantana/cap4.xml#c4_12194" targetEnd="quarantana/cap4.xml#c4_12198">
+                          ——他也丧了命。</note>
+        <note xml:id="chinese_cap4-n83" type="comm" target="quarantana/cap4.xml#c4_12199" targetEnd="quarantana/cap4.xml#c4_12201">
+                          ——这一剑多厉害！</note>
+        <note xml:id="chinese_cap4-n84" type="comm" target="quarantana/cap4.xml#c4_12202" targetEnd="quarantana/cap4.xml#c4_12207">
+                          ——谁是发生了什么十分严重的事情。</note>
+        <note xml:id="chinese_cap4-n85" type="comm" target="quarantana/cap4.xml#c4_12208" targetEnd="quarantana/cap4.xml#c4_12215">
+                          ——你们看，那人多可怜啊！ ——我的天哪，太可怕了！</note>
+        <note xml:id="chinese_cap4-n86" type="comm" target="quarantana/cap4.xml#c4_12216" targetEnd="quarantana/cap4.xml#c4_12218">
+                          ——你们救救他，你们救救他！</note>
+        <note xml:id="chinese_cap4-n87" type="comm" target="quarantana/cap4.xml#c4_12219" targetEnd="quarantana/cap4.xml#c4_12223">
+                          ——他也够倒霉的。</note>
+        <note xml:id="chinese_cap4-n88" type="comm" target="quarantana/cap4.xml#c4_12224" targetEnd="quarantana/cap4.xml#c4_12233">
+                          ——你们看，他的模样有多可怜！ 全身都是血。</note>
+        <note xml:id="chinese_cap4-n89" type="comm" target="quarantana/cap4.xml#c4_12234" targetEnd="quarantana/cap4.xml#c4_12241">
+                          ——快跑，快跑，别让他们抓住你！"</note>
+        <note xml:id="chinese_cap4-n90" type="comm" target="quarantana/cap4.xml#c4_12242" targetEnd="quarantana/cap4.xml#c4_12266">
+                          围观者中人声嘈杂，但这最后一句话显得特别清晰，因为它表达了在场的每个人的心声。 大家七嘴八舌地帮着想办法，也有人伸出援助之手。</note>
+        <note xml:id="chinese_cap4-n91" type="comm" target="quarantana/cap4.xml#c4_12267" targetEnd="quarantana/cap4.xml#c4_12299">
+                          上述事件发生在嘉布遗修会的一座教堂附近，众所周知，在当时，捕快以及同所谓的法律有关的一切人员均不能擅自进入这一避难所。</note>
+        <note xml:id="chinese_cap4-n92" type="comm" target="quarantana/cap4.xml#c4_12300" targetEnd="quarantana/cap4.xml#c4_12346">
+                          有几个人把几乎没有知觉的受伤者扶进，更确切地说，抬进了教堂。 他们把他托付给修士们时说："他是一个正派人，出于自卫，失手杀死了一个专横跋扈的恶棍。"</note>
+        <note xml:id="chinese_cap4-n93" type="comm" target="quarantana/cap4.xml#c4_12347" targetEnd="quarantana/cap4.xml#c4_12404">
+                          在这以前，洛多维柯从未杀过人。 在那个时候，凶杀案时有发生，人们耳朵经常听到，眼睛经常看到，对此类事情已习以为常。 尽管如此，当他看到有一个人被他亲手杀死，另一个人又为了他被 人杀害，眼前的情景在他心中产生的难以言喻的震撼力是他以前从未体验过的。</note>
+        <note xml:id="chinese_cap4-n94" type="comm" target="quarantana/cap4.xml#c4_12405" targetEnd="quarantana/cap4.xml#c4_12440">
+                          望着自己故手的尸体，目睹了他那一张充满惶惑和威胁的脸上在临死前呈现出来的迅疾、压重和安详的神情，他的精神世界发生了根本的变化。</note>
+        <note xml:id="chinese_cap4-n95" type="comm" target="quarantana/cap4.xml#c4_12441" targetEnd="quarantana/cap4.xml#c4_12492">
+                          他拖着沉重的脚步走至修道院，此时的他既不知自己在哪里，也不知在干些什么。 待渐渐清醒后，他发现自己躺在医务室的床上，一位任外科医师的修士（嘉布遣修会通常给每一座修道院配备一名外科医师）正在用药布和绷带替他包扎伤口。</note>
+        <note xml:id="chinese_cap4-n96" type="comm" target="quarantana/cap4.xml#c4_12493" targetEnd="quarantana/cap4.xml#c4_12520">
+                          与此同时，修道院立即派了一位专门负责处理临终圣事的修士前往发生过武斗的地方，他平时也经常在路边为人们提供此项服务。</note>
+        <note xml:id="chinese_cap4-n97" type="comm" target="quarantana/cap4.xml#c4_12521" targetEnd="quarantana/cap4.xml#c4_12553">
+                          不一会儿，他回到修道院，走进医务室凑近躺在床上的洛多维柯的耳朵说："你放宽心吧，起码他在临终前神态十分安详，他托我请求你宽恕他，并让我转达他对你的宽恕。"</note>
+        <note xml:id="chinese_cap4-n98" type="comm" target="quarantana/cap4.xml#c4_12554" targetEnd="quarantana/cap4.xml#c4_12601">
+                          这一席话使可怜的洛多维柯完全恢复了知觉，纷乱的思绪再次索绕脑际，并且显得格外鲜明和清晰：痛失好友的悲伤，失手将人杀死后心中的惊愕和内疚以及对那个在他剑下丧命的人的深深歉疚和同情。"</note>
+        <note xml:id="chinese_cap4-n99" type="comm" target="quarantana/cap4.xml#c4_12602" targetEnd="quarantana/cap4.xml#c4_12607">
+                          告诉我，另一个人的情况怎么样？" 他焦急地询问修士。</note>
+        <note xml:id="chinese_cap4-n100" type="comm" target="quarantana/cap4.xml#c4_12608" targetEnd="quarantana/cap4.xml#c4_12612">
+                          "我赶到那里的时候，那人已经咽了气。"</note>
+        <note xml:id="chinese_cap4-n101" type="comm" target="quarantana/cap4.xml#c4_12613" targetEnd="quarantana/cap4.xml#c4_12649">
+                          在修道院的门前及周围挤满了好奇的围观者，直至捕快来了之后人群才渐渐疏散开去，并退至离修道院大门较远的地方；但是，没有一个跨出修道院大门的人能躲过他们的视线。</note>
+        <note xml:id="chinese_cap4-n102" type="comm" target="quarantana/cap4.xml#c4_12650" targetEnd="quarantana/cap4.xml#c4_12703">
+                          此时，死者的一位兄长，两个堂兄及一位上了岁数的叔父，在一大群打手的前呼后拥下，来到了修道院门前，一个个从头到脚都武装得十分严实。 他们开始在修道院周围徘徊，神情傲慢地瞅着围观的人群，并不时以侮辱性的手势表示对他们的蔑视。 显然，人群中无人敢说："这是他的报应"，但他们脸上的表情已替他们作出了回答。</note>
+        <note xml:id="chinese_cap4-n103" type="comm" target="quarantana/cap4.xml#c4_12704" targetEnd="quarantana/cap4.xml#c4_12753">
+                          洛多维柯心情平静下来后，即刻差人叫来一位忏悔神甫，让他前去探望克里斯托弗洛的遗孀。 他要求神甫以他个人的名义请求她的宽恕，是他在无意中使她痛失了丈夫；另外，他还让神甫劝她 尽管放宽心，他一家的生活将由他一人负责照顾。</note>
+        <note xml:id="chinese_cap4-n104" type="comm" target="quarantana/cap4.xml#c4_12754" targetEnd="quarantana/cap4.xml#c4_12809">
+                          当他回想起那几天中发生的一切，心中不禁再次萌生曾好几回在脑海中闪过的出家修道的念头，所不同的是，此次心中的愿望显得更为坚定，更为迫切。 他仿佛觉得，是上帝亲自为他指明了出路并特意安排让他在修道院治伤的契机。</note>
+        <note xml:id="chinese_cap4-n105" type="comm" target="quarantana/cap4.xml#c4_12810" targetEnd="quarantana/cap4.xml#c4_12819">
+                          打定主意之后，他马上提出了约见修道院院长的要求，决定向院长袖甫坦诚相告一直萦绕在心间的这一风愿。</note>
+        <note xml:id="chinese_cap4-n106" type="comm" target="quarantana/cap4.xml#c4_12820" targetEnd="quarantana/cap4.xml#c4_12835">
+                          院长对他再慎重考虑一下仓猝作出的决定，如果初衷不改，他会接受他的请求。</note>
+        <note xml:id="chinese_cap4-n107" type="comm" target="quarantana/cap4.xml#c4_12836" targetEnd="quarantana/cap4.xml#c4_12878">
+                          就这样，他请来了公证人，对他口授了一份把自己所有家产（仍不失为一笔十分可观的财产）捐赠给已故的克里斯托弗洛家人的声明：其中除了一笔款子是留作克里斯托弗洛的妻子改嫁时的费用以外，剩下的财产全数赠与克里斯托弗洛留下的八个子女。</note>
+        <note xml:id="chinese_cap4-n108" type="comm" target="quarantana/cap4.xml#c4_12879" targetEnd="quarantana/cap4.xml#c4_12899">
+                          对身陷困境中的修道院院长而言，他的这一决定无疑非常适时。</note>
+        <note xml:id="chinese_cap4-n109" type="comm" target="quarantana/cap4.xml#c4_12900" targetEnd="quarantana/cap4.xml#c4_12921">
+                          如把他逐出修道院并将其交给司法部门发落，他的故人定会向他进行报复，故这个方案根本不予考虑。</note>
+        <note xml:id="chinese_cap4-n110" type="comm" target="quarantana/cap4.xml#c4_12922" targetEnd="quarantana/cap4.xml#c4_12966">
+                          再说，这将意味着他得放弃自己的特权，让修道院在公众面前名誉扫地，并因纵容他人侵犯修士的权利而招致普天下嘉布道会修士的指责，从而激怒把自己视作教会权利保护神的基督教教会的领导层。</note>
+        <note xml:id="chinese_cap4-n111" type="comm" target="quarantana/cap4.xml#c4_12967" targetEnd="quarantana/cap4.xml#c4_12997">
+                          另外，死者的家族既有权又有势，其家人为了自身及其支持者的利益，一定会设法报这一剑之仇，公开将那些敢于从中阻挠的人看成自己的敌人。</note>
+        <note xml:id="chinese_cap4-n112" type="comm" target="quarantana/cap4.xml#c4_12998" targetEnd="quarantana/cap4.xml#c4_13033">
+                          事实上，他们对死者的悲惨结局并不感到十分痛心，也没有任何人为他的死流过一滴泪，他们只是说，不管是死的还是活的，务必要把凶手抓获。</note>
+        <note xml:id="chinese_cap4-n113" type="comm" target="quarantana/cap4.xml#c4_13034" targetEnd="quarantana/cap4.xml#c4_13042">
+                          与此同时，已穿上嘉布道会修士长袍的洛维维柯，也在为平息这场风波而尽力。</note>
+        <note xml:id="chinese_cap4-n114" type="comm" target="quarantana/cap4.xml#c4_13043" targetEnd="quarantana/cap4.xml#c4_13068">
+                          他选择了苦行赎罪作为自我责罚的一个方法，即含蓄地默认自己的罪孽，并退出一切争斗。 实际上，他已成为一个放下了武器的敌人。</note>
+        <note xml:id="chinese_cap4-n115" type="comm" target="quarantana/cap4.xml#c4_13069" targetEnd="quarantana/cap4.xml#c4_13093">
+                          如果死者的亲友们愿意，他们可以相信并对人夸口说，他是由于陷于绝望以及畏惧他们的报复才决定出家当修士的。</note>
+        <note xml:id="chinese_cap4-n116" type="comm" target="quarantana/cap4.xml#c4_13094" targetEnd="quarantana/cap4.xml#c4_13131">
+                          不管怎样，他已剃发为僧，并放弃了自己的 切所有；他以行乞为生，日间赤足而行，晚上则躺在草榻子上过夜。 即使受害者的态度有多么的骄矜，他们也会觉得，他已得到了应有的惩罚。</note>
+        <note xml:id="chinese_cap4-n117" type="comm" target="quarantana/cap4.xml#c4_13132" targetEnd="quarantana/cap4.xml#c4_13202">
+                          修道院院长前去拜访死者的兄长，态度谦卑但举止却十分从容。 他首先向他那颇有名望的家族再三表示敬意，并表明了自己甘心为他们尽力效劳的愿望。 除外，他还对他谈及洛多维柯的忏悔和改过自新的决心。 他以彬彬有礼的谈吐试图让对方明白，他的家族应该为事情的结局感到满意。</note>
+        <note xml:id="chinese_cap4-n118" type="insertion">然后，他采用旁敲侧击的方法，态度温和地对他喻之以理；不管他是否乐意，这场风波的唯一结局就该如此。</note>
+        <note xml:id="chinese_cap4-n119" type="comm" target="quarantana/cap4.xml#c4_13203" targetEnd="quarantana/cap4.xml#c4_13222">
+                          听此言，死者的兄长不禁大发雷霆，院长耐心地等他平息怒气后不止一次对他说："您为失去兄弟深感悲痛，这个我完全能够理解。"</note>
+        <note xml:id="chinese_cap4-n120" type="comm" target="quarantana/cap4.xml#c4_13223" targetEnd="quarantana/cap4.xml#c4_13247">
+                          对方向院长暗示，他的家族无论如何会决法报复；院长尽管对此有自己的看法，但始终默默无言。</note>
+        <note xml:id="chinese_cap4-n121" type="comm" target="quarantana/cap4.xml#c4_13248" targetEnd="quarantana/cap4.xml#c4_13263">
+                          最后，死者的兄长提出了一个颇为苛刻的条件，即凶手必须立刻离开那座城市。</note>
+        <note xml:id="chinese_cap4-n122" type="comm" target="quarantana/cap4.xml#c4_13264" targetEnd="quarantana/cap4.xml#c4_13293">
+                          事实上，院长事先早已作出了同样的决定，但他还是表示将尽力满足他的要求，以便使对方高兴地认为，他的回答是对其顺从的一种表示。 就这样，一场风波终于宣告结束。</note>
+        <note xml:id="chinese_cap4-n123" type="comm" target="quarantana/cap4.xml#c4_13294" targetEnd="quarantana/cap4.xml#c4_13385">
+                          死者的家属争回了面子，心中颇为得意；修士们感到高兴，因为他们在没同任何人结仇的前提之下既挽救了一个人，又保住了自己的特权；一些对骑士制度情有独钟的人心情欢快，因为事情的结局确实令人庆幸；公众为之欢欣，因为他们看到自己喜欢的人摆脱了困境，同时又对他皈依基督的决心深表赞赏。 诚然，在所有的人中间，对事情的结局最感满意的当数深陷悲痛之中的洛多维柯，为赎罪，他已开始了修士的生活，这么做即使无法完全治愈他内心的创伤，至少能为他提供弥补罪过的机会，以及减轻负疚的心所无法承受的痛苦。</note>
+        <note xml:id="chinese_cap4-n124" type="comm" target="quarantana/cap4.xml#c4_13386" targetEnd="quarantana/cap4.xml#c4_13417">
+                          有人怀疑，他决定皈依基督是出于内心的恐惧，他为之感到苦恼，但他随即聊以自慰地想忖，人们对他所持的不公正看法或许是对他的惩罚，是督促他赎罪的一种手段。</note>
+        <note xml:id="chinese_cap4-n125" type="comm" target="quarantana/cap4.xml#c4_13418" targetEnd="quarantana/cap4.xml#c4_13454">
+                          就这样，在他三十岁那一年，他穿上了修士 的粗布衣服。 根据修会的惯例，他必须更姓改名，他选择了那个始终萦绕在脑际的名字，为的是弥补自己的罪过。 从此，人们都管他叫作"克里斯托弗洛神甫"。</note>
+        <note xml:id="chinese_cap4-n126" type="comm" target="quarantana/cap4.xml#c4_13455" targetEnd="quarantana/cap4.xml#c4_13480">
+                          穿神袍仪式刚结束，修道院院长即通知他翌日动身前往六十英里以外的某地见习。</note>
+        <note xml:id="chinese_cap4-n127" type="comm" target="quarantana/cap4.xml#c4_13481" targetEnd="quarantana/cap4.xml#c4_13546">
+                          修士躬身向院长神甫下拜，并请求他开恩，说道："在这座城市里，曾有人为我断送了性命，我自己也曾严重伤害了一户人家，请你允许我在离开此地以前至少弥补一下自己的罪过，请求被害者兄长的宽恕，同时向他表示因无法补偿他的损失我心中感到的内疚。 如果上帝赐福于我，我将诚心诚意地设法消除积压在他心中的怨恨。"</note>
+        <note xml:id="chinese_cap4-n128" type="comm" target="quarantana/cap4.xml#c4_13547" targetEnd="quarantana/cap4.xml#c4_13581">
+                          院长觉得这么做非但不失为一个善举，而且又能缓和受害者的家人同修道院之间的矛盾，故立即动身前去造访被害者的兄长，向他转达克里斯托弗洛修士的请求。</note>
+        <note xml:id="chinese_cap4-n129" type="comm" target="quarantana/cap4.xml#c4_13582" targetEnd="quarantana/cap4.xml#c4_13600">
+                          在毫无心理准备的情况下，受害者的兄长诧异地听完了院长神甫的陈述，心中不免火冒三丈，但同时又颇感得意。</note>
+        <note xml:id="chinese_cap4-n130" type="comm" target="quarantana/cap4.xml#c4_13601" targetEnd="quarantana/cap4.xml#c4_13611">
+                          他想了一下说："您让他明天来。" 然后，他同院长定下了会面的具体时间。</note>
+        <note xml:id="chinese_cap4-n131" type="comm" target="quarantana/cap4.xml#c4_13612" targetEnd="quarantana/cap4.xml#c4_13621">
+                          院长神甫回至修道院，给见习修士带来了他所企盼的好消息。</note>
+        <note xml:id="chinese_cap4-n132" type="comm" target="quarantana/cap4.xml#c4_13622" targetEnd="quarantana/cap4.xml#c4_13662">
+                          乡绅心想，修士公开赎罪不仅是一件严肃和能引起羞动效应的事情，而且也会提高他在亲友和公众中的威望。 按照时髦，高雅的说法，这将成为他家族史上光彩的一页。</note>
+        <note xml:id="chinese_cap4-n133" type="comm" target="quarantana/cap4.xml#c4_13663" targetEnd="quarantana/cap4.xml#c4_13688">
+                          他立刻通知所有的亲友：次日中午在他府上将举行公开谢罪仪式，届时务请届尊作陪（当时惯用的套语）。</note>
+        <note xml:id="chinese_cap4-n134" type="comm" target="quarantana/cap4.xml#c4_13689" targetEnd="quarantana/cap4.xml#c4_13727">
+                          中午时分，乡绅的私邸内济满了不同年龄的男女宾客：只见他们披着宽大的斗篷，帽檐上插着翎饰，腰间佩着轻剑，胖子上戴着紧过的又宽又硬的轮状领领，身穿布有奇异图案的拖地长袍在人群中不断穿梭而过。</note>
+        <note xml:id="chinese_cap4-n135" type="comm" target="quarantana/cap4.xml#c4_13728" targetEnd="quarantana/cap4.xml#c4_13744">
+                          候客室里、庭院内及路径上，到处是仆人、侍从和好奇的围观者。</note>
+        <note xml:id="chinese_cap4-n136" type="comm" target="quarantana/cap4.xml#c4_13745" targetEnd="quarantana/cap4.xml#c4_13783">
+                          见此情景，克里斯托弗洛修士显然已撩拨出他们的用意，他略感不安，但他随即自言自语说："这也没什么不对，我是当众将他杀死的，当时他的许多仇敌都在场，我现在只有弥补罪过才能掩息公愤。"</note>
+        <note xml:id="chinese_cap4-n137" type="comm" target="quarantana/cap4.xml#c4_13784" targetEnd="quarantana/cap4.xml#c4_13883">
+                          想至此，他低着头，和院长神 甫一起跨进了大门，并在众目睽睽之下穿过了庭院，大家的眼神里充满着不甚友善的好奇。 接着，他上了楼梯，另一群绅士模样的人忙退至两边给他让路，几十双眼睛注视着他。 最后，他走至宅院主人的面前，只见他站在屋子的中央，目光低垂，下巴微翘，左手紧握剑柄上的圆头，右手拽住垂至胸前的长袍的翻领，四周围着一群他的至亲。</note>
+        <note xml:id="chinese_cap4-n138" type="comm" target="quarantana/cap4.xml#c4_13884" targetEnd="quarantana/cap4.xml#c4_13914">
+                          有时候，一个人的脸部表情和举止，能以最直接的方式向人揭示他真实的内心世界，即便他身旁有一群目击者，他们对他产生的印象也极可能完全相同。</note>
+        <note xml:id="chinese_cap4-n139" type="comm" target="quarantana/cap4.xml#c4_13915" targetEnd="quarantana/cap4.xml#c4_13944">
+                          克里斯托弗洛修士此时的脸色和态度明确地告诉在场所有的人：他并不是出于凡人皆有的畏惧而出家修道或甘愿前来受辱的；这无疑赢得了大家的同情和支持。</note>
+        <note xml:id="chinese_cap4-n140" type="comm" target="quarantana/cap4.xml#c4_13945" targetEnd="quarantana/cap4.xml#c4_13975">
+                          当他一看到那位痛失兄弟的受害者，起紧走上前去。 他双膝跪地，两只手交叉抱在胸前，低下光秃的头说："我是杀死您胞弟的凶手。</note>
+        <note xml:id="chinese_cap4-n141" type="comm" target="quarantana/cap4.xml#c4_13976" targetEnd="quarantana/cap4.xml#c4_14002">
+                          上帝作证，倘若我能把他奉还给您，即使付出生命，我也在所不惜。 但是，我没有这回天之力，故只得向您表示无力的和迟到的道歉。 看在上帝的面上恳请您接受我的歉意。"</note>
+        <note xml:id="chinese_cap4-n142" type="comm" target="quarantana/cap4.xml#c4_14003" targetEnd="quarantana/cap4.xml#c4_14021">
+                          所有在场的人都纹丝不动地看着见习修士以及受话者的脸，全神贯注地倾耳细听。</note>
+        <note xml:id="chinese_cap4-n143" type="comm" target="quarantana/cap4.xml#c4_14022" targetEnd="quarantana/cap4.xml#c4_14037">
+                          当克里斯托弗洛修士话毕，整个大厅里立即响起一片低语声，大家不禁对他充满了同情和敬意。</note>
+        <note xml:id="chinese_cap4-n144" type="comm" target="quarantana/cap4.xml#c4_14038" targetEnd="quarantana/cap4.xml#c4_14098">
+                          乡绅极力抑制住心中的横愤，勉强摆出一副恩赐者的姿态，修士适才的一番话显然使他感到心绪不宁。 他弯下腰对双腿跪地的修士说："你起来，"然后换一个调子又说，"至于说伤害……这件事确实……但看到你身上穿的黑袍……不仅如此，还有你今天的表现……请起来，神甫……我不能否认……我兄弟……是一位绅士，但他……容易冲动……动辄发火。</note>
+        <note xml:id="chinese_cap4-n145" type="comm" target="quarantana/cap4.xml#c4_14099" targetEnd="quarantana/cap4.xml#c4_14119">
+                          这一切都是上帝的安排，大家不必再旧事重提……可是，神甫，你不该跪在地上。"</note>
+        <note xml:id="chinese_cap4-n146" type="comm" target="quarantana/cap4.xml#c4_14120" targetEnd="quarantana/cap4.xml#c4_14126">
+                          说罢，他拉住他的手臂把他扶了起来。</note>
+        <note xml:id="chinese_cap4-n147" type="comm" target="quarantana/cap4.xml#c4_14127" targetEnd="quarantana/cap4.xml#c4_14146">
+                          克里斯托弗洛修士站起身，但仍低垂着头说："那我是不是可以有望得到您的宽恕？</note>
+        <note xml:id="chinese_cap4-n148" type="comm" target="quarantana/cap4.xml#c4_14147" targetEnd="quarantana/cap4.xml#c4_14156">
+                          假如不能得到您的宽恕，我还能指望谁呢？</note>
+        <note xml:id="chinese_cap4-n149" type="comm" target="quarantana/cap4.xml#c4_14157" targetEnd="quarantana/cap4.xml#c4_14166">
+                          要是我能听到从您嘴 里说出"宽恕"两字该有多好啊！"</note>
+        <note xml:id="chinese_cap4-n150" type="comm" target="quarantana/cap4.xml#c4_14167" targetEnd="quarantana/cap4.xml#c4_14176">
+                          "宽恕？" 乡绅反问道，"你已无须再获得宽恕。</note>
+        <note xml:id="chinese_cap4-n151" type="comm" target="quarantana/cap4.xml#c4_14177" targetEnd="quarantana/cap4.xml#c4_14190">
+                          但既然您确实有此愿望，当然，我现在以我个人以及在场所有人的名义，诚心诚意地向您表示宽恕......"</note>
+        <note xml:id="chinese_cap4-n152" type="comm" target="quarantana/cap4.xml#c4_14191" targetEnd="quarantana/cap4.xml#c4_14198">
+                          "对，所有的人！ 所有的人！" 旁观者们异口同声地喊叫。</note>
+        <note xml:id="chinese_cap4-n153" type="comm" target="quarantana/cap4.xml#c4_14199" targetEnd="quarantana/cap4.xml#c4_14228">
+                          修士的脸上绽露出充满感激的欢悦，但神情中蕴含着一丝淡淡的谦卑和深深的内疚，因为他明白，人们的宽恕无法弥补自己的罪过。</note>
+        <note xml:id="chinese_cap4-n154" type="comm" target="quarantana/cap4.xml#c4_14229" targetEnd="quarantana/cap4.xml#c4_14254">
+                          见人人都显得颇为激动，受这种气氛的感染，乡绅伸出双臂抱住修士的脖子，两人互相亲吻言和。</note>
+        <note xml:id="chinese_cap4-n155" type="comm" target="quarantana/cap4.xml#c4_14255" targetEnd="quarantana/cap4.xml#c4_14273">
+                          在大厅的每个角落里顿时爆发出一片"好啊！ 妙啊！" 的欢呼声，所有的人都朝修士跑去，并将他团团围住。</note>
+        <note xml:id="chinese_cap4-n156" type="comm" target="quarantana/cap4.xml#c4_14274" targetEnd="quarantana/cap4.xml#c4_14281">
+                          与此同时，仆人们手中托着盛满点心的盘子鱼贯而入。</note>
+        <note xml:id="chinese_cap4-n157" type="comm" target="quarantana/cap4.xml#c4_14282" targetEnd="quarantana/cap4.xml#c4_14307">
+                          见克里斯托弗洛修士欲告退的样子，乡绅忙走至他跟前说："神甫，请用些点心。 你要是肯赏光，你的举动将是我们之间友谊的明证。"</note>
+        <note xml:id="chinese_cap4-n158" type="comm" target="quarantana/cap4.xml#c4_14308" targetEnd="quarantana/cap4.xml#c4_14340">
+                          说罢，忙第一个为他端上点心，但修士往后退了一步，温和而执拗地说："我已不合适享用此类点心，但是我今后不会拒绝接受您馈赠的礼品。</note>
+        <note xml:id="chinese_cap4-n159" type="comm" target="quarantana/cap4.xml#c4_14341" targetEnd="quarantana/cap4.xml#c4_14374">
+                          我即将出门远 行,请您让他们拿一条面包给我,这样我就可以对人说,我吃了您施舍的面包,已经得到了您的宽如。"</note>
+        <note xml:id="chinese_cap4-n160" type="comm" target="quarantana/cap4.xml#c4_14375" targetEnd="quarantana/cap4.xml#c4_14411">
+                          乡绅听了修士的这一番话不禁动容,马上吩咐照办。 一位身着盛装的仆人很快将装有面包的银盘子端至修士面前,修士道过谢后将面包装入自己的背包。</note>
+        <note xml:id="chinese_cap4-n161" type="comm" target="quarantana/cap4.xml#c4_14412" targetEnd="quarantana/cap4.xml#c4_14498">
+                          修士向主人告辞,他以及紧靠着修士的几位宾客——同修士拥抱,修士费力地从他们紧紧围住他的手臂中脱身。 在前厅,他被仆人们团团围住,打手们一个个亲吻他长袍的折边,腰带和兜帽。 在街上,人们将他抬起来抛向空中欢呼胜利,并一直把他送至城门口。 他出了城,朝着目的地走去,在那里,他将开始他见习修士的生活。</note>
+        <note xml:id="chinese_cap4-n162" type="comm" target="quarantana/cap4.xml#c4_14499" targetEnd="quarantana/cap4.xml#c4_14528">
+                          受害者的兄长及其亲戚,原以为那一天定能感受到自尊心得到满足以后带有苦涩的欢乐,但是此刻,他们的心中却充满了交织着宽容和仁爱的淡淡的喜悦。</note>
+        <note xml:id="chinese_cap4-n163" type="comm" target="quarantana/cap4.xml#c4_14529" targetEnd="quarantana/cap4.xml#c4_14552">
+                          宾客们没有马上告辞,他们继续在异乎寻常的亲切,欢快的气氛中谈论着来来之前一些未曾思及的问题。</note>
+        <note xml:id="chinese_cap4-n164" type="comm" target="quarantana/cap4.xml#c4_14553" targetEnd="quarantana/cap4.xml#c4_14575">
+                          没有人提起刚结束的谢罪仪式,对滥用权势之人的惩罚或克里斯托弗洛出家当修士的决定,谈话的主题都围绕着克里斯托弗洛温和,顺良的柔性而展开,话语里充满了对见习修士的赞佩。</note>
+        <note xml:id="chinese_cap4-n165" type="comm" target="quarantana/cap4.xml#c4_14576" targetEnd="quarantana/cap4.xml#c4_14624">
+                          在这样的一个场合,他们中的一位贵族老爷极有可能会第五十次向人讲述其父穆齐奥公爵如何在一起奥名昭著的阴谋事件中智胜了以爱讲大话闻名的史塔尼斯拉奥侯爵,然而这一回他不但对此事只字未提,反而道滋不绝地赞美在多年前仙逝的西蒙尼修士赎罪的苦行和值得钦佩的毅力。</note>
+        <note xml:id="chinese_cap4-n166" type="comm" target="quarantana/cap4.xml#c4_14625" targetEnd="quarantana/cap4.xml#c4_14688">
+                          客人们散尽后,主人的心情一时仍无法平静下来,当他回想起自己适才耳闻目睹的一切以及自己说过的话,他仍感到十分惊异,喃喃自语道:"一个魔鬼一样的修士!(这里,我们得把他的原话一字不差地告诉读者)一个魔鬼一样的修士!如果他在这里再多晚一会儿,也许我会主动请求他的原谅,尽管他是杀害我兄弟的凶手。"</note>
+        <note xml:id="chinese_cap4-n167" type="comm" target="quarantana/cap4.xml#c4_14689" targetEnd="quarantana/cap4.xml#c4_14713">
+                          据史料记载:自那一天起,乡绅再也不像过去那样动辄发火,待人处事的态度也显得较为和蔼,慎重。</note>
+        <note xml:id="chinese_cap4-n168" type="comm" target="quarantana/cap4.xml#c4_14714" targetEnd="quarantana/cap4.xml#c4_14741">
+                          克里斯托弗洛修士在路上踽踽独行,自那可怕的一天之后,他 心中还是第一次感受到如释重负般的欢愉，尽管他不得不用整个一生去弥补自己的罪过。</note>
+        <note xml:id="chinese_cap4-n169" type="comm" target="quarantana/cap4.xml#c4_14742" targetEnd="quarantana/cap4.xml#c4_14768">
+                          四周，万籁俱寂，然而他却对此毫无觉察，仍全神贯注地思付着为抵罪自己将蒙受的劳摔、磨难和羞辱。</note>
+        <note xml:id="chinese_cap4-n170" type="comm" target="quarantana/cap4.xml#c4_14769" targetEnd="quarantana/cap4.xml#c4_14801">
+                          到了进餐的时候，他在一位施主家稍作停顿，取出救罪的面包，津津有味地吃了起来。 他把吃剩下的一块面包重新装入背包内，他将把它当作永远的纪念保存在身边。</note>
+        <note xml:id="chinese_cap4-n171" type="comm" target="quarantana/cap4.xml#c4_14802" targetEnd="quarantana/cap4.xml#c4_14856">
+                          我们无意在此赘述他在修道院内的隐居生活，我们只想说，他极其愉快和认真地完成了托付给他的布道和照料临终病人的每一件工作，但他从不错过任何机会执行另两项为自己定下的义务：调解纠纷和保护受压者。</note>
+        <note xml:id="chinese_cap4-n172" type="comm" target="quarantana/cap4.xml#c4_14857" targetEnd="quarantana/cap4.xml#c4_14888">
+                          在这一方面，他的旧习和尚武精神仍会不时下意识地表现出来，忍辱的苦修生活显然没有使之彻底泯没。</note>
+        <note xml:id="chinese_cap4-n173" type="comm" target="quarantana/cap4.xml#c4_14889" targetEnd="quarantana/cap4.xml#c4_14931">
+                          平日里，他的谈吐谦卑、稳重，可每当正义或真理遭到威胁时，他那旧时容易冲动的暴性会使他猝然元奋起来，但由于受到他布道时一直采用的夸张、压重声调的影响，他此时的话语听来富有一种独特的魅力。</note>
+        <note xml:id="chinese_cap4-n174" type="comm" target="quarantana/cap4.xml#c4_14932" targetEnd="quarantana/cap4.xml#c4_14961">
+                          许多年以来，他那暴躁、易怒的秉性和钢铁般的意志始终是一对无法缓和的矛盾，而他的举止和眼神每每是他内心世界的真实流露。 由于他有高尚的生活目标和人生追求，所以在关键时刻，他的理智总是能够战胜自己一时的感情冲动。</note>
+        <note xml:id="chinese_cap4-n175" type="comm" target="quarantana/cap4.xml#c4_14962" targetEnd="quarantana/cap4.xml#c4_15010">
+                          有一次，一位熟稔他的修士将他比作极富表达力的词语，即使是一些学问渊博之士，当他们无法控制自己激情的时候，说起这些词语来也可能因为改换了一两个字母而含糊不清，但即使变了形，那些字眼依旧蕴涵着原先旺盛的生命力。</note>
+        <note xml:id="chinese_cap4-n176" type="comm" target="quarantana/cap4.xml#c4_15011" targetEnd="quarantana/cap4.xml#c4_15029">
+                          倘若有一位遭受同鲁齐娅一样厄运的姑娘向克里斯托弗洛修士求救，他一定会立即伸出援助的手。</note>
+        <note xml:id="chinese_cap4-n177" type="comm" target="quarantana/cap4.xml#c4_15030" targetEnd="quarantana/cap4.xml#c4_15067">
+                          现在得知鲁齐娅有难，他更是关切地匆忙赶去相助，因为他了解她的为人，赞赏她纯洁的心灵。 况且，他原先就为她危险的处境忧心如焚，对她遭受无耻迫害的事实感到义愤填膺。</note>
+        <note xml:id="chinese_cap4-n178" type="comm" target="quarantana/cap4.xml#c4_15068" targetEnd="quarantana/cap4.xml#c4_15116">
+                          当他想起，为了避免事态的进一步恶化，自己曾告诫她保持镇静和严守秘密，不禁又担心自己的劝戒可能会 产生什么不祥的后果。 此时此刻，他心中除了生来就有的仁爱和关怀以外，又增添了几分好心人常因过度审慎而给自己带来的忧伤。</note>
+        <note xml:id="chinese_cap4-n179" type="comm" target="quarantana/cap4.xml#c4_15117" targetEnd="quarantana/cap4.xml#c4_15158">
+                          就在我们叙述有关克里斯托弗洛修士的故事的同时，他已经走到了鲁齐娅的家。 见到他站在门口，阿淳娜母女二人忙松开转动叽呱作响的摇纱机的把手，站起身惊呼道："哎呀，谢天谢地，克里斯托弗洛神甫，您终于来了！"</note>
+      </div>
+    </body>
+  </text>
+</TEI>

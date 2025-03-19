@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>第九章</title>
+        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Me">Me</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>孟佐尼</author>
+          <title>约婚夫妇</title>
+          <pubPlace>南京</pubPlace>
+          <publisher>译林出版社</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Me" when="2025-03-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Chinese_1998.xml_cap9">
+        <note xml:id="chinese_cap9-n1" type="comm" target="quarantana/cap9.xml#c9_10001" targetEnd="quarantana/cap9.xml#c9_10026">
+                          船头轻轻地撞在岸滩上，鲁齐娅为之一惊。 她倦倦地拭泪，像大梦初醒一样拾起头。</note>
+        <note xml:id="chinese_cap9-n2" type="comm" target="quarantana/cap9.xml#c9_10027" targetEnd="quarantana/cap9.xml#c9_10052">
+                          兰佐第一个走下船，然后搀扶阿涅珊上岸，待她站稳后把手伸给女儿，拉着她也下了船。</note>
+        <note xml:id="chinese_cap9-n3" type="comm" target="quarantana/cap9.xml#c9_10053" targetEnd="quarantana/cap9.xml#c9_10111">
+                          三人面带愁容向船夫道谢，可他却回答说："谢什么？ 世上的人应该互相帮助。" 说罢，见兰佐从身上掏出几枚硬币想塞在自己手中，他几乎反感地把手缩了回去，好像有人在纵容他偷别人的东西一样。 那晚兰佐带着一些钱原本是想慎懦地送给堂·安保迪，作为他非自愿帮助自己的酬金。</note>
+        <note xml:id="chinese_cap9-n4" type="comm" target="quarantana/cap9.xml#c9_10112" targetEnd="quarantana/cap9.xml#c9_10134">
+                          一辆双轮大车正等着他们三人，车夫同他们打过招呼后让他们上了车，朝牲口吆喝一声，扬起鞭子往空中甩了一下就上了路。</note>
+        <note xml:id="chinese_cap9-n5" type="comm" target="quarantana/cap9.xml#c9_10135" targetEnd="quarantana/cap9.xml#c9_10163">
+                          本书的佚名作者没有描述他们三人夜行路上的详情，也没有披露克里斯托弗洛修士告诉阿涅珊母女二人该去的地方的名字，他直言不讳地表示他不想明说。</note>
+        <note xml:id="chinese_cap9-n6" type="comm" target="quarantana/cap9.xml#c9_10164" targetEnd="quarantana/cap9.xml#c9_10175">
+                          随着故事情节的发展，读者自会明白他知而不言的缘由。</note>
+        <note xml:id="chinese_cap9-n7" type="comm" target="quarantana/cap9.xml#c9_10176" targetEnd="quarantana/cap9.xml#c9_10204">
+                          显然，鲁齐娅客居他乡的冒险生活与一起阴谋有牵连，而其策划者的家族在作者著书时似乎在当地颇有权势。</note>
+        <note xml:id="chinese_cap9-n8" type="comm" target="quarantana/cap9.xml#c9_10205" targetEnd="quarantana/cap9.xml#c9_10239">
+                          为了解释那个人在特定情况下不可思议的举止，作者不得不简略地描述此人早年的生活，以便让读者对其家庭的情况有一个概貌的了解。</note>
+        <note xml:id="chinese_cap9-n9" type="comm" target="quarantana/cap9.xml#c9_10240" targetEnd="quarantana/cap9.xml#c9_10260">
+                          然而，那个可怜的人想小心翼翼严守的秘密，我们倘若肯动脑筋的话，可在书中的其他地方找到答案。</note>
+        <note xml:id="chinese_cap9-n10" type="comm" target="quarantana/cap9.xml#c9_10261" targetEnd="quarantana/cap9.xml#c9_10325">
+                          曾有一位米兰的历史学家也提及到过他，但他未点明此人的名字或相关的地名，他只是说，那是一座避迹闻名的 古镇，兰布罗河 横穿该镇，镇上住着一位总本堂神甫。</note>
+        <note xml:id="chinese_cap9-n11" type="comm" target="quarantana/cap9.xml#c9_10326" targetEnd="quarantana/cap9.xml#c9_10336">
+                          从以上罗列的事实加以分析，我们不难推断，那地方一定是蒙扎。</note>
+        <note xml:id="chinese_cap9-n12" type="comm" target="quarantana/cap9.xml#c9_10337" targetEnd="quarantana/cap9.xml#c9_10355">
+                          在硕大无朋的博学推理的宝库中，人们也许会找到更加微妙的推论，但是我觉得无法再找到更可靠的了。</note>
+        <note xml:id="chinese_cap9-n13" type="comm" target="quarantana/cap9.xml#c9_10356" targetEnd="quarantana/cap9.xml#c9_10399">
+                          诚然，凭借有确凿根据的推测，我们也可以说出那个家族的名字，但是该家族早就不复存在，我们觉得还是不写出来为好，以免有冤屈亡灵之嫌，同时也可以留着给后来的学者作研究的课题。</note>
+        <note xml:id="chinese_cap9-n14" type="comm" target="quarantana/cap9.xml#c9_10400" targetEnd="quarantana/cap9.xml#c9_10436">
+                          阿涅珊等一行三人在黎明时分抵达蒙扎，车夫走进了一家客店。 他对那地方及客店的店主都挺熟悉，让店主给他们安排一个房间，并一直陪他们进了房间。</note>
+        <note xml:id="chinese_cap9-n15" type="comm" target="quarantana/cap9.xml#c9_10437" targetEnd="quarantana/cap9.xml#c9_10477">
+                          兰佐再三向他致谢，想送一些钱给他，但同船夫一样，他也企盼在尘世之外得到一份更为丰厚的酬金，故慌忙缩回手，跑去照看他的牲口了。</note>
+        <note xml:id="chinese_cap9-n16" type="comm" target="quarantana/cap9.xml#c9_10478" targetEnd="quarantana/cap9.xml#c9_10548">
+                          兰佐等三人熬过了上文所描述的傍晚和一个可想而知的夜晚，心中充满了痛苦的回忆，时刻担忧会再遇到不愉快的事情，顶着与其说深秋倒不如说寒冬的阵阵凉风，在那辗极不舒服的双轮大车不停的颠簸下，刚想合上眼睛就给猛然震醒，现在总算能安安稳稳地坐在一间屋子里一张长板凳上（且不说那是怎么样的一张凳子），这一切对他们三个人来说简直恍如梦境。</note>
+        <note xml:id="chinese_cap9-n17" type="comm" target="quarantana/cap9.xml#c9_10549" targetEnd="quarantana/cap9.xml#c9_10572">
+                          在用早餐的时候，他们都觉得没有胃口，究因时世艰难，加上他们前途未卜，身上带的钱远不足应付往后生活中的实际需要。</note>
+        <note xml:id="chinese_cap9-n18" type="comm" target="quarantana/cap9.xml#c9_10573" targetEnd="quarantana/cap9.xml#c9_10594">
+                          三人不约而同地想起了两天前应该举行的婚宴，不禁长叹一声。</note>
+        <note xml:id="chinese_cap9-n19" type="comm" target="quarantana/cap9.xml#c9_10595" targetEnd="quarantana/cap9.xml#c9_10626">
+                          兰佐本想在那里至少呆上一天，安顿好阿涅珊母女两人，尽力帮助她们处理一些亟待解决的问题，但是克里斯托弗洛修士曾叮咛她们到了目的地之后让他立即上路。</note>
+        <note xml:id="chinese_cap9-n20" type="comm" target="quarantana/cap9.xml#c9_10627" targetEnd="quarantana/cap9.xml#c9_10658">
+                          她们把修士的叮嘱又对他重复了一遍，另外还说了许许多多其他的理由：在一起呆久了，兴许有人会说长道短，离别时也会更痛苦，再说不久他们就可以互通音讯，兰佐终于横下一条</note>
+        <note xml:id="chinese_cap9-n21" type="comm" target="quarantana/cap9.xml#c9_10659" targetEnd="quarantana/cap9.xml#c9_10664">
+                          波河的支流。</note>
+        <note xml:id="chinese_cap9-n22" type="comm" target="quarantana/cap9.xml#c9_10665" targetEnd="quarantana/cap9.xml#c9_10677">
+                          心窝她们而去。 他们商定尽可能早日见面。</note>
+        <note xml:id="chinese_cap9-n23" type="comm" target="quarantana/cap9.xml#c9_10678" targetEnd="quarantana/cap9.xml#c9_10704">
+                          鲁齐娅忍不住潸然泪下，兰佐费力地克制住自己内心的悲痛，紧紧地握住阿涅珊的手套声奋气地说了声再见，随即转身离去。</note>
+        <note xml:id="chinese_cap9-n24" type="comm" target="quarantana/cap9.xml#c9_10705" targetEnd="quarantana/cap9.xml#c9_10736">
+                          要不是那个好心的车夫奉命将她们送至嘉布道会修道院并为她们提供各种帮助，她们定会陷入困境之中。</note>
+        <note xml:id="chinese_cap9-n25" type="comm" target="quarantana/cap9.xml#c9_10737" targetEnd="quarantana/cap9.xml#c9_10754">
+                          她们跟着车夫一起前往修道院，那里离蒙扎近在咫尺。</note>
+        <note xml:id="chinese_cap9-n26" type="comm" target="quarantana/cap9.xml#c9_10755" targetEnd="quarantana/cap9.xml#c9_10776">
+                          到了修道院大门口，车夫拉了一下门铃上的绳子，说是要见院长。 院长马上出来相见，并站在门口接过了赶车人带来的信。</note>
+        <note xml:id="chinese_cap9-n27" type="comm" target="quarantana/cap9.xml#c9_10777" targetEnd="quarantana/cap9.xml#c9_10783">
+                          "啊，克里斯托弗洛神甫！"</note>
+        <note xml:id="chinese_cap9-n28" type="comm" target="quarantana/cap9.xml#c9_10784" targetEnd="quarantana/cap9.xml#c9_10800">
+                          他认出字迹后喃喃自语，其口气和脸上的表情清楚地说明了他们之间深厚的友情。</note>
+        <note xml:id="chinese_cap9-n29" type="comm" target="quarantana/cap9.xml#c9_10801" targetEnd="quarantana/cap9.xml#c9_10857">
+                          应该告诉大家，好心的克里斯托弗洛神甫在信中对他的至友介绍了她们目前的处境，嘱托他用心照料她们，字里行间充满了对她们无限的同情和怜悯。 院长一边读信，一边不时惊讶和气愤地抬起头凝视着她们，眼神里流露出对她们的怜悯和关心。</note>
+        <note xml:id="chinese_cap9-n30" type="comm" target="quarantana/cap9.xml#c9_10858" targetEnd="quarantana/cap9.xml#c9_10879">
+                          读完信后，他沉吟了片刻，然后说："鉴于你们目前的处境，只有夫人能帮助你们。 如果她肯出面的话……"</note>
+        <note xml:id="chinese_cap9-n31" type="comm" target="quarantana/cap9.xml#c9_10880" targetEnd="quarantana/cap9.xml#c9_10931">
+                          他把阿涅珊拉到一边，陪她一起走到修道院前的空地上，问了她一些话，在得到了满意的答复之后又回到鲁齐娅跟前，并对她们两人说："两位女客人，我会尽力帮助你们的，但愿我能替你们找到一个更为安全、体面的藏身之处，直至上帝为你们作出更好的安排。</note>
+        <note xml:id="chinese_cap9-n32" type="comm" target="quarantana/cap9.xml#c9_10932" targetEnd="quarantana/cap9.xml#c9_10935">
+                          现在请跟我一起去好吗？"</note>
+        <note xml:id="chinese_cap9-n33" type="comm" target="quarantana/cap9.xml#c9_10936" targetEnd="quarantana/cap9.xml#c9_10954">
+                          两位女客恭敬地点头表示同意，院长继续说："很好。 现在我马上带你们去夫人的修道院。</note>
+        <note xml:id="chinese_cap9-n34" type="comm" target="quarantana/cap9.xml#c9_10955" targetEnd="quarantana/cap9.xml#c9_10994">
+                          在路上，你们最好同我保持一定的距离，以免别人说闲话。 要是他们看到修道院院长同一位年轻美貌的姑娘……我是说同女人，并肩走在路上，天知道他们会胡说些什么。"</note>
+        <note xml:id="chinese_cap9-n35" type="comm" target="quarantana/cap9.xml#c9_10995" targetEnd="quarantana/cap9.xml#c9_10998">
+                          他说罢就一人先走了。</note>
+        <note xml:id="chinese_cap9-n36" type="comm" target="quarantana/cap9.xml#c9_10999" targetEnd="quarantana/cap9.xml#c9_11032">
+                          鲁齐娅的脸上泛出红晕，赶车人则朝阿涅珊微微一笑，她也不觉羞尔。 他们三人跟在院长身后，同他保 持十步开外的距离。</note>
+        <note xml:id="chinese_cap9-n37" type="comm" target="quarantana/cap9.xml#c9_11033" targetEnd="quarantana/cap9.xml#c9_11050">
+                          她们询问车夫，那位夫人究竟是何许人，适才她们没敢向院长提这问题。</note>
+        <note xml:id="chinese_cap9-n38" type="comm" target="quarantana/cap9.xml#c9_11051" targetEnd="quarantana/cap9.xml#c9_11064">
+                          赶车人回答说："夫人是一位修女，但又不同于一般的修女。</note>
+        <note xml:id="chinese_cap9-n39" type="insertion">她既不是女修道院院长，也不是副院长，据他们说，她是那里一位最年轻的修女。</note>
+        <note xml:id="chinese_cap9-n40" type="insertion">她祖籍西班牙，家族中的先人可追溯至夏娃和亚当那遥远的年代，那可是一个在当地颇有权势的大家族。</note>
+        <note xml:id="chinese_cap9-n41" type="insertion">所以，大家都管她叫做夫人，也就是说，一位高贵的夫人。</note>
+        <note xml:id="chinese_cap9-n42" type="comm" target="quarantana/cap9.xml#c9_11065" targetEnd="quarantana/cap9.xml#c9_11232">
+                          在当地，人人都这么称呼她，他们还说在那个修道院里，从来没有过像她那样的人物，即使在今天，她的家人在米兰也都是一些举足轻重的人物，什么事都得由他们说了算。 在蒙扎，其家族的影响更为广泛，她父亲虽然不在那儿住，但依然是城里的头面人物，所以她能左右修道院里的一切事务，即便是院外的人们亦相当尊敬她。 一旦她答应做一件事情，她准能将它做好。 要是那位好心的神甫把你们托附给她，而她也同意接纳你们的话，我敢说，你们就如同站在圣坛上一样的安全。"</note>
+        <note xml:id="chinese_cap9-n43" type="comm" target="quarantana/cap9.xml#c9_11233" targetEnd="quarantana/cap9.xml#c9_11299">
+                          不一会儿，他们走至城门附近，只见在城门的一侧是一半早已倒塌的塔楼，另一侧是一截断裂的城堡，也许读者中有好几位依然记得当年这两座建筑物完好时的雄姿。 院长停住脚步，回首看着另外几个人是否紧随其后，然后跨入城门，朝修道院径自走去。 走至修道院大门口，他再次停下脚步等后面几个人赶上来。</note>
+        <note xml:id="chinese_cap9-n44" type="comm" target="quarantana/cap9.xml#c9_11300" targetEnd="quarantana/cap9.xml#c9_11334">
+                          他告诉车夫数小时之后回修道院听他的回音，车夫点头允诺，然后同阿涅珊母女二人道别，她们再三向他致谢，并托他向克里斯托弗洛修士致意。</note>
+        <note xml:id="chinese_cap9-n45" type="comm" target="quarantana/cap9.xml#c9_11335" targetEnd="quarantana/cap9.xml#c9_11361">
+                          院长领着她们穿过修道院的外院，让她们在女管事的内室稍候，然后独自一人前去求见。</note>
+        <note xml:id="chinese_cap9-n46" type="comm" target="quarantana/cap9.xml#c9_11362" targetEnd="quarantana/cap9.xml#c9_11394">
+                          片刻之后，他满脸喜悦地折回，告诉她们随他同去。 对阿涅珊和鲁茜亚娅来说，他来的正是时候，因为在女管事连珠炮似的盘问之下，她们已感到招架不住。</note>
+        <note xml:id="chinese_cap9-n47" type="comm" target="quarantana/cap9.xml#c9_11395" targetEnd="quarantana/cap9.xml#c9_11410">
+                          他带着她们穿过内院，告诫她们在夫人面前该注意自己的举止。</note>
+        <note xml:id="chinese_cap9-n48" type="comm" target="quarantana/cap9.xml#c9_11411" targetEnd="quarantana/cap9.xml#c9_11425">
+                          他对她们说："她很乐意收留你们这样的人，她能给你们提供莫大的帮助。</note>
+        <note xml:id="chinese_cap9-n49" type="comm" target="quarantana/cap9.xml#c9_11426" targetEnd="quarantana/cap9.xml#c9_11448">
+                          在她面前，你们要表现得谦逊和恭敬，对她提的问题，你们要给予坦率的回答，剩下的事由我替你们说。"</note>
+        <note xml:id="chinese_cap9-n50" type="comm" target="quarantana/cap9.xml#c9_11449" targetEnd="quarantana/cap9.xml#c9_11481">
+                          她们跟着他走进一间底层的同会客室相连的屋子，在进会客室之前，院长指了指会客室的门，并低声对她们说："她就在里边，"仍佛以此再次提醒她们记住他的嘱咐。</note>
+        <note xml:id="chinese_cap9-n51" type="comm" target="quarantana/cap9.xml#c9_11482" targetEnd="quarantana/cap9.xml#c9_11553">
+                          对鲁齐娅而言，她以前从未踏进过修道院的大门，故进入会客室之后，她四处张望，想寻找夫人好向她躬身行礼。 她看到屋子里空无一人，正发呆时，只见院长和阿涅珊朝屋子的一角走去，她朝那里望去，这才看见一扇形状奇特的窗子，上面装有两扇又粗又密的铁栅，中间相隔一手掌宽的距离，在铁栅的后面站着一位修女。</note>
+        <note xml:id="chinese_cap9-n52" type="comm" target="quarantana/cap9.xml#c9_11554" targetEnd="quarantana/cap9.xml#c9_11577">
+                          她看上去约莫二十五岁，年一看，她生得十分秀丽，但那只是一张轮廓优美但充满迟滞的脸，显然已失去了昔日的光彩，看上去十分憾惜。</note>
+        <note xml:id="chinese_cap9-n53" type="comm" target="quarantana/cap9.xml#c9_11578" targetEnd="quarantana/cap9.xml#c9_11642">
+                          一方盖在头上的黑色纱巾从两边悬垂下来，松松地遮住了整张脸；纱巾的里面是一块洁白的头巾，包住了苍白如纸的前额；另一条打褶的白色头巾裹住了她的脸庞和下巴，遮住了她黑袍松开的衣领，一直垂至胸前。</note>
+        <note xml:id="chinese_cap9-n54" type="comm" target="quarantana/cap9.xml#c9_11643" targetEnd="quarantana/cap9.xml#c9_11664">
+                          她额头上的皮肤因痛苦地牵缩而不时地漾出少许皱纹，两道黑色的眉毛也随之迅速地上下牵动。</note>
+        <note xml:id="chinese_cap9-n55" type="comm" target="quarantana/cap9.xml#c9_11665" targetEnd="quarantana/cap9.xml#c9_11760">
+                          她那一双乌黑乌黑的眼睛时而高傲地审视着你的脸，时而匆匆垂下，好似在寻觅藏匿之地。 倘若你仔细观察的话，有时你会发现，她的眼睛在企盼得到他人的爱怜，理解和同情；有时你可能捕捉到压抑在她心中的刻骨仇恨在瞬间的流露，凶恶狠毒，咄咄逼人；有时，她的眼睛呆滞无神，茫然地凝视着前方，有人可能以为这是她对一切处之漠然的高傲态度，也有人觉得这是她内心隐痛和心结不宁的真实流露，因为同周围的人相比，她心灵上蒙受的痛苦要强烈得多。</note>
+        <note xml:id="chinese_cap9-n56" type="comm" target="quarantana/cap9.xml#c9_11761" targetEnd="quarantana/cap9.xml#c9_11779">
+                          她脸部的轮廓清秀，柔媚，但面颊十分苍白，心力交瘁使她美丽的容貌变形，衰残。</note>
+        <note xml:id="chinese_cap9-n57" type="comm" target="quarantana/cap9.xml#c9_11780" targetEnd="quarantana/cap9.xml#c9_11807">
+                          她的双唇泛出淡淡的桃红色，衬在苍白的脸上显得十分突出，翕动时的形状如同她变幻莫测、生动活泼的眼睛一样，充满表情和奥秘。</note>
+        <note xml:id="chinese_cap9-n58" type="comm" target="quarantana/cap9.xml#c9_11808" targetEnd="quarantana/cap9.xml#c9_11839">
+                          她身材修长，体格匀称，但她那漫不经心的举止破坏了她秀媚体态的风韵，其急促、欠和谐和过于刚毅的动作显然同女人的身份不太相称，更不用说她是一个修女了。</note>
+        <note xml:id="chinese_cap9-n59" type="comm" target="quarantana/cap9.xml#c9_11840" targetEnd="quarantana/cap9.xml#c9_11903">
+                          即使是她的衣着打扮，有精心修饰之处，但也有漫不经心的痕迹，这只能说明，她是一位与众不同的修女：她长袍的腰身收得很紧，显然不属于超凡脱俗之列；从包住前额的束带底下露出一小缕乌黑的头发，她这么做不是出于藐忽就是表示对教规的蔑视，因为教规明文规定，修女自举行入院仪式并把头发剪短那一日起，就再也不得更改发式。</note>
+        <note xml:id="chinese_cap9-n60" type="comm" target="quarantana/cap9.xml#c9_11904" targetEnd="quarantana/cap9.xml#c9_11952">
+                          这些细节没引起阿涅斯娜母女二人的注意，因为她们平日里对修女之间的差异不甚了解，而修道院院长并不是第一次见到她，同许多其他人一样，对她那怪诞的装束和举止早已习以为常。</note>
+        <note xml:id="chinese_cap9-n61" type="comm" target="quarantana/cap9.xml#c9_11953" targetEnd="quarantana/cap9.xml#c9_11986">
+                          如上所述，她这时正站在窗棂后面，一只手软弱无力地扶着铁窗棂，苍白的手指握住铁栅条，眼睛凝视着犹豫不决地走上前来的鲁齐娅。"</note>
+        <note xml:id="chinese_cap9-n62" type="comm" target="quarantana/cap9.xml#c9_11987" targetEnd="quarantana/cap9.xml#c9_12023">
+                          尊敬的嬷嬷和高贵的夫人，"神甫一只手按在胸口，低着头说，"这一位就是我同您提起的可怜的姑娘，谢谢您表示愿意向她提供庇护；这一位是她的母亲。"</note>
+        <note xml:id="chinese_cap9-n63" type="comm" target="quarantana/cap9.xml#c9_12024" targetEnd="quarantana/cap9.xml#c9_12059">
+                          她们两人对夫人深深一鞠躬，她摆了摆手，示意她们不必行此大礼，然后转身对神甫说："能为我嘉布遣修会的神甫朋友帮一点忙，对我来说是莫大的荣幸。</note>
+        <note xml:id="chinese_cap9-n64" type="comm" target="quarantana/cap9.xml#c9_12060" targetEnd="quarantana/cap9.xml#c9_12081">
+                          不过......"她接着说，"您得稍微详细地对我介绍一下有关这位姑娘的情况，这样我可以更好地帮助她。"</note>
+        <note xml:id="chinese_cap9-n65" type="comm" target="quarantana/cap9.xml#c9_12082" targetEnd="quarantana/cap9.xml#c9_12088">
+                          听此言，鲁齐娅不觉羞涩，忙低下了头。</note>
+        <note xml:id="chinese_cap9-n66" type="comm" target="quarantana/cap9.xml#c9_12089" targetEnd="quarantana/cap9.xml#c9_12122">
+                          "尊敬的嬷嬷，您要知道......"阿涅珊插话说，但神甫马上瞪了她一眼，示意她别把那件事说出来，一面回答说，"尊敬的夫人，我曾对您说过，这位姑娘是由我的一位修会中的好友托付我的。</note>
+        <note xml:id="chinese_cap9-n67" type="comm" target="quarantana/cap9.xml#c9_12123" targetEnd="quarantana/cap9.xml#c9_12158">
+                          为了摆脱严重的危险，她不得已从家乡偷偷逃出来，需要找一个地方隐姓埋名住上一段日子，这样再也没人敢来纠缠她，即使......"</note>
+        <note xml:id="chinese_cap9-n68" type="comm" target="quarantana/cap9.xml#c9_12159" targetEnd="quarantana/cap9.xml#c9_12163">
+                          "您说的危险是指什么？"</note>
+        <note xml:id="chinese_cap9-n69" type="comm" target="quarantana/cap9.xml#c9_12164" targetEnd="quarantana/cap9.xml#c9_12189">
+                          夫人打断他的话说，"尊敬的院长，请您说话时不要像打哑谜一样，您也知道，我们修女善欢了解事情的每一个细节。"</note>
+        <note xml:id="chinese_cap9-n70" type="comm" target="quarantana/cap9.xml#c9_12190" targetEnd="quarantana/cap9.xml#c9_12205">
+                          神甫回答说："我所说的那种危险，只能大概地点一下，否则会玷污了您尊敬的嬷嬷纯洁的耳朵......"</note>
+        <note xml:id="chinese_cap9-n71" type="comm" target="quarantana/cap9.xml#c9_12206" targetEnd="quarantana/cap9.xml#c9_12214">
+                          "嗯，那当然，"夫人忙说道，脸上不禁泛出了红晕。</note>
+        <note xml:id="chinese_cap9-n72" type="comm" target="quarantana/cap9.xml#c9_12215" targetEnd="quarantana/cap9.xml#c9_12216">
+                          她是因害羞而脸红吗？</note>
+        <note xml:id="chinese_cap9-n73" type="comm" target="quarantana/cap9.xml#c9_12217" targetEnd="quarantana/cap9.xml#c9_12250">
+                          要是注意到在随着红晕而显露的瞬间的愤懑，尤其是将它同鲁齐娅的面颊上不时泛起的红晕相比较，谁都会对此持怀疑的态度。</note>
+        <note xml:id="chinese_cap9-n74" type="comm" target="quarantana/cap9.xml#c9_12251" targetEnd="quarantana/cap9.xml#c9_12319">
+                          "我只消说，"神甫接着往下讲，"有一个骄矜的贵族老爷......不是世上所有的权贵都像您尊敬的夫人一样，利用上帝赋予的权力使荣耀归主并为大众造福的。 有一位骄矜的贵族老爷，他用无耻的乱言蜜语不断地纠缠这位可怜的姑娘，见自己的一切努力均告失败，竟丧心病狂地公开采用武力逼她就范，姑娘出于无奈被迫逃离家园。"</note>
+        <note xml:id="chinese_cap9-n75" type="comm" target="quarantana/cap9.xml#c9_12320" targetEnd="quarantana/cap9.xml#c9_12351">
+                          "姑娘，请走近一点，"夫人用手指招呼鲁齐娅说，"我相信，这位修道院院长讲的都是实话，但是对于这件事情，你比任何人都知 道得更清楚。</note>
+        <note xml:id="chinese_cap9-n76" type="comm" target="quarantana/cap9.xml#c9_12352" targetEnd="quarantana/cap9.xml#c9_12363">
+                          请你告诉我，那位贵族老爷是否真的不知廉耻地缠住你不放。"</note>
+        <note xml:id="chinese_cap9-n77" type="comm" target="quarantana/cap9.xml#c9_12364" targetEnd="quarantana/cap9.xml#c9_12374">
+                          鲁齐娅顺从地往前走了几步，但要她回答夫人的问话，她不知从何说起。</note>
+        <note xml:id="chinese_cap9-n78" type="comm" target="quarantana/cap9.xml#c9_12375" targetEnd="quarantana/cap9.xml#c9_12410">
+                          即便是一个地位和她相同的人问起那件事，她也会感到思绪紊乱。 何况现在提问者是一位夫人，而且语气里还带有一丝不怀善意的疑惑，她更不敢冒昧作答。"</note>
+        <note xml:id="chinese_cap9-n79" type="comm" target="quarantana/cap9.xml#c9_12411" targetEnd="quarantana/cap9.xml#c9_12422">
+                          夫人……尊敬的嬷嬷……" 她结结巴巴地说着，似乎除此之外再也没有什么可说的了。</note>
+        <note xml:id="chinese_cap9-n80" type="comm" target="quarantana/cap9.xml#c9_12423" targetEnd="quarantana/cap9.xml#c9_12442">
+                          见此状，阿涅珊心中思忖，除鲁齐娅本人以外她可算是一个最大的知情者，觉得自己有资格出面助她一臂之力。"</note>
+        <note xml:id="chinese_cap9-n81" type="comm" target="quarantana/cap9.xml#c9_12443" targetEnd="quarantana/cap9.xml#c9_12481">
+                          尊敬的夫人，"她说，"我可以作证。 我女儿确实十分憎恶那个贵族老爷，两人就好像魔鬼和圣水一样不相容。 我意思是说，那家伙就是一个魔鬼。 如果我用词不当，请宽恕我的过错，因为我们是无知的平民。</note>
+        <note xml:id="chinese_cap9-n82" type="comm" target="quarantana/cap9.xml#c9_12482" targetEnd="quarantana/cap9.xml#c9_12552">
+                          事情是这样的：我可怜的女儿同一个与我们家门户相当的小伙子订有婚约，他是一个敬畏天主和有一手好技术的青年。 如果我们的本堂神甫能像我想的那样富有一点人性的话……我明白，我不该这么议论一位神甫，可是克里斯托弗洛神甫，也就是我们院长的好友，同样也是一位神甫，他却充满了爱心。 要是他在这里的话，可以作证……"</note>
+        <note xml:id="chinese_cap9-n83" type="comm" target="quarantana/cap9.xml#c9_12553" targetEnd="quarantana/cap9.xml#c9_12574">
+                          "还未等我问你，你就讲开了，"夫人打断她的话说，傲慢、恼怒的表情几乎使她的脸变得丑陋。" 你不用再说了。</note>
+        <note xml:id="chinese_cap9-n84" type="comm" target="quarantana/cap9.xml#c9_12575" targetEnd="quarantana/cap9.xml#c9_12594">
+                          我早就知道，做父母的总是喜欢以子女的名义答复别人！"</note>
+        <note xml:id="chinese_cap9-n85" type="comm" target="quarantana/cap9.xml#c9_12595" targetEnd="quarantana/cap9.xml#c9_12614">
+                          听此言，阿涅珊顿时感到十分难堪，委屈地朝鲁齐娅瞥了一眼，似乎想说：你瞧，就因为你害得连一句话也说不上来，才叫我受别人的气。</note>
+        <note xml:id="chinese_cap9-n86" type="comm" target="quarantana/cap9.xml#c9_12615" targetEnd="quarantana/cap9.xml#c9_12642">
+                          修道院院长也摇了摇头，用眼神示意鲁齐娅大胆开口说话，别让她可怜的母亲无地自容。</note>
+        <note xml:id="chinese_cap9-n87" type="comm" target="quarantana/cap9.xml#c9_12643" targetEnd="quarantana/cap9.xml#c9_12656">
+                          "尊敬的夫人，"鲁齐娅鼓足勇气说，"我母亲刚才对您说的话全是事实，那个年轻人确实已同我订了婚。"</note>
+        <note xml:id="chinese_cap9-n88" type="comm" target="quarantana/cap9.xml#c9_12657" targetEnd="quarantana/cap9.xml#c9_12672">
+                          说至此，她的脸羞得通红通红，"我自愿选择他为夫婿。</note>
+        <note xml:id="chinese_cap9-n89" type="comm" target="quarantana/cap9.xml#c9_12673" targetEnd="quarantana/cap9.xml#c9_12688">
+                          请原谅我的直言不讳，我只是不想让您误以为我母亲是个不诚实的人。</note>
+        <note xml:id="chinese_cap9-n90" type="comm" target="quarantana/cap9.xml#c9_12689" targetEnd="quarantana/cap9.xml#c9_12705">
+                          至于说那个贵族老爷，愿 上帝宽恕他！ 我宁可死去，也不愿意落入他的魔掌之中。</note>
+        <note xml:id="chinese_cap9-n91" type="comm" target="quarantana/cap9.xml#c9_12706" targetEnd="quarantana/cap9.xml#c9_12754">
+                          出于无奈，我们只得厚着脸皮麻烦好心人，求他们为我们提供庇护，要是您能发善心帮我们摆脱危险的话，那一定是上帝的安排。 夫人，请您相信我，我们母女二人一定会以最真诚的心为您祈祷。"</note>
+        <note xml:id="chinese_cap9-n92" type="comm" target="quarantana/cap9.xml#c9_12755" targetEnd="quarantana/cap9.xml#c9_12772">
+                          "我相信你，"夫人语气温和地对她说，"但是在接受神甫的恩请之前，我想同你单独谈一谈。</note>
+        <note xml:id="chinese_cap9-n93" type="comm" target="quarantana/cap9.xml#c9_12773" targetEnd="quarantana/cap9.xml#c9_12816">
+                          这么做并不是因为我还想进一步了解些什么，也不是出于其他目的。" 与此同时，她温文尔雅地转身对院长说："再说，我已考虑过了，而且还想出了一个眼下我觉得最佳的方案。</note>
+        <note xml:id="chinese_cap9-n94" type="comm" target="quarantana/cap9.xml#c9_12817" targetEnd="quarantana/cap9.xml#c9_12848">
+                          我们修道院女管事的小女儿数日前刚出嫁，鲁齐娅和她的母亲可以住在那姑娘腾出来的空房间里，代她干一些零碎的杂活儿。</note>
+        <note xml:id="chinese_cap9-n95" type="comm" target="quarantana/cap9.xml#c9_12849" targetEnd="quarantana/cap9.xml#c9_12899">
+                          说真的……" 说至此，她示意神甫走近窗棂，然后低声对他说："说真的，眼看今年又是一个歉收年，我们原本也没想找人顶替那个已出嫁的姑娘干活儿。 我去同女修道院院长说说，只要我一句话……当然也考虑到神甫您的一片善心……总而言之，这件事就这么说定了。"</note>
+        <note xml:id="chinese_cap9-n96" type="comm" target="quarantana/cap9.xml#c9_12900" targetEnd="quarantana/cap9.xml#c9_12925">
+                          神甫忙连声道谢，但夫人忙打断他的话说："您不必客气。 换了我，如有需要的话，也会求助于嘉布道修会的神甫们，不管怎么说……"</note>
+        <note xml:id="chinese_cap9-n97" type="comm" target="quarantana/cap9.xml#c9_12926" targetEnd="quarantana/cap9.xml#c9_12949">
+                          她莞尔一笑，眼神里透露出无法言喻的嘲弄和苦涩，然后接着说："不管怎么说，难道我们不是兄弟姐妹吗？"</note>
+        <note xml:id="chinese_cap9-n98" type="comm" target="quarantana/cap9.xml#c9_12950" targetEnd="quarantana/cap9.xml#c9_12988">
+                          说至此，她叫来一个干杂役的修女（由于她的特殊身份，修道院破例派了两名女仆供她使唤），吩咐她将鲁齐娅当替工一事通报修道院院长，并告诉她若有事的话可以同女管事和阿混珊一起商量。</note>
+        <note xml:id="chinese_cap9-n99" type="comm" target="quarantana/cap9.xml#c9_12989" targetEnd="quarantana/cap9.xml#c9_12996">
+                          夫人将阿混珊打发走之后又同神甫告辞，只让鲁齐娅一人留下来。</note>
+        <note xml:id="chinese_cap9-n100" type="comm" target="quarantana/cap9.xml#c9_12997" targetEnd="quarantana/cap9.xml#c9_13016">
+                          院长把阿混珊送至大门口，又嘱咐了她几句，然后回去给他的好友克里斯托弗洛修士写信详细汇报所托之事的进展情况。</note>
+        <note xml:id="chinese_cap9-n101" type="comm" target="quarantana/cap9.xml#c9_13017" targetEnd="quarantana/cap9.xml#c9_13033">
+                          走在路上，他暗自思忖："夫人的思路与众不同，她确实是一个性情古怪的女人！</note>
+        <note xml:id="chinese_cap9-n102" type="comm" target="quarantana/cap9.xml#c9_13034" targetEnd="quarantana/cap9.xml#c9_13048">
+                          但是你只要善于接近她，她会按照你的要求全力以赴。</note>
+        <note xml:id="chinese_cap9-n103" type="comm" target="quarantana/cap9.xml#c9_13049" targetEnd="quarantana/cap9.xml#c9_13061">
+                          我的好友克里斯托弗洛修士当然没有预料夫人这一回会如此爽快</note>
+        <note xml:id="chinese_cap9-n104" type="comm" target="quarantana/cap9.xml#c9_13062" targetEnd="quarantana/cap9.xml#c9_13078">
+                          答应尽力帮忙。 他可真是一个心地善良的大好人！ 对他，我简直没有一点办法，他总是在为别人奔波，而且乐此不疲。</note>
+        <note xml:id="chinese_cap9-n105" type="comm" target="quarantana/cap9.xml#c9_13079" targetEnd="quarantana/cap9.xml#c9_13109">
+                          这一次，他的确够幸运的，找到了一位朋友不用吹灰之力就圆满地解决了所托之事，既没有兴师动众，也没有费很多周折。</note>
+        <note xml:id="chinese_cap9-n106" type="comm" target="quarantana/cap9.xml#c9_13110" targetEnd="quarantana/cap9.xml#c9_13126">
+                          好心的克里斯托弗洛修士一定会为之感到高兴的，他会明白，我们这里的修士办事同样十分干练。"</note>
+        <note xml:id="chinese_cap9-n107" type="comm" target="quarantana/cap9.xml#c9_13127" targetEnd="quarantana/cap9.xml#c9_13215">
+                          在一位老练的嘉布遣会修士面前，夫人对自己的言行颇为谨慎；现在同一个不谙世事的村姑单独相处，她无须再约束自己，话语也变得愈发稀奇古怪起来。 与其将她说的话告诉读者，倒不如简略地叙述一下她在出家当修女之前的辛酸往事，这有利于理解她那异乎寻常的、不可思议的表性以及她日后的种种表现。</note>
+        <note xml:id="chinese_cap9-n108" type="comm" target="quarantana/cap9.xml#c9_13216" targetEnd="quarantana/cap9.xml#c9_13234">
+                          她原是某一位亲王的幼女，其父为米兰城内显赫一时的贵族和数一数二的富豪。</note>
+        <note xml:id="chinese_cap9-n109" type="comm" target="quarantana/cap9.xml#c9_13235" targetEnd="quarantana/cap9.xml#c9_13275">
+                          然而，由于自命不凡，他觉得自己的家产不足以维持其贵族称号的殊荣，因此处心积虑地想保住自己的万贯家产，至少得维持现状，永不让它衰败。</note>
+        <note xml:id="chinese_cap9-n110" type="comm" target="quarantana/cap9.xml#c9_13276" targetEnd="quarantana/cap9.xml#c9_13323">
+                          没有人确切地告诉我们，他共有几个子女，我们只知道，他决定让自己的几个年幼的子女都入修道院，把全部家产留给长子，让他继承世袭的爵位，生儿育女，然后像父辈一样继续扩展自己及他的子女。</note>
+        <note xml:id="chinese_cap9-n111" type="comm" target="quarantana/cap9.xml#c9_13324" targetEnd="quarantana/cap9.xml#c9_13341">
+                          当不幸的夫人还在娘胎时，她的命运早就由他人无可挽回地替她作了安排。</note>
+        <note xml:id="chinese_cap9-n112" type="comm" target="quarantana/cap9.xml#c9_13342" targetEnd="quarantana/cap9.xml#c9_13366">
+                          唯一悬而未决的只是孩子将来究竟是修士还是修女的问题了，而作此决定无须她的同意，她只要降临人间就是了。</note>
+        <note xml:id="chinese_cap9-n113" type="comm" target="quarantana/cap9.xml#c9_13367" targetEnd="quarantana/cap9.xml#c9_13397">
+                          她出生后，她的亲王父亲想给她取一个名字，希望它能使人立即想到以一位出身名门的圣女的名字命名的修道院，便把她叫作吉尔德鲁黛。</note>
+        <note xml:id="chinese_cap9-n114" type="comm" target="quarantana/cap9.xml#c9_13398" targetEnd="quarantana/cap9.xml#c9_13439">
+                          家里人第一次送给她的玩具就是身着修女服的布娃娃，即使后来，她收到的礼物也都是一些象征修女的小圣像。 每一回他都要再三叮嘱她好好爱护那些珍贵的礼物，并以肯定的口气问她："很漂亮，对吗？"</note>
+        <note xml:id="chinese_cap9-n115" type="comm" target="quarantana/cap9.xml#c9_13440" targetEnd="quarantana/cap9.xml#c9_13480">
+                          每当亲王、亲王夫人或他们的长子（唯一在家中长大的一个儿子）夸奖她长得漂亮的时候，总是对她说："你真像一个女修道院院长！" 似乎 除此之外他们再也找不到其他的话可说一样。</note>
+        <note xml:id="chinese_cap9-n116" type="comm" target="quarantana/cap9.xml#c9_13481" targetEnd="quarantana/cap9.xml#c9_13505">
+                          尽管没有任何人直截了当地对她说："你应该出家当修女，"但是每每谈及她的未来，这一想法总是不言自明地顺带提一下。</note>
+        <note xml:id="chinese_cap9-n117" type="comm" target="quarantana/cap9.xml#c9_13506" targetEnd="quarantana/cap9.xml#c9_13551">
+                          有时，由于秉性所致，小吉尔德鲁黛免会显得骄矜专横，那他们就会对她说："你还小，这样的举止同你的年龄不相适宜。 等你将来成了女修道院院长，那时你可以对人发号施令，为所欲为了。"</note>
+        <note xml:id="chinese_cap9-n118" type="comm" target="quarantana/cap9.xml#c9_13552" targetEnd="quarantana/cap9.xml#c9_13627">
+                          有几回，见她无法抑制自己的情绪，表现得过于放纵和随便，亲王便责备她说："嗯，嗯！ 像你这样的好孩子不该这么做，你要是想将来有一天赢得人们对你应有的尊重，你从现在起就得学会如何尊重自己。 你必须记住，无论发生什么情况，你都将是修道院里最大的掌权者。 不管你到哪里，你的血统总是高人一等。"</note>
+        <note xml:id="chinese_cap9-n119" type="comm" target="quarantana/cap9.xml#c9_13628" targetEnd="quarantana/cap9.xml#c9_13660">
+                          诸如此类的话语和长大了注定当修女的想法在小女孩的脑海中留下了深深的烙印，而其中她父亲的话有着最沉重的分量。</note>
+        <note xml:id="chinese_cap9-n120" type="comm" target="quarantana/cap9.xml#c9_13661" targetEnd="quarantana/cap9.xml#c9_13704">
+                          平日里，亲王俨然以一个严峻的一家之主自居，每当提及他子女的未来，他脸上的表情，他说的每一句话，都隐约流露出一种不可动摇的决心，一种强烈的控制欲，让人觉得这一切都是命中注定的。</note>
+        <note xml:id="chinese_cap9-n121" type="comm" target="quarantana/cap9.xml#c9_13705" targetEnd="quarantana/cap9.xml#c9_13734">
+                          自六岁起，吉尔德鲁黛就被送入我们见过的那一座修道院去接受教育，以引导她走上早就替她安排好的生活道路。 诚然，选择那一座修道院是经过审慎的考虑之后才决定的。</note>
+        <note xml:id="chinese_cap9-n122" type="comm" target="quarantana/cap9.xml#c9_13735" targetEnd="quarantana/cap9.xml#c9_13780">
+                          那个好心的赶车人曾对阿涅珊和鲁齐娅说过，卖人的父亲是蒙托里地方上最有权势的人。 如果将赶车人提供的这个残缺不全的证据同无名氏作者无意中披露的支离破碎的点滴事实拼凑在一起，我们可以断定，他还是当地的一位封建大地主。</note>
+        <note xml:id="chinese_cap9-n123" type="comm" target="quarantana/cap9.xml#c9_13781" targetEnd="quarantana/cap9.xml#c9_13818">
+                          毋庸置疑，他在蒙托里享有极高的威望，所以他觉得在那里，他的女儿将受到任何其他地方所无法提供的特殊照顾和无微不至的关怀，从而促使她选择修道院当作自己永久的家。</note>
+        <note xml:id="chinese_cap9-n124" type="comm" target="quarantana/cap9.xml#c9_13819" targetEnd="quarantana/cap9.xml#c9_13891">
+                          事实上，他的计划确实没有落空：女修道院院长和几个工于心计的修女大权在手，现有人愿意为她们提供保护，她们深感喜悦，因为这是一件在任何情况下都对她们大有裨益和引以为荣耀 的事情。 她们欣然接受了他的建议,感激之情溢于言表,但又不显得过于夸张;她们表示全力支持亲王流露出来有意将其女儿永远留在修道院里的做法,因为这同她们的愿望不谋而合。</note>
+        <note xml:id="chinese_cap9-n125" type="comm" target="quarantana/cap9.xml#c9_13892" targetEnd="quarantana/cap9.xml#c9_13950">
+                          入修道院之后,吉尔德鲁黛被改称为小姐姐,她们替她在餐桌上和寝室里安排了最好的位置,并把她的品行誉为其他修女的楷模。 不宁唯是,她们还不断地给她送糖果和温柔的抚爱,她们这种略带几分恭敬的亲切态度,对一个未成年的孩子来说无疑具有很大的诱惑力,尤其当她知道,修女们一贯以高傲的态度对待其他的孩子。</note>
+        <note xml:id="chinese_cap9-n126" type="comm" target="quarantana/cap9.xml#c9_13951" targetEnd="quarantana/cap9.xml#c9_14025">
+                          诚然,不是所有的修女都参与将可怜的小女孩拉入圈套的阴谋,她们中的不少人心地纯真,清身自好,对亲王掩埋自己女儿的幸福来满足私欲的做法深感厌恶;她们个个就就业业地忙于自己的本职工作,有的并没有太多地留意在暗中策划的那些计谋,有的不明白特殊照顾一个小女孩会带来什么弊端,有的避免对此事发表自己的看法,还有的则默不作声,以免无谓地引起他人的反感。</note>
+        <note xml:id="chinese_cap9-n127" type="comm" target="quarantana/cap9.xml#c9_14026" targetEnd="quarantana/cap9.xml#c9_14071">
+                          有几个修女,虽然也采用同样的方法诱导她,但事后想起来却喋喋不已,只得以充满柔情和伤感的爱抚来表达自己对这位可怜的小女孩的同情。 但是小吉尔德鲁黛对她们异样的举止并没有产生任何猜疑,一切都按照原来的计划顺利地进行着。</note>
+        <note xml:id="chinese_cap9-n128" type="comm" target="quarantana/cap9.xml#c9_14072" targetEnd="quarantana/cap9.xml#c9_14088">
+                          倘若在那座修道院里吉尔德鲁黛是仅有的一个女孩子,这桩事情兴许会有一个圆满的结局。</note>
+        <note xml:id="chinese_cap9-n129" type="comm" target="quarantana/cap9.xml#c9_14089" targetEnd="quarantana/cap9.xml#c9_14103">
+                          然而,在同一座修道院里学习的其他女孩子中间,有几个知道自己迟早要出阁当新娘。</note>
+        <note xml:id="chinese_cap9-n130" type="comm" target="quarantana/cap9.xml#c9_14104" targetEnd="quarantana/cap9.xml#c9_14148">
+                          特殊的生活环境使吉尔德鲁黛在幼小的心灵里产生一种优越感,她为自己未来的生活描绘了一幅当女院长或邸主的绚丽多彩的蓝图。 她一心想引起修道院里其他女孩子的欣羡,但是她发现,她们中有些人竟然对她优越的地位熟视无睹,心中不免感到惊讶和愤火。</note>
+        <note xml:id="chinese_cap9-n131" type="comm" target="quarantana/cap9.xml#c9_14149" targetEnd="quarantana/cap9.xml#c9_14186">
+                          在她们看来,虽然在一座修道院里院长享有最高的权威,但是她在人们的心目中留下的却是神态威严,心情压抑,态度冷漠的形象,而她们憧憬的生活丰富多彩、灿烂美丽:婚礼,盛宴,聚会,当时流行的乡间盛筵,漂亮的衣服和豪华的马车。</note>
+        <note xml:id="chinese_cap9-n132" type="comm" target="quarantana/cap9.xml#c9_14187" targetEnd="quarantana/cap9.xml#c9_14211">
+                          这些五彩缤纷的画面在吉尔德鲁黛的脑海里产生的震撼和喧闹如同在一只蜂箱前放上一大篮刚采摘的花朵一般。</note>
+        <note xml:id="chinese_cap9-n133" type="comm" target="quarantana/cap9.xml#c9_14212" targetEnd="quarantana/cap9.xml#c9_14255">
+                          她的家人和修道院里的训导者们为了让她热爱院里的隐修生活,从一开始就培养并助长她天生的虔荣心,当她这种自负的心理遭到相似想法的撩拨,她会很自然地倾向那些思想,并且表现出更强烈的渴望。</note>
+        <note xml:id="chinese_cap9-n134" type="comm" target="quarantana/cap9.xml#c9_14256" targetEnd="quarantana/cap9.xml#c9_14327">
+                          为了使自己不比修道院中其他女孩子逊色但同时又能满足心中萌生的新的愿望,她安抚自己说:不管怎么样,没人能不征得她的同意就让她穿上修女的黑袍,她也可以结婚,住在富华的宅院里,比其他任何女孩子更欢乐地享受人生,只要她愿意,她完全可以这么做。 事实上,她确实想这么做。</note>
+        <note xml:id="chinese_cap9-n135" type="comm" target="quarantana/cap9.xml#c9_14328" targetEnd="quarantana/cap9.xml#c9_14362">
+                          如果说,必须征得她本人同意的想法一直隐藏在她脑海中某一个不被人注意的角落里的话,那么此时此刻它开始滋长,使她越来越感悟到它的重要性。</note>
+        <note xml:id="chinese_cap9-n136" type="comm" target="quarantana/cap9.xml#c9_14363" targetEnd="quarantana/cap9.xml#c9_14377">
+                          这一想法不时在她脑际闪现,使她心安理得地憧憬未来美好的生活。</note>
+        <note xml:id="chinese_cap9-n137" type="comm" target="quarantana/cap9.xml#c9_14378" targetEnd="quarantana/cap9.xml#c9_14423">
+                          然而,未待这个想法完全消失,另一个意念总是不失时机地在脑际出现,那就是她不得不违背她的亲王父亲的意愿,而他早就已经将自己的打算视作或称为既定的方针。 想至此,吉尔德鲁黛信心锐减,其行动就远不及她说的话那么坚定。</note>
+        <note xml:id="chinese_cap9-n138" type="comm" target="quarantana/cap9.xml#c9_14424" targetEnd="quarantana/cap9.xml#c9_14448">
+                          同修道院里的其他女孩子相比,她心中亦觉凄然,当初她本想引起她们的妒忌,可现在她自己却羡慕起她们无忧无虑的生活。</note>
+        <note xml:id="chinese_cap9-n139" type="comm" target="quarantana/cap9.xml#c9_14449" targetEnd="quarantana/cap9.xml#c9_14476">
+                          她羡慕她们,同时又厌恶她们。 有时,她态度轻蔑、言行无礼、措辞尖刻,以此发泄对她们的憎恨;有时,共同的爱好和期望使她暂且忘却对她们的憎恶,同她们又明显恢复了友好的关系。</note>
+        <note xml:id="chinese_cap9-n140" type="comm" target="quarantana/cap9.xml#c9_14477" targetEnd="quarantana/cap9.xml#c9_14530">
+                          有时候,她想尽情享受现实生活中真正的欢乐,对自己受到的优待感到沾沾自喜,刻意在她的女伴面前炫耀自己高人一等的地位;有时候,她无法忍受优惠和企盼给她带来的孤独感,真心诚意地去接近她们,几乎哀求她们能给予她友情、建议和勇气。</note>
+        <note xml:id="chinese_cap9-n141" type="comm" target="quarantana/cap9.xml#c9_14531" targetEnd="quarantana/cap9.xml#c9_14580">
+                          在这些令人悲叹的、同自己和他人的冲突中,她告别了自己的童年生活,开始迈入躁动不安的青春期,心中似乎有一股神秘莫测的力量在滋养、美化和鼓舞着她所有的欲望和想法,时而还改变着 它们的模样或将它们引向意想不到的方向。</note>
+        <note xml:id="chinese_cap9-n142" type="comm" target="quarantana/cap9.xml#c9_14581" targetEnd="quarantana/cap9.xml#c9_14628">
+                          迄今为止，吉尔德鲁黛一直在心中编织着未来的美梦，而最让她感到神往的是它那华丽，耀眼的外表，它犹如一股不可名状的，充满温馨和深情的暖流，起初只是在朦胧之中瀑瀑沁入她的心田，而现在却开始弥漫，成为主宰她幻想的灵魂。</note>
+        <note xml:id="chinese_cap9-n143" type="comm" target="quarantana/cap9.xml#c9_14629" targetEnd="quarantana/cap9.xml#c9_14695">
+                          她在心灵深处最隐秘的地方为自己营造了一个美妙绝伦的隐居所，在那儿，她远离尘世的一切事物，款待一些该提时代模糊的记忆中不甚熟稔的客人以及她自己在与外部世界有限的接触中和在与修道院女伴的谈话中结识的朋友。 她同客人们促膝长谈，自问自答；她面授指示，也接受他们馈赠的各种礼品。</note>
+        <note xml:id="chinese_cap9-n144" type="comm" target="quarantana/cap9.xml#c9_14696" targetEnd="quarantana/cap9.xml#c9_14711">
+                          但是，有时候宗教思想不断向她袭来，扰乱了欢乐但令人精疲力竭的晚会。</note>
+        <note xml:id="chinese_cap9-n145" type="comm" target="quarantana/cap9.xml#c9_14712" targetEnd="quarantana/cap9.xml#c9_14742">
+                          修道院灌输给可怜的吉尔德鲁黛的宗教意识，以及她接受的宗教思想并不排斥自尊，相反，它们使自尊圣化，并把它视作赢得尘世幸福生活的一个手段。</note>
+        <note xml:id="chinese_cap9-n146" type="comm" target="quarantana/cap9.xml#c9_14743" targetEnd="quarantana/cap9.xml#c9_14757">
+                          宗教一旦被抽去精髓，就不再是宗教，而成为幻影一般的幽灵了。</note>
+        <note xml:id="chinese_cap9-n147" type="comm" target="quarantana/cap9.xml#c9_14758" targetEnd="quarantana/cap9.xml#c9_14816">
+                          每当幽灵占据了她头脑中幻想的主导地位，在片刻的瞬间，它在她的眼前会变得高大无比，莫名的恐惧和模糊的责任感会把不幸的吉尔德鲁黛压得喘不过气来，她觉得，自己厌恶修道院里的生活和抗拒接受长辈为她设计的未来，也许是一种罪过。 为此，她暗自许下誓愿，下决心赎罪，主动将自己禁锢在修道院中修行。</note>
+        <note xml:id="chinese_cap9-n148" type="comm" target="quarantana/cap9.xml#c9_14817" targetEnd="quarantana/cap9.xml#c9_14881">
+                          根据教规，倘若一位姑娘决定出家当修女，教会务必先派一位被修女们称为代理主教的神职人员或者一个由他指派的人同她进行谈话，证实她出家当修女的决定完全出于她本人自愿。 另外，上述面谈只有待她以书面申请的形式向代理主教表达自己的愿望一年之后方能进行。</note>
+        <note xml:id="chinese_cap9-n149" type="comm" target="quarantana/cap9.xml#c9_14882" targetEnd="quarantana/cap9.xml#c9_14920">
+                          那些接受令人伤感的任务劝诱吉尔德鲁黛的修女们，抓住上文所述的适当时机，尽力劝说她抄写一份请求书并在上面签署姓名，而她却丝毫没意识到自己的允诺将会产生什么样的后果。</note>
+        <note xml:id="chinese_cap9-n150" type="comm" target="quarantana/cap9.xml#c9_14921" targetEnd="quarantana/cap9.xml#c9_14962">
+                          为了能顺利地说服她，她们一再劝慰她说：写申请归根结蒂只是一个形式而已（这的确是实话），如果她以后不再愿意继续 履行义务，那份申请书就成了一纸空文。</note>
+        <note xml:id="chinese_cap9-n151" type="comm" target="quarantana/cap9.xml#c9_14963" targetEnd="quarantana/cap9.xml#c9_14982">
+                          事实上，申请书或许还未递到代理主教手里，她已经开始后悔在上面签署了自己的名字。</note>
+        <note xml:id="chinese_cap9-n152" type="comm" target="quarantana/cap9.xml#c9_14983" targetEnd="quarantana/cap9.xml#c9_15000">
+                          过后，她又为自己的这种想法感到愧悔不已，她就在这两种矛盾心理的纠缠下，度过了无数个日日夜夜。</note>
+        <note xml:id="chinese_cap9-n153" type="comm" target="quarantana/cap9.xml#c9_15001" targetEnd="quarantana/cap9.xml#c9_15024">
+                          在很长的一段日子里，她没把隐藏在心中的决定告诉修道院的女伴们，一方面她担心她们会对她的正确决定提出异议，另一方面又羞于让人知道自己的错误想法。</note>
+        <note xml:id="chinese_cap9-n154" type="comm" target="quarantana/cap9.xml#c9_15025" targetEnd="quarantana/cap9.xml#c9_15036">
+                          最后，希望得到他人忠告和鼓励的想法还是占据了上风，因为她需要卸下沉沉压在她心头的重负。</note>
+        <note xml:id="chinese_cap9-n155" type="comm" target="quarantana/cap9.xml#c9_15037" targetEnd="quarantana/cap9.xml#c9_15065">
+                          当时还有一条规矩，任何申请出家的姑娘在接受审查之前务必在其接受教育的修道院以外的地方至少住上一个月。</note>
+        <note xml:id="chinese_cap9-n156" type="comm" target="quarantana/cap9.xml#c9_15066" targetEnd="quarantana/cap9.xml#c9_15110">
+                          自吉尔德鲁黛交申请书之后已一年有余，有人通知她，不久之后她务必离开修道院回到她父亲的家里住一个月，以完成她业已开始的修女生活所必不可少的步骤。</note>
+        <note xml:id="chinese_cap9-n157" type="comm" target="quarantana/cap9.xml#c9_15111" targetEnd="quarantana/cap9.xml#c9_15149">
+                          亲王及其他的家人把这一切视作早已发生的既定事实，但是吉尔德鲁黛的心中却另有打算，那就是在采取其他行动之前，她准备收回当初自己申请出家修行的决定。</note>
+        <note xml:id="chinese_cap9-n158" type="comm" target="quarantana/cap9.xml#c9_15150" targetEnd="quarantana/cap9.xml#c9_15170">
+                          为此事，她内心极度痛苦，故决定向修道院中的一位为人十分坦率的女友敞开心扉，希望她像以往那样给予她果断的建议。</note>
+        <note xml:id="chinese_cap9-n159" type="comm" target="quarantana/cap9.xml#c9_15171" targetEnd="quarantana/cap9.xml#c9_15197">
+                          女友建议吉尔德鲁黛写一封信，把自己心中的决定告诉她的父亲，既然她没有足够的勇气当着他的面公开说："我不愿意。"</note>
+        <note xml:id="chinese_cap9-n160" type="comm" target="quarantana/cap9.xml#c9_15198" targetEnd="quarantana/cap9.xml#c9_15221">
+                          诚然，无偿地为他人出点子在世上是极为罕见的，那位姑娘让吉尔德鲁黛付出的代价是一再地取笑她的无能。</note>
+        <note xml:id="chinese_cap9-n161" type="comm" target="quarantana/cap9.xml#c9_15222" targetEnd="quarantana/cap9.xml#c9_15241">
+                          信的内容由四五个知心的女伴一起商定，偷偷写好后又采用精心设计的巧妙办法递送给她的父亲。</note>
+        <note xml:id="chinese_cap9-n162" type="comm" target="quarantana/cap9.xml#c9_15242" targetEnd="quarantana/cap9.xml#c9_15252">
+                          尔后，吉尔德鲁黛焦虑万分地等着回答，可是信送出去之后犹如石沉大海，从此杳无音信。</note>
+        <note xml:id="chinese_cap9-n163" type="comm" target="quarantana/cap9.xml#c9_15253" targetEnd="quarantana/cap9.xml#c9_15306">
+                          数日后，院长嬷嬷把她叫到自己的小房间里，隐晦地向她暗示：她犯下了不该犯的错误；她父亲为写信一事万分恼火，其神秘的眼神里充满着厌恶和同情。 但是，女院长向她示意，只要她迷途知返，亲王对此事将不再加以追究。</note>
+        <note xml:id="chinese_cap9-n164" type="comm" target="quarantana/cap9.xml#c9_15307" targetEnd="quarantana/cap9.xml#c9_15316">
+                          吉尔德鲁黛明白了她说话的用意，不敢再多问什么。</note>
+        <note xml:id="chinese_cap9-n165" type="comm" target="quarantana/cap9.xml#c9_15317" targetEnd="quarantana/cap9.xml#c9_15324">
+                          让她感到胆战心惊和热切盼望的那一天终于来到了。</note>
+        <note xml:id="chinese_cap9-n166" type="comm" target="quarantana/cap9.xml#c9_15325" targetEnd="quarantana/cap9.xml#c9_15365">
+                          尽管吉尔德鲁黛知道自己正在走向战场，但是能跨出修道院的大门，离开囿禁了她八年之久的高墙，坐在马车上穿越开阔的田野，再次看看自己从小在那里长大的池城和自家的房子，她的心中不禁充盈着激动的喜悦。</note>
+        <note xml:id="chinese_cap9-n167" type="comm" target="quarantana/cap9.xml#c9_15366" targetEnd="quarantana/cap9.xml#c9_15391">
+                          至于她所面临的这场战役，可怜的吉尔德鲁黛已经接受了几位挚友的建议，想好了对策，按今天的说法，她已拟定了一个计划。"</note>
+        <note xml:id="chinese_cap9-n168" type="comm" target="quarantana/cap9.xml#c9_15392" targetEnd="quarantana/cap9.xml#c9_15423">
+                          他们也许会逼我就范，"她心中暗自思忖，"那我一定得坚如磐石。 我态度可以谦卑和恭敬，但是我绝不开口表示同意。 问题的关键在于我得说'同意'两字，可是我就是不说。</note>
+        <note xml:id="chinese_cap9-n169" type="comm" target="quarantana/cap9.xml#c9_15424" targetEnd="quarantana/cap9.xml#c9_15451">
+                          要是他们好言相劝，我就装作比他们中的任何人都要温顺，我可以哭泣和哀求，以赢得他们的同情。 说到底，我只不过企求他们不要将我当作祭品而已。"</note>
+        <note xml:id="chinese_cap9-n170" type="comm" target="quarantana/cap9.xml#c9_15452" targetEnd="quarantana/cap9.xml#c9_15466">
+                          然而，就像类似的预测往往会落空一样，吉尔德鲁黛假设的两种可能都没有成为现实。</note>
+        <note xml:id="chinese_cap9-n171" type="comm" target="quarantana/cap9.xml#c9_15467" targetEnd="quarantana/cap9.xml#c9_15495">
+                          时光日复一日地悄然流逝，她的父亲或其他人都没有再提起申请书一事以及她改变初衷的决定，也没有人采用哄骗或恫吓的手段对她提出任何建议。</note>
+        <note xml:id="chinese_cap9-n172" type="comm" target="quarantana/cap9.xml#c9_15496" targetEnd="quarantana/cap9.xml#c9_15508">
+                          父母对她的态度变得严肃、阴郁和粗暴，且从不向她解释原因。</note>
+        <note xml:id="chinese_cap9-n173" type="comm" target="quarantana/cap9.xml#c9_15509" targetEnd="quarantana/cap9.xml#c9_15544">
+                          她只是觉得，他们将她视作一个罪人，一个可耻的人。 她感到，自己似乎遭到了神秘的诅咒，使她同自己的家人隔离开来，仅仅为了让她感到自己的命运仍掌握在他人手中，才允许她同家人相聚。</note>
+        <note xml:id="chinese_cap9-n174" type="comm" target="quarantana/cap9.xml#c9_15545" targetEnd="quarantana/cap9.xml#c9_15561">
+                          只有偶然几次，她获准在规定的时间内见到了她的父母和长兄。</note>
+        <note xml:id="chinese_cap9-n175" type="comm" target="quarantana/cap9.xml#c9_15562" targetEnd="quarantana/cap9.xml#c9_15584">
+                          他们三人之间的关系相当融洽，但正是由于这个原因，吉尔德鲁黛越发为自己遭受到的明显的冷落而感到深切的悲痛。</note>
+        <note xml:id="chinese_cap9-n176" type="comm" target="quarantana/cap9.xml#c9_15585" targetEnd="quarantana/cap9.xml#c9_15616">
+                          没有一个人搭理她，当她对某一件琐碎的小事忸怩不安地冒昧表示自己的看法时，他们不是置之不理就是心不在焉或者轻蔑、严厉地瞥她一眼。</note>
+        <note xml:id="chinese_cap9-n177" type="comm" target="quarantana/cap9.xml#c9_15617" targetEnd="quarantana/cap9.xml#c9_15667">
+                          倘若她再也无法忍受如此令人感到痛心和羞辱的歧视，执拗地要求得到一点天伦之乐，希望家人给予她少许爱怜，他们立即会用婉转但是明白无误的语言提醒她，入修道院是她自愿的选择，并隐晦地对她暗示，她仍有希望重新赢得家人的宠爱。</note>
+        <note xml:id="chinese_cap9-n178" type="comm" target="quarantana/cap9.xml#c9_15668" targetEnd="quarantana/cap9.xml#c9_15714">
+                          吉尔德鲁黛不愿以如此昂 贵的代价换回那一份情感，故只得打消原先的想法，忍痛拒绝接受他们刚流露出来的、她梦寐以求的怜爱，不得不再次陷入遭受排斥的境地，带着几乎负罪的心理继续和他们生活在一起。</note>
+        <note xml:id="chinese_cap9-n179" type="comm" target="quarantana/cap9.xml#c9_15715" targetEnd="quarantana/cap9.xml#c9_15741">
+                          现实生活中的体验同吉尔德鲁黛在内心深处珍藏了多年且至今依然保存着的对未来美好的憧憬形成了强烈的反差，令她黯然伤神。</note>
+        <note xml:id="chinese_cap9-n180" type="comm" target="quarantana/cap9.xml#c9_15742" targetEnd="quarantana/cap9.xml#c9_15766">
+                          她原先曾指望，她父亲富丽堂皇、车马盈门的宅第，至少能给她带来她想象中的真正的欢愉，但事实上她的希望都一一化成了泡影。</note>
+        <note xml:id="chinese_cap9-n181" type="comm" target="quarantana/cap9.xml#c9_15767" targetEnd="quarantana/cap9.xml#c9_15802">
+                          在自己的家里，她过着同修道院里一样的幽闭生活，即使去户外散步也成了一种奢望，家中为她特设的一间通向邻近教堂的祈祷室剥夺了她有望出门的唯一机会。</note>
+        <note xml:id="chinese_cap9-n182" type="comm" target="quarantana/cap9.xml#c9_15803" targetEnd="quarantana/cap9.xml#c9_15814">
+                          在家里的那一段日子里，她的生活变得比修道院里还要孤独，之味和忧郁寡欢。</note>
+        <note xml:id="chinese_cap9-n183" type="comm" target="quarantana/cap9.xml#c9_15815" targetEnd="quarantana/cap9.xml#c9_15839">
+                          每一回家中有客人来访，家人总是让吉尔德鲁黛躲到顶楼的房间里同几个年迈的女仆呆在一起，宴请客人时，她还得在那里用膳。</note>
+        <note xml:id="chinese_cap9-n184" type="comm" target="quarantana/cap9.xml#c9_15840" targetEnd="quarantana/cap9.xml#c9_15916">
+                          家里的仆人都看主子的眼色行事，其举止和谈吐都遵照主人的榜样和意愿。 吉尔德鲁黛娴静纯厚，对仆人们素相友善，但又注意同他们保持一定的距离。 由于她当时在家里的特殊处境，她诚恳地希望仆人们能把她视作他们中的一员，友善相待。 事实上，她甚至得屈尊乞求他们的爱怜，但是见他们依然以明显冷漠的态度和拘于礼仪的恭敬作为回报，她为自己蒙受的耻辱深感痛心。</note>
+        <note xml:id="chinese_cap9-n185" type="comm" target="quarantana/cap9.xml#c9_15917" targetEnd="quarantana/cap9.xml#c9_15939">
+                          在仆人中，她发现有一个侍童对她的态度截然与众人不同，除了尊重以外，他还对她表露出一种特殊的同情。</note>
+        <note xml:id="chinese_cap9-n186" type="comm" target="quarantana/cap9.xml#c9_15940" targetEnd="quarantana/cap9.xml#c9_15971">
+                          在她遇见过的所有人中间，那位少年就其举止而言，同她在修道院里冥思苦索时想象的理想中的人物最为相似。</note>
+        <note xml:id="chinese_cap9-n187" type="comm" target="quarantana/cap9.xml#c9_15972" targetEnd="quarantana/cap9.xml#c9_16016">
+                          为此，她的举止也随之渐渐发生了一些微妙的变化：她一反常态，显得恬静和不安，就好像她找到了一件极为珍贵的宝物，整天看不够，但又怕被别人发现。</note>
+        <note xml:id="chinese_cap9-n188" type="comm" target="quarantana/cap9.xml#c9_16017" targetEnd="quarantana/cap9.xml#c9_16055">
+                          由于种种的猜疑，他们采取更为严密的措施监视她的行动，直至有一天早上，当她在匆忙折叠一张信笺的时候，被一个女仆撞见，上面写着她本不该写的字句。</note>
+        <note xml:id="chinese_cap9-n189" type="comm" target="quarantana/cap9.xml#c9_16056" targetEnd="quarantana/cap9.xml#c9_16075">
+                          经过一番争夺，女仆将信纸抢到了手，并随即将它交给了亲王。</note>
+        <note xml:id="chinese_cap9-n190" type="comm" target="quarantana/cap9.xml#c9_16076" targetEnd="quarantana/cap9.xml#c9_16101">
+                          每当耳边听到亲王的脚步声，吉尔德鲁黛心中的恐惧简直无法形容或想象。 他毕竟是她的父亲，见他满面怒容，她心中总有一种负罪感。</note>
+        <note xml:id="chinese_cap9-n191" type="comm" target="quarantana/cap9.xml#c9_16102" targetEnd="quarantana/cap9.xml#c9_16126">
+                          此时，见他双眉紧蹙，手中拿着那张纸片正朝她走来，她多么希望能回到修道院去，即使呆在一间百米深的地下室里也无妨。</note>
+        <note xml:id="chinese_cap9-n192" type="comm" target="quarantana/cap9.xml#c9_16127" targetEnd="quarantana/cap9.xml#c9_16183">
+                          虽然亲王只是寥寥数语，但让人听了胆战心惊。 作为惩罪，他立即命令她把自己关在那间屋子里，由那个发现信笺的女仆看管。 显然，这仅仅是个开头，他暗示，另外还有一种尚不可知但更为可怕的惩罚正在等着她。</note>
+        <note xml:id="chinese_cap9-n193" type="comm" target="quarantana/cap9.xml#c9_16184" targetEnd="quarantana/cap9.xml#c9_16208">
+                          至于那位侍童，自然立即被亲王解雇了，他还威胁他说，如果他以后随便什么时候胆敢把发生的事情透露一星半点，他将大祸临头。</note>
+        <note xml:id="chinese_cap9-n194" type="comm" target="quarantana/cap9.xml#c9_16209" targetEnd="quarantana/cap9.xml#c9_16233">
+                          亲王在佃吓他的同时，还抽了他两记耳光，为的是让他将这件事牢牢记在心上，防止他以后在同人吹牛时提及它。</note>
+        <note xml:id="chinese_cap9-n195" type="comm" target="quarantana/cap9.xml#c9_16234" targetEnd="quarantana/cap9.xml#c9_16257">
+                          诚然，对亲王而言，找一个借口解雇侍童是一件十分容易的事情，至于女儿不再露面的事，他对人解释说：她身体不适。</note>
+        <note xml:id="chinese_cap9-n196" type="comm" target="quarantana/cap9.xml#c9_16258" targetEnd="quarantana/cap9.xml#c9_16293">
+                          吉尔德鲁黛独自呆在那间小屋子里，心中除了忧虑、羞愧和悔恨之外，有的只是对未来的恐惧。 同她作伴的只有那个她痛恨的女仆，她不仅告发了她的过失，而且还给她带来了不幸。</note>
+        <note xml:id="chinese_cap9-n197" type="comm" target="quarantana/cap9.xml#c9_16294" targetEnd="quarantana/cap9.xml#c9_16323">
+                          反之，女仆也记恨吉尔德鲁黛，由于她的原因，她才沦为女看守，过着遥遥无期的、乏味的生活，而且还得守住可能给她带来灾难的秘密。</note>
+        <note xml:id="chinese_cap9-n198" type="comm" target="quarantana/cap9.xml#c9_16324" targetEnd="quarantana/cap9.xml#c9_16356">
+                          最初的那一阵纷乱的心绪，随着时光的流逝，逐渐平静了下来，但是后来又一次在她心头泛起，而且不断地扩展开来，更加明目张胆，变本加厉地折磨着她。</note>
+        <note xml:id="chinese_cap9-n199" type="comm" target="quarantana/cap9.xml#c9_16357" targetEnd="quarantana/cap9.xml#c9_16365">
+                          那个对她构成莫大威胁的、神秘莫测的惩罚究竟是什么呢？</note>
+        <note xml:id="chinese_cap9-n200" type="comm" target="quarantana/cap9.xml#c9_16366" targetEnd="quarantana/cap9.xml#c9_16380">
+                          吉尔德鲁黛是一位富有想象力但不谙世事的姑娘，许许多多稀奇古怪的念头一起涌上她的心头。</note>
+        <note xml:id="chinese_cap9-n201" type="comm" target="quarantana/cap9.xml#c9_16381" targetEnd="quarantana/cap9.xml#c9_16419">
+                          她觉得，自己极有可能被再度送往蒙扎修道院，在那里，她不再是一位富家的千金，她将以罪人的身分重新出现，而且无人知晓她将受到什么待遇，谁知道她的幽禁生活到何时才能结束！</note>
+        <note xml:id="chinese_cap9-n202" type="comm" target="quarantana/cap9.xml#c9_16420" targetEnd="quarantana/cap9.xml#c9_16439">
+                          这是一幅她想象中的充满凄楚的画面，但使她感到更为痛苦的是心灵深处的羞愧。</note>
+        <note xml:id="chinese_cap9-n203" type="comm" target="quarantana/cap9.xml#c9_16440" targetEnd="quarantana/cap9.xml#c9_16505">
+                          写在那封招灾惹祸信上的句子乃至逗点一次又一次地在她脑海中出现。 她想象一个完全出乎她预料的收信人仔细阅读并反复琢磨那一封信时的情景，她甚至想到，也许她的母亲、兄长或者另外的什么人读过了那封信。 想至此，她觉得相比之下，别的羞辱似乎都显得无足轻重了。</note>
+        <note xml:id="chinese_cap9-n204" type="comm" target="quarantana/cap9.xml#c9_16506" targetEnd="quarantana/cap9.xml#c9_16547">
+                          应该说，那位待童是整个不幸事件最初的起因，他的形象也经常浮现在吉尔德鲁黛的眼前，侵扰这位可怜的、失去了自由的姑娘的心。 读者们可以想象得到，同其他人严肃、冷漠和呵呵通人的神态相比，他的形象自然显得十分奇特。</note>
+        <note xml:id="chinese_cap9-n205" type="comm" target="quarantana/cap9.xml#c9_16548" targetEnd="quarantana/cap9.xml#c9_16592">
+                          正因为如此，吉尔德鲁黛无法将他从其他的形象中分离出来，也无望唤醒往昔那怕是瞬息即逝的、愉快的回忆，每一次的尝试都使她立刻想起自己当时悲凉的处境。 所以，他的形象开始在她的脑海中逐渐变得淡漠，她把往事封存起来，并努力从记忆中将之完全抹去。</note>
+        <note xml:id="chinese_cap9-n206" type="comm" target="quarantana/cap9.xml#c9_16593" targetEnd="quarantana/cap9.xml#c9_16619">
+                          她不再自得其乐地沉溺在往日充满欢愉的、五彩缤纷的幻想世界里，因为这与她此时的实际处境和渺茫的前途相距实在太遥远了。</note>
+        <note xml:id="chinese_cap9-n207" type="comm" target="quarantana/cap9.xml#c9_16620" targetEnd="quarantana/cap9.xml#c9_16647">
+                          倘若她下定决心终身出家的话，修道院可是她想象中唯一不是空中楼阁的安宁、体面的藏身之处。</note>
+        <note xml:id="chinese_cap9-n208" type="comm" target="quarantana/cap9.xml#c9_16648" targetEnd="quarantana/cap9.xml#c9_16668">
+                          毋庸置疑，一旦她作出这样的决定，一切事情都将迎刃而解，所有的旧债将一笔勾销，她的境遇也将在顷刻之间得到根本改观。</note>
+        <note xml:id="chinese_cap9-n209" type="comm" target="quarantana/cap9.xml#c9_16669" targetEnd="quarantana/cap9.xml#c9_16715">
+                          诚然，想到要在修道院里度过一生的时光，她感到难以作出最后的抉择。 但是，时过境迁，吉尔德鲁黛当时已坠入深渊，而且前途未卜，相比之下，修道院对她来说似乎成了一个甜蜜的人间乐园；再说，在那里，她可以得到优惠的待遇，女伴们对她态度恭敬，言听计从。</note>
+        <note xml:id="chinese_cap9-n210" type="comm" target="quarantana/cap9.xml#c9_16716" targetEnd="quarantana/cap9.xml#c9_16774">
+                          两种性质迥异的情感的交替出现减缓了她对修道院根深蒂固的抵触情结：时而，她为自己铸成的过错深感内疚，但同时心中又充盈着献身天主的奇妙的柔情；时而，负责看管她的那位女仆的举止损伤了她的自傲，使她深感羞怯和气恼。 说实话，争端经常是由她自己挑起的，女仆出手报复，不是拿亲王声称的处罚桎梏她，就是拿她犯下的过错羞辱她。</note>
+        <note xml:id="chinese_cap9-n211" type="comm" target="quarantana/cap9.xml#c9_16775" targetEnd="quarantana/cap9.xml#c9_16788">
+                          有几回，女仆伴装和善，讲话时以保护人的口气对吉尔德鲁黛表示体贴，但这比辱 竭更为可恨。</note>
+        <note xml:id="chinese_cap9-n212" type="comm" target="quarantana/cap9.xml#c9_16789" targetEnd="quarantana/cap9.xml#c9_16835">
+                          遇上此类情况，吉尔德鲁黛的心中每每产生逃离她的魔爪、蔑视她的恒色和冷漠以及恢复自己尊严的强烈愿望，以至她认为，只要能有助她实现心中的愿望，任何手段都是可取的。</note>
+        <note xml:id="chinese_cap9-n213" type="comm" target="quarantana/cap9.xml#c9_16836" targetEnd="quarantana/cap9.xml#c9_16885">
+                          因徒似的度过了四五天漫长的禁闭生活后，一天早晨吉尔德鲁黛再也无法忍受女仆的冷落，气愤之极的她躲在屋子的一隅，双手捂住脸，过了许久才平息心中的怒气。</note>
+        <note xml:id="chinese_cap9-n214" type="comm" target="quarantana/cap9.xml#c9_16886" targetEnd="quarantana/cap9.xml#c9_16901">
+                          此时此刻，她心中产生一种想见到其他人的脸和倾听其他人话语的强烈冲动，热切地企盼他人能善待于她。</note>
+        <note xml:id="chinese_cap9-n215" type="comm" target="quarantana/cap9.xml#c9_16902" targetEnd="quarantana/cap9.xml#c9_16912">
+                          她不由得想起了自己的父亲和家人，想至此，她心中的愿望因恐惧而退缩了回去。</note>
+        <note xml:id="chinese_cap9-n216" type="comm" target="quarantana/cap9.xml#c9_16913" targetEnd="quarantana/cap9.xml#c9_16932">
+                          她忽然明白，要与他们言归于好，得由她采取主动，心中不觉又充满了欢愉。</note>
+        <note xml:id="chinese_cap9-n217" type="comm" target="quarantana/cap9.xml#c9_16933" targetEnd="quarantana/cap9.xml#c9_16948">
+                          紧接着，她又为自己的过失感到无比的懊悔和羞愧，心中萌生了愧罪的强烈愿望。</note>
+        <note xml:id="chinese_cap9-n218" type="comm" target="quarantana/cap9.xml#c9_16949" targetEnd="quarantana/cap9.xml#c9_16967">
+                          诚然，这并不是说她已经决定将自己的愿望变成现实，只是这些念头以前还从未在她的内心深处点燃起如此炽烈的火焰。</note>
+        <note xml:id="chinese_cap9-n219" type="comm" target="quarantana/cap9.xml#c9_16968" targetEnd="quarantana/cap9.xml#c9_17009">
+                          她站起身，走至一张小桌子跟前，然后拿起那支曾给她带来灾祸的笔，给她父亲写了一封充满热情、迅速、痛楚和希冀的信，恳求他的原谅，并向他隐隐约约地表示了自己准备遵循他一切意愿的决心。</note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,218 +1,432 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>第 一 章</title>
-                <respStmt>
-                    <resp>Supervisione codifica</resp>
-                    <persName xml:id="ER">Ersilia Russo</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Codifica automatizzata</resp>
-                    <persName xml:id="ML">Maria Levchenko</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Scheda editoriale</p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
-                <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
-                <date>2023</date>
-                <availability>
-                    <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <author>Alessandro Manzoni</author>
-                    <title>The Betrothed Lovers</title>
-                    <editor xml:id="Ben">Pier Paolo Benucci</editor>
-                    <pubPlace>London</pubPlace>
-                    <publisher>Longman, Brown, Green, and Longmans</publisher>
-                    <date>1845</date>
-                    <respStmt>
-                        <resp>Translated by</resp>
-                        <persName xml:id="BP">Anonymous</persName>
-                    </respStmt>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <p>Introduzione, cap. 1</p>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="Benucci_intro">
-<p>
-                <note xml:id="chinese_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10111">第 一 章群山层恋叠峦怀抱中的科摩湖,蜿蜒曲折地向南伸展,可流经此地时,湖面突然变窄,湖水穿过两岸的峭角和陡坡,奔流直下。 站在连接两岸的桥上远跳,湖形的变化尽收眼底。 科摩湖在这里同阿达河汇合,宽阔的水流绕过迂回的河湾缓缓向前。 </note>
-                <note xml:id="chinese_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10112" targetEnd="quarantana/cap1.xml#c1_10203">湖边由三条大激流冲积而成的一大片土地紧挨着毗邻的圣,马尔蒂诺山和雷蒙尼尼山。 名字起源于伦巴第方言的雷蒙尼尼山,峰恋牙交错,酷似一把锯子,从正面望去(比如站在面北的米兰城墙上),一眼就能辨认出名字经过但形状相似的群山中辨认出来。 </note>
-                <note xml:id="chinese_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10204" targetEnd="quarantana/cap1.xml#c1_10238">极目望去,在一大片微微倾斜的坡地后面,土风和峡谷清晰可见,但由于两座大山峰形的起伏和水流的侵蚀,有的颇为陡峭,有的则显得十分平坦。 </note>
-                <note xml:id="chinese_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10239" targetEnd="quarantana/cap1.xml#c1_10275">几条溢流横穿坡地的边缘,地面上碎石和大卵石席拾即是,四周则是田野,葡萄园以及零零落落的土地。 乡间别墅农舍和一垄垄作至山顶的一片片丛林。 </note>
-                <note xml:id="chinese_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10276" targetEnd="quarantana/cap1.xml#c1_10320">坐落在湖畔略靠近处的莱柯可谓是方圆几十里地中的一座重镇,故周边地区也以同样的名字命名。 当湖水上涨时,莱柯的部分地区被水包围,宛如湖心小岛。 如今,莱柯镇已初具规模,且正在发展成为一座城池。 </note>
-                <note xml:id="chinese_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10403">这个书叙述的故事发生的年代,莱柯已成了一座颇有影响的堡垒式的小城,并有幸被一支西班牙常规部队和一位驻军司令选作他们的驻地。 那些西班牙士兵不仅敲守镇上的姑娘和妇女如果持端庄,稳重的举止,还经常用棍棒抽打她们的丈夫和父亲。 不仅如此,到了夏末,他们总是不时机地钻进葡萄园采摘葡萄,以减轻农民在葡萄收获期的劳累。 </note>
-                <note xml:id="chinese_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10404" targetEnd="quarantana/cap1.xml#c1_10505">当时,即便今日,在村落和村落之间,山岱和湖畔之间,土丘和土坡之间都有陡峭的山路或平坦的小道将它们连接在一起。 那些小路有的伸入陡面的深处或隐蔽在两崖高墙之间,站在那里抬头仰望,看到的只是—小块天空和隐隐约约的山巅;有的则蜿蜒穿过开阔,高高的土堤,那里 的视野更为宽广。 空间,从不同的角度看出去,四周一望无垠的乡间景色时而看不到边时而尽收眼底,且时浓时淡,时隐时现,但它总是那样的美丽和那样的新异。 </note>
-                <note xml:id="chinese_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10506" targetEnd="quarantana/cap1.xml#c1_10597">明镜似的宽阔湖面流经其间,组合成一幅大小不一的块状图案。 从一处看,湖水的尖头仿佛被群山挡腰截断后几乎隐没其间,但随着山岱连绵不断的伸展,前方眼力所及的湖面却渐渐开阔起来,湖畔的村落就在水中的倒影依稀可见;从另—处望去,阿达河的支流同科摩湖汇合后再次流入大河,它宛如—条银光闪烁的带子,弯弯曲曲地穿越在山巅上,渐渐消失在山岱之间。 </note>
-                <note xml:id="chinese_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10598" targetEnd="quarantana/cap1.xml#c1_10683">即使你站在同一个地方,展现在你眼前的景色依然是变化万千,绚丽无比。 倘若你漫步在山坡上,你四下看到的,乃至仰望见的,全是悬崖峭壁和群山的峰顶,其滑断的轮廓蜿蜒然高耸云端,色彩奇异,形态不一,勾勒出山岱相连,群峰逶迤的壮观景象。 山坡上的景色同峰顶的风光仿佛浑然一体,恬静、悦目的湖光山色使四周的荒野显得分外娇美,秀丽。 </note>
-                <note xml:id="chinese_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_10684" targetEnd="quarantana/cap1.xml#c1_10732">一六三六年十一月七日黄昏时分,前面提及的一个村落里的司铎拿，安保退出散完步沿着小路欣然朝自己的家走去。 关于这个村落的名字和司铎的姓氏,在当时的史料中均没有任何记载。 </note>
-                <note xml:id="chinese_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10831">他安详地吟诵着祷文,在默念了一首赞美诗之后,将身口祷祷于轻轻合上,并将右手的食指像书签一样夹在书中间,然后背着手继续朝前走,但两眼仔细地看着路面,不时抬腿将路边的鞋脚石踢至墙根底下。 他懒洋洋地抬头环顾四周,目光落在远处的一座白光早已退尽的高山上,只见夕阳的余辉正映照着对面的一座山的顶峰,把形状各异的尖顶的山石染成了一片绚红色。 </note>
-                <note xml:id="chinese_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_10832" targetEnd="quarantana/cap1.xml#c1_10866">过后,他重新打开合拢的每日祈祷书,念诵了其中的一段,当走至小路窄口时,如往常一样抬起眼睛注视着前方。 </note>
-                <note xml:id="chinese_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_10867" targetEnd="quarantana/cap1.xml#c1_10919">过了窄口,有一段前后相距六十步左右的直路,然后成 Y 形分为两条羊肠小道:右面小道的一端蜿蜒延伸至山脚底下,另一端则通向他所在的教区;左面的那条小路同山下峡谷的溪流相连,路两边的矮墙还不及行人的腰部高。 </note>
-                <note xml:id="chinese_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_10920" targetEnd="quarantana/cap1.xml#c1_10995">两条小道的内墙设有左右拐角处会合,其尽头一直延伸至一神龛底下,上面画着一些顶端尖尖的,细长弯曲的图像。 根据作画人的构思意图和当地居民的判断,壁龛上画的是一团火焰,巾间还交替画着一些形体十分模糊的人像,象征着在炼狱中洗涤罪孽的灵魂。 在土灰为底色的画面上,呈暗红色的灵魂和火焰互相交织在一起,但好几处的颜色早已剥落。 </note>
-                <note xml:id="chinese_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_10996" targetEnd="quarantana/cap1.xml#c1_11020">如往常一样,堂·安保迪在小路的拐角处朝壁龛瞥了一眼,出乎意料地看到了他极不愿意看到的情景。 </note>
-                <note xml:id="chinese_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_11021" targetEnd="quarantana/cap1.xml#c1_11070">在两条小道的会合处,面对面地站着两个男子:一个两腿跨坐在矮墙上,一条腿伸在墙外,脚跟在路面上;另一个则靠墙站着,两臂交叉在胸前。 </note>
-                <note xml:id="chinese_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_11071" targetEnd="quarantana/cap1.xml#c1_11093">从他们的衣着、举止和脸部的表情判断,堂·安保迪一下子就明白了他们的身份。 </note>
-                <note xml:id="chinese_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_11094" targetEnd="quarantana/cap1.xml#None">两人的头上都戴着垂至左肩的绿色发网,网端系有粗大的缨子,额头上露出一大缕头发;嘴上长着微微上翘的小胡子;锃亮的皮带上插着两把手枪;牛角制的小火药筒像项链一样垂在胸前;肥大的裤子口袋边上露出猎刀的柄;佩带在腰间的轻剑的黄铜把手上刻有被磨得锃亮的姓名的首字母。 毋庸置疑,他们肯定是某一位豪绅家养的一双打手。 </note>
-                <note xml:id="chinese_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_11194" targetEnd="quarantana/cap1.xml#c1_11208">启用此类人物的习俗,在今天已不复存在,但在当时的伦巴第地区却盛极一时,且由来已久。 </note>
-                <note xml:id="chinese_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_11209" targetEnd="quarantana/cap1.xml#c1_11238">对于那些对这一现象不甚了解的读者来说,以下列举的几则实例足以表明它的主要特征,它那顽强,旺盛的生命力,以及人们为根除它所经历的艰辛。 </note>
-                <note xml:id="chinese_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11307">早在一五八二年四月八日,尊敬的阿拉贡王国的堂·卡尔洛斯下(卡斯坦尔万德拉诺诺子·德拉诺瓦公爵,阿代拉侯爵,布尔杰托伯爵,西西里里佩佩司令和古城堡主,米兰总督和信奉天主的西班牙国王陛下)就充分注意到:“由于豪绅们豢养的打手和流浪乞丐的为非作歹,米兰市民们过去和现在始终生活在水深火热之中。 </note>
-                <note xml:id="chinese_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_11308" targetEnd="quarantana/cap1.xml#c1_11371">”为此,他颁布了严惩上述歹徒的法令,并在法令中宣称:“所有没有正当职业或者有职业而实质上不上干活的凡……只是投靠在某一位骑士、豪绅、高官或高人为门下并为其敲诈并陷害他人者……若不管他是否有固定收入,是某地主或乡里人,均属于本法令所指的打手和流浪乞丐之列。 </note>
-                <note xml:id="chinese_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_11372" targetEnd="quarantana/cap1.xml#c1_11409">”他下令,上述对象务必在六天之内离开米兰,违令者将被投入监狱,司法人员将被例外地授予全权执行此令。 </note>
-                <note xml:id="chinese_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_15058" targetEnd="quarantana/cap1.xml#None">然后,到了一翌年四月十二日,同一个堂·卡尔洛阁下又提出:“打手们在城里依然到处可见,他们不仅继续作恶,且人数有增无减。 </note>
-                <note xml:id="chinese_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_11461" targetEnd="quarantana/cap1.xml#c1_11546">”为此,他又发布了一篇语气更加强硬、措词更为严厉的告示,其中有一条规定:“任何人,不管他是本地人或外乡人,只要有两人一致证明他是打手,即使他没有犯罪的前科……上述法官中的任何一个人都有权法外用绳子将其捆住后吊起来,处于其他一些不解其事者的提供……如果他门拒不交代自己的罪行,他们将作为打手的罪名处以三年徒刑。 </note>
-                <note xml:id="chinese_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_11547" targetEnd="quarantana/cap1.xml#c1_11566">”以上内容及法令中的其他条款,我们在此一并略去,因为堂·卡尔洛阁下态度异常坚决,任何人都得听从他的命令。 </note>
-                <note xml:id="chinese_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_11567" targetEnd="quarantana/cap1.xml#c1_11599">”大凡听到这么一位贵族老爷话语如此果断、坚决的人都会相信,殴他们一看到告示立即就会逃之夭夭。 </note>
-                <note xml:id="chinese_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_11600" targetEnd="quarantana/cap1.xml#c1_11619">然而,另一位贵君和权威都毫不逊色于他的贵族老爷的证词迫使我们不得不相信,事情的真相却恰恰相反。 </note>
-                <note xml:id="chinese_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_11620" targetEnd="quarantana/cap1.xml#c1_11666">此君便是尊敬的胡安·费尔南德斯·德·韦拉斯科阁下(加斯利亚亚古城堡主,国王陛下的总管家,弗里亚斯城的伯爵,哈罗和那斯坦尔诺沃伯爵,韦拉斯科家族和拉腊七王子家族的勃爵,米兰公国总督),他也充分注意到:“打手和流浪乞丐尤为法棍的存在,严重损害公众的利益,给社会带来了深重的灾难。 </note>
-                <note xml:id="chinese_cap1-n30" type="comm" target="quarantana/cap1.xml#c1_11667" targetEnd="quarantana/cap1.xml#c1_11816">”为此,一五九三年六月五日,他几乎字不差地重申了他的前任曾说过的带有威胁性的话,即多徒们务必在六日之内离开米兰城,因为在米兰城和米兰公国内,此类歹徒(打手和流浪乞丐的 人数不断增加,他们在其主子和支持者的纵容下,犯下了诸如蓄意殴打他人致伤,谋杀,盗窃等一系列罪行……他为此深感痛心,故于一五九八年五月三十一日像医生治疗某些顽症一样,重新开出同样的处方,只是加大了剂量。 </note>
-                <note xml:id="chinese_cap1-n31" type="comm" target="quarantana/cap1.xml#c1_11817" targetEnd="quarantana/cap1.xml#None">在告示的结束部分,他宣布:“任何与本告示的内容道而驰的行为是绝对不能容忍的,违抗者将得到严厉的惩处,必不姑息。 ”这是一次最后的通牒,期限将不再延迟。 </note>
-                <note xml:id="chinese_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_11860" targetEnd="quarantana/cap1.xml#c1_11895">”但是,尊敬的堂·彼埃德罗·恩里克斯·第·阿塞维多阁下(富恩特斯伯爵,米兰公国总督)却以充分的理由对如此提 出异议。 </note>
-                <note xml:id="chinese_cap1-n33" type="comm" target="quarantana/cap1.xml#c1_11896" targetEnd="quarantana/cap1.xml#None">“他充分意识到,由于打手人数众多,米兰市和米兰公国的人民,荡当地挣扎在贫困线上的……故下定决心铲除这一毒瘤。 </note>
-                <note xml:id="chinese_cap1-n34" type="comm" target="quarantana/cap1.xml#c1_11957" targetEnd="quarantana/cap1.xml#c1_12047">”一六〇〇年十二月五日,他再次呼吁对歹徒们处于严刑,表达了“严格执行告示,毫不留情的决心”人们不得不相信,他对解决此事确实充满了诚意,但事实上他正于三心中,欲以此扬动他人对他的大死敌罗科利四世的仇恨。 据史料记载,他成功地挑唆萨沃依侯与文对君王的关系,致使萨沃依公爵丢失了不少一座城池。 不可唯是,他还制造阴谋,迫使陛公爵丢掉了脑袋。 至于打手这一毒瘤,即使到了六一六二年五月二十三日,依然继续在长大。 </note>
-                <note xml:id="chinese_cap1-n35" type="comm" target="quarantana/cap1.xml#c1_12048" targetEnd="quarantana/cap1.xml#c1_12072">那一天,尊敬的堂·乔万尼·第·多萨阁下(伊诺替萨侯爵,贵族,老爷,总督……)开始认真考虑如何彻底铲除掉这一毒瘤。 </note>
-                <note xml:id="chinese_cap1-n36" type="comm" target="quarantana/cap1.xml#c1_12073" targetEnd="quarantana/cap1.xml#c1_12097">为此,他派人将内容经修改和充实过的相同告示送至百方告示印刷局那潘多尔福和马科·图隆，马拉特斯迪的手中,让他们将告示印在纸上,以便一举歼灭歹徒。 </note>
-                <note xml:id="chinese_cap1-n37" type="comm" target="quarantana/cap1.xml#c1_12098" targetEnd="quarantana/cap1.xml#c1_12131">但是歹徒们继续在社会上作恶,直至一六八七年三月二十四日,堂·戈麦斯·苏亚雷斯·弗格罗亚陛下(菲利坎尔公爵，总督……)给他们更为沉重的打击。 </note>
-                <note xml:id="chinese_cap1-n38" type="comm" target="quarantana/cap1.xml#c1_12132" targetEnd="quarantana/cap1.xml#c1_12191">然而,所有这些措施均无济将他们置于死地,一六六七年十月五日,尊敬的贡萨洛·费尔南德斯·第·科尔多瓦下出于无奈,被迫再次修改并发布了消灭歹徒的告示。 事出偶然,同锋堂·安保迪散步的地方也在这位大人的辖区之内。 这一切发生在我们正在叙述的那个难忘的事件之前一年零一个月又二天。 </note>
-                <note xml:id="chinese_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_12192" targetEnd="quarantana/cap1.xml#c1_12215">这并非是最后的一次告示,由于后来发生的事情与我们要讲的故事无关,我们就无需在此一一赘述了。 </note>
-                <note xml:id="chinese_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_12216" targetEnd="quarantana/cap1.xml#None">我只想提一下发生在一六三三年三月十三日的那一件事情:连任总督的菲利亚公爵陛下宣布,“打手们犯下的祸是滔天罪行。 </note>
-                <note xml:id="chinese_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_12254" targetEnd="quarantana/cap1.xml#c1_12268">”这是以说明,在我们故事发生的那个年代,打手们依然存在。 </note>
-                <note xml:id="chinese_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_12269" targetEnd="quarantana/cap1.xml#c1_12302">很显然,前面提及的那两个家伙正在路边等人。 从他们的某些举动来判断,他们等的定是堂·安保迪本人,这个发现使他深感不安。 </note>
-                <note xml:id="chinese_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_12303" targetEnd="quarantana/cap1.xml#c1_12355">待他一露面,他们即抬头四目对视,彼此用眼神明白无误地告诉对方:没错,就是他。 那个骑在矮墙上的人缩回踩在地上的脚,并立即站立起来;另一个则迅速从墙边离开。 他们一起朝司铎走去。 </note>
-                <note xml:id="chinese_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_12356" targetEnd="quarantana/cap1.xml#c1_12389">此时,堂·安保迪的手中依然拿着翻开的每日祈祷书,装作正在看书的样子,一面缓慢地观察着他们的行动。 </note>
-                <note xml:id="chinese_cap1-n45" type="comm" target="quarantana/cap1.xml#c1_12390" targetEnd="quarantana/cap1.xml#c1_12419">当他见他们确实在向自己走来时,无数的想法源然一股脑儿地全涌上心头,他心中暗自思付,在来人和他之间的路上左右是否另有小路可走,但他马上否定了自己的想法。 </note>
-                <note xml:id="chinese_cap1-n46" type="comm" target="quarantana/cap1.xml#c1_12420" targetEnd="quarantana/cap1.xml#c1_12451">他扪心自问,自己以前是否得罪过某一位权贵或者喜欢复仇的人。 他感到惊恐不安,但又自觉心中无愧,脸色显得坦然自若。 </note>
-                <note xml:id="chinese_cap1-n47" type="comm" target="quarantana/cap1.xml#c1_12452" targetEnd="quarantana/cap1.xml#c1_12497">与此同时,那两个家伙的眼睛死盯着他,并正朝他一步步逼近。 他拾起左手,将食指和中指伸进口袋领里缝,伴装整理衣领,并趁两只手指在脖子四周来回移动的同时,抬过头,歪着嘴,透过肩膀朝前方。 </note>
-                <note xml:id="chinese_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_12498" targetEnd="quarantana/cap1.xml#c1_12517">他暗忖希望看到别的什么人这时正朝他走来,但四周却空无一人,在矮墙后面,在田野里,都不见人影。 他的目光胆怯地避开正面的路上扫去,但是否除了两个歹徒,别无他人。 </note>
-                <note xml:id="chinese_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_12518" targetEnd="quarantana/cap1.xml#c1_12536">他已没有时间后退,若拔腿跑那会更糟,因为这似乎明白地告诉那两个歹徒他步追上他。 </note>
-                <note xml:id="chinese_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_12537" targetEnd="quarantana/cap1.xml#c1_12561">他心想:既然她姑难逃,还不如迎上前去。 他感到这救心的时刻特别难熬,故心中暗暗祝愿时间可能尽快地过去。 </note>
-                <note xml:id="chinese_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_12562" targetEnd="quarantana/cap1.xml#c1_12607">他加快脚步,大声吟诵着一首赞美诗,脸上强作笑容,神态安闲和欢快。 他走至那两个家伙眼前停下步,一面自言自语说:“我来了。 </note>
-                <note xml:id="chinese_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_12608" targetEnd="quarantana/cap1.xml#c1_12619">”他们中一个人的眼睛盯着他的脸,一边说,“神甫先生。 </note>
-                <note xml:id="chinese_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_12620" targetEnd="quarantana/cap1.xml#c1_12640">”“您有何贵干?”堂·安保迪马上抬头回话道,手中的每日祈祷书完全打开着,仿佛他此时正站在讲经台上一样。 </note>
-                <note xml:id="chinese_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_12641" targetEnd="quarantana/cap1.xml#c1_12670">“您打算……您打算明天为兰佐·特拉马佐和鲁齐娅·蒙若拉主持婚礼,是这样吗?”另一个人以咄咄气势的口吻问道,其讲话的语气就好像他一位下属的犯罪行为被他当场识破一样。 </note>
-                <note xml:id="chinese_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_12671" targetEnd="quarantana/cap1.xml#c1_12691">“我说……” 堂·安保迪声音微微颤抖地回答道,“我说,你们两位是见过世面的人,对这类事情的规矩了如指掌,像我这样一个可怜的教区牧师,本来就是一个无足轻重的人。 </note>
-                <note xml:id="chinese_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_12692" targetEnd="quarantana/cap1.xml#c1_12724">有些人自己将事情搞成一团糟,然后……然后来找我们,轻松得就好像去银行领取一笔款子一样,我们……我们只是公约的仆人而已。 </note>
-                <note xml:id="chinese_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_12725" targetEnd="quarantana/cap1.xml#c1_12748">”“很好,”一个打手凑近他耳边吩咐式的语气说,“这场婚礼明天不能举行,而且以后永远也不要举行了。 </note>
-                <note xml:id="chinese_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_12749" targetEnd="quarantana/cap1.xml#c1_12776">”闻听此话,堂·安保迪忙回答说:“可是,你们两位先生……你们两位先生也应该设身处地为我想一想。 </note>
-                <note xml:id="chinese_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_12777" targetEnd="quarantana/cap1.xml#c1_12794">如果事情能由我作主的话……你们也知道,我从中得不到任何好处。 </note>
-                <note xml:id="chinese_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_12795" targetEnd="quarantana/cap1.xml#c1_12811">”他说话时语气和蔼温顺,好似在劝说一位性子急躁的乞人一样。 “得了,”一个歹徒打断他的话说,“我们不会轻信您说的这些不着边际的话,您再想要骗我们。 </note>
-                <note xml:id="chinese_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_12812" targetEnd="quarantana/cap1.xml#c1_12820">我们什么也不知道,也不想知道。 </note>
-                <note xml:id="chinese_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_12821" targetEnd="quarantana/cap1.xml#c1_12824">我们可是已经警告过您了……我想您明白我们的意思。 </note>
-                <note xml:id="chinese_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_12825" targetEnd="quarantana/cap1.xml#c1_12832">”“当然,你们说的话太正确,太有道理了……” </note>
-                <note xml:id="chinese_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_12833" targetEnd="quarantana/cap1.xml#c1_12872">“但是,”另一个一直没有开口的歹徒插话说,“但是,这场婚礼绝不能举行,否则的话……否则的话,主持婚礼的人将悔之莫及, 因为他不会有时间……” 话语中不时夹杂着几句骡人的粗话。 </note>
-                <note xml:id="chinese_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_12873" targetEnd="quarantana/cap1.xml#c1_12903">“算了,别说了,”他的同伙接着说,“神甫先生脾气大情绪故,我们又是两个正派人,只要他能明辨是非,我们绝不会伤害他。 </note>
-                <note xml:id="chinese_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_12904" targetEnd="quarantana/cap1.xml#c1_12914">神甫先生,我们的主子,尊敬的堂·罗德里戈老爷向您致意。 </note>
-                <note xml:id="chinese_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_12915" targetEnd="quarantana/cap1.xml#c1_12942">”对堂·安保迪来说,这名字犹如黑夜暴风雨中的一道闪电,雾时间将一切照亮得如同白昼,四周顿时充满了恐怖的气氛。 </note>
-                <note xml:id="chinese_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_12943" targetEnd="quarantana/cap1.xml#c1_12954">出于本能,他深深地鞠了一—个躬,并说道,“请您多多提示……” </note>
-                <note xml:id="chinese_cap1-n69" type="comm" target="quarantana/cap1.xml#c1_12955" targetEnd="quarantana/cap1.xml#c1_12975">“不!我已敢对您这样—个通晓拉丁语的人作提示!”他再次打断堂·安保迪的话,嘴里发出粗鲁的狂笑。 </note>
-                <note xml:id="chinese_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_12976" targetEnd="quarantana/cap1.xml#c1_12978">“您看着办吧。 </note>
-                <note xml:id="chinese_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_12979" targetEnd="quarantana/cap1.xml#c1_13006">至于我们的忠告,您千万不可对外人泄露半点风声,这是为您好。 要不然……哼……以后将同主持婚礼就没有什么两样了。 </note>
-                <note xml:id="chinese_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_13007" targetEnd="quarantana/cap1.xml#c1_13019">我说,您想让我们给堂·罗德里戈老爷捎什么口信吗?”“请代我向他致意……” </note>
-                <note xml:id="chinese_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_15771" targetEnd="quarantana/cap1.xml#None">“您不妨讲明白一点!”“……我永远……我将永远听从他的差遣。 </note>
-                <note xml:id="chinese_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_13031" targetEnd="quarantana/cap1.xml#c1_13045">”话虽说出口,但连他自己也不知道这句话是—种承诺还是一句奉维语。 </note>
-                <note xml:id="chinese_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_13046" targetEnd="quarantana/cap1.xml#c1_13057">也许两个打手真的以为此话是真心真意的,也许他们只是在装作明白了。 </note>
-                <note xml:id="chinese_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_13058" targetEnd="quarantana/cap1.xml#c1_13071">“这太好了。 晚安,神甫先生，”一个打手说道,一面准备与他的同伙一起离去。 </note>
-                <note xml:id="chinese_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_13072" targetEnd="quarantana/cap1.xml#c1_13092">就在片刻前,堂·安保迪还在绞尽脑汁设法回避他们,可此时他却想方设法拖延同他们谈话的时间。 </note>
-                <note xml:id="chinese_cap1-n78" type="comm" target="quarantana/cap1.xml#c1_13093" targetEnd="quarantana/cap1.xml#c1_13122">他双手合上每日祈祷书,一面对他们说,“两位先生……” 可是,他们根本不予理会地迈开步子朝着他来的方向走去;嘴里还哼着醉俗的小调,至于其歌词,我就不在此赘述了。 </note>
-                <note xml:id="chinese_cap1-n79" type="comm" target="quarantana/cap1.xml#c1_13123" targetEnd="quarantana/cap1.xml#c1_13156">可怜的堂·安保迪惊魂未定,张着嘴丝毫动地站在那儿。 然后,他迈开似乎麻木的双腿,步履维艰地踏上小路,朝家中走去。 </note>
-                <note xml:id="chinese_cap1-n80" type="comm" target="quarantana/cap1.xml#c1_13157" targetEnd="quarantana/cap1.xml#c1_13180">前面,我们已经略地描述过他性情和他所处时代的背景,我想,读者定能透彻地理解他此时此刻的心境。 </note>
-                <note xml:id="chinese_cap1-n81" type="comm" target="quarantana/cap1.xml#c1_13181" targetEnd="quarantana/cap1.xml#c1_13196">倘若读者留意的话,一定已经发现,堂·安保迪并非是一个生性勇猛的人。 </note>
-                <note xml:id="chinese_cap1-n82" type="comm" target="quarantana/cap1.xml#c1_13197" targetEnd="quarantana/cap1.xml#c1_13230">他自幼就领悟这么一个道理:一头没有钩尖牙和利爪的牲畜,即使不愿被吞吃掉,它的处境也是最糟糕的。 </note>
-                <note xml:id="chinese_cap1-n83" type="comm" target="quarantana/cap1.xml#c1_13231" targetEnd="quarantana/cap1.xml#c1_13251">法律的威力从不保护那些性情温和又无法让大家敬畏的人,即使他们从不伤害别人。 </note>
-                <note xml:id="chinese_cap1-n84" type="comm" target="quarantana/cap1.xml#c1_13252" targetEnd="quarantana/cap1.xml#c1_13262">诚然,这并不是说,当时没有法律和刑法严惩私人之间的暴力行为。 </note>
-                <note xml:id="chinese_cap1-n85" type="comm" target="quarantana/cap1.xml#c1_13263" targetEnd="quarantana/cap1.xml#c1_13333">反之，各种法律名目繁多,每一起犯罪的案件都标有号码,案情也有极其详尽的记载。 但是,对罪犯量刑普遍过重,立法者和其他许多司法官员可凭个人的意愿对犯人加刑。 不仅如此,在案件审理过程中,法官们不受任何法律的约束,随意给人定罪。 虽然我们以上列举的只是少数几个例子,但是却如实反映了当时有关清除打手的客观现实。 </note>
-                <note xml:id="chinese_cap1-n86" type="comm" target="quarantana/cap1.xml#c1_13334" targetEnd="quarantana/cap1.xml#c1_13411">因此,从总体上分析,那些由历代统治者颁布并在内容上不断加以充实的法令只是少雄辩的事实证明了当权者的无能。 如果说,那些法令曾经产生过一些效果的话,那主要是指:性情平和的弱者遭受到骚扰者更加明目张胆的欺辱,后者也因此变得分外凶狠和狡诈。 当时,只有少数人享有法律故免权,而那些法令对形成这一弊端的历史根源只字不提,换言之，它们回天乏术。 </note>
-                <note xml:id="chinese_cap1-n87" type="comm" target="quarantana/cap1.xml#c1_13412" targetEnd="quarantana/cap1.xml#c1_13454">那些少数从上的庇护所以及他们享有的特权得到了法律的认可,权贵们对此保持沉默,采取容忍的态度,歹徒劳地提出异议表示反对。 事实上,得到优惠的人,出于自身的利益和自尊心,故力维护和保护手中的特权。 </note>
-                <note xml:id="chinese_cap1-n88" type="comm" target="quarantana/cap1.xml#c1_13455" targetEnd="quarantana/cap1.xml#c1_13481">如今,他们的敌我遭受到威胁和冲击,虽然历代君王发布的法令未能完全剥夺他们享有的特权,但是一旦受到冲击和威胁,他们自然而然使出新的招数力挽狂澜。 </note>
-                <note xml:id="chinese_cap1-n89" type="comm" target="quarantana/cap1.xml#c1_13482" targetEnd="quarantana/cap1.xml#c1_13516">所以,每当旨在镇压暴徒的法令一公布,他们就挖空心思设计更隐蔽的新伎俩,继续干着法令明文禁止的事情。 </note>
-                <note xml:id="chinese_cap1-n90" type="comm" target="quarantana/cap1.xml#c1_13517" targetEnd="quarantana/cap1.xml#c1_13562">他们左右着警民,软弱和无助之人的命运,操持着阻止和惩戒暴行的大权,把所有的人都控制在自己的手中,肆迫每一个平民完全按长官老爷专横的意志行事。 </note>
-                <note xml:id="chinese_cap1-n91" type="comm" target="quarantana/cap1.xml#c1_13563" targetEnd="quarantana/cap1.xml#c1_13628">事实上,暴徒们早在犯罪之前就密谋好事后逃至某一修道院或贵族老爷的官邸藏身,而那些地方绝不敢越雷池一步。 任何人一旦穿上某一户达官人家的人的特殊制服,户主也出于其家族乃至整个阶层的虚荣心和自身利益,定会想方设法袒护他。 所以,打手们为所欲为,对名噪一时的官方法令嗤之以鼻,不屑一顾。 </note>
-                <note xml:id="chinese_cap1-n92" type="comm" target="quarantana/cap1.xml#c1_13629" targetEnd="quarantana/cap1.xml#c1_13681">在执法者中间,一部分人原本就是有权有势的名门后代,另一部分则是权臣府上的门客。 由于所接受的教育,自身的利益和习惯势力的影响,这些人都有依附权贵的癖好,跟在他人后面亦步亦趋,不会因为张贴在路边拐角处的一纸空文而轻易得罪那些由豪绅们豢养的打手。 </note>
-                <note xml:id="chinese_cap1-n93" type="comm" target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13741">尽管那些执法者有英雄的胆略,像修士一样的顺从,而且决心以殉教者为榜样,随时准备献身,但是到头来总是一事无成,因为畏待镇压的歹徒的人数要比他们多得多。 事实上,执法者们很可能被那些以拙象的理论强迫他们执行任务的官员所抛弃。 </note>
-                <note xml:id="chinese_cap1-n94" type="comm" target="quarantana/cap1.xml#c1_13742" targetEnd="quarantana/cap1.xml#c1_13776">不仅如此,他们还是那个年代社会地位低下和行为粗暴的人,即使那些见到他们本该避而的从也鄙夷他们的职业,唾弃他们的称谓。 </note>
-                <note xml:id="chinese_cap1-n95" type="comm" target="quarantana/cap1.xml#c1_13777" targetEnd="quarantana/cap1.xml#c1_13837">理所当然,他们决不愿承坦风险或者自己的生命当噶注;相反,他们表现现懦,对权贵们的恶劣行为依然默默许的态度。 然而,在没有危险的情况下,他们也懂得该如何利用手中遭人唾弃的权力,欺压性情温和及无助的人们。 </note>
-                <note xml:id="chinese_cap1-n96" type="comm" target="quarantana/cap1.xml#c1_13838" targetEnd="quarantana/cap1.xml#c1_13853">很自然,大凡企图侵犯他人或讨刻担心遭到伤害的人都会设法寻找同盟者和朋友。 </note>
-                <note xml:id="chinese_cap1-n97" type="comm" target="quarantana/cap1.xml#c1_13854" targetEnd="quarantana/cap1.xml#c1_13886">因此,在当时,结成同盟,另立山头和力大各自营派势力的做法颇为盛行。 </note>
-                <note xml:id="chinese_cap1-n98" type="comm" target="quarantana/cap1.xml#c1_13887" targetEnd="quarantana/cap1.xml#c1_13907">神职人员和人极力维护自己的豁免权,这官显意则想方设法巩固自身的特权。 </note>
-                <note xml:id="chinese_cap1-n99" type="comm" target="quarantana/cap1.xml#c1_13908" targetEnd="quarantana/cap1.xml#c1_13928">商人和工匠纷纷参加同业公会和兄弟会,律师则积极建同盟会,连医师也被裹了成立自己的行会。 </note>
-                <note xml:id="chinese_cap1-n100" type="comm" target="quarantana/cap1.xml#c1_13929" targetEnd="quarantana/cap1.xml#c1_13963">这些少数不多的豪头政治集团都有各自特殊的势力,每个成员借助自身的职权和才干,利用集团的整体力去力其私利服务。 </note>
-                <note xml:id="chinese_cap1-n101" type="comm" target="quarantana/cap1.xml#c1_13964" targetEnd="quarantana/cap1.xml#c1_13999">其中,较为直的人只是依赖集团的优势进行自卫,而那些狡黠、凶残的不法之徒则狐假虎威,为非作歹,因为他们深知光凭自身的力量无法保住法律手中的豁免权。 </note>
-                <note xml:id="chinese_cap1-n102" type="comm" target="quarantana/cap1.xml#c1_14000" targetEnd="quarantana/cap1.xml#c1_14060">诚然,各同盟会的势力迥然各异,这一点在乡村里表现得尤为突出。 老乡下,农民因袭祖上流传下来的陈规,为了自身的利益每每被迫将自己视作人类的庸民和家丁。 所以,一个在家中豢养着一群打手的,自性凶残的豪绅,同盟会中没有任何一派系能同他的势力相抗衡。 </note>
-                <note xml:id="chinese_cap1-n103" type="comm" target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14101">至于我们故事中的安保迪,他既不是贵族,又不是豪绅,更谈不上是一位勇士,但当他快进入黄任年龄期之前,他开始意识到,在当时的社会里,他犹如夹在许多铁罐中间的一只陶器,危在旦夕。 </note>
-                <note xml:id="chinese_cap1-n104" type="comm" target="quarantana/cap1.xml#c1_14102" targetEnd="quarantana/cap1.xml#c1_14114">正是出于这种考感,他当初才颇为愉快地接受了亲戚们劝说他出家当教士的提议。 </note>
-                <note xml:id="chinese_cap1-n105" type="comm" target="quarantana/cap1.xml#c1_14115" targetEnd="quarantana/cap1.xml#c1_14162">说实在的,他起初并未思及他对自己所献身的职业该肩负的责任和崇高的使命。 在他看来,追求舒适的生活以及有幸司受片尊敬的权贵老爷们为伍是他作出上述抉择最有说服力的两个理由。 </note>
-                <note xml:id="chinese_cap1-n106" type="comm" target="quarantana/cap1.xml#c1_14163" targetEnd="quarantana/cap1.xml#c1_14188">当然,任何贵族老爷都不会无比挽护和他,他得自己设法找到一套特殊的自我保护措施。 </note>
-                <note xml:id="chinese_cap1-n107" type="comm" target="quarantana/cap1.xml#c1_14189" targetEnd="quarantana/cap1.xml#c1_14215">堂·安保迪始终在为寻觅一种安定的生活而冥思苦想,但是他却从未考虑过,若想图安逸,他必须付出很大的努力,甚至准备冒一定风险。 </note>
-                <note xml:id="chinese_cap1-n108" type="comm" target="quarantana/cap1.xml#c1_14216" targetEnd="quarantana/cap1.xml#c1_14234">他无弄的主莫仅俩是尽量回避一切冲突,实在躲不了的就退避三舍。 </note>
-                <note xml:id="chinese_cap1-n109" type="comm" target="quarantana/cap1.xml#c1_14235" targetEnd="quarantana/cap1.xml#c1_14284">当时,在教士和世俗最高手政官之间,至民之间,贵族老爷之间,经常发生激烈的冲突,甚至在两个农民之间也常因一方出言不逊而拔拳相加或动用刀子解决争端,对于这一切,堂·安保迪总是采取不介入的冷态度。 </note>
-                <note xml:id="chinese_cap1-n110" type="comm" target="quarantana/cap1.xml#c1_14285" targetEnd="quarantana/cap1.xml#c1_14336">万一他不得不在两个敌手之间表明立场,他总是再三考虑之后站在强者一方,并极力让另一方明白,他绝不是蓄意与之为敌。 他似乎在告诉对方:谁让你不是强者呢?否则我就站在你这一边了。 </note>
-                <note xml:id="chinese_cap1-n111" type="comm" target="quarantana/cap1.xml#c1_14337" targetEnd="quarantana/cap1.xml#c1_14396">他对专横跋扈者敬而远之,对他们一时随心所欲和反复无常的行为视而不见,但在那些脸色阴沉,蓄意挑衅的人面前,他又装出一副驯顺的模样,面带笑容地向他们拱身行礼。 即使对那些蛮横无理,狂妄自大之徒,当他在路上遇见他们时,脸上也会马上堆起笑容。 正因如此,我们这位可怜的教士虽已年逾六十,却从未遇到过很大的麻烦。 </note>
-                <note xml:id="chinese_cap1-n112" type="comm" target="quarantana/cap1.xml#c1_14397" targetEnd="quarantana/cap1.xml#c1_14456">然而,这并不是说,他心中没有任何怨恨。 他只是怀地忍让,几乎每一回都主动认错;然后,一言不语地将苦水往自己肚子里咽。 他有时也不免感到十分气恼,如果没有人给他说几句安慰的话,他的健康状况肯定会每况愈下。 </note>
-                <note xml:id="chinese_cap1-n113" type="comm" target="quarantana/cap1.xml#c1_14457" targetEnd="quarantana/cap1.xml#c1_14503">好得在世上,在周围,总有一些他熟悉但是绝不会伤害他的人。 对他们,他有时可以发泄一下长期积压在心中的愤懑,冲着他们无缘无故地大吼几声。 </note>
-                <note xml:id="chinese_cap1-n114" type="comm" target="quarantana/cap1.xml#c1_14504" targetEnd="quarantana/cap1.xml#c1_14527">对于按他的行为规范行事的人,他每每严加训斥,但这么做的前提必须是,他的训斥对自己不构成任何危险,哪怕是潜在的危险也不行。 </note>
-                <note xml:id="chinese_cap1-n115" type="comm" target="quarantana/cap1.xml#c1_14528" targetEnd="quarantana/cap1.xml#c1_14541">大凡找打的人都是鲁莽者,而只有喜欢惹事生非的人才会招来杀身之祸。 </note>
-                <note xml:id="chinese_cap1-n116" type="comm" target="quarantana/cap1.xml#c1_14542" targetEnd="quarantana/cap1.xml#c1_14589">对那些向权贵抗争而掉了脑袋的人,堂·安保迪总能轻而易举地找出他们的过错来,因为正确与谬误很难泾渭分明,任何人都不可能两者兼有之。 </note>
-                <note xml:id="chinese_cap1-n117" type="comm" target="quarantana/cap1.xml#c1_14590" targetEnd="quarantana/cap1.xml#c1_14611">正因为如此,对于同他一起在教会供职的教士支持受欺压的弱者,反对专断蛮横的权贵的冒险行为,他尤为痛恨。 </note>
-                <note xml:id="chinese_cap1-n118" type="comm" target="quarantana/cap1.xml#c1_14612" targetEnd="quarantana/cap1.xml#c1_14641">他将这称为作茧自缚和安图矫矫腿一样的愚蠢行为;他甚至严厉地指,他们的举动粗暴地干预世俗生活,有损神职人员的尊严。 </note>
-                <note xml:id="chinese_cap1-n119" type="comm" target="quarantana/cap1.xml#c1_14642" targetEnd="quarantana/cap1.xml#c1_14674">那些数士总是反对为个人的私事大发雷霆,堂·安保迪就愈是措辞激烈地谴责他们的行为,尽管只有当他单独和他们在一起的时候或者只有少数几个人在场的情况下,他才会如此横脾际洽。 </note>
-                <note xml:id="chinese_cap1-n120" type="comm" target="quarantana/cap1.xml#c1_14675" targetEnd="quarantana/cap1.xml#c1_14709">另外,在每一次结束讲诉以前,他总爱说:“一个正派人,只要他光操心自己的事情而不介入他人的争端,他永远不可能遇到纠缠不清的麻烦。 </note>
-                <note xml:id="chinese_cap1-n121" type="comm" target="quarantana/cap1.xml#c1_14710" targetEnd="quarantana/cap1.xml#c1_14726">”根据上面的叙述,我想我的二三十位读者定能想象得出可怜的堂·安保迪此时的心情。 </note>
-                <note xml:id="chinese_cap1-n122" type="comm" target="quarantana/cap1.xml#c1_14727" targetEnd="quarantana/cap1.xml#c1_14783">那两张丑陋的脸,满口的脏话,以及一个谁都知道说话从来算数的乡绅的威胁性言辞,使堂·安保迪惊恐万状,不知如何是好。 再说,经他多年耐心研究后该计划出来的保留生活安宁的处世哲学,现在一下子被推翻了,他茫然若失,不知如何才能走出困境。 他低垂着头,满面窘容,思绪纷乱。 </note>
-                <note xml:id="chinese_cap1-n123" type="comm" target="quarantana/cap1.xml#c1_14784" targetEnd="quarantana/cap1.xml#c1_14867">“要是兰佐是那种遭到断然拒绝后立即退缩的小伙子就好了。 不过,假如他让我说出缘由的话,我的上帝啊,我该如何回答呢?他走在面头,你要是去招惹他,他温顺得好像一头绵羊,但是你假如故意问他过不去的话……那就完了!再说,他迷恋上了那个鲁齐娅,而且爱得近乎发狂……这些愚蠢的年轻人,用谈情说爱的事才发的誓,整天想的就是结婚,可是对我这样一个本分人为他们蒙受的痛苦,他们却从不放在心上。 </note>
-                <note xml:id="chinese_cap1-n124" type="comm" target="quarantana/cap1.xml#c1_14868" targetEnd="quarantana/cap1.xml#c1_14900">唉,可怜的我啊!那两个无赖为何挡住我的去路,偏袒和我过不去呢?那件事情与我有何相干?难道是我要结婚吗?他们干吗不对……” </note>
-                <note xml:id="chinese_cap1-n125" type="comm" target="quarantana/cap1.xml#c1_14901" targetEnd="quarantana/cap1.xml#c1_14923">说呢?唉,我真是倒霉透了!该说的话当时就是想不起来。 </note>
-                <note xml:id="chinese_cap1-n126" type="comm" target="quarantana/cap1.xml#c1_14924" targetEnd="quarantana/cap1.xml#c1_14936">要是我当时想到了他们替我带个口信给……” </note>
-                <note xml:id="chinese_cap1-n127" type="comm" target="quarantana/cap1.xml#c1_14937" targetEnd="quarantana/cap1.xml#c1_14975">想至此,他又觉得不该为自己的行为感到后悔,因为同恶势力合作并为其谋划策略毕竟是一件十分卑鄙的事情,转而将心中的愤懑一股脑儿地发泄在另一个破坏他宁静生活的人身上。 </note>
-                <note xml:id="chinese_cap1-n128" type="comm" target="quarantana/cap1.xml#c1_14976" targetEnd="quarantana/cap1.xml#c1_15019">他跟堂·罗德里戈老爷并不相识,他只是久闻其名,但同他从未有过任何直接的接触。 有几次,他曾在路上同他相遇,当时他只是向他点头并躬身挥动一下脱下的帽子让帽边擦地而已。 </note>
-                <note xml:id="chinese_cap1-n129" type="comm" target="quarantana/cap1.xml#c1_15020" targetEnd="quarantana/cap1.xml#c1_15057">不止一次,为了维护那位乡绅的名声,对着那些仰天咒骂,低声诅咒堂·罗德里戈家事干尽的人们,堂·安保迪曾不厌其烦地反复说:“他是一位值得尊敬的贵族老爷。 </note>
-                <note xml:id="chinese_cap1-n130" type="comm" target="quarantana/cap1.xml#c1_15058" targetEnd="quarantana/cap1.xml#c1_15084">”此时此刻,他却在心中暗自咒骂:罗德里戈老爷加上了其他人来不及说出的的侮辱性的称呼,而以前每一回他都是急忙用一句话“打断他们的话讲。 </note>
-                <note xml:id="chinese_cap1-n131" type="comm" target="quarantana/cap1.xml#c1_15085" targetEnd="quarantana/cap1.xml#c1_15128">”他心烦意乱,不觉已走到坐落在村子尽头的自家宅第的大门口。 他慌忙将早已拿在手中的钥匙插入锁孔,开了门跨人院内,然后小心翼翼地把大门重新关上。 </note>
-                <note xml:id="chinese_cap1-n132" type="comm" target="quarantana/cap1.xml#c1_15129" targetEnd="quarantana/cap1.xml#c1_15146">他急着想见家中那一位自己视作亲信的女仆,故一边朝客厅走去,一边大声叫道:“佩尔贝多亚!佩尔贝多亚!”他说道,这时候她一定在那里摆桌子准备晚餐。 </note>
-                <note xml:id="chinese_cap1-n133" type="comm" target="quarantana/cap1.xml#c1_15147" targetEnd="quarantana/cap1.xml#c1_15233">我想,读者肯定都明白,佩尔贝多亚是他的一个忠实、贴心的女仆,不但懂得随机机处应变,对主人时而表现出俯首贴耳的样子,时而发号施令,而且对他的抱怨和怪罪常荒诞的想法始终持一种十分宽容的态度。 除此,她还成功地让他同样能容忍她那日趋严重的爱发牢骚的脾气。 论年纪,她早已超过了教会的严格规定,即不到四十岁的女子不得在教士家帮佣的年龄限制。 她一直未嫁,据她自己说,那是因为她绝了所有向她求婚的男子,但是据她的女友们披露,村子里没有一个男人愿意娶她为妻。 </note>
-                <note xml:id="chinese_cap1-n134" type="comm" target="quarantana/cap1.xml#c1_15234" targetEnd="quarantana/cap1.xml#c1_15304">“来了!”她回答道,面像往常一样把堂·安保迪喜爱的的一瓶酒搁在小桌子上,然后才慢悠悠地朝门口走去。 可未等她跨人客厅的门槛,他已经步履蹒跚地走了进来。 他目光呆滞,神情惊慌,精明过人的佩尔贝多亚一眼就看出,他一定是遇上了一件异乎寻常的事情。 </note>
-                <note xml:id="chinese_cap1-n135" type="comm" target="quarantana/cap1.xml#c1_15305" targetEnd="quarantana/cap1.xml#c1_15322">“我的天啊!您这是怎么啦,老爷?”“没事,没事,”堂·安保迪气喘吁吁地回答说,笨重的身体一下子全部陷人一张宽大的椅子里面。 </note>
-                <note xml:id="chinese_cap1-n136" type="comm" target="quarantana/cap1.xml#c1_15323" targetEnd="quarantana/cap1.xml#c1_15337">“还说没事?您以为我会相信吗?您脸色那么难看,一定是出了大事情了。 </note>
-                <note xml:id="chinese_cap1-n137" type="comm" target="quarantana/cap1.xml#c1_15338" targetEnd="quarantana/cap1.xml#c1_15355">”“嗨,看在上帝的分上!我说没事,就是没事。 要不,就是我不能把事情告诉你。 </note>
-                <note xml:id="chinese_cap1-n138" type="comm" target="quarantana/cap1.xml#c1_15356" targetEnd="quarantana/cap1.xml#c1_15374">”“连我也不能说?哪谁来关心您的健康呢?又有谁会替您出主意?……” </note>
-                <note xml:id="chinese_cap1-n139" type="comm" target="quarantana/cap1.xml#c1_15375" targetEnd="quarantana/cap1.xml#c1_15386">“哎呀,别说了!快替我倒一杯酒来,其他的东西你就不用往桌子上放了。 </note>
-                <note xml:id="chinese_cap1-n140" type="comm" target="quarantana/cap1.xml#c1_15387" targetEnd="quarantana/cap1.xml#c1_15420">”“您还一个劲儿地说没事!”佩尔贝多亚一边说,一边在杯子里倒酒。 她手中拿着酒杯,但没有马上给他,仿佛杯中之物是她对主人说实话的一种奖励。 </note>
-                <note xml:id="chinese_cap1-n141" type="comm" target="quarantana/cap1.xml#None" targetEnd="quarantana/cap1.xml#None">遗憾的是,堂·安保迪迟迟不吐真言。 </note>
-                <note xml:id="chinese_cap1-n142" type="comm" target="quarantana/cap1.xml#c1_15421" targetEnd="quarantana/cap1.xml#c1_15446">“把酒拿来,把酒拿来,”堂·安保迪边说边伸出微微颤抖的手拿过酒杯一干而尽;好像杯中盛的是治病的药一样。 </note>
-                <note xml:id="chinese_cap1-n143" type="comm" target="quarantana/cap1.xml#c1_15447" targetEnd="quarantana/cap1.xml#c1_15488">“难道说非要我去向旁人打听我的主人到底遇到了什么事吗?”佩尔贝多亚身体笔直地站在他面前,两手叉腰,肘关节朝外突出,目光盯着他的脸,似乎想从他的眼睛里抽出什么秘密来。 </note>
-                <note xml:id="chinese_cap1-n144" type="comm" target="quarantana/cap1.xml#c1_15489" targetEnd="quarantana/cap1.xml#c1_15526">“看在上帝的分上!别再张,别去对别人说!这说的是同人命关天的大事!”“人命关天!”“没错,人命关天!”“您也知道,您每一回对我私下里说的话,我可从来没有……” </note>
-                <note xml:id="chinese_cap1-n145" type="comm" target="quarantana/cap1.xml#c1_15527" targetEnd="quarantana/cap1.xml#c1_15529">“好样的!可是这一回……” </note>
-                <note xml:id="chinese_cap1-n146" type="comm" target="quarantana/cap1.xml#c1_15530" targetEnd="quarantana/cap1.xml#c1_15574">佩尔贝多亚意识到自己按错了键,故立即变换语气。 “老爷,”她语调柔婉,感伤地说,“我一向忠实于您。 我现在之所以想知道实情,是出于对您的关心,因为我想助您一臂之力,替您出主意,让您放宽心……” </note>
-                <note xml:id="chinese_cap1-n147" type="comm" target="quarantana/cap1.xml#c1_15575" targetEnd="quarantana/cap1.xml#c1_15633">事实上,同佩尔贝多亚的心情一样,堂·安保迪也急于想吐露自己心中令他感到十分悲痛的秘密。 在她一次又一次急切的追问之下,他的抵挡越来越显得软弱无力,况且她不断发誓不向任何人透露半点风声,他支吾其词地犹豫了半天之后,终于把事情的原委对她和盘托出。 </note>
-                <note xml:id="chinese_cap1-n148" type="comm" target="quarantana/cap1.xml#c1_15634" targetEnd="quarantana/cap1.xml#c1_15716">但是在他说出犯罪行为的唆使者可怕的名字以前,他再一次让佩尔贝多亚郑重地对天发誓为他“严守秘密。 ”他把那名字一说出口,就长呼一声瘫倒在椅子上,同时举起双手,以命令的口气祈求道:“看在上帝的分上,千万别说出去!”“我的天哪!”佩尔贝多亚惊叹道,流怪!恶根!一个对上帝都不敬畏的魔鬼!”“安静!难道你想毁了我吗?”“啊!这里就我们两个,没人能听到我们的谈话。 </note>
-                <note xml:id="chinese_cap1-n149" type="comm" target="quarantana/cap1.xml#c1_15717" targetEnd="quarantana/cap1.xml#c1_15755">您打算怎么办,我可怜的老爷?”“你们听听，”堂·安保迪充满怒气地说道,“你们听听她给我出的坏点子!问我怎么办,怎么办,怎么办,好像是她遇上了麻烦,要我去帮她摆脱似的。 </note>
-                <note xml:id="chinese_cap1-n150" type="comm" target="quarantana/cap1.xml#c1_15756" targetEnd="quarantana/cap1.xml#c1_15767">”“哎,我倒是有一个不太成熟的想法,可是……” </note>
-                <note xml:id="chinese_cap1-n151" type="comm" target="quarantana/cap1.xml#c1_15768" targetEnd="quarantana/cap1.xml#c1_15770">“什么可是不可可是,有什么想法不妨说给我听听。 </note>
-                <note xml:id="chinese_cap1-n152" type="comm" target="quarantana/cap1.xml#c1_15771" targetEnd="quarantana/cap1.xml#c1_15829">”“我意思是说,从所皆知,我们的大主教是一位无所畏惧的大善人,办事果断泼辣,他定会乐意帮助一位同那些仇人毫争细抗争的教士。 我说,您不妨写一封措词得体的信,将事情的前后经过告诉他……” </note>
-                <note xml:id="chinese_cap1-n153" type="comm" target="quarantana/cap1.xml#c1_15830" targetEnd="quarantana/cap1.xml#c1_15876">“别说了!你别说了行不行?这就是你给一个像我这样的可恼人出的主意?如果我在背上遭了枪击,我的天哪,大主教能帮我托平伤痛吗?”“嘘,您说的!他们不可能将子弹当作结婚喜糖那样到处散发。 </note>
-                <note xml:id="chinese_cap1-n154" type="comm" target="quarantana/cap1.xml#c1_15877" targetEnd="quarantana/cap1.xml#c1_15916">那些富生要是每还叫一回都咬人的话准保不会有好下场!我可是看得很清楚,对敢说敢干和懂得如何赢得他们尊重的人,他们才会对他恭恭敬敬。 可是您从不为自己据理力争,所以在您面前人人都毫无顾忌,十分放肆……” </note>
-                <note xml:id="chinese_cap1-n155" type="comm" target="quarantana/cap1.xml#c1_15917" targetEnd="quarantana/cap1.xml#c1_15918">“你别说了行不行?”“我马上就说完了。 </note>
-                <note xml:id="chinese_cap1-n156" type="comm" target="quarantana/cap1.xml#c1_15919" targetEnd="quarantana/cap1.xml#c1_15941">我可以肯定地说,如果大家都知道,有人每一回都打算屈服投降的话……” </note>
-                <note xml:id="chinese_cap1-n157" type="comm" target="quarantana/cap1.xml#c1_15942" targetEnd="quarantana/cap1.xml#c1_15950">“你安静一会儿不行吗?你看现在是讲蠢话的时候吗?”“算了,我不说了。 </note>
-                <note xml:id="chinese_cap1-n158" type="comm" target="quarantana/cap1.xml#c1_15951" targetEnd="quarantana/cap1.xml#c1_15971">今晚您好好考虑一下,可现在您千万别糟践自己,没法吃一些东西,不要把身体弄垮了。 </note>
-                <note xml:id="chinese_cap1-n159" type="comm" target="quarantana/cap1.xml#c1_15972" targetEnd="quarantana/cap1.xml#c1_15987">”“我会考虑的,”堂·安保迪嘟囔道,“我当然会考虑的,我的确有好多事要考虑。 </note>
-                <note xml:id="chinese_cap1-n160" type="comm" target="quarantana/cap1.xml#c1_15988" targetEnd="quarantana/cap1.xml#c1_16007">”说罢,他站起身继续说道:“我现在头脑里很乱,不想吃东西,什么都不想吃。 </note>
-                <note xml:id="chinese_cap1-n161" type="comm" target="quarantana/cap1.xml#c1_16008" targetEnd="quarantana/cap1.xml#c1_16015">我知道我得考虑考虑事情,但我不明白为什么这些倒霉的事情偏偏都落在我的身上。 </note>
-                <note xml:id="chinese_cap1-n162" type="comm" target="quarantana/cap1.xml#c1_16016" targetEnd="quarantana/cap1.xml#c1_16032">”佩尔贝多亚一边替他掸帽,一边劝说道,“您至少得再喝一口,酒可是有健胃的作用。 </note>
-                <note xml:id="chinese_cap1-n163" type="comm" target="quarantana/cap1.xml#c1_16033" targetEnd="quarantana/cap1.xml#c1_16042">”“唉!我要的是别的东西,别的东西。 </note>
-                <note xml:id="chinese_cap1-n164" type="comm" target="quarantana/cap1.xml#c1_16043" targetEnd="quarantana/cap1.xml#c1_16070">”说罢,他拿起油灯但嘴里还不停地抱怨道:“这种事情竟然发生在我这样一个老实本分的人身上!明天还会发生一些什么事情呢?”他接着又嘟嚷了几句,然后才迈步上楼去他的卧室。 </note>
-                <note xml:id="chinese_cap1-n165" type="comm" target="quarantana/cap1.xml#c1_16071" targetEnd="quarantana/cap1.xml#c1_16096">在跨人门槛之前,他回过头,伸出手指压住嘴唇,神情庄重地对佩尔贝多亚一字一字地说:“看在上帝的分上!”然后,他才走进了房间。 </note>
-         </p>   </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>第一章</title>
+        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Me">Me</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>孟佐尼</author>
+          <title>约婚夫妇</title>
+          <pubPlace>南京</pubPlace>
+          <publisher>译林出版社</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Me" when="2025-03-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Chinese_1998.xml_cap1">
+        <note xml:id="chinese_cap1-n1" type="comm" target="quarantana/cap1.xml#c1_10001" targetEnd="quarantana/cap1.xml#c1_10111">
+                          群山层叠鑫峨怀抱中的科摩湖，蜿蜒曲折地向南伸展，可流经此地时，湖面突然变窄，湖水穿过两岸的岬角和陡坡，奔流直下。 站在连接两岸的桥上远眺，湖形的变化尽收眼底。 科摩湖在这里同阿达河汇合，宽阔的水流经过迂回的河湾缓缓向前。</note>
+        <note xml:id="chinese_cap1-n2" type="comm" target="quarantana/cap1.xml#c1_10112" targetEnd="quarantana/cap1.xml#c1_10238">
+                          湖边由三条大激流冲积而成的一大片土地紧挨着毗邻的圣•马尔蒂诺山和雷赛戈尼山。 名字起源于伦巴第方言的雷赛戈尼山，峰峦犬牙交错，酷似一把锯子，从正面望去（比如站在面北的米兰城墙上），一眼就能将它从名字怪诞但形状相似的群山中辨认出来。 极目望去，在一大片微微倾斜的坡地后面，土冈和峡谷清晰可见，但由于两座大山峰形的起伏和水流的侵蚀，有的颇为陡峭，有的则显得十分平坦。</note>
+        <note xml:id="chinese_cap1-n3" type="comm" target="quarantana/cap1.xml#c1_10239" targetEnd="quarantana/cap1.xml#c1_10275">
+                          几条蜿蜒横穿坡地的边缘，地面上砾石和大卵石俯拾即是，四周则是田野，葡萄园以及零零落落的土地，乡间别墅，农舍和一直延伸至山顶的一片片丛林。</note>
+        <note xml:id="chinese_cap1-n4" type="comm" target="quarantana/cap1.xml#c1_10276" targetEnd="quarantana/cap1.xml#c1_10320">
+                          坐落在湖畔离桥不远处的莱柯可谓是方圆几十里地中的一座重镇，故周边地区也以同样的名字命名。 当湖水上涨时，莱柯的部分地区被水包围，宛如湖心小岛。 如今，莱柯镇已初具规模，且正在发展成为一座城池。</note>
+        <note xml:id="chinese_cap1-n5" type="comm" target="quarantana/cap1.xml#c1_10321" targetEnd="quarantana/cap1.xml#c1_10403">
+                          到了本书叙述的故事发生的年代，莱柯已成了一座颇有影响的，堡垒式的小城，并有幸被一支西班牙帝国部队和一位驻军司令选作他们的驻地。 那些西班牙士兵不但教育镇上的姑娘和妇女如何保持端庄，稳重的举止，还经常用棍棒抽打她们的丈夫和父亲。 不仅如此，到了夏末，他们总是不失时机地钻进葡萄园采摘葡萄，以减轻农民在葡萄 收获期的劳累。</note>
+        <note xml:id="chinese_cap1-n6" type="comm" target="quarantana/cap1.xml#c1_10404" targetEnd="quarantana/cap1.xml#c1_10505">
+                          当时，即便今日，在村落和村落之间，山岗和湖畔之间，土丘和土冈之间都有陡峭的山路或平坦的小道将它们连接在一起。 那些小路有的伸入路面的深处或隐蔽在两垄高墙之间，站在那里抬头仰望，看到的只是一小块天空和隐隐约约的山巅；有的则蜿蜒穿过开阔、高高的土堤，那里的视野更为宽广，空阔，从不同的角度看出去，四周一望无垠的乡间景色时而看不到边时而尽收眼底，且时浓时淡，时隐时现，但它总是那样的美丽和那样的新异。</note>
+        <note xml:id="chinese_cap1-n7" type="comm" target="quarantana/cap1.xml#c1_10506" targetEnd="quarantana/cap1.xml#c1_10597">
+                          明镜似的宽阔湖面流经其间，组合成一幅大小不一的块状图案。 从一处看，湖水的尽头仿佛被群山拦腰截断后几乎隐没其间，但随着山蜿连绵不断的伸展，前方眼力所及的湖面却渐渐开阔起来，湖畔的村落映在水中的倒影依稀可见；从另一处望去，阿达河的支流同科摩湖汇合后再次流入大河，它宛如一条银光闪烁的带子，弯弯曲曲地穿越在地平线上，渐渐消失在山蜿之间。</note>
+        <note xml:id="chinese_cap1-n8" type="comm" target="quarantana/cap1.xml#c1_10598" targetEnd="quarantana/cap1.xml#c1_10683">
+                          即使你站在同一个地方，展现在你眼前的景色依然是变化万千，绮丽无比。 倘若你漫步在山坡上，你四下看到的，乃至仰首望见的，全是悬崖峭壁和群山的峰顶，其清晰的轮廓巍巍然高耸云端，色彩奇异，形态不一，勾勒出山蜿相连、群峰逶迤的壮观景象。 山坡上的景色同峰顶的风光仿佛浑然一体，恬静、悦目的湖光山色使四周的荒野显得分外娇美、秀丽。</note>
+        <note xml:id="chinese_cap1-n9" type="comm" target="quarantana/cap1.xml#c1_10684" targetEnd="quarantana/cap1.xml#c1_10732">
+                          一六二八年十一月七日黄昏时分，前面提及的一个村落里的司锋堂·安保迪正散完步沿着小路从然朝自己的家走去。 关于这个村落的名字和司锋的姓氏，在当地的史料中均没有任何记载。</note>
+        <note xml:id="chinese_cap1-n10" type="comm" target="quarantana/cap1.xml#c1_10733" targetEnd="quarantana/cap1.xml#c1_10831">
+                          他安详地吟诵着祷文，在默念了一首赞美诗之后，将每日祈祷书轻轻合上，并将右手的食指像书签一样夹在书中间，然后背着手继续朝前走，但两眼仔细地看着路面，不时抬腿将路边的绊脚石踢至墙根底下。 他懒洋洋地抬头环顾四周，日光落在远处的一座日光早已退尽的高山上，只见夕阳的余辉正映照着对面的一座山的顶峰，把形状各异的、突兀的山石染成了一片绯红色。</note>
+        <note xml:id="chinese_cap1-n11" type="comm" target="quarantana/cap1.xml#c1_10832" targetEnd="quarantana/cap1.xml#c1_10866">
+                          过后，他重新打开 合拢的每日祈祷书,念诵了其中的一段。 当走至小路岔口时,如往常一样抬起眼睛注视着前方。</note>
+        <note xml:id="chinese_cap1-n12" type="comm" target="quarantana/cap1.xml#c1_10867" targetEnd="quarantana/cap1.xml#c1_10919">
+                          过了岔口,有一段前后相距六十步左右的直路,然后成丫形分为两条羊肠小道:右面小道的一端蜿蜒延伸至山脚底下,另一端则通向他所在的教区;左面的那条小路同山下峡谷的溪流相连,路两边的矮墙还不及行人的腰部高。</note>
+        <note xml:id="chinese_cap1-n13" type="comm" target="quarantana/cap1.xml#c1_10920" targetEnd="quarantana/cap1.xml#c1_10995">
+                          两条小道的内墙没有在拐角处会合,其尽头一直延伸至一个神龛底下,上面画着一些顶端尖尖的、细长弯曲的图像。 根据作画人的构思意图和当地居民的判断,壁龛上画的是一团火焰,中间还交替画着一些形体十分模糊的人像,象征着在炼狱中洗涤罪孽的灵魂。 在土灰为底色的画面上,呈暗红色的灵魂和火焰互相交织在一起,但好几处的颜色早已剥落。</note>
+        <note xml:id="chinese_cap1-n14" type="comm" target="quarantana/cap1.xml#c1_10996" targetEnd="quarantana/cap1.xml#c1_11020">
+                          如往常一样,堂·安保迪在小路的拐角处朝壁龛瞥了一眼,出乎意料地看到了他极不愿意看到的情景。</note>
+        <note xml:id="chinese_cap1-n15" type="comm" target="quarantana/cap1.xml#c1_11021" targetEnd="quarantana/cap1.xml#c1_11070">
+                          在两条小道的会合处,面对面地站着两个男子:一个两腿跨坐在矮墙上,一条腿伸在墙外,脚踩在路面上;另一个则靠墙站着,两臂交叉在胸前。</note>
+        <note xml:id="chinese_cap1-n16" type="comm" target="quarantana/cap1.xml#c1_11071" targetEnd="quarantana/cap1.xml#c1_11093">
+                          从他们的衣着、举止和脸部的表情判断,堂·安保迪一下子就明白了他们的身份。</note>
+        <note xml:id="chinese_cap1-n17" type="comm" target="quarantana/cap1.xml#c1_11094" targetEnd="quarantana/cap1.xml#c1_11193">
+                          两人的头上都戴着垂至左肩的绿色发网,网端系有粗大的缨子,额头上露出一大绺头发;嘴上长着微微上翘的小胡子;铠甲的皮带上插着两把手枪;牛角制的小火药筒像项链一样垂在胸前;肥大的裤子口袋边上露出猎刀的把柄;佩带在腰间的轻剑的黄铜把手上刻有被磨得模糊的姓名的首字母。 毋庸置疑,他们肯定是某一位豪绅养养的一双打手。</note>
+        <note xml:id="chinese_cap1-n18" type="comm" target="quarantana/cap1.xml#c1_11194" targetEnd="quarantana/cap1.xml#c1_11208">
+                          启用此类人物的习俗,在今天已不复存在,但在当时的伦巴第地区却盛极一时,且由来已久。</note>
+        <note xml:id="chinese_cap1-n19" type="comm" target="quarantana/cap1.xml#c1_11209" targetEnd="quarantana/cap1.xml#c1_11238">
+                          对于那些对这一现象不甚了解的读者来说,以下列举的几则实例足以表明它的主要特征,它那顽强、旺盛的生命力,以及人们为根除它所经历的艰辛。</note>
+        <note xml:id="chinese_cap1-n20" type="comm" target="quarantana/cap1.xml#c1_11239" targetEnd="quarantana/cap1.xml#c1_11371">
+                          早在一五八三年四月八日,尊敬的阿拉贡王国的堂·卡尔洛阁下(卡斯垫尔万德拉诸王子、德拉诺瓦公爵、阿伏拉侯爵、布尔杰托伯爵、西西里舰队司令和古城堡主、米兰总督和信奉天主的西班牙 国王陛下）就充分注意到："由于豪绅们养养的打手和流浪乞丐的为非作歹,米兰市民们过去和现在始终生活在水深火热之中。" 为此,他颁布了严惩上述歹徒的法令,并在法令中宣称："所有没有正当职业或者有职业而实际上不干活的人……凡是投靠在某一个骑士、豪绅、高官或商人门下并为其效劳并陷害他人者……不管他是否有固定收入,是本地人或异乡人,均属于本法令所指的打手和流浪乞丐之列。"</note>
+        <note xml:id="chinese_cap1-n21" type="comm" target="quarantana/cap1.xml#c1_11372" targetEnd="quarantana/cap1.xml#c1_11409">
+                          他下令,上述对象务必在六天之内离开米兰,违令者将被投入监狱,司法人员将被例外地授予全权执行此令。</note>
+        <note xml:id="chinese_cap1-n22" type="comm" target="quarantana/cap1.xml#c1_11410" targetEnd="quarantana/cap1.xml#c1_11460">
+                          然后,到了翌年四月十二日,同一个堂·卡尔洛阁下又提出："打手们在城里依然到处可见,他们不仅继续作恶,且人数有增无减。"</note>
+        <note xml:id="chinese_cap1-n23" type="comm" target="quarantana/cap1.xml#c1_11461" targetEnd="quarantana/cap1.xml#c1_11566">
+                          为此,他又发布了一个语气更为强硬、措词更为严厉的告示,其中有一条规定："任何人,不管他是本地人或外乡人,只要有两人一致证明他是打手,即使他没有犯罪的前科……上述法官中的任何一个人都有权让人用绳子将其捆住后吊起来或处于其他酷刑,并逼其招供……如果他们拒不交代自己的罪行,他们将以打手的罪名处以三年徒刑。" 以上内容及法令中的其他条款,我们在此一并略去,因为"堂·卡尔洛阁下态度非常坚决,任何人都得听从他的命令。"</note>
+        <note xml:id="chinese_cap1-n24" type="comm" target="quarantana/cap1.xml#c1_11567" targetEnd="quarantana/cap1.xml#c1_11599">
+                          大凡听到这么一位贵族老爷话语如此果断、坚决的人都会相信,歹徒们一看到告示立即就会逃之天天。</note>
+        <note xml:id="chinese_cap1-n25" type="comm" target="quarantana/cap1.xml#c1_11600" targetEnd="quarantana/cap1.xml#c1_11619">
+                          然而,另一位声望和权威都毫不逊色于他的贵族老爷的证词迫使我们不得不相信,事情的真相却恰恰相反。</note>
+        <note xml:id="chinese_cap1-n26" type="comm" target="quarantana/cap1.xml#c1_11620" targetEnd="quarantana/cap1.xml#c1_11666">
+                          此君便是尊敬的胡安·费尔南德斯·第·韦拉斯科阁下(加斯蒂利亚古城堡主、国王陛下的总管家、弗里亚斯城的伯爵、哈罗和加斯坦尔诺沃伯爵、书拉班科家族和拉腊七王子家族的勋爵、米兰公国总督),他也充分注意到:"打手和流浪乞丐无视法律的存在,严重损害公众的利益,给社会带来了深重的灾难。"</note>
+        <note xml:id="chinese_cap1-n27" type="comm" target="quarantana/cap1.xml#c1_11667" targetEnd="quarantana/cap1.xml#c1_11732">
+                          为此,一五九三年六月五日,他几乎一字不差地重申了他的前任曾说过的带有威胁性的话,即歹徒们务必在六日之内离开米兰城,因为在米兰城和米兰公国内,此类歹徒(打手和流浪乞丐)的人数不 断增多，他们在其主子和支持者的纵容下，犯下了诸如蓄意殴打他 人致伤、谋杀、盗窃等一系列罪行……他为此深感痛心，故于一五 九八年五月二十三日像医生治疗某些顽症一样，重新开出同样的</note>
+        <note xml:id="chinese_cap1-n28" type="comm" target="quarantana/cap1.xml#c1_11733" targetEnd="quarantana/cap1.xml#c1_11859">
+                          处方，只是加大了剂量。 在告示的结束部分，他宣布："任何与本告 示的内容背道而驰的行为是绝对不能容忍的，违抗者将得到严厉 的惩处，决不姑息……这是一次最后的通牒，期限将不再推迟。"</note>
+        <note xml:id="chinese_cap1-n29" type="comm" target="quarantana/cap1.xml#c1_11860" targetEnd="quarantana/cap1.xml#c1_11956">
+                          但是，尊敬的堂·彼埃德罗·恩里克斯·第·阿塞维多阁下（富恩 特斯伯爵，米兰公国总督）却以充分的理由对此提出异议。" 他充 分意识到，由于打手人数众多，米兰市和米兰公国的人民痛苦地挣</note>
+        <note xml:id="chinese_cap1-n30" type="insertion">扎在贫困线上……故下定决心铲除这一毒瘤。"</note>
+        <note xml:id="chinese_cap1-n31" type="insertion">一六〇〇年十二月</note>
+        <note xml:id="chinese_cap1-n32" type="comm" target="quarantana/cap1.xml#c1_11957" targetEnd="quarantana/cap1.xml#c1_12047">
+                          五日，他再次呼吁对歹徒们处于严刑，表达了"严格执行告示，毫不 留情的决心"。 人们不得不相信，他对解决此事确实充满了诚意，但事实上他 是工于心计，欲以此煽动他人对他的死敌亨利四世的仇恨。</note>
+        <note xml:id="chinese_cap1-n33" type="insertion">据史</note>
+        <note xml:id="chinese_cap1-n34" type="insertion">料记载，他成功地挑唆萨沃伊参与反对君王的活动，致使萨沃伊公</note>
+        <note xml:id="chinese_cap1-n35" type="insertion">爵丢失了不止一座城池。</note>
+        <note xml:id="chinese_cap1-n36" type="insertion">不宁唯是，他还制造阴谋，迫使比隆公爵</note>
+        <note xml:id="chinese_cap1-n37" type="insertion">去掉了脑袋。</note>
+        <note xml:id="chinese_cap1-n38" type="insertion">至于打手这一毒瘤，即使到了一六一二年九月二十</note>
+        <note xml:id="chinese_cap1-n39" type="comm" target="quarantana/cap1.xml#c1_12048" targetEnd="quarantana/cap1.xml#c1_12066">
+                          二日，依然继续在长大。 那一天，尊敬的堂·乔万尼·第·门多萨阁 下（伊诺萨萨侯爵，贵族，老爷，总督……）</note>
+        <note xml:id="chinese_cap1-n40" type="comm" target="quarantana/cap1.xml#c1_12067" targetEnd="quarantana/cap1.xml#c1_12072">
+                          开始认真考虑如何彻底 除掉这一毒瘤。</note>
+        <note xml:id="chinese_cap1-n41" type="comm" target="quarantana/cap1.xml#c1_12073" targetEnd="quarantana/cap1.xml#c1_12097">
+                          为此，他派人将内容经修改和充实过的相同告示 送至官方告示印刷商潘多尔福和马科·图略·马拉特斯迪的手中， 让他们将告示印在纸上，以便一举歼灭歹徒。</note>
+        <note xml:id="chinese_cap1-n42" type="comm" target="quarantana/cap1.xml#c1_12098" targetEnd="quarantana/cap1.xml#c1_12129">
+                          但是歹徒们继续在 社会上作恶，直至一六一八年十二月二十四日，堂·戈麦斯·苏亚雷 斯·第·菲格罗亚阁下（菲利亚公爵，总督……） 给他们更为沉重的</note>
+        <note xml:id="chinese_cap1-n43" type="comm" target="quarantana/cap1.xml#c1_12067" targetEnd="quarantana/cap1.xml#c1_12068">
+                          打击。</note>
+        <note xml:id="chinese_cap1-n44" type="comm" target="quarantana/cap1.xml#c1_12132" targetEnd="quarantana/cap1.xml#c1_12191">
+                          然而，所有这些措施均无法将他们置于死地，一六二七年十 月五日，尊敬的贡萨洛·费尔南德斯·第·科尔多瓦阁下出于无奈， 被迫再次修改并发布了消灭歹徒的告示。 事出偶然，司径营·安保</note>
+        <note xml:id="chinese_cap1-n45" type="insertion">迪散步的地方也在这位大人的辖区之内。</note>
+        <note xml:id="chinese_cap1-n46" type="insertion">这一切发生在我们正在</note>
+        <note xml:id="chinese_cap1-n47" type="insertion">叙述的那个难忘的事件之前一年零一个月又二天。</note>
+        <note xml:id="chinese_cap1-n48" type="comm" target="quarantana/cap1.xml#c1_12192" targetEnd="quarantana/cap1.xml#c1_12215">
+                          这并非是最后的一次告示,由于后来发生的事情与我们要讲的故事无关,我们就无须在此一一赘述了。</note>
+        <note xml:id="chinese_cap1-n49" type="comm" target="quarantana/cap1.xml#c1_12216" targetEnd="quarantana/cap1.xml#c1_12253">
+                          我只想提一下发生在一六三二年二月十三日的那一件事情,连任总督的菲利亚公爵陛下宣称,"打手们犯下的都是滔天罪行。"</note>
+        <note xml:id="chinese_cap1-n50" type="comm" target="quarantana/cap1.xml#c1_12254" targetEnd="quarantana/cap1.xml#c1_12268">
+                          这足以说明,在我们故事发生的那个年代,打手们依然存在。</note>
+        <note xml:id="chinese_cap1-n51" type="comm" target="quarantana/cap1.xml#c1_12269" targetEnd="quarantana/cap1.xml#c1_12302">
+                          很显然,前面提及的那两个家伙正在路边等人。 从他们的某些举动来判断,他们等的正是堂·安保迪本人,这个发现使他深感不安。</note>
+        <note xml:id="chinese_cap1-n52" type="comm" target="quarantana/cap1.xml#c1_12303" targetEnd="quarantana/cap1.xml#c1_12355">
+                          待他一露面,他们即抬头四目对视,彼此用眼神明白无误地告诉对方:没错,就是他。 那一个蹲在矮墙上的人缩回跌在地上的脚,并立即站立起来;另一个则迅速从墙边离开。 他们一起朝司铎走去。</note>
+        <note xml:id="chinese_cap1-n53" type="comm" target="quarantana/cap1.xml#c1_12356" targetEnd="quarantana/cap1.xml#c1_12389">
+                          此时,堂·安保迪的手中依然拿着翻开着的每日祈祷书,装作正在看书的样子,一面警惕地窥视着他们的行动。 当他见他们确实在向自己走来,无数的想法骤然一股脑儿地全涌上心头。</note>
+        <note xml:id="chinese_cap1-n54" type="comm" target="quarantana/cap1.xml#c1_12390" targetEnd="quarantana/cap1.xml#c1_12419">
+                          他心中暗自思付,在来人和他之间的路上左右是否另有小路可走,但他马上否定了自己的想法。</note>
+        <note xml:id="chinese_cap1-n55" type="comm" target="quarantana/cap1.xml#c1_12420" targetEnd="quarantana/cap1.xml#c1_12451">
+                          他打心自问,自己以前是否得罪过某一位权贵或喜好复仇的人。 他感到惊恐不安,但又自觉心中无愧,脸色显得坦然自若。</note>
+        <note xml:id="chinese_cap1-n56" type="comm" target="quarantana/cap1.xml#c1_12452" targetEnd="quarantana/cap1.xml#c1_12497">
+                          与此同时,那两个家伙的眼睛死盯着他,并正朝他一步步逼近。 他抬起左手,将食指和中指伸进白硬领里面,佯装整理衣领,并趁两只手指在脖子四周来回移动的同时,扭过头,歪着嘴,透过眼角盯视前方。</note>
+        <note xml:id="chinese_cap1-n57" type="comm" target="quarantana/cap1.xml#c1_12498" targetEnd="quarantana/cap1.xml#c1_12517">
+                          他满心希望看到别的什么人这时正朝他走来,但四周却空无一人,在矮墙后面,在田野里,都不见人影。 他的目光胆怯地朝面前的路上扫去,但是除了两个歹徒,别无他人。</note>
+        <note xml:id="chinese_cap1-n58" type="comm" target="quarantana/cap1.xml#c1_12518" targetEnd="quarantana/cap1.xml#c1_12536">
+                          他已没有时间后退,若按腿跑那会更糟,因为这似乎明白地告诉那两个歹徒快步追上他。</note>
+        <note xml:id="chinese_cap1-n59" type="comm" target="quarantana/cap1.xml#c1_12537" targetEnd="quarantana/cap1.xml#c1_12561">
+                          他心想,既然在劫难逃,还不如迎上前去。 他感到这揪心的时刻特别难熬,故心中暗暗祝愿时间能尽快地过去。</note>
+        <note xml:id="chinese_cap1-n60" type="comm" target="quarantana/cap1.xml#c1_12562" targetEnd="quarantana/cap1.xml#c1_12607">
+                          他加快脚步,大声吟诵着一首赞美诗,脸上装作笑容,神态安闲和欢快。 他走至那两个家伙跟前停下步,一面自言自语 说，"我来了。"</note>
+        <note xml:id="chinese_cap1-n61" type="comm" target="quarantana/cap1.xml#c1_12608" targetEnd="quarantana/cap1.xml#c1_12619">
+                          他们中一个人的眼睛盯着他的脸，一边说，"神甫先生。"</note>
+        <note xml:id="chinese_cap1-n62" type="comm" target="quarantana/cap1.xml#c1_12620" targetEnd="quarantana/cap1.xml#c1_12640">
+                          "您有何贵干?"堂·安保迪马上抬头回话道，手中的每日祈祷书完全打开着，仿佛他此时正站在讲经台上一样。</note>
+        <note xml:id="chinese_cap1-n63" type="comm" target="quarantana/cap1.xml#c1_12641" targetEnd="quarantana/cap1.xml#c1_12670">
+                          "您打算……您打算明天为兰佐·特拉马依诺和鲁齐娅·蒙苔拉主持婚礼，是这样吗?"另一个人以威胁、气愤的口吻问道，其讲话的语气就好像他一位下属的犯法行为被他当场识破一样。</note>
+        <note xml:id="chinese_cap1-n64" type="comm" target="quarantana/cap1.xml#c1_12671" targetEnd="quarantana/cap1.xml#c1_12691">
+                          "我说……" 堂·安保迪声音微微颤抖地回答道，"我说，你们两位是见过世面的人，对这类事情的规矩了如指掌，像我这样一个可怜的教区牧师，本来就是一个无足轻重的人。</note>
+        <note xml:id="chinese_cap1-n65" type="comm" target="quarantana/cap1.xml#c1_12692" targetEnd="quarantana/cap1.xml#c1_12724">
+                          有些人自己将事情搞成一团糟，然后……然后来找我们，轻松得就好像去银行领取一笔款子一样，我们……我们只是公众的仆人而已。"</note>
+        <note xml:id="chinese_cap1-n66" type="comm" target="quarantana/cap1.xml#c1_12725" targetEnd="quarantana/cap1.xml#c1_12748">
+                          "很好，"一个打手凑近他耳边以命令式的语气说道，"这场婚礼明天不能举行，而且以后永远也不再举行。"</note>
+        <note xml:id="chinese_cap1-n67" type="comm" target="quarantana/cap1.xml#c1_12749" targetEnd="quarantana/cap1.xml#c1_12776">
+                          闻听此话，堂·安保迪忙回答说："可是，你们两位先生……你们两位先生也应设身处地为我想一想。</note>
+        <note xml:id="chinese_cap1-n68" type="comm" target="quarantana/cap1.xml#c1_12777" targetEnd="quarantana/cap1.xml#c1_12794">
+                          如果事情能由我作主的话……你们也知道，我从中得不到任何好处。"</note>
+        <note xml:id="chinese_cap1-n69" type="insertion">他讲话时语气和蔼温顺，好似在劝说一位性子急躁的人一样。</note>
+        <note xml:id="chinese_cap1-n70" type="comm" target="quarantana/cap1.xml#c1_12795" targetEnd="quarantana/cap1.xml#c1_12811">
+                          "得了，"一个牙徒打断他的话说，"我们不会轻信您说的这些不着边际的话，您肯想蒙骗我们。</note>
+        <note xml:id="chinese_cap1-n71" type="comm" target="quarantana/cap1.xml#c1_12812" targetEnd="quarantana/cap1.xml#c1_12820">
+                          我们什么也不知道，也不想知道。</note>
+        <note xml:id="chinese_cap1-n72" type="comm" target="quarantana/cap1.xml#c1_12821" targetEnd="quarantana/cap1.xml#c1_12824">
+                          我们可是已经警告过您了……我想您明白我们的意思。"</note>
+        <note xml:id="chinese_cap1-n73" type="comm" target="quarantana/cap1.xml#c1_12825" targetEnd="quarantana/cap1.xml#c1_12832">
+                          "当然，你们说的话太正确，太有道理了……"</note>
+        <note xml:id="chinese_cap1-n74" type="comm" target="quarantana/cap1.xml#c1_12833" targetEnd="quarantana/cap1.xml#c1_12872">
+                          "但是，"另一个一直没有开口的牙徒插话说，"但是，这场婚礼绝不能举行，否则的话……否则的话，主持婚礼的人将悔之莫及，因为他不会有时间……" 话语中不时夹杂几句骂人的粗话。</note>
+        <note xml:id="chinese_cap1-n75" type="comm" target="quarantana/cap1.xml#c1_12873" targetEnd="quarantana/cap1.xml#c1_12903">
+                          "算了，别说了，"他的同伙接着说，"神甫先生精于人情世故，我们又是两个正派人，只要他能明辨是非，我们绝不会伤害他。</note>
+        <note xml:id="chinese_cap1-n76" type="comm" target="quarantana/cap1.xml#c1_12904" targetEnd="quarantana/cap1.xml#c1_12914">
+                          神甫先生，我们的主子，尊敬的堂·罗德里戈老爷向您致意。"</note>
+        <note xml:id="chinese_cap1-n77" type="comm" target="quarantana/cap1.xml#c1_12915" targetEnd="quarantana/cap1.xml#c1_12942">
+                          对堂·安保迪来说,这一名字犹如黑夜暴风雨中的一道闪电， 霎时间将一切照亮得如同白昼,四周顿时充满了恐怖的气氛。</note>
+        <note xml:id="chinese_cap1-n78" type="comm" target="quarantana/cap1.xml#c1_12943" targetEnd="quarantana/cap1.xml#c1_12954">
+                          出 于本能,他深深地鞠了一个躬,并说道,"请您多多提示......"</note>
+        <note xml:id="chinese_cap1-n79" type="comm" target="quarantana/cap1.xml#c1_12955" targetEnd="quarantana/cap1.xml#c1_12975">
+                          "不！ 我岂敢对您这样一个通晓拉丁语的人作提示!"他再次 打断堂·安保迪的话,嘴里发出粗鲁的狂笑。"</note>
+        <note xml:id="chinese_cap1-n80" type="comm" target="quarantana/cap1.xml#c1_12976" targetEnd="quarantana/cap1.xml#c1_12978">
+                          您看着办吧。</note>
+        <note xml:id="chinese_cap1-n81" type="comm" target="quarantana/cap1.xml#c1_12979" targetEnd="quarantana/cap1.xml#c1_13006">
+                          至于 我们的忠告,您千万不可对外人泄露半点风声,这是为您好。 要不 然......啸......后果将同主持婚礼就没有什么两样了。</note>
+        <note xml:id="chinese_cap1-n82" type="comm" target="quarantana/cap1.xml#c1_13007" targetEnd="quarantana/cap1.xml#c1_13019">
+                          我说,您想 让我们给堂·罗德里戈老爷捎什么口信吗?"</note>
+        <note xml:id="chinese_cap1-n83" type="comm" target="quarantana/cap1.xml#c1_13020" targetEnd="quarantana/cap1.xml#c1_13022">
+                          "请代我向他致意......"</note>
+        <note xml:id="chinese_cap1-n84" type="comm" target="quarantana/cap1.xml#c1_13023" targetEnd="quarantana/cap1.xml#c1_13025">
+                          "您不妨讲明白一点!"</note>
+        <note xml:id="chinese_cap1-n85" type="comm" target="quarantana/cap1.xml#c1_13026" targetEnd="quarantana/cap1.xml#c1_13030">
+                          "......我永远......我将永远听从他的差遣。"</note>
+        <note xml:id="chinese_cap1-n86" type="comm" target="quarantana/cap1.xml#c1_13031" targetEnd="quarantana/cap1.xml#c1_13045">
+                          话虽说出口,但连 他自己也不知道这算是一种承诺或是一句恭维话。</note>
+        <note xml:id="chinese_cap1-n87" type="comm" target="quarantana/cap1.xml#c1_13046" targetEnd="quarantana/cap1.xml#c1_13057">
+                          也许两个打手 真的以为他此话是认真的,也许他们只是装作听明白了。</note>
+        <note xml:id="chinese_cap1-n88" type="comm" target="quarantana/cap1.xml#c1_13058" targetEnd="quarantana/cap1.xml#c1_13071">
+                          "这太好了。 晚安,神甫先生,"一个打手说着,一面准备与他 的同伙一起离去。</note>
+        <note xml:id="chinese_cap1-n89" type="comm" target="quarantana/cap1.xml#c1_13072" targetEnd="quarantana/cap1.xml#c1_13092">
+                          就在片刻前,堂·安保迪还在绞尽脑汁设法回避 他们,可此时他却想方设法拖延同他们谈话的时间。</note>
+        <note xml:id="chinese_cap1-n90" type="comm" target="quarantana/cap1.xml#c1_13093" targetEnd="quarantana/cap1.xml#c1_13122">
+                          他双手合上 每日祈祷书,一面对他们说,"两位先生......"可是,他们根本不予 理会地迈开步子朝着他来的方向走去,嘴里还哼着廉俗的小调,至 于其歌词,我就不在此赘述了。</note>
+        <note xml:id="chinese_cap1-n91" type="comm" target="quarantana/cap1.xml#c1_13123" targetEnd="quarantana/cap1.xml#c1_13156">
+                          可怜的堂·安保迪惊魂未定,张着 嘴纹丝不动地站在那儿。 然后,他迈开似乎麻木的双腿,步履维艰 地踏上小路,朝家中走去。</note>
+        <note xml:id="chinese_cap1-n92" type="comm" target="quarantana/cap1.xml#c1_13157" targetEnd="quarantana/cap1.xml#c1_13180">
+                          前面,我们已经简略地描述过他的性情 和他所处时代的背景,我想,读者定能透彻地理解他此时此刻的心 境。</note>
+        <note xml:id="chinese_cap1-n93" type="comm" target="quarantana/cap1.xml#c1_13181" targetEnd="quarantana/cap1.xml#c1_13196">
+                          倘若读者留意的话,一定已经发现,堂·安保迪并非是一个生</note>
+        <note xml:id="chinese_cap1-n94" type="comm" target="quarantana/cap1.xml#c1_13197" targetEnd="quarantana/cap1.xml#c1_13230">
+                          性勇猛的人。 他自幼就领悟这么一个道理:一头没有尖牙和利爪 的牲畜,即使不愿被吞吃掉,它的处境也总是最糟糕的。</note>
+        <note xml:id="chinese_cap1-n95" type="comm" target="quarantana/cap1.xml#c1_13231" targetEnd="quarantana/cap1.xml#c1_13251">
+                          法律的威 力从不保护那些性情温和又无法让大家敬畏的人,即使他们从不 伤害别人。</note>
+        <note xml:id="chinese_cap1-n96" type="comm" target="quarantana/cap1.xml#c1_13252" targetEnd="quarantana/cap1.xml#c1_13262">
+                          诚然,这并不是说,当时没有法律和刑法严惩私人之间 的暴力行为。</note>
+        <note xml:id="chinese_cap1-n97" type="comm" target="quarantana/cap1.xml#c1_13263" targetEnd="quarantana/cap1.xml#c1_13333">
+                          反之,各种法律名目繁多,每一起犯罪的案件都标有号码,案情也有极其详尽的记载。 但是,对罪犯量刑普遍过重,立法者和其他许多司法官员可凭个人的意愿对犯人加刑。 不仅如此,在案件审理过程中,法官们不受任何法律的约束,随意给人定罪。 虽然我们以上列举的只是少数几个例子,但是如实反映了当时有关清除打手的客观现实。</note>
+        <note xml:id="chinese_cap1-n98" type="comm" target="quarantana/cap1.xml#c1_13334" targetEnd="quarantana/cap1.xml#c1_13411">
+                          因此,从总体上分析,那些由历代统治者颁布并在内容上不断加以充实的法令只是以雄辩的事实证明了当权者的无能。 如果说,那些法令曾经产生过一些效果的话,那主要是指:性情平和的弱者遭受到骚扰者更加明目张胆的欺压,后者也因此变得分外凶狂和猖獗。 当时,只有少数人享有法律赦免权,而那些法令对形成这一弊端的历史根源只字不提,换言之,它们回天乏术。</note>
+        <note xml:id="chinese_cap1-n99" type="comm" target="quarantana/cap1.xml#c1_13412" targetEnd="quarantana/cap1.xml#c1_13454">
+                          那些少数人出入的陀护所以及他们享有的特权得到了法律的认可,权贵们对此保持沉默,采取容忍的态度,或徒劳地提出异议表示反对。 事实上,得到优惠的人,出于自身的利益和自尊心,极力维持和保护手中的特权。</note>
+        <note xml:id="chinese_cap1-n100" type="comm" target="quarantana/cap1.xml#c1_13455" targetEnd="quarantana/cap1.xml#c1_13481">
+                          如今,他们的赦免权遭受到威胁和冲击,虽然历代君王发布的法令未能完全剥夺他们享有的特权,但是一旦受到冲击和威胁,他们自然得使出新的招数力挽狂澜。</note>
+        <note xml:id="chinese_cap1-n101" type="comm" target="quarantana/cap1.xml#c1_13482" targetEnd="quarantana/cap1.xml#c1_13516">
+                          所以,每当旨在镇压暴徒的法令一公布,他们就绞空心思设计更隐蔽的新伎俩,继续干着法令明文禁止的事情。</note>
+        <note xml:id="chinese_cap1-n102" type="comm" target="quarantana/cap1.xml#c1_13517" targetEnd="quarantana/cap1.xml#c1_13562">
+                          他们左右着善良、软弱和无助之人的命运,操持着阻止和惩戒暴行的大权,把所有的人都控制在自己的手中,胁迫每一个平民完全按长官老爷专横的意志行事。</note>
+        <note xml:id="chinese_cap1-n103" type="comm" target="quarantana/cap1.xml#c1_13563" targetEnd="quarantana/cap1.xml#c1_13628">
+                          事实上,暴徒们早在犯罪之前就密谋好事后逃至某一修道院或贵族老爷的官邸藏身,而那些捕快绝不敢越雷池一步。 任何人一旦穿上某一达官人家仆人的特殊制服,户主出于其家族,乃至整个阶层的虚荣心和自身利益,定会想方设法相护他。 所以,打手们为所欲为,对名噪一时的官方法令嗤之以鼻,不屑一顾。</note>
+        <note xml:id="chinese_cap1-n104" type="comm" target="quarantana/cap1.xml#c1_13629" targetEnd="quarantana/cap1.xml#c1_13681">
+                          在执法者中间,一部分人原本就是享有特权的名门后代,另一部分则是权臣府上的门客。 由于所接受的教育,自身的利益 和习惯势力的影响,这些人都有依附权贵的嗜好,跟在他人后面亦步亦趋,不会因为张贴在路边拐角处的一纸空文而轻易得罪那些由豪绅们养养的打手。</note>
+        <note xml:id="chinese_cap1-n105" type="comm" target="quarantana/cap1.xml#c1_13682" targetEnd="quarantana/cap1.xml#c1_13741">
+                          尽管那些执法者有英雄的胆略,像修士一样的顺从,而且决心以殉教者为楷模,随时准备献身,但是到头来总是一事无成,因为噬待镇压的乡徒的人数要比他们多得多。 事实上,执法者们很可能被那些以抽象的理论强迫他们执行任务的官员所抛弃。</note>
+        <note xml:id="chinese_cap1-n106" type="comm" target="quarantana/cap1.xml#c1_13742" targetEnd="quarantana/cap1.xml#c1_13776">
+                          不仅如此,他们还是那个年代社会地位低下和行为粗暴的人,即使那些见到他们本该躲避的人也鄙夷他们的职业,唾弃他们的称谓。</note>
+        <note xml:id="chinese_cap1-n107" type="comm" target="quarantana/cap1.xml#c1_13777" targetEnd="quarantana/cap1.xml#c1_13837">
+                          理所当然,他们决不愿承担风险或拿自己的生命当赌注;相反,他们表现懒散,对权贵们的恶劣行径采取默许的态度。 然而,在没有危险的情况下,他们也懂得该如何利用手中遣人唾弃的权力,欺压性情温和及无助的人们。</note>
+        <note xml:id="chinese_cap1-n108" type="comm" target="quarantana/cap1.xml#c1_13838" targetEnd="quarantana/cap1.xml#c1_13853">
+                          很自然,大凡企图侵犯他人或时刻担心遭到伤害的人都会设法寻找同盟者和朋友。</note>
+        <note xml:id="chinese_cap1-n109" type="comm" target="quarantana/cap1.xml#c1_13854" targetEnd="quarantana/cap1.xml#c1_13886">
+                          因此,在当时,结成同盟、另立山头和扩大各自宗派势力的做法颇为盛行。</note>
+        <note xml:id="chinese_cap1-n110" type="comm" target="quarantana/cap1.xml#c1_13887" targetEnd="quarantana/cap1.xml#c1_13907">
+                          神职人员和军人极力维护自己的豁免权,达官显宦则想方设法巩固自身的特权。</note>
+        <note xml:id="chinese_cap1-n111" type="comm" target="quarantana/cap1.xml#c1_13908" targetEnd="quarantana/cap1.xml#c1_13928">
+                          商人和工匠纷纷参加同业公会和兄弟会,律师则积极组建同盟会,连医师也热衷于成立自己的行会。</note>
+        <note xml:id="chinese_cap1-n112" type="comm" target="quarantana/cap1.xml#c1_13929" targetEnd="quarantana/cap1.xml#c1_13963">
+                          这些人数不多的集头政治集团都有各自特殊的势力,每一个成员借助自身的职权和才干,利用集团的整体力量为其私利服务。</note>
+        <note xml:id="chinese_cap1-n113" type="comm" target="quarantana/cap1.xml#c1_13964" targetEnd="quarantana/cap1.xml#c1_13999">
+                          其中,较为正直的人只是依赖集团的优势进行自卫,而那些狡黠,凶残的不法之徒则孤假虎威,为非作乡,因为他们深知光凭自身的力量无法保住手中的豁免权。</note>
+        <note xml:id="chinese_cap1-n114" type="comm" target="quarantana/cap1.xml#c1_14000" targetEnd="quarantana/cap1.xml#c1_14060">
+                          诚然,各同盟会的势力迥然各异,这一点在乡村里表现得尤为突出。 在乡下,农民因袭祖上流传下来的陈规,为了自身的利益每每被迫将自己视作主人的庶民和家丁。 所以,一个在家中养着一群打手的、生性凶残的豪绅,同盟会中没有任何一个派系能同他的势力相抗衡。</note>
+        <note xml:id="chinese_cap1-n115" type="comm" target="quarantana/cap1.xml#c1_14061" targetEnd="quarantana/cap1.xml#c1_14101">
+                          至于我们故事中的安保迪,他既不是贵族,又不是富豪,更谈不上是一位勇士;但当他快进入责任年龄期之前,他开始意识到, 在当时的社会里，他犹如夹在许多铁罐中间的一只陶器，危在旦夕。</note>
+        <note xml:id="chinese_cap1-n116" type="comm" target="quarantana/cap1.xml#c1_14102" targetEnd="quarantana/cap1.xml#c1_14114">
+                          正是出于这种考虑，他当初才颇为愉快地接受了亲戚们劝说他出家当教士的提议。</note>
+        <note xml:id="chinese_cap1-n117" type="comm" target="quarantana/cap1.xml#c1_14115" targetEnd="quarantana/cap1.xml#c1_14162">
+                          说实在的，他起初并未想及他对自己所献身的职业该肩负的责任和崇高的使命。 在他看来，追求舒适的生活以及有幸同受人尊敬的权贵老爷们为伍是他作出上述抉择最有说服力的两个理由。</note>
+        <note xml:id="chinese_cap1-n118" type="comm" target="quarantana/cap1.xml#c1_14163" targetEnd="quarantana/cap1.xml#c1_14188">
+                          当然，任何贵族老爷都不会无止境地保护他，他得自己设法找到一套特殊的自我保护措施。</note>
+        <note xml:id="chinese_cap1-n119" type="comm" target="quarantana/cap1.xml#c1_14189" targetEnd="quarantana/cap1.xml#c1_14215">
+                          堂·安保迪始终在为寻觅一种安定的生活而冥思苦想，但是他却从未考虑过，若想贪图安逸，他必须付出很大的努力，甚至准备冒一点风险。</note>
+        <note xml:id="chinese_cap1-n120" type="comm" target="quarantana/cap1.xml#c1_14216" targetEnd="quarantana/cap1.xml#c1_14234">
+                          他玩弄的主要伎俩是尽量回避一切冲突，实在躲不了的就退避三舍。</note>
+        <note xml:id="chinese_cap1-n121" type="comm" target="quarantana/cap1.xml#c1_14235" targetEnd="quarantana/cap1.xml#c1_14284">
+                          当时，在教士和世俗最高行政官之间，军民之间，贵族老爷之间，经常发生激烈的冲突，甚至在两个农民之间也常因一方出言不逊而拔举相加或动用刀子解决争端，对于这一切，堂·安保迪总是采取不介入的中立态度。</note>
+        <note xml:id="chinese_cap1-n122" type="comm" target="quarantana/cap1.xml#c1_14285" targetEnd="quarantana/cap1.xml#c1_14336">
+                          万一他不得不在两个敌手之间表明立场，他总是再三考虑之后站在强者一方，并极力让另一方明白，他绝不是蓄意与之为敌。 他似乎在告诉对方：谁让你不是强者呢？ 否则我就站在你这一边了。</note>
+        <note xml:id="chinese_cap1-n123" type="comm" target="quarantana/cap1.xml#c1_14337" targetEnd="quarantana/cap1.xml#c1_14396">
+                          他对专横跋扈者敬而远之，对他们一时随心所欲和反复无常的行为视而不见，但在那些脸色阴沉、蓄意挑衅的人面前，他又装出一副驯顺的模样，面带笑容地向他们躬身行礼。 即使对那些蛮横无理、狂妄自大之徒，当他在路上遇见他们时，脸上也会马上堆起笑容。 正因如此，我们这位可怜的教士虽已年逾六十，却从未遇到过很大的麻烦。</note>
+        <note xml:id="chinese_cap1-n124" type="comm" target="quarantana/cap1.xml#c1_14397" targetEnd="quarantana/cap1.xml#c1_14456">
+                          然而，这并不是说，他心中没有任何怨恨。 他只是不断地忍让，几乎每一回都主动认错，然后一言不语地将苦水往自己肚子里咽。 他有时也不免感到十分气恼，如果没有人给他机会发泄的话，他的健康状况肯定会每况愈下。</note>
+        <note xml:id="chinese_cap1-n125" type="comm" target="quarantana/cap1.xml#c1_14457" targetEnd="quarantana/cap1.xml#c1_14503">
+                          好得在世上，在周围，总有一些他熟稔但是绝不会伤害他的人。 对他们，他有时可以发泄一下长期积压在心中的愤懑，冲着他们无缘无故地大喊几声。</note>
+        <note xml:id="chinese_cap1-n126" type="comm" target="quarantana/cap1.xml#c1_14504" targetEnd="quarantana/cap1.xml#c1_14527">
+                          对不按他的 行为规范行事的人,他每每严加训斥,但这么做的前提必须是,他的苛斥对自己不构成任何危险,哪怕是潜在的危险也不行。</note>
+        <note xml:id="chinese_cap1-n127" type="comm" target="quarantana/cap1.xml#c1_14528" targetEnd="quarantana/cap1.xml#c1_14541">
+                          大凡挨打的人都是鲁莽者,而只有喜欢惹事生非的人才会招来杀身之祸。</note>
+        <note xml:id="chinese_cap1-n128" type="comm" target="quarantana/cap1.xml#c1_14542" targetEnd="quarantana/cap1.xml#c1_14589">
+                          对那些同权贵抗争而掉了脑袋的人,堂·安保迪总能轻而易举地找出他们的过错来,因为正确与谬误很难径渭分明,任何人都不可能两者兼有之。</note>
+        <note xml:id="chinese_cap1-n129" type="comm" target="quarantana/cap1.xml#c1_14590" targetEnd="quarantana/cap1.xml#c1_14611">
+                          正因为如此,对于同他一起在教会供职的教士支持受欺压的弱者、反对专断霸横的权贵的冒险行为,他尤为痛恨。</note>
+        <note xml:id="chinese_cap1-n130" type="comm" target="quarantana/cap1.xml#c1_14612" targetEnd="quarantana/cap1.xml#c1_14641">
+                          他将这称为作蛮自缠和妄图矫直狗腿一样的愚蠢行为;他甚至严肃地指出,他们的举动粗暴地干预世俗生活,有损神职人员的尊严。</note>
+        <note xml:id="chinese_cap1-n131" type="comm" target="quarantana/cap1.xml#c1_14642" targetEnd="quarantana/cap1.xml#c1_14674">
+                          那些教士愈是反对为个人的私事大发雷霆,堂·安保迪就愈是措辞激烈地谴责他们的行为,尽管只有当他单独和他们在一起的时候或者只有少数几个人在场的情况下,他才会如此慷慨陈词。</note>
+        <note xml:id="chinese_cap1-n132" type="comm" target="quarantana/cap1.xml#c1_14675" targetEnd="quarantana/cap1.xml#c1_14709">
+                          另外,在每一次结束讲话以前,他总爱说:"一个正派人,只要他光操心自己的事情而不介入他人的争端,他永远不可能遇到纠缠不清的麻烦。"</note>
+        <note xml:id="chinese_cap1-n133" type="comm" target="quarantana/cap1.xml#c1_14710" targetEnd="quarantana/cap1.xml#c1_14726">
+                          根据上面的叙述,我想我的一二十位读者定能想象得出可怜的堂·安保迪此时的心情。</note>
+        <note xml:id="chinese_cap1-n134" type="comm" target="quarantana/cap1.xml#c1_14727" targetEnd="quarantana/cap1.xml#c1_14783">
+                          那两张丑陋的脸,满口的脏话,以及一个谁都知道说话从来算数的乡绅的威胁性言辞,使堂·安保迪惊恐万状,不知如何是好。 再说,经他多年耐心研究后设计出来的保障生活安宁的处世哲学,现在一下子被推翻了,他茫然若失,不知如何才能走出困境。 他低垂着头,满面愁容,思绪纷乱。"</note>
+        <note xml:id="chinese_cap1-n135" type="comm" target="quarantana/cap1.xml#c1_14784" targetEnd="quarantana/cap1.xml#c1_14809">
+                          要是兰佐是那种遭到断然拒绝后立即退缩的小伙子就好了。 不过,假如他让我说出缘由的话,我的上帝啊,我该如何回答呢？</note>
+        <note xml:id="chinese_cap1-n136" type="comm" target="quarantana/cap1.xml#c1_14810" targetEnd="quarantana/cap1.xml#c1_14829">
+                          他生性固执,你要是不去招惹他,他温顺得好像一头绵羊,但是你假如故意同他过不去的话……那就完了！</note>
+        <note xml:id="chinese_cap1-n137" type="comm" target="quarantana/cap1.xml#c1_14830" targetEnd="quarantana/cap1.xml#c1_14867">
+                          再说,他迷恋上了那个鲁齐娅,而且爱得近乎发狂……这些愚蠢的年轻人,用谈情说爱来打发时间,整天想的就是结婚,可是对我这样一个本分人为他们蒙受的痛苦,他们却从不放在心上。</note>
+        <note xml:id="chinese_cap1-n138" type="comm" target="quarantana/cap1.xml#c1_14868" targetEnd="quarantana/cap1.xml#c1_14885">
+                          唉,可怜的我啊！ 那两个无赖为何挡住我的去 路，偏偏和我过不去呢？</note>
+        <note xml:id="chinese_cap1-n139" type="comm" target="quarantana/cap1.xml#c1_14886" targetEnd="quarantana/cap1.xml#c1_14888">
+                          那件事情与我有何相干？</note>
+        <note xml:id="chinese_cap1-n140" type="comm" target="quarantana/cap1.xml#c1_14889" targetEnd="quarantana/cap1.xml#c1_14893">
+                          难道是我要结婚吗？</note>
+        <note xml:id="chinese_cap1-n141" type="comm" target="quarantana/cap1.xml#c1_14894" targetEnd="quarantana/cap1.xml#c1_14900">
+                          他们干吗不对······说呢？</note>
+        <note xml:id="chinese_cap1-n142" type="comm" target="quarantana/cap1.xml#c1_14901" targetEnd="quarantana/cap1.xml#c1_14923">
+                          唉，我真是倒霉透了！ 该说的话当时就是想不起来。</note>
+        <note xml:id="chinese_cap1-n143" type="comm" target="quarantana/cap1.xml#c1_14924" targetEnd="quarantana/cap1.xml#c1_14975">
+                          要是我当时想到让他们替我带个口信给······"想至此，他又觉得不该为自己的行为感到后悔，因为同恶势力合作并为其出谋划策毕竟是一件十分卑鄙的事情，转而将心中的愤懑一股脑儿地发泄在另一个破坏他宁静生活的人身上。</note>
+        <note xml:id="chinese_cap1-n144" type="comm" target="quarantana/cap1.xml#c1_14976" targetEnd="quarantana/cap1.xml#c1_15019">
+                          他跟堂·罗德里戈并不相识，他只是久闻其名，但同他从未有过任何直接的接触。 有几次，他曾在路上同他相遇，当时他只是向他点头并躬身摆动一下脱下的帽子让帽边擦地而已。</note>
+        <note xml:id="chinese_cap1-n145" type="comm" target="quarantana/cap1.xml#c1_15020" targetEnd="quarantana/cap1.xml#c1_15057">
+                          不止一次，为了维护那位乡绅的名声，对着那些仰天叹息、低声诅咒堂·罗德里戈坏事干尽的人们，堂·安保迪曾不厌其烦地反复说："他是一位值得尊敬的贵族老爷。"</note>
+        <note xml:id="chinese_cap1-n146" type="comm" target="quarantana/cap1.xml#c1_15058" targetEnd="quarantana/cap1.xml#c1_15084">
+                          此时此刻，他却在心中暗自给堂·罗德里戈老爷加上了其他人来不及说出口的侮辱性的称呼，而以前每一回他都是急忙用一声"放肆！" 打断他们的讲话。</note>
+        <note xml:id="chinese_cap1-n147" type="comm" target="quarantana/cap1.xml#c1_15085" targetEnd="quarantana/cap1.xml#c1_15128">
+                          他心烦意乱，不觉已走至坐落在村子尽头的自家宅第的大门口。 他慌忙将早已拿在手中的钥匙插入锁孔，开了门跨入院内，然后小心翼翼地把大门重新关上。 他急着想见家中那一位自己视作亲信的女仆，故一边朝客厅走去，一边大声叫道："佩尔贝多亚！</note>
+        <note xml:id="chinese_cap1-n148" type="comm" target="quarantana/cap1.xml#c1_15129" targetEnd="quarantana/cap1.xml#c1_15146">
+                          佩尔贝多亚！" 他知道，这时候她一定在那里摆桌子准备晚餐。</note>
+        <note xml:id="chinese_cap1-n149" type="comm" target="quarantana/cap1.xml#c1_15147" targetEnd="quarantana/cap1.xml#c1_15233">
+                          我想，读者肯定都明白，佩尔贝多亚是他的一个忠实、贴心的女仆，不但懂得随机应变，对主人时而表现出俯首贴耳的样子，时而发号施令，而且对他的抱怨和怪异荒谬的想法始终持一种十分宽容的态度。 除外，她还成功地让他同样能容忍她那日趋严重的爱发牢骚的脾气。 论年纪，她早已超过了教会的严格规定，即不到四十岁的女子不得在教士家帮佣的年龄限制。 她一直未嫁，据她自己说，那是因为她拒绝了所有向她求婚的男子，但是据她的女友们披露，村子里没有一个男人愿意娶她为妻。</note>
+        <note xml:id="chinese_cap1-n150" type="insertion">"来了！"</note>
+        <note xml:id="chinese_cap1-n151" type="comm" target="quarantana/cap1.xml#c1_15234" targetEnd="quarantana/cap1.xml#c1_15304">
+                          她回答道，一面像往常一样把堂·安保迪喜爱喝的一 瓶酒搁在小桌子上，然后才慢悠悠地朝门口走去。 可未等她跨入客厅的门槛，他已经步履蹒跚地走了进来。 他目光呆滞，神情惊慌，精明过人的佩尔贝多亚一眼就看出，他一定是遇上了一件异乎寻常的事情。</note>
+        <note xml:id="chinese_cap1-n152" type="comm" target="quarantana/cap1.xml#c1_15305" targetEnd="quarantana/cap1.xml#c1_15308">
+                          "我的天啊！ 您这是怎么啦，老爷？"</note>
+        <note xml:id="chinese_cap1-n153" type="comm" target="quarantana/cap1.xml#c1_15309" targetEnd="quarantana/cap1.xml#c1_15320">
+                          "没事，没事，"堂·安保迪气喘吁吁地回答说，笨重的身体一下子全部陷入一张宽大的椅子里面。</note>
+        <note xml:id="chinese_cap1-n154" type="comm" target="quarantana/cap1.xml#c1_15321" targetEnd="quarantana/cap1.xml#c1_15322">
+                          "还说没事？</note>
+        <note xml:id="chinese_cap1-n155" type="comm" target="quarantana/cap1.xml#c1_15323" targetEnd="quarantana/cap1.xml#c1_15337">
+                          您以为我会相信吗？ 您脸色那么难看，一定是出了大事情了。"</note>
+        <note xml:id="chinese_cap1-n156" type="comm" target="quarantana/cap1.xml#c1_15338" targetEnd="quarantana/cap1.xml#c1_15342">
+                          "嗯，看在上帝的份上！</note>
+        <note xml:id="chinese_cap1-n157" type="comm" target="quarantana/cap1.xml#c1_15343" targetEnd="quarantana/cap1.xml#c1_15355">
+                          我说没事，就是没事。 要不，就是我不能把事情告诉你。"</note>
+        <note xml:id="chinese_cap1-n158" type="comm" target="quarantana/cap1.xml#c1_15356" targetEnd="quarantana/cap1.xml#c1_15362">
+                          "连我也不能说？</note>
+        <note xml:id="chinese_cap1-n159" type="comm" target="quarantana/cap1.xml#c1_15363" targetEnd="quarantana/cap1.xml#c1_15369">
+                          哪谁来关心您的健康呢？</note>
+        <note xml:id="chinese_cap1-n160" type="comm" target="quarantana/cap1.xml#c1_15370" targetEnd="quarantana/cap1.xml#c1_15374">
+                          又有谁会替您出主意？ ......"</note>
+        <note xml:id="chinese_cap1-n161" type="comm" target="quarantana/cap1.xml#c1_15375" targetEnd="quarantana/cap1.xml#c1_15386">
+                          "哎呀，别说了！ 快替我倒一杯酒来，其他的东西你就不用往桌子上放了。"</note>
+        <note xml:id="chinese_cap1-n162" type="comm" target="quarantana/cap1.xml#c1_15387" targetEnd="quarantana/cap1.xml#c1_15420">
+                          "您还一个劲儿地说没事！" 佩尔贝多亚一边说，一边往杯子里倒酒。 她手中拿着酒杯，但没有马上给他，仿佛杯中之物是她对主人说实话的一种奖励。</note>
+        <note xml:id="chinese_cap1-n163" type="insertion">遗憾的是，堂·安保迪迟迟不吐真言。</note>
+        <note xml:id="chinese_cap1-n164" type="comm" target="quarantana/cap1.xml#c1_15421" targetEnd="quarantana/cap1.xml#c1_15446">
+                          "把酒拿来，把酒拿来，"堂·安保迪边说边伸出微微颤抖的手拿过酒杯一干而尽，好像杯中盛的是治病的药一样。</note>
+        <note xml:id="chinese_cap1-n165" type="comm" target="quarantana/cap1.xml#c1_15447" targetEnd="quarantana/cap1.xml#c1_15488">
+                          "难道说非要我去向旁人打听我的主人到底遇到了什么事吗？" 佩尔贝多亚身体笔直地站在他面前，两手叉腰，肘关节朝外突出，目光盯着他的脸，似乎想从他的眼睛里揪出什么秘密来。</note>
+        <note xml:id="chinese_cap1-n166" type="comm" target="quarantana/cap1.xml#c1_15489" targetEnd="quarantana/cap1.xml#c1_15504">
+                          "看在上帝的份上！ 别声张，别去对别人说！ 这......这可是人命关天的大事！"</note>
+        <note xml:id="chinese_cap1-n167" type="comm" target="quarantana/cap1.xml#c1_15505" targetEnd="quarantana/cap1.xml#c1_15508">
+                          "人命关天！" "没错，人命关天！"</note>
+        <note xml:id="chinese_cap1-n168" type="comm" target="quarantana/cap1.xml#c1_15509" targetEnd="quarantana/cap1.xml#c1_15526">
+                          "您也知道，您每一回对我私下里说的话，我可从来没有......"</note>
+        <note xml:id="chinese_cap1-n169" type="comm" target="quarantana/cap1.xml#c1_15527" targetEnd="quarantana/cap1.xml#c1_15529">
+                          "好样的！ 可是这一回......"</note>
+        <note xml:id="chinese_cap1-n170" type="comm" target="quarantana/cap1.xml#c1_15530" targetEnd="quarantana/cap1.xml#c1_15574">
+                          佩尔贝多亚意识到自己按错了键,故立即变换语气。" 老爷,"她语调衰颓,感伤地说,"我一向忠实于您。 我现在之所以想知道实情,是出于对您的关心,因为我想助您一臂之力,替您出主意,让您放宽心......"</note>
+        <note xml:id="chinese_cap1-n171" type="comm" target="quarantana/cap1.xml#c1_15575" targetEnd="quarantana/cap1.xml#c1_15633">
+                          事实上,同佩尔贝多亚的心情一样,堂·安保迪也急于想吐露自己心中令他感到十分悲痛的秘密。 在她一次又一次急切的追问之下,他的抵挡越来越显得软弱无力,况且她不止一次地发誓不向任何人透露半点风声,他支吾其词地犹豫了半天之后,终于把事情的原委对她和盘托出。</note>
+        <note xml:id="chinese_cap1-n172" type="comm" target="quarantana/cap1.xml#c1_15634" targetEnd="quarantana/cap1.xml#c1_15684">
+                          但是在他拼出犯罪行为的嫌使者可怕的名字以前,他再一次让佩尔贝多亚郑重地对天发誓为他严守秘密。 他把那名字一说出口,就长呼一声瘫倒在椅子上,同时举起双手,以命令的口气祈求道:"看在上帝的分上,千万别说出去!"</note>
+        <note xml:id="chinese_cap1-n173" type="comm" target="quarantana/cap1.xml#c1_15685" targetEnd="quarantana/cap1.xml#c1_15688">
+                          "我的天哪!"佩尔贝多亚惊叫道,"流氓！</note>
+        <note xml:id="chinese_cap1-n174" type="comm" target="quarantana/cap1.xml#c1_15689" targetEnd="quarantana/cap1.xml#c1_15701">
+                          恶棍！ 一个对上帝都不敬畏的魔鬼!"</note>
+        <note xml:id="chinese_cap1-n175" type="comm" target="quarantana/cap1.xml#c1_15702" targetEnd="quarantana/cap1.xml#c1_15708">
+                          "安静！ 难道你想毁了我吗?"</note>
+        <note xml:id="chinese_cap1-n176" type="comm" target="quarantana/cap1.xml#c1_15709" targetEnd="quarantana/cap1.xml#c1_15716">
+                          "啊！ 这里就我们两个,没人能听到我们的谈话。</note>
+        <note xml:id="chinese_cap1-n177" type="comm" target="quarantana/cap1.xml#c1_15717" targetEnd="quarantana/cap1.xml#c1_15722">
+                          您打算怎么办,我可怜的老爷?"</note>
+        <note xml:id="chinese_cap1-n178" type="comm" target="quarantana/cap1.xml#c1_15723" targetEnd="quarantana/cap1.xml#c1_15738">
+                          "你们听听,"堂·安保迪充满怒气地说道,"你们听听她给我出的好点子！</note>
+        <note xml:id="chinese_cap1-n179" type="comm" target="quarantana/cap1.xml#c1_15739" targetEnd="quarantana/cap1.xml#c1_15755">
+                          困我怎么办,怎么办,好像是她遇上了麻烦,要我去帮她连凶化吉似的。"</note>
+        <note xml:id="chinese_cap1-n180" type="comm" target="quarantana/cap1.xml#c1_15756" targetEnd="quarantana/cap1.xml#c1_15767">
+                          "哎,我倒是有一个不太成熟的想法,可是......"</note>
+        <note xml:id="chinese_cap1-n181" type="comm" target="quarantana/cap1.xml#c1_15768" targetEnd="quarantana/cap1.xml#c1_15770">
+                          "什么可是不可是的,有什么想法不妨说给我听听。"</note>
+        <note xml:id="chinese_cap1-n182" type="comm" target="quarantana/cap1.xml#c1_15771" targetEnd="quarantana/cap1.xml#c1_15829">
+                          "我意思是说,人所皆知,我们的大主教是一个无所畏惧的大善人,办事果断泼辣,他定会乐意帮助一位同那些土豪劣绅抗争的教士。 我说,您不妨写一封措词得体的信,将事情的前后经过告诉他......"</note>
+        <note xml:id="chinese_cap1-n183" type="comm" target="quarantana/cap1.xml#c1_15830" targetEnd="quarantana/cap1.xml#c1_15833">
+                          "别说了！ 你别说了行不行？</note>
+        <note xml:id="chinese_cap1-n184" type="comm" target="quarantana/cap1.xml#c1_15834" targetEnd="quarantana/cap1.xml#c1_15841">
+                          这就是你给一个像我这样的可 恰人出的主意？</note>
+        <note xml:id="chinese_cap1-n185" type="comm" target="quarantana/cap1.xml#c1_15842" targetEnd="quarantana/cap1.xml#c1_15855">
+                          如果我在背上遭了枪击，我的天哪，大主教能帮我抚平伤痛吗？"</note>
+        <note xml:id="chinese_cap1-n186" type="comm" target="quarantana/cap1.xml#c1_15856" targetEnd="quarantana/cap1.xml#c1_15876">
+                          "熊您说的！ 他们不可能将子弹当作结婚喜糖那样到处散发。 那些畜生要是每狂叫一回都咬人的话谁保不会有好下场！</note>
+        <note xml:id="chinese_cap1-n187" type="comm" target="quarantana/cap1.xml#c1_15877" targetEnd="quarantana/cap1.xml#c1_15916">
+                          我可是看得很清楚，对敌说敌千和懂得如何赢得他们尊重的人，他们才会对他恭恭敬敬。 可是您从不为自己据理力争，所以在您面前人人都毫无顾忌，十分放肆......"</note>
+        <note xml:id="chinese_cap1-n188" type="comm" target="quarantana/cap1.xml#c1_15917" targetEnd="quarantana/cap1.xml#c1_15918">
+                          "你别说了行不行？"</note>
+        <note xml:id="chinese_cap1-n189" type="comm" target="quarantana/cap1.xml#c1_15919" targetEnd="quarantana/cap1.xml#c1_15941">
+                          "我马上就说完了。 我可以肯定地说，如果大家都知道，有人每一回都打算屈服投降的话......"</note>
+        <note xml:id="chinese_cap1-n190" type="comm" target="quarantana/cap1.xml#c1_15702" targetEnd="quarantana/cap1.xml#c1_15703">
+                          "你安静一会儿不行吗？</note>
+        <note xml:id="chinese_cap1-n191" type="comm" target="quarantana/cap1.xml#c1_15944" targetEnd="quarantana/cap1.xml#c1_15950">
+                          你看现在是讲籍话的时候吗？"</note>
+        <note xml:id="chinese_cap1-n192" type="comm" target="quarantana/cap1.xml#c1_15951" targetEnd="quarantana/cap1.xml#c1_15971">
+                          "算了，我不说了。 今晚您好好考虑一下，可现在您千万别糟践自己，没法吃一些东西，不要把身体弄垮了。"</note>
+        <note xml:id="chinese_cap1-n193" type="comm" target="quarantana/cap1.xml#c1_15972" targetEnd="quarantana/cap1.xml#c1_15987">
+                          "我会考虑的，"堂·安保迪嘟囔道，"我当然会考虑的，我的确有好多事要考虑。"</note>
+        <note xml:id="chinese_cap1-n194" type="comm" target="quarantana/cap1.xml#c1_15988" targetEnd="quarantana/cap1.xml#c1_16007">
+                          说罢，他站起身继续说道："我现在头脑里很乱，不想吃东西，什么都不想吃。</note>
+        <note xml:id="chinese_cap1-n195" type="comm" target="quarantana/cap1.xml#c1_16008" targetEnd="quarantana/cap1.xml#c1_16015">
+                          我知道我得考虑许多事情，但我不明白为什么这些倒霉的事情偏偏都落在我的身上。"</note>
+        <note xml:id="chinese_cap1-n196" type="comm" target="quarantana/cap1.xml#c1_16016" targetEnd="quarantana/cap1.xml#c1_16023">
+                          佩尔贝多亚一边替他斟酒，一边劝说道："您至少得再喝一口，</note>
+        <note xml:id="chinese_cap1-n197" type="comm" target="quarantana/cap1.xml#c1_16024" targetEnd="quarantana/cap1.xml#c1_16032">
+                          酒可是有健胃的作用。"</note>
+        <note xml:id="chinese_cap1-n198" type="comm" target="quarantana/cap1.xml#c1_16033" targetEnd="quarantana/cap1.xml#c1_16042">
+                          "哎！ 我要的是别的东西，别的东西。"</note>
+        <note xml:id="chinese_cap1-n199" type="comm" target="quarantana/cap1.xml#c1_16043" targetEnd="quarantana/cap1.xml#c1_16070">
+                          说罢，他拿起油灯但嘴里还在不停地抱怨道："这种事情竟然发生在我这样一个老实本分的人身上！ 明天还会发生一些什么事情呢？" 他接着又嘟囔了几句，然后才迈步上楼去他的卧室。</note>
+        <note xml:id="chinese_cap1-n200" type="comm" target="quarantana/cap1.xml#c1_16071" targetEnd="quarantana/cap1.xml#c1_16096">
+                          在跨入门槛之前，他回过头，伸出手指压在嘴唇，神情庄重地对佩尔贝多亚一字一字地说："看在上帝的分上！"</note>
+        <note xml:id="chinese_cap1-n201" type="insertion">然后，他才走进了房间。</note>
+      </div>
+    </body>
+  </text>
 </TEI>

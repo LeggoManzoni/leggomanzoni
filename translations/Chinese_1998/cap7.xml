@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>第七章</title>
+        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Me">Me</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>孟佐尼</author>
+          <title>约婚夫妇</title>
+          <pubPlace>南京</pubPlace>
+          <publisher>译林出版社</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Me" when="2025-03-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Chinese_1998.xml_cap7">
+        <note xml:id="chinese_cap7-n1" type="comm" target="quarantana/cap7.xml#c7_10001" targetEnd="quarantana/cap7.xml#c7_10051">
+                           此时的克里斯托弗洛修士，就像一位由于某种客观原因在一次重要战役中败北的将领：悲伤但不气馁，忧心忡忡但不惊慌失措，急于扭转局势但不因为认输而仓皇出逃；哪里有需要他就在那里出现，他加固薄弱地点的防御工事，重整溃败的军队，下达新的战斗号令。</note>
+        <note xml:id="chinese_cap7-n2" type="comm" target="quarantana/cap7.xml#c7_10052" targetEnd="quarantana/cap7.xml#c7_10078">
+                          "愿上帝赐予你们安宁，"他一进门就说，"你们别再指望那个人会洗心革面，现在你们应该比以往任何时候更加坚信，上帝定会保佑你们。</note>
+        <note xml:id="chinese_cap7-n3" type="comm" target="quarantana/cap7.xml#c7_10079" targetEnd="quarantana/cap7.xml#c7_10123">
+                          在这一方面，我已看到了一丝胜利的曙光。" 他们三人本来就对克里斯托弗洛修士的尝试没抱太大的希望，因为他们知道，要想靠单纯的忏悔和措词温和的哀求，让一个有权有势的人自愿改邪归正，是一件与其说罕见倒不如说闻所未闻的事情。 尽管如此，修士带来的令人伤心的确切消息对他们来说无疑是一个沉重的打击。</note>
+        <note xml:id="chinese_cap7-n4" type="comm" target="quarantana/cap7.xml#c7_10124" targetEnd="quarantana/cap7.xml#c7_10135">
+                          母女二人低垂着头，在兰佐的心中，横怒战胜了泪表而占据上风。</note>
+        <note xml:id="chinese_cap7-n5" type="comm" target="quarantana/cap7.xml#c7_10136" targetEnd="quarantana/cap7.xml#c7_10166">
+                          几天来，发生了一连串突如其来的、令人痛心的事情，一次次的努力最后以失败告终，心中尚存的希望又全都化成了泡影，兰佐为之深感苦恼。 当他想起鲁齐娅一再拒绝接受他的建议，更觉得怒不可遏。</note>
+        <note xml:id="chinese_cap7-n6" type="comm" target="quarantana/cap7.xml#c7_10167" targetEnd="quarantana/cap7.xml#c7_10209">
+                          "有谁能告诉我，"他拍高嗓门咬牙切齿地大声说，在克里斯托弗洛修士面前他还是第一次这么失态，"有谁能告诉我，那条恶狗有什么理由坚持认为……我的新娘不应该嫁给我。"</note>
+        <note xml:id="chinese_cap7-n7" type="comm" target="quarantana/cap7.xml#c7_10210" targetEnd="quarantana/cap7.xml#c7_10250">
+                          "可怜的兰佐！" 修士回答说，庄重的话语里充满了对兰佐的同 情,但其亲切的眼神却在告诫他千万要保持镇静,"要是有权势的人每一回都必须说明自己犯法的原因,那么事情就不会像现在这样糟糕了。"</note>
+        <note xml:id="chinese_cap7-n8" type="comm" target="quarantana/cap7.xml#c7_10251" targetEnd="quarantana/cap7.xml#c7_10261">
+                          "那条恶狗对你说过他不想说明原因吗？ 他为什么不想说？"</note>
+        <note xml:id="chinese_cap7-n9" type="comm" target="quarantana/cap7.xml#c7_10262" targetEnd="quarantana/cap7.xml#c7_10268">
+                          "可怜的兰佐,他连这个都没对我说！</note>
+        <note xml:id="chinese_cap7-n10" type="comm" target="quarantana/cap7.xml#c7_10269" targetEnd="quarantana/cap7.xml#c7_10279">
+                          要是人们干了伤天害理的事都必须公开承认的话,那事情就好办得多了。"</note>
+        <note xml:id="chinese_cap7-n11" type="comm" target="quarantana/cap7.xml#c7_10280" targetEnd="quarantana/cap7.xml#c7_10289">
+                          "可他总得开口说些什么吧,那个流氓对你说了些什么？"</note>
+        <note xml:id="chinese_cap7-n12" type="comm" target="quarantana/cap7.xml#c7_10290" targetEnd="quarantana/cap7.xml#c7_10301">
+                          "他说的话我是听到了,但我不知该如何对你重复。</note>
+        <note xml:id="chinese_cap7-n13" type="comm" target="quarantana/cap7.xml#c7_10302" targetEnd="quarantana/cap7.xml#c7_10310">
+                          他的话歪横无理,似利剑一般刺进你的胸膛,但因为内容过于荒谬,你却无法记住它。</note>
+        <note xml:id="chinese_cap7-n14" type="comm" target="quarantana/cap7.xml#c7_10311" targetEnd="quarantana/cap7.xml#c7_10348">
+                          你若是怀疑他,他会勃然大怒,但他同时又让你觉得,你对他产生的怀疑完全是有道理的。 他侮辱你,但却说是你冒犯了他;他嘲笑你,但却要你说明道理;他桐吓你,但却数说你的不是;他是一个厚颜无耻之徒,但却佯装成一个完美无缺的人。</note>
+        <note xml:id="chinese_cap7-n15" type="comm" target="quarantana/cap7.xml#c7_10349" targetEnd="quarantana/cap7.xml#c7_10386">
+                          你不要再多问了,他从未提起过你以及这位无辜的姑娘的名字,他甚至从未表示过认识你或说起他究竟想干什么。 但不幸的是,我······我不得不说,他的顽固立场不会轻易改变。</note>
+        <note xml:id="chinese_cap7-n16" type="comm" target="quarantana/cap7.xml#c7_10387" targetEnd="quarantana/cap7.xml#c7_10390">
+                          尽管如此,我们还是应该相信上帝！</note>
+        <note xml:id="chinese_cap7-n17" type="comm" target="quarantana/cap7.xml#c7_10391" targetEnd="quarantana/cap7.xml#c7_10416">
+                          你们,两个可怜的女人,切莫灰心丧气;而你,兰佐······嗯,请你相信我,我会设身处地为你着想,我完全能理解你现在心中的感受。</note>
+        <note xml:id="chinese_cap7-n18" type="comm" target="quarantana/cap7.xml#c7_10417" targetEnd="quarantana/cap7.xml#c7_10418">
+                          我的孩子,你得忍耐！</note>
+        <note xml:id="chinese_cap7-n19" type="comm" target="quarantana/cap7.xml#c7_10419" targetEnd="quarantana/cap7.xml#c7_10451">
+                          对那些心中没有信仰的人来说,'忍耐'也许是一个苍白无力和充满苦涩的字眼,可是你······！ 你难道不愿给上帝一两天必要的时间为你伸张正义吗？</note>
+        <note xml:id="chinese_cap7-n20" type="comm" target="quarantana/cap7.xml#c7_10452" targetEnd="quarantana/cap7.xml#c7_10460">
+                          时空是由他主宰的,他已经恩赐给了我们许多的承诺！</note>
+        <note xml:id="chinese_cap7-n21" type="comm" target="quarantana/cap7.xml#c7_10461" targetEnd="quarantana/cap7.xml#c7_10478">
+                          兰佐,一切得听从他的安排。 你要知道,不,你们每一个人都该知道,我心中已经有了帮助你们的主意。</note>
+        <note xml:id="chinese_cap7-n22" type="comm" target="quarantana/cap7.xml#c7_10479" targetEnd="quarantana/cap7.xml#c7_10499">
+                          我现在不能再对你们说下去,明天我不再来你们这儿,我一整天得为你们的事呆在修道院里。</note>
+        <note xml:id="chinese_cap7-n23" type="comm" target="quarantana/cap7.xml#c7_10500" targetEnd="quarantana/cap7.xml#c7_10531">
+                          兰佐,你设法明天上修道院去一次,如发生什么意外,你可以派一个你信得过并且办事谨慎的年轻人去找我,这样我可以托他把我的想法转告你们。</note>
+        <note xml:id="chinese_cap7-n24" type="comm" target="quarantana/cap7.xml#c7_10532" targetEnd="quarantana/cap7.xml#c7_10539">
+                          天快黑了,我得马上赶回修道院去。</note>
+        <note xml:id="chinese_cap7-n25" type="comm" target="quarantana/cap7.xml#c7_10540" targetEnd="quarantana/cap7.xml#c7_10543">
+                          别忘了信心和勇气 "一字，再见。"</note>
+        <note xml:id="chinese_cap7-n26" type="comm" target="quarantana/cap7.xml#c7_10544" targetEnd="quarantana/cap7.xml#c7_10605">
+                          说罢，修士随即出了门，然后连奔带跑地沿着布满石子的弯曲小道往前走去。 他担心若回修道院太晚的话，他会遭训斥，甚至受罚，这样他第三天就无法脱身为营救那几个需要保护的人四处奔走，事情就会变得越发糟糕。</note>
+        <note xml:id="chinese_cap7-n27" type="comm" target="quarantana/cap7.xml#c7_10606" targetEnd="quarantana/cap7.xml#c7_10621">
+                          "你们没听到他说······他心中已经有了帮助我们的主意吗？"</note>
+        <note xml:id="chinese_cap7-n28" type="comm" target="quarantana/cap7.xml#c7_10622" targetEnd="quarantana/cap7.xml#c7_10632">
+                          鲁齐娅对他们说，"我们应该相信他，像他那样的人，要是答应出十分力决不会出九分······"</note>
+        <note xml:id="chinese_cap7-n29" type="comm" target="quarantana/cap7.xml#c7_10633" targetEnd="quarantana/cap7.xml#c7_10638">
+                          "事情要是果真如此就好了······！"</note>
+        <note xml:id="chinese_cap7-n30" type="comm" target="quarantana/cap7.xml#c7_10639" targetEnd="quarantana/cap7.xml#c7_10654">
+                          阿涅珊打断她的话说，"他应该把话讲得更明了一些，或者把我叫到一边把实情告诉我······"</note>
+        <note xml:id="chinese_cap7-n31" type="comm" target="quarantana/cap7.xml#c7_10655" targetEnd="quarantana/cap7.xml#c7_10690">
+                          "全是谎话！ 这件事让我来了结，让我来了结！" 兰佐接着插话说，一面在屋子里来回踱步，从他的眼神和脸部的表情里不难看出，他说这话是认真的。</note>
+        <note xml:id="chinese_cap7-n32" type="comm" target="quarantana/cap7.xml#c7_10691" targetEnd="quarantana/cap7.xml#c7_10694">
+                          "喂，兰佐！" 鲁齐娅惊呼道。</note>
+        <note xml:id="chinese_cap7-n33" type="comm" target="quarantana/cap7.xml#c7_10695" targetEnd="quarantana/cap7.xml#c7_10699">
+                          "你说这话是什么意思？" 阿涅珊大声问他。</note>
+        <note xml:id="chinese_cap7-n34" type="comm" target="quarantana/cap7.xml#c7_10700" targetEnd="quarantana/cap7.xml#c7_10704">
+                          "有什么好说的？</note>
+        <note xml:id="chinese_cap7-n35" type="comm" target="quarantana/cap7.xml#c7_10705" targetEnd="quarantana/cap7.xml#c7_10707">
+                          这件事由我来了结。</note>
+        <note xml:id="chinese_cap7-n36" type="comm" target="quarantana/cap7.xml#c7_10708" targetEnd="quarantana/cap7.xml#c7_10721">
+                          纵然他灵魂里有成百上千个魔鬼在作祟，他的躯壳总还是血肉做的吧······"</note>
+        <note xml:id="chinese_cap7-n37" type="comm" target="quarantana/cap7.xml#c7_10722" targetEnd="quarantana/cap7.xml#c7_10736">
+                          "不，不，看在上帝的分上······！" 鲁齐娅哽咽得一时说不出话来。</note>
+        <note xml:id="chinese_cap7-n38" type="comm" target="quarantana/cap7.xml#c7_10737" targetEnd="quarantana/cap7.xml#c7_10746">
+                          "这种话，即使是戏言，你也不该说。" 阿涅珊告诫他。</note>
+        <note xml:id="chinese_cap7-n39" type="comm" target="quarantana/cap7.xml#c7_10747" targetEnd="quarantana/cap7.xml#c7_10764">
+                          "戏言？" 兰佐喝问，一面走到阿涅珊坐着的椅子前停下脚步，两只眼睛直瞪瞪地盯住她看，"戏言？</note>
+        <note xml:id="chinese_cap7-n40" type="comm" target="quarantana/cap7.xml#c7_10765" targetEnd="quarantana/cap7.xml#c7_10770">
+                          你等着瞧，看我说的是不是戏言。"</note>
+        <note xml:id="chinese_cap7-n41" type="comm" target="quarantana/cap7.xml#c7_10771" targetEnd="quarantana/cap7.xml#c7_10784">
+                          "喂，兰佐！" 鲁齐娅哭泣着，一面费力地说，"你以前可从来不是这个样子的。"</note>
+        <note xml:id="chinese_cap7-n42" type="comm" target="quarantana/cap7.xml#c7_10785" targetEnd="quarantana/cap7.xml#c7_10810">
+                          "看在上帝的分上，别再说蠢话了，"阿涅珊忙压低嗓门说，"你忘了那个人手下有多少喽罗吗？</note>
+        <note xml:id="chinese_cap7-n43" type="comm" target="quarantana/cap7.xml#c7_10811" targetEnd="quarantana/cap7.xml#c7_10812">
+                          即使你······但愿上帝不让这样的事情发生！</note>
+        <note xml:id="chinese_cap7-n44" type="comm" target="quarantana/cap7.xml#c7_10813" targetEnd="quarantana/cap7.xml#c7_10820">
+                          ······可是法律总是同我们穷人作对。"</note>
+        <note xml:id="chinese_cap7-n45" type="comm" target="quarantana/cap7.xml#c7_10821" targetEnd="quarantana/cap7.xml#c7_10826">
+                          "我要改写法律条文，由我来写！</note>
+        <note xml:id="chinese_cap7-n46" type="comm" target="quarantana/cap7.xml#c7_10827" targetEnd="quarantana/cap7.xml#c7_10829">
+                          现在该是时候了。</note>
+        <note xml:id="chinese_cap7-n47" type="comm" target="quarantana/cap7.xml#c7_10830" targetEnd="quarantana/cap7.xml#c7_10849">
+                          我也知道，要这样做实非易事，那个吃人的恶魔现在小心谨慎，步步设防，但这没有关系。</note>
+        <note xml:id="chinese_cap7-n48" type="comm" target="quarantana/cap7.xml#c7_10850" targetEnd="quarantana/cap7.xml#c7_10856">
+                          只要有毅力和耐心……处置他的时刻总会到来。</note>
+        <note xml:id="chinese_cap7-n49" type="comm" target="quarantana/cap7.xml#c7_10857" targetEnd="quarantana/cap7.xml#c7_10876">
+                          对，法律条文将由我来改写，我会替村民们除掉他，到那时，许多人将为我祝福……！ 大家会高兴得跳起来……！"</note>
+        <note xml:id="chinese_cap7-n50" type="comm" target="quarantana/cap7.xml#c7_10877" targetEnd="quarantana/cap7.xml#c7_10916">
+                          听罢兰佐用意十分明显的表白，鲁齐娅颓觉毛骨悚然，她停止哦叹，两手从布满泪痕的脸上移开，鼓足勇气用悲痛但坚定的声音对他说："看来，你已不在乎我是否嫁给你为妻。</note>
+        <note xml:id="chinese_cap7-n51" type="comm" target="quarantana/cap7.xml#c7_10917" targetEnd="quarantana/cap7.xml#c7_10946">
+                          我曾立志与一个敬畏上帝的年轻男子结为夫妇，而不是一个……哪怕他可以置身于任何法律条文之外，没有任何仇敌，甚至是一位王子……"</note>
+        <note xml:id="chinese_cap7-n52" type="comm" target="quarantana/cap7.xml#c7_10947" targetEnd="quarantana/cap7.xml#c7_10966">
+                          "说得好！" 兰佐大声说，脸色变得越发阴沉，"要是我得不到你，那个家伙也再想得到你。</note>
+        <note xml:id="chinese_cap7-n53" type="comm" target="quarantana/cap7.xml#c7_10967" targetEnd="quarantana/cap7.xml#c7_10976">
+                          你不嫁给我，我仍然可以好端端地活在这里，可是他却只好呆在……"</note>
+        <note xml:id="chinese_cap7-n54" type="comm" target="quarantana/cap7.xml#c7_10977" targetEnd="quarantana/cap7.xml#c7_11020">
+                          "喔，不！ 求你别这样说，别用这种眼神看我。 不，我不愿意看到你这副模样，"鲁齐娅两手合拢，哭着哀求道。 与此同时，阿混珊一次又一次地呼唤着兰佐的名字，一面轻轻拍打他的肩胛、臂膀和双手，试图让他镇静下来。</note>
+        <note xml:id="chinese_cap7-n55" type="comm" target="quarantana/cap7.xml#c7_11021" targetEnd="quarantana/cap7.xml#c7_11058">
+                          他忧心忡忡，好一会儿纹丝不动地站在那里，一双眼睛凝视视着鲁齐娅那张哀求的脸。 然后，他忽然后退一步，恶狠狠地瞪了她一眼，同时伸出食指指着她大声说："就是她！ 他想霸占的就是她。</note>
+        <note xml:id="chinese_cap7-n56" type="comm" target="quarantana/cap7.xml#c7_11059" targetEnd="quarantana/cap7.xml#c7_11061">
+                          他必须去死！"</note>
+        <note xml:id="chinese_cap7-n57" type="comm" target="quarantana/cap7.xml#c7_11062" targetEnd="quarantana/cap7.xml#c7_11076">
+                          "我又没害过你，你为何要我也去死？" 鲁齐娅问他，一面跪倒在他面前。</note>
+        <note xml:id="chinese_cap7-n58" type="comm" target="quarantana/cap7.xml#c7_11077" targetEnd="quarantana/cap7.xml#c7_11089">
+                          "你！" 他回答说，声音里乃充满怒气，一种迥然不同的怒气，"你！</note>
+        <note xml:id="chinese_cap7-n59" type="comm" target="quarantana/cap7.xml#c7_11090" targetEnd="quarantana/cap7.xml#c7_11094">
+                          你真的很爱我吗？</note>
+        <note xml:id="chinese_cap7-n60" type="comm" target="quarantana/cap7.xml#c7_11095" targetEnd="quarantana/cap7.xml#c7_11098">
+                          你何以证明对我的爱？</note>
+        <note xml:id="chinese_cap7-n61" type="comm" target="quarantana/cap7.xml#c7_11099" targetEnd="quarantana/cap7.xml#c7_11106">
+                          我一次又一次地求你，事实不是如此吗？</note>
+        <note xml:id="chinese_cap7-n62" type="comm" target="quarantana/cap7.xml#c7_11107" targetEnd="quarantana/cap7.xml#c7_11110">
+                          可是你，却再三再四地拒绝我！"</note>
+        <note xml:id="chinese_cap7-n63" type="comm" target="quarantana/cap7.xml#c7_11111" targetEnd="quarantana/cap7.xml#c7_11123">
+                          "行，行，"鲁齐娅急忙说，"要是你愿意，我明天同你一起去我本堂神甫，我会去的。</note>
+        <note xml:id="chinese_cap7-n64" type="comm" target="quarantana/cap7.xml#c7_11124" targetEnd="quarantana/cap7.xml#c7_11128">
+                          求求你，让我看到一个原来的你。 明天我会去的。"</note>
+        <note xml:id="chinese_cap7-n65" type="comm" target="quarantana/cap7.xml#c7_11129" targetEnd="quarantana/cap7.xml#c7_11146">
+                          "你能答应我吗？" 兰佐问她。 须臾间，他的声音和脸上的表情变得温和了许多。</note>
+        <note xml:id="chinese_cap7-n66" type="comm" target="quarantana/cap7.xml#c7_11147" targetEnd="quarantana/cap7.xml#c7_11149">
+                          "我答应你。"</note>
+        <note xml:id="chinese_cap7-n67" type="comm" target="quarantana/cap7.xml#c7_11150" targetEnd="quarantana/cap7.xml#c7_11152">
+                          "你终于答应了我。"</note>
+        <note xml:id="chinese_cap7-n68" type="comm" target="quarantana/cap7.xml#c7_11153" targetEnd="quarantana/cap7.xml#c7_11159">
+                          "谢天谢地！" 阿涅珊加倍高兴地大声说道。</note>
+        <note xml:id="chinese_cap7-n69" type="comm" target="quarantana/cap7.xml#c7_11160" targetEnd="quarantana/cap7.xml#c7_11180">
+                          兰佐在勃然大怒的同时，是否想过从鲁齐娅的恐惧心理中获益呢？</note>
+        <note xml:id="chinese_cap7-n70" type="comm" target="quarantana/cap7.xml#c7_11181" targetEnd="quarantana/cap7.xml#c7_11193">
+                          他是否玩弄了一些花招故意激起她恐惧不安的情绪呢？</note>
+        <note xml:id="chinese_cap7-n71" type="comm" target="quarantana/cap7.xml#c7_11194" targetEnd="quarantana/cap7.xml#c7_11212">
+                          对此，本书作者申明一无所知，我想即便是兰佐，他也不甚清楚。</note>
+        <note xml:id="chinese_cap7-n72" type="comm" target="quarantana/cap7.xml#c7_11213" targetEnd="quarantana/cap7.xml#c7_11260">
+                          我们只知道，兰佐对掌·罗德里戈的所作所为确实感到义愤填膺，但与此同时，他又热切地渴望鲁齐娅同意他的行动计划。 当一个人的心中有两股不同的激情在同时呐喊时，任何人，即使是他本人，也不总是能够清楚地分辨出这两个不同的声音，也无法肯定地说，究竟哪一个声音在他心中占据着统治地位。</note>
+        <note xml:id="chinese_cap7-n73" type="comm" target="quarantana/cap7.xml#c7_11261" targetEnd="quarantana/cap7.xml#c7_11286">
+                          "我已经答应了你，"鲁齐娅羞涩地喘怪他说，但语调里充满了柔情，"可是你也得答应我不再大吼大叫，一切听从神甫的安排……"</note>
+        <note xml:id="chinese_cap7-n74" type="comm" target="quarantana/cap7.xml#c7_11287" targetEnd="quarantana/cap7.xml#c7_11295">
+                          "喂，你又来了！ 那我有何必要大发雷霆呢？</note>
+        <note xml:id="chinese_cap7-n75" type="comm" target="quarantana/cap7.xml#c7_11296" targetEnd="quarantana/cap7.xml#c7_11304">
+                          你现在还想把话缩回去，让我去干蠢事吗？"</note>
+        <note xml:id="chinese_cap7-n76" type="comm" target="quarantana/cap7.xml#c7_11305" targetEnd="quarantana/cap7.xml#c7_11324">
+                          "不，不，"鲁齐娅急忙回答说，恐惧又一次征服了她的心，"我答应过的事决不反悔，可是你明明知道，我是在你的压力下作出的承诺。</note>
+        <note xml:id="chinese_cap7-n77" type="comm" target="quarantana/cap7.xml#c7_11325" targetEnd="quarantana/cap7.xml#c7_11327">
+                          但愿上帝没有……"</note>
+        <note xml:id="chinese_cap7-n78" type="comm" target="quarantana/cap7.xml#c7_11328" targetEnd="quarantana/cap7.xml#c7_11334">
+                          "鲁齐娅，你为什么要说一些不吉利的话呢？</note>
+        <note xml:id="chinese_cap7-n79" type="comm" target="quarantana/cap7.xml#c7_11335" targetEnd="quarantana/cap7.xml#c7_11342">
+                          上帝知道，我们不会伤害任何人。"</note>
+        <note xml:id="chinese_cap7-n80" type="comm" target="quarantana/cap7.xml#c7_11343" targetEnd="quarantana/cap7.xml#c7_11348">
+                          "你至少得向我保证，以后再也不说那种话了。"</note>
+        <note xml:id="chinese_cap7-n81" type="comm" target="quarantana/cap7.xml#c7_11349" targetEnd="quarantana/cap7.xml#c7_11354">
+                          "我以一个穷人的名誉向你担保。"</note>
+        <note xml:id="chinese_cap7-n82" type="comm" target="quarantana/cap7.xml#c7_11355" targetEnd="quarantana/cap7.xml#c7_11361">
+                          "这一回你得遵守诺言，"阿涅珊对他说。</note>
+        <note xml:id="chinese_cap7-n83" type="comm" target="quarantana/cap7.xml#c7_11362" targetEnd="quarantana/cap7.xml#c7_11383">
+                          写至此，本书的佚名作者承认，对于另外一个问题，他心中同样也存有疑惑，即鲁齐娅对兰佐迫使她接受的行动方案是否确实 持完全抵触的态度。</note>
+        <note xml:id="chinese_cap7-n84" type="comm" target="quarantana/cap7.xml#c7_11384" targetEnd="quarantana/cap7.xml#c7_11391">
+                          我们暂且不妨将这个问题束之高阁。</note>
+        <note xml:id="chinese_cap7-n85" type="comm" target="quarantana/cap7.xml#c7_11392" targetEnd="quarantana/cap7.xml#c7_11433">
+                          兰佐原想多花费一些时间解释他的计划,把翌日该做的事情一桩一桩地落实好,但无奈此时夜已深,阿涅珊母女俩起床同他道晚安,她们简得不宜再让他留在屋子里。</note>
+        <note xml:id="chinese_cap7-n86" type="comm" target="quarantana/cap7.xml#c7_11434" targetEnd="quarantana/cap7.xml#c7_11468">
+                          他们三人在焦虑不安中度过了灾难的一天,加上翌日又有一个胜败未卜的重要使命亟待完成,所以对他们而言,那个夜晚就显得分外的宝贵。</note>
+        <note xml:id="chinese_cap7-n87" type="comm" target="quarantana/cap7.xml#c7_11469" targetEnd="quarantana/cap7.xml#c7_11511">
+                          第二天一清早兰佐就来到阿涅珊的家同她们两人,更确切地说是同阿涅珊,一起商议当天傍晚的行动计划。 他们各自提出困难以及解决的办法,一起描度可能发生的不幸意外,然后两人再次议了一遍计划中的每一个步骤,好像在叙述某一件已经发生过的事情一样。</note>
+        <note xml:id="chinese_cap7-n88" type="comm" target="quarantana/cap7.xml#c7_11512" targetEnd="quarantana/cap7.xml#c7_11532">
+                          鲁齐娅在一旁一言不语地倾听,她无法对心中不赞同的事作出承诺,只是答应他们自己将尽力而为。</note>
+        <note xml:id="chinese_cap7-n89" type="comm" target="quarantana/cap7.xml#c7_11533" targetEnd="quarantana/cap7.xml#c7_11551">
+                          阿涅珊询问兰佐:"你怎么还不去修道院见克里斯托弗洛神甫? 昨晚他不是同你说好的吗?"</note>
+        <note xml:id="chinese_cap7-n90" type="comm" target="quarantana/cap7.xml#c7_11552" targetEnd="quarantana/cap7.xml#c7_11586">
+                          兰佐大声说:"你不知道,神甫那双眼睛有多厉害! 他能从我的脸上读懂我的心思,知道可能要发生什么事,就好像他在读一本打开的书一样。 一旦他开始讯问我,那我就无法脱身了。</note>
+        <note xml:id="chinese_cap7-n91" type="comm" target="quarantana/cap7.xml#c7_11587" targetEnd="quarantana/cap7.xml#c7_11601">
+                          再说,我得留在这儿了解事态的发展,你最好还是另派一人去。"</note>
+        <note xml:id="chinese_cap7-n92" type="comm" target="quarantana/cap7.xml#c7_11602" targetEnd="quarantana/cap7.xml#c7_11603">
+                          "那我让梅尼科去一下。"</note>
+        <note xml:id="chinese_cap7-n93" type="comm" target="quarantana/cap7.xml#c7_11604" targetEnd="quarantana/cap7.xml#c7_11615">
+                          "行,"兰佐说完就随即离去。 正如他说的那样,他去了解事态的发展。</note>
+        <note xml:id="chinese_cap7-n94" type="comm" target="quarantana/cap7.xml#c7_11616" targetEnd="quarantana/cap7.xml#c7_11651">
+                          与此同时,阿涅珊为了找到梅尼科,正朝她家附近的一间房子走去。 他是一个十二岁左右但头脑挺机灵的小男孩,通过姐妹夫和表兄弟这一层亲戚关系,他可以算是她的一个远房小侄子。</note>
+        <note xml:id="chinese_cap7-n95" type="comm" target="quarantana/cap7.xml#c7_11652" targetEnd="quarantana/cap7.xml#c7_11667">
+                          她对男孩的父母说,她想让他出门一整天为她"办一桩事情",其口气仿佛在向他们借用某一件物品。</note>
+        <note xml:id="chinese_cap7-n96" type="comm" target="quarantana/cap7.xml#c7_11668" targetEnd="quarantana/cap7.xml#c7_11702">
+                          征得了他父母的同意后,她把他带到自己家的厨房里,招待他用了早餐,然后告诉他去佩斯卡雷尼柯找克里斯托弗洛修士,等到修士给予回话后方可回来。" 克里斯</note>
+        <note xml:id="chinese_cap7-n97" type="comm" target="quarantana/cap7.xml#c7_11703" targetEnd="quarantana/cap7.xml#c7_11719">
+                          托弗洛神甫,你知道的,就是那位面容慈祥的白胡子老人,大家都管他叫圣徒······"</note>
+        <note xml:id="chinese_cap7-n98" type="comm" target="quarantana/cap7.xml#c7_11720" targetEnd="quarantana/cap7.xml#c7_11738">
+                          "我知道,"梅尼科回答说,"就是那个总爱拨弄我们孩子的老头,有时候他还送给我们小圣像呢。"</note>
+        <note xml:id="chinese_cap7-n99" type="comm" target="quarantana/cap7.xml#c7_11739" targetEnd="quarantana/cap7.xml#c7_11740">
+                          "你说得对,梅尼科。</note>
+        <note xml:id="chinese_cap7-n100" type="comm" target="quarantana/cap7.xml#c7_11741" targetEnd="quarantana/cap7.xml#c7_11786">
+                          要是他叫你在修道院附近等他一会儿,你可别随便走开。 记住,千万不要和你的小伙伴一起到湖边去看别人捕鱼,也不要去玩弄那些挂在墙边上待晾干的鱼网,更不要去做你平时喜欢的游戏······"</note>
+        <note xml:id="chinese_cap7-n101" type="comm" target="quarantana/cap7.xml#c7_11787" targetEnd="quarantana/cap7.xml#c7_11816">
+                          要知道,梅尼科打水漂儿可是一名高手。 我们每个人,不管年长的还是年幼的,都喜欢做一些能显示自己才干的事情,虽然我们爱做的事情远不止这一些。</note>
+        <note xml:id="chinese_cap7-n102" type="comm" target="quarantana/cap7.xml#c7_11817" targetEnd="quarantana/cap7.xml#c7_11823">
+                          "唉！ 姑姑,我又不是个小孩子。"</note>
+        <note xml:id="chinese_cap7-n103" type="comm" target="quarantana/cap7.xml#c7_11824" targetEnd="quarantana/cap7.xml#c7_11841">
+                          "对,你说得没错。 等你猜回神甫的话······你瞧,这两枚崭新的钱币我先给你留着。"</note>
+        <note xml:id="chinese_cap7-n104" type="comm" target="quarantana/cap7.xml#c7_11842" targetEnd="quarantana/cap7.xml#c7_11846">
+                          "你现在就给我,反正是一码事。"</note>
+        <note xml:id="chinese_cap7-n105" type="comm" target="quarantana/cap7.xml#c7_11847" targetEnd="quarantana/cap7.xml#c7_11851">
+                          "不,不行,你会去赌钱的。</note>
+        <note xml:id="chinese_cap7-n106" type="comm" target="quarantana/cap7.xml#c7_11852" targetEnd="quarantana/cap7.xml#c7_11860">
+                          现在你走吧,照我说的去做,我会给你更多的钱币。"</note>
+        <note xml:id="chinese_cap7-n107" type="comm" target="quarantana/cap7.xml#c7_11861" targetEnd="quarantana/cap7.xml#c7_11881">
+                          对阿涅珊母女来说,那一天早晨显得格外漫长,在短短的数小时内出现了一些料想不到的新情况,使她们心中除了焦虑不安以外,不免又产生了不少疑团。</note>
+        <note xml:id="chinese_cap7-n108" type="comm" target="quarantana/cap7.xml#c7_11882" targetEnd="quarantana/cap7.xml#c7_11917">
+                          有一个乞丐到她们家门前要求施舍,但两只眼睛鬼鬼崇崇地四下窥探,脸上的神色也给人一种说不清楚的神秘和恐怖感,其模样也不像他的同类人那样褴褛不堪和衣衫褴褛。</note>
+        <note xml:id="chinese_cap7-n109" type="comm" target="quarantana/cap7.xml#c7_11918" targetEnd="quarantana/cap7.xml#c7_11932">
+                          她们给了他一块面包,他收下致谢时明显装出一副满不在乎的样子。</note>
+        <note xml:id="chinese_cap7-n110" type="comm" target="quarantana/cap7.xml#c7_11933" targetEnd="quarantana/cap7.xml#c7_11961">
+                          过后,他故意赖着不走,支支吾吾地向阿涅珊提了好多无礼的问题。 见此状,阿涅珊急忙一一作了同事实相反的回答。</note>
+        <note xml:id="chinese_cap7-n111" type="comm" target="quarantana/cap7.xml#c7_11962" targetEnd="quarantana/cap7.xml#c7_11986">
+                          在迈开双腿准备离去的时候,他还伴装走错了门,从一扇通向楼梯的房门入内,并匆匆忙忙地朝里边打了一眼。 阿涅珊赶紧叫住他:"嘿！ 嘿！ 你上哪里去？</note>
+        <note xml:id="chinese_cap7-n112" type="comm" target="quarantana/cap7.xml#c7_11987" targetEnd="quarantana/cap7.xml#c7_12024">
+                          从这儿走！ 从这儿走！" 出于不得已,他从 阿涅珊所指的房门里退出,一面装作请求她的原谅,其顺从、谦卑的样子显然同他脸上冷酷的神情不相吻合。</note>
+        <note xml:id="chinese_cap7-n113" type="comm" target="quarantana/cap7.xml#c7_12025" targetEnd="quarantana/cap7.xml#c7_12061">
+                          此人走了之后,她们家门前又来了好几个行迹可疑的人,很难说清楚他们究竟是些什么样的人,但是决不是他们想装成的正直的徒步朝圣者。</note>
+        <note xml:id="chinese_cap7-n114" type="comm" target="quarantana/cap7.xml#c7_12062" targetEnd="quarantana/cap7.xml#c7_12093">
+                          其中,有一个人走进屋子后装作问路的样子,另外几个走过大门的时候,故意放慢脚步,同时皱眉鼠眼地朝庭院后面的房间里窥视,但表面上却装作泰然自若的样子,以免引起他人的猜疑。</note>
+        <note xml:id="chinese_cap7-n115" type="comm" target="quarantana/cap7.xml#c7_12094" targetEnd="quarantana/cap7.xml#c7_12101">
+                          直至正午时分,门前的这一出令人忧庆的闹剧方才结束。</note>
+        <note xml:id="chinese_cap7-n116" type="comm" target="quarantana/cap7.xml#c7_12102" targetEnd="quarantana/cap7.xml#c7_12145">
+                          阿涅珊不时站起身,穿过庭院,倚着大门朝两边的马路张望,然后走回来高兴地说:"路上没有人走动。" 听此言,鲁齐娅略感宽心,尽管她们两人谁也不十分清楚这其中的原因。</note>
+        <note xml:id="chinese_cap7-n117" type="comm" target="quarantana/cap7.xml#c7_12146" targetEnd="quarantana/cap7.xml#c7_12176">
+                          但是,不可名状的忧虑依然笼罩在她们的心头,而且在很大程度上挫伤了她们,尤其是鲁齐娅,为当晚的行动所积蓄的锐气。</note>
+        <note xml:id="chinese_cap7-n118" type="comm" target="quarantana/cap7.xml#c7_12177" targetEnd="quarantana/cap7.xml#c7_12221">
+                          我想,我应该向我们的读者更详尽地介绍一下那些神秘徘徊者的情况。 为了让读者对有关的情况了解得更清楚,我们得顺着故事原来的线索回到昨日出现在堂·罗德里戈宅第内的最后一幕场景:克里斯托弗洛修士告辞后,堂·罗德里戈独自一人留在一间客厅里。</note>
+        <note xml:id="chinese_cap7-n119" type="comm" target="quarantana/cap7.xml#c7_12222" targetEnd="quarantana/cap7.xml#c7_12246">
+                          如前面所述,堂·罗德里戈在那间客厅里来回地踱着方步,客厅四周的墙上挂着他祖上好几代人的画像。</note>
+        <note xml:id="chinese_cap7-n120" type="comm" target="quarantana/cap7.xml#c7_12247" targetEnd="quarantana/cap7.xml#c7_12323">
+                          他走到一道墙跟前,转身望见他先人的一幅画像,一位当年令他的故手和部下的士兵毛骨悚然的武士,只见他目光恶狠狠地瞪视着他,短发又粗又直,面颊上的胡子末梢微微往上翘,下巴歪斜着。 这位貌似英雄的人物站得笔直,身上戴着铁制的护腿、股甲、胸甲、护腕和臂铠,其右手贴在腰间,左手握着剑柄顶端上的圆头。</note>
+        <note xml:id="chinese_cap7-n121" type="comm" target="quarantana/cap7.xml#c7_12324" targetEnd="quarantana/cap7.xml#c7_12418">
+                          堂·罗德里戈凝视着他的这位祖先,但当他走到其画像下面时,蓦然一个转身,呈现在眼前的却是他的另一位先人,一位令诉讼当事人和律师肃然起敬的法官,只见他端坐在一张包着红丝绒的大椅子上,身上裹着一件黑 色的大翻领长袍，除了白色的硬领和翻过来的紫貂衬里以外，他一身黑色的装束（当时，紫貂衬里的黑色长袍是法官的一个标记，只有在冬天他们才穿上它，为此人们从未见过穿夏装的大法官画像），瘦削的脸上双眉紧蹙，手中拿着一张有人向法院递交的诉状，嘴里仿佛在说："待我们研究以后再议。"</note>
+        <note xml:id="chinese_cap7-n122" type="comm" target="quarantana/cap7.xml#c7_12419" targetEnd="quarantana/cap7.xml#c7_12448">
+                          在一边的墙上，是一个让媛女见了胆战心惊的贵夫人；在另一边的墙上，是一个让修士们见了魂飞魄散的修道院院长。 总而言之，他们是一群令人生畏的人，在画布上依然透出一股通人的寒气。</note>
+        <note xml:id="chinese_cap7-n123" type="comm" target="quarantana/cap7.xml#c7_12449" targetEnd="quarantana/cap7.xml#c7_12476">
+                          置身在令人回忆起往事的画像堆里，堂·罗德里戈不禁怒火中烧，一个修士宛若像自空一切的拿单一样谴责他，他为自己蒙受的奇耻大辱感到忿怒不平。</note>
+        <note xml:id="chinese_cap7-n124" type="comm" target="quarantana/cap7.xml#c7_12477" targetEnd="quarantana/cap7.xml#c7_12525">
+                          他心中酝酿着一个复仇的计划，但随即又被他否决了。 他想寻觅一个两全其美的良策，既能满足他淫荡的欲念，又能保全他所谓的名誉。 让他感到不可思议的是，他耳畔不时响起克里斯托弗洛修士在预言他未来时头上所说的那几句话，吓得他全身都起了鸡皮疙瘩，迫使他几乎想放弃寻觅锦囊妙计的念头。</note>
+        <note xml:id="chinese_cap7-n125" type="comm" target="quarantana/cap7.xml#c7_12526" targetEnd="quarantana/cap7.xml#c7_12549">
+                          为驱散心中烦躁的情绪，他喊来一个仆人，让他去向客人们致歉，说他因要事缠身得耽搁一会儿。</note>
+        <note xml:id="chinese_cap7-n126" type="comm" target="quarantana/cap7.xml#c7_12550" targetEnd="quarantana/cap7.xml#c7_12572">
+                          片刻之后，仆人前来回话说，客人们在表示了对他的敬意之后都已离去。" 阿蒂略伯爵也告辞走了吗？" 他忙问道，一面仿不停地在屋子里踱来踱去。</note>
+        <note xml:id="chinese_cap7-n127" type="comm" target="quarantana/cap7.xml#c7_12573" targetEnd="quarantana/cap7.xml#c7_12578">
+                          "他是同另外几位客人一起走的，尊敬的老爷。"</note>
+        <note xml:id="chinese_cap7-n128" type="comm" target="quarantana/cap7.xml#c7_12579" targetEnd="quarantana/cap7.xml#c7_12587">
+                          "我明白了，传我的话，我要马上出门散步，我需要六个随从。</note>
+        <note xml:id="chinese_cap7-n129" type="comm" target="quarantana/cap7.xml#c7_12588" targetEnd="quarantana/cap7.xml#c7_12594">
+                          还有，马上替我把短剑，斗篷和帽子取来。"</note>
+        <note xml:id="chinese_cap7-n130" type="comm" target="quarantana/cap7.xml#c7_12595" targetEnd="quarantana/cap7.xml#c7_12640">
+                          仆人在向他躬身行礼之后随即离去。 没过多久，他手上拿着主人需要的三件东西匆匆转了回来。 堂·罗德里戈将制作精良的短剑佩在腰带上，又匆忙将斗篷披在肩上，最后戴上一顶插着长羽毛的帽子，并亲手自豪地将它牢牢地套在自己的头上（众所周知，</note>
+        <note xml:id="chinese_cap7-n131" type="insertion">《圣经》中谴责戴维杀害乌利亚并娶其妻子之罪的先知。</note>
+        <note xml:id="chinese_cap7-n132" type="insertion">这可是一场暴风雨即将到来前的征兆）。</note>
+        <note xml:id="chinese_cap7-n133" type="comm" target="quarantana/cap7.xml#c7_12641" targetEnd="quarantana/cap7.xml#c7_12660">
+                          他迈开双腿走至门口，六个全副武装的打手马上给他让路，并向他鞠躬行礼，然后跟在他身后扬长而去。</note>
+        <note xml:id="chinese_cap7-n134" type="comm" target="quarantana/cap7.xml#c7_12661" targetEnd="quarantana/cap7.xml#c7_12674">
+                          他出了自己家的宅第，朝着柯方向信步走去，脸上双眉紧蹙，神情比往常更为阴沉、骄矜。</note>
+        <note xml:id="chinese_cap7-n135" type="comm" target="quarantana/cap7.xml#c7_12675" targetEnd="quarantana/cap7.xml#c7_12698">
+                          一路上，农夫和工匠们见了他迅速退至墙根边，并同时朝他脱帽致意和鞠躬行礼，而他对此却不屑一顾。</note>
+        <note xml:id="chinese_cap7-n136" type="comm" target="quarantana/cap7.xml#c7_12699" targetEnd="quarantana/cap7.xml#c7_12745">
+                          即使那些被称作老爷但自感卑微的人见了他也弯下身子以示敬意，因为在方圆数千英里内，无人在个人声名和财富方面能成为他的竞争对手，也没有任何人像他那样拥有如此众多的追随者和如此强烈的凌驾于所有人之上的愿望。</note>
+        <note xml:id="chinese_cap7-n137" type="comm" target="quarantana/cap7.xml#c7_12746" targetEnd="quarantana/cap7.xml#c7_12753">
+                          对那些屈尊向他表示敬意的人，他总是摆出一副盛气凌人的样子。</note>
+        <note xml:id="chinese_cap7-n138" type="comm" target="quarantana/cap7.xml#c7_12754" targetEnd="quarantana/cap7.xml#c7_12799">
+                          那一日，他原先未料到会在路上遇见西班牙城防司令，但是当他们真的相遇时，两人都向对方深深鞠了一个躬，正如两位统治者，相互之间虽然没有任何瓜葛，但出于礼节，彼此还是以礼相待。</note>
+        <note xml:id="chinese_cap7-n139" type="comm" target="quarantana/cap7.xml#c7_12800" targetEnd="quarantana/cap7.xml#c7_12866">
+                          为了排遣心中的烦闷和驱走脑海中修士那与众不同的抗乱他想像力的身影，堂·罗德里戈那一天走进了一所房子。 与往常一样，那儿依然是门庭若市，堂·罗德里戈也受到了殷勤、恭敬的接待，而只有那些受人爱戴和令人敬畏的人才能享受此等殊荣。 直至夜幕降临，他方回到自己的宅第。</note>
+        <note xml:id="chinese_cap7-n140" type="comm" target="quarantana/cap7.xml#c7_12867" targetEnd="quarantana/cap7.xml#c7_12895">
+                          恰好阿蒂略伯爵也在这个时候回来，仆人们忙把晚餐端上桌子，但是堂·罗德里戈在进餐时一言不语，一副心不在焉的样子。</note>
+        <note xml:id="chinese_cap7-n141" type="comm" target="quarantana/cap7.xml#c7_12896" targetEnd="quarantana/cap7.xml#c7_12919">
+                          待仆人们收拾完餐桌离去，阿蒂略伯爵马上用不怎么好意的嘲弄口吻问他："表弟，你打算何时下赌注啊？"</note>
+        <note xml:id="chinese_cap7-n142" type="comm" target="quarantana/cap7.xml#c7_12920" targetEnd="quarantana/cap7.xml#c7_12925">
+                          "圣马丁节还未过呢。"</note>
+        <note xml:id="chinese_cap7-n143" type="comm" target="quarantana/cap7.xml#c7_12926" targetEnd="quarantana/cap7.xml#c7_12939">
+                          "你还是立即下赌注为好，等到写在年历上所有的圣人节都过去了......"</note>
+        <note xml:id="chinese_cap7-n144" type="comm" target="quarantana/cap7.xml#c7_12940" targetEnd="quarantana/cap7.xml#c7_12945">
+                          "那要看情况而定了。"</note>
+        <note xml:id="chinese_cap7-n145" type="comm" target="quarantana/cap7.xml#c7_12946" targetEnd="quarantana/cap7.xml#c7_12970">
+                          "表弟，你这是在要滑头。 我全都明白，我可以肯定地说，这场赌局我已经打赢了，我现在打算再同你打一个赌。"</note>
+        <note xml:id="chinese_cap7-n146" type="comm" target="quarantana/cap7.xml#c7_12971" targetEnd="quarantana/cap7.xml#c7_12971">
+                          "你不妨说给我听听。"</note>
+        <note xml:id="chinese_cap7-n147" type="comm" target="quarantana/cap7.xml#c7_12972" targetEnd="quarantana/cap7.xml#c7_12985">
+                          "那个修士……那个修士……他叫什么来着？ 我的意思是说，那个修士改变了你的信仰。"</note>
+        <note xml:id="chinese_cap7-n148" type="comm" target="quarantana/cap7.xml#c7_12986" targetEnd="quarantana/cap7.xml#c7_12989">
+                          "这是你另一个判断上的错误。"</note>
+        <note xml:id="chinese_cap7-n149" type="comm" target="quarantana/cap7.xml#c7_12990" targetEnd="quarantana/cap7.xml#c7_12994">
+                          "你已改变了信仰,表弟,我敢说,你已经变了。</note>
+        <note xml:id="chinese_cap7-n150" type="comm" target="quarantana/cap7.xml#c7_12995" targetEnd="quarantana/cap7.xml#c7_12999">
+                          我为你的变化感到欣慰。</note>
+        <note xml:id="chinese_cap7-n151" type="comm" target="quarantana/cap7.xml#c7_13000" targetEnd="quarantana/cap7.xml#c7_13013">
+                          要是能看到你目光低垂和一副痛心疾首的样子,那该是多么美好的一幕场景啊！</note>
+        <note xml:id="chinese_cap7-n152" type="comm" target="quarantana/cap7.xml#c7_13014" targetEnd="quarantana/cap7.xml#c7_13019">
+                          那位修士该感到多么荣耀啊！</note>
+        <note xml:id="chinese_cap7-n153" type="comm" target="quarantana/cap7.xml#c7_13020" targetEnd="quarantana/cap7.xml#c7_13027">
+                          他高视阔步地回到家时该有多么的得意啊！</note>
+        <note xml:id="chinese_cap7-n154" type="comm" target="quarantana/cap7.xml#c7_13028" targetEnd="quarantana/cap7.xml#c7_13041">
+                          人们不是每一天,也不是撒下任何一张鱼网都能速到像你这样的大鱼的。</note>
+        <note xml:id="chinese_cap7-n155" type="comm" target="quarantana/cap7.xml#c7_13042" targetEnd="quarantana/cap7.xml#c7_13066">
+                          我敢断言,要是他出远门布道的话,一定会在嘿嘿不休地宣讲教义时将你当作活靶子,我现在似乎就能听到他在讲些什么。"</note>
+        <note xml:id="chinese_cap7-n156" type="comm" target="quarantana/cap7.xml#c7_13067" targetEnd="quarantana/cap7.xml#c7_13125">
+                          他一面触着鼻子,一面做着造作的手势,继续用布道者的口吻说:"亲爱的听友们,在世界的某个地方,以前曾经住着,今天依然生活着一位生性放荡不羁的骑士,出于对他的尊敬,我不想在此提他的姓名。 与其说他是正派男人的朋友倒不如说是女人的知己,他习惯于把男女混为一谈,可是他的眼睛却总是盯着……"</note>
+        <note xml:id="chinese_cap7-n157" type="comm" target="quarantana/cap7.xml#c7_13126" targetEnd="quarantana/cap7.xml#c7_13143">
+                          "够了,别说了,"堂·罗德里戈庆煩地打断了他的话,但嘴角上却挂着一丝好笑,"假如你想加倍下赌注的话,我愿意奉陪。"</note>
+        <note xml:id="chinese_cap7-n158" type="comm" target="quarantana/cap7.xml#c7_13144" targetEnd="quarantana/cap7.xml#c7_13150">
+                          "真见鬼！ 难道是你改变了修士的信仰?!"</note>
+        <note xml:id="chinese_cap7-n159" type="comm" target="quarantana/cap7.xml#c7_13151" targetEnd="quarantana/cap7.xml#c7_13163">
+                          "不要对我提起那个人的名字。 至于说到赌注,到圣马丁节那一天我们就可见分晓了。"</note>
+        <note xml:id="chinese_cap7-n160" type="comm" target="quarantana/cap7.xml#c7_13164" targetEnd="quarantana/cap7.xml#c7_13202">
+                          此番话引起了阿蒂略伯爵爵夫大的好奇心,故向他表弟问个不休,但是堂·罗德里戈对他提出的问题一概避而不答,并再三推托说,一切要待圣马丁节那天才能决定。 显然,他不愿向对方透露自己的计划,因为该计划不仅尚未付诸实施,而且还没有完全定下来。</note>
+        <note xml:id="chinese_cap7-n161" type="comm" target="quarantana/cap7.xml#c7_13203" targetEnd="quarantana/cap7.xml#c7_13211">
+                          翌日早晨,堂·罗德里戈一觉醒来,脸上又一次恢复了往日的神采。</note>
+        <note xml:id="chinese_cap7-n162" type="comm" target="quarantana/cap7.xml#c7_13212" targetEnd="quarantana/cap7.xml#c7_13244">
+                          他大梦初醒,修士所说的"总有一天"这几个字原先在他心中引起的焦虑和不安现已荡然无存。 此时此刻,他只是觉得十分 气恼，同时更为自己一时的软弱深感羞愧。 回忆起数日前自己在</note>
+        <note xml:id="chinese_cap7-n163" type="comm" target="quarantana/cap7.xml#c7_13245" targetEnd="quarantana/cap7.xml#c7_13265">
+                          散步时人们频频向他鞠躬行礼的热烈欢迎场面，以及其表弟善意 的取笑，他顿时觉得精神大振，重新又找回了昔日的自我。 一起</note>
+        <note xml:id="chinese_cap7-n164" type="comm" target="quarantana/cap7.xml#c7_13266" targetEnd="quarantana/cap7.xml#c7_13323">
+                          床，他就差人把格里索叫来。 前去唤格里索的那位仆人暗自思忖： "一定是出了大事了，"因为那个诨名叫做格里索的家伙是打手中 的头目，是对其主子最忠实的奴才，凡是风险最大的邪恶计划以前</note>
+        <note xml:id="chinese_cap7-n165" type="insertion">都是交给他去完成的。</note>
+        <note xml:id="chinese_cap7-n166" type="insertion">出于感恩和自身的利益，他已把自己的肉</note>
+        <note xml:id="chinese_cap7-n167" type="insertion">体和灵魂全部出卖给了他的主人。</note>
+        <note xml:id="chinese_cap7-n168" type="comm" target="quarantana/cap7.xml#c7_13324" targetEnd="quarantana/cap7.xml#c7_13355">
+                          他曾大白天在广场上杀死过一 个人，之后，他去恳求堂·罗德里戈的庇护，堂·罗德里戈让他穿上 自己家中侍从的制服，帮助他躲开了司法机关的每一次调查。</note>
+        <note xml:id="chinese_cap7-n169" type="comm" target="quarantana/cap7.xml#c7_13356" targetEnd="quarantana/cap7.xml#c7_13371">
+                          这 样一来，不管格里索受命犯下什么弥天大罪，他都不会因其前罪而 受罚。</note>
+        <note xml:id="chinese_cap7-n170" type="comm" target="quarantana/cap7.xml#c7_13372" targetEnd="quarantana/cap7.xml#c7_13423">
+                          对堂·罗德里戈而言，把格里索买下来是一件至关重要的事 情，因为此人不但是他府上最骁勇的打手，有着无与伦比的胆力， 而且又是他公然同法律抗争的明证，为他实际权势的扩张在舆论 上奠定了牢固的基础。</note>
+        <note xml:id="chinese_cap7-n171" type="comm" target="quarantana/cap7.xml#c7_13424" targetEnd="quarantana/cap7.xml#c7_13436">
+                          "格里索，"堂·罗德里戈对他说，"这一回可是证明你能力的好 机会。</note>
+        <note xml:id="chinese_cap7-n172" type="comm" target="quarantana/cap7.xml#c7_13437" targetEnd="quarantana/cap7.xml#c7_13446">
+                          明天天亮之前，你必须把鲁齐娅带到这里来见我。"</note>
+        <note xml:id="chinese_cap7-n173" type="comm" target="quarantana/cap7.xml#c7_13447" targetEnd="quarantana/cap7.xml#c7_13462">
+                          "对您尊敬的老爷的吩咐，我格里索从没有含糊过。"</note>
+        <note xml:id="chinese_cap7-n174" type="comm" target="quarantana/cap7.xml#c7_13463" targetEnd="quarantana/cap7.xml#c7_13482">
+                          "需要多少人手，你尽管说，你去把他们安排好，吩咐他们该怎 么做，一切你看着办吧。</note>
+        <note xml:id="chinese_cap7-n175" type="comm" target="quarantana/cap7.xml#c7_13483" targetEnd="quarantana/cap7.xml#c7_13492">
+                          我只要你把事情干得漂亮一点，千万注意 别伤着她。"</note>
+        <note xml:id="chinese_cap7-n176" type="comm" target="quarantana/cap7.xml#c7_13493" targetEnd="quarantana/cap7.xml#c7_13509">
+                          "老爷，我担心她会稍微受到一点惊吓，只要她不大叫大闹就 成……看来，这是难免的。"</note>
+        <note xml:id="chinese_cap7-n177" type="comm" target="quarantana/cap7.xml#c7_13510" targetEnd="quarantana/cap7.xml#c7_13513">
+                          "受点惊吓……我知道……是不可避免的。</note>
+        <note xml:id="chinese_cap7-n178" type="comm" target="quarantana/cap7.xml#c7_13514" targetEnd="quarantana/cap7.xml#c7_13530">
+                          但是不许你动她 半根毫毛，更重要的是，你必须尽力表现出对她的尊敬。 听明白我</note>
+        <note xml:id="chinese_cap7-n179" type="comm" target="quarantana/cap7.xml#c7_13531" targetEnd="quarantana/cap7.xml#c7_13532">
+                          的话了吗？"</note>
+        <note xml:id="chinese_cap7-n180" type="comm" target="quarantana/cap7.xml#c7_13533" targetEnd="quarantana/cap7.xml#c7_13547">
+                          "老爷，您要我替您从树上摘下一朵花，可又不让我碰它，这是 不可能的事情。</note>
+        <note xml:id="chinese_cap7-n181" type="comm" target="quarantana/cap7.xml#c7_13548" targetEnd="quarantana/cap7.xml#c7_13555">
+                          当然，我会尽量按您的吩咐去做。"</note>
+        <note xml:id="chinese_cap7-n182" type="comm" target="quarantana/cap7.xml#c7_13556" targetEnd="quarantana/cap7.xml#c7_13559">
+                          "若有什么闪失，我拿你是问。</note>
+        <note xml:id="chinese_cap7-n183" type="comm" target="quarantana/cap7.xml#c7_13560" targetEnd="quarantana/cap7.xml#c7_13562">
+                          你……打算怎么干?"</note>
+        <note xml:id="chinese_cap7-n184" type="comm" target="quarantana/cap7.xml#c7_13563" targetEnd="quarantana/cap7.xml#c7_13566">
+                          "我正在考虑，老爷。</note>
+        <note xml:id="chinese_cap7-n185" type="comm" target="quarantana/cap7.xml#c7_13567" targetEnd="quarantana/cap7.xml#c7_13640">
+                          所幸她的家在村落的尽头，我们得找一个地方埋伏起来……对，有了，离她家不远处有一间无人居住的孤零零的农舍，就在田野的中央……老爷您对这些事情可能一无所知……数年前那间小屋被一场大火烧毁了，主人因无钱修复，就把它丢弃了。 现在只有女巫才会去那里光顾。 可今天不是周末，去它的，我才不在乎呢。</note>
+        <note xml:id="chinese_cap7-n186" type="comm" target="quarantana/cap7.xml#c7_13641" targetEnd="quarantana/cap7.xml#c7_13675">
+                          这些乡巴佬，满脑子的怪念头，你就是把世上所有的黄金都给他们，他们也不会在一星期内的某一个夜晚去那间小屋。 我们可以在那儿藏身，肯定不会有人前来打扰我们。"</note>
+        <note xml:id="chinese_cap7-n187" type="comm" target="quarantana/cap7.xml#c7_13676" targetEnd="quarantana/cap7.xml#c7_13679">
+                          "很好，然后呢?"</note>
+        <note xml:id="chinese_cap7-n188" type="comm" target="quarantana/cap7.xml#c7_13680" targetEnd="quarantana/cap7.xml#c7_13754">
+                          格里索和堂·罗德里戈你一句我一句地议论开了，最后两人就实施行动方案的具体做法达成了共识：不能留下任何作案的痕迹；以假象转移人们猜疑的视线，从而迫使可怜的阿涅珊保持沉默；设法把兰佐吓得魂飞魄散，使他暂且忘却内心的痛苦，不敢告状，甚至不敢赋宛囹圄。 除此之外，为了实现堂·罗德里戈的阴谋，他们还商定了其他一些必要的罪恶措施。</note>
+        <note xml:id="chinese_cap7-n189" type="comm" target="quarantana/cap7.xml#c7_13755" targetEnd="quarantana/cap7.xml#c7_13789">
+                          这里，我们不想赘述这些计划的具体细节，因为这无助于我们对故事情节的了解；再说，我们感到很高兴，我们的读者将无须浪费太多的时间去听那两个令人厌恶的无赖之间的谈话。</note>
+        <note xml:id="chinese_cap7-n190" type="comm" target="quarantana/cap7.xml#c7_13790" targetEnd="quarantana/cap7.xml#c7_13832">
+                          要说的是，格里索正欲离去为实施罪恶的计划奔忙，堂·罗德里戈叫住他说："你听我说，万一那个养撵的乡巴佬今晚落入你手，你不妨事先让他尝一点皮肉之苦。</note>
+        <note xml:id="chinese_cap7-n191" type="comm" target="quarantana/cap7.xml#c7_13833" targetEnd="quarantana/cap7.xml#c7_13846">
+                          这样一来，明天命令他不许声张时，可以事半功倍。</note>
+        <note xml:id="chinese_cap7-n192" type="comm" target="quarantana/cap7.xml#c7_13847" targetEnd="quarantana/cap7.xml#c7_13861">
+                          你不要特意去找他，这样会把更重要的事情搞硬了，你懂我的意思吗?"</note>
+        <note xml:id="chinese_cap7-n193" type="comm" target="quarantana/cap7.xml#c7_13862" targetEnd="quarantana/cap7.xml#c7_13879">
+                          "您就放心让我去干吧，"格里索回答说，一面恭敬而自负地对其主子鞠了一个躬，然后即刻勾刘离去。</note>
+        <note xml:id="chinese_cap7-n194" type="comm" target="quarantana/cap7.xml#c7_13880" targetEnd="quarantana/cap7.xml#c7_13889">
+                          为了熟悉地形，他整个上午都在村落周围转悠。</note>
+        <note xml:id="chinese_cap7-n195" type="comm" target="quarantana/cap7.xml#c7_13890" targetEnd="quarantana/cap7.xml#c7_13937">
+                          原来，那个使鬼计进入阿涅珊家破屋子的，乔装成乞丐的正是格里索本人，他是想窥探一下房屋的格局；那些伪 装的过路人则是他手下的喽罗，他们的行动得听从格里索的指挥， 故无须对阿涅珊家周围的地形进行过细的勘察。</note>
+        <note xml:id="chinese_cap7-n196" type="comm" target="quarantana/cap7.xml#c7_13938" targetEnd="quarantana/cap7.xml#c7_13951">
+                          为了不引起旁人 的怀疑，他们弄清了地形之后，就随即隐蔽起来。</note>
+        <note xml:id="chinese_cap7-n197" type="comm" target="quarantana/cap7.xml#c7_13952" targetEnd="quarantana/cap7.xml#c7_13972">
+                          待全部人员回到堂·罗德里戈家的宅第，格里索立即将调查来 的情况向其主子汇报，并定下了最后的行动方案，给手下的每个人 分配了任务，并且作了详细的指示。</note>
+        <note xml:id="chinese_cap7-n198" type="comm" target="quarantana/cap7.xml#c7_13973" targetEnd="quarantana/cap7.xml#c7_14000">
+                          然而，他们的一切行动却无法 躲过老仆人全神贯注的耳朵和警惕的眼睛。 他觉察到，他们正在 阴谋策划一桩事关重大的事情。</note>
+        <note xml:id="chinese_cap7-n199" type="comm" target="quarantana/cap7.xml#c7_14001" targetEnd="quarantana/cap7.xml#c7_14042">
+                          他凭借自己的警觉性，不时地探 问消息，把了解到的点点滴滴的情况积累起来，努力捕摹他们讲话 中某一个含意暧昧的字眼和每一个神秘的动作，终于弄明白了那 晚他们的行动计划。</note>
+        <note xml:id="chinese_cap7-n200" type="comm" target="quarantana/cap7.xml#c7_14043" targetEnd="quarantana/cap7.xml#c7_14067">
+                          可是等他摸清了情况，夜已深，几个担任探子 的打手已经动身前往那间倒塌的破屋子四周埋伏。 尽管可怜的老</note>
+        <note xml:id="chinese_cap7-n201" type="insertion">人清醒地意识到报信会冒巨大的风险，又担忧自己的努力到头来</note>
+        <note xml:id="chinese_cap7-n202" type="comm" target="quarantana/cap7.xml#c7_14068" targetEnd="quarantana/cap7.xml#c7_14116">
+                          恐怕只是一次洗如雨后送伞一样徒劳的尝试，但是他依然不愿错 失良机。 他借口去外面呼吸一点新鲜空气出了府邸，步履匆匆地 朝修道院走去，想按照事先的约定尽快把情况告诉克里斯托弗洛</note>
+        <note xml:id="chinese_cap7-n203" type="insertion">修士。</note>
+        <note xml:id="chinese_cap7-n204" type="comm" target="quarantana/cap7.xml#c7_14117" targetEnd="quarantana/cap7.xml#c7_14155">
+                          过了一会儿，其他的几个打手也三三两两地出门而去，格里 索走在最后，为的是不让旁人怀疑他们是同一伙去干坏事的人。 最后只剩下一乘轿子，那要待午夜之后才抬到那间破屋子里去，这 一件事他们后来也办妥了。</note>
+        <note xml:id="chinese_cap7-n205" type="comm" target="quarantana/cap7.xml#c7_14156" targetEnd="quarantana/cap7.xml#c7_14216">
+                          待全部人马在会合处集中之后，格里 索派三个打手去村子里的小酒铺；其中，一个守候在酒铺门口观察 街上的动静，等待所有的村民们回家安息；另外两个则伴奏过路的 主顾在酒铺里饮酒作乐，一面密切注视可能发生的意外情况。</note>
+        <note xml:id="chinese_cap7-n206" type="comm" target="quarantana/cap7.xml#c7_14217" targetEnd="quarantana/cap7.xml#c7_14225">
+                          至 于格里索本人，他带领主要人马埋伏在隐蔽处守候。</note>
+        <note xml:id="chinese_cap7-n207" type="comm" target="quarantana/cap7.xml#c7_14226" targetEnd="quarantana/cap7.xml#c7_14268">
+                          夕阳正徐徐下沉，可怜的老人依然在路上疾走，但此时几个探 子已经到达了预定的岗位。 这时，兰佐走进了阿涅珊家的屋子，对 她们说："托尼奥和吉尔瓦索在门外等我，我现在同他们一起去小</note>
+        <note xml:id="chinese_cap7-n208" type="insertion">酒铺里吃点东西，等晚钟一敲响，我们就来接你们。</note>
+        <note xml:id="chinese_cap7-n209" type="comm" target="quarantana/cap7.xml#c7_14269" targetEnd="quarantana/cap7.xml#c7_14276">
+                          记住，鲁齐娅， 勇敢一些！ 片刻功夫就完事了。"</note>
+        <note xml:id="chinese_cap7-n210" type="comm" target="quarantana/cap7.xml#c7_14277" targetEnd="quarantana/cap7.xml#c7_14288">
+                          鲁齐娅叹一口气后说："对，要勇敢一些"，但其语气显然有点言不由衷。</note>
+        <note xml:id="chinese_cap7-n211" type="comm" target="quarantana/cap7.xml#c7_14289" targetEnd="quarantana/cap7.xml#c7_14345">
+                          兰佐和他的两个伙伴走至小酒铺门口时，只见一个家伙背靠着门框，双臂交叉抱在胸前，像个哨兵一样堵住了半个门洞，一对凶狠的眼睛不停地朝左右两边东瞧西转，时而露出白眼珠，时而露出黑眼珠。</note>
+        <note xml:id="chinese_cap7-n212" type="comm" target="quarantana/cap7.xml#c7_14346" targetEnd="quarantana/cap7.xml#c7_14384">
+                          他头上歪戴着的一顶深红色丝绒扁帽，遮住了从中间一半分开盖过两耳编成几条小辫用梳状物固定在后颈部的额发。</note>
+        <note xml:id="chinese_cap7-n213" type="comm" target="quarantana/cap7.xml#c7_14385" targetEnd="quarantana/cap7.xml#c7_14419">
+                          他手上摆弄着一根粗大的棍子，除此之外他仿佛未带别的武器，但只消朝他的脸瞥一眼，即使小孩都能看出来，他身上藏着所有他想带上的真刀真枪。</note>
+        <note xml:id="chinese_cap7-n214" type="comm" target="quarantana/cap7.xml#c7_14420" targetEnd="quarantana/cap7.xml#c7_14490">
+                          走在头里的兰佐欲跨进小酒铺门槛时，那个家伙纹丝不动地站在那儿，两眼死死地盯住他看。 兰佐因手上有棘手的事情亟待去完成，故尽量避免与人争吵，装作未注意到他，甚至连"请让一下"也没有说，紧贴着门框的另一边，斜着身子侧着腰从那个家伙留出的狭小空档里钻了进去，他的两个伙伴也得采用同样的方法才能进得屋去。</note>
+        <note xml:id="chinese_cap7-n215" type="comm" target="quarantana/cap7.xml#c7_14491" targetEnd="quarantana/cap7.xml#c7_14541">
+                          走进了店堂，他们看见另外两个乞丐正坐在一张桌子边上玩猜拳游戏，并一起大声吆喝着(这一回，是因为这类游戏要求参加者这样做)，同时不断地拿起放在两人中间的一只很大的长颈大肚酒瓶往自己酒杯里倒酒。 事实上，这两个家伙正是格里索手下的喽罗，兰佐他们在进酒铺之前就听到了他</note>
+        <note xml:id="chinese_cap7-n216" type="comm" target="quarantana/cap7.xml#c7_14542" targetEnd="quarantana/cap7.xml#c7_14603">
+                          们的高声喧哗。 见兰佐他们三人走进店堂，他们瞪大着眼睛盯住他们看，其中一个伸出三个粗大的指头的手举在半空，一面张着嘴刚喊了一声"六六顺啊"，一面从头到脚仔细打量了一番兰佐，然后朝他的同伙挤了挤眼，接着又朝守在门口的另一个同伙眨了一下，那人马上向他点头作答。</note>
+        <note xml:id="chinese_cap7-n217" type="comm" target="quarantana/cap7.xml#c7_14604" targetEnd="quarantana/cap7.xml#c7_14635">
+                          兰佐心中顿时生疑，不安地望着那两个酒徒，似乎想从他们的脸部表情中找到他们所做的一连串神秘动作的含意，但是看到的只是他们在吃饱喝足后得意洋洋的神情。</note>
+        <note xml:id="chinese_cap7-n218" type="comm" target="quarantana/cap7.xml#c7_14636" targetEnd="quarantana/cap7.xml#c7_14660">
+                          店主看着兰佐的脸，等他吩咐，兰佐把他叫进旁边的另一间屋子，点了几只菜。</note>
+        <note xml:id="chinese_cap7-n219" type="comm" target="quarantana/cap7.xml#c7_14661" targetEnd="quarantana/cap7.xml#c7_14685">
+                          见店主掀下来着一块粗劣的台布，手上提着一个细颈大肚酒瓶走回来，兰佐忙问他："外间那几个陌生人是谁？"</note>
+        <note xml:id="chinese_cap7-n220" type="comm" target="quarantana/cap7.xml#c7_14686" targetEnd="quarantana/cap7.xml#c7_14693">
+                          "我不认识他们，"店主回答说，一面铺着台布。</note>
+        <note xml:id="chinese_cap7-n221" type="comm" target="quarantana/cap7.xml#c7_14694" targetEnd="quarantana/cap7.xml#c7_14697">
+                          "你说什么？ 连一个也不认识？"</note>
+        <note xml:id="chinese_cap7-n222" type="comm" target="quarantana/cap7.xml#c7_14698" targetEnd="quarantana/cap7.xml#c7_14736">
+                          "你也知道，"店主接着说，一面用手抚平铺在桌上的台布，"对于我们这一行的人来说，头一条规矩就是不过问客人的私事，连我们店主的老婆也不爱管闲事。 否则，我们可要遭殃了。</note>
+        <note xml:id="chinese_cap7-n223" type="comm" target="quarantana/cap7.xml#c7_14737" targetEnd="quarantana/cap7.xml#c7_14767">
+                          酒店犹如海港，每天来往的人特别多，当然我是指运上好年头的时候。 我们很乐观，深信好时光一定会回来。</note>
+        <note xml:id="chinese_cap7-n224" type="comm" target="quarantana/cap7.xml#c7_14768" targetEnd="quarantana/cap7.xml#c7_14785">
+                          对我们而言，来酒店的客人只要是正派人就行，至于他们是什么样的人或者不是什么样的人并不重要。</note>
+        <note xml:id="chinese_cap7-n225" type="comm" target="quarantana/cap7.xml#c7_14786" targetEnd="quarantana/cap7.xml#c7_14801">
+                          现在我马上给你端一盘炸丸子来，你过去肯定从未尝过。"</note>
+        <note xml:id="chinese_cap7-n226" type="comm" target="quarantana/cap7.xml#c7_14802" targetEnd="quarantana/cap7.xml#c7_14816">
+                          "你怎么会知道？ ......"兰佐继续问店主，可是他已边开腿朝厨房走去。</note>
+        <note xml:id="chinese_cap7-n227" type="comm" target="quarantana/cap7.xml#c7_14817" targetEnd="quarantana/cap7.xml#c7_14845">
+                          当店主从长柄平底锅里取出丸子的时候，那个曾仔细打量过兰佐的另徒悄悄地走至他跟前并低声问他："那几个客人是干什么的？"</note>
+        <note xml:id="chinese_cap7-n228" type="comm" target="quarantana/cap7.xml#c7_14846" targetEnd="quarantana/cap7.xml#c7_14857">
+                          "这儿村子里的良民百姓，"店主回答说，一面将丸子盛在盘子里。 "这个我懂。</note>
+        <note xml:id="chinese_cap7-n229" type="comm" target="quarantana/cap7.xml#c7_14858" targetEnd="quarantana/cap7.xml#c7_14871">
+                          他们叫什么名字？ 他们究竟是些什么人？" 另徒 粗暴无礼地追问他。"</note>
+        <note xml:id="chinese_cap7-n230" type="insertion">这些人是谁？"</note>
+        <note xml:id="chinese_cap7-n231" type="comm" target="quarantana/cap7.xml#c7_14872" targetEnd="quarantana/cap7.xml#c7_14923">
+                          他问道。 "一个名叫兰佐，"店主压低嗓门回答说，"一个守规矩的好小伙子，一个精通手艺的纺丝工；另一个是名叫托尼奥的农民，一个生性快活的老实人，可惜他口袋里没有钱，否则他会把钱全花在我的店里；还有一个是头脑简单的人，要是有谁请他，他可是个特能吃的人。</note>
+        <note xml:id="chinese_cap7-n232" type="comm" target="quarantana/cap7.xml#c7_14924" targetEnd="quarantana/cap7.xml#c7_14925">
+                          对不起，我得走开一会儿。"</note>
+        <note xml:id="chinese_cap7-n233" type="comm" target="quarantana/cap7.xml#c7_14926" targetEnd="quarantana/cap7.xml#c7_14945">
+                          说罢，他闪身从炉灶和发间者中间穿过，把托在手上的一盘丸子给兰佐送去。</note>
+        <note xml:id="chinese_cap7-n234" type="comm" target="quarantana/cap7.xml#c7_14946" targetEnd="quarantana/cap7.xml#c7_14961">
+                          见店主再次走进屋子，兰佐又问他："既然你不认识他们，你又怎么知道他们是正派人呢？"</note>
+        <note xml:id="chinese_cap7-n235" type="comm" target="quarantana/cap7.xml#c7_14962" targetEnd="quarantana/cap7.xml#c7_14969">
+                          "亲爱的朋友，这得从他们的举止去判断。 人们常说：知其人，必须观其行。</note>
+        <note xml:id="chinese_cap7-n236" type="comm" target="quarantana/cap7.xml#c7_14970" targetEnd="quarantana/cap7.xml#c7_15022">
+                          我只知道，正派人喝酒时不说三道四，付账时不讨价还价，用餐时不同其他客人争吵；如要对某人动刀子就到门外去等他，离酒店远远的，免得可怜的店主受牵连。</note>
+        <note xml:id="chinese_cap7-n237" type="comm" target="quarantana/cap7.xml#c7_15023" targetEnd="quarantana/cap7.xml#c7_15038">
+                          话又得说回来，要是像我们四个人那样能对彼此的情况了解得很清清楚楚当然更好。</note>
+        <note xml:id="chinese_cap7-n238" type="comm" target="quarantana/cap7.xml#c7_15039" targetEnd="quarantana/cap7.xml#c7_15067">
+                          真见鬼，你今天是新郎，问那么多干吗？ 这绝不是你头脑里该考虑的事情。 难道说盘子里的这些丸子能使一具僵尸复活不成？"</note>
+        <note xml:id="chinese_cap7-n239" type="comm" target="quarantana/cap7.xml#c7_15068" targetEnd="quarantana/cap7.xml#c7_15074">
+                          说罢，他又走回了厨房。</note>
+        <note xml:id="chinese_cap7-n240" type="comm" target="quarantana/cap7.xml#c7_15075" targetEnd="quarantana/cap7.xml#c7_15126">
+                          从店主在回答问题时采用的不同方式加以剖析，我们的佚名作者说，那个店主是那种连人便极力标榜自己是所有正派人好朋友的人，但实际上他一味讨好那些颐有声望或貌似恶棍的人。</note>
+        <note xml:id="chinese_cap7-n241" type="comm" target="quarantana/cap7.xml#c7_15127" targetEnd="quarantana/cap7.xml#c7_15130">
+                          这该是一种多么古怪的性格！</note>
+        <note xml:id="chinese_cap7-n242" type="comm" target="quarantana/cap7.xml#c7_15131" targetEnd="quarantana/cap7.xml#c7_15172">
+                          事实难道不正是如此吗？ 两个打手在异常沉闷的气氛中用完了晚餐，原本想舒舒服服地好好享受一番，但是请他们来用餐的、忧心忡忡的格里索却由于读者亦知道的原因，为那两位陌生人的异常举止感到恼火和不安，迫不及待地想早一些离店。</note>
+        <note xml:id="chinese_cap7-n243" type="comm" target="quarantana/cap7.xml#c7_15173" targetEnd="quarantana/cap7.xml#c7_15184">
+                          兰佐他们几个人窃窃低语，说的话断断续续，兴味索然。</note>
+        <note xml:id="chinese_cap7-n244" type="comm" target="quarantana/cap7.xml#c7_15185" targetEnd="quarantana/cap7.xml#c7_15202">
+                          "太好了，"吉尔瓦索喜地说道，"兰佐娶老婆，我们就得......"</note>
+        <note xml:id="chinese_cap7-n245" type="comm" target="quarantana/cap7.xml#c7_15203" targetEnd="quarantana/cap7.xml#c7_15208">
+                          兰佐恶狠狠地朝他瞪了一眼。"</note>
+        <note xml:id="chinese_cap7-n246" type="comm" target="quarantana/cap7.xml#c7_15209" targetEnd="quarantana/cap7.xml#c7_15221">
+                          蠢货，你不能闭上你的嘴吗？" 托尼 奥叮黄他说,并用胳膊肘轻轻捅了他一下。</note>
+        <note xml:id="chinese_cap7-n247" type="comm" target="quarantana/cap7.xml#c7_15222" targetEnd="quarantana/cap7.xml#c7_15230">
+                          之后,他们谈话的内容越发索然寡味。</note>
+        <note xml:id="chinese_cap7-n248" type="comm" target="quarantana/cap7.xml#c7_15231" targetEnd="quarantana/cap7.xml#c7_15260">
+                          兰佐吃得不多,喝得亦很少,只顾小心翼翼地给两个证人斟酒,使他们心情舒畅,但又不至于失去理智。</note>
+        <note xml:id="chinese_cap7-n249" type="comm" target="quarantana/cap7.xml#c7_15261" targetEnd="quarantana/cap7.xml#c7_15291">
+                          待店主收拾完桌子后,吃得最少的兰佐掏钱付了账,三人不得不再次从那几张脸面前走过,而那三个人像兰佐踏进酒铺时一样,都转过脸死死地盯住他。</note>
+        <note xml:id="chinese_cap7-n250" type="comm" target="quarantana/cap7.xml#c7_15292" targetEnd="quarantana/cap7.xml#c7_15329">
+                          走出酒铺没几步,兰佐猛回首,看到那两个原先坐在厨房里的家伙正在后面尾随着他。 他和他的两个伙伴停下脚步,他脸上的神情似乎在说:我倒要看看,他们究竟想拿我怎么样。</note>
+        <note xml:id="chinese_cap7-n251" type="comm" target="quarantana/cap7.xml#c7_15330" targetEnd="quarantana/cap7.xml#c7_15345">
+                          然而,那两个家伙发现有人在注意自己,也停住脚步窃窃私语了几句后从原路折回。</note>
+        <note xml:id="chinese_cap7-n252" type="comm" target="quarantana/cap7.xml#c7_15346" targetEnd="quarantana/cap7.xml#c7_15361">
+                          假如兰佐靠他们再近一些,也许能听清他们谈话的内容;那他定会觉得十分惊讶。"</note>
+        <note xml:id="chinese_cap7-n253" type="comm" target="quarantana/cap7.xml#c7_15362" targetEnd="quarantana/cap7.xml#c7_15400">
+                          除了能领到一笔赏金之外,这件事完全值得我们引以为自豪的,"恶棍中的一个说。" 回去后,我们可以对他们说,用不着枪里索先生坐在这儿督阵,我们在转眼之间就把他的肋骨全敲碎了。"</note>
+        <note xml:id="chinese_cap7-n254" type="comm" target="quarantana/cap7.xml#c7_15401" targetEnd="quarantana/cap7.xml#c7_15407">
+                          "这么干就坏大事了!"另一个恶棍接着说。"</note>
+        <note xml:id="chinese_cap7-n255" type="comm" target="quarantana/cap7.xml#c7_15408" targetEnd="quarantana/cap7.xml#c7_15417">
+                          你想,他一定发现了什么情况,所以才停住脚步看着我们。</note>
+        <note xml:id="chinese_cap7-n256" type="comm" target="quarantana/cap7.xml#c7_15418" targetEnd="quarantana/cap7.xml#c7_15428">
+                          唉!他要是再晚一点发现我们就好了!我们现在往回走,以免引起他的怀疑。</note>
+        <note xml:id="chinese_cap7-n257" type="comm" target="quarantana/cap7.xml#c7_15429" targetEnd="quarantana/cap7.xml#c7_15441">
+                          你看,四面八方都有人朝这里走来,等他们全进了窝,我们再从长计议。"</note>
+        <note xml:id="chinese_cap7-n258" type="comm" target="quarantana/cap7.xml#c7_15442" targetEnd="quarantana/cap7.xml#c7_15468">
+                          黄昏时分,村子里人声嘈杂,一片熙熙攘攘,但肃穆、静谧的夜晚即将来临。</note>
+        <note xml:id="chinese_cap7-n259" type="comm" target="quarantana/cap7.xml#c7_15469" targetEnd="quarantana/cap7.xml#c7_15507">
+                          村妇们怀里抱着孩子从田间走来,手上还牵着年龄较大一点的小孩,教他们念晚祷的经文;男人们肩上扛着铁锄和锄头走在妇女们的后面。</note>
+        <note xml:id="chinese_cap7-n260" type="comm" target="quarantana/cap7.xml#c7_15508" targetEnd="quarantana/cap7.xml#c7_15560">
+                          推开了屋门,他们看到,家里人为准备简单的晚餐而生起的炉火正发出闪闪的光亮,从街上不时传来互道晚安的问候声以及对撤收年田里庄稼长势情绪的抱怨声。 然而,人们听得更清楚的是响亮而富有节奏的钟声,它宣告了又一天即将过去。</note>
+        <note xml:id="chinese_cap7-n261" type="comm" target="quarantana/cap7.xml#c7_15561" targetEnd="quarantana/cap7.xml#c7_15589">
+                          此时暮色渐浓,兰佐见那两个形迹可疑的人转身往回走,便继续赶自己的路,不时低声对托尼奥兄弟两人叮嘱几句。</note>
+        <note xml:id="chinese_cap7-n262" type="comm" target="quarantana/cap7.xml#c7_15590" targetEnd="quarantana/cap7.xml#c7_15597">
+                          等他们赶到鲁齐娅的家时,天已全黑了。</note>
+        <note xml:id="chinese_cap7-n263" type="comm" target="quarantana/cap7.xml#c7_15598" targetEnd="quarantana/cap7.xml#c7_15627">
+                          正如一位不失为天才的野蛮人 所说：任何一项可怕的计划，从初次酝酿到付诸行动，整个过程就是一场充满鬼魂和恐惧的噩梦。</note>
+        <note xml:id="chinese_cap7-n264" type="comm" target="quarantana/cap7.xml#c7_15628" targetEnd="quarantana/cap7.xml#c7_15655">
+                          鲁齐娅正是在这样的噩梦中痛苦地熬过了好几个小时，即使是阿涅珊，虽然点子是她出的，但此时她也忧心如焚，找不到合适的话宽慰她的女儿。</note>
+        <note xml:id="chinese_cap7-n265" type="comm" target="quarantana/cap7.xml#c7_15656" targetEnd="quarantana/cap7.xml#c7_15672">
+                          尽管如此，到了该醒来的时候，即采取行动的时刻，她们的精神状态完全变了样。</note>
+        <note xml:id="chinese_cap7-n266" type="comm" target="quarantana/cap7.xml#c7_15673" targetEnd="quarantana/cap7.xml#c7_15740">
+                          除了原先心中相伴的恐惧和勇气以外，又产生了另一种不同的恐惧和勇气。 此时此刻，脑海中隐隐浮现的行动计划仿佛已面目全非：原先最担心的事情似乎骤然变得容易起来，而原先未引起注意的小事却成了无法逾越的障碍；想象中的一切又一次让人感到沮丧，四肢似乎不听使唤，原先信心十足时许下的诺言看来也无法再兑现。</note>
+        <note xml:id="chinese_cap7-n267" type="comm" target="quarantana/cap7.xml#c7_15741" targetEnd="quarantana/cap7.xml#c7_15826">
+                          听到兰佐轻轻的叩门声，鲁齐娅不禁毛骨悚然，她当即决定放弃原先的计划，忍受一切痛苦，从此同兰佐分道扬镳。 然后，当兰佐站在她的面前对她说："我回来了，咱们走吧，"当所有的人都显得毫不犹豫地准备出发去干一件早已决定和无法挽回的事情时，鲁齐娅既没有时间也没有力量从中阻挡。 她战战兢兢地一只手拉着母亲，另一只手揽着未婚夫的手臂，拖着沉重的步子，无奈地跟着他们一起去完成一项冒险的计划。</note>
+        <note xml:id="chinese_cap7-n268" type="comm" target="quarantana/cap7.xml#c7_15827" targetEnd="quarantana/cap7.xml#c7_15843">
+                          暮色中，他们迈着蹒跚的步子悄悄出了家门，走上了村外的那条小路。</note>
+        <note xml:id="chinese_cap7-n269" type="comm" target="quarantana/cap7.xml#c7_15844" targetEnd="quarantana/cap7.xml#c7_15864">
+                          虽然那条穿过村子的小路是一条捷径，而且直接通向堂·安保迪的家，但为了不让别人看见，他们没有走那一条路。</note>
+        <note xml:id="chinese_cap7-n270" type="comm" target="quarantana/cap7.xml#c7_15865" targetEnd="quarantana/cap7.xml#c7_15881">
+                          他们穿过菜园和田野，沿着乡间小道走到离神甫家那幢房子不远的地方停下，然后分成了两拨儿。</note>
+        <note xml:id="chinese_cap7-n271" type="comm" target="quarantana/cap7.xml#c7_15882" targetEnd="quarantana/cap7.xml#c7_15936">
+                          兰佐和鲁齐娅躲在房角的后面，阿涅珊站在稍前面，便于及时上去拦阻并缠住佩尔贝多亚；托尼奥带着杰罗头果脑的吉尔瓦索，鼓足勇气走上前去敲门，尽管吉尔瓦索一个 这里指的是苏士比亚，依尔泰这么称呼他是因为他阿黄莎士比亚违背了悲剧的传统准则。 什么也干不了，但少了他却什么都办不成。</note>
+        <note xml:id="chinese_cap7-n272" type="comm" target="quarantana/cap7.xml#c7_15937" targetEnd="quarantana/cap7.xml#c7_15955">
+                          "这么晚了，是谁啊？" 有人在窗户后面高声问道，同时推开了窗子，问话者正是佩尔贝多亚。"</note>
+        <note xml:id="chinese_cap7-n273" type="comm" target="quarantana/cap7.xml#c7_15956" targetEnd="quarantana/cap7.xml#c7_15961">
+                          据我所知，今天没有人生病。</note>
+        <note xml:id="chinese_cap7-n274" type="comm" target="quarantana/cap7.xml#c7_15962" targetEnd="quarantana/cap7.xml#c7_15966">
+                          是不是发生了什么不幸的意外？"</note>
+        <note xml:id="chinese_cap7-n275" type="comm" target="quarantana/cap7.xml#c7_15967" targetEnd="quarantana/cap7.xml#c7_15981">
+                          "是我，"托尼奥回答说，"我是同我弟弟一起来的，我们有事想对神甫先生说。"</note>
+        <note xml:id="chinese_cap7-n276" type="comm" target="quarantana/cap7.xml#c7_15982" targetEnd="quarantana/cap7.xml#c7_15991">
+                          "这么晚还来打搅他，你觉得合适吗？" 佩尔多亚粗暴无礼地问他，"简直太不像话了！</note>
+        <note xml:id="chinese_cap7-n277" type="comm" target="quarantana/cap7.xml#c7_15992" targetEnd="quarantana/cap7.xml#c7_15993">
+                          你们明天再来吧！"</note>
+        <note xml:id="chinese_cap7-n278" type="comm" target="quarantana/cap7.xml#c7_15994" targetEnd="quarantana/cap7.xml#c7_16036">
+                          "我来或不来并不重要，你先听我说：我柳里栳涂地弄到了一点钱，我是来还那一小笔债务的，这事你是清楚的。 我这里带来了二十五个崭新程亮的银币，要是你们不要就算了。 我知道该怎么花，等我多攒一点再来找你的主人。"</note>
+        <note xml:id="chinese_cap7-n279" type="comm" target="quarantana/cap7.xml#c7_16037" targetEnd="quarantana/cap7.xml#c7_16041">
+                          "等一下，你等一下，我去一下马上回来。</note>
+        <note xml:id="chinese_cap7-n280" type="comm" target="quarantana/cap7.xml#c7_16042" targetEnd="quarantana/cap7.xml#c7_16046">
+                          可你为什么选这个时候来呢？"</note>
+        <note xml:id="chinese_cap7-n281" type="comm" target="quarantana/cap7.xml#c7_16047" targetEnd="quarantana/cap7.xml#c7_16073">
+                          "这些钱我也是刚弄到手的，我对你说，我要是身上放着这些钱睡觉的话，不知道明天自己是否会改变主意。</note>
+        <note xml:id="chinese_cap7-n282" type="comm" target="quarantana/cap7.xml#c7_16074" targetEnd="quarantana/cap7.xml#c7_16095">
+                          不过，假如你不喜欢我这个时候来，我没话可说。 反正我人已经来了，倘若你不乐意，我可以走。"</note>
+        <note xml:id="chinese_cap7-n283" type="comm" target="quarantana/cap7.xml#c7_16096" targetEnd="quarantana/cap7.xml#c7_16104">
+                          "不，不，你稍等片刻，待我问过主人后就回来。"</note>
+        <note xml:id="chinese_cap7-n284" type="comm" target="quarantana/cap7.xml#c7_16105" targetEnd="quarantana/cap7.xml#c7_16109">
+                          说罢，她随即将窗户关上。</note>
+        <note xml:id="chinese_cap7-n285" type="comm" target="quarantana/cap7.xml#c7_16110" targetEnd="quarantana/cap7.xml#c7_16169">
+                          这时，阿涅珊从兰佐和鲁齐娅身边走开，一面低声对鲁齐娅说："大胆一点，一会儿就完了，就好像拔牙一样。" 她走上前同托尼奥兄弟两人一起站在大门口，并和托尼奥攀谈起来，为的是让佩尔贝多亚前来开门时误以为她是偶然路过，是托尼奥叫住她，想和她聊上几句。</note>
+      </div>
+    </body>
+  </text>
+</TEI>

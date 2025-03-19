@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>第十章</title>
+        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Me">Me</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>孟佐尼</author>
+          <title>约婚夫妇</title>
+          <pubPlace>南京</pubPlace>
+          <publisher>译林出版社</publisher>
+          <date>1998</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Me" when="2025-03-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Chinese_1998.xml_cap10">
+        <note xml:id="chinese_cap10-n1" type="comm" target="quarantana/cap10.xml#c10_10001" targetEnd="quarantana/cap10.xml#c10_10055">
+                           人们，尤其是年轻人，有时只需零零数语就能使他们接受你的恳请，诚心诚意地去完成一些在他们看来富有自我牺牲精神的善举，正如一朵刚刚绽开的鲜花，温顺地平卧在纤细的花梗上，一经微风吹拂就散发出沁人心脾的芳香。</note>
+        <note xml:id="chinese_cap10-n2" type="comm" target="quarantana/cap10.xml#c10_10056" targetEnd="quarantana/cap10.xml#c10_10086">
+                          这一类善举本该赢得人们的钦佩和敬重，而怀有私心的狡诈者虎视眈眈地窥测已久，一旦抓住时机就在不经意中将他人的意愿置于自己的控制之下。</note>
+        <note xml:id="chinese_cap10-n3" type="comm" target="quarantana/cap10.xml#c10_10087" targetEnd="quarantana/cap10.xml#c10_10104">
+                          当亲王阅读那封信的时候，似乎看到了实现自己多年来梦寐以求的心愿的光明希望。</note>
+        <note xml:id="chinese_cap10-n4" type="comm" target="quarantana/cap10.xml#c10_10105" targetEnd="quarantana/cap10.xml#c10_10123">
+                          他派人通知吉尔德鲁黛前去见他，一面等待她的到来，一面在心中已作好了趁热打铁的准备。</note>
+        <note xml:id="chinese_cap10-n5" type="comm" target="quarantana/cap10.xml#c10_10124" targetEnd="quarantana/cap10.xml#c10_10147">
+                          吉尔德鲁黛一见到她父亲，连眼皮也未抬就跪倒在他的双脚前，用十分纤弱的声音说："请宽恕我！"</note>
+        <note xml:id="chinese_cap10-n6" type="comm" target="quarantana/cap10.xml#c10_10148" targetEnd="quarantana/cap10.xml#c10_10193">
+                          他示意她站起来，但语气十分严厉地回答说，仅仅是求和希望得到宽恕是不够的，因为对于任何犯了错误又惧怕受到惩罚的人来说，要求得到宽恕未免过于舒服、过于便宜了，他得拿出实际行动去获取他人的原谅。</note>
+        <note xml:id="chinese_cap10-n7" type="comm" target="quarantana/cap10.xml#c10_10194" targetEnd="quarantana/cap10.xml#c10_10202">
+                          听此言，吉尔德鲁黛禁不禁全身哆嗦，她低声地询问她该怎么做。</note>
+        <note xml:id="chinese_cap10-n8" type="comm" target="quarantana/cap10.xml#c10_10203" targetEnd="quarantana/cap10.xml#c10_10247">
+                          亲王（此时此刻，我们实在觉得他有亏于父亲的称谓）没有正面回答她，而是开始喋喋不休地数落起她的过错，字字句句刺痛着可怜姑娘的心，好似一只粗糙不堪的手在触摸伤口一样。</note>
+        <note xml:id="chinese_cap10-n9" type="comm" target="quarantana/cap10.xml#c10_10248" targetEnd="quarantana/cap10.xml#c10_10299">
+                          他接着又说，他以前曾经也······产生过给她俗家身分的打算，是她为自己设置了一道无法逾越的障碍，因为像他这样一个受人尊敬的贵族老爷，绝不可能将自己品行不端的女儿许配给哪位绅士。 可怜的吉尔德鲁黛静心聆听着他的训 床,无言以对。</note>
+        <note xml:id="chinese_cap10-n10" type="comm" target="quarantana/cap10.xml#c10_10300" targetEnd="quarantana/cap10.xml#c10_10365">
+                          亲王继续往下说,但语气和措辞变得越来越缓和： 任何过错都有补救的方法,也能获得他人的宽恕;而改正她铸成的 错误的方法再清楚不过了,那就是她应该将这件令人痛心的事情 视作训诫,懂得生活对她来说充满了太多的危险……</note>
+        <note xml:id="chinese_cap10-n11" type="comm" target="quarantana/cap10.xml#c10_10366" targetEnd="quarantana/cap10.xml#c10_10384">
+                          "对的,是这样!"吉尔德鲁黛大声感叹道,羞愧和羞惭使她不 能自己,融融的温情在那一瞬间占据了她整个的心灵。</note>
+        <note xml:id="chinese_cap10-n12" type="comm" target="quarantana/cap10.xml#c10_10385" targetEnd="quarantana/cap10.xml#c10_10393">
+                          "啊! 原来你也懂得这个道理,"亲王随即插话说,"很好,我们</note>
+        <note xml:id="chinese_cap10-n13" type="comm" target="quarantana/cap10.xml#c10_10394" targetEnd="quarantana/cap10.xml#c10_10403">
+                          不要再提起已过去的往事,一切都已结束了。</note>
+        <note xml:id="chinese_cap10-n14" type="comm" target="quarantana/cap10.xml#c10_10404" targetEnd="quarantana/cap10.xml#c10_10452">
+                          你已作出了一种对 你来说唯一体面、合适的选择,既然你这么自觉和诚恳,我定当竭 尽全力促成此事,让你愉快地完成自己的使命,重新得到优惠的待 遇和欢乐的生活。</note>
+        <note xml:id="chinese_cap10-n15" type="comm" target="quarantana/cap10.xml#c10_10453" targetEnd="quarantana/cap10.xml#c10_10457">
+                          我会妥善地处理好这件事。"</note>
+        <note xml:id="chinese_cap10-n16" type="comm" target="quarantana/cap10.xml#c10_10458" targetEnd="quarantana/cap10.xml#c10_10478">
+                          说至此,他拿起小 桌子上的小铃摇了几下,并对进来的仆人说:"你去把夫人和公子 立刻叫来。"</note>
+        <note xml:id="chinese_cap10-n17" type="comm" target="quarantana/cap10.xml#c10_10479" targetEnd="quarantana/cap10.xml#c10_10501">
+                          然后,他又接着对吉尔德鲁黛说,"我想让他们和我共 同分享这份快乐,我要所有的人从现在起就开始按照应有的礼节 对待你。</note>
+        <note xml:id="chinese_cap10-n18" type="comm" target="quarantana/cap10.xml#c10_10502" targetEnd="quarantana/cap10.xml#c10_10517">
+                          以前,你只知道我对你过于严厉,但从现在起,你将发现 我是一位温柔慈祥的父亲。"</note>
+        <note xml:id="chinese_cap10-n19" type="comm" target="quarantana/cap10.xml#c10_10518" targetEnd="quarantana/cap10.xml#c10_10524">
+                          闻听此言,吉尔德鲁黛呆若木鸡。 她心想,那一句自己脱口而</note>
+        <note xml:id="chinese_cap10-n20" type="comm" target="quarantana/cap10.xml#c10_10525" targetEnd="quarantana/cap10.xml#c10_10578">
+                          出的话"对的,是这样"怎么会产生如此巨大的效应,她试图收回这 句话,或者至少将它的含意限制在一定的范围之内。 但是亲王对 她的表态似乎深信不疑,隐藏在他心中的喜悦明显若揭,所表现出</note>
+        <note xml:id="chinese_cap10-n21" type="insertion">来的仁慈带有很大的制约性,吉尔德鲁黛不敢言语,生怕自己的丝</note>
+        <note xml:id="chinese_cap10-n22" type="comm" target="quarantana/cap10.xml#c10_10579" targetEnd="quarantana/cap10.xml#c10_10596">
+                          毫不慎会惹他生气。 没过多久,她的母亲和哥哥应召走进了屋子,见吉尔德鲁黛也 在那里,不免望着她的脸,目光里充满疑惑和诧异。</note>
+        <note xml:id="chinese_cap10-n23" type="comm" target="quarantana/cap10.xml#c10_10597" targetEnd="quarantana/cap10.xml#c10_10625">
+                          但是,亲王脸 上的表情既愉快又和蔼,似乎在暗示他们采取同样的态度,他说: "我家的'迷途羔羊'回来了,但愿从今往后再也无人会提及那件 事,重新唤醒令人悲伤的记忆。</note>
+        <note xml:id="chinese_cap10-n24" type="comm" target="quarantana/cap10.xml#c10_10626" targetEnd="quarantana/cap10.xml#c10_10630">
+                          我们全家人都为之深感欣慰。</note>
+        <note xml:id="chinese_cap10-n25" type="comm" target="quarantana/cap10.xml#c10_10631" targetEnd="quarantana/cap10.xml#c10_10648">
+                          吉 尔德鲁黛不再需要任何劝说,她自己已表示愿意接受我们出于好 意希望她选择的生活道路。</note>
+        <note xml:id="chinese_cap10-n26" type="comm" target="quarantana/cap10.xml#c10_10649" targetEnd="quarantana/cap10.xml#c10_10686">
+                          她已经下定了决心,并向我表明了态度......"这时,吉尔德鲁黛抬起眼睛,朝她父亲投去充满恐惧和哀怜的一瞥,好似在恳请他不要再往下说,但是他却继续从容不迫地说:"她已决定出家修行。"</note>
+        <note xml:id="chinese_cap10-n27" type="comm" target="quarantana/cap10.xml#c10_10687" targetEnd="quarantana/cap10.xml#c10_10717">
+                          "好极了！ 你做得对!"母子二人异口同声地说,并一一与她拥抱。 她眼里噙着泪水接受了他们的祝贺,而他们还以为那是宽慰的表示。</note>
+        <note xml:id="chinese_cap10-n28" type="comm" target="quarantana/cap10.xml#c10_10718" targetEnd="quarantana/cap10.xml#c10_10736">
+                          亲王乘机不厌其烦地向他们叙述自己将如何使其女儿有一个幸福,灿烂的未来。</note>
+        <note xml:id="chinese_cap10-n29" type="comm" target="quarantana/cap10.xml#c10_10737" targetEnd="quarantana/cap10.xml#c10_10776">
+                          他说:在修道院和蒙扎城里她将享有特殊的荣誉,她将作为家族的代表过着像公主一般的生活;待她到了适当的年龄,她将成为女修道院院长,在那之前,她不过名义上是院长的下属而已。</note>
+        <note xml:id="chinese_cap10-n30" type="comm" target="quarantana/cap10.xml#c10_10777" targetEnd="quarantana/cap10.xml#c10_10796">
+                          亲王和公子不时地鼓掌向她表示祝贺,而这一切对于吉尔德鲁黛来说,都恍如梦境一般。</note>
+        <note xml:id="chinese_cap10-n31" type="comm" target="quarantana/cap10.xml#c10_10797" targetEnd="quarantana/cap10.xml#c10_10817">
+                          "我们最好定下去蒙扎向女修道院院长呈递申请的日子,"亲王接着说,"她一定会非常的高兴！</note>
+        <note xml:id="chinese_cap10-n32" type="comm" target="quarantana/cap10.xml#c10_10818" targetEnd="quarantana/cap10.xml#c10_10831">
+                          我可以告诉你们,修道院里所有的神职人员都会感激吉尔德鲁黛给他们带来的荣誉。</note>
+        <note xml:id="chinese_cap10-n33" type="comm" target="quarantana/cap10.xml#c10_10832" targetEnd="quarantana/cap10.xml#c10_10837">
+                          对了......我们为什么不今天就去呢？</note>
+        <note xml:id="chinese_cap10-n34" type="comm" target="quarantana/cap10.xml#c10_10838" targetEnd="quarantana/cap10.xml#c10_10843">
+                          吉尔德鲁黛也可到户外呼吸一点新鲜空气。"</note>
+        <note xml:id="chinese_cap10-n35" type="comm" target="quarantana/cap10.xml#c10_10844" targetEnd="quarantana/cap10.xml#c10_10848">
+                          "那我们走吧,"亲王夫人说道。</note>
+        <note xml:id="chinese_cap10-n36" type="comm" target="quarantana/cap10.xml#c10_10849" targetEnd="quarantana/cap10.xml#c10_10856">
+                          "我去让他们备好马车,"公子接着说。</note>
+        <note xml:id="chinese_cap10-n37" type="comm" target="quarantana/cap10.xml#c10_10857" targetEnd="quarantana/cap10.xml#c10_10860">
+                          "可是......"吉尔德鲁黛细声细语地想说些什么。</note>
+        <note xml:id="chinese_cap10-n38" type="comm" target="quarantana/cap10.xml#c10_10861" targetEnd="quarantana/cap10.xml#c10_10884">
+                          "且慢,且慢,"亲王打断他们的话说,"我们该由她自己决定,她也许觉得今天不太合适,希望等到明天再去。</note>
+        <note xml:id="chinese_cap10-n39" type="comm" target="quarantana/cap10.xml#c10_10885" targetEnd="quarantana/cap10.xml#c10_10891">
+                          你告诉我,你愿意今天去还是明天去？"</note>
+        <note xml:id="chinese_cap10-n40" type="comm" target="quarantana/cap10.xml#c10_10892" targetEnd="quarantana/cap10.xml#c10_10910">
+                          "明天,"吉尔德鲁黛软弱无力地回答说,她觉得这么做她至少还有一点考虑的余地。</note>
+        <note xml:id="chinese_cap10-n41" type="comm" target="quarantana/cap10.xml#c10_10911" targetEnd="quarantana/cap10.xml#c10_10921">
+                          "明天,"亲王语气庄重地宣布说,"她决定明天去。</note>
+        <note xml:id="chinese_cap10-n42" type="comm" target="quarantana/cap10.xml#c10_10922" targetEnd="quarantana/cap10.xml#c10_10934">
+                          与此同时,我去找一下修女代理主教,同他一起商定考核的日子。"</note>
+        <note xml:id="chinese_cap10-n43" type="comm" target="quarantana/cap10.xml#c10_10935" targetEnd="quarantana/cap10.xml#c10_10959">
+                          说罢,亲王随即走出屋子,果真屈尊前去约见代理主教,并同他商榷后决定在 两天之后进行考核。</note>
+        <note xml:id="chinese_cap10-n44" type="comm" target="quarantana/cap10.xml#c10_10960" targetEnd="quarantana/cap10.xml#c10_10973">
+                          在那一天剩下的时间里，吉尔德鲁黛的心绪无法得以安宁。</note>
+        <note xml:id="chinese_cap10-n45" type="comm" target="quarantana/cap10.xml#c10_10974" targetEnd="quarantana/cap10.xml#c10_11025">
+                          她多么企盼有充分的时间让她平息纷乱的心情，理顺思路，回顾自己的所作所为，进而决定以后该做的事情；她多么希望有足够的空间让她仔细考虑一下自己真正想要的是什么，让那部刚起动就飞速转动的机器暂且停下来。</note>
+        <note xml:id="chinese_cap10-n46" type="comm" target="quarantana/cap10.xml#c10_11026" targetEnd="quarantana/cap10.xml#c10_11034">
+                          然而，她已无回天之力，一连串相互牵连的事情纷至沓来，没完没了地打扰她。</note>
+        <note xml:id="chinese_cap10-n47" type="comm" target="quarantana/cap10.xml#c10_11035" targetEnd="quarantana/cap10.xml#c10_11058">
+                          亲王离家后，吉尔德鲁黛就被她母亲带到房内，并在她的指导下，让她自己的贴身女仆替吉尔德鲁黛梳洗更衣。</note>
+        <note xml:id="chinese_cap10-n48" type="comm" target="quarantana/cap10.xml#c10_11059" targetEnd="quarantana/cap10.xml#c10_11072">
+                          还未等梳妆完毕，仆人前来襄报，筵席已准备停当。</note>
+        <note xml:id="chinese_cap10-n49" type="comm" target="quarantana/cap10.xml#c10_11073" targetEnd="quarantana/cap10.xml#c10_11116">
+                          在去餐厅的路上，仆人们纷纷向她躬身行礼，仿佛在为她病体康复表示祝贺似的。 除外，她还见到好多被匆匆请来的亲朋至友，和她共庆恢复健康和宣布出家的两件喜事。</note>
+        <note xml:id="chinese_cap10-n50" type="comm" target="quarantana/cap10.xml#c10_11117" targetEnd="quarantana/cap10.xml#c10_11156">
+                          按当时的习俗，即将出家修行的姑娘被人称为"新人"，故当她一走进屋子，所有的人都这般称呼她。 面对客人们接连不断的恭维之词，她应接不暇，只得连连致谢作答。</note>
+        <note xml:id="chinese_cap10-n51" type="comm" target="quarantana/cap10.xml#c10_11157" targetEnd="quarantana/cap10.xml#c10_11173">
+                          她心中明了，她的每一个回答都意味着承诺和默认，可是除此之外她又能说些什么呢？</note>
+        <note xml:id="chinese_cap10-n52" type="comm" target="quarantana/cap10.xml#c10_11174" targetEnd="quarantana/cap10.xml#c10_11182">
+                          膳毕后不久，到了坐马车去户外游览的时候了。</note>
+        <note xml:id="chinese_cap10-n53" type="comm" target="quarantana/cap10.xml#c10_11183" targetEnd="quarantana/cap10.xml#c10_11197">
+                          吉尔德鲁黛同她母亲及两位被邀共同进午餐的舅舅乘坐一辆四轮马车。</note>
+        <note xml:id="chinese_cap10-n54" type="comm" target="quarantana/cap10.xml#c10_11198" targetEnd="quarantana/cap10.xml#c10_11233">
+                          马车沿着往常的路线转了一圈之后，拐入马利纳大街，朝着如今是公园的空地驶去，劳累了一天的绅士们经常去那里消遣解闷。</note>
+        <note xml:id="chinese_cap10-n55" type="insertion">正因为那天是一个具有特殊意义的日子，她的两位舅舅也同她娓娓而谈。</note>
+        <note xml:id="chinese_cap10-n56" type="comm" target="quarantana/cap10.xml#c10_11234" targetEnd="quarantana/cap10.xml#c10_11321">
+                          相比之下，其中的一位似乎对每张脸，每个仆人及每辆驶过的马车无不了如指掌，见到坐在马车里的每一个绅士和太太他都要评论一番。 蓦然间，他回首对吉尔德鲁黛说："啊，你这个机灵的小姑娘！ 你从此与尘世间所有愚蠢的事情毫无牵连，你真是聪明过人。 你眼看着我们这些可怜的世俗夫子深陷困境，自己却过起清静，安逸的生活，然后坐着马车进入天国。"</note>
+        <note xml:id="chinese_cap10-n57" type="comm" target="quarantana/cap10.xml#c10_11322" targetEnd="quarantana/cap10.xml#c10_11342">
+                          那一天，他们很晚才回到家。 仆人们手持火把匆忙赶来通报。 说是有许多客人正等着求见。</note>
+        <note xml:id="chinese_cap10-n58" type="comm" target="quarantana/cap10.xml#c10_11343" targetEnd="quarantana/cap10.xml#c10_11358">
+                          有关吉尔德鲁黛出家的消息不胫而走，亲戚朋友纷纷前来祝贺。</note>
+        <note xml:id="chinese_cap10-n59" type="comm" target="quarantana/cap10.xml#c10_11359" targetEnd="quarantana/cap10.xml#c10_11372">
+                          他们走进了客厅，吉尔德鲁黛无形中成了他们崇拜的对象、一个玩偶和受害者。</note>
+        <note xml:id="chinese_cap10-n60" type="comm" target="quarantana/cap10.xml#c10_11373" targetEnd="quarantana/cap10.xml#c10_11417">
+                          所有的客人都想拖住她聊上几句；有的人要她许诺以后给他们送一些修道院制作的甜食；有的人答应常去探望她；有的人对她说某某院长嬷嬷是他的亲戚；有的人告诉她，某某院长嬷嬷是他的朋友；有的人赞扬蒙扎温和宜人的气候；有的人则眉飞色舞地预言，她定将成为修道院里一位了不起的人物。</note>
+        <note xml:id="chinese_cap10-n61" type="comm" target="quarantana/cap10.xml#c10_11418" targetEnd="quarantana/cap10.xml#c10_11447">
+                          其余的客人见吉尔德鲁黛置身在重重包围之中无法靠近她，就站在一边等待机会接近她，直至同她应酬几句才善罢甘休。</note>
+        <note xml:id="chinese_cap10-n62" type="comm" target="quarantana/cap10.xml#c10_11448" targetEnd="quarantana/cap10.xml#c10_11469">
+                          过后，客人们逐渐散去，离开时个个心满意足，客厅里只剩下吉尔德鲁黛和她的父母，兄长。</note>
+        <note xml:id="chinese_cap10-n63" type="comm" target="quarantana/cap10.xml#c10_11470" targetEnd="quarantana/cap10.xml#c10_11485">
+                          亲王欣慰地说："我终于满意地看到我的女儿赢得了大家应有的尊重。</note>
+        <note xml:id="chinese_cap10-n64" type="comm" target="quarantana/cap10.xml#c10_11486" targetEnd="quarantana/cap10.xml#c10_11514">
+                          当然，我得承认，她的表现也相当得体。 她的举止行动表明，她将顺利地当上女修道院院长，并以此来维护我们家族的尊严。"</note>
+        <note xml:id="chinese_cap10-n65" type="comm" target="quarantana/cap10.xml#c10_11515" targetEnd="quarantana/cap10.xml#c10_11528">
+                          他们匆匆用罢晚餐后立即回房休息，以便翌日上午早早动身。</note>
+        <note xml:id="chinese_cap10-n66" type="comm" target="quarantana/cap10.xml#c10_11529" targetEnd="quarantana/cap10.xml#c10_11585">
+                          吉尔德鲁黛忧郁寡欢，面带愧色，但与此同时，连篇的溢美之词又使她略感得意。 此时此刻，她不禁又想起自己由那个女仆看管时心灵上蒙受的痛苦，见父亲除了那一件事情之外什么都愿意 满足她，便决定利用这一最佳的时机替自己出气，至少可以减轻一些那个女仆在精神上给她带来的莫大痛苦。</note>
+        <note xml:id="chinese_cap10-n67" type="comm" target="quarantana/cap10.xml#c10_11586" targetEnd="quarantana/cap10.xml#c10_11599">
+                          她表示极其讨厌那个女仆，绝不愿意同她继续呆在一起。</note>
+        <note xml:id="chinese_cap10-n68" type="comm" target="quarantana/cap10.xml#c10_11600" targetEnd="quarantana/cap10.xml#c10_11608">
+                          "什么！" 亲王大声说，"她竟敢不尊重你！</note>
+        <note xml:id="chinese_cap10-n69" type="comm" target="quarantana/cap10.xml#c10_11609" targetEnd="quarantana/cap10.xml#c10_11616">
+                          明天我就去好好教训她一顿。</note>
+        <note xml:id="chinese_cap10-n70" type="comm" target="quarantana/cap10.xml#c10_11617" targetEnd="quarantana/cap10.xml#c10_11631">
+                          这件事你就交给我，我要让她明白你是什么人，而她又是个什么人。</note>
+        <note xml:id="chinese_cap10-n71" type="comm" target="quarantana/cap10.xml#c10_11632" targetEnd="quarantana/cap10.xml#c10_11651">
+                          不管怎么说，我为有你这样的女儿而感到自豪，你厌恶的人不该留在你的身边。"</note>
+        <note xml:id="chinese_cap10-n72" type="comm" target="quarantana/cap10.xml#c10_11652" targetEnd="quarantana/cap10.xml#c10_11688">
+                          说罢，他让人唤来另一位女仆，吩咐她好生侍候吉尔德鲁黛。 在回味和品尝自己的要求得到满足后的欢愉时，吉尔德鲁黛惊悚地发现，与自己何机报复的强烈愿望相比，她得到的那份满足显得微平其微。</note>
+        <note xml:id="chinese_cap10-n73" type="comm" target="quarantana/cap10.xml#c10_11689" targetEnd="quarantana/cap10.xml#c10_11743">
+                          不管她自己是否愿意承认，在那一天中，有一个想法占据了她整个的心灵：她在通向修道院的路上已经跨出了很大的一步，此时若还想收回承诺得需要有比数日前大得多的力量和勇气，而即使在当时，她自感已无回天之力。</note>
+        <note xml:id="chinese_cap10-n74" type="comm" target="quarantana/cap10.xml#c10_11744" targetEnd="quarantana/cap10.xml#c10_11788">
+                          送她回房的女仆是她家里的一位老佣人，自她长兄离开襁褓之后，她就开始负责照料他的生活，直至他长大成人。 她在他的身上寄托了她所有的欢愉、希冀和美好的梦想。</note>
+        <note xml:id="chinese_cap10-n75" type="comm" target="quarantana/cap10.xml#c10_11789" targetEnd="quarantana/cap10.xml#c10_11872">
+                          亲王那一天的决定使她顿感欣慰，仿佛觉得自己交上了好运。 对吉尔德鲁黛而言，经过了一天的劳累，她还得忍着性子接受女仆的恭贺、赞美和规劝，听她讲述有关她的那些当修女的姑妈和叔祖母的故事。 据女仆介绍：她们在女修道院里生活得很幸福，因为她们出身名门，深得他人的尊敬；她们一直巧妙地同外界保持着联系，在修道院的会客室里她们得到了不少地位显赫的贵夫人在自家客厅里无法得到的东西。</note>
+        <note xml:id="chinese_cap10-n76" type="comm" target="quarantana/cap10.xml#c10_11873" targetEnd="quarantana/cap10.xml#c10_11911">
+                          她还对吉尔德鲁黛说，以后将有一些客人去修道院拜访她。 毋容置疑，有一天她的长兄将携妻前去探望她，新娘肯定是一位名门闺秀，届时整个修道院，乃至整座小城里定会热闹非凡。</note>
+        <note xml:id="chinese_cap10-n77" type="comm" target="quarantana/cap10.xml#c10_11912" targetEnd="quarantana/cap10.xml#c10_11928">
+                          女仆一边讲一边替吉尔德鲁黛宽衣，侍候她上床时嘴里仍然喋喋不休地讲着，直至她入睡，她还在说。</note>
+        <note xml:id="chinese_cap10-n78" type="comm" target="quarantana/cap10.xml#c10_11929" targetEnd="quarantana/cap10.xml#c10_11970">
+                          尽管如此，年轻和困倦压倒了她心中的忧虑，梦境中的她惊恐不安，悲伤叹息，直至女仆催她赶快起 床准备去蒙扎的尖叫声将她惊醒。</note>
+        <note xml:id="chinese_cap10-n79" type="comm" target="quarantana/cap10.xml#c10_11971" targetEnd="quarantana/cap10.xml#c10_11988">
+                          "该起床了，小姐，该起床了！ 天已亮了，我至少得花一个小时替你梳洗更衣。</note>
+        <note xml:id="chinese_cap10-n80" type="comm" target="quarantana/cap10.xml#c10_11989" targetEnd="quarantana/cap10.xml#c10_12001">
+                          亲王夫人现正在梳妆，她们比往常早四个小时就叫醒了她。</note>
+        <note xml:id="chinese_cap10-n81" type="comm" target="quarantana/cap10.xml#c10_12002" targetEnd="quarantana/cap10.xml#c10_12021">
+                          少爷下楼去了马厩后已经回来，吩咐我们随时准备出发。</note>
+        <note xml:id="chinese_cap10-n82" type="comm" target="quarantana/cap10.xml#c10_12022" targetEnd="quarantana/cap10.xml#c10_12043">
+                          他动作如野兔子一样敏捷，真是个机灵的小鬼！ 他自小就十分倔强，我一手将他领大，对他的性格我最清楚不过了。</note>
+        <note xml:id="chinese_cap10-n83" type="comm" target="quarantana/cap10.xml#c10_12044" targetEnd="quarantana/cap10.xml#c10_12062">
+                          既然他已一切准备就绪，我们就不该让他等在那里。 虽说他是世上最善良的孩子，但他要是失去了耐心，也会发火的。</note>
+        <note xml:id="chinese_cap10-n84" type="comm" target="quarantana/cap10.xml#c10_12063" targetEnd="quarantana/cap10.xml#c10_12083">
+                          可怜的孩子，我们得理解他，这是他的脾气。 再说，这一回他要是使性子有他一定的道理，他是在为你辛苦为你忙碌。</note>
+        <note xml:id="chinese_cap10-n85" type="comm" target="quarantana/cap10.xml#c10_12084" targetEnd="quarantana/cap10.xml#c10_12100">
+                          你如果在这种时候惹他生气，那你就倒霉了！ 除了老爷一人之外，谁都不在他的眼里。</note>
+        <note xml:id="chinese_cap10-n86" type="comm" target="quarantana/cap10.xml#c10_12101" targetEnd="quarantana/cap10.xml#c10_12114">
+                          可是总有一天，他自己将成为老爷，但愿这一天早日来到。</note>
+        <note xml:id="chinese_cap10-n87" type="comm" target="quarantana/cap10.xml#c10_12115" targetEnd="quarantana/cap10.xml#c10_12117">
+                          快一点，快一点，小姐！</note>
+        <note xml:id="chinese_cap10-n88" type="comm" target="quarantana/cap10.xml#c10_12118" targetEnd="quarantana/cap10.xml#c10_12122">
+                          你干吗望着我发愣？</note>
+        <note xml:id="chinese_cap10-n89" type="comm" target="quarantana/cap10.xml#c10_12123" targetEnd="quarantana/cap10.xml#c10_12129">
+                          这个时候你早就该下床了。"</note>
+        <note xml:id="chinese_cap10-n90" type="comm" target="quarantana/cap10.xml#c10_12130" targetEnd="quarantana/cap10.xml#c10_12156">
+                          她见长情绪急躁时的模样以及她被唤醒时涌上心头的万千思绪，好似见到大营后的一群麻雀顷刻间纷纷拍翅飞走了。</note>
+        <note xml:id="chinese_cap10-n91" type="comm" target="quarantana/cap10.xml#c10_12157" targetEnd="quarantana/cap10.xml#c10_12176">
+                          吉尔德鲁黛一言不语地匆匆穿上衣服，顺从地让女仆替她梳头，然后走进会客厅，其父母和兄长早已在那里等候。</note>
+        <note xml:id="chinese_cap10-n92" type="comm" target="quarantana/cap10.xml#c10_12177" targetEnd="quarantana/cap10.xml#c10_12209">
+                          他们让她坐在一张带扶手的椅子上，仆人给她端来一杯巧克力羹，这一非同寻常的恩赐其意义在当时就好比古罗马时代给刚满十八岁的成年男子授长袍一样。</note>
+        <note xml:id="chinese_cap10-n93" type="comm" target="quarantana/cap10.xml#c10_12210" targetEnd="quarantana/cap10.xml#c10_12237">
+                          仆人们前来禀报，说马已套在车辕上，亲王把女儿叫到一边对她说："你听我说，吉尔德鲁黛，昨天你为自己争得了荣誉，今天你该努力超越自我。</note>
+        <note xml:id="chinese_cap10-n94" type="comm" target="quarantana/cap10.xml#c10_12238" targetEnd="quarantana/cap10.xml#c10_12257">
+                          你必须以庄严的神态进入修道院和蒙扎城，你命中注定将成为一个声望至高无上的人。</note>
+        <note xml:id="chinese_cap10-n95" type="comm" target="quarantana/cap10.xml#c10_12258" targetEnd="quarantana/cap10.xml#c10_12273">
+                          他们正在那里恭候你的出现......"无须赘述，亲王已在前一天派人通报女修道院院长。"</note>
+        <note xml:id="chinese_cap10-n96" type="comm" target="quarantana/cap10.xml#c10_12274" targetEnd="quarantana/cap10.xml#c10_12282">
+                          他们正在等你，所有人的目光都将集中在你的身上。</note>
+        <note xml:id="chinese_cap10-n97" type="comm" target="quarantana/cap10.xml#c10_12283" targetEnd="quarantana/cap10.xml#c10_12285">
+                          端庄和从容二字你得牢记在心。</note>
+        <note xml:id="chinese_cap10-n98" type="comm" target="quarantana/cap10.xml#c10_12286" targetEnd="quarantana/cap10.xml#c10_12294">
+                          女院长会问你有什么要求，这当然仅仅是个形式而已。</note>
+        <note xml:id="chinese_cap10-n99" type="comm" target="quarantana/cap10.xml#c10_12295" targetEnd="quarantana/cap10.xml#c10_12322">
+                          你可以回答说，你期望在她的修道院里侍奉天主。 你 曾在那里接受过充满爱心的教育，并得到过无微不至的关怀，这也是有目共睹的事实。</note>
+        <note xml:id="chinese_cap10-n100" type="comm" target="quarantana/cap10.xml#c10_12323" targetEnd="quarantana/cap10.xml#c10_12345">
+                          其他的你无须多说，但讲话时要从容自在，别让别人觉得你不善辞令，怀疑你说的话都是由我们授意的。</note>
+        <note xml:id="chinese_cap10-n101" type="comm" target="quarantana/cap10.xml#c10_12346" targetEnd="quarantana/cap10.xml#c10_12375">
+                          那些仁慈的修女对在我家发生的事情一无所知，我们必须守住这个秘密，永远不让它传到外面去。 所以，你脸上切莫露出后悔或忧豫的神色，这可能会引起他人的猜疑。</note>
+        <note xml:id="chinese_cap10-n102" type="comm" target="quarantana/cap10.xml#c10_12376" targetEnd="quarantana/cap10.xml#c10_12399">
+                          你要让他们明白，你有着贵族的血统，你既要彬彬有礼，又要虔心谦逊。 你要记住，出了家门，你在那地方比谁都高贵。"</note>
+        <note xml:id="chinese_cap10-n103" type="comm" target="quarantana/cap10.xml#c10_12400" targetEnd="quarantana/cap10.xml#c10_12422">
+                          未待吉尔德鲁黛回答，亲王已匆匆离去，吉尔德鲁黛，她的母亲和兄长紧随其后，一起下楼登上了马车。</note>
+        <note xml:id="chinese_cap10-n104" type="comm" target="quarantana/cap10.xml#c10_12423" targetEnd="quarantana/cap10.xml#c10_12449">
+                          旅途中，他们谈话的主题不外乎世俗生活的困惑和烦恼，以及年轻女子，尤其是名门闺秀在修道院里清静安逸的生活。</note>
+        <note xml:id="chinese_cap10-n105" type="comm" target="quarantana/cap10.xml#c10_12450" targetEnd="quarantana/cap10.xml#c10_12468">
+                          兄蒙扎城已经近在眼前，亲王又教了他女儿一遍她该说的话。</note>
+        <note xml:id="chinese_cap10-n106" type="comm" target="quarantana/cap10.xml#c10_12469" targetEnd="quarantana/cap10.xml#c10_12501">
+                          正当马车驶入蒙扎城之际，吉尔德鲁黛的心不由得抽搐了一下，但是她的注意力在顷刻之间被几位绅士模样的人吸引住，只见他们让马车停下来，嘴里不知在说些什么称颂的话。</note>
+        <note xml:id="chinese_cap10-n107" type="comm" target="quarantana/cap10.xml#c10_12502" targetEnd="quarantana/cap10.xml#c10_12523">
+                          之后，马车缓缓地继续朝修道院方向驶去，好奇的人们不断从四面八方跑拢来。</note>
+        <note xml:id="chinese_cap10-n108" type="comm" target="quarantana/cap10.xml#c10_12524" targetEnd="quarantana/cap10.xml#c10_12543">
+                          马车停在熟悉的围墙和大门前，吉尔德鲁黛的心情变得越发沉重起来。</note>
+        <note xml:id="chinese_cap10-n109" type="comm" target="quarantana/cap10.xml#c10_12544" targetEnd="quarantana/cap10.xml#c10_12556">
+                          她从马车上走下，两边挤满着人，仆人们只得使劲将他们往后推。</note>
+        <note xml:id="chinese_cap10-n110" type="comm" target="quarantana/cap10.xml#c10_12557" targetEnd="quarantana/cap10.xml#c10_12601">
+                          在众目睽睽之下，她不得不时刻注意自己的仪态，但是相比之下，所有人的目光加在一起都不及她父亲的目光那样令她感到坐立不安。 尽管她内心对他充满了敬畏，但还是忍不住时时望着他。</note>
+        <note xml:id="chinese_cap10-n111" type="comm" target="quarantana/cap10.xml#c10_12602" targetEnd="quarantana/cap10.xml#c10_12618">
+                          他的那一双眼睛炯炯如无形的绳绳，驾驭着她的行动和脸部的表情。</note>
+        <note xml:id="chinese_cap10-n112" type="comm" target="quarantana/cap10.xml#c10_12619" targetEnd="quarantana/cap10.xml#c10_12641">
+                          他们穿过了外院后进入内院，只见修道院内院的大门洞开，门里站着许多修女。</note>
+        <note xml:id="chinese_cap10-n113" type="comm" target="quarantana/cap10.xml#c10_12642" targetEnd="quarantana/cap10.xml#c10_12714">
+                          修道院院长站在第一排，身旁都是一些年长的修女；后面零散地站着另外一些修女，其中有几个还踮着脚；最后一排的小板凳上则站着几个做杂役的修女；几个较为机灵和勇敢的见习小修女，穿着长袍在修女之间挤来挤去，想找到空档探出头看看这热闹的场面，却处可以看到她 们小脸蛋上亮晶晶的小眼睛。</note>
+        <note xml:id="chinese_cap10-n114" type="comm" target="quarantana/cap10.xml#c10_12715" targetEnd="quarantana/cap10.xml#c10_12730">
+                          人群里响起一片欢呼声，大家充满喜悦地挥舞手臂向她表示欢迎。</note>
+        <note xml:id="chinese_cap10-n115" type="comm" target="quarantana/cap10.xml#c10_12731" targetEnd="quarantana/cap10.xml#c10_12744">
+                          他们走至修道院的大门前，吉尔德鲁黛在院长嬷嬷面前站住。</note>
+        <note xml:id="chinese_cap10-n116" type="comm" target="quarantana/cap10.xml#c10_12745" targetEnd="quarantana/cap10.xml#c10_12773">
+                          一阵寒暄之后，院长面带喜色，神态庄重地询问吉尔德鲁黛对修道院有些什么要求，同时告诉她，那里设有人会拒绝满足她的要求。</note>
+        <note xml:id="chinese_cap10-n117" type="omission" target="quarantana/cap10.xml#c10_12774" targetEnd="quarantana/cap10.xml#c10_12808"/>
+        <note xml:id="chinese_cap10-n118" type="comm" target="quarantana/cap10.xml#c10_12809" targetEnd="quarantana/cap10.xml#c10_13017">
+                          殊······我还得告诉您······每一次有好孩子前来请求在本院出家修行······女院长，即我本人······虽不很称职，依然不得不向其父母言明······万一经查实······他们的女儿是被遍穿上黑袍的修女，他们将被开除教籍。</note>
+        <note xml:id="chinese_cap10-n119" type="omission" target="quarantana/cap10.xml#c10_13018" targetEnd="quarantana/cap10.xml#c10_13026"/>
+        <note xml:id="chinese_cap10-n120" type="comm" target="quarantana/cap10.xml#c10_13027" targetEnd="quarantana/cap10.xml#c10_13138">
+                          很抱歉，这些话我本不该对您说······"</note>
+        <note xml:id="chinese_cap10-n121" type="comm" target="quarantana/cap10.xml#c10_13139" targetEnd="quarantana/cap10.xml#c10_13142">
+                          "不，您这样做很好，尊敬的院长。</note>
+        <note xml:id="chinese_cap10-n122" type="comm" target="quarantana/cap10.xml#c10_13143" targetEnd="quarantana/cap10.xml#c10_13154">
+                          我十分欣赏您克尽厥职的态度，您这么做完全正确······可是您总不该怀疑······"</note>
+        <note xml:id="chinese_cap10-n123" type="comm" target="quarantana/cap10.xml#c10_13155" targetEnd="quarantana/cap10.xml#c10_13165">
+                          "喔，亲王大人······我这么说纯粹是为了履行我的职责······再说······"</note>
+        <note xml:id="chinese_cap10-n124" type="comm" target="quarantana/cap10.xml#c10_13166" targetEnd="quarantana/cap10.xml#c10_13169">
+                          "那当然，那当然，院长嬷嬷。"</note>
+        <note xml:id="chinese_cap10-n125" type="comm" target="quarantana/cap10.xml#c10_13170" targetEnd="quarantana/cap10.xml#c10_13207">
+                          简单地交换了看法之后，亲王和女院长互相行礼辞别，似乎两人都不愿意继续这一场秘密的交谈。 两人各自回到自己人那里，一个朝会客室外面走去，一个继续留在铁栅后面。</note>
+        <note xml:id="chinese_cap10-n126" type="comm" target="quarantana/cap10.xml#c10_13208" targetEnd="quarantana/cap10.xml#c10_13231">
+                          "走吧，我们可以安心地回去了，"亲王喜形于色地对他的家人说，"吉尔德鲁黛很快就会适应这里的生活，嬷嬷们会悉心地照料她。</note>
+        <note xml:id="chinese_cap10-n127" type="comm" target="quarantana/cap10.xml#c10_13232" targetEnd="quarantana/cap10.xml#c10_13237">
+                          今天我们已经给她们增添了不少的麻烦。"</note>
+        <note xml:id="chinese_cap10-n128" type="comm" target="quarantana/cap10.xml#c10_13238" targetEnd="quarantana/cap10.xml#c10_13255">
+                          说罢，他朝她们欠身行礼，在同修女们再次互道珍重之后，即带着家人离修道院而去。</note>
+        <note xml:id="chinese_cap10-n129" type="comm" target="quarantana/cap10.xml#c10_13256" targetEnd="quarantana/cap10.xml#c10_13318">
+                          在回家的路上，吉尔德鲁黛始终默默无言，思及自己已跨出的一步，她不寒而栗，与此同时，她又为自己的无能深感羞愧开始痛恨起自己以及她周围的人。 她心情忐忑地思索着，自己是否还有机会收回已许下的承诺，思绪纷乱地对自己轻声保证，只要还有这样或那样的契机，她一定会表现得更为机智和坚强。</note>
+        <note xml:id="chinese_cap10-n130" type="comm" target="quarantana/cap10.xml#c10_13319" targetEnd="quarantana/cap10.xml#c10_13377">
+                          然而，这些涌入她脑海的种种想法根本无法驱散她父亲紧握的双眉给她带来的恐惧。 她匆匆地朝他瞥了一眼，看清在他的脸上不但没有任何气恼的痕迹，而且还流露出对她的举止十分满意的神情，她心头的一块石头这才落了地，蓦时间一阵莫名的喜悦袭上心来。</note>
+        <note xml:id="chinese_cap10-n131" type="comm" target="quarantana/cap10.xml#c10_13378" targetEnd="quarantana/cap10.xml#c10_13398">
+                          回到家，她首先得更衣和梳洗一番，然后用午餐和接待一两位来访的客人，接着乘马车去户外散步，会客和晚间用膳。 晚餐结束</note>
+        <note xml:id="chinese_cap10-n132" type="comm" target="quarantana/cap10.xml#c10_13399" targetEnd="quarantana/cap10.xml#c10_13414">
+                          时,亲王提出了另一个亟待解决的新问题,那就是为吉尔德鲁黛选择一位教母。</note>
+        <note xml:id="chinese_cap10-n133" type="comm" target="quarantana/cap10.xml#c10_13415" targetEnd="quarantana/cap10.xml#c10_13485">
+                          所谓教母,就是由父母聘请一位贵妇人,在吉尔德鲁黛进入修道院之前的一段日子里担任她的监护人和伴侣。 其间,她得陪同吉尔德鲁黛参观教堂、宫殿,别墅,神庙,参加各项社交活动。 总之,同其他准备当修女的年轻姑娘一样,吉尔德鲁黛必须熟悉蒙托城里和附近地方各个著名的场所,为的是在正式宣誓出家修行之前让她清醒地意识到,若不当修女的话,她得放弃许多美好的东西。</note>
+        <note xml:id="chinese_cap10-n134" type="comm" target="quarantana/cap10.xml#c10_13486" targetEnd="quarantana/cap10.xml#c10_13517">
+                          亲王说道:"我们的确该考虑替他物色一位教母,因为按规定明天修女代理主教要来这里倾听吉尔德鲁黛在忏悔前的省察,然后修女们将召集会议,讨论是否接纳她当修女。"</note>
+        <note xml:id="chinese_cap10-n135" type="comm" target="quarantana/cap10.xml#c10_13518" targetEnd="quarantana/cap10.xml#c10_13579">
+                          说至此,他把脸转向亲王夫人,而她还以为他是在请她发表一点看法,故开口说:"是否应该......"但是亲王忙打断她的话说:"不,不,夫人,教母的人选首先必须得到吉尔德鲁黛的同意才行。 虽然按习惯的做法,人选该由父母决定,可是吉尔德鲁黛说话慎重、通情达理,她理应得到例外的照顾。"</note>
+        <note xml:id="chinese_cap10-n136" type="comm" target="quarantana/cap10.xml#c10_13580" targetEnd="quarantana/cap10.xml#c10_13631">
+                          说罢,他好似要宣布一个特殊的恩赐,转过脸对他的女儿说:"今晚应邀来这里作客的所有贵夫人,都具备当我女儿教母应有的高尚品德。 若被选中,我想她们中的任何人都会感到无上的荣耀。 现在,你就自己挑选吧。"</note>
+        <note xml:id="chinese_cap10-n137" type="comm" target="quarantana/cap10.xml#c10_13632" targetEnd="quarantana/cap10.xml#c10_13666">
+                          吉尔德鲁黛心中十分清楚,选择教母意味着自己对父亲作出再一次的承诺,但是父亲说话的语气是如此的慎重其事,即使她提出拒绝时态度再谦卑,她父亲也会把她的举动看作是对他的蔑视,或者至少是任性和做作。</note>
+        <note xml:id="chinese_cap10-n138" type="comm" target="quarantana/cap10.xml#c10_13667" targetEnd="quarantana/cap10.xml#c10_13716">
+                          于是,她又跨出了这一步,指定了当晚她觉得最满意的一位贵夫人为自己的教母。 确实,相比之下,那位夫人态度和悦,对她赞不绝口,待人亲切,热情和体贴入微。 吉尔德鲁黛虽然同她初次谋面,但她心中却有一种似曾相识的感觉。"</note>
+        <note xml:id="chinese_cap10-n139" type="comm" target="quarantana/cap10.xml#c10_13717" targetEnd="quarantana/cap10.xml#c10_13727">
+                          英明的选择,"亲王忙对她说,因为他心中期待的人选同她的想法竟然不谋而合。</note>
+        <note xml:id="chinese_cap10-n140" type="comm" target="quarantana/cap10.xml#c10_13728" targetEnd="quarantana/cap10.xml#c10_13772">
+                          我们且不论这是否是一种偶然的巧合,或者是事先安排好的,但那场景就好像魔术师玩弄的戏法:他在众人面前捻开 一副纸牌，让他们在心中认定其中的一张，然后由他说出那是一张什么牌；可问题的关键在于，他在亮牌的时候只让他们看到一张牌。</note>
+        <note xml:id="chinese_cap10-n141" type="comm" target="quarantana/cap10.xml#c10_13773" targetEnd="quarantana/cap10.xml#c10_13800">
+                          那位被选中的妇人整个晚上都紧跟在吉尔德鲁黛的身后，试图以此加深吉尔德鲁黛对她的印象，让她即使凭主宰的想像力也很难想到别的候选人。</note>
+        <note xml:id="chinese_cap10-n142" type="comm" target="quarantana/cap10.xml#c10_13801" targetEnd="quarantana/cap10.xml#c10_13850">
+                          诚然，她的无微不至的关怀是事出有因的。 好长一段日子以来，她的一双眼睛始终盯着吉尔德鲁黛的兄长，因为她想把自己的女儿嫁给他为妻，因此她把亲王家的事视作自己家的事情，对可爱的吉尔德鲁黛和亲王家的任何一位至亲自然怀有同样浓厚的兴趣。</note>
+        <note xml:id="chinese_cap10-n143" type="comm" target="quarantana/cap10.xml#c10_13851" targetEnd="quarantana/cap10.xml#c10_13885">
+                          翌日，当吉尔德鲁黛醒来时，满脑子都是神甫要来听她忏悔的事情。 正当她在琢磨是否能抓住最后的一次机会收回自己的承诺，以及收回的具体方式时，亲王派人叫她去。</note>
+        <note xml:id="chinese_cap10-n144" type="comm" target="quarantana/cap10.xml#c10_13886" targetEnd="quarantana/cap10.xml#c10_13900">
+                          他又对她说："鼓起勇气来，我的孩子。 到目前为止，你表现得相当出色，今天可是兑现你许下的诺言的日子。</note>
+        <note xml:id="chinese_cap10-n145" type="comm" target="quarantana/cap10.xml#c10_13901" targetEnd="quarantana/cap10.xml#c10_13911">
+                          至今我们为你所做的一切事先都征求过你的同意。</note>
+        <note xml:id="chinese_cap10-n146" type="comm" target="quarantana/cap10.xml#c10_13912" targetEnd="quarantana/cap10.xml#c10_13944">
+                          假如你此时此刻心中还有什么疑虑，哪怕是小小的遗憾或少女特有的古怪想法，你都应该明说。 但是事情既然已经到了现在这样的地步，你再要小孩子脾气已为时太晚了。</note>
+        <note xml:id="chinese_cap10-n147" type="comm" target="quarantana/cap10.xml#c10_13945" targetEnd="quarantana/cap10.xml#c10_13976">
+                          今天早上要上我家来的那位心地耿直的神甫，将就你出家修行一事提出许多问题，比如：出家当修女是否出于本人自愿，是什么原因促使你作出这样的选择……我也不知道他还会问些什么。</note>
+        <note xml:id="chinese_cap10-n148" type="comm" target="quarantana/cap10.xml#c10_13977" targetEnd="quarantana/cap10.xml#c10_13988">
+                          你回答时要是态度犹豫不决，天知道他会盘问到你什么时候。</note>
+        <note xml:id="chinese_cap10-n149" type="comm" target="quarantana/cap10.xml#c10_13989" targetEnd="quarantana/cap10.xml#c10_14004">
+                          这不仅将给你带来烦恼和痛苦，而且还会由此产生严重的后果。</note>
+        <note xml:id="chinese_cap10-n150" type="comm" target="quarantana/cap10.xml#c10_14005" targetEnd="quarantana/cap10.xml#c10_14051">
+                          进修道院的愿望你已在大庭广众作过种种表示，你一时的退缩不决就会使我的名誉受到很大的损害，人们会误认为是我把你一时的轻率看成是果断的决定，然后仓促行事……天知道他们还会说些什么。</note>
+        <note xml:id="chinese_cap10-n151" type="comm" target="quarantana/cap10.xml#c10_14052" targetEnd="quarantana/cap10.xml#c10_14098">
+                          这样的话，我得在两种同样令人痛心的抉择中间进行舍取：让天下人蔑视我的所作所为，这显然同我的尊严水火不相容；或者我得向世人披露，促使你作出如此决定的真正缘由是……"</note>
+        <note xml:id="chinese_cap10-n152" type="comm" target="quarantana/cap10.xml#c10_14099" targetEnd="quarantana/cap10.xml#c10_14145">
+                          说至此，他见吉尔德 鲁黛眼睛里噙着泪水，双颊绯红，面部的肌肉在不断抽搐，好似遭受暴雨前闷热的摧残而萎缩的花瓣，便马上打住；然后神态安详地对她说："好了，好了，一切由你自己定，凭你的理智而定。</note>
+        <note xml:id="chinese_cap10-n153" type="comm" target="quarantana/cap10.xml#c10_14146" targetEnd="quarantana/cap10.xml#c10_14168">
+                          我知道，你是一个通情达理的孩子，不会在最后的关键时刻把一件好端端的事情搞砸的。 当然，我必须事先估计到每一种可能发生的情况。</note>
+        <note xml:id="chinese_cap10-n154" type="comm" target="quarantana/cap10.xml#c10_14169" targetEnd="quarantana/cap10.xml#c10_14193">
+                          算了，我的话就说到此为止。 我和你的看法已达成了一致，你要坦率地回答神甫的提问，别让他心中产生任何猜疑。</note>
+        <note xml:id="chinese_cap10-n155" type="comm" target="quarantana/cap10.xml#c10_14194" targetEnd="quarantana/cap10.xml#c10_14201">
+                          这样一来，神甫同你的谈话也可以很快结束。"</note>
+        <note xml:id="chinese_cap10-n156" type="comm" target="quarantana/cap10.xml#c10_14202" targetEnd="quarantana/cap10.xml#c10_14240">
+                          说至此，他又对如何回答神甫最有可能提到的问题说了几点自己的看法，然后老调重弹，大谈吉尔德鲁黛在修道院的生活会多么的甜美愉快，直至一个仆人前来冀报神甫求见。</note>
+        <note xml:id="chinese_cap10-n157" type="comm" target="quarantana/cap10.xml#c10_14241" targetEnd="quarantana/cap10.xml#c10_14258">
+                          他匆忙把回答中的要点再次对女儿重复了一遍，然后按当时的规矩，留下吉尔德鲁黛和神甫单独谈话。</note>
+        <note xml:id="chinese_cap10-n158" type="comm" target="quarantana/cap10.xml#c10_14259" targetEnd="quarantana/cap10.xml#c10_14287">
+                          其实，正直的神甫在来之前早有了先入之见，认为吉尔德鲁黛热切盼望出家修行，因为亲王夫清他时就是这么说的。</note>
+        <note xml:id="chinese_cap10-n159" type="comm" target="quarantana/cap10.xml#c10_14288" targetEnd="quarantana/cap10.xml#c10_14354">
+                          诚然，仁慈的神甫也懂得，干他这一行的，对任何事情都存有怀疑是一种必不可少的美德。 按他的办事原则，他从不轻信别人信誓旦旦的表白，对带有偏见的话语总是保持十分警惕的态度。 但是，一位有权势的贵贵斯钉戳铁的回答多少总会在听众的心里产生强烈的共鸣。</note>
+        <note xml:id="chinese_cap10-n160" type="comm" target="quarantana/cap10.xml#c10_14355" targetEnd="quarantana/cap10.xml#c10_14400">
+                          双方寒暄了一阵之后，神甫对她说："小姐，我今天来这里充当的是一个魔鬼的角色。 对您在申请书上以肯定的口气所作的陈述，我得提出疑问，并将您可能遇到的困难如实相告，以了解您是否已将这些因素考虑在内。</note>
+        <note xml:id="chinese_cap10-n161" type="comm" target="quarantana/cap10.xml#c10_14401" targetEnd="quarantana/cap10.xml#c10_14407">
+                          现在请允许我向您提几个问题。"</note>
+        <note xml:id="chinese_cap10-n162" type="comm" target="quarantana/cap10.xml#c10_14408" targetEnd="quarantana/cap10.xml#c10_14411">
+                          "请说，"吉尔德鲁黛回答说。</note>
+        <note xml:id="chinese_cap10-n163" type="comm" target="quarantana/cap10.xml#c10_14412" targetEnd="quarantana/cap10.xml#c10_14435">
+                          仁慈的神甫开始按规定的程序向她提问："您决定出家修行是完全出于您自发的愿望吗？</note>
+        <note xml:id="chinese_cap10-n164" type="comm" target="quarantana/cap10.xml#c10_14436" targetEnd="quarantana/cap10.xml#c10_14442">
+                          有人曾对您采用过胁迫或利诱的手段吗？</note>
+        <note xml:id="chinese_cap10-n165" type="comm" target="quarantana/cap10.xml#c10_14443" targetEnd="quarantana/cap10.xml#c10_14453">
+                          有人利用自己的职权威逼您作出这样的决定吗？</note>
+        <note xml:id="chinese_cap10-n166" type="comm" target="quarantana/cap10.xml#c10_14454" targetEnd="quarantana/cap10.xml#c10_14483">
+                          您应该毫无顾忌地向我敞开您的心扉，我有责任了解您真实的想法，以防止任何胁迫行为。"</note>
+        <note xml:id="chinese_cap10-n167" type="comm" target="quarantana/cap10.xml#c10_14484" targetEnd="quarantana/cap10.xml#c10_14499">
+                          问题的真实答案立即十分清晰地出现在她的脑海中，令她窘迫不已。</note>
+        <note xml:id="chinese_cap10-n168" type="comm" target="quarantana/cap10.xml#c10_14500" targetEnd="quarantana/cap10.xml#c10_14546">
+                          若要给予这样的回答，她得作一番长长的陈述进行解释，然后和盘托出自己曾受到威逼的事实……不幸的姑娘恐惧万分地放弃了这样的想法，勉强寻觅另一个回答。 事到如今，唯独一个回答能帮助她很快摆脱痛苦，那就是与事实截然相悖的答复。"</note>
+        <note xml:id="chinese_cap10-n169" type="comm" target="quarantana/cap10.xml#c10_14547" targetEnd="quarantana/cap10.xml#c10_14561">
+                          我想出家当修女，"她稍稍犹豫局促不安的心情回答说，"这是我完全自愿的选择。"</note>
+        <note xml:id="chinese_cap10-n170" type="comm" target="quarantana/cap10.xml#c10_14562" targetEnd="quarantana/cap10.xml#c10_14574">
+                          "这个想法在您心间萦绕了有多久？" 神甫继续讯问她。</note>
+        <note xml:id="chinese_cap10-n171" type="comm" target="quarantana/cap10.xml#c10_14575" targetEnd="quarantana/cap10.xml#c10_14591">
+                          "我自小心中就萌发了这个想法，"吉尔德鲁黛回答说。 事实上，自从违心地跨出了第一步后，她说起假话来显得泰然自若。</note>
+        <note xml:id="chinese_cap10-n172" type="comm" target="quarantana/cap10.xml#c10_14592" targetEnd="quarantana/cap10.xml#c10_14603">
+                          "可是促使您决定出家修行的主要原因是什么呢？"</note>
+        <note xml:id="chinese_cap10-n173" type="comm" target="quarantana/cap10.xml#c10_14604" targetEnd="quarantana/cap10.xml#c10_14632">
+                          好心的神甫全然不知，他这一问题正触及到她内心的痛处。 她尽力克制住自己的感情，不让他从自己的脸部表情上看出他的那一番话在她心中产生的强大震撼力。</note>
+        <note xml:id="chinese_cap10-n174" type="comm" target="quarantana/cap10.xml#c10_14633" targetEnd="quarantana/cap10.xml#c10_14647">
+                          她回答说："为了侍奉天主和逃离险象环生的尘世。"</note>
+        <note xml:id="chinese_cap10-n175" type="comm" target="quarantana/cap10.xml#c10_14648" targetEnd="quarantana/cap10.xml#c10_14656">
+                          "会不会是由于某种烦恼？ 恕我直言……该不是您……一时的冲动吧？</note>
+        <note xml:id="chinese_cap10-n176" type="comm" target="quarantana/cap10.xml#c10_14657" targetEnd="quarantana/cap10.xml#c10_14681">
+                          有时候，我们认为在瞬息间萌生的想法会永远持续下去，过后，当我们的心情平静下来，想法也许会随之改变，这样的话……"</note>
+        <note xml:id="chinese_cap10-n177" type="comm" target="quarantana/cap10.xml#c10_14682" targetEnd="quarantana/cap10.xml#c10_14694">
+                          "不，不，"吉尔德鲁黛慌忙打断他的话说，"我刚才对您讲的确实是我出家修行的真正原因。"</note>
+        <note xml:id="chinese_cap10-n178" type="comm" target="quarantana/cap10.xml#c10_14695" targetEnd="quarantana/cap10.xml#c10_14721">
+                          与其说神甫是在忠实地履行自己的义务，倒不如说他确信有必要这么做。 他一再地追问，吉尔德鲁黛则决意蒙骗到底。</note>
+        <note xml:id="chinese_cap10-n179" type="comm" target="quarantana/cap10.xml#c10_14722" targetEnd="quarantana/cap10.xml#c10_14776">
+                          想到要让那位神态严肃、心地仁慈的神甫发现自己软弱的秉性，她顿觉反感，况且他对她的回答根本没有产生丝毫的怀疑。 再说，可怜的姑娘明白，他确实有权阻止她当修女，但这不仅意味着她将随之失去他的保护，而且他的职权将不允许他继续帮助她。</note>
+        <note xml:id="chinese_cap10-n180" type="comm" target="quarantana/cap10.xml#c10_14777" targetEnd="quarantana/cap10.xml#c10_14784">
+                          神甫一走，她得单独同亲王呆在一起。</note>
+        <note xml:id="chinese_cap10-n181" type="comm" target="quarantana/cap10.xml#c10_14785" targetEnd="quarantana/cap10.xml#c10_14843">
+                          不管她在自己的家中将遭受多大的磨 难，好心的神甫都不可能知道，即使知道，而且有良好的愿望，对她的遭遇他也爱莫能助。 一般地说，出于礼貌，人们表达的适度的、有节制的侧隐之心仅仅是为自己伤害他人而寻找的一种理由或托词而已。</note>
+        <note xml:id="chinese_cap10-n182" type="comm" target="quarantana/cap10.xml#c10_14844" targetEnd="quarantana/cap10.xml#c10_14904">
+                          不幸的姑娘继续诚心地回答提问，神甫不一会儿之后就开始感到厌倦起来。 见姑娘所有的回答都让人信服，他觉得自己没有任何理由怀疑她坦诚的态度，故马上改换话题，除了向她表示祝贺以外，还为履行职责占用了她不少时间而向她致歉。 最后，他又说了一些自以为有助于坚定她信念的话。 随后，他起身告辞。</note>
+        <note xml:id="chinese_cap10-n183" type="comm" target="quarantana/cap10.xml#c10_14905" targetEnd="quarantana/cap10.xml#c10_14937">
+                          在穿过厅堂出门时，神甫碰见了似平湊巧打那里经过的亲王，便马上把吉尔德鲁黛谨诚意出家修行的意讯告诉他。</note>
+        <note xml:id="chinese_cap10-n184" type="comm" target="quarantana/cap10.xml#c10_14938" targetEnd="quarantana/cap10.xml#c10_14992">
+                          听此言，亲王不觉舒了一口气，一直压在心上的那块石头这才落了地。 他一改往日严肃的态度，几乎跑着去见吉尔德鲁黛；话语里充满了称赞、爱抚和许诺。 他喜形于色，语气亲切，其温存的态度在很大的程度上应该说是他真实感情的流露。 是啊，人类的心理状态有时竟是如此奇特，如此复杂！</note>
+        <note xml:id="chinese_cap10-n185" type="comm" target="quarantana/cap10.xml#c10_14993" targetEnd="quarantana/cap10.xml#c10_15038">
+                          我们不打算跟随吉尔德鲁黛一起去经历连续不断的参观和娱乐，也不想逐一详尽描绘她在那一段日子里心中的种种感受。 那只不过是一则充满痛苦和情感变化的故事，过于单调之味，而且同我们在上面讲述的事情大同小异。</note>
+        <note xml:id="chinese_cap10-n186" type="comm" target="quarantana/cap10.xml#c10_15039" targetEnd="quarantana/cap10.xml#c10_15076">
+                          她见到的瑰丽风光、千姿百态的自然景象以及坐在马车上在户外到处游玩时心中的欢愉都增添了她对家园的惜恨，在那里，她将最后一次从马车上走下，从此告别她所熟悉的一切。</note>
+        <note xml:id="chinese_cap10-n187" type="comm" target="quarantana/cap10.xml#c10_15077" targetEnd="quarantana/cap10.xml#c10_15088">
+                          让她感到尤为厌恶的是那些没完没了的拜会和社交性的聚会。</note>
+        <note xml:id="chinese_cap10-n188" type="comm" target="quarantana/cap10.xml#c10_15089" targetEnd="quarantana/cap10.xml#c10_15133">
+                          每当她见到新人，也就是名副其实的新娘，心中萌生的歆羡之意对她来说是一种难以忍受的折磨。 有时，当她听到有人被大家称为新人时，她便联想到，要是自己也能得到那种称呼该有多么的幸福。</note>
+        <note xml:id="chinese_cap10-n189" type="comm" target="quarantana/cap10.xml#c10_15134" targetEnd="quarantana/cap10.xml#c10_15178">
+                          有时候，豪华的宅第，富丽堂皇的装饰以及宾客满堂、热闹欢乐的聚会，又使她陶醉其间，追求欢乐生活的愿望显得如此的无法抗拒，以至于她发誓收回原先的承诺，宁可忍受种 神的折磨也不回到宛置在死一般冰凉阴影中的修道院去。</note>
+        <note xml:id="chinese_cap10-n190" type="comm" target="quarantana/cap10.xml#c10_15179" targetEnd="quarantana/cap10.xml#c10_15198">
+                          然而，当她心情略为平静后思及各种困难，或者抬头望见亲王的脸，再大的决心也顿时消失殆尽。</note>
+        <note xml:id="chinese_cap10-n191" type="comm" target="quarantana/cap10.xml#c10_15199" targetEnd="quarantana/cap10.xml#c10_15238">
+                          有几回，当她想到自己从此将永远放弃世俗生活的欢愉，眼前即使是短暂的享受也会让她异常悲痛；这就好像一位已干唇焦的病人，两眼望着医生很不乐意地让他喝一小匙水，不免十分愤火地将它推开，脸上露出对这小小的恩赐近乎轻蔑的表情。</note>
+        <note xml:id="chinese_cap10-n192" type="comm" target="quarantana/cap10.xml#c10_15239" targetEnd="quarantana/cap10.xml#c10_15259">
+                          与此同时，神甫已经写好了必要的证明，同意召开修女会的例会讨论接纳吉尔德鲁嫩入修道院一事。</note>
+        <note xml:id="chinese_cap10-n193" type="comm" target="quarantana/cap10.xml#c10_15260" targetEnd="quarantana/cap10.xml#c10_15281">
+                          事情正如预料的那样，在修女会的例行会议上，经秘密投票，三分之二的与会者根据规定要求的多数投了赞成票。</note>
+        <note xml:id="chinese_cap10-n194" type="comm" target="quarantana/cap10.xml#c10_15282" targetEnd="quarantana/cap10.xml#c10_15298">
+                          于是，吉尔德鲁嫩被接纳入修道院。 她本人则要求早日进修道院，以结束那无休止的精神折磨。</note>
+        <note xml:id="chinese_cap10-n195" type="comm" target="quarantana/cap10.xml#c10_15299" targetEnd="quarantana/cap10.xml#c10_15307">
+                          当然，不会有人试图拒绝她急于进修道院的要求。</note>
+        <note xml:id="chinese_cap10-n196" type="comm" target="quarantana/cap10.xml#c10_15308" targetEnd="quarantana/cap10.xml#c10_15320">
+                          就这样，她的愿望终于成了现实；她被前呼后拥地带入了修道院，穿上了修女的黑色长袍。</note>
+        <note xml:id="chinese_cap10-n197" type="comm" target="quarantana/cap10.xml#c10_15321" targetEnd="quarantana/cap10.xml#c10_15369">
+                          她度过了持续十二个月的修女见习期，期间，她心中始终充满着无尽的遗憾和悔恨。 她最终立誓的那一刻终于到来了，她要么表示不同意（那可是一个比以往任何时候都更为离奇、出乎意外和令人无法容忍的回答）；要么再重复一遍她已无数次说过的"我愿意"；她选择了后者，从此永远成了一名修女。</note>
+        <note xml:id="chinese_cap10-n198" type="comm" target="quarantana/cap10.xml#c10_15370" targetEnd="quarantana/cap10.xml#c10_15394">
+                          无论何时何地，只要有人求助于基督教会，它都能为他指点迷津和抚慰他受伤的心灵，这正是基督教一个与众不同和常人难以理解的职能。</note>
+        <note xml:id="chinese_cap10-n199" type="comm" target="quarantana/cap10.xml#c10_15395" targetEnd="quarantana/cap10.xml#c10_15437">
+                          即使是一件已经过去了的事情，只要有补救的方法，它也会给予指示，提供挽救的办法，赋予行动的智慧和力量；倘若不存在补救的方法，它也会告诉人们该如何实事求是地照一则谚语中所说的那样去做，那就是"逆来顺受"。</note>
+        <note xml:id="chinese_cap10-n200" type="comm" target="quarantana/cap10.xml#c10_15438" targetEnd="quarantana/cap10.xml#c10_15487">
+                          它会教导人们持之以恒，即使是轻率地开了头的事情也要运用智慧继续干下去；它会感化你的灵魂，让你心悦诚服地接受蛮横无理地强加在你头上的一切，然后给你卓率但已无可挽回的决定套上充满全德和智慧的光环，或者更直截了当地说，它会让你心中感受到聆听神召时的欢</note>
+        <note xml:id="chinese_cap10-n201" type="comm" target="quarantana/cap10.xml#c10_15488" targetEnd="quarantana/cap10.xml#c10_15526">
+                          愉。 它就像一条康庄大道，不管你从曲径纵横的迷宫走出，或是从险象环生的悬崖峭壁上下来，只要你踏上这条路，你就会安全，愉快地抵达幸福的终点。</note>
+        <note xml:id="chinese_cap10-n202" type="comm" target="quarantana/cap10.xml#c10_15527" targetEnd="quarantana/cap10.xml#c10_15542">
+                          通过这种途径，吉尔德鲁黛原本应该成为一个圣洁，幸福的修女，不管怎么样，她出家修行如今已是既成的事实。</note>
+        <note xml:id="chinese_cap10-n203" type="comm" target="quarantana/cap10.xml#c10_15543" targetEnd="quarantana/cap10.xml#c10_15562">
+                          然而，被禁锢在栅栏之中的不幸姑娘在苦苦地挣扎着，此时此刻，她更感到栅栏在精神上给她带来的沉重压力和无情打击。</note>
+        <note xml:id="chinese_cap10-n204" type="comm" target="quarantana/cap10.xml#c10_15563" targetEnd="quarantana/cap10.xml#c10_15590">
+                          失去自由后无尽的悔恨，对自己处境的厌恶以及为永远无法克现的愿望自己所做的徒劳的努力，这些纷乱的思绪始终萦绕在她的脑际。</note>
+        <note xml:id="chinese_cap10-n205" type="comm" target="quarantana/cap10.xml#c10_15591" targetEnd="quarantana/cap10.xml#c10_15631">
+                          她回忆起过去充满凌辱的日子和那一桩桩导致她进入修道院的往事，无数次徒劳地想收回自己曾作出的承诺；她谴责自己的无能和他人的专横、奸诈，任凭记忆咀嚼着自己的那颗破碎的心。</note>
+        <note xml:id="chinese_cap10-n206" type="comm" target="quarantana/cap10.xml#c10_15632" targetEnd="quarantana/cap10.xml#c10_15668">
+                          她欣赏自己秀丽的容貌，但同时又为之深感愧悔，每当想到自己将在长期的精神折磨中香消玉殒，心中不禁掠过一丝无限的哀愁。 有时，她对所有那些在尘世得以自由享受青春年华的女子欣羡不已，尽管她们的身分和心态或许同她的迥然不一。</note>
+        <note xml:id="chinese_cap10-n207" type="comm" target="quarantana/cap10.xml#c10_15669" targetEnd="quarantana/cap10.xml#c10_15685">
+                          每当她看到当初曾经尽力将她拖入修道院的修女，心中对她们的憎恨油然而生。</note>
+        <note xml:id="chinese_cap10-n208" type="comm" target="quarantana/cap10.xml#c10_15686" targetEnd="quarantana/cap10.xml#c10_15710">
+                          她记得，她们曾经要弄手腕和计谋，心想现在该是自己用粗暴蛮横的行为对她们表示藐视，甚至当众羞辱她们的时候了。</note>
+        <note xml:id="chinese_cap10-n209" type="comm" target="quarantana/cap10.xml#c10_15711" targetEnd="quarantana/cap10.xml#c10_15779">
+                          那班修女也只得忍气吞声，不敢言语。 确实，当初亲王为了将其女儿推入修道院，不惜使用一切残暴的手段，可是一旦达到目的，他绝不会容忍其他人肆意顶撞他的亲生骨肉。 只要他听到吉尔德鲁黛对她们有半点抱怨，修道院就有可能失去他的保护，他也会随之成为修道院的仇敌。</note>
+        <note xml:id="chinese_cap10-n210" type="comm" target="quarantana/cap10.xml#c10_15780" targetEnd="quarantana/cap10.xml#c10_15830">
+                          或许有人以为，对于其他那些未曾参与策划闭谯的修女，吉尔德鲁黛理应怀有一定的好感，因为她们并没有刻意将她拉入修道院作伴，相反对她倒也颇为体贴，而且总是显出一副仁慈、欢乐和忙碌的样子；她们用无声的语言告诉她，在修道院里，她不仅能够住下去，而且可以生活得挺快乐。</note>
+        <note xml:id="chinese_cap10-n211" type="comm" target="quarantana/cap10.xml#c10_15831" targetEnd="quarantana/cap10.xml#c10_15840">
+                          但是，出于另外的原因，她对那些修女心中同样也充满了怨恨，在她</note>
+        <note xml:id="chinese_cap10-n212" type="comm" target="quarantana/cap10.xml#c10_15841" targetEnd="quarantana/cap10.xml#c10_15878">
+                          看来，她们那充满怜悯和欢愉的神态，是对她焦急不安的心情和怦怦举止的一种指责。 她从不放弃任何机会在背后嘲讽她们的执拗，或谴责她们的伪善。</note>
+        <note xml:id="chinese_cap10-n213" type="comm" target="quarantana/cap10.xml#c10_15879" targetEnd="quarantana/cap10.xml#c10_15909">
+                          倘若她知道或者猜到，正是她们在决定是否接受她入修道院的时候往罐子里扔下了少数几个黑珠子，她也许不会对她们有如此明显的敌对情绪了。</note>
+        <note xml:id="chinese_cap10-n214" type="comm" target="quarantana/cap10.xml#c10_15910" targetEnd="quarantana/cap10.xml#c10_15948">
+                          在修道院里，她发号施令，接受修女们对她的奉承，会见外面来访的客人并倾听她们称颂她的赞美之词，成功地帮别人办事，充当别人的庇护者，或者听别人尊敬她称她为小姐。 在那些场合中，她心中颇感欢慰，可那该是多么令人伤感的慰藉啊！</note>
+        <note xml:id="chinese_cap10-n215" type="comm" target="quarantana/cap10.xml#c10_15949" targetEnd="quarantana/cap10.xml#c10_16009">
+                          她发觉自己的一颗空虚的心得到的只是十分微小的满足，便不时地盼望从宗教信仰那里获得一些精神安慰。 然而，唯有先摒弃世俗生活中的欢愉，人才有可能得到宗教赐予的慰藉，正如海上遇难的逃生者，他只有松开出于求生的本能拉住海草的手而紧紧抓住木板，才能安全地到达彼岸。</note>
+        <note xml:id="chinese_cap10-n216" type="comm" target="quarantana/cap10.xml#c10_16010" targetEnd="quarantana/cap10.xml#c10_16030">
+                          吉尔德鲁黛宣誓入修道院后不久即被指派担任修道院寄宿生的教师。 读者可以想象，那些年轻姑娘在她的严厉的管教之下过的是一种什么样的生活。</note>
+        <note xml:id="chinese_cap10-n217" type="comm" target="quarantana/cap10.xml#c10_16031" targetEnd="quarantana/cap10.xml#c10_16060">
+                          她旧时的至友如今已一一离她而去，但是她仍保持着旧时的激情，于是她的学生便不得不通过各种不同的方式替她承担心中的压力。</note>
+        <note xml:id="chinese_cap10-n218" type="comm" target="quarantana/cap10.xml#c10_16061" targetEnd="quarantana/cap10.xml#c10_16111">
+                          每当她思及，她们中的许多人将注定要生活在一个对她已永远关上了大门的世界里，心中不禁充满了对那些可怜的女孩子的怨恨，一种近乎报仇的念头由此油然而生。 她严格地将她们置于自己的控制之下，粗暴地对待她们，让她们为日后将享受的世俗生活的欢乐提前付出代价。</note>
+        <note xml:id="chinese_cap10-n219" type="comm" target="quarantana/cap10.xml#c10_16112" targetEnd="quarantana/cap10.xml#c10_16136">
+                          谁在那一段日子里听到她为她们做错的每一件小事充满怒气的大声呵责，都以为她是一个真性粗野、凶狠的女人。</note>
+        <note xml:id="chinese_cap10-n220" type="comm" target="quarantana/cap10.xml#c10_16137" targetEnd="quarantana/cap10.xml#c10_16156">
+                          在另外一些场合，出于对修道院里清规戒律和唯命是听的幽居生活的恐惧，她的情绪会骤然变得与平时截然相反。</note>
+        <note xml:id="chinese_cap10-n221" type="comm" target="quarantana/cap10.xml#c10_16157" targetEnd="quarantana/cap10.xml#c10_16198">
+                          这时，她不仅能宽容她学生玩耍时的喧闹，而且还激励她们高涨的热情，同她们一起嬉戏，并放纵她们尽情地欢 笑;同她们一起交谈,并将谈话的内容引向超出她们原先设想的主题。</note>
+        <note xml:id="chinese_cap10-n222" type="comm" target="quarantana/cap10.xml#c10_16199" targetEnd="quarantana/cap10.xml#c10_16241">
+                          要是有学生提起院长嬷嬷讲话时的神态,吉尔德鲁黛就会不厌其烦地模仿好久,逗得大家怒俊不禁。 有时,她还摹拟某一位修女的脸部表情,或试着学习一位修女走路的步态,然后仰天大笑,尽管如此,那笑声并没有给她的生活带来任何欢乐。</note>
+        <note xml:id="chinese_cap10-n223" type="comm" target="quarantana/cap10.xml#c10_16242" targetEnd="quarantana/cap10.xml#c10_16264">
+                          就这样,她在修道院里的日子犹如白驹过隙,一晃已过去了数载,期间她从未有过任何机会改变由他人替她安排好的生活方式。 但是,一个于她不幸的事件最后还是发生了。</note>
+        <note xml:id="chinese_cap10-n224" type="comm" target="quarantana/cap10.xml#c10_16265" targetEnd="quarantana/cap10.xml#c10_16291">
+                          除了享有某些优惠待遇和特殊照顾之外,作为对她不能当院长的补偿,她在修道院里还拥有一套单独居住的房间。</note>
+        <note xml:id="chinese_cap10-n225" type="comm" target="quarantana/cap10.xml#c10_16292" targetEnd="quarantana/cap10.xml#c10_16336">
+                          套房与院外的一幢民宅相连,其主人是一个专于坏事的恶棍,这类人在当时为数不少,他们家里豢养着一批打手,互相勾结,从某种意义上来说,他们对法律和公论嗤之以鼻。</note>
+        <note xml:id="chinese_cap10-n226" type="comm" target="quarantana/cap10.xml#c10_16337" targetEnd="quarantana/cap10.xml#c10_16346">
+                          在匿名作者手稿中,只记载着他名叫埃吉迪奥,但对他的身世却只字未提。</note>
+        <note xml:id="chinese_cap10-n227" type="comm" target="quarantana/cap10.xml#c10_16347" targetEnd="quarantana/cap10.xml#c10_16384">
+                          从埃吉迪奥房间的小窗户里望外看,吉尔德鲁黛套房前的小院子尽收眼底。 事实上,他有好几次瞥见她在院子里走过或悠闲地散步,他不仅没有因读神罪而惧怕,反之,有一天终于大胆地开口同她搭讪。</note>
+        <note xml:id="chinese_cap10-n228" type="comm" target="quarantana/cap10.xml#c10_16385" targetEnd="quarantana/cap10.xml#c10_16387">
+                          可怜的姑娘回答了他的问话。</note>
+        <note xml:id="chinese_cap10-n229" type="comm" target="quarantana/cap10.xml#c10_16388" targetEnd="quarantana/cap10.xml#c10_16400">
+                          起初,她心中为之产生一种强烈的幸福感,诚然尽管这种快感不是纯洁的,但却富于很大的诱惑力。</note>
+        <note xml:id="chinese_cap10-n230" type="comm" target="quarantana/cap10.xml#c10_16401" targetEnd="quarantana/cap10.xml#c10_16442">
+                          这在她孤寂,忧郁的心灵深处,不断注入一股强大的力量,甚至可以说是旺盛的生命力。 然而,她心中的满足犹如聪明,残忍的古人给判了刑的囚犯树的滋补酒,目的只是为他们能忍受酷刑的折磨补充体力。</note>
+        <note xml:id="chinese_cap10-n231" type="comm" target="quarantana/cap10.xml#c10_16443" targetEnd="quarantana/cap10.xml#c10_16506">
+                          与此同时,种种迹象表明,她的举止发生了明显的变化:她似乎突然变得沉着和恬静,而且不再嘲弄或抱怨他人,说话也显得和悦,有礼。 觉察到她身上发生的可喜变化,修女们抑制不住内心的欢愉,并为之相互庆贺。 她们全然不知变化的真正原因,根本没意识到她所表现出来的新的美德只不过是蒙在她昔日随习上的伪装而已。</note>
+        <note xml:id="chinese_cap10-n232" type="comm" target="quarantana/cap10.xml#c10_16507" targetEnd="quarantana/cap10.xml#c10_16563">
+                          然而,那一 层表面上的东西,或者说是外观上的粉饰,却好景不长,至少没能一成不变地延续很长的时间,不久,她又恢复了原来易怒、任性的面目,对修道院里犹如囚犯一般的生活话语里又一次充满了诅咒和嘲弄,说话的口气甚至显得异乎寻常的夸张。</note>
+        <note xml:id="chinese_cap10-n233" type="comm" target="quarantana/cap10.xml#c10_16564" targetEnd="quarantana/cap10.xml#c10_16586">
+                          但是每当她这样发作一番,内心总会感到十分歉疚,便想方设法用奉承和甜言蜜语让修女们忘掉她的过错。</note>
+        <note xml:id="chinese_cap10-n234" type="comm" target="quarantana/cap10.xml#c10_16587" targetEnd="quarantana/cap10.xml#c10_16604">
+                          修女们尽量耐心地忍受着她情绪上的大起大落,并认为这是由于她性格的怪僻和任性所致。</note>
+        <note xml:id="chinese_cap10-n235" type="comm" target="quarantana/cap10.xml#c10_16605" targetEnd="quarantana/cap10.xml#c10_16678">
+                          在较长的一段日子里,似乎没有人把她的性格上的变化当作一回事。 直至有一天,也不知是听了谁的闲话她同院内一个做杂役的修女伴起嘴来,其态度显然有点过度。 那个修女忍声吞气没有还嘴,直到实在按捺不住,才脱口而出,说对有些事情她早就有所闻,到一定的时候和在适当的场合她会开口说的。</note>
+        <note xml:id="chinese_cap10-n236" type="comm" target="quarantana/cap10.xml#c10_16679" targetEnd="quarantana/cap10.xml#c10_16689">
+                          从此以后,吉尔德鲁黛的心绪失去了往日的安宁。</note>
+        <note xml:id="chinese_cap10-n237" type="comm" target="quarantana/cap10.xml#c10_16690" targetEnd="quarantana/cap10.xml#c10_16743">
+                          事隔不久的一天早上,那位修女没有像平时一样出来做她份内的杂活儿,几个姐妹去她的单人卧室寻找,见房内空无一人;她们大声呼唤她的名字,也无人应答;于是又去分头寻找,但是转遍了修道院里的每个角落仍然不见她的踪影。</note>
+        <note xml:id="chinese_cap10-n238" type="comm" target="quarantana/cap10.xml#c10_16744" targetEnd="quarantana/cap10.xml#c10_16776">
+                          倘若不是在搜寻时发现菜园子的围墙上被凿开了一个洞,大家不约而同地认为那修女是从那个洞里逃跑的话,天知道大家将会作出什么样的猜测。</note>
+        <note xml:id="chinese_cap10-n239" type="comm" target="quarantana/cap10.xml#c10_16777" targetEnd="quarantana/cap10.xml#c10_16806">
+                          大家除了在蒙扎城里及周边地区,尤其是她家人居住的梅达镇上寻找以外,还往各处写信打听她的下落,但是始终没有她的消息。</note>
+        <note xml:id="chinese_cap10-n240" type="comm" target="quarantana/cap10.xml#c10_16807" targetEnd="quarantana/cap10.xml#c10_16824">
+                          其实,要是她们在修道院内外仔细搜寻的话,兴许不用去远处打听她的下落就能发现一点蛛丝马迹。</note>
+        <note xml:id="chinese_cap10-n241" type="comm" target="quarantana/cap10.xml#c10_16825" targetEnd="quarantana/cap10.xml#c10_16846">
+                          她们议论纷纷,最后得出结论说她肯定去了很远很远的地方,但是她们都颇感诧异,不相信她有此魄力。</note>
+        <note xml:id="chinese_cap10-n242" type="comm" target="quarantana/cap10.xml#c10_16847" targetEnd="quarantana/cap10.xml#c10_16878">
+                          有一位修女脱口说:"她准是去了荷兰"。 消息不胫而走,在较长的一段日子里,修道院内外的人一致认为,她确实去了荷兰藏了起来。</note>
+        <note xml:id="chinese_cap10-n243" type="comm" target="quarantana/cap10.xml#c10_16879" targetEnd="quarantana/cap10.xml#c10_16888">
+                          然而,吉尔德鲁黛似乎对这一说法并不敢于苟同。</note>
+        <note xml:id="chinese_cap10-n244" type="comm" target="quarantana/cap10.xml#c10_16889" targetEnd="quarantana/cap10.xml#c10_16941">
+                          她既没有公开表示自己不信这样的推测,也没有提出任何特殊的理由去反驳大家的看法。 诚然,假如她 确实有特殊的原因而默不作声的话，一定会被而不宣，而且极不愿意再旧事重提或者为解开这个谜而刨根究底。</note>
+        <note xml:id="chinese_cap10-n245" type="comm" target="quarantana/cap10.xml#c10_16942" targetEnd="quarantana/cap10.xml#c10_16950">
+                          然而，她越是不愿提越是会想起它。</note>
+        <note xml:id="chinese_cap10-n246" type="comm" target="quarantana/cap10.xml#c10_16951" targetEnd="quarantana/cap10.xml#c10_16973">
+                          每日里，那个修女的形象不知多少次会突然在她脑际浮现，而且纹丝不动仁立在那里！</note>
+        <note xml:id="chinese_cap10-n247" type="comm" target="quarantana/cap10.xml#c10_16974" targetEnd="quarantana/cap10.xml#c10_17005">
+                          不知有多少回，她宁愿看见那修女活生生的站在自己的面前，也不愿见到她在自己头脑中的身影，让她那虚幻和毫无表情的可怕形体日日夜夜始终相伴左右！</note>
+        <note xml:id="chinese_cap10-n248" type="comm" target="quarantana/cap10.xml#c10_17006" targetEnd="quarantana/cap10.xml#c10_17051">
+                          也不知有多少回，她渴望听到那修女真正的声音，不管每字每句将预示着什么样的威胁，因为她无法忍受修女终日在自己心灵深处用那与世人迥异的、古怪的低语声，执拗地、不知疲倦地不断重复着同样的话语！</note>
+        <note xml:id="chinese_cap10-n249" type="comm" target="quarantana/cap10.xml#c10_17052" targetEnd="quarantana/cap10.xml#c10_17077">
+                          在那件事发生大概一年之后，鲁齐娅被带到夫人面前，两人开始了我们在前面提到的那一段对话。</note>
+        <note xml:id="chinese_cap10-n250" type="comm" target="quarantana/cap10.xml#c10_17078" targetEnd="quarantana/cap10.xml#c10_17123">
+                          夫人不厌其烦地询问她有关堂·罗德里戈欺凌她的某些细节，这不得不使鲁齐娅颇感困惑不解，她未曾想到自己所遇到的那种事情会引起一个修女如此明显的好奇。</note>
+        <note xml:id="chinese_cap10-n251" type="comm" target="quarantana/cap10.xml#c10_17124" targetEnd="quarantana/cap10.xml#c10_17138">
+                          在询问她的过程中，夫人所阐述的观点以及隐约流露出来的想法同样使她感到纳闷。</note>
+        <note xml:id="chinese_cap10-n252" type="comm" target="quarantana/cap10.xml#c10_17139" targetEnd="quarantana/cap10.xml#c10_17186">
+                          见鲁齐娅如此增恶堂·罗德里戈，夫人几乎以嘲讽的口吻问她，难道堂·罗德里戈长得像个魔鬼才使她如此害怕。 夫人似乎觉得，鲁齐娅说话时的恼怒之态倘若不是由于她对兰佐的偏爱所致，就是一种不可理喻的愚蠢行为。</note>
+        <note xml:id="chinese_cap10-n253" type="comm" target="quarantana/cap10.xml#c10_17187" targetEnd="quarantana/cap10.xml#c10_17199">
+                          在她一再的追问下，鲁齐娅惊惶不已，双颊绯红。</note>
+        <note xml:id="chinese_cap10-n254" type="comm" target="quarantana/cap10.xml#c10_17200" targetEnd="quarantana/cap10.xml#c10_17240">
+                          夫人意识到自己出于奇想想提的问题有点离谱，忙试图纠正一时的失言，并为之作了一番解释。 尽管如此，鲁齐娅在惊惶之余，依然感到一丝不快和隐隐约约的恶恨。</note>
+        <note xml:id="chinese_cap10-n255" type="comm" target="quarantana/cap10.xml#c10_17241" targetEnd="quarantana/cap10.xml#c10_17269">
+                          一有机会同她母亲单独相处时，鲁齐娅随即把夫人说的话对她和盘托出。 阿涅珊拥有见多识广，用寥寥数语就驱散了索绕在她脑际的疑惑，解开了她的心头之谜。"</note>
+        <note xml:id="chinese_cap10-n256" type="comm" target="quarantana/cap10.xml#c10_17270" targetEnd="quarantana/cap10.xml#c10_17290">
+                          你不必感到意外，"她对女儿说，"有朝一日你能像我一样透彻地了解这个世界，这些事情也就不足为奇了。</note>
+        <note xml:id="chinese_cap10-n257" type="comm" target="quarantana/cap10.xml#c10_17291" targetEnd="quarantana/cap10.xml#c10_17310">
+                          你要知道，那些老爷太太们，不管是谁，虽然表现方式略有不同，但头脑中都有一些古怪的想法，对此你不必在</note>
+        <note xml:id="chinese_cap10-n258" type="comm" target="quarantana/cap10.xml#c10_17311" targetEnd="quarantana/cap10.xml#c10_17330">
+                          意,尽管由他们去说。 当你想从他们那里获取一些什么东西的时候,你只消样装成洗耳恭听的样子,就好像他们说的话都是合情合理的。</note>
+        <note xml:id="chinese_cap10-n259" type="comm" target="quarantana/cap10.xml#c10_17331" targetEnd="quarantana/cap10.xml#c10_17344">
+                          刚才你也听到夫人朝我大声嚷嚷,难道我说了什么完全不合情理的话吗？</note>
+        <note xml:id="chinese_cap10-n260" type="comm" target="quarantana/cap10.xml#c10_17345" targetEnd="quarantana/cap10.xml#c10_17355">
+                          可是我根本不把这放在心上,他们这些人都是一个样。</note>
+        <note xml:id="chinese_cap10-n261" type="comm" target="quarantana/cap10.xml#c10_17356" targetEnd="quarantana/cap10.xml#c10_17377">
+                          我们得感谢上苍,夫人似乎挺喜欢你,她确实想保护你。</note>
+        <note xml:id="chinese_cap10-n262" type="comm" target="quarantana/cap10.xml#c10_17378" targetEnd="quarantana/cap10.xml#c10_17399">
+                          再说,我的孩子,这一回你要是能顺利脱险的话,今后有的是同他们那些人打交道的机会,你定会听到他们更加荒唐的话,这是毫无疑问的事情。"</note>
+        <note xml:id="chinese_cap10-n263" type="comm" target="quarantana/cap10.xml#c10_17400" targetEnd="quarantana/cap10.xml#c10_17460">
+                          夫人决定亲自过问可怜的阿涅珊母女两人的命运,心想在搭救这两个逃亡者的同时,也算是给修道院院长神甫放个交情。 想到自己能利用神圣的职权保护一个受欺凌的姑娘(何况她对鲁齐娅确有好感),能为这么一位遭受压迫的无辜者做一些善事以抚平其受伤的心灵,她颇感欣慰。</note>
+        <note xml:id="chinese_cap10-n264" type="comm" target="quarantana/cap10.xml#c10_17461" targetEnd="quarantana/cap10.xml#c10_17486">
+                          经她的要求,又考虑到她在修道院内的特殊地位,院长嬷嬷将阿涅珊母女两人安置在修道院内院外面女管事的房间里住下,把她们视作修道院里的两名勤杂工。</note>
+        <note xml:id="chinese_cap10-n265" type="comm" target="quarantana/cap10.xml#c10_17487" targetEnd="quarantana/cap10.xml#c10_17503">
+                          能这么快找到既安全又体面的藏身之处,母女两人欣喜万分。</note>
+        <note xml:id="chinese_cap10-n266" type="comm" target="quarantana/cap10.xml#c10_17504" targetEnd="quarantana/cap10.xml#c10_17557">
+                          她们多么希望能这样隐姓埋名地在那里耗下去,可这在一座修道院里是一件很难做到的事情。 不宁唯是,在修道院外面,有一个人急切地想知道她们其中一人的下落,在他的心灵深处,除了原先的欲念和自尊以外,又增添了几分由于失望和祖丧而产生的愤怒。</note>
+        <note xml:id="chinese_cap10-n267" type="comm" target="quarantana/cap10.xml#c10_17558" targetEnd="quarantana/cap10.xml#c10_17580">
+                          我们现在暂且搁下母女两人,将视线转向那人的宅第,此时此刻他正在焦急地等待着他派出去执行卑鄙使命的手下人带回的消息。</note>
+      </div>
+    </body>
+  </text>
+</TEI>
