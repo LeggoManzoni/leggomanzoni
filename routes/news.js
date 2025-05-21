@@ -8,7 +8,7 @@ const router = express.Router();
 router.get("/news", (req, res) => {
     const language = req.getLocale();
 
-    res.render(`news`, {
+    res.render(`news_${language}`, {
         currentLang: language
     });
 });
