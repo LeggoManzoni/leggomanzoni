@@ -8,10 +8,11 @@ const router = express.Router();
 router.get("/pekino", (req, res) => {
     const language = req.getLocale();
 
-    res.render(`pekino`, {
+    res.render(`pekino_${language}`, {
         currentLang: language
     });
 });
+
 
 /* export the module */
 module.exports = router;
