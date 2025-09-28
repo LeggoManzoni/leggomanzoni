@@ -1,0 +1,421 @@
+/*!
+ * Leggo Manzoni - Custom Styles
+ * Built on top of Bootstrap 5.1.3
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --bs-primary: #F4EFC5;
+  --bs-primary-rgb: 244, 98, 58;
+  --bs-body-font-family: "Cormorant Garamond", serif !important;
+  --main-green: #73978B;
+  --main-cream: #F4EFC5;
+  --main-orange: #F7B475;
+  --light-bg: rgb(242 219 213 / 25%);
+}
+
+/* Typography */
+body {
+  font-family: "Cormorant Garamond", serif !important;
+}
+
+.normalFont {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.accessibilityFont {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Navigation */
+#mainNav {
+  background-color: #F4EFC5;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#mainNav .navbar-brand {
+  color: #73978B;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgb(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #73978B;
+  background-color: rgb(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:focus-visible {
+  color: #fff !important;
+  background-color: #73978B !important;
+  border-radius: 10px !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #F4EFC5 !important;
+}
+
+.activeNav {
+  color: white !important;
+  background-color: #73978B;
+  border-radius: 10px;
+}
+
+.activeBtn {
+  color: white !important;
+  background-color: #73978B;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #F4EFC5;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #F4EFC5;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #73978B;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #000;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #73978B;
+  }
+}
+
+/* Headers */
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(219, 204, 154, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), url("../img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Reader Layout */
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.container1 {
+  background-image: url("../img/vetrina/sfondo-piccolo.png");
+  padding: 1rem;
+}
+
+.colonnaS, .colonnaD {
+  width: 50%;
+  padding: 10px;
+}
+
+.colonnasinistra {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2em;
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.colonnadestra {
+  background-color: rgba(255, 255, 255, 0.603);
+  border-radius: 10px;
+  padding: 2em;
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.colonnadestra, .colonnasinistra, .testo, .testo2 {
+  scrollbar-width: thin;
+  scrollbar-color: #73978B transparent;
+  border: 3px solid #73978B;
+}
+
+/* Box Styles */
+.box-testi {
+  text-align: justify;
+}
+
+.box-progetti, .box-informazioni, .box-progetto, .box-intro, .box-news {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+/* Special Pages */
+.vignette-page {
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-image: url("../img/prova_collage.jpg");
+  background-size: 1380px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.title-vignette {
+  color: var(--bs-green);
+  background-color: #F7B475;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+
+.aboutvignette {
+  margin-left: 0px;
+  position: absolute;
+  right: 41%;
+}
+
+.rowvignette, .rowvedo {
+  padding-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Buttons and Interactive Elements */
+.btn-primary {
+  color: #fff;
+  background-color: #F4623A;
+  border-color: #F4623A;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #cf3a16;
+  border-color: #c23616;
+}
+
+.btn-intro {
+  background-color: #73978B;
+  border-color: #73978B;
+  color: #fff;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+/* Fixed Content Controls */
+#fixedContent {
+  background-color: rgb(219, 204, 154, 0.3);
+  padding: 10px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.underline, .enlarger, .font-button, .image-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+/* Modals and Popups */
+#popupUnderline, #popupL, #popupR, #popupFont, #popupImage {
+  visibility: hidden;
+  background-color: #fff;
+  border: 1px solid #73978B;
+  padding: 5px 10px;
+  position: fixed;
+  z-index: 1000;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Utility Classes */
+.studentList {
+  height: 40vh;
+  overflow-y: scroll;
+  background-color: rgb(242 219 213 / 25%);
+  border-radius: 10px;
+}
+
+.divider2 {
+  height: 30px;
+  right: 50%;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Analytics and Maps */
+#visitors-count {
+  color: #73978B;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  display: inline-block;
+  font-family: "Cormorant Garamond", serif;
+}
+
+#chartdiv {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#schoolMapDiv {
+  margin: 20px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#country-stats {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(242, 219, 213, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#country-stats h3 {
+  color: #73978B;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Links */
+.creditsLink {
+  color: black;
+}
+
+.creditsLink:hover {
+  color: #73978B;
+}
+
+/* Text Formatting */
+.text-chapter {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.annotated-text {
+  border-bottom: 2px solid #F7B475;
+  cursor: pointer;
+  position: relative;
+}
+
+.annotated-text:hover {
+  background-color: rgba(247, 180, 117, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .colonnaS, .colonnaD {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #fixedContent {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+/* Print Styles */
+@media print {
+  #mainNav, #fixedContent {
+    display: none;
+  }
+
+  .colonnasinistra, .colonnadestra {
+    height: auto;
+    overflow: visible;
+    border: none;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    border: 2px solid currentColor;
+  }
+
+  .colonnadestra, .colonnasinistra {
+    border-width: 4px;
+  }
+}
