@@ -33,10 +33,11 @@
   .mobile-reader-interface {
     display: flex !important;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 56px); /* Account for navbar height */
     position: relative;
     background: #fff;
     z-index: 10;
+    margin-top: 56px; /* Push down below navbar */
   }
 
   /* Tab Navigation */
@@ -45,7 +46,8 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 100; /* Reduced to be below navbar */
+    pointer-events: auto; /* Ensure clickability */
   }
 
   .tab-buttons {
@@ -56,22 +58,24 @@
   .mobile-tab-btn {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Changed to row for more compact layout */
     align-items: center;
-    padding: 12px 8px;
+    justify-content: center;
+    gap: 6px; /* Space between icon and text */
+    padding: 10px 8px; /* Adjusted padding */
     background: transparent;
     border: none;
     color: rgba(255,255,255,0.8);
-    font-size: 14px;
+    font-size: 14px; /* Standard size */
     font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
-    min-height: 48px; /* Touch target */
+    min-height: 44px; /* Standard touch target */
   }
 
   .mobile-tab-btn i {
-    font-size: 18px;
-    margin-bottom: 4px;
+    font-size: 16px; /* Reduced from 18px */
+    margin-bottom: 0; /* No margin needed for row layout */
   }
 
   .mobile-tab-btn.active {
@@ -84,37 +88,23 @@
     color: #fff;
   }
 
-  /* Tab dropdown for secondary tab */
-  .tab-dropdown-container {
-    position: relative;
-    flex: 1;
-  }
-
-  .dropdown-arrow {
-    font-size: 12px;
-    margin-left: 4px;
-    transition: transform 0.3s ease;
-  }
-
-  .mobile-tab-btn.active .dropdown-arrow {
-    transform: rotate(180deg);
-  }
-
-  .mobile-dropdown-menu {
+  /* Selection dropdown in secondary tab */
+  .mobile-selection-dropdown {
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: #fff;
-    border-radius: 0 0 12px 12px;
+    border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.25);
-    max-height: 50vh;
+    max-height: 60vh;
     overflow-y: auto;
     z-index: 1000;
     display: none;
+    margin-top: 8px;
   }
 
-  .mobile-dropdown-menu.show {
+  .mobile-selection-dropdown.show {
     display: block;
   }
 
@@ -300,14 +290,55 @@
     border-bottom: 1px solid #e9ecef;
   }
 
+  /* Mobile selection header styles */
+  .mobile-selection-header {
+    padding: 16px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 0;
+  }
+
+  .selection-label {
+    display: block;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .mobile-select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+    color: #495057;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-right: 32px;
+  }
+
+  .mobile-select:focus {
+    outline: none;
+    border-color: #73978B;
+    box-shadow: 0 0 0 2px rgba(115, 151, 139, 0.2);
+  }
+
   .current-selection {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    padding: 12px 16px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+    padding: 16px 16px; /* Increased padding */
+    border-radius: 12px; /* More rounded */
+    border: 1px solid #e9ecef; /* Lighter border */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08); /* Enhanced shadow */
+    margin-bottom: 16px; /* Add margin */
+    position: relative; /* For dropdown positioning */
   }
 
   .selection-info {
@@ -341,14 +372,25 @@
   }
 
   .change-selection-btn {
-    padding: 8px 16px;
+    padding: 10px 20px; /* Increased padding */
     background: #73978B;
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px; /* More rounded */
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Space between icon and text */
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(115, 151, 139, 0.3); /* Matching shadow */
+  }
+
+  .change-selection-btn:hover {
+    background: #5a7a6e;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(115, 151, 139, 0.4);
   }
 
   .comparison-controls {
@@ -399,6 +441,7 @@
     flex: 1;
     overflow-y: auto;
     position: relative;
+    margin-top: 16px;
   }
 
   .secondary-single-view,
@@ -511,6 +554,26 @@
   #fixedContent,
   #fixedContent2 {
     display: none !important;
+  }
+
+  /* Hide main navigation on mobile to avoid overlap */
+  /* Keep main navigation visible but compact */
+  #mainNav {
+    height: 56px !important; /* Standard mobile nav height */
+    padding: 8px 0 !important;
+    background: #fff !important;
+    border-bottom: 1px solid #e9ecef;
+    z-index: 1100 !important; /* Above mobile interface */
+  }
+
+  #mainNav .navbar-brand {
+    font-size: 18px !important;
+    padding: 4px 8px !important;
+  }
+
+  #mainNav .navbar-toggler {
+    padding: 4px 8px !important;
+    font-size: 20px !important;
   }
 
   /* ========================================
@@ -763,3 +826,50 @@
     font-size: 17px !important;
   }
 }
+
+/* ========================================
+   MOBILE HOME PAGE ONLY - SEPARATE MEDIA QUERY
+   ======================================== */
+@media screen and (max-width: 768px) {
+  /* Mobile home page improvements */
+
+  /* Fix navbar text visibility on mobile */
+  body#page-top .navbar-brand {
+    color: #333 !important;
+    font-weight: bold !important;
+  }
+
+  /* Hide center signature image on mobile home page only - NOT navbar */
+  body#page-top .masthead .firmaTitolo {
+    background-image: none !important;
+    background: transparent !important;
+  }
+
+  /* Hide redundant "Leggo" text on mobile - already in navbar */
+  body#page-top .h1titolo {
+    display: none !important;
+  }
+
+  /* Use cropped main image for mobile home page only */
+  body#page-top .masthead .container.image-home {
+    background-image: url("../img/frontespizio_9.jpg") !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 400px !important;
+    height: auto !important;
+  }
+
+  /* Hide NAVIGA button on mobile - users can navigate via hamburger menu */
+  body#page-top .btn.btn-primary.btn-xl {
+    display: none !important;
+  }
+
+  /* Fix masthead height for proper image display */
+  body#page-top .masthead {
+    min-height: 70vh !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+

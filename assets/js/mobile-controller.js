@@ -34,14 +34,11 @@ class MobileTabController {
 
     tabButtons.forEach(button => {
       button.addEventListener('click', (e) => {
-        const tabName = e.currentTarget.dataset.tab;
+        e.preventDefault();
+        e.stopPropagation();
 
-        if (tabName === 'secondary' && e.currentTarget.classList.contains('dropdown-toggle')) {
-          // Handle dropdown toggle
-          this.toggleSecondaryDropdown();
-        } else {
-          this.switchTab(tabName);
-        }
+        const tabName = e.currentTarget.dataset.tab;
+        this.switchTab(tabName);
       });
     });
   }
@@ -75,24 +72,6 @@ class MobileTabController {
   }
 
   setupDropdowns() {
-    // Secondary tab dropdown
-    const secondaryBtn = document.getElementById('secondaryTabBtn');
-    const dropdown = document.getElementById('mobileDropdownMenu');
-
-    if (secondaryBtn && dropdown) {
-      secondaryBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        this.toggleSecondaryDropdown();
-      });
-
-      // Handle dropdown item selection
-      dropdown.addEventListener('click', (e) => {
-        if (e.target.classList.contains('mobile-dropdown-item')) {
-          e.preventDefault();
-          this.handleSecondarySelection(e.target);
-        }
-      });
-    }
 
     // Chapter dropdown
     const chapterBtn = document.getElementById('mobileChapterBtn');
@@ -137,54 +116,14 @@ class MobileTabController {
     });
   }
 
-  toggleSecondaryDropdown() {
-    const dropdown = document.getElementById('mobileDropdownMenu');
-    const arrow = document.querySelector('.dropdown-arrow');
+  toggleSelectionDropdown() {
+    const dropdown = document.getElementById('mobileSelectionDropdown');
 
     if (dropdown) {
       dropdown.classList.toggle('show');
-
-      if (arrow) {
-        arrow.style.transform = dropdown.classList.contains('show') ?
-          'rotate(180deg)' : 'rotate(0deg)';
-      }
     }
   }
 
-  handleSecondarySelection(item) {
-    const type = item.dataset.type;
-    const value = item.dataset.value;
-    const slot = item.dataset.slot || '1';
-
-    // Update active selection in dropdown
-    document.querySelectorAll('.mobile-dropdown-item').forEach(dropItem => {
-      dropItem.classList.remove('active');
-    });
-    item.classList.add('active');
-
-    // Update tab label
-    const label = document.getElementById('activeSecondaryLabel');
-    if (label) {
-      label.textContent = value;
-    }
-
-    // Update current selection display
-    const currentName = document.getElementById('currentSecondaryName');
-    if (currentName) {
-      currentName.textContent = value;
-    }
-
-    // Handle special cases
-    if (item.id === 'addSecondaryOption') {
-      this.startComparisonMode();
-    } else {
-      // Load the selected content using existing functions
-      this.loadSecondaryContent(type, value, slot);
-    }
-
-    this.closeAllDropdowns();
-    this.switchTab('secondary');
-  }
 
   handleChapterSelection(item) {
     const chapter = item.dataset.chapter;
@@ -203,8 +142,8 @@ class MobileTabController {
     item.classList.add('active');
 
     // Load chapter using existing function
-    if (window.loadChapterSimpleFormat) {
-      window.loadChapterSimpleFormat(chapter);
+    if (typeof fetchChapter === 'function') {
+      fetchChapter(chapter);
     }
 
     this.currentChapter = chapter;
@@ -212,26 +151,29 @@ class MobileTabController {
   }
 
   handleSecondaryControlSelection(item) {
-    const type = item.dataset.type;
-    const value = item.dataset.value;
-    const slot = item.dataset.slot || '1';
-
-    // Update active selection in dropdown
-    document.querySelectorAll('#secondaryDropdown .mobile-control-item').forEach(dropItem => {
-      dropItem.classList.remove('active');
-    });
-    item.classList.add('active');
-
-    // Update secondary label
-    const label = document.getElementById('currentSecondaryLabel');
-    if (label) {
-      label.textContent = value;
-    }
-
-    // Handle special cases
+    // Handle special cases - only comparison mode now
     if (item.id === 'addComparisonOption') {
       this.startComparisonMode();
+      // Switch to secondary tab to show comparison
+      this.switchTab('secondary');
     } else {
+      // For regular content selection, load it and switch to secondary tab
+      const type = item.dataset.type;
+      const value = item.dataset.value;
+      const slot = item.dataset.slot || '1';
+
+      // Update active selection in dropdown
+      document.querySelectorAll('#secondaryDropdown .mobile-control-item').forEach(dropItem => {
+        dropItem.classList.remove('active');
+      });
+      item.classList.add('active');
+
+      // Update secondary label
+      const label = document.getElementById('currentSecondaryLabel');
+      if (label) {
+        label.textContent = value;
+      }
+
       // Load the selected content using existing functions
       this.loadSecondaryContent(type, value, slot);
       // Switch to secondary tab to show the content
@@ -242,13 +184,7 @@ class MobileTabController {
   }
 
   setupSecondaryControls() {
-    // Change selection button
-    const changeBtn = document.getElementById('changeSecondaryBtn');
-    if (changeBtn) {
-      changeBtn.addEventListener('click', () => {
-        this.toggleSecondaryDropdown();
-      });
-    }
+    // No secondary controls needed with simple select dropdown
 
     // Comparison controls
     const comparisonTabs = document.querySelectorAll('.comparison-tab');
@@ -367,16 +303,33 @@ class MobileTabController {
   }
 
   loadSecondaryContent(type, value, slot) {
-    // Integrate with existing comment/translation loading functions
-    if (type === 'comment') {
-      // Use existing comment loading function
-      if (window.loadComment) {
-        window.loadComment(value, slot);
+    // Get active chapter
+    const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
+    const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : 'intro';
+
+    // Integrate with existing translation/comment loading functions
+    if (type === 'translation') {
+      // Use existing fetchAndDisplayData function for translations
+      if (typeof fetchAndDisplayData === 'function') {
+        const sourceSuffix = window.isAlternateSource ? 's' : '';
+        const endpoint = `./get-translation/${value}${sourceSuffix}/${activeChapter}`;
+
+        if (slot === '1') {
+          fetchAndDisplayData(endpoint, '#upperDiv .text-comment-top');
+        } else {
+          fetchAndDisplayData(endpoint, '#bottomDiv .text-comment-bottom');
+        }
       }
-    } else if (type === 'translation') {
-      // Use existing translation loading function
-      if (window.loadTranslation) {
-        window.loadTranslation(value, slot);
+    } else if (type === 'comment') {
+      // For comments, use the get-comment endpoint
+      if (typeof fetchAndDisplayData === 'function') {
+        const endpoint = `./get-comment/${value}/${activeChapter}`;
+
+        if (slot === '1') {
+          fetchAndDisplayData(endpoint, '#upperDiv .text-comment-top');
+        } else {
+          fetchAndDisplayData(endpoint, '#bottomDiv .text-comment-bottom');
+        }
       }
     }
   }
@@ -489,13 +442,8 @@ class MobileTabController {
   }
 
   closeAllDropdowns() {
-    document.querySelectorAll('.mobile-dropdown-menu, .mobile-control-dropdown').forEach(dropdown => {
+    document.querySelectorAll('.mobile-selection-dropdown, .mobile-control-dropdown').forEach(dropdown => {
       dropdown.classList.remove('show');
-    });
-
-    // Reset dropdown arrows
-    document.querySelectorAll('.dropdown-arrow').forEach(arrow => {
-      arrow.style.transform = 'rotate(0deg)';
     });
   }
 
@@ -522,25 +470,32 @@ class MobileTabController {
 
     if (desktopTextContent && mobileTextContent) {
       mobileTextContent.innerHTML = desktopTextContent.innerHTML;
-      // console.log('📱 Synced text content to mobile');
     }
 
-    // Sync comment content from desktop to mobile
-    const desktopCommentTop = document.querySelector('.text-comment-top');
-    const mobileCommentTop = document.querySelector('#secondarySingleView .text-comment-top');
+    // Sync comment content from desktop to mobile - simplified approach
+    const desktopCommentTop = document.querySelector('#upperDiv .text-comment-top');
+    const mobileSecondaryContent = document.querySelector('#mobileSecondaryContent .text-comment-top');
 
-    if (desktopCommentTop && mobileCommentTop) {
-      mobileCommentTop.innerHTML = desktopCommentTop.innerHTML;
-      // console.log('📱 Synced comment content to mobile');
+    if (desktopCommentTop && mobileSecondaryContent) {
+      // Directly copy desktop comments to mobile secondary content
+      mobileSecondaryContent.innerHTML = desktopCommentTop.innerHTML;
     }
 
-    // Sync comment bottom (for comparison mode)
-    const desktopCommentBottom = document.querySelector('.text-comment-bottom');
-    const mobileCommentBottom = document.querySelector('#comparisonPane2 .text-comment-bottom');
+    // Auto-switch to secondary tab if there's content and we're not already there
+    if (desktopCommentTop && desktopCommentTop.innerHTML.trim().length > 50 && this.activeTab === 'text') {
+      // Update the secondary label to show what's currently loaded
+      this.updateSecondaryLabel();
+    }
+  }
 
-    if (desktopCommentBottom && mobileCommentBottom) {
-      mobileCommentBottom.innerHTML = desktopCommentBottom.innerHTML;
-      // console.log('📱 Synced comparison content to mobile');
+  updateSecondaryLabel() {
+    // Try to determine what comment/translation is currently loaded
+    // This is a bit tricky since we need to reverse-engineer from the content
+    // For now, we'll just show a generic label
+    const label = document.getElementById('currentSecondaryLabel');
+    if (label) {
+      const isReader = window.location.pathname.includes('reader');
+      label.textContent = isReader ? 'Commento caricato' : 'Traduzione caricata';
     }
   }
 

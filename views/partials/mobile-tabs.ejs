@@ -11,53 +11,13 @@
         <span>Testo</span>
       </button>
 
-      <!-- Dynamic Second Tab (Comments or Translations) -->
-      <div class="tab-dropdown-container">
-        <button class="mobile-tab-btn dropdown-toggle" data-tab="secondary" id="secondaryTabBtn">
-          <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
-          <span id="activeSecondaryLabel">
-            <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Commenti') : (translations && translations[0] ? translations[0] : 'Traduzioni') %>
-          </span>
-          <i class="bi bi-chevron-down dropdown-arrow"></i>
-        </button>
-
-        <!-- Dropdown Menu for Selection -->
-        <div class="mobile-dropdown-menu" id="mobileDropdownMenu">
-          <div class="dropdown-header">
-            <%= pageType === 'reader' ? 'Seleziona Commentatore' : 'Seleziona Lingua' %>
-          </div>
-          <div class="dropdown-items">
-            <% if (pageType === 'reader' && commenti) { %>
-              <% commenti.forEach((comment, index) => { %>
-                <a class="mobile-dropdown-item <%= index === 0 ? 'active' : '' %>"
-                   data-type="comment"
-                   data-value="<%= comment %>"
-                   data-slot="1">
-                  <i class="bi bi-person"></i>
-                  <%= comment %>
-                </a>
-              <% }); %>
-            <% } else if (pageType === 'traduco' && translations) { %>
-              <% translations.forEach((translation, index) => { %>
-                <a class="mobile-dropdown-item <%= index === 0 ? 'active' : '' %>"
-                   data-type="translation"
-                   data-value="<%= translation %>"
-                   data-slot="1">
-                  <i class="bi bi-globe"></i>
-                  <%= translation %>
-                </a>
-              <% }); %>
-            <% } %>
-          </div>
-
-          <!-- Option for second comparison -->
-          <div class="dropdown-divider"></div>
-          <a class="mobile-dropdown-item secondary-option" id="addSecondaryOption">
-            <i class="bi bi-plus-circle"></i>
-            <%= pageType === 'reader' ? 'Confronta con altro commentatore' : 'Confronta con altra lingua' %>
-          </a>
-        </div>
-      </div>
+      <!-- Dynamic Second Tab (Comments or Translations) - Simplified -->
+      <button class="mobile-tab-btn" data-tab="secondary" id="secondaryTabBtn">
+        <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+        <span>
+          <%= pageType === 'reader' ? 'Commenti' : 'Traduzioni' %>
+        </span>
+      </button>
     </div>
 
     <!-- Tab Indicator -->
@@ -151,46 +111,7 @@
 
     <!-- Secondary Tab Content (Comments/Translations) -->
     <div class="mobile-tab-pane" id="secondaryTabPane">
-      <!-- Secondary Controls -->
-      <div class="secondary-controls-mobile">
-        <!-- Current Selection Display -->
-        <div class="current-selection">
-          <div class="selection-info">
-            <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
-            <div class="selection-details">
-              <span class="selection-type">
-                <%= pageType === 'reader' ? 'Commentatore' : 'Lingua' %>
-              </span>
-              <span class="selection-name" id="currentSecondaryName">
-                <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Seleziona...') : (translations && translations[0] ? translations[0] : 'Seleziona...') %>
-              </span>
-            </div>
-          </div>
-
-          <!-- Change Selection Button -->
-          <button class="change-selection-btn" id="changeSecondaryBtn">
-            <i class="bi bi-arrow-repeat"></i>
-            Cambia
-          </button>
-        </div>
-
-        <!-- Comparison Controls (when comparing two) -->
-        <div class="comparison-controls hide" id="comparisonControls">
-          <div class="comparison-tabs">
-            <button class="comparison-tab active" data-slot="1" id="comparisonTab1">
-              <span id="comparison1Name">Primo</span>
-            </button>
-            <button class="comparison-tab" data-slot="2" id="comparisonTab2">
-              <span id="comparison2Name">Secondo</span>
-            </button>
-          </div>
-          <button class="close-comparison-btn" id="closeComparisonBtn">
-            <i class="bi bi-x-lg"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- Secondary Content -->
+      <!-- Secondary Content with proper margins -->
       <div class="mobile-secondary-content" id="mobileSecondaryContent">
         <!-- Single view -->
         <div class="secondary-single-view" id="secondarySingleView">

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const defaultComment = 'Badini Confalonieri, Luca';
-    const defaultComment2 = 'Angelini, Cesare';
+    const defaultComment = 'Angelini, Cesare'; // Use curator name - what backend expects
+    const defaultComment2 = 'Badini Confalonieri, Luca'; // Use curator name - what backend expects
     const defaultChapter = 'intro';
 
     // Set initial button texts

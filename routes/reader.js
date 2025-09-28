@@ -26,6 +26,7 @@ router.get("/reader", (req, res) => {
             res.render("reader", {
                 chapters: chapters,
                 commenti: commenti,
+                commentiInfo: commentiInfo, // Pass full info for mobile
                 defaultChapter: 'intro',
                 currentLang: req.getLocale()
             });
