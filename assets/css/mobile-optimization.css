@@ -26,6 +26,12 @@
     overflow-x: hidden;
   }
 
+  /* Reduce header spacing for content pages */
+  header.masthead {
+    padding-top: 3rem !important; /* Reduced from 10rem */
+    padding-bottom: 2rem !important; /* Reduced from calc(10rem - 4.5rem) */
+  }
+
   /* ========================================
      MOBILE TAB INTERFACE
      ======================================== */
