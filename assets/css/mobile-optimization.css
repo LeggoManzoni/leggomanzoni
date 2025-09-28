@@ -26,10 +26,47 @@
     overflow-x: hidden;
   }
 
-  /* Reduce header spacing for content pages */
+  /* Create explicit height and center navbar content */
+  .navbar {
+    min-height: 4rem !important;
+    padding: 0 !important;
+    margin-bottom: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Force container to center content vertically */
+  .navbar .container-fluid {
+    height: 4rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 1rem !important;
+    margin: 0 !important;
+  }
+
+  /* Center burger menu explicitly */
+  .navbar-toggler {
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    height: auto !important;
+  }
+
+  /* Center brand elements explicitly */
+  .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+
+  /* Reduce header spacing for content pages while maintaining visual separation */
   header.masthead {
-    padding-top: 3rem !important; /* Reduced from 10rem */
-    padding-bottom: 2rem !important; /* Reduced from calc(10rem - 4.5rem) */
+    padding-top: 4rem !important; /* Balanced reduction - keeps rounded effect */
+    padding-bottom: 2rem !important;
   }
 
   /* ========================================
