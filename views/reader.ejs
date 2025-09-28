@@ -35,6 +35,14 @@
                     <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
                 </div>
             </header>
+
+            <!-- Mobile Tab Interface -->
+            <%- include("partials/mobile-tabs", {
+                pageType: 'reader',
+                chapters: chapters,
+                commenti: commenti,
+                translations: null
+            }); %>
             <div class="container container1">
                 <section class="box-testi">
                     <div class="row normalFont" id="row-rem">
@@ -165,7 +173,8 @@
             <%- include("partials/footer"); %>
                 <!-- Scripts-->
                 <%- include("partials/scripts"); %>
-                
+
                     <script src="./assets/js/converted_content.js"></script>
+                    <script src="./assets/js/mobile-controller.js"></script>
     </body>
 </html>

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const sourceSuffix = isAlternateSource ? 's' : '';
 
     // Fetch and display the default translation and chapter
-    fetchAndDisplayData(`./get-translation/${defaultLanguage}${sourceSuffix}/${defaultChapter}`, '.text-comment-top');
+    fetchAndDisplayData(`./get-translation/${defaultLanguage}${sourceSuffix}/${defaultChapter}`, '#upperDiv .text-comment-top');
     fetchChapter(defaultChapter);
 
     // Setup MutationObserver
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Setup click event listeners for links
     setupChapterClickListener('.chapter-link', fetchChapter);
-    setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
-    setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
+    setupLinkClickListener('.comment-link', fetchAndDisplayData, '#upperDiv .text-comment-top');
+    setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '#bottomDiv .text-comment-bottom');
 
     setupHoverScrolling();
 
@@ -94,8 +94,8 @@ let toggleColumn = () => {
         const activeChapterElement = document.querySelector('.chapter-link.active-chapter');
         const activeChapter = activeChapterElement ? activeChapterElement.getAttribute('data-chapter') : "intro";
         const activeCommentElement2 = document.querySelector('.comment-link-2.active-comment');
-        const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : defaultLanguage2;
-        fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '.text-comment-bottom');
+        const activeComment2 = activeCommentElement2 ? activeCommentElement2.getAttribute('data-comment') : 'French_1877';
+        fetchAndDisplayData(`./get-translation/${activeComment2}/${activeChapter}`, '#bottomDiv .text-comment-bottom');
     } else {
         // Hide the bottom div
         bottomDiv.classList.add("hide");
@@ -105,7 +105,7 @@ let toggleColumn = () => {
         buttonComments.classList.add("hide");
 
         // Clear the content of the second translation
-        document.querySelector('.text-comment-bottom').innerHTML = '';
+        document.querySelector('#bottomDiv .text-comment-bottom').innerHTML = '';
     }
 
     // Update the highlighting
@@ -130,7 +130,7 @@ function fetchChapter(activeChapter) {
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
-            const chapterElement = document.querySelector('.text-chapter');
+            const chapterElement = document.querySelector('.text-chapter#whichpage');
             if (chapterElement) {
                 chapterElement.innerHTML = data;
                 const h1Element = chapterElement.querySelector('h1');
@@ -140,16 +140,16 @@ function fetchChapter(activeChapter) {
                 highlightHoveredItem();
 
                 // Fetch the translations using the source suffix
-                fetchAndDisplayData(`./get-translation/${activeComment}${sourceSuffix}/${activeChapter}`, '.text-comment-top');
+                fetchAndDisplayData(`./get-translation/${activeComment}${sourceSuffix}/${activeChapter}`, '#upperDiv .text-comment-top');
 
                 // Check if the second translation is visible
                 const bottomDiv = document.getElementById('bottomDiv');
                 const isBottomCommentActive = !bottomDiv.classList.contains('hide');
                 if (isBottomCommentActive && activeComment2) {
-                    fetchAndDisplayData(`./get-translation/${activeComment2}${sourceSuffix}/${activeChapter}`, '.text-comment-bottom');
+                    fetchAndDisplayData(`./get-translation/${activeComment2}${sourceSuffix}/${activeChapter}`, '#bottomDiv .text-comment-bottom');
                 } else {
                     // Clear the content if the second translation is hidden
-                    document.querySelector('.text-comment-bottom').innerHTML = '';
+                    document.querySelector('#bottomDiv .text-comment-bottom').innerHTML = '';
                 }
             }
         })
@@ -166,12 +166,12 @@ function fetchAndDisplayData(endpoint, selector) {
                 highlightHoveredItem();
 
                 // Scroll the container to the top
-                if (selector === '.text-comment-top') {
+                if (selector === '#upperDiv .text-comment-top') {
                     const containerElement = document.getElementById('upperDiv');
                     if (containerElement) {
                         containerElement.scrollTop = 0;
                     }
-                } else if (selector === '.text-comment-bottom') {
+                } else if (selector === '#bottomDiv .text-comment-bottom') {
                     const containerElement = document.getElementById('bottomDiv');
                     if (containerElement) {
                         containerElement.scrollTop = 0;
@@ -211,9 +211,9 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
             event.target.classList.add('active-comment');
 
             // Update the Lingua button label
-            if (displaySelector === '.text-comment-top') {
+            if (displaySelector === '#upperDiv .text-comment-top') {
                 document.getElementById('toggle-commenti1').innerText = selectedLanguage;
-            } else if (displaySelector === '.text-comment-bottom') {
+            } else if (displaySelector === '#bottomDiv .text-comment-bottom') {
                 document.getElementById('toggle-commenti2').innerText = selectedLanguage;
             }
 
@@ -391,6 +391,6 @@ function toggleTranslationSource() {
     const translationEndpoint2 = `./get-translation/${activeComment2}${sourceSuffix}/${activeChapter}`;
 
     // Fetch and display the updated translations
-    fetchAndDisplayData(translationEndpoint1, '.text-comment-top');
-    fetchAndDisplayData(translationEndpoint2, '.text-comment-bottom');
+    fetchAndDisplayData(translationEndpoint1, '#upperDiv .text-comment-top');
+    fetchAndDisplayData(translationEndpoint2, '#bottomDiv .text-comment-bottom');
 }

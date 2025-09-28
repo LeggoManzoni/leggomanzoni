@@ -1,0 +1,765 @@
+/*!
+ * LeggoManzoni Mobile Optimization
+ * Comprehensive mobile-first responsive design
+ */
+
+/* ========================================
+   MOBILE DETECTION AND BASE SETUP
+   ======================================== */
+
+@media (max-width: 768px) {
+  /* Reset and base mobile styles */
+  * {
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body {
+    font-size: 16px; /* Minimum readable size on mobile */
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* Hide horizontal scroll globally */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* ========================================
+     MOBILE TAB INTERFACE
+     ======================================== */
+
+  .mobile-reader-interface {
+    display: flex !important;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    background: #fff;
+    z-index: 10;
+  }
+
+  /* Tab Navigation */
+  .mobile-tab-navigation {
+    background: linear-gradient(135deg, #73978B 0%, #5a7a6e 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .tab-buttons {
+    display: flex;
+    position: relative;
+  }
+
+  .mobile-tab-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    background: transparent;
+    border: none;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-height: 48px; /* Touch target */
+  }
+
+  .mobile-tab-btn i {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .mobile-tab-btn.active {
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .mobile-tab-btn:hover {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+  }
+
+  /* Tab dropdown for secondary tab */
+  .tab-dropdown-container {
+    position: relative;
+    flex: 1;
+  }
+
+  .dropdown-arrow {
+    font-size: 12px;
+    margin-left: 4px;
+    transition: transform 0.3s ease;
+  }
+
+  .mobile-tab-btn.active .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+
+  .mobile-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    max-height: 50vh;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+  }
+
+  .mobile-dropdown-menu.show {
+    display: block;
+  }
+
+  .dropdown-header {
+    padding: 16px;
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #73978B;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .mobile-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.2s ease;
+  }
+
+  .mobile-dropdown-item:hover,
+  .mobile-dropdown-item.active {
+    background: #73978B;
+    color: #fff;
+  }
+
+  .mobile-dropdown-item i {
+    margin-right: 12px;
+    font-size: 16px;
+  }
+
+  .dropdown-divider {
+    height: 1px;
+    background: #e9ecef;
+    margin: 8px 0;
+  }
+
+  .secondary-option {
+    color: #73978B !important;
+    font-weight: 600;
+  }
+
+  /* Tab Content */
+  .mobile-tab-content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mobile-tab-pane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    background: #fff;
+  }
+
+  .mobile-tab-pane.active {
+    display: flex;
+  }
+
+  /* ========================================
+     TEXT TAB STYLES
+     ======================================== */
+
+  .text-controls-mobile {
+    background: #f8f9fa;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .control-group {
+    position: relative;
+  }
+
+  .mobile-control-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 120px;
+  }
+
+  .mobile-control-btn i {
+    margin-right: 8px;
+  }
+
+  .mobile-control-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+    display: none;
+  }
+
+  .mobile-control-dropdown.show {
+    display: block;
+  }
+
+  .mobile-control-item {
+    display: block;
+    padding: 12px 16px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .mobile-control-item:hover {
+    background: #f8f9fa;
+  }
+
+  .mobile-control-item.active {
+    background: #73978B;
+    color: #fff;
+  }
+
+  .mobile-control-divider {
+    height: 1px;
+    background: #e9ecef;
+    margin: 8px 0;
+  }
+
+  .reading-controls {
+    display: flex;
+    gap: 8px;
+  }
+
+  .mobile-icon-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-icon-btn:hover,
+  .mobile-icon-btn.active {
+    background: #73978B;
+    color: #fff;
+    border-color: #73978B;
+  }
+
+  .mobile-text-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    font-size: 18px; /* Optimal reading size */
+    line-height: 1.7;
+  }
+
+  /* ========================================
+     SECONDARY TAB STYLES (Comments/Translations)
+     ======================================== */
+
+  .secondary-controls-mobile {
+    background: #f8f9fa;
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .current-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .selection-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .selection-info i {
+    font-size: 20px;
+    color: #73978B;
+    margin-right: 12px;
+  }
+
+  .selection-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selection-type {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .selection-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .change-selection-btn {
+    padding: 8px 16px;
+    background: #73978B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .comparison-controls {
+    margin-top: 12px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+
+  .comparison-tabs {
+    display: flex;
+  }
+
+  .comparison-tab {
+    flex: 1;
+    padding: 12px;
+    background: #f8f9fa;
+    border: none;
+    border-right: 1px solid #ddd;
+    color: #666;
+    cursor: pointer;
+  }
+
+  .comparison-tab:last-child {
+    border-right: none;
+  }
+
+  .comparison-tab.active {
+    background: #73978B;
+    color: #fff;
+  }
+
+  .close-comparison-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    cursor: pointer;
+  }
+
+  .mobile-secondary-content {
+    flex: 1;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .secondary-single-view,
+  .comparison-pane {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .secondary-comparison-view {
+    position: relative;
+    height: 100%;
+  }
+
+  .comparison-pane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+
+  .comparison-pane.active {
+    display: block;
+  }
+
+  /* ========================================
+     FLOATING ACTION BUTTON
+     ======================================== */
+
+  .mobile-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .fab-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #73978B;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 4px 16px rgba(115, 151, 139, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .fab-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(115, 151, 139, 0.6);
+  }
+
+  .fab-menu {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .fab-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    color: #333;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .fab-menu-item i {
+    margin-right: 8px;
+    color: #73978B;
+  }
+
+  /* Progress Bar */
+  .mobile-progress-bar {
+    height: 3px;
+    background: #e9ecef;
+    position: sticky;
+    bottom: 0;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #73978B, #F4EFC5);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  /* ========================================
+     HIDE DESKTOP INTERFACE ON MOBILE
+     ======================================== */
+
+  /* Hide desktop two-column layout */
+  .row#row-rem {
+    display: none !important;
+  }
+
+  /* Hide desktop fixed content */
+  #fixedContent,
+  #fixedContent2 {
+    display: none !important;
+  }
+
+  /* ========================================
+     MOBILE NAVIGATION OPTIMIZATION
+     ======================================== */
+
+  /* Ensure navbar is properly collapsed */
+  .navbar-toggler {
+    display: block !important;
+    padding: 8px 12px;
+    border: 2px solid #73978B;
+    border-radius: 6px;
+  }
+
+  .navbar-collapse {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 12px 16px !important;
+    margin: 4px 0;
+    border-radius: 6px;
+    font-size: 16px !important;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background: #73978B !important;
+    color: #fff !important;
+  }
+
+  /* ========================================
+     GENERAL MOBILE PAGE OPTIMIZATION
+     ======================================== */
+
+  /* Container optimization */
+  .container,
+  .container-fluid {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    max-width: 100% !important;
+  }
+
+  /* Typography optimization */
+  h1, .h1 { font-size: 1.8rem !important; }
+  h2, .h2 { font-size: 1.6rem !important; }
+  h3, .h3 { font-size: 1.4rem !important; }
+  h4, .h4 { font-size: 1.2rem !important; }
+
+  p, li, span, div {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Button optimization */
+  .btn,
+  button,
+  a.btn {
+    min-height: 48px !important;
+    min-width: 48px !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Form optimization */
+  input,
+  select,
+  textarea {
+    min-height: 48px !important;
+    font-size: 16px !important;
+    padding: 12px 16px !important;
+  }
+
+  /* Dropdown optimization */
+  .dropdown-menu {
+    min-width: 100% !important;
+    font-size: 16px !important;
+  }
+
+  .dropdown-item {
+    padding: 12px 16px !important;
+    min-height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Content spacing */
+  .box-progetti,
+  .box-informazioni,
+  .box-progetto,
+  .box-intro,
+  .box-news {
+    margin: 16px 8px !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+  }
+
+  /* Image optimization */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Table optimization */
+  .table-responsive {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 14px !important;
+  }
+
+  th, td {
+    padding: 12px 8px !important;
+  }
+
+  /* ========================================
+     UTILITY CLASSES
+     ======================================== */
+
+  .hide {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  /* Touch-friendly scrollbars */
+  .mobile-text-content::-webkit-scrollbar,
+  .mobile-secondary-content::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .mobile-text-content::-webkit-scrollbar-thumb,
+  .mobile-secondary-content::-webkit-scrollbar-thumb {
+    background: #73978B;
+    border-radius: 2px;
+  }
+
+  /* ========================================
+     ANIMATIONS AND TRANSITIONS
+     ======================================== */
+
+  .mobile-tab-pane {
+    transition: opacity 0.3s ease;
+  }
+
+  .mobile-dropdown-menu {
+    animation: slideDown 0.3s ease;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Smooth scrolling */
+  .mobile-text-content,
+  .mobile-secondary-content {
+    scroll-behavior: smooth;
+  }
+
+  /* ========================================
+     ACCESSIBILITY IMPROVEMENTS
+     ======================================== */
+
+  /* Focus states */
+  .mobile-tab-btn:focus,
+  .mobile-control-btn:focus,
+  .mobile-icon-btn:focus {
+    outline: 2px solid #F4EFC5;
+    outline-offset: 2px;
+  }
+
+  /* High contrast support */
+  @media (prefers-contrast: high) {
+    .mobile-tab-btn,
+    .mobile-control-btn,
+    .mobile-icon-btn {
+      border: 2px solid currentColor;
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ========================================
+   TABLET SPECIFIC ADJUSTMENTS (768px - 1024px)
+   ======================================== */
+
+@media (min-width: 769px) {
+  .mobile-reader-interface {
+    display: none !important;
+  }
+
+  /* Show desktop interface but with some mobile optimizations */
+  .row#row-rem {
+    display: flex !important;
+  }
+
+  /* Ensure desktop fixed content is visible */
+  #fixedContent,
+  #fixedContent2 {
+    display: block !important;
+  }
+
+  /* Larger touch targets for tablet */
+  .btn,
+  button {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+
+  .dropdown-item {
+    min-height: 44px !important;
+    padding: 10px 16px !important;
+  }
+
+  /* Better typography for tablet */
+  p, li, span, div {
+    font-size: 17px !important;
+  }
+}

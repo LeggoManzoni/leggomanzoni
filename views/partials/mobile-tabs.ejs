@@ -1,0 +1,272 @@
+<!-- Mobile Tab Interface - Shared Component -->
+<!-- Can be used for both reader (comments) and traduco (translations) -->
+
+<div class="mobile-reader-interface" id="mobileInterface">
+  <!-- Mobile Tab Navigation -->
+  <div class="mobile-tab-navigation">
+    <div class="tab-buttons">
+      <!-- Text Tab -->
+      <button class="mobile-tab-btn active" data-tab="text" id="textTabBtn">
+        <i class="bi bi-book"></i>
+        <span>Testo</span>
+      </button>
+
+      <!-- Dynamic Second Tab (Comments or Translations) -->
+      <div class="tab-dropdown-container">
+        <button class="mobile-tab-btn dropdown-toggle" data-tab="secondary" id="secondaryTabBtn">
+          <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+          <span id="activeSecondaryLabel">
+            <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Commenti') : (translations && translations[0] ? translations[0] : 'Traduzioni') %>
+          </span>
+          <i class="bi bi-chevron-down dropdown-arrow"></i>
+        </button>
+
+        <!-- Dropdown Menu for Selection -->
+        <div class="mobile-dropdown-menu" id="mobileDropdownMenu">
+          <div class="dropdown-header">
+            <%= pageType === 'reader' ? 'Seleziona Commentatore' : 'Seleziona Lingua' %>
+          </div>
+          <div class="dropdown-items">
+            <% if (pageType === 'reader' && commenti) { %>
+              <% commenti.forEach((comment, index) => { %>
+                <a class="mobile-dropdown-item <%= index === 0 ? 'active' : '' %>"
+                   data-type="comment"
+                   data-value="<%= comment %>"
+                   data-slot="1">
+                  <i class="bi bi-person"></i>
+                  <%= comment %>
+                </a>
+              <% }); %>
+            <% } else if (pageType === 'traduco' && translations) { %>
+              <% translations.forEach((translation, index) => { %>
+                <a class="mobile-dropdown-item <%= index === 0 ? 'active' : '' %>"
+                   data-type="translation"
+                   data-value="<%= translation %>"
+                   data-slot="1">
+                  <i class="bi bi-globe"></i>
+                  <%= translation %>
+                </a>
+              <% }); %>
+            <% } %>
+          </div>
+
+          <!-- Option for second comparison -->
+          <div class="dropdown-divider"></div>
+          <a class="mobile-dropdown-item secondary-option" id="addSecondaryOption">
+            <i class="bi bi-plus-circle"></i>
+            <%= pageType === 'reader' ? 'Confronta con altro commentatore' : 'Confronta con altra lingua' %>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Indicator -->
+    <div class="tab-indicator" id="tabIndicator"></div>
+  </div>
+
+  <!-- Tab Content Area -->
+  <div class="mobile-tab-content">
+    <!-- Text Tab Content -->
+    <div class="mobile-tab-pane active" id="textTabPane">
+      <!-- Text Controls -->
+      <div class="text-controls-mobile">
+        <!-- Chapter Selector -->
+        <div class="control-group">
+          <button class="mobile-control-btn dropdown-toggle" id="mobileChapterBtn">
+            <i class="bi bi-list-ol"></i>
+            <span id="currentChapterLabel">Introduzione</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="mobile-control-dropdown" id="chapterDropdown">
+            <% chapters.forEach((chapter) => { %>
+              <%
+              let displayName, dataChapter;
+              if (!isNaN(Number(chapter))) {
+                displayName = 'Capitolo ' + chapter;
+                dataChapter = 'cap' + chapter;
+              } else {
+                displayName = chapter;
+                dataChapter = chapter;
+              }
+              %>
+              <a class="mobile-control-item chapter-link"
+                 data-chapter="<%= dataChapter %>"
+                 data-display="<%= displayName %>">
+                <%= displayName %>
+              </a>
+            <% }); %>
+          </div>
+        </div>
+
+        <!-- Secondary Selection Dropdown -->
+        <div class="control-group">
+          <button class="mobile-control-btn dropdown-toggle" id="mobileSecondaryBtn">
+            <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+            <span id="currentSecondaryLabel">
+              <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Commenti') : (translations && translations[0] ? translations[0] : 'Traduzioni') %>
+            </span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="mobile-control-dropdown" id="secondaryDropdown">
+            <% if (pageType === 'reader' && commenti) { %>
+              <% commenti.forEach((comment, index) => { %>
+                <a class="mobile-control-item <%= index === 0 ? 'active' : '' %>"
+                   data-type="comment"
+                   data-value="<%= comment %>"
+                   data-slot="1">
+                  <%= comment %>
+                </a>
+              <% }); %>
+            <% } else if (pageType === 'traduco' && translations) { %>
+              <% translations.forEach((translation, index) => { %>
+                <a class="mobile-control-item <%= index === 0 ? 'active' : '' %>"
+                   data-type="translation"
+                   data-value="<%= translation %>"
+                   data-slot="1">
+                  <%= translation %>
+                </a>
+              <% }); %>
+            <% } %>
+
+            <!-- Option for comparison -->
+            <div class="mobile-control-divider"></div>
+            <a class="mobile-control-item secondary-option" id="addComparisonOption">
+              <i class="bi bi-plus-circle"></i>
+              <%= pageType === 'reader' ? 'Confronta commentatori' : 'Confronta traduzioni' %>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="mobile-text-content" id="mobileTextContent">
+        <!-- This will contain the main text content -->
+        <div class="text-chapter" id="mobileWhichpage">
+          <div class="section" id="mobile-2b-intro">
+            <div class="header" id="mobile-2b-header"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary Tab Content (Comments/Translations) -->
+    <div class="mobile-tab-pane" id="secondaryTabPane">
+      <!-- Secondary Controls -->
+      <div class="secondary-controls-mobile">
+        <!-- Current Selection Display -->
+        <div class="current-selection">
+          <div class="selection-info">
+            <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+            <div class="selection-details">
+              <span class="selection-type">
+                <%= pageType === 'reader' ? 'Commentatore' : 'Lingua' %>
+              </span>
+              <span class="selection-name" id="currentSecondaryName">
+                <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Seleziona...') : (translations && translations[0] ? translations[0] : 'Seleziona...') %>
+              </span>
+            </div>
+          </div>
+
+          <!-- Change Selection Button -->
+          <button class="change-selection-btn" id="changeSecondaryBtn">
+            <i class="bi bi-arrow-repeat"></i>
+            Cambia
+          </button>
+        </div>
+
+        <!-- Comparison Controls (when comparing two) -->
+        <div class="comparison-controls hide" id="comparisonControls">
+          <div class="comparison-tabs">
+            <button class="comparison-tab active" data-slot="1" id="comparisonTab1">
+              <span id="comparison1Name">Primo</span>
+            </button>
+            <button class="comparison-tab" data-slot="2" id="comparisonTab2">
+              <span id="comparison2Name">Secondo</span>
+            </button>
+          </div>
+          <button class="close-comparison-btn" id="closeComparisonBtn">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Secondary Content -->
+      <div class="mobile-secondary-content" id="mobileSecondaryContent">
+        <!-- Single view -->
+        <div class="secondary-single-view" id="secondarySingleView">
+          <div class="text-comment-top"></div>
+        </div>
+
+        <!-- Comparison view -->
+        <div class="secondary-comparison-view hide" id="secondaryComparisonView">
+          <div class="comparison-pane active" id="comparisonPane1">
+            <div class="text-comment-top"></div>
+          </div>
+          <div class="comparison-pane" id="comparisonPane2">
+            <div class="text-comment-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Progress Bar -->
+  <div class="mobile-progress-bar">
+    <div class="progress-fill" id="readingProgress"></div>
+  </div>
+
+  <!-- Mobile Floating Action Button -->
+  <div class="mobile-fab" id="mobileFab">
+    <button class="fab-btn" id="fabMainBtn">
+      <i class="bi bi-three-dots"></i>
+    </button>
+
+    <!-- FAB Menu -->
+    <div class="fab-menu hide" id="fabMenu">
+      <button class="fab-menu-item" id="fabInfo">
+        <i class="bi bi-info-circle"></i>
+        <span>Info</span>
+      </button>
+      <button class="fab-menu-item" id="fabBookmark">
+        <i class="bi bi-bookmark"></i>
+        <span>Segna</span>
+      </button>
+      <button class="fab-menu-item" id="fabShare">
+        <i class="bi bi-share"></i>
+        <span>Condividi</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Detection Script -->
+<script>
+// Initialize mobile interface based on screen size
+function initializeMobileInterface() {
+  const mobileInterface = document.getElementById('mobileInterface');
+  const desktopInterface = document.querySelector('.row#row-rem');
+
+  function checkScreenSize() {
+    if (window.innerWidth <= 768) {
+      // Mobile mode
+      if (mobileInterface) mobileInterface.style.display = 'flex';
+      if (desktopInterface) desktopInterface.style.display = 'none';
+    } else {
+      // Desktop mode
+      if (mobileInterface) mobileInterface.style.display = 'none';
+      if (desktopInterface) desktopInterface.style.display = 'flex';
+    }
+  }
+
+  // Check on load and resize
+  checkScreenSize();
+  window.addEventListener('resize', checkScreenSize);
+}
+
+// Initialize when DOM is loaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeMobileInterface);
+} else {
+  initializeMobileInterface();
+}
+</script>

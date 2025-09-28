@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link" href="./credits"><%= __('navigation.credits') %></a></li>
                 <li class="nav-item"><a class="nav-link" href="./news">News</a></li>
                 <li class="nav-item">
-                    <% if (currentLang === 'it') { %>
+                    <% if (typeof currentLang !== 'undefined' && currentLang === 'it') { %>
                         <a class="nav-link language-link" href="./change-language/en">EN</a>
                     <% } else { %>
                         <a class="nav-link language-link" href="./change-language/it">IT</a>

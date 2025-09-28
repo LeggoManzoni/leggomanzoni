@@ -17,11 +17,14 @@
       showTwoComments: '<%= __("reader.showTwoComments") %>',
       showOneComment: '<%= __("reader.showOneComment") %>',
       commentNotFound: '<%= __("reader.commentNotFound") %>',
+      or: '<%= __("reader.or") %>',
       loadingError: '<%= __("reader.loadingError") %>',
-    changeLevel: '<%= __("translation.changeLevel") %>',
-    twoTranslations: '<%= __("translation.twoTranslations") %>',
-    oneTranslation: '<%= __("translation.oneTranslation") %>',
-    information: '<%= __("translation.information") %>',
+      russo: '<%= __("reader.russo") %>',
+      bricchi: '<%= __("reader.bricchi") %>',
+      changeLevel: '<%= __("translation.changeLevel") %>',
+      twoTranslations: '<%= __("translation.twoTranslations") %>',
+      oneTranslation: '<%= __("translation.oneTranslation") %>',
+      information: '<%= __("translation.information") %>',
     };
   </script>
 <%- include ("partials/head"); %>
@@ -36,6 +39,14 @@
                     <h1 class="text-black text-center font-weight-bold" id="readerTitle"></h1>
                 </div>
             </header>
+
+            <!-- Mobile Tab Interface -->
+            <%- include("partials/mobile-tabs", {
+                pageType: 'traduco',
+                chapters: chapters,
+                commenti: null,
+                translations: translations
+            }); %>
             <div class="container container1">
                 <section class="box-testi">
                     <div class="row normalFont" id="row-rem">
@@ -152,6 +163,7 @@
                 <!-- Scripts-->
                 <%- include("partials/scripts"); %>
                 <script src="./assets/js/converted_translations.js"></script>
+                <script src="./assets/js/mobile-controller.js"></script>
                 <!-- Add toggle icon for translation source -->
     </body>
 

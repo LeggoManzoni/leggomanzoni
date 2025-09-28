@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', function () {
     text.textContent = window.translations.showTwoComments;
 
     fetchChapter(defaultChapter);
-    fetchAndDisplayData(`./get-comment/${defaultComment}/${defaultChapter}`, '.text-comment-top');
-    fetchAndDisplayData(`./get-comment/${defaultComment2}/${defaultChapter}`, '.text-comment-bottom');
+    fetchAndDisplayData(`./get-comment/${defaultComment}/${defaultChapter}`, '#upperDiv .text-comment-top');
+    fetchAndDisplayData(`./get-comment/${defaultComment2}/${defaultChapter}`, '#bottomDiv .text-comment-bottom');
 
 
     setupMutationObserver('.divisione');
     // Setup listeners and other functions
     setupChapterClickListener('.chapter-link', fetchChapter);
-    setupLinkClickListener('.comment-link', fetchAndDisplayData, '.text-comment-top');
-    setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '.text-comment-bottom');
+    setupLinkClickListener('.comment-link', fetchAndDisplayData, '#upperDiv .text-comment-top');
+    setupLinkClickListener('.comment-link-2', fetchAndDisplayData, '#bottomDiv .text-comment-bottom');
 
     setupHoverScrolling();
     highlightHoveredItem();
@@ -52,20 +52,24 @@ function fetchChapter(chapter) {
     fetch(chapterURL)
         .then(response => response.text())
         .then(data => {
-            const chapterElement = document.querySelector('.text-chapter');
+            const chapterElement = document.querySelector('.text-chapter#whichpage');
             if (chapterElement) {
                 chapterElement.innerHTML = data;
-                const test_chapter = document.querySelector('.text-chapter#whichpage');
-                const h1Element = test_chapter.querySelector('h1');
-                h1Element.className = chapter;
+                const test_chapter = chapterElement;
+                if (test_chapter) {
+                    const h1Element = test_chapter.querySelector('h1');
+                    if (h1Element) {
+                        h1Element.className = chapter;
+                    }
+                }
                 const promessisposiElement = document.getElementById('promessisposi');
                 if (promessisposiElement) {
                     promessisposiElement.scrollTop = 0;
                 }
 
                 // Fetch and display comments for the new chapter
-                fetchAndDisplayData(`./get-comment/${activeComment}/${chapter}`, '.text-comment-top');
-                fetchAndDisplayData(`./get-comment/${activeComment2}/${chapter}`, '.text-comment-bottom');
+                fetchAndDisplayData(`./get-comment/${activeComment}/${chapter}`, '#upperDiv .text-comment-top');
+                fetchAndDisplayData(`./get-comment/${activeComment2}/${chapter}`, '#bottomDiv .text-comment-bottom');
 
                 highlightHoveredItem();
             }
@@ -115,14 +119,14 @@ function markActiveSelections(chapter, comment1, comment2) {
 
 // Function to mark active selections based on the selector
 function markActiveComment(selector, comment) {
-    if (selector === '.text-comment-top') {
+    if (selector === '#upperDiv .text-comment-top') {
         document.getElementById('toggle-commenti1').innerText = comment;
-    } else if (selector === '.text-comment-bottom') {
+    } else if (selector === '#bottomDiv .text-comment-bottom') {
         document.getElementById('toggle-commenti2').innerText = comment;
     }
 
     // Update active class
-    const commentLinks = document.querySelectorAll(selector === '.text-comment-top' ? '.comment-link' : '.comment-link-2');
+    const commentLinks = document.querySelectorAll(selector === '#upperDiv .text-comment-top' ? '.comment-link' : '.comment-link-2');
     commentLinks.forEach(link => {
         if (link.getAttribute('data-comment') === comment) {
             link.classList.add('active-comment');
@@ -191,12 +195,12 @@ async function fetchAndDisplayData(endpoint, selector) {
                 // Update highlights after loading new content
                 highlightHoveredItem();
                 // Scroll the container to the top
-                if (selector === '.text-comment-top') {
+                if (selector === '#upperDiv .text-comment-top') {
                     const containerElement = document.getElementById('upperDiv');
                     if (containerElement) {
                         containerElement.scrollTop = 0;
                     }
-                } else if (selector === '.text-comment-bottom') {
+                } else if (selector === '#bottomDiv .text-comment-bottom') {
                     const containerElement = document.getElementById('bottomDiv');
                     if (containerElement) {
                         containerElement.scrollTop = 0;
@@ -259,7 +263,7 @@ function setupMutationObserver(selector) {
                 if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     const comment = hasSingularTextClass(mutation.target) ? '' : 'Angelini, Cesare';
                     const chapter = document.querySelector('.chapter-link').getAttribute('data-chapter');
-                    fetchAndDisplayData(`./get-comment/${comment}/${chapter}`, '.text-comment-bottom');
+                    fetchAndDisplayData(`./get-comment/${comment}/${chapter}`, '#bottomDiv .text-comment-bottom');
                 }
             }
         });
@@ -278,9 +282,9 @@ function setupLinkClickListener(selector, fetchAndDisplayFunction, displaySelect
             event.target.classList.add('active-comment');
 
             // Update the corresponding Commento button's text
-            if (displaySelector === '.text-comment-top') {
+            if (displaySelector === '#upperDiv .text-comment-top') {
                 document.getElementById('toggle-commenti1').innerText = data;
-            } else if (displaySelector === '.text-comment-bottom') {
+            } else if (displaySelector === '#bottomDiv .text-comment-bottom') {
                 document.getElementById('toggle-commenti2').innerText = data;
             }
 
