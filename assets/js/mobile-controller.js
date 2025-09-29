@@ -495,7 +495,7 @@ class MobileTabController {
     const label = document.getElementById('currentSecondaryLabel');
     if (label) {
       const isReader = window.location.pathname.includes('reader');
-      label.textContent = isReader ? 'Commento caricato' : 'Traduzione caricata';
+      label.textContent = isReader ? 'Commento' : 'Traduzione';
     }
   }
 

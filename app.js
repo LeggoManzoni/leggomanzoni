@@ -188,8 +188,16 @@ app.get('/get-comment/:authorName/:chapterName?', function (req, res) {
         res.status(204).send(); // No Content
       }
     } catch (error) {
-      console.error(error);
-      res.status(500).send('An error occurred while processing your request.');
+      // Only log unexpected errors, not missing file errors
+      if (error.code !== 'ENOENT') {
+        console.error('Error processing comment request:', error.message);
+      }
+      // Send 204 No Content for missing files (triggers placeholder)
+      if (error.code === 'ENOENT') {
+        res.status(204).send();
+      } else {
+        res.status(500).send('An error occurred while processing your request.');
+      }
     }
   } else {
     res.status(400).send('Author name and chapter are required.');

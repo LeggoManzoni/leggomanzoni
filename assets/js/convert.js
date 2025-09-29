@@ -55,19 +55,29 @@ function convertCommentXMLToHtml(authorName, chapterName) {
       // Extract the filename and send it as a response
       const authorFile = matchingEntry.filename;
 
-      // Read XML and XSLT files synchronously
-      //const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}`, 'utf8');
-      const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}/${chapterName}.xml`, 'utf8');
-      const xslStylesheet = fs.readFileSync(__dirname + '/comment.xslt', 'utf8');
+      try {
+        // Read XML and XSLT files synchronously
+        //const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}`, 'utf8');
+        const xmlDoc = fs.readFileSync(`./commenti/xml/in_lavorazione/${authorFile}/${chapterName}.xml`, 'utf8');
+        const xslStylesheet = fs.readFileSync(__dirname + '/comment.xslt', 'utf8');
 
-      const xmlDocument = xmlParse(xmlDoc);
-      const xsltDocument = xmlParse(xslStylesheet);
-      const transformedXml = xsltProcess(xmlDocument, xsltDocument);
+        const xmlDocument = xmlParse(xmlDoc);
+        const xsltDocument = xmlParse(xslStylesheet);
+        const transformedXml = xsltProcess(xmlDocument, xsltDocument);
 
-      return transformedXml;
+        return transformedXml;
+      } catch (error) {
+        if (error.code === 'ENOENT') {
+          // File not found - this is expected for chapters not yet available
+          // Return empty string to trigger the placeholder message, no console log needed
+          return "";
+        }
+        // Re-throw unexpected errors
+        throw error;
+      }
 
     } else {
-      console.log("No matching entry found for the specified author and chapter.", authorName, chapterName);
+      // No matching entry found - return empty string to trigger placeholder
       return "";
     }
   } catch (err) {

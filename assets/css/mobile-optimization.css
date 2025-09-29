@@ -63,6 +63,97 @@
     padding: 0 !important;
   }
 
+  /* Optimize burger menu dropdown for better UX */
+  .navbar-collapse {
+    position: absolute !important;
+    top: 100% !important;
+    right: 1rem !important;
+    left: auto !important;
+    width: auto !important;
+    max-width: 200px !important;
+    background: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    border: 1px solid #e0e0e0 !important;
+    z-index: 1000 !important;
+    margin-top: 0.5rem !important;
+  }
+
+  /* Style the nav list inside dropdown */
+  .navbar-nav {
+    padding: 0.5rem 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Compact nav link styling */
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem !important;
+    color: #73978B !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    border-bottom: none !important;
+    width: auto !important;
+    display: block !important;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa !important;
+    color: #5a7a6e !important;
+  }
+
+  /* Fix active page styling - target the actual activeNav class */
+  .navbar .navbar-nav .nav-link.activeNav,
+  .navbar .navbar-nav .nav-link.active,
+  .navbar-collapse .navbar-nav .nav-link.activeNav {
+    background-color: #e8f4f1 !important;
+    color: #2d5a4a !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #73978B !important;
+    border-radius: 4px !important;
+  }
+
+  /* Language toggle specific styling */
+  .navbar-nav .nav-link:last-child {
+    border-top: 1px solid #e0e0e0 !important;
+    margin-top: 0.25rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* Fix mobile reader/traduzione dropdown spacing */
+  .mobile-tabs-container .form-select,
+  .mobile-tabs-container select {
+    margin: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
+    max-width: calc(50% - 1.5rem) !important; /* Adjusted to create gap between dropdowns */
+  }
+
+  /* Add specific gap between adjacent dropdowns */
+  .mobile-tabs-container .form-select:first-of-type,
+  .mobile-tabs-container select:first-of-type {
+    margin-right: 0.25rem !important;
+  }
+
+  .mobile-tabs-container .form-select:last-of-type,
+  .mobile-tabs-container select:last-of-type {
+    margin-left: 0.25rem !important;
+  }
+
+  /* Mobile dropdown container spacing */
+  .mobile-tabs-container {
+    padding: 0.5rem !important;
+  }
+
+  /* Specific styling for dropdown row containers */
+  .mobile-tabs-container .row {
+    margin: 0 0.5rem !important;
+    gap: 0.5rem !important;
+  }
+
+  .mobile-tabs-container .col-6,
+  .mobile-tabs-container .col-md-6 {
+    padding: 0 0.25rem !important;
+  }
+
   /* Reduce header spacing for content pages while maintaining visual separation */
   header.masthead {
     padding-top: 4rem !important; /* Balanced reduction - keeps rounded effect */

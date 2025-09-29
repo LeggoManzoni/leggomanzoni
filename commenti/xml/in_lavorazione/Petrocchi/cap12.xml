@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Policarpo Petrocchi</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Policarpo Petrocchi</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Luca_Ciarfella">Luca Ciarfella</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Policarpo Petrocchi</title>
+          <editor>Policarpo Petrocchi</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1893-1902</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Luca_Ciarfella" when="2025-06-08">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Petrocchi_cap12">
+        <note xml:id="Petrocchi_cap12-n1" type="comm" target="quarantana/cap12.xml#c12_10001" targetEnd="quarantana/cap12.xml#c12_10007">
+          <ref rend="bold">Era quello il second'anno di raccolta scarsa</ref>:  Le carestie frequenti in antico più che ne' tempi nostri anno afflitto per tanto tempo il mondo. I vapori e la gran facilità dei commerci le anno attenuate di molto, ma non direm tolte, giacché la recente della Russia ci dimostra chiaro com'anc'oggi un popolo possa patir la fame. Nel secolo XVII furono frequentissime; e forse più da attribuirsi a ignoranza economica che altro: le manimorte, ossia i beni inalienabili, specialmente quelli de' preti e dei frati, eran coltivati poco o nulla, essendo per loro già esuberanti le rendite; le tasse così esagerate che molti, piuttosto che pagarle, abbandonavano il fondo, che andava ai Comuni già incuranti di coltivare quelli che avevano; i beni de' ribelli e de'banditi dovevano per legge rimanere incolti; il resto del danno lo facovano gli eserciti sperperatori, le cacce devastatrici in grosse cavalcate, con lungo seguito di cani e di servi, che dove passavano, strebbiavano. Nello stato di Milano il 1625 alloggiavano 30,000 fanti e 4,000 cavalli. Si faceva un'altra leva di 6 compagnie; la leva della gente alemanna era stata di 14,000 pedoni e di 1,500 cavalli. Tutta questa gente per tutto dove capitava andava rubando, distruggendo, saccheggiando ogni cosa, non che oltraggiande nell'onore le donne. Ogni capitano voleva 12 scudi al giorno, il tenente otto, il sergente sei, e così via; e se non avevano subito quel che preten evano, davano in bestiali occessi, come avvenne il giorno di pasqua nella terra di Besozzo, dove misero a sacco le case degli stessi nobili perché non ebbero tutto quanto chiedevano. I popoli vessatissimi dalle leggi, una dietro l'altra, che s'infirmavano a vicenda, malattia cronica dei popoli servi e inetti. Il 1628-29 il grano costava a Milano lire 80 il moggio, la segale 50, il miglio 40. La gente moriva letteralmente di fame; Milano raccolse 14,000 affamati nel lazzeretto e nell'ospedale della Stella; e spese 50,000 scudi a mantenerli; più, dètte 30,000 scudi ai fornai in compenso del pane venduto a miglior mercato. Dice il Ripamonti che tutte le classi sociali furono involte nello strazio. I più prepotenti, già terribili un giorno per oltraggioso seguito di bravi; ora soli, mogi, a orecchi bassi, quasi chiedendo pace coll'atteggiamento del viso; servi poco prima profumati d'unguenti, ministri d'arcani uffizi, ora giravan por la città stendendo la mano. Questo era lo stato dei felicissimi sudditi allora, e sempre sarà tale dove il popolo sia incapace di governarsi da sé.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n2" type="comm" target="quarantana/cap12.xml#c12_10005" targetEnd="quarantana/cap12.xml#c12_10007">
+          <ref rend="bold">di raccolta scarsa</ref>:  di scarso ricolto. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n3" type="comm" target="quarantana/cap12.xml#c12_10009" targetEnd="quarantana/cap12.xml#c12_10011">
+          <ref rend="bold">le provvisioni rimaste</ref>:  le scorte rimaste. <hi rend="italic">Scorte</hi> soltanto, era equivoco; <hi rend="italic">scorte rimaste</hi> era un riempitivo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n4" type="comm" target="quarantana/cap12.xml#c12_10017" targetEnd="quarantana/cap12.xml#c12_10021">
+          <ref rend="bold">fino a un certo segno</ref>:  tanto o quanto. Più vago e confidenziale.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n5" type="comm" target="quarantana/cap12.xml#c12_10041" targetEnd="quarantana/cap12.xml#c12_10043">
+          <ref rend="bold">nel quale siamo</ref>:  nel quale ci troviamo. È più casuale. Avverti un'altra cosa. L'Aut, dice: alla messe del 1628 nel quale siamo, e sottintende anno. Qualcuno nom reputa errore la mancanza, non accorgendosi che ànno era già detto due volte, e che la sapienza delle ellissi è vivacità dello stile.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n6" type="comm" target="quarantana/cap12.xml#c12_10055" targetEnd="quarantana/cap12.xml#c12_10056">
+          <ref rend="bold">più misera</ref>:  più povera. È meno: e parlando di raccolta, usa meno.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n7" type="comm" target="quarantana/cap12.xml#c12_10082" targetEnd="quarantana/cap12.xml#c12_10083">
+          <ref rend="bold">per colpa</ref>:  per fatto. <hi rend="italic">Fatto</hi> dice più una cosa naturale; <hi rend="italic">colpa</hi> il peccato. E peccato è davvero che la gente alta sia causa di tanti mali, quella che promove, spesso per vedute egoistiche vane e ridicole, tutte le liti, le guerre, i danni e le sventure dei popoli. Dante con profondo accorgimento nota che le lacrime, di che son formati i fiumi infernali, provengono dal cattivo governo (Inf. c. XIV).
+                     </note>
+        <note xml:id="Petrocchi_cap12-n8" type="comm" target="quarantana/cap12.xml#c12_10090">
+          <ref rend="bold">sperperìo</ref>:  sperpero. Agevole vedere la differenza e l'importanza di quel frequentativo peggiore assai di sciupio, perché dice più moschinità e cattiveria. Osserva l'aggiunta ironica di quel <hi rend="italic">bella guerra</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n9" type="comm" target="quarantana/cap12.xml#c12_10100" targetEnd="quarantana/cap12.xml#c12_10101">
+          <ref rend="bold">fatto menzione</ref>:  fatto motto. Meno usato; se mai, fatto parola.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n10" type="comm" target="quarantana/cap12.xml#c12_10116">
+          <ref rend="bold">poderi</ref>:  possessioni. Più generico e meno d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n11" type="comm" target="quarantana/cap12.xml#c12_10122" targetEnd="quarantana/cap12.xml#c12_10124">
+          <ref rend="bold">abbandonati da' contadini</ref>:  deserte di contadini. In questo senso lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n12" type="comm" target="quarantana/cap12.xml#c12_10134" targetEnd="quarantana/cap12.xml#c12_10146">
+          <ref rend="bold">per sé e per gli altri, eran costretti d'andare ad accattarlo per carità</ref>:  a sé e agli altri, erano costretti andarne accattandone per Dio. Parte lett., parte arcaico, come quel <hi rend="italic">per Dio</hi>. <hi rend="italic">A sé</hi> dice meno bisogno che il <hi rend="italic">per</hi> e anche il <hi rend="italic">ne</hi>. Potova il Manz. risparmiare l'<hi rend="italic">attaccarlo</hi>, e dir soltanto <hi rend="italic">andare a chiedere la carità</hi>; ma ripetendo <hi rend="italic">pane</hi>, l'idea è posta meglio in rilievo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n13" type="comm" target="quarantana/cap12.xml#c12_10152" targetEnd="quarantana/cap12.xml#c12_10158">
+          <ref rend="bold">le insopportabili gravezze, imposte con una cupidigia</ref>:  le incomportabili gravezze imposte con una cupidità. Più letter. Osserva quell'<hi rend="italic">imposte</hi> con una cupidigia e con un'insensatezza del pari sterminate! È l'oppressione delle tasse l'eterna causa di malcontento e di rivoluzioni.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n14" type="comm" target="quarantana/cap12.xml#c12_10172" targetEnd="quarantana/cap12.xml#c12_10176">
+          <ref rend="bold">delle truppe alloggiate ne' paesi</ref>:  delle truppe stanziali. Fa sentir meno la delizia dell'alloggio. Anche qui nota come il poeta rileva i danni di questa gente armata, gravosa in piena pace non meno che in piena guerra e invasione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n15" type="comm" target="quarantana/cap12.xml#c12_10185">
+          <ref rend="bold">uguagliano</ref>:  agguagliano. Dice meno il risultato del confronto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n16" type="comm" target="quarantana/cap12.xml#c12_10200">
+          <ref rend="bold">mentovare</ref>:  annoverare. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n17" type="comm" target="quarantana/cap12.xml#c12_10227" targetEnd="quarantana/cap12.xml#c12_10229">
+          <ref rend="bold">D'un mal cronico</ref>:  d'un male cronico. Mi pare che usi meno troncato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n18" type="comm" target="quarantana/cap12.xml#c12_10230" targetEnd="quarantana/cap12.xml#c12_10247">
+          <ref rend="bold">E quella qualunque raccolta non era ancor finita di riporre, che le provvisioni per l'esercito, e lo sciupinìo</ref>:  Né appena quel qualunque ricolto fu finito di governare, che le provvigioni per l'esercito, e lo sprecamento. <hi rend="italic">Governare il ricolto</hi> non usa più affatto, per quanto la buona amministrazione delle derrate potesse esser indizio di buon governo; <hi rend="italic">sciupinìo</hi> usa, e dice la bassezza e imbecillaggine dello sciupìo; <hi rend="italic">spreco</hi> sarebbe stato di più, ma c'era meno sprezzo. Il resto, uso. v. anche la nota precedente.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n19" type="comm" target="quarantana/cap12.xml#c12_10252" targetEnd="quarantana/cap12.xml#c12_10257">
+          <ref rend="bold">ci fecero dentro un tal voto</ref>:  vi fecero dentro un tale squarcio. Era una similitudine non propria.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n20" type="comm" target="quarantana/cap12.xml#c12_10277" targetEnd="quarantana/cap12.xml#c12_10278">
+          <ref rend="bold">il rincaro</ref>:  il caro. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n21" type="comm" target="quarantana/cap12.xml#c12_10312" targetEnd="quarantana/cap12.xml#c12_10317">
+          <ref rend="bold">non ne sia cagione la scarsezza</ref>:  non sia cagionato da scarsità. <hi rend="italic">Scarsità</hi> e <hi rend="italic">scarsezza</hi> son tutt'e due d'uso, se il primo non è più com.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n22" type="comm" target="quarantana/cap12.xml#c12_10332">
+          <ref rend="bold">abbastanza</ref>:  a sufficienza. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n23" type="comm" target="quarantana/cap12.xml#c12_10345" targetEnd="quarantana/cap12.xml#c12_10354">
+          <ref rend="bold">supposizioni che non stanno né in cielo né in terra</ref>:  troppo fuori d'ogni proposito. Il proposito non c'entra; la correz. è una frase efficace e viva.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n24" type="comm" target="quarantana/cap12.xml#c12_10366" targetEnd="quarantana/cap12.xml#c12_10368">
+          <ref rend="bold">Gl'incettatori di grano</ref>:  Gli ammassatori di grano. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n25" type="comm" target="quarantana/cap12.xml#c12_10388">
+          <ref rend="bold">compravano</ref>:  comperavano. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n26" type="comm" target="quarantana/cap12.xml#c12_10395" targetEnd="quarantana/cap12.xml#c12_10405">
+          <ref rend="bold">avessero o poco o assai, o che avessero il nome d'averne</ref>:  avessero poco o assai, o fossero reputati. Meno efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n27" type="comm" target="quarantana/cap12.xml#c12_10406" targetEnd="quarantana/cap12.xml#c12_10407">
+          <ref rend="bold">a questi</ref>:  l'anacoluto cresce vivezza.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n28" type="comm" target="quarantana/cap12.xml#c12_10419" targetEnd="quarantana/cap12.xml#c12_10423">
+          <ref rend="bold">il bersaglio del lamento universale</ref>:  gli oggetti delle querele universali. più lett. e meno espressivo; e <hi rend="italic">querele</hi> fuor di poesia oggi ė parola tribunalesca.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n29" type="comm" target="quarantana/cap12.xml#c12_10441">
+          <ref rend="bold">traboccanti</ref>:  rigurgitanti di grano. Più letter. e <hi rend="italic">di grano</hi> superfluo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n30" type="comm" target="quarantana/cap12.xml#c12_10447">
+          <ref rend="bold">sacchi</ref>:  sacca. Qui la correz. non la capisco. <hi rend="italic">Sacca</hi>, piene, è più usato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n31" type="comm" target="quarantana/cap12.xml#c12_10456">
+          <ref rend="bold">granaglie</ref>:  biade. In questo senso, lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n32" type="comm" target="quarantana/cap12.xml#c12_10469" targetEnd="quarantana/cap12.xml#c12_10471">
+          <ref rend="bold">con altrettanta sicurezza</ref>:  con eguale sicurezza. Meno efficacia e ironia. Declamatorio quell'aggettivo ripetuto simmetricamente.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n33" type="comm" target="quarantana/cap12.xml#c12_10475">
+          <ref rend="bold">uguale</ref>:  eguale. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n34" type="comm" target="quarantana/cap12.xml#c12_10488">
+          <ref rend="bold">provvedimenti</ref>:  provedimenti. Uso. Osserva la sicura diagnosi della moltitudine bene e mal vestita.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n35" type="comm" target="quarantana/cap12.xml#c12_10501">
+          <ref rend="bold">giusti</ref>:  equi. più lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n36" type="comm" target="quarantana/cap12.xml#c12_10504" targetEnd="quarantana/cap12.xml#c12_10521">
+          <ref rend="bold">così atti a far saltar fuori il grano, nascosto, murato, sepolto, e a far ritornare l'abbondanza</ref>:  così idonei a far venire fuoriil grano, come dicevano, rimbucato, murato, sepolto, e a ricondurre l'abbondanza. <hi rend="italic">Idonei</hi> troppo poco per un atto così energico; <hi rend="italic">venir fuori</hi>, più sbiadito qui; il <hi rend="italic">come dicevano</hi> dopo, più naturale; <hi rend="italic">rimbucato</hi> specialm. di grano, non si direbbe; <hi rend="italic">nascosto</hi> dice bene la frode; <hi rend="italic">ricondurre</hi>, in questo senso, lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n37" type="comm" target="quarantana/cap12.xml#c12_10524" targetEnd="quarantana/cap12.xml#c12_10526">
+          <ref rend="bold">qualche cosa facevano</ref>:  ne andavano pur facendo. Significherebbe minchionerie, birbonate.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n38" type="comm" target="quarantana/cap12.xml#c12_10542" targetEnd="quarantana/cap12.xml#c12_10547">
+          <ref rend="bold">e altri editti di quel genere</ref>:  e altri di quel genere. Senza editti non si sa quel che si poteva sottintendere.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n39" type="comm" target="quarantana/cap12.xml#c12_10552" targetEnd="quarantana/cap12.xml#c12_10555">
+          <ref rend="bold">provvedimenti di questo mondo</ref>:  provvedimenti umani. <hi rend="italic">Umani</hi> non era chiaro: poteva significare pieni d'umanità; e il senso veniva falsato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n40" type="comm" target="quarantana/cap12.xml#c12_10561" targetEnd="quarantana/cap12.xml#c12_10564">
+          <ref rend="bold">hanno virtú di diminuire</ref>:  hanno la virtú di scemare. <hi rend="italic">Virtù</hi> senz'articolo significa meglio <hi rend="italic">Forza</hi>; <hi rend="italic">scemare</hi> è più, e qui si trattava di mostrare il meno.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n41" type="comm" target="quarantana/cap12.xml#c12_10607" targetEnd="quarantana/cap12.xml#c12_10613">
+          <ref rend="bold">alla scarsezza e alla debolezza de' rimedi</ref>:  alla scarsità e alla debolezza dei rimedii. <hi rend="italic">Scarsità</hi> forse più com. di cose materiali. Del resto, v. sopra.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n42" type="comm" target="quarantana/cap12.xml#c12_10622" targetEnd="quarantana/cap12.xml#c12_10624">
+          <ref rend="bold">Generosi e decisivi</ref>:  Generosi per la folla. L'aut., riferisce i pensieri altrui.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n43" type="comm" target="quarantana/cap12.xml#c12_10623" targetEnd="quarantana/cap12.xml#c12_10630">
+          <ref rend="bold">E per sua sventura trovò l'uomo</ref>:  Per sua sventura trovò essa l'uomo. L'<hi rend="italic">e</hi> più efficace, come conclusiva, l'<hi rend="italic">essa</hi> inutile. Nota il <hi rend="italic">per sua sventura</hi>!
+                     </note>
+        <note xml:id="Petrocchi_cap12-n44" type="comm" target="quarantana/cap12.xml#c12_10635" targetEnd="quarantana/cap12.xml#c12_10637">
+          <ref rend="bold">Nell'assenza del governatore</ref>:  I governatori erano quella brava gente che gli Spagn. mandavan a regger le province mal acquistate. Son rimasti famosi per le malversazioni; e anc'oggi quando ci capita qualche ministro altezzoso, gonfio di sé e prepotente, che crede regolare il mondo con una grida ogni minuto, si dice: è un governatore spagnolo!». Daremo la storia dei milanesi presa in parte dal Cantú. Il primo fu Anton de Leiva (1535) gonerale di Carlo V, avo della Signora di Monza (vedi al cap. IX). Fu de' più odiati. Gli successe (1536) il cardinale Marino Caracciolo napoletano; a questo, don Alfonso d'Alvo d'Aquino marchese del Vasto, a cui seguì (1547) don Forrante Gonzaga, detto novo fondatore di Milano perché costruì le mura che tutt'ora la cingono, e fece molte opere edilizie notevoli, come i ponti stabili sul Naviglio, l'allargamento della piazza del duomo con la demolizione di Santa Tecla, la copertura delle fogne, ecc. Gli tonne dietro (1555) il duca d'Alba il famoso tiranno delle Fiandre; poi il cardinale Madruzzo (1556), don Giov. de Figueroa (1557) e il duca di Sessa (1558) che fece quanto poté perché a Milano fosse sostituita all'inquisizione romana troppo dolce quella spaventosa spagnola, come la chiama il cardinale Pallavicino (St. del Conc. dì Tr. 22, 8). Seguirono don Gabbriello della Queva (1564), don Alvaro di Sande (1571), don Luigi di Requesens (1572) che fu scomunicato per contese avute col clero. Successe don Antonio di Guzman, march. d'Ayamonte (1574). Si racconta di costui che anche in cantina e in dispensa mandava i servitori colla torcia in mano e a capo scoperto, e che un contadino una volta s'inginocchiò credendo che portassero il santissimo Sacramento. Governò poi (1580) don Sancio Padilla; poi (1583) il duca di Terranova, imbroglione, cioè politicone solenne, il contestabile di Castiglia Ferdinando Velasco (1593) che dette il nome a una strada che va da Via Larga al Corso di Porta Romana; dopo, il famoso don Pedro Enriques de Azevedo conte di Fuentes che, secondo un'iscrizione bugiarda, per mezzo del Naviglio di Pavia mise in comunicazione il lago Maggiore e il lago di Como col Ticino e col Po, opora invece compiuta nella prima metà del sec. XIX. Non mancava d'ingegno il Fuentes, ma, osserva il Cantù, fu un cervello torbido, il quale fece ingelosire tutti i vicini coll'armare, mentre facea proteste di pace. E aggiunge che pagava i soldati come si trattasse d'un gran favore, faceva rabbufti in pieno pubblico a'magistrati; proibì di portare le armi, e ne rovino le fabbriche fiorenti milanesi, inventò nuovi aggravi, e i Dodici della provvisione che osarono lamentarsene l'imprigionò; del resto mandava in galera senza tribunali, e senza neanche dare ascolto al suo re cho lo disapprovava. Dopo di lui tornò il contestabile di Castiglia (1610), il Mendozza marchese della Hynoiosa (1612); creatura del duca di Lerma; poi don Pier di Toledo (1616) famoso, austero, marziale, pronto nel comandare, fiacco nell'osoguire, ma non colle streghe di cui ne bruciò più d'una; poi il duca di Feria (1618) giovane d'anni ma già volpe vecchia per politica; colle sue mène ridusse i Valtellinesi a trucidare tutti i calvinisti del loro paese! Gli successe don Gonzalo Córdova (1627), che il re poi levò di posto, e il popolo l'accompagnò, giù per Porta Ticinese a suon di fischi e di torsi di cavolo e di mele marce, sopportate da lui, dice il Ziliolo, con eroica grandezza d'animo, avvezzo a sentire ben altri fischi. Secondo gli storici, fu il primo esempio di rispetto mancato ai governatori del re cattolico, dai Milanesi abituati, com'erano, a soffrire e applaudire. Il primo ma non l'ultimo. Gli successe, 1629, Ambrogio Spinola, genov., e capit. prima che soldato. Venne con due milioni di quattrini, e poteri amplissimi di far pace e guerra; poteri che perse poi uno dopo l'altro; sicché tra il dolore di questo, e quello di non poter prender Casale Monferrato, mori. Quando gli andarono a chiedere provvedimenti per la pèste, rispose che glione rincresceva tanto, ma che la guerra l'occupava troppo per aver tempo di pensare a altro! Successe a questo il march. di S. Croce (1630) che cedetto il posto, dopo 4 mesi, al duca di Féria (e quantunque oltrepassi l'anno del nostro racconto, ne diremo ancora al curioso lettore, com'abbiam detto quelli precodenti al racconto stesso). Questo tornò a rimescolare le faccende di Valtellina per aggiungerla alla Lomb., e aver passaggio più comodo in Germ.; o per fare denari a tale scopo impognó i propri beni, e guidò un esercito in Alem. dove m. (1633). E lo stesso fece il cardin. infante di Sp. che gli successe, don Gil Albornoz, che andò a portare la guerra ai ribelli delle Fiandre (1634). A lui successe don Diego di Guzman, march. di Leganes (1635) che respinti di Lomb. i Piemontesi, ne invase il paese, assedio ancora Casale; ma li sorpreso da' Franc., fu rotto, ci perse il campo, il tesoro, la gloria e l'impiego (1640); gli successe l'inabile march. di Siruela (1641). Costui esacerbo i principi di Savoia, che corsero il Milanese. Cifu il march. di Carassena (1618); dopo, il contestabile di Castiglia e il suo fi. conte di Haro. In quel tempo i Franc., occuparono Casalmaggiore o devastarono il Cremonese; prese Casalmonferrato il 1652; allora in capo a due mesi i Frane, tornarono, guastarono il territorio Lailan, o assediaron Pavia. Il governatore tu richiamato. Gli snecesse il card. Teodoro Trivulzio, e m. lui, il conte di Fuensaldagna (1656) sotto cui i Franc. e i Moden. minacciavano Mil.; ma il Mazarino con la pace de' Pirenei troncava una guerra inutile di 23 a. (1659). L'unico suo atto memorabilo era d'aver proibito di ballare dopo la mezzanotte! Gli successe il duca di Sermoneta (1660), poi don Luigi de Guzman Ponze de Leon (1663), che colla tassa del Rimplazzo mise maggiore eguaglianza nella distribuz. del carico degli alloggi milit. in tempo di pace; poi il march. d'Olias e Mortara (1668), don Paolo Spinola march. de los Balbases, e il duca del Sesto (1669). 14 governatori in 36 a. (1670). Quando partì si trovarono nel tesoro 14 lire. Gli successe il duca d'Ossuna, che dicevano splendido (1670-1674) e dette l'ultimo crollo allo stato di Mil. Entrò con pompa magna, in carrozze dorate, tra cento cavalieri. Per pagare il suo lusso rubava, vendeva le cariche. Se n'andò, lasciando grossi debiti; ma carico per sé di 500,000 once d'argento in regali; segui il principe di Ligne (1674), il conte di Melgar (1678), il conte di Fuensalida (1686), il duca di San Lucar, march. di Leganes (1697), che era anche bargello maggiore del Sant'Uffizio. Ultimo de'Govor. natori di Sp. (1698) venne don Carlo Enrico di Lorena, princ. di Vaudemont; stette a Mil. 8 a.; i nobili vivevan ritiratissimi e non tenevan più conversazioni, ma il V. si trattava con pompa franc., usciva con tiro a quattro, e villeggiava splendidam. alla Bellingera.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n45" type="comm" target="quarantana/cap12.xml#c12_10643" targetEnd="quarantana/cap12.xml#c12_10655">
+          <ref rend="bold">che comandava l'assedio di Casale del Monferrato, faceva le sue veci in Milano</ref>:  che stava a campo sopra Casale del Monferrato, teneva il suo luogo in Milano. Correzioni di precisione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n46" type="comm" target="quarantana/cap12.xml#c12_10664" targetEnd="quarantana/cap12.xml#c12_10682">
+          <ref rend="bold">vide, e chi non l'avrebbe veduto? che l'essere il pane a un prezzo giusto, è per sé una cosa</ref>:  vide (chi non lo avrebbe veduto?) che il prezzo modico del pane, è per sé un effetto molto. L'<hi rend="italic">e</hi> aggiunta, acer. forza; la modicità, data la carestia, era impossibile: c'era da contentarsi che ci fosse una giusta proporzione. L'effetto era affatto improprio, se non equivoco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n47" type="comm" target="quarantana/cap12.xml#c12_10686" targetEnd="quarantana/cap12.xml#c12_10691">
+          <ref rend="bold">pensò, e qui fu lo sbaglio</ref>:  pensò qui fu lo scapuccio. L'<hi rend="italic">e</hi> anche qui più efficace; <hi rend="italic">scappuccio</hi> (chi sa perché con un <hi rend="italic">p</hi> solo? lo derivava da <hi rend="italic">capo</hi>?) era poco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n48" type="comm" target="quarantana/cap12.xml#c12_10714">
+          <ref rend="bold">meta</ref>:  detta così perché il termine a cui potevan giungere e non passare.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n49" type="comm" target="quarantana/cap12.xml#c12_10718" targetEnd="quarantana/cap12.xml#c12_10734">
+          <ref rend="bold">prezzo che sarebbe stato il giusto, se il grano si fosse comunemente venduto trentatré lire il moggio</ref>:  prezzo che il pane avrebbe avuto se il frumento si fosse comunemente venduto a lire trentatré il moggio. La correz. di giusto ti conferma quant'abbiamo detto prima; per il prezzo vedi in principio del cap. Per il <hi rend="italic">trentatré lire</hi>, avverti che il <hi rend="italic">lire</hi> precede quando si tratta di conteggiare, non quando si racconta.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n50" type="comm" target="quarantana/cap12.xml#c12_10744" targetEnd="quarantana/cap12.xml#c12_10746">
+          <ref rend="bold">donna stata giovine</ref>:  osserva: non dice vecchia, perché sarebbe eccessivo e più raro, più ridicolo e meno cavalleresco. Le donne non vogliono, è noto, sentir pronunciare quel brutto nome.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n51" type="comm" target="quarantana/cap12.xml#c12_10750">
+          <ref rend="bold">Ringiovinire</ref>:  È lo stesso; ma <hi rend="italic">giovine</hi> è forse più com. di giovane.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n52" type="comm" target="quarantana/cap12.xml#c12_10758" targetEnd="quarantana/cap12.xml#c12_10762">
+          <ref rend="bold">meno insensati e meno iniquieran</ref>:  meno insani e meno ingiusti erano. <hi rend="italic">Insani</hi>, troppo; <hi rend="italic">iniqui</hi> per <hi rend="italic">ingiusti</hi>, uguale per ctimologia, non sarebbe più che lett.;
+                     </note>
+        <note xml:id="Petrocchi_cap12-n53" type="comm" target="quarantana/cap12.xml#c12_10757" targetEnd="quarantana/cap12.xml#c12_10774">
+          <ref rend="bold">ordini... rimasti ineseguiti</ref>:  tutte le leggi insensate rimangon lettera morta; e quei Governi che ne votano una dietro l'altra pensando d'attuarle con un puro cenno del capo, come Giove, non si dimostrano che insensati, procacciando la propria rovina.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n54" type="comm" target="quarantana/cap12.xml#c12_10797">
+          <ref rend="bold">celia</ref>:  baia, lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n55" type="comm" target="quarantana/cap12.xml#c12_10802" targetEnd="quarantana/cap12.xml#c12_10804">
+          <ref rend="bold">a chieder pane</ref>:  a richieder pane. <hi rend="italic">Richieder</hi> di cosa non ordinaria. Ora osserva: la folla seguiva l'ostinto e la fame che comandava; i padroni non trovavano buoni rimedi per calmarla; e ne ordinavano de' cattivi, di quelli che alla prima paiono risolvere le cose in meglio, senza badare alle consoguenze; così la gente, naturale, ci s'appigliava anche sentendo di non aver piena ragione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n56" type="comm" target="quarantana/cap12.xml#c12_10811" targetEnd="quarantana/cap12.xml#c12_10813">
+          <ref rend="bold">con quel fare</ref>:  con quel piglio. <hi rend="italic">Piglio</hi> è del viso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n57" type="comm" target="quarantana/cap12.xml#c12_10825" targetEnd="quarantana/cap12.xml#c12_10829">
+          <ref rend="bold">e la legge riunite insieme</ref>:  e la legge insieme riunite. lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n58" type="comm" target="quarantana/cap12.xml#c12_10837" targetEnd="quarantana/cap12.xml#c12_10839">
+          <ref rend="bold">Intridere, dimenare, infornare</ref>:  sbracciarsi, rimenare, infornare. Con <hi rend="italic">intridere</hi> segue più esattamente i particolari della lavorazione del pane; <hi rend="italic">rimenare</hi> in questo senso non usa.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n59" type="comm" target="quarantana/cap12.xml#c12_10847" targetEnd="quarantana/cap12.xml#c12_10853">
+          <ref rend="bold">sentendo in confuso che l'era una cosa</ref>:  sentendo pure in confuso che la era cosa. Il <hi rend="italic">pure</hi> era inutile, se non dannoso, perché i forni li assediava sentendo appunto che era cosa violenta e passeggera; l'era uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n60" type="comm" target="quarantana/cap12.xml#c12_10858" targetEnd="quarantana/cap12.xml#c12_10859">
+          <ref rend="bold">di continuo</ref>:  continuo. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n61" type="comm" target="quarantana/cap12.xml#c12_10860" targetEnd="quarantana/cap12.xml#c12_10875">
+          <ref rend="bold">per goder quella cuccagna fin che durava; affacchinarsi, dico... per iscapitarci</ref>:  per godere di quella ventura temporaria; affacchinare, dico.... per discapitare. <hi rend="italic">Ventura</hi> è meno e diverso; f<hi rend="italic">fin che durava</hi> più vivo e più efficace; i due verbi vogliono in questo caso la particella pronom. <hi rend="italic">Discapitare</hi> poi è arcaico. L'<hi rend="italic">i</hi> eufonico si mette e non si mette; anzi oggi usa assai meno. In quant'al senso dello <hi rend="italic">scapitare</hi>, rifletti da te.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n62" type="comm" target="quarantana/cap12.xml#c12_10876" targetEnd="quarantana/cap12.xml#c12_10880">
+          <ref rend="bold">ognun vede che bel piacere</ref>:  ognun vede che piacere. L'aggiunta del <hi rend="italic">bel</hi> cresce forza e ironia.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n63" type="comm" target="quarantana/cap12.xml#c12_10895" targetEnd="quarantana/cap12.xml#c12_10915">
+          <ref rend="bold">che voleva esser servito, e, punto punto che qualche fornaio indagiasse, pressava e brontolava, con quel suo vocione, e minacciava una</ref>:  che pressava e mormoreggiava ad ogni ritardo che alcun di quelli frapponesse in servirlo, e minacciava sordamente una. Vi sono molte modificazioni più di sostanza che di forma: la più evidente è il <hi rend="italic">sordamente</hi> levato per dar luogo a quel suo vocione facile a comprendersi; ma anche la forma era più lett. prima.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n64" type="comm" target="quarantana/cap12.xml#c12_10922" targetEnd="quarantana/cap12.xml#c12_10929">
+          <ref rend="bold">delle peggio che si facciano in questo mondo</ref>:  delle peggiori che si facciano a questo mondo. Il <hi rend="italic">peggio</hi> più popolare; l'<hi rend="italic">in</hi> ugualm. d'uso ma più intensivo. Per il senso osserva che il M. riprova le stragi che si chiaman giustizie popolari; ma in pari tempo vorrebbe che chi à il mestolo in mano conducesso le cose con tal rettitudine da non arrivare a quelle giustizio.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n65" type="comm" target="quarantana/cap12.xml#c12_10947" targetEnd="quarantana/cap12.xml#c12_10957">
+          <ref rend="bold">che fosse lor comandato, ne che avessere molta paura, bisognava potere</ref>:  e un po' più: che tenessero ordini severi, che avessero molla paura, mestieri che potessero: e un po' più. Il <hi rend="italic">comandato</hi>, benché non paia, è più efficace che il <hi rend="italic">tenere gli ordini</hi>, sian pur veri; il <hi rend="italic">né</hi> è rinforzativo; <hi rend="italic">bisognaa potere</hi>, uso. <hi rend="italic">Esser mestieri</hi> è affatto accademico. 7.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n66" type="comm" target="quarantana/cap12.xml#c12_10971" targetEnd="quarantana/cap12.xml#c12_10976">
+          <ref rend="bold">Facevan vedere ai magistrati l'iniquità e</ref>:  Rimostravano essi incessantemente l'iniquità e. <hi rend="italic">Facevan vedere</hi>, uso: l'<hi rend="italic">incessantemente</hi> era vero da una parte, e stava bene con rimostrare; ma col <hi rend="italic">facevano vedere</hi> era superfiuo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n67" type="comm" target="quarantana/cap12.xml#c12_10994" targetEnd="quarantana/cap12.xml#c12_10995">
+          <ref rend="bold">tiravano avanti</ref>:  tiravano innanzi. Meno comune: è invece più comune nel dialetto milanese.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n68" type="comm" target="quarantana/cap12.xml#c12_11005" targetEnd="quarantana/cap12.xml#c12_11011">
+          <ref rend="bold">il gran cancelliere avrebbe inteso la ragione</ref>:  il gran cancelliere sarebbe restato capace. Quel benedetto capace, non soffre angustie: bastava un po' di ragione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n69" type="comm" target="quarantana/cap12.xml#c12_11013" targetEnd="quarantana/cap12.xml#c12_11026">
+          <ref rend="bold">Antonio Ferrer, il quale era quel che si direbbe un uomo di carattere</ref>:  Il suo carattere consisteva nell'ostinarsi a far prepotenze per smania di popolarità. Costui, figurina così bon tratteggiata dal M., era un grand'uomo certamente, ma le storie di Milano non se ne sono accorte. Anche all'Archivio di Stato non c'è di lui che pratiche amministrative. Solamente a forza di ricerche, per mezzo del cortese prof. Pagani direttore dell'Archivio di San Carpocoro, son riuscito a trovare che il nostro dottore Antonio Ferrer spagnolo, fu gran cancelliere dal sett. 1619 al marzo 1631; fatto cittadino milan. alla fine del 1632; governa il Consiglio segreto per incarico del governat. Ambrogio Spinola Grimaldi Cavalleroni (non Doria, come dice il Bellati) il 6 febb. 1630; pieni poteri per le urgenze del contagio conferiti al Ferrer con dispaccio governativo dato dal campo sotto Casale il 29 giu. 1630. Qui a Milano sposa la marchesa Lucia Cusani vedova del marchese Pompeo Litta morto il 1621, e da in isposa (avanti il 1636) una sua figliola, Maria (non si sa da qual moglie l'avesse) al march. Agostino figliolo della suddetta Lucia e del march. Pompeo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n70" type="comm" target="quarantana/cap12.xml#c12_11028" targetEnd="quarantana/cap12.xml#c12_11048">
+          <ref rend="bold">che i fornai s'erano avvantaggiati molto e poi molto nel passato, che s'avvantaggerebbero molto e poi molto col ritornar dell'abbondanza</ref>:  che i fornai avevano avvantaggiato molto e poi molto in passato, che avvantaggerebbero molto poi molto nei tempi migliori avvenire. Uso. Per l'abbondanza oltre all'uso, osserva la maggior precisione e finezza: politicamente se mancava il grano, non si sarebbe potuto desiderare tempi migliori.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n71" type="comm" target="quarantana/cap12.xml#c12_11055" targetEnd="quarantana/cap12.xml#c12_11065">
+          <ref rend="bold">a dar loro qualche risarcimento; e che intanto tirassero ancora avanti</ref>:  a dar loro del pubblico qualche risarcimento e che intrattanto tirassero innanzi. Del pubblico, inutile: i risarcimenti, chi governa non li da che col denaro pubblico. C'è pur da osservare che la frase così non sarebbe d'uso; l'<hi rend="italic">intrattanto</hi>, arcaico. Per il <hi rend="italic">tirare innanzi</hi> v. sopra.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n72" type="comm" target="quarantana/cap12.xml#c12_11069" targetEnd="quarantana/cap12.xml#c12_11072">
+          <ref rend="bold">persuaso lui di queste</ref>:  persuaso egli il primo di queste. Il primo l'à tolto perché non calza come parrebbe: primo o ultimo, la questione era d'esser persuasi.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n73" type="comm" target="quarantana/cap12.xml#c12_11086" targetEnd="quarantana/cap12.xml#c12_11093">
+          <ref rend="bold">mantener quel suo editto, volesse lasciare agli altri</ref>:  mantenere quel provedimento, volesse lasciare ad altri. Far degli editti e delle leggi è un conto, il provvedere è un altro; anzi, come ognun sa, sempre le leggi ingiuste rimangon inutili provvedimenti.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n74" type="comm" target="quarantana/cap12.xml#c12_11097" targetEnd="quarantana/cap12.xml#c12_11100">
+          <ref rend="bold">giacché, chi può ora</ref>:  modo che al Tomm. non piaceva, e si faceva la domanda: «In che cervello può entrarsi?» che nou ci par degna di lui. Nei cervelli ci s'entra, si, coll'acume e la perspicacia; ma corte cose a gran distanza di tempo non si vedono bene; e lo storico che non voglia darsi l'aria d'intendere, quando non l'intende, una ragione, fa bene a dirlo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n75" type="comm" target="quarantana/cap12.xml#c12_11106" targetEnd="quarantana/cap12.xml#c12_11113">
+          <ref rend="bold">il fatto sta che rimase fermo su ciò</ref>:  fatto sta che egli non si rimosse un pelo da ciò. Aveva troppo della frase, mentre il <hi rend="italic">rimase fermo</hi> à più severità storica. Il vizio di buttar là dei modi e delle frasi fatte, co- munque tornino allo stile, non è infrequente nella letteratura moderna, educata sulle composizioni accademiche a base di tarsie.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n76" type="comm" target="quarantana/cap12.xml#c12_11134">
+          <ref rend="bold">informaron</ref>:  ragguagliarono Forse troppo minuzioso. Per il magistrato abolito il 1796 rammentati della rivoluzione francese che elimino molti di questi uffici.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n77" type="comm" target="quarantana/cap12.xml#c12_11149">
+          <ref rend="bold">ripiego</ref>:  temperamento. Il ri- piego dice l'imbarazzo, la difficoltà dell'uscita.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n78" type="comm" target="quarantana/cap12.xml#c12_11154" targetEnd="quarantana/cap12.xml#c12_11155">
+          <ref rend="bold">Don Gonzalo</ref>:  Osserva la pitturina manzoniana di quest'uomo ingolfato nella guerra, di questa giunta e di questi giuntati ancora spagnolescamente vivi.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n79" type="comm" target="quarantana/cap12.xml#c12_11188" targetEnd="quarantana/cap12.xml#c12_11197">
+          <ref rend="bold">una cosa da poterci campar tanto una parte che l'altra</ref>:  così una cosa giusta per ambedue le parti. Del giusto inutile parlarne, era questione più che altro d'un <hi rend="italic">modus vivendi</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n80" type="comm" target="quarantana/cap12.xml#c12_11221">
+          <ref rend="bold">sospensioni</ref>:  reticenze. <hi rend="italic">Sospensioni</hi>, più energico, più plastico, più satirico; <hi rend="italic">reticenze</hi> sapeva più di rettorica.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n81" type="comm" target="quarantana/cap12.xml#c12_11235" targetEnd="quarantana/cap12.xml#c12_11256">
+          <ref rend="bold">da tutti, sapendo bene che giocavano una gran carta, ma convinti che non c'era da far altro, conclusero di rincarare il pane</ref>:  da tutti, certi che tiravano un gran dado, ma convinti che altro non v'era da fare, si accordarono ad aumentare il prezzo del pane. <hi rend="italic">Giocare una gran carta</hi>, uso; <hi rend="italic">altro non v'era</hi>, letter.; <hi rend="italic">conclusero</hi>, più spiccio e preciso; <hi rend="italic">rincarare</hi>, più semplice; il prezzo, inutile.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n82" type="comm" target="quarantana/cap12.xml#c12_11264" targetEnd="quarantana/cap12.xml#c12_11267">
+          <ref rend="bold">La sera avanti questo</ref>:  La sera che precesse a questo. <hi rend="italic">Precesse</hi>, poetico; cfr. commento Capitolo 2: «la notte avanti».
+                     </note>
+        <note xml:id="Petrocchi_cap12-n83" type="comm" target="quarantana/cap12.xml#c12_11272">
+          <ref rend="bold">arrivò</ref>:  capitò. Capito sarebbe a caso; arrivò, come mėta prefissa.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n84" type="comm" target="quarantana/cap12.xml#c12_11284" targetEnd="quarantana/cap12.xml#c12_11287">
+          <ref rend="bold">da una rabbia comune</ref>:  da una indegnazione. <hi rend="italic">Indegnazione</hi> non usa; ma anche se dicesse <hi rend="italic">indignazione</hi>, sarebbe più scolorito; l'aggiunta, indisponsabile.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n85" type="comm" target="quarantana/cap12.xml#c12_11296" targetEnd="quarantana/cap12.xml#c12_11303">
+          <ref rend="bold">si riunivano in crocchi, senza essersi dati l'intesa</ref>:  si riunivano in cerchii, in brigate, senza accordo antecedente. <hi rend="italic">Cerchi</hi>, sarebbe troppo ampio e non vero; <hi rend="italic">accordi</hi> anderebbe bene trattandosi di società riunite e di lunghe trattative: qui bastava solamente una parola d'ordine.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n86" type="comm" target="quarantana/cap12.xml#c12_11308" targetEnd="quarantana/cap12.xml#c12_11312">
+          <ref rend="bold">gocciole sparse sullo stesso pendio</ref>:  gocciole pendenti sullo stesso declive. La correz. più d'uso e più bella. Il Manz. à una caratteristica speciale per certe linee. Questa rammenta l'altra tanto poetica: come un branco di pecore pascenti.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n87" type="comm" target="quarantana/cap12.xml#c12_11329" targetEnd="quarantana/cap12.xml#c12_11338">
+          <ref rend="bold">Tra tanti appassionati, c'eran pure alcuni più di sangue freddo</ref>:  Fra tanti appassionati, v'erano pure alcuni di sangue più freddo. <hi rend="italic">Di sangue freddo</hi> è una metafora che non si può alterare: altrimenti, cambierebbe significato e andrebbe al significato proprio: così, volendo fare il comparativo, il <hi rend="italic">più</hi> va messo prima, come d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n88" type="comm" target="quarantana/cap12.xml#c12_11344" targetEnd="quarantana/cap12.xml#c12_11354">
+          <ref rend="bold">molto piacere, che l'acqua s'andava intorbidando; e s'ingegnavano d'intorbidarla di più</ref>:  molto diletto, come l'acqua s'andasse intorbidando; s'ingegnavano d'intorbidarla più più. Uso; e <hi rend="italic">Diletto</hi> era troppo gentile e diverso; in certe coso li non c'è mai un piacere puro senza mescolanza di paura o d'altro anche per i più arditi; l'<hi rend="italic">andava</hi> è più positivo e reale.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n89" type="comm" target="quarantana/cap12.xml#c12_11359" targetEnd="quarantana/cap12.xml#c12_11361">
+          <ref rend="bold">con quelle storie</ref>:  con quelle novelle. In questo senso, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n90" type="comm" target="quarantana/cap12.xml#c12_11390" targetEnd="quarantana/cap12.xml#c12_11392">
+          <ref rend="bold">andarono a letto</ref>:  si coricarono. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n91" type="comm" target="quarantana/cap12.xml#c12_11406" targetEnd="quarantana/cap12.xml#c12_11415">
+          <ref rend="bold">Avanti giorno, le strade eran di nuovo sparse di crocchi</ref>:  Le ragunate precedettero l'aurora. <hi rend="italic">Ragunate</hi>, fuori d'uso e <hi rend="italic">radunato</hi> avrebbe idea di convocazione regolare. <hi rend="italic">L'aurora</hi> poetico, che qui sapeva d'accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n92" type="comm" target="quarantana/cap12.xml#c12_11421" targetEnd="quarantana/cap12.xml#c12_11425">
+          <ref rend="bold">poveri, si radunavano a sorte</ref>:  qui era un bisbiglio confuso di: mendichi s'aggruppavano alla ventura: qui era un bisbiglio rimescolato di. <hi rend="italic">Mendichi</hi> e <hi rend="italic">alla ventura</hi>, lett. Un bisbiglio rimescolato, era una brutta espressione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n93" type="comm" target="quarantana/cap12.xml#c12_11448">
+          <ref rend="bold">domanda</ref>:  inchiesta, cfr. commento Capitolo 7: «non gli risparmiò interrogazione».
+                     </note>
+        <note xml:id="Petrocchi_cap12-n94" type="comm" target="quarantana/cap12.xml#c12_11460" targetEnd="quarantana/cap12.xml#c12_11466">
+          <ref rend="bold">sentita risonare agli orecchi; per tutto lamenti</ref>:  intesa risonare agli orecchi; da per tutto querele. Per  <hi rend="italic">intesa</hi>, uso; <hi rend="italic">querele</hi>, lett. o curialesco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n95" type="comm" target="quarantana/cap12.xml#c12_11480" targetEnd="quarantana/cap12.xml#c12_11489">
+          <ref rend="bold">Non mancava altro che un'occasione, una spinta, un avviamento qualunque</ref>:  Non mancava più che un appiglio, un avviamento, una spinta qualunque. Il <hi rend="italic">più</hi> si mette comunemente per rinforzo di negazione o per moltiplicazione. <hi rend="italic">Tre volte più</hi>. <hi rend="italic">Non vien più</hi>; <hi rend="italic">Appiglio</hi>, dice voglia di liti; <hi rend="italic">occasione</hi> dice la spinta; per l'inversione osserva la ragione delle соsе.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n96" type="comm" target="quarantana/cap12.xml#c12_11491" targetEnd="quarantana/cap12.xml#c12_11495">
+          <ref rend="bold">ridurre le parole a fatti</ref>:  ridurre a fatti le parole. Meno energico e meno usato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n97" type="comm" target="quarantana/cap12.xml#c12_11510">
+          <ref rend="bold">garzoni</ref>:  garzonetti. Lett. poet. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n98" type="comm" target="quarantana/cap12.xml#c12_11521" targetEnd="quarantana/cap12.xml#c12_11534">
+          <ref rend="bold">alle solite case. Il primo comparire d'uno di que' malcapitati ragazzi dov'era un crocchio</ref>:  alle case dei soliti compratori. Il primo mostrarsi d'uno di que' malarrivati ragazzi ad un crocchio. <hi rend="italic">Alle solite case</hi> più d'uso e più semplice; <hi rend="italic">Mostrarsi</hi>, sarebbe stato volontario; <hi rend="italic">malcapitati</hi> uso; <hi rend="italic">ad un crocchio</hi>, stava col <hi rend="italic">malarrivati</hi>, e era letter.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n99" type="comm" target="quarantana/cap12.xml#c12_11552" targetEnd="quarantana/cap12.xml#c12_11555">
+          <ref rend="bold">gridarono cento voci insieme</ref>:  gridarono ad una cento voci. Ad una lett. poet.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n100" type="comm" target="quarantana/cap12.xml#c12_11561">
+          <ref rend="bold">notano</ref>:  nuotano. Uso. Per la distinzione grafica si potrebbe mettere il circonflesso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n101" type="comm" target="quarantana/cap12.xml#c12_11572" targetEnd="quarantana/cap12.xml#c12_11583">
+          <ref rend="bold">s'accosta al ragazzetto, avventa la mano all'orlo della gerla, da una stratta</ref>:  s'appressa al garzoncello, avventa in alto la mano al labbro della gerla, dù una strappata. <hi rend="italic">Garzoncello</hi> accad.; <hi rend="italic">in alto</hi>, non vero, tanto più trattandosi d'un ragazzo; <hi rend="italic">labbro</hi>, metafora strana; <hi rend="italic">stratta</hi> è diverso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n102" type="comm" target="quarantana/cap12.xml#c12_11590" targetEnd="quarantana/cap12.xml#c12_11592">
+          <ref rend="bold">diventa rosso, pallido</ref>:  Arrossa, impallidisce. <hi rend="italic">Arrossa</hi>, uso; il verbo <hi rend="italic">impallidisce</hi> si cambia in agg. per il cambiamento del diventa.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n103" type="comm" target="quarantana/cap12.xml#c12_11611">
+          <ref rend="bold">liberarle</ref>:  svilupparle. In questo senso letter.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n104" type="comm" target="quarantana/cap12.xml#c12_11622" targetEnd="quarantana/cap12.xml#c12_11627">
+          <ref rend="bold">Molte mani l'afferrano a un tempo</ref>:  è in terra; si butta per aria il canovaccio: La pigliano a molte mani; è in terra; si getta in aria lo sciugatoio. <hi rend="italic">L'afferrano</hi> più forte; il resto uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n105" type="comm" target="quarantana/cap12.xml#c12_11650" targetEnd="quarantana/cap12.xml#c12_11666">
+          <ref rend="bold">dobbiamo mangiar pane anche noi», dice il primo, prende un pan tondo, l'alza, facendolo vedere alla folla</ref>:  abbiamo da mangiar pane, dice il primo, ne toglie uno, lo solleva mostrandolo alla brigata. Il <hi rend="italic">dobbiamo</hi> e l'<hi rend="italic">anche noi</hi>, uso. Che significherebbe qui, <hi rend="italic">abbiamo da mangiar pane</hi>, senza l'<hi rend="italic">anche noi</hi>? Il <hi rend="italic">pan tondo</hi>, rende con un particolare più reale la scena; lo solleva, direbbe un peso ben più grosso d'un pane.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n106" type="comm" target="quarantana/cap12.xml#c12_11702" targetEnd="quarantana/cap12.xml#c12_11718">
+          <ref rend="bold">a branchi, in cerca d'altre gerle... E non c'era neppur bisogno di dar</ref>:  a torme, alla busca di altre gerle vaganti.... Né occorreva pure di dar. <hi rend="italic">A torme</hi> lett. poet.; <hi rend="italic">alla busca</hi>, troppo scherzoso e meno vero; giacché esprime il pigliare quello che vier buttato; <hi rend="italic">vaganti</hi>, levato perché inutile: le gerle piene di pane non si trovano che in giro. Per il resto uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n107" type="comm" target="quarantana/cap12.xml#c12_11722" targetEnd="quarantana/cap12.xml#c12_11735">
+          <ref rend="bold">quelli che, per loro disgrazia, si trovavano in giro, vista la mala parata, posavano</ref>:  que' che si trovavano sgraziatamente per via, veduto che vento tirava, deponevano. <hi rend="italic">Quei</hi> poet.; <hi rend="italic">sgraziatamente</hi> vorrebbe dire <hi rend="italic">senza grazia</hi>; <hi rend="italic">in giro</hi>, più esatto; <hi rend="italic">veduto che vento tirava</hi>, poteva stare, e non era senza efficacia; ma vista la mala parata, ugualmente popolare, indica il pericolo più vicino e l'impossibilità d'opporvisi. Che vento tirava potevan vederlo anche il giorno prima.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n108" type="comm" target="quarantana/cap12.xml#c12_11739" targetEnd="quarantana/cap12.xml#c12_11742">
+          <ref rend="bold">e via a gambe</ref>:  e a gambe. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n109" type="comm" target="quarantana/cap12.xml#c12_11757" targetEnd="quarantana/cap12.xml#c12_11766">
+          <ref rend="bold">anche i conquistatori non eran soddisfatti di prede così piccole</ref>:  né pure i conquistatori erano soddisfatti, di così picciole prede. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n110" type="comm" target="quarantana/cap12.xml#c12_11785" targetEnd="quarantana/cap12.xml#c12_11788">
+          <ref rend="bold">disordine più co' fiocchi</ref>:  disordine assai meglio condizionato. <hi rend="italic">Condizionato</hi> è in antitesi con <hi rend="italic">disordine</hi>, e non d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n111" type="comm" target="quarantana/cap12.xml#c12_11797" targetEnd="quarantana/cap12.xml#c12_11812">
+          <ref rend="bold">chiamata la Corsia de' Servi, c'era, e c'è tuttavia un forno, che conserva lo stesso nome</ref>:  che si chiama la Corsia de' Servi, c'era un forno e c'è tuttavia con lo stesso nome. <hi rend="italic">Chiamata</hi> ugualmente d'uso è più spiccio. Per la storia, rammentiamo che allora non è vero si chiamasse la Corsia de' servi, ma Cómpedo o Compito; fu detto poi Corsia de' servi dalla Chiesa di S. Maria de' Serviti, contigua al pal. Sarbelloni; poi, si chiamò dal nome dell'Imperatore d'Austria, Corso Francesco, di cattiva memoria, e Corso Vittorio Emanuele dopo il giugno 1859,
+                     </note>
+        <note xml:id="Petrocchi_cap12-n112" type="comm" target="quarantana/cap12.xml#c12_11813" targetEnd="quarantana/cap12.xml#c12_11823">
+          <ref rend="bold">nome che in toscano viene a dire il forno delle grucce</ref>:  Qui il Manzoni si fidò sull'interpretazione popolare milanese, e chiamo <hi rend="italic">Forno delle grucce</hi> quello che invece era il <hi rend="italic">Prestin de Scanz</hi> cioè degli Scanzi o Scantii (<hi rend="italic">pristinum Scanciorum</hi> dice il documento dell'Opera del Duomo). La cosa fu provata chiaram. dall'ab. Ceruti nella Perseveranza del 27 luglio 1881, e il Calvi nolla Storia del Castello di Milano p. 316 dice: «Il tener forno (prestino)... era un diritto annesso alla proprietà di varie case ». così c'era il Prestino dei Trotti (e seguitava a chiamarsi così anche se dato in appalto), il Prestino dei Formenti, che il popolo al solito cambiò in Prestino del formento ecc. Gli Scanzi erano una famiglia milanese che risale nella storia al sec. xi. Le parole eteroclite dunque non c'entran per nulla, e solo il popolo dimenticandosi della famiglia, ridusse quel nome proprio al nome comune analogo. Del resto neanche il nome comune non è tanto eteroclito, o che sia della famiglia stessa del toscano Scancio, come il D'Ovidio e io abbiamo inclinato a credere, o che, come la ponsa l'amico Salvioni, appartenga alla famiglia del franc. <hi rend="italic">échasse</hi>, gruccia, che il Caix ricollega coll'aretino <hi rend="italic">scaccie</hi>, non è parola così strana che non sia già diventata nostrale come tant'altre d'origine straniera. Che l'alfabeto poi della lingua comune non abbia lettere bastanti per registrare lo pronunzie dei dialetti, è colpa non di questi, ma di quello, che il Tommasèo chiamava appunto il povero alfabeto latino. Oggi però, per tornare a bomba, il Prestino degli Scanzi è diventato Forno delle Grucce, o si vanta, di quell'arme da invalidi, sovrana conferma che l'arte ne può ancho assai più della storia. Per la famosa epigrafe mandata dal Manz. al Forno delle Grucce la troverai nella vita di lui che accomp. questo volume.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n113" type="comm" target="quarantana/cap12.xml#c12_11858" targetEnd="quarantana/cap12.xml#c12_11859">
+          <ref rend="bold">la gente</ref>:  la turba. Lett. poet.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n114" type="comm" target="quarantana/cap12.xml#c12_11872" targetEnd="quarantana/cap12.xml#c12_11876">
+          <ref rend="bold">sbigottito e abbaruffato riferiva balbettando</ref>:  allibito e rabbaruffato, riferiva barbugliando. <hi rend="italic">Allibito</hi>, meno d'uso e diverso: è uno sbigottimento che vien per colpa. Per il resto, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n115" type="comm" target="quarantana/cap12.xml#c12_11882" targetEnd="quarantana/cap12.xml#c12_11889">
+          <ref rend="bold">si sente un calpestìo e un urlìo insieme</ref>:  s'ode un romore di gente in moto. <hi rend="italic">S'ode</hi> lett. poet. accad.; <hi rend="italic">un calpestìo e un urlìo</hi>, più semplice e più efficace. Gli acconti forse non sono necessari.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n116" type="comm" target="quarantana/cap12.xml#c12_11893" targetEnd="quarantana/cap12.xml#c12_11897">
+          <ref rend="bold">compariscono i forieri della masnada</ref>:  compaiono i forieri della turba. <hi rend="italic">Compaiono</hi>, meno usato; <hi rend="italic">turba</hi> era troppo poetico?
+                     </note>
+        <note xml:id="Petrocchi_cap12-n117" type="comm" target="quarantana/cap12.xml#c12_11919" targetEnd="quarantana/cap12.xml#c12_11928">
+          <ref rend="bold">appuntellano i battenti. La gente comincia a affollarsi di fuori</ref>:  stangano e appuntellano le imposte per di dentro. La moltitudine comincia a spessarsi dinanzi. <hi rend="italic">Stangare</hi> reso inutile dall'<hi rend="italic">appuntellare</hi>; e già è poco usato; <hi rend="italic">moltitudine</hi> indica di per sé molta gente; e <hi rend="italic">spessarsi</hi> non si dice.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n118" type="comm" target="quarantana/cap12.xml#c12_11936" targetEnd="quarantana/cap12.xml#c12_11948">
+          <ref rend="bold">Pochi momenti dopo, arriva il capitano di giustizia con una scorta d'alabardieri</ref>:  Ed ecco arrivare il capitano di giustizia in mezzo ad un drappello di alabardieri. <hi rend="italic">Ed ecco</hi>, à dell'improvviso meraviglioso; <hi rend="italic">drappello</hi> è più numeroso e regolato, e non fa l'ufficio della scorta. Questo capitano di Giustizia si chiamava G. B. Visconti
+                     </note>
+        <note xml:id="Petrocchi_cap12-n119" type="comm" target="quarantana/cap12.xml#c12_11956" targetEnd="quarantana/cap12.xml#c12_11963">
+          <ref rend="bold">fate luogo al capitano di giustizia, grida lui</ref>:  date il passo al capitano, grida egli. <hi rend="italic">Dare il passo</hi> troppo soldatesco, e il nostro capitano usava parole più civili; non dice neanche: <hi rend="italic">fate largo</hi>, perché era un chieder troppo: si contenta di un po' di posto.; <hi rend="italic">lui</hi> in questo luogo, dopo il verbo, era indispensabile.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n120" type="comm" target="quarantana/cap12.xml#c12_11980">
+          <ref rend="bold">dimodoché</ref>:  tanto che. Quasi uguale: poteva anche stare.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n121" type="comm" target="quarantana/cap12.xml#c12_11984" targetEnd="quarantana/cap12.xml#c12_11995">
+          <ref rend="bold">e postarsi, insieme, se non in ordine, davanti alla porta della bottega</ref>:  e addossarsi, stretti se non ordinati alla porta chiusa della bottega. <hi rend="italic">Postarsi</hi> significa prender il posto con intenzione di difesa e d'offesa; addossarsi insieme davanti alla bottega non significherebbe come credeva l'autore col dorso alla bottega, ma tutti rivolti addossati fra loro, con la faccia a quella. <hi rend="italic">Ordinati</hi> avrebbe significato morale, economico.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n122" type="comm" target="quarantana/cap12.xml#c12_11998" targetEnd="quarantana/cap12.xml#c12_12002">
+          <ref rend="bold">predicava di lì il capitano</ref>:  perorava di quivi il capitano. <hi rend="italic">Perorare</hi> à troppo dell'arte oratoria; il <hi rend="italic">preeicare</hi> signif. molto bene invece ogni discorso a braccia fatto per moralizzare altrui anche dozzinalmente.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n123" type="comm" target="quarantana/cap12.xml#c12_12037">
+          <ref rend="bold">ammontati?</ref>:  insaccati? <hi rend="italic">Insaccati</hi> ci pare piuttosto grottesco, accanto al re nostro signore, in bocca al capitano di giustizia, e non buona similitudine, giacché quella strada non era un ronco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n124" type="comm" target="quarantana/cap12.xml#c12_12045" targetEnd="quarantana/cap12.xml#c12_12046">
+          <ref rend="bold">per il</ref>:  Pel. Volgare e pedantesco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n125" type="comm" target="quarantana/cap12.xml#c12_12080" targetEnd="quarantana/cap12.xml#c12_12086">
+          <ref rend="bold">incalzati da quelli di dietro, spinti anch'essi</ref>:  inzeppati da quei di dietro, calcati anche essi. <hi rend="italic">Inzeppati</hi> vale il precedente <hi rend="italic">insaccati</hi>. <hi rend="italic">Calcati</hi> era troppo, per ora, e però leverà subito anche <hi rend="italic">calca</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n126" type="comm" target="quarantana/cap12.xml#c12_12093" targetEnd="quarantana/cap12.xml#c12_12098">
+          <ref rend="bold">via via fino all'estremità della folla</ref>:  di grado in grado fino alla estremità della calca. <hi rend="italic">Di grado in grado</hi> non ci aveva che vedere; è anche poco usato; calca. <hi rend="italic">calca</hi> indica troppo pigia pigia, e della gente ce n'era ancora da venire.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n127" type="comm" target="quarantana/cap12.xml#c12_12103" targetEnd="quarantana/cap12.xml#c12_12109">
+          <ref rend="bold">Al capitano, cominciava a mancargli il respiro</ref>:  Il capitano cominciava a patire un po'd'affanno. calca. <hi rend="italic">Patire l'affanno</hi> , è una malattia; il calca. <hi rend="italic">gli</hi> di calca. <hi rend="italic">mancare</hi> è pleonasmo d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n128" type="comm" target="quarantana/cap12.xml#c12_12110" targetEnd="quarantana/cap12.xml#c12_12111">
+          <ref rend="bold">Fateli dare</ref>:  Non ti sfugga la vivacità della descrizione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n129" type="comm" target="quarantana/cap12.xml#c12_12139" targetEnd="quarantana/cap12.xml#c12_12149">
+          <ref rend="bold">buttandosi tutti insieme addosso ai primi, e respingendoli con l'aste dell'alabarde</ref>:  serrandosi addosso tutti insieme a quei primi, e rispingendoli coll'aste dell'arme. Nel calca. <hi rend="italic">buttarsi</hi> c'è più impeto d'offesa; nel calca. <hi rend="italic">serrarsi</hi> più intento di difesa; ora i poliziotti, facilmente si buttano all'offesa anche se il capitano ordina come qui (ammesso che sia sul serio) di non far male a nessuno; in calca. <hi rend="italic">alabarde</hi> più esattezza.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n130" type="comm" target="quarantana/cap12.xml#c12_12152" targetEnd="quarantana/cap12.xml#c12_12168">
+          <ref rend="bold">si tirano indietro, come possono; danno con le schiene ne' petti, co'gomiti nelle pance, co' calcagni</ref>:  rinculano come possono, danno delle schiene nei petti, dei gomiti nelle pance, delle calcagna... Nel calca. <hi rend="italic">rinculare</hi> c'è più paura; calca. <hi rend="italic">delle schiene</hi> ecc. lett. Oggi il calca. <hi rend="italic">delle</hi> in questo caso non si potrebbe dire se non di azioni o cose staccate. Per es. calca. <hi rend="italic">Gli tiraron delle mele marce</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n131" type="comm" target="quarantana/cap12.xml#c12_12176" targetEnd="quarantana/cap12.xml#c12_12179">
+          <ref rend="bold">son dietro a loro</ref>:  stanno lor dietro: si fa una serra, una stretta, una pesta. <hi rend="italic">Stanno</hi> è per ordine, calca. <hi rend="italic">sono</hi> per caso; calca. <hi rend="italic">lor dietro</hi> , lett. pedantesco;  <hi rend="italic">pigio</hi> e <hi rend="italic">calca</hi>, uso. <hi rend="italic">Serra</hi> da sé solo, no: <hi rend="italic">una serra di popolo</hi>; oppure al maschile raddoppiato: <hi rend="italic">un serra serra</hi> , ma in altro senso; calca. <hi rend="italic">stretta</hi> mai di pers. ammucchiate, se mai <hi rend="italic">strettoio</hi>; <hi rend="italic">pesta</hi> dove c'è terra o mota.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n132" type="comm" target="quarantana/cap12.xml#c12_12195">
+          <ref rend="bold">qualcosa</ref>:  qualche cosa, meno com. Ma osserva la grazia artistica dell'<hi rend="italic">avrebbero pagato qualcosa</hi> (iperbolico a rovescio) invece di calca. <hi rend="italic">avrebbero pagato qualunque cosa</hi>, che sarebbe stato, si può dire, una goffaggine.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n133" type="comm" target="quarantana/cap12.xml#c12_10203">
+          <ref rend="bold">vòto</ref>:  voto. Invece dell'<hi rend="italic">u</hi>, che non è nella pronunzia comune, si distingue coll'accento circonflesso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n134" type="comm" target="quarantana/cap12.xml#c12_12206" targetEnd="quarantana/cap12.xml#c12_12208">
+          <ref rend="bold">davanti alla porta</ref>:  presso alla porta. Era diverso: <hi rend="italic">davanti</hi> è più vicino.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n135" type="comm" target="quarantana/cap12.xml#c12_12211" targetEnd="quarantana/cap12.xml#c12_12216">
+          <ref rend="bold">picchia ripicchia, urla che gli aprano</ref>:  bussa, tambussa, grida che gli venga aperto; quei di dentro veggono. Uso; <hi rend="italic">urla</hi> è più; <hi rend="italic">quei</hi> poet.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n136" type="comm" target="quarantana/cap12.xml#c12_12223" targetEnd="quarantana/cap12.xml#c12_12226">
+          <ref rend="bold">scendon di corsa, aprono</ref>:  si scende in fretta, si apre. Questi impersonali stavano peggio; <hi rend="italic">scendono</hi> continua da <hi rend="italic">vedono</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n137" type="comm" target="quarantana/cap12.xml#c12_12234" targetEnd="quarantana/cap12.xml#c12_12237">
+          <ref rend="bold">si ficcan dentro anch'essi</ref>:  si caccian pur dentro. Nel <hi rend="italic">cacciare</hi> c'è più forza; nel <hi rend="italic">ficcare</hi> più stento; pensate dove e come entravano, e vedrete che la correzione è a capello; il <hi rend="italic">pur</hi> qui era lett. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n138" type="comm" target="quarantana/cap12.xml#c12_12243" targetEnd="quarantana/cap12.xml#c12_12258">
+          <ref rend="bold">rattenendo la folla con l'alabarde. Quando sono entrati tutti, si mette tanto di catenaccio, si riappuntella</ref>:  il capitano sale di corsa, e s'affaccia a una finestra. Uh, che formicolaio: contenendo la folla coll'arme. Quando tutti vi sono, si tira tanto di catenaccio: il capitano sale in fretta e si fa ad una finestra. Uh, che brulicame! <hi rend="italic">Contenendo</hi> diverso: è più potente, ristabilisce affatto l'ordine, e non dice lo sforzo del calca. <hi rend="italic">rattenere</hi>; calca. <hi rend="italic">arme</hi> era generico; il <hi rend="italic">tutti vi sono</hi>, dice troppa comodità; il catenaccio, non si tira; <hi rend="italic">sale di corsa</hi>, più vero e affannoso; <hi rend="italic">affacciarsi</hi>, uso; <hi rend="italic">brulicame</hi> poteva stare, ma sa di vermi; e il capitano di giustizia è in vena per ora (la correzione è fine, ma giusta) di gentilezza anche nel suo pensiero e tratta quella gente senza nessuno spregio.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n139" type="comm" target="quarantana/cap12.xml#c12_12275" targetEnd="quarantana/cap12.xml#c12_12278">
+          <ref rend="bold">si voltano in su</ref>:  guardano in su. La correz. indica il primo atto istintivo. È inutile raccomandare l'attenzione a tutta questa fisiologia della folla e dei comandanti alla folla.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n140" type="comm" target="quarantana/cap12.xml#c12_12300" targetEnd="quarantana/cap12.xml#c12_12301">
+          <ref rend="bold">nell'urlìo orrendo</ref>:  nella vociferazione immane. roba lett.; oltr' a questo, due parole che fanno a' cozzi.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n141" type="comm" target="quarantana/cap12.xml#c12_12321" targetEnd="quarantana/cap12.xml#c12_12323">
+          <ref rend="bold">Pane ne avrete</ref>:  Avrete pane. È una delle tante correzioni finissime dell'aut. Per uno scrittore qualunque potevano stare tutt'e due; ma è un fatto che il pane prima, à un senso, questo: <hi rend="italic">voi chiedete pane? l'avrete</hi>; il pane dopo, può significare: <hi rend="italic">tra le varie cose che volete, il pane vi sarà dato; non vi daremo sassate o peggio</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n142" type="comm" target="quarantana/cap12.xml#c12_12332" targetEnd="quarantana/cap12.xml#c12_12334">
+          <ref rend="bold">Che fate laggiù!</ref>:  Che fate laggiù? È più la meraviglia che la domanda: ecco la ragione del punto ammirativo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n143" type="comm" target="quarantana/cap12.xml#c12_12348">
+          <ref rend="bold">delitto</ref>:  criminale. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n144" type="comm" target="quarantana/cap12.xml#c12_12354" targetEnd="quarantana/cap12.xml#c12_12363">
+          <ref rend="bold">eh! smettete con que' ferri; giù quelle mani, Vergogna!</ref>:  eh! via quei ferri; giù quelle mani. Oibò! <hi rend="italic">Quei ferri</hi> , non li potevan metter via: era solamente il caso di smettere. <hi rend="italic">Oibò</hi> lett. e meno espressivo che calca. <hi rend="italic">vergogna!</hi>
+        </note>
+        <note xml:id="Petrocchi_cap12-n145" type="comm" target="quarantana/cap12.xml#c12_12368" targetEnd="quarantana/cap12.xml#c12_12378">
+          <ref rend="bold">per la bontà, siete nominati in tutto il mondo! Sentite, sentite</ref>:  siete nominati in tutto il mondo per la bontà!: Ascoltate! ascoltate. Per la calca. <hi rend="italic">bontà</hi> prima, più efficace perché più importante. <hi rend="italic">Sentire</hi> più com. in questo caso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n146" type="comm" target="quarantana/cap12.xml#c12_12406" targetEnd="quarantana/cap12.xml#c12_12409">
+          <ref rend="bold">a batter nella fronte</ref>:  a dar nella fronte. <hi rend="italic">Dare</hi> meno forte di <hi rend="italic">battere</hi> e più lett. in questo caso:
+                     </note>
+        <note xml:id="Petrocchi_cap12-n147" type="comm" target="quarantana/cap12.xml#c12_12413" targetEnd="quarantana/cap12.xml#c12_12417">
+          <ref rend="bold">protuberanza... metafisica</ref>:  Tutto questo è una graziosa canzonatura alle idee di Gall, in moda ai tempi dell'Autore. Franc. Gius. Gall anatomico e frenologo nato il 9 marzo 1758 in Tiefenbronn (Baden), medico a Vienna, e dal 1807 a Parigi, morto presso Parigi a Montrouge il 27 agosto 1828. Scrisse: <hi rend="italic">Introduzione ai corsi di fisiologia del cervello</hi> (1808). <hi rend="italic">Anatomia e fisiologia del sistema nervoso (seconda ediz. 1822-25, 6 vol. con atlante)</hi>. <hi rend="italic">Sulle funzioni del cervello (1822 due volumi)</hi>. È noto come, secondo le idee di questo scenziato, si distinguevano nel cervello dalle protuberanze le varie inclinazioni umane; e anche il Giusti ci allude dicendo a Gingillino: «Ti rialza fuor di squadro Il bernoccolo del ladro». Con quella <hi rend="italic">protuberanza</hi> sarcastica però non ne tocca solam. a Gall, ma anche al capitano. Il M. mostra spesso e volentieri, con tutta la gentilezza che gli è propria, un certo disprezzo per tutti quegli uomini di governo. In questo capitano poi che parla dell'anima e del corpo, di gran bontà e di canaglia, abbiamo una figurina molto umana e molto comica nello stesso tempo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n148" type="comm" target="quarantana/cap12.xml#c12_12424" targetEnd="quarantana/cap12.xml#c12_12429">
+          <ref rend="bold">presto presto la finestra, e ritirandosi</ref>:  in furia la finestra, e ritraendosi. <hi rend="italic">In furia</hi> era esagerato; <hi rend="italic">ritraendosi</hi> lett. poet.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n149" type="comm" target="quarantana/cap12.xml#c12_12434" targetEnd="quarantana/cap12.xml#c12_12437">
+          <ref rend="bold">quanto n'aveva in canna</ref>:  quanto mai ne aveva nella gola. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n150" type="comm" target="quarantana/cap12.xml#c12_12451" targetEnd="quarantana/cap12.xml#c12_12458">
+          <ref rend="bold">nella tempesta delle grida che venivan di giù</ref>:  rispinte da quel borboglio di grida che veniran dal basso. <hi rend="italic">rispinte</hi> e <hi rend="italic">borboglio</hi> arcaici; e <hi rend="italic">tempesta</hi>, tanto più espressivo; il resto, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n151" type="comm" target="quarantana/cap12.xml#c12_12486" targetEnd="quarantana/cap12.xml#c12_12495">
+          <ref rend="bold">alla porta, per sfondarla, e alle finestre, per svellere l'inferriate</ref>:  alla porta e alle finestre, per ispezzare le imposte e strappare le ferrate. La correzione più semplice e più d'uso. Del resto, <hi rend="italic">spezzare le imposte</hi> non era proprio; e neanche <hi rend="italic">strappare</hi> per <hi rend="italic">svellere</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n152" type="comm" target="quarantana/cap12.xml#c12_12500" targetEnd="quarantana/cap12.xml#c12_12502">
+          <ref rend="bold">molto avanzata. Intanto</ref>:  molto innanzi. Frattanto. <hi rend="italic">Avanzata</hi> più adatto per cose di male. Si dice <hi rend="italic">una tisi molto avanzata</hi>; non <hi rend="italic">una tisi molto innanzi</hi>; <hi rend="italic">frattanto</hi> lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n153" type="comm" target="quarantana/cap12.xml#c12_12525" targetEnd="quarantana/cap12.xml#c12_12538">
+          <ref rend="bold">urlavano e facevano versacci a quelli di giù, perché smettessero; facevan vedere le pietre</ref>:  facevano strida, visi, gesti a quei di giù perché lasciassero stare; mostravano le pietre. Uso. <hi rend="italic">Far visi</hi> non si dice affatto; e <hi rend="italic">lascia stare</hi> si dice a chi tocca, non a chi fa malestri o del male.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n154" type="comm" target="quarantana/cap12.xml#c12_12540" targetEnd="quarantana/cap12.xml#c12_12550">
+          <ref rend="bold">di volerle buttare. Visto ch'era tempo perso, cominciarono a buttarle davvero</ref>:  di volerle lanciare. Visto che nulla valeva, cominciarono a lanciarle da vero. Uso; ma forse era meglio tirare.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n155" type="comm" target="quarantana/cap12.xml#c12_12557" targetEnd="quarantana/cap12.xml#c12_12570">
+          <ref rend="bold">giacché la calca era tale, che un granello di miglio, come si suol dire</ref>:  giacché lo stivamento era tale, che un grano di miglio, come suol dirsi. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n156" type="comm" target="quarantana/cap12.xml#c12_12576" targetEnd="quarantana/cap12.xml#c12_12577">
+          <ref rend="bold">Ah birboni!</ref>:  Ah birbononi! Questo <hi rend="italic">ononi</hi> è un accrescitivo milanese, a volte non senza efficacia, e non facilmente traducibile, come quello del Porta: <hi rend="italic">Sissignor, sur marches, lù l'è marches, Marchesazz, marcheson, marchesonon</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n157" type="comm" target="quarantana/cap12.xml#c12_12592" targetEnd="quarantana/cap12.xml#c12_12596">
+          <ref rend="bold">Ora, ora! s'urlava di giù</ref>:  Adesso, Adesso. A noi! n si urlava di giù. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n158" type="comm" target="quarantana/cap12.xml#c12_12599" targetEnd="quarantana/cap12.xml#c12_12601">
+          <ref rend="bold">fu conciato male</ref>:  fu malconcio. Meno efficace; <hi rend="italic">conciato male</hi>  è peggio, e c'è più l'intenzione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n159" type="comm" target="quarantana/cap12.xml#c12_12609">
+          <ref rend="bold">accrebbe</ref>:  crebbe. Cfr. Cap. 4: «Questi spettacoli accrescevano, a»
+                     </note>
+        <note xml:id="Petrocchi_cap12-n160" type="comm" target="quarantana/cap12.xml#c12_12614" targetEnd="quarantana/cap12.xml#c12_12619">
+          <ref rend="bold">la porta fu sfondata, l'inferriate svelte</ref>:  le imposte, le ferrate furono strappate. La correzione più d'uso e più propria. Cfr. sopra: «alla porta... inferriate»
+                     </note>
+        <note xml:id="Petrocchi_cap12-n161" type="comm" target="quarantana/cap12.xml#c12_12635" targetEnd="quarantana/cap12.xml#c12_12637">
+          <ref rend="bold">scapparono in soffitta</ref>:  si rifuggirono in fretta sul solaio. <hi rend="italic">Rifuggirsi</hi> è lett.; se mai, <hi rend="italic">rifugiarsi</hi>; <hi rend="italic">Solaio</hi> per <hi rend="italic">soffitta</hi> è un lombardismo sconosciuto affatto in Toscana.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n162" type="comm" target="quarantana/cap12.xml#c12_12646" targetEnd="quarantana/cap12.xml#c12_12650">
+          <ref rend="bold">stettero lì rannicchiati ne' cantucci</ref>:  stettero quivi rincantucciati sotto le tegole. Non proprio, perché <hi rend="italic">rincantucciati sotto le tegole</hi> è più da topi che da uomini.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n163" type="comm" target="quarantana/cap12.xml#c12_12656" targetEnd="quarantana/cap12.xml#c12_12662">
+          <ref rend="bold">andavano su pe' tetti come i gatti</ref>:  erravano su pei tetti, a guisa di gatti. Acc. Questa similitudine non piaceva al Tommaseo: gli pareva poco nobile forse: ma il M. moscola un poco del suo <hi rend="italic">humour</hi> per tutto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n164" type="comm" target="quarantana/cap12.xml#c12_12680" targetEnd="quarantana/cap12.xml#c12_12685">
+          <ref rend="bold">il pane è messo a ruba</ref>:  Il pane ne va a ruba. Uso. <hi rend="italic">Va a ruba</hi> si direbbe di vendita.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n165" type="comm" target="quarantana/cap12.xml#c12_12686" targetEnd="quarantana/cap12.xml#c12_12696">
+          <ref rend="bold">Qualcheduno in vece corre al banco, butta giù la serratura, agguanta</ref>:  Altri invece s'affretta a diverre la serratura del banco, adunghia. <hi rend="italic">Altri</hi> al sing. è letter.; il <hi rend="italic">corre al banco</hi> rende l'azione più viva; <hi rend="italic">diverre</hi>, letter. poet.; e letterario, ma non direi senza efficacia, è quell'<hi rend="italic">adunghia</hi>. Vero però che nell'<hi rend="italic">agguanta</hi> c'è più il fare risoluto di gente infuriata a rapire senza mistero.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n166" type="comm" target="quarantana/cap12.xml#c12_12719" targetEnd="quarantana/cap12.xml#c12_12742">
+          <ref rend="bold">si sparge ne' magazzini... gli scioglie la bocca</ref>:  si diffonde nei magazzini interni. S'aggrappano, si trassinano sacca; altri ne riversa uno, ne scioglie la bocca. <hi rend="italic">Diffonde</hi>, lett. in questo senso; <hi rend="italic">interni</hi>, inutile; <hi rend="italic">s'aggrappano</hi>, poco chiaro; <hi rend="italic">si trassinano</hi> volg. o arcaico; <hi rend="italic">altri ne riversa</hi>, lett.; l'aggiunta è un particolare di più non sprezzabile. Per la descrizione, il Tommaseo osserva, «bel quadro! e bello è davvero».
+                     </note>
+        <note xml:id="Petrocchi_cap12-n167" type="comm" target="quarantana/cap12.xml#c12_12762" targetEnd="quarantana/cap12.xml#c12_12788">
+          <ref rend="bold">si china a parare il grembiule, un fazzoletto, il cappello, per ricevere quella grazia di Dio; uno corre a una madia, e prende un pezzo di pasta</ref>:  si fa sotto a raccoglier con drappi, cogli abiti, di quello sciupio; altri si getta sur una madia e fa bottino di pasta. Si fa sotto, drappi e abiti, uso; grazia di Dio, più garbato e più giusto, non solo; ma raccogliere dello sciupio era tutt'altro che consolante e grazioso; far bottino di pasta, esagerato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n168" type="comm" target="quarantana/cap12.xml#c12_12797" targetEnd="quarantana/cap12.xml#c12_12807">
+          <ref rend="bold">un altro, che ha conquistato un burattello, lo porta per aria</ref>:  chi va, chi viene: altri che ha conquistato un burattello ne lo porta sollevato in aria: chi va, chi viene, chi maneggia. Per <hi rend="italic">sollevato</hi> cfr. commento Capitolo 1: «d'alzar»; <hi rend="italic">maneggia</hi> troppo generico, e non diceva nulla; il <hi rend="italic">ne</hi> lett.; <hi rend="italic">in aria</hi> troppo alto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n169" type="comm" target="quarantana/cap12.xml#c12_12817">
+          <ref rend="bold">urli</ref>:  grida. Meno forte.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n170" type="comm" target="quarantana/cap12.xml#c12_12832" targetEnd="quarantana/cap12.xml#c12_12837">
+          <ref rend="bold">tutto vela e annebbia. Di fuori</ref>:  tutto involve e annebbia. Al di fuori. <hi rend="italic">Involve</hi>, lett. poet. Di fuori, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n171" type="comm" target="quarantana/cap12.xml#c12_12846" targetEnd="quarantana/cap12.xml#c12_12847">
+          <ref rend="bold">si rompono</ref>:  si spezzano. Meno proprio: nello <hi rend="italic">spezzare</hi> c'è il fragore e la durezza, non la fluidezza d'una folla; rompere è anche d'un filo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n172" type="comm" target="quarantana/cap12.xml#c12_12870" targetEnd="quarantana/cap12.xml#c12_12871">
+          <ref rend="bold">messo sottosopra</ref>:  disertato. Acc.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n173" type="comm" target="quarantana/cap12.xml#c12_12886" targetEnd="quarantana/cap12.xml#c12_12893">
+          <ref rend="bold">accorse in numero tale da potere intraprender tutto</ref>:  si addensò in numero tale da poter tutto osare. Diverso: nell'<hi rend="italic">addensare</hi>, non c'è la furia temibile dell'<hi rend="italic">accorrere</hi>. <hi rend="italic">Osare</hi> all'aut. pareva esagerato? o, impostato così, gli puzzava di letterario? Ma l'<hi rend="italic">intraprendere</hi> è più esteso e comprensivo, e richiede più gente e più tempo, mentre l'<hi rend="italic">osare</hi> è cosa d'un attimo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n174" type="comm" target="quarantana/cap12.xml#c12_12898" targetEnd="quarantana/cap12.xml#c12_12910">
+          <ref rend="bold">avevan raccolto degli ausiliari, e stavan sulle difese; altrove, trovandosi in pochi, venivano</ref>:  avevan fatto un po' di massa d'ausiliari e stavano sulla difesa; altrove men forti di numero e più impauriti venivano. Massa d'ausiliari, era un'espressione impropria e niente usata; <hi rend="italic">sulle difese</hi>, uso; trovandosi in pochi, più semplice, e dice tutto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n175" type="comm" target="quarantana/cap12.xml#c12_12940" targetEnd="quarantana/cap12.xml#c12_12941">
+          <ref rend="bold">fosser soddisfatti</ref>:  fossero contenti dell'acquistato. <hi rend="italic">Soddisfatti</hi>, è più e diverso: dice la specie di acquiescenza di chi à avuto tutto il suo, e sente di non dover chieder altro, mentre può non essere pienamente contento; uno invece può esser contento anche a non esser soddisfatto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n176" type="comm" target="quarantana/cap12.xml#c12_12949" targetEnd="quarantana/cap12.xml#c12_12951">
+          <ref rend="bold">stando alla larga</ref>:  È il solito fare dei poliziotti là dov'è il pericolo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n177" type="comm" target="quarantana/cap12.xml#c12_12958" targetEnd="quarantana/cap12.xml#c12_12961">
+          <ref rend="bold">si facevan però vedere</ref>:  comparivano però. Poteva stare; ma nel <hi rend="italic">comparire</hi>, c'è del tribunalesco o d'atto energico o d'inaspettato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n178" type="comm" target="quarantana/cap12.xml#c12_12970" targetEnd="quarantana/cap12.xml#c12_12976">
+          <ref rend="bold">i tristi che non fossero una folla</ref>:  quelle picciole truppe di ammutinatelli. <hi rend="italic">Ammutinatelli</hi>, non è d'uso; il M. però l'avrebbe lasciato come altrove <hi rend="italic">untorello</hi>, giacché questi modificativi sono sempre alla discrezione dello scrittore, se avesse calzato all'idea. Ma truppe non erano; <hi rend="italic">ammutinatelli</hi> troppo commiserativo; e meglio coi tristi che non eran folla (la folla dei tristi non s'attaccava per paura) credette dipingere i pochi male intenzionati.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n179" type="comm" target="quarantana/cap12.xml#c12_12978" targetEnd="quarantana/cap12.xml#c12_12980">
+          <ref rend="bold">il trambusto andava</ref>:  il trambusto e il concorso andava. <hi rend="italic">Trambusto</hi> che va crescendo, dico da sé il concorso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n180" type="comm" target="quarantana/cap12.xml#c12_12986" targetEnd="quarantana/cap12.xml#c12_12987">
+          <ref rend="bold">disgraziato forno</ref>:  malavventurato forno. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n181" type="comm" target="quarantana/cap12.xml#c12_12990" targetEnd="quarantana/cap12.xml#c12_13008">
+          <ref rend="bold">coloro che gli pizzicavan le mani di far qualche bell'impresa, correvan là, dove gli amici erano i più forti</ref>:  quelli a cui pizzicavano le mani, e dava il cuore di fare qualche bel fatto, si portavano quivi, dove gli amici erano in forza maggiore. <hi rend="italic">Coloro</hi> è più spregiativo, il <hi rend="italic">gli</hi> è una sgrammaticatura d'uso che, non disturbando il senso, parve all'A. meno pesante di quell'<hi rend="italic">a cui</hi>. Levando <hi rend="italic">dava il cuore</hi>, giacché di coraggio ne avevan poco, à voluto ridurre la bella impresa (più ironico che bel fatto) a qualche prepotenza, o menar le mani. Poi fare qualche bel fatto è tutt'altro che bello; e prodezza, come altri suggerisce, ora troppo. <hi rend="italic">Quivi</hi> lett.; <hi rend="italic">più forti</hi>, uso: non si direbbe in questo senso in forza maggiore. Coll'impunità sicura, lasciato nelle due edizioni, ribadisce la taccia di vili.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n182" type="comm" target="quarantana/cap12.xml#c12_13012" targetEnd="quarantana/cap12.xml#c12_13014">
+          <ref rend="bold">A questo punto</ref>:  A questi termini. <hi rend="italic">Punto</hi>, si riferisce meglio alla storia, al racconto; e <hi rend="italic">termini</hi>, sarebbe andato bene se la venuta di Renzo avesse potuto modificare i fatti.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n183" type="comm" target="quarantana/cap12.xml#c12_13020" targetEnd="quarantana/cap12.xml#c12_13030">
+          <ref rend="bold">avendo ormai sgranocchiato il suo pane, veniva avanti per il borgo</ref>:  terminando come abbiamo detto, di rodere quel suo pane, veniva su pel borgo. <hi rend="italic">Rodere</hi>, è dei tarli o di un pane impossibile a mangiare; nello <hi rend="italic">sgranocchiare</hi>, invece ci si sente il gusto di mangiare il pan fresco e bono, azione fatta più sollecita col gerundio passato; veniva su, andrebbe meglio per una salita, mentre questa strada è piana, quantunque a Mil. non sarebbe sbagliato dire: <hi rend="italic">si va su in piazza del Duomo</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n184" type="comm" target="quarantana/cap12.xml#c12_13039" targetEnd="quarantana/cap12.xml#c12_13040">
+          <ref rend="bold">al luogo</ref>:  al sito. Uso. In Toscana <hi rend="italic">sito</hi> non si dice che per una specie di puzzo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n185" type="comm" target="quarantana/cap12.xml#c12_13044" targetEnd="quarantana/cap12.xml#c12_13046">
+          <ref rend="bold">Andava, ora lesto</ref>:  Andava egli ora spedito. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n186" type="comm" target="quarantana/cap12.xml#c12_13053" targetEnd="quarantana/cap12.xml#c12_13057">
+          <ref rend="bold">guardava e stava in orecchi</ref>:  guatava e origliava, accad.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n187" type="comm" target="quarantana/cap12.xml#c12_13083" targetEnd="quarantana/cap12.xml#c12_13092">
+          <ref rend="bold">gli riuscì di rilevare in tutta la strada che fece</ref>:  gli venne fatto di rilevare in tutto il viaggio. Nel <hi rend="italic">riuscì</hi> c'è più la ricerca, l'intenzione di sapore; <hi rend="italic">viaggio</hi> non era proprio per un breve tratto di strada.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n188" type="comm" target="quarantana/cap12.xml#c12_13110" targetEnd="quarantana/cap12.xml#c12_13113">
+          <ref rend="bold">né grano</ref>:  né frumento. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n189" type="comm" target="quarantana/cap12.xml#c12_13121">
+          <ref rend="bold">lampante</ref>:  sincera. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n190" type="comm" target="quarantana/cap12.xml#c12_13153" targetEnd="quarantana/cap12.xml#c12_13159">
+          <ref rend="bold">se non si fa una buona giustizia</ref>:  Per <hi rend="italic">giustizia</hi> (v. Renzo testo e nota alla fine del cap. Ⅲ) il popolo oppresso intende ammazzare. Che meraviglia? E quanto operano in lui quelli che mal governano.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n191" type="comm" target="quarantana/cap12.xml#c12_13194" targetEnd="quarantana/cap12.xml#c12_13198">
+          <ref rend="bold">per averlo sentito dir io</ref>:  per averlo inteso io. Uso; <hi rend="italic">inteso</hi> è il lavoro dell'intelletto, dopo aver sentito.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n192" type="comm" target="quarantana/cap12.xml#c12_13211">
+          <ref rend="bold">sguattero</ref>:  guattero. Uso. È graziosa questa nota comica.
+                     </note>
+         <note xml:id="Petrocchi_cap12-n193" type="comm" target="quarantana/cap12.xml#c12_13216" targetEnd="quarantana/cap12.xml#c12_13225">
+          <ref rend="bold">Parole da non ripetersi diceva, con la schiuma alla bocca</ref>:  Cose da non ridirsi diceva colla bocca schiumante. Altro è dir cose, altro parole! In queste parlate che al Tommaseo parevan lunghe, e sono invece l'anima di simili descrizioni, il M. riferisce il puro necessario artistico, e ripete quanto si addice a lui raccontatore. Ogni buon artista naturalmente fa così; lo Zola andrebbe più là; ma con certi confini anche lui.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n194" type="comm" target="quarantana/cap12.xml#c12_13239">
+          <ref rend="bold">arruffati</ref>:  scompigliati. È meno; si direbbe d'una persona ben pettinata, coi capelli scomposti.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n195" type="comm" target="quarantana/cap12.xml#c12_13256" targetEnd="quarantana/cap12.xml#c12_13257">
+          <ref rend="bold">lascin passare</ref>: diano il passo. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n196" type="comm" target="quarantana/cap12.xml#c12_13289">
+          <ref rend="bold">largo</ref>:  lungo. Uso. <hi rend="italic">Lungo</hi> è meno.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n197" type="comm" target="quarantana/cap12.xml#c12_13304" targetEnd="quarantana/cap12.xml#c12_13307">
+          <ref rend="bold">son uomo di mondo</ref>:  con questo personaggio, l'A., intento a ritrarre le varie fisonomie cittadine, à voluto metter quella pure dell'uomo navigato e posato, che conosce come in certe peste i cenci vanno all'aria, i galantuomini della stoffa di Renzo pagano: però se ne va a casa per non farsi notare nel libraccio dai soliti galantuomini.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n198" type="comm" target="quarantana/cap12.xml#c12_13314" targetEnd="quarantana/cap12.xml#c12_13324">
+          <ref rend="bold">Questi merlotti che fanno ora tanto fracasso, domani o doman l'altro</ref>:  Codesti gabbiani che fanno ora tanto fracasso, domani o dopo. <hi rend="italic">Gabbiani</hi>, non dice come <hi rend="italic">merlotti</hi>, l'uomo giovane e inesperto; domani o dopo, significherebbe un tempo più lungo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n199" type="comm" target="quarantana/cap12.xml#c12_13336">
+          <ref rend="bold">visto</ref>:  scorti. <hi rend="italic">Scorti</hi> è di chi cerca appòsta: questi vedevan anche a non volere.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n200" type="comm" target="quarantana/cap12.xml#c12_13365" targetEnd="quarantana/cap12.xml#c12_13366">
+          <ref rend="bold">tocca, tocca</ref>:  tocca, suo danno. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n201" type="comm" target="quarantana/cap12.xml#c12_13377">
+          <ref rend="bold">attirò</ref>:  attrasse. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n202" type="comm" target="quarantana/cap12.xml#c12_13381" targetEnd="quarantana/cap12.xml#c12_13385">
+          <ref rend="bold">è il vicario di provvisione</ref>:  Ecco che l'accorto A., con questo nome che fra poco avrà tanta parte, manda innanzi la scena. Vicario di provvisione era allora Lodovico Melzo (diverso dal suo omonimo famoso guerriero morto pochi anni avanti) che 11 anni prima, scrive il Cantù s'era ingegnato col dottor Settala, per mandare alle fiamme una imputata d'avergli stregato il padre, e l'ottenne; e allora reo fu applaudito dal popolo, che ora voleva ammazzarlo innocente». Daremo qui opportunamente qualche notizia sui due Lodovichi Melzi che il giovine non troverebbe forse facilmente. Il primo Lodovico Melzi, della fam. doi duchi Melzi ancora esistenti, fu uno de' più abili e fortunati generali del patriziato milanese, uno de' tipi degli eroi azzimati del sec. XVII; cavaliero gerosolimitano; si batté coi Turchi e coi pirati del Mediterr.; a 18 anni faceva prodozze su una galea cho comandava; si segnalò nell'assedio di Rodi, nelle guerre di Fiandra, e in conto altre battaglie e scontri. Morto in batt. Teodoro Trivulzio, fu creato il Melzi luogoten. gener. della cavalleria di Fiandra e di Brabante; m. 1'11 luglio 1617, mentre stava assediando Vercelli. Pubblicò un'opera molto stimata a' suoi tempi e dopo: <hi rend="italic">Regole militari sopra il governo e servizio particolare della cavalleria</hi>, Anversa 1611. L'altro, cioè questo, n. il 28 genn. 1594, era secondogenito; ma morto senza figli il fratello Francesco primogènito, rimase capo d'una famiglia tenacissima della gerarchia e di tutte le consuetudini aristocratiche di quei tempi. Era del collegio dei giureconsulti, fiscale genorale, consultore del Sant'Uffizio, vicario pretorio di Mil., e uno dei regi vicari dello Stato; il 16 genn. 1627 vicario di provvisione; ebbe vari contrasti col governat. spagnolo don Gonzalo di Cordova, a cui dovette piegare. Il sabato 11 nov. poi gli capitò sul capo quest'altra tegola dolla plebe che lo assediò nella sua casa. Fu salvato per miracolo dal Ferrer, conducendolo nel Castello. Il Melzi non aveva colpa della cosa: era tutta del sommo gran cancelliere. Chi volesse sapere come finì il Melzi, aggiungerò che ebbe dopo questo molti altri incarichi pubblici, finché m. il 6 doc. 1649. <hi rend="italic">V. Calvi, Famiglie notabili milanesi</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n203" type="comm" target="quarantana/cap12.xml#c12_13388">
+          <ref rend="bold">birboni</ref>:  birbi. Diverso: <hi rend="italic">birboni</hi> è un accrescitivo; il <hi rend="italic">birbo</hi> potrà essere più antipatico, non meno birbone del birbone, ma è quello che sfugge al codice, ai gastighi e alle vendetto; birbo era Ferrer, mentre certi politici sinceri e onesti qualche volta passano per farabutti.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n204" type="comm" target="quarantana/cap12.xml#c12_13393" targetEnd="quarantana/cap12.xml#c12_13397">
+          <ref rend="bold">ma il capo è lui</ref>:  ma egli è il capo. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n205" type="comm" target="quarantana/cap12.xml#c12_13409" targetEnd="quarantana/cap12.xml#c12_13414">
+          <ref rend="bold">tra sei nobili proposti dal Consiglio</ref>:  in una lista di sei nobili formata dal Consiglio. Levata la <hi rend="italic">lista</hi> , va via anche il <hi rend="italic">formata</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n206" type="comm" target="quarantana/cap12.xml#c12_13432" targetEnd="quarantana/cap12.xml#c12_13434">
+          <ref rend="bold">anche questi nobili</ref>:  pur nobili. <hi rend="italic">Pur</hi> lett. in questo senso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n207" type="comm" target="quarantana/cap12.xml#c12_13442" targetEnd="quarantana/cap12.xml#c12_13446">
+          <ref rend="bold">Chi occupava un tal posto</ref>:  Chi era in un tal posto. L'occupava dico gli onori o gli oneri.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n208" type="comm" target="quarantana/cap12.xml#c12_13460" targetEnd="quarantana/cap12.xml#c12_13461">
+          <ref rend="bold">Meno che</ref>:  a meno che. Poteva stare, ma il Manzoni era ostinato: preferiva a ogni costo (salvo il senso, l'esattezza e lo stile) la dicitura più usata; al contrario appunto degli accademici, che ora a leggerlo non se ne danno pace.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n209" type="comm" target="quarantana/cap12.xml#c12_13483" targetEnd="quarantana/cap12.xml#c12_13484">
+          <ref rend="bold">Scellerati! esclamava</ref>:  Baroni! sclamava. Uso. <hi rend="italic">Baroni</hi> solo, è troppo sbiadito; con una aggiunta è volgare; e neanche si direbbe in questo caso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n210" type="comm" target="quarantana/cap12.xml#c12_13493" targetEnd="quarantana/cap12.xml#c12_13495">
+          <ref rend="bold">arrivati a dire</ref>:  arrivati fino a dire. Arrivati solitamente include il fino.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n211" type="comm" target="quarantana/cap12.xml#c12_13504" targetEnd="quarantana/cap12.xml#c12_13510">
+          <ref rend="bold">per levargli il credito, e comandar loro</ref>:  per torgli il credito e comandar essi. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n212" type="comm" target="quarantana/cap12.xml#c12_13515" targetEnd="quarantana/cap12.xml#c12_13523">
+          <ref rend="bold">gran stia, e metterli dentro a viver di vecce</ref>:  gran capponaia e cacciarveli dentro, a vivere di veccia. <hi rend="italic">Capponaia</hi> è la traduzione del milanese <hi rend="italic">capponera</hi>.  C'è anche in italiano, ma meno comune che stia, e si confonde colla stanza dei capponi. Cfr. Capitolo 3: «stia»; <hi rend="italic">vecce</hi>, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n213" type="comm" target="quarantana/cap12.xml#c12_13540" targetEnd="quarantana/cap12.xml#c12_13557">
+          <ref rend="bold">sassate di libbra... schiacciata di costole</ref>:  pane?: Sassate di libbra; pietre di questa posta che venivano giù come gragnuola. E che schiacciamento di coste! <hi rend="italic">Pane</hi>, levato la seconda volta perché meno naturale; la fretta di parlar delle sassate gli impedisce di gingillarsi sulla domanda; <hi rend="italic">fatta</hi> e <hi rend="italic">grandine</hi>, uso; <hi rend="italic">schiacciata</hi> è l'effetto; <hi rend="italic">schiacciamento</hi>, l'atto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n214" type="comm" target="quarantana/cap12.xml#c12_13583" targetEnd="quarantana/cap12.xml#c12_13586">
+          <ref rend="bold">arrivò Renzo finalmente davanti</ref>:  giunse Renzo finalmente dinanzi, lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n215" type="comm" target="quarantana/cap12.xml#c12_13600">
+          <ref rend="bold">brutto</ref>:  lurido. Era troppo: anche al Tomm. non piaceva.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n216" type="comm" target="quarantana/cap12.xml#c12_13608">
+          <ref rend="bold">ammaccate</ref>:  intaccate. <hi rend="italic">Intaccate</hi>, per lo più si dice delle lame, di tutto ciò che abbia tacche; ammaccate, invece di tutto ciò che cede come quest'intonaco sotto i colpi dei ciottoli.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n217" type="comm" target="quarantana/cap12.xml#c12_13620" targetEnd="quarantana/cap12.xml#c12_13638">
+          <ref rend="bold">Questa poi non è una bella cosa... tutti i forni</ref>:  Questo poi non è un bel fatto, pensò Renzo tra sé: se acconcian tutti i forni a questo modo. <hi rend="italic">Un bel fatto</hi>, non si direbbe in questo caso; solo parlando d'avvenimenti spontanei, naturali, o che ci vengon letti, o raccontati. Anche <hi rend="italic">bella cosa</hi>, qui pare alla prima un po' tenue; però, riflettendoci, non è; acconciare, uso; così più semplice e più efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n218" type="comm" target="quarantana/cap12.xml#c12_13644" targetEnd="quarantana/cap12.xml#c12_13645">
+          <ref rend="bold">Ne' pozzi</ref>:  Questa similitudine non piaceva al Tomm.; ma che doveva mettere il M. ne' cessi?
+                     </note>
+        <note xml:id="Petrocchi_cap12-n219" type="comm" target="quarantana/cap12.xml#c12_13647" targetEnd="quarantana/cap12.xml#c12_13651">
+          <ref rend="bold">Ogni tanto, usciva dalla bottega</ref>:  Di tempo in tempo usciva dalla casa. <hi rend="italic">Di tempo in tempo</hi>, lett.; <hi rend="italics">dalla bottega</hi>, per maggior esattezza.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n220" type="comm" target="quarantana/cap12.xml#c12_13669" targetEnd="quarantana/cap12.xml#c12_13680">
+          <ref rend="bold">una paniera, un libro di conti, qualche cosa in somma</ref>:  una corba, un giornale, uno zibaldone, qualche cosa. Uso. <hi rend="italic">Zibaldone</hi> significa un miscuglio di cose o di persone: qui non era chiaro che cosa avrebbe voluto dire, anche perché è più usato per composizioni letterarie.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n221" type="comm" target="quarantana/cap12.xml#c12_13729" targetEnd="quarantana/cap12.xml#c12_13731">
+          <ref rend="bold">se lo mise</ref>:  se lo recò. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n222" type="comm" target="quarantana/cap12.xml#c12_13734">
+          <ref rend="bold">avviandosi</ref>:  e andò. <hi rend="italic">Andò</hi> era già detto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n223" type="comm" target="quarantana/cap12.xml#c12_13776" targetEnd="quarantana/cap12.xml#c12_13783">
+          <ref rend="bold">quando gli si scopri davanti la gran mole</ref>:  giunto al cospetto della gran mole. <hi rend="italic">Giunto al cospetto</hi>, sapeva di lett.; ma oltre a questo, <hi rend="italic">cospetto</hi>, à qualche cosa di più grande, di più aperto, di presenza intora, mentre chi viene da Porta Orientale svoltando nel Corso, il duomo lo vede in parte e solamente a tergo della sua maestosa mole.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n224" type="comm" target="quarantana/cap12.xml#c12_13804" targetEnd="quarantana/cap12.xml#c12_13807">
+          <ref rend="bold">preso come per guida</ref>:  preso a guida. Il <hi rend="italic">come</hi> tempera, perché non era una guida assolutamente.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n225" type="comm" target="quarantana/cap12.xml#c12_13811" targetEnd="quarantana/cap12.xml#c12_13817">
+          <ref rend="bold">diede un'occhiata anche alla facciata del duomo</ref>:  diede pure un'occhiata alla fronte del duomo. Uso. Questa facciata è ancora ben lontana dal compimento. È stato accettato il progetto Brentano come il migliore (se pure non era più bello quello del Beltrami), ma non ànno cominciato a metterlo ancora in osecuzione. La facciata attuale, brutta assai, fu fatta eseguire in fretta e furia da Napoleone I. Giacché siamo qui, diremo che al Duomo ci fu posto mano il 1386, duca Giov. Galeazzo, che continuarono poi a lavorarci sempre, tant'è che esser come il duomo passò in proverbio, a Milano, per una cosa che non finisce mai. Da principio, si noti, era a croce greca, poi ridotto a croce latina, buttando giù una parte del palazzo ducale. Questa nostra gente andava a far baccano in piazza che è stata ab antico il luogo più frequentato della città. A tempo de' Rom. c'era il tempio di Minerva, dove si conservavano le aquile dell'oro dotte Immobili, tempio che diventò poi di Santa Tecla, tenuta dai Milan. in gran venerazione. Bruciato questo (1075), fu rifabbricato, e durò fino al 1548, anno che Ferrante Gonzaga lo fece atterrare per ingrandir la piazza davanti al duomo, dovendocisi ricevere l'imperator Carlo V, come nel 1878 ei fu spianato il Rebecchino, per l'arrivo dell'Imperatore di Germania. C'era poi, il portico del Figini, tolto colla costruzione della Galleria e dei portici settentrionali. Quello del Figini era sostenuto da 24 colonne di marmo con altrettanti finestroni di pietre cotto al primo e al secondo piano, a sesto acuto o con affreschi, edificato da Pietro Figini in occasione delle nozze di Giov. Galeazzo con Isabella figliola del re di Francia.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n226" type="comm" target="quarantana/cap12.xml#c12_13833" targetEnd="quarantana/cap12.xml#c12_13835">
+          <ref rend="bold">che andava verso</ref>:  che tirava verso. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n227" type="comm" target="quarantana/cap12.xml#c12_13843" targetEnd="quarantana/cap12.xml#c12_13844">
+          <ref rend="bold">più fitta</ref>:  più spessa. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n228" type="comm" target="quarantana/cap12.xml#c12_13861" targetEnd="quarantana/cap12.xml#c12_13868">
+          <ref rend="bold">e Renzo, standogli sempre attaccato, arrivò con lui</ref>:  e Renzo, sottentrando nel varco fatto da lui, pervenne. Era una similitudine assai barocca e stentata.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n229" type="comm" target="quarantana/cap12.xml#c12_13873" targetEnd="quarantana/cap12.xml#c12_13877">
+          <ref rend="bold">Lì c'era uno spazio vòto</ref>:  quivi era uno spazio. Uso. <hi rend="italic">Spazio</hi> può esser anche ripieno.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n230" type="comm" target="quarantana/cap12.xml#c12_13878" targetEnd="quarantana/cap12.xml#c12_13882">
+          <ref rend="bold">e in mezzo un mucchio</ref>:  e in mezzo una baldoria, un mucchio. La brace non fa baldoria, però l'à levato.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n231" type="comm" target="quarantana/cap12.xml#c12_13912" targetEnd="quarantana/cap12.xml#c12_13928">
+          <ref rend="bold">lo butto su quel mucchio; un altro, con un mozzicone di pala mezzo abbruciacchiato, sbracia il fuoco</ref>:  lo rovescio sulle brage; altri con un troncone di pala mezzo abbrustolato, le rimescola e le stuzzica. Un fascio d'assi non si rovescia come un sacco di grano o altro recipiente o vaso. <hi rend="italic">Brage</hi> lett. per <hi rend="italic">brace</hi>; ma è stato cambiato perché à messo sotto <hi rend="italic">sbraciare</hi>; <hi rend="italic">mozzicone, ecc</hi> uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n232" type="comm" target="quarantana/cap12.xml#c12_13962">
+          <ref rend="bold">Veramente</ref>:  A dir vero. La maniera popolare sarebbe <hi rend="italic">A dir il vero</hi>; ma il M. escludo assolutam. questa forma perché contenga implicitam. l'idea che l'autore abbia bisogno solamente di dire il vero di tanto in tanto? non lo so.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n233" type="comm" target="quarantana/cap12.xml#c12_13971">
+          <ref rend="bold">devastazion</ref>:  disertamento. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n234" type="comm" target="quarantana/cap12.xml#c12_13983" targetEnd="quarantana/cap12.xml#c12_13984">
+          <ref rend="bold">più spicci</ref>:  più spediti. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n235" type="comm" target="quarantana/cap12.xml#c12_13985" targetEnd="quarantana/cap12.xml#c12_13989">
+          <ref rend="bold">per far vivere il pane</ref>:  Osserva questo curioso modo popolare come un esempio di tanti del genere che rendono più colorita la lingua... D'altra parte qui è imposta la frase semischerzosa dalle grida di <hi rend="italics">Viva il pane!</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n236" type="comm" target="quarantana/cap12.xml#c12_13998" targetEnd="quarantana/cap12.xml#c12_14003">
+          <ref rend="bold">che una moltitudine non ci arriva</ref>:  non vengono nelle menti d'una moltitudine. Più grammaticale, ma meno spiccio o vivo. Un gran metafisico, si capisce che il M. parla per ironia, perché idee metafisiche o il gran metafisico, significano qui il buon senso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n237" type="comm" target="quarantana/cap12.xml#c12_14021" targetEnd="quarantana/cap12.xml#c12_14024">
+          <ref rend="bold">e solo a forza</ref>:  e non è che a forza. È lo stesso; una procede per esclusione (non è <hi rend="italic">che a forza</hi>); l'altra positivamente (solo <hi rend="italic">a forza</hi>); il M. l'à corretta, è probabile, perché il <hi rend="italic">solo ecc.</hi> è più semplice o perché evitava i troppi che in fila.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n238" type="comm" target="quarantana/cap12.xml#c12_14048" targetEnd="quarantana/cap12.xml#c12_14049">
+          <ref rend="bold">da principio</ref>:  a principio. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n239" type="comm" target="quarantana/cap12.xml#c12_14052" targetEnd="quarantana/cap12.xml#c12_14054">
+          <ref rend="bold">tornava, ogni momento</ref>:  tornava a ogni tratto. <hi rend="italic">Ogni tratto</hi> usa meno. [Dopo "tornava", il testo di Petrocchi legge l'incidentale: "come abbiam visto", che viene commentata così da P.: L'aggiunta è per non far passare come cosa nuova una cosa già detta.]
+                     </note>
+        <note xml:id="Petrocchi_cap12-n240" type="comm" target="quarantana/cap12.xml#c12_14070">
+          <ref rend="bold">sembrasse</ref>:  paresse. Alla prima non si capisce questa correzione perché è più comune <hi rend="italic">parere</hi> che <hi rend="italic">sembrare</hi>; ma nel <hi rend="italic">sembrare</hi> c'è la manifestazione spontanea del viso, mentre il <hi rend="italic">parere</hi> non esclude l'artifizio e la volontà. Poi alla sentenza nobile che succede, stava meglio il più nobile <hi rend="italic">sembrasse</hi>. Per il senso di tutto questo periodo che comincia con veramente, sono degne di molta considerazione le osservazioni dell'A.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n241" type="comm" target="quarantana/cap12.xml#c12_14083">
+          <ref rend="bold">finita</ref>:  caduta. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n242" type="comm" target="quarantana/cap12.xml#c12_14097">
+          <ref rend="bold">gente</ref>:  brigata. Era troppo poco e troppo lieto; infatti sotto dice <hi rend="italic">moltitudine</hi> o <hi rend="italic">calca</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n243" type="comm" target="quarantana/cap12.xml#c12_14096">
+          <ref rend="bold">annoiarsi</ref>:  Senza far nulla di bene, o di male nasce la noia. 
+                     </note>
+        <note xml:id="Petrocchi_cap12-n244" type="comm" target="quarantana/cap12.xml#c12_14102" targetEnd="quarantana/cap12.xml#c12_14105">
+          <ref rend="bold">si sparse la voce</ref>:  vi corse dentro una vосе. Usо.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n245" type="comm" target="quarantana/cap12.xml#c12_14117" targetEnd="quarantana/cap12.xml#c12_14125">
+          <ref rend="bold">di lì, s'era messo l'assedio a un forno. Spesso</ref>:  di quivi, s'era posto l'assedio ad un forno. Sovente. Acc[ademico]. Per il senso <hi rend="italic">che spesso l'annunzio ecc.</hi> il Tommaseo nota: "buono ma è una sentenza". Pigliamolo dunque per una buona sentenza.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n246" type="comm" target="quarantana/cap12.xml#c12_14144" targetEnd="quarantana/cap12.xml#c12_14147">
+          <ref rend="bold">voglia di correr là</ref>:  «io vo; tu vai?: voglia di trarre colà; uio vado, vai tu? trarre acc.; <hi rend="italic">vado</hi> si direbbe; ma è più com. <hi rend="italic">vo</hi> , e à poi una certa disinvoltura più ironica e più adatta in questo caso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n247" type="comm" target="quarantana/cap12.xml#c12_14154" targetEnd="quarantana/cap12.xml#c12_14155">
+          <ref rend="bold">si sentiva</ref>:  vi s'udiva. Lett. poet. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n248" type="comm" target="quarantana/cap12.xml#c12_12823" targetEnd="quarantana/cap12.xml#c12_12824">
+          <ref rend="bold">per tutto</ref>:  per ogni parte. Meno comprensivo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n249" type="comm" target="quarantana/cap12.xml#c12_14160" targetEnd="quarantana/cap12.xml#c12_14165">
+          <ref rend="bold">si rompe, e diventa una processione</ref>:  si dirompe, brulica, s'incammina. <hi rend="italic">Dirompe</hi> uso; il rimanente non mancava di vivezza nella prima edizione; ma a guardarci bene, per brulicare, <hi rend="italic">brulicava</hi> anche la processione; e <hi rend="italic">s'incamminavsa</hi>  è poco.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n250" type="comm" target="quarantana/cap12.xml#c12_14168">
+          <ref rend="bold">indietro</ref>:  addietro. Lo stesso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n251" type="comm" target="quarantana/cap12.xml#c12_14169" targetEnd="quarantana/cap12.xml#c12_14170">
+          <ref rend="bold">non movendosi</ref>:  non si movendo. Lett. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n252" type="comm" target="quarantana/cap12.xml#c12_14188" targetEnd="quarantana/cap12.xml#c12_14189">
+          <ref rend="bold">uscir dal</ref>:  tirarsi fuora del. Non era ancora tanto pericoloso da <hi rend="italic">tirarsi fuori</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n253" type="comm" target="quarantana/cap12.xml#c12_14206" targetEnd="quarantana/cap12.xml#c12_14210">
+          <ref rend="bold">Prevalse di nuovo la curiosità</ref>:  È un fatto che l'uomo è curioso per natura; e quanto più è civile, più è curioso. Curiosissimi, tra gli altri, gli Ateniesi, i Fiorentini, i Parigini, i Milanesi. Sicché Renzo personifica bene anche in questo e l'uomo e gl'Ital.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n254" type="comm" target="quarantana/cap12.xml#c12_14211" targetEnd="quarantana/cap12.xml#c12_14212">
+          <ref rend="bold">Però risolvette</ref>:  Però egli risolvette. Per l'<hi rend="italic">egli</hi> lo lascia sempre ogni volta che è inutile; quand'è utile, spesso lo cambia in <hi rend="italic">lui</hi> , come più comune. Nell'intera edizione rifatta, secondo il calcolo del D'Ovidio ce ne sono rimasti 68 soli di <hi rend="italic">egli</hi>; e di questi, 18 si riferiscono a Dio. Quanto al <hi rend="italic">però</hi> , la faccenda ingrossa. Gli accademici notano che in principio di periodo nel significato di <hi rend="italic">Ma</hi>, il <hi rend="italic">però</hi> è d'uso scorretto (l'uso corretto è l'accademico). Però il popolo, che dicono discorra bene, e faccia testo di lingua, senz'essere ascritto all'Accademia della Crusca, l'adopra anche in principio di periodo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n255" type="comm" target="quarantana/cap12.xml#c12_14231" targetEnd="quarantana/cap12.xml#c12_14236">
+          <ref rend="bold">di tenersi in qualche distanza a</ref>:  di tenersi così dalla lunga ad. Uso. <hi rend="italic">Dalla lunga</hi> si direbbe di discorso preso da lontano.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n256" type="comm" target="quarantana/cap12.xml#c12_14241" targetEnd="quarantana/cap12.xml#c12_14256">
+          <ref rend="bold">un poco al largo, si levò di tasca il secondo pane, e attaccandoci un morso s'avvio</ref>:  un po'al largo, si cavò il secondo pane e, datovi di morso, s'avvio. La prima edizione sapeva di lett.; la seconda può parere un po' volgare: troppo affamato quel Renzo; ma in fondo è una linea realista non trascurabile. Renzo è un giovinotto, venuto da lontano, e l'appetito non gli deve mancare anche avendo mangiato; tanto più che il pane sbiadito delle città leva poco la fame. <hi rend="italic">Si cavò</hi> esprimeva della difficoltà.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n257" type="comm" target="quarantana/cap12.xml#c12_14257" targetEnd="quarantana/cap12.xml#c12_14258">
+          <ref rend="bold">alla coda</ref>:  in coda. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n258" type="comm" target="quarantana/cap12.xml#c12_14259" targetEnd="quarantana/cap12.xml#c12_14260">
+          <ref rend="bold">esercito tumultuoso</ref>:  <hi rend="italic">Esercito</hi> direbbe veramente gente armata e disciplinata, esercitata con la tattica; ma per est. si usò sempre e si usa anche di moltitudine qualunque; p. es. <hi rend="italic">Un esercito di formiche</hi>. Il nostro esercito tumultuoso non si fermò dunque a far baccano contro la Provvisione o municipio che risiedeva in Piazza Mercanti sopra il portone che metteva in via Fustagnari e ne' locali adiacenti a cui s'accedeva dalla scala sotto il portone di Santa Margherita, tolta pochi anni fa per allargare appunto il portone stesso. Il prof. Pagani Direttore dell'Archivio civile di San Carpoforo, che mi fornisce queste notizie, suppone che il Manzoni l'ignorasse. Può essere; ma può anche darsi che la gente l'avesse solamente col vicario.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n259" type="comm" target="quarantana/cap12.xml#c12_14262" targetEnd="quarantana/cap12.xml#c12_14271">
+          <ref rend="bold">dalla piazza, era già entrato nella strada corta e stretta</ref>:  per lo sbocco in angolo della piazza, era già entrato nella via corta ed angusta. <hi rend="italic">Per lo sbocco, ecc.</hi> l'à lasciato come un particolare inutile e non chiaro per i non Milanesi; <hi rend="italic">angusta</hi>, lett.; <hi rend="italic">Pescheria vecchia</hi>, lasciato il <hi rend="italic">v</hi> minuscolo, quantunque oggi per i titoli prevalga la lettera maiuscola; c'è però una gran confusione nell'ortografia italiana, e il M. non la toglie. Anche lui qui o poco dopo (piazza dei Mercanti) mette una parola colla lettera minuscola e l'altra colla maiuscola, quasi volesse tenere il sistema di scrivere con la maiuscola il sostantivo principale; ma non è così: Corsia de' Servi è con la maiuscola a tutt'e due. A me pare che un titolo il quale non si possa scindere o frazionare debba avere le lettere maiuscole in tutti i nomi o aggettivi.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n260" type="comm" target="quarantana/cap12.xml#c12_14287" targetEnd="quarantana/cap12.xml#c12_14292">
+          <ref rend="bold">lì eran ben pochi quelli che</ref>:  Quivi eran ben pochi che. Uso; per il senso il Tomm. nota: «erano ben pochi? chi lo crede?» Anche a noi alla prima era venuta quest'idea: ripensandoci non sappiamo dar torto all'A. Una folla che passa davanti a una grande statua è impossibile che passi senza guardarla: almeno un'occhiata.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n261" type="comm" target="quarantana/cap12.xml#c12_14299" targetEnd="quarantana/cap12.xml#c12_14304">
+          <ref rend="bold">taglia il mezzo della loggia dell'edifizio</ref>:  taglia verso il mezzo la loggia dell'edificio. Correzione di precisione.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n262" type="comm" target="quarantana/cap12.xml#c12_14321" targetEnd="quarantana/cap12.xml#c12_14329">
+          <ref rend="bold">quel viso serio, burbero, accipigliato, e non dico abbastanza</ref>:  quella cera seria, burbera aggrondata e dico poco. <hi rend="italic">Cera</hi> è di persone vive; il resto poteva stare; ma <hi rend="italic">aggrondata</hi> è più da melanconici; <hi rend="italic">accipigliata</hi> da seri.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n263" type="comm" target="quarantana/cap12.xml#c12_14332" targetEnd="quarantana/cap12.xml#c12_14333">
+          <ref rend="bold">Filippo II</ref>:  n. il 21 maggio 1527, era f. di Carlo V; duca di Mil. dal 1540, per l'abdicaz. di suo padre divenne re di Nap. e di Sic., 1554, e sposò allora sua cugina Maria reg. d'Ingh. sorella d'Elisabetta, che divenne regina dopo di lei. Sposò Maria, ma senz'avere por questo autorità sugl'Ingl:; 1555 sovrano dei Paesi Bassi; e 1556 re di Sp., cioè il più potente monarca del mondo, sui cui Stati non tramontava mai il sole! Freddo, taciturno, rigido osservatore delle cerimonie, ritirato, senza moversi dal suo ufficio, dissimulatore e simulatore, difensore a spada tratta del cattolicismo, bigotto, fanatico e acerrimo nemico della Riforma, perseguito gli evangelici per tutto, in Fr., in Ingh., nei Paesi Bassi e in Sp., dove crebbe la già potente Inquisizione. Vinse i Franc. a San Quintino, 1557, ma perse i Paesi Bassi, per averci voluto introdurre l'Inquisizione, e ordinò una feroce repressione dei Mori. Rovinò così la Spagna che le sorti avevan chiamato a governare. Volendo combattere l'odiata regina d'Ingh., mandò là la famosa Invincibile armata, che gli fu disfatta dalla tempesta. Non manco di grandezze, ma gli mancò il sentimento della libertà, grandezza prima. M. il 13 settembre 1598. Gli successe suo figlio Filippo III n. il 1578, che sposò Maria Margherita d'Austria Stiria; e che finì di rovinare la Spagna coll'espulsione dei Mori di Valenza (1609), seguito la lotta contro le Province Unite fino alla tregua di 12 a., 1609; si riavvicinò alla reggente di Fr., Maria de' Medici; tramò contro Venezia la cospirazione di Badmar, 1618, e aiuto l'imperatore Ferdin. II alla fine della guerra dei Trent'anni. Morì il 31 marzo 1621. A questo successe (siamo al tempo del nostro romanzo) suo figlio Filippo IV, n. il 1605, inetto come suo padre e semplice marionetta in mano del conte Olivarez. S'accrebbe la potenza del clero, e della burocrazia; si rovinaron affatto la Spagna e l'Italia. Mori Fil. IV il 1665.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n264" type="comm" target="quarantana/cap12.xml#c12_14352" targetEnd="quarantana/cap12.xml#c12_12353">
+          <ref rend="bold">fosse lì... vengo io</ref>:  fosse in procinto di dire: son qua io. <hi rend="italic">Procinto</hi>, più d'azioni; <hi rend="italic">lì</hi>  più semplice. L'osservazione non è senza filosofia. Certi sovrani, quando non ànno la maschera, appaiono tiranni e duri anche in effigie; e non pensano che viene il brutto momento di dover finir come questo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n265" type="comm" target="quarantana/cap12.xml#c12_14360" targetEnd="quarantana/cap12.xml#c12_14364">
+          <ref rend="bold">Quella statua non c'è più</ref>:  Quella nicchia è ora vòta. <hi rend="italic">Vòta</hi> quando l'A. corresse il romanzo non era più, giacché nel 1833 c'era stata messa la statua di Sant'Ambrogio, opera dello scultore milanese Luigi Scorzini sopra modello di Pompeo Marchesi. Circa cento settant'anni dopo, cioè il 1796, a tempo che la rivoluzione francese s'era propagata in It.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n266" type="comm" target="quarantana/cap12.xml#c12_14379" targetEnd="quarantana/cap12.xml#c12_14396">
+          <ref rend="bold">le fu cambiata la testa, le fu levato di mano lo scettro, e sostituito a questo un pugnale</ref>:  fu cambiata la testa alla statua che v'era, le fu tolto di mano lo scettro e postovi invece un pugnale. <hi rend="italic">Statua</hi> diventato inutile dalla correz.; il resto, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n267" type="comm" target="quarantana/cap12.xml#c12_14403" targetEnd="quarantana/cap12.xml#c12_14404">
+          <ref rend="bold">Marco Bruto</ref>:  Lo stesso nome ci dice il tempo del cambiamento. La statua di Fil. II fu cambiata in quella del virtuoso Romano dallo scultore Donato Carabelli per il 9 lu. 1797. Il 28 apr. 1799 rientrando gli Austro-Russi, fu levata di dov'era e buttata nel naviglio. Anche queste notizie le devo al prof. Pagani.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n268" type="comm" target="quarantana/cap12.xml#c12_14405" targetEnd="quarantana/cap12.xml#c12_14411">
+          <ref rend="bold">Così accomodata stette forse un par d'anni</ref>:  Così conciata ella stette forse un paio di anni. <hi rend="italic">Conciata</hi> in questo senso, arcaico; in senso spreg. non poteva essere giacché era stata migliorata non peggiorata. Il resto meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n269" type="comm" target="quarantana/cap12.xml#c12_14437" targetEnd="quarantana/cap12.xml#c12_14439">
+          <ref rend="bold">la tiraron giù</ref>:  la strapparono giù. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n270" type="comm" target="quarantana/cap12.xml#c12_14445" targetEnd="quarantana/cap12.xml#c12_14466">
+          <ref rend="bold">mutilata e ridotta a un torso informe, la strascicarono, con gli occhi infuori, e con le lingue fuori, per le strade</ref>:  smozzicata e ridotta ad un torso informe la trascinarono non senza un gran cacciar di lingue, per le vie. Uso; ma <hi rend="italic">trascinare</hi> stava bene, mi pare. Per il resto osserva la maggior vivezza della pittura; più semplicità e proprietà elegante della lingua parlata.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n271" type="comm" target="quarantana/cap12.xml#c12_14470" targetEnd="quarantana/cap12.xml#c12_14471">
+          <ref rend="bold">stracchi bene</ref>:  stracchi ben bene. Il cambiam. è quasi indifferente; ma il <hi rend="italic">ben bene</hi> è più d'uso. Oltr'alla lingua, nota qui il fatto dello sfogo che i partitanti d'ogni genere in ogni tempo cercano in un modo o in un altro. la ruzzolarono: la gittarono meno proprio.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n272" type="comm" target="quarantana/cap12.xml#c12_14481" targetEnd="quarantana/cap12.xml#c12_14482">
+          <ref rend="bold">Andrea Biffi</ref>:  o meglio Giannandrea Biffi era uno scultore milan. del sec. XVII, morto alla fine del 1630 o in principio del 31; lavorò molto col suo figliolo Carlo anche ai bassorilievi del domo all'esterno del coro dell'altar maggiore.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n273" type="comm" target="quarantana/cap12.xml#c12_14490" targetEnd="quarantana/cap12.xml#c12_14503">
+          <ref rend="bold">la marmaglia insaccò, per quell'altr'arco, nella via de' fustagnai, e di lì sì</ref>:  la torma clamorosa insaccò nella viuzza de' fustagnai per donde si. <hi rend="italic">Torma</hi> più lett.; la perifrasi meno spreg.; <hi rend="italic">donde</hi> accad. L'aggiunta precisa meglio la località. C'eran prima due archi per il passaggio dalla piazza; oggi ce n'è rimasto uno solo: l'altro, per dove insaccò la marmaglia, fu buttato giù pochi anni sono nella trasformazione edilizia della città, per metter Piazza del Duomo in comunicazione con l'attuale Via Dante.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n274" type="comm" target="quarantana/cap12.xml#c12_14511" targetEnd="quarantana/cap12.xml#c12_14513">
+          <ref rend="bold">guardava subito verso</ref>:  si volgeva tosto a guardar verso. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n275" type="comm" target="quarantana/cap12.xml#c12_14523">
+          <ref rend="bold">moltitudine</ref>:  folla. Era troppo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n276" type="comm" target="quarantana/cap12.xml#c12_14535" targetEnd="quarantana/cap12.xml#c12_14538">
+          <ref rend="bold">alcuni starsene, come esitando</ref>:  pochi starsene baloccando e tentennando. La correz. più vera.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n277" type="comm" target="quarantana/cap12.xml#c12_14553" targetEnd="quarantana/cap12.xml#c12_14591">
+          <ref rend="bold">In atto di star pronti a difendersi... avanti. C'era</ref>:  che faceva dimostrazione di volersi difendere al bisogno. Si voltavano allora e ristavano per informare i sopravvegnenti, per vedere gli altri che partito volessero prendere, alcuni tornavano o rimanevano indietro. <hi rend="italic">V'era</hi>: la semplicità della correz. o le aggiunte preziose per la vivezza del quadro non anno bisogno di commento. La dicitura di prima era piuttosto goffa e monca.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n278" type="comm" target="quarantana/cap12.xml#c12_14595" targetEnd="quarantana/cap12.xml#c12_14599">
+          <ref rend="bold">un rattenere, come un ristagno</ref>:  un soprattenere, un chiedere e un dare schiarimenti. Anche qui la frase tolta parrà a tutti, com'è, un di quelli che in arte si chiamano luoghi comuni. C'era già meglio delineato dopo.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n279" type="comm" target="quarantana/cap12.xml#c12_14602" targetEnd="quarantana/cap12.xml#c12_14609">
+          <ref rend="bold">un ronzìo confuso di contrasti e di consulte</ref>:  un diffuso ronzìo di consulte. L'inversione di prima, lett. <hi rend="italic">Contrasti</hi> aggiunge colore.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n280" type="comm" target="quarantana/cap12.xml#c12_14612" targetEnd="quarantana/cap12.xml#c12_14624">
+          <ref rend="bold">scoppiò di mezzo alla folla... la casa</ref>:  suono di mezzo alla folla una maledetta voce:« qui presso è la casa». <hi rend="italic">Suono</hi> lett., e la grafia errata; il resto uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n281" type="comm" target="quarantana/cap12.xml#c12_14628">
+          <ref rend="bold">provvisione</ref>:  provisione. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n282" type="comm" target="quarantana/cap12.xml#c12_14642" targetEnd="quarantana/cap12.xml#c12_14644">
+          <ref rend="bold">d'un concerto preso</ref>:  d'un accordo già conchiuso. <hi rend="italic">Accordo</hi> è un'armonia più intonata; il <hi rend="italic">concerto</hi> può essere anche sconcerto.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n283" type="comm" target="quarantana/cap12.xml#c12_14661">
+          <ref rend="bold">sentire</ref>:  intendere. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap12-n284" type="comm" target="quarantana/cap12.xml#c12_14664" targetEnd="quarantana/cap12.xml#c12_14679">
+          <ref rend="bold">si move, tutta insieme, verso la strada dov'era la casa nominata in così cattivo punto</ref>:  si muove con un furore unanime verso la via dov'era la casa nominata in un così mal punto. Più lett. e meno com. Di questo brano che comincia: «Dalla piazza...» il Tomm. nota: «Bello perché narrato non sentenziato». Di tutto il cap. sentenzia: «Più unità di colori nello stile». Si riferisce alle parlate, nelle quali trovava troppo contrapposto di frasi peregrine e di plebee. Dopo la correzione non l'avrebbe più detto, probabilmente.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>

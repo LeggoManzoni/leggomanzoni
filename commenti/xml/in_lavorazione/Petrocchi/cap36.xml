@@ -1,0 +1,1604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commenti da I promessi sposi:  a cura di Policarpo Petrocchi</title>
+        <author>Alessandro Manzoni</author>
+        <editor>Policarpo Petrocchi</editor>
+        <respStmt>
+          <resp>Annotazione digitale</resp>
+          <persName xml:id="Luca_Ciarfella">Luca Ciarfella</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
+        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
+        <date>2025</date>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Alessandro Manzoni</author>
+          <title>I promessi sposi:  a cura di Policarpo Petrocchi</title>
+          <editor>Policarpo Petrocchi</editor>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Sansoni</publisher>
+          <date>1893-1902</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="Luca_Ciarfella" when="2025-06-18">Annotazione digitale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="Petrocchi_cap36">
+        <note xml:id="Petrocchi_cap36-n1" type="comm" target="quarantana/cap36.xml#c36_10001">
+          <ref rend="bold">S'avvicina la mèta sospirata; ma Renzo non può andar in cerca della sua Lucia, della sua grazia, del suo ideale purissimo, senz'avere lui stesso il cuor puro dall'odio, senz'aver perdonato al suo persecutore. Pochi momenti primanon gli sarebbe parso possibile, tanto siamo lontani dal prevedere quel che succederà; ora invece il perdono s'è fatto largo nel cuore dell'uomo, e non può pregare per il lieto evento senza che la preghiera, cominciata accanto al covile di don Rodrigo, non venga a chiedere il suo posto nella sua memoria, accanto a quello di Lucia. Qui il T. diceva</ref>:  «Bellissimo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n2" type="comm" target="quarantana/cap36.xml#c36_10036" targetEnd="quarantana/cap36.xml#c36_10037">
+          <ref rend="bold">Eppure era</ref>:  Eppure la era. <hi rend="italic">La</hi>, fiorentinismo e milanesismo, di cui il M. si serve soltanto opportunamente qua e là; vedi l'indice. Qui non andava bene: se mai, <hi rend="italic">l'era così</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n3" type="comm" target="quarantana/cap36.xml#c36_10043" targetEnd="quarantana/cap36.xml#c36_10046">
+          <ref rend="bold">mischiarsi con tutte l'immagini</ref>:  mescersi a tutte le imagini. <hi rend="italic">Mescersi</hi> oggi si dice di liquidi; <hi rend="italic">con</hi>, cambiamento voluto dal cambiamento del verbo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n4" type="comm" target="quarantana/cap36.xml#c36_10053" targetEnd="quarantana/cap36.xml#c36_10055">
+          <ref rend="bold">o il timore</ref>:  Non è obbligo che siano tutt'e due insieme.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n5" type="comm" target="quarantana/cap36.xml#c36_10058" targetEnd="quarantana/cap36.xml#c36_10060">
+          <ref rend="bold">davanti a vicenda</ref>:  a vicenda dinanzi. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n6" type="comm" target="quarantana/cap36.xml#c36_10066">
+          <ref rend="bold">sentite</ref>:  udite. Letterario poetico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n7" type="comm" target="quarantana/cap36.xml#c36_10069" targetEnd="quarantana/cap36.xml#c36_10070">
+          <ref rend="bold">quel covile</ref>:  quella coltrice. Sarebbe oggi parola poetica; qui conveniva, trattandosi di paglia su cui giaceva quel ribaldo, una volta potente, ora così meschino, adoprare la parola più meschina e spregiativa, come contrapposto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n8" type="comm" target="quarantana/cap36.xml#c36_10087">
+          <ref rend="bold">terminare</ref>:  conchiudere. Oggi solamente d'un discorso; in questo senso di Terminare, è letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n9" type="comm" target="quarantana/cap36.xml#c36_10094">
+          <ref rend="bold">gran</ref>:  grande. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n10" type="comm" target="quarantana/cap36.xml#c36_10102">
+          <ref rend="bold">là</ref>:  colà. Letter. poet. accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n11" type="comm" target="quarantana/cap36.xml#c36_10105" targetEnd="quarantana/cap36.xml#c36_10110">
+          <ref rend="bold">lo scocco della campana aveva troncata</ref>:  il suono della squilla aveva tronca. <hi rend="italic">Lo scocco</hi> per esattezza; <hi rend="italic">squilla</hi>, letter. poet.; <hi rend="italic">tronca</hi>, volg.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n12" type="comm" target="quarantana/cap36.xml#c36_10111" targetEnd="quarantana/cap36.xml#c36_10112">
+          <ref rend="bold">La cappella</ref>:  Il tempietto. Avrebbe significato artistico e pagano; vedi anche l'indice. La costruzione di questa chiesa, che sostituì un altro sacello più antico, cominciò il 1580, dopo la pèste, per consiglio di Carlo Borromeo, che ne affidò il disegno a Pellegrino Pellegrini, come risulta dagli archivi dell'ospedale Maggiore.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n13" type="comm" target="quarantana/cap36.xml#c36_10116" targetEnd="quarantana/cap36.xml#c36_10118">
+          <ref rend="bold">elevata d'alcuni scalini</ref>:  elevato sul suolo d'alcuni gradi. Quando si dice <hi rend="italic">elevato</hi> s'intende sul suolo; <hi rend="italic">gradi</hi> in questo senso, letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n14" type="comm" target="quarantana/cap36.xml#c36_10128" targetEnd="quarantana/cap36.xml#c36_10132">
+          <ref rend="bold">aperta da tutti i lati</ref>:  Il Ripam. (<hi rend="italic">Hist. Urbis Mediol.</hi> 1. XIII) scrive: <hi rend="italic">Media campi regione stat aedicula aperta sacris faciendis, patente ex singulis cubilibus prospectu</hi>. (Nel mezzo del locale c'è una cappelletta aperta a' divini uffizi prospicienti a tutte le stanze.)
+                     </note>
+        <note xml:id="Petrocchi_cap36-n15" type="comm" target="quarantana/cap36.xml#c36_10143" targetEnd="quarantana/cap36.xml#c36_10146">
+          <ref rend="bold">per dir così, traforata</ref>:  per così dire a traforo. <hi rend="italic">Per dir così</hi> v. l'indice; <hi rend="italic">traforata</hi>, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n16" type="comm" target="quarantana/cap36.xml#c36_10149">
+          <ref rend="bold">facciata</ref>:  fronte. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n17" type="comm" target="quarantana/cap36.xml#c36_10152">
+          <ref rend="bold">tra</ref>:  fra. Meno popolare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n18" type="comm" target="quarantana/cap36.xml#c36_10159">
+          <ref rend="bold">intorno</ref>:  attorno. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n19" type="comm" target="quarantana/cap36.xml#c36_10172" targetEnd="quarantana/cap36.xml#c36_10183">
+          <ref rend="bold">archi, rispondenti a quelli delle facciate, con sopra una cupola; di maniera</ref>:  archi, retti da pilastri, sormontati da una cupoletta, e rispondenti a quei delle fronti; per modo. <hi rend="italic">Retti da pilastri</hi>, levato perché detto prima; il rimanente, corretto per miglior ordine e chiarezza; <hi rend="italic">di maniera</hi> che, più com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n20" type="comm" target="quarantana/cap36.xml#c36_10177">
+          <ref rend="bold">facciate</ref>:  fronti. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n21" type="comm" target="quarantana/cap36.xml#c36_10223">
+          <ref rend="bold">chiaramente</ref>:  assai chiaramente. L'<hi rend="italic">assai</hi>, superfluo, perché non si trattava di circostanze eccezionali.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n22" type="comm" target="quarantana/cap36.xml#c36_10232">
+          <ref rend="bold">s'era</ref>:  era. Riferendosi alla persona, ci va la particella pronominale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n23" type="comm" target="quarantana/cap36.xml#c36_10243" targetEnd="quarantana/cap36.xml#c36_10247">
+          <ref rend="bold">della cappella, e affacciarsi sull'arco</ref>:  del tempio e farsi all'arco: Della <hi rend="italic">cappella</hi> s'è detto. <hi rend="italic">Farsi</hi>, per <hi rend="italic">affacciarsi</hi> in genere, letter. Rimane ancora nella frase non molto pop. <hi rend="italic">Si fece alla finestra</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n24" type="comm" target="quarantana/cap36.xml#c36_10253" targetEnd="quarantana/cap36.xml#c36_10257">
+          <ref rend="bold">guarda verso la città; davanti</ref>:  è volto alla città, dinanzi. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n25" type="comm" target="quarantana/cap36.xml#c36_10261" targetEnd="quarantana/cap36.xml#c36_10269">
+          <ref rend="bold">radunata la comitiva, al piano, nella strada di mezzo</ref>:  disposta la radunanza, al basso, nella corsia. <hi rend="italic">Disposta</hi> indica un certo ordinamento che qui mancava. Comitiva vuol dire quei qualunque che erano lì, senz'obbligo che fosser molti, e che s'erano radunati da sé; <hi rend="italic">radunanza</hi> è in grande. <hi rend="italic">Corsia</hi> oggi non si dice che d'ospedali; allora anche per <hi rend="italic">Corso</hi> ; e si chiamava a Milano <hi rend="italic">Corsia de' Servi</hi> quella che oggi è il <hi rend="italic">Corso Vittorio Eman</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n26" type="comm" target="quarantana/cap36.xml#c36_10271">
+          <ref rend="bold">subito</ref>:  tosto. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n27" type="comm" target="quarantana/cap36.xml#c36_10281" targetEnd="quarantana/cap36.xml#c36_10285">
+          <ref rend="bold">Girò per quelle viottole, per</ref>:  Si rigirò per quei viottoli. in modo di. <hi rend="italic">Si rigirò</hi> vorrebbe dire sulla propria persona. <hi rend="italic">Viottole</hi>, a Fir. più com. al fem.; <hi rend="italic">in modo di</hi> accennerebbe a una difficoltà maggiore, che non c'era.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n28" type="comm" target="quarantana/cap36.xml#c36_10295">
+          <ref rend="bold">Arrivatoci</ref>:  Giuntovi. Letter. Il luogo è identificato dal Bindoni nella Via Lecco attuale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n29" type="comm" target="quarantana/cap36.xml#c36_10301">
+          <ref rend="bold">scorse</ref>:  trascorse. Piuttosto del tempo; per lo sguardo, sarebbe letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n30" type="comm" target="quarantana/cap36.xml#c36_10313" targetEnd="quarantana/cap36.xml#c36_10314">
+          <ref rend="bold">un folto</ref>:  una spessezza, Non usa; e <hi rend="italic">folto</hi> è assai più. Qui il Tomm. nota: « Barbaro»; lo deve certo riferire, benché a torto, alla parola <hi rend="italic">spessezza</hi>; il Rig. invece lo riporta a tutto il periodo, e dice « Barbaro no, ma al solito troppo studiato. » E anche qui non vedo la ragione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n31" type="comm" target="quarantana/cap36.xml#c36_10317" targetEnd="quarantana/cap36.xml#c36_10320">
+          <ref rend="bold">un selciato di teste</ref>:  Vedi l'efficacia pittorica.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n32" type="comm" target="quarantana/cap36.xml#c36_10334" targetEnd="quarantana/cap36.xml#c36_10337">
+          <ref rend="bold">in quella parte ficcò</ref>:  ivi ficcò egli. <hi rend="italic">Ivi</hi> , lett. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n33" type="comm" target="quarantana/cap36.xml#c36_10343" targetEnd="quarantana/cap36.xml#c36_10347">
+          <ref rend="bold">non arrivando a scoprirci dentro</ref>:  non gli riuscendo di scoprirvi entro. Letter.; e <hi rend="italic">riuscire</hi> accennerebbe a troppa difficoltà; <hi rend="italic">entro</hi>, letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n34" type="comm" target="quarantana/cap36.xml#c36_10351" targetEnd="quarantana/cap36.xml#c36_10354">
+          <ref rend="bold">gli alzò anche lui</ref>:  li levò anch'egli colà. <hi rend="italic">Levare</hi>, degli occhi non si dice più; <hi rend="italic">anch'egli</hi>, letter.; <hi rend="italic">colà</hi>, letter. poet. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n35" type="comm" target="quarantana/cap36.xml#c36_10369">
+          <ref rend="bold">predicatore</ref>:  dicitore. Letter. poet. Il fatto è vero: lo racconta il La Croce; v. qui in fine;
+                     </note>
+        <note xml:id="Petrocchi_cap36-n36" type="comm" target="quarantana/cap36.xml#c36_10381" targetEnd="quarantana/cap36.xml#c36_10382">
+          <ref rend="bold">momento d'aspettativa</ref>:  punto d'aspetto, Vecchiumo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n37" type="comm" target="quarantana/cap36.xml#c36_10383">
+          <ref rend="bold">sentì</ref>:  intese. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n38" type="comm" target="quarantana/cap36.xml#c36_10399" targetEnd="quarantana/cap36.xml#c36_10400">
+          <ref rend="bold">di là</ref>:  per di là. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n39" type="comm" target="quarantana/cap36.xml#c36_10404">
+          <ref rend="bold">alzato</ref>:  levato. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n40" type="comm" target="quarantana/cap36.xml#c36_10416" targetEnd="quarantana/cap36.xml#c36_10420">
+          <ref rend="bold">cimitero detto di san Gregorio</ref>:  Questo cimitero anticamente era più piccolo. Come una gran fossa lo descrive un secentista, Vitale Salvatore, <hi rend="italic">Theatrum triumphale mediolanensis</hi>, 1642, p. 316; v. anche <hi rend="italic">Origini e vicende dei cimiterî di Milano di Carlo Tedeschi</hi>, Milano 1899. Il Bindoni, che dice questo, aggiunge l'area fu grandemente ampliata il 1787 con 23 mila e più metri quadrati di superficie. In questo cimitero scomparvero insieme agli oscuri i corpi di Vincenzo Monti, di Carlo Porta, di Giovanni Raiberti, di Felice Bellotti, d'Andrea Appiani. Il 1883 fu soppresso; e il 1893 l'area fu destinata a vie pubbliche e a costruzioni, e una parte per un istituto di sordomuti poveri. <hi rend="italic">Sic transit gloria mundi</hi>!
+                     </note>
+        <note xml:id="Petrocchi_cap36-n41" type="comm" target="quarantana/cap36.xml#c36_10433">
+          <ref rend="bold">intorno</ref>:  attorno. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n42" type="comm" target="quarantana/cap36.xml#c36_10444" targetEnd="quarantana/cap36.xml#c36_10445">
+          <ref rend="bold">di dove</ref>:  donde. Letter. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n43" type="comm" target="quarantana/cap36.xml#c36_10494">
+          <ref rend="bold">piccol</ref>:  picciolo. Letter. poet.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n44" type="comm" target="quarantana/cap36.xml#c36_10511" targetEnd="quarantana/cap36.xml#c36_10512">
+          <ref rend="bold">che la</ref>:  come la. Sarebbe meno; che è un'affermazione più recisa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n45" type="comm" target="quarantana/cap36.xml#c36_10555" targetEnd="quarantana/cap36.xml#c36_10560">
+          <ref rend="bold">Questi intanto, in compagnia de' quali</ref>:  Il Tomm, nota: «Questo pensiero di chi resta è troppo lungamente esposto, e non è molto efficace.» Dirò: non mi pare tutta questa delicatissima prèdica d'un padre Felice qualunque; ma insomma al M. bisogna lasciar vestire certi personaggi idealmente come piace a lui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n46" type="comm" target="quarantana/cap36.xml#c36_10600">
+          <ref rend="bold">qualcheduno</ref>:  altri. Al singolare è letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n47" type="comm" target="quarantana/cap36.xml#c36_10611" targetEnd="quarantana/cap36.xml#c36_10613">
+          <ref rend="bold">Dio non voglia</ref>:  Tolga Dio. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n48" type="comm" target="quarantana/cap36.xml#c36_10616">
+          <ref rend="bold">vedere</ref>:  scorgere. È meno palese: richiede più difficoltà in chi guarda.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n49" type="comm" target="quarantana/cap36.xml#c36_10621">
+          <ref rend="bold">rumorosa</ref>:  clamorosa. Si riferirebbe più a rumori mondani, di fama, di gloria, ecc.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n50" type="comm" target="quarantana/cap36.xml#c36_10624">
+          <ref rend="bold">mondana</ref>:  carnale. Si riferirebbe soltanto a ресcati sensuali; e qui non era il caso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n51" type="comm" target="quarantana/cap36.xml#c36_10625">
+          <ref rend="bold">d'avere</ref>:  dell'avere. Meno comune; il <hi rend="italic">di</hi> è più semplice e usato, qui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n52" type="comm" target="quarantana/cap36.xml#c36_10629" targetEnd="quarantana/cap36.xml#c36_10631">
+          <ref rend="bold">con la quale</ref>:  contro la quale. Uso. <hi rend="italic">Dibattersi contro</hi>, non si dice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n53" type="comm" target="quarantana/cap36.xml#c36_10632" targetEnd="quarantana/cap36.xml#c36_10633">
+          <ref rend="bold">essi stanno</ref>:  stanno essi. Il pron. prima è più naturale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n54" type="comm" target="quarantana/cap36.xml#c36_10636">
+          <ref rend="bold">Vedano</ref>:  Veggano. Letterario e volgare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n55" type="comm" target="quarantana/cap36.xml#c36_10637" targetEnd="quarantana/cap36.xml#c36_10638">
+          <ref rend="bold">che partiamo</ref>:  che ci partiamo. Il <hi rend="italic">ci</hi> superfluo, e non avrebbe qui se non significato di <hi rend="italic">Dividersi</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n56" type="comm" target="quarantana/cap36.xml#c36_10644" targetEnd="quarantana/cap36.xml#c36_10645">
+          <ref rend="bold">per loro</ref>:  per essi. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n57" type="comm" target="quarantana/cap36.xml#c36_10663">
+          <ref rend="bold">meschini</ref>:  poveretti. <hi rend="italic">Meschini</hi> è più umile e spregiativo, come si conveniva qui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n58" type="comm" target="quarantana/cap36.xml#c36_10674">
+          <ref rend="bold">fare</ref>:  dare. <hi rend="italic">Dare i passi</hi> non si dice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n59" type="comm" target="quarantana/cap36.xml#c36_10675" targetEnd="quarantana/cap36.xml#c36_10679">
+          <ref rend="bold">una vita tutta di carità</ref>:  È tutta la morale del romanzo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n60" type="comm" target="quarantana/cap36.xml#c36_10680" targetEnd="quarantana/cap36.xml#c36_10683">
+          <ref rend="bold">Quelli che sono tornati</ref>:  Qui dice in bella prosa quanto aveva già detto in bella poesia nella <hi rend="italic">Pentecoste</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n61" type="comm" target="quarantana/cap36.xml#c36_10732" targetEnd="quarantana/cap36.xml#c36_10733">
+          <ref rend="bold">un singhiozzìo</ref>:  e di singulti. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n62" type="comm" target="quarantana/cap36.xml#c36_10743" targetEnd="quarantana/cap36.xml#c36_10744">
+          <ref rend="bold">nel vedere</ref>:  al vedere. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n63" type="comm" target="quarantana/cap36.xml#c36_10747">
+          <ref rend="bold">mettersi</ref>:  porsi. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n64" type="comm" target="quarantana/cap36.xml#c36_10753" targetEnd="quarantana/cap36.xml#c36_14392">
+          <ref rend="bold">buttarsi... silenzio</ref>:  cadere ginocchioni: e in gran silenzio si stava. <hi rend="italic">Cadere</hi> sarebbe stato involontario; <hi rend="italic">ginocchioni</hi> senza l'<hi rend="italic">in</hi> non usa; il rimanente, costruzione letteraria.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n65" type="comm" target="quarantana/cap36.xml#c36_10778" targetEnd="quarantana/cap36.xml#c36_10779">
+          <ref rend="bold">senza alcun</ref>:  fuor d'ogni. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n66" type="comm" target="quarantana/cap36.xml#c36_10784">
+          <ref rend="bold">scelti</ref>:  trascelti. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n67" type="comm" target="quarantana/cap36.xml#c36_10788" targetEnd="quarantana/cap36.xml#c36_10791">
+          <ref rend="bold">servir Cristo in voi</ref>:  È la teoria di Gesù, è la sua religione; giacché egli era il povero per eccellenza, il povero simbolico, rappresentava sulla terra i miseri, e invocava per loro il Regno dei Cieli, cioè la giustizia e la misericordia quaggiù in terra. La sua religione è tutta raccolta nella Parabola del Samaritano.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n68" type="comm" target="quarantana/cap36.xml#c36_10792" targetEnd="quarantana/cap36.xml#c36_10796">
+          <ref rend="bold">io vi chiedo umilmente perdono</ref>:  Il Tomm, nota: «Sublime: umilmente toglie forza.» Il Rigutini aggiunge: «Verissimo, tanto più che questo umilmente ha in simili locuzioni del convenzionale.» Questa volta ànno ragione; sennonché... è storico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n69" type="comm" target="quarantana/cap36.xml#c36_10794" targetEnd="quarantana/cap36.xml#c36_10796">
+          <ref rend="bold">chiedo perdono</ref>:  domando perdono. Uso. Per <hi rend="italic">chiedere</hi> v. anche l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n70" type="comm" target="quarantana/cap36.xml#c36_10801">
+          <ref rend="bold">adempito</ref>:  adempiuto. Meno comune, ma poteva stare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n71" type="comm" target="quarantana/cap36.xml#c36_10804" targetEnd="quarantana/cap36.xml#c36_10805">
+          <ref rend="bold">gran ministero</ref>:  grande ministero. Uso. <hi rend="italic">Grande</hi> si adopra, ma qui avrebbe avuto un'intonazione eccessiva.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n72" type="comm" target="quarantana/cap36.xml#c36_10815">
+          <ref rend="bold">resi</ref>:  renduti, Arcaico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n73" type="comm" target="quarantana/cap36.xml#c36_10831" targetEnd="quarantana/cap36.xml#c36_10832">
+          <ref rend="bold">colpevol tedio</ref>:  colpevole rincrescimento. <hi rend="italic">Rincrescimento</hi>, sbiadito e tenue in confronto di tedio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n74" type="comm" target="quarantana/cap36.xml#c36_10835" targetEnd="quarantana/cap36.xml#c36_10841">
+          <ref rend="bold">fatti qualche volta comparirvi davanti con un</ref>:  fatto talvolta mostrarvi un. <hi rend="italic">Mostrarvi</hi> dice troppo l'esteriorità; mentre <hi rend="italic">comparirvi davanti</hi> dice tutto l'essere; <hi rend="italic">talvolta</hi>, letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n75" type="comm" target="quarantana/cap36.xml#c36_10886">
+          <ref rend="bold">scandolo</ref>:  scandalo. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n76" type="comm" target="quarantana/cap36.xml#c36_10888" targetEnd="quarantana/cap36.xml#c36_10890">
+          <ref rend="bold">Così Dio rimetta</ref>:  Il Tommaseo nota: «Il discorso è bello; ma... » Il Rig. aggiunge: «È difficile indovinare che cosa stia dopo questo <hi rend="italic">ma</hi>.» Probabilmente voleva dire: «Così non parlano i frati;» e dir questo il Tommaseo non osava.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n77" type="comm" target="quarantana/cap36.xml#c36_10907">
+          <ref rend="bold">s'alzò</ref>:  si levò. Letterario poetico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n78" type="comm" target="quarantana/cap36.xml#c36_10912" targetEnd="quarantana/cap36.xml#c36_10916">
+          <ref rend="bold">se non le precise parole</ref>:  Si ritorna all'addio di Lucia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n79" type="comm" target="quarantana/cap36.xml#c36_10915">
+          <ref rend="bold">precise</ref>:  formali. Troppo legale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n80" type="comm" target="quarantana/cap36.xml#c36_10917" targetEnd="quarantana/cap36.xml#c36_10919">
+          <ref rend="bold">il senso almeno</ref>:  Non so se il M. abbia consultato anche altro materiale inedito: non sarebbe da maravigliarsene; in ogni modo questo fatto lo riporta il La Croce; eccolo: «Vedendo il padre Felice che moltissimi infetti andavano risanando, e non essendovi luogo netto nel Lazzeretto grande per poterli mettere in quarantena, prudentissimamente determinò di mandarli tutti ad un altro luogo, chiamato il Gentilino, che è situato fuori Porta Ticinese, ed ivi fargli poscia compire il tempo a ciò necessario. Ma considerando egli che se ve li avesse mandati così in confuso, senz'ordine, potevano facilmente partorire malissimi effetti, saggiamente pensò di condurveli egli medesimo in persona con qualche bell'ordine. A tal effetto fece fare una gran Croce, e poscia, convocati nel mezzo del Lazzeretto tutti quelli che in istato si trovavano di poter comodamente camminare, e riunitili insieme, fece loro un affettuoso e fervoroso sermone, esortandoli ad andare in quella processione che stava per fare, mortificati e morigerati tutti, tanto che dassero saggio agli altri di sé stessi, e mostrassero infatti d'aver cavato gran frutto dalla calamità sì atroce della peste: poscia postasi la corda al collo, ed inginocchiatosi, con molte lagrime umilissimamente a tutti chiedette perdono, non solo a nome suo, ma anche a nome di tutti li suoi compagni, se a caso non gli avessero serviti con quella prontezza, carità ed umiltà che dovevano; ed anche se da loro avessero per avventura ricevuto qualche mal esempio, che per fragilità umana avessero potuto inavvertentemente dare. Al cui atto non si può con parole esprimere, quali fossero le lagrime che versavano, e quali sospiri e grida mandassero al cielo per tenerezza quei poveri infetti, vedendo infatti che con tanta carità e prontezza erano stati da quei poveri Cappuccini attualmente serviti, e che poi infine per guiderdone gli addimandassero con tanto affetto e con si profonda umiltà perdonanza. Fatto questo, il padre Felice diede quell'ispediente (che) era necessario per mettere ben in ordine la processione, соmandando che tutti andassero ordinatamente senza rumore, o confusione alcuna: di poi egli con una corda al collo, col piè scalzo, prendendo in mano quella gran croce, che era molto pesante, (ando) precedendo nella processione, con quella mortificazione e morigerazione che ognuno si può immaginare: seguivano immediatamente a lui li poveri fanciulletti, chi scalzi, altri in camiscia ed altri mezzi nudi; dopo questi venivano le donne, che avevano per mano le povere puttine, e cantando alternativamente il <hi rend="italic">Miserere</hi>, con quella fiacca voce che per debolezza del male non potevano più altamente formare, cavavano le lagrime a chi le sentiva. Dopo le donne venivano ordinatamente gli uomini, cantando anch'essi altresi il <hi rend="italic">Miserere</hi>: e per ultimo seguivano moltissimi carri carichi di que' poverelli, che a piedi camminar non potevano, e delle bagaglie che seco non potevano portavano li poveri infetti, che a far la quarantena se n'andavano. Con questi veniva il padre Michele con un gran bastone in mano, con cui faceva andare ordinatamente il tutto, ed aveva cura che disordine alcuno non seguisse.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n81" type="comm" target="quarantana/cap36.xml#c36_10921">
+          <ref rend="bold">tema</ref>:  assunto. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n82" type="comm" target="quarantana/cap36.xml#c36_10926">
+          <ref rend="bold">davvero</ref>:  da vero. Quand'è avverbio, è meglio unito.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n83" type="comm" target="quarantana/cap36.xml#c36_10928" targetEnd="quarantana/cap36.xml#c36_10933">
+          <ref rend="bold">la maniera con cui furon dette</ref>:  il modo con che furon porte. Il <hi rend="italic">modo</hi>, v. l'indice; <hi rend="italic">con che</hi>, letter.; <hi rend="italic">porte</hi>, letter. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n84" type="comm" target="quarantana/cap36.xml#c36_10941" targetEnd="quarantana/cap36.xml#c36_10944">
+          <ref rend="bold">la maniera d'un uomo</ref>:  Il Tomm. nota: «Sublime, divino!»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n85" type="comm" target="quarantana/cap36.xml#c36_10950" targetEnd="quarantana/cap36.xml#c36_10951">
+          <ref rend="bold">servir gli</ref>:  servire agli. Più lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n86" type="comm" target="quarantana/cap36.xml#c36_10973">
+          <ref rend="bold">chiedeva</ref>:  domandava. Come si vede chiaramente, <hi rend="italic">chiedere</hi> à più forza; vedi anche l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n87" type="comm" target="quarantana/cap36.xml#c36_10986">
+          <ref rend="bold">d'intorno</ref>:  attorno. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n88" type="comm" target="quarantana/cap36.xml#c36_10990" targetEnd="quarantana/cap36.xml#c36_10991">
+          <ref rend="bold">occupati d'altro</ref>:  d'altro occupati. Costruzione più letteraria.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n89" type="comm" target="quarantana/cap36.xml#c36_10995" targetEnd="quarantana/cap36.xml#c36_10999">
+          <ref rend="bold">e tanti n'aveva veduti morire</ref>:  che ne aveva veduti tanti morire. Più fiacca; la congiunzione <hi rend="italic">e</hi> invece, ricollegando il senso precedente, rinforza.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n90" type="comm" target="quarantana/cap36.xml#c36_11018" targetEnd="quarantana/cap36.xml#c36_11023">
+          <ref rend="bold">anche lui in fin di morte</ref>:  anch'egli presso a morire. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n91" type="comm" target="quarantana/cap36.xml#c36_11030">
+          <ref rend="bold">lacrime</ref>:  lagrime. Letterario e volgare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n92" type="comm" target="quarantana/cap36.xml#c36_11032" targetEnd="quarantana/cap36.xml#c36_11034">
+          <ref rend="bold">a tali parole</ref>:  a una tale proposta. Meno esatto, giacché non tutto quanto aveva detto era una proposta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n93" type="comm" target="quarantana/cap36.xml#c36_11035" targetEnd="quarantana/cap36.xml#c36_11037">
+          <ref rend="bold">Il mirabil frate</ref>:  Il Tom. nota: «<hi rend="italic">Mirabile</hi> è affettato.» E il Rig. aggiunge: «E non richiesto dal lettore. Ma chi scrive non si mette sempre nei piedi di chi legge.» Lo credo anch'io, altrimenti il Rigutini non avrebbe scritto questa nota. Infatti se il M. non chiama qui <hi rend="italic">mirabile</hi> questo frate eccezionale, lo rende meno digeribile al sospettoso lettore?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n94" type="comm" target="quarantana/cap36.xml#c36_11038">
+          <ref rend="bold">prese</ref>:  tolse. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n95" type="comm" target="quarantana/cap36.xml#c36_11043">
+          <ref rend="bold">ch'era</ref>:  che stava. Uso. V. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n96" type="comm" target="quarantana/cap36.xml#c36_11048" targetEnd="quarantana/cap36.xml#c36_11051">
+          <ref rend="bold">se la inalberò davanti</ref>:  la inalberò dinanzi a sé. <hi rend="italic">Dinanzi</hi> è lett.; e <hi rend="italic">dinanzi a sé</hi> messo dopo <hi rend="italic">inalberò</hi> acquistava un'importanza esagerata, sicché la tempera con le particelle pronominali <hi rend="italic">se la</hi>. Di tutta questa predica di padre Felice il Tomm. non fa altro che dire: «Bello, » «Grande,» « Bellissimo.» Il De Sanctis la definiva l'unica pagina d'eloquenza sacra della nostra letteratura.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n97" type="comm" target="quarantana/cap36.xml#c36_11061">
+          <ref rend="bold">scalini</ref>:  scaglioni del tempio. <hi rend="italic">Scalini</hi>, uso; per <hi rend="italic">tempio</hi> v. l'ind. poi gli scalini non potevan esser che quelli.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n98" type="comm" target="quarantana/cap36.xml#c36_11068" targetEnd="quarantana/cap36.xml#c36_11070">
+          <ref rend="bold">fece rispettosamente largo</ref>:  diè riverentemente passaggio. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n99" type="comm" target="quarantana/cap36.xml#c36_11078" targetEnd="quarantana/cap36.xml#c36_11080">
+          <ref rend="bold">Renzo, tutto lacrimoso</ref>:  Il T. nota: «<hi rend="italic">tutto</hi> è troppo». Ritengo anch'io.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n100" type="comm" target="quarantana/cap36.xml#c36_11089">
+          <ref rend="bold">uno</ref>:  un. Qui, <hi rend="italic">un</hi> troncato, avrebbe avuto, tanto o quanto, dello spregiativo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n101" type="comm" target="quarantana/cap36.xml#c36_11113" targetEnd="quarantana/cap36.xml#c36_11114">
+          <ref rend="bold">stette lì</ref>:  quivi stette. Letterario accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n102" type="comm" target="quarantana/cap36.xml#c36_11117">
+          <ref rend="bold">nascosto</ref>:  appiattato. Avrebbe significato o cattivo o di paura.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n103" type="comm" target="quarantana/cap36.xml#c36_11123" targetEnd="quarantana/cap36.xml#c36_11129">
+          <ref rend="bold">la testa avanti, con gli occhi spalancati</ref>:  il capo innanzi, cogli occhi ben aperti. <hi rend="italic">Testa</hi> prende tutto dal volto in su. <hi rend="italic">È una bella testa</hi>; v. anche l'indice; <hi rend="italic">innanzi</hi>, più lett.; <hi rend="italic">aperti</hi> fisicamente è meno; e dice più specialmente quelli dell'intelligenza.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n104" type="comm" target="quarantana/cap36.xml#c36_11133">
+          <ref rend="bold">palpitazion</ref>:  palpitazione. Avverti questo troncamento, che è d'osservazione finissima.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n105" type="comm" target="quarantana/cap36.xml#c36_11149" targetEnd="quarantana/cap36.xml#c36_11152">
+          <ref rend="bold">che gli aveva ispirata</ref>:  in che l'aveva posto. Letter. e freddissimo in confronto di quell'ispirata. Il T. nota di tutto questo periodo: « Bellissimo»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n106" type="comm" target="quarantana/cap36.xml#c36_11184">
+          <ref rend="bold">viso</ref>:  volto. Qui sarebbe stato un'affettazione letteraria, per quanta idealità l'Aut. volesse attribuire al padre Felice. Aggiungete che <hi rend="italic">viso</hi> indica per prima cosa la parte degli occhi: è la parte per il tutto, che nelle facce scarne è più visibile ancora. Vedi all'indice quant'abbiamo detto a proposito nel sogno di don Rodrigo. Tutto questo periodo al T. pare «affettato.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n107" type="comm" target="quarantana/cap36.xml#c36_11193" targetEnd="quarantana/cap36.xml#c36_11195">
+          <ref rend="bold">a passo lento</ref>:  a passi tardi. Letter. e poet. <hi rend="italic">A passi tardi e lenti</hi>, dice il Petrarca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n108" type="comm" target="quarantana/cap36.xml#c36_11201" targetEnd="quarantana/cap36.xml#c36_11204">
+          <ref rend="bold">pensa soltanto a risparmiare</ref>:  vuol risparmiare. In <hi rend="italic">vuol</hi> c'è tutta l'energia; in <hi rend="italic">pensa</hi>, c'è l'energia e il cuore diventati pensiero abituale; e il <hi rend="italic">soltanto</hi>, aggiunge efficacia. La sentenza è grave di pensiero: dice l'uomo agguerrito e sicuro nel beneficare il prossimo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n109" type="comm" target="quarantana/cap36.xml#c36_11215" targetEnd="quarantana/cap36.xml#c36_11223">
+          <ref rend="bold">un di più di fatiche e di disagi desse</ref>:  quelle fatiche e quei disagi di soprabbondanza dessero. L'articolo aggiunto determina e rinforza: <hi rend="italic">un di più</hi>, ecc. Le fatiche c'erano già; ma il padre Felice, più ne aveva, e più era energico; ma <hi rend="italic">soprabbondanza</hi>, oltr'a esser poco comune, era anche esagerazione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n110" type="comm" target="quarantana/cap36.xml#c36_11237" targetEnd="quarantana/cap36.xml#c36_11245">
+          <ref rend="bold">Subito dopo lui venivano i fanciulli più grandini, scalzi</ref>:  Seguivano immediatamente i fanciulli più grandicelli, a piè nudo. <hi rend="italic">Seguivano immediatamente</hi>, letter.; <hi rend="italic">grandicelli</hi> poteva stare, ma sonava male con <hi rend="italic">fanciulli</hi>; <hi rend="italic">a piè nudo</hi>, letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n111" type="comm" target="quarantana/cap36.xml#c36_11253">
+          <ref rend="bold">chi</ref>:  quale. In questo senso, un po' letter.; ma non era cattivo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n112" type="comm" target="quarantana/cap36.xml#c36_11261" targetEnd="quarantana/cap36.xml#c36_11266">
+          <ref rend="bold">tenendo per la mano</ref>:  dando la mano. Si <hi rend="italic">dà la mano</hi> per aiuto; si <hi rend="italic">tiene per la mano</hi> chi non cammina bene da sé.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n113" type="comm" target="quarantana/cap36.xml#c36_11268">
+          <ref rend="bold">bambina</ref>:  fanciulletta. Affettazione letteraria,
+                     </note>
+        <note xml:id="Petrocchi_cap36-n114" type="comm" target="quarantana/cap36.xml#c36_11270" targetEnd="quarantana/cap36.xml#c36_11273">
+          <ref rend="bold">cantando alternativamente il Miserere</ref>: Rammenta Dante (<hi rend="italic">Purg.</hi> v, 25) <l> Cantando MISERERE a verso a verso</l></note>
+        <note xml:id="Petrocchi_cap36-n115" type="comm" target="quarantana/cap36.xml#c36_11283">
+          <ref rend="bold">pallore</ref>:  smortore. Parola arcaica e esagerata.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n116" type="comm" target="quarantana/cap36.xml#c36_11289">
+          <ref rend="bold">visi</ref>:  volti. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n117" type="comm" target="quarantana/cap36.xml#c36_11296">
+          <ref rend="bold">compassione</ref>:  pietà. È più profonda, ma più circoscritta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n118" type="comm" target="quarantana/cap36.xml#c36_11302" targetEnd="quarantana/cap36.xml#c36_11303">
+          <ref rend="bold">trovato lì</ref>:  quivi trovato. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n119" type="comm" target="quarantana/cap36.xml#c36_11315" targetEnd="quarantana/cap36.xml#c36_11332">
+          <ref rend="bold">di viso in viso, senza passarne uno, ché la processione andava tanto adagio, da dargliene tutto il comodo</ref>:  di faccia in faccia, senza trapassarne una; l'andar lento lento della processione gliene dava agio bastante. <hi rend="italic">Faccia</hi> avrebbe qui dello spregiativo; <hi rend="italic">trapassarne</hi>, letter.; <hi rend="italic">andar lento lento</hi> poteva stare, ma qui aveva un momentino di colore poetico, che alterava d'una linea lo stile; <hi rend="italic">agio bastante</hi> più letter. e sbiadito,
+                     </note>
+        <note xml:id="Petrocchi_cap36-n120" type="comm" target="quarantana/cap36.xml#c36_11333" targetEnd="quarantana/cap36.xml#c36_11335">
+          <ref rend="bold">Passa e passa</ref>:  Il T. nota: «Questa rassegna è mal fatta. L'A. è stracco.» Tutt'altro.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n121" type="comm" target="quarantana/cap36.xml#c36_11340" targetEnd="quarantana/cap36.xml#c36_11351">
+          <ref rend="bold">inutilmente... ancora indietro</ref>:  per niente: gittava mezze occhiate alla torma che rimaneva ancora addietro, e che si andava scemando. <hi rend="italic">Per niente</hi> qui aveva del volg. <hi rend="italic">gittava</hi>, lett.; <hi rend="italic">mezze occhiate</hi> non si dice; l'aggiunto <hi rend="italic">di corsa</hi> dice la sollecitudine; <hi rend="italic">torma</hi> qui non solo aveva del letter., ma anche dello spregiativo; <hi rend="italic">addietro</hi>, meno com.; si andava scemando, inutile; e questa particella si con scemando, non usa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n122" type="comm" target="quarantana/cap36.xml#c36_11354">
+          <ref rend="bold">poche</ref>:  poche file. Inutile la seconda volta, perché <hi rend="italic">file</hi> era stato sostituito prima.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n123" type="comm" target="quarantana/cap36.xml#c36_11358" targetEnd="quarantana/cap36.xml#c36_11359">
+          <ref rend="bold">passate tutte</ref>:  tutte passate. L'agg. tutte dopo è più efficace; e poi stava meglio di fronte al <hi rend="italic">tutti</hi> successivo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n124" type="comm" target="quarantana/cap36.xml#c36_11367">
+          <ref rend="bold">ciondoloni</ref>:  spenzolate. Poteva stare, ma era meno; <hi rend="italic">spenzolare</hi> à sempre qualcosa più d'orizzontale; vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n125" type="comm" target="quarantana/cap36.xml#c36_11373" targetEnd="quarantana/cap36.xml#c36_11374">
+          <ref rend="bold">sur una</ref>:  su una. Poteva stare, ma <hi rend="italic">sur</hi> lega meglio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n126" type="comm" target="quarantana/cap36.xml#c36_11376" targetEnd="quarantana/cap36.xml#c36_11378">
+          <ref rend="bold">accompagnò con l'occhio</ref>:  lasciò andar l'occhio dietro a. Non usa, e poi l'accompagnò dice molto meglio il lento osservare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n127" type="comm" target="quarantana/cap36.xml#c36_11403" targetEnd="quarantana/cap36.xml#c36_11405">
+          <ref rend="bold">su cui erano</ref>:  che portavano. Poteva stare; ma <hi rend="italic">su cui</hi> erano s'addice meglio a persone viventi, che stanno in piedi da sé, e <hi rend="italic">portare</hi> sarebbe stato più esatto trattandosi di cadaveri.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n128" type="comm" target="quarantana/cap36.xml#c36_11409" targetEnd="quarantana/cap36.xml#c36_11416">
+          <ref rend="bold">non erano ancora in istato di camminare. Lì</ref>:  non abili ancora al cammino. Quivi. Roba letteraria, burocratica o birrocratica; e <hi rend="italic">quivi</hi>, letter. accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n129" type="comm" target="quarantana/cap36.xml#c36_11420">
+          <ref rend="bold">l'ultime</ref>:  ultime. L'articolo determinativo non è senz'efficacia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n130" type="comm" target="quarantana/cap36.xml#c36_11424">
+          <ref rend="bold">andava</ref>:  progrediva pur. Pesantissimo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n131" type="comm" target="quarantana/cap36.xml#c36_11431" targetEnd="quarantana/cap36.xml#c36_11437">
+          <ref rend="bold">esaminarle tutte, senza che gliene sfuggisse una</ref>:  rassegnar tutte quell'altre convalescenti, senza che una gli sfuggisse. <hi rend="italic">Rassegnare</hi>, disusato e grossolano; <hi rend="italic">quell'altre convalescenti</hi>, inutile; la rimanente inversione di prima, meno efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n132" type="comm" target="quarantana/cap36.xml#c36_11456" targetEnd="quarantana/cap36.xml#c36_11458">
+          <ref rend="bold">fino a uno</ref>:  fino ad uno. Uso. dietro al quale: dietro cui. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n133" type="comm" target="quarantana/cap36.xml#c36_11482">
+          <ref rend="bold">comitiva</ref>:  convoglio. È più sparso, più vario e meno lugubre. Si trattava di convalescenti, non di morti.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n134" type="comm" target="quarantana/cap36.xml#c36_11494">
+          <ref rend="bold">compagno</ref>:  coadiutore. Si dice nelle chiese di Lombardia, di preti che aiutano il parroco nella cura delle anime.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n135" type="comm" target="quarantana/cap36.xml#c36_11508" targetEnd="quarantana/cap36.xml#c36_11529">
+          <ref rend="bold">non solo portò via il conforto... di prima</ref>:  Il T. notaa: «Fiacco». È invece una bella osservazione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n136" type="comm" target="quarantana/cap36.xml#c36_11521" targetEnd="quarantana/cap36.xml#c36_11522">
+          <ref rend="bold">più volte</ref>:  il più sovente. Letter. e antipatico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n137" type="comm" target="quarantana/cap36.xml#c36_11526" targetEnd="quarantana/cap36.xml#c36_11527">
+          <ref rend="bold">peggiore stato</ref>:  peggior condizione. Dice più lo stato di famiglia, finanziario e simili.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n138" type="comm" target="quarantana/cap36.xml#c36_11531" targetEnd="quarantana/cap36.xml#c36_11537">
+          <ref rend="bold">quel che ci poteva esser di meglio</ref>:  la contingenza più felice. <hi rend="italic">Contingenza</hi>, parola filosofica, fredda.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n139" type="comm" target="quarantana/cap36.xml#c36_11542">
+          <ref rend="bold">ammalata</ref>:  inferma. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n140" type="comm" target="quarantana/cap36.xml#c36_11553" targetEnd="quarantana/cap36.xml#c36_11555">
+          <ref rend="bold">il poverino s'attaccò</ref>:  s'attaccò egli. Troppo freddo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n141" type="comm" target="quarantana/cap36.xml#c36_11569">
+          <ref rend="bold">corsia</ref>:  Questa parola sfrattata altrove, qui rientra nell'uso proprio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n142" type="comm" target="quarantana/cap36.xml#c36_11571" targetEnd="quarantana/cap36.xml#c36_11580">
+          <ref rend="bold">s'incamminò da quella parte di dove era venuta la processione</ref>:  si mosse verso donde la processione era venuta. C'era quel <hi rend="italic">donde</hi> insoffribile, che dava una brutta intonazione a tutta la frase; poi <hi rend="italic">s'incamminò</hi> dice più che <hi rend="italic">si mosse</hi>; <hi rend="italic">la processione</hi> dopo, più efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n143" type="comm" target="quarantana/cap36.xml#c36_11584" targetEnd="quarantana/cap36.xml#c36_11585">
+          <ref rend="bold">della cappella</ref>:  del tempietto. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n144" type="comm" target="quarantana/cap36.xml#c36_11588" targetEnd="quarantana/cap36.xml#c36_11592">
+          <ref rend="bold">inginocchiarsi sull'ultimo scalino; e lì</ref>:  porsi ginocchione sull'ultimo gradino; e quivi. <hi rend="italic">Porsi</hi>, lett.; <hi rend="italic">ginocchione</hi>, arcaico; inutile poi questa perifrasi dal momento che tornava bene la parola propria; <hi rend="italic">gradino</hi>, meno com. se non qualche cosa di più ristretto, e a volte di più ricco, di più artistico; <hi rend="italic">quivi</hi>, letter. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n145" type="comm" target="quarantana/cap36.xml#c36_11602" targetEnd="quarantana/cap36.xml#c36_11606">
+          <ref rend="bold">una confusione di parole arruffate</ref>:  un viluppo di parole scompigliate. <hi rend="italic">Viluppo</hi> letter., e <hi rend="italic">confusione</hi> è più vivo e espressivo; anche <hi rend="italic">arruffate</hi> è più.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n146" type="comm" target="quarantana/cap36.xml#c36_11613">
+          <ref rend="bold">lamenti</ref>:  querele. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n147" type="comm" target="quarantana/cap36.xml#c36_11630">
+          <ref rend="bold">penetrazione</ref>:  acume. È meno; <hi rend="italic">penetrazione</hi> è più vasta e profonda.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n148" type="comm" target="quarantana/cap36.xml#c36_11634">
+          <ref rend="bold">pazienza</ref>:  sofferenza. Meno nobile, meno grande, meno dignitosa: la <hi rend="italic">pazienza</hi> è piena di giustizia e di misericordia e di grandezza. Da non confondersi con quella dell'asino. Colla <hi rend="italic">sofferenza</hi> ci può esser un disprezzo che l'A. esclude. Il Tom, nota a tutto questo: «Sublime.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n149" type="comm" target="quarantana/cap36.xml#c36_11646">
+          <ref rend="bold">S'alzò</ref>:  Si rizzò. Piú pop. e volgare, e può esser adoprato bene dove ci sia una certa rustica vivacità.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n150" type="comm" target="quarantana/cap36.xml#c36_11650" targetEnd="quarantana/cap36.xml#c36_11653">
+          <ref rend="bold">girò intorno alla cappella</ref>:  volse attorno al tempio. <hi rend="italic">Volse</hi>, letterario; <hi rend="italic">attorno</hi>, meno com.; per <hi rend="italic">cappella</hi> v. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n151" type="comm" target="quarantana/cap36.xml#c36_11665">
+          <ref rend="bold">riusciva</ref>:  faceva capo. Meno semplice e anche meno espressivo; e più si dice di cose che di strade.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n152" type="comm" target="quarantana/cap36.xml#c36_11666" targetEnd="quarantana/cap36.xml#c36_11667">
+          <ref rend="bold">all'altra porta</ref>:  La porta de' morti.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n153" type="comm" target="quarantana/cap36.xml#c36_11668" targetEnd="quarantana/cap36.xml#c36_11671">
+          <ref rend="bold">dopo pochi passi, vide</ref>:  dopo non molto andare, vide a dritta e a sinistra. <hi rend="italic">Pochi passi</hi> è tratto più corto e meno vago; <hi rend="italic">a dritta e a sinistra</hi> a lo à giudicato inutile l'A.; <hi rend="italic">stecconato</hi> è composto d'assi più grosse.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n154" type="comm" target="quarantana/cap36.xml#c36_11678">
+          <ref rend="bold">parlato</ref>:  detto. È meno.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n155" type="comm" target="quarantana/cap36.xml#c36_11682" targetEnd="quarantana/cap36.xml#c36_11685">
+          <ref rend="bold">interrotto qua e là</ref>:  tutto a squarci e a valichi. Sarebbe stato di monti, di valichi, di burroni e cose simili.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n156" type="comm" target="quarantana/cap36.xml#c36_11687" targetEnd="quarantana/cap36.xml#c36_11688">
+          <ref rend="bold">come questo</ref>:  com'egli. Piú letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n157" type="comm" target="quarantana/cap36.xml#c36_11692" targetEnd="quarantana/cap36.xml#c36_11696">
+          <ref rend="bold">per una di quelle aperture</ref>:  per uno di quelli. Si riferiva a squarci e a valichi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n158" type="comm" target="quarantana/cap36.xml#c36_11704" targetEnd="quarantana/cap36.xml#c36_11714">
+          <ref rend="bold">Quasi al primo passo che fece, vide in terra un campanello</ref>:  Quasi in sul primo passo che vi diede, gli venne veduta per terra una campanella. Uso. Era una dicitura grossolana. <hi rend="italic">Campanella</hi> è più grossa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n159" type="comm" target="quarantana/cap36.xml#c36_11720" targetEnd="quarantana/cap36.xml#c36_11723">
+          <ref rend="bold">portavano a un piede</ref>:  portavano ai piedi; intera, co' suoi laccetti. Ai piedi non era esatto; intera co' suoi laccetti se non goffo, per lo meno inutile.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n160" type="comm" target="quarantana/cap36.xml#c36_11741">
+          <ref rend="bold">prese</ref>:  ricolse. Per <hi rend="italic">ricolse</hi>, v. l'indice. Quel che Renzo fece a buon fine, tanti furfanti lo facevano a cattivo, come avvertono i cronisti contemporanei.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n161" type="comm" target="quarantana/cap36.xml#c36_11742" targetEnd="quarantana/cap36.xml#c36_11746">
+          <ref rend="bold">guardò se nessuno lo guardava</ref>:  Osservi il giovine che quand'occorre ripetere la parola, il buono scrittore lo fa senza scrupoli. se lo legò come usavan quelli.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n162" type="comm" target="quarantana/cap36.xml#c36_11754" targetEnd="quarantana/cap36.xml#c36_11757">
+          <ref rend="bold">E si mise subito</ref>:  se l'allacciò. E tosto diè principio. <hi rend="italic">Allacciò</hi>, poco com.; e se mai, si direbbe di vesti e sim. L'aggiunta è necessaria per dire che Renzo conosceva bene l'usanza, e non poteva da quel lato sbagliare; poi quel <hi rend="italic">se lo legò</hi> in fondo al periodo stava proprio male. Al T. questo periodo pare «divino», ma non vedo in che differisca da tanti altri; <hi rend="italic">tosto</hi>, lett.; <hi rend="italic">diè principio</hi> era pedantesco.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n163" type="comm" target="quarantana/cap36.xml#c36_11766">
+          <ref rend="bold">quantità</ref>:  moltiplicità. <hi rend="italic">Quantità</hi> dice meglio il numero straordinario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n164" type="comm" target="quarantana/cap36.xml#c36_11789">
+          <ref rend="bold">miserie</ref>:  scene di guai. Poet.; e <hi rend="italic">miserie</hi> è più compassionevole.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n165" type="comm" target="quarantana/cap36.xml#c36_11800">
+          <ref rend="bold">diverse</ref>:  dissimili. Meno usato, e meno di diverse; e quel <hi rend="italic">simili dissimili</hi> non faceva buon suono.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n166" type="comm" target="quarantana/cap36.xml#c36_11819">
+          <ref rend="bold">lamentarsi</ref>:  dolersi. È meno. Dice Dante: <l> Lamenti saettaron me diversi </l> (<hi rend="italic">Inf.</hi> XXIX, 43).
+                     </note>
+        <note xml:id="Petrocchi_cap36-n167" type="comm" target="quarantana/cap36.xml#c36_11835" targetEnd="quarantana/cap36.xml#c36_11836">
+          <ref rend="bold">pietà e</ref>:  pietà, per dir così, e. <hi rend="italic">Per dir così</hi> che ci aveva che fare? era non solo superfluo, ma uggioso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n168" type="comm" target="quarantana/cap36.xml#c36_11843" targetEnd="quarantana/cap36.xml#c36_11846">
+          <ref rend="bold">non so quanta strada</ref>:  non so quanto di strada. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n169" type="comm" target="quarantana/cap36.xml#c36_11850" targetEnd="quarantana/cap36.xml#c36_11851">
+          <ref rend="bold">senza accidenti</ref>:  Meglio <hi rend="italic">senz'incidenti</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n170" type="comm" target="quarantana/cap36.xml#c36_11853" targetEnd="quarantana/cap36.xml#c36_11854">
+          <ref rend="bold">si sentì</ref>:  s'intese. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n171" type="comm" target="quarantana/cap36.xml#c36_11864">
+          <ref rend="bold">diretta</ref>:  venire. Piú fredda e più lenta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n172" type="comm" target="quarantana/cap36.xml#c36_11868">
+          <ref rend="bold">voltò</ref>:  volse. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n173" type="comm" target="quarantana/cap36.xml#c36_11878" targetEnd="quarantana/cap36.xml#c36_11880">
+          <ref rend="bold">alzò una mano</ref>:  levò le mani. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n174" type="comm" target="quarantana/cap36.xml#c36_11882" targetEnd="quarantana/cap36.xml#c36_11884">
+          <ref rend="bold">proprio a lui</ref>:  a lui proprio. Piú efficace il pronome dopo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n175" type="comm" target="quarantana/cap36.xml#c36_11896" targetEnd="quarantana/cap36.xml#c36_11899">
+          <ref rend="bold">finito ora di sbrattare</ref>:  appena finito di spazzare. Finito ora, più com. e più colorito; anche sbrattare è più, e dice maggiori cose e difficoltà. Per il senso, osserva il grazioso e non sup- posto inconveniente venuto súbito dietro al creduto vantaggio; e, com' al solito, l'uomo non avesse potuto prevedere.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n176" type="comm" target="quarantana/cap36.xml#c36_11901" targetEnd="quarantana/cap36.xml#c36_11902">
+          <ref rend="bold">s'avvide subito</ref>:  s'avvisò immediatamente. Lett. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n177" type="comm" target="quarantana/cap36.xml#c36_11911" targetEnd="quarantana/cap36.xml#c36_11913">
+          <ref rend="bold">era la cagione</ref>:  era cagione. L'art., determinando, dà più forza.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n178" type="comm" target="quarantana/cap36.xml#c36_11921" targetEnd="quarantana/cap36.xml#c36_11922">
+          <ref rend="bold">solamente agl'impicci</ref>:  soltanto ai disturbi. <hi rend="italic">Soltanto</hi> poteva stare: l'à cambiato probabilmente per il suono; <hi rend="italic">impicci</hi> è più, e più vario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n179" type="comm" target="quarantana/cap36.xml#c36_11941" targetEnd="quarantana/cap36.xml#c36_11944">
+          <ref rend="bold">tempo alla maniera di</ref>:  punto al come. <hi rend="italic">Punto</hi>, in questo senso, lott.; <hi rend="italic">al come</hi> poteva stare, ma è un modo più secco.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n180" type="comm" target="quarantana/cap36.xml#c36_11955" targetEnd="quarantana/cap36.xml#c36_11958">
+          <ref rend="bold">un cenno col capo</ref>:  un cenno del capo. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n181" type="comm" target="quarantana/cap36.xml#c36_11959" targetEnd="quarantana/cap36.xml#c36_11961">
+          <ref rend="bold">come per dire</ref>:  come a dire. Volgare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n182" type="comm" target="quarantana/cap36.xml#c36_11967">
+          <ref rend="bold">ubbidiva</ref>:  obediva. Grafia latina.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n183" type="comm" target="quarantana/cap36.xml#c36_11969" targetEnd="quarantana/cap36.xml#c36_11973">
+          <ref rend="bold">si levò dalla sua vista</ref>:  si tolse alla sua vista. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n184" type="comm" target="quarantana/cap36.xml#c36_11977">
+          <ref rend="bold">parte</ref>:  banda. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n185" type="comm" target="quarantana/cap36.xml#c36_11990" targetEnd="quarantana/cap36.xml#c36_11991">
+          <ref rend="bold">liberarsi dalla</ref>:  levarsi d'attorno la. Si direbbe d'impicci maggiori, e specialmente di persone; ma <hi rend="italic">d'intorno</hi>, non <hi rend="italic">d'attorno</hi>; poi il campanello l'aveva a' piedi non d'intorno.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n186" type="comm" target="quarantana/cap36.xml#c36_12003" targetEnd="quarantana/cap36.xml#c36_12024">
+          <ref rend="bold">mettersi in un piccolo spazio tra due capanne che si voltavan, per dir così, la schiena. Si china per levarsi il campanello</ref>:  porsi in una stretta fra due capannucce, che avevano i dorsi volti l'una all'altra. Si china a sciorre i laccetti. <hi rend="italic">Porsi</hi>, lett.; il rimanente era un linguaggio monco; il diminutivo <hi rend="italic">capannucce</hi> era probabilmente contro all'esattezza, perché saranno state tutte compagne; in ogni modo non si vede la ragione di metter Lucia in capanne inferiori; dorsi, letterario; ma anche <hi rend="italic">che si voltavan la schiena</hi> era un'immagine un po' ardita, e l'A. lo tempera con la frase <hi rend="italic">per dir così</hi>, che seccava tanto al Tomm. <hi rend="italic">Si china</hi>. Osservate la grazia e l'opportunità dell'incidente; <hi rend="italic">sciorre i laccetti</hi>, contadinesco.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n187" type="comm" target="quarantana/cap36.xml#c36_12045" targetEnd="quarantana/cap36.xml#c36_12046">
+          <ref rend="bold">Oh cielo!</ref>:  Il Tom. nota: «Pesante. » À veramente un poco dell'esclamazione metastasiana; forse qualche altra frase poteva esser più comune; ma sarebbe pedanteria soffermarsi a questa bazzecola davauti alla grandezza, originalità e freschezza del momento.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n188" type="comm" target="quarantana/cap36.xml#c36_12047" targetEnd="quarantana/cap36.xml#c36_12048">
+          <ref rend="bold">è possibile?</ref>:  è egli possibile? Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n189" type="comm" target="quarantana/cap36.xml#c36_12049" targetEnd="quarantana/cap36.xml#c36_12055">
+          <ref rend="bold">Tutta la sua anima è in quell'orecchio</ref>:  Non c'è forse un po' di ricercato in quest'arguzia?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n190" type="comm" target="quarantana/cap36.xml#c36_12068" targetEnd="quarantana/cap36.xml#c36_12071">
+          <ref rend="bold">diceva quella voce soave</ref>:  Vedete l'impressione che faceva su Renzo la voce di Lucia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n191" type="comm" target="quarantana/cap36.xml#c36_12072" targetEnd="quarantana/cap36.xml#c36_12073">
+          <ref rend="bold">abbiam passato</ref>:  Ecco l'anima di lei che si fa súbito viva in questa sentenza molto semplice e d'uso comune. Il Tomm. nota malamente: «<hi rend="italic">Chi</hi>... è da villano.» Sicché dovrebbe esser villano anche in quest'altri luoghi: <l> Chi nato sia non sanno </l>
+          <l> Chi dell'erbe lo stelo compose? </l>
+          <l>Chi ne trasse la spiga fiorita?</l>
+          <l>Chi nel tralcio fe' scorrer la vita? </l>
+          <l>Chi v'ascose dell'uve il tesor?</l>
+        </note>
+        <note xml:id="Petrocchi_cap36-n192" type="comm" target="quarantana/cap36.xml#c36_12091" targetEnd="quarantana/cap36.xml#c36_12093">
+          <ref rend="bold">cacciò un urlo</ref>:  mise uno strido. Roba letteraria.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n193" type="comm" target="quarantana/cap36.xml#c36_12099" targetEnd="quarantana/cap36.xml#c36_12100">
+          <ref rend="bold">farsi scorgere</ref>:  Mettersi in un'evidenza sfavorevole, da cui le persone di criterio sfuggono sempre, quanto più invece l'amano i Gervasi e simili.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n194" type="comm" target="quarantana/cap36.xml#c36_12107" targetEnd="quarantana/cap36.xml#c36_12110">
+          <ref rend="bold">Gli mancaron le ginocchia</ref>:  Le ginocchia gli mancaron sotto. <hi rend="italic">Le ginocchia gli mancarono</hi>, senza il <hi rend="italic">sotto</hi>, poteva stare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n195" type="comm" target="quarantana/cap36.xml#c36_12111" targetEnd="quarantana/cap36.xml#c36_12114">
+          <ref rend="bold">gli s'appannò la vista</ref>:  Questa frase che l'à levata al cap. XXXV (cfr. commento Capitolo 35: «aveva fatto perdere il lume degli occhi»), perché là meno efficace, più scolorita che <hi rend="italic">perdere il lume degli occhi</hi>, per rabbia, qui la mantiene, come espressione giusta del mancargli la forza visiva, del quasi svenirsi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n196" type="comm" target="quarantana/cap36.xml#c36_12123">
+          <ref rend="bold">ritto</ref>:  in piedi. È in contrapposizione al pensiero di stare a sedere o a giacere, o capofitto: uno è sempre in piedi dalla mattina alla sera anche stando in faccendo, e dunque non sempre su con la persona, come esprime ritto. Dice Dante (Inf. xix) : <l> Sei costi ritto Bonifazio? </l> e chi parlava così era papa Niccolò III che se ne stava capofitto nella buca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n197" type="comm" target="quarantana/cap36.xml#c36_12139">
+          <ref rend="bold">colei</ref>:  Sarebbe un pochettino spregiativo, a meno che non si tratti d'uno stile elevato (vedi l'indice) o abbia un momento dollo scherzevole e del festoso, come qui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n198" type="comm" target="quarantana/cap36.xml#c36_12145" targetEnd="quarantana/cap36.xml#c36_12146">
+          <ref rend="bold">levata, chinata</ref>:  in piedi inchinata. <hi rend="italic">Levata</hi>, più preciso, in contrapposizione all'essere stata malata; <hi rend="italic">inchinata</hi> si direbbe di genuflessioni, di riverenze e sim.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n199" type="comm" target="quarantana/cap36.xml#c36_12151">
+          <ref rend="bold">volta</ref>:  volge. Letter. Il T. nota: «Che strano incontro. Perché strano?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n200" type="comm" target="quarantana/cap36.xml#c36_12154">
+          <ref rend="bold">rumore</ref>:  romore. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n201" type="comm" target="quarantana/cap36.xml#c36_12163">
+          <ref rend="bold">attenta</ref>:  fiso. Roba letter. accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n202" type="comm" target="quarantana/cap36.xml#c36_12169" targetEnd="quarantana/cap36.xml#c36_12171">
+          <ref rend="bold">Lucia! v'ho trovata!</ref>: Il T. nota: « Troppo!» Tutt'altro.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n203" type="comm" target="quarantana/cap36.xml#c36_12179">
+          <ref rend="bold">esclamò</ref>:  sclamò. Volg.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n204" type="comm" target="quarantana/cap36.xml#c36_12181">
+          <ref rend="bold">avanzandosi</ref>:  avanzando. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n205" type="comm" target="quarantana/cap36.xml#c36_12188" targetEnd="quarantana/cap36.xml#c36_12189">
+          <ref rend="bold">ancor più</ref>:  ben più. Meno com. e meno efficace. Per il senso avvertite che il tremito di Lucia proviene da varie cause, e un po' più forti che quelle di Renzo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n206" type="comm" target="quarantana/cap36.xml#c36_12193" targetEnd="quarantana/cap36.xml#c36_12196">
+          <ref rend="bold">che cosa è questa!</ref>:  Nella risposta di Lucia c'è una specie di semivaneggiamento; parole interrotte, e questa sottintende apparizione, novità. Alla peste non fa un punto interrogativo, come dovrebbe, appunto per quanto abbiamo detto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n207" type="comm" target="quarantana/cap36.xml#c36_12215">
+          <ref rend="bold">vista</ref>:  veduta. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n208" type="comm" target="quarantana/cap36.xml#c36_12230">
+          <ref rend="bold">pallida</ref>:  smorta. È più villano.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n209" type="comm" target="quarantana/cap36.xml#c36_12254" targetEnd="quarantana/cap36.xml#c36_12256">
+          <ref rend="bold">avvicinandosele sempre più</ref>:  facendosele sempre più accosto. Poteva stare; ma <hi rend="italic">avvicinarsele</hi> pare più gentile.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n210" type="comm" target="quarantana/cap36.xml#c36_12262">
+          <ref rend="bold">dovevo</ref>:  doveva io. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n211" type="comm" target="quarantana/cap36.xml#c36_12264" targetEnd="quarantana/cap36.xml#c36_12265">
+          <ref rend="bold">Avete bisogno</ref>:  Fa bisogno. Meno com. e più rozzo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n212" type="comm" target="quarantana/cap36.xml#c36_12287" targetEnd="quarantana/cap36.xml#c36_12288">
+          <ref rend="bold">Ah cosa</ref>:  che cosa. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n213" type="comm" target="quarantana/cap36.xml#c36_12300" targetEnd="quarantana/cap36.xml#c36_12301">
+          <ref rend="bold">pur troppo</ref>:  anche troppo. Direbbe la quantità, non la qualità.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n214" type="comm" target="quarantana/cap36.xml#c36_12315">
+          <ref rend="bold">ramingo</ref>:  fuggiasco. È meno.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n215" type="comm" target="quarantana/cap36.xml#c36_12354" targetEnd="quarantana/cap36.xml#c36_12357">
+          <ref rend="bold">Che cosa ci mancava</ref>:  Che cosa mancava. Il <hi rend="italic">ci</hi> è indispensabile al pensiero di Renzo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n216" type="comm" target="quarantana/cap36.xml#c36_12363" targetEnd="quarantana/cap36.xml#c36_12365">
+          <ref rend="bold">giungendo le mani</ref>:  giugnendo stretto le mani. <hi rend="italic">Giugnendo</hi>, letter. contadinesco. Il Tommaseo nota: «Bello lo <hi rend="italic">stretto</hi>. Il Rig. aggiunge: «Che fu a torto cancellato nella 2ª ediz.» Nient'affatto quello stretto era un assurdo. Lucia è affranta, in un momento di supremo abbandono: congiunge le mani, ma senza nessuna forza, neppure d'alzarle: gli occhi alza al cielo. Lei è nell'attitudine medesima che il Bartolini scolpisce, e il Giusti dipinge la giovine che si rivolge a Dio con fiducia nel suo massimo dolore: <l> Sulle ginocchia il bel corpo abbandona </l>
+          <l>Soavemente e l'una e l'altra palma.</l>
+          <l> Un dolor stanco, una celeste calma </l>
+          <l> Le appar diffusa in tutta la persona; </l>
+          <l> Ma nella fronte che con Dio ragiona </l>
+          <l> Balena l'immortal raggio dell'alma. </l>
+        </note>
+        <note xml:id="Petrocchi_cap36-n217" type="comm" target="quarantana/cap36.xml#c36_12367" targetEnd="quarantana/cap36.xml#c36_12369">
+          <ref rend="bold">alzando gli occhi</ref>:  levando gli occhi. V. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n218" type="comm" target="quarantana/cap36.xml#c36_12379" targetEnd="quarantana/cap36.xml#c36_12380">
+          <ref rend="bold">tirarmi a</ref>:  prendermi con. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n219" type="comm" target="quarantana/cap36.xml#c36_12388" targetEnd="quarantana/cap36.xml#c36_12393">
+          <ref rend="bold">cominciavo a sperare che col tempo</ref>:  Lucia era lontana ancora dal cominciare la strada dell'oblio, tanto sentiva potente l'amore per Renzo! Neanche il voto c'era riuscito.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n220" type="comm" target="quarantana/cap36.xml#c36_12402" targetEnd="quarantana/cap36.xml#c36_12405">
+          <ref rend="bold">dirmele proprio sul viso</ref>:  dirmele a me in sulla faccia. C'è questo pleonasmo dell'uso, ma à del villano, e non stava bene qui. Anche faccia aveva un colore eccessivo e un po' villano.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n221" type="comm" target="quarantana/cap36.xml#c36_12429">
+          <ref rend="bold">Quelli</ref>:  Quei. Letter. poetico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n222" type="comm" target="quarantana/cap36.xml#c36_12431">
+          <ref rend="bold">moiono</ref>:  muoiono. Di questi <hi rend="italic">u</hi> vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n223" type="comm" target="quarantana/cap36.xml#c36_12434">
+          <ref rend="bold">Iddio</ref>:  Dio. È lo stesso, ma pare meno affettuoso. Avverti in questa proposizione l'anacoluto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n224" type="comm" target="quarantana/cap36.xml#c36_12440">
+          <ref rend="bold">anderanno</ref>:  andranno. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n225" type="comm" target="quarantana/cap36.xml#c36_12490" targetEnd="quarantana/cap36.xml#c36_12491">
+          <ref rend="bold">Cosa dite?</ref>:  Che dite voi? Meno naturale, qui, meno affettuoso e lacrimevole.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n226" type="comm" target="quarantana/cap36.xml#c36_12512" targetEnd="quarantana/cap36.xml#c36_12515">
+          <ref rend="bold">meglio io che voi</ref>:  meglio io che non voi. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n227" type="comm" target="quarantana/cap36.xml#c36_12536" targetEnd="quarantana/cap36.xml#c36_12538">
+          <ref rend="bold">una vostra idea</ref>:  una vostra idea di voi. Volg., e qui stridente.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n228" type="comm" target="quarantana/cap36.xml#c36_12545">
+          <ref rend="bold">Promettetele</ref>:  Renzo congiungeva con molta sollecitudine e buon senso l'ideale al reale; ma certamente (mettiamoci nei panni di Lucia!) l'idea affacciata da Renzo era arditissima: sarebbe stato lo stesso che parlar così a un'amante che si fosse fatta monaca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n229" type="comm" target="quarantana/cap36.xml#c36_12573" targetEnd="quarantana/cap36.xml#c36_12579">
+          <ref rend="bold">queste son divozioni che hanno più costrutto</ref>:  Avverti la nessuna bigotteria e il sentimento vivissimo della religione vera che l'A. manifesta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n230" type="comm" target="quarantana/cap36.xml#c36_12593" targetEnd="quarantana/cap36.xml#c36_12599">
+          <ref rend="bold">quello... sapete</ref>:  quello che vi diciate: non sapete. <hi rend="italic">Quello che vi dite</hi> come indicativo è più energico; <hi rend="italic">non lo sapete</hi> insiste meglio sulla cosa. Per il senso avverti la coerenza gentile e nobile di Lucia, che non vuol piegare al suo, per quanto grande, affetto privato quel che le pare devozione e promessa divina
+                     </note>
+        <note xml:id="Petrocchi_cap36-n231" type="comm" target="quarantana/cap36.xml#c36_12606" targetEnd="quarantana/cap36.xml#c36_12608">
+          <ref rend="bold">non ci siete</ref>:  non siete. Uso. Senza il <hi rend="italic">ci</hi> sarebbe sbiadito.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n232" type="comm" target="quarantana/cap36.xml#c36_12617" targetEnd="quarantana/cap36.xml#c36_12618">
+          <ref rend="bold">Andate, andate</ref>:  Lasciatemi, lasciatemi. Include dei legami precedenti e anche presenti; cosa che Lucia non ammette, ritenendosi assolutamente non più sua fin dal tempo del voto. <hi rend="italic">Andate</hi> si dice a chi non à che fare con noi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n233" type="comm" target="quarantana/cap36.xml#c36_12626">
+          <ref rend="bold">impetuosamente</ref>:  Avverti l'energia di quest'avverbio, che dice tutta la forte decisione di Lucia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n234" type="comm" target="quarantana/cap36.xml#c36_12634" targetEnd="quarantana/cap36.xml#c36_12635">
+          <ref rend="bold">disse Renzo</ref>:  diss'egli. Era una freddura.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n235" type="comm" target="quarantana/cap36.xml#c36_12637">
+          <ref rend="bold">moversi</ref>:  muoversi. Per gli <hi rend="italic">u</hi>, vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n236" type="comm" target="quarantana/cap36.xml#c36_12651" targetEnd="quarantana/cap36.xml#c36_12653">
+          <ref rend="bold">«Uomo senza cuore!»</ref>:  Perché la strazia per un suo creduto proprio e semplice egoismo, senz'aver pietà del suo caso. Ma in Renzo non è egoismo, è amore, amore grande. Il T. nota: «Divino, ma così due villani non parlano.» Naturale, non è mica un romanzo di villani né da villani, Abbiamo detto più volte altrove di questo, e rimandiamo all'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n237" type="comm" target="quarantana/cap36.xml#c36_12656" targetEnd="quarantana/cap36.xml#c36_12658">
+          <ref rend="bold">voltandosi, rattenendo</ref>:  volgendosi, e tenendo. Volgendosi, lett.; il resto, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n238" type="comm" target="quarantana/cap36.xml#c36_12662">
+          <ref rend="bold">lacrime</ref>:  lagrime. V.l'ind. 
+                     </note>
+          <note xml:id="Petrocchi_cap36-n239" type="comm" target="quarantana/cap36.xml#c36_12676" targetEnd="quarantana/cap36.xml#c36_12781">  
+            <ref rend="bold">delle parole che sarebbero forse peccati</ref>: Si ripete ancora lo strazio d'Ermengarda: il contrasto tra l'amore e la religione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n240" type="comm" target="quarantana/cap36.xml#c36_12689" targetEnd="quarantana/cap36.xml#c36_12693">
+          <ref rend="bold">me</ref>:  si vede che non: me:non. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n241" type="comm" target="quarantana/cap36.xml#c36_12766" targetEnd="quarantana/cap36.xml#c36_12769">
+          <ref rend="bold">non pensate a me</ref>:  non vi ricordate di me. <hi rend="italic">Ricordare</hi> è più; v. anche l'indice. Se Renzo l'avesse ricordata, avrebbe richiamato la passione nel proprio cuore. Lucia chiede che la dimentichi; ma se un semplice pensiero di lei gli può attraversare la mente, sia solo quando prega.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n242" type="comm" target="quarantana/cap36.xml#c36_12773">
+          <ref rend="bold">pregherete</ref>:  pregate. È troppo assoluto, un'imposizione soverchia, mentre nel pregherete c'è soltanto un amorevole consiglio, un supplichevole richiamo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n243" type="comm" target="quarantana/cap36.xml#c36_12787" targetEnd="quarantana/cap36.xml#c36_12788">
+          <ref rend="bold">sentir altro</ref>:  altro intendere. <hi rend="italic">Sentire</hi> è più generico, più ampio, più spiccio; <hi rend="italic">intendere</hi> richiederebbe il ragionamento; con sentire Lucia esclude anche la minima parola.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n244" type="comm" target="quarantana/cap36.xml#c36_12800">
+          <ref rend="bold">vicino</ref>:  presso. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n245" type="comm" target="quarantana/cap36.xml#c36_12803">
+          <ref rend="bold">dov'era</ref>:  dove giaceva. La mercantessa era convalescente, e non obbligata più a star distesa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n246" type="comm" target="quarantana/cap36.xml#c36_12817" targetEnd="quarantana/cap36.xml#c36_12819">
+          <ref rend="bold">accostarsele di più</ref>:  farsele più accanto. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n247" type="comm" target="quarantana/cap36.xml#c36_12825">
+          <ref rend="bold">Sentite</ref>:  Renzo disubbidisce súbito al precetto; amore non conosce leggi, né imposizioni. E forse quel nome è caro a Lucia per un'altra ragione: chi sa quante volte aveva pensato così: se mi potessi incontrare con padre Cristoforo, gli parlerei del mio voto, per riceverne conforto all'animo travagliato!
+                     </note>
+        <note xml:id="Petrocchi_cap36-n248" type="comm" target="quarantana/cap36.xml#c36_12829">
+          <ref rend="bold">Che?</ref>:  Lucia pure disubbidisce al suo stesso precetto. Rammentati quant'abbiamo già detto: Lucia e padre Cristoforo ignorano la presenza l'uno dell'altro nel lazzeretto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n249" type="comm" target="quarantana/cap36.xml#c36_12862">
+          <ref rend="bold">appestati</ref>:  infermi. È più lett. e meno esatto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n250" type="comm" target="quarantana/cap36.xml#c36_12881" targetEnd="quarantana/cap36.xml#c36_12883">
+          <ref rend="bold">esitava così a</ref>:  tentennava così nel. Era eccessivo: è quando l'esitazione s'accompagna per lo più con la lentezza della persona.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n251" type="comm" target="quarantana/cap36.xml#c36_12914" targetEnd="quarantana/cap36.xml#c36_12916">
+          <ref rend="bold">Oh povero sant'uomo!</ref>:  Qui Lucia si corrègge, perché sente di doverlo compatire come uomo, non come santo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n252" type="comm" target="quarantana/cap36.xml#c36_12930" targetEnd="quarantana/cap36.xml#c36_12931">
+          <ref rend="bold">levato, gira</ref>:  in piedi, va attorno. <hi rend="italic">In piedi</hi> non implica l'idea della malattia, né sempre era in piedi anche essendo colpito dal morbo: ora era in ginocchioni al letto d'un infermo, ora a sedere mangiando una minestra, era a diacere un'ora su un saccone per prendere un po' di riposo. Per questo è magra e strana l'osservazione del Rig. che dice: « È <hi rend="italic">levato</hi>. Parrebbe che fosse <hi rend="italic">levato</hi> di letto. Migliore la prima lezione: È in piedi.» <hi rend="italic">Va attorno</hi> è piuttosto dialettale lombardo; v. anche l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n253" type="comm" target="quarantana/cap36.xml#c36_12940">
+          <ref rend="bold">colore</ref>:  cera. È meno comune in questo senso: si riferirebbe più all'espressione del viso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n254" type="comm" target="quarantana/cap36.xml#c36_12948">
+          <ref rend="bold">visti</ref>:  veduti. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n255" type="comm" target="quarantana/cap36.xml#c36_12958" targetEnd="quarantana/cap36.xml#c36_12964">
+          <ref rend="bold">«Oh poveri noi! E è proprio qui!»</ref>: «Oh! Egli è qui!» Inutile il commento.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n256" type="comm" target="quarantana/cap36.xml#c36_12970" targetEnd="quarantana/cap36.xml#c36_12980">
+          <ref rend="bold">più che da casa vostra a casa mia... se vi ricordate... »</ref>:  Quant'accortezza, collegata all'affetto, in queste parole di Renzo! E quanto dimostra d'avere intese anche quelle Lucia con la sua esclamazione! E vedete poi Renzo il quale continua incalzando, com'un capitano vittorioso che abbia trovato finalmente l'accesso alla difficile inespugnabile rocca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n257" type="comm" target="quarantana/cap36.xml#c36_13017" targetEnd="quarantana/cap36.xml#c36_13022">
+          <ref rend="bold">lui, con la sua propria bocca</ref>:  egli, colla sua bocca. Piú freddo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n258" type="comm" target="quarantana/cap36.xml#c36_13034" targetEnd="quarantana/cap36.xml#c36_13042">
+          <ref rend="bold">al Signore gli piace che un giovine tratti così</ref>:  il Signore ha caro che un giovane ecc. <hi rend="italic">Aver caro</hi> è troppo attivo qui, e troppo confidenziale; <hi rend="italic">al Signore gli piace</hi> costrutto popolare efficacissimo qui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n259" type="comm" target="quarantana/cap36.xml#c36_13070" targetEnd="quarantana/cap36.xml#c36_13073">
+          <ref rend="bold">perché lui non sa</ref>:  perché non sa mica. Uso; per <hi rend="italic">mica</hi> v. anche l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n260" type="comm" target="quarantana/cap36.xml#c36_13074" targetEnd="quarantana/cap36.xml#c36_13078">
+          <ref rend="bold">che sappia lui</ref>:  che sappia egli. Pedantesco.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n261" type="comm" target="quarantana/cap36.xml#c36_13091" targetEnd="quarantana/cap36.xml#c36_13093">
+          <ref rend="bold">senza il parere</ref>:  senza parere. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n262" type="comm" target="quarantana/cap36.xml#c36_13096" targetEnd="quarantana/cap36.xml#c36_13101">
+          <ref rend="bold">Un brav'uomo, un uomo di giudizio</ref>:  II T. dopo una filza di <hi rend="italic">bello</hi>, qui nota: «Questo è troppo... e così tutto il resto fino alla fine: abbreviare il discorso di Renzo e quel di Lucia, che è eterno.» Abbreviare questo discorso significa non aver capito il momento psicologico difficilissimo in cui tutt'e due questi personaggi si trovano. Il giovine lettore stia invece attento in questo finissimo dialogo alla pittura dell'animo soave, innamorato, imbarazzato di Lucia, e quello di Renzo innamorato cotto e pieno d'amarezza e di cruccio, che non riesce a trattenere, e d'accortezze continue. Toglier di qua o di là è rovinar tutto quanto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n263" type="comm" target="quarantana/cap36.xml#c36_13102" targetEnd="quarantana/cap36.xml#c36_13104">
+          <ref rend="bold">come è lui</ref>:  com'egli è. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n264" type="comm" target="quarantana/cap36.xml#c36_13112">
+          <ref rend="bold">sorte</ref>:  sorta. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n265" type="comm" target="quarantana/cap36.xml#c36_13123" targetEnd="quarantana/cap36.xml#c36_13125">
+          <ref rend="bold">visita fatta a</ref>:  visita a. Poteva stare; ma l'uso preferisce l'aggiunta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n266" type="comm" target="quarantana/cap36.xml#c36_13153">
+          <ref rend="bold">compassione</ref>:  pietà. Compassione è più integrale: comprende maggior copia di sentimenti, anche il sentimento di pietà per gli sciagurati; v. anche l'indice. Per il senso, attento. Renzo porta con la descrizione della capanna di Rodrigo moribondo altri e altri colpi sull'animo di Lucia, per prepararla alla propria difesa conclusionale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n267" type="comm" target="quarantana/cap36.xml#c36_13172" targetEnd="quarantana/cap36.xml#c36_13174">
+          <ref rend="bold">far la grazia</ref>:  far grazia. L'articolo determinativo specifica meglio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n268" type="comm" target="quarantana/cap36.xml#c36_13177">
+          <ref rend="bold">meschino</ref>:  poveretto. È meno. Meschino è l'ultimo grado. Qui il Tom. notava: «Goffa parentesi.» Con <hi rend="italic">poveretto</hi> infatti strideva; ma con <hi rend="italic">meschino</hi> va bene: Renzo deve un po' scusare sé stesso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n269" type="comm" target="quarantana/cap36.xml#c36_13221">
+          <ref rend="bold">Lui</ref>:  Egli. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n270" type="comm" target="quarantana/cap36.xml#c36_13234" targetEnd="quarantana/cap36.xml#c36_13243">
+          <ref rend="bold">Ma non capite che, quando è un santo che parla</ref>:  Renzo sempre sincero, ma sempre accorto; Lucia sempre ferma nell'idea del suo dovere. 2
+                     </note>
+        <note xml:id="Petrocchi_cap36-n271" type="comm" target="quarantana/cap36.xml#c36_13270" targetEnd="quarantana/cap36.xml#c36_13271">
+          <ref rend="bold">bensì pregato</ref>:  ben pregato. Era equivoco, ché importerebbe un valore alla preghiera; e per render chiaro il concetto, preferisce il <hi rend="italic">bensì</hi>, quantunque un po' letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n272" type="comm" target="quarantana/cap36.xml#c36_13289" targetEnd="quarantana/cap36.xml#c36_13291">
+          <ref rend="bold">Ma come volete</ref>:  Qui pure bisogna stare attenti all'avvedutezza di Renzo, che non si dissocia mai dalla bontà.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n273" type="comm" target="quarantana/cap36.xml#c36_13293" targetEnd="quarantana/cap36.xml#c36_13294">
+          <ref rend="bold">stia nel</ref>:  stia al. Oh nel dice meglio tutto l'esserci, lo starci e il sorbirsi il male fatto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n274" type="comm" target="quarantana/cap36.xml#c36_13299">
+          <ref rend="bold">poverino</ref>:  poveretto. Questa seconda volta, tanto per variare, e non era male, poteva star poveretto, e fors'anche meglio poveraccio, affettuoso senz'affettazione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n275" type="comm" target="quarantana/cap36.xml#c36_13304">
+          <ref rend="bold">s'accomoda</ref>:  s'aggiusta. Piú volgare; v. anche l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n276" type="comm" target="quarantana/cap36.xml#c36_13313" targetEnd="quarantana/cap36.xml#c36_13316">
+          <ref rend="bold">che ha fatto lui</ref>:  ch'egli ha fatto. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n277" type="comm" target="quarantana/cap36.xml#c36_13318" targetEnd="quarantana/cap36.xml#c36_13322">
+          <ref rend="bold">se voi intendete la ragione</ref>:  se vi mettete alla ragione. Troppo grossolano.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n278" type="comm" target="quarantana/cap36.xml#c36_13334" targetEnd="quarantana/cap36.xml#c36_13339">
+          <ref rend="bold">lui ha fatta la sua penitenza</ref>:  egli ha avuta la sua pena. Meno, e non esatto. Le <hi rend="italic">pene</hi> le ànno tutti, anche i migliori; anzi più un cuore è tenero e amoroso, e più soffre. Non avevano pene Renzo e Lucia?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n279" type="comm" target="quarantana/cap36.xml#c36_13345" targetEnd="quarantana/cap36.xml#c36_13346">
+          <ref rend="bold">Il Signore</ref>:  Dio. Meno affettuoso qui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n280" type="comm" target="quarantana/cap36.xml#c36_13353" targetEnd="quarantana/cap36.xml#c36_13355">
+          <ref rend="bold">per far Lui</ref>:  per far Egli. Letterario, e qui pesante.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n281" type="comm" target="quarantana/cap36.xml#c36_13357" targetEnd="quarantana/cap36.xml#c36_13360">
+          <ref rend="bold">Lasciate fare a Lui</ref>:  Lasciate far a Lui. Quel verbo intero non è senz'importanza: dice un soffermarsi più soave di Lucia su questo pensiero.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n282" type="comm" target="quarantana/cap36.xml#c36_13370" targetEnd="quarantana/cap36.xml#c36_13377">
+          <ref rend="bold">S'io fossi morta quella notte, non gli avrebbe</ref>:  S'io fossi morta quella notte, Dio non gli avrebbe. <hi rend="italic">Dio</hi> si sottintende benissimo; anzi, sottinteso, rende meno pesante l'osservazione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n283" type="comm" target="quarantana/cap36.xml#c36_13416" targetEnd="quarantana/cap36.xml#c36_13417">
+          <ref rend="bold">anche lei</ref>:  anch'ella. Letter, antipatico. E così l'<hi rend="italic">ella</hi> successivo. Per il senso attento a Renzo che ora investe la fortezza di Lucia da tutte le parti: ora anche col mèzzo della madre.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n284" type="comm" target="quarantana/cap36.xml#c36_13426" targetEnd="quarantana/cap36.xml#c36_13428">
+          <ref rend="bold">intender la ragione</ref>:  capire la ragione. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n285" type="comm" target="quarantana/cap36.xml#c36_13457" targetEnd="quarantana/cap36.xml#c36_13461">
+          <ref rend="bold">Renzo! non siete in voi</ref>:  Renzo! voi non siete in voi. Que' due <hi rend="italic">voi</hi> eran un giochetto troppo volg.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n286" type="comm" target="quarantana/cap36.xml#c36_13464" targetEnd="quarantana/cap36.xml#c36_13465">
+          <ref rend="bold">che ve</ref>:  ch'io ve. Meno spiccio, e così gli altri <hi rend="italic">ch'io</hi> successivi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n287" type="comm" target="quarantana/cap36.xml#c36_13487">
+          <ref rend="bold">raccontargli</ref>:  contargli. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n288" type="comm" target="quarantana/cap36.xml#c36_13531">
+          <ref rend="bold">venite</ref>:  tornate. Ammetteva, o non escludeva, l'idea che potesse andarla a trovare in un altro posto. <hi rend="italic">Venite</hi> è esplicito.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n289" type="comm" target="quarantana/cap36.xml#c36_13534" targetEnd="quarantana/cap36.xml#c36_13539">
+          <ref rend="bold">a... tentarmi</ref>:  Dice tutta la passione di Lucia che le faceva sentire la sua virtú molto debole. lui: quegli. Letterario antipatico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n290" type="comm" target="quarantana/cap36.xml#c36_13543">
+          <ref rend="bold">lui</ref>:  egli. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n291" type="comm" target="quarantana/cap36.xml#c36_13567" targetEnd="quarantana/cap36.xml#c36_13569">
+          <ref rend="bold">levatevelo dalla testa</ref>:  toglietevelo del capo. Letter. e meno efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n292" type="comm" target="quarantana/cap36.xml#c36_13582" targetEnd="quarantana/cap36.xml#c36_13584">
+          <ref rend="bold">m'ha fatto patire</ref>:  ne ho patito. Avrebbe dell'invidioso, giacché uno può patire anche senza colpa d'altri.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n293" type="comm" target="quarantana/cap36.xml#c36_13588" targetEnd="quarantana/cap36.xml#c36_13590">
+          <ref rend="bold">anche il cuore</ref>:  anche cuore. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n294" type="comm" target="quarantana/cap36.xml#c36_13594" targetEnd="quarantana/cap36.xml#c36_13596">
+          <ref rend="bold">io in vece</ref>:  io mo. Lombardismo; vedi anche l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n295" type="comm" target="quarantana/cap36.xml#c36_13611" targetEnd="quarantana/cap36.xml#c36_13615">
+          <ref rend="bold">Voi volete dimenticarvi di me</ref>:  Bella e superba questa manifestazione ostinata d'amore.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n296" type="comm" target="quarantana/cap36.xml#c36_13625">
+          <ref rend="bold">prometto</ref>:  protesto. Letter. e da legali.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n297" type="comm" target="quarantana/cap36.xml#c36_13627" targetEnd="quarantana/cap36.xml#c36_13631">
+          <ref rend="bold">che, se mi fate perdere</ref>:  Anche qui Renzo si mostra nella sua piena manifestazione dell'animo eloquentemente sincero. Parla come quando, nei primi tempi, aveva da combatter Lucia, per indurla a far lo sposalizio clandestino. E allora ce la indusse; e spera che, se il voto non s'infrangerà, spera che questa sia buona sementa per indurla al suo volere un'altra volta. Guarda quanto è commovente e pietoso da <hi rend="italic">cosa v'ho fatto io</hi> sino alla fine! Il Tom. nota: «Tutto questo discorso è divino.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n298" type="comm" target="quarantana/cap36.xml#c36_13646">
+          <ref rend="bold">condotta</ref>:  regola. Era da frati. verò: vivrò. Quest'aggiunta non la capisco: vivrò stava benissimo e d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n299" type="comm" target="quarantana/cap36.xml#c36_13662">
+          <ref rend="bold">disgraziato</ref>:  poveretto. Era troppo tenue: qui a Renzo monta ancora la mosca al naso. Sente d'avergli perdonato se tutto va bene; ma se non va bene...
+                     </note>
+        <note xml:id="Petrocchi_cap36-n300" type="comm" target="quarantana/cap36.xml#c36_13667" targetEnd="quarantana/cap36.xml#c36_13670">
+          <ref rend="bold">se gli ho perdonato</ref>:  se non gli ho perdonato. Il <hi rend="italic">non</hi> qui indebolisce.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n301" type="comm" target="quarantana/cap36.xml#c36_13697" targetEnd="quarantana/cap36.xml#c36_13699">
+          <ref rend="bold">Come devo fare?</ref>:  Come ho da fare. V. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n302" type="comm" target="quarantana/cap36.xml#c36_13766" targetEnd="quarantana/cap36.xml#c36_13769">
+          <ref rend="bold">Lucia quando il pianto</ref>:  Dunque Lucia non può trattener il pianto; il suo cuore pieno trabocca. Anche di lei si può ripetere con l'Ariosto (<hi rend="italic">Orl. Fur.</hi> XXIII): <l> Celar si studia [Orlando] il duolo; eppure </l>
+          <l> Quel gli fa forza, e male asconder puollo: </l>
+          <l> Per lacrime e sospir da bocca e d'occhi </l>
+          <l>Convien, voglia o non voglia, alfin che scocchi.</l>
+        </note>
+        <note xml:id="Petrocchi_cap36-n303" type="comm" target="quarantana/cap36.xml#c36_13771">
+          <ref rend="bold">permise</ref>:  concesse. <hi rend="italic">Concedere</hi>, è sodisfare alle richieste altrui; <hi rend="italic">permettere</hi> è dar facoltà, modo di far una cosa. Di qui vedi la proprietà.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n304" type="comm" target="quarantana/cap36.xml#c36_13776">
+          <ref rend="bold">giungendo</ref>:  giugnendo. Letter. accademico. Perché anche qui il Tom. e il Rig. non richiedono quel bellissimo <hi rend="italic">stretto</hi>?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n305" type="comm" target="quarantana/cap36.xml#c36_13782" targetEnd="quarantana/cap36.xml#c36_13786">
+          <ref rend="bold">alzando... gli occhi</ref>:  levando... gli occhi. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n306" type="comm" target="quarantana/cap36.xml#c36_13787" targetEnd="quarantana/cap36.xml#c36_13789">
+          <ref rend="bold">pregni di lacrime</ref>:  notanti nelle lagrime. Non sarebbe brutto, ma pizzica troppo di letter., e di pretensioso; e il M. rifugge da questo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n307" type="comm" target="quarantana/cap36.xml#c36_13794" targetEnd="quarantana/cap36.xml#c36_13800">
+          <ref rend="bold">Voi sapete che, dopo quella notte</ref>:  Pensate dunque se l'amore di Lucia era poco grande.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n308" type="comm" target="quarantana/cap36.xml#c36_13817" targetEnd="quarantana/cap36.xml#c36_13819">
+          <ref rend="bold">fate bene d'invocar</ref>:  l'uso vorrebbe <hi rend="italic">a invocar</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n309" type="comm" target="quarantana/cap36.xml#c36_13857">
+          <ref rend="bold">dicevate</ref>:  diceste. Non c'era la sintassi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n310" type="comm" target="quarantana/cap36.xml#c36_13885" targetEnd="quarantana/cap36.xml#c36_13887">
+          <ref rend="bold">Per carità, Renzo</ref>:  Qui il T. nota: «Bellissimo.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n311" type="comm" target="quarantana/cap36.xml#c36_13897" targetEnd="quarantana/cap36.xml#c36_13905">
+          <ref rend="bold">non mi fate morire... Non sarebbe un buon momento</ref>:  Perché Lucia sente d'aver già infranto il voto nel suo cuore.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n312" type="comm" target="quarantana/cap36.xml#c36_13905">
+          <ref rend="bold">momento</ref>:  punto. Qui aveva dello scherzo. Si dice: morire in buon punto, ma non sarebbe un buon punto. Renzo ora s'è convinto che il voto non è una scusa, che Lucia l'ama ancora, e gli par già d'aver guadagnato la battaglia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n313" type="comm" target="quarantana/cap36.xml#c36_13928" targetEnd="quarantana/cap36.xml#c36_13934">
+          <ref rend="bold">Tornerei se fosse in capo al mondo</ref>:  in capo del mondo. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n314" type="comm" target="quarantana/cap36.xml#c36_13941">
+          <ref rend="bold">sedere</ref>:  sedersi. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n315" type="comm" target="quarantana/cap36.xml#c36_13965">
+          <ref rend="bold">fin</ref>:  infino. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n316" type="comm" target="quarantana/cap36.xml#c36_13969" targetEnd="quarantana/cap36.xml#c36_13970">
+          <ref rend="bold">а осchi</ref>:  ad occhi. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n317" type="comm" target="quarantana/cap36.xml#c36_13980" targetEnd="quarantana/cap36.xml#c36_13981">
+          <ref rend="bold">quella contesa</ref>:  quel dibattito. Letter. v. anche l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n318" type="comm" target="quarantana/cap36.xml#c36_14000">
+          <ref rend="bold">vorranno</ref>:  bisogneranno. Poteva stare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n319" type="comm" target="quarantana/cap36.xml#c36_14018">
+          <ref rend="bold">visto</ref>:  veduto. Un po' meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n320" type="comm" target="quarantana/cap36.xml#c36_14025" targetEnd="quarantana/cap36.xml#c36_14040">
+          <ref rend="bold">tutti i figliuoli.... trasportata</ref>:  tutta quanta la figliolanza: presa, di lì a poco, anch'ella dalla infermità comune, trasportata. <hi rend="italic">Tutta quanta la figliolanza</hi> avrebbe dello scherzo; <hi rend="italic">dalla infermità comune</hi> poteva esser equivoco; e tutta la correzione è secondo l'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n321" type="comm" target="quarantana/cap36.xml#c36_14043" targetEnd="quarantana/cap36.xml#c36_14044">
+          <ref rend="bold">e messa</ref>:  era stata deposta. Si direbbe appena di mobili, di cose, o di persone morte.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n322" type="comm" target="quarantana/cap36.xml#c36_14055" targetEnd="quarantana/cap36.xml#c36_14056">
+          <ref rend="bold">senza avvedersene</ref>:  È sempre così nelle malattie gravi.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n323" type="comm" target="quarantana/cap36.xml#c36_14062">
+          <ref rend="bold">cambiate</ref>:  mutate. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n324" type="comm" target="quarantana/cap36.xml#c36_11430">
+          <ref rend="bold">ugualmente</ref>:  pur. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n325" type="comm" target="quarantana/cap36.xml#c36_14073" targetEnd="quarantana/cap36.xml#c36_14359">
+          <ref rend="bold">tornare in sé... La capanna</ref>:  ricuperare il sentimento, perduto fino dal primo accesso della malattia, nella casa ancora di don Ferrante. Il tugurio. <hi rend="italic">Tornare in sé</hi>, uso; tutta la correzione è più calzante, più agile e più secondo il parlar comune, il quale tollera poco anche quel primo accesso per queste malattie. <hi rend="italic">Tugurio</hi> è spregiativo, e dà idea di miseria in qualche recesso murato o in qualche tana, come quella nel tufo dove abitano i contadini delle campagne romane: non si direbbe di <hi rend="italic">capanna</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n326" type="comm" target="quarantana/cap36.xml#c36_14097">
+          <ref rend="bold">contenere</ref>:  capire. Soltanto in significato figurato.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n327" type="comm" target="quarantana/cap36.xml#c36_14100">
+          <ref rend="bold">persone</ref>:  ospiti. Non userebbe in questo caso: suppone sempre qualcheduno che ospita. Dov'era qui il padrone?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n328" type="comm" target="quarantana/cap36.xml#c36_14113">
+          <ref rend="bold">presto</ref>:  bentosto. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n329" type="comm" target="quarantana/cap36.xml#c36_14117">
+          <ref rend="bold">che</ref>:  quale. Poteva stare. Per il senso avverti: le sciagure come affratellano! E come nella disgrazia Lucia aveva ritrovata la sua fortuna.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n330" type="comm" target="quarantana/cap36.xml#c36_14123" targetEnd="quarantana/cap36.xml#c36_14126">
+          <ref rend="bold">un lungo vivere insieme</ref>:  una lunga consuetudine. Letterario in questo senso, e sbiadito.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n331" type="comm" target="quarantana/cap36.xml#c36_14127" targetEnd="quarantana/cap36.xml#c36_14129">
+          <ref rend="bold">In poco tempo</ref>:  In breve. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n332" type="comm" target="quarantana/cap36.xml#c36_14133" targetEnd="quarantana/cap36.xml#c36_14138">
+          <ref rend="bold">in grado di potere aiutar l'altra</ref>:  a termine di poter prestar servigi all'altra. <hi rend="italic">A termine</hi>, in questo senso, non si dice;<hi rend="italic">prestar servigi</hi> è meno, a intervalli anche rari, mentre <hi rend="italic">aiutare</hi> dice sempre che ci sia il bisogno.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n333" type="comm" target="quarantana/cap36.xml#c36_14147" targetEnd="quarantana/cap36.xml#c36_14150">
+          <ref rend="bold">era fuori di pericolo</ref>:  aveva passato il pericolo. Di malattie è meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n334" type="comm" target="quarantana/cap36.xml#c36_14155">
+          <ref rend="bold">coraggio</ref>:  animo. Qui non si direbbe.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n335" type="comm" target="quarantana/cap36.xml#c36_14160" targetEnd="quarantana/cap36.xml#c36_14161">
+          <ref rend="bold">s'eran promesse</ref>:  s'erano promesso. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n336" type="comm" target="quarantana/cap36.xml#c36_14178" targetEnd="quarantana/cap36.xml#c36_14179">
+          <ref rend="bold">neppur dopo</ref>:  né anche dappoi. Linguaggio disusato, goffo, accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n337" type="comm" target="quarantana/cap36.xml#c36_14185" targetEnd="quarantana/cap36.xml#c36_14186">
+          <ref rend="bold">in custodia</ref>:  sotto la custodia. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n338" type="comm" target="quarantana/cap36.xml#c36_14212">
+          <ref rend="bold">molto</ref>:  troppo. Pareva forse esagerato.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n339" type="comm" target="quarantana/cap36.xml#c36_14214" targetEnd="quarantana/cap36.xml#c36_14216">
+          <ref rend="bold">di quel che</ref>:  che non. Poteva stare; ma è meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n340" type="comm" target="quarantana/cap36.xml#c36_14233" targetEnd="quarantana/cap36.xml#c36_14234">
+          <ref rend="bold">Lucia aveva</ref>:  Al che questa aveva. Il pronome era troppo sbiadito di fronte al nome proprio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n341" type="comm" target="quarantana/cap36.xml#c36_14240" targetEnd="quarantana/cap36.xml#c36_14245">
+          <ref rend="bold">per lei, e per la Provvidenza</ref>:  a lei e alla Provvidenza. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n342" type="comm" target="quarantana/cap36.xml#c36_14247" targetEnd="quarantana/cap36.xml#c36_14249">
+          <ref rend="bold">soltanto fin che</ref>:  solo per fino a quando. Più contorto, e meno d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n343" type="comm" target="quarantana/cap36.xml#c36_14252">
+          <ref rend="bold">nuove</ref>:  novelle. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n344" type="comm" target="quarantana/cap36.xml#c36_14257">
+          <ref rend="bold">sapere</ref>:  intendere. È diverso: <hi rend="italic">intendere</hi> è anche di notizia non cercata; <hi rend="italic">sapere</hi> di notizia che s'aspetta. Avverti che qui in <hi rend="italic">sapere</hi> c'è anche qualcosa di più: un'aspettativa favorevole. Per Lucia, costretta a star lontana dalla madre per paura di don Rodrigo e per la vicinanza pericolosa di Renzo, quella mercantessa rappresentava un'ancora di salvezza. Avverti un'altra cosa: come il M. non abbia pensato di far balenare alla mente di Lucia neanche un'idea lontana di farsi monaca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n345" type="comm" target="quarantana/cap36.xml#c36_14266">
+          <ref rend="bold">riservata</ref>:  riserbata. Uso. Un'altra linea per descrivere la delicatezza di questa giovine.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n346" type="comm" target="quarantana/cap36.xml#c36_14281" targetEnd="quarantana/cap36.xml#c36_14283">
+          <ref rend="bold">detta una parola</ref>:  toccato un motto. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n347" type="comm" target="quarantana/cap36.xml#c36_14288" targetEnd="quarantana/cap36.xml#c36_14290">
+          <ref rend="bold">così gran ribollimento</ref>:  tanto concitamento. Meno comune e meno forte.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n348" type="comm" target="quarantana/cap36.xml#c36_14306" targetEnd="quarantana/cap36.xml#c36_14307">
+          <ref rend="bold">tutt'e due</ref>:  ambe. Letter. accadem.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n349" type="comm" target="quarantana/cap36.xml#c36_14314" targetEnd="quarantana/cap36.xml#c36_14316">
+          <ref rend="bold">si mise subito</ref>:  si fece tosto. Lett. acc.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n350" type="comm" target="quarantana/cap36.xml#c36_14323" targetEnd="quarantana/cap36.xml#c36_14329">
+          <ref rend="bold">che quello che le facevano i singhiozzi</ref>:  fuor quello che i singulti ponevano alle dolenti parole. Roba letteraria. Il Tom. notava: «affettato.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n351" type="comm" target="quarantana/cap36.xml#c36_14332" targetEnd="quarantana/cap36.xml#c36_14333">
+          <ref rend="bold">trottava verso</ref>:  trottava in gran fretta verso. <hi rend="italic">Trottare</hi> e <hi rend="italic">in gran fretta</hi> son contradittori.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n352" type="comm" target="quarantana/cap36.xml#c36_14339" targetEnd="quarantana/cap36.xml#c36_14343">
+          <ref rend="bold">Con un po' di studio</ref>:  È letter.; v. anche l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n353" type="comm" target="quarantana/cap36.xml#c36_14345" targetEnd="quarantana/cap36.xml#c36_14352">
+          <ref rend="bold">non senza dover rifare qualche pezzetto di strada</ref>:  non senza qualche passi perduti. <hi rend="italic">Qualche</hi> al pl., letter., v. l'indice; i <hi rend="italic">passi perduti</hi> che ci avevan che vedere?
+                     </note>
+        <note xml:id="Petrocchi_cap36-n354" type="comm" target="quarantana/cap36.xml#c36_14356">
+          <ref rend="bold">d'arrivarci</ref>:  d'arrivarvi. Letter. accad., e così il non ve successivo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n355" type="comm" target="quarantana/cap36.xml#c36_14368">
+          <ref rend="bold">cercando</ref>:  adocchiando. È piuttosto da persona indifferente.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n356" type="comm" target="quarantana/cap36.xml#c36_14369" targetEnd="quarantana/cap36.xml#c36_14370">
+          <ref rend="bold">nel contorno</ref>:  Troppo vasto; più conforme all'uso com. e all'esattezza: <hi rend="italic">lì</hi> d'intorno.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n357" type="comm" target="quarantana/cap36.xml#c36_14372" targetEnd="quarantana/cap36.xml#c36_14382">
+          <ref rend="bold">vide in una baracca, che, piegato a terra, e quasi bocconi</ref>:  scorse in una trabacca, che, curvo al suolo e quasi boccone. <hi rend="italic">Scorse</hi>, trattandosi di doverlo scoprire dentro una capanna, poteva stare; <hi rend="italic">vide</hi> dice meno difficoltà; <hi rend="italic">trabacca</hi>, v. l'indice; <hi rend="italic">curvo al suolo</hi>, letter. poet.; <hi rend="italic">bocconi</hi>, uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n358" type="comm" target="quarantana/cap36.xml#c36_14386" targetEnd="quarantana/cap36.xml#c36_14389">
+          <ref rend="bold">moribondo. Si fermò lì</ref>:  morente. Ristette. Letterario poet.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n359" type="comm" target="quarantana/cap36.xml#c36_14393" targetEnd="quarantana/cap36.xml#c36_14394">
+          <ref rend="bold">Poco dopo</ref>:  Poco stante. Letter. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n360" type="comm" target="quarantana/cap36.xml#c36_14402" targetEnd="quarantana/cap36.xml#c36_14408">
+          <ref rend="bold">poverino, poi mettersi in ginocchio, far orazione</ref>:  poveretto, rizzarsi poi ginocchione. <hi rend="italic">Poverino</hi> è più compassionevole; v. anche l'indice; <hi rend="italic">mettersi in ginocchio</hi>, uso; <hi rend="italic">rizzarsi</hi> vorrebbe dire in piedi, e <hi rend="italic">rizzossi in ginocchione</hi> parrebbe una contradizione in termini; <hi rend="italic">far orazione</hi>, anche questo troppo lungo e non molto conciliabile con <hi rend="italic">un momento</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n361" type="comm" target="quarantana/cap36.xml#c36_14414" targetEnd="quarantana/cap36.xml#c36_14419">
+          <ref rend="bold">si mosse, e gli andò incontro</ref>:  si trasse innanzi, andò alla volta di lui. Letter. e scialbo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n362" type="comm" target="quarantana/cap36.xml#c36_14437">
+          <ref rend="bold">levata</ref>:  fuor del letto. Non dice la guarigione. Si può esser fuor del letto per tante cose.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n363" type="comm" target="quarantana/cap36.xml#c36_14438" targetEnd="quarantana/cap36.xml#c36_14441">
+          <ref rend="bold">Sia ringraziato il Signore</ref>:  sia lodato il Signore. Meno com. 17. vicino: tanto accosto. Non avrà mica voluto appiccicarglisi a' panni.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n364" type="comm" target="quarantana/cap36.xml#c36_14457" targetEnd="quarantana/cap36.xml#c36_14458">
+          <ref rend="bold">Cosa c'è?</ref>:  Che vuoi tu dire? Si direbbe sentendo un discorso ambiguo; ma qui era chiaro: c'era un altro imbroglio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n365" type="comm" target="quarantana/cap36.xml#c36_14463" targetEnd="quarantana/cap36.xml#c36_14464">
+          <ref rend="bold">lei lo</ref>:  ella. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n366" type="comm" target="quarantana/cap36.xml#c36_14466" targetEnd="quarantana/cap36.xml#c36_14468">
+          <ref rend="bold">come è buona</ref>:  Ecco Renzo che riconosce volentieri la bontà, l'ingenuità, la santità di Lucia come causa di questo guaio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n367" type="comm" target="quarantana/cap36.xml#c36_14472" targetEnd="quarantana/cap36.xml#c36_14478">
+          <ref rend="bold">ma alle volte è un po' fissa</ref>:  santa fino allo scrupolo, all'ostinazione, dove un uomo sarebbe più largo di maniche. È verità e accortezza tutto questo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n368" type="comm" target="quarantana/cap36.xml#c36_14487" targetEnd="quarantana/cap36.xml#c36_14492">
+          <ref rend="bold">quello che sa anche lei, ora</ref>:  quello, ch'ella sa, adesso mo. Lett., lombardismo, ogni cosa un po'.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n369" type="comm" target="quarantana/cap36.xml#c36_14509" targetEnd="quarantana/cap36.xml#c36_14541">
+          <ref rend="bold">s'è scaldata la testa... ma per noi gente ordinaria</ref>:  Renzo non l'annacqua, dice le cose come le sente; e intanto trova nel suo cuore e nella sua testa un'eloquenza e un buon senso mirabili; e quasi accortamente proviene il frate quasi voglia prepararlo come vuole lui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n370" type="comm" target="quarantana/cap36.xml#c36_14547" targetEnd="quarantana/cap36.xml#c36_14548">
+          <ref rend="bold">si devon</ref>:  s'hanno da. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n371" type="comm" target="quarantana/cap36.xml#c36_14557">
+          <ref rend="bold">valgono</ref>:  tengono. Cosi si dice di vasi. <hi rend="italic">Tenere</hi> s'adopra in alcune frasi: <hi rend="italic">Non c'è Cristo che tenga</hi>, <hi rend="italic">Non c'è ragioni che tengano</hi>, e sim.; ma non si può uscire da quelle.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n372" type="comm" target="quarantana/cap36.xml#c36_14558">
+          <ref rend="bold">Dimmi</ref>:  è: È ella. Letter. e freddo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n373" type="comm" target="quarantana/cap36.xml#c36_14584" targetEnd="quarantana/cap36.xml#c36_14590">
+          <ref rend="bold">Vuol dire che lei le farà intendere</ref>:  Vuol dire ch'ella le darà ad intendere. <hi rend="italic">Ch'ella</hi>, letter.; <hi rend="italic">le darà ad intendere</hi> si dice di frottole: Avverti la premura di Renzo, e il suggerire che vorrebbe al frate il suo pensiero. Il padre lo intende, ma non può promettere senza prima conoscer bene le cose.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n374" type="comm" target="quarantana/cap36.xml#c36_14596" targetEnd="quarantana/cap36.xml#c36_14598">
+          <ref rend="bold">ch'io senta lei</ref>:  ch'io senta quello ch'ella sarà per dirmi. Non c'è bisogno di commento.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n375" type="comm" target="quarantana/cap36.xml#c36_14604" targetEnd="quarantana/cap36.xml#c36_14605">
+          <ref rend="bold">con gli</ref>:  cogli. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n376" type="comm" target="quarantana/cap36.xml#c36_14614">
+          <ref rend="bold">incrociate</ref>:  avvolte in. Uso. A questo periodo il T. nota: «Mal detto.» E il Rig. aggiunge: «<hi rend="italic">A masticare la sua incertezza.</hi> Brutta frase adoperata già altre volte dal Manzoni: <hi rend="italic">Masticando la soddisfazione</hi> cap. XI. Certe metafore un po' grossolane si debbono alla smania d'imitare il linguaggio del volgo toscano.» Si debbono alla volontà dell'A. di trovare frasi vive che rendano il concetto vivo; e questa ricerca si fa volentieri dove si sa di trovare; e però si cercano queste frasi anche nel volgo, come faceva Dante, il Machiavelli, il Giusti, il Porta, e tutti gli scrittori che sono buoni pittori e buoni artisti. Qui, del resto, non c'è nulla di volgare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n377" type="comm" target="quarantana/cap36.xml#c36_14615">
+          <ref rend="bold">sul</ref>:  in sul. Volg., cont.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n378" type="comm" target="quarantana/cap36.xml#c36_14653" targetEnd="quarantana/cap36.xml#c36_14654">
+          <ref rend="bold">da Renzo</ref>:  all'aspettante. Troppo letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n379" type="comm" target="quarantana/cap36.xml#c36_14680">
+          <ref rend="bold">momento</ref>:  istante. Letter. accad., degno del Clasio: <l>E suggendo un breve istante </l>
+          <l>Ora questo ed or quel fiore, </l>
+          <l>Nauseata disprezzante </l>
+          <l>«Ah, dicea, «che reo sapore!</l>
+        </note>
+        <note xml:id="Petrocchi_cap36-n380" type="comm" target="quarantana/cap36.xml#c36_14685" targetEnd="quarantana/cap36.xml#c36_14686">
+          <ref rend="bold">Preghiamo; preghiamo!</ref>:  Com'è solenne, nella sua mestizia, questa raccomandazione: pare la mesta parola di Cristo ai discepoli nell'ora che previene il gran disastro.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n381" type="comm" target="quarantana/cap36.xml#c36_14689" targetEnd="quarantana/cap36.xml#c36_14691">
+          <ref rend="bold">ora, conducimi tu</ref>:  adesso guidami. Per <hi rend="italic">adesso</hi>, vedi l'indice; <hi rend="italic">guidami</hi> era troppo: non era un cieco, né si trattava d'andare in un laberinto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n382" type="comm" target="quarantana/cap36.xml#c36_14693" targetEnd="quarantana/cap36.xml#c36_14696">
+          <ref rend="bold">senza dir altro, s'avviarono</ref>:  senz'altro si posero in cammino. <hi rend="italic">Senz'altro</hi> dice troncamento di trattative, discussioni, e una gran risoluzione; <hi rend="italic">si posero in cammino</hi>, esagerato: neanche si trattasse di tornare a Pescarenico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n383" type="comm" target="quarantana/cap36.xml#c36_14703">
+          <ref rend="bold">rabbuiando</ref>:  rabbruscando. È meno. L'autore continua a preparare la grande risciacquata. Attento alla pittura efficacissima.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n384" type="comm" target="quarantana/cap36.xml#c36_14713" targetEnd="quarantana/cap36.xml#c36_14715">
+          <ref rend="bold">De' lampi fitti</ref>:  Spessi lampi. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n385" type="comm" target="quarantana/cap36.xml#c36_14722">
+          <ref rend="bold">chiarore</ref>:  folgore. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n386" type="comm" target="quarantana/cap36.xml#c36_14734" targetEnd="quarantana/cap36.xml#c36_14735">
+          <ref rend="bold">della cappella</ref>:  del tempio. Non era un tempio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n387" type="comm" target="quarantana/cap36.xml#c36_14776">
+          <ref rend="bold">compagno</ref>: suo seguace. Letter. e eccessivo. <hi rend="italic">Compagno</hi> invece suona qui sovranamente cristiano e gentile. Rammenta il <hi rend="italic">compagno</hi> di Dante (<hi rend="italic">Par</hi>. xxv, 19): <l>Sì come
+            quando il colombo si pone </l><l>Presso al compagno, e l'uno all'altro
+            pando</l><l>Girando e mormorando l'affezione,</l> ecc. </note>
+        <note xml:id="Petrocchi_cap36-n388" type="comm" target="quarantana/cap36.xml#c36_14788" targetEnd="quarantana/cap36.xml#c36_14791">
+          <ref rend="bold">stentatamente, alzando ogni tanto</ref>:  faticosamente levando tratto tratto. <hi rend="italic">Stentatamente</hi> dice tanto di più: cammina <hi rend="italic">faticosamente</hi> anche un bambino o un ragazzo pieno di forza, e che ormai sia stanco; per <hi rend="italic">levando</hi>, v. l'indice; e così per <hi rend="italic">tratto tratto</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n389" type="comm" target="quarantana/cap36.xml#c36_14800" targetEnd="quarantana/cap36.xml#c36_14803">
+          <ref rend="bold">un respiro più libero</ref>:  un più libero respiro. Letter. Guarda all'osservazione e alla pitturina veristica.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n390" type="comm" target="quarantana/cap36.xml#c36_14805" targetEnd="quarantana/cap36.xml#c36_14808">
+          <ref rend="bold">quando vide la capanna</ref>:  giunto che fu a vista della capannuccia. Lett.; e <hi rend="italic">capannuccia</hi> era un diminutivo che non aveva luogo, senza dire che sa di presepio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n391" type="comm" target="quarantana/cap36.xml#c36_14812" targetEnd="quarantana/cap36.xml#c36_14813">
+          <ref rend="bold">voltò indietro</ref>:  si volse. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n392" type="comm" target="quarantana/cap36.xml#c36_14815" targetEnd="quarantana/cap36.xml#c36_14817">
+          <ref rend="bold">con voce tremante</ref>:  Avverti la verità psicologica.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n393" type="comm" target="quarantana/cap36.xml#c36_14819">
+          <ref rend="bold">qui</ref>:  la è qui. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n394" type="comm" target="quarantana/cap36.xml#c36_14821">
+          <ref rend="bold">Eccoli!</ref>:  Questa parola dice tutta la conversazione e le spiegazioni date in questo tempo da Lucia alla mercantessa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n395" type="comm" target="quarantana/cap36.xml#c36_14828" targetEnd="quarantana/cap36.xml#c36_14830">
+          <ref rend="bold">si volta, s'alza</ref>:  si volge, si leva. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n396" type="comm" target="quarantana/cap36.xml#c36_14831">
+          <ref rend="bold">precipitosamente</ref>:  Dice la potenza che fra Cristoforo aveva esercitato sull'animo gentile di lei, aperto alla luce benefica della vera parola cristiana.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n397" type="comm" target="quarantana/cap36.xml#c36_14843" targetEnd="quarantana/cap36.xml#c36_14844">
+          <ref rend="bold">Ebbene, Lucia</ref>:  Come suona súbito confortevole la sua parola! E attento alla risposta di Lucia, che non per vana cerimonia s'indirizza alle condizioni di salute del frate, ma perché era grandemente impressionata del mutamento strano e perché non voleva soffermarsi sulla questione del voto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n398" type="comm" target="quarantana/cap36.xml#c36_14879" targetEnd="quarantana/cap36.xml#c36_14885">
+          <ref rend="bold">e come, per sua grazia, voglio anch'io</ref>:  Espressione alta e solenne di nobilissimo cuore.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n399" type="comm" target="quarantana/cap36.xml#c36_14893">
+          <ref rend="bold">tiratala</ref>:  trattala. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n400" type="comm" target="quarantana/cap36.xml#c36_14914" targetEnd="quarantana/cap36.xml#c36_14916">
+          <ref rend="bold">come altre volte?</ref>:  come altra volta? Idem.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n401" type="comm" target="quarantana/cap36.xml#c36_14918" targetEnd="quarantana/cap36.xml#c36_14920">
+          <ref rend="bold">non è lei</ref>:  non è ella. Letter. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n402" type="comm" target="quarantana/cap36.xml#c36_14927" targetEnd="quarantana/cap36.xml#c36_14933">
+          <ref rend="bold">cos'è codesto voto che m'ha detto Renzo?</ref>:  che è codesto voto che Renzo m'ha detto? Uso. Avverti il che per del quale d'uso comunissimo nella lingua parlata, ma rifuggito nella lingua scritta da quelli che non la sanno maneggiare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n403" type="comm" target="quarantana/cap36.xml#c36_14941" targetEnd="quarantana/cap36.xml#c36_14948">
+          <ref rend="bold">Madonna... oh! in una gran tribolazione !... di non</ref>:  Madonna, di non. L'aggiunta importantissima.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n404" type="comm" target="quarantana/cap36.xml#c36_14950">
+          <ref rend="bold">Poverina!</ref>:  Anche quest'aggiunta affettuosa dice tanto: «Povera figliola,» vuol dire, «sento tutta l'angoscia di codesto momento, e vi compatisco.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n405" type="comm" target="quarantana/cap36.xml#c36_14952" targetEnd="quarantana/cap36.xml#c36_14953">
+          <ref rend="bold">avete pensato</ref>:  avete voi pensato. Era troppo aggressivo il pronome.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n406" type="comm" target="quarantana/cap36.xml#c36_14960" targetEnd="quarantana/cap36.xml#c36_14965">
+          <ref rend="bold">Trattandosi del Signore e della Madonna</ref>:  Cioè il Signore e la Madonna, essendo superiori a qualunque persona o cosa umana, credetti di poterle offrire me stessa senza riguardo a persona o cosa umana.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n407" type="comm" target="quarantana/cap36.xml#c36_14970" targetEnd="quarantana/cap36.xml#c36_14977">
+          <ref rend="bold">Il Signore, figliuola, gradisce i sacrifizi, l'offerte, quando</ref>:  C'è molta differenza tra la superiorità cristiana di fra Cristoforo e il cervello angusto di que' pretonzoli e fratonzoli, che pur di cacciare in convento qualcuno o qualcuna, passan sopra a ogni cosa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n408" type="comm" target="quarantana/cap36.xml#c36_14985" targetEnd="quarantana/cap36.xml#c36_14988">
+          <ref rend="bold">che vuole, è la</ref>:  ch'Egli vuole, la. Il pronome, inutile; il verbo, efficace.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n409" type="comm" target="quarantana/cap36.xml#c36_15000" targetEnd="quarantana/cap36.xml#c36_15001">
+          <ref rend="bold">quale v'eravate</ref>:  quale voi vi. Anche qui il pronome era troppo insistente.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n410" type="comm" target="quarantana/cap36.xml#c36_15004" targetEnd="quarantana/cap36.xml#c36_15006">
+          <ref rend="bold">Ho fatto male?</ref>:  Ecco la gentilezza della sua coscienza e della sua indole, che si piega súbito a riconoscere il suo torto; e fors'anche, inconsapevolmente, l'amore.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n411" type="comm" target="quarantana/cap36.xml#c36_15036" targetEnd="quarantana/cap36.xml#c36_15042">
+          <ref rend="bold">non vi siete mai consigliata con nessuno</ref>:  Avverti che la grandezza di fra Cristoforo non le domanda, come avrebbe fatto un altro ecclesiastico meschino, se se ne fosse confessata: un consiglio si può dare da persona autorevole, anche fuori di confessione, come fa ora. Avrebbe potuto, per esempio, domandarne anche a Federigo Borromeo, quando fu nella casa del sarto. E Lucia, altrettanto nobilmente e finamente risponde che in confessione, no, non l'aveva detto, perché non credeva che fosse un male; e fuori nemmeno, perché se non era un male, era un bene; e il bene che si fa, non si racconta. Il Tom. non capisce nulla di tutto questo, e dice: «È un'impossibilità. Al confessore in venti mesi doveva ben dire Lucia la battaglia che sosteneva per... » Il Tom. qui si dimostra un vero teologo di mente (non di cuore) come lo chiamava il Giusti. Il Rig. risponde al Tom.: «Sarà una impossibilità per chi ricorre tutti i giorni al confessore.» Ma non è questa la ragione: Lucia non se se sarebbe mai confessata in cent'anni. In quanto alla confessione, ci sarebbe qui accennata un'altra volta l'idea, come nel principio del romanzo, che ci sono nella vita delicatissimi casi di coscienza i quali non possono essere sciolti che da una grande autorità religiosa? Non sappiamo. Certo, se tutti gli ecclesiastici fossero come fra Cristoforo, se tutti i confessori avessero la sua grandezza di mente e di cuore, chi non sentirebbe il benefizio di simili educatori? Qui sta il punto. Dante dice: perché la confessione sia buona, ci vogliono due chiavi, una d'oro, l'autorità, una d'argento, la sapienza. Se una delle due chiavi falla, la porta del bene non s'apre. E noi non possiamo che dargli ragione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n412" type="comm" target="quarantana/cap36.xml#c36_15049" targetEnd="quarantana/cap36.xml#c36_15054">
+          <ref rend="bold">che fosse male, da dovermene confessare</ref>:  che fosse male confessarmene. È ben più esplicita e chiara la correzione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n413" type="comm" target="quarantana/cap36.xml#c36_15068">
+          <ref rend="bold">raccontarlo</ref>:  contarlo. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n414" type="comm" target="quarantana/cap36.xml#c36_15077" targetEnd="quarantana/cap36.xml#c36_15078">
+          <ref rend="bold">dal mantener</ref>:  dall'adempiere. Letterario, e dice meno. <hi rend="italic">Mantenere</hi> dice la pienezza e la fermezza e convinzione dell'adempimento. Lucia poteva essersi pentita, non amare più Renzo, per sue ragioni speciali; e allora il caso era diverso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n415" type="comm" target="quarantana/cap36.xml#c36_15086" targetEnd="quarantana/cap36.xml#c36_15087">
+          <ref rend="bold">In quanto</ref>:  Quanto. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n416" type="comm" target="quarantana/cap36.xml#c36_15094" targetEnd="quarantana/cap36.xml#c36_15098">
+          <ref rend="bold">non potrei proprio dire...» rispose</ref>:  non potrei dire...» niente altro. Meno conforme all'uso, e alla naturalezza in questo momento psichico di così grand'importanza. La pitturina di Lucia anche qui è vivissima. Il Tommaseo nota: «Troppo fiorito.» Il Rig. gli risponde: «È una bellezza non avvertita dal T.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n417" type="comm" target="quarantana/cap36.xml#c36_15101" targetEnd="quarantana/cap36.xml#c36_15104">
+          <ref rend="bold">un'esitazione che indicava tutt'altro</ref>:  una esitazione così fatta che annunziava. Meno semplice e meno nitida la linea.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n418" type="comm" target="quarantana/cap36.xml#c36_15112" targetEnd="quarantana/cap36.xml#c36_15114">
+          <ref rend="bold">viso ancora scolorito</ref>:  volto ancor discolorito. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n419" type="comm" target="quarantana/cap36.xml#c36_15131" targetEnd="quarantana/cap36.xml#c36_15132">
+          <ref rend="bold">gli occhi</ref>:  lo sguardo. Letter. poet. Per il senso, si domanda: Perché il frate abbassò gli occhi? Per delicatezza, non volendo mostrar d'accorgersi del turbamento di Lucia? O perché assorto nella profondità dell'idea che stava per esprimere? Io direi la prima cosa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n420" type="comm" target="quarantana/cap36.xml#c36_15146" targetEnd="quarantana/cap36.xml#c36_15151">
+          <ref rend="bold">secondo che torni in maggior bene</ref>:  Cioè non per capriccio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n421" type="comm" target="quarantana/cap36.xml#c36_15160">
+          <ref rend="bold">possono</ref>:  ponno. Parola antiquata, ridicola, accademica.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n422" type="comm" target="quarantana/cap36.xml#c36_15180" targetEnd="quarantana/cap36.xml#c36_15553">
+          <ref rend="bold">abbiamo, per tutti... Chiesa</ref>:  Un confessore qualunque à, secondo le leggi canoniche, facoltà di prosciogliere da questi voti. L'autorità poi di cui parla il frate certamente era stata conferita ai cappuccini dall'arcivescovo Borromeo, stante la gravità del momento. In tempi simili vengon date sempre ampie facoltà ai sacerdoti. Documenti speciali della concessione non ce ne sono, ma ci sono della revoca, che è lo stesso. La formula usata dal padre Cristoforo è la comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n423" type="comm" target="quarantana/cap36.xml#c36_15203">
+          <ref rend="bold">chiediate</ref>:  domandiate. È meno e diverso; v. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n424" type="comm" target="quarantana/cap36.xml#c36_15211" targetEnd="quarantana/cap36.xml#c36_15214">
+          <ref rend="bold">contratto a cagion di</ref>:  contratto con. Piú secco, quasi urtante.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n425" type="comm" target="quarantana/cap36.xml#c36_15217" targetEnd="quarantana/cap36.xml#c36_15220">
+          <ref rend="bold">Ma non è peccato</ref>:  ma non è egli peccato. Letter, e volg. Per il senso osserva la non facile acquiescenza di Lucia. Malgrado il suo forte amore, la nobiltà dell'animo la tirava a esser più fida alla sua promessa fatta alla divinità. Povere creature, piene di sentimenti delicatissimi, quando essi sono sincera espressione della loro anima onesta, ci commovono grandemente, e ci spingono a venerarle, non che amarle. Se Lucia avesse accondisceso súbito, tutti sentiamo quanto ne saremmo stati offesi, come di persona assai facile a sottomettersi quando il suo tornaconto glie lo comandava.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n426" type="comm" target="quarantana/cap36.xml#c36_15241" targetEnd="quarantana/cap36.xml#c36_15247">
+          <ref rend="bold">d'una tale inaspettata, bisogna pur dire speranza</ref>:  Al T. non piaceva questo modo, e notava: «Evviva la parentesi!» Non mi è affatto sgradevole. Ma più d'ogni altra cosa avverti qui l'osservazione psicologica: il contrasto fortissimo tra la fortuna inaspettata che le capita e il turbamento che quella fortuna non sia virtuosa. E avverti il contrasto profondo e vero, nel cuore di Lucia, delle due idee: <hi rend="italic">inaspettata</hi> e <hi rend="italic">speranza</hi>!
+                     </note>
+        <note xml:id="Petrocchi_cap36-n427" type="comm" target="quarantana/cap36.xml#c36_15302" targetEnd="quarantana/cap36.xml#c36_15307">
+          <ref rend="bold">in che maniera voi due siete</ref>:  come voi due siate. Quel <hi rend="italic">come</hi> pare più asciutto; e il <hi rend="italic">siate</hi> troppo rilassato.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n428" type="comm" target="quarantana/cap36.xml#c36_15316" targetEnd="quarantana/cap36.xml#c36_15317">
+          <ref rend="bold">m'è parso</ref>:  m'è potuto parere. Uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n429" type="comm" target="quarantana/cap36.xml#c36_15324" targetEnd="quarantana/cap36.xml#c36_15327">
+          <ref rend="bold">voi altri eravate quelli</ref>:  voi eravate, voi siete quelli. Il <hi rend="italic">voi altri</hi> più affettuoso; la distinzione de' due tempi troppo pedantesca.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n430" type="comm" target="quarantana/cap36.xml#c36_15372" targetEnd="quarantana/cap36.xml#c36_15374">
+          <ref rend="bold">non esiterò a</ref>:  non dubiterò di. È fiacco: non dubiterò ammetteva la possibilità d'un dubbio anteriore; mentre non esiterò ammetteva sole la mancanza di risoluzione nell'affrontare un problema.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n431" type="comm" target="quarantana/cap36.xml#c36_15376" targetEnd="quarantana/cap36.xml#c36_15378">
+          <ref rend="bold">e desidero anzi</ref>:  Gentilezza di padre Cristoforo e nobiltà e dignità d'uomo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n432" type="comm" target="quarantana/cap36.xml#c36_15379" targetEnd="quarantana/cap36.xml#c36_15382">
+          <ref rend="bold">che me lo chiediate</ref>:  che lo domandiate. Il <hi rend="italic">me</hi> è affettuoso e confidenziale; per <hi rend="italic">domandiate</hi>, v. l'indice; e così per il successivo <hi rend="italic">lo chiedo</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n433" type="comm" target="quarantana/cap36.xml#c36_15412">
+          <ref rend="bold">cantuccio</ref>:  canto. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n434" type="comm" target="quarantana/cap36.xml#c36_15415">
+          <ref rend="bold">lontano</ref>:  discosto. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n435" type="comm" target="quarantana/cap36.xml#c36_15418" targetEnd="quarantana/cap36.xml#c36_15421">
+          <ref rend="bold">non poteva far altro</ref>:  altro non poteva. Letter. Attento alla pitturina in una semplice linea.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n436" type="comm" target="quarantana/cap36.xml#c36_15422" targetEnd="quarantana/cap36.xml#c36_15423">
+          <ref rend="bold">fisso fisso</ref>:  fiso fiso. Letter. accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n437" type="comm" target="quarantana/cap36.xml#c36_15432" targetEnd="quarantana/cap36.xml#c36_15440">
+          <ref rend="bold">quando quello fu lì, disse, a voce più alta</ref>:  avutol presso, con voce spiegata. Roba accademica. Per il senso osserva: Perché chiamò li Renzo allora e non prima? Perché prima Lucia doveva esser libera d'esporre le sue idee senza riguardi di sorta; dopo, Renzo doveva assistere alla concinsione che tanto l'interessava.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n438" type="comm" target="quarantana/cap36.xml#c36_15445" targetEnd="quarantana/cap36.xml#c36_15446">
+          <ref rend="bold">che ho</ref>:  che tengo. Meno com., e meno piena.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n439" type="comm" target="quarantana/cap36.xml#c36_15472" targetEnd="quarantana/cap36.xml#c36_15474">
+          <ref rend="bold">Pensi il lettore</ref>:  Il Tomm. qui nota: «Fiacco.» Ma non vedo che cosa mai dovesse dire di più.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n440" type="comm" target="quarantana/cap36.xml#c36_15494" targetEnd="quarantana/cap36.xml#c36_15495">
+          <ref rend="bold">cercò subito</ref>:  tosto cercò. Letter. Per il senso, a questo pensiero il Tom. nota: «Bello. »
+                     </note>
+        <note xml:id="Petrocchi_cap36-n441" type="comm" target="quarantana/cap36.xml#c36_15509" targetEnd="quarantana/cap36.xml#c36_15510">
+          <ref rend="bold">d'una volta</ref>:  di prima. Meno chiaro.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n442" type="comm" target="quarantana/cap36.xml#c36_15516">
+          <ref rend="bold">chiedete</ref>:  domandate. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n443" type="comm" target="quarantana/cap36.xml#c36_15545">
+          <ref rend="bold">voltandosi</ref>:  volgendosi. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n444" type="comm" target="quarantana/cap36.xml#c36_15548" targetEnd="quarantana/cap36.xml#c36_15549">
+          <ref rend="bold">ricordati, figliuolo</ref>:  Il T. nota: «Fiacco.» No, è una nota del frate che tende con molta naturalezza e accortezza artistica e finezza di sentimento a temperare l'eccesso della consolazione in Renzo, rammentandogli i suoi doveri. È tanto reale la cosa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n445" type="comm" target="quarantana/cap36.xml#c36_15571" targetEnd="quarantana/cap36.xml#c36_15572">
+          <ref rend="bold">anche potesse</ref>:  potesse pure. Per <hi rend="italic">pure</hi>, v. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n446" type="comm" target="quarantana/cap36.xml#c36_15580">
+          <ref rend="bold">dovrebbe</ref>:  avrebbe a. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n447" type="comm" target="quarantana/cap36.xml#c36_15605" targetEnd="quarantana/cap36.xml#c36_16416">
+          <ref rend="bold">Amatevi come compagni di viaggio... per sempre</ref>:  Il T. nota: «Bellissimo.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n448" type="comm" target="quarantana/cap36.xml#c36_15624" targetEnd="quarantana/cap36.xml#c36_15625">
+          <ref rend="bold">Ringraziate il</ref>:  Rendete grazie al. Letter. Per il senso il T. nota: «Divino periodo.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n449" type="comm" target="quarantana/cap36.xml#c36_15636">
+          <ref rend="bold">delle</ref>:  alle. <hi rend="italic">Per mezzo alle</hi> eran piuttosto separate da loro: <hi rend="italic">per mezzo delle</hi> n'erano parte integrale.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n450" type="comm" target="quarantana/cap36.xml#c36_15666">
+          <ref rend="bold">istillar</ref>:  instillar. Lett.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n451" type="comm" target="quarantana/cap36.xml#c36_15693">
+          <ref rend="bold">visto</ref>:  veduto. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n452" type="comm" target="quarantana/cap36.xml#c36_15717" targetEnd="quarantana/cap36.xml#c36_15718">
+          <ref rend="bold">un ricordo</ref>:  una memoria. Potrebbe esser equivoco: una cosa scritta.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n453" type="comm" target="quarantana/cap36.xml#c36_15724">
+          <ref rend="bold">levò</ref>:  cavò. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n454" type="comm" target="quarantana/cap36.xml#c36_15731">
+          <ref rend="bold">ordinario</ref>:  dozzinale. Si dice piuttosto di persone; e tra le cose, non comune per quelle di legno; ossia si dice del lavoro, non della materia.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n455" type="comm" target="quarantana/cap36.xml#c36_15735">
+          <ref rend="bold">lustrata</ref>:  polita. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n456" type="comm" target="quarantana/cap36.xml#c36_15743" targetEnd="quarantana/cap36.xml#c36_15745">
+          <ref rend="bold">qui dentro c'è</ref>:  qui dentro è. Piú lett. il resto di quel pane. Quanta gentilezza e melanconia in questo ricordo! Anche Cristo voleva essere rammentato da' suoi discepoli nel pane.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n457" type="comm" target="quarantana/cap36.xml#c36_15755">
+          <ref rend="bold">chiesto</ref>:  domandato;
+                     </note>
+        <note xml:id="Petrocchi_cap36-n458" type="comm" target="quarantana/cap36.xml#c36_15763">
+          <ref rend="bold">sentito</ref>:  inteso. Vedi l'indice. Il Tomm. notava: «<hi rend="italic">di cui avete inteso parlare</hi> è affettato.» Se l'osservazione va per <hi rend="italic">inteso</hi>, il Manzoni l'à contentato.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n459" type="comm" target="quarantana/cap36.xml#c36_15767" targetEnd="quarantana/cap36.xml#c36_15769">
+          <ref rend="bold">a voi altri</ref>:  serbatelo; fatelo vedere ai vostri figlioli: a voi: conservatelo; mostratelo ai vostri figliuoli! A voi altri più affettuoso; serbatelo e mostratelo, v. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n460" type="comm" target="quarantana/cap36.xml#c36_15776" targetEnd="quarantana/cap36.xml#c36_15780">
+          <ref rend="bold">Verranno in un tristo mondo</ref>:  Bellissima apostrofe che significa: essi saranno, perché poveri, provocati spesso dai prepotenti perché perdan la calma, e così farsi ragione martoriandoli, sterminandoli con la scusa che son birbanti e che si sono ribellati: non date occasione di farlo: perdonate, e lasciate, senza per questo trascurare il vostro meglio, che la prepotenza si consumi dentro sé con la sua rabbia. Di fronte a voi umili, ma pacifici, ma concordi e fermi nel bene, la loro prepotenza sarà costretta a non insistere: toccherà a loro a piegarsi e a calare le ali. È questa, del resto, nient'altro che la pura e semplice e benintesa religione di Cristo, un po' troppo perduta di vista, ma che tornerà, è da sperare, finalmente alla luce. Si può dire che le parole di Cristoforo non sono che il sunto di quelle evangeliche. Un giornale cattolico di Roma, derivandole probabilmente da uno scrittore cristiano antico, le riassumeva non è molto così: «Ο cristiani, voi verserete il vostro sangue; i tiranni vi spoglieranno del vostro avere e della vostra vita: lupi rapaci e feroci si precipiteranno su voi, gregge di Cristo. E voi proclamerete altamente l'uguaglianza e la fratellanza cristiana, la giustizia e la carità come le vuole Iddio. Non torcerete un capello a nessuno; non commetterete violenze per quanto provocati; sarete soprattutto giusti, onesti, buoni: incarnerete la civiltà cristiana. E dopo una lunga ingiustizia voi trionferete immacolati: vedrete il gran miracolo del Signore. E il miracolo sarà questo: l'epulone si stancherà di mangiare il pane rubato a voi; il tiranno si accascerà spossato tra i cadaveri delle sue vittime. Il parassita e il despota s'inginocchieranno davanti a voi, e vi chiederanno la grazia d'ammetterli come neofiti. Allora, come Zaccheo, costoro vi renderanno il quadruplo del maltolto; e si di ranno e saranno vostri fratelli. Perché la giustizia pura, non macchiata da odio, da cupidigia, da brutalità, trionferà irresistibilmente.» E difatti trionfò. Peccato che poi i cristiani, una volta vincitori, diven taron essi tiranni feroci non meno dei pagani, perché già, è inutile dissimularlo o negarlo, i tempi che il Manzoni descrive non sono che tempi cristiani; e quelli che fra Cristoforo annunziava eran più cristiani che mai.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n461" type="comm" target="quarantana/cap36.xml#c36_15781" targetEnd="quarantana/cap36.xml#c36_15784">
+          <ref rend="bold">e in tristi tempi</ref>:  in un secolo doloroso. Lett. in questo senso: non significa già nel sec. XVII, né nel sec. XVIII o XIX, ma in tutti i tempi, finché la prepotenza regna.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n462" type="comm" target="quarantana/cap36.xml#c36_15795" targetEnd="quarantana/cap36.xml#c36_15799">
+          <ref rend="bold">perdonino sempre, sempre! tutto, tutto!</ref>:  Anche fra Girol. Savonarola vero frate cristiano, che predicava contro lo scellerato papa Alessandro VI, e questo lo invitava a Roma offrendogli il cappello cardinalizio, il Savonarola rispondeva: «Preferisco il mio mantello straccio: no, no, mio Dio, io non voglio mitre, né cappelli rossi: non voglio se non quello che tu ài dato a' tuoi santi, la morte del mártire. Un cappello rosso, si, ma rosso del mio sangue.» E aggiungeva: «Entrai nel chiostro per imparare a patire, e quando i patimenti vennero a visitarmi, li ò stu diati, e quelli m'ànno insegnato ad amar sempre e sempre perdonare.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n463" type="comm" target="quarantana/cap36.xml#c36_15802" targetEnd="quarantana/cap36.xml#c36_15808">
+          <ref rend="bold">preghino, anche loro, per il povero frate!</ref>:  preghino pel povero frate! <hi rend="italic">Pel</hi>, letter.; <hi rend="italic">anche loro</hi> era necessario: non erano i soli a ricordarsi di lui.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n464" type="comm" target="quarantana/cap36.xml#c36_15815" targetEnd="quarantana/cap36.xml#c36_15822">
+          <ref rend="bold">che la prese con rispetto, come si farebba</ref>:  da cui fa presa con riverenza, come si sarebbe fatto. <hi rend="italic">Che la prese</hi>, più diretto; <hi rend="italic">riverenza</hi>, era sbiadito; si farebbe, più presente e efficace,
+                     </note>
+        <note xml:id="Petrocchi_cap36-n465" type="comm" target="quarantana/cap36.xml#c36_15829">
+          <ref rend="bold">tranquilla</ref>:  pacata. Non c'era l'ira, che è il contrario di pace (<hi rend="italic">pacata</hi>); ma l'entusiasmo, la commozione.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n466" type="comm" target="quarantana/cap36.xml#c36_15841" targetEnd="quarantana/cap36.xml#c36_15845">
+          <ref rend="bold">d'andare a alloggiare, appena uscita</ref>:  di poter collocarvi all'uscir. <hi rend="italic">Di poter collocarvi</hi> è da camerieri; <hi rend="italic">all'uscir di qui</hi>, troppo secco.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n467" type="comm" target="quarantana/cap36.xml#c36_15865" targetEnd="quarantana/cap36.xml#c36_15870">
+          <ref rend="bold">mi fa lei intanto da madre</ref>:  Ecco un'altra ragione d'aver introdotto il personaggio della mercantessa: l'economia del lavoro richiedeva una linea di congiunzione più rapida che quella di far venire Agnese a Milano, la quale poi, non avendo avuta la peste, e dovendo stare con tutti i riguardi, bisognava che non ci venisse.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n468" type="comm" target="quarantana/cap36.xml#c36_15867">
+          <ref rend="bold">lei</ref>:  essa. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n469" type="comm" target="quarantana/cap36.xml#c36_15871" targetEnd="quarantana/cap36.xml#c36_15873">
+          <ref rend="bold">noi due usciremo</ref>:  noi andremo fuor. Avrebbe senso spregiativo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n470" type="comm" target="quarantana/cap36.xml#c36_15913">
+          <ref rend="bold">tenerla</ref>:  tenermi. Poteva stare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n471" type="comm" target="quarantana/cap36.xml#c36_15935" targetEnd="quarantana/cap36.xml#c36_15937">
+          <ref rend="bold">soggiunse poi sottovoce</ref>:  soggiunse a bassa voce. Il <hi rend="italic">poi</hi>, efficace; <hi rend="italic">a bassa voce</hi>, v. l'ind. Osserva la delicatezza della signora.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n472" type="comm" target="quarantana/cap36.xml#c36_15966" targetEnd="quarantana/cap36.xml#c36_15968">
+          <ref rend="bold">un gran sacrifizio</ref>:  De' suoi cari perduti.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n473" type="comm" target="quarantana/cap36.xml#c36_15981" targetEnd="quarantana/cap36.xml#c36_15986">
+          <ref rend="bold">già vedo che è come sua</ref>:  che già vedo come sia diventata sua. Meno semplice e meno d'uso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n474" type="comm" target="quarantana/cap36.xml#c36_15991" targetEnd="quarantana/cap36.xml#c36_15993">
+          <ref rend="bold">lodare il Signore</ref>:  lodar Dio. Meno affettuoso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n475" type="comm" target="quarantana/cap36.xml#c36_15996" targetEnd="quarantana/cap36.xml#c36_15998">
+          <ref rend="bold">sa mostrarsi padre</ref>:  Per quelli che restano, s'intende, non per quelli che se ne vanno. È l'immensa voce della natura che, non ascoltata per tempo, accumula i mali, e li scaraventa sugli uomini; ossia ci se li scaraventano da sé.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n476" type="comm" target="quarantana/cap36.xml#c36_16021">
+          <ref rend="bold">voltandosi</ref>:  volgendosi. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n477" type="comm" target="quarantana/cap36.xml#c36_16026" targetEnd="quarantana/cap36.xml#c36_16028">
+          <ref rend="bold">per una mano</ref>:  per mano. È di chi si guida, non di chi si saluta, e gli si fa una dimostrazione affettuosa,
+                     </note>
+        <note xml:id="Petrocchi_cap36-n478" type="comm" target="quarantana/cap36.xml#c36_16049" targetEnd="quarantana/cap36.xml#c36_16051">
+          <ref rend="bold">la vedrò ancora</ref>:  la vedrò io ancora. Troppo insistente quel pronome.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n479" type="comm" target="quarantana/cap36.xml#c36_16059">
+          <ref rend="bold">nulla</ref>:  niente. Vedi l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n480" type="comm" target="quarantana/cap36.xml#c36_16080">
+          <ref rend="bold">chiedo</ref>:  domando. Vedi l'indice. e ben
+                     </note>
+        <note xml:id="Petrocchi_cap36-n481" type="comm" target="quarantana/cap36.xml#c36_16087">
+          <ref rend="bold">grande</ref>:  grande assai. Meno comune.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n482" type="comm" target="quarantana/cap36.xml#c36_16116" targetEnd="quarantana/cap36.xml#c36_16119">
+          <ref rend="bold">Via; date a Renzo</ref>:  Tronca il discorso per non aver l'aria di trattener troppo la gente sopra di sé.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n483" type="comm" target="quarantana/cap36.xml#c36_16126">
+          <ref rend="bold">Raccontatele</ref>:  Contatele. V. l'ind.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n484" type="comm" target="quarantana/cap36.xml#c36_16136" targetEnd="quarantana/cap36.xml#c36_16141">
+          <ref rend="bold">che ho trovata qui un'altra madre</ref>:  Riconoscenza affettuosa, e detta in modo da non ingelosire troppo la buona Agnese.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n485" type="comm" target="quarantana/cap36.xml#c36_16145">
+          <ref rend="bold">questa</ref>:  essa. Meno com. in questo caso e meno affettuoso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n486" type="comm" target="quarantana/cap36.xml#c36_16158" targetEnd="quarantana/cap36.xml#c36_16161">
+          <ref rend="bold">avete bisogno di danari</ref>:  v'abbisogna danari. Piú volg. e più rude.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n487" type="comm" target="quarantana/cap36.xml#c36_16164" targetEnd="quarantana/cap36.xml#c36_16169">
+          <ref rend="bold">ho qui tutti quelli che m'avete</ref>:  io ho qui addosso tutti quelli che voi mi avete. Quell'<hi rend="italic">addosso</hi> era grossolano; i pronomi troppo insistenti.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n488" type="comm" target="quarantana/cap36.xml#c36_16189" targetEnd="quarantana/cap36.xml#c36_16195">
+          <ref rend="bold">e anche lei, dunque, quella buona signora</ref>:  Qui il <hi rend="italic">quella</hi> è proprio superfluo e difettoso. Come se la trovasse così per la strada! E poi si dice <hi rend="italic">quella signora</hi>; ma non <hi rend="italic">quella buona</hi>. L'aggettivo e il <hi rend="italic">quella</hi> non legano in caso vocativo.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n489" type="comm" target="quarantana/cap36.xml#c36_16204" targetEnd="quarantana/cap36.xml#c36_16205">
+          <ref rend="bold">che sentiva</ref>:  ch'egli sentiva in un tal punto. Il pronome e <hi rend="italic">in un tal punto</hi>, perfettamente inutili.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n490" type="comm" target="quarantana/cap36.xml#c36_16229" targetEnd="quarantana/cap36.xml#c36_16232">
+          <ref rend="bold">disse alle due compagne</ref>:  Fra Cristoforo non accétta l'augurio di rivedersi tutti insieme. Sente la morte vicina, e ne ringrazia Dio.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n491" type="comm" target="quarantana/cap36.xml#c36_16239">
+          <ref rend="bold">dalla</ref>:  della. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n492" type="comm" target="quarantana/cap36.xml#c36_16241" targetEnd="quarantana/cap36.xml#c36_16246">
+          <ref rend="bold">Mancava poco alla sera, e il</ref>:  La sera non era molto lontana, e la crisi del. La correzione è più semplice e più d'uso; però <hi rend="italic">la sera non era molto lontana</hi> non stava male: aveva un non so che di più patetico e di più melanconico non disadatto alla circostanza; <hi rend="italic">la crisi del tempo</hi> non si dice: è frase politica, e in questo caso da giornalisti.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n493" type="comm" target="quarantana/cap36.xml#c36_16249" targetEnd="quarantana/cap36.xml#c36_16253">
+          <ref rend="bold">sempre più vicino a risolversi</ref>:  ancor più imminente. Anche questa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n494" type="comm" target="quarantana/cap36.xml#c36_16256">
+          <ref rend="bold">esibì</ref>:  offerse. È qualcosa di meno: in <hi rend="italic">esibire</hi> c'è il <hi rend="italic">mostrare</hi> e il <hi rend="italic">presentare</hi> nel tempo stesso; <hi rend="italic">offrire</hi> si può anche una cosa lontana.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n495" type="comm" target="quarantana/cap36.xml#c36_16260" targetEnd="quarantana/cap36.xml#c36_16262">
+          <ref rend="bold">giovine di ricoverarlo</ref>:  giovine disalbergato di ricoverarlo. <hi rend="italic">Disalbergato</hi> non si dice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n496" type="comm" target="quarantana/cap36.xml#c36_16266" targetEnd="quarantana/cap36.xml#c36_16268">
+          <ref rend="bold">nella sua baracca</ref>:  nel suo povero soggiorno. Svenevole, accademico.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n497" type="comm" target="quarantana/cap36.xml#c36_16285" targetEnd="quarantana/cap36.xml#c36_16286">
+          <ref rend="bold">sentiva una</ref>:  sentiva addosso una. Poteva stare.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n498" type="comm" target="quarantana/cap36.xml#c36_16295" targetEnd="quarantana/cap36.xml#c36_16297">
+          <ref rend="bold">più a lungo</ref>:  davvantaggio. Letterario.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n499" type="comm" target="quarantana/cap36.xml#c36_16304" targetEnd="quarantana/cap36.xml#c36_16307">
+          <ref rend="bold">poteva profittarne per veder</ref>:  gli sarebbe stato lecito di rivedervi. Il <hi rend="italic">lecito</hi> c'entrava fin a un certo punto: non gli era lecito neanche prima, e nonostante l'aveva vista. Non poteva invece profittarne perché discrezione voleva così. E neanche col padre Cristoforo avrebbe potuto conversare. Che ci faceva dunque in quella capanna tra gli appestati? Meglio all'aperto. La linea è vera, veristica e ideale nel tempo stesso.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n500" type="comm" target="quarantana/cap36.xml#c36_16309" targetEnd="quarantana/cap36.xml#c36_16312">
+          <ref rend="bold">e non avrebbe neppur</ref>:  né pure avrebbe. Meno com.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n501" type="comm" target="quarantana/cap36.xml#c36_16320" targetEnd="quarantana/cap36.xml#c36_16321">
+          <ref rend="bold">In quanto</ref>:  Quanto. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n502" type="comm" target="quarantana/cap36.xml#c36_16336" targetEnd="quarantana/cap36.xml#c36_16342">
+          <ref rend="bold">zeffiro e tramontano, eran tutt'uno per lui</ref>:  zefiro e rovaio erano per lui tutt'uno. Zeffiro, uso; rovaio, lett. poet.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n503" type="comm" target="quarantana/cap36.xml#c36_16346" targetEnd="quarantana/cap36.xml#c36_16349">
+          <ref rend="bold">Ringraziò dunque il frate</ref>:  Rendette dunque grazie. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n504" type="comm" target="quarantana/cap36.xml#c36_16353" targetEnd="quarantana/cap36.xml#c36_16360">
+          <ref rend="bold">andar più presto che fosse possibile in cerca</ref>:  portarsi il più presto a cercar. <hi rend="italic">Portarsi</hi>, v. l'indice; l'aggiunta è d'uso e colorita; <hi rend="italic">in cerca</hi> dice cosa più lunga, più lontana e faticosa.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n505" type="comm" target="quarantana/cap36.xml#c36_16365" targetEnd="quarantana/cap36.xml#c36_16367">
+          <ref rend="bold">strada di mezzo</ref>:  corsia. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n506" type="comm" target="quarantana/cap36.xml#c36_16379" targetEnd="quarantana/cap36.xml#c36_16381">
+          <ref rend="bold">che Dio voglia</ref>:  che Dio il voglia. Letter.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n507" type="comm" target="quarantana/cap36.xml#c36_16386" targetEnd="quarantana/cap36.xml#c36_16389">
+          <ref rend="bold">anche in mio nome</ref>:  Piú com. <hi rend="italic">a nome mio</hi>.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n508" type="comm" target="quarantana/cap36.xml#c36_16431">
+          <ref rend="bold">staccò</ref>:  spiccò. V. l'indice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n509" type="comm" target="quarantana/cap36.xml#c36_16436" targetEnd="quarantana/cap36.xml#c36_16438">
+          <ref rend="bold">stato lì a</ref>:  rimasto a. Direbbe più uno stato di permanenza e d'inerzia; il <hi rend="italic">lì</hi> colorisce.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n510" type="comm" target="quarantana/cap36.xml#c36_16442" targetEnd="quarantana/cap36.xml#c36_16447">
+          <ref rend="bold">non l'ebbe perso di vista, prese</ref>:  lo vide sparire, tirò. <hi rend="italic">Sparire</hi>, troppo rapido; perder di vista dice meglio la lontananza o gli oggetti che lo nascondevano. Anche questa linea è altrettanto vera che pietosa. Dice tutto l'animo affettuoso e riconoscente di Renzo; <hi rend="italic">tirò via</hi>, <hi rend="italic">tirò di lungo</hi> si dice; ma <hi rend="italic">tirò</hi> in questo senso, assolutamente, non si dice.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n511" type="comm" target="quarantana/cap36.xml#c36_16453" targetEnd="quarantana/cap36.xml#c36_16460">
+          <ref rend="bold">dando a destra e a sinistra l'ultime осchiate</ref>:  gittando a dritta e a sinistra gli ultimi sguardi. Letter. accad.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n512" type="comm" target="quarantana/cap36.xml#c36_16463" targetEnd="quarantana/cap36.xml#c36_16468">
+          <ref rend="bold">a quel luogo di dolori. C'era</ref>:  sul dolente campo. V'era. È una nota non brutta, ma troppo letter.: stride. Il Tomm. notava: <hi rend="italic">dolente</hi> è affettato.»
+                     </note>
+        <note xml:id="Petrocchi_cap36-n513" type="comm" target="quarantana/cap36.xml#c36_16472" targetEnd="quarantana/cap36.xml#c36_16489">
+          <ref rend="bold">un correr di monatti... convalescenti</ref>:  uno strascinar di carri, un correr di monatti, un aggiustar le tende delle trabacche, un brancolar di languenti. Tutto più letter.; poi <hi rend="italic">i carri</hi> pareva che non fosse il termine esclusivo: c'erano per tutto i carri tra le capanne? poi il <hi rend="italic">trascinare</hi> vorrebbe dire che li tiravano a mano; e non sono i carri che servono a quest'uso; <hi rend="italic">trasportar di roba</hi> dunque, come più generico, è più esatto; <hi rend="italic">aggiustar</hi> e <hi rend="italic">trabacche</hi>, vedi l'indice; un <hi rend="italic">brancolar di languenti</hi> non sarebbe brutto, ma à intonazione letteraria e poetica; oltr'a questo i languenti sono i malati; e questi brancolavano per strascicarsi ai portici e alle capanne? <hi rend="italic">Convalescenti</hi> è più giusto.
+                     </note>
+        <note xml:id="Petrocchi_cap36-n514" type="comm" target="quarantana/cap36.xml#c36_16497" targetEnd="quarantana/cap36.xml#c36_16499">
+          <ref rend="bold">dalla burrasca imminente</ref>:  dal nembo soprastante. Lett. Il Tomm. nota a tutto questo, com'era nella prima edizione: «Bel periodo, e finisce da maestro.» Corretto, è anche più bello. Di tutto il capitolo dice: «La processione è fiacca; il dialogo è lungo, ma... il dialogo di fra Cristoforo è lungo, ma la chiusa è bellissima: in genere c'è molto languore. Manzoni ha trovato nella storia il cardinal Federigo, l'innominato, la monaca, la fame, il passaggio delle truppe, la peste, e nella peste i cappuccini. Come ravvicinare queste cose, se non coll'invenzione dei promessi sposi? L'invenzione non è che un pretesto per unire insieme questi passi dispersi. Adunque gli episodii in questo Romanzo sono l'importante, e il nodo della cosa è il meno.» A questo genere d'osservazioni vaghe e di nessuna entità, abbiamo risposto altre volte.
+                     </note>
+      </div>
+    </body>
+  </text>
+</TEI>
