@@ -7,6 +7,13 @@
    MOBILE DETECTION AND BASE SETUP
    ======================================== */
 
+/* Hide mobile-only elements on desktop */
+@media (min-width: 769px) {
+  body#page-top .mobile-image-link {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   /* Reset and base mobile styles */
   * {
@@ -158,6 +165,25 @@
   header.masthead {
     padding-top: 4rem !important; /* Balanced reduction - keeps rounded effect */
     padding-bottom: 2rem !important;
+  }
+
+  /* Mobile-only clickable image link on home page */
+  body#page-top .mobile-image-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    display: block !important; /* Override Bootstrap to ensure it shows on mobile */
+  }
+
+  /* Ensure other interactive elements stay above the link */
+  body#page-top .btn-primary {
+    position: relative;
+    z-index: 2;
   }
 
   /* ========================================
