@@ -14,7 +14,8 @@
   }
 }
 
-@media (max-width: 768px) {
+/* Mobile Portrait Mode - Only applies to portrait orientation */
+@media (max-width: 768px) and (orientation: portrait) {
   /* Reset and base mobile styles */
   * {
     box-sizing: border-box;
@@ -988,7 +989,7 @@
 }
 
 /* ========================================
-   MOBILE HOME PAGE ONLY - SEPARATE MEDIA QUERY
+   MOBILE HOME PAGE ONLY - APPLIES TO BOTH ORIENTATIONS
    ======================================== */
 @media screen and (max-width: 768px) {
   /* Mobile home page improvements */

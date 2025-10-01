@@ -1,0 +1,913 @@
+/*!
+ * LeggoManzoni Mobile Landscape Mode
+ * Two-column layout optimized for horizontal mobile screens
+ * Reuses desktop interaction logic with simplified controls
+ */
+
+/* ========================================
+   LANDSCAPE MODE DETECTION
+   Applies only to mobile screens in horizontal orientation
+   Increased to 1024px to cover larger phones and small tablets in landscape
+   ======================================== */
+
+@media (max-width: 1366px) and (orientation: landscape) and (max-height: 800px) {
+
+  /* ========================================
+     BASE LAYOUT SETUP
+     ======================================== */
+
+  /* White background for body instead of green */
+  body {
+    background-color: #ffffff !important;
+    background-image: none !important;
+  }
+
+  /* Hide mobile tab interface in landscape */
+  .mobile-reader-interface {
+    display: none !important;
+  }
+
+  /* Hide large masthead header on reader/traduco pages */
+  body:has(#row-rem) header.masthead,
+  #reader header.masthead,
+  #traduco header.masthead {
+    display: none !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Main section fills viewport and uses flexbox */
+  section {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Show desktop two-column layout */
+  .row#row-rem {
+    display: flex !important;
+    flex: 1 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* ========================================
+     COLUMN CONFIGURATION
+     ======================================== */
+
+  /* Left column: Text content */
+  #colonnaS {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    border-right: 2px solid #e9ecef !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* Right column: Comments/Translations */
+  #colonnaD {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* ========================================
+     SIMPLIFIED CONTROLS - Clean minimal style
+     ======================================== */
+
+  /* Left column controls - clean white background */
+  #fixedContent {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    justify-content: stretch !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    padding: 8px !important;
+    background: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    position: sticky !important;
+    top: 4rem !important;
+    z-index: 10 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
+    min-height: 48px !important;
+  }
+
+  /* Right column controls - clean white background */
+  #fixedContent2 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    justify-content: stretch !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    padding: 8px !important;
+    background: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    position: sticky !important;
+    top: 4rem !important;
+    z-index: 10 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
+    min-height: 48px !important;
+  }
+
+  /* Chapter/Comment dropdown buttons - full width clean style */
+  #fixedContent .btn.dropdown-toggle,
+  #fixedContent2 .btn.dropdown-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+    min-height: 36px !important;
+    background: #ffffff !important;
+    border: 1.5px solid #ddd !important;
+    color: #333 !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    flex: 1 !important;
+    position: relative !important;
+    z-index: 1 !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+    transition: all 0.2s ease !important;
+  }
+
+  #fixedContent .btn.dropdown-toggle:hover,
+  #fixedContent2 .btn.dropdown-toggle:hover {
+    border-color: #73978B !important;
+    box-shadow: 0 2px 4px rgba(115,151,139,0.15) !important;
+  }
+
+  /* Add icon styling */
+  #fixedContent .btn.dropdown-toggle::after,
+  #fixedContent2 .btn.dropdown-toggle::after {
+    content: "▼" !important;
+    margin-left: auto !important;
+    font-size: 10px !important;
+    color: #73978B !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Remove specific width constraints */
+  #toggle-capitoli,
+  #toggle-commenti1 {
+    min-width: 0 !important;
+    max-width: none !important;
+  }
+
+  /* Hide complex desktop controls in landscape - MORE SPECIFIC SELECTORS */
+  #fixedContent button.underline,
+  #fixedContent button.enlarger,
+  #fixedContent button.font-button,
+  #fixedContent button.image-button,
+  #fixedContent .bi-pencil,
+  #fixedContent .bi-pencil-fill,
+  #fixedContent .bi-arrows-angle-expand,
+  #fixedContent .bi-file-earmark-font,
+  #fixedContent .bi-card-image,
+  #fixedContent .bi-image-fill,
+  #fixedContent2 button.add-button,
+  #fixedContent2 button.enlarger,
+  #fixedContent2 button.infoButton,
+  #fixedContent2 .bi-plus-circle,
+  #fixedContent2 .bi-dash-circle,
+  #fixedContent2 .bi-arrows-angle-expand,
+  #fixedContent2 .bi-info-circle,
+  #popupUnderline,
+  #popupL,
+  #popupFont,
+  #popupImage,
+  #popup,
+  #popupR,
+  #popupI {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Always hide second comment/translation dropdown in landscape - too cramped */
+  #toggle-commenti2,
+  #toggle-commenti2.btn.btn-secondary.dropdown-toggle {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+  }
+
+  /* Hide dropdown menus that are not expanded */
+  #fixedContent .dropdown-menu:not(.show),
+  #fixedContent2 .dropdown-menu:not(.show) {
+    display: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  /* Force hide all child buttons except dropdowns - using specific IDs */
+  button#normalPencil,
+  button#fontToChange,
+  button#imageButton,
+  button.underline,
+  button.enlarger,
+  button.font-button,
+  button.image-button,
+  button.add-button,
+  button.infoButton,
+  #fixedContent > button:not(.btn-secondary):not(.dropdown-toggle),
+  #fixedContent2 > button:not(.btn-secondary):not(.dropdown-toggle) {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+  }
+
+  /* ========================================
+     SCROLLABLE CONTENT AREAS
+     ======================================== */
+
+  /* Left column text content */
+  .colonnasinistra {
+    flex: 1 !important;
+    height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 60px 16px 16px 16px !important;
+    margin-top: 0 !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    -webkit-overflow-scrolling: touch !important;
+    background: white !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    white-space: normal !important;
+  }
+
+  #promessisposi {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .text-chapter {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Right column comment content */
+  .colonnadestra {
+    flex: 1 !important;
+    height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    -webkit-overflow-scrolling: touch !important;
+    background: white !important;
+  }
+
+  /* Single comment view */
+  .divisione.singularText {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 60px 16px 16px 16px !important;
+    margin-top: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Split comment view - HIDE IN LANDSCAPE (too cramped) */
+  .divisione:not(.singularText),
+  #bottomDiv {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+  }
+
+  /* Ensure text content areas fill their containers */
+  .text-comment-top,
+  .text-comment-bottom {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #upperDiv {
+    overflow-y: auto !important;
+  }
+
+  #bottomDiv {
+    overflow-y: auto !important;
+  }
+
+  /* ========================================
+     INTERACTIVE ELEMENTS
+     Keep desktop hover/click functionality
+     ======================================== */
+
+  /* Clickable highlighted phrases in text - CRITICAL: must stay inline for proper spacing */
+  .text-chapter .hover-item,
+  i .hover-item,
+  em .hover-item,
+  span.hover-item {
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    /* MUST be inline, not inline-block, for spaces to render correctly */
+    display: inline !important;
+    /* Force visible space after each word span (Cormorant Garamond italic bug workaround) */
+    word-spacing: 0.25em !important;
+    letter-spacing: 0.02em !important;
+    padding-right: 0.2em !important;
+    margin-right: 0 !important;
+  }
+
+  /* Use same highlighting styles as desktop for consistency */
+  .hover-item.highlight {
+    background-color: rgba(244, 239, 197, 0.4) !important;
+    border-bottom: 2px solid #F4EFC5 !important;
+    padding-bottom: 2px !important;
+  }
+
+  /* Selected text highlighting - matches desktop (high specificity) */
+  .text-chapter .highlight-text,
+  .hover-item.highlight-text,
+  span.highlight-text {
+    display: inline !important;
+    padding: 0.5em 0em !important;
+    background-color: #f3edbf !important;
+    box-decoration-break: clone !important;
+    -webkit-box-decoration-break: clone !important;
+    border-bottom: none !important;
+    font-weight: normal !important;
+  }
+
+  /* Corresponding comment highlighting - matches desktop (high specificity) */
+  .text-comment-top .highlight-comment,
+  .text-comment-bottom .highlight-comment,
+  .scroll-item.highlight-comment,
+  span.highlight-comment {
+    display: inline !important;
+    padding: 0.5em 0em !important;
+    background-color: white !important;
+    box-decoration-break: clone !important;
+    -webkit-box-decoration-break: clone !important;
+    box-shadow: -1em 0 0 white, 1em 0 0 white !important;
+  }
+
+
+  /* ========================================
+     DROPDOWN MENUS - Clean mobile style
+     ======================================== */
+
+  .dropdown-menu {
+    min-width: 220px !important;
+    max-height: 320px !important;
+    overflow-y: auto !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+    border: 1px solid #ddd !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+    background: #ffffff !important;
+    padding: 6px 0 !important;
+  }
+
+  .dropdown-item {
+    padding: 12px 16px !important;
+    font-size: 14px !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #333 !important;
+    border-bottom: 1px solid #f5f5f5 !important;
+    transition: background 0.2s ease !important;
+  }
+
+  .dropdown-item:last-child {
+    border-bottom: none !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: #73978B !important;
+  }
+
+  .dropdown-item.active-chapter,
+  .dropdown-item.active-comment {
+    background-color: rgba(115,151,139,0.1) !important;
+    color: #73978B !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #73978B !important;
+    padding-left: 13px !important;
+  }
+
+  /* ========================================
+     TYPOGRAPHY OPTIMIZATION
+     ======================================== */
+
+  /* Text content */
+  .text-chapter h1,
+  .text-chapter h2,
+  .text-chapter h3 {
+    font-size: 1.4rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0.8rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .text-chapter p {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1rem !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    white-space: normal !important;
+  }
+
+  /* Ensure all text elements have proper spacing */
+  .text-chapter,
+  .text-chapter *,
+  .text-chapter em,
+  .text-chapter i,
+  .text-chapter span {
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    font-kerning: normal !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+
+  /* Fix italic text specifically - aggressive spacing fix for Cormorant Garamond bug */
+  .text-chapter em,
+  .text-chapter i {
+    font-style: italic !important;
+    word-spacing: 0.3em !important;
+    letter-spacing: 0.02em !important;
+    /* Force proper font loading */
+    font-feature-settings: normal !important;
+    font-variant-ligatures: none !important;
+    /* Prevent font compression */
+    font-stretch: 100% !important;
+    /* Better rendering - try different engines */
+    text-rendering: optimizeSpeed !important;
+    -webkit-text-size-adjust: 100% !important;
+    /* Force repaint */
+    will-change: transform !important;
+    transform: translateZ(0) !important;
+  }
+
+  /* Comment content */
+  .text-comment-top,
+  .text-comment-bottom {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+  }
+
+  .text-comment-top p,
+  .text-comment-bottom p {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  /* ========================================
+     HEADER AND NAVIGATION
+     ======================================== */
+
+  /* Navigation - match portrait mobile styling */
+  .navbar {
+    min-height: 4rem !important;
+    padding: 0 !important;
+    margin-bottom: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .navbar .container-fluid {
+    height: 4rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 1rem !important;
+    margin: 0 !important;
+  }
+
+  .navbar-toggler {
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    height: auto !important;
+  }
+
+  .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+
+  .navbar-collapse {
+    position: absolute !important;
+    top: 100% !important;
+    right: 1rem !important;
+    left: auto !important;
+    width: auto !important;
+    max-width: 200px !important;
+    background: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    border: 1px solid #e0e0e0 !important;
+    z-index: 1000 !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .navbar-nav {
+    padding: 0.5rem 0 !important;
+    margin: 0 !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem !important;
+    color: #73978B !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    border-bottom: none !important;
+    width: auto !important;
+    display: block !important;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa !important;
+    color: #5a7a6e !important;
+  }
+
+  .navbar .navbar-nav .nav-link.activeNav,
+  .navbar .navbar-nav .nav-link.active,
+  .navbar-collapse .navbar-nav .nav-link.activeNav {
+    background-color: #e8f4f1 !important;
+    color: #2d5a4a !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #73978B !important;
+    border-radius: 4px !important;
+  }
+
+  .navbar-nav .nav-link:last-child {
+    border-top: 1px solid #e0e0e0 !important;
+    margin-top: 0.25rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* ========================================
+     CONTENT PAGES (NEWS, VEDO, PEKINO, CREDITS)
+     ======================================== */
+
+  /* Reduce header spacing for content pages */
+  header.masthead {
+    padding-top: 4.5rem !important;
+    padding-bottom: 1rem !important;
+    min-height: auto !important;
+  }
+
+  /* Hide footer in landscape to maximize content space */
+  footer.bg-light,
+  footer.py-5,
+  footer {
+    display: none !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Fix horizontal overflow on content pages */
+  .testo {
+    max-width: 100% !important;
+    padding: 24px 16px !important;
+    overflow-x: hidden !important;
+  }
+
+  .testo .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .testo h2,
+  .testo p,
+  .testo .image-container {
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .testo img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* ========================================
+     HOME PAGE
+     ======================================== */
+
+  /* Hide NAVIGA button on home page in landscape - users can use image link or menu */
+  body#page-top .btn.btn-primary.btn-xl {
+    display: none !important;
+  }
+
+  /* Hide "Leggo" text title in center - already in navbar */
+  body#page-top .h1titolo {
+    display: none !important;
+  }
+
+  /* Hide firma/signature background area to maximize image space */
+  body#page-top .masthead .firmaTitolo {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Enable mobile image link to ./reader on home page in landscape */
+  body#page-top .mobile-image-link {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Ensure the image container is positioned for the link overlay */
+  body#page-top .masthead .container.image-home {
+    position: relative;
+  }
+
+  /* Compact masthead for home page ONLY in landscape - fill viewport */
+  body#page-top:not([class*="page-"]) .masthead {
+    min-height: 100vh !important;
+    height: 100vh !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Adjust image container height for landscape - maximize image size */
+  body#page-top .masthead .container.image-home {
+    min-height: 80vh !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-top: 70px !important;
+    background-image: url("../img/frontespizio_9.jpg") !important;
+    background-size: contain !important;
+    background-position: center calc(50% + 35px) !important;
+    background-repeat: no-repeat !important;
+  }
+
+  /* Add proper spacing for other static pages (credits, project, etc.) */
+  body#page-top .masthead .page-section {
+    padding-top: 80px !important;
+  }
+
+  /* Hide the row content but keep container size */
+  body#page-top .masthead .container.image-home .row {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Compact footer for home page in landscape - reduce padding */
+  body#page-top footer {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* ========================================
+     SCROLLBAR STYLING
+     ======================================== */
+
+  .colonnasinistra::-webkit-scrollbar,
+  .colonnadestra::-webkit-scrollbar,
+  .divisione::-webkit-scrollbar {
+    width: 6px !important;
+  }
+
+  .colonnasinistra::-webkit-scrollbar-track,
+  .colonnadestra::-webkit-scrollbar-track,
+  .divisione::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+  }
+
+  .colonnasinistra::-webkit-scrollbar-thumb,
+  .colonnadestra::-webkit-scrollbar-thumb,
+  .divisione::-webkit-scrollbar-thumb {
+    background: #73978B !important;
+    border-radius: 3px !important;
+  }
+
+  .colonnasinistra::-webkit-scrollbar-thumb:hover,
+  .colonnadestra::-webkit-scrollbar-thumb:hover,
+  .divisione::-webkit-scrollbar-thumb:hover {
+    background: #5a7a6e !important;
+  }
+
+  /* ========================================
+     CONTAINER AND BOX ADJUSTMENTS
+     ======================================== */
+
+  .container.container1 {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .box-testi {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: calc(100vh - 60px) !important;
+  }
+
+  /* ========================================
+     MODAL SUPPORT (for images)
+     ======================================== */
+
+  #myModal {
+    z-index: 2000 !important;
+  }
+
+  #myModal img {
+    max-width: 90vw !important;
+    max-height: 80vh !important;
+  }
+
+  /* ========================================
+     ACCESSIBILITY
+     ======================================== */
+
+  /* Focus states for touch devices */
+  .hover-item:focus,
+  .dropdown-toggle:focus,
+  .dropdown-item:focus {
+    outline: 2px solid #F4EFC5 !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Larger touch targets */
+  .hover-item {
+    min-height: 28px !important;
+    display: inline-block !important;
+  }
+
+  /* ========================================
+     UTILITY CLASSES
+     ======================================== */
+
+  .hide {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  /* ========================================
+     PERFORMANCE OPTIMIZATIONS
+     ======================================== */
+
+  /* Hardware acceleration for smooth scrolling */
+  .colonnasinistra,
+  .colonnadestra,
+  .divisione {
+    transform: translateZ(0) !important;
+    will-change: scroll-position !important;
+  }
+
+  /* Smooth scroll behavior */
+  .colonnasinistra,
+  .colonnadestra,
+  #upperDiv,
+  #bottomDiv {
+    scroll-behavior: smooth !important;
+  }
+
+  /* ========================================
+     SPECIAL CONTENT HANDLING
+     ======================================== */
+
+  /* Images in text */
+  .text-chapter img,
+  .colonnasinistra img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 12px auto !important;
+    border-radius: 6px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  }
+
+  /* Tables */
+  .text-chapter table,
+  .text-comment-top table,
+  .text-comment-bottom table {
+    font-size: 13px !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+  }
+
+  /* ========================================
+     ERROR AND LOADING STATES
+     ======================================== */
+
+  .not-found-message,
+  .error-message {
+    padding: 20px !important;
+    text-align: center !important;
+    color: #666 !important;
+    font-size: 14px !important;
+  }
+
+  .not-found-message a {
+    color: #73978B !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+  }
+}
+
+/* ========================================
+   LANDSCAPE-SPECIFIC ANIMATIONS
+   ======================================== */
+
+@media (max-width: 1366px) and (orientation: landscape) and (max-height: 800px) {
+
+  @keyframes highlightPulse {
+    0%, 100% {
+      background-color: rgba(115, 151, 139, 0.15);
+    }
+    50% {
+      background-color: rgba(115, 151, 139, 0.3);
+    }
+  }
+
+  .scroll-item.highlight-comment {
+    animation: highlightPulse 1s ease-in-out !important;
+  }
+
+  /* Smooth transitions for interactive elements */
+  .hover-item,
+  .scroll-item {
+    transition: background-color 0.3s ease, border-color 0.3s ease !important;
+  }
+}
+
+/* ========================================
+   HOME PAGE FOOTER - COMPACT FOR ALL LANDSCAPE MODES
+   Applies to landscape viewports beyond the main media query
+   ======================================== */
+
+@media (orientation: landscape) and (max-height: 900px) {
+  /* Reduce footer padding on home page in landscape to save vertical space */
+  body#page-top footer {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}

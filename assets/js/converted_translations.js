@@ -335,12 +335,70 @@ function setupHoverScrolling() {
 
             // Scroll to and highlight the corresponding elements
             if (upperCorrespondingElement) {
-                commentsContainer.scrollTop = upperCorrespondingElement.offsetTop - commentsContainer.offsetTop;
+                // Calculate scroll position to align translation with clicked text
+                const clickedElement = event.target;
+                const clickedTextTop = clickedElement.getBoundingClientRect().top;
+                const commentsContainerTop = commentsContainer.getBoundingClientRect().top;
+                const relativeClickPosition = clickedTextTop - commentsContainerTop;
+
+                // Get translation's position relative to the scroll container
+                const commentRect = upperCorrespondingElement.getBoundingClientRect();
+                const commentRelativeTop = commentRect.top - commentsContainerTop + commentsContainer.scrollTop;
+
+                let desiredScrollTop;
+
+                // If text is above the translation container, just show translation at top
+                if (relativeClickPosition < 0) {
+                    desiredScrollTop = 0;
+                } else {
+                    // Try to align translation with clicked text position
+                    desiredScrollTop = commentRelativeTop - relativeClickPosition;
+
+                    // If negative, translation is near the top, just scroll to 0
+                    if (desiredScrollTop < 0) {
+                        desiredScrollTop = 0;
+                    }
+                }
+
+                // Constrain to valid scroll range
+                const maxScroll = commentsContainer.scrollHeight - commentsContainer.clientHeight;
+                desiredScrollTop = Math.max(0, Math.min(desiredScrollTop, maxScroll));
+
+                commentsContainer.scrollTop = desiredScrollTop;
                 upperCorrespondingElement.classList.add('highlight-comment');
             }
 
             if (isBottomCommentActive && bottomCorrespondingElement) {
-                bottomCommentsContainer.scrollTop = bottomCorrespondingElement.offsetTop - bottomCommentsContainer.offsetTop;
+                // Calculate scroll position to align translation with clicked text
+                const clickedElement = event.target;
+                const clickedTextTop = clickedElement.getBoundingClientRect().top;
+                const bottomContainerTop = bottomCommentsContainer.getBoundingClientRect().top;
+                const relativeClickPosition = clickedTextTop - bottomContainerTop;
+
+                // Get translation's position relative to the scroll container
+                const commentRect = bottomCorrespondingElement.getBoundingClientRect();
+                const commentRelativeTop = commentRect.top - bottomContainerTop + bottomCommentsContainer.scrollTop;
+
+                let desiredScrollTop;
+
+                // If text is above the translation container, just show translation at top
+                if (relativeClickPosition < 0) {
+                    desiredScrollTop = 0;
+                } else {
+                    // Try to align translation with clicked text position
+                    desiredScrollTop = commentRelativeTop - relativeClickPosition;
+
+                    // If negative, translation is near the top, just scroll to 0
+                    if (desiredScrollTop < 0) {
+                        desiredScrollTop = 0;
+                    }
+                }
+
+                // Constrain to valid scroll range
+                const maxScroll = bottomCommentsContainer.scrollHeight - bottomCommentsContainer.clientHeight;
+                desiredScrollTop = Math.max(0, Math.min(desiredScrollTop, maxScroll));
+
+                bottomCommentsContainer.scrollTop = desiredScrollTop;
                 bottomCorrespondingElement.classList.add('highlight-comment');
             }
 

@@ -9,24 +9,60 @@ class MobileTabController {
     this.activeSecondary = null;
     this.comparisonMode = false;
     this.currentChapter = 'intro';
+    this.currentMode = null; // 'desktop', 'mobile-portrait', 'mobile-landscape'
+    this.mobileInterfaceInitialized = false; // Track if mobile event listeners are set up
     this.init();
   }
 
   init() {
-    // Only initialize if we're in mobile mode
-    if (window.innerWidth <= 768) {
+    // Determine initial mode
+    this.currentMode = this.detectDeviceMode();
+
+    // Initialize appropriate interface based on mode
+    if (this.currentMode === 'mobile-portrait') {
       this.setupTabSwitching();
       this.setupDropdowns();
       this.setupSecondaryControls();
       this.setupFloatingActionButton();
       this.setupReadingProgress();
       this.integrateWithExistingFunctions();
+      this.mobileInterfaceInitialized = true;
     }
 
-    // Listen for resize events
+    // Listen for resize and orientation change events
     window.addEventListener('resize', () => {
       this.handleResize();
     });
+
+    window.addEventListener('orientationchange', () => {
+      // Add small delay to allow browser to update dimensions
+      setTimeout(() => {
+        this.handleOrientationChange();
+      }, 100);
+    });
+  }
+
+  /**
+   * Detect current device mode based on screen size and orientation
+   * @returns {string} 'desktop', 'mobile-portrait', or 'mobile-landscape'
+   */
+  detectDeviceMode() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    const isLandscape = width > height;
+
+    // Landscape mode: width ≤ 1024px, landscape orientation, height ≤ 768px
+    if (width <= 1024 && isLandscape && height <= 768) {
+      return 'mobile-landscape';
+    }
+
+    // Mobile portrait: width ≤ 768px, portrait orientation
+    if (width <= 768 && !isLandscape) {
+      return 'mobile-portrait';
+    }
+
+    // Everything else is desktop
+    return 'desktop';
   }
 
   setupTabSwitching() {
@@ -447,19 +483,75 @@ class MobileTabController {
     });
   }
 
+  /**
+   * Handle orientation changes
+   */
+  handleOrientationChange() {
+    const newMode = this.detectDeviceMode();
+
+    // Only act if mode actually changed
+    if (newMode !== this.currentMode) {
+      console.log(`Orientation changed: ${this.currentMode} → ${newMode}`);
+      this.currentMode = newMode;
+      this.switchToMode(newMode);
+    }
+  }
+
+  /**
+   * Handle window resize
+   */
   handleResize() {
-    // Handle responsive behavior
+    const newMode = this.detectDeviceMode();
+
+    // Only act if mode actually changed
+    if (newMode !== this.currentMode) {
+      console.log(`Screen size changed: ${this.currentMode} → ${newMode}`);
+      this.currentMode = newMode;
+      this.switchToMode(newMode);
+    }
+  }
+
+  /**
+   * Switch interface to appropriate mode
+   * @param {string} mode - 'desktop', 'mobile-portrait', or 'mobile-landscape'
+   */
+  switchToMode(mode) {
     const mobileInterface = document.getElementById('mobileInterface');
     const desktopInterface = document.querySelector('#row-rem');
 
-    if (window.innerWidth <= 768) {
-      if (mobileInterface) mobileInterface.style.display = 'flex';
-      if (desktopInterface) desktopInterface.style.display = 'none';
-      // Sync content when switching to mobile
-      this.syncContentToMobile();
-    } else {
-      if (mobileInterface) mobileInterface.style.display = 'none';
-      if (desktopInterface) desktopInterface.style.display = 'flex';
+    switch (mode) {
+      case 'desktop':
+        // Desktop: show desktop interface, hide mobile tabs
+        if (mobileInterface) mobileInterface.style.display = 'none';
+        if (desktopInterface) desktopInterface.style.display = 'flex';
+        break;
+
+      case 'mobile-portrait':
+        // Mobile Portrait: show mobile tabs, hide desktop interface
+        if (mobileInterface) mobileInterface.style.display = 'flex';
+        if (desktopInterface) desktopInterface.style.display = 'none';
+        // Ensure mobile interface is set up (in case switching from another mode)
+        if (!this.mobileInterfaceInitialized) {
+          this.setupTabSwitching();
+          this.setupDropdowns();
+          this.setupSecondaryControls();
+          this.setupFloatingActionButton();
+          this.setupReadingProgress();
+          this.integrateWithExistingFunctions();
+          this.mobileInterfaceInitialized = true;
+        }
+        // Sync content from desktop to mobile
+        this.syncContentToMobile();
+        break;
+
+      case 'mobile-landscape':
+        // Mobile Landscape: show desktop interface (CSS handles layout)
+        // Hide mobile tabs, show two-column desktop layout
+        if (mobileInterface) mobileInterface.style.display = 'none';
+        if (desktopInterface) desktopInterface.style.display = 'flex';
+        // Sync content from mobile tabs to desktop if needed
+        this.syncContentToDesktop();
+        break;
     }
   }
 
@@ -499,6 +591,17 @@ class MobileTabController {
     }
   }
 
+  /**
+   * Sync content from mobile tabs to desktop interface
+   * Used when switching from portrait to landscape
+   */
+  syncContentToDesktop() {
+    // In landscape mode, desktop interface is already populated
+    // We just need to ensure it's visible
+    // The existing desktop functions (converted_content.js) handle all interactions
+    console.log('Switched to landscape mode - desktop interactions active');
+  }
+
   observeContentChanges() {
     // Watch for changes in desktop content and sync to mobile
     const desktopTextContent = document.getElementById('whichpage');
@@ -510,7 +613,8 @@ class MobileTabController {
     const throttledSync = () => {
       clearTimeout(syncTimeout);
       syncTimeout = setTimeout(() => {
-        if (window.innerWidth <= 768) {
+        // Only sync to mobile if in portrait mode
+        if (this.currentMode === 'mobile-portrait') {
           this.syncContentToMobile();
         }
       }, 500); // Wait 500ms before syncing

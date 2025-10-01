@@ -453,12 +453,70 @@ function highlightHoveredItem() {
   
         // Scroll to the corresponding comment(s)
         if (upperCorrespondingElement) {
-          upperDiv.scrollTop = upperCorrespondingElement.offsetTop - upperDiv.offsetTop;
+          // Calculate scroll position to align comment with clicked text
+          const clickedElement = event.target;
+          const clickedTextTop = clickedElement.getBoundingClientRect().top;
+          const upperDivTop = upperDiv.getBoundingClientRect().top;
+          const relativeClickPosition = clickedTextTop - upperDivTop;
+
+          // Get comment's position relative to the scroll container
+          const commentRect = upperCorrespondingElement.getBoundingClientRect();
+          const commentRelativeTop = commentRect.top - upperDivTop + upperDiv.scrollTop;
+
+          let desiredScrollTop;
+
+          // If text is above the comment container, just show comment at top
+          if (relativeClickPosition < 0) {
+            desiredScrollTop = 0;
+          } else {
+            // Try to align comment with clicked text position
+            desiredScrollTop = commentRelativeTop - relativeClickPosition;
+
+            // If negative, comment is near the top, just scroll to 0
+            if (desiredScrollTop < 0) {
+              desiredScrollTop = 0;
+            }
+          }
+
+          // Constrain to valid scroll range
+          const maxScroll = upperDiv.scrollHeight - upperDiv.clientHeight;
+          desiredScrollTop = Math.max(0, Math.min(desiredScrollTop, maxScroll));
+
+          upperDiv.scrollTop = desiredScrollTop;
           upperCorrespondingElement.classList.add('highlight-comment');
         }
-  
+
         if (bottomCorrespondingElement) {
-          bottomDiv.scrollTop = bottomCorrespondingElement.offsetTop - bottomDiv.offsetTop;
+          // Calculate scroll position to align comment with clicked text
+          const clickedElement = event.target;
+          const clickedTextTop = clickedElement.getBoundingClientRect().top;
+          const bottomDivTop = bottomDiv.getBoundingClientRect().top;
+          const relativeClickPosition = clickedTextTop - bottomDivTop;
+
+          // Get comment's position relative to the scroll container
+          const commentRect = bottomCorrespondingElement.getBoundingClientRect();
+          const commentRelativeTop = commentRect.top - bottomDivTop + bottomDiv.scrollTop;
+
+          let desiredScrollTop;
+
+          // If text is above the comment container, just show comment at top
+          if (relativeClickPosition < 0) {
+            desiredScrollTop = 0;
+          } else {
+            // Try to align comment with clicked text position
+            desiredScrollTop = commentRelativeTop - relativeClickPosition;
+
+            // If negative, comment is near the top, just scroll to 0
+            if (desiredScrollTop < 0) {
+              desiredScrollTop = 0;
+            }
+          }
+
+          // Constrain to valid scroll range
+          const maxScroll = bottomDiv.scrollHeight - bottomDiv.clientHeight;
+          desiredScrollTop = Math.max(0, Math.min(desiredScrollTop, maxScroll));
+
+          bottomDiv.scrollTop = desiredScrollTop;
           bottomCorrespondingElement.classList.add('highlight-comment');
         }
   
