@@ -1,0 +1,446 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const defaultChapter = 'intro';
+
+    // Set initial button text
+    document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(defaultChapter);
+
+    // Mark initial chapter as active
+    markActiveChapter(defaultChapter);
+
+    // Load initial content
+    fetchChapter(defaultChapter);
+    fetchCombinedComments(defaultChapter);
+
+    // Setup listeners
+    setupChapterClickListener('.chapter-link', handleChapterClick);
+    setupHoverScrolling();
+    highlightHoveredItem();
+});
+
+/**
+ * Handles chapter selection and updates both text and comments
+ */
+function handleChapterClick(chapter) {
+    fetchChapter(chapter);
+    fetchCombinedComments(chapter);
+}
+
+/**
+ * Fetches chapter text from the server
+ */
+function fetchChapter(chapter) {
+    const imageElement = document.querySelector('.bi.bi-card-image');
+    const chapterURL = imageElement ? `./get-chapter/${chapter}` : `./get-chapter-with-images/${chapter}`;
+
+    fetch(chapterURL)
+        .then(response => response.text())
+        .then(data => {
+            const chapterElement = document.querySelector('.text-chapter#whichpage');
+            if (chapterElement) {
+                chapterElement.innerHTML = data;
+                const h1Element = chapterElement.querySelector('h1');
+                if (h1Element) {
+                    h1Element.className = chapter;
+                }
+
+                // Scroll to top
+                const promessisposiElement = document.getElementById('promessisposi');
+                if (promessisposiElement) {
+                    promessisposiElement.scrollTop = 0;
+                }
+
+                // Re-highlight after chapter loads (in case comments are already loaded)
+                setTimeout(() => {
+                    highlightHoveredItem();
+                }, 100);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching chapter:', error);
+        });
+}
+
+/**
+ * Fetches combined comments for the chapter and organizes them by target ID
+ */
+function fetchCombinedComments(chapter) {
+    fetch(`./get-combined-comments/${chapter}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayCombinedComments(data);
+            // After comments are displayed, highlight the corresponding text
+            highlightHoveredItem();
+        })
+        .catch(error => {
+            console.error('Error fetching combined comments:', error);
+            const commentsContainer = document.querySelector('.text-combined-comments');
+            if (commentsContainer) {
+                commentsContainer.innerHTML = `<p class="error-message">${window.translations.loadingError || 'Error loading comments'}</p>`;
+            }
+        });
+}
+
+/**
+ * Escapes HTML special characters to prevent XSS
+ */
+function escapeHtml(text) {
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+    return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+/**
+ * Displays combined comments organized by target ID
+ */
+function displayCombinedComments(commentsData) {
+    const commentsContainer = document.querySelector('.text-combined-comments');
+    if (!commentsContainer) return;
+
+    // Clear existing content
+    commentsContainer.innerHTML = '';
+
+    // Sort target IDs: primary by start ID, secondary by end ID (for ranges with same start)
+    const targetKeys = Object.keys(commentsData).sort((a, b) => {
+        const getDigits = (str, isEnd = false) => {
+            const parts = str.split('-');
+            const target = isEnd && parts.length > 1 ? parts[parts.length - 1] : parts[0];
+            const match = target.match(/#(.+)/);
+            if (match) {
+                // Extract all digits (matches XSLT getNumbers: 'c2_10001' -> '210001')
+                const allDigits = match[1].replace(/\D/g, '');
+                return parseInt(allDigits) || 0;
+            }
+            return 0;
+        };
+
+        // Primary sort: by starting target ID
+        const startDiff = getDigits(a, false) - getDigits(b, false);
+        if (startDiff !== 0) return startDiff;
+
+        // Secondary sort: by ending target ID (shorter ranges first)
+        return getDigits(a, true) - getDigits(b, true);
+    });
+
+    if (targetKeys.length === 0) {
+        commentsContainer.innerHTML = '<p class="no-comments">No commentaries available for this chapter yet.</p>';
+        return;
+    }
+
+    // Create a group for each target ID
+    targetKeys.forEach(targetKey => {
+        const comments = commentsData[targetKey];
+
+        // Create group container
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'comment-group';
+        groupDiv.setAttribute('data-target', targetKey);
+
+        // Create header with target ID (hidden by default, useful for debugging)
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'comment-group-header debug-info';
+        headerDiv.innerHTML = `<strong>Target: ${targetKey}</strong> <span class="comment-count">(${comments.length} ${comments.length === 1 ? 'commentary' : 'commentaries'})</span>`;
+        groupDiv.appendChild(headerDiv);
+
+        // Add each curator's comment
+        comments.forEach(comment => {
+            const commentDiv = document.createElement('div');
+            commentDiv.className = 'curator-comment';
+
+            // Create curator label with date
+            const curatorLabel = document.createElement('div');
+            curatorLabel.className = 'curator-label';
+            // Format: "Curator Name (Year)" or just "Curator Name" if no date
+            curatorLabel.textContent = comment.date ? `${comment.curator} (${comment.date})` : comment.curator;
+            commentDiv.appendChild(curatorLabel);
+
+            // Create comment content
+            const commentContent = document.createElement('div');
+            commentContent.className = 'curator-comment-content';
+
+            // Format the content: split on colon to separate ref from text
+            const content = comment.content || '';
+            const colonIndex = content.indexOf(':');
+
+            if (colonIndex > 0 && colonIndex < 200) {
+                // Has a reference part (before colon)
+                const refPart = content.substring(0, colonIndex).trim();
+                const textPart = content.substring(colonIndex + 1).trim();
+
+                commentContent.innerHTML = `<p><strong>${escapeHtml(refPart)}:</strong> ${escapeHtml(textPart)}</p>`;
+            } else {
+                // No clear reference, just show the content
+                commentContent.innerHTML = `<p>${escapeHtml(content)}</p>`;
+            }
+
+            commentDiv.appendChild(commentContent);
+
+            groupDiv.appendChild(commentDiv);
+        });
+
+        commentsContainer.appendChild(groupDiv);
+    });
+
+    // Scroll to top of comments
+    const destraElement = document.getElementById('destra');
+    if (destraElement) {
+        destraElement.scrollTop = 0;
+    }
+}
+
+/**
+ * Converts chapter ID to display name
+ */
+function getDisplayChapterName(chapter) {
+    if (chapter === 'intro') return 'Introduzione';
+    if (chapter.startsWith('cap')) {
+        return 'Capitolo ' + chapter.substring(3);
+    }
+    return chapter;
+}
+
+/**
+ * Marks the active chapter in the dropdown
+ */
+function markActiveChapter(chapter) {
+    const chapterLinks = document.querySelectorAll('.chapter-link');
+    chapterLinks.forEach(link => {
+        if (link.getAttribute('data-chapter') === chapter) {
+            link.classList.add('active-chapter');
+        } else {
+            link.classList.remove('active-chapter');
+        }
+    });
+}
+
+/**
+ * Sets up click listener for chapter selection
+ */
+function setupChapterClickListener(selector, callback) {
+    document.querySelectorAll(selector).forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const chapter = this.getAttribute('data-chapter');
+
+            // Update button text
+            document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(chapter);
+
+            // Mark as active
+            markActiveChapter(chapter);
+
+            // Call the callback
+            callback(chapter);
+        });
+    });
+}
+
+/**
+ * Toggles image display on/off
+ */
+function changeClassAndFetchData() {
+    const test_chapter = document.querySelector('.text-chapter#whichpage');
+    const h1Element = test_chapter?.querySelector('h1');
+    const chapter = h1Element?.className;
+
+    const imageIcon = document.getElementById("imageIcon");
+    const popupImage = document.getElementById("popupImage");
+
+    if (!imageIcon || !chapter) return;
+
+    if (imageIcon.className === "bi bi-card-image") {
+        imageIcon.className = "bi bi-image-fill";
+        popupImage.textContent = window.translations.hideImages;
+    } else {
+        imageIcon.className = "bi bi-card-image";
+        popupImage.textContent = window.translations.showImages;
+    }
+
+    // Reload chapter with/without images
+    fetchChapter(chapter);
+}
+
+/**
+ * Highlights text sections that have comments when hovering over them
+ * Works with the existing .hover-item class from XSLT transformation
+ */
+function highlightHoveredItem() {
+    const hoverItems = document.querySelectorAll('.hover-item');
+    const commentGroups = document.querySelectorAll('.comment-group');
+
+    // First, remove all existing highlights
+    hoverItems.forEach(item => item.classList.remove('highlight'));
+
+    // Build a map of which data-ids have comments
+    const idsWithComments = new Set();
+
+    commentGroups.forEach(group => {
+        const groupTarget = group.getAttribute('data-target');
+
+        // Extract all digits from the ID part after # (e.g., "quarantana/intro.xml#intro_10001" -> "10001")
+        // Or "quarantana/cap2.xml#c2_10001" -> "210001" (matches XSLT getNumbers behavior)
+        // For ranges like "quarantana/cap1.xml#c1_10001-quarantana/cap1.xml#c1_10006", extract both start and end
+        if (groupTarget) {
+            // Split by '-' to handle targetEnd ranges
+            const targets = groupTarget.split('-');
+            targets.forEach(target => {
+                const idMatch = target.match(/#(.+)/);
+                if (idMatch) {
+                    // Extract only digits from the ID part, matching XSLT getNumbers template
+                    const allDigits = idMatch[1].replace(/\D/g, '');
+                    if (allDigits) {
+                        idsWithComments.add(allDigits);
+                    }
+                }
+            });
+        }
+    });
+
+    // Add highlight class to items that have comments
+    hoverItems.forEach(hoverItem => {
+        const dataId = hoverItem.getAttribute('data-id');
+
+        if (dataId && idsWithComments.has(dataId)) {
+            hoverItem.classList.add('highlight');
+        }
+    });
+}
+
+/**
+ * Sets up click handlers for highlighted text to scroll to comments
+ */
+function setupHoverScrolling() {
+    let currentHighlightedWord = null;
+
+    document.addEventListener('click', function(event) {
+        if (event.target.classList.contains('hover-item') && event.target.classList.contains('highlight')) {
+            const dataId = event.target.getAttribute('data-id');
+
+            // Remove highlight from previously clicked word
+            if (currentHighlightedWord && currentHighlightedWord !== event.target) {
+                currentHighlightedWord.classList.remove('active-highlight');
+            }
+
+            // Add highlight to clicked word
+            event.target.classList.add('active-highlight');
+            currentHighlightedWord = event.target;
+
+            // Find ALL comment groups that match the clicked word
+            const commentGroups = document.querySelectorAll('.comment-group');
+            let matchingGroups = [];
+            let firstMatchingGroup = null;
+
+            commentGroups.forEach(group => {
+                const groupTarget = group.getAttribute('data-target');
+                if (!groupTarget) return;
+
+                // Split by '-' to separate start and end targets
+                const targets = groupTarget.split('-');
+                const firstTarget = targets[0];
+
+                // Check if the clicked word matches the START of this comment
+                const firstMatch = firstTarget.match(/#(.+)/);
+                if (firstMatch) {
+                    const firstDigits = firstMatch[1].replace(/\D/g, '');
+                    if (firstDigits === dataId) {
+                        matchingGroups.push(group);
+                        if (!firstMatchingGroup) {
+                            firstMatchingGroup = group; // Remember the first one for scrolling
+                        }
+                        return;
+                    }
+                }
+
+                // If not found as start, check if word is at end of range (as fallback)
+                if (targets.length > 1) {
+                    const lastTarget = targets[targets.length - 1];
+                    const lastMatch = lastTarget.match(/#(.+)/);
+                    if (lastMatch) {
+                        const lastDigits = lastMatch[1].replace(/\D/g, '');
+                        if (lastDigits === dataId && matchingGroups.length === 0) {
+                            matchingGroups.push(group);
+                            if (!firstMatchingGroup) {
+                                firstMatchingGroup = group;
+                            }
+                        }
+                    }
+                }
+            });
+
+            if (matchingGroups.length > 0) {
+                // Remove previous comment group highlights
+                commentGroups.forEach(g => g.classList.remove('highlighted'));
+
+                // Highlight ALL matching groups
+                matchingGroups.forEach(group => {
+                    group.classList.add('highlighted');
+                });
+
+                // Scroll to the FIRST matching group
+                if (firstMatchingGroup) {
+                    const destraElement = document.getElementById('destra');
+                    if (destraElement) {
+                        // Calculate position relative to the scrollable container
+                        const containerRect = destraElement.getBoundingClientRect();
+                        const groupRect = firstMatchingGroup.getBoundingClientRect();
+                        const currentScroll = destraElement.scrollTop;
+
+                        // Position the group 20px from the top of the visible area
+                        const targetScroll = currentScroll + (groupRect.top - containerRect.top) - 20;
+
+                        destraElement.scrollTo({
+                            top: targetScroll,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            }
+        }
+    });
+}
+
+/**
+ * Gets the current chapter name from the page
+ */
+function getCurrentChapter() {
+    const h1Element = document.querySelector('.text-chapter#whichpage h1');
+    if (h1Element) {
+        return h1Element.className || 'intro';
+    }
+    return 'intro';
+}
+
+/**
+ * Enables highlighting by pencil icon
+ */
+function highlightHoveredItemWithPencil() {
+    const pencilIcon = document.getElementById("highlightHoveredItem");
+    const popupUnderline = document.getElementById("popupUnderline");
+
+    if (!pencilIcon) return;
+
+    if (pencilIcon.classList.contains("bi-pencil-fill")) {
+        pencilIcon.classList.remove("bi-pencil-fill");
+        pencilIcon.classList.add("bi-pencil");
+        popupUnderline.textContent = window.translations.showComments;
+
+        // Remove has-comment class from all spans
+        const spans = document.querySelectorAll('span[id].has-comment');
+        spans.forEach(span => span.classList.remove('has-comment'));
+    } else {
+        pencilIcon.classList.remove("bi-pencil");
+        pencilIcon.classList.add("bi-pencil-fill");
+        popupUnderline.textContent = window.translations.hideComments;
+
+        // Re-apply highlighting
+        highlightHoveredItem();
+    }
+}

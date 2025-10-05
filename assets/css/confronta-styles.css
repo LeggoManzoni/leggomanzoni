@@ -1,0 +1,190 @@
+/* Confronta View Specific Styles */
+
+/* Ensure right column takes full height like reader view */
+#destra .text-combined-comments {
+    /* Remove default padding to match reader */
+    padding: 0;
+    /* Add background color like reader view */
+    background-color: #DDDCDA;
+    padding: 1em;
+    min-height: 80vh;
+}
+
+/* Comment Group Containers - minimal styling like reader */
+.comment-group {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comment-group:last-child {
+    border-bottom: none;
+}
+
+.comment-group.highlighted {
+    background-color: rgba(255, 193, 7, 0.2);
+    border-left: 4px solid #ffc107;
+    padding-left: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Comment Group Header - hidden by default (for debugging) */
+.comment-group-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Hide debug info by default - uncomment to show for debugging */
+.debug-info {
+    display: none;
+}
+
+/* To enable debug mode, uncomment this:
+.debug-info {
+    display: block;
+}
+*/
+
+.comment-group-header strong {
+    color: #666;
+    font-weight: 500;
+}
+
+.comment-count {
+    font-size: 0.85rem;
+    color: #999;
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+/* Individual Curator Comments - clean like reader */
+.curator-comment {
+    margin-bottom: 1.5rem;
+}
+
+.curator-comment:last-child {
+    margin-bottom: 0;
+}
+
+/* Curator Label - subtle, not too prominent */
+.curator-label {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+    color: #8B0000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-left: 3px solid #8B0000;
+    padding-left: 0.5rem;
+}
+
+/* Curator Comment Content - match reader styling */
+.curator-comment-content {
+    color: #333;
+    line-height: 2;
+    text-align: justify;
+}
+
+.curator-comment-content p {
+    margin-bottom: 1rem;
+}
+
+.curator-comment-content p:last-child {
+    margin-bottom: 0;
+}
+
+.curator-comment-content strong {
+    color: #c94242;
+    font-weight: 600;
+}
+
+/* Text spans with comments (in left column) - matching reader styles */
+.hover-item.highlight {
+    text-decoration: underline;
+    text-decoration-color: #BE5749;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+
+/* Active clicked word - matching reader highlight-text style */
+span.active-highlight {
+    display: inline;
+    padding: 0.5em 0em;
+    background-color: #f3edbf;
+    box-decoration-break: clone;
+    text-decoration: underline;
+    text-decoration-color: #BE5749;
+    text-decoration-thickness: 3px;
+}
+
+/* Empty state */
+.no-comments {
+    padding: 2rem;
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Error message */
+.error-message {
+    padding: 1rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Combined comments container */
+.text-combined-comments {
+    padding-top: 1rem;
+}
+
+/* Info button (non-clickable) */
+#confronta-info {
+    cursor: default;
+    pointer-events: none;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .comment-group {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+    }
+
+    .comment-group-header {
+        font-size: 1rem;
+    }
+
+    .curator-comment {
+        padding: 0.75rem;
+    }
+
+    .curator-label {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .comment-group {
+        page-break-inside: avoid;
+        border-left-color: #000;
+    }
+
+    .curator-label {
+        background-color: #000 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    span.has-comment {
+        background-color: transparent !important;
+    }
+}

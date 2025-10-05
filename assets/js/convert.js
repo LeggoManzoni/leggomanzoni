@@ -133,9 +133,152 @@ function convertTranslationXMLToHtml(language, chapterName) {
 
 
 
+/**
+ * Extracts notes from a TEI XML document with their target and targetEnd attributes.
+ * Used for grouping comments by their position in the original text.
+ *
+ * @param {string} xmlContent - The XML content as a string
+ * @returns {Array<Object>} - Array of note objects with target, targetEnd, and content properties
+ *
+ * @example
+ * // Extract notes from commentary XML
+ * const notes = extractNotesFromXML(xmlContent);
+ * // Returns: [{ target: '#w001', targetEnd: '#w005', content: 'text content' }, ...]
+ */
+function extractNotesFromXML(xmlContent) {
+  try {
+    // Use regex to extract note elements since DOM parsing isn't working well
+    const noteRegex = /<note[^>]*xml:id="([^"]*)"[^>]*type="comm"[^>]*target="([^"]*)"(?:[^>]*targetEnd="([^"]*)")?[^>]*>(.*?)<\/note>/gs;
+    const notes = [];
+
+    let match;
+    while ((match = noteRegex.exec(xmlContent)) !== null) {
+      const target = match[2];
+      const targetEnd = match[3] || '';
+      const noteContent = match[4];
+
+      // Skip notes without target attributes
+      if (!target) {
+        continue;
+      }
+
+      // Extract text from <ref rend="bold"> and remaining text
+      // Pattern: <ref rend="bold">Reference</ref>: text content
+      const refMatch = noteContent.match(/<ref[^>]*rend="bold"[^>]*>([^<]*)<\/ref>\s*:\s*(.*)/s);
+
+      let content;
+      if (refMatch) {
+        const refText = refMatch[1].trim();
+        const mainText = refMatch[2].trim();
+        content = `${refText}: ${mainText}`;
+      } else {
+        // No ref tag, just extract plain text
+        content = noteContent.replace(/<[^>]*>/g, '').trim();
+      }
+
+      notes.push({
+        target: target,
+        targetEnd: targetEnd,
+        content: content
+      });
+    }
+
+    return notes;
+  } catch (error) {
+    console.error('Error extracting notes from XML:', error);
+    return [];
+  }
+}
+
+/**
+ * Aggregates all available commentaries for a given chapter, grouped by target ID.
+ * Reads all curator XML files and organizes comments by their position in the original text.
+ *
+ * @param {string} chapterName - The chapter identifier (e.g., 'cap1', 'cap2')
+ * @returns {Object} - Object with target IDs as keys and arrays of comment data as values
+ *
+ * @example
+ * // Get all comments for chapter 1
+ * const comments = aggregateCommentsForChapter('cap1');
+ * // Returns: {
+ * //   '#w001-#w005': [{ curator: 'Angelini', content: '...' }, { curator: 'Petrocchi', content: '...' }],
+ * //   '#w006': [{ curator: 'Angelini', content: '...' }]
+ * // }
+ */
+function aggregateCommentsForChapter(chapterName) {
+  try {
+    // Read the JSON file to get all available curators
+    const data = fs.readFileSync('./commenti/output.json', 'utf8');
+    const commentiInfo = JSON.parse(data);
+
+    const aggregatedComments = {};
+
+    // Iterate through each curator
+    for (const entry of commentiInfo) {
+      const curatorName = entry.curator;
+      const authorFile = entry.filename;
+      const curatorDate = entry.date || null; // Get the date from output.json
+
+      try {
+        // Read the XML file for this curator and chapter
+        const xmlPath = `./commenti/xml/in_lavorazione/${authorFile}/${chapterName}.xml`;
+        const xmlContent = fs.readFileSync(xmlPath, 'utf8');
+
+        // Extract all notes with their target attributes
+        const notes = extractNotesFromXML(xmlContent);
+
+        // Group notes by their target range
+        for (const note of notes) {
+          // Skip invalid targets (e.g., "quarantana" without file/ID, or targets with "None")
+          if (!note.target ||
+              note.target === 'quarantana' ||
+              note.target.includes('None') ||
+              (note.targetEnd && note.targetEnd.includes('None'))) {
+            continue;
+          }
+
+          // Create a key combining target and targetEnd
+          const targetKey = note.targetEnd
+            ? `${note.target}-${note.targetEnd}`
+            : note.target;
+
+          // Initialize array for this target if it doesn't exist
+          if (!aggregatedComments[targetKey]) {
+            aggregatedComments[targetKey] = [];
+          }
+
+          // Add this comment to the group with date
+          aggregatedComments[targetKey].push({
+            curator: curatorName,
+            date: curatorDate,
+            content: note.content,
+            target: note.target,
+            targetEnd: note.targetEnd
+          });
+        }
+      } catch (error) {
+        if (error.code === 'ENOENT') {
+          // File not found - this curator doesn't have this chapter yet
+          // Skip silently (this is expected)
+          continue;
+        }
+        // Log unexpected errors but continue processing other curators
+        console.error(`Error processing ${curatorName} for ${chapterName}:`, error);
+      }
+    }
+
+    return aggregatedComments;
+  } catch (error) {
+    console.error('Error aggregating comments:', error);
+    return {};
+  }
+}
+
 module.exports = {
   convertXmlToHtml,
   convertCommentXMLToHtml,
   convertXmlToHtmlWithImages,
-  convertTranslationXMLToHtml
+  convertTranslationXMLToHtml,
+  extractNotesFromXML,
+  aggregateCommentsForChapter
 };

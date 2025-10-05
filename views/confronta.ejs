@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<script>
+    // Create a global translations object
+    window.translations = {
+      chapter: '<%= __("reader.chapter") %>',
+      introduction: '<%= __("reader.introduction") %>',
+      accessibleFont: '<%= __("reader.accessibleFont") %>',
+      baseFont: '<%= __("reader.baseFont") %>',
+      fullscreen: '<%= __("reader.fullscreen") %>',
+      smallscreen: '<%= __("reader.smallscreen") %>',
+      showImages: '<%= __("reader.showImages") %>',
+      hideImages: '<%= __("reader.hideImages") %>',
+      showComments: '<%= __("reader.showComments") %>',
+      hideComments: '<%= __("reader.hideComments") %>',
+      commentNotFound: '<%= __("reader.commentNotFound") %>',
+      or: '<%= __("reader.or") %>',
+      loadingError: '<%= __("reader.loadingError") %>'
+    };
+  </script>
+<%- include ("partials/head"); %>
+<link rel="stylesheet" href="./assets/css/confronta-styles.css">
+
+    <body id="page-top" class="normalFont">
+        <!-- Navigation-->
+        <%- include("partials/navbar"); %>
+
+            <!-- Masthead-->
+            <header>
+                <div class="container px-4 px-lg-5 h-20">
+                    <h1 class="text-black text-center font-weight-bold" id="confrontaTitle">Confronta - Compare Commentaries</h1>
+                </div>
+            </header>
+
+            <!-- Mobile Tab Interface -->
+            <%- include("partials/mobile-tabs", {
+                pageType: 'confronta',
+                chapters: chapters,
+                commenti: curators,
+                translations: null
+            }); %>
+            <div class="container container1">
+                <section class="box-testi">
+                    <div class="row normalFont" id="row-rem">
+                        <div class="col-6" id="colonnaS">
+                            <div id="fixedContent">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-capitoli"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                    Capitoli
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="toggle-capitoli">
+                                    <% chapters.forEach((chapter)=> { %>
+                                        <%
+                                        let displayName, dataChapter;
+                                        if (!isNaN(Number(chapter))) {
+                                            displayName = 'Capitolo ' + chapter;
+                                            dataChapter = 'cap' + chapter;
+                                        } else {
+                                            // Chapter is not a number (e.g., 'Introduzione')
+                                            displayName = chapter;
+                                            dataChapter = chapter;
+                                        }
+                                    %>
+                                            <li>
+                                                <a class="dropdown-item chapter-link" data-chapter="<%= dataChapter %>"
+                                                    href="#">
+                                                    <%= displayName %>
+                                                </a>
+                                            </li>
+                                            <% }); %>
+                                </ul>
+                                <button class="underline" id="normalPencil">
+                                    <i class="bi bi-pencil-fill" id="highlightHoveredItem"
+                                        onclick="highlightHoveredItemWithPencil();"></i>
+                                </button>
+                                <div id="popupUnderline"><%= __('reader.hideComments') %></div>
+                                <button class="enlarger">
+                                    <i class="bi bi-arrows-angle-expand" id="enlargerLeft"
+                                        onclick="enlargeLeftColumn();"></i>
+                                </button>
+                                <div id="popupL"><%= __('reader.fullscreen') %></div>
+                                <button class="font-button normalFont" id="fontToChange">
+                                    <i class="bi bi-file-earmark-font" id="fontButton" onclick="changeFont();"></i>
+                                </button>
+                                <div id="popupFont"><%= __('reader.accessibleFont') %>
+                                </div>
+                                <button class="image-button" id="imageButton">
+                                    <i class="bi bi-card-image" id="imageIcon" onclick="changeClassAndFetchData();"></i>
+                                </button>
+                                <div id="popupImage"><%= __('reader.showImages') %>
+                                </div>
+                            </div>
+                            <div class="colonnasinistra text-break" id="promessisposi">
+                                <div id="myModal" class="modal">
+                                </div>
+                                <div class="text-chapter" id="whichpage">
+                                    <div class="section" id="2b-intro">
+                                        <div class="header" id="2b-header">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6" id="colonnaD">
+                            <div id="fixedContent2">
+                                <button class="btn btn-secondary" type="button" id="confronta-info" style="text-align: left; cursor: default;">
+                                    All Commentaries Combined
+                                </button>
+                                <button class="enlarger">
+                                    <i class="bi bi-arrows-angle-expand" id="enlargerRight"
+                                        onclick="enlargeRightColumn();"></i>
+                                </button>
+                                <div id="popupR"><%= __('reader.commentFullScreen') %>
+                                </div>
+                                <button class="infoButton">
+                                    <i class="bi bi-info-circle" id="infoButton" onclick="window.open('./commenti', '_blank');"></i>
+                                </button>
+                                <div id="popupI"><%= __('reader.information') %></div>
+                            </div>
+                            <div class="colonnadestra" id="destra">
+                                <div class="text-combined-comments">
+                                    <!-- Combined comments will be loaded here -->
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+
+                    <script src="./assets/js/combined_viewer.js"></script>
+                    <script src="./assets/js/mobile-controller.js"></script>
+    </body>
+</html>

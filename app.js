@@ -12,7 +12,7 @@ const { google } = require('googleapis');
 const i18n = require('./config/i18n');
 const cookieParser = require('cookie-parser'); 
 
-const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml } = require('./assets/js/convert.js');
+const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml, aggregateCommentsForChapter } = require('./assets/js/convert.js');
 //const { xmlInfo } = require('./assets/js/collect_info.js');
 
 /* app */
@@ -84,6 +84,10 @@ app.use("/", reader);
 /* traduco */
 const traduco = require("./routes/traduco");
 app.use("/", traduco);
+
+/* confronta */
+const confronta = require("./routes/confronta");
+app.use("/", confronta);
 
 /* vedo */
 const vedo = require("./routes/vedo");
@@ -225,6 +229,26 @@ app.get('/get-translation/:language/:chapterName?', function (req, res) {
   } else {
     // Send an empty object if the authorName parameter is not provided
     res.status(200).send("");
+  }
+});
+
+app.get('/get-combined-comments/:chapterName', function (req, res) {
+  var chapter = req.params.chapterName;
+
+  if (chapter === "Introduzione") {
+    chapter = "intro";
+  }
+
+  if (chapter) {
+    try {
+      var aggregatedData = aggregateCommentsForChapter(chapter);
+      res.json(aggregatedData);
+    } catch (error) {
+      console.error('Error aggregating comments:', error);
+      res.status(500).json({ error: 'An error occurred while processing your request.' });
+    }
+  } else {
+    res.status(400).json({ error: 'Chapter name is required.' });
   }
 });
 
