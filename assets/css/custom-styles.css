@@ -335,6 +335,12 @@ header.masthead h1, header.masthead .h1 {
 
 .dropdownContent{
   display: none;
+  background-color: white;
+  width: 100%;
+}
+
+.toggleBtn {
+  overflow: visible !important;
 }
 
 .colonnadestra, .colonnasinistra, .testo, .testo2{

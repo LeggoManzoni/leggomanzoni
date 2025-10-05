@@ -869,12 +869,19 @@ output {
   background-color: #73978B;
   border-color: #73978B;
 }
-.list-group-item + .list-group-item {
+.list-group-item + .list-group-item:not(.toggleBtn):not(.dropdownContent .list-group-item) {
   border-top-width: 0;
 }
 .list-group-item + .list-group-item.active {
   margin-top: -1px;
   border-top-width: 1px;
+}
+.toggleBtn + .toggleBtn {
+  border-top-width: 1px !important;
+  margin-top: 0 !important;
+}
+.toggleBtn.open {
+  margin-bottom: 0 !important;
 }
 
 .modal {
@@ -1504,6 +1511,35 @@ header.masthead h1, header.masthead .h1 {
 
 .dropdownContent{
   display: none;
+  background-color: white;
+  width: 100%;
+}
+
+.toggleBtn {
+  overflow: visible !important;
+  display: block !important;
+  height: auto !important;
+  min-height: 44px !important;
+  flex-shrink: 0 !important;
+}
+
+.toggleBtn + .toggleBtn {
+  margin-top: 1px !important;
+}
+
+.toggleBtn .dropdownContent {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+  clear: both;
+}
+
+.dropdownContent .list-group-item {
+  border-top-width: 1px !important;
+  margin: 0 !important;
+  position: static !important;
+  display: block !important;
 }
 
 .colonnadestra, .colonnasinistra, .testo, .testo2{

@@ -261,27 +261,39 @@ let modalFunction = () => {
 
 /*Function arrowCommenti*/
 let arrowCommenti = () => {
-  // Function for switching the toggle into opened and closed in the Commenti page and to switch consequently the arrow icon up and down  
+  // Function for switching the toggle into opened and closed in the Commenti page and to switch consequently the arrow icon up and down
   var toggleBtns = document.querySelectorAll(".toggleBtn");
 
   toggleBtns.forEach(function (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
+    toggleBtn.addEventListener("click", function (e) {
       var dropdownContent = this.querySelector(".dropdownContent");
-      var caretDown = this.querySelector(".bi-caret-down-fill");
-      var caretUp = this.querySelector(".bi-caret-up-fill");
+      var caretIcon = this.querySelector("i.bi");
 
-      var isHidden = dropdownContent.classList.contains("hidden");
+      if (!dropdownContent) {
+        return;
+      }
 
-      if (isHidden) {
+      // Check computed style to see if it's actually visible
+      var computedDisplay = window.getComputedStyle(dropdownContent).display;
+      var isVisible = dropdownContent.style.display === "block" || computedDisplay === "block";
+
+      // Toggle the dropdown display
+      if (isVisible) {
+        // Currently open, so close it
         dropdownContent.style.display = "none";
-        dropdownContent.classList.remove("hidden");
-        caretUp.classList.remove("bi-caret-up-fill");
-        caretUp.classList.add("bi-caret-down-fill");
+        this.classList.remove("open");
+        if (caretIcon) {
+          caretIcon.classList.remove("bi-caret-up-fill");
+          caretIcon.classList.add("bi-caret-down-fill");
+        }
       } else {
+        // Currently closed, so open it
         dropdownContent.style.display = "block";
-        dropdownContent.classList.add("hidden");
-        caretDown.classList.remove("bi-caret-down-fill");
-        caretDown.classList.add("bi-caret-up-fill");
+        this.classList.add("open");
+        if (caretIcon) {
+          caretIcon.classList.remove("bi-caret-down-fill");
+          caretIcon.classList.add("bi-caret-up-fill");
+        }
       }
     });
   });
