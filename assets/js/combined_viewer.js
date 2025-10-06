@@ -88,6 +88,61 @@ function fetchCombinedComments(chapter) {
 /**
  * Escapes HTML special characters to prevent XSS
  */
+/**
+ * Processes TEI XML tags in comment content and converts them to HTML
+ * Mimics the XSLT transformation used in the reader view
+ */
+function processTEITags(text) {
+    if (!text) return '';
+
+    // First pass: convert TEI tags to HTML tags (preserving formatting)
+    // Process <hi rend="italic"> and similar italic tags
+    text = text.replace(/<hi\s+rend=["']italic["'][^>]*>(.*?)<\/hi>/gis, '<em>$1</em>');
+    text = text.replace(/<rs\s+rend=["']italic["'][^>]*>(.*?)<\/rs>/gis, '<em>$1</em>');
+
+    // Process <title rend="italic"> tags (book/work titles)
+    text = text.replace(/<title\s+rend=["']italic(?:h)?["'][^>]*>(.*?)<\/title>/gis, '<em>$1</em>');
+
+    // Process other emphasis tags
+    text = text.replace(/<emph[^>]*>(.*?)<\/emph>/gis, '<em>$1</em>');
+    text = text.replace(/<foreign[^>]*>(.*?)<\/foreign>/gis, '<em>$1</em>');
+    text = text.replace(/<mentioned[^>]*>(.*?)<\/mentioned>/gis, '<em>$1</em>');
+
+    // Process <ref rend="bold"> tags
+    text = text.replace(/<ref\s+rend=["']bold["'][^>]*>(.*?)<\/ref>/gis, '<strong>$1</strong>');
+
+    // Process quoted text - use regular quotes
+    text = text.replace(/<quote[^>]*>(.*?)<\/quote>/gis, '"$1"');
+    text = text.replace(/<q[^>]*>(.*?)<\/q>/gis, '"$1"');
+    text = text.replace(/<soCalled[^>]*>(.*?)<\/soCalled>/gis, '"$1"');
+
+    // Second pass: remove structural TEI tags but keep content
+    // Remove figure tags (keep figDesc content if present)
+    text = text.replace(/<figure[^>]*>.*?<figDesc[^>]*>(.*?)<\/figDesc>.*?<\/figure>/gis, '$1');
+    text = text.replace(/<figure[^>]*>.*?<\/figure>/gis, '');
+
+    // Process line breaks
+    text = text.replace(/<lb\s*\/?>/gi, ' ');
+
+    // Remove <bibl> tags but keep content
+    text = text.replace(/<bibl[^>]*>(.*?)<\/bibl>/gis, '$1');
+
+    // Remove <persName>, <placeName> tags but keep their content
+    text = text.replace(/<persName[^>]*>(.*?)<\/persName>/gis, '$1');
+    text = text.replace(/<placeName[^>]*>(.*?)<\/placeName>/gis, '$1');
+
+    // Remove <rs> tags (if not already processed as italic)
+    text = text.replace(/<rs[^>]*>(.*?)<\/rs>/gis, '$1');
+
+    // Remove <title> tags without rend attribute
+    text = text.replace(/<title[^>]*>(.*?)<\/title>/gis, '$1');
+
+    // Remove any remaining TEI tags but keep their content (except em and strong which we want)
+    text = text.replace(/<(?!em|\/em|strong|\/strong)([a-zA-Z][a-zA-Z0-9]*)[^>]*>(.*?)<\/\1>/gis, '$2');
+
+    return text;
+}
+
 function escapeHtml(text) {
     const map = {
         '&': '&amp;',
@@ -176,10 +231,15 @@ function displayCombinedComments(commentsData) {
                 const refPart = content.substring(0, colonIndex).trim();
                 const textPart = content.substring(colonIndex + 1).trim();
 
-                commentContent.innerHTML = `<p><strong>${escapeHtml(refPart)}:</strong> ${escapeHtml(textPart)}</p>`;
+                // Process TEI tags to render properly (italic, remove person names tags, etc.)
+                const processedRef = processTEITags(refPart);
+                const processedText = processTEITags(textPart);
+
+                commentContent.innerHTML = `<p><strong>${processedRef}:</strong> ${processedText}</p>`;
             } else {
                 // No clear reference, just show the content
-                commentContent.innerHTML = `<p>${escapeHtml(content)}</p>`;
+                const processedContent = processTEITags(content);
+                commentContent.innerHTML = `<p>${processedContent}</p>`;
             }
 
             commentDiv.appendChild(commentContent);
