@@ -20,7 +20,14 @@ router.get("/confronta", (req, res) => {
             const commentiInfo = JSON.parse(data);
 
             // Extract curator names for the selector
-            let curators = commentiInfo.map(fileInfo => fileInfo.curator);
+            // Handle both string and array curator names (for multi-author commentaries)
+            let curators = commentiInfo.map(fileInfo => {
+                if (Array.isArray(fileInfo.curator)) {
+                    // Join array elements, trim each to remove extra spaces
+                    return fileInfo.curator.map(name => name.trim()).join(', ');
+                }
+                return fileInfo.curator;
+            });
 
             // Render the confronta view
             res.render("confronta", {

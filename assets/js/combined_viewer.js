@@ -1,3 +1,6 @@
+// Global state for selected curator filter
+let selectedCurator = 'all';
+
 document.addEventListener('DOMContentLoaded', function () {
     const defaultChapter = 'intro';
 
@@ -13,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Setup listeners
     setupChapterClickListener('.chapter-link', handleChapterClick);
+    setupCuratorFilterListener();
     setupHoverScrolling();
     highlightHoveredItem();
 });
@@ -164,8 +168,29 @@ function displayCombinedComments(commentsData) {
     // Clear existing content
     commentsContainer.innerHTML = '';
 
+    // Filter comments by selected curator if not 'all'
+    let filteredData = commentsData;
+    if (selectedCurator !== 'all') {
+        filteredData = {};
+        Object.keys(commentsData).forEach(targetKey => {
+            const filteredComments = commentsData[targetKey].filter(comment => {
+                // Handle both string and array curator names
+                if (Array.isArray(comment.curator)) {
+                    // For multi-author commentaries, join with ', ' (comma-space) to match dropdown format
+                    // Also trim each name to handle extra spaces
+                    const joinedName = comment.curator.map(name => name.trim()).join(', ');
+                    return joinedName === selectedCurator;
+                }
+                return comment.curator === selectedCurator;
+            });
+            if (filteredComments.length > 0) {
+                filteredData[targetKey] = filteredComments;
+            }
+        });
+    }
+
     // Sort target IDs: primary by start ID, secondary by end ID (for ranges with same start)
-    const targetKeys = Object.keys(commentsData).sort((a, b) => {
+    const targetKeys = Object.keys(filteredData).sort((a, b) => {
         const getDigits = (str, isEnd = false) => {
             const parts = str.split('-');
             const target = isEnd && parts.length > 1 ? parts[parts.length - 1] : parts[0];
@@ -187,13 +212,16 @@ function displayCombinedComments(commentsData) {
     });
 
     if (targetKeys.length === 0) {
-        commentsContainer.innerHTML = '<p class="no-comments">No commentaries available for this chapter yet.</p>';
+        const noCommentsMsg = selectedCurator === 'all'
+            ? 'Nessun commento disponibile per questo capitolo.'
+            : `Nessun commento da ${selectedCurator} per questo capitolo.`;
+        commentsContainer.innerHTML = `<p class="no-comments">${noCommentsMsg}</p>`;
         return;
     }
 
     // Create a group for each target ID
     targetKeys.forEach(targetKey => {
-        const comments = commentsData[targetKey];
+        const comments = filteredData[targetKey];
 
         // Create group container
         const groupDiv = document.createElement('div');
@@ -219,8 +247,11 @@ function displayCombinedComments(commentsData) {
             const content = comment.content || '';
             const colonIndex = content.indexOf(':');
 
-            // Format curator attribution
-            const curatorAttribution = comment.date ? `${comment.curator} (${comment.date})` : comment.curator;
+            // Format curator attribution - handle array curator names
+            const curatorName = Array.isArray(comment.curator)
+                ? comment.curator.join(', ')
+                : comment.curator;
+            const curatorAttribution = comment.date ? `${curatorName} (${comment.date})` : curatorName;
 
             if (colonIndex > 0 && colonIndex < 200) {
                 // Has a reference part (before colon)
@@ -300,6 +331,33 @@ function setupChapterClickListener(selector, callback) {
 }
 
 /**
+ * Sets up click listener for curator filter selection
+ */
+function setupCuratorFilterListener() {
+    document.querySelectorAll('.curator-filter-link').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const curator = this.getAttribute('data-curator');
+
+            // Update selected curator
+            selectedCurator = curator;
+
+            // Update button text
+            const buttonText = curator === 'all' ? 'Tutti i commenti' : curator;
+            document.getElementById('toggle-curators').innerText = buttonText;
+
+            // Mark as active
+            document.querySelectorAll('.curator-filter-link').forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+
+            // Re-fetch and re-display comments with filter
+            const currentChapter = getCurrentChapter();
+            fetchCombinedComments(currentChapter);
+        });
+    });
+}
+
+/**
  * Toggles image display on/off
  */
 function changeClassAndFetchData() {
@@ -341,22 +399,22 @@ function highlightHoveredItem() {
     commentGroups.forEach(group => {
         const groupTarget = group.getAttribute('data-target');
 
-        // Extract all digits from the ID part after # (e.g., "quarantana/intro.xml#intro_10001" -> "10001")
-        // Or "quarantana/cap2.xml#c2_10001" -> "210001" (matches XSLT getNumbers behavior)
-        // For ranges like "quarantana/cap1.xml#c1_10001-quarantana/cap1.xml#c1_10006", extract both start and end
+        // Extract digits only from the START of the comment range
+        // For ranges like "quarantana/cap1.xml#c1_10001-quarantana/cap1.xml#c1_10006",
+        // only underline the first word (c1_10001) to reduce visual noise
         if (groupTarget) {
-            // Split by '-' to handle targetEnd ranges
+            // Split by '-' to handle targetEnd ranges, but only use the first part
             const targets = groupTarget.split('-');
-            targets.forEach(target => {
-                const idMatch = target.match(/#(.+)/);
-                if (idMatch) {
-                    // Extract only digits from the ID part, matching XSLT getNumbers template
-                    const allDigits = idMatch[1].replace(/\D/g, '');
-                    if (allDigits) {
-                        idsWithComments.add(allDigits);
-                    }
+            const firstTarget = targets[0]; // Only process the start ID
+
+            const idMatch = firstTarget.match(/#(.+)/);
+            if (idMatch) {
+                // Extract only digits from the ID part, matching XSLT getNumbers template
+                const allDigits = idMatch[1].replace(/\D/g, '');
+                if (allDigits) {
+                    idsWithComments.add(allDigits);
                 }
-            });
+            }
         }
     });
 
@@ -475,7 +533,7 @@ function getCurrentChapter() {
 }
 
 /**
- * Enables highlighting by pencil icon
+ * Enables/disables highlighting by pencil icon
  */
 function highlightHoveredItemWithPencil() {
     const pencilIcon = document.getElementById("highlightHoveredItem");
@@ -484,14 +542,16 @@ function highlightHoveredItemWithPencil() {
     if (!pencilIcon) return;
 
     if (pencilIcon.classList.contains("bi-pencil-fill")) {
+        // Turn OFF highlighting
         pencilIcon.classList.remove("bi-pencil-fill");
         pencilIcon.classList.add("bi-pencil");
         popupUnderline.textContent = window.translations.showComments;
 
-        // Remove has-comment class from all spans
-        const spans = document.querySelectorAll('span[id].has-comment');
-        spans.forEach(span => span.classList.remove('has-comment'));
+        // Remove highlight class from all hover-items
+        const hoverItems = document.querySelectorAll('.hover-item');
+        hoverItems.forEach(item => item.classList.remove('highlight'));
     } else {
+        // Turn ON highlighting
         pencilIcon.classList.remove("bi-pencil");
         pencilIcon.classList.add("bi-pencil-fill");
         popupUnderline.textContent = window.translations.hideComments;

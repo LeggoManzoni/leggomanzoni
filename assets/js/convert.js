@@ -148,7 +148,8 @@ function convertTranslationXMLToHtml(language, chapterName) {
 function extractNotesFromXML(xmlContent) {
   try {
     // Use regex to extract note elements since DOM parsing isn't working well
-    const noteRegex = /<note[^>]*xml:id="([^"]*)"[^>]*type="comm"[^>]*target="([^"]*)"(?:[^>]*targetEnd="([^"]*)")?[^>]*>(.*?)<\/note>/gs;
+    // Support both single and double quotes for attribute values
+    const noteRegex = /<note[^>]*xml:id=["']([^"']*)["'][^>]*type=["']comm["'][^>]*target=["']([^"']*)["'](?:[^>]*targetEnd=["']([^"']*)["'])?[^>]*>(.*?)<\/note>/gs;
     const notes = [];
 
     let match;

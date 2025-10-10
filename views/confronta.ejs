@@ -104,9 +104,26 @@
                         </div>
                         <div class="col-6" id="colonnaD">
                             <div id="fixedContent2">
-                                <button class="btn btn-secondary" type="button" id="confronta-info" style="text-align: left; cursor: default;">
-                                    All Commentaries Combined
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="toggle-curators"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+                                    Tutti i commenti
                                 </button>
+                                <ul class="dropdown-menu" aria-labelledby="toggle-curators">
+                                    <li>
+                                        <a class="dropdown-item curator-filter-link active" data-curator="all" href="#">
+                                            Tutti i commenti
+                                        </a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <% curators.forEach((curator)=> { %>
+                                        <li>
+                                            <a class="dropdown-item curator-filter-link" data-curator="<%= curator %>"
+                                                href="#">
+                                                <%= curator %>
+                                            </a>
+                                        </li>
+                                    <% }); %>
+                                </ul>
                                 <button class="enlarger">
                                     <i class="bi bi-arrows-angle-expand" id="enlargerRight"
                                         onclick="enlargeRightColumn();"></i>
