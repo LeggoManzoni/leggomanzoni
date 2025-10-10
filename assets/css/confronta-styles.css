@@ -82,6 +82,14 @@
     padding-left: 0.5rem;
 }
 
+/* Curator Attribution - shown at the end of comment text */
+.curator-attribution {
+    color: #8B0000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
 /* Curator Comment Content - match reader styling */
 .curator-comment-content {
     color: #333;

@@ -211,13 +211,6 @@ function displayCombinedComments(commentsData) {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'curator-comment';
 
-            // Create curator label with date
-            const curatorLabel = document.createElement('div');
-            curatorLabel.className = 'curator-label';
-            // Format: "Curator Name (Year)" or just "Curator Name" if no date
-            curatorLabel.textContent = comment.date ? `${comment.curator} (${comment.date})` : comment.curator;
-            commentDiv.appendChild(curatorLabel);
-
             // Create comment content
             const commentContent = document.createElement('div');
             commentContent.className = 'curator-comment-content';
@@ -225,6 +218,9 @@ function displayCombinedComments(commentsData) {
             // Format the content: split on colon to separate ref from text
             const content = comment.content || '';
             const colonIndex = content.indexOf(':');
+
+            // Format curator attribution
+            const curatorAttribution = comment.date ? `${comment.curator} (${comment.date})` : comment.curator;
 
             if (colonIndex > 0 && colonIndex < 200) {
                 // Has a reference part (before colon)
@@ -235,11 +231,11 @@ function displayCombinedComments(commentsData) {
                 const processedRef = processTEITags(refPart);
                 const processedText = processTEITags(textPart);
 
-                commentContent.innerHTML = `<p><strong>${processedRef}:</strong> ${processedText}</p>`;
+                commentContent.innerHTML = `<p><strong>${processedRef}:</strong> ${processedText} <span class="curator-attribution">[${curatorAttribution}]</span></p>`;
             } else {
                 // No clear reference, just show the content
                 const processedContent = processTEITags(content);
-                commentContent.innerHTML = `<p>${processedContent}</p>`;
+                commentContent.innerHTML = `<p>${processedContent} <span class="curator-attribution">[${curatorAttribution}]</span></p>`;
             }
 
             commentDiv.appendChild(commentContent);
