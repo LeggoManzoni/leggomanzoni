@@ -450,7 +450,7 @@ function setupHoverScrolling() {
             // Find ALL comment groups that match the clicked word
             const commentGroups = document.querySelectorAll('.comment-group');
             let matchingGroups = [];
-            let firstMatchingGroup = null;
+            let scrollTarget = null;  // Only scroll to START matches (precise comments)
 
             commentGroups.forEach(group => {
                 const groupTarget = group.getAttribute('data-target');
@@ -466,24 +466,24 @@ function setupHoverScrolling() {
                     const firstDigits = firstMatch[1].replace(/\D/g, '');
                     if (firstDigits === dataId) {
                         matchingGroups.push(group);
-                        if (!firstMatchingGroup) {
-                            firstMatchingGroup = group; // Remember the first one for scrolling
+                        // Only scroll to the first START match (most precise comment)
+                        if (!scrollTarget) {
+                            scrollTarget = group;
                         }
                         return;
                     }
                 }
 
-                // If not found as start, check if word is at end of range (as fallback)
+                // If not found as start, check if word is at end of range
+                // Note: We still highlight end-of-range matches but don't scroll to them
                 if (targets.length > 1) {
                     const lastTarget = targets[targets.length - 1];
                     const lastMatch = lastTarget.match(/#(.+)/);
                     if (lastMatch) {
                         const lastDigits = lastMatch[1].replace(/\D/g, '');
-                        if (lastDigits === dataId && matchingGroups.length === 0) {
+                        if (lastDigits === dataId) {
                             matchingGroups.push(group);
-                            if (!firstMatchingGroup) {
-                                firstMatchingGroup = group;
-                            }
+                            // Don't set scrollTarget for END matches
                         }
                     }
                 }
@@ -498,13 +498,14 @@ function setupHoverScrolling() {
                     group.classList.add('highlighted');
                 });
 
-                // Scroll to the FIRST matching group
-                if (firstMatchingGroup) {
+                // Scroll only to START matches (most precise comments)
+                // This avoids scrolling to long-range comments where the clicked word is just the end
+                if (scrollTarget) {
                     const destraElement = document.getElementById('destra');
                     if (destraElement) {
                         // Calculate position relative to the scrollable container
                         const containerRect = destraElement.getBoundingClientRect();
-                        const groupRect = firstMatchingGroup.getBoundingClientRect();
+                        const groupRect = scrollTarget.getBoundingClientRect();
                         const currentScroll = destraElement.scrollTop;
 
                         // Position the group 20px from the top of the visible area
