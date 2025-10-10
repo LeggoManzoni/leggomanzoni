@@ -1,4 +1,21 @@
 <!-- Navigation-->
+<style>
+    /* Default desktop: show confronta */
+    .nav-leggo-mobile { display: none !important; }
+    .nav-leggo-desktop { display: block !important; }
+
+    /* Mobile portrait (≤768px): show reader */
+    @media (max-width: 768px) and (orientation: portrait) {
+        .nav-leggo-mobile { display: block !important; }
+        .nav-leggo-desktop { display: none !important; }
+    }
+
+    /* Mobile landscape (any width, but small height): show reader */
+    @media (max-width: 1366px) and (orientation: landscape) and (max-height: 800px) {
+        .nav-leggo-mobile { display: block !important; }
+        .nav-leggo-desktop { display: none !important; }
+    }
+</style>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand firma" href="./">Leggo <img class="firmaNav" src="./assets/img/firmaNav.png" width="80px"></a>
@@ -8,7 +25,10 @@
                 <li class="nav-item"><a class="nav-link activeNav" href="./">Home</a></li>
                 <!-- <li class="nav-item"><a class="nav-link" href="./introduzione">Introduzione</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="./progetto"><%= __('navigation.project') %></a></li>
-                <li class="nav-item"><a class="nav-link" href="./confronta">Leggo</a></li>
+                <!-- Desktop (>768px): show confronta link -->
+                <li class="nav-item nav-leggo-desktop"><a class="nav-link" href="./confronta">Leggo</a></li>
+                <!-- Mobile (≤768px): show reader link instead -->
+                <li class="nav-item nav-leggo-mobile"><a class="nav-link" href="./reader">Leggo</a></li>
                 <li class="nav-item"><a class="nav-link" href="./traduco">Traduco</a></li>
                 <li class="nav-item"><a class="nav-link" href="./vedo">Vedo</a></li>
                 <li class="nav-item"><a class="nav-link" href="./pekino">Wo-Dú</a></li>

@@ -102,7 +102,7 @@
     background: #ffffff !important;
     border-bottom: 1px solid #e0e0e0 !important;
     position: sticky !important;
-    top: 4rem !important;
+    top: 4rem !important; /* Match navbar height exactly */
     z-index: 10 !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
     min-height: 48px !important;
@@ -120,7 +120,7 @@
     background: #ffffff !important;
     border-bottom: 1px solid #e0e0e0 !important;
     position: sticky !important;
-    top: 4rem !important;
+    top: 4rem !important; /* Match navbar height exactly */
     z-index: 10 !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
     min-height: 48px !important;
@@ -263,7 +263,7 @@
     height: 100% !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-    padding: 60px 16px 16px 16px !important;
+    padding: 0 16px 16px 16px !important; /* No top padding */
     margin-top: 0 !important;
     font-size: 16px !important;
     line-height: 1.7 !important;
@@ -277,11 +277,30 @@
   #promessisposi {
     height: 100% !important;
     width: 100% !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 
   .text-chapter {
     width: 100% !important;
     box-sizing: border-box !important;
+    margin-top: 64px !important; /* Push content below sticky controls (controls height ~56-64px) */
+    padding: 0 !important; /* No padding - parent already has it */
+  }
+
+  /* Remove margin from first element in text chapter */
+  .text-chapter > *:first-child,
+  .text-chapter h1:first-child,
+  .text-chapter h2:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Modal should not interfere with layout */
+  #myModal {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
   }
 
   /* Right column comment content */
@@ -290,19 +309,31 @@
     height: 100% !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
-    padding: 0 !important;
+    padding: 0 16px 16px 16px !important; /* No top padding */
     margin-top: 0 !important;
     -webkit-overflow-scrolling: touch !important;
     background: white !important;
+  }
+
+  /* Push specific comment containers below sticky controls */
+  .text-combined-comments,
+  .divisione.singularText {
+    margin-top: 64px !important; /* Push below sticky controls */
+    padding: 16px !important;
   }
 
   /* Single comment view */
   .divisione.singularText {
     height: 100% !important;
     width: 100% !important;
-    padding: 60px 16px 16px 16px !important;
-    margin-top: 0 !important;
     box-sizing: border-box !important;
+  }
+
+  /* Text comment content inside divisione - no extra margin/padding needed */
+  .text-comment-top,
+  .text-comment-bottom {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   /* Split comment view - HIDE IN LANDSCAPE (too cramped) */
@@ -528,7 +559,7 @@
   .navbar {
     min-height: 4rem !important;
     padding: 0 !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0 !important; /* Remove gap */
     display: flex !important;
     align-items: center !important;
   }

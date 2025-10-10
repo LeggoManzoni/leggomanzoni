@@ -706,6 +706,16 @@
      HIDE DESKTOP INTERFACE ON MOBILE
      ======================================== */
 
+  /* Hide large masthead header on reader/traduco pages */
+  body:has(#row-rem) header.masthead,
+  #reader header.masthead,
+  #traduco header.masthead {
+    display: none !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   /* Hide desktop two-column layout */
   .row#row-rem {
     display: none !important;
