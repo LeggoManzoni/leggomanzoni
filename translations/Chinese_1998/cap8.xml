@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>第八章</title>
-        <author>孟佐尼</author>
         <respStmt>
-          <resp>Annotazione digitale</resp>
-          <persName xml:id="Me">Me</persName>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
-        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
-        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
-        <date>2025</date>
+        <publisher>译林出版社</publisher>
+        <pubPlace>南京</pubPlace>
+        <date>1998</date>
         <availability>
           <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
         </availability>
@@ -24,645 +24,470 @@
         <bibl>
           <author>孟佐尼</author>
           <title>约婚夫妇</title>
+          <editor>Angelini, Cesare</editor>
           <pubPlace>南京</pubPlace>
           <publisher>译林出版社</publisher>
           <date>1998</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>Zhang Shihua</persName>
+          </respStmt>
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc>
-      <listChange>
-        <change who="Me" when="2025-03-18">Annotazione digitale</change>
-      </listChange>
-    </revisionDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
-      <div xml:id="Chinese_1998.xml_cap8">
-        <note xml:id="chinese_cap8-n3" type="comm" target="quarantana/cap8.xml#c8_10001" targetEnd="quarantana/cap8.xml#c8_10002">
-                          "卡尔内亚德！</note>
-        <note xml:id="chinese_cap8-n4" type="comm" target="quarantana/cap8.xml#c8_10003" targetEnd="quarantana/cap8.xml#c8_10079">
-                          他是何人？" 当佩尔贝多亚走进屋子通报时， 堂·安保迪正坐在楼上一间屋子里他的大椅子上反复思考着这个 问题，面前摊开放着一本小开本的书。"</note>
-        <note xml:id="chinese_cap8-n5" type="insertion">卡尔内亚德！</note>
-        <note xml:id="chinese_cap8-n6" type="insertion">这个名字我</note>
-        <note xml:id="chinese_cap8-n7" type="comm" target="quarantana/cap8.xml#c8_10080" targetEnd="quarantana/cap8.xml#c8_10116">
-                          好像在哪里读到过或听说过，他肯定是一位古代学者或大文豪， 没错，肯定是这一类人中的一员。 真见鬼，可他究竟是谁呢？" 可怜</note>
-        <note xml:id="chinese_cap8-n8" type="insertion">的神甫截然没有料到，一场风暴此时正铺天盖地地朝他头顶上压</note>
-        <note xml:id="chinese_cap8-n9" type="insertion">来！</note>
-        <note xml:id="chinese_cap8-n10" type="insertion">应该说明一下，堂·安保迪喜欢每天读一点书，邻区的一位教</note>
-        <note xml:id="chinese_cap8-n11" type="insertion">士家中有一些藏书，经常一本一本的借给他，他现在正在读的是那</note>
-        <note xml:id="chinese_cap8-n12" type="insertion">位教士随手拿到的第一本书。</note>
-        <note xml:id="chinese_cap8-n13" type="insertion">堂·安保迪上次受惊发烧后正在康</note>
-        <note xml:id="chinese_cap8-n14" type="comm" target="quarantana/cap8.xml#c8_10117" targetEnd="quarantana/cap8.xml#c8_10165">
-                          复之中，更确切地说，他的烧已退，只是不想让人知道他的病已经 痊愈。 此时，他正在默想两年前有人在米兰大教堂里为纪念圣·卡 尔洛而吟诵的颂词，吟诵者的声调铿锵有力，听的人无不为之动</note>
-        <note xml:id="chinese_cap8-n15" type="insertion">容。</note>
-        <note xml:id="chinese_cap8-n16" type="comm" target="quarantana/cap8.xml#c8_10166" targetEnd="quarantana/cap8.xml#c8_10208">
-                          在颂词中，圣·卡尔洛因潜心钻研学问而被比作阿基米德， 到这一部分为止，堂·安保迪没有遇到任何理解上的困难，因为阿 基米德在当时曾做过许多引起人们广泛议论的古怪事情，故颂悟 他的思想无须拥有渊博的学识。</note>
-        <note xml:id="chinese_cap8-n17" type="comm" target="quarantana/cap8.xml#c8_10209" targetEnd="quarantana/cap8.xml#c8_10224">
-                          但是继阿基米德之后，演说者又 古希腊昔兰尼学派哲学家(公元前219—129)，该学派以寻求快乐为人生唯一的目的。 古希腊数学家、物理学家和发明家，发现阿基米德原理和杠杆定律。 把圣·卡尔洛比作卡尔内亚德,读至此,堂·安保迪的思路一下子糊涂了。</note>
-        <note xml:id="chinese_cap8-n18" type="comm" target="quarantana/cap8.xml#c8_10225" targetEnd="quarantana/cap8.xml#c8_10235">
-                          这时,佩尔贝多亚进来向他蒙报托尼奥来访。</note>
-        <note xml:id="chinese_cap8-n19" type="comm" target="quarantana/cap8.xml#c8_10236" targetEnd="quarantana/cap8.xml#c8_10243">
-                          "这么晚还来?"堂·安保迪也不免感到十分诧异。</note>
-        <note xml:id="chinese_cap8-n20" type="comm" target="quarantana/cap8.xml#c8_10244" targetEnd="quarantana/cap8.xml#c8_10255">
-                          "他们都是些无所顾忌的人,对他们您还能指望些什么呢?可假如您不马上逮住他的话......"</note>
-        <note xml:id="chinese_cap8-n21" type="comm" target="quarantana/cap8.xml#c8_10256" targetEnd="quarantana/cap8.xml#c8_10279">
-                          "说得对!我要是现在不逮住他的话,更待何时!你让他进来......嗯!嗯!你能完全肯定来人正是他吗?"</note>
-        <note xml:id="chinese_cap8-n22" type="comm" target="quarantana/cap8.xml#c8_10280" targetEnd="quarantana/cap8.xml#c8_10307">
-                          "这还用问吗?"佩尔贝多亚说罢就下楼打开大门招呼说:"真见鬼!你在哪里?"托尼奥从暗处走出,与此同时,阿涅珊也忙走上前去向她打招呼。</note>
-        <note xml:id="chinese_cap8-n23" type="comm" target="quarantana/cap8.xml#c8_10308" targetEnd="quarantana/cap8.xml#c8_10318">
-                          "晚上好,阿涅珊,"佩尔贝多亚回话说,"这么晚了,你这是从哪里来?"</note>
-        <note xml:id="chinese_cap8-n24" type="comm" target="quarantana/cap8.xml#c8_10319" targetEnd="quarantana/cap8.xml#c8_10325">
-                          "我从......"阿涅珊说了附近一个村落的名字。"</note>
-        <note xml:id="chinese_cap8-n25" type="comm" target="quarantana/cap8.xml#c8_10326" targetEnd="quarantana/cap8.xml#c8_10338">
-                          事实上......"她接着说,"我就是为了你才跋涉了这么长的时间。"</note>
-        <note xml:id="chinese_cap8-n26" type="comm" target="quarantana/cap8.xml#c8_10339" targetEnd="quarantana/cap8.xml#c8_10352">
-                          "那是为了什么?"佩尔贝多亚问她,同时转身对两兄弟说:"你们先进去,我一会儿就来。"</note>
-        <note xml:id="chinese_cap8-n27" type="comm" target="quarantana/cap8.xml#c8_10353" targetEnd="quarantana/cap8.xml#c8_10388">
-                          阿涅珊回答说:"是这么回事,有一个不知好歹但又喜欢在背后啰嗦的女人......你可能不信,她一再地说,你当初之所以没有嫁给培贝·苏奥拉维基亚或安塞尔莫·隆基亚,是因为他们两人都看不上你。</note>
-        <note xml:id="chinese_cap8-n28" type="comm" target="quarantana/cap8.xml#c8_10389" targetEnd="quarantana/cap8.xml#c8_10401">
-                          我驳斥她说,是你回绝了他们两个......"</note>
-        <note xml:id="chinese_cap8-n29" type="comm" target="quarantana/cap8.xml#c8_10402" targetEnd="quarantana/cap8.xml#c8_10402">
-                          "那当然。</note>
-        <note xml:id="chinese_cap8-n30" type="comm" target="quarantana/cap8.xml#c8_10403" targetEnd="quarantana/cap8.xml#c8_10410">
-                          噢,她真是个爱撒谎的人,一个爱说弥天大谎的女人!她是谁?"</note>
-        <note xml:id="chinese_cap8-n31" type="comm" target="quarantana/cap8.xml#c8_10411" targetEnd="quarantana/cap8.xml#c8_10420">
-                          "你别问我,我可不想惹麻烦。"</note>
-        <note xml:id="chinese_cap8-n32" type="comm" target="quarantana/cap8.xml#c8_10421" targetEnd="quarantana/cap8.xml#c8_10430">
-                          "告诉我,你必须得告诉我。 噢,这个该死的女人!"</note>
-        <note xml:id="chinese_cap8-n33" type="comm" target="quarantana/cap8.xml#c8_10431" targetEnd="quarantana/cap8.xml#c8_10449">
-                          "算了......我对你的那件事情不全清楚,没有办法堵住她的嘴,你不知道我当时有多难受。"</note>
-        <note xml:id="chinese_cap8-n34" type="comm" target="quarantana/cap8.xml#c8_10450" targetEnd="quarantana/cap8.xml#c8_10474">
-                          "她竟敢毫无顾忌地造谣中伤我!"佩尔贝多亚再次大声嚷道,然后马上又说:"至于说培贝,大家都知道,而且也看到了......嗯,</note>
-        <note xml:id="chinese_cap8-n35" type="comm" target="quarantana/cap8.xml#c8_10475" targetEnd="quarantana/cap8.xml#c8_10483">
-                          托尼奥！ 把门掩上,你上楼去吧,我马上就来。"</note>
-        <note xml:id="chinese_cap8-n36" type="comm" target="quarantana/cap8.xml#c8_10484" targetEnd="quarantana/cap8.xml#c8_10496">
-                          托尼奥一面应声说是,一面进了大门,阿琪珊继续滔滔不绝地讲述她的故事。</note>
-        <note xml:id="chinese_cap8-n37" type="comm" target="quarantana/cap8.xml#c8_10497" targetEnd="quarantana/cap8.xml#c8_10515">
-                          堂·安保迪家的大门对面是一条小巷子,两边是两幢房屋,后面则是一块空地。</note>
-        <note xml:id="chinese_cap8-n38" type="comm" target="quarantana/cap8.xml#c8_10516" targetEnd="quarantana/cap8.xml#c8_10532">
-                          阿琪珊走进了小巷,仿佛想找一幢静处无拘无束地说话,佩尔贝多亚见状,急忙紧随其后。</note>
-        <note xml:id="chinese_cap8-n39" type="comm" target="quarantana/cap8.xml#c8_10533" targetEnd="quarantana/cap8.xml#c8_10556">
-                          待她们转身走到一个无法看清堂·安保迪宅第前可能发生什么事情的地方之后,阿琪珊啊亮地咳了一声。</note>
-        <note xml:id="chinese_cap8-n40" type="comm" target="quarantana/cap8.xml#c8_10557" targetEnd="quarantana/cap8.xml#c8_10602">
-                          这是原先约定的暗号,兰佐听到后,紧紧捉住鲁齐娅的手臂给她壮胆,然后两人踟蹰踌躇地贴着墙悄悄地往前走到大门口,轻轻地将门推开,猫着腰不声不响地进入门厅,托尼奥兄弟两正在那儿等着他们。</note>
-        <note xml:id="chinese_cap8-n41" type="comm" target="quarantana/cap8.xml#c8_10603" targetEnd="quarantana/cap8.xml#c8_10622">
-                          兰佐轻轻地将大门掩上,四个人一起上了楼。</note>
-        <note xml:id="chinese_cap8-n42" type="comm" target="quarantana/cap8.xml#c8_10623" targetEnd="quarantana/cap8.xml#c8_10643">
-                          走至楼梯口,两兄弟朝楼梯一侧的房门走去,兰佐和鲁齐娅则紧贴着墙边。</note>
-        <note xml:id="chinese_cap8-n43" type="comm" target="quarantana/cap8.xml#c8_10644" targetEnd="quarantana/cap8.xml#c8_10652">
-                          "感谢上帝,"托尼奥嗓音清晰地说。</note>
-        <note xml:id="chinese_cap8-n44" type="comm" target="quarantana/cap8.xml#c8_10653" targetEnd="quarantana/cap8.xml#c8_10654">
-                          "托尼奥,是你吗？</note>
-        <note xml:id="chinese_cap8-n45" type="comm" target="quarantana/cap8.xml#c8_10655" targetEnd="quarantana/cap8.xml#c8_10660">
-                          请进,"屋里的人应声说。</note>
-        <note xml:id="chinese_cap8-n46" type="comm" target="quarantana/cap8.xml#c8_10661" targetEnd="quarantana/cap8.xml#c8_10678">
-                          托尼奥稍稍推开房门,其空隙刚好让他们兄弟两人能依次进入。</note>
-        <note xml:id="chinese_cap8-n47" type="comm" target="quarantana/cap8.xml#c8_10679" targetEnd="quarantana/cap8.xml#c8_10703">
-                          一道光线突然透过门缝射在楼梯口昏暗的地板上,鲁齐娅不由得一惊,好像自己已被发现一样。</note>
-        <note xml:id="chinese_cap8-n48" type="comm" target="quarantana/cap8.xml#c8_10704" targetEnd="quarantana/cap8.xml#c8_10737">
-                          两兄弟进入屋子后,托尼奥随手将门关上,兰佐和鲁齐娅纹丝不动地站在黑暗中,屏住呼吸,侧耳细听。 可怜的鲁齐娅心里怦怦直跳,心跳声似乎盖过了四周的声响。</note>
-        <note xml:id="chinese_cap8-n49" type="comm" target="quarantana/cap8.xml#c8_10738" targetEnd="quarantana/cap8.xml#c8_10771">
-                          如上所述,堂·安保迪坐在一张破旧的椅子上,身上裹着一件黑色的旧长袍,头上戴着一顶圆形平顶无边旧便帽,一盏小油灯微弱的亮光清晰地勾勒出他脸部的轮廓。</note>
-        <note xml:id="chinese_cap8-n50" type="comm" target="quarantana/cap8.xml#c8_10772" targetEnd="quarantana/cap8.xml#c8_10816">
-                          从帽檐外钻出来的两缕浓密的头发、两条浓密的眉毛、两道浓密的髯须和两撇浓密的山羊胡子都已花白,全堆在他那张布满皱纹的、黝黑的脸上,像是月光下峭壁上积满白雪的荆棘。</note>
-        <note xml:id="chinese_cap8-n51" type="comm" target="quarantana/cap8.xml#c8_10817" targetEnd="quarantana/cap8.xml#c8_10832">
-                          "啊！ 啊！" 他一面摘下眼镜夹在手中,一面向托尼奥打招呼。</note>
-        <note xml:id="chinese_cap8-n52" type="comm" target="quarantana/cap8.xml#c8_10833" targetEnd="quarantana/cap8.xml#c8_10850">
-                          "您神甫先生也许会说,这么晚我不该来,"托尼奥躬身对他说,吉尔瓦索也笨拙地行了礼。</note>
-        <note xml:id="chinese_cap8-n53" type="comm" target="quarantana/cap8.xml#c8_10851" targetEnd="quarantana/cap8.xml#c8_10858">
-                          "是太晚了，不管从哪一个方面说，确实是太晚了。</note>
-        <note xml:id="chinese_cap8-n54" type="comm" target="quarantana/cap8.xml#c8_10859" targetEnd="quarantana/cap8.xml#c8_10863">
-                          我病了，你难道没看出来？"</note>
-        <note xml:id="chinese_cap8-n55" type="comm" target="quarantana/cap8.xml#c8_10864" targetEnd="quarantana/cap8.xml#c8_10866">
-                          "哦，我很抱歉。"</note>
-        <note xml:id="chinese_cap8-n56" type="comm" target="quarantana/cap8.xml#c8_10867" targetEnd="quarantana/cap8.xml#c8_10887">
-                          "也许你已听说我病了，我不知道何时才能出门……你为什么把那个……那个小伙子一起带来？"</note>
-        <note xml:id="chinese_cap8-n57" type="comm" target="quarantana/cap8.xml#c8_10888" targetEnd="quarantana/cap8.xml#c8_10892">
-                          "这样我就有了个伴，神甫先生。"</note>
-        <note xml:id="chinese_cap8-n58" type="comm" target="quarantana/cap8.xml#c8_10893" targetEnd="quarantana/cap8.xml#c8_10894">
-                          "不说这些了，你来找我有什么事吗？"</note>
-        <note xml:id="chinese_cap8-n59" type="comm" target="quarantana/cap8.xml#c8_10895" targetEnd="quarantana/cap8.xml#c8_10911">
-                          "这里是三十五个崭新的银币，上面有圣·安布罗斯骑在马上的图案，"托尼奥一面说着，一面从口袋里掏出一只小袋子。</note>
-        <note xml:id="chinese_cap8-n60" type="comm" target="quarantana/cap8.xml#c8_10912" targetEnd="quarantana/cap8.xml#c8_10936">
-                          "拿来让我看看，"堂·安保迪忙说道，同时接过袋子，戴上眼镜后从袋子里面取出银币一个一个数着。 他翻来覆去地仔细检查每一个银币，没发现有什么异样。</note>
-        <note xml:id="chinese_cap8-n61" type="comm" target="quarantana/cap8.xml#c8_10937" targetEnd="quarantana/cap8.xml#c8_10946">
-                          "神甫先生，现在您得把我妻子黛克拉的项链还给我。"</note>
-        <note xml:id="chinese_cap8-n62" type="comm" target="quarantana/cap8.xml#c8_10947" targetEnd="quarantana/cap8.xml#c8_11006">
-                          "那当然，"堂·安保迪回答说，一面走至一个衣橱前。 他从口袋里掏出一把钥匙，眼睛在四下里扫了一圈，以免旁边有人窥视，把衣橱门稍稍拉开后，忙用自己的身子堵住门缝，然后探头朝里边看了一下，并伸出一只手取出项链。 他关上衣橱，把项链交给托尼奥，并对他说："这下子你该满意了吧？"</note>
-        <note xml:id="chinese_cap8-n63" type="comm" target="quarantana/cap8.xml#c8_11007" targetEnd="quarantana/cap8.xml#c8_11019">
-                          托尼奥接着说："现在，劳驾您替我立一个字据。"</note>
-        <note xml:id="chinese_cap8-n64" type="comm" target="quarantana/cap8.xml#c8_11020" targetEnd="quarantana/cap8.xml#c8_11027">
-                          "还要立字据！" 堂·安保迪不满地说。" 你们这些人，如今无事不通。</note>
-        <note xml:id="chinese_cap8-n65" type="comm" target="quarantana/cap8.xml#c8_11028" targetEnd="quarantana/cap8.xml#c8_11033">
-                          啊！ 这世上充满了猜疑！</note>
-        <note xml:id="chinese_cap8-n66" type="comm" target="quarantana/cap8.xml#c8_11034" targetEnd="quarantana/cap8.xml#c8_11038">
-                          你信不过我吗？"</note>
-        <note xml:id="chinese_cap8-n67" type="comm" target="quarantana/cap8.xml#c8_11039" targetEnd="quarantana/cap8.xml#c8_11044">
-                          "快别这么说，神甫先生！ 我信不过您？</note>
-        <note xml:id="chinese_cap8-n68" type="comm" target="quarantana/cap8.xml#c8_11045" targetEnd="quarantana/cap8.xml#c8_11048">
-                          您冤枉了我。</note>
-        <note xml:id="chinese_cap8-n69" type="comm" target="quarantana/cap8.xml#c8_11049" targetEnd="quarantana/cap8.xml#c8_11076">
-                          您那本子里，在债务人一栏里写着我的名字······当初为了写我的名字给您添了麻烦，现在要是再立个字据，您从此就永远也不需要······"</note>
-        <note xml:id="chinese_cap8-n70" type="comm" target="quarantana/cap8.xml#c8_11077" targetEnd="quarantana/cap8.xml#c8_11116">
-                          "好吧，好吧，"堂·安保迪打断他的话，嘟嘟囔囔地拉开小桌子 意大利米兰主教(374—397)，在职期间竭力维护基督教会的权力，在文学、音乐方面造诣颇深。 上的一个抽屉，从里面取出纸、笔和墨水瓶开始写起来，一面把写在纸上的字逐个念出声来。</note>
-        <note xml:id="chinese_cap8-n71" type="comm" target="quarantana/cap8.xml#c8_11117" targetEnd="quarantana/cap8.xml#c8_11167">
-                          与此同时，托尼奥示意吉尔瓦索同他一起站到小桌子前面堵住堂·安保迪的视线，使他无法看到房门。 然后，托尼奥装作无所事事的样子，一只脚不断在地板上蹬，其实是在暗示躲在房门外的那两个人进来，同时又可以盖住他们的脚步声。</note>
-        <note xml:id="chinese_cap8-n72" type="comm" target="quarantana/cap8.xml#c8_11168" targetEnd="quarantana/cap8.xml#c8_11177">
-                          堂·安保迪专心致志地写着字据，没注意到房门外的动静。</note>
-        <note xml:id="chinese_cap8-n73" type="comm" target="quarantana/cap8.xml#c8_11178" targetEnd="quarantana/cap8.xml#c8_11208">
-                          听到托尼奥的脚在地板上蹬了四下，兰佐忙抓住鲁齐娅的胳膊捏了一下给她壮胆，然后拽着她朝屋子里走去。 鲁齐娅浑身咳嗽，独自一个人她绝对不会上那儿去。</note>
-        <note xml:id="chinese_cap8-n74" type="comm" target="quarantana/cap8.xml#c8_11209" targetEnd="quarantana/cap8.xml#c8_11225">
-                          他们屏住呼吸，踮着脚悄悄地进了房间，躲在托尼奥兄弟两人的身后。</note>
-        <note xml:id="chinese_cap8-n75" type="comm" target="quarantana/cap8.xml#c8_11226" targetEnd="quarantana/cap8.xml#c8_11265">
-                          此时，堂·安保迪正眼皮也不抬地在仔细检查刚写完的字据，然后将它一折四说："现在你满意了吗？" 说罢，他一只手摘下架在鼻子上的眼镜，另一只手拿起字据，抬起头欲把它交给托尼奥。</note>
-        <note xml:id="chinese_cap8-n76" type="comm" target="quarantana/cap8.xml#c8_11266" targetEnd="quarantana/cap8.xml#c8_11296">
-                          托尼奥伸出手接字据，同时向一旁退去。 这时，好似幕间换布景一样，兰佐和鲁齐娅突然出现在两人的中间。</note>
-        <note xml:id="chinese_cap8-n77" type="comm" target="quarantana/cap8.xml#c8_11297" targetEnd="quarantana/cap8.xml#c8_11333">
-                          堂·安保迪起初只是看到两个模糊的身影，待他看清后吓得呆若木鸡，气得直跺脚，但是他眼珠一转马上想好了对策。 与此同时，兰佐急忙说："神甫先生，在两位证人面前我宣布，这是我的妻子。"</note>
-        <note xml:id="chinese_cap8-n78" type="comm" target="quarantana/cap8.xml#c8_11334" targetEnd="quarantana/cap8.xml#c8_11393">
-                          还未等他合拢嘴唇，堂·安保迪忙松开拿在手中的字据，伸出左手一把抓住并举起油灯，一面用右手搜住桌布猛力往杯里一拉，桌上的书、纸、墨水瓶和吸墨水沙匣一股脑儿全散落在椅子和桌子之间的地板上。</note>
-        <note xml:id="chinese_cap8-n79" type="comm" target="quarantana/cap8.xml#c8_11394" targetEnd="quarantana/cap8.xml#c8_11431">
-                          紧接着，他向鲁齐娅步步逼近，可怜的姑娘全身咳嗽，用微弱的声音才说出："这位······"，堂·安保迪随即粗鲁地将桌布蒙住她的头和脸，不让她把话讲完。</note>
-        <note xml:id="chinese_cap8-n80" type="comm" target="quarantana/cap8.xml#c8_11432" targetEnd="quarantana/cap8.xml#c8_11461">
-                          与此同时，他丢掉拿在手中的油灯，伸出两只手紧紧捂住桌布，使鲁齐娅几乎无法呼吸，一面竭尽全力大声疾呼："佩尔贝多亚！ 佩尔贝多亚！</note>
-        <note xml:id="chinese_cap8-n81" type="comm" target="quarantana/cap8.xml#c8_11462" targetEnd="quarantana/cap8.xml#c8_11464">
-                          有人要偷袭我！ 快来啊！"</note>
-        <note xml:id="chinese_cap8-n82" type="comm" target="quarantana/cap8.xml#c8_11465" targetEnd="quarantana/cap8.xml#c8_11503">
-                          掉落在地的灯芯行将熄灭，其昏暗、跳动的光亮照在鲁齐娅的脸上，只见她神思恍惚，简直无法从惊慌中解脱出来，看上去好似一尊用白垩土制成的雕像，上面还蒙上了一块湿布。</note>
-        <note xml:id="chinese_cap8-n83" type="comm" target="quarantana/cap8.xml#c8_11504" targetEnd="quarantana/cap8.xml#c8_11545">
-                          待</note>
-        <note xml:id="chinese_cap8-n84" type="comm" target="quarantana/cap8.xml#c8_11546" targetEnd="quarantana/cap8.xml#c8_11622">
-                          屋子全部笼罩在一片黑暗中,堂·安保迪才放手松开可怜的姑娘，摸索着寻找通向里屋的房门,进去后随手将门关上,同时高声呼叫:"佩尔贝多亚!有人要偷袭我!来来啊!你们给我滚出去!快滚出这所房子!"外屋同样一片混乱:兰佐好像在玩捉迷藏游戏一样,在黑暗中舞动着双手,试图拦住神甫,同时走至房门口,一边敲门,一边高声喊叫:"开门!快开门!别乱嚷!"鲁齐娅呼喊着兰佐的名字,用微弱的声音恳求他说:"走吧,看在上帝的份上,我们走吧!"托尼奥趴在地板上欲找回他的收据,两手却处暗摸着;吉尔瓦索吓得魂不附体,跳跳嚷嚷地想找到通向楼梯的房门,逃出那块是非之地。</note>
-        <note xml:id="chinese_cap8-n85" type="comm" target="quarantana/cap8.xml#c8_11623" targetEnd="quarantana/cap8.xml#c8_11699">
-                          在这一片喧闹声中,我们不妨静下心来思考一些问题:兰佐晚间悄然潜入他人的私宅大喊大叫,还将房主紧闭在一间屋子里,完全像一个压迫者;但他归根结蒂依然是个被压迫者;堂·安保迪正安静地在干自己的事情,因受惊吓而逃跑,似乎成了受害者,但事实上,这是他滥用职权而种下的苦果。</note>
-        <note xml:id="chinese_cap8-n86" type="comm" target="quarantana/cap8.xml#c8_11700" targetEnd="quarantana/cap8.xml#c8_11712">
-                          世上有好多事情就是这样不近情理······这几我指的是十七世纪的社会现实。</note>
-        <note xml:id="chinese_cap8-n87" type="comm" target="quarantana/cap8.xml#c8_11713" targetEnd="quarantana/cap8.xml#c8_11738">
-                          堂·安保迪处于孤立危急的困境之中,当他发现自己的对手没 有撒离的迹象，忙打开面朝教堂广场的窗子，声嘶力竭地大叫："快来人啊！ 快来人啊！"</note>
-        <note xml:id="chinese_cap8-n88" type="comm" target="quarantana/cap8.xml#c8_11739" targetEnd="quarantana/cap8.xml#c8_11779">
-                          这是一个月色溶溶的夜晚，教堂及其后面狭长、尖顶的钟楼竖立在一片淡清清的银光下，在广场明亮的草坪上投下朦胧的暗影，周围的一切显得如同白昼一样的清晰。</note>
-        <note xml:id="chinese_cap8-n89" type="comm" target="quarantana/cap8.xml#c8_11780" targetEnd="quarantana/cap8.xml#c8_11791">
-                          但是，极目望去却看不到有人走动的身影。</note>
-        <note xml:id="chinese_cap8-n90" type="comm" target="quarantana/cap8.xml#c8_11792" targetEnd="quarantana/cap8.xml#c8_11818">
-                          不过，在面朝神甫家、贴着教堂侧墙的一边，有一间阴暗的隔屋，里面睡着教堂司事。</note>
-        <note xml:id="chinese_cap8-n91" type="comm" target="quarantana/cap8.xml#c8_11819" targetEnd="quarantana/cap8.xml#c8_11851">
-                          他被慌乱的呼叫声惊醒，一骨碌从床上跳起来，拉开通往窗户的帘子，睡眼惺松地探出头去大声问道："出了什么事情？"</note>
-        <note xml:id="chinese_cap8-n92" type="comm" target="quarantana/cap8.xml#c8_11852" targetEnd="quarantana/cap8.xml#c8_11862">
-                          "快来啊，安布罗乔！ 救命呀！ 屋子里闯进了坏人！"</note>
-        <note xml:id="chinese_cap8-n93" type="comm" target="quarantana/cap8.xml#c8_11863" targetEnd="quarantana/cap8.xml#c8_11909">
-                          堂·安保迪朝他大叫大嚷。" 我马上就来，"安布罗乔回答说，一面缩回脑袋重新拉上了窗帘。 这时的他，与其说是睡梦初醒倒不如说是惊慌失措，尽管如此，他还是立即想出了一条妙计：竭尽全力帮助神甫脱险，但自己不直接介入冲突。</note>
-        <note xml:id="chinese_cap8-n94" type="comm" target="quarantana/cap8.xml#c8_11910" targetEnd="quarantana/cap8.xml#c8_11955">
-                          他一把抓起搭在床脚上的裤子，像大礼帽似的夹在腋下，然后跳着冲下了木楼梯，急步跑至钟楼，抓住吊在那一口较大的钟上的绳子使劲晃起来。</note>
-        <note xml:id="chinese_cap8-n95" type="comm" target="quarantana/cap8.xml#c8_11956" targetEnd="quarantana/cap8.xml#c8_11975">
-                          咣、咣、咣、咣，闻听急促的钟声，村民们立即从床上坐起，躺在干草堆上的小伙子们竖起耳朵听了一会儿后马上站立起来。"</note>
-        <note xml:id="chinese_cap8-n96" type="comm" target="quarantana/cap8.xml#c8_11976" targetEnd="quarantana/cap8.xml#c8_11976">
-                          出了什么事？</note>
-        <note xml:id="chinese_cap8-n97" type="comm" target="quarantana/cap8.xml#c8_11977" targetEnd="quarantana/cap8.xml#c8_11976">
-                          出了什么事？</note>
-        <note xml:id="chinese_cap8-n98" type="comm" target="quarantana/cap8.xml#c8_11978" targetEnd="quarantana/cap8.xml#c8_11983">
-                          有人在敲警钟！ 着火了？ 盗匪打家劫舍？"</note>
-        <note xml:id="chinese_cap8-n99" type="comm" target="quarantana/cap8.xml#c8_11984" targetEnd="quarantana/cap8.xml#c8_12035">
-                          不少村妇劝说和恳求自己的丈夫来在家里别出去，让其他人先跑去看一下究竟发生了什么事情。 其中，有的人下床走到窗户边；胆小的人听从妻子的劝告又钻进了被窝；几个较好奇和较勇敢的人则跳下床操起长柄叉和猎枪朝人声喧嚷的地方跑去，剩下的人则在观望。</note>
-        <note xml:id="chinese_cap8-n100" type="comm" target="quarantana/cap8.xml#c8_12036" targetEnd="quarantana/cap8.xml#c8_12073">
-                          事实上，在他们准备采取行动之前，甚至在他们从睡梦中完全醒来之前，钟声早已传到了站在不远处尚未宽衣就寝的另外一些人的耳朵里：一边是那些猎手，另一边是阿涅塞和佩尔贝吉亚。</note>
-        <note xml:id="chinese_cap8-n101" type="comm" target="quarantana/cap8.xml#c8_12074" targetEnd="quarantana/cap8.xml#c8_12093">
-                          我们首先简略地叙述一下，那几个留在倒塌的小屋以及酒铺里的打手后来又干了些什么。</note>
-        <note xml:id="chinese_cap8-n102" type="comm" target="quarantana/cap8.xml#c8_12094" targetEnd="quarantana/cap8.xml#c8_12151">
-                          当酒铺里的三个打手看到，村民们全都关 上了自己家的大门,街上已空无一人,便装作天色已黑欲往家赶的样子,急匆匆地出了酒铺。 他们在村子里转了一圈,看看所有的人是否确实都已回屋;实际上,他们一路上没看见有人在走动,也没听见任何细小的声响。</note>
-        <note xml:id="chinese_cap8-n103" type="comm" target="quarantana/cap8.xml#c8_12152" targetEnd="quarantana/cap8.xml#c8_12170">
-                          他们三人迟悄悄地从阿涅珊家的旧房子前走过,人去楼空,里边显得格外的安静。</note>
-        <note xml:id="chinese_cap8-n104" type="comm" target="quarantana/cap8.xml#c8_12171" targetEnd="quarantana/cap8.xml#c8_12183">
-                          然后,他们直奔那间倒塌的小屋,向格里索先生汇报情况。</note>
-        <note xml:id="chinese_cap8-n105" type="comm" target="quarantana/cap8.xml#c8_12184" targetEnd="quarantana/cap8.xml#c8_12247">
-                          听罢他们的介绍,格里索立即往头上套了一顶旧帽子,往肩上披上一件带有贝状饰物的油布斗篷,拿起一根朝圣者用的拐杖说:"拿出打手的样子来,不许声张,注意听我的命令,现在我们走吧。" 他走在头上,几个打手紧随其后。 他们走的路正好和兰佐一伙去执行任务时所走的路相反,不一会儿就到了那间小屋子前。</note>
-        <note xml:id="chinese_cap8-n106" type="comm" target="quarantana/cap8.xml#c8_12248" targetEnd="quarantana/cap8.xml#c8_12305">
-                          格里索吩咐他的手下呆在几步开外的地方待命,自己一人前去探路。 见四周空无一人,万籁俱寂,他叫他的两个喽罗走上前,吩咐他们悄悄地翻过小院子外面那堵围墙,进去后躲在他上午看好的院子角落里一棵树叶茂密的无花果树后面。</note>
-        <note xml:id="chinese_cap8-n107" type="comm" target="quarantana/cap8.xml#c8_12306" targetEnd="quarantana/cap8.xml#c8_12323">
-                          然后,他伪装成一个迷了路后恳求借宿过夜的朝圣者,轻轻地前去敲门。</note>
-        <note xml:id="chinese_cap8-n108" type="comm" target="quarantana/cap8.xml#c8_12324" targetEnd="quarantana/cap8.xml#c8_12333">
-                          见屋内无人应声,他稍微重重地又敲了几下,里边依旧没有任何动静。</note>
-        <note xml:id="chinese_cap8-n109" type="comm" target="quarantana/cap8.xml#c8_12334" targetEnd="quarantana/cap8.xml#c8_12363">
-                          这时,他叫来第三个打手,吩咐他也像前面两个一样翻墙入院,然后拨掉门闩,以便进出自由。</note>
-        <note xml:id="chinese_cap8-n110" type="comm" target="quarantana/cap8.xml#c8_12364" targetEnd="quarantana/cap8.xml#c8_12372">
-                          他们谨慎从事,一切似乎都进行得十分顺利。</note>
-        <note xml:id="chinese_cap8-n111" type="comm" target="quarantana/cap8.xml#c8_12373" targetEnd="quarantana/cap8.xml#c8_12407">
-                          他又去把其他几个恶棍也叫来,让他们随他一起进入院内,以便同先入院的那一伙人躲在一起,他自己则踮手踮脚地走至临街的大门口,在大门里面安排两个打手放哨,然后朝院内的小门走去。</note>
-        <note xml:id="chinese_cap8-n112" type="comm" target="quarantana/cap8.xml#c8_12408" targetEnd="quarantana/cap8.xml#c8_12416">
-                          他在门上敲了几下,耐心地等了一会儿。</note>
-        <note xml:id="chinese_cap8-n113" type="comm" target="quarantana/cap8.xml#c8_12417" targetEnd="quarantana/cap8.xml#c8_12437">
-                          他小心翼翼地将门闩拨掉,没听到里边有人问:"是谁啊?"屋内连一点动静也没有。 事情比原先估计的似乎要顺利得多,他觉得该是采取行动的时候了。</note>
-        <note xml:id="chinese_cap8-n114" type="comm" target="quarantana/cap8.xml#c8_12438" targetEnd="quarantana/cap8.xml#c8_12460">
-                          他轻声地把躲在无花果树后面的几个打手叫至跟前,同他们一起进入楼下的房间,前一天上午,他曾厚颜无耻地站在房门口乞讨过面包。</note>
-        <note xml:id="chinese_cap8-n115" type="comm" target="quarantana/cap8.xml#c8_12461" targetEnd="quarantana/cap8.xml#c8_12485">
-                          他取出火绒、火石、火镰和硫磺火柴,点燃了随身带来的一盏小提灯后走进内屋,事实果然验证了他的猜 测，屋内空无一人。</note>
-        <note xml:id="chinese_cap8-n116" type="comm" target="quarantana/cap8.xml#c8_12486" targetEnd="quarantana/cap8.xml#c8_12497">
-                          他从原路折回，然后走至楼梯口四下环顾，并竖起耳朵细听，周围一片沉寂。</note>
-        <note xml:id="chinese_cap8-n117" type="comm" target="quarantana/cap8.xml#c8_12498" targetEnd="quarantana/cap8.xml#c8_12544">
-                          他在楼下安排了另外两个打手担任警戒，身边只带着一个来自贝尔加莫城郊名叫格里亚波科的恶棍，此人唯一的任务就是栳吓、哄骗和发号施令，简而言之，扮演一个动口不动手的角色，并以他浓重的地方口音给阿涅珊造成错觉，误以为他们这一伙人是从贝尔加莫城郊来的。</note>
-        <note xml:id="chinese_cap8-n118" type="comm" target="quarantana/cap8.xml#c8_12545" targetEnd="quarantana/cap8.xml#c8_12573">
-                          格里索和他走在头上，后面跟着另外几个打手，踩手踩脚地攀上了楼梯，心里不停地诅咒他的喋罗，因为他们每登上一个楼级，脚下的地板就发出咯咯嘎嘎的响声。</note>
-        <note xml:id="chinese_cap8-n119" type="comm" target="quarantana/cap8.xml#c8_12574" targetEnd="quarantana/cap8.xml#c8_12581">
-                          他们终于登上了楼，来到了鲁齐娅每天睡觉的地方。</note>
-        <note xml:id="chinese_cap8-n120" type="comm" target="quarantana/cap8.xml#c8_12582" targetEnd="quarantana/cap8.xml#c8_12612">
-                          他轻轻推了一下通向另一间屋子的房门，门被推开了一条缝，他朝里看了一下，眼前一片漆黑；接着他又竖起耳朵，想听听屋内是否有打鼾声、呼吸声或走动声，但里面是死一般的寂静。</note>
-        <note xml:id="chinese_cap8-n121" type="comm" target="quarantana/cap8.xml#c8_12613" targetEnd="quarantana/cap8.xml#c8_12646">
-                          他把手提灯举在前面，好看清周围而不被人看清自己的脸，然后用力推开房门，看见房内摆着一张床，立即一个箭步踏上去，但床上没有人，只见床首的椅子和枕头都卷得好好的。</note>
-        <note xml:id="chinese_cap8-n122" type="comm" target="quarantana/cap8.xml#c8_12647" targetEnd="quarantana/cap8.xml#c8_12678">
-                          他皱了皱眉，转身示意他的喋罗悄悄跟在他后面到另一个房间里去看一下，可那里同样空无一人。"</note>
-        <note xml:id="chinese_cap8-n123" type="comm" target="quarantana/cap8.xml#c8_12679" targetEnd="quarantana/cap8.xml#c8_12692">
-                          真是活见鬼，这是怎么一回事？" 他开口说，"是不是有好诈的小人在暗中监视着我们？"</note>
-        <note xml:id="chinese_cap8-n124" type="comm" target="quarantana/cap8.xml#c8_12693" targetEnd="quarantana/cap8.xml#c8_12709">
-                          说罢，他们一反常态，开始在房子的每一个角落里搜寻、翻找，把房间弄得乱七八糟。</note>
-        <note xml:id="chinese_cap8-n125" type="comm" target="quarantana/cap8.xml#c8_12710" targetEnd="quarantana/cap8.xml#c8_12749">
-                          正当他们在屋子里翻箱倒柜的时候，那两个在临街的大门口放哨的恶棍忽然听到远处有人踏着急促的碎步正向他们走来。 他们想，不管此人是谁，总得从他们跟前走过，故静静地留在原地警惕地观察事态的发展。</note>
-        <note xml:id="chinese_cap8-n126" type="comm" target="quarantana/cap8.xml#c8_12750" targetEnd="quarantana/cap8.xml#c8_12757">
-                          果然不出所料，来者走到阿涅珊家门口即停住了脚步。</note>
-        <note xml:id="chinese_cap8-n127" type="comm" target="quarantana/cap8.xml#c8_12758" targetEnd="quarantana/cap8.xml#c8_12791">
-                          疾步走来的原来是梅尼科，克里斯托弗洛修士派他来通知阿涅珊母女二人，让她们看在上帝的分上赶快离家逃到修道院藏身，因为······我想，这其中的原因读者的心里一定也明白。</note>
-        <note xml:id="chinese_cap8-n128" type="comm" target="quarantana/cap8.xml#c8_12792" targetEnd="quarantana/cap8.xml#c8_12821">
-                          他抓起门上的拉手就叩，但发现被起掉了钉子的拉手已经松脱。" 怎么回事？" 他思忖着，一面胆战心惊地推了一下门，门应声开启了一条缝。</note>
-        <note xml:id="chinese_cap8-n129" type="comm" target="quarantana/cap8.xml#c8_12822" targetEnd="quarantana/cap8.xml#c8_12857">
-                          梅尼科 满心疑惧地迈腿入内，骤然间感到有人抓住了他的两只手臂，左右有两个人同时低声同呼他说："不许声张，否则你就没命了！"</note>
-        <note xml:id="chinese_cap8-n130" type="comm" target="quarantana/cap8.xml#c8_12858" targetEnd="quarantana/cap8.xml#c8_12881">
-                          听此言，他不禁尖叫一声，一个恶棍马上用手捂住他的嘴，另一个则抽出一把破旧的刀子吓唬他。</note>
-        <note xml:id="chinese_cap8-n131" type="comm" target="quarantana/cap8.xml#c8_12882" targetEnd="quarantana/cap8.xml#c8_12924">
-                          少年吓得全身直打哆嗦，再也叫不出声了。 这时，从远处传来了第一下响亮的钟声，接着是一连串惊天动地的钟鸣声。</note>
-        <note xml:id="chinese_cap8-n132" type="comm" target="quarantana/cap8.xml#c8_12925" targetEnd="quarantana/cap8.xml#c8_12981">
-                          正如米兰的一则谚语所说："做贼心虚"，两个无赖觉得钟鸣声仿佛在呼唤着他们的姓名和外号，惊恐万状地立即松开了搀住梅尼科胳膊的手，目瞪口呆地望着彼此的脸，然后按腿朝着他们大部分同伙集聚的那幢房子疾步跑去。</note>
-        <note xml:id="chinese_cap8-n133" type="comm" target="quarantana/cap8.xml#c8_12982" targetEnd="quarantana/cap8.xml#c8_13000">
-                          梅尼科沿着马路朝钟楼方向快步奔去，心想那里肯定有人。</note>
-        <note xml:id="chinese_cap8-n134" type="comm" target="quarantana/cap8.xml#c8_13001" targetEnd="quarantana/cap8.xml#c8_13033">
-                          即使在阿涅珊家里翻箱倒柜的那几个恶棍，听到了可怕的钟声也同样感到惊恐不安。 他们惊慌失措，乱作一团，互相推搡，争先恐后地夺路而逃。</note>
-        <note xml:id="chinese_cap8-n135" type="comm" target="quarantana/cap8.xml#c8_13034" targetEnd="quarantana/cap8.xml#c8_13068">
-                          纵然他们都是一些久经考验和习惯于冒险的亡命之徒，但是却无法泰然面对一个潜在的危险，无其是当危险在他们毫无防备的情况下突如其来地出现在他们的面前时。</note>
-        <note xml:id="chinese_cap8-n136" type="comm" target="quarantana/cap8.xml#c8_13069" targetEnd="quarantana/cap8.xml#c8_13085">
-                          格里索不得不凭借自己的权威才稳住了他们的阵脚。</note>
-        <note xml:id="chinese_cap8-n137" type="comm" target="quarantana/cap8.xml#c8_13086" targetEnd="quarantana/cap8.xml#c8_13181">
-                          他就好像看护着一群猪的一条狗，来回追逐着几头离群的猪：一会儿咬住一头猪的耳朵并将它拖回猪群；一会儿用嘴拱另一头猪；一会儿又对离群的一头猪汪汪直叫。 身披朝圣者斗篷的格里索，一会儿捉住正欲跨出门槛的一个打手并将他拖进屋内；一会儿挥舞手杖把一两个朝门口逃去的打手赶回趟；一会儿对着毫无目的四下逃遁的另外几个打手大叫大嚷，费了九牛二虎之力，才将他们全都聚拢在院子的中央。"</note>
-        <note xml:id="chinese_cap8-n138" type="comm" target="quarantana/cap8.xml#c8_13182" targetEnd="quarantana/cap8.xml#c8_13197">
-                          快，快！ 拿好手枪，拔出匕首，然后我们一起出发。</note>
-        <note xml:id="chinese_cap8-n139" type="comm" target="quarantana/cap8.xml#c8_13198" targetEnd="quarantana/cap8.xml#c8_13207">
-                          你们这些笨蛋，我们前后这样跟紧的话，还有谁敢动我们半个指头？</note>
-        <note xml:id="chinese_cap8-n140" type="comm" target="quarantana/cap8.xml#c8_13208" targetEnd="quarantana/cap8.xml#c8_13222">
-                          要是我们分散行动，那些乡巴佬就有可能将我们一个一个干掉。</note>
-        <note xml:id="chinese_cap8-n141" type="comm" target="quarantana/cap8.xml#c8_13223" targetEnd="quarantana/cap8.xml#c8_13223">
-                          不害臊的东西！</note>
-        <note xml:id="chinese_cap8-n142" type="comm" target="quarantana/cap8.xml#c8_13224" targetEnd="quarantana/cap8.xml#c8_13228">
-                          跟着我！ 前后跟紧！"</note>
-        <note xml:id="chinese_cap8-n143" type="comm" target="quarantana/cap8.xml#c8_13229" targetEnd="quarantana/cap8.xml#c8_13240">
-                          说罢这一番情绪激昂的话之后，他带头第一个冲出院子。</note>
-        <note xml:id="chinese_cap8-n144" type="comm" target="quarantana/cap8.xml#c8_13241" targetEnd="quarantana/cap8.xml#c8_13266">
-                          如上所述，阿涅珊家的屋子地处村落的尽头，所以格里索选择了通向村外的那条路，喽罗们秩序井然地紧随其后。</note>
-        <note xml:id="chinese_cap8-n145" type="comm" target="quarantana/cap8.xml#c8_13267" targetEnd="quarantana/cap8.xml#c8_13285">
-                          我们暂且撇下格里索等一伙人不表，让我们回过头来看看留在那条小巷里的阿涅珊和佩尔贝多亚的情况怎么样。</note>
-        <note xml:id="chinese_cap8-n146" type="comm" target="quarantana/cap8.xml#c8_13286" targetEnd="quarantana/cap8.xml#c8_13311">
-                          阿涅珊要弄了一点小花招，成功地将佩尔贝多亚骗至远离堂·安保迪宅第的地方，从某种意义上来说，事情进行得十分顺当。</note>
-        <note xml:id="chinese_cap8-n147" type="comm" target="quarantana/cap8.xml#c8_13312" targetEnd="quarantana/cap8.xml#c8_13327">
-                          蓦然间，女仆想起宅第的大门还开着，急于回去将它关上。</note>
-        <note xml:id="chinese_cap8-n148" type="comm" target="quarantana/cap8.xml#c8_13328" targetEnd="quarantana/cap8.xml#c8_13367">
-                          出于无奈，阿涅珊为了不让对方心中生疑，只得陪着她一起从原路折回，同时想方设法拖住她，引诱她情绪激动地讲起那几次失败的婚姻。</note>
-        <note xml:id="chinese_cap8-n149" type="comm" target="quarantana/cap8.xml#c8_13368" targetEnd="quarantana/cap8.xml#c8_13400">
-                          阿涅珊伴装饶有兴趣地听着，为了让她感到自己正专心地在听她说话，还不时地插嘴说："那当然，现在我全明白了。 这很好，我懂了，可后来呢？ 他怎么说？</note>
-        <note xml:id="chinese_cap8-n150" type="comm" target="quarantana/cap8.xml#c8_13401" targetEnd="quarantana/cap8.xml#c8_13418">
-                          你又怎么说？" 与此同时，她心里却在嘀咕："他们现在已经离开了堂·安保迪的家吗？ 是否仍然果在屋子里？</note>
-        <note xml:id="chinese_cap8-n151" type="comm" target="quarantana/cap8.xml#c8_13419" targetEnd="quarantana/cap8.xml#c8_13437">
-                          我们三个人也真够傻的，应该事先商定好，事成之后让他们发个暗号。</note>
-        <note xml:id="chinese_cap8-n152" type="comm" target="quarantana/cap8.xml#c8_13438" targetEnd="quarantana/cap8.xml#c8_13441">
-                          我们确实犯了一个大错！</note>
-        <note xml:id="chinese_cap8-n153" type="comm" target="quarantana/cap8.xml#c8_13442" targetEnd="quarantana/cap8.xml#c8_13464">
-                          可现在后悔已为时太晚了，我只有尽量拖住她，至多是浪费一些时间而已。"</note>
-        <note xml:id="chinese_cap8-n154" type="comm" target="quarantana/cap8.xml#c8_13465" targetEnd="quarantana/cap8.xml#c8_13535">
-                          就这样，她们走走停停已来到离堂·安保迪家不远的地方，但由于街道的拐角挡住了视线，她们仍没法看见那幢房子。 佩尔贝多亚正讲到一件事的紧要关头，便心甘情愿地停下来同阿涅珊说话，甚至没发现任何破绽。 蓦地，她听到了堂·安保迪喊出的第一声疯狂的呼叫声："来人哪！</note>
-        <note xml:id="chinese_cap8-n155" type="comm" target="quarantana/cap8.xml#c8_13536" targetEnd="quarantana/cap8.xml#c8_13543">
-                          快来人哪！" 喊叫声划破了无垠的夜空，回荡在夜晚凝滞不动的空气中。 "我的天哪！</note>
-        <note xml:id="chinese_cap8-n156" type="comm" target="quarantana/cap8.xml#c8_13544" targetEnd="quarantana/cap8.xml#c8_13553">
-                          出了什么事？" 阿涅珊问她，一面紧紧抓住对方的衬裙。</note>
-        <note xml:id="chinese_cap8-n157" type="comm" target="quarantana/cap8.xml#c8_13554" targetEnd="quarantana/cap8.xml#c8_13560">
-                          "我的天哪！ 你没听见吗？" 佩尔贝多亚挣脱了她的手反问道。</note>
-        <note xml:id="chinese_cap8-n158" type="comm" target="quarantana/cap8.xml#c8_13561" targetEnd="quarantana/cap8.xml#c8_13570">
-                          "怎么回事？ 怎么回事？" 阿涅珊拽住她的一只胳膊，再一次问她。</note>
-        <note xml:id="chinese_cap8-n159" type="comm" target="quarantana/cap8.xml#c8_13571" targetEnd="quarantana/cap8.xml#c8_13584">
-                          "你这个女人真是活见鬼！" 佩尔贝多亚惊呼道，并用力推开她朝堂·安保迪的宅第疾步跑去。</note>
-        <note xml:id="chinese_cap8-n160" type="comm" target="quarantana/cap8.xml#c8_13585" targetEnd="quarantana/cap8.xml#c8_13596">
-                          这时，从远处又传来梅尼科更为尖利、急促的叫喊声。</note>
-        <note xml:id="chinese_cap8-n161" type="comm" target="quarantana/cap8.xml#c8_13597" targetEnd="quarantana/cap8.xml#c8_13605">
-                          "我的天哪！" 这一回连阿涅珊也不禁大声叫喊起来，跟在佩尔</note>
-        <note xml:id="chinese_cap8-n162" type="comm" target="quarantana/cap8.xml#c8_13606" targetEnd="quarantana/cap8.xml#c8_13632">
-                          贝多亚后面飞快跑去，刚抬脚，钟声就响开了：一下，二下，三下……持续不断的钟声好似在催促她们更快地赶到出事地点。</note>
-        <note xml:id="chinese_cap8-n163" type="comm" target="quarantana/cap8.xml#c8_13633" targetEnd="quarantana/cap8.xml#c8_13676">
-                          佩尔贝多亚抢先一步到达，正欲推开大门，有人却从里边将大门敞开，她见门檐后面站着托尼奥，吉尔瓦索，兰佐和鲁齐娅。 原来，他们四人摸黑找到了楼梯，连蹦带跳地下了楼，然后听到了令人毛骨悚然的钟声，立即大步奔跑逃离险境。</note>
-        <note xml:id="chinese_cap8-n164" type="comm" target="quarantana/cap8.xml#c8_13677" targetEnd="quarantana/cap8.xml#c8_13693">
-                          "出了什么事？ 出了什么事？" 佩尔贝多亚气喘吁吁地问托尼奥两兄弟，但他们不仅没有回答，反而猛力推了她一下，一溜烟地跑了。</note>
-        <note xml:id="chinese_cap8-n165" type="comm" target="quarantana/cap8.xml#c8_13694" targetEnd="quarantana/cap8.xml#c8_13707">
-                          等她看清了兰佐和鲁齐娅的脸，立即盘问起他们："是你们？ 怎么回事？ 你们在这里干什么？"</note>
-        <note xml:id="chinese_cap8-n166" type="comm" target="quarantana/cap8.xml#c8_13708" targetEnd="quarantana/cap8.xml#c8_13713">
-                          他们也没理睬她就夺门而走。</note>
-        <note xml:id="chinese_cap8-n167" type="comm" target="quarantana/cap8.xml#c8_13714" targetEnd="quarantana/cap8.xml#c8_13737">
-                          见此状，佩尔贝多亚不再耽搁时间继续盘问他们，追不及待地跨入门厅，并在黑暗中朝楼梯口奔去，她得首先赶到最需要她的地方。</note>
-        <note xml:id="chinese_cap8-n168" type="comm" target="quarantana/cap8.xml#c8_13738" targetEnd="quarantana/cap8.xml#c8_13750">
-                          那一对未能成婚的约婚夫妇迎面碰到了跑得上气不接下气的阿涅珊。"</note>
-        <note xml:id="chinese_cap8-n169" type="comm" target="quarantana/cap8.xml#c8_13751" targetEnd="quarantana/cap8.xml#c8_13770">
-                          啊，你们在这儿！" 她十分费力地问他们，"事情办得如何？ 钟声是怎么一回事？ 我好像还听到了……"</note>
-        <note xml:id="chinese_cap8-n170" type="comm" target="quarantana/cap8.xml#c8_13771" targetEnd="quarantana/cap8.xml#c8_13780">
-                          "回家，快回家，"兰佐急着说，"趁村民们还未赶来。"</note>
-        <note xml:id="chinese_cap8-n171" type="comm" target="quarantana/cap8.xml#c8_13781" targetEnd="quarantana/cap8.xml#c8_13809">
-                          三人正准备离去，见梅尼科急步跑来。 他认出了他们三人，浑身喘喘地拦住他们，用嘶哑的声音对他们说："你们上哪里去？ 往回走，快往回走！ 从这儿走，快到修道院去！"</note>
-        <note xml:id="chinese_cap8-n172" type="comm" target="quarantana/cap8.xml#c8_13810" targetEnd="quarantana/cap8.xml#c8_13814">
-                          "难道说是你……？" 阿涅珊急忙问他。</note>
-        <note xml:id="chinese_cap8-n173" type="comm" target="quarantana/cap8.xml#c8_13815" targetEnd="quarantana/cap8.xml#c8_13819">
-                          "你还知道些什么？" 兰佐接着问他。</note>
-        <note xml:id="chinese_cap8-n174" type="comm" target="quarantana/cap8.xml#c8_13820" targetEnd="quarantana/cap8.xml#c8_13825">
-                          鲁齐娅默默不语地站在一旁，因极度惊慌而战栗不已。</note>
-        <note xml:id="chinese_cap8-n175" type="comm" target="quarantana/cap8.xml#c8_13826" targetEnd="quarantana/cap8.xml#c8_13872">
-                          "家里有坏蛋，"梅尼科气喘吁吁地回答说，"是我亲眼看见的，他们还想杀死我呢……克里斯托弗洛神甫要我告诉你们，也告诉你兰佐，叫你们马上离开此地……那些坏蛋是我亲眼所见。 感谢上帝，我终于在这里找到了你们三个人！</note>
-        <note xml:id="chinese_cap8-n176" type="comm" target="quarantana/cap8.xml#c8_13873" targetEnd="quarantana/cap8.xml#c8_13930">
-                          等你们逃离这里之后，我再把事情的经过告诉你们。" 三人中，兰佐最为沉着冷静，他心想：不管怎么样，在村民们赶 来之前马上离开总是上策；梅尼科吓成这个样子说明事情确实十分严重,最保险的就是按他说的去做,等脱离了危险之后,可以在路上让那孩子解释清楚。</note>
-        <note xml:id="chinese_cap8-n177" type="comm" target="quarantana/cap8.xml#c8_13931" targetEnd="quarantana/cap8.xml#c8_13934">
-                          想至此,兰在对他说:"你走在前头。"</note>
-        <note xml:id="chinese_cap8-n178" type="comm" target="quarantana/cap8.xml#c8_13935" targetEnd="quarantana/cap8.xml#c8_13940">
-                          接着,他又对她们两人说:"我们跟着他走。"</note>
-        <note xml:id="chinese_cap8-n179" type="comm" target="quarantana/cap8.xml#c8_13941" targetEnd="quarantana/cap8.xml#c8_13989">
-                          他们拐了一个弯,步履匆匆地穿过广场朝教堂走去,感谢上帝,这时广场上仍空无一人。 他们拐入夹在教堂和堂·安保迪家之间的一条小巷,看到篱笆墙上有一个口子就钻了进去,然后沿着田间的小路远去。</note>
-        <note xml:id="chinese_cap8-n180" type="comm" target="quarantana/cap8.xml#c8_13990" targetEnd="quarantana/cap8.xml#c8_14008">
-                          还没等他们走出五十步远,村民们开始涌向广场,且人数越来越多。</note>
-        <note xml:id="chinese_cap8-n181" type="comm" target="quarantana/cap8.xml#c8_14009" targetEnd="quarantana/cap8.xml#c8_14028">
-                          他们面面相觑,每个人都有话要问,但是没有人能给予回答。</note>
-        <note xml:id="chinese_cap8-n182" type="comm" target="quarantana/cap8.xml#c8_14029" targetEnd="quarantana/cap8.xml#c8_14038">
-                          先赶到的几个人朝教堂的大门跑去,但发现大门紧闭着。</note>
-        <note xml:id="chinese_cap8-n183" type="comm" target="quarantana/cap8.xml#c8_14039" targetEnd="quarantana/cap8.xml#c8_14085">
-                          他们转而又朝外面的钟楼疾步走去,其中一个人还用嘴凑到形似炮眼一样的小窗口朝里面大声喊道:"究竟发生了什么事情?"安布罗乔听到了自己熟悉的声音,马上松开了手上的绳子。 这时,钟楼外人声嘈杂,他确信外面已聚集了许多人,便回答说:"你等一下,我马上来开门。"</note>
-        <note xml:id="chinese_cap8-n184" type="comm" target="quarantana/cap8.xml#c8_14086" targetEnd="quarantana/cap8.xml#c8_14107">
-                          他急忙穿上夹在腋下的裤子,然后从里面绕到教堂的大门口将大门打开。</note>
-        <note xml:id="chinese_cap8-n185" type="comm" target="quarantana/cap8.xml#c8_14108" targetEnd="quarantana/cap8.xml#c8_14115">
-                          "干吗使劲敲钟?""出了什么事?""哪儿出了事?""是谁干的?"</note>
-        <note xml:id="chinese_cap8-n186" type="comm" target="quarantana/cap8.xml#c8_14116" targetEnd="quarantana/cap8.xml#c8_14118">
-                          "是谁干的？</note>
-        <note xml:id="chinese_cap8-n187" type="comm" target="quarantana/cap8.xml#c8_14119" targetEnd="quarantana/cap8.xml#c8_14156">
-                          你们这话是什么意思?"安布罗乔反问道,一只手扶着门扇,另一只手按着匆忙之中穿上的裤子的裤腰。" 什么,你们不知道？ 有人强行闯入神甫先生的家。</note>
-        <note xml:id="chinese_cap8-n188" type="comm" target="quarantana/cap8.xml#c8_14157" targetEnd="quarantana/cap8.xml#c8_14159">
-                          拿出一点勇气来,孩子们,快去搭救他。"</note>
-        <note xml:id="chinese_cap8-n189" type="comm" target="quarantana/cap8.xml#c8_14160" targetEnd="quarantana/cap8.xml#c8_14177">
-                          听此言,所有的人全都转身向神甫的家跑去,很快神甫的宅第面前聚集了一大群人,他们抬头望着,并侧耳细听,但是房子里面一片寂静。</note>
-        <note xml:id="chinese_cap8-n190" type="comm" target="quarantana/cap8.xml#c8_14178" targetEnd="quarantana/cap8.xml#c8_14193">
-                          另外一些人跑向门的那一边,发现那里的大门也紧闭着,门上没有任何人破门而入的痕迹。</note>
-        <note xml:id="chinese_cap8-n191" type="comm" target="quarantana/cap8.xml#c8_14194" targetEnd="quarantana/cap8.xml#c8_14208">
-                          他们再次抬头往上看,窗子全都关得好好的,听不到里面有任何响声。</note>
-        <note xml:id="chinese_cap8-n192" type="comm" target="quarantana/cap8.xml#c8_14209" targetEnd="quarantana/cap8.xml#c8_14221">
-                          "屋子里有人吗?""喂,喂!""神甫先生!"</note>
-        <note xml:id="chinese_cap8-n193" type="comm" target="quarantana/cap8.xml#c8_14222" targetEnd="quarantana/cap8.xml#c8_14277">
-                          事实上,堂·安保迪一发现强行闯入他宅第的人已逃跑,立即从窗户边走开,并将它关上。 此时此刻,他正在低声同佩尔贝多亚 说话，指责她不该让他一个人陷入别人的圈套。 但是，当他听到人们呼唤她的名字时，不得不又一次探身窗外。</note>
-        <note xml:id="chinese_cap8-n194" type="insertion">他看到下面站着那么多前来帮助他的人，不禁为自己的失态而愧悔。</note>
-        <note xml:id="chinese_cap8-n195" type="comm" target="quarantana/cap8.xml#c8_14278" targetEnd="quarantana/cap8.xml#c8_14279">
-                          "发生了什么事情？"</note>
-        <note xml:id="chinese_cap8-n196" type="comm" target="quarantana/cap8.xml#c8_14280" targetEnd="quarantana/cap8.xml#c8_14284">
-                          "他们对您干了些什么？"</note>
-        <note xml:id="chinese_cap8-n197" type="comm" target="quarantana/cap8.xml#c8_14285" targetEnd="quarantana/cap8.xml#c8_14288">
-                          "那些人是谁？"</note>
-        <note xml:id="chinese_cap8-n198" type="comm" target="quarantana/cap8.xml#c8_14289" targetEnd="quarantana/cap8.xml#c8_14300">
-                          "现在他们在哪里？" 突然间，数十个人对着他一起大声发问。</note>
-        <note xml:id="chinese_cap8-n199" type="comm" target="quarantana/cap8.xml#c8_14301" targetEnd="quarantana/cap8.xml#c8_14310">
-                          "他们全都走了，谢谢你们。 你们快回家去吧。"</note>
-        <note xml:id="chinese_cap8-n200" type="comm" target="quarantana/cap8.xml#c8_14311" targetEnd="quarantana/cap8.xml#c8_14314">
-                          "他们是什么人？"</note>
-        <note xml:id="chinese_cap8-n201" type="comm" target="quarantana/cap8.xml#c8_14315" targetEnd="quarantana/cap8.xml#c8_14318">
-                          "他们去了哪里？"</note>
-        <note xml:id="chinese_cap8-n202" type="comm" target="quarantana/cap8.xml#c8_14319" targetEnd="quarantana/cap8.xml#c8_14322">
-                          "究竟发生了什么事情？"</note>
-        <note xml:id="chinese_cap8-n203" type="comm" target="quarantana/cap8.xml#c8_14323" targetEnd="quarantana/cap8.xml#c8_14348">
-                          "几个乞丐，专门在夜间到处转悠的乞丐，现在都已逃之天天，你们回家去吧，我这儿没事了。 再一次谢谢你们，孩子们，谢谢你们的好意。"</note>
-        <note xml:id="chinese_cap8-n204" type="comm" target="quarantana/cap8.xml#c8_14349" targetEnd="quarantana/cap8.xml#c8_14357">
-                          说罢，他即往后退去，并随手关上了窗户。</note>
-        <note xml:id="chinese_cap8-n205" type="comm" target="quarantana/cap8.xml#c8_14358" targetEnd="quarantana/cap8.xml#c8_14387">
-                          听此言，人群中有抱怨的，有惨苦的，也有咒骂的；另外一些人则答了答肩走开了。 这时，有一个人上气不接下气地跑来，喘得一时连话也说不出来。</note>
-        <note xml:id="chinese_cap8-n206" type="comm" target="quarantana/cap8.xml#c8_14388" targetEnd="quarantana/cap8.xml#c8_14417">
-                          这人住在阿涅娜家的斜对面，当他听到街上的喧嚣之后，就探头窗外，看到了小院子里四处乱窜的几个打手以及费力地将他们聚集在一起的格里索。</note>
-        <note xml:id="chinese_cap8-n207" type="comm" target="quarantana/cap8.xml#c8_14418" targetEnd="quarantana/cap8.xml#c8_14455">
-                          等他缓过气后大声对大家说："朋友们，你们在这儿干什么？ 出乱子的地方不在这里，在这条街尽头阿涅娜·蒙苔拉的家。 好多人手持凶器闯进了屋子，他们好像想杀死一个前来朝圣的人，鬼知道这到底是怎么一回事！"</note>
-        <note xml:id="chinese_cap8-n208" type="comm" target="quarantana/cap8.xml#c8_14456" targetEnd="quarantana/cap8.xml#c8_14458">
-                          "什么？" "什么？"</note>
-        <note xml:id="chinese_cap8-n209" type="comm" target="quarantana/cap8.xml#c8_14459" targetEnd="quarantana/cap8.xml#c8_14460">
-                          "你说什么？"</note>
-        <note xml:id="chinese_cap8-n210" type="comm" target="quarantana/cap8.xml#c8_14461" targetEnd="quarantana/cap8.xml#c8_14465">
-                          大家乱哄哄地议论开了。"</note>
-        <note xml:id="chinese_cap8-n211" type="comm" target="quarantana/cap8.xml#c8_14466" targetEnd="quarantana/cap8.xml#c8_14470">
-                          我们该去那里看一下。"</note>
-        <note xml:id="chinese_cap8-n212" type="comm" target="quarantana/cap8.xml#c8_14471" targetEnd="quarantana/cap8.xml#c8_14473">
-                          "他们有几个人？"</note>
-        <note xml:id="chinese_cap8-n213" type="comm" target="quarantana/cap8.xml#c8_14474" targetEnd="quarantana/cap8.xml#c8_14476">
-                          "我们有几个人？"</note>
-        <note xml:id="chinese_cap8-n214" type="comm" target="quarantana/cap8.xml#c8_14477" targetEnd="quarantana/cap8.xml#c8_14479">
-                          "他们究竟是些什么人？"</note>
-        <note xml:id="chinese_cap8-n215" type="comm" target="quarantana/cap8.xml#c8_14480" targetEnd="quarantana/cap8.xml#c8_14484">
-                          "村长！ 村长来了！"</note>
-        <note xml:id="chinese_cap8-n216" type="comm" target="quarantana/cap8.xml#c8_14485" targetEnd="quarantana/cap8.xml#c8_14500">
-                          "我在这里，"村长站在人群中说，"我在这里，但你们得帮助我，得听从我的指挥。</note>
-        <note xml:id="chinese_cap8-n217" type="comm" target="quarantana/cap8.xml#c8_14501" targetEnd="quarantana/cap8.xml#c8_14504">
-                          快，教堂司事在哪里？</note>
-        <note xml:id="chinese_cap8-n218" type="comm" target="quarantana/cap8.xml#c8_14505" targetEnd="quarantana/cap8.xml#c8_14508">
-                          大家都去钟楼那儿，快去！</note>
-        <note xml:id="chinese_cap8-n219" type="comm" target="quarantana/cap8.xml#c8_14509" targetEnd="quarantana/cap8.xml#c8_14520">
-                          快，派一个人速去莱柯求援，其他的人跟我来......"</note>
-        <note xml:id="chinese_cap8-n220" type="comm" target="quarantana/cap8.xml#c8_14521" targetEnd="quarantana/cap8.xml#c8_14566">
-                          人群中一片混乱：有向前挤的，也有穿过人群溜走的。 这时，又有一个人跑来说，他亲眼看见打手们仓皇撤退，一面大声嚷道："快跑，朋友们，他们是一伙盗贼和土匪，绑架了一位朝圣者已逃出了村子，快追，快追！"</note>
-        <note xml:id="chinese_cap8-n221" type="comm" target="quarantana/cap8.xml#c8_14567" targetEnd="quarantana/cap8.xml#c8_14622">
-                          经他这么一说，大家顿时乱作一团，没等村长 吼哦，拔腿就跑。 其间，走在头上的几个人放慢步子，以便让后面的人赶上，自己却往人群中挤，落在最后面的也在拼命往前赶，这一支乱哄哄的队伍终于到达了出事的地点。</note>
-        <note xml:id="chinese_cap8-n222" type="comm" target="quarantana/cap8.xml#c8_14623" targetEnd="quarantana/cap8.xml#c8_14638">
-                          强行闯入的迹象显而易见：大门敞开着，门锁已被撬坏，但是入侵者早已逃之天天。</note>
-        <note xml:id="chinese_cap8-n223" type="comm" target="quarantana/cap8.xml#c8_14639" targetEnd="quarantana/cap8.xml#c8_14654">
-                          他们进入庭院，并走至屋门前，门同样洞开着，门上的锁也不见了踪影。 他们大声呼喊："阿涅珊！"</note>
-        <note xml:id="chinese_cap8-n224" type="comm" target="quarantana/cap8.xml#c8_14655" targetEnd="quarantana/cap8.xml#c8_14655">
-                          "鲁齐娅！"</note>
-        <note xml:id="chinese_cap8-n225" type="comm" target="quarantana/cap8.xml#c8_14656" targetEnd="quarantana/cap8.xml#c8_14657">
-                          "朝圣的朋友！"</note>
-        <note xml:id="chinese_cap8-n226" type="comm" target="quarantana/cap8.xml#c8_14658" targetEnd="quarantana/cap8.xml#c8_14660">
-                          "他在哪里呢？</note>
-        <note xml:id="chinese_cap8-n227" type="comm" target="quarantana/cap8.xml#c8_14661" targetEnd="quarantana/cap8.xml#c8_14665">
-                          这朝圣者是不是斯坦法诺想象出来的？</note>
-        <note xml:id="chinese_cap8-n228" type="comm" target="quarantana/cap8.xml#c8_14666" targetEnd="quarantana/cap8.xml#c8_14672">
-                          不，不可能，卡兰德雷娅也看见过他。"</note>
-        <note xml:id="chinese_cap8-n229" type="comm" target="quarantana/cap8.xml#c8_14673" targetEnd="quarantana/cap8.xml#c8_14674">
-                          "喂，朝圣的朋友！"</note>
-        <note xml:id="chinese_cap8-n230" type="comm" target="quarantana/cap8.xml#c8_14675" targetEnd="quarantana/cap8.xml#c8_14676">
-                          "阿涅珊！"</note>
-        <note xml:id="chinese_cap8-n231" type="comm" target="quarantana/cap8.xml#c8_14677" targetEnd="quarantana/cap8.xml#c8_14677">
-                          "鲁齐娅！"</note>
-        <note xml:id="chinese_cap8-n232" type="comm" target="quarantana/cap8.xml#c8_14678" targetEnd="quarantana/cap8.xml#c8_14679">
-                          没有人应声。"</note>
-        <note xml:id="chinese_cap8-n233" type="comm" target="quarantana/cap8.xml#c8_14680" targetEnd="quarantana/cap8.xml#c8_14683">
-                          她们谁是遭绑架了！</note>
-        <note xml:id="chinese_cap8-n234" type="comm" target="quarantana/cap8.xml#c8_14684" targetEnd="quarantana/cap8.xml#c8_14687">
-                          准是遭绑架了！"</note>
-        <note xml:id="chinese_cap8-n235" type="comm" target="quarantana/cap8.xml#c8_14688" targetEnd="quarantana/cap8.xml#c8_14731">
-                          这时有人大声叫嚷起来，建议大家快去追绑架者，他们说，要是每一个乡徒都能像鹬一样从无人的打谷场上叼走小鸡，顺当地抢走村里的女人，那该是一件臭名昭著的事情，对村民们来说则是一个奇耻大辱。</note>
-        <note xml:id="chinese_cap8-n236" type="comm" target="quarantana/cap8.xml#c8_14732" targetEnd="quarantana/cap8.xml#c8_14763">
-                          他们又一次情绪激动地议论开了。 突然间，有人（谁也不知道此人是谁）在人群中大声说，阿涅珊和鲁齐娅躲进了一户人家已平安无事了。</note>
-        <note xml:id="chinese_cap8-n237" type="comm" target="quarantana/cap8.xml#c8_14764" targetEnd="quarantana/cap8.xml#c8_14789">
-                          这一条最新的消息在人群中不胫而走，且大家都信以为真。 没有人再提起追逃犯的事，人群渐渐散去，大家各自回了家。</note>
-        <note xml:id="chinese_cap8-n238" type="comm" target="quarantana/cap8.xml#c8_14790" targetEnd="quarantana/cap8.xml#c8_14817">
-                          村子里有人在窃窃私语，也有人在高声喧哗；有叩门的，也有开门的；有点亮油灯的，也有熄灭油灯的；有的村妇站在窗口打听消息，也有的站在街上回话。</note>
-        <note xml:id="chinese_cap8-n239" type="comm" target="quarantana/cap8.xml#c8_14818" targetEnd="quarantana/cap8.xml#c8_14836">
-                          可现在路上却不见一个人影，周围一片寂静，村民们关上了自家的大门在屋内继续谈论着，直至困得直打哈欠才收场，待第二天早上重新开始打开话匣子。</note>
-        <note xml:id="chinese_cap8-n240" type="comm" target="quarantana/cap8.xml#c8_14837" targetEnd="quarantana/cap8.xml#c8_14945">
-                          然而，第二天早上并没有发生任何意外的事情。 那天早上，村长在地里干活，只见他一只手托着下巴，赌胜肘支在一半插入地里的铁锹的把柄上，一只脚踩在铁锹边上，心里琢磨着发生在前一天晚上稀奇古怪的事情，考虑着自己该采取什么样恰当的行动。 正在此时，他看见迎面有两个汉子正朝他走来，他们体格强壮，头上蓄着法兰克人早期两个国王一样长长的浓发。 他们长得十分酷似五天前桐吓堂·安保迪的那两个人，尽管事实上他们并不是同一伙人。</note>
-        <note xml:id="chinese_cap8-n241" type="comm" target="quarantana/cap8.xml#c8_14946" targetEnd="quarantana/cap8.xml#c8_14995">
-                          只是，这两个人态度粗暴地 威胁村长说，假如他不想暴尸街头，就得自己知趣，不得向地方官提及发生的事，即使对方问他，也不该如实回答。 他们还恐吓他不许同旁人谈论此事，必须阻止村民们把它当作闲谈的话题。</note>
-        <note xml:id="chinese_cap8-n242" type="comm" target="quarantana/cap8.xml#c8_14996" targetEnd="quarantana/cap8.xml#c8_15048">
-                          再说兰佐等四个逃离险境的可怜人，风驰电掣般走了好长一段路，默不作声地不时回过头，看看后面是否有人追来。 这一路上，他们气喘吁吁地逃出了险境，紧张和焦虑的心情自不待言，此刻又为计划的落空和来自新隐患的威胁深感忧虑和悲愁。</note>
-        <note xml:id="chinese_cap8-n243" type="comm" target="quarantana/cap8.xml#c8_15049" targetEnd="quarantana/cap8.xml#c8_15083">
-                          持续不断的钟声使他们格外感到心慌意乱，虽然钟楼离他们越来越远，低缓的钟声也渐渐减弱，但总是给人一种不可名状的凄凉，恐怖的感觉。</note>
-        <note xml:id="chinese_cap8-n244" type="comm" target="quarantana/cap8.xml#c8_15084" targetEnd="quarantana/cap8.xml#c8_15085">
-                          那可怕的钟声终于停止了。</note>
-        <note xml:id="chinese_cap8-n245" type="comm" target="quarantana/cap8.xml#c8_15086" targetEnd="quarantana/cap8.xml#c8_15127">
-                          他们一行四人这时来到了空旷的荒野，四周安静得连半点声响也没有，他们便放慢了脚步。 阿涅珊缓过气来之后，首先打破沉默，询问兰佐事情办得怎么样，又转身让梅尼科告诉她，究竟是谁闯入了她的家。</note>
-        <note xml:id="chinese_cap8-n246" type="comm" target="quarantana/cap8.xml#c8_15128" targetEnd="quarantana/cap8.xml#c8_15164">
-                          兰佐简略地叙述了一下事情失败的经过，他们三人继而转身又听梅尼科详尽地叙述了克里斯托弗洛修士的忠告，他自己亲自看到的事情和遇到的危险。</note>
-        <note xml:id="chinese_cap8-n247" type="comm" target="quarantana/cap8.xml#c8_15165" targetEnd="quarantana/cap8.xml#c8_15252">
-                          不幸的是，一切的事情都让修士言中了。 从梅尼科的话语中，他们三人发现，实际上情况要比他所说的更为严重，想至此，他们不由得打了个寒噤；三人突然停下脚步，彼此惊恐万状地望着对方的脸，有的伸出手抚摸梅尼科的头，有的拍拍他的肩，默默地感谢他们的这位守护神，并对他为帮助他们脱险而遭受的痛苦和承担的风险表示同情，目光中几乎显露出请求他原谅的神情。</note>
-        <note xml:id="chinese_cap8-n248" type="comm" target="quarantana/cap8.xml#c8_15253" targetEnd="quarantana/cap8.xml#c8_15297">
-                          阿涅珊对他说："现在你快回家去，否则你的爹妈会为你担心的。" 蓦然间，她想起自己曾答应过送他两个铜币，便从口袋里掏出四枚给他，并对他说："我现在身上只有四枚，但愿上帝会让我们很快见面，到那时......"兰佐也给了他一个崭新的银币，并一再叮嘱他不要把修士托付他的事情说出去。</note>
-        <note xml:id="chinese_cap8-n249" type="comm" target="quarantana/cap8.xml#c8_15298" targetEnd="quarantana/cap8.xml#c8_15334">
-                          鲁齐娅再次轻轻拍拍他的肩膀，声音嘶哑地同他道别。 梅尼科动情地同他们一一告别，然后转身离去。</note>
-        <note xml:id="chinese_cap8-n250" type="comm" target="quarantana/cap8.xml#c8_15335" targetEnd="quarantana/cap8.xml#c8_15350">
-                          与此同时，他们几个满腹心事地继续往前走，母女二人走在前面，兰 佐跟在后面保护她们。</note>
-        <note xml:id="chinese_cap8-n251" type="comm" target="quarantana/cap8.xml#c8_15351" targetEnd="quarantana/cap8.xml#c8_15405">
-                          鲁齐娅紧紧地挽住母亲的胳膊，在走过几处路面凹凸不平的地方时，兰佐想搀扶她，但她却温存而灵巧地躲开了他伸出的手。 尽管她指望很快成为他的妻子，但想到同他如此亲近地单独呆在一起这么长时间，仍感到心绪不宁，脸色不觉皱然。</note>
-        <note xml:id="chinese_cap8-n252" type="comm" target="quarantana/cap8.xml#c8_15406" targetEnd="quarantana/cap8.xml#c8_15456">
-                          如今，她美好的愿望已令人痛心地化成泡影，她后悔当初自己不该做出如此出格的事情。 想至此，她不寒而栗，其原因之一就是她自感羞愧，这不是意识到自己罪过之后的羞愧，而是一种不可名状的恐惧，就好像一个在黑暗中嚎啕发抖的孩子，不知道自己为何害怕。</note>
-        <note xml:id="chinese_cap8-n253" type="comm" target="quarantana/cap8.xml#c8_15457" targetEnd="quarantana/cap8.xml#c8_15464">
-                          "家里情况怎么样？" 阿涅珊突然问道。</note>
-        <note xml:id="chinese_cap8-n254" type="comm" target="quarantana/cap8.xml#c8_15465" targetEnd="quarantana/cap8.xml#c8_15480">
-                          尽管这问题至关重要，但是大家默不作声，因为没有人能给她一个满意的答复。</note>
-        <note xml:id="chinese_cap8-n255" type="comm" target="quarantana/cap8.xml#c8_15481" targetEnd="quarantana/cap8.xml#c8_15498">
-                          他们默默地继续往前走，不一会儿之后，终于到了修道院教堂前的小广场。</note>
-        <note xml:id="chinese_cap8-n256" type="comm" target="quarantana/cap8.xml#c8_15499" targetEnd="quarantana/cap8.xml#c8_15507">
-                          兰佐探头朝门里看看，然后将门轻轻一推。</note>
-        <note xml:id="chinese_cap8-n257" type="comm" target="quarantana/cap8.xml#c8_15508" targetEnd="quarantana/cap8.xml#c8_15536">
-                          大门被推开了，从门缝里污进一缕月光，照亮了克里斯托弗洛修士苍白的脸庞和银白色的胡须，他正站在那里等候着他们的到来。</note>
-        <note xml:id="chinese_cap8-n258" type="comm" target="quarantana/cap8.xml#c8_15537" targetEnd="quarantana/cap8.xml#c8_15551">
-                          见他们三个人全来了，他轻声说："感谢仁慈的上帝！" 一面示意他们进去。</note>
-        <note xml:id="chinese_cap8-n259" type="comm" target="quarantana/cap8.xml#c8_15552" targetEnd="quarantana/cap8.xml#c8_15614">
-                          在他身旁还站着另一个嘉布遣会修士，一位在俗教堂司事，克里斯托弗洛修士费了不少口舌才说服他同自己一起守候在教堂里，虚掩着大门，迎接那几个前来避难的可怜人。 克里斯托弗洛将自己的威望和声誉置之度外，劝说一位在俗教徒帮他共同完成一件充满危险的、棘手和越轨的事情。</note>
-        <note xml:id="chinese_cap8-n260" type="comm" target="quarantana/cap8.xml#c8_15615" targetEnd="quarantana/cap8.xml#c8_15625">
-                          进了教堂之后，克里斯托弗洛修士把大门轻轻地掩上。</note>
-        <note xml:id="chinese_cap8-n261" type="comm" target="quarantana/cap8.xml#c8_15626" targetEnd="quarantana/cap8.xml#c8_15670">
-                          教堂司事再也抑制不住内心的恐惧，把修士叫至一边，晃动着脑袋在他耳畔悄声地说："神甫，神甫！ 这深更半夜的······在教堂里······同几个女人······关着门呆在一起······教堂有明文规定······神甫！"</note>
-        <note xml:id="chinese_cap8-n262" type="comm" target="quarantana/cap8.xml#c8_15671" targetEnd="quarantana/cap8.xml#c8_15700">
-                          在教堂司事费力低语的同时，克里斯托弗洛修士心中暗自思忖："你们想一想！ 要是有一个强盗被人追赶，法齐奥修士会毫无怨言地收留他，而一个可怜的无辜者，她则从一条</note>
-        <note xml:id="chinese_cap8-n263" type="comm" target="quarantana/cap8.xml#c8_14112" targetEnd="quarantana/cap8.xml#c8_14112">
-                          恶狼的魔爪底下逃脱……"</note>
-        <note xml:id="chinese_cap8-n264" type="comm" target="quarantana/cap8.xml#c8_15702" targetEnd="quarantana/cap8.xml#c8_15723">
-                          然后,他突然转身用拉丁语对法齐奥修士说:"凡清净者都会用纯真无邪的眼光看待世上的一切事物,"但他却忘了,法齐奥修士听不懂拉丁语。</note>
-        <note xml:id="chinese_cap8-n265" type="comm" target="quarantana/cap8.xml#c8_15724" targetEnd="quarantana/cap8.xml#c8_15733">
-                          然而,正由于他的疏忽,这句话才产生了效果。</note>
-        <note xml:id="chinese_cap8-n266" type="comm" target="quarantana/cap8.xml#c8_15734" targetEnd="quarantana/cap8.xml#c8_15764">
-                          倘若克里斯托弗洛神甫采用说理的方法同法齐奥修士争论的话,后者一定会找出另外的理由反驳他,天知道这场辩论如何收场,到什么时候方能结束。</note>
-        <note xml:id="chinese_cap8-n267" type="comm" target="quarantana/cap8.xml#c8_15765" targetEnd="quarantana/cap8.xml#c8_15791">
-                          听了克里斯托弗洛神甫这一番寓意奥博、饱然有声的话语,法齐奥修士似乎觉得,那里面包含着驱散他头脑中一切疑惑的答案。</note>
-        <note xml:id="chinese_cap8-n268" type="comm" target="quarantana/cap8.xml#c8_15792" targetEnd="quarantana/cap8.xml#c8_15801">
-                          想至此,他的心情即刻平静了下来,并说:"我听您的!您知道的事情比我多。"</note>
-        <note xml:id="chinese_cap8-n269" type="comm" target="quarantana/cap8.xml#c8_15802" targetEnd="quarantana/cap8.xml#c8_15838">
-                          "你尽管相信我,"克里斯托弗洛修士回答说。 圣坛前,一灯荧然,神甫走到那三个正在焦急等待的求助者面前,对他们说:"孩子们!感谢上帝,他把你们从危险中拯救了出来。</note>
-        <note xml:id="chinese_cap8-n270" type="comm" target="quarantana/cap8.xml#c8_15839" targetEnd="quarantana/cap8.xml#c8_15880">
-                          也许,此时此刻……!"说至此,他对他们又解释了一遍他让那孩子捎带的口信的具体内容,没想到他们知道的情况比他多。 他原以为,梅尼科抢在那伙强盗之前赶到了阿涅珊的家,而他们正安静地坐在家中。</note>
-        <note xml:id="chinese_cap8-n271" type="comm" target="quarantana/cap8.xml#c8_15881" targetEnd="quarantana/cap8.xml#c8_15907">
-                          对他说的话,他们都没有插嘴更正,连拿拿蒂娅也默不作声,但是在神甫这样的人面前掩饰自己的真实想法,她感到有些内疚。 那可真是一个充满欺诈和诡计的罪恶之夜!</note>
-        <note xml:id="chinese_cap8-n272" type="comm" target="quarantana/cap8.xml#c8_15908" targetEnd="quarantana/cap8.xml#c8_15924">
-                          "发生了这一系列事情之后,"他接着说,"你们可以看得更清楚,孩子们,你们的村子已不再是一个安全的地方。</note>
-        <note xml:id="chinese_cap8-n273" type="comm" target="quarantana/cap8.xml#c8_15925" targetEnd="quarantana/cap8.xml#c8_15940">
-                          那里有你们自己的家,你们在那儿出生,没有伤害过任何人,可那都是上帝的旨意。</note>
-        <note xml:id="chinese_cap8-n274" type="comm" target="quarantana/cap8.xml#c8_15941" targetEnd="quarantana/cap8.xml#c8_15968">
-                          孩子们,这是他对你们的一次考验。 孩子们,你们应该满怀信心,丢弃急躁和怨恨,经受住这场考验,总有一天你们会为现在发生的一切感到欣慰。</note>
-        <note xml:id="chinese_cap8-n275" type="comm" target="quarantana/cap8.xml#c8_15969" targetEnd="quarantana/cap8.xml#c8_16023">
-                          我已替你们找到了暂且可以藏身的地方,但愿你们不久能安全地返回你们自己的家,不管怎么样,上帝会尽力帮助你们。 至于我,我当然不会享负天主赐予我的恩泽,是他选择了我作为他的仆人,为他挚爱的可怜、苦难的人效劳。"</note>
-        <note xml:id="chinese_cap8-n276" type="comm" target="quarantana/cap8.xml#c8_16024" targetEnd="quarantana/cap8.xml#c8_16033">
-                          接着,他转身对阿涅珊母女二人说:"你们可以暂时住在……。</note>
-        <note xml:id="chinese_cap8-n277" type="comm" target="quarantana/cap8.xml#c8_16034" targetEnd="quarantana/cap8.xml#c8_16049">
-                          在那里,你们 将不会遇到任何危险。 再说,离你们的家也不太远。</note>
-        <note xml:id="chinese_cap8-n278" type="comm" target="quarantana/cap8.xml#c8_16050" targetEnd="quarantana/cap8.xml#c8_16068">
-                          你们去投奔我们的修道院,找到院长后把这封信交给他,他将是你们的另一位克里斯托弗洛神甫。</note>
-        <note xml:id="chinese_cap8-n279" type="comm" target="quarantana/cap8.xml#c8_16069" targetEnd="quarantana/cap8.xml#c8_16089">
-                          而你,亲爱的兰佐,你现在也应该暂时找一个安全的地方住下,躲开仇视你的人,努力让自己愤怒的心情平静下来。</note>
-        <note xml:id="chinese_cap8-n280" type="comm" target="quarantana/cap8.xml#c8_16090" targetEnd="quarantana/cap8.xml#c8_16105">
-                          你把这封信交给我们米兰东门修道院里来自洛迪城的博纳万图拉神甫。</note>
-        <note xml:id="chinese_cap8-n281" type="comm" target="quarantana/cap8.xml#c8_16106" targetEnd="quarantana/cap8.xml#c8_16127">
-                          他将是你的神甫,会具体指导你,替你寻找工作,直至你能回到这里安心地生活。</note>
-        <note xml:id="chinese_cap8-n282" type="comm" target="quarantana/cap8.xml#c8_16128" targetEnd="quarantana/cap8.xml#c8_16145">
-                          现在你们快去湖边靠近比奥奈河的人口处,那是紧挨佩斯卡雷尼柯镇一条水流湍急的小河。</note>
-        <note xml:id="chinese_cap8-n283" type="comm" target="quarantana/cap8.xml#c8_16146" targetEnd="quarantana/cap8.xml#c8_16160">
-                          到了那里,你们将看到一只停泊在湖边的小船,你们就大声说:啊啊,小船!有人会问是谁送你们来的,你们就回答:圣·方济各。</note>
-        <note xml:id="chinese_cap8-n284" type="comm" target="quarantana/cap8.xml#c8_16161" targetEnd="quarantana/cap8.xml#c8_16179">
-                          小船会送你们到湖的彼岸,那里有一辆双轮大车把你们一直送到······"</note>
-        <note xml:id="chinese_cap8-n285" type="comm" target="quarantana/cap8.xml#c8_16180" targetEnd="quarantana/cap8.xml#c8_16215">
-                          也许有人会问,克里斯托弗洛修士怎么可能在很短的时间内安排好所需的水陆交通工具,这只能说明,发问者对有圣佐之称的嘉布遣会修士的权力未免太不了解了。</note>
-        <note xml:id="chinese_cap8-n286" type="comm" target="quarantana/cap8.xml#c8_16216" targetEnd="quarantana/cap8.xml#c8_16222">
-                          接下来,得考虑由谁来照看阿涅珊和兰佐家两处的房子。</note>
-        <note xml:id="chinese_cap8-n287" type="comm" target="quarantana/cap8.xml#c8_16223" targetEnd="quarantana/cap8.xml#c8_16238">
-                          神甫接过房屋的钥匙,答应将钥匙交给兰佐和阿涅珊指定的人。</note>
-        <note xml:id="chinese_cap8-n288" type="comm" target="quarantana/cap8.xml#c8_16239" targetEnd="quarantana/cap8.xml#c8_16270">
-                          阿涅珊从口袋里掏出钥匙,一面深深地呼了一口气,心想,自己家里的大门还开着,房子已遭洗劫,也不知是否真有必要派人去看管它!</note>
-        <note xml:id="chinese_cap8-n289" type="comm" target="quarantana/cap8.xml#c8_16271" targetEnd="quarantana/cap8.xml#c8_16305">
-                          "在你们动身之前,"神甫说,"让我们一起向上帝祈祷,求他保佑你们一路平安,愿上帝永远与你们同在。 更重要的是,上帝能赐予你们力量以及体现他意愿的希莫。"</note>
-        <note xml:id="chinese_cap8-n290" type="comm" target="quarantana/cap8.xml#c8_16306" targetEnd="quarantana/cap8.xml#c8_16317">
-                          说罢,他在教堂的中央跪下,大家也和他一起跪在地上。</note>
-        <note xml:id="chinese_cap8-n291" type="comm" target="quarantana/cap8.xml#c8_16318" targetEnd="quarantana/cap8.xml#c8_16348">
-                          默默祈祷了一会儿以后,神甫语调低沉但声音清晰地说:"君主,我们也为那个迫使我们陷入险境的可怜人向你祈祷。</note>
-        <note xml:id="chinese_cap8-n292" type="comm" target="quarantana/cap8.xml#c8_16349" targetEnd="quarantana/cap8.xml#c8_16392">
-                          倘若我们不是诚心诚意地为他祈祷,我们将辜负你仁慈的爱,因为我们知道,他非常需要你的宽恕!苦难中的我们深感欣慰,我们已走上了一条你给我们指明的道路,可以向你吐露心中的痛楚,以赢得你的视福。</note>
-        <note xml:id="chinese_cap8-n293" type="comm" target="quarantana/cap8.xml#c8_16393" targetEnd="quarantana/cap8.xml#c8_16397">
-                          可是他······是你的敌人。</note>
-        <note xml:id="chinese_cap8-n294" type="comm" target="quarantana/cap8.xml#c8_16398" targetEnd="quarantana/cap8.xml#c8_16402">
-                          啊,一个 多么不幸的人！ 竟安想同你一争高低，啊，我的天主，可怜可怜他吧！</note>
-        <note xml:id="chinese_cap8-n295" type="comm" target="quarantana/cap8.xml#c8_16403" targetEnd="quarantana/cap8.xml#c8_16425">
-                          触动他的心弦，赐予他你的爱心，让他也得到我们企盼得到的一切美好的东西。"</note>
-        <note xml:id="chinese_cap8-n296" type="comm" target="quarantana/cap8.xml#c8_16426" targetEnd="quarantana/cap8.xml#c8_16446">
-                          接着，他匆忙站起身说："快走吧，孩子们，我们没有时间了。 愿上帝保佑你们，天使会陪伴你们同行，你们该上路了。"</note>
-        <note xml:id="chinese_cap8-n297" type="comm" target="quarantana/cap8.xml#c8_16447" targetEnd="quarantana/cap8.xml#c8_16477">
-                          此番话深深打动了他们的心，以至他们一时无言以对。 这时，神甫动情地又说："我的心告诉我，我们不久就会再见面的。"</note>
-        <note xml:id="chinese_cap8-n298" type="comm" target="quarantana/cap8.xml#c8_16478" targetEnd="quarantana/cap8.xml#c8_16494">
-                          诚然，每一个人在心中总是愿意向倾听他诉说的人叙述自己将来的情况会怎样。</note>
-        <note xml:id="chinese_cap8-n299" type="comm" target="quarantana/cap8.xml#c8_16495" targetEnd="quarantana/cap8.xml#c8_16499">
-                          但是，心又能知道些什么呢？</note>
-        <note xml:id="chinese_cap8-n300" type="comm" target="quarantana/cap8.xml#c8_16500" targetEnd="quarantana/cap8.xml#c8_16508">
-                          无非是一些已发生的事情罢了。</note>
-        <note xml:id="chinese_cap8-n301" type="comm" target="quarantana/cap8.xml#c8_16509" targetEnd="quarantana/cap8.xml#c8_16538">
-                          克里斯托弗洛修士没等他们回答就朝教堂的祭衣室走去，阿涅珊等三人走出了教堂，法齐奥修士也动情地同他们一一道别，然后关上了大门。</note>
-        <note xml:id="chinese_cap8-n302" type="comm" target="quarantana/cap8.xml#c8_16539" targetEnd="quarantana/cap8.xml#c8_16559">
-                          他们默默无语地朝神甫指定的湖畔走去，到了那里果然看见一只小船，对上暗号后即上了船。</note>
-        <note xml:id="chinese_cap8-n303" type="comm" target="quarantana/cap8.xml#c8_16560" targetEnd="quarantana/cap8.xml#c8_16585">
-                          船夫用一支桨抵住岸边将船撑开，然后抓住另一支桨双手划船，朝对岸划去。</note>
-        <note xml:id="chinese_cap8-n304" type="comm" target="quarantana/cap8.xml#c8_16586" targetEnd="quarantana/cap8.xml#c8_16620">
-                          四周连一丝风儿也没有，明净的湖水静静地躺在下面，仿佛凝滞了似的，只有高悬在空中一轮浩月的倒影在湖面上轻轻地荡漾。</note>
-        <note xml:id="chinese_cap8-n305" type="comm" target="quarantana/cap8.xml#c8_16621" targetEnd="quarantana/cap8.xml#c8_16666">
-                          四周万籁俱寂，耳边只听到浪花轻轻拍打在湖畔卵石上和撞击在远处的桥墩上发出的淅淅声，以及双桨划破蓝色的湖面时有节奏的哗哗声，而哗哗滴水的桨板刚微微溅起随即又没入水中。</note>
-        <note xml:id="chinese_cap8-n306" type="comm" target="quarantana/cap8.xml#c8_16667" targetEnd="quarantana/cap8.xml#c8_16683">
-                          小船犁出的浪花在船尾重新汇合，形成一条长长的涟漪，一个接一个地传开去直至湖畔。</note>
-        <note xml:id="chinese_cap8-n307" type="comm" target="quarantana/cap8.xml#c8_16684" targetEnd="quarantana/cap8.xml#c8_16707">
-                          坐在船上的几个人相对无言，回首眺望群山和月光下黑影憧憧的乡镇。</note>
-        <note xml:id="chinese_cap8-n308" type="comm" target="quarantana/cap8.xml#c8_16708" targetEnd="quarantana/cap8.xml#c8_16751">
-                          村庄、房屋、茅舍清晰可辨，堂·罗德里戈家带平塔的小楼高高地矗立在山坡上一群紧挨在一起的小房子中间，酷似黑暗中的一头猛兽，正虎视眈眈地盯着周围一群正在酣睡的动物，心中筹划着伤天害理的坏事。</note>
-        <note xml:id="chinese_cap8-n309" type="comm" target="quarantana/cap8.xml#c8_16752" targetEnd="quarantana/cap8.xml#c8_16816">
-                          望着那幢小楼，鲁齐娅不禁打了一个冷战，其视线马上向下移至斜坡上她家所在的小村落，她睁大两只眼睛仔细地搜寻着，直至在村落的尽头找到了她家的小房子，高出 庭院围墙的那株枝叶茂密的无花果树以及她卧室的窗子。 她端坐在船舱里，手臂搁在船舷上，前额枕在手臂上似乎想入睡，不觉霎然泪下。</note>
-        <note xml:id="chinese_cap8-n310" type="comm" target="quarantana/cap8.xml#c8_16817" targetEnd="quarantana/cap8.xml#c8_16885">
-                          永别了，从湖面上高耸入云的群山，我们在你的杯抱中长大，看惯了你那锯齿状的奇峰，你那像家人般亲切的脸庞，深深地熔在我们的脑海之中。 永别了，奔腾的溪流，我们能从呜咽的流水声中将你辨认出来，你就好像我们所熟悉的家人的欢声笑语。 永别了，散布在山坡上的一座座白色小房子，你们宛如正在那里吃草的羊群，自小同你们天天朝夕相处，现在却要远行，心中有多么的惆怅！</note>
-        <note xml:id="chinese_cap8-n311" type="comm" target="quarantana/cap8.xml#c8_16886" targetEnd="quarantana/cap8.xml#c8_16929">
-                          即使是对于自愿弃家去他乡寻觅财宝的人儿，在离别的时刻，致富的美梦也会在他的想象中失去其诱人的光泽。 假如他不是想到有一天能腰缠万贯地荣归故里，此刻谁会转身往回走，并为自己的决定感到不可思议。</note>
-        <note xml:id="chinese_cap8-n312" type="comm" target="quarantana/cap8.xml#c8_16930" targetEnd="quarantana/cap8.xml#c8_17012">
-                          当他走在旷野上，他那厌倦、疲惫的眼睛却不愿多看那一望无垠的、单调的景色，似乎觉得四周沉闷的空气也停滞不再流动。 他满面愁容，心不在焉地走进车马喧阗的都市。 那里，房屋鳞次栉比，街道纵横交错，使他感到窒息。 当他站在让异乡人叹观止矣的高楼前，他会颇躇不安地想起自家村落里的那一小块土地以及他早已看中的那一幢房子，一旦衣锦荣归，便马上出钱把它们买下来。</note>
-        <note xml:id="chinese_cap8-n313" type="comm" target="quarantana/cap8.xml#c8_17013" targetEnd="quarantana/cap8.xml#c8_17044">
-                          对鲁齐娅来说，她脑海里从未出现过哪怕是转瞬即逝的、远走他乡的念头，她已把自己对未来的憧憬全部都留在连绵的群山之中，但是厄运却迫使她背井离乡！</note>
-        <note xml:id="chinese_cap8-n314" type="comm" target="quarantana/cap8.xml#c8_17045" targetEnd="quarantana/cap8.xml#c8_17088">
-                          她被迫放弃长年养成的生活习惯和瑰丽的希冀，告别群山，去寻觅她根本不想结识的陌生人为伴，不知何年何月才能重归故里！ 永别了，我诞生的家！</note>
-        <note xml:id="chinese_cap8-n315" type="comm" target="quarantana/cap8.xml#c8_17089" targetEnd="quarantana/cap8.xml#c8_17114">
-                          曾几何时，我心中藏着不愿向人吐露的秘密，坐在那里辛着从一般的脚步声中辨别出那与众不同的足音，一种让我在莫名的恐惧中企盼听到的声音。</note>
-        <note xml:id="chinese_cap8-n316" type="comm" target="quarantana/cap8.xml#c8_17115" targetEnd="quarantana/cap8.xml#c8_17142">
-                          永别了，那一幢我依然感到陌生的小房子，多少次我从那儿走过时曾害羞地偷偷瞥上一眼，心想我将作为新娘开始在那 里温馨地度过自己的一生。</note>
-        <note xml:id="chinese_cap8-n317" type="comm" target="quarantana/cap8.xml#c8_17143" targetEnd="quarantana/cap8.xml#c8_17178">
-                          永别了,家乡的小教堂,多少次我曾在那里默默地颂扬天主的恩泽,以重新求得心情的宁静;我的婚礼将在那里举行,我心中隐秘的愿望本应在那里得到庄严的祝福,爱情本应得到上帝的承认,变成一项神圣的义务。 永别了！</note>
-        <note xml:id="chinese_cap8-n318" type="comm" target="quarantana/cap8.xml#c8_17179" targetEnd="quarantana/cap8.xml#c8_17207">
-                          上帝赐予了我们莫大的欢愉,他无处不在,他从不干扰其儿女们欢乐的生活,时刻为他们准备更大、更安全的幸福乐园。</note>
-        <note xml:id="chinese_cap8-n319" type="comm" target="quarantana/cap8.xml#c8_17208" targetEnd="quarantana/cap8.xml#c8_17238">
-                          小船载着他们三个人朝着阿达河的右岸靠拢,鲁齐娅思绪万千,另外两个同行人也同样浮想联翩。</note>
+      <div xml:id="Chinese_1998_cap8">
+        <p n="1">
+          <note xml:id="Chinese_1998_cap8-n1" type="comm" target="quarantana/cap8.xml#c8_10001" targetEnd="quarantana/cap8.xml#c8_10002">“卡尔内亚德！ 他是何人？” 当佩尔贝多亚走进屋子通报时， </note>
+          <note xml:id="Chinese_1998_cap8-n2" type="comm" target="quarantana/cap8.xml#c8_10003" targetEnd="quarantana/cap8.xml#c8_10079">堂·安保迪正坐在楼上一间屋子里他的大椅子上反复思考着这个问题，面前摊开放着一本小开本的书。 “卡尔内亚德！ 这个名字我好像在哪里读到过或听说过，他肯定是一位古代学者或大文豪，没错，肯定是这一类人中的一员。 真见鬼，可他究竟是谁呢？” </note>
+          <note xml:id="Chinese_1998_cap8-n3" type="comm" target="quarantana/cap8.xml#c8_10080" targetEnd="quarantana/cap8.xml#c8_10116">可怜的神甫截然没有料到，一场风暴此时正铺天盖地地朝他头顶上压来！ 应该说明一下，堂·安保迪喜欢每天读一点书，邻区的一位教士家中有一些藏书，经常一本一本的借给他，他现在正在读的是那位教士随手拿到的第一本书。 </note>
+        </p>
+        <p n="2">
+          <note xml:id="Chinese_1998_cap8-n4" type="comm" target="quarantana/cap8.xml#c8_10117" targetEnd="quarantana/cap8.xml#c8_10165">堂·安保迪上次受惊发烧后正在康复之中，更确切地说，他的烧已退，只是不想让人知道他的病已经痊愈。 此时，他正在默想两年前有人在米兰大教堂里为纪念圣·卡尔洛而吟诵的颂词，吟诵者的声调铿锵有力，听的人无不为之动容。 </note>
+          <note xml:id="Chinese_1998_cap8-n5" type="comm" target="quarantana/cap8.xml#c8_10166" targetEnd="quarantana/cap8.xml#c8_10208">在颂词中，圣·卡尔洛因潜心钻研学问而被比作阿基米德，到这一部分为止，堂·安保迪没有遇到任何理解上的困难，因为阿基米德在当时曾做过许多引起人们广泛议论的古怪事情，故领悟他的思想无须拥有渊博的学识。 </note>
+          <note xml:id="Chinese_1998_cap8-n6" type="comm" target="quarantana/cap8.xml#c8_10209" targetEnd="quarantana/cap8.xml#c8_10224">但是继阿基米德之后，演说者又把圣·卡尔洛比作卡尔内亚德，读至此，堂·安保迪的思路一下子搁浅了。 </note>
+          <note xml:id="Chinese_1998_cap8-n7" type="comm" target="quarantana/cap8.xml#c8_10225" targetEnd="quarantana/cap8.xml#c8_10235">这时，佩尔贝多亚进来向他禀报托尼奥来访。 </note>
+        </p>
+        <p n="3">
+          <note xml:id="Chinese_1998_cap8-n8" type="comm" target="quarantana/cap8.xml#c8_10236" targetEnd="quarantana/cap8.xml#c8_10243">“这么晚还来？”堂·安保迪也不免感到十分诧异。 </note>
+        </p>
+        <p n="4">
+          <note xml:id="Chinese_1998_cap8-n9" type="comm" target="quarantana/cap8.xml#c8_10244" targetEnd="quarantana/cap8.xml#c8_10255">“他们都是些无所顾忌的人，对他们您还能指望些什么呢？可假如您不马上逮住他的话……” </note>
+        </p>
+        <p n="5">
+          <note xml:id="Chinese_1998_cap8-n10" type="comm" target="quarantana/cap8.xml#c8_10256" targetEnd="quarantana/cap8.xml#c8_10279">“说得对！我要是现在不逮住他的话，更待何时！你让他进来……嗨！嗨！你能完全肯定来人正是他吗？” </note>
+        </p>
+        <p n="6">
+          <note xml:id="Chinese_1998_cap8-n11" type="comm" target="quarantana/cap8.xml#c8_10280" targetEnd="quarantana/cap8.xml#c8_10307">“这还用问吗？”佩尔贝多亚说罢就下楼打开大门招呼说：“真见鬼！你在哪里？”托尼奥从暗处走出，与此同时，阿涅珊也忙走上前去向她打招呼。 </note>
+        </p>
+        <p n="7">
+          <note xml:id="Chinese_1998_cap8-n12" type="comm" target="quarantana/cap8.xml#c8_10308" targetEnd="quarantana/cap8.xml#c8_10318">“晚上好，阿涅珊，”佩尔贝多亚回话说，“这么晚了，你这是从哪里来？” </note>
+        </p>
+        <p n="8">
+          <note xml:id="Chinese_1998_cap8-n13" type="comm" target="quarantana/cap8.xml#c8_10319" targetEnd="quarantana/cap8.xml#c8_10325">“我从……”阿涅珊说了附近一个村落的名字。 </note>
+          <note xml:id="Chinese_1998_cap8-n14" type="comm" target="quarantana/cap8.xml#c8_10326" targetEnd="quarantana/cap8.xml#c8_10338">“事实上……”她接着说，“我就是为了你才耽搁了这么长的时间。” </note>
+        </p>
+        <p n="9">
+          <note xml:id="Chinese_1998_cap8-n15" type="comm" target="quarantana/cap8.xml#c8_10339" targetEnd="quarantana/cap8.xml#c8_10352">“那是为了什么？”佩尔贝多亚问她，同时转身对两兄弟说：“你们先进去，我一会儿就来。” </note>
+        </p>
+        <p n="10">
+          <note xml:id="Chinese_1998_cap8-n16" type="comm" target="quarantana/cap8.xml#c8_10353" targetEnd="quarantana/cap8.xml#c8_10388">阿涅珊回答说：“是这么回事，有一个不知好歹但又喜欢在背后嚼舌的女人……你可能不信，她一再地说，你当初之所以没有嫁给培贝·苏奥拉维基亚或安塞尔莫·隆基亚，是因为他们两人都看不上你。 </note>
+          <note xml:id="Chinese_1998_cap8-n17" type="comm" target="quarantana/cap8.xml#c8_10389" targetEnd="quarantana/cap8.xml#c8_10401">我驳斥她说，是你回绝了他们两个……” </note>
+        </p>
+        <p n="11">
+          <note xml:id="Chinese_1998_cap8-n18" type="comm" target="quarantana/cap8.xml#c8_10402" targetEnd="quarantana/cap8.xml#c8_10402">“那当然。 </note>
+          <note xml:id="Chinese_1998_cap8-n19" type="comm" target="quarantana/cap8.xml#c8_10403" targetEnd="quarantana/cap8.xml#c8_10407">喔，她真是个爱撒谎的人，一个爱说弥天大谎的女人！ </note>
+          <note xml:id="Chinese_1998_cap8-n20" type="comm" target="quarantana/cap8.xml#c8_10408" targetEnd="quarantana/cap8.xml#c8_10410">她是谁？” </note>
+        </p>
+        <p n="12">
+          <note xml:id="Chinese_1998_cap8-n21" type="comm" target="quarantana/cap8.xml#c8_10411" targetEnd="quarantana/cap8.xml#c8_10420">“你别问我，我可不想惹麻烦。” </note>
+        </p>
+        <p n="13">
+          <note xml:id="Chinese_1998_cap8-n22" type="comm" target="quarantana/cap8.xml#c8_10421" targetEnd="quarantana/cap8.xml#c8_10430">“告诉我，你必须得告诉我。 喔，这个该死的女人！” </note>
+        </p>
+        <p n="14">
+          <note xml:id="Chinese_1998_cap8-n23" type="comm" target="quarantana/cap8.xml#c8_10431" targetEnd="quarantana/cap8.xml#c8_10449">“算了……我对你的那件事情不全清楚，没有办法堵住她的嘴，你不知道我当时有多难受。” </note>
+        </p>
+        <p n="15">
+          <note xml:id="Chinese_1998_cap8-n24" type="comm" target="quarantana/cap8.xml#c8_10450" targetEnd="quarantana/cap8.xml#c8_10474">“她竟敢毫无顾忌地造谣中伤我！”佩尔贝多亚再次大声嚷道，然后马上又说：“至于说培贝，大家都知道，而且也看到了…… </note>
+          <note xml:id="Chinese_1998_cap8-n25" type="comm" target="quarantana/cap8.xml#c8_10475" targetEnd="quarantana/cap8.xml#c8_10483">嗨，托尼奥！ 把门掩上，你上楼去吧，我马上就来。” </note>
+          <note xml:id="Chinese_1998_cap8-n26" type="comm" target="quarantana/cap8.xml#c8_10484" targetEnd="quarantana/cap8.xml#c8_10496">托尼奥一面应声说是，一面进了大门，阿涅珊继续滔滔不绝地讲述她的故事。 </note>
+        </p>
+        <p n="16">
+          <note xml:id="Chinese_1998_cap8-n27" type="comm" target="quarantana/cap8.xml#c8_10497" targetEnd="quarantana/cap8.xml#c8_10515">堂·安保迪家的大门对面是一条小巷子，两边是两幢房屋，后面则是一块空地。 </note>
+          <note xml:id="Chinese_1998_cap8-n28" type="comm" target="quarantana/cap8.xml#c8_10516" targetEnd="quarantana/cap8.xml#c8_10532">阿涅珊走进了小巷，仿佛想找一僻静处无拘无束地说话，佩尔贝多亚见状，急忙紧随其后。 </note>
+          <note xml:id="Chinese_1998_cap8-n29" type="comm" target="quarantana/cap8.xml#c8_10533" targetEnd="quarantana/cap8.xml#c8_10556">待她们转身走到一个无法看清堂·安保迪宅第前可能发生什么事情的地方之后，阿涅珊响亮地咳了一声。 </note>
+          <note xml:id="Chinese_1998_cap8-n30" type="comm" target="quarantana/cap8.xml#c8_10557" targetEnd="quarantana/cap8.xml#c8_10602">这是原先约定的暗号，兰佐听到后，紧紧拽住鲁齐娅的手臂给她壮胆，然后两人蹑手蹑脚地贴着墙悄悄地往前走到大门口，轻轻地将门推开，猫着腰不声不响地进入门厅，托尼奥兄弟两正在那儿等着他们。 </note>
+          <note xml:id="Chinese_1998_cap8-n31" type="comm" target="quarantana/cap8.xml#c8_10603" targetEnd="quarantana/cap8.xml#c8_10622">兰佐轻轻地将大门掩上，四个人一起上了楼。 </note>
+          <note xml:id="Chinese_1998_cap8-n32" type="comm" target="quarantana/cap8.xml#c8_10623" targetEnd="quarantana/cap8.xml#c8_10643">走至楼梯口，两兄弟朝楼梯一侧的房门走去，兰佐和鲁齐娅则紧贴着墙边。 </note>
+        </p>
+        <p n="17">
+          <note xml:id="Chinese_1998_cap8-n33" type="comm" target="quarantana/cap8.xml#c8_10644" targetEnd="quarantana/cap8.xml#c8_10652">“感谢上帝，”托尼奥嗓音清晰地说。 </note>
+        </p>
+        <p n="18">
+          <note xml:id="Chinese_1998_cap8-n34" type="comm" target="quarantana/cap8.xml#c8_10653" targetEnd="quarantana/cap8.xml#c8_10654">“托尼奥，是你吗？ </note>
+          <note xml:id="Chinese_1998_cap8-n35" type="comm" target="quarantana/cap8.xml#c8_10655" targetEnd="quarantana/cap8.xml#c8_10660">请进，”屋里的人应声说。 </note>
+        </p>
+        <p n="19">
+          <note xml:id="Chinese_1998_cap8-n36" type="comm" target="quarantana/cap8.xml#c8_10661" targetEnd="quarantana/cap8.xml#c8_10678">托尼奥稍稍推开房门，其空隙刚好让他们兄弟两人能依次进入。 </note>
+          <note xml:id="Chinese_1998_cap8-n37" type="comm" target="quarantana/cap8.xml#c8_10679" targetEnd="quarantana/cap8.xml#c8_10703">一道光线突然透过门缝射在楼梯口昏暗的地板上，鲁齐娅不由得一惊，好像自己已被发现一样。 </note>
+          <note xml:id="Chinese_1998_cap8-n38" type="comm" target="quarantana/cap8.xml#c8_10704" targetEnd="quarantana/cap8.xml#c8_10737">两兄弟进入屋子后，托尼奥随手将门关上，兰佐和鲁齐娅纹丝不动地站在黑暗中，屏住呼吸，侧耳细听。 可怜的鲁齐娅心里怦怦直跳，心跳声似乎盖过了四周的声响。 </note>
+          <note xml:id="Chinese_1998_cap8-n39" type="comm" target="quarantana/cap8.xml#c8_10738" targetEnd="quarantana/cap8.xml#c8_10771">如上所述，堂·安保迪坐在一张破旧的椅子上，身上裹着一件黑色的旧长袍，头上戴着一顶圆形平顶无边旧便帽，一盏小油灯微弱的亮光清晰地勾勒出他脸部的轮廓。 </note>
+          <note xml:id="Chinese_1998_cap8-n40" type="comm" target="quarantana/cap8.xml#c8_10772" targetEnd="quarantana/cap8.xml#c8_10816">从帽檐外钻出来的两绺浓密的头发、两条浓密的眉毛、两道浓密的髭须和两撇浓密的山羊胡子都已花白，全堆在他那张布满皱纹的、黝黑的脸上，像是月光下峭壁上积满白雪的荆棘。 </note>
+        </p>
+        <p n="20">
+          <note xml:id="Chinese_1998_cap8-n41" type="comm" target="quarantana/cap8.xml#c8_10817" targetEnd="quarantana/cap8.xml#c8_10832">“啊！啊！” 他一面摘下眼镜夹在手中，一面同托尼奥打招呼。 </note>
+        </p>
+        <p n="21">
+          <note xml:id="Chinese_1998_cap8-n42" type="comm" target="quarantana/cap8.xml#c8_10833" targetEnd="quarantana/cap8.xml#c8_10850">“您神甫先生也许会说，这么晚我不该来，”托尼奥躬身对他说，吉尔瓦索也笨拙地行了礼。 </note>
+        </p>
+        <p n="22">
+          <note xml:id="Chinese_1998_cap8-n43" type="comm" target="quarantana/cap8.xml#c8_10851" targetEnd="quarantana/cap8.xml#c8_10858">“是太晚了，不管从哪一个方面说，确实是太晚了。 </note>
+          <note xml:id="Chinese_1998_cap8-n44" type="comm" target="quarantana/cap8.xml#c8_10859" targetEnd="quarantana/cap8.xml#c8_10863">我病了，你难道没看出来？” </note>
+        </p>
+        <p n="23">
+          <note xml:id="Chinese_1998_cap8-n45" type="comm" target="quarantana/cap8.xml#c8_10864" targetEnd="quarantana/cap8.xml#c8_10866">“哦，我很抱歉。” </note>
+        </p>
+        <p n="24">
+          <note xml:id="Chinese_1998_cap8-n46" type="comm" target="quarantana/cap8.xml#c8_10867" targetEnd="quarantana/cap8.xml#c8_10887">“也许你已听说我病了，我不知道何时才能出门……你为什么把那个……那个小伙子一起带来？” </note>
+        </p>
+        <p n="25">
+          <note xml:id="Chinese_1998_cap8-n47" type="comm" target="quarantana/cap8.xml#c8_10888" targetEnd="quarantana/cap8.xml#c8_10892">“这样我就有了个伴，神甫先生。” </note>
+        </p>
+        <p n="26">
+          <note xml:id="Chinese_1998_cap8-n48" type="comm" target="quarantana/cap8.xml#c8_10893" targetEnd="quarantana/cap8.xml#c8_10894">“不说这些了，你来找我有什么事吗？” </note>
+        </p>
+        <p n="27">
+          <note xml:id="Chinese_1998_cap8-n49" type="comm" target="quarantana/cap8.xml#c8_10895" targetEnd="quarantana/cap8.xml#c8_10911">“这里是二十五个崭新的银币，上面有圣·安布罗斯骑在马上的图案，”托尼奥一面说着，一面从口袋里掏出一只小袋子。 </note>
+        </p>
+        <p n="28">
+          <note xml:id="Chinese_1998_cap8-n50" type="comm" target="quarantana/cap8.xml#c8_10912" targetEnd="quarantana/cap8.xml#c8_10936">“拿来让我看看，”堂·安保迪忙说道，同时接过袋子，戴上眼镜后从袋子里面取出银币一个一个数着。 他翻来复去地仔细检查每一个银币，没发现有什么异样。 </note>
+        </p>
+        <p n="29">
+          <note xml:id="Chinese_1998_cap8-n51" type="comm" target="quarantana/cap8.xml#c8_10937" targetEnd="quarantana/cap8.xml#c8_10946">“神甫先生，现在您得把我妻子黛克拉的项链还给我。” </note>
+        </p>
+        <p n="30">
+          <note xml:id="Chinese_1998_cap8-n52" type="comm" target="quarantana/cap8.xml#c8_10947" targetEnd="quarantana/cap8.xml#c8_11006">“那当然，”堂·安保迪回答说，一面走至一个衣橱前。 他从口袋里掏出一把钥匙，眼睛往四下里扫了一圈，以免旁边有人窥视，把衣橱门稍稍拉开后，忙用自己的身子堵住门缝，然后探头朝里边看了一下，并伸出一只手取出项链。 他关上衣橱，把项链交给托尼奥，并对他说：“这下子你该满意了吧？” </note>
+        </p>
+        <p n="31">
+          <note xml:id="Chinese_1998_cap8-n53" type="comm" target="quarantana/cap8.xml#c8_11007" targetEnd="quarantana/cap8.xml#c8_11019">托尼奥接着说：“现在，劳驾您替我立一个字据。” </note>
+        </p>
+        <p n="32">
+          <note xml:id="Chinese_1998_cap8-n54" type="comm" target="quarantana/cap8.xml#c8_11020" targetEnd="quarantana/cap8.xml#c8_11027">“还要立字据！” 堂·安保迪不满地说，“你们这些人，如今无事不通。 </note>
+          <note xml:id="Chinese_1998_cap8-n55" type="comm" target="quarantana/cap8.xml#c8_11028" targetEnd="quarantana/cap8.xml#c8_11033">哼！ 这世上充满了猜疑！ </note>
+          <note xml:id="Chinese_1998_cap8-n56" type="comm" target="quarantana/cap8.xml#c8_11034" targetEnd="quarantana/cap8.xml#c8_11038">你信不过我吗？” </note>
+        </p>
+        <p n="33">
+          <note xml:id="Chinese_1998_cap8-n57" type="comm" target="quarantana/cap8.xml#c8_11039" targetEnd="quarantana/cap8.xml#c8_11044">“快别这么说，神甫先生！ 我信不过您？ </note>
+          <note xml:id="Chinese_1998_cap8-n58" type="comm" target="quarantana/cap8.xml#c8_11045" targetEnd="quarantana/cap8.xml#c8_11048">您冤枉了我。 </note>
+          <note xml:id="Chinese_1998_cap8-n59" type="comm" target="quarantana/cap8.xml#c8_11049" targetEnd="quarantana/cap8.xml#c8_11076">您那本子里，在债务人一栏里写着我的名字……当初为了写我的名字给您添了麻烦，现在要是再立个字据，您从此就永远也不需要……” </note>
+        </p>
+        <p n="34">
+          <note xml:id="Chinese_1998_cap8-n60" type="comm" target="quarantana/cap8.xml#c8_11077" targetEnd="quarantana/cap8.xml#c8_11116">“好吧，好吧，”堂·安保迪打断他的话，嘟嘟囔囔地拉开小桌子上的一个抽屉，从里面取出纸、笔和墨水瓶开始写起来，一面把写在纸上的字逐个念出声来。 </note>
+          <note xml:id="Chinese_1998_cap8-n61" type="comm" target="quarantana/cap8.xml#c8_11117" targetEnd="quarantana/cap8.xml#c8_11167">与此同时，托尼奥示意吉尔瓦索同他一起站到小桌子前面堵住堂·安保迪的视线，使他无法看到房门。 然后，托尼奥装作无所事事的样子，一只脚不断在地板上蹭，其实是在暗示躲在房门外的那两个人进来，同时又可以盖住他们的脚步声。 </note>
+          <note xml:id="Chinese_1998_cap8-n62" type="comm" target="quarantana/cap8.xml#c8_11168" targetEnd="quarantana/cap8.xml#c8_11177">堂·安保迪专心致志地写着字据，没注意到房门外的动静。 </note>
+          <note xml:id="Chinese_1998_cap8-n63" type="comm" target="quarantana/cap8.xml#c8_11178" targetEnd="quarantana/cap8.xml#c8_11208">听到托尼奥的脚在地板上蹭了四下，兰佐忙抓住鲁齐娅的胳膊捏了一下给她壮胆，然后拽着她朝屋子里走去。 鲁齐娅浑身哆嗦，独自一个人她绝对不会上那儿去。 </note>
+          <note xml:id="Chinese_1998_cap8-n64" type="comm" target="quarantana/cap8.xml#c8_11209" targetEnd="quarantana/cap8.xml#c8_11225">他们屏住呼吸，踮着脚悄悄地进了房间，躲在托尼奥兄弟两人的身后。 </note>
+          <note xml:id="Chinese_1998_cap8-n65" type="comm" target="quarantana/cap8.xml#c8_11226" targetEnd="quarantana/cap8.xml#c8_11265">此时，堂·安保迪正眼皮也不抬地在仔细检查刚写完的字据，然后将它一折四说：“现在你满意了吗？” 说罢，他一只手摘下架在鼻子上的眼镜，另一只手拿起字据，抬起头欲把它交给托尼奥。 </note>
+          <note xml:id="Chinese_1998_cap8-n66" type="comm" target="quarantana/cap8.xml#c8_11266" targetEnd="quarantana/cap8.xml#c8_11296">托尼奥伸出手接字据，同时向一旁退去。 这时，好似幕间换布景一样，兰佐和鲁齐娅突然出现在两人的中间。 </note>
+          <note xml:id="Chinese_1998_cap8-n67" type="comm" target="quarantana/cap8.xml#c8_11297" targetEnd="quarantana/cap8.xml#c8_11333">堂·安保迪起初只是看到两个模糊的身影，待他看清后吓得呆若木鸡，气得直跺脚，但是他眼珠一转马上想好了对策。 与此同时，兰佐急忙说：“神甫先生，在两位证人面前我宣布，这是我的妻子。” </note>
+          <note xml:id="Chinese_1998_cap8-n68" type="comm" target="quarantana/cap8.xml#c8_11334" targetEnd="quarantana/cap8.xml#c8_11393">还未等他合拢嘴唇，堂·安保迪忙松开拿在手中的字据，伸出左手一把抓住并举起油灯，一面用右手拽住桌布猛力往怀里一拉，桌上的书、纸、墨水瓶和吸墨水沙匣一股脑儿全散落在椅子和桌子之间的地板上。 </note>
+          <note xml:id="Chinese_1998_cap8-n69" type="comm" target="quarantana/cap8.xml#c8_11394" targetEnd="quarantana/cap8.xml#c8_11431">紧接着，他向鲁齐娅步步逼近，可怜的姑娘全身哆嗦，用微弱的声音才说出：“这位……”，堂·安保迪随即粗鲁地将桌布蒙住她的头和脸，不让她把话讲完。 </note>
+          <note xml:id="Chinese_1998_cap8-n70" type="comm" target="quarantana/cap8.xml#c8_11432" targetEnd="quarantana/cap8.xml#c8_11461">与此同时，他丢掉拿在手中的油灯，伸出两只手紧紧捂住桌布，使鲁齐娅几乎无法呼吸，一面竭尽全力大声疾呼：“佩尔贝多亚！ 佩尔贝多亚！ </note>
+          <note xml:id="Chinese_1998_cap8-n71" type="comm" target="quarantana/cap8.xml#c8_11462" targetEnd="quarantana/cap8.xml#c8_11464">有人要偷袭我！ 快来啊！” </note>
+          <note xml:id="Chinese_1998_cap8-n72" type="comm" target="quarantana/cap8.xml#c8_11465" targetEnd="quarantana/cap8.xml#c8_11503">掉落在地的灯芯行将熄灭，其昏暗、跳动的光亮照在鲁齐娅的脸上，只见她神思恍惚，简直无法从惊慌中解脱出来，看上去好似一尊用白垩土制成的雕像，上面还蒙上了一块湿布。 </note>
+          <note xml:id="Chinese_1998_cap8-n73" type="comm" target="quarantana/cap8.xml#c8_11504" targetEnd="quarantana/cap8.xml#c8_11609">待屋子全部笼罩在一片黑暗中，堂·安保迪才放手松开可怜的姑娘，摸索着寻找通向里屋的房门，进去后随手将门关上，同时高声呼叫：“佩尔贝多亚！有人要偷袭我！快来啊！你们给我滚出去！快滚出这所房子！”外屋同样一片混乱：兰佐好像在玩捉迷藏游戏一样，在黑暗中舞动着双手，试图拦住神甫，同时走至房门口，一边敲门，一边高声喊叫：“开门！快开门！别乱嚷！”鲁齐娅呼喊着兰佐的名字，用微弱的声音恳求他说：“走吧，看在上帝的份上，我们走吧！”托尼奥趴在地板上欲找回他的收据，两手到处瞎摸着；吉尔瓦索吓得魂不附体，跳跳嚷嚷地想找到通向楼梯的房门，逃出那块是非之地。 </note>
+        </p>
+        <p n="35">
+          <note xml:id="Chinese_1998_cap8-n74" type="comm" target="quarantana/cap8.xml#c8_11610" targetEnd="quarantana/cap8.xml#c8_11699">在这一片喧闹声中，我们不妨静下心来思考一些问题：兰佐晚间悄然潜入他人的私宅大喊大叫，还将房主紧闭在一间屋子里，完全像一个压迫者；但他归根结蒂依然是个被压迫者；堂·安保迪正安静地在干自己的事情，因受惊吓而逃跑，似乎成了受害者，但事实上，这是他滥用职权而种下的苦果。 </note>
+          <note xml:id="Chinese_1998_cap8-n75" type="comm" target="quarantana/cap8.xml#c8_11700" targetEnd="quarantana/cap8.xml#c8_11712">世上有好多事情就是这样不近情理……这儿我指的是十七世纪的社会现实。 </note>
+        </p>
+        <p n="36">
+          <note xml:id="Chinese_1998_cap8-n76" type="comm" target="quarantana/cap8.xml#c8_11713" targetEnd="quarantana/cap8.xml#c8_11738">堂·安保迪处于孤立危急的困境之中，当他发现自己的对手没有撒离的迹象，忙打开面朝教堂广场的窗子，声嘶力竭地大叫：“快来人啊！ 快来人啊！” </note>
+          <note xml:id="Chinese_1998_cap8-n77" type="comm" target="quarantana/cap8.xml#c8_11739" targetEnd="quarantana/cap8.xml#c8_11779">这是一个月色溶溶的夜晚，教堂及其后面狭长、尖顶的钟楼耸立在一片淡清清的银光下，在广场明亮的草坪上投下朦胧的暗影，周围的一切显得如同白昼一样的清晰。 </note>
+          <note xml:id="Chinese_1998_cap8-n78" type="comm" target="quarantana/cap8.xml#c8_11780" targetEnd="quarantana/cap8.xml#c8_11791">但是，极目望去却看不到有人走动的身影。 </note>
+          <note xml:id="Chinese_1998_cap8-n79" type="comm" target="quarantana/cap8.xml#c8_11792" targetEnd="quarantana/cap8.xml#c8_11818">不过，在面朝神甫家、贴着教堂侧墙的一边，有一间阴暗的陋屋，里面睡着教堂司事。 </note>
+          <note xml:id="Chinese_1998_cap8-n80" type="comm" target="quarantana/cap8.xml#c8_11819" targetEnd="quarantana/cap8.xml#c8_11851">他被慌乱的呼叫声惊醒，一骨碌从床上跳起来，拉开遮住窗户的帘子，睡眼惺松地探出头去大声问道：“出了什么事情？” </note>
+        </p>
+        <p n="37">
+          <note xml:id="Chinese_1998_cap8-n81" type="comm" target="quarantana/cap8.xml#c8_11852" targetEnd="quarantana/cap8.xml#c8_11862">“快来啊，安布罗乔！ 救命呀！ 屋子里闯进了坏人！” </note>
+          <note xml:id="Chinese_1998_cap8-n82" type="comm" target="quarantana/cap8.xml#c8_11863" targetEnd="quarantana/cap8.xml#c8_11909">堂·安保迪朝他大叫大喊。 “我马上就来，”安布罗乔回答说，一面缩回脑袋重新拉上了窗帘。 这时的他，与其说是睡梦初醒倒不如说是惊慌失措，尽管如此，他还是立即想出了一条妙计：竭尽全力帮助神甫脱险，但自己不直接介入冲突。 </note>
+          <note xml:id="Chinese_1998_cap8-n83" type="comm" target="quarantana/cap8.xml#c8_11910" targetEnd="quarantana/cap8.xml#c8_11955">他一把抓起搭在床脚上的裤子，像大礼帽似的夹在腋下，然后跳着冲下了木楼梯，急步跑至钟楼，抓住吊在那一口较大的钟上的绳子使劲敲起来。 </note>
+        </p>
+        <p n="38">
+          <note xml:id="Chinese_1998_cap8-n84" type="comm" target="quarantana/cap8.xml#c8_11956" targetEnd="quarantana/cap8.xml#c8_11975">嘡、嘡、嘡、嘡，闻听急促的钟声，村民们立即从床上坐起，躺在干草堆上的小伙子们竖起耳朵听了一会儿后马上站立起来。 </note>
+          <note xml:id="Chinese_1998_cap8-n85" type="comm" target="quarantana/cap8.xml#c8_11976" targetEnd="quarantana/cap8.xml#c8_11976">“出了什么事？ </note>
+          <note xml:id="Chinese_1998_cap8-n86" type="comm" target="quarantana/cap8.xml#c8_11977" targetEnd="quarantana/cap8.xml#c8_11977">出了什么事？ </note>
+          <note xml:id="Chinese_1998_cap8-n87" type="comm" target="quarantana/cap8.xml#c8_11978" targetEnd="quarantana/cap8.xml#c8_11983">有人在敲警钟！ 着火了？ 盗匪打家劫舍？” </note>
+          <note xml:id="Chinese_1998_cap8-n88" type="comm" target="quarantana/cap8.xml#c8_11984" targetEnd="quarantana/cap8.xml#c8_12035">不少村妇劝说和恳求自己的丈夫呆在家里别出去，让其他人先跑去看一下究竟发生了什么事情。 其中，有的人下床走到窗户边；胆小的人听从妻子的劝告又钻进了被窝；几个较好奇和较勇敢的人则跳下床操起长柄叉和猎枪朝人声喧嚷的地方跑去，剩下的人则在观望。 </note>
+        </p>
+        <p n="39">
+          <note xml:id="Chinese_1998_cap8-n89" type="comm" target="quarantana/cap8.xml#c8_12036" targetEnd="quarantana/cap8.xml#c8_12073">事实上，在他们准备采取行动之前，甚至在他们从睡梦中完全醒来之前，钟声早已传到了站在不远处尚未宽衣就寝的另外一些人的耳朵里：一边是那些痞子，另一边是阿涅珊和佩尔贝多亚。 </note>
+          <note xml:id="Chinese_1998_cap8-n90" type="comm" target="quarantana/cap8.xml#c8_12074" targetEnd="quarantana/cap8.xml#c8_12093">我们首先简略地叙述一下，那几个留在倒塌的小屋以及酒铺里的打手后来又干了些什么。 </note>
+          <note xml:id="Chinese_1998_cap8-n91" type="comm" target="quarantana/cap8.xml#c8_12094" targetEnd="quarantana/cap8.xml#c8_12151">当酒铺里的三个打手看到，村民们全都关上了自己家的大门，街上已空无一人，便装作天色已黑欲往家赶的样子，急匆匆地出了酒铺。 他们在村子里转了一圈，看看所有的人是否确实都已回屋；实际上，他们一路上没看见有人在走动，也没听见任何细小的声响。 </note>
+          <note xml:id="Chinese_1998_cap8-n92" type="comm" target="quarantana/cap8.xml#c8_12152" targetEnd="quarantana/cap8.xml#c8_12170">他们三人还悄悄地从阿涅珊家的旧房子前走过，人去楼空，里边显得格外的安静。 </note>
+          <note xml:id="Chinese_1998_cap8-n93" type="comm" target="quarantana/cap8.xml#c8_12171" targetEnd="quarantana/cap8.xml#c8_12183">然后，他们直奔那间倒塌的小屋，向格里索先生汇报情况。 </note>
+          <note xml:id="Chinese_1998_cap8-n94" type="comm" target="quarantana/cap8.xml#c8_12184" targetEnd="quarantana/cap8.xml#c8_12247">听罢他们的介绍，格里索立即往头上套了一顶旧帽子，往肩上披上一件带有贝状饰物的油布斗篷，拿起一根朝圣者用的拐杖说：“拿出打手的样子来，不许声张，注意听我的命令，现在我们走吧。” 他走在头上，几个打手紧随其后。 他们走的路正好和兰佐一伙去执行任务时所走的路相反，不一会儿就到了那间小屋子前。 </note>
+          <note xml:id="Chinese_1998_cap8-n95" type="comm" target="quarantana/cap8.xml#c8_12248" targetEnd="quarantana/cap8.xml#c8_12305">格里索吩咐他的手下呆在几步开外的地方待命，自己一人前去探路。 见四周空无一人，万籁俱寂，他叫他的两个喽罗走上前，吩咐他们悄悄地翻过小院子外面那堵围墙，进去后躲在他上午看好的院子角落里一棵树叶茂密的无花果树后面。 </note>
+          <note xml:id="Chinese_1998_cap8-n96" type="comm" target="quarantana/cap8.xml#c8_12306" targetEnd="quarantana/cap8.xml#c8_12323">然后，他佯装成一个迷了路后恳求借宿过夜的朝圣者，轻轻地前去敲门。 </note>
+          <note xml:id="Chinese_1998_cap8-n97" type="comm" target="quarantana/cap8.xml#c8_12324" targetEnd="quarantana/cap8.xml#c8_12333">见屋内无人应声，他稍微重重地又敲了几下，里边依旧没有任何动静。 </note>
+          <note xml:id="Chinese_1998_cap8-n98" type="comm" target="quarantana/cap8.xml#c8_12334" targetEnd="quarantana/cap8.xml#c8_12363">这时，他叫来第三个打手，吩咐他也像前面两个一样翻墙入院，然后拨掉门闩，以便进出自由。 </note>
+          <note xml:id="Chinese_1998_cap8-n99" type="comm" target="quarantana/cap8.xml#c8_12364" targetEnd="quarantana/cap8.xml#c8_12372">他们谨慎从事，一切似乎都进行得十分顺利。 </note>
+          <note xml:id="Chinese_1998_cap8-n100" type="comm" target="quarantana/cap8.xml#c8_12373" targetEnd="quarantana/cap8.xml#c8_12407">他又去把其他几个恶棍也叫来，让他们随他一起进入院内，以便同先入院的那一伙人躲在一起，他自己则蹑手蹑脚地走至临街的大门口，在大门里面安排两个打手放哨，然后朝院内的小门走去。 </note>
+          <note xml:id="Chinese_1998_cap8-n101" type="comm" target="quarantana/cap8.xml#c8_12408" targetEnd="quarantana/cap8.xml#c8_12416">他在门上敲了几下，耐心地等了一会儿。 </note>
+          <note xml:id="Chinese_1998_cap8-n102" type="comm" target="quarantana/cap8.xml#c8_12417" targetEnd="quarantana/cap8.xml#c8_12437">他小心翼翼地将门闩拨掉，没听到里边有人问：“是谁啊？” 屋内连一点动静也没有。 事情比原先估计的似乎要顺利得多，他觉得该是采取行动的时候了。 </note>
+          <note xml:id="Chinese_1998_cap8-n103" type="comm" target="quarantana/cap8.xml#c8_12438" targetEnd="quarantana/cap8.xml#c8_12460">他轻声地把躲在无花果树后面的几个打手叫至跟前，同他们一起进入楼下的房间，前一天上午，他曾厚颜无耻地站在房门口乞讨过面包。 </note>
+          <note xml:id="Chinese_1998_cap8-n104" type="comm" target="quarantana/cap8.xml#c8_12461" targetEnd="quarantana/cap8.xml#c8_12485">他取出火绒、火石、火镰和硫磺火柴，点燃了随身带来的一盏小提灯后走进内屋，事实果然验证了他的猜测：屋内空无一人。 </note>
+          <note xml:id="Chinese_1998_cap8-n105" type="comm" target="quarantana/cap8.xml#c8_12486" targetEnd="quarantana/cap8.xml#c8_12497">他从原路折回，然后走至楼梯口四下环顾，并竖起耳朵细听：周围一片沉寂。 </note>
+          <note xml:id="Chinese_1998_cap8-n106" type="comm" target="quarantana/cap8.xml#c8_12498" targetEnd="quarantana/cap8.xml#c8_12544">他在楼下安排了另外两个打手担任警戒，身边只带着一个来自贝尔加莫城郊名叫格里亚波科的恶棍，此人唯一的任务就是恫吓、哄骗和发号施令，简而言之，扮演一个动口不动手的角色，并以他浓重的地方口音给阿涅珊造成错觉，误以为他们这一伙人是从贝尔加莫城郊来的。 </note>
+          <note xml:id="Chinese_1998_cap8-n107" type="comm" target="quarantana/cap8.xml#c8_12545" targetEnd="quarantana/cap8.xml#c8_12573">格里索和他走在头上，后面跟着另外几个打手，蹑手蹑脚地摸上了楼梯，心里不停地诅咒他的喽罗，因为他们每登上一个梯级，脚下的地板就发出吱吱嘎嘎的响声。 </note>
+          <note xml:id="Chinese_1998_cap8-n108" type="comm" target="quarantana/cap8.xml#c8_12574" targetEnd="quarantana/cap8.xml#c8_12581">他们终于登上了楼，来到了鲁齐娅每天睡觉的地方。 </note>
+          <note xml:id="Chinese_1998_cap8-n109" type="comm" target="quarantana/cap8.xml#c8_12582" targetEnd="quarantana/cap8.xml#c8_12612">他轻轻推了一下通向另一间屋子的房门，门被推开了一条缝，他朝里看了一下，眼前一片漆黑；接着他又竖起耳朵，想听听屋内是否有打鼾声、呼吸声或走动声，但里面是死一般的寂静。 </note>
+          <note xml:id="Chinese_1998_cap8-n110" type="comm" target="quarantana/cap8.xml#c8_12613" targetEnd="quarantana/cap8.xml#c8_12646">他把手提灯举在前面，好看清周围而不被人看清自己的脸，然后用力推开房门，看见房内搁着一张床，立即一个箭步蹿上去，但床上没有人，只见床首的褥子和枕头都卷得好好的。 </note>
+          <note xml:id="Chinese_1998_cap8-n111" type="comm" target="quarantana/cap8.xml#c8_12647" targetEnd="quarantana/cap8.xml#c8_12678">他耸了耸肩，转身示意他的喽罗悄悄跟在他后面到另一个房间里去看一下，可那里同样空无一人。 </note>
+          <note xml:id="Chinese_1998_cap8-n112" type="comm" target="quarantana/cap8.xml#c8_12679" targetEnd="quarantana/cap8.xml#c8_12692">“真是活见鬼，这是怎么一回事？” 他开口说，“是不是有奸诈的小人在暗中监视着我们？” </note>
+          <note xml:id="Chinese_1998_cap8-n113" type="comm" target="quarantana/cap8.xml#c8_12693" targetEnd="quarantana/cap8.xml#c8_12709">说罢，他们一反常态，开始在房子的每一个角落里搜寻、翻找，把房间弄得乱七八糟。 </note>
+          <note xml:id="Chinese_1998_cap8-n114" type="comm" target="quarantana/cap8.xml#c8_12710" targetEnd="quarantana/cap8.xml#c8_12749">正当他们在屋子里翻箱倒柜的时候，那两个在临街的大门口放哨的恶棍忽然听到远处有人踏着急促的碎步正向他们走来。 他们想，不管此人是谁，总得从他们跟前走过，故静静地留在原地警惕地观察事态的发展。 </note>
+          <note xml:id="Chinese_1998_cap8-n115" type="comm" target="quarantana/cap8.xml#c8_12750" targetEnd="quarantana/cap8.xml#c8_12757">果然不出所料，来者走到阿涅珊家门口即停住了脚步。 </note>
+          <note xml:id="Chinese_1998_cap8-n116" type="comm" target="quarantana/cap8.xml#c8_12758" targetEnd="quarantana/cap8.xml#c8_12791">疾步走来的原来是梅尼科，克里斯托弗洛修士派他来通知阿涅珊母女二人，让她们看在上帝的分上赶快离家逃到修道院藏身，因为……我想，这其中的原因读者的心里一定也明白。 </note>
+          <note xml:id="Chinese_1998_cap8-n117" type="comm" target="quarantana/cap8.xml#c8_12792" targetEnd="quarantana/cap8.xml#c8_12821">他抓起门闩上的拉手就叩，但发现被起掉了钉子的拉手已经松脱。 “怎么回事？” 他思忖着，一面胆战心惊地推了一下门，门应声开启了一条缝。 </note>
+          <note xml:id="Chinese_1998_cap8-n118" type="comm" target="quarantana/cap8.xml#c8_12822" targetEnd="quarantana/cap8.xml#c8_12857">梅尼科满心疑惧地迈腿入内，蓦然间感到有人抓住了他的两只手臂，左右有两个人同时低声恫吓他说：“不许声张，否则你就没命了！” </note>
+          <note xml:id="Chinese_1998_cap8-n119" type="comm" target="quarantana/cap8.xml#c8_12858" targetEnd="quarantana/cap8.xml#c8_12881">听此言，他不禁尖叫一声，一个恶棍马上用手捂住他的嘴，另一个则抽出一把破旧的刀子吓唬他。 </note>
+          <note xml:id="Chinese_1998_cap8-n120" type="comm" target="quarantana/cap8.xml#c8_12882" targetEnd="quarantana/cap8.xml#c8_12924">少年吓得全身直打哆嗦，再也叫不出声了。 这时，从远处传来了第一下响亮的钟声，接着是一连串惊天动地的钟鸣声。 </note>
+          <note xml:id="Chinese_1998_cap8-n121" type="comm" target="quarantana/cap8.xml#c8_12925" targetEnd="quarantana/cap8.xml#c8_12981">正如米兰的一则谚语所说：“做贼心虚”，两个无赖觉得钟鸣声仿佛在呼唤着他们的姓名和外号，惊恐万状地立即松开了拽住梅尼科胳膊的手，目瞪口呆地望着彼此的脸，然后拔腿朝着他们大部分同伙集聚的那幢房子疾步跑去。 </note>
+          <note xml:id="Chinese_1998_cap8-n122" type="comm" target="quarantana/cap8.xml#c8_12982" targetEnd="quarantana/cap8.xml#c8_13000">梅尼科沿着马路朝钟楼方向快步奔去，心想那里肯定有人。 </note>
+          <note xml:id="Chinese_1998_cap8-n123" type="comm" target="quarantana/cap8.xml#c8_13001" targetEnd="quarantana/cap8.xml#c8_13033">即使在阿涅珊家里翻箱倒柜的那几个恶棍，听到了可怕的钟声也同样感到惶恐不安。 他们惊慌失措，乱作一团，互相推撞，争先恐后地夺路而逃。 </note>
+          <note xml:id="Chinese_1998_cap8-n124" type="comm" target="quarantana/cap8.xml#c8_13034" targetEnd="quarantana/cap8.xml#c8_13068">纵然他们都是一些久经考验和习惯于冒险的亡命之徒，但是却无法泰然面对一个潜在的危险，尤其是当危险在他们毫无防备的情况下突如其来地出现在他们的面前时。 </note>
+          <note xml:id="Chinese_1998_cap8-n125" type="comm" target="quarantana/cap8.xml#c8_13069" targetEnd="quarantana/cap8.xml#c8_13085">格里索不得不凭借自己的权威才稳住了他们的阵脚。 </note>
+          <note xml:id="Chinese_1998_cap8-n126" type="comm" target="quarantana/cap8.xml#c8_13086" targetEnd="quarantana/cap8.xml#c8_13181">他就好像看护着一群猪的一条狗，来回追逐着几头离群的猪：一会儿咬住一头猪的耳朵并将它拖回猪群；一会儿用嘴拱另一头猪；一会儿又对离群的一头猪汪汪直叫。 身披朝圣者斗篷的格里索，一会儿拽住正欲跨出门槛的一个打手并将他拖进屋内；一会儿挥舞手杖把一两个朝门口逃去的打手赶回赶；一会儿对着毫无目的四下逃遁的另外几个打手大叫大嚷，费了九牛二虎之力，才将他们全都聚拢在院子的中央。 </note>
+          <note xml:id="Chinese_1998_cap8-n127" type="comm" target="quarantana/cap8.xml#c8_13182" targetEnd="quarantana/cap8.xml#c8_13197">“快，快！ 拿好手枪，拔出匕首，然后我们一起出发。 </note>
+          <note xml:id="Chinese_1998_cap8-n128" type="comm" target="quarantana/cap8.xml#c8_13198" targetEnd="quarantana/cap8.xml#c8_13207">你们这些笨蛋，我们前后这样跟紧的话，还有谁敢动我们半个指头？ </note>
+          <note xml:id="Chinese_1998_cap8-n129" type="comm" target="quarantana/cap8.xml#c8_13208" targetEnd="quarantana/cap8.xml#c8_13222">要是我们分散行动，那些乡巴佬就有可能将我们一个一个干掉。 </note>
+          <note xml:id="Chinese_1998_cap8-n130" type="comm" target="quarantana/cap8.xml#c8_13223" targetEnd="quarantana/cap8.xml#c8_13223">不害臊的东西！ </note>
+          <note xml:id="Chinese_1998_cap8-n131" type="comm" target="quarantana/cap8.xml#c8_13224" targetEnd="quarantana/cap8.xml#c8_13228">跟着我！ 前后跟紧！” </note>
+          <note xml:id="Chinese_1998_cap8-n132" type="comm" target="quarantana/cap8.xml#c8_13229" targetEnd="quarantana/cap8.xml#c8_13240">说罢这一番情绪激昂的话之后，他带头第一个冲出院子。 </note>
+          <note xml:id="Chinese_1998_cap8-n133" type="comm" target="quarantana/cap8.xml#c8_13241" targetEnd="quarantana/cap8.xml#c8_13266">如上所述，阿涅珊家的屋子地处村落的尽头，所以格里索选择了通向村外的那条路，喽罗们秩序井然地紧随其后。 </note>
+        </p>
+        <p n="40">
+          <note xml:id="Chinese_1998_cap8-n134" type="comm" target="quarantana/cap8.xml#c8_13267" targetEnd="quarantana/cap8.xml#c8_13285">我们暂且搁下格里索等一伙人不表，让我们回过头来看看留在那条小巷里的阿涅珊和佩尔贝多亚的情况怎么样。 </note>
+          <note xml:id="Chinese_1998_cap8-n135" type="comm" target="quarantana/cap8.xml#c8_13286" targetEnd="quarantana/cap8.xml#c8_13311">阿涅珊耍弄了一点小花招，成功地将佩尔贝多亚骗至远离堂·安保迪宅第的地方，从某种意义上来说，事情进行得十分顺当。 </note>
+          <note xml:id="Chinese_1998_cap8-n136" type="comm" target="quarantana/cap8.xml#c8_13312" targetEnd="quarantana/cap8.xml#c8_13327">蓦然间，女仆想起宅第的大门还开着，急于回去将它关上。 </note>
+          <note xml:id="Chinese_1998_cap8-n137" type="comm" target="quarantana/cap8.xml#c8_13328" targetEnd="quarantana/cap8.xml#c8_13367">出于无奈，阿涅珊为了不让对方心中生疑，只得陪着她一起从原路折回，同时想方设法拖住她，引诱她情绪激动地讲起那几次失败的婚姻。 </note>
+          <note xml:id="Chinese_1998_cap8-n138" type="comm" target="quarantana/cap8.xml#c8_13368" targetEnd="quarantana/cap8.xml#c8_13400">阿涅珊佯装饶有兴趣地听着，为了让她感到自己正专心地在听她说话，还不时地插嘴说：“那当然，现在我全明白了。 这很好，我懂了，可后来呢？ 他怎么说？ </note>
+          <note xml:id="Chinese_1998_cap8-n139" type="comm" target="quarantana/cap8.xml#c8_13401" targetEnd="quarantana/cap8.xml#c8_13418">你又怎么说？” 与此同时，她心里却在嘀咕：“他们现在已经离开了堂·安保迪的家吗？ 是否仍然呆在屋子里？ </note>
+          <note xml:id="Chinese_1998_cap8-n140" type="comm" target="quarantana/cap8.xml#c8_13419" targetEnd="quarantana/cap8.xml#c8_13437">我们三个人也真够傻的，应该事先商定好，事成之后让他们发个暗号。 </note>
+          <note xml:id="Chinese_1998_cap8-n141" type="comm" target="quarantana/cap8.xml#c8_13438" targetEnd="quarantana/cap8.xml#c8_13441">我们确实犯了一个大错！ </note>
+          <note xml:id="Chinese_1998_cap8-n142" type="comm" target="quarantana/cap8.xml#c8_13442" targetEnd="quarantana/cap8.xml#c8_13535">可现在后悔已为时太晚了，我只有尽量拖住她，至多是浪费一些时间而已。” 就这样，她们走走停停已来到离堂·安保迪家不远的地方，但由于街道的拐角挡住了视线，她们仍没法看见那幢房子。 佩尔贝多亚正讲到一件事的紧要关头，便心甘情愿地停下来同阿涅珊说话，甚至没发现任何破绽。 蓦地，她听到了堂·安保迪喊出的第一声疯狂的呼叫声：“来人哪！ </note>
+          <note xml:id="Chinese_1998_cap8-n143" type="comm" target="quarantana/cap8.xml#c8_13536" targetEnd="quarantana/cap8.xml#c8_13543">快来人哪！” 喊叫声划破了无垠的夜空，回荡在夜晚凝滞不动的空气中。 “我的天哪！ </note>
+        </p>
+        <p n="41">
+          <note xml:id="Chinese_1998_cap8-n144" type="comm" target="quarantana/cap8.xml#c8_13544" targetEnd="quarantana/cap8.xml#c8_13553">出了什么事？” 阿涅珊问她，一面紧紧抓住对方的衬裙。 </note>
+        </p>
+        <p n="42">
+          <note xml:id="Chinese_1998_cap8-n145" type="comm" target="quarantana/cap8.xml#c8_13554" targetEnd="quarantana/cap8.xml#c8_13560">“我的天哪！ 你没听见吗？” 佩尔贝多亚挣脱了她的手反问道。 </note>
+        </p>
+        <p n="43">
+          <note xml:id="Chinese_1998_cap8-n146" type="comm" target="quarantana/cap8.xml#c8_13561" targetEnd="quarantana/cap8.xml#c8_13570">“怎么回事？ 怎么回事？” 阿涅珊拽住她的一只胳膊，再一次问她。 </note>
+          <note xml:id="Chinese_1998_cap8-n147" type="comm" target="quarantana/cap8.xml#c8_13571" targetEnd="quarantana/cap8.xml#c8_13584">“你这个女人真是活见鬼！” 佩尔贝多亚惊呼道，并用力推开她朝堂·安保迪的宅第疾步跑去。 </note>
+          <note xml:id="Chinese_1998_cap8-n148" type="comm" target="quarantana/cap8.xml#c8_13585" targetEnd="quarantana/cap8.xml#c8_13596">这时，从远处又传来梅尼科更为尖利、急促的叫喊声。 </note>
+        </p>
+        <p n="44">
+          <note xml:id="Chinese_1998_cap8-n149" type="comm" target="quarantana/cap8.xml#c8_13597" targetEnd="quarantana/cap8.xml#c8_13605">“我的天哪！” 这一回连阿涅珊也不禁大声叫喊起来，跟在佩尔贝多亚后面飞快跑去。 </note>
+          <note xml:id="Chinese_1998_cap8-n150" type="comm" target="quarantana/cap8.xml#c8_13606" targetEnd="quarantana/cap8.xml#c8_13632">刚抬脚，钟声就响开了：一下，二下，三下……持续不断的钟声好似在催促她们更快地赶到出事地点。 </note>
+          <note xml:id="Chinese_1998_cap8-n151" type="comm" target="quarantana/cap8.xml#c8_13633" targetEnd="quarantana/cap8.xml#c8_13676">佩尔贝多亚抢先一步到达，正欲推开大门，有人却从里边将大门敞开，她见门槛后面站着托尼奥、吉尔瓦索、兰佐和鲁齐娅。 原来，他们四人摸黑找到了楼梯，连蹦带跳地下了楼，然后听到了令人毛骨悚然的钟声，立即大步奔跑逃离险境。 </note>
+        </p>
+        <p n="45">
+          <note xml:id="Chinese_1998_cap8-n152" type="comm" target="quarantana/cap8.xml#c8_13677" targetEnd="quarantana/cap8.xml#c8_13693">“出了什么事？ 出了什么事？” 佩尔贝多亚气喘吁吁地问托尼奥两兄弟，但他们不仅没有回答，反而猛力推了她一下，一溜烟地跑了。 </note>
+          <note xml:id="Chinese_1998_cap8-n153" type="comm" target="quarantana/cap8.xml#c8_13694" targetEnd="quarantana/cap8.xml#c8_13707">等她看清了兰佐和鲁齐娅的脸，立即盘问起他们：“是你们？ 怎么回事？ 你们在这里干什么？” </note>
+          <note xml:id="Chinese_1998_cap8-n154" type="comm" target="quarantana/cap8.xml#c8_13708" targetEnd="quarantana/cap8.xml#c8_13713">他们也没理睬她就夺门而走。 </note>
+          <note xml:id="Chinese_1998_cap8-n155" type="comm" target="quarantana/cap8.xml#c8_13714" targetEnd="quarantana/cap8.xml#c8_13737">见此状，佩尔贝多亚不再耽搁时间继续盘问他们，迫不及待地跨入门厅，并在黑暗中朝楼梯口奔去，她得首先赶到最需要她的地方。 </note>
+        </p>
+        <p n="46">
+          <note xml:id="Chinese_1998_cap8-n156" type="comm" target="quarantana/cap8.xml#c8_13738" targetEnd="quarantana/cap8.xml#c8_13750">那一对未能成婚的约婚夫妇迎面碰到了跑得上气不接下气的阿涅珊。 </note>
+          <note xml:id="Chinese_1998_cap8-n157" type="comm" target="quarantana/cap8.xml#c8_13751" targetEnd="quarantana/cap8.xml#c8_13770">“啊，你们在这儿！” 她十分费力地问他们，“事情办得如何？ 钟声是怎么一回事？ 我好像还听到了……” </note>
+        </p>
+        <p n="47">
+          <note xml:id="Chinese_1998_cap8-n158" type="comm" target="quarantana/cap8.xml#c8_13771" targetEnd="quarantana/cap8.xml#c8_13780">“回家，快回家，”兰佐急着说，“趁村民们还未赶来。” </note>
+          <note xml:id="Chinese_1998_cap8-n159" type="comm" target="quarantana/cap8.xml#c8_13781" targetEnd="quarantana/cap8.xml#c8_13809">三人正准备离去，见梅尼科急步跑来。 他认出了他们三人，浑身哆嗦地拦住他们，用嘶哑的声音对他们说：“你们上哪里去？ 往回走，快往回走！ 从这儿走，快到修道院去！” </note>
+        </p>
+        <p n="48">
+          <note xml:id="Chinese_1998_cap8-n160" type="comm" target="quarantana/cap8.xml#c8_13810" targetEnd="quarantana/cap8.xml#c8_13814">“难道说是你……？” 阿涅珊急忙问他。 </note>
+        </p>
+        <p n="49">
+          <note xml:id="Chinese_1998_cap8-n161" type="comm" target="quarantana/cap8.xml#c8_13815" targetEnd="quarantana/cap8.xml#c8_13819">“你还知道些什么？” 兰佐接着问他。 </note>
+          <note xml:id="Chinese_1998_cap8-n162" type="comm" target="quarantana/cap8.xml#c8_13820" targetEnd="quarantana/cap8.xml#c8_13825">鲁齐娅默默不语地站在一旁，因极度惊慌而战栗不已。 </note>
+        </p>
+        <p n="50">
+          <note xml:id="Chinese_1998_cap8-n163" type="comm" target="quarantana/cap8.xml#c8_13826" targetEnd="quarantana/cap8.xml#c8_13872">“家里有坏蛋，”梅尼科气喘吁吁地回答说，“是我亲眼看见的，他们还想杀死我呢……克里斯托弗洛神甫要我告诉你们，也告诉你兰佐，叫你们马上离开此地……那些坏蛋是我亲眼所见。 感谢上帝，我终于在这里找到了你们三个人！ </note>
+          <note xml:id="Chinese_1998_cap8-n164" type="comm" target="quarantana/cap8.xml#c8_13873" targetEnd="quarantana/cap8.xml#c8_13930">等你们逃离这里之后，我再把事情的经过告诉你们。” 三人中，兰佐最为沉着冷静，他心想：不管怎么样，在村民们赶来之前马上离开总是上策；梅尼科吓成这个样子说明事情确实十分严重，最保险的就是按他说的去做，等脱离了危险之后，可以在路上让那孩子解释清楚。 </note>
+        </p>
+        <p n="51">
+          <note xml:id="Chinese_1998_cap8-n165" type="comm" target="quarantana/cap8.xml#c8_13931" targetEnd="quarantana/cap8.xml#c8_13934">想至此，兰佐对他说：“你走在前头。” </note>
+          <note xml:id="Chinese_1998_cap8-n166" type="comm" target="quarantana/cap8.xml#c8_13935" targetEnd="quarantana/cap8.xml#c8_13940">接着，他又对她们两人说：“我们跟着他走。” </note>
+          <note xml:id="Chinese_1998_cap8-n167" type="comm" target="quarantana/cap8.xml#c8_13941" targetEnd="quarantana/cap8.xml#c8_13989">他们拐了一个弯，步履匆匆地穿过广场朝教堂走去，感谢上帝，这时广场上仍空无一人。 他们拐入夹在教堂和堂·安保迪家之间的一条小巷，看到篱笆墙上有一个口子就钻了进去，然后沿着田间的小路远去。 </note>
+        </p>
+        <p n="52">
+          <note xml:id="Chinese_1998_cap8-n168" type="comm" target="quarantana/cap8.xml#c8_13990" targetEnd="quarantana/cap8.xml#c8_14008">还没等他们走出五十步远，村民们开始涌向广场，且人数越来越多。 </note>
+          <note xml:id="Chinese_1998_cap8-n169" type="comm" target="quarantana/cap8.xml#c8_14009" targetEnd="quarantana/cap8.xml#c8_14028">他们面面相觑，每个人都有话要问，但是没有人能给予回答。 </note>
+          <note xml:id="Chinese_1998_cap8-n170" type="comm" target="quarantana/cap8.xml#c8_14029" targetEnd="quarantana/cap8.xml#c8_14038">先赶到的几个人朝教堂的大门跑去，但发现大门紧闭着。 </note>
+          <note xml:id="Chinese_1998_cap8-n171" type="comm" target="quarantana/cap8.xml#c8_14039" targetEnd="quarantana/cap8.xml#c8_14085">他们转而又朝外面的钟楼疾步走去，其中一个人还用嘴凑到形似炮眼一样的小窗口朝里面大声喊道：“究竟发生了什么事情？”安布罗乔听到了自己熟悉的声音，马上松开了手上的绳子。 这时，钟楼外人声喧嚷，他确信外面已聚集了许多人，便回答说：“你等一下，我马上来开门。” </note>
+          <note xml:id="Chinese_1998_cap8-n172" type="comm" target="quarantana/cap8.xml#c8_14086" targetEnd="quarantana/cap8.xml#c8_14107">他急忙穿上夹在腋下的裤子，然后从里面绕到教堂的大门口将大门打开。 “干吗使劲敲钟？” </note>
+        </p>
+        <p n="53">
+          <note xml:id="Chinese_1998_cap8-n173" type="comm" target="quarantana/cap8.xml#c8_14108" targetEnd="quarantana/cap8.xml#c8_14118">“出了什么事？” “哪儿出了事？” “是谁干的？” “是谁干的？ </note>
+        </p>
+        <p n="54">
+          <note xml:id="Chinese_1998_cap8-n174" type="comm" target="quarantana/cap8.xml#c8_14119" targetEnd="quarantana/cap8.xml#c8_14156">你们这话是什么意思？” 安布罗乔反问道，一只手扶着门扇，另一只手按着匆忙之中穿上的裤子的裤腰。 “什么，你们不知道？ 有人强行闯入神甫先生的家。 </note>
+          <note xml:id="Chinese_1998_cap8-n175" type="comm" target="quarantana/cap8.xml#c8_14157" targetEnd="quarantana/cap8.xml#c8_14159">拿出一点勇气来，孩子们，快去搭救他。” </note>
+          <note xml:id="Chinese_1998_cap8-n176" type="comm" target="quarantana/cap8.xml#c8_14160" targetEnd="quarantana/cap8.xml#c8_14177">听此言，所有的人全都转身向神甫的家跑去，很快神甫的宅第面前聚集了一大群人，他们抬头望着，并侧耳细听，但是房子里面一片寂静。 </note>
+          <note xml:id="Chinese_1998_cap8-n177" type="comm" target="quarantana/cap8.xml#c8_14178" targetEnd="quarantana/cap8.xml#c8_14193">另外一些人跑向门的那一边，发现那里的大门也紧闭着，门上没有任何人破门而入的痕迹。 </note>
+          <note xml:id="Chinese_1998_cap8-n178" type="comm" target="quarantana/cap8.xml#c8_14194" targetEnd="quarantana/cap8.xml#c8_14208">他们再次抬头往上看，窗子全都关得好好的，听不到里面有任何响声。 </note>
+        </p>
+        <p n="55">
+          <note xml:id="Chinese_1998_cap8-n179" type="comm" target="quarantana/cap8.xml#c8_14209" targetEnd="quarantana/cap8.xml#c8_14221">“屋子里有人吗？” “喂、喂！” “神甫先生！” </note>
+        </p>
+        <p n="56">
+          <note xml:id="Chinese_1998_cap8-n180" type="comm" target="quarantana/cap8.xml#c8_14222" targetEnd="quarantana/cap8.xml#c8_14277">事实上，堂·安保迪一发现强行闯入他宅第的人已逃跑，立即从窗户边走开，并将它关上。 此时此刻，他正在低声同佩尔贝多亚说话，指责她不该让他一个人陷入别人的圈套。 但是，当他听到人们呼唤她他的名字时，不得不又一次探身窗外。 他看到下面站着那么多前来帮助他的人，不禁为自己的失态而嗟悔。 </note>
+        </p>
+        <p n="57">
+          <note xml:id="Chinese_1998_cap8-n181" type="comm" target="quarantana/cap8.xml#c8_14278" targetEnd="quarantana/cap8.xml#c8_14300">“发生了什么事情？” “他们对您干了些什么？” “那些人是谁？” “现在他们在哪里？” </note>
+          <note xml:id="Chinese_1998_cap8-n182" type="comm" status="insertion">突然间，数十个人对着他一起大声发问。 </note>
+        </p>
+        <p n="58">
+          <note xml:id="Chinese_1998_cap8-n183" type="comm" target="quarantana/cap8.xml#c8_14301" targetEnd="quarantana/cap8.xml#c8_14310">“他们全都走了，谢谢你们。 你们快回家去吧。” </note>
+        </p>
+        <p n="59">
+          <note xml:id="Chinese_1998_cap8-n184" type="comm" target="quarantana/cap8.xml#c8_14311" targetEnd="quarantana/cap8.xml#c8_14322">“他们是什么人？” “他们去了哪里？” “究竟发生了什么事情？” </note>
+        </p>
+        <p n="60">
+          <note xml:id="Chinese_1998_cap8-n185" type="comm" target="quarantana/cap8.xml#c8_14323" targetEnd="quarantana/cap8.xml#c8_14348">“几个歹徒，专门在夜间到处转悠的歹徒，现在都已逃之夭夭，你们回家去吧，我这儿没事了。 再一次谢谢你们，孩子们，谢谢你们的好意。” </note>
+          <note xml:id="Chinese_1998_cap8-n186" type="comm" target="quarantana/cap8.xml#c8_14349" targetEnd="quarantana/cap8.xml#c8_14357">说罢，他即往后退去，并随手关上了窗户。 </note>
+          <note xml:id="Chinese_1998_cap8-n187" type="comm" target="quarantana/cap8.xml#c8_14358" targetEnd="quarantana/cap8.xml#c8_14387">听此言，人群中有抱怨的，有挖苦的，也有咒骂的；另外一些人则耸了耸肩走开了。 这时，有一个人上气不接下气地跑来，喘得一时连话也说不出来。 </note>
+          <note xml:id="Chinese_1998_cap8-n188" type="comm" target="quarantana/cap8.xml#c8_14388" targetEnd="quarantana/cap8.xml#c8_14417">这人住在阿涅珊家的斜对面，当他听到街上的喧哗之后，就探头窗外，看到了小院子里四处乱窜的几个打手以及费力地将他们聚集在一起的格里索。 </note>
+          <note xml:id="Chinese_1998_cap8-n189" type="comm" target="quarantana/cap8.xml#c8_14418" targetEnd="quarantana/cap8.xml#c8_14455">等他缓过气后大声对大家说：“朋友们，你们在这儿干什么？ 出乱子的地方不在这里，在这条街尽头阿涅珊·蒙苔拉的家。 好多人手持凶器闯进了屋子，他们好像想杀死一个前来朝圣的人，鬼知道这到底是怎么一回事！” </note>
+        </p>
+        <p n="61">
+          <note xml:id="Chinese_1998_cap8-n190" type="comm" target="quarantana/cap8.xml#c8_14456" targetEnd="quarantana/cap8.xml#c8_14460">“什么？” “什么？” “你说什么？” </note>
+          <note xml:id="Chinese_1998_cap8-n191" type="comm" target="quarantana/cap8.xml#c8_14461" targetEnd="quarantana/cap8.xml#c8_14465">大家乱哄哄地议论开了。 </note>
+          <note xml:id="Chinese_1998_cap8-n192" type="comm" target="quarantana/cap8.xml#c8_14466" targetEnd="quarantana/cap8.xml#c8_14484">“我们该去那里看一下。” “他们有几个人？” “我们有几个人？” “他们究竟是些什么人？” </note>
+          <note xml:id="Chinese_1998_cap8-n193" type="comm" target="quarantana/cap8.xml#c8_14485" targetEnd="quarantana/cap8.xml#c8_14500">“村长！ 村长来了！” “我在这里，”村长站在人群中说，“我在这里，但你们得帮助我，得听从我的指挥。 </note>
+        </p>
+        <p n="62">
+          <note xml:id="Chinese_1998_cap8-n194" type="comm" target="quarantana/cap8.xml#c8_14501" targetEnd="quarantana/cap8.xml#c8_14504">快，教堂司事在哪里？ </note>
+          <note xml:id="Chinese_1998_cap8-n195" type="comm" target="quarantana/cap8.xml#c8_14505" targetEnd="quarantana/cap8.xml#c8_14508">大家都去钟楼那儿，快去！ </note>
+          <note xml:id="Chinese_1998_cap8-n196" type="comm" target="quarantana/cap8.xml#c8_14509" targetEnd="quarantana/cap8.xml#c8_14520">快，派一个人速去莱柯求援，其他的人跟我来……” </note>
+        </p>
+        <p n="63">
+          <note xml:id="Chinese_1998_cap8-n197" type="comm" target="quarantana/cap8.xml#c8_14521" targetEnd="quarantana/cap8.xml#c8_14566">人群中一片混乱：有向前挤的，也有穿过人群溜走的。 这时，又有一个人跑来说，他亲眼看见打手们仓皇撤退，一面大声嚷道：“快跑，朋友们，他们是一伙盗贼和土匪，绑架了一位朝圣者已逃出了村子，快追，快追！” </note>
+          <note xml:id="Chinese_1998_cap8-n198" type="comm" target="quarantana/cap8.xml#c8_14567" targetEnd="quarantana/cap8.xml#c8_14622">经他这么一说，大家顿时乱作一团，没等村长吩咐，拔腿就跑。 其间，走在头上的几个人放慢步子，以便让后面的人赶上，自己却往人群中挤，落在最后面的也在拼命往前赶，这一支乱哄哄的队伍终于到达了出事的地点。 </note>
+          <note xml:id="Chinese_1998_cap8-n199" type="comm" target="quarantana/cap8.xml#c8_14623" targetEnd="quarantana/cap8.xml#c8_14638">强行闯入的迹象显而易见：大门敞开着，门锁已被撬掉，但是入侵者早已逃之夭夭。 </note>
+          <note xml:id="Chinese_1998_cap8-n200" type="comm" target="quarantana/cap8.xml#c8_14639" targetEnd="quarantana/cap8.xml#c8_14654">他们进入庭院，并走至屋门前，门同样洞开着，门上的锁也不见了踪影。 他们大声呼喊：“阿涅珊！” </note>
+          <note xml:id="Chinese_1998_cap8-n201" type="comm" target="quarantana/cap8.xml#c8_14655" targetEnd="quarantana/cap8.xml#c8_14655">“鲁齐娅！” </note>
+          <note xml:id="Chinese_1998_cap8-n202" type="comm" target="quarantana/cap8.xml#c8_14656" targetEnd="quarantana/cap8.xml#c8_14657">“朝圣的朋友！” </note>
+          <note xml:id="Chinese_1998_cap8-n203" type="comm" target="quarantana/cap8.xml#c8_14658" targetEnd="quarantana/cap8.xml#c8_14660">“他在哪里呢？ </note>
+          <note xml:id="Chinese_1998_cap8-n204" type="comm" target="quarantana/cap8.xml#c8_14661" targetEnd="quarantana/cap8.xml#c8_14672">这朝圣者是不是斯坦法诺想象出来的？ 不，不可能，卡兰德雷娅也看见过他。” </note>
+          <note xml:id="Chinese_1998_cap8-n205" type="comm" target="quarantana/cap8.xml#c8_14673" targetEnd="quarantana/cap8.xml#c8_14676">“喂，朝圣的朋友！” “阿涅珊！” </note>
+          <note xml:id="Chinese_1998_cap8-n206" type="comm" target="quarantana/cap8.xml#c8_14677" targetEnd="quarantana/cap8.xml#c8_14677">“鲁齐娅！” </note>
+          <note xml:id="Chinese_1998_cap8-n207" type="comm" target="quarantana/cap8.xml#c8_14678" targetEnd="quarantana/cap8.xml#c8_14679">没有人应声。 </note>
+          <note xml:id="Chinese_1998_cap8-n208" type="comm" target="quarantana/cap8.xml#c8_14680" targetEnd="quarantana/cap8.xml#c8_14683">“她们准是遭绑架了！ </note>
+          <note xml:id="Chinese_1998_cap8-n209" type="comm" target="quarantana/cap8.xml#c8_14684" targetEnd="quarantana/cap8.xml#c8_14687">准是遭绑架了！” </note>
+          <note xml:id="Chinese_1998_cap8-n210" type="comm" target="quarantana/cap8.xml#c8_14688" targetEnd="quarantana/cap8.xml#c8_14731">这时有人大声叫嚷起来，建议大家快去追绑架者，他们说，要是每一个乡徒都能像鸢一样从无人的打谷场上叼走小鸡，顺当地抢走村里的女人，那该是一件臭名昭著的事情，对村民们来说则是一个奇耻大辱。 </note>
+          <note xml:id="Chinese_1998_cap8-n211" type="comm" target="quarantana/cap8.xml#c8_14732" targetEnd="quarantana/cap8.xml#c8_14763">他们又一次情绪激动地议论开了。 突然间，有人（谁也不知道此人是谁）在人群中大声说，阿涅珊和鲁齐娅躲进了一户人家已平安无事了。 </note>
+          <note xml:id="Chinese_1998_cap8-n212" type="comm" target="quarantana/cap8.xml#c8_14764" targetEnd="quarantana/cap8.xml#c8_14789">这一条最新的消息在人群中不胫而走，且大家都信以为真。 没有人再提起追逃犯的事，人群渐渐散去，大家各自回了家。 </note>
+          <note xml:id="Chinese_1998_cap8-n213" type="comm" target="quarantana/cap8.xml#c8_14790" targetEnd="quarantana/cap8.xml#c8_14817">村子里有人在窃窃私语，也有人在高声喧哗；有叫门的，也有开门的；有点亮油灯的，也有熄灭油灯的；有的村妇站在窗口打听消息，也有的站在街上回话。 </note>
+          <note xml:id="Chinese_1998_cap8-n214" type="comm" target="quarantana/cap8.xml#c8_14818" targetEnd="quarantana/cap8.xml#c8_14836">可现在路上却不见一个人影，周围一片寂静，村民们关上了自家的大门在屋内继续谈论着，直至困得直打哈欠才收场，待第二天早上重新开始打开话匣子。 </note>
+          <note xml:id="Chinese_1998_cap8-n215" type="comm" target="quarantana/cap8.xml#c8_14837" targetEnd="quarantana/cap8.xml#c8_14945">然而，第二天早上并没有发生任何意外的事情。 那天早上，村长在地里干活，只见他一只手托着下巴，胳膊肘支在一半插入地里的铁锹的把柄上，一只脚踏在铁锹边上，心里琢磨着发生在前一天晚上稀奇古怪的事情，考虑着自己该采取什么样适当的行动。 正在此时，他看见迎面有两个汉子正朝他走来，他们体格强壮，头上蓄着法兰克人早期两个国王一样长长的浓发。 他们长得十分酷似五天前恫吓堂·安保迪的那两个人，尽管事实上他们并不是同一伙人。 </note>
+          <note xml:id="Chinese_1998_cap8-n216" type="comm" target="quarantana/cap8.xml#c8_14946" targetEnd="quarantana/cap8.xml#c8_14995">只是，这两个人态度粗暴地威胁村长说，假如他不想暴尸街头，就得自己知趣，不得向地方官提及发生的事，即使对方问他，也不该如实回答。 他们还恐吓他不许同旁人谈论此事，必须阻止村民们把它当作闲谈的话题。 </note>
+        </p>
+        <p n="64">
+          <note xml:id="Chinese_1998_cap8-n217" type="comm" target="quarantana/cap8.xml#c8_14996" targetEnd="quarantana/cap8.xml#c8_15048">再说兰佐等四个逃离险境的可怜人，风驰电掣般走了好长一段路，默不作声地不时回过头，看看后面是否有人追来。 这一路上，他们气喘吁吁地逃出了险境，紧张和焦虑的心情自不待言，此刻又为计划的落空和来自新隐患的威胁深感忧虑和悲愁。 </note>
+          <note xml:id="Chinese_1998_cap8-n218" type="comm" target="quarantana/cap8.xml#c8_15049" targetEnd="quarantana/cap8.xml#c8_15083">持续不断的钟声使他们格外感到心慌意乱，虽然钟楼离他们越来越远，低缓的钟声也渐渐减弱，但总是给人一种不可名状的凄凉、恐怖的感觉。 </note>
+          <note xml:id="Chinese_1998_cap8-n219" type="comm" target="quarantana/cap8.xml#c8_15084" targetEnd="quarantana/cap8.xml#c8_15085">那可怕的钟声终于停止了。 </note>
+          <note xml:id="Chinese_1998_cap8-n220" type="comm" target="quarantana/cap8.xml#c8_15086" targetEnd="quarantana/cap8.xml#c8_15127">他们一行四人这时来到了空旷的荒野，四周安静得连半点声响也没有，他们便放慢了脚步。 阿涅珊缓过气来之后，首先打破沉默，询问兰佐事情办得怎么样，又转身让梅尼科告诉她，究竟是谁闯入了她的家。 </note>
+          <note xml:id="Chinese_1998_cap8-n221" type="comm" target="quarantana/cap8.xml#c8_15128" targetEnd="quarantana/cap8.xml#c8_15164">兰佐简略地叙述了一下事情失败的经过，他们三人继而转身又听梅尼科详尽地叙述了克里斯托弗洛修士的忠告、他自己亲自看到的事情和遇到的危险。 </note>
+          <note xml:id="Chinese_1998_cap8-n222" type="comm" target="quarantana/cap8.xml#c8_15165" targetEnd="quarantana/cap8.xml#c8_15252">不幸的是，一切的事情都让修士言中了。 从梅尼科的话语中，他们三人发现，实际上情况要比他所说的更为严重，想至此，他们不由得打了个寒噤，三人突然停下脚步，彼此惊恐万状地望着对方的脸，有的伸出手抚摸梅尼科的头，有的拍拍他的肩，默默地感谢他们的这位守护神，并对他为帮助他们脱险而遭受的痛苦和承担的风险表示同情，目光中几乎显露出请求他原谅的神情。 </note>
+          <note xml:id="Chinese_1998_cap8-n223" type="comm" target="quarantana/cap8.xml#c8_15253" targetEnd="quarantana/cap8.xml#c8_15297">阿涅珊对他说：“现在你快回家去，否则你的爹妈会为你担心的。” 蓦然间，她想起自己曾答应过送他两个铜币，便从口袋里掏出四枚给他，并对他说：“我现在身上只有四枚，但愿上帝会让我们很快见面，到那时……”兰佐也给了他一个崭新的银币，并一再叮嘱他不要把修士托付他的事情说出去。 </note>
+          <note xml:id="Chinese_1998_cap8-n224" type="comm" target="quarantana/cap8.xml#c8_15298" targetEnd="quarantana/cap8.xml#c8_15334">鲁齐娅再次轻轻拍拍他的肩膀，声音哽咽地同他道别。 梅尼科动情地同他们一一告别，然后转身离去。 </note>
+          <note xml:id="Chinese_1998_cap8-n225" type="comm" target="quarantana/cap8.xml#c8_15335" targetEnd="quarantana/cap8.xml#c8_15350">与此同时，他们几个满腹心事地继续往前走，母女二人走在前面，兰佐跟在后面保护她们。 </note>
+          <note xml:id="Chinese_1998_cap8-n226" type="comm" target="quarantana/cap8.xml#c8_15351" targetEnd="quarantana/cap8.xml#c8_15405">鲁齐娅紧紧地挽住母亲的胳膊，在走过几处路面凹凸不平的地方时，兰佐想搀扶她，但她却温存而灵巧地躲开了他伸出的手。 尽管她指望很快成为他的妻子，但想到同他如此亲近地单独呆在一起这么长时间，仍感到心绪不宁，脸色不觉赧然。 </note>
+          <note xml:id="Chinese_1998_cap8-n227" type="comm" target="quarantana/cap8.xml#c8_15406" targetEnd="quarantana/cap8.xml#c8_15456">如今，她美好的愿望已令人痛心地化成泡影，她后悔当初自己不该做出如此出格的事情。 想至此，她不寒而栗，其原因之一就是她自感羞愧，这不是意识到自己罪过之后的羞愧，而是一种不可名状的懊悔，就好像一个在黑暗中嗦嗦发抖的孩子，不知道自己为何害怕。 </note>
+        </p>
+        <p n="65">
+          <note xml:id="Chinese_1998_cap8-n228" type="comm" target="quarantana/cap8.xml#c8_15457" targetEnd="quarantana/cap8.xml#c8_15464">“家里情况怎么样？” 阿涅珊突然问道。 </note>
+          <note xml:id="Chinese_1998_cap8-n229" type="comm" target="quarantana/cap8.xml#c8_15465" targetEnd="quarantana/cap8.xml#c8_15480">尽管这问题至关重要，但是大家默不作声，因为没有人能给她一个满意的答复。 </note>
+          <note xml:id="Chinese_1998_cap8-n230" type="comm" target="quarantana/cap8.xml#c8_15481" targetEnd="quarantana/cap8.xml#c8_15498">他们默默地继续往前走，不一会儿之后，终于到了修道院教堂前的小广场。 </note>
+        </p>
+        <p n="66">
+          <note xml:id="Chinese_1998_cap8-n231" type="comm" target="quarantana/cap8.xml#c8_15499" targetEnd="quarantana/cap8.xml#c8_15507">兰佐探头朝门里看看，然后将门轻轻一推。 </note>
+          <note xml:id="Chinese_1998_cap8-n232" type="comm" target="quarantana/cap8.xml#c8_15508" targetEnd="quarantana/cap8.xml#c8_15536">大门被推开了，从门缝里泻进一缕月光，照亮了克里斯托弗洛修士苍白的脸庞和银白色的胡须，他正站在那里等候着他们的到来。 </note>
+          <note xml:id="Chinese_1998_cap8-n233" type="comm" target="quarantana/cap8.xml#c8_15537" targetEnd="quarantana/cap8.xml#c8_15551">见他们三个人全来了，他忙轻声说：“感谢仁慈的上帝！” 一面示意他们进去。 </note>
+          <note xml:id="Chinese_1998_cap8-n234" type="comm" target="quarantana/cap8.xml#c8_15552" targetEnd="quarantana/cap8.xml#c8_15614">在他身旁还站着另一个嘉布遣会修士，一位在俗教堂司事，克里斯托弗洛修士费了不少口舌才说服他同自己一起守候在教堂里，虚掩着大门，迎接那几个前来避难的可怜人。 克里斯托弗洛将自己的威望和声誉置之度外，劝说一位在俗教徒帮他共同完成一件充满危险的、棘手和越轨的事情。 </note>
+          <note xml:id="Chinese_1998_cap8-n235" type="comm" target="quarantana/cap8.xml#c8_15615" targetEnd="quarantana/cap8.xml#c8_15625">进了教堂之后，克里斯托弗洛修士把大门轻轻地掩上。 </note>
+          <note xml:id="Chinese_1998_cap8-n236" type="comm" target="quarantana/cap8.xml#c8_15626" targetEnd="quarantana/cap8.xml#c8_15661">教堂司事再也抑制不住内心的恐惧，把修士叫至一边，晃动着脑袋在他耳畔悄声地说：“神甫，神甫！ 这深更半夜的……在教堂里……同几个女人……关着门呆在一起……教堂有明文规定……神甫！” </note>
+          <note xml:id="Chinese_1998_cap8-n237" type="comm" target="quarantana/cap8.xml#c8_15662" targetEnd="quarantana/cap8.xml#c8_15723">在教堂司事费力低语的同时，克里斯托弗洛修士心中暗自思忖：“你们想一想！ 要是有一个强盗被人追赶，法齐奥修士会毫无怨言地收留他，而一个可怜的无辜者，她刚从一条恶狼的魔爪底下逃脱……” 然后，他突然转身用拉丁语对法齐奥修士说：“凡洁净者都会用纯真无邪的眼光看待世上的一切事物，”但他却忘了，法齐奥修士听不懂拉丁语。 </note>
+          <note xml:id="Chinese_1998_cap8-n238" type="comm" target="quarantana/cap8.xml#c8_15724" targetEnd="quarantana/cap8.xml#c8_15733">然而，正由于他的疏忽，这句话才产生了效果。 </note>
+          <note xml:id="Chinese_1998_cap8-n239" type="comm" target="quarantana/cap8.xml#c8_15734" targetEnd="quarantana/cap8.xml#c8_15764">倘若克里斯托弗洛神甫采用说理的方法同法齐奥修士争论的话，后者一定会找出另外的理由反驳他，天知道这场辩论如何收场，到什么时候方能结束。 </note>
+          <note xml:id="Chinese_1998_cap8-n240" type="comm" target="quarantana/cap8.xml#c8_15765" targetEnd="quarantana/cap8.xml#c8_15791">听了克里斯托弗洛神甫这一番寓意奥博、铿然有声的话语，法齐奥修士似乎觉得，那里面包含着驱散他头脑中一切疑惑的答案。 </note>
+          <note xml:id="Chinese_1998_cap8-n241" type="comm" target="quarantana/cap8.xml#c8_15792" targetEnd="quarantana/cap8.xml#c8_15801">想至此，他的心情即刻平静了下来，并说：“我听您的！您知道的事情比我多。” </note>
+        </p>
+        <p n="67">
+          <note xml:id="Chinese_1998_cap8-n242" type="comm" target="quarantana/cap8.xml#c8_15802" targetEnd="quarantana/cap8.xml#c8_15838">“你尽管相信我，”克里斯托弗洛修士回答说。 圣坛前，一灯荧然，神甫走到那三个正在焦急等待的求助者面前，对他们说：“孩子们！感谢上帝，他把你们从危险中拯救了出来。 </note>
+          <note xml:id="Chinese_1998_cap8-n243" type="comm" target="quarantana/cap8.xml#c8_15839" targetEnd="quarantana/cap8.xml#c8_15880">也许，此时此刻……！”说至此，他对他们又解释了一遍他让那孩子捎带的口信的具体内容，没想到他们知道的情况比他多。 他原以为，梅尼科抢在那伙强盗之前赶到了阿涅珊的家，而他们正安静地坐在家中。 </note>
+          <note xml:id="Chinese_1998_cap8-n244" type="comm" target="quarantana/cap8.xml#c8_15881" targetEnd="quarantana/cap8.xml#c8_15907">对他说的话，他们都没有插嘴更正，连鲁齐娅也默不作声，但是在神甫这样的人面前掩饰自己的真实想法，她感到有些内疚。 那可真是一个充满欺诈和诡计的罪恶之夜！ </note>
+        </p>
+        <p n="68">
+          <note xml:id="Chinese_1998_cap8-n245" type="comm" target="quarantana/cap8.xml#c8_15908" targetEnd="quarantana/cap8.xml#c8_15924">“发生了这一系列事情之后，”他接着说，“你们可以看得更清楚，孩子们，你们的村子已不再是一个安全的地方。 </note>
+          <note xml:id="Chinese_1998_cap8-n246" type="comm" target="quarantana/cap8.xml#c8_15925" targetEnd="quarantana/cap8.xml#c8_15940">那里有你们自己的家，你们在那儿出生，没有伤害过任何，可那都是上帝的旨意。 </note>
+          <note xml:id="Chinese_1998_cap8-n247" type="comm" target="quarantana/cap8.xml#c8_15941" targetEnd="quarantana/cap8.xml#c8_15968">孩子们，这是他对你们的一次考验。 孩子们，你们应该满怀信心，丢弃急躁和怨恨，经受住这场考验，总有一天你们会为现在发生的一切感到欣慰。 </note>
+          <note xml:id="Chinese_1998_cap8-n248" type="comm" target="quarantana/cap8.xml#c8_15969" targetEnd="quarantana/cap8.xml#c8_16023">我已替你们找到了暂且可以藏身的地方，但愿你们不久能安全地返回你们自己的家，不管怎么样，上帝会尽力帮助你们。 至于我，我当然不会辜负天主赐予我的恩泽，是他选择了我作为他的仆人，为他挚爱的可怜、苦难的人效劳。” </note>
+          <note xml:id="Chinese_1998_cap8-n249" type="comm" target="quarantana/cap8.xml#c8_16024" targetEnd="quarantana/cap8.xml#c8_16033">接着，他转身对阿涅珊母女二人说：“你们可以暂时住在……。 </note>
+          <note xml:id="Chinese_1998_cap8-n250" type="comm" target="quarantana/cap8.xml#c8_16034" targetEnd="quarantana/cap8.xml#c8_16049">在那里，你们将不会遇到任何危险。 再说，离你们的家也不太远。 </note>
+          <note xml:id="Chinese_1998_cap8-n251" type="comm" target="quarantana/cap8.xml#c8_16050" targetEnd="quarantana/cap8.xml#c8_16068">你们去投奔我们的修道院，找到院长后把这封信交给他，他将是你们的另一位克里斯托弗洛神甫。 </note>
+          <note xml:id="Chinese_1998_cap8-n252" type="comm" target="quarantana/cap8.xml#c8_16069" targetEnd="quarantana/cap8.xml#c8_16089">而你，亲爱的兰佐，你现在也应该暂时找一个安全的地方住下，躲开仇视你的人，努力让自己愤怒的心情平静下来。 </note>
+          <note xml:id="Chinese_1998_cap8-n253" type="comm" target="quarantana/cap8.xml#c8_16090" targetEnd="quarantana/cap8.xml#c8_16105">你把这封信交给我们米兰东门修道院里来自洛迪城的博纳万图拉神甫。 </note>
+          <note xml:id="Chinese_1998_cap8-n254" type="comm" target="quarantana/cap8.xml#c8_16106" targetEnd="quarantana/cap8.xml#c8_16127">他将是你的神甫，会具体指导你，替你寻找工作，直至你能回到这里安心地生活。 </note>
+          <note xml:id="Chinese_1998_cap8-n255" type="comm" target="quarantana/cap8.xml#c8_16128" targetEnd="quarantana/cap8.xml#c8_16145">现在你们快去湖边靠近比奥奈河的入口处，那是紧挨佩斯卡雷尼柯镇一条水流湍急的小河。 </note>
+          <note xml:id="Chinese_1998_cap8-n256" type="comm" target="quarantana/cap8.xml#c8_16146" targetEnd="quarantana/cap8.xml#c8_16160">到了那里，你们将看到一只停泊在湖边的小船，你们就大声说：啊嗬，小船！有人会问是谁送你们来的，你们就回答：圣·方济各。 </note>
+          <note xml:id="Chinese_1998_cap8-n257" type="comm" target="quarantana/cap8.xml#c8_16161" targetEnd="quarantana/cap8.xml#c8_16179">小船会送你们到湖的彼岸，那里有一辆双轮大车把你们一直送到……” </note>
+        </p>
+        <p n="69">
+          <note xml:id="Chinese_1998_cap8-n258" type="comm" target="quarantana/cap8.xml#c8_16180" targetEnd="quarantana/cap8.xml#c8_16215">也许有人会问，克里斯托弗洛修士怎么可能在很短的时间内安排好所需的水陆交通工具，这只能说明，发问者对有圣徒之称的嘉布遣会修士的权力未免太不了解了。 </note>
+        </p>
+        <p n="70">
+          <note xml:id="Chinese_1998_cap8-n259" type="comm" target="quarantana/cap8.xml#c8_16216" targetEnd="quarantana/cap8.xml#c8_16222">接下来，得考虑由谁来照看阿涅珊和兰佐家两处的房子。 </note>
+          <note xml:id="Chinese_1998_cap8-n260" type="comm" target="quarantana/cap8.xml#c8_16223" targetEnd="quarantana/cap8.xml#c8_16238">神甫接过房屋的钥匙，答应将钥匙交给兰佐和阿涅珊指定的人。 </note>
+          <note xml:id="Chinese_1998_cap8-n261" type="comm" target="quarantana/cap8.xml#c8_16239" targetEnd="quarantana/cap8.xml#c8_16270">阿涅珊从口袋里掏出钥匙，一面深深地吁了一口气，心想，自己家里的大门还开着，房子已遭洗劫，也不知是否真有必要派人去看管它！ </note>
+        </p>
+        <p n="71">
+          <note xml:id="Chinese_1998_cap8-n262" type="comm" target="quarantana/cap8.xml#c8_16271" targetEnd="quarantana/cap8.xml#c8_16305">“在你们动身之前，”神甫说，“让我们一起向上帝祈祷，求他保佑你们一路平安，愿上帝永远与你们同在。 更重要的是，上帝能赐予你们力量以及体现他意愿的希冀。” </note>
+          <note xml:id="Chinese_1998_cap8-n263" type="comm" target="quarantana/cap8.xml#c8_16306" targetEnd="quarantana/cap8.xml#c8_16317">说罢，他在教堂的中央跪下，大家也和他一起跪在地上。 </note>
+          <note xml:id="Chinese_1998_cap8-n264" type="comm" target="quarantana/cap8.xml#c8_16318" targetEnd="quarantana/cap8.xml#c8_16348">默默祈祷了一会儿以后，神甫语调低沉但声音清晰地说：“吾主，我们也为那个迫使我们陷入险境的可怜人向你祈祷。 </note>
+          <note xml:id="Chinese_1998_cap8-n265" type="comm" target="quarantana/cap8.xml#c8_16349" targetEnd="quarantana/cap8.xml#c8_16392">倘若我们不是诚心诚意地为他祈祷，我们将辜负你仁慈的爱，因为我们知道，他非常需要你的宽恕！苦难中的我们深感欣慰，我们已走上了一条你给我们指明的道路，可以向你吐露心中的痛楚，以赢得你的祝福。 </note>
+          <note xml:id="Chinese_1998_cap8-n266" type="comm" target="quarantana/cap8.xml#c8_16393" targetEnd="quarantana/cap8.xml#c8_16397">可是他……是你的敌人。 </note>
+          <note xml:id="Chinese_1998_cap8-n267" type="comm" target="quarantana/cap8.xml#c8_16398" targetEnd="quarantana/cap8.xml#c8_16402">啊，一个多么不幸的人！ 竟妄想同你一争高低，啊，我的天主，可怜可怜他吧！ </note>
+          <note xml:id="Chinese_1998_cap8-n268" type="comm" target="quarantana/cap8.xml#c8_16403" targetEnd="quarantana/cap8.xml#c8_16425">触动他的心弦，赐予他你的爱心，让他也得到我们企盼得到的一切美好的东西。” </note>
+        </p>
+        <p n="72">
+          <note xml:id="Chinese_1998_cap8-n269" type="comm" target="quarantana/cap8.xml#c8_16426" targetEnd="quarantana/cap8.xml#c8_16446">接着，他匆忙站起身说：“快走吧，孩子们，我们没有时间了。 愿上帝保佑你们，天使会陪伴你们同行，你们该上路了。” </note>
+          <note xml:id="Chinese_1998_cap8-n270" type="comm" target="quarantana/cap8.xml#c8_16447" targetEnd="quarantana/cap8.xml#c8_16477">此番话深深打动了他们的心，以至他们一时无言以对。 这时，神甫动情地又说：“我的心告诉我，我们不久就会再见面的。” </note>
+        </p>
+        <p n="73">
+          <note xml:id="Chinese_1998_cap8-n271" type="comm" target="quarantana/cap8.xml#c8_16478" targetEnd="quarantana/cap8.xml#c8_16494">诚然，每一个人在心中总是愿意向倾听他诉说的人叙述自己将来的情况会怎样。 </note>
+          <note xml:id="Chinese_1998_cap8-n272" type="comm" target="quarantana/cap8.xml#c8_16495" targetEnd="quarantana/cap8.xml#c8_16499">但是，心又能知道些什么呢？ </note>
+          <note xml:id="Chinese_1998_cap8-n273" type="comm" target="quarantana/cap8.xml#c8_16500" targetEnd="quarantana/cap8.xml#c8_16508">无非是一些已发生的事情罢了。 </note>
+        </p>
+        <p n="74">
+          <note xml:id="Chinese_1998_cap8-n274" type="comm" target="quarantana/cap8.xml#c8_16509" targetEnd="quarantana/cap8.xml#c8_16538">克里斯托弗洛修士没等他们回答就朝教堂的祭衣室走去，阿涅珊等三人走出了教堂，法齐奥修士也动情地同他们一一道别，然后关上了大门。 </note>
+          <note xml:id="Chinese_1998_cap8-n275" type="comm" target="quarantana/cap8.xml#c8_16539" targetEnd="quarantana/cap8.xml#c8_16559">他们默默无语地朝神甫指定的湖畔走去，到了那里果然看见一只小船，对上暗号后即上了船。 </note>
+          <note xml:id="Chinese_1998_cap8-n276" type="comm" target="quarantana/cap8.xml#c8_16560" targetEnd="quarantana/cap8.xml#c8_16585">船夫用一支桨抵住岸边将船撑开，然后抓住另一支桨双手划船，朝对岸划去。 </note>
+          <note xml:id="Chinese_1998_cap8-n277" type="comm" target="quarantana/cap8.xml#c8_16586" targetEnd="quarantana/cap8.xml#c8_16620">四周连一丝风儿也没有，明净的湖水静静地躺在下面，仿佛凝滞了似的，只有高悬在空中一轮浩月的倒影在湖面上轻轻地荡漾。 </note>
+          <note xml:id="Chinese_1998_cap8-n278" type="comm" target="quarantana/cap8.xml#c8_16621" targetEnd="quarantana/cap8.xml#c8_16666">四周万籁俱寂，耳边只听到浪花轻轻拍打在湖畔卵石上和撞击在远处的桥墩上发出的汩汩声，以及双桨划破蓝色的湖面时有节奏的咕噜声，而哗哗滴水的桨板刚微微翘起随即又没入水中。 </note>
+          <note xml:id="Chinese_1998_cap8-n279" type="comm" target="quarantana/cap8.xml#c8_16667" targetEnd="quarantana/cap8.xml#c8_16683">小船犁出的浪花在船尾重新汇合，形成一条长长的涟漪，一个接一个地传开去直至湖畔。 </note>
+          <note xml:id="Chinese_1998_cap8-n280" type="comm" target="quarantana/cap8.xml#c8_16684" targetEnd="quarantana/cap8.xml#c8_16707">坐在船上的几个人相对无言，回首眺望群山和月光下黑影幢幢的乡镇。 </note>
+          <note xml:id="Chinese_1998_cap8-n281" type="comm" target="quarantana/cap8.xml#c8_16708" targetEnd="quarantana/cap8.xml#c8_16751">村庄、房屋、茅舍清晰可辨，堂·罗德里戈家带平塔的小楼高高地耸立在山坡上一群紧挨在一起的小房子中间，酷似黑暗中的一头猛兽，正虎视眈眈地盯着周围一群正在酣睡的动物，心中筹划着伤天害理的坏事。 </note>
+          <note xml:id="Chinese_1998_cap8-n282" type="comm" target="quarantana/cap8.xml#c8_16752" targetEnd="quarantana/cap8.xml#c8_16816">望着那幢小楼，鲁齐娅不禁打了一个冷战，其视线马上向下移至斜坡上她家所在的小村落，她睁大两只眼睛仔细地搜寻着，直至在村落的尽头找到了她家的小房子，高出庭院围墙的那株枝叶茂密的无花果树以及她卧室的窗子。 她端坐在船舱里，手臂搁在船舷上，前额枕在手臂上似乎想入睡，不觉黯然泪下。 </note>
+        </p>
+        <p n="75">
+          <note xml:id="Chinese_1998_cap8-n283" type="comm" target="quarantana/cap8.xml#c8_16817" targetEnd="quarantana/cap8.xml#c8_16885">永别了，从湖面上高耸入云的群山，我们在你的怀抱中长大，看惯了你那锯齿状的奇峰，你那像家人般亲切的脸庞，深深地烙在我们的脑海之中。 永别了，奔腾的溪流，我们能从哗哗的流水声中将你辨认出来，你就好像我们所熟悉的家人的欢声笑语。 永别了，散布在山坡上的一座座白色小房子，你们宛如正在那里吃草的羊群，自小同你们天天朝夕相处，现在却要远行，心中有多么的惆怅！ </note>
+          <note xml:id="Chinese_1998_cap8-n284" type="comm" target="quarantana/cap8.xml#c8_16886" targetEnd="quarantana/cap8.xml#c8_16929">即使是对于自愿弃家去他乡寻觅财宝的人儿，在离别的时刻，致富的美梦也会在他的想象中失去其诱人的光泽。 假如他不是想到有一天能腰缠万贯地荣归故里，此刻准会转身往回走，并为自己的决定感到不可思议。 </note>
+          <note xml:id="Chinese_1998_cap8-n285" type="comm" target="quarantana/cap8.xml#c8_16930" targetEnd="quarantana/cap8.xml#c8_17012">当他走在旷野上，他那厌倦、疲惫的眼睛却不愿多看那一望无垠的、单调的景色，似乎觉得四周沉闷的空气也停滞不再流动。 他满面愁容，心不在焉地走进车马喧阗的都市。 那里，房屋鳞次栉比，街道纵横交错，使他感到窒息。 当他站在让异乡人叹观止矣的高楼前，他会烦躁不安地想起自家村落里的那一小块土地以及他早已看中的那一幢房子，一旦衣锦荣归，便马上出钱把它们买下来。 </note>
+        </p>
+        <p n="76">
+          <note xml:id="Chinese_1998_cap8-n286" type="comm" target="quarantana/cap8.xml#c8_17013" targetEnd="quarantana/cap8.xml#c8_17044">对鲁齐娅来说，她脑海里从未出现过哪怕是转瞬即逝的、远走他乡的念头，她已把自己对未来的憧憬全部都留在连绵的群山之中，但是厄运却迫使她背井离乡！ </note>
+          <note xml:id="Chinese_1998_cap8-n287" type="comm" target="quarantana/cap8.xml#c8_17045" targetEnd="quarantana/cap8.xml#c8_17088">她被迫放弃长年养成的生活习惯和瑰丽的希冀，告别群山，去寻觅她根本不想结识的陌生人为伴，不知何年何月才能重归故里！ 永别了，我诞生的家！ </note>
+          <note xml:id="Chinese_1998_cap8-n288" type="comm" target="quarantana/cap8.xml#c8_17089" targetEnd="quarantana/cap8.xml#c8_17114">曾几何时，我心中藏着不愿向人吐露的秘密，坐在那里学着从一般的脚步声中辨别出那与众不同的足音，一种让我在莫名的恐惧中企盼听到的声音。 </note>
+          <note xml:id="Chinese_1998_cap8-n289" type="comm" target="quarantana/cap8.xml#c8_17115" targetEnd="quarantana/cap8.xml#c8_17142">永别了，那一幢我依然感到陌生的小房子，多少次我从那儿走过时曾害羞地偷偷瞥上一眼，心想我将作为新娘开始在那里温馨地度过自己的一生。 </note>
+          <note xml:id="Chinese_1998_cap8-n290" type="comm" target="quarantana/cap8.xml#c8_17143" targetEnd="quarantana/cap8.xml#c8_17178">永别了，家乡的小教堂，多少次我曾在那里默默地颂扬天主的恩泽，以重新求得心情的宁静；我的婚礼将在那里举行，我心中隐秘的愿望本应在那里得到庄严的祝福，爱情本应得到上帝的承认，变成一项神圣的义务。 永别了！ </note>
+          <note xml:id="Chinese_1998_cap8-n291" type="comm" target="quarantana/cap8.xml#c8_17179" targetEnd="quarantana/cap8.xml#c8_17207">上帝赐予了我们莫大的欢愉，他无处不在，他从不干扰其儿女们欢乐的生活，时刻为他们准备更大、更安全的幸福乐园。 </note>
+        </p>
+        <p n="77">
+          <note xml:id="Chinese_1998_cap8-n292" type="comm" target="quarantana/cap8.xml#c8_17208" targetEnd="quarantana/cap8.xml#c8_17238">小船载着他们三个人朝着阿达河的右岸靠拢，鲁齐娅思绪万千，另外两个同行人也同样浮想联翩。 </note>
+        </p>
       </div>
     </body>
   </text>
