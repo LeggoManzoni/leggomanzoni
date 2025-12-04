@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<%- include ("partials/head"); %>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+    #analisi {
+        font-size: 1.1em;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .stat-box {
+        background: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .stat-number {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #c0392b;
+    }
+    .stat-label {
+        color: #666;
+        margin-top: 5px;
+    }
+    .chart-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+    .chart-title {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+    .sentence-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .sentence-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        overflow: hidden;
+        display: flex;
+        transition: transform 0.2s;
+    }
+    .sentence-card:hover {
+        transform: translateX(5px);
+    }
+    .sentence-bar {
+        width: 8px;
+        min-height: 100%;
+    }
+    .sentence-content {
+        padding: 15px 20px;
+        flex: 1;
+    }
+    .sentence-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .sentence-id {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    .sentence-stats {
+        display: flex;
+        gap: 15px;
+        font-size: 0.9em;
+    }
+    .sentence-stats span {
+        background: #f0f0f0;
+        padding: 3px 10px;
+        border-radius: 12px;
+    }
+    .note-count {
+        background: #c0392b !important;
+        color: white !important;
+    }
+    .sentence-text {
+        font-style: italic;
+        color: #555;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+    .sentence-text.expanded {
+        font-style: normal;
+    }
+    .expand-hint {
+        color: #3498db;
+        font-size: 0.85em;
+        margin-top: 5px;
+    }
+    #tooltip {
+        position: fixed;
+        background: white;
+        color: #333;
+        padding: 15px 20px;
+        border-radius: 8px;
+        font-size: 0.9em;
+        pointer-events: none;
+        z-index: 1000;
+        max-width: 400px;
+        display: none;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        border: 1px solid #e0e0e0;
+    }
+    .heatmap-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+        margin: 20px 0;
+        justify-content: center;
+    }
+    .sentence-block {
+        height: 40px;
+        min-width: 12px;
+        border-radius: 3px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+        transition: transform 0.1s;
+        text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    }
+    .sentence-block:hover {
+        transform: scale(1.2);
+        z-index: 10;
+    }
+    .legend {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+        flex-wrap: wrap;
+    }
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.9em;
+    }
+    .legend-color {
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+    }
+    .section-divider {
+        height: 1px;
+        background: linear-gradient(to right, transparent, #ddd, transparent);
+        margin: 40px 0;
+    }
+    .authors-chart {
+        height: 500px;
+    }
+    .top-lemmas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .lemma-card {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .lemma-rank {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #c0392b;
+        min-width: 40px;
+    }
+    .lemma-text {
+        font-style: italic;
+        color: #2c3e50;
+        font-size: 1.1em;
+    }
+    .lemma-stats {
+        color: #888;
+        font-size: 0.9em;
+    }
+    .analysis-section-title {
+        color: #2c3e50;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+    }
+</style>
+
+<body id="page-top" class="normalFont">
+    <!-- Navigation-->
+    <%- include ("partials/navbar"); %>
+
+    <!-- Masthead-->
+    <header class="masthead">
+        <section class="page-section bg-primary" id="analisi">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="testo">
+                        <h2 class="text-center mt-0">Analisi dei commenti - Capitolo 1</h2>
+                        <hr class="divider"></hr>
+                        <p class="text-center" style="color:#666;">Distribuzione delle note critiche per periodo (78 periodi) - 40 commentatori</p>
+
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <div class="stat-number" id="totalSentences">0</div>
+                        <div class="stat-label">Periodi nel capitolo</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" id="totalNotes">0</div>
+                        <div class="stat-label">Note totali</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" id="totalAuthors">0</div>
+                        <div class="stat-label">Commentatori</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" id="avgNotes">0</div>
+                        <div class="stat-label">Note medie per periodo</div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Mappa visiva - Note per periodo</div>
+                    <p style="color:#666; font-size:0.9em; text-align:center;">Ogni blocco = un periodo. Larghezza proporzionale al numero di parole. Colore = densità di note (chiaro → scuro = poche → molte).</p>
+                    <div class="legend">
+                        <div class="legend-item"><div class="legend-color" style="background: #fee5d9;"></div> 0-20</div>
+                        <div class="legend-item"><div class="legend-color" style="background: #fcbba1;"></div> 21-40</div>
+                        <div class="legend-item"><div class="legend-color" style="background: #fc9272;"></div> 41-60</div>
+                        <div class="legend-item"><div class="legend-color" style="background: #fb6a4a;"></div> 61-80</div>
+                        <div class="legend-item"><div class="legend-color" style="background: #de2d26;"></div> 81-100</div>
+                        <div class="legend-item"><div class="legend-color" style="background: #a50f15;"></div> 100+</div>
+                    </div>
+                    <div class="heatmap-row" id="sentenceHeatmap"></div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Distribuzione delle note per periodo</div>
+                    <canvas id="sentenceChart" height="120"></canvas>
+                </div>
+
+                <div class="section-divider"></div>
+
+                <h2 class="analysis-section-title">Lemmi più annotati</h2>
+                <p style="color:#666;">I passaggi che hanno attirato maggiore attenzione da parte degli studiosi</p>
+                <div class="top-lemmas" id="topLemmas"></div>
+
+                <div class="section-divider"></div>
+
+                <h2 class="analysis-section-title">Tutti i periodi ordinati per numero di note</h2>
+                <p style="color:#666;">Clicca sul testo per espanderlo</p>
+                <div class="sentence-list" id="sentenceList"></div>
+
+                <div class="section-divider"></div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Note per commentatore</div>
+                    <div class="authors-chart">
+                        <canvas id="authorsChart"></canvas>
+                    </div>
+                </div>
+
+                    </div><!-- end testo -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+
+            <div id="tooltip"></div>
+        </section>
+    </header>
+
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2023 - Leggo Manzoni</div>
+        </div>
+    </footer>
+
+    <!-- Scripts-->
+    <%- include("partials/scripts"); %>
+
+    <script>
+        function loadData() {
+            return fetch('./api/comment-analysis/cap1').then(r => r.json());
+        }
+
+        loadData()
+            .then(data => initializeDashboard(data))
+            .catch(err => {
+                console.error('Error:', err);
+                document.querySelector('.testo').innerHTML = '<p style="text-align:center;color:red;">Errore nel caricamento dei dati.</p>';
+            });
+
+        // Sequential color scale: single hue (red) from light to dark
+        function getColor(noteCount) {
+            if (noteCount <= 20) return '#fee5d9';
+            if (noteCount <= 40) return '#fcbba1';
+            if (noteCount <= 60) return '#fc9272';
+            if (noteCount <= 80) return '#fb6a4a';
+            if (noteCount <= 100) return '#de2d26';
+            return '#a50f15';
+        }
+
+        function getTextColor(noteCount) {
+            if (noteCount <= 60) return '#333';
+            return '#fff';
+        }
+
+        function initializeDashboard(data) {
+            const { words, sentences, authorStats, allNotes, summary } = data;
+
+            // Stats
+            document.getElementById('totalSentences').textContent = summary.totalSentences;
+            document.getElementById('totalNotes').textContent = summary.totalNotes.toLocaleString();
+            document.getElementById('totalAuthors').textContent = summary.totalAuthors;
+            document.getElementById('avgNotes').textContent = (summary.totalNotes / summary.totalSentences).toFixed(1);
+
+            const tooltip = document.getElementById('tooltip');
+
+            // Visual heatmap
+            const heatmapContainer = document.getElementById('sentenceHeatmap');
+            sentences.forEach(s => {
+                const block = document.createElement('div');
+                block.className = 'sentence-block';
+                block.style.width = Math.max(12, s.wordCount * 0.8) + 'px';
+                block.style.backgroundColor = getColor(s.noteCount);
+                block.style.color = getTextColor(s.noteCount);
+                block.textContent = s.id;
+
+                block.addEventListener('mouseenter', (e) => {
+                    tooltip.style.display = 'block';
+                    tooltip.innerHTML = `
+                        <strong>Periodo ${s.id}</strong><br>
+                        ${s.wordCount} parole<br>
+                        <strong>${s.noteCount} note</strong> da ${s.authorCount} autori<br>
+                        <hr style="border-color:#ddd;margin:10px 0">
+                        <em>"${s.text}"</em>
+                    `;
+                });
+
+                block.addEventListener('mousemove', (e) => {
+                    tooltip.style.left = Math.min(e.clientX + 15, window.innerWidth - 420) + 'px';
+                    tooltip.style.top = Math.min(e.clientY + 15, window.innerHeight - 200) + 'px';
+                });
+
+                block.addEventListener('mouseleave', () => tooltip.style.display = 'none');
+
+                heatmapContainer.appendChild(block);
+            });
+
+            // Bar chart
+            const ctx1 = document.getElementById('sentenceChart').getContext('2d');
+            new Chart(ctx1, {
+                type: 'bar',
+                data: {
+                    labels: sentences.map(s => s.id),
+                    datasets: [{
+                        label: 'Numero di note',
+                        data: sentences.map(s => s.noteCount),
+                        backgroundColor: sentences.map(s => getColor(s.noteCount)),
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                title: (items) => `Periodo ${sentences[items[0].dataIndex].id}`,
+                                afterLabel: (ctx) => {
+                                    const s = sentences[ctx.dataIndex];
+                                    return `${s.authorCount} autori\n${s.wordCount} parole`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Numero del periodo' },
+                            ticks: { font: { size: 9 } }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Numero di note' }
+                        }
+                    }
+                }
+            });
+
+            // TOP LEMMAS SECTION
+            const wordNoteCount = {};
+            allNotes.forEach(note => {
+                if (!wordNoteCount[note.startWordId]) {
+                    wordNoteCount[note.startWordId] = { count: 0, authors: new Set() };
+                }
+                wordNoteCount[note.startWordId].count++;
+                wordNoteCount[note.startWordId].authors.add(note.author);
+            });
+
+            const topWords = Object.entries(wordNoteCount)
+                .sort((a, b) => b[1].count - a[1].count)
+                .slice(0, 16);
+
+            const lemmasContainer = document.getElementById('topLemmas');
+
+            topWords.forEach(([wordId, data], idx) => {
+                const wordIdx = words.findIndex(w => w.id === wordId);
+                const word = words[wordIdx];
+
+                const notesHere = allNotes.filter(n => n.startWordId === wordId);
+                let lemmaText = word ? word.text : wordId;
+
+                if (notesHere.length > 0 && word) {
+                    const spans = notesHere.map(note => {
+                        const startIdx = words.findIndex(w => w.id === note.startWordId);
+                        const endIdx = words.findIndex(w => w.id === note.endWordId);
+                        if (startIdx >= 0 && endIdx >= 0) {
+                            return words.slice(startIdx, Math.min(endIdx + 1, startIdx + 12))
+                                .map(w => w.text).join(' ');
+                        }
+                        return word.text;
+                    });
+                    const spanCounts = {};
+                    spans.forEach(s => spanCounts[s] = (spanCounts[s] || 0) + 1);
+                    lemmaText = Object.entries(spanCounts).sort((a,b) => b[1] - a[1])[0][0];
+                    if (lemmaText.length > 60) lemmaText = lemmaText.substring(0, 60) + '...';
+                }
+
+                const card = document.createElement('div');
+                card.className = 'lemma-card';
+                card.innerHTML = `
+                    <div class="lemma-rank">#${idx + 1}</div>
+                    <div>
+                        <div class="lemma-text">"${lemmaText}"</div>
+                        <div class="lemma-stats">${data.count} note da ${data.authors.size} commentatori</div>
+                    </div>
+                `;
+                lemmasContainer.appendChild(card);
+            });
+
+            // Sentence list
+            const sortedSentences = [...sentences].sort((a, b) => b.noteCount - a.noteCount);
+            const listContainer = document.getElementById('sentenceList');
+
+            sortedSentences.forEach((s, idx) => {
+                const card = document.createElement('div');
+                card.className = 'sentence-card';
+
+                const barColor = getColor(s.noteCount);
+
+                card.innerHTML = `
+                    <div class="sentence-bar" style="background: ${barColor}"></div>
+                    <div class="sentence-content">
+                        <div class="sentence-header">
+                            <span class="sentence-id">#${idx + 1} - Periodo ${s.id}</span>
+                            <div class="sentence-stats">
+                                <span class="note-count">${s.noteCount} note</span>
+                                <span>${s.authorCount} autori</span>
+                                <span>${s.wordCount} parole</span>
+                            </div>
+                        </div>
+                        <div class="sentence-text" data-full="${encodeURIComponent(s.fullText)}" data-short="${encodeURIComponent(s.text)}">
+                            "${s.text}"
+                        </div>
+                        ${s.fullText.length > 100 ? '<div class="expand-hint">Clicca per espandere</div>' : ''}
+                    </div>
+                `;
+
+                const textEl = card.querySelector('.sentence-text');
+                const hintEl = card.querySelector('.expand-hint');
+
+                if (s.fullText.length > 100) {
+                    textEl.addEventListener('click', () => {
+                        const isExpanded = textEl.classList.toggle('expanded');
+                        if (isExpanded) {
+                            textEl.textContent = decodeURIComponent(textEl.dataset.full);
+                            if (hintEl) hintEl.textContent = 'Clicca per ridurre';
+                        } else {
+                            textEl.textContent = '"' + decodeURIComponent(textEl.dataset.short) + '"';
+                            if (hintEl) hintEl.textContent = 'Clicca per espandere';
+                        }
+                    });
+                }
+
+                listContainer.appendChild(card);
+            });
+
+            // Authors chart
+            const sortedAuthors = Object.entries(authorStats)
+                .sort((a, b) => b[1] - a[1])
+                .filter(([_, count]) => count > 0);
+
+            const ctx2 = document.getElementById('authorsChart').getContext('2d');
+            new Chart(ctx2, {
+                type: 'bar',
+                data: {
+                    labels: sortedAuthors.map(([name]) => name),
+                    datasets: [{
+                        label: 'Numero di note',
+                        data: sortedAuthors.map(([_, count]) => count),
+                        backgroundColor: 'rgba(52, 152, 219, 0.7)',
+                        borderColor: 'rgba(52, 152, 219, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { beginAtZero: true, title: { display: true, text: 'Numero di note' } }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

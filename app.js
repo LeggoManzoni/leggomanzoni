@@ -101,6 +101,10 @@ app.use("/", vignette);
 const credits = require("./routes/credits");
 app.use("/", credits);
 
+/* analisi */
+const analisi = require("./routes/analisi");
+app.use("/", analisi);
+
 /* prova estrazione id */
 function extractIds(html) {
   const idArray = [];
