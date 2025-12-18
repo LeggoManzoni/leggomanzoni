@@ -10,7 +10,7 @@
    Increased to 1024px to cover larger phones and small tablets in landscape
    ======================================== */
 
-@media (max-width: 1366px) and (orientation: landscape) and (max-height: 800px) {
+@media (max-width: 991.98px) and (orientation: landscape) {
 
   /* ========================================
      BASE LAYOUT SETUP
@@ -555,11 +555,14 @@
      HEADER AND NAVIGATION
      ======================================== */
 
-  /* Navigation - match portrait mobile styling */
+  /* Let Bootstrap handle navbar for screens ≥992px (horizontal navbar)
+     Only screens <992px get hamburger menu (handled by mobile-optimization.css)
+     This section only styles the navbar appearance, not its collapse behavior */
+
   .navbar {
     min-height: 4rem !important;
     padding: 0 !important;
-    margin-bottom: 0 !important; /* Remove gap */
+    margin-bottom: 0 !important;
     display: flex !important;
     align-items: center !important;
   }
@@ -573,71 +576,12 @@
     margin: 0 !important;
   }
 
-  .navbar-toggler {
-    margin: 0 !important;
-    padding: 0.5rem !important;
-    display: flex !important;
-    align-items: center !important;
-    height: auto !important;
-  }
-
   .navbar-brand {
     display: flex !important;
     align-items: center !important;
     margin: 0 !important;
     height: auto !important;
     padding: 0 !important;
-  }
-
-  .navbar-collapse {
-    position: absolute !important;
-    top: 100% !important;
-    right: 1rem !important;
-    left: auto !important;
-    width: auto !important;
-    max-width: 200px !important;
-    background: white !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-    border: 1px solid #e0e0e0 !important;
-    z-index: 1000 !important;
-    margin-top: 0.5rem !important;
-  }
-
-  .navbar-nav {
-    padding: 0.5rem 0 !important;
-    margin: 0 !important;
-  }
-
-  .navbar-nav .nav-link {
-    padding: 0.5rem 1rem !important;
-    color: #73978B !important;
-    text-align: left !important;
-    white-space: nowrap !important;
-    border-bottom: none !important;
-    width: auto !important;
-    display: block !important;
-  }
-
-  .navbar-nav .nav-link:hover {
-    background-color: #f8f9fa !important;
-    color: #5a7a6e !important;
-  }
-
-  .navbar .navbar-nav .nav-link.activeNav,
-  .navbar .navbar-nav .nav-link.active,
-  .navbar-collapse .navbar-nav .nav-link.activeNav {
-    background-color: #e8f4f1 !important;
-    color: #2d5a4a !important;
-    font-weight: 600 !important;
-    border-left: 3px solid #73978B !important;
-    border-radius: 4px !important;
-  }
-
-  .navbar-nav .nav-link:last-child {
-    border-top: 1px solid #e0e0e0 !important;
-    margin-top: 0.25rem !important;
-    font-size: 0.9rem !important;
   }
 
   /* ========================================
@@ -925,7 +869,7 @@
    LANDSCAPE-SPECIFIC ANIMATIONS
    ======================================== */
 
-@media (max-width: 1366px) and (orientation: landscape) and (max-height: 800px) {
+@media (max-width: 991.98px) and (orientation: landscape) {
 
   @keyframes highlightPulse {
     0%, 100% {

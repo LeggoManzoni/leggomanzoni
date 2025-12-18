@@ -747,40 +747,8 @@
     font-size: 20px !important;
   }
 
-  /* ========================================
-     MOBILE NAVIGATION OPTIMIZATION
-     ======================================== */
-
-  /* Ensure navbar is properly collapsed */
-  .navbar-toggler {
-    display: block !important;
-    padding: 8px 12px;
-    border: 2px solid #73978B;
-    border-radius: 6px;
-  }
-
-  .navbar-collapse {
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(10px);
-    margin-top: 8px;
-    border-radius: 8px;
-    padding: 16px;
-  }
-
-  .navbar-nav .nav-link {
-    padding: 12px 16px !important;
-    margin: 4px 0;
-    border-radius: 6px;
-    font-size: 16px !important;
-    min-height: 48px;
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar-nav .nav-link:hover {
-    background: #73978B !important;
-    color: #fff !important;
-  }
+  /* NOTE: Navbar dropdown styles moved to catch-all media query below (< 992px)
+     to ensure consistent styling across all screen sizes that show hamburger menu */
 
   /* ========================================
      GENERAL MOBILE PAGE OPTIMIZATION
@@ -969,7 +937,7 @@
 }
 
 /* ========================================
-   TABLET SPECIFIC ADJUSTMENTS (768px - 1024px)
+   TABLET AND DESKTOP (769px and above)
    ======================================== */
 
 @media (min-width: 769px) {
@@ -1059,4 +1027,81 @@
     align-items: center !important;
   }
 }
+
+/* ========================================
+   NAVBAR DROPDOWN - ALL SCREENS WITH HAMBURGER MENU
+   Catches all screens below Bootstrap's lg breakpoint (992px)
+   This ensures consistent dropdown styling regardless of orientation
+   ======================================== */
+@media (max-width: 991.98px) {
+  /* Force hamburger menu visibility */
+  .navbar-expand-lg .navbar-toggler {
+    display: flex !important;
+    padding: 0.5rem !important;
+    align-items: center !important;
+  }
+
+  /* Hide horizontal nav by default, show as dropdown */
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+    position: absolute !important;
+    top: 100% !important;
+    right: 1rem !important;
+    left: auto !important;
+    width: auto !important;
+    max-width: 200px !important;
+    background: white !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    border: 1px solid #e0e0e0 !important;
+    z-index: 1000 !important;
+    margin-top: 0.5rem !important;
+  }
+
+  /* Show dropdown when toggled */
+  .navbar-expand-lg .navbar-collapse.show {
+    display: block !important;
+  }
+
+  /* Style the nav list inside dropdown */
+  .navbar-expand-lg .navbar-nav {
+    padding: 0.5rem 0 !important;
+    margin: 0 !important;
+    flex-direction: column !important;
+  }
+
+  /* Compact nav link styling */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 1rem !important;
+    color: #73978B !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    border-bottom: none !important;
+    width: auto !important;
+    display: block !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa !important;
+    color: #5a7a6e !important;
+  }
+
+  /* Active page styling */
+  .navbar-expand-lg .navbar-nav .nav-link.activeNav,
+  .navbar-expand-lg .navbar-nav .nav-link.active {
+    background-color: #e8f4f1 !important;
+    color: #2d5a4a !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #73978B !important;
+    border-radius: 4px !important;
+  }
+
+  /* Language toggle specific styling */
+  .navbar-expand-lg .navbar-nav .nav-link:last-child {
+    border-top: 1px solid #e0e0e0 !important;
+    margin-top: 0.25rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+
 
