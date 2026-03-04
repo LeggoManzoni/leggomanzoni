@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lista delle persone menzionate nel commento di Luigi Russo ai Promessi Sposi</title>
+                <respStmt>
+                    <resp>Compilazione</resp>
+                    <name>Progetto Leggo Manzoni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Per uso interno del progetto Leggo Manzoni</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Estratto automaticamente dai file XML del commento Russo</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="persNameTypes">
+                    <category xml:id="main"><catDesc>Nome principale canonico</catDesc></category>
+                    <category xml:id="abbrev"><catDesc>Abbreviazione</catDesc></category>
+                    <category xml:id="article"><catDesc>Forma con articolo</catDesc></category>
+                    <category xml:id="honorific"><catDesc>Con titolo onorifico</catDesc></category>
+                    <category xml:id="surname"><catDesc>Solo cognome</catDesc></category>
+                    <category xml:id="forename"><catDesc>Solo nome</catDesc></category>
+                    <category xml:id="epithet"><catDesc>Epiteto o soprannome</catDesc></category>
+                    <category xml:id="uppercase"><catDesc>Forma in maiuscolo (citazione bibliografica)</catDesc></category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <!-- ========================================== -->
+                <!-- AUTORE DEL ROMANZO -->
+                <!-- ========================================== -->
+                <listPerson type="autore">
+                    <head>Autore del romanzo</head>
+                    <person xml:id="manzoni">
+                        <persName type="main"><forename>Alessandro</forename> <surname>Manzoni</surname></persName>
+                        <!-- Abbreviazioni (molto frequenti nel commento) -->
+                        <persName type="abbrev">M.</persName>
+                        <persName type="abbrev">M</persName>
+                        <persName type="abbrev">A.M.</persName>
+                        <persName type="abbrev">A. M.</persName>
+                        <!-- Forme con articolo -->
+                        <persName type="article">il M.</persName>
+                        <persName type="article">Il M.</persName>
+                        <persName type="article">Il M</persName>
+                        <persName type="article">il M</persName>
+                        <persName type="article">l M.</persName>
+                        <!-- Solo cognome -->
+                        <persName type="surname">Manzoni</persName>
+                        <!-- Nome completo -->
+                        <persName type="full">Alessandro Manzoni</persName>
+                        <persName type="full">A. Manzoni</persName>
+                        <birth when="1785-03-07">7 marzo 1785</birth>
+                        <death when="1873-05-22">22 maggio 1873</death>
+                        <note>Autore dei Promessi Sposi. Abbreviato come "M." nel commento di Russo</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- PERSONAGGI DEL ROMANZO (Protagonisti) -->
+                <!-- ========================================== -->
+                <listPerson type="protagonisti">
+                    <head>Protagonisti del romanzo</head>
+                    <person xml:id="renzo">
+                        <persName type="main"><forename>Lorenzo</forename> <surname>Tramaglino</surname></persName>
+                        <persName type="nickname">Renzo</persName>
+                        <persName type="full">Lorenzo Tramaglino</persName>
+                        <note>Protagonista maschile del romanzo, filatore di seta</note>
+                    </person>
+                    <person xml:id="lucia">
+                        <persName type="main"><forename>Lucia</forename> <surname>Mondella</surname></persName>
+                        <persName type="forename">Lucia</persName>
+                        <persName type="full">Lucia Mondella</persName>
+                        <note>Protagonista femminile del romanzo, promessa sposa di Renzo</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- PERSONAGGI DEL ROMANZO (Antagonisti) -->
+                <!-- ========================================== -->
+                <listPerson type="antagonisti">
+                    <head>Antagonisti</head>
+                    <person xml:id="don_rodrigo">
+                        <persName type="main"><roleName>don</roleName> <forename>Rodrigo</forename></persName>
+                        <persName type="honorific">don Rodrigo</persName>
+                        <persName type="honorific">Don Rodrigo</persName>
+                        <persName type="honorific">don' Rodrigo</persName>
+                        <persName type="forename">Rodrigo</persName>
+                        <persName type="epithet">Il persecutore odioso</persName>
+                        <persName type="epithet">cavaliere persecutore</persName>
+                        <note>Signorotto locale, antagonista principale</note>
+                    </person>
+                    <person xml:id="innominato">
+                        <persName type="main">Innominato</persName>
+                        <persName type="article">l'Innominato</persName>
+                        <persName type="article">L'Innominato</persName>
+                        <persName type="article">dell'Innominato</persName>
+                        <note>Potente signore che si converte dopo l'incontro con Lucia</note>
+                    </person>
+                    <person xml:id="conte_attilio">
+                        <persName type="main"><roleName>conte</roleName> <forename>Attilio</forename></persName>
+                        <persName type="forename">Attilio</persName>
+                        <persName type="honorific">conte Attilio</persName>
+                        <persName type="honorific">Conte Attilio</persName>
+                        <note>Cugino di don Rodrigo</note>
+                    </person>
+                    <person xml:id="griso">
+                        <persName type="main">Griso</persName>
+                        <persName type="article">il Griso</persName>
+                        <note>Capo dei bravi di don Rodrigo</note>
+                    </person>
+                    <person xml:id="nibbio">
+                        <persName type="main">Nibbio</persName>
+                        <note>Bravo dell'Innominato</note>
+                    </person>
+                    <person xml:id="egidio">
+                        <persName type="main">Egidio</persName>
+                        <note>Amante di Gertrude, identificato storicamente con Gian Paolo Osio</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- PERSONAGGI DEL ROMANZO (Ecclesiastici) -->
+                <!-- ========================================== -->
+                <listPerson type="ecclesiastici">
+                    <head>Figure ecclesiastiche</head>
+                    <person xml:id="don_abbondio">
+                        <persName type="main"><roleName>don</roleName> <forename>Abbondio</forename></persName>
+                        <persName type="honorific">don Abbondio</persName>
+                        <persName type="honorific">Don Abbondio</persName>
+                        <!-- Abbreviazioni -->
+                        <persName type="abbrev">don Abb.</persName>
+                        <persName type="abbrev">don Abb</persName>
+                        <persName type="abbrev">Don Abb.</persName>
+                        <persName type="abbrev">Don Abb</persName>
+                        <!-- Solo nome -->
+                        <persName type="forename">Abbondio</persName>
+                        <note>Curato del paese di Renzo e Lucia</note>
+                    </person>
+                    <person xml:id="fra_cristoforo">
+                        <persName type="main"><roleName>fra</roleName> <forename>Cristoforo</forename></persName>
+                        <persName type="honorific">fra Cristoforo</persName>
+                        <persName type="honorific">Fra Cristoforo</persName>
+                        <persName type="honorific">padre Cristoforo</persName>
+                        <persName type="forename">Cristoforo</persName>
+                        <!-- Nome secolare -->
+                        <persName type="secular">Lodovico</persName>
+                        <persName type="secular">Ludovico</persName>
+                        <persName type="epithet">il frate</persName>
+                        <note>Frate cappuccino, protettore di Renzo e Lucia. Nome secolare: Lodovico</note>
+                    </person>
+                    <person xml:id="cardinal_federigo">
+                        <persName type="main"><roleName>Cardinale</roleName> <forename>Federigo</forename> <surname>Borromeo</surname></persName>
+                        <persName type="role">Cardinale</persName>
+                        <persName type="article">il Cardinale</persName>
+                        <persName type="forename">Federigo</persName>
+                        <persName type="full">Federigo Borromeo</persName>
+                        <persName type="full">Federico Borromeo</persName>
+                        <persName type="honorific">cardinal Borromeo</persName>
+                        <persName type="honorific">il cardinal Borromeo</persName>
+                        <persName type="honorific">Cardinal Federico</persName>
+                        <persName type="honorific">Cardinale Faderico</persName>
+                        <persName type="uppercase">FEDERICO BORROMEO</persName>
+                        <persName type="surname">Borromeo</persName>
+                        <note>Arcivescovo di Milano, figura storica (1564-1631)</note>
+                    </person>
+                    <person xml:id="gertrude">
+                        <persName type="main"><forename>Gertrude</forename></persName>
+                        <persName type="forename">Gertrude</persName>
+                        <persName type="forename">Gertrudina</persName>
+                        <persName type="epithet">Signora</persName>
+                        <persName type="epithet">la Signora</persName>
+                        <persName type="epithet">Signora di Monza</persName>
+                        <persName type="epithet">Monaca di Monza</persName>
+                        <persName type="epithet">la Monaca di Monza</persName>
+                        <!-- Nome storico -->
+                        <persName type="historical">suor Virginia</persName>
+                        <persName type="historical">Suor Virginia</persName>
+                        <persName type="historical">Virginia Marino</persName>
+                        <note>La "Signora" del monastero di Monza. Identificata storicamente con Marianna de Leyva (suor Virginia Maria)</note>
+                    </person>
+                    <person xml:id="fra_galdino">
+                        <persName type="main"><roleName>fra</roleName> <forename>Galdino</forename></persName>
+                        <persName type="honorific">fra Galdino</persName>
+                        <persName type="honorific">Fra Galdino</persName>
+                        <persName type="forename">Galdino</persName>
+                        <note>Frate cercatore cappuccino</note>
+                    </person>
+                    <person xml:id="padre_provinciale">
+                        <persName type="main">padre provinciale</persName>
+                        <note>Superiore provinciale dei cappuccini</note>
+                    </person>
+                    <person xml:id="padre_guardiano">
+                        <persName type="main">padre guardiano</persName>
+                        <persName type="article">il padre guardiano</persName>
+                        <note>Superiore del convento di Pescarenico</note>
+                    </person>
+                    <person xml:id="padre_bonaventura">
+                        <persName type="main"><roleName>padre</roleName> <forename>Bonaventura</forename></persName>
+                        <persName type="forename">Bonaventura</persName>
+                        <note>Frate cappuccino</note>
+                    </person>
+                    <person xml:id="padre_felice">
+                        <persName type="main"><roleName>padre</roleName> <forename>Felice</forename></persName>
+                        <persName type="forename">Felice</persName>
+                        <note>Frate cappuccino al lazzaretto</note>
+                    </person>
+                    <person xml:id="frate_fazio">
+                        <persName type="main">frate Fazio</persName>
+                        <persName type="variant">fra Fazio</persName>
+                        <note>Frate menzionato nel commento</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- PERSONAGGI DEL ROMANZO (Altri personaggi) -->
+                <!-- ========================================== -->
+                <listPerson type="personaggi_secondari">
+                    <head>Altri personaggi del romanzo</head>
+                    <person xml:id="agnese">
+                        <persName type="main"><forename>Agnese</forename></persName>
+                        <persName type="forename">Agnese</persName>
+                        <note>Madre di Lucia</note>
+                    </person>
+                    <person xml:id="perpetua">
+                        <persName type="main"><forename>Perpetua</forename></persName>
+                        <persName type="forename">Perpetua</persName>
+                        <persName type="excl">Perpetua! Perpetua!</persName>
+                        <note>Serva di don Abbondio</note>
+                    </person>
+                    <person xml:id="azzeccagarbugli">
+                        <persName type="main">Azzeccagarbugli</persName>
+                        <persName type="article">l'Azzeccagarbugli</persName>
+                        <note>Avvocato di Lecco</note>
+                    </person>
+                    <person xml:id="tonio">
+                        <persName type="main"><forename>Tonio</forename></persName>
+                        <note>Contadino, fratello di Gervaso</note>
+                    </person>
+                    <person xml:id="gervaso">
+                        <persName type="main"><forename>Gervaso</forename></persName>
+                        <persName type="variant">fratello Gervaso</persName>
+                        <note>Contadino, fratello di Tonio</note>
+                    </person>
+                    <person xml:id="menico">
+                        <persName type="main"><forename>Menico</forename></persName>
+                        <note>Ragazzo messaggero</note>
+                    </person>
+                    <person xml:id="bortolo">
+                        <persName type="main"><forename>Bortolo</forename></persName>
+                        <note>Cugino di Renzo, filatore nel bergamasco</note>
+                    </person>
+                    <person xml:id="don_ferrante">
+                        <persName type="main"><roleName>don</roleName> <forename>Ferrante</forename></persName>
+                        <persName type="honorific">don Ferrante</persName>
+                        <persName type="honorific">Don Ferrante</persName>
+                        <persName type="forename">Ferrante</persName>
+                        <note>Marito di donna Prassede, erudito</note>
+                    </person>
+                    <person xml:id="donna_prassede">
+                        <persName type="main"><roleName>donna</roleName> <forename>Prassede</forename></persName>
+                        <persName type="honorific">donna Prassede</persName>
+                        <persName type="honorific">Donna Prassede</persName>
+                        <note>Nobildonna che ospita Lucia</note>
+                    </person>
+                    <person xml:id="ferrer">
+                        <persName type="main"><forename>Antonio</forename> <surname>Ferrer</surname></persName>
+                        <persName type="surname">Ferrer</persName>
+                        <persName type="full">Antonio Ferrer</persName>
+                        <persName type="full">A. Ferrer</persName>
+                        <persName type="epithet">Il cancelliere Ferrer</persName>
+                        <note>Gran cancelliere di Milano, figura storica</note>
+                    </person>
+                    <person xml:id="conte_zio">
+                        <persName type="main">conte zio</persName>
+                        <persName type="variant">Conte Zio</persName>
+                        <persName type="variant">conte Zio</persName>
+                        <persName type="article">Conte</persName>
+                        <note>Zio di don Rodrigo e del conte Attilio, membro del Consiglio segreto</note>
+                    </person>
+                    <person xml:id="badessa">
+                        <persName type="main">badessa</persName>
+                        <persName type="article">la badessa</persName>
+                        <note>Badessa del monastero di Monza</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- FIGURE STORICHE (Seicento) -->
+                <!-- ========================================== -->
+                <listPerson type="figure_storiche">
+                    <head>Figure storiche del Seicento</head>
+                    <person xml:id="filippo_ii">
+                        <persName type="main"><forename>Filippo</forename> <genName>II</genName></persName>
+                        <persName type="full">Filippo II</persName>
+                        <persName type="full">Filippo II di Spagna</persName>
+                        <persName type="honorific">don Filippo II</persName>
+                        <note>Re di Spagna (1527-1598)</note>
+                    </person>
+                    <person xml:id="filippo_iv">
+                        <persName type="main"><forename>Filippo</forename> <genName>IV</genName></persName>
+                        <persName type="full">Filippo IV</persName>
+                        <persName type="full">Filippo IV d'Asburgo</persName>
+                        <note>Re di Spagna (1605-1665)</note>
+                    </person>
+                    <person xml:id="don_gonzalo">
+                        <persName type="main"><roleName>don</roleName> <forename>Gonzalo</forename> <surname>Fernandez de Cordoba</surname></persName>
+                        <persName type="honorific">don Gonzalo</persName>
+                        <persName type="honorific">Don Gonzalo</persName>
+                        <persName type="honorific">don Gonzalo Fernandez</persName>
+                        <persName type="honorific">Don Gonzalo Fernandez</persName>
+                        <persName type="full">don Gonzalo Fernandez de Cordoba</persName>
+                        <note>Governatore di Milano</note>
+                    </person>
+                    <person xml:id="ambrogio_spinola">
+                        <persName type="main"><forename>Ambrogio</forename> <surname>Spinola</surname></persName>
+                        <persName type="forename">Ambrogio</persName>
+                        <persName type="surname">Spinola</persName>
+                        <persName type="full">Ambrogio Spinola</persName>
+                        <note>Governatore di Milano</note>
+                    </person>
+                    <person xml:id="richelieu">
+                        <persName type="main"><forename>Armando Giovanni</forename> <surname>du Plessis</surname></persName>
+                        <persName type="title">Cardinale di Richelieu</persName>
+                        <persName type="surname">Richelieu</persName>
+                        <persName type="variant">Riciliù</persName>
+                        <persName type="variant">cardinale di Richelieu</persName>
+                        <persName type="full">Armando Giovanni du Plessis</persName>
+                        <note>Cardinale e primo ministro francese (1585-1642)</note>
+                    </person>
+                    <person xml:id="wallenstein">
+                        <persName type="main"><forename>Alberto</forename> <surname>Wallenstein</surname></persName>
+                        <persName type="surname">Wallenstein</persName>
+                        <persName type="full">Alberto Wallenstein</persName>
+                        <persName type="variant">Alberto Valstain</persName>
+                        <persName type="variant">Valstain</persName>
+                        <note>Generale imperiale</note>
+                    </person>
+                    <person xml:id="carlo_borromeo">
+                        <persName type="main"><roleName>San</roleName> <forename>Carlo</forename> <surname>Borromeo</surname></persName>
+                        <persName type="honorific">San Carlo</persName>
+                        <persName type="forename">Carlo</persName>
+                        <persName type="full">Carlo Borromeo</persName>
+                        <note>Arcivescovo di Milano, santo (1538-1584)</note>
+                    </person>
+                    <person xml:id="ripamonti">
+                        <persName type="main"><forename>Giuseppe</forename> <surname>Ripamonti</surname></persName>
+                        <persName type="surname">Ripamonti</persName>
+                        <persName type="uppercase">RIPAMONTI</persName>
+                        <persName type="full">Giuseppe Ripamonti</persName>
+                        <note>Storico milanese del Seicento</note>
+                    </person>
+                    <person xml:id="tadino">
+                        <persName type="main"><forename>Alessandro</forename> <surname>Tadino</surname></persName>
+                        <persName type="surname">Tadino</persName>
+                        <persName type="full">Alessandro Tadino</persName>
+                        <note>Medico e storico della peste</note>
+                    </person>
+                    <person xml:id="settala">
+                        <persName type="main"><forename>Lodovico</forename> <surname>Settala</surname></persName>
+                        <persName type="surname">Settàla</persName>
+                        <persName type="surname">Settala</persName>
+                        <persName type="full">Girolamo Settàla</persName>
+                        <note>Medico, protofisico durante la peste</note>
+                    </person>
+                    <person xml:id="olivares">
+                        <persName type="main"><forename>Gaspare</forename> <surname>de Guzmán</surname></persName>
+                        <persName type="surname">Olivares</persName>
+                        <persName type="article">l'Olivares</persName>
+                        <persName type="epithet">conte-duca</persName>
+                        <persName type="epithet">il conte duca, l'Olivares</persName>
+                        <persName type="full">Gasparo Guzman</persName>
+                        <note>Primo ministro spagnolo</note>
+                    </person>
+                    <person xml:id="de_leyva">
+                        <persName type="main">de Leyva</persName>
+                        <persName type="variant">De Leyva</persName>
+                        <persName type="variant">De Lèiva</persName>
+                        <persName type="variant">Leiva</persName>
+                        <persName type="variant">Leyva</persName>
+                        <note>Famiglia della Monaca di Monza</note>
+                    </person>
+                    <person xml:id="paolo_osio">
+                        <persName type="main">Paolo Osio</persName>
+                        <persName type="article">L'Osio</persName>
+                        <note>Figura storica identificata con Egidio</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- AUTORI E CRITICI CITATI -->
+                <!-- ========================================== -->
+                <listPerson type="critici">
+                    <head>Critici e commentatori</head>
+                    <person xml:id="russo">
+                        <persName type="main"><forename>Luigi</forename> <surname>Russo</surname></persName>
+                        <persName type="uppercase">LUIGI RUSSO</persName>
+                        <persName type="full">Luigi Russo</persName>
+                        <persName type="abbrev">L. RUSSO</persName>
+                        <persName type="abbrev">L. Russo</persName>
+                        <note>Autore del commento</note>
+                    </person>
+                    <person xml:id="pistelli">
+                        <persName type="main"><forename>Ermenegildo</forename> <surname>Pistelli</surname></persName>
+                        <persName type="uppercase">PISTELLI</persName>
+                        <persName type="surname">Pistelli</persName>
+                        <persName type="parens">(PISTELLI)</persName>
+                        <persName type="parens">(Pistelli)</persName>
+                        <note>Critico e commentatore manzoniano</note>
+                    </person>
+                    <person xml:id="momigliano">
+                        <persName type="main"><forename>Attilio</forename> <surname>Momigliano</surname></persName>
+                        <persName type="uppercase">MOMIGLIANO</persName>
+                        <persName type="surname">Momigliano</persName>
+                        <persName type="parens">(MOMIGLIANO )</persName>
+                        <persName type="abbrev">A. MOMIGLIANO</persName>
+                        <note>Critico letterario</note>
+                    </person>
+                    <person xml:id="de_sanctis">
+                        <persName type="main"><forename>Francesco</forename> <surname>De Sanctis</surname></persName>
+                        <persName type="surname">De Sanctis</persName>
+                        <persName type="surname">De Sanctis -</persName>
+                        <persName type="uppercase">DE SANCTIS</persName>
+                        <persName type="parens">(DE SANCTIS)</persName>
+                        <persName type="partial">Sanctis</persName>
+                        <note>Critico letterario (1817-1883)</note>
+                    </person>
+                    <person xml:id="nicolini">
+                        <persName type="main"><forename>Fausto</forename> <surname>Nicolini</surname></persName>
+                        <persName type="uppercase">NICOLINI</persName>
+                        <persName type="surname">Nicolini</persName>
+                        <persName type="article">Il NICOLINI</persName>
+                        <persName type="uppercase">FAUSTO NICOLINI</persName>
+                        <note>Storico</note>
+                    </person>
+                    <person xml:id="tommaseo">
+                        <persName type="main"><forename>Niccolò</forename> <surname>Tommaseo</surname></persName>
+                        <persName type="uppercase">TOMMASEO</persName>
+                        <persName type="surname">Tommaseo</persName>
+                        <note>Letterato e lessicografo</note>
+                    </person>
+                    <person xml:id="petrocchi">
+                        <persName type="main"><forename>Policarpo</forename> <surname>Petrocchi</surname></persName>
+                        <persName type="uppercase">PETROCCHI</persName>
+                        <persName type="surname">Petrocchi</persName>
+                        <persName type="parens">(PETROCCHI)</persName>
+                        <note>Lessicografo e commentatore</note>
+                    </person>
+                    <person xml:id="donadoni">
+                        <persName type="main"><forename>Eugenio</forename> <surname>Donadoni</surname></persName>
+                        <persName type="uppercase">DONADONI</persName>
+                        <persName type="variant">Eugenio Donandoni</persName>
+                        <note>Critico letterario</note>
+                    </person>
+                    <person xml:id="zottoli">
+                        <persName type="main"><forename>Angelandrea</forename> <surname>Zottoli</surname></persName>
+                        <persName type="uppercase">ZOTTOLI</persName>
+                        <note>Critico manzoniano</note>
+                    </person>
+                    <person xml:id="croce">
+                        <persName type="main"><forename>Benedetto</forename> <surname>Croce</surname></persName>
+                        <persName type="surname">Croce</persName>
+                        <persName type="abbrev">B. CROCE</persName>
+                        <note>Filosofo e critico (1866-1952)</note>
+                    </person>
+                    <person xml:id="rigutini">
+                        <persName type="main"><surname>Rigutini</surname></persName>
+                        <persName type="uppercase">RIGUTINI</persName>
+                        <persName type="surname">Rigutini</persName>
+                        <note>Lessicografo</note>
+                    </person>
+                    <person xml:id="pellizzari">
+                        <persName type="main"><surname>Pellizzari</surname></persName>
+                        <persName type="uppercase">PELLIZZARI</persName>
+                        <persName type="abbrev">A. PELLIZZARI</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="guerri">
+                        <persName type="main"><surname>Guerri</surname></persName>
+                        <persName type="uppercase">GUERRI</persName>
+                        <persName type="parens">(GUERRI)</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="steiner">
+                        <persName type="main"><surname>Steiner</surname></persName>
+                        <persName type="uppercase">STEINER</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="dovidio">
+                        <persName type="main"><surname>D'Ovidio</surname></persName>
+                        <persName type="uppercase">D'OVIDIO</persName>
+                        <persName type="abbrev">F. D'Ovidio</persName>
+                        <note>Critico e filologo</note>
+                    </person>
+                    <person xml:id="negri">
+                        <persName type="main"><forename>Giovanni</forename> <surname>Negri</surname></persName>
+                        <persName type="uppercase">GIOVANNI NEGRI</persName>
+                        <persName type="abbrev">G. NEGRI</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="citanna">
+                        <persName type="main"><surname>Citanna</surname></persName>
+                        <persName type="uppercase">CITANNA</persName>
+                        <persName type="abbrev">G. CITANNA</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="graf">
+                        <persName type="main"><forename>Arturo</forename> <surname>Graf</surname></persName>
+                        <persName type="uppercase">ARTURO GRAF</persName>
+                        <note>Critico e poeta</note>
+                    </person>
+                    <person xml:id="fanfani">
+                        <persName type="main"><surname>Fanfani</surname></persName>
+                        <persName type="uppercase">FANFANI</persName>
+                        <note>Lessicografo</note>
+                    </person>
+                    <person xml:id="borgognoni">
+                        <persName type="main"><forename>Adolfo</forename> <surname>Borgognoni</surname></persName>
+                        <persName type="uppercase">ADOLFO BORGOGNONI</persName>
+                        <note>Critico</note>
+                    </person>
+                    <person xml:id="zibordi">
+                        <persName type="main"><surname>Zibordi</surname></persName>
+                        <persName type="uppercase">ZIBORDI</persName>
+                        <note>Critico</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- SCRITTORI ITALIANI -->
+                <!-- ========================================== -->
+                <listPerson type="scrittori_italiani">
+                    <head>Scrittori italiani</head>
+                    <person xml:id="dante">
+                        <persName type="main"><forename>Dante</forename> <surname>Alighieri</surname></persName>
+                        <persName type="forename">Dante</persName>
+                        <note>Poeta (1265-1321)</note>
+                    </person>
+                    <person xml:id="petrarca">
+                        <persName type="main"><forename>Francesco</forename> <surname>Petrarca</surname></persName>
+                        <persName type="surname">Petrarca</persName>
+                        <note>Poeta (1304-1374)</note>
+                    </person>
+                    <person xml:id="boccaccio">
+                        <persName type="main"><forename>Giovanni</forename> <surname>Boccaccio</surname></persName>
+                        <persName type="surname">Boccaccio</persName>
+                        <persName type="uppercase">BOCCACCIO</persName>
+                        <note>Scrittore (1313-1375)</note>
+                    </person>
+                    <person xml:id="machiavelli">
+                        <persName type="main"><forename>Niccolò</forename> <surname>Machiavelli</surname></persName>
+                        <persName type="surname">Machiavelli</persName>
+                        <note>Scrittore e politico (1469-1527)</note>
+                    </person>
+                    <person xml:id="ariosto">
+                        <persName type="main"><forename>Ludovico</forename> <surname>Ariosto</surname></persName>
+                        <persName type="surname">Ariosto</persName>
+                        <note>Poeta (1474-1533)</note>
+                    </person>
+                    <person xml:id="tasso">
+                        <persName type="main"><forename>Torquato</forename> <surname>Tasso</surname></persName>
+                        <persName type="surname">Tasso</persName>
+                        <persName type="full">Torquato Tasso</persName>
+                        <note>Poeta (1544-1595)</note>
+                    </person>
+                    <person xml:id="parini">
+                        <persName type="main"><forename>Giuseppe</forename> <surname>Parini</surname></persName>
+                        <persName type="surname">Parini</persName>
+                        <note>Poeta (1729-1799)</note>
+                    </person>
+                    <person xml:id="alfieri">
+                        <persName type="main"><forename>Vittorio</forename> <surname>Alfieri</surname></persName>
+                        <persName type="surname">Alfieri</persName>
+                        <note>Poeta e drammaturgo (1749-1803)</note>
+                    </person>
+                    <person xml:id="foscolo">
+                        <persName type="main"><forename>Ugo</forename> <surname>Foscolo</surname></persName>
+                        <persName type="surname">Foscolo</persName>
+                        <note>Poeta (1778-1827)</note>
+                    </person>
+                    <person xml:id="leopardi">
+                        <persName type="main"><forename>Giacomo</forename> <surname>Leopardi</surname></persName>
+                        <persName type="surname">Leopardi</persName>
+                        <note>Poeta (1798-1837)</note>
+                    </person>
+                    <person xml:id="grossi">
+                        <persName type="main"><forename>Tommaso</forename> <surname>Grossi</surname></persName>
+                        <persName type="surname">Grossi</persName>
+                        <persName type="full">Tommaso Grossi</persName>
+                        <note>Poeta e romanziere, amico di Manzoni (1790-1853)</note>
+                    </person>
+                    <person xml:id="berchet">
+                        <persName type="main"><forename>Giovanni</forename> <surname>Berchet</surname></persName>
+                        <persName type="surname">Berchet</persName>
+                        <note>Poeta romantico (1783-1851)</note>
+                    </person>
+                    <person xml:id="carducci">
+                        <persName type="main"><forename>Giosuè</forename> <surname>Carducci</surname></persName>
+                        <persName type="surname">Carducci</persName>
+                        <persName type="uppercase">CARDUCCI</persName>
+                        <note>Poeta (1835-1907)</note>
+                    </person>
+                    <person xml:id="verga">
+                        <persName type="main"><forename>Giovanni</forename> <surname>Verga</surname></persName>
+                        <persName type="surname">Verga</persName>
+                        <note>Scrittore verista (1840-1922)</note>
+                    </person>
+                    <person xml:id="monti">
+                        <persName type="main"><forename>Vincenzo</forename> <surname>Monti</surname></persName>
+                        <persName type="surname">Monti</persName>
+                        <persName type="full">Vincenzo Monti</persName>
+                        <note>Poeta neoclassico (1754-1828)</note>
+                    </person>
+                    <person xml:id="marino">
+                        <persName type="main"><forename>Giovan Battista</forename> <surname>Marino</surname></persName>
+                        <persName type="abbrev">G. B. Marino</persName>
+                        <note>Poeta barocco (1569-1625)</note>
+                    </person>
+                    <person xml:id="metastasio">
+                        <persName type="main"><surname>Metastasio</surname></persName>
+                        <note>Poeta e librettista (1698-1782)</note>
+                    </person>
+                    <person xml:id="pascoli">
+                        <persName type="main"><forename>Giovanni</forename> <surname>Pascoli</surname></persName>
+                        <persName type="surname">Pascoli</persName>
+                        <persName type="full">Giovanni Pascoli</persName>
+                        <note>Poeta (1855-1912)</note>
+                    </person>
+                    <person xml:id="d_annunzio">
+                        <persName type="main"><surname>D'Annunzio</surname></persName>
+                        <note>Poeta e scrittore (1863-1938)</note>
+                    </person>
+                    <person xml:id="guicciardini">
+                        <persName type="main"><surname>Guicciardini</surname></persName>
+                        <note>Storico e politico (1483-1540)</note>
+                    </person>
+                    <person xml:id="muratori">
+                        <persName type="main"><surname>Muratori</surname></persName>
+                        <note>Storico e erudito (1672-1750)</note>
+                    </person>
+                    <person xml:id="vico">
+                        <persName type="main"><surname>Vico</surname></persName>
+                        <note>Filosofo (1668-1744)</note>
+                    </person>
+                    <person xml:id="beccaria">
+                        <persName type="main"><forename>Cesare</forename> <surname>Beccaria</surname></persName>
+                        <persName type="surname">Beccaria</persName>
+                        <persName type="full">Cesare Beccaria</persName>
+                        <note>Filosofo e giurista, nonno materno di Manzoni (1738-1794)</note>
+                    </person>
+                    <person xml:id="verri">
+                        <persName type="main"><forename>Pietro</forename> <surname>Verri</surname></persName>
+                        <persName type="surname">Verri</persName>
+                        <persName type="full">Pietro Verri</persName>
+                        <persName type="uppercase">PIETRO VERRI</persName>
+                        <note>Filosofo illuminista (1728-1797)</note>
+                    </person>
+                    <person xml:id="giusti">
+                        <persName type="main"><surname>Giusti</surname></persName>
+                        <note>Poeta satirico (1809-1850)</note>
+                    </person>
+                    <person xml:id="porta">
+                        <persName type="main"><forename>Carlo</forename> <surname>Porta</surname></persName>
+                        <persName type="full">Carlo Porta</persName>
+                        <note>Poeta dialettale milanese (1775-1821)</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- SCRITTORI CLASSICI -->
+                <!-- ========================================== -->
+                <listPerson type="scrittori_classici">
+                    <head>Scrittori classici</head>
+                    <person xml:id="virgilio">
+                        <persName type="main"><forename>Publio Virgilio</forename> <surname>Marone</surname></persName>
+                        <persName type="forename">Virgilio</persName>
+                        <note>Poeta latino (70-19 a.C.)</note>
+                    </person>
+                    <person xml:id="ovidio">
+                        <persName type="main"><forename>Publio Ovidio</forename> <surname>Nasone</surname></persName>
+                        <persName type="forename">Ovidio</persName>
+                        <note>Poeta latino (43 a.C.-17 d.C.)</note>
+                    </person>
+                    <person xml:id="orazio">
+                        <persName type="main">Orazio</persName>
+                        <note>Poeta latino (65-8 a.C.)</note>
+                    </person>
+                    <person xml:id="cicerone">
+                        <persName type="main"><forename>Marco Tullio</forename> <surname>Cicerone</surname></persName>
+                        <persName type="surname">Cicerone</persName>
+                        <note>Oratore e filosofo romano</note>
+                    </person>
+                    <person xml:id="aristotele">
+                        <persName type="main">Aristotele</persName>
+                        <persName type="variant">Aristotile</persName>
+                        <note>Filosofo greco</note>
+                    </person>
+                    <person xml:id="plutarco">
+                        <persName type="main">Plutarco</persName>
+                        <note>Storico e filosofo greco</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- SCRITTORI STRANIERI -->
+                <!-- ========================================== -->
+                <listPerson type="scrittori_stranieri">
+                    <head>Scrittori stranieri</head>
+                    <person xml:id="shakespeare">
+                        <persName type="main"><forename>William</forename> <surname>Shakespeare</surname></persName>
+                        <persName type="surname">Shakespeare</persName>
+                        <note>Drammaturgo inglese (1564-1616)</note>
+                    </person>
+                    <person xml:id="voltaire">
+                        <persName type="main">Voltaire</persName>
+                        <note>Filosofo e scrittore francese (1694-1778)</note>
+                    </person>
+                    <person xml:id="diderot">
+                        <persName type="main"><forename>Denis</forename> <surname>Diderot</surname></persName>
+                        <persName type="surname">Diderot</persName>
+                        <note>Filosofo francese (1713-1784)</note>
+                    </person>
+                    <person xml:id="pascal">
+                        <persName type="main"><forename>Blaise</forename> <surname>Pascal</surname></persName>
+                        <persName type="surname">Pascal</persName>
+                        <note>Filosofo e matematico francese (1623-1662)</note>
+                    </person>
+                    <person xml:id="bossuet">
+                        <persName type="main"><forename>Jacques-Bénigne</forename> <surname>Bossuet</surname></persName>
+                        <persName type="surname">Bossuet</persName>
+                        <note>Vescovo e oratore francese (1627-1704)</note>
+                    </person>
+                    <person xml:id="tolstoj">
+                        <persName type="main">Tolstoj</persName>
+                        <persName type="variant">Tolsoi</persName>
+                        <note>Scrittore russo (1828-1910)</note>
+                    </person>
+                    <person xml:id="flaubert">
+                        <persName type="main">Flaubert</persName>
+                        <note>Scrittore francese (1821-1880)</note>
+                    </person>
+                    <person xml:id="zola">
+                        <persName type="main"><forename>Émile</forename> <surname>Zola</surname></persName>
+                        <persName type="abbrev">E. Zola</persName>
+                        <note>Scrittore francese (1840-1902)</note>
+                    </person>
+                    <person xml:id="schiller">
+                        <persName type="main">Schiller</persName>
+                        <note>Poeta e drammaturgo tedesco (1759-1805)</note>
+                    </person>
+                    <person xml:id="hegel">
+                        <persName type="main">Hegel</persName>
+                        <note>Filosofo tedesco (1770-1831)</note>
+                    </person>
+                    <person xml:id="bergson">
+                        <persName type="main">Bergson</persName>
+                        <note>Filosofo francese (1859-1941)</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- FIGURE RELIGIOSE -->
+                <!-- ========================================== -->
+                <listPerson type="figure_religiose">
+                    <head>Figure religiose</head>
+                    <person xml:id="gesu">
+                        <persName type="main">Gesù Cristo</persName>
+                        <persName type="forename">Gesù</persName>
+                        <persName type="forename">Cristo</persName>
+                        <note>Figura centrale del Cristianesimo</note>
+                    </person>
+                    <person xml:id="madonna">
+                        <persName type="main">Madonna</persName>
+                        <persName type="variant">Maria</persName>
+                        <persName type="variant">Maria Vergine</persName>
+                        <persName type="variant">Vergine</persName>
+                        <note>Madre di Gesù</note>
+                    </person>
+                    <person xml:id="dio">
+                        <persName type="main">Dio</persName>
+                        <persName type="variant">Domeneddio</persName>
+                        <persName type="variant">Signore</persName>
+                        <persName type="variant">Provvidenza</persName>
+                        <note>Divinità cristiana</note>
+                    </person>
+                    <person xml:id="satana">
+                        <persName type="main">Satana</persName>
+                        <persName type="variant">diavolo</persName>
+                        <persName type="variant">il diavolo</persName>
+                        <note>Figura del male</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- FIGURE CLASSICHE E MITOLOGICHE -->
+                <!-- ========================================== -->
+                <listPerson type="figure_classiche">
+                    <head>Figure classiche e mitologiche</head>
+                    <person xml:id="carneade">
+                        <persName type="main">Carneade</persName>
+                        <note>Filosofo greco scettico (214-129 a.C.), citato nella famosa esclamazione di don Ferrante</note>
+                    </person>
+                    <person xml:id="archimede">
+                        <persName type="main">Archimede</persName>
+                        <note>Matematico e fisico greco (287-212 a.C.)</note>
+                    </person>
+                    <person xml:id="tolomeo">
+                        <persName type="main">Tolomeo</persName>
+                        <note>Astronomo greco-egizio (100-170 d.C.)</note>
+                    </person>
+                    <person xml:id="enea">
+                        <persName type="main">Enea</persName>
+                        <note>Eroe troiano, protagonista dell'Eneide</note>
+                    </person>
+                    <person xml:id="giove">
+                        <persName type="main">Giove</persName>
+                        <note>Divinità romana</note>
+                    </person>
+                    <person xml:id="achille">
+                        <persName type="main">Achille</persName>
+                        <note>Eroe greco dell'Iliade</note>
+                    </person>
+                    <person xml:id="napoleone">
+                        <persName type="main">Napoleone</persName>
+                        <persName type="full">Napoleone Bonaparte</persName>
+                        <note>Imperatore francese (1769-1821), celebrato nel Cinque Maggio di Manzoni</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- SCRITTORI DEL SEICENTO -->
+                <!-- ========================================== -->
+                <listPerson type="scrittori_seicento">
+                    <head>Scrittori e figure del Seicento</head>
+                    <person xml:id="achillini">
+                        <persName type="main"><forename>Claudio</forename> <surname>Achillini</surname></persName>
+                        <persName type="surname">Achillini</persName>
+                        <persName type="variant">Claudio Achilini</persName>
+                        <note>Poeta barocco (1574-1640)</note>
+                    </person>
+                    <person xml:id="boccalini">
+                        <persName type="main"><forename>Traiano</forename> <surname>Boccalini</surname></persName>
+                        <persName type="surname">Boccalini</persName>
+                        <note>Scrittore satirico (1556-1613)</note>
+                    </person>
+                    <person xml:id="birago">
+                        <persName type="main">Birago</persName>
+                        <persName type="full">Francesco Birago</persName>
+                        <note>Scrittore e lessicografo del Seicento</note>
+                    </person>
+                    <person xml:id="bartoli">
+                        <persName type="main"><forename>Daniello</forename> <surname>Bartoli</surname></persName>
+                        <persName type="surname">Bartoli</persName>
+                        <persName type="full">Daniello Bartoli</persName>
+                        <note>Scrittore gesuita (1608-1685)</note>
+                    </person>
+                </listPerson>
+
+                <!-- ========================================== -->
+                <!-- PERSONAGGI LETTERARI (menzionati nel commento) -->
+                <!-- ========================================== -->
+                <listPerson type="personaggi_letterari">
+                    <head>Personaggi letterari citati</head>
+                    <person xml:id="ermengarda">
+                        <persName type="main">Ermengarda</persName>
+                        <note>Personaggio dell'Adelchi di Manzoni</note>
+                    </person>
+                    <person xml:id="adelchi">
+                        <persName type="main">Adelchi</persName>
+                        <note>Personaggio dell'omonima tragedia di Manzoni</note>
+                    </person>
+                    <person xml:id="carmagnola">
+                        <persName type="main">Carmagnola</persName>
+                        <persName type="article">il Carmagnola</persName>
+                        <note>Personaggio dell'omonima tragedia di Manzoni</note>
+                    </person>
+                    <person xml:id="conte_sagrato">
+                        <persName type="main">Conte del Sagrato</persName>
+                        <persName type="variant">Il Conte del Sagrato</persName>
+                        <note>Personaggio del Fermo e Lucia</note>
+                    </person>
+                    <person xml:id="farinata">
+                        <persName type="main">Farinata</persName>
+                        <note>Personaggio della Divina Commedia</note>
+                    </person>
+                    <person xml:id="conte_ugolino">
+                        <persName type="main">conte Ugolino</persName>
+                        <note>Personaggio della Divina Commedia</note>
+                    </person>
+                    <person xml:id="beatrice">
+                        <persName type="main">Beatrice</persName>
+                        <note>Personaggio della Divina Commedia</note>
+                    </person>
+                    <person xml:id="don_chisciotte">
+                        <persName type="main">don Chisciotte</persName>
+                        <note>Personaggio di Cervantes</note>
+                    </person>
+                    <person xml:id="amleto">
+                        <persName type="main">Amleto</persName>
+                        <note>Personaggio shakespeariano</note>
+                    </person>
+                    <person xml:id="macbeth">
+                        <persName type="main">Macbeth</persName>
+                        <persName type="variant">Lady Macbeth</persName>
+                        <note>Personaggio shakespeariano</note>
+                    </person>
+                    <person xml:id="angelica">
+                        <persName type="main">Angelica</persName>
+                        <note>Personaggio dell'Orlando furioso</note>
+                    </person>
+                    <person xml:id="psiche">
+                        <persName type="main">Psiche</persName>
+                        <note>Personaggio mitologico</note>
+                    </person>
+                </listPerson>
+
+            </listPerson>
+        </body>
+    </text>
+</TEI>
