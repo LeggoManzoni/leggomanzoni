@@ -10,7 +10,8 @@ const ejs = require('ejs');
 const fs = require('fs');
 const { google } = require('googleapis');
 const i18n = require('./config/i18n');
-const cookieParser = require('cookie-parser'); 
+const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml, aggregateCommentsForChapter } = require('./assets/js/convert.js');
 //const { xmlInfo } = require('./assets/js/collect_info.js');
@@ -18,6 +19,7 @@ const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, c
 /* app */
 const app = express();
 
+app.use(compression());
 app.use(cookieParser());
 app.use(i18n.init);
 
@@ -104,6 +106,10 @@ app.use("/", credits);
 /* analisi */
 const analisi = require("./routes/analisi");
 app.use("/", analisi);
+
+/* concordanza */
+const concordanza = require("./routes/concordanza");
+app.use("/", concordanza);
 
 /* prova estrazione id */
 function extractIds(html) {

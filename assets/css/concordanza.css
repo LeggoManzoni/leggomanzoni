@@ -1,0 +1,320 @@
+/* Concordanza page styles */
+
+#concordanza-page {
+    font-size: 1.05em;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+#concordanza-page .container {
+    max-width: 1600px;
+}
+#concordanza-page .testo {
+    width: 100%;
+    height: auto;
+    overflow-y: visible;
+}
+
+/* Layout */
+.conc-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+.conc-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+}
+.conc-sidebar-inner {
+    position: sticky;
+    top: 100px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+.word-list-letter {
+    font-weight: 700;
+    color: #73978B;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+}
+.word-list-item {
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.word-list-item:hover { background: #e8f0ed; }
+.word-list-item .count { color: #999; font-size: 0.8em; }
+.idiom-list-item {
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    border-bottom: 1px solid #f0f0f0;
+}
+.idiom-list-item:hover { background: #e8f0ed; }
+.idiom-tipologia {
+    display: inline-block;
+    font-size: 0.75em;
+    background: #e0e0e0;
+    padding: 1px 6px;
+    border-radius: 8px;
+    margin-left: 4px;
+}
+
+/* Main area */
+.conc-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Search panel */
+.conc-search {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.conc-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 15px;
+}
+.conc-tab {
+    padding: 8px 24px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.conc-tab:first-child { border-radius: 0.25rem 0 0 0.25rem; }
+.conc-tab:last-child { border-radius: 0 0.25rem 0.25rem 0; }
+.conc-tab.active {
+    background: #73978B;
+    color: white;
+    border-color: #73978B;
+}
+
+/* Exact form checkbox — inline with tabs */
+.conc-exact-toggle {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9em;
+    color: #555;
+    cursor: pointer;
+    padding: 0 12px;
+    white-space: nowrap;
+}
+.conc-exact-toggle input[type="checkbox"] {
+    accent-color: #73978B;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Search row */
+.conc-search-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.conc-search-input {
+    flex: 1;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.15s;
+}
+.conc-search-input:focus {
+    outline: 0;
+    border-color: #73978B;
+    box-shadow: 0 0 0 0.25rem rgba(115, 151, 139, 0.25);
+}
+
+/* Idiom tipologia filter */
+.conc-idiom-filter {
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 0.95em;
+}
+
+/* Results */
+.conc-results {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.conc-results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.conc-result-count {
+    color: #666;
+    font-size: 0.95em;
+}
+.conc-sort-controls {
+    display: flex;
+    gap: 6px;
+}
+.conc-sort-btn {
+    padding: 4px 12px;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    background: white;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+.conc-sort-btn.active {
+    background: #73978B;
+    color: white;
+    border-color: #73978B;
+}
+
+/* KWIC table */
+.kwic-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.kwic-table tr { border-bottom: 1px solid #f5f5f5; }
+.kwic-table tr:hover { background: #fafafa; }
+.kwic-table td { padding: 6px 4px; vertical-align: middle; }
+.kwic-ch {
+    text-align: left;
+    width: 7%;
+    color: #888;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+.kwic-left {
+    text-align: right;
+    width: 34%;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.kwic-kw {
+    text-align: center;
+    width: 16%;
+    font-weight: 600;
+    background: #FAEEDA;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.kwic-kw.idiom { background: #d4edda; }
+.kwic-right {
+    text-align: left;
+    width: 34%;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.kwic-link {
+    text-align: center;
+    width: 5%;
+}
+.kwic-link a {
+    color: #73978B;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.kwic-link a:hover { color: #5a7a70; }
+
+/* Lemma forms info bar */
+.conc-lemma-forms {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #f8f8f8;
+    border-radius: 0.25rem;
+    font-size: 0.9em;
+    color: #555;
+}
+.conc-lemma-forms span[data-form] {
+    display: inline-block;
+    background: #e8e8e8;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.conc-lemma-forms span:hover { background: #FAEEDA; }
+
+/* Status messages */
+.conc-loading {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+}
+.conc-empty {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+}
+.conc-register-note {
+    font-size: 0.8em;
+    color: #b07d10;
+    font-style: italic;
+}
+
+/* Pagination */
+.conc-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.conc-pagination button {
+    padding: 6px 14px;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    background: white;
+    cursor: pointer;
+}
+.conc-pagination button.active {
+    background: #73978B;
+    color: white;
+    border-color: #73978B;
+}
+.conc-pagination button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .conc-container { flex-direction: column; }
+    .conc-sidebar { width: 100%; }
+    .conc-sidebar-inner {
+        position: static;
+        max-height: 300px;
+    }
+    .kwic-left, .kwic-right { width: 30%; }
+}

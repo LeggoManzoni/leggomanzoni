@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head-->
+<%- include ("partials/head"); %>
+<link href="./assets/css/concordanza.css" rel="stylesheet" />
+
+    <body id="page-top" class="normalFont">
+        <!-- Navigation-->
+        <%- include("partials/navbar"); %>
+
+            <!-- Masthead-->
+            <header class="masthead">
+                <section class="page-section bg-primary" id="concordanza-page">
+                    <div class="container px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="testo">
+                                <h2 class="text-center mt-0">Concordanza</h2>
+                                <!-- <hr class="divider">
+                                <p class="text-center" style="color:#666;">
+                                    Ricerca parole e locuzioni ne <em>I Promessi Sposi</em> (Quarantana, 1840)
+                                </p> -->
+
+                                <div id="conc-loading" class="conc-loading">
+                                    Caricamento dell'indice...
+                                </div>
+
+                                <div id="conc-app" style="display:none;">
+                                    <div class="conc-container">
+                                        <!-- Sidebar -->
+                                        <div class="conc-sidebar">
+                                            <div class="conc-sidebar-inner">
+                                                <div id="sidebar-content"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Main -->
+                                        <div class="conc-main">
+                                            <!-- Search panel -->
+                                            <div class="conc-search">
+                                                <div class="conc-tabs">
+                                                    <div class="conc-tab active" data-mode="word">Parole</div>
+                                                    <div class="conc-tab" data-mode="idiom">Locuzioni</div>
+                                                    <label class="conc-exact-toggle" id="exact-toggle-wrapper">
+                                                        <input type="checkbox" id="mode-exact-check">
+                                                        Forma esatta
+                                                    </label>
+                                                </div>
+
+                                                <!-- Word search -->
+                                                <div id="word-search-panel">
+                                                    <div class="conc-search-row">
+                                                        <input type="text" id="search-input" class="conc-search-input"
+                                                            placeholder="Cerca una parola..." autocomplete="off">
+                                                        <button id="search-btn" class="btn btn-primary">Cerca</button>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Idiom search -->
+                                                <div id="idiom-search-panel" style="display:none;">
+                                                    <div class="conc-search-row">
+                                                        <input type="text" id="idiom-search-input" class="conc-search-input"
+                                                            placeholder="Cerca nelle locuzioni...">
+                                                        <button id="idiom-search-btn" class="btn btn-primary">Cerca</button>
+                                                        <select id="idiom-tipo-filter" class="conc-idiom-filter">
+                                                            <option value="">Tutte le tipologie</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Lemma forms info -->
+                                            <div id="lemma-info" class="conc-lemma-forms" style="display:none;"></div>
+
+                                            <!-- Results -->
+                                            <div class="conc-results">
+                                                <div class="conc-results-header">
+                                                    <div id="result-count" class="conc-result-count"></div>
+                                                    <div class="conc-sort-controls">
+                                                        <button class="conc-sort-btn active" data-sort="chapter">Capitolo</button>
+                                                        <button class="conc-sort-btn" data-sort="left">Contesto sin.</button>
+                                                        <button class="conc-sort-btn" data-sort="right">Contesto des.</button>
+                                                    </div>
+                                                </div>
+                                                <div id="results-body">
+                                                    <div class="conc-empty">Inserisci una parola per iniziare la ricerca</div>
+                                                </div>
+                                                <div id="pagination" class="conc-pagination"></div>
+                                            </div>
+                                        </div><!-- end conc-main -->
+                                    </div><!-- end conc-container -->
+                                </div><!-- end conc-app -->
+
+                            </div><!-- end testo -->
+                        </div>
+                    </div>
+                </section>
+            </header>
+
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+
+                    <script src="./assets/js/concordanza.js"></script>
+    </body>
+</html>
