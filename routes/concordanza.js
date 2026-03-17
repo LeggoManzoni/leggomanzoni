@@ -16,8 +16,8 @@ router.get("/concordanza", (req, res) => {
 
 /* concordance data — serves the pre-compressed JSON index */
 router.get("/concordanza/data", (req, res) => {
-    const gzPath = path.join(__dirname, "../data/concordance.json.gz");
-    const jsonPath = path.join(__dirname, "../data/concordance.json");
+    const gzPath = path.resolve(__dirname, "../data/concordance.json.gz");
+    const jsonPath = path.resolve(__dirname, "../data/concordance.json");
 
     if (fs.existsSync(gzPath) && req.acceptsEncodings("gzip")) {
         res.setHeader("Content-Type", "application/json");
