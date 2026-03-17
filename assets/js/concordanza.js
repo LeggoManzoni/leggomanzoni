@@ -49,7 +49,7 @@
     // Stanza artifacts and verb forms already under a lemma
     'nnon', 'allare', 'allo', 'altrio', 'andò', 'ancare',
     // More function words / preposition forms
-    'coi', 'nello', 'quel', 'ale', 'co', 'de', 'dal', 'dall',
+    'coi', 'nello', 'quel', 'ale', 'co', 'de', 'dal', 'dall', 'agli',
     'é', 'sì', 'dalli', 'dagli', 'avevo', 'disse', 'fatto', 'oro',
     // Stanza misattributions (inflated by wrong form grouping)
     'manina',
@@ -104,6 +104,10 @@
   async function loadIndex() {
     if (INDEX) return;
     var res = await fetch('./concordanza/data');
+    if (!res.ok) {
+      var err = await res.json().catch(function () { return {}; });
+      throw new Error(err.error || ('HTTP ' + res.status));
+    }
     INDEX = await res.json();
     // Build normalised lemma map — merges raw lemma keys by normalised form
     // Reject lemma keys with internal punctuation (Stanza artifacts)
@@ -260,17 +264,14 @@
 
       var dataId = hit.id ? hit.id.replace(/\D/g, '') : '';
       var readerParam = chapterToReaderParam(hit.chapter);
-      var href = './confronta?cap=' + readerParam + '&word=' + (hit.id || hit.start_id || '');
+      var href = './confronta?cap=' + encodeURIComponent(readerParam) + '&word=' + encodeURIComponent(hit.id || hit.start_id || '');
 
       var kwClass = isIdiom ? 'kwic-kw idiom' : 'kwic-kw';
-      var registerNote = hit.register === 'seicento'
-        ? ' <span class="conc-register-note" title="Testo del manoscritto seicentesco">[600]</span>'
-        : '';
 
       html += '<tr class="kwic-row">'
         + '<td class="kwic-ch">' + ch + '</td>'
         + '<td class="kwic-left">' + left + '</td>'
-        + '<td class="' + kwClass + '">' + kw + registerNote + '</td>'
+        + '<td class="' + kwClass + '">' + kw + '</td>'
         + '<td class="kwic-right">' + right + '</td>'
         + '<td class="kwic-link"><a href="' + href + '" title="Vai al testo">\u2197</a></td>'
         + '</tr>';
@@ -616,13 +617,6 @@
           return;
         }
 
-        CURRENT_RESULTS = [];
-        CURRENT_PAGE = 0;
-        document.getElementById('results-body').innerHTML =
-          '<div class="conc-empty">Inserisci una parola per iniziare la ricerca</div>';
-        document.getElementById('result-count').textContent = '';
-        document.getElementById('pagination').innerHTML = '';
-        document.getElementById('lemma-info').style.display = 'none';
       });
     });
 
@@ -694,10 +688,11 @@
       if (t) tipos[t] = (tipos[t] || 0) + 1;
     }
     var select = document.getElementById('idiom-tipo-filter');
-    select.innerHTML = '<option value="">Tutte le tipologie</option>';
+    var opts = '<option value="">Tutte le tipologie</option>';
     Object.keys(tipos).sort().forEach(function (t) {
-      select.innerHTML += '<option value="' + t + '">' + t + ' (' + tipos[t] + ')</option>';
+      opts += '<option value="' + escapeHtml(t) + '">' + escapeHtml(t) + ' (' + tipos[t] + ')</option>';
     });
+    select.innerHTML = opts;
   }
 
 })();

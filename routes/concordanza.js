@@ -6,6 +6,12 @@ const fs = require("fs");
 /* router */
 const router = express.Router();
 
+/* resolve data paths once at startup */
+const gzPath = path.resolve(__dirname, "../data/concordance.json.gz");
+const jsonPath = path.resolve(__dirname, "../data/concordance.json");
+const hasGz = fs.existsSync(gzPath);
+const hasJson = fs.existsSync(jsonPath);
+
 /* concordanza */
 router.get("/concordanza", (req, res) => {
     res.render("concordanza", {
@@ -16,15 +22,12 @@ router.get("/concordanza", (req, res) => {
 
 /* concordance data — serves the pre-compressed JSON index */
 router.get("/concordanza/data", (req, res) => {
-    const gzPath = path.resolve(__dirname, "../data/concordance.json.gz");
-    const jsonPath = path.resolve(__dirname, "../data/concordance.json");
-
-    if (fs.existsSync(gzPath) && req.acceptsEncodings("gzip")) {
+    if (hasGz && req.acceptsEncodings("gzip")) {
         res.setHeader("Content-Type", "application/json");
         res.setHeader("Content-Encoding", "gzip");
         res.setHeader("Cache-Control", "public, max-age=86400");
         res.sendFile(gzPath);
-    } else if (fs.existsSync(jsonPath)) {
+    } else if (hasJson) {
         res.setHeader("Cache-Control", "public, max-age=86400");
         res.sendFile(jsonPath);
     } else {
