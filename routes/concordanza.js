@@ -14,14 +14,22 @@ router.get("/concordanza", (req, res) => {
     });
 });
 
-/* concordance data — serves the prebuilt JSON index */
+/* concordance data — serves the pre-compressed JSON index */
 router.get("/concordanza/data", (req, res) => {
-    const filePath = path.join(__dirname, "../data/concordance.json");
-    if (!fs.existsSync(filePath)) {
-        return res.status(404).json({ error: "Concordance index not built. Run: npm run build-concordance" });
+    const gzPath = path.join(__dirname, "../data/concordance.json.gz");
+    const jsonPath = path.join(__dirname, "../data/concordance.json");
+
+    if (fs.existsSync(gzPath) && req.acceptsEncodings("gzip")) {
+        res.setHeader("Content-Type", "application/json");
+        res.setHeader("Content-Encoding", "gzip");
+        res.setHeader("Cache-Control", "public, max-age=86400");
+        res.sendFile(gzPath);
+    } else if (fs.existsSync(jsonPath)) {
+        res.setHeader("Cache-Control", "public, max-age=86400");
+        res.sendFile(jsonPath);
+    } else {
+        res.status(404).json({ error: "Concordance index not built. Run: npm run build-concordance" });
     }
-    res.setHeader("Cache-Control", "public, max-age=86400");
-    res.sendFile(filePath);
 });
 
 /* export the module */

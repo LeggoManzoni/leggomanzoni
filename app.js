@@ -11,7 +11,6 @@ const fs = require('fs');
 const { google } = require('googleapis');
 const i18n = require('./config/i18n');
 const cookieParser = require('cookie-parser');
-const compression = require('compression');
 
 const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, convertTranslationXMLToHtml, aggregateCommentsForChapter } = require('./assets/js/convert.js');
 //const { xmlInfo } = require('./assets/js/collect_info.js');
@@ -19,7 +18,6 @@ const { convertXmlToHtml, convertCommentXMLToHtml, convertXmlToHtmlWithImages, c
 /* app */
 const app = express();
 
-app.use(compression());
 app.use(cookieParser());
 app.use(i18n.init);
 
