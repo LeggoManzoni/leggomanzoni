@@ -103,7 +103,7 @@
   // ---------------------------------------------------------------------------
   async function loadIndex() {
     if (INDEX) return;
-    var res = await fetch('/concordanza/data');
+    var res = await fetch('./concordanza/data');
     INDEX = await res.json();
     // Build normalised lemma map — merges raw lemma keys by normalised form
     // Reject lemma keys with internal punctuation (Stanza artifacts)
