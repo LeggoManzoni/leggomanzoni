@@ -44,6 +44,7 @@
                                                         <input type="checkbox" id="mode-exact-check">
                                                         Forma esatta
                                                     </label>
+                                                    <button class="conc-help-btn" id="conc-help-btn" title="Come funziona la ricerca">?</button>
                                                 </div>
 
                                                 <!-- Word search -->
@@ -95,6 +96,70 @@
                     </div>
                 </section>
             </header>
+
+            <!-- Help modal -->
+            <div id="conc-help-modal" class="conc-modal-overlay">
+                <div class="conc-modal conc-help-modal">
+                    <div class="conc-modal-header">
+                        <span>Ricerco Manzoni</span>
+                        <button class="conc-modal-close" id="conc-help-close">&times;</button>
+                    </div>
+                    <div class="conc-modal-body">
+                        <p><strong>RICERCO MANZONI</strong> permette di condurre analisi testuali attraverso le concordanze
+                            informatizzate dei <em>Promessi sposi</em>. Le concordanze forniscono un repertorio di tutte le
+                            parole utilizzate in un testo o in un corpus di testi. Le parole vengono disposte in un elenco al
+                            centro del loro contesto. Le concordanze sono un valido strumento per svolgere indagini
+                            quantitative &mdash; ad esempio, rilevando la frequenza con cui le parole si presentano &mdash; e
+                            qualitative &mdash; individuando i legami tra loro.</p>
+                        <p>Il nostro strumento concordanziale estende le consuete modalit&agrave; di interrogazione oltre la
+                            singola parola: offre infatti la possibilit&agrave; di consultare le <strong>locuzioni</strong> del
+                            romanzo.</p>
+                        <p>La ricerca si pu&ograve; svolgere in due modi: per <strong>parole</strong> o per
+                            <strong>locuzioni</strong>.</p>
+                        <h3>Parole</h3>
+                        <p>La ricerca per <strong>PAROLE</strong> trova tutte le occorrenze della parola nel testo. La barra di
+                            ricerca permette di estrarre la <strong>forma esatta</strong> della parola inserita oppure tutte le
+                            forme che la caratterizzano (ad esempio, cercando un verbo all'infinito sono restituite tutte le
+                            forme coniugate). Le concordanze possono essere ordinate secondo il capitolo, il contesto sinistro
+                            e il contesto destro. Alla sinistra della schermata, una sezione contiene i lemmi pi&ugrave;
+                            frequenti, ordinati alfabeticamente.</p>
+                        <h3>Locuzioni</h3>
+                        <p>La ricerca per <strong>LOCUZIONI</strong> si svolge come la ricerca per parole ma, anzich&eacute;
+                            restituire parole singole, fornisce un elenco delle locuzioni che contengono la parola interessata.
+                            Sulla sinistra, una sezione presenta le parole-chiave delle locuzioni contenute nel testo. Le
+                            locuzioni sono divise in quattro tipologie:</p>
+                        <ul class="conc-help-types">
+                            <li><strong>BI</strong> &laquo;binomio irreversibile&raquo;: una coppia di parole che ricorrono
+                                insieme e non possono essere invertite. Es. <em>sano e salvo</em>, <em>botta e risposta</em>,
+                                <em>vivo o morto</em>.</li>
+                            <li><strong>EI</strong> &laquo;espressione idiomatica&raquo;: il modo di dire, che condensa in
+                                sequenze fisse un significato metaforico. Es. <em>avere sangue freddo</em>, <em>avere il
+                                mestolo in mano</em>, <em>essere la bocca della verit&agrave;</em>.</li>
+                            <li><strong>P</strong> &laquo;paragone standardizzato&raquo;: una similitudine che, per la sua
+                                esemplarit&agrave;, &egrave; diventata stereotipica. Es. <em>dare via come i confetti</em>,
+                                <em>lesto come un gatto</em>, <em>tremare come una foglia</em>.</li>
+                            <li><strong>Pr</strong> &laquo;proverbio e modi proverbiali&raquo;: detti e massime popolari,
+                                riconoscibili per il contenuto didattico e moraleggiante. Es. <em>l'abito non fa il
+                                monaco</em>, <em>il lupo cambia il pelo ma non il vizio</em>, <em>di necessit&agrave;
+                                virt&ugrave;</em>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Context modal -->
+            <div id="conc-context-modal" class="conc-modal-overlay">
+                <div class="conc-modal">
+                    <div class="conc-modal-header">
+                        <span id="conc-modal-title"></span>
+                        <button class="conc-modal-close" id="conc-modal-close">&times;</button>
+                    </div>
+                    <div class="conc-modal-body" id="conc-modal-body"></div>
+                    <div class="conc-modal-footer">
+                        <a id="conc-modal-link" href="#" target="_blank" class="btn btn-primary btn-sm">Vai al testo completo &#x2197;</a>
+                    </div>
+                </div>
+            </div>
 
                 <!-- Scripts-->
                 <%- include("partials/scripts"); %>

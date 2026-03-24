@@ -16,6 +16,7 @@
   let CURRENT_SORT = 'chapter';
   let CURRENT_PAGE = 0;
   const PAGE_SIZE = 100;
+  var CHAPTER_CACHE = {};
 
   const CHAPTER_ORDER = [
     'intro', 'cap1', 'cap2', 'cap3', 'cap4', 'cap5', 'cap6', 'cap7',
@@ -262,10 +263,6 @@
         : escapeHtml(hit.surface);
       var right = escapeHtml((hit.right || []).join(' '));
 
-      var dataId = hit.id ? hit.id.replace(/\D/g, '') : '';
-      var readerParam = chapterToReaderParam(hit.chapter);
-      var href = './confronta?cap=' + encodeURIComponent(readerParam) + '&word=' + encodeURIComponent(hit.id || hit.start_id || '');
-
       var kwClass = isIdiom ? 'kwic-kw idiom' : 'kwic-kw';
 
       html += '<tr class="kwic-row">'
@@ -273,7 +270,10 @@
         + '<td class="kwic-left">' + left + '</td>'
         + '<td class="' + kwClass + '">' + kw + '</td>'
         + '<td class="kwic-right">' + right + '</td>'
-        + '<td class="kwic-link"><a href="' + href + '" title="Vai al testo">\u2197</a></td>'
+        + '<td class="kwic-link"><a href="#" class="conc-context-link"'
+        + ' data-chapter="' + escapeHtml(hit.chapter) + '"'
+        + ' data-word-id="' + escapeHtml(hit.id || hit.start_id || '') + '"'
+        + ' title="Mostra contesto">\u2197</a></td>'
         + '</tr>';
     }
     html += '</tbody></table>';
@@ -380,24 +380,31 @@
   }
 
   function executeIdiomWordSearch(query) {
-    if (!query || !query.trim()) return;
-    var ft = query.toLowerCase().trim();
+    var filterTipo = document.getElementById('idiom-tipo-filter').value;
+    var ft = (query || '').toLowerCase().trim();
     var keys = Object.keys(INDEX.idioms);
     var results = [];
 
     for (var i = 0; i < keys.length; i++) {
       var idiom = INDEX.idioms[keys[i]];
-      var pk = (idiom.parola_chiave || '').toLowerCase();
-      var words = idiom.label.toLowerCase().split(/\s+/);
-      var match = pk.includes(ft);
-      if (!match) {
-        for (var w = 0; w < words.length; w++) {
-          if (words[w].includes(ft)) { match = true; break; }
+
+      // Filter by tipologia if selected
+      if (filterTipo && idiom.tipologia !== filterTipo) continue;
+
+      // Filter by text if provided
+      if (ft) {
+        var pk = (idiom.parola_chiave || '').toLowerCase();
+        var words = idiom.label.toLowerCase().split(/\s+/);
+        var match = pk.includes(ft);
+        if (!match) {
+          for (var w = 0; w < words.length; w++) {
+            if (words[w].includes(ft)) { match = true; break; }
+          }
         }
+        if (!match) continue;
       }
-      if (match) {
-        results = results.concat(idiom.occurrences);
-      }
+
+      results = results.concat(idiom.occurrences);
     }
 
     CURRENT_RESULTS = results;
@@ -646,6 +653,36 @@
       });
     });
 
+    // Help modal
+    document.getElementById('conc-help-btn').addEventListener('click', function () {
+      document.getElementById('conc-help-modal').style.display = 'flex';
+    });
+    document.getElementById('conc-help-close').addEventListener('click', function () {
+      document.getElementById('conc-help-modal').style.display = 'none';
+    });
+    document.getElementById('conc-help-modal').addEventListener('click', function (e) {
+      if (e.target === this) this.style.display = 'none';
+    });
+
+    // Context modal — event delegation for arrow clicks
+    document.getElementById('results-body').addEventListener('click', function (e) {
+      var link = e.target.closest('.conc-context-link');
+      if (link) {
+        e.preventDefault();
+        openContextModal(link.dataset.chapter, link.dataset.wordId);
+      }
+    });
+    document.getElementById('conc-modal-close').addEventListener('click', closeContextModal);
+    document.getElementById('conc-context-modal').addEventListener('click', function (e) {
+      if (e.target === this) closeContextModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        closeContextModal();
+        document.getElementById('conc-help-modal').style.display = 'none';
+      }
+    });
+
     // Idiom filters — update sidebar on input, search on button/Enter
     document.getElementById('idiom-search-input').addEventListener('input', function () {
       var tipo = document.getElementById('idiom-tipo-filter').value;
@@ -658,8 +695,10 @@
       executeIdiomWordSearch(document.getElementById('idiom-search-input').value);
     });
     document.getElementById('idiom-tipo-filter').addEventListener('change', function () {
-      var text = document.getElementById('idiom-search-input').value;
-      buildIdiomSidebar(text, this.value);
+      // Clear search input when changing tipologia to avoid confusing empty results
+      document.getElementById('idiom-search-input').value = '';
+      buildIdiomSidebar('', this.value);
+      executeIdiomWordSearch('');
     });
 
     // Build initial sidebar
@@ -679,6 +718,59 @@
       executeWordSearch('anima');
     }
   });
+
+  // ---------------------------------------------------------------------------
+  // Context modal
+  // ---------------------------------------------------------------------------
+  function openContextModal(chapter, wordId) {
+    var numericId = wordId.replace(/\D/g, '');
+    var modal = document.getElementById('conc-context-modal');
+    var body = document.getElementById('conc-modal-body');
+    var title = document.getElementById('conc-modal-title');
+    var link = document.getElementById('conc-modal-link');
+    var readerParam = chapterToReaderParam(chapter);
+
+    title.textContent = formatChapter(chapter);
+    body.innerHTML = '<div class="conc-loading">Caricamento...</div>';
+    link.href = './confronta?cap=' + encodeURIComponent(readerParam)
+      + '&word=' + encodeURIComponent(numericId);
+    modal.style.display = 'flex';
+
+    var promise = CHAPTER_CACHE[chapter]
+      ? Promise.resolve(CHAPTER_CACHE[chapter])
+      : fetch('./get-chapter/' + readerParam)
+          .then(function (r) { return r.text(); })
+          .then(function (html) { CHAPTER_CACHE[chapter] = html; return html; });
+
+    promise.then(function (html) {
+      var parser = new DOMParser();
+      var doc = parser.parseFromString('<div>' + html + '</div>', 'text/html');
+      var target = doc.querySelector('span[data-id="' + numericId + '"]');
+
+      if (!target) {
+        body.innerHTML = '<p style="color:#999;">Frammento non trovato.</p>';
+        return;
+      }
+
+      // Get the parent paragraph
+      var para = target.closest('p');
+      if (!para) para = target.parentElement;
+
+      // Clone and highlight the target word
+      var clone = para.cloneNode(true);
+      var hl = clone.querySelector('span[data-id="' + numericId + '"]');
+      if (hl) hl.classList.add('conc-highlight');
+
+      body.innerHTML = '';
+      body.appendChild(clone);
+    }).catch(function () {
+      body.innerHTML = '<p style="color:#c0392b;">Errore nel caricamento.</p>';
+    });
+  }
+
+  function closeContextModal() {
+    document.getElementById('conc-context-modal').style.display = 'none';
+  }
 
   function populateTipologiaFilter() {
     var tipos = {};

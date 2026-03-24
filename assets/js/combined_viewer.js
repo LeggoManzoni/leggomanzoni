@@ -2,7 +2,9 @@
 let selectedCurator = 'all';
 
 document.addEventListener('DOMContentLoaded', function () {
-    const defaultChapter = 'intro';
+    const params = new URLSearchParams(window.location.search);
+    const defaultChapter = params.get('cap') || 'intro';
+    const scrollToWord = params.get('word') || null;
 
     // Set initial button text
     document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(defaultChapter);
@@ -11,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     markActiveChapter(defaultChapter);
 
     // Load initial content
-    fetchChapter(defaultChapter);
+    fetchChapter(defaultChapter, scrollToWord);
     fetchCombinedComments(defaultChapter);
 
     // Setup listeners
@@ -32,7 +34,7 @@ function handleChapterClick(chapter) {
 /**
  * Fetches chapter text from the server
  */
-function fetchChapter(chapter) {
+function fetchChapter(chapter, scrollToWord) {
     const imageElement = document.querySelector('.bi.bi-card-image');
     const chapterURL = imageElement ? `./get-chapter/${chapter}` : `./get-chapter-with-images/${chapter}`;
 
@@ -47,9 +49,21 @@ function fetchChapter(chapter) {
                     h1Element.className = chapter;
                 }
 
-                // Scroll to top
                 const promessisposiElement = document.getElementById('promessisposi');
-                if (promessisposiElement) {
+
+                // Scroll to specific word if requested, otherwise scroll to top
+                if (scrollToWord) {
+                    setTimeout(() => {
+                        const target = chapterElement.querySelector(`span[data-id="${scrollToWord}"]`);
+                        if (target && promessisposiElement) {
+                            target.style.background = '#FAEEDA';
+                            target.style.fontWeight = '700';
+                            target.style.borderBottom = '2px solid #d4a843';
+                            target.style.borderRadius = '3px';
+                            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    }, 150);
+                } else if (promessisposiElement) {
                     promessisposiElement.scrollTop = 0;
                 }
 
