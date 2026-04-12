@@ -25,7 +25,7 @@
 
    <xsl:template match="note">
     <xsl:choose>
-        <xsl:when test="@type = 'comm'">
+        <xsl:when test="@type = 'comm' or @type = 'translation'">
             <!-- For type='comm', wrap inside <p> tags -->
                 <span class="scroll-item">
                     <xsl:attribute name="data-related-id">
