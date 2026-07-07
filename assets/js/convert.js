@@ -18,6 +18,32 @@ const fs = require('fs');
 const { xsltProcess, xmlParse } = require('xslt-processor');
 
 
+/**
+ * Fixes token-join spacing in transformed chapter HTML.
+ * The chapter XSLT emits a space after every <w> token, which produces
+ * wrong spacing around punctuation encoded as separate <w> tokens
+ * (e.g. "bravi ." or "« questo"). The TEI tokens are kept as-is because
+ * their xml:ids anchor comment/translation alignments; the spacing is a
+ * display concern fixed here.
+ *
+ * @param {string} html - The transformed chapter HTML.
+ * @returns {string} - HTML with corrected spacing around punctuation tokens.
+ */
+function fixPunctuationSpacing(html) {
+  // Drop the trailing space of a token when the next token starts with
+  // punctuation that attaches to the left (. , ; : ! ? » closing paren).
+  // Intervening tags (</i>, <i> etc.) between the two spans are allowed.
+  html = html.replace(/ (<\/span>(?:<\/?[a-z][^>]*>)*<span[^>]*>)(?=[.,;:!?»)])/g, '$1');
+  // Drop the trailing space of tokens ending with « or ( — they attach
+  // to the token that follows.
+  html = html.replace(/([«(]) (<\/span>)/g, '$1$2');
+  // Elided forms split off as their own token (e.g. <w>d'</w> before a
+  // persName-wrapped <w>Isaia</w>) attach to the next word: "d'Isaia".
+  // Truncated forms (de', po', que', a', co'...) correctly keep their space.
+  html = html.replace(/>(d'|l'|un'|dell'|all'|dall'|nell'|sull'|quell'|s'|c'|v'|gl') (<\/span>)/gi, '>$1$2');
+  return html;
+}
+
 function convertXmlToHtml(chapter_id) {
   xmlDoc = fs.readFileSync(`./quarantana/${chapter_id}.xml`, 'utf8');
   xslStylesheet = fs.readFileSync(__dirname + '/chapter.xslt', 'utf8');
@@ -26,7 +52,7 @@ function convertXmlToHtml(chapter_id) {
   const xsltDocument = xmlParse(xslStylesheet);
   const transformedXml = xsltProcess(xmlDocument, xsltDocument);
   // fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
-  return transformedXml;
+  return fixPunctuationSpacing(transformedXml);
 }
 
 function convertXmlToHtmlWithImages(chapter_id) {
@@ -37,7 +63,7 @@ function convertXmlToHtmlWithImages(chapter_id) {
   const xsltDocument = xmlParse(xslStylesheet);
   const transformedXml = xsltProcess(xmlDocument, xsltDocument);
   // fs.writeFileSync(`./quarantana/html/${chapter_id}.html`, transformedXml);
-  return transformedXml;
+  return fixPunctuationSpacing(transformedXml);
 }
 
 
