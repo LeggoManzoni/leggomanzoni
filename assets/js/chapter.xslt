@@ -73,6 +73,19 @@
   <xsl:template match="persName | placeName | orgName | add">
     <xsl:apply-templates />
   </xsl:template>
+  <!-- Quotations from Manzoni's historical sources -->
+  <xsl:template match="quote">
+    <span class="quote-source">
+      <xsl:apply-templates />
+    </span>
+  </xsl:template>
+
+  <xsl:template match="quote[@rend='italic']">
+    <i class="quote-source">
+      <xsl:apply-templates />
+    </i>
+  </xsl:template>
+
 
 
 </xsl:stylesheet>
