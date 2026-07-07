@@ -41,6 +41,9 @@ function fixPunctuationSpacing(html) {
   // persName-wrapped <w>Isaia</w>) attach to the next word: "d'Isaia".
   // Truncated forms (de', po', que', a', co'...) correctly keep their space.
   html = html.replace(/>(d'|l'|un'|dell'|all'|dall'|nell'|sull'|quell'|s'|c'|v'|gl') (<\/span>)/gi, '>$1$2');
+  // Drop the last token's trailing space before the closing bracket of an
+  // inline footnote (note place="bottom" rendered as [ ... ]).
+  html = html.replace(/ (<\/span>(?:<\/?[a-z][^>]*>)*)\]/g, '$1]');
   return html;
 }
 

@@ -125,3 +125,13 @@
     max-height: none; /* Show all items without scrolling */
     overflow: visible;
 }
+/* Manzoni's own footnotes (TEI note place="bottom"), rendered inline */
+.nota-manzoni {
+    font-size: 0.85em;
+    color: #6c6c6c;
+}
+
+/* Foreign-language passages (TEI foreign rend="italic") */
+.foreign {
+    font-style: italic;
+}

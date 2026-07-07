@@ -55,4 +55,24 @@
     </i>
   </xsl:template>
 
+  <!-- Manzoni's own footnotes: rendered inline, bracketed via literal text
+       so the spacing post-processing in convert.js can tidy the edges -->
+  <xsl:template match="note[@place='bottom']">
+    <span class="nota-manzoni">
+      <xsl:text>[</xsl:text>
+      <xsl:apply-templates />
+      <xsl:text>]</xsl:text>
+    </span>
+  </xsl:template>
+
+  <xsl:template match="bibl">
+    <xsl:apply-templates />
+  </xsl:template>
+  <!-- Inline wrappers around body-text words (names, places, editorial
+       additions): render their content transparently -->
+  <xsl:template match="persName | placeName | orgName | add">
+    <xsl:apply-templates />
+  </xsl:template>
+
+
 </xsl:stylesheet>
