@@ -1,3 +1,6 @@
+import collections
+import os
+
 import pytest
 
 from build_idiom_parallel import toknum
@@ -97,3 +100,128 @@ def test_merge_segments_straddle_joins_in_document_order():
 
 def test_merge_segments_empty():
     assert merge_segments([]) == ("", "", "no_segment")
+
+
+from build_idiom_parallel import COLUMNS, EXPECTED_STATUS, build_rows
+
+
+@pytest.fixture(scope="session")
+def rows():
+    return build_rows()
+
+
+def test_row_count_is_900_idioms_times_3_editions(rows):
+    assert len(rows) == 2700
+
+
+def test_every_row_has_exactly_the_declared_columns(rows):
+    for row in rows:
+        assert list(row.keys()) == COLUMNS
+
+
+def test_match_status_counts_match_the_spec(rows):
+    counts = collections.Counter(r["match_status"] for r in rows)
+    assert dict(counts) == EXPECTED_STATUS
+    assert EXPECTED_STATUS == {"ok": 2697, "straddle": 2, "no_segment": 1}
+
+
+def test_rows_sorted_by_chapter_then_position_then_idiom_then_edition(rows):
+    from build_idiom_parallel import CHAPTER_ORDER
+
+    order = {c: i for i, c in enumerate(CHAPTER_ORDER)}
+    keys = [(order[r["chapter"]], toknum(r["start_id"]), r["idiom_id"], r["edition"]) for r in rows]
+    assert keys == sorted(keys)
+
+
+def test_the_three_renderings_of_an_idiom_are_adjacent(rows):
+    # Regression: sorting without an idiom_id tiebreaker interleaves the two idioms
+    # that share start token c2_11145 ("Dico per dire" / "dico per dire").
+    for i in range(0, len(rows), 3):
+        triple = rows[i:i + 3]
+        assert len({r["idiom_id"] for r in triple}) == 1
+        assert [r["edition"] for r in triple] == ["1845", "1972", "2022"]
+
+
+def test_duplicate_and_nested_idiom_spans_are_carried_through_not_deduped(rows):
+    # Four Excel duplicates + one genuine nesting. Deduping is the linguists' call.
+    ids = {r["idiom_id"] for r in rows}
+    for pair in [(2495, 2501), (2688, 2690), (10775, 10776), (642, 644), (9805, 9808)]:
+        assert set(pair) <= ids
+
+    dico = sorted(r["label"] for r in rows if r["idiom_id"] in (642, 644) and r["edition"] == "1845")
+    assert dico == ["Dico per dire", "dico per dire"]
+
+    nested = {r["idiom_id"]: (r["start_id"], r["end_id"]) for r in rows if r["idiom_id"] in (9805, 9808)}
+    assert nested[9805] == ("c18_13268", "c18_13272")
+    assert nested[9808] == ("c18_13268", "c18_13270")
+
+
+def test_only_the_known_1845_omission_has_an_empty_segment(rows):
+    empty = [(r["idiom_id"], r["edition"], r["match_status"]) for r in rows if not r["en_segment"]]
+    assert empty == [(11703, "1845", "no_segment")]
+
+
+def test_la_piglia_con_me_is_absent_from_1845_only(rows):
+    by_edition = {r["edition"]: r for r in rows if r["idiom_id"] == 11703}
+    assert by_edition["1845"]["match_status"] == "no_segment"
+    assert by_edition["1972"]["match_status"] == "ok"
+    assert by_edition["2022"]["match_status"] == "ok"
+
+
+def test_me_ne_lavo_le_mani_renders_as_wash_my_hands_everywhere(rows):
+    for row in (r for r in rows if r["idiom_id"] == 25):
+        assert "wash my hands" in row["en_segment"].lower()
+
+
+def test_carneade_straddles_in_the_modern_editions_only(rows):
+    by_edition = {r["edition"]: r for r in rows if r["idiom_id"] == 3109}
+    assert by_edition["1845"]["match_status"] == "ok"
+    assert by_edition["1972"]["match_status"] == "straddle"
+    assert by_edition["2022"]["match_status"] == "straddle"
+
+
+def test_carneade_merge_joined_segments_in_the_right_order(rows):
+    # A reversed join would put the question before the exclamation.
+    penman = next(r for r in rows if r["idiom_id"] == 3109 and r["edition"] == "1972")
+    moore = next(r for r in rows if r["idiom_id"] == 3109 and r["edition"] == "2022")
+
+    assert "Carneades!" in penman["en_segment"][:20]
+    assert "but who was he?" in penman["en_segment"]
+    assert penman["note_id"] == "english_1972_cap8-n3+english_1972_cap8-n4"
+
+    assert "Carneades!" in moore["en_segment"][:20]
+    assert "who in the world was he?" in moore["en_segment"]
+    assert moore["note_id"] == "english_2022_cap8-n1+english_2022_cap8-n2"
+
+
+def test_straddle_rows_keep_the_idioms_span_not_the_merged_span(rows):
+    for row in (r for r in rows if r["match_status"] == "straddle"):
+        assert row["start_id"] == "c8_10002"
+        assert row["end_id"] == "c8_10005"
+
+
+def test_translators_are_attached_to_every_row(rows):
+    expected = {"1845": "Henry Francis C. Logan", "1972": "Bruce Penman", "2022": "Michael Moore"}
+    for row in rows:
+        assert row["translator"] == expected[row["edition"]]
+
+
+def test_italian_kwic_context_is_populated(rows):
+    lavo = next(r for r in rows if r["idiom_id"] == 25)
+    assert lavo["it_span"] == "me ne lavo le mani."
+    assert lavo["it_left"].endswith("e")
+    assert lavo["it_right"].startswith("—")
+
+
+def test_corpus_still_contains_split_suffix_ids():
+    # Guards test_toknum_ignores_split_suffix against becoming vacuous.
+    import glob
+    import re
+
+    from build_idiom_parallel import BASE_DIR
+
+    found = 0
+    for path in glob.glob(os.path.join(BASE_DIR, "translations", "English_*", "*.xml")):
+        with open(path, encoding="utf-8") as handle:
+            found += len(re.findall(r'#\w+_\d+_\d+"', handle.read()))
+    assert found > 0, "no split-suffix ids left; the toknum guard is now vacuous"

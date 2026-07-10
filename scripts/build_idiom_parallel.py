@@ -18,6 +18,7 @@ Usage:
 """
 
 import glob
+import json
 import logging
 import os
 import re
@@ -141,3 +142,72 @@ def merge_segments(found):
     text = " ".join(s[3].strip() for s in ordered if s[3].strip())
     note_id = "+".join(s[2] for s in ordered)
     return text, note_id, "ok" if len(ordered) == 1 else "straddle"
+
+
+COLUMNS = [
+    "idiom_id", "label", "tipologia", "parola_chiave",
+    "chapter", "comma",
+    "it_left", "it_span", "it_right",
+    "edition", "translator", "en_segment",
+    "start_id", "end_id", "note_id", "match_status",
+]
+
+# Asserted at build time. A TEI edit that breaks alignment must fail loudly rather
+# than quietly shrink the corpus. 925 ok rows sit flush against a segment boundary,
+# so a one-token re-segmentation would turn one of them into a straddle and trip this.
+EXPECTED_ROWS = 2700
+EXPECTED_STATUS = {"ok": 2697, "straddle": 2, "no_segment": 1}
+
+
+def build_rows():
+    """One row per idiom occurrence x edition, sorted for reading."""
+    concordance_path = os.path.join(BASE_DIR, "data", "concordance.json")
+    with open(concordance_path, encoding="utf-8") as handle:
+        idioms = json.load(handle)["idioms"]
+
+    editions = {}
+    for label, dirname in EDITIONS:
+        segments, translator, _date = load_edition(dirname)
+        editions[label] = (segments, translator)
+        log.info("Loaded %s (%s): %d chapters", label, translator, len(segments))
+
+    rows = []
+    for idiom_id, idiom in idioms.items():
+        for occurrence in idiom["occurrences"]:
+            chapter = occurrence["chapter"]
+            start = toknum(occurrence["start_id"])
+            end = toknum(occurrence["end_id"])
+
+            for label, _dirname in EDITIONS:
+                segments, translator = editions[label]
+                found = find_segments(segments.get(chapter, []), start, end)
+                text, note_id, status = merge_segments(found)
+
+                rows.append({
+                    "idiom_id": int(idiom_id),
+                    "label": idiom["label"],
+                    "tipologia": idiom["tipologia"],
+                    "parola_chiave": idiom["parola_chiave"],
+                    "chapter": chapter,
+                    "comma": occurrence["comma"],
+                    "it_left": " ".join(occurrence["left"]),
+                    "it_span": " ".join(occurrence["span_surface"]),
+                    "it_right": " ".join(occurrence["right"]),
+                    "edition": label,
+                    "translator": translator,
+                    "en_segment": text,
+                    "start_id": occurrence["start_id"],
+                    "end_id": occurrence["end_id"],
+                    "note_id": note_id,
+                    "match_status": status,
+                })
+
+    chapter_index = {c: i for i, c in enumerate(CHAPTER_ORDER)}
+    # idiom_id must precede edition: five idiom pairs share a start token (Excel
+    # duplicates, plus "è un uomo" nested inside "È un uomo di vaglia"). Without it
+    # the two idioms' rows interleave and an idiom's three editions stop being
+    # adjacent. Edition labels sort lexicographically into chronological order.
+    rows.sort(key=lambda r: (
+        chapter_index[r["chapter"]], toknum(r["start_id"]), r["idiom_id"], r["edition"],
+    ))
+    return rows
