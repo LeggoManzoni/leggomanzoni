@@ -117,3 +117,27 @@ def load_edition(dirname):
         raise ValueError(f"No translator found in teiHeader for {dirname}")
 
     return segments, translator, date
+
+
+def find_segments(chapter_segments, start, end):
+    """Segments overlapping the token interval [start, end], in document order.
+
+    Touching a boundary is containment, not crossing: an idiom ending exactly on a
+    segment's last token overlaps that segment only.
+    """
+    return [s for s in chapter_segments if not (s[1] < start or s[0] > end)]
+
+
+def merge_segments(found):
+    """Collapse covering segments to (text, note_id, match_status).
+
+    A straddling idiom's segments are concatenated in document order, joined with a
+    single space; note_id records every contributing id, '+'-joined.
+    """
+    if not found:
+        return "", "", "no_segment"
+
+    ordered = sorted(found)
+    text = " ".join(s[3].strip() for s in ordered if s[3].strip())
+    note_id = "+".join(s[2] for s in ordered)
+    return text, note_id, "ok" if len(ordered) == 1 else "straddle"

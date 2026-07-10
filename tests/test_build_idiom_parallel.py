@@ -55,3 +55,45 @@ def test_load_edition_note_text_has_no_markup_and_is_stripped(edition_1972):
         for _s, _e, _n, text in chapter_segments:
             assert "<" not in text
             assert text == text.strip()
+
+
+from build_idiom_parallel import find_segments, merge_segments
+
+SEGS = [
+    (10, 19, "n1", "First segment."),
+    (20, 29, "n2", "Second segment."),
+    (30, 39, "n3", "Third segment."),
+]
+
+
+def test_find_segments_returns_single_covering_segment():
+    assert find_segments(SEGS, 22, 25) == [SEGS[1]]
+
+
+def test_find_segments_flush_against_boundary_is_still_contained():
+    # 925 real rows sit flush on a boundary; touching must not count as crossing.
+    assert find_segments(SEGS, 20, 29) == [SEGS[1]]
+    assert find_segments(SEGS, 29, 29) == [SEGS[1]]
+
+
+def test_find_segments_returns_both_when_span_crosses_boundary():
+    assert find_segments(SEGS, 19, 20) == [SEGS[0], SEGS[1]]
+
+
+def test_find_segments_returns_empty_on_alignment_hole():
+    assert find_segments(SEGS, 40, 45) == []
+
+
+def test_merge_segments_single():
+    assert merge_segments([SEGS[1]]) == ("Second segment.", "n2", "ok")
+
+
+def test_merge_segments_straddle_joins_in_document_order():
+    text, note_id, status = merge_segments([SEGS[1], SEGS[0]])
+    assert text == "First segment. Second segment."
+    assert note_id == "n1+n2"
+    assert status == "straddle"
+
+
+def test_merge_segments_empty():
+    assert merge_segments([]) == ("", "", "no_segment")
