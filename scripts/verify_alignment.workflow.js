@@ -4,8 +4,9 @@ export const meta = {
   phases: [{ title: 'Verify', detail: 'one subagent per 60-record shard checking segment alignment' }],
 }
 
-// args is an array of shard indices to run, e.g. [0, 1] for the pilot or 0..44 for the full run.
-const shardIndices = args
+// args is an array of shard indices to run, e.g. [0, 1] for the pilot or 0..44 for the
+// full run. It may arrive as a real array or as a JSON string — coerce to an array.
+const shardIndices = Array.isArray(args) ? args : JSON.parse(args)
 
 const BASE = '/mnt/ssd990/projects/leggomanzoni'
 const pad = (n) => String(n).padStart(2, '0')
