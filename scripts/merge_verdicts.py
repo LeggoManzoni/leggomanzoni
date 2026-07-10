@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Validate the subagent verdicts and join clean ones onto the corpus.
+Validate the subagent alignment verdicts and join clean ones onto the corpus.
 
-Validation makes NO LLM calls. It enforces:
-  - every en_span is a literal substring of its record's en_segment
-  - en_span is non-empty iff found is true
-  - confidence is in the allowed set; found is boolean
+Validation makes NO LLM calls. Each verdict answers one question — is en_segment a
+translation of it_segment (yes / partial / no)? The checks are structural:
+  - aligned is one of yes / partial / no
+  - confidence is in the allowed set; note is a string
   - the row_id set equals the input set — no duplicates, no inventions, no missing
+
+There is no free-text span to extract, so there is nothing to fabricate; the
+substantive QA is human review of the (rare) partial / no verdicts.
 
 Usage:
     scripts/venv/bin/python scripts/merge_verdicts.py
@@ -24,33 +27,26 @@ FAILURES_PATH = os.path.join(BASE_DIR, "data", "verify", "failures.jsonl")
 CORPUS_PATH = os.path.join(BASE_DIR, "data", "idioms_parallel.json")
 XLSX_PATH = os.path.join(BASE_DIR, "data", "idioms_verified.xlsx")
 
+VALID_ALIGNED = {"yes", "partial", "no"}
 VALID_CONFIDENCE = {"high", "medium", "low"}
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
 
-def validate_verdict(verdict, en_by_row_id):
+def validate_verdict(verdict, row_ids):
     """Return a failure reason string, or None if the verdict is well-formed.
 
-    Does not check for duplicates/missing — that is a set-level check in partition().
+    Duplicates/missing are a set-level check in partition(), not here.
     """
-    row_id = verdict.get("row_id")
-    if row_id not in en_by_row_id:
+    if verdict.get("row_id") not in row_ids:
         return "unknown row_id"
-    if not isinstance(verdict.get("found"), bool):
-        return "found is not boolean"
+    if verdict.get("aligned") not in VALID_ALIGNED:
+        return "bad aligned value"
     if verdict.get("confidence") not in VALID_CONFIDENCE:
         return "bad confidence"
-    span = verdict.get("en_span", "")
-    if verdict["found"]:
-        if not span:
-            return "found=true but empty en_span"
-        if span not in en_by_row_id[row_id]:
-            return "en_span not a literal substring of en_segment"
-    else:
-        if span:
-            return "found=false but non-empty en_span"
+    if not isinstance(verdict.get("note", ""), str):
+        return "note is not a string"
     return None
 
 
@@ -64,15 +60,15 @@ def load_verdicts(directory):
     return verdicts
 
 
-def partition(verdicts, input_index):
+def partition(verdicts, row_ids):
     """Split into (clean, failures). Failures carry a '_failure' reason.
 
-    input_index maps row_id -> en_segment for every expected record.
+    row_ids is the set of every expected row_id.
     """
     clean, failures = [], []
     seen = {}
     for verdict in verdicts:
-        reason = validate_verdict(verdict, input_index)
+        reason = validate_verdict(verdict, row_ids)
         row_id = verdict.get("row_id")
         if row_id in seen:
             reason = reason or "duplicate row_id"
@@ -82,7 +78,7 @@ def partition(verdicts, input_index):
         else:
             clean.append(verdict)
 
-    for row_id in input_index:
+    for row_id in row_ids:
         if row_id not in seen:
             failures.append({"row_id": row_id, "_failure": "missing verdict"})
 
@@ -98,7 +94,7 @@ def write_xlsx(clean, corpus, path):
     columns = [
         "idiom_id", "label", "tipologia", "parola_chiave", "chapter", "comma",
         "it_span", "it_segment", "edition", "translator", "en_segment", "match_status",
-        "found", "en_span", "confidence", "reason",
+        "aligned", "confidence", "note",
     ]
 
     workbook = Workbook()
@@ -115,16 +111,14 @@ def write_xlsx(clean, corpus, path):
             row["idiom_id"], row["label"], row["tipologia"], row["parola_chiave"],
             row["chapter"], row["comma"], row["it_span"], row["it_segment"],
             row["edition"], row["translator"], row["en_segment"], row["match_status"],
-            verdict.get("found", ""), verdict.get("en_span", ""),
-            verdict.get("confidence", ""), verdict.get("reason", ""),
+            verdict.get("aligned", ""), verdict.get("confidence", ""), verdict.get("note", ""),
         ])
 
-    widths = {"label": 28, "it_segment": 70, "en_segment": 70, "en_span": 40,
-              "reason": 40, "translator": 22}
+    widths = {"label": 28, "it_segment": 70, "en_segment": 70, "note": 40, "translator": 22}
     for index, column in enumerate(columns, start=1):
         sheet.column_dimensions[get_column_letter(index)].width = widths.get(column, 12)
     wrap = Alignment(wrap_text=True, vertical="top")
-    for name in ("it_segment", "en_segment", "en_span", "reason"):
+    for name in ("it_segment", "en_segment", "note"):
         col = columns.index(name) + 1
         for cells in sheet.iter_rows(min_row=2, min_col=col, max_col=col):
             cells[0].alignment = wrap
@@ -136,15 +130,15 @@ def write_xlsx(clean, corpus, path):
 
 def main():
     with open(INPUT_PATH, encoding="utf-8") as handle:
-        input_index = {
-            json.loads(line)["row_id"]: json.loads(line)["en_segment"]
-            for line in handle if line.strip()
-        }
+        row_ids = {json.loads(line)["row_id"] for line in handle if line.strip()}
 
     verdicts = load_verdicts(VERDICT_DIR)
-    clean, failures = partition(verdicts, input_index)
+    clean, failures = partition(verdicts, row_ids)
 
-    log.info("Verdicts: %d loaded, %d clean, %d failures", len(verdicts), len(clean), len(failures))
+    import collections
+    dist = collections.Counter(v.get("aligned") for v in clean)
+    log.info("Verdicts: %d loaded, %d clean, %d failures | aligned %s",
+             len(verdicts), len(clean), len(failures), dict(dist))
 
     with open(FAILURES_PATH, "w", encoding="utf-8") as handle:
         for failure in failures:
