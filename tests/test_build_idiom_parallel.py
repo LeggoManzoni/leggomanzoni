@@ -46,16 +46,18 @@ def test_load_edition_segments_are_sorted_and_well_formed(edition_1972):
     segments, _t, _d = edition_1972
     cap8 = segments["cap8"]
     assert cap8 == sorted(cap8)
-    start, end, note_id, text = cap8[0]
+    start, end, note_id, text, start_id, end_id = cap8[0]
     assert start == 10001 and end == 10002
     assert note_id == "english_1972_cap8-n3"
     assert text == "‘Carneades!"
+    assert start_id == "c8_10001" and end_id == "c8_10002"
 
 
 def test_load_edition_note_text_has_no_markup_and_is_stripped(edition_1972):
     segments, _t, _d = edition_1972
     for chapter_segments in segments.values():
-        for _s, _e, _n, text in chapter_segments:
+        for segment in chapter_segments:
+            text = segment[3]
             assert "<" not in text
             assert text == text.strip()
 
@@ -246,7 +248,7 @@ def test_write_jsonl_excludes_the_no_segment_row(tmp_path, rows):
     assert len(lines) == 2699
 
     records = [json.loads(line) for line in lines]
-    assert all(set(r) == {"row_id", "idiom_it", "en_segment"} for r in records)
+    assert all(set(r) == {"row_id", "idiom_it", "it_segment", "en_segment"} for r in records)
     assert all(r["en_segment"] for r in records)
     assert "11703_1845" not in {r["row_id"] for r in records}
 
@@ -282,3 +284,61 @@ def test_write_xlsx_has_header_freeze_and_autofilter(tmp_path, rows):
     assert sheet.max_row == 2701  # header + 2700
     assert sheet.freeze_panes == "A2"
     assert sheet.auto_filter.ref == sheet.dimensions
+
+
+from build_idiom_parallel import chapter_tokens, mark_italian, MARK_OPEN, MARK_CLOSE
+
+
+def test_markers_are_the_rare_brackets():
+    assert MARK_OPEN == "⟦" and MARK_CLOSE == "⟧"
+
+
+def test_chapter_tokens_keeps_split_ids_distinct():
+    by_id = dict(chapter_tokens("intro"))
+    assert by_id["intro_10740"] == "mani." and by_id["intro_10740_1"] == "—"
+
+
+def test_mark_italian_puts_split_token_outside_close_bracket():
+    toks = chapter_tokens("intro")
+    out = mark_italian(toks, 10721, 10740, "intro_10736", "intro_10740")
+    assert "⟦me ne lavo le mani.⟧" in out
+    assert out.index("—") > out.index("⟧")
+
+
+def test_segment_columns_present_and_ordered(rows):
+    for name in ("it_segment", "seg_start_id", "seg_end_id"):
+        assert name in COLUMNS
+    assert COLUMNS.index("it_segment") == COLUMNS.index("it_right") + 1
+    assert list(rows[0].keys()) == COLUMNS  # 19 keys, exact order
+
+
+def test_it_segment_marked_and_traceable(rows):
+    r = next(x for x in rows if x["idiom_id"] == 25 and x["edition"] == "1972")
+    assert r["it_segment"].endswith("⟦me ne lavo le mani.⟧ —")
+    assert r["seg_start_id"] == "intro_10721"
+    assert r["seg_end_id"] == "intro_10740_1"
+
+
+def test_every_filled_it_segment_has_one_marker_pair(rows):
+    for r in rows:
+        if r["en_segment"]:
+            assert r["it_segment"].count(MARK_OPEN) == 1
+            assert r["it_segment"].count(MARK_CLOSE) == 1
+
+
+def test_no_segment_row_has_empty_segment_fields(rows):
+    r = next(x for x in rows if x["idiom_id"] == 11703 and x["edition"] == "1845")
+    assert r["it_segment"] == "" and r["seg_start_id"] == "" and r["seg_end_id"] == ""
+
+
+def test_straddle_segment_span_unions_both_notes(rows):
+    r = next(x for x in rows if x["idiom_id"] == 3109 and x["edition"] == "1972")
+    assert r["seg_start_id"] == "c8_10001" and r["seg_end_id"] == "c8_10079"
+
+
+def test_jsonl_now_carries_it_segment(tmp_path, rows):
+    import json
+    path = tmp_path / "verify.jsonl"
+    write_jsonl(rows, str(path))
+    rec = next(json.loads(l) for l in path.read_text(encoding="utf-8").splitlines())
+    assert set(rec) == {"row_id", "idiom_it", "it_segment", "en_segment"}

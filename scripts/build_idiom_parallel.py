@@ -41,8 +41,46 @@ EDITIONS = [
 # pull in stanza at import time.
 CHAPTER_ORDER = ["intro"] + [f"cap{i}" for i in range(1, 39)]
 
+MARK_OPEN = "⟦"   # zero occurrences in quarantana/ and translations/
+MARK_CLOSE = "⟧"
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
+
+_TOKEN_CACHE = {}
+
+
+def chapter_tokens(chapter):
+    """[(xml_id, surface)] for every <w>, in document order. Keyed by full id —
+    intro_10740 ('mani.') and intro_10740_1 ('—') share token number 10740, so a
+    number key would drop one."""
+    if chapter not in _TOKEN_CACHE:
+        path = os.path.join(BASE_DIR, "quarantana", f"{chapter}.xml")
+        out = []
+        for el in etree.parse(path).getroot().iter():
+            tag = etree.QName(el.tag).localname if isinstance(el.tag, str) else ""
+            if tag == "w":
+                xid = el.get(XML_ID, "")
+                if "_" in xid:
+                    out.append((xid, "".join(el.itertext()).strip()))
+        _TOKEN_CACHE[chapter] = out
+    return _TOKEN_CACHE[chapter]
+
+
+def mark_italian(tokens, seg_start, seg_end, start_id, end_id):
+    """Italian text for token numbers [seg_start, seg_end], idiom wrapped in ⟦ ⟧.
+    Brackets attach by id equality, so a split token sharing the end number stays out."""
+    parts = []
+    for xid, surface in tokens:
+        n = toknum(xid)
+        if n < seg_start or n > seg_end:
+            continue
+        if xid == start_id:
+            surface = MARK_OPEN + surface
+        if xid == end_id:
+            surface = surface + MARK_CLOSE
+        parts.append(surface)
+    return " ".join(parts)
 
 
 def toknum(xid):
@@ -107,9 +145,13 @@ def load_edition(dirname):
             target, target_end = note.get("target"), note.get("targetEnd")
             if not target or "#" not in target:
                 continue
-            start = toknum(target.split("#")[1])
-            end = toknum(target_end.split("#")[1]) if target_end and "#" in target_end else start
-            chapter_segments.append((start, end, note.get(XML_ID, ""), _note_text(note)))
+            start_id = target.split("#")[1]
+            end_id = target_end.split("#")[1] if target_end and "#" in target_end else start_id
+            start = toknum(start_id)
+            end = toknum(end_id)
+            chapter_segments.append(
+                (start, end, note.get(XML_ID, ""), _note_text(note), start_id, end_id)
+            )
 
         chapter_segments.sort()
         segments[chapter] = chapter_segments
@@ -147,9 +189,9 @@ def merge_segments(found):
 COLUMNS = [
     "idiom_id", "label", "tipologia", "parola_chiave",
     "chapter", "comma",
-    "it_left", "it_span", "it_right",
+    "it_left", "it_span", "it_right", "it_segment",
     "edition", "translator", "en_segment",
-    "start_id", "end_id", "note_id", "match_status",
+    "start_id", "end_id", "seg_start_id", "seg_end_id", "note_id", "match_status",
 ]
 
 # Asserted at build time. A TEI edit that breaks alignment must fail loudly rather
@@ -183,6 +225,18 @@ def build_rows():
                 found = find_segments(segments.get(chapter, []), start, end)
                 text, note_id, status = merge_segments(found)
 
+                if found:
+                    seg_start = min(s[0] for s in found)
+                    seg_end = max(s[1] for s in found)
+                    seg_start_id = min(found, key=lambda s: s[0])[4]
+                    seg_end_id = max(found, key=lambda s: s[1])[5]
+                    it_segment = mark_italian(
+                        chapter_tokens(chapter), seg_start, seg_end,
+                        occurrence["start_id"], occurrence["end_id"],
+                    )
+                else:
+                    it_segment = seg_start_id = seg_end_id = ""
+
                 rows.append({
                     "idiom_id": int(idiom_id),
                     "label": idiom["label"],
@@ -193,11 +247,14 @@ def build_rows():
                     "it_left": " ".join(occurrence["left"]),
                     "it_span": " ".join(occurrence["span_surface"]),
                     "it_right": " ".join(occurrence["right"]),
+                    "it_segment": it_segment,
                     "edition": label,
                     "translator": translator,
                     "en_segment": text,
                     "start_id": occurrence["start_id"],
                     "end_id": occurrence["end_id"],
+                    "seg_start_id": seg_start_id,
+                    "seg_end_id": seg_end_id,
                     "note_id": note_id,
                     "match_status": status,
                 })
@@ -235,6 +292,7 @@ def write_jsonl(rows, path):
             record = {
                 "row_id": f"{row['idiom_id']}_{row['edition']}",
                 "idiom_it": row["label"],
+                "it_segment": row["it_segment"],
                 "en_segment": row["en_segment"],
             }
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
@@ -261,18 +319,20 @@ def write_xlsx(rows, path):
 
     widths = {
         "label": 28, "parola_chiave": 16, "tipologia": 10,
-        "it_left": 30, "it_span": 30, "it_right": 30,
-        "translator": 22, "en_segment": 90,
-        "start_id": 14, "end_id": 14, "note_id": 34, "match_status": 14,
+        "it_left": 30, "it_span": 30, "it_right": 30, "it_segment": 70,
+        "translator": 22, "en_segment": 70,
+        "start_id": 14, "end_id": 14, "seg_start_id": 14, "seg_end_id": 14,
+        "note_id": 34, "match_status": 14,
     }
     for index, column in enumerate(COLUMNS, start=1):
         letter = get_column_letter(index)
         sheet.column_dimensions[letter].width = widths.get(column, 12)
 
     wrap = Alignment(wrap_text=True, vertical="top")
-    segment_column = COLUMNS.index("en_segment") + 1
-    for row_cells in sheet.iter_rows(min_row=2, min_col=segment_column, max_col=segment_column):
-        row_cells[0].alignment = wrap
+    for name in ("it_segment", "en_segment"):
+        column = COLUMNS.index(name) + 1
+        for row_cells in sheet.iter_rows(min_row=2, min_col=column, max_col=column):
+            row_cells[0].alignment = wrap
 
     sheet.freeze_panes = "A2"
     sheet.auto_filter.ref = sheet.dimensions
