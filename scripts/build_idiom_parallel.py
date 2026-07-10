@@ -211,3 +211,94 @@ def build_rows():
         chapter_index[r["chapter"]], toknum(r["start_id"]), r["idiom_id"], r["edition"],
     ))
     return rows
+
+
+def write_json(rows, path):
+    """The corpus as records, for the reader app and scripted reuse."""
+    with open(path, "w", encoding="utf-8") as handle:
+        json.dump(rows, handle, ensure_ascii=False, indent=2)
+
+
+def write_jsonl(rows, path):
+    """Minimal input for a later LLM verification pass. Makes no LLM calls itself.
+
+    One object per line so a batch job can stream it without a parser and retry any
+    single line. row_id joins back onto the corpus. Rows with no English segment are
+    excluded: there is nothing to verify.
+    """
+    skipped = 0
+    with open(path, "w", encoding="utf-8") as handle:
+        for row in rows:
+            if row["match_status"] == "no_segment":
+                skipped += 1
+                continue
+            record = {
+                "row_id": f"{row['idiom_id']}_{row['edition']}",
+                "idiom_it": row["label"],
+                "en_segment": row["en_segment"],
+            }
+            handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+    log.info("Wrote %d verification lines (%d excluded: no English segment)", len(rows) - skipped, skipped)
+
+
+def write_xlsx(rows, path):
+    """The linguists' working surface: frozen header, autofilter, wrapped segments."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Font
+    from openpyxl.utils import get_column_letter
+
+    workbook = Workbook()
+    sheet = workbook.active
+    sheet.title = "idioms"
+
+    sheet.append(COLUMNS)
+    for cell in sheet[1]:
+        cell.font = Font(bold=True)
+
+    for row in rows:
+        sheet.append([row[column] for column in COLUMNS])
+
+    widths = {
+        "label": 28, "parola_chiave": 16, "tipologia": 10,
+        "it_left": 30, "it_span": 30, "it_right": 30,
+        "translator": 22, "en_segment": 90,
+        "start_id": 14, "end_id": 14, "note_id": 34, "match_status": 14,
+    }
+    for index, column in enumerate(COLUMNS, start=1):
+        letter = get_column_letter(index)
+        sheet.column_dimensions[letter].width = widths.get(column, 12)
+
+    wrap = Alignment(wrap_text=True, vertical="top")
+    segment_column = COLUMNS.index("en_segment") + 1
+    for row_cells in sheet.iter_rows(min_row=2, min_col=segment_column, max_col=segment_column):
+        row_cells[0].alignment = wrap
+
+    sheet.freeze_panes = "A2"
+    sheet.auto_filter.ref = sheet.dimensions
+    workbook.save(path)
+
+
+def main():
+    rows = build_rows()
+
+    counts = {}
+    for row in rows:
+        counts[row["match_status"]] = counts.get(row["match_status"], 0) + 1
+    log.info("Built %d rows: %s", len(rows), counts)
+
+    if len(rows) != EXPECTED_ROWS or counts != EXPECTED_STATUS:
+        raise AssertionError(
+            f"Alignment changed. Expected {EXPECTED_ROWS} rows {EXPECTED_STATUS}, "
+            f"got {len(rows)} rows {counts}. Investigate before regenerating."
+        )
+
+    data_dir = os.path.join(BASE_DIR, "data")
+    write_json(rows, os.path.join(data_dir, "idioms_parallel.json"))
+    write_jsonl(rows, os.path.join(data_dir, "idioms_llm_verify.jsonl"))
+    write_xlsx(rows, os.path.join(data_dir, "idioms_parallel.xlsx"))
+    log.info("Wrote 3 artefacts to %s", data_dir)
+
+
+if __name__ == "__main__":
+    main()

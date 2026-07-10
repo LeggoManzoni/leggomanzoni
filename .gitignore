@@ -1,7 +1,12 @@
-
 commenti/xml/.DS_Store
-node_modules
+node_modules/
 service-account.json
 package-lock.json
-.vscode
-__pycache__
+.vscode/
+__pycache__/
+scripts/venv/
+scripts/stanza_resources/
+docs/superpowers/
+data/idioms_parallel.xlsx
+data/idioms_parallel.json
+data/idioms_llm_verify.jsonl

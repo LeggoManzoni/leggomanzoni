@@ -225,3 +225,60 @@ def test_corpus_still_contains_split_suffix_ids():
         with open(path, encoding="utf-8") as handle:
             found += len(re.findall(r'#\w+_\d+_\d+"', handle.read()))
     assert found > 0, "no split-suffix ids left; the toknum guard is now vacuous"
+
+
+import json
+
+from build_idiom_parallel import write_json, write_jsonl, write_xlsx
+
+
+def test_write_json_round_trips_every_row(tmp_path, rows):
+    path = tmp_path / "parallel.json"
+    write_json(rows, str(path))
+    loaded = json.loads(path.read_text(encoding="utf-8"))
+    assert loaded == rows
+
+
+def test_write_jsonl_excludes_the_no_segment_row(tmp_path, rows):
+    path = tmp_path / "verify.jsonl"
+    write_jsonl(rows, str(path))
+    lines = path.read_text(encoding="utf-8").strip().split("\n")
+    assert len(lines) == 2699
+
+    records = [json.loads(line) for line in lines]
+    assert all(set(r) == {"row_id", "idiom_it", "en_segment"} for r in records)
+    assert all(r["en_segment"] for r in records)
+    assert "11703_1845" not in {r["row_id"] for r in records}
+
+
+def test_write_jsonl_row_id_joins_back_to_the_corpus(tmp_path, rows):
+    path = tmp_path / "verify.jsonl"
+    write_jsonl(rows, str(path))
+    records = [json.loads(line) for line in path.read_text(encoding="utf-8").strip().split("\n")]
+
+    by_row_id = {f"{r['idiom_id']}_{r['edition']}": r for r in rows}
+    for record in records:
+        assert record["row_id"] in by_row_id
+        assert record["idiom_it"] == by_row_id[record["row_id"]]["label"]
+
+
+def test_write_jsonl_uses_the_dictionary_label_not_the_surface_form(tmp_path, rows):
+    path = tmp_path / "verify.jsonl"
+    write_jsonl(rows, str(path))
+    records = [json.loads(line) for line in path.read_text(encoding="utf-8").strip().split("\n")]
+    lavo = next(r for r in records if r["row_id"] == "25_1972")
+    assert lavo["idiom_it"] == "me ne lavo le mani"  # not "me ne lavo le mani."
+
+
+def test_write_xlsx_has_header_freeze_and_autofilter(tmp_path, rows):
+    import openpyxl
+
+    path = tmp_path / "parallel.xlsx"
+    write_xlsx(rows, str(path))
+
+    workbook = openpyxl.load_workbook(str(path))
+    sheet = workbook.active
+    assert [c.value for c in sheet[1]] == COLUMNS
+    assert sheet.max_row == 2701  # header + 2700
+    assert sheet.freeze_panes == "A2"
+    assert sheet.auto_filter.ref == sheet.dimensions
