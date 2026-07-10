@@ -1,7 +1,7 @@
 export const meta = {
-  name: 'verify-idioms',
-  description: 'Verify each English segment renders its aligned Italian idiom; one Sonnet subagent per shard writes its own verdict file',
-  phases: [{ title: 'Verify', detail: 'one subagent per 60-record shard' }],
+  name: 'verify-alignment',
+  description: 'Check whether each English segment is a translation of its aligned Italian segment (yes/partial/no); one Sonnet subagent per shard writes its own verdict file',
+  phases: [{ title: 'Verify', detail: 'one subagent per 60-record shard checking segment alignment' }],
 }
 
 // args is an array of shard indices to run, e.g. [0, 1] for the pilot or 0..44 for the full run.
