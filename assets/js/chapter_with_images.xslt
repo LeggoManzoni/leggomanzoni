@@ -45,17 +45,25 @@
     </i>
   </xsl:template>
 
+  <!-- The 2026 documentary-text Quarantana carries no <graphic>: its 438
+       illustrations are referenced by @facs into facsimile.xml and by @corresp
+       into the FICLIT digital library. Emitting <img> with an empty src would
+       put a broken-image placeholder in every chapter, so a figure renders only
+       when it actually carries a local url. Remove the xsl:if to restore the
+       unconditional behaviour. -->
   <xsl:template match="figure">
-    <div class="thumbnail">
-      <img class="float-left m-3" src="{graphic/@url}" alt="Responsive image">
-        <xsl:attribute name="style">
-          <xsl:choose>
-            <xsl:when test="parent::p/@type = 'capolettera'">width: 30%;</xsl:when>
-            <xsl:otherwise>width: 80%;</xsl:otherwise>
-          </xsl:choose>
-        </xsl:attribute>
-      </img>
-    </div>
+    <xsl:if test="graphic/@url">
+      <div class="thumbnail">
+        <img class="float-left m-3" src="{graphic/@url}" alt="Responsive image">
+          <xsl:attribute name="style">
+            <xsl:choose>
+              <xsl:when test="parent::p/@type = 'capolettera'">width: 30%;</xsl:when>
+              <xsl:otherwise>width: 80%;</xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
+        </img>
+      </div>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="foreign">
