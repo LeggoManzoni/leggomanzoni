@@ -3,7 +3,9 @@
 **Date:** 2026-07-29
 **Status:** design, for review
 **Supersedes for implementation:** `collazione-v27-q40-spec-prototipo.md` §5, §6, §9, §10
-**Prerequisite, already met:** the rebuilt Ventisettana is on `main` (PR #4, `35e411e`)
+**Prerequisites, both met:** the rebuilt Ventisettana is on `main` (PR #4, `35e411e`);
+the documentary-text Quarantana replaced the earlier transcription (`4036b62`), which is
+what reduced the transcription-noise problem of §2.1 from ~2,200 loci to almost none
 
 ## 0. Where this sits
 
@@ -46,33 +48,47 @@ and it puts `TRANSCRIPTION-QA.md` in front of an editor weeks earlier — adjudi
 
 ## 2. What the inputs actually look like
 
-Measured 2026-07-29 against `main`, not assumed:
+Measured 2026-07-29 against `main`, **after the documentary-text Quarantana landed**
+(`4036b62`), not assumed:
 
 | | Ventisettana | Quarantana |
 |---|--:|--:|
-| `<w>` | 217,668 | 215,968 |
-| `<p>` | 2,718 | 2,682 |
+| `<w>` | 217,668 | 215,957 |
+| `<p>` | 2,718 | 2,673 |
 | `<milestone>` | 2,585 | 2,611 |
-| standalone-punctuation `<w>` | 458 | 700 |
-| `<w>` ending in an apostrophe | 577 | 1,447 |
-| inline markup around `<w>` | none | `persName` 407, `hi` 102, `bibl` 86, `foreign` 73, `quote` 35, `lb` 34, `note` 26, `placeName` 16, `q` 6 |
+| `<lb>` / `<pb>` | 0 / 0 | 20,541 / 742 |
+| standalone-punctuation `<w>` | 458 | ~700 |
+| inline markup around `<w>` | none | `persName` 407, `hi` 102, `bibl` 87, `foreign` 73, `quote` 35, `note` 28, `sic` 5 |
 
-Four properties of this table drive the pipeline.
+Six properties of this table drive the pipeline.
 
-**2.1 The witnesses do not share a character repertoire.** The V27 TEI was
-regenerated from the txt (grave accents, straight apostrophes); the Q40 TEI is the
-older transcription (acute accents, curly apostrophes).
+**2.1 The witnesses now very nearly share a character repertoire — this problem has
+largely dissolved.** The earlier Quarantana was modernised in accentuation and used
+curly apostrophes, which made roughly 2,200 token pairs differ by our transcription
+convention alone. The 2026 edition reverts to the orthography of the print, which is
+the same convention the Ventisettana inherited from the txt:
 
-| | V27 | Q40 |
-|---|--:|--:|
-| `perché` / `perchè` | 1 / 285 | 287 / 0 |
-| `né` / `nè` | 0 / 287 | 268 / 0 |
-| `sé` / `sè` | 0 / 103 | 86 / 0 |
-| `’` U+2019 | 4 | 1,534 |
+| | V27 | Q40 (old) | Q40 (current) |
+|---|--:|--:|--:|
+| `perché` / `perchè` | 1 / 285 | 287 / 0 | 0 / 276 |
+| `né` / `nè` | 0 / 287 | 268 / 0 | 0 / 268 |
+| `sé` / `sè` | 0 / 103 | 86 / 0 | 0 / 88 |
+| `’` U+2019 | 4 | 1,534 | **0** |
 
-Roughly 2,200 token pairs differ by our transcription convention alone. Unfolded,
-they render in the columns indistinguishable from Manzoni's revisions. This is what
-decision 3 exists for.
+Measured effect on the collation: normalisation now removes **0–5 loci per chapter**,
+where against the old Quarantana it removed 18–25. The fold policy of decision 3 stays
+— it is what makes the residue auditable, and it is cheap — but it is no longer
+load-bearing, and `TRANSCRIPTION-QA.md` will be short rather than ~800 rows.
+
+**The headline figures are unchanged by the swap**, which is the reassuring part:
+cap1 still yields 754 loci and **26 at salience 3, one per 234 words**, the same as
+against the old Quarantana and the same as the txt-based prototype the team reviewed.
+
+**2.1a Tokenising Q40 with a regex is now actively wrong.** The edition carries 20,541
+`<lb>`, many *inside* `<w>`: `<w xml:id="c1_10010">mez<lb/>zogiorno,</w>`. A pattern
+like `<w [^>]*>([^<]*)</w>` silently drops every such token — it does not error, it
+under-counts. Parse the tree and use the element's full string value. (The rendering
+XSLT is already safe: `value-of` flattens. `build_concordance.py` is safe: `itertext()`.)
 
 **2.2 Q40 wraps `<w>` in inline markup and V27 does not.** A tokeniser that assumes
 `<w>` is a direct child of `<p>` silently drops 1,100+ Q40 words. Walk the tree.
@@ -97,8 +113,14 @@ to link by hand. **Audit item for the first implementation step: measure, per ch
 carrying notes, whether the note text aligns in place or is displaced.**
 
 **2.4 Tokenisation diverges.** 700 standalone-punctuation tokens in Q40 against 458 in
-V27, and 1,447 vs 577 elided forms. Wherever the two witnesses tokenise identical
-text differently, the collation invents a locus.
+V27, and 1,427 vs 577 tokens ending in an apostrophe. Wherever the two witnesses
+tokenise identical text differently, the collation invents a locus.
+
+Within that, one convention still genuinely differs and belongs in the fold policy: the
+**dialogue dash**. The 2026 Quarantana normalised it to the em dash `—` (432 standalone
+tokens); the Ventisettana has the en dash `–` (327). This is the one repertoire
+difference the documentary-text update did not remove, because it runs the other way —
+Q40 normalised, V27 did not.
 
 **2.5 Three Q40 milestones carry `xml:id` instead of `@n`.** All in
 `quarantana/cap1.xml` — commi 1, 2 and 5. The comma number is the alignment key, so
@@ -144,8 +166,8 @@ in V27. The merged token keeps **both** `xml_id`s: a locus may address a 2-id ra
 one side and a 1-id range on the other. **Never renumber a `<w>`** — 41 commentary sets
 and 35 translation sets anchor to those ids.
 
-**Elided forms are an open audit item, not yet a rule.** Q40 has 1,447 tokens ending in
-an apostrophe against V27's 577, but the frequent ones (`de'` 455, `po'` 226, `que'` 220)
+**Elided forms are an open audit item, not yet a rule.** Q40 has 1,427 tokens ending in
+an apostrophe against V27's 577, but the frequent ones (`de'` 545, `que'` 256, `po'` 247)
 are apocopes — complete words — and merging them forward would be wrong. Whether the
 files also contain genuinely *split* proclitics (`<w>dell'</w><w>acqua</w>`) is
 unmeasured. **First implementation step: count them.** If the count is zero, this
@@ -156,8 +178,10 @@ the count exists.
 ### 3.3 `normalise(s) -> str`
 
 Implements `docs/NORMALISATION.md`. Applied **only** to decide token equality; readings
-are always stored and displayed verbatim. Minimum folds: Unicode NFC and repertoire
-(`’`→`'`, `“”`→`"`, dash family), case, accent (grave/acute), u/v.
+are always stored and displayed verbatim. Minimum folds: Unicode NFC, the **dash family**
+(`—` ≡ `–` ≡ `―`, now the largest residual class — see §2.4), case, accent (grave/acute),
+u/v, and the apostrophe and quotation repertoire (`’`→`'`, `“”`→`"`) which costs nothing
+to keep even though the current Quarantana no longer needs it.
 
 Deciding that `perchè ≡ perché` is an editorial judgement. `NORMALISATION.md` is
 versioned, carries a rationale per fold, and is signed off by an editor — not by
