@@ -18,6 +18,28 @@ production apparatus (§6, §9) and does not touch the TEI or the `<w>` xml:ids.
 | `loci.json` | The classified loci for the four test chapters. Produced by `build_loci.py`; also embedded in `collazione.html`. |
 | `build_loci.py` | Collates + classifies the four chapters → `loci.json`. |
 | `collate.py` | Whole-novel density statistics (no per-locus data). |
+| `build_ventisettana_xml.py` | Rebuilds the Ventisettana as collation-substrate XML → `../ventisettana_rebuilt/` (see below). |
+| `DESIGN-ventisettana-rebuild.md` | Design doc for that rebuild. |
+
+## Ventisettana XML rebuild
+
+The existing `../ventisettana/` XML cannot support the collation (single `<p>`
+per chapter, commi unaligned to Q40, `cap31/32` merged, `cap33` an empty stub,
+ids colliding with Q40). `build_ventisettana_xml.py` regenerates it from the txt
+sources as one `<div type="capitolo">` fragment per chapter — matching the
+Quarantana shape — carrying text, comma-aligned `<milestone n>`, and `v27_`-
+prefixed `<w xml:id>`. Output goes to `../ventisettana_rebuilt/` (the original is
+left untouched, to be swapped only after review):
+
+```sh
+python3 prototipo/build_ventisettana_xml.py    # from the repo root
+```
+
+It also writes two review files: `TRANSCRIPTION-QA.md` (every word-form
+disagreement between the txt and the old XML — the txt is authoritative but the
+list is for an editor) and `MILESTONE-RECONCILE.md` (chapters where the txt comma
+count disagrees with the Q40 milestone count: `intro`, `cap6`, `cap13`, `cap23`).
+Full rationale in `DESIGN-ventisettana-rebuild.md`.
 
 ## Reproduce
 
