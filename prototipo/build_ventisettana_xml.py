@@ -45,8 +45,8 @@ F27 = [os.path.join(SRC, "01 - Tomo 1", "1.txt"),
 F40 = [os.path.join(SRC, "01 - Tomo 1", "2.txt"),
        os.path.join(SRC, "02 - Tomo 2", "4.txt"),
        os.path.join(SRC, "03 - Tomo 3", "6.txt")]
-OUTDIR = os.path.join(REPO, "ventisettana_rebuilt")
-EXISTING = os.path.join(REPO, "ventisettana")
+OUTDIR = os.path.join(REPO, "ventisettana_rebuilt")   # staging; swap into ventisettana/ after review
+EXISTING = os.path.join(REPO, "ventisettana_old")     # the pre-rebuild XML, kept as the QA baseline
 QUARANTANA = os.path.join(REPO, "quarantana")
 
 ROMAN = [(1000, "M"), (900, "CM"), (500, "D"), (400, "CD"), (100, "C"),

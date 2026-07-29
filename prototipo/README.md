@@ -23,23 +23,29 @@ production apparatus (§6, §9) and does not touch the TEI or the `<w>` xml:ids.
 
 ## Ventisettana XML rebuild
 
-The existing `../ventisettana/` XML cannot support the collation (single `<p>`
+The previous `ventisettana/` XML could not support the collation (single `<p>`
 per chapter, commi unaligned to Q40, `cap31/32` merged, `cap33` an empty stub,
 ids colliding with Q40). `build_ventisettana_xml.py` regenerates it from the txt
 sources as one `<div type="capitolo">` fragment per chapter — matching the
 Quarantana shape — carrying text, comma-aligned `<milestone n>`, and `v27_`-
-prefixed `<w xml:id>`. Output goes to `../ventisettana_rebuilt/` (the original is
-left untouched, to be swapped only after review):
+prefixed `<w xml:id>`:
 
 ```sh
 python3 prototipo/build_ventisettana_xml.py    # from the repo root
 ```
 
-It also writes two review files: `TRANSCRIPTION-QA.md` (every word-form
-disagreement between the txt and the old XML — the txt is authoritative but the
-list is for an editor) and `MILESTONE-RECONCILE.md` (chapters where the txt comma
-count disagrees with the Q40 milestone count: `intro`, `cap6`, `cap13`, `cap23`).
-Full rationale in `DESIGN-ventisettana-rebuild.md`.
+**Swapped in on 2026-07-29:** `../ventisettana/` now holds this rebuilt content;
+the previous XML is archived at `../ventisettana_old/` (untracked, gitignored) and
+serves as the QA baseline. Re-running the script regenerates to a
+`../ventisettana_rebuilt/` staging dir (never overwriting the live `ventisettana/`,
+so editorial fixes there are safe); promote a new build with a manual swap.
+
+It also writes two review files (now inside `../ventisettana/`):
+`TRANSCRIPTION-QA.md` (every word-form disagreement between the txt and the old
+XML — the txt is authoritative but the list is for an editor) and
+`MILESTONE-RECONCILE.md` (chapters where the txt comma count disagrees with the
+Q40 milestone count: `intro`, `cap6`, `cap13`, `cap23`). Full rationale in
+`DESIGN-ventisettana-rebuild.md`.
 
 ## Reproduce
 
