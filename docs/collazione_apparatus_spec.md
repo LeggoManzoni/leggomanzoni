@@ -77,11 +77,24 @@ decision 3 exists for.
 **2.2 Q40 wraps `<w>` in inline markup and V27 does not.** A tokeniser that assumes
 `<w>` is a direct child of `<p>` silently drops 1,100+ Q40 words. Walk the tree.
 
-**2.3 365 Q40 `<w>` live inside `<note>`/`<bibl>`.** The V27 rebuild deliberately
-carried no notes (`prototipo/DESIGN-ventisettana-rebuild.md`, deferred list). Left in
-the token stream they become fabricated 1840 additions. **Exclude `<note>` and
-`<bibl>` content from collation**, record the exclusion in the apparatus header, and
-revisit when the V27 notes are transcribed.
+**2.3 365 Q40 `<w>` live inside `<note>`/`<bibl>`, and they are Manzoni's own notes.**
+His source citations, concentrated in the plague chapters (cap28, cap31, cap32) plus
+cap9, cap12 and cap37 — *Ripamonti*, *Tadino*, *Cavatio della Somaglia*, *Lampugnano*.
+They are text of the edition and **are collated**.
+
+The two witnesses hold them differently. Q40 wraps each in `<note place="bottom">`
+anchored at its reference point; the V27 rebuild dropped inline markup, so the same
+notes sit in the `<w>` flow as unmarked running text — verified: `Ripamontii`,
+`Cavatio`, `Lampugnano` and the `prestin` note all appear in both witnesses.
+
+Two consequences. First, excluding them would fabricate ~365 words of
+Ventisettana-only text — the opposite error from the one it looks like it avoids.
+Second, **where the two witnesses place the note text may differ**, and a note anchored
+mid-sentence in Q40 but sitting at a paragraph end in V27 collates as a deletion in one
+place and an addition in another. That is the *moved locus* case of prototype spec §6.5:
+do not build move detection, emit the `add`/`del` pairs as candidates for a philologist
+to link by hand. **Audit item for the first implementation step: measure, per chapter
+carrying notes, whether the note text aligns in place or is displaced.**
 
 **2.4 Tokenisation diverges.** 700 standalone-punctuation tokens in Q40 against 458 in
 V27, and 1,447 vs 577 elided forms. Wherever the two witnesses tokenise identical
@@ -112,10 +125,16 @@ python3 scripts/collate.py --chapter cap20 --dry-run
 
 ### 3.1 `load(path) -> [Token]`
 
-Walks the XML tree (not a regex over `<p>` children — see §2.2), skipping `<note>` and
-`<bibl>` subtrees. Each token carries `text`, `xml_id`, `comma` (from the most recent
-`milestone/@n`), and `para` (index of its containing `<p>` within the chapter).
+Walks the XML tree (not a regex over `<p>` children — see §2.2), descending into every
+element that can wrap a `<w>`, `<note>` and `<bibl>` included (§2.3). Each token carries
+`text`, `xml_id`, `comma` (from the most recent `milestone/@n`), `para` (index of its
+containing `<p>` within the chapter), and `in_note` — true for tokens inside a `<note>`
+or `<bibl>`, so the viewer can set Manzoni's notes typographically apart from the
+running text as both editions do, and so displaced-note candidates are identifiable.
 Milestones never enter the token stream as text.
+
+`quarantana/header.xml` has no Ventisettana counterpart and is not a chapter; chapter
+pairing is by filename, so it never enters the collation.
 
 ### 3.2 `reglue(tokens) -> [Token]`
 
@@ -305,7 +324,10 @@ pytest, alongside the existing `tests/test_*.py`, run with `scripts/venv`.
 4. Whole-novel density between 1 per 6.5 and 1 per 8 words, consistent with the trial
    run and with prototype spec §2.
 5. `TRANSCRIPTION-QA.md` non-empty and every row attributable to a documented fold.
-6. `apparato/STATS.md` produced.
+6. `apparato/STATS.md` produced, including the per-chapter note-displacement audit of
+   §2.3. In the six chapters carrying notes, no note is reported as wholly absent from
+   either witness — if one is, the collation has displaced it rather than lost it, and
+   the pair goes to the moved-locus candidate list.
 7. A clean clone can run `npm run build-collazione` and reproduce every artefact
    byte-for-byte. This requires deterministic output: sorted keys, no timestamps and no
    absolute paths in the TEI header, and no dependency on filesystem iteration order.
@@ -319,6 +341,11 @@ Deferred to project 2: the route, the view, the columns, presets, counter, reado
 state, keyboard and mobile. Deferred beyond both: class filters in the UI, `overrides.csv`,
 `linked_with` and move detection, sentence milestones, the V27 notes, and any integration
 with `/confronta` or the commentary rail.
+
+One clarification on that list: Manzoni's notes are **collated** (§2.3); what is deferred
+is marking them up as `<note>` in the Ventisettana TEI, so that both witnesses carry the
+same structure rather than the same words in different shapes. Until then `in_note` is
+known for Q40 and inferred for V27 only through its alignment to a Q40 note token.
 
 Not addressed here, and still open: who signs `NORMALISATION.md`, and against what
 authority the `TRANSCRIPTION-QA.md` rows are adjudicated. The pipeline produces the list
