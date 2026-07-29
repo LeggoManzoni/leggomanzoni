@@ -84,7 +84,11 @@ One `<div type="capitolo">` fragment per chapter, matching the Quarantana shape:
   20, 21). A gap is meaningful — it marks a comma present only in the Quarantana.
 - `xml:id="v27_c1_10001"` — `v27_` prefix + chapter + running index from 10001.
 - Punctuation glued to the word (`Como,`), the txt's convention and Q40's.
-- Single `<p>` wrapper per chapter (typographic paragraphs are not in the txt).
+- Typographic `<p>` reconstructed from the txt line breaks (**updated 2026-07-29**;
+  was a single `<p>` wrapper). Each physical txt line = one paragraph; a comma may
+  span several, a paragraph may carry several commas or none. Purely additive —
+  same ids, words, commas. It is the 1827 paragraphing, which diverges per chapter
+  from Q40's 1840 (total 2718 vs 2676; largest cap1 +17, cap24 +14, cap33 −8).
 - 39 chapters: `intro`, `cap1`–`cap38`, with `cap31`/`cap32` correctly split and
   `cap33` filled.
 
@@ -140,7 +144,7 @@ than forced.
 ## Deferred / downstream (explicitly not this cut)
 
 - Sentence milestones (`crosses_sentence`).
-- Typographic `<p>` reconstruction.
+- ~~Typographic `<p>` reconstruction.~~ Done 2026-07-29 (see file shape above).
 - Inline markup (italics `_..._`, quotes `«»`, source citations, footnotes).
 - Anchoring collation loci to *both* witnesses' `xml:id`s in `build_loci.py` —
   the apparatus step, which this rebuild enables.

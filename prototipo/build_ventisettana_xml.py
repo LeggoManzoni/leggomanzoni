@@ -6,13 +6,19 @@ See DESIGN-ventisettana-rebuild.md for the full design. In brief: the existing
 `ventisettana/` XML cannot support the V27/Q40 collation (no aligned structure,
 merged cap31/32, empty cap33, ids colliding with Q40). This regenerates it from
 the aligned txt transcriptions as one `<div type="capitolo">` fragment per
-chapter, matching the Quarantana shape:
+chapter, matching the Quarantana shape, with typographic <p> reconstructed from
+the txt line breaks (each physical line = one paragraph; a comma may span
+several, and a paragraph may carry several commas or none):
 
     <div type="capitolo" n="1" xml:id="v27_capitolo1">
       <head>CAPITOLO I</head>
       <p>
         <milestone unit="comma" n="1"/>
         <w xml:id="v27_c1_10001">Quel</w> ...
+      </p>
+      <p>
+        <milestone unit="comma" n="8"/>
+        <w xml:id="v27_c1_10684">Per</w> ...
       </p>
     </div>
 
@@ -63,19 +69,57 @@ def roman(n):
     return out
 
 
-def load_commas(files):
-    """{chapter_key: [(comma_number, text), ...]} in document order.
+def load_paragraphs(files):
+    """{chapter_key: [paragraph, ...]}, paragraph = [(comma|None, [tokens]), ...].
 
-    The [cNNN-pNNN] markers are the cross-edition comma alignment; the p-number
-    is the shared comma id, not a per-file counter.
+    Each physical line of the txt is one paragraph; the [cNNN-pNNN] markers
+    within it delimit commas (the cross-edition alignment key). A marker-less
+    line is a dialogue turn — its own paragraph that continues the surrounding
+    comma (comma=None), exactly as a Q40 comma can span several <p>. The chapter
+    of each line is taken from its markers, so continuation lines inherit the
+    current chapter.
     """
-    text = "".join(open(f, encoding="utf8").read() for f in files)
-    text = re.sub(r"^(##|###|TOMO).*$", "", text, flags=re.M)
     out = collections.OrderedDict()
-    parts = re.split(r"\[(c\d+)-(p\d+)\]", text)
-    for chap, para, body in zip(parts[1::3], parts[2::3], parts[3::3]):
-        out.setdefault(chap, []).append((int(para[1:]), " ".join(body.split())))
+    cur = None
+    for f in files:
+        for raw in open(f, encoding="utf8"):
+            s = raw.strip()
+            if not s or s.startswith("#") or s.startswith("TOMO"):
+                continue
+            markers = re.findall(r"\[(c\d+)-p\d+\]", s)
+            if markers:
+                cur = markers[0]
+            if cur is None:
+                continue
+            parts = re.split(r"\[c\d+-(p\d+)\]", s)
+            segs = []
+            lead = parts[0].strip()
+            if lead:                       # text before the first marker: continues prev comma
+                segs.append((None, lead.split()))
+            for pnum, body in zip(parts[1::2], parts[2::2]):
+                segs.append((int(pnum[1:]), body.split()))
+            if segs:
+                out.setdefault(cur, []).append(segs)
     return out
+
+
+def comma_counts(files):
+    """{chapter_key: number of distinct commas} — used only for the reconcile."""
+    text = "".join(open(f, encoding="utf8").read() for f in files)
+    out = collections.defaultdict(set)
+    for chap, para in re.findall(r"\[(c\d+)-(p\d+)\]", text):
+        out[chap].add(para)
+    return {c: len(v) for c, v in out.items()}
+
+
+def flat_tokens(paras):
+    """All word tokens of a chapter, in order (for the QA diff / word count)."""
+    return [t for segs in paras for _, toks in segs for t in toks]
+
+
+def comma_numbers(paras):
+    """All comma numbers of a chapter, in document order."""
+    return [c for segs in paras for c, _ in segs if c is not None]
 
 
 def chap_meta(ckey):
@@ -93,22 +137,31 @@ def esc(s):
     return html.escape(s, quote=False)
 
 
-def build_xml(ckey, commas):
-    """Return (filename, xml_string, word_count, [comma_numbers])."""
+def build_xml(ckey, paras):
+    """Return (filename, xml_string, word_count, [comma_numbers], paragraph_count).
+
+    One <p> per txt paragraph; <milestone> where a comma begins (a paragraph may
+    carry several, or none when it continues a comma). Word ids run continuously
+    across the chapter, unaffected by the paragraph breaks.
+    """
     filename, dtype, n, xmlid, head, wprefix = chap_meta(ckey)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<div type="%s" n="%d" xml:id="%s">' % (dtype, n, xmlid),
-             "   <head>%s</head>" % head, "   <p>"]
+             "   <head>%s</head>" % head]
     seq = 10001
     comma_ns = []
-    for cn, body in sorted(commas, key=lambda x: x[0]):
-        comma_ns.append(cn)
-        lines.append('      <milestone unit="comma" n="%d"/>' % cn)
-        for tok in body.split():
-            lines.append('      <w xml:id="%s_%d">%s</w>' % (wprefix, seq, esc(tok)))
-            seq += 1
-    lines += ["   </p>", "</div>", ""]
-    return filename, "\n".join(lines), seq - 10001, comma_ns
+    for segs in paras:
+        lines.append("   <p>")
+        for comma, toks in segs:
+            if comma is not None:
+                comma_ns.append(comma)
+                lines.append('      <milestone unit="comma" n="%d"/>' % comma)
+            for tok in toks:
+                lines.append('      <w xml:id="%s_%d">%s</w>' % (wprefix, seq, esc(tok)))
+                seq += 1
+        lines.append("   </p>")
+    lines += ["</div>", ""]
+    return filename, "\n".join(lines), seq - 10001, comma_ns, len(paras)
 
 
 def existing_v27_tokens(filename):
@@ -136,8 +189,8 @@ def q40_milestone_counts():
 
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
-    commas27 = load_commas(F27)
-    commas40 = load_commas(F40)
+    paras27 = load_paragraphs(F27)
+    counts40 = comma_counts(F40)
     qids = quarantana_ids()
     qms = q40_milestone_counts()
 
@@ -147,11 +200,14 @@ def main():
     problems = []
     n_files = 0
     n_words = 0
+    n_paras = 0
 
-    for ckey in sorted(commas27, key=lambda c: int(c[1:])):
-        filename, xml, wc, comma_ns = build_xml(ckey, commas27[ckey])
+    for ckey in sorted(paras27, key=lambda c: int(c[1:])):
+        paras = paras27[ckey]
+        filename, xml, wc, comma_ns, pcount = build_xml(ckey, paras)
         n_files += 1
         n_words += wc
+        n_paras += pcount
 
         # --- write + parse-check
         path = os.path.join(OUTDIR, filename + ".xml")
@@ -176,13 +232,14 @@ def main():
         if qclash:
             problems.append("%s: xml:id collides with Quarantana %s" % (filename, list(qclash)[:3]))
 
-        # --- comma-number fidelity: milestones must equal the txt27 comma numbers
-        txt_ns = sorted(cn for cn, _ in commas27[ckey])
-        if comma_ns != txt_ns:
-            problems.append("%s: milestone n != txt27 comma numbers" % filename)
+        # --- comma-number fidelity: milestones must equal the txt27 comma numbers,
+        #     each once, in increasing order (paragraph breaks must not drop/dupe them)
+        txt_ns = comma_numbers(paras)
+        if comma_ns != sorted(set(txt_ns)) or len(comma_ns) != len(set(comma_ns)):
+            problems.append("%s: milestone n != txt27 comma numbers (dup/disorder)" % filename)
 
         # --- word-count fidelity
-        txt_wc = sum(len(b.split()) for _, b in commas27[ckey])
+        txt_wc = len(flat_tokens(paras))
         if wc != txt_wc:
             problems.append("%s: emitted %d words, txt27 has %d" % (filename, wc, txt_wc))
 
@@ -191,7 +248,7 @@ def main():
         if exist is None:
             qa_rows.append((filename, "-", "(no prior XML: chapter was merged/stub/new)", ""))
         else:
-            txt_tokens = [t for _, b in sorted(commas27[ckey]) for t in b.split()]
+            txt_tokens = flat_tokens(paras)
             sm = difflib.SequenceMatcher(None, txt_tokens, exist, autojunk=False)
             for op, i1, i2, j1, j2 in sm.get_opcodes():
                 if op == "equal":
@@ -201,8 +258,8 @@ def main():
                                 " ".join(exist[j1:j2]) or "∅"))
 
         # --- milestone reconcile vs Q40 XML
-        t27 = len(commas27[ckey])
-        t40 = len(commas40.get(ckey, []))
+        t27 = len(set(txt_ns))
+        t40 = counts40.get(ckey, 0)
         q = qms.get(filename)
         if t27 == t40 == q:
             cls = "aligned"
@@ -241,7 +298,8 @@ def main():
 
     # --- summary
     print("Generated %d files -> %s" % (n_files, os.path.relpath(OUTDIR, REPO)))
-    print("  total V27 words: %d   unique xml:ids: %d" % (n_words, len(all_ids)))
+    print("  total V27 words: %d   paragraphs: %d   unique xml:ids: %d"
+          % (n_words, n_paras, len(all_ids)))
     print("  QA disagreements: %d   milestone-discrepant chapters: %s"
           % (sum(1 for r in qa_rows if r[1] not in ("-", "equal")),
              ", ".join(r[0] for r in reconcile if r[4] == "DISCREPANT") or "none"))

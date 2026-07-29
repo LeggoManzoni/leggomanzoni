@@ -27,8 +27,9 @@ The previous `ventisettana/` XML could not support the collation (single `<p>`
 per chapter, commi unaligned to Q40, `cap31/32` merged, `cap33` an empty stub,
 ids colliding with Q40). `build_ventisettana_xml.py` regenerates it from the txt
 sources as one `<div type="capitolo">` fragment per chapter — matching the
-Quarantana shape — carrying text, comma-aligned `<milestone n>`, and `v27_`-
-prefixed `<w xml:id>`:
+Quarantana shape — carrying text, comma-aligned `<milestone n>`, `v27_`-
+prefixed `<w xml:id>`, and typographic `<p>` reconstructed from the txt line
+breaks (the 1827 paragraphing; 2718 paragraphs, vs Q40's 2676):
 
 ```sh
 python3 prototipo/build_ventisettana_xml.py    # from the repo root
