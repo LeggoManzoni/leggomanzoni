@@ -85,14 +85,41 @@ Three options, all needing a philologist:
    misaligns it — the French *comme nous l'avons dit* would end up anchored to *sopra
    questi e quelli eran delegati*, which is not what it translates.
 2. **Drop** the anchor and keep the segment unaligned, recording why.
-3. **Reconsider the removal.** Worth noting before choosing: three independent
-   nineteenth-century translators — French 1877, German 1880, Russian 1936 — render a
-   phrase the new edition deletes. That is testimony that the phrases stood in the
-   Quarantana text those translators worked from. It does not settle what the 1840 print
-   reads, but it is evidence that belongs in the decision.
+3. **Reconsider the removal** — but the evidence does not support this, and for cap38 it
+   runs the other way. See below.
 
 Until one is chosen the validator reports 6 broken references (3 segments × target +
 targetEnd), plus the one monotonicity flag above. That is intended, not an oversight.
+
+### What the other translations say
+
+Checked across all five translation sets rather than only the broken ones.
+
+**cap38 — the translations corroborate the removal.** French, Polish, Russian and Finnish
+all jump straight from `c38_15785` to `c38_15793`: none of them has a segment over the
+removed clause, exactly as the new edition has no text there. Only German does, and its
+content is not a rendering of «ho imparato a guardar con chi parlo:» — it is the stock
+anaphora opener, mis-split off the following clause:
+
+```
+15779..15785  ich habe gelernt, auf offener Straße nicht zu predigen,   complete
+15786..15792  ich habe gelernt,                                         orphan
+15793..15800  nicht über den Durst zu trinken;                          missing its opener
+```
+
+Merging the orphan into the following segment restores *ich habe gelernt, nicht über den
+Durst zu trinken;* = «ho imparato a non alzar troppo il gomito:». **Recommended fix:** do
+that merge. It is a repair of a pre-existing alignment defect that the update exposed, not
+a concession to it.
+
+**cap32 — genuinely mixed, two of five.** French 1877 (*comme nous l'avons dit,*) and
+Russian 1936 (*как мы уже сказали,*) render the phrase as its own segment. German 1880
+(*Commissare zu ihren Vorgesetzten ernannt;*), Polish 1882 (*zwierzchnikami ich byli
+komisarze;*) and Finnish 1910 show no corresponding words at that point. Absence in a free
+translation proves little on its own — translators drop discourse markers routinely — but
+two of five is weak testimony, not the corroboration an earlier draft of this note claimed.
+The cap32 decision rests on the print and Poggi Salani, as the edition says; these two
+segments are a loose end to tidy, not a reason to revisit it.
 
 ## Unrelated pre-existing failures
 
