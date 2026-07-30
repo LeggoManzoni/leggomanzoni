@@ -41,6 +41,35 @@ the validator's monotonicity pass is green on all of them.
 | translations/Russian_1936s/cap27.xml | targetEnd | `c27_12855` | `c27_12854` |
 | translations/Russian_1936s/cap32.xml | target | `c32_13926` | `c32_13929` |
 
+## An upstream error, corrected locally: cap32 «come abbiam detto»
+
+**This was not a deletion either.** The phrase is in the 1840 print — page 616,
+`z_0622_l04` — but positioned after *delegati*, not after *commissari* where the earlier
+Poggi Salani-based encoding had it:
+
+> …dati per superiori de' commissari**;** sopra questi e quelli eran dele-gati**, come
+> abbiam detto,** in ogni quartiere, magistrati e nobili…
+
+The upstream edition removed it from the old position and never restored it at the new
+one, so three words of the print were lost. Its own documentation shows how:
+`id-changes.md` records the three tokens as *"documentary deletion — absent from the 1840
+print; certified 2026-07-25: the surrounding line matches the verified ground truth"*, and
+the collation table that drove it (`quarantana-poggisalani-collation.md:69`) quotes the
+context as *"…eran dele"* — truncated one word before the evidence. The certification
+checked the line the deletion was on; the phrase had moved to the line below. The same
+file's summary shows the pipeline handles this case correctly elsewhere: *"The p.251
+transposition moves three tokens, which receive new `…_b/_c/_d` identifiers."* That is
+cap12. cap32 is the same transposition, misclassified.
+
+**Restored** in `quarantana/cap32.xml` following the print and the pipeline's own
+convention: `c32_13934` gains the print's comma (`delegati,`) and three new tokens
+`c32_13934_b`/`_c`/`_d` carry `come abbiam detto,`. The French and Russian segments are
+re-anchored to them, so both are now true alignments rather than dead references.
+
+**Report this upstream.** The fix belongs at the source; ours will be overwritten by the
+next import otherwise. Worth asking the maintainers whether the truncated-context
+certification affected other entries — cap38 below carries the identical wording.
+
 ## A transposition, correctly re-anchored (1 segment)
 
 **`translations/Polish_1882s/cap12.xml` line 671 — «come abbiam visto,».** An earlier
@@ -60,24 +89,24 @@ order and the Italian order now genuinely cross. That flag is a correct report o
 transposition, not a data error. Forcing monotonicity here would mean falsifying the
 alignment to satisfy the checker.
 
-## Left open — an editorial decision, not a mechanical one (3 segments)
+## Left open — one segment
 
-In these three the **whole** segment is anchored inside text the new edition removes, and
-the phrase occurs nowhere else in the chapter (verified: `abbiam detto` 1→0 in cap32,
-`ho imparato a guardar` 1→0 in cap38). There is no surviving word between the neighbouring
-anchors to move to, so they are deliberately left pointing at the dead ids — the validator
-reports them, which is the honest state.
-
-| file | line | anchor | segment text | Italian now removed |
+| file | line | anchor | segment text | Italian removed |
 |---|--:|---|---|---|
-| translations/French_1877s/cap32.xml | 619 | `c32_13926..c32_13928` | comme nous l'avons dit, | «come abbiam detto;» |
-| translations/Russian_1936s/cap32.xml | 606 | `c32_13926..c32_13928` | как мы уже сказали, | «come abbiam detto;» |
 | translations/German_1880s/cap38.xml | 934 | `c38_15786..c38_15792` | ich habe gelernt, | «ho imparato a guardar con chi parlo:» |
 
-Note that the surviving «come abbiam **veduto**,» later in cap32 (`c32_14261`–`14263`) is a
-*different* phrase in a different place, untouched by the update. It is easy to mistake for
-the removed one; the French and Russian segments here read *dit* / *сказали* — **said**,
-not seen — so they translate the removed «come abbiam detto», not the survivor.
+`ho imparato a guardar` occurs nowhere else in the novel (1→0), so unlike cap32 and cap12
+there is no position to re-anchor to. **But cap38 carries the same "certified 2026-07-25:
+the surrounding line matches the verified ground truth" wording that proved unreliable for
+cap32, so it deserves the same check against the facsimile** — page 745, `z_0751_l15`–`l20`,
+before anything is concluded. The evidence currently available points the other way from
+cap32: French, Polish, Russian and Finnish all skip `c38_15785` → `c38_15793`, so no
+translation renders the clause.
+
+A note on a look-alike: the surviving «come abbiam **veduto**,» later in cap32
+(`c32_14261`–`14263`) is a *different* phrase in a different place, untouched throughout. It
+is easy to mistake for the restored one; the French and Russian segments read *dit* /
+*сказали* — **said**, not seen.
 
 Three options, all needing a philologist:
 
@@ -112,14 +141,17 @@ Durst zu trinken;* = «ho imparato a non alzar troppo il gomito:». **Recommende
 that merge. It is a repair of a pre-existing alignment defect that the update exposed, not
 a concession to it.
 
-**cap32 — genuinely mixed, two of five.** French 1877 (*comme nous l'avons dit,*) and
-Russian 1936 (*как мы уже сказали,*) render the phrase as its own segment. German 1880
-(*Commissare zu ihren Vorgesetzten ernannt;*), Polish 1882 (*zwierzchnikami ich byli
-komisarze;*) and Finnish 1910 show no corresponding words at that point. Absence in a free
-translation proves little on its own — translators drop discourse markers routinely — but
-two of five is weak testimony, not the corroboration an earlier draft of this note claimed.
-The cap32 decision rests on the print and Poggi Salani, as the edition says; these two
-segments are a loose end to tidy, not a reason to revisit it.
+**cap32 — the two translations that rendered it were right.** French 1877 (*comme nous
+l'avons dit,*) and Russian 1936 (*как мы уже сказали,*) carry the phrase; German, Polish and
+Finnish show no corresponding words. An earlier draft of this note read that 2-of-5 split as
+weak testimony against the phrase. The facsimile then showed the phrase is in the print, so
+the two that render it were simply right and the three that do not had dropped a discourse
+marker, which is ordinary in a free translation.
+
+The general lesson, since this note got it wrong in both directions before the image
+settled it: **a translation's silence is not evidence of absence, and a machine-certified
+deletion is not evidence of absence either.** Only the page is. Where a removal matters,
+look at the facsimile — `<pb>`/`<lb>` give the surface and line for every token.
 
 ## Unrelated pre-existing failures
 
