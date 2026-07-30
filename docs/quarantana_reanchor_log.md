@@ -1,5 +1,36 @@
 # Translation re-anchoring after the Quarantana documentary-text update
 
+## Validation state (2026-07-30)
+
+**Structurally and functionally confirmed.** Checked against our copy, including the
+cap32 restoration:
+
+| check | result |
+|---|---|
+| upstream Schematron (`schema/promessi-sposi.sch`) | 42/42 files pass |
+| `xml:id` uniqueness across the corpus | 239,335 ids, 0 duplicates |
+| `@facs` references resolving into `facsimile.xml` | 21,759 refs, 0 dangling |
+| `<w>` tokens | 215,960 |
+| all 39 chapters render through both chapter XSLTs | pass |
+| commentary anchors | 0 broken of 618k refs |
+| translation anchors | 0 broken; 3 monotonicity flags describing real transpositions |
+| app routes (reader, confronta, concordanza, chapter/comment/translation fetches) | all 200 |
+| concordance | rebuilt, token count agrees |
+
+**Not confirmed philologically, and it should not be read as if it were.** Of the 33
+`documentary deletion` entries the edition records, **4 have been checked against the
+facsimile**: cap32 (wrong — restored), cap38, cap24, cap12. The other 14 single-token
+removals are unverified; the checklist is `quarantana_deletion_audit.md`.
+
+Entirely unexamined here: the edition's **1,274 accent reversions, 140 accent removals,
+54 capitalisations and 39 heading changes**. None was checked against the print by us. The
+edition's own `editorial-decisions-quarantana.md` flags 68 interior-accent cases as
+unreadable even at high magnification and defers them for dedicated review.
+
+Note also that the upstream `docs/validation-report.md` is dated 2026-07-20 and reports
+215,954 `<w>`, while the files we received carry 215,957. It predates their final
+correction pass and does not describe exactly these files.
+
 The 2026 Quarantana adopts the documentary text of the 1840 print and removes tokens the
 earlier transcription carried but the print does not — the cap24 dittography, the cap38
 interpolated clause, and the `come abbiam detto` / `come abbiam visto` parentheticals.
