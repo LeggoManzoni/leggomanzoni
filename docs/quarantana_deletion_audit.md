@@ -10,7 +10,7 @@ function word is far less likely to be a transposition.
 
 | status | chapter | n | reading removed | page | line zone (nearest surviving token) |
 |---|---|--:|---|--:|---|
-| **unverified** | cap38.xml | 7 | «ho imparato a guardar con chi parlo:» | 745 | `z_0751_l20` |
+| verified on facsimile - removal correct | cap38.xml | 7 | «ho imparato a guardar con chi parlo:» | 745 | `z_0751_l20` |
 | checked - dittography | cap24.xml | 5 | «come ha fatto a quest'altro,» | 464 | `z_0470_l04` |
 | OK - transposition, handled upstream | cap12.xml | 3 | «come abbiam visto,» | 251 | `z_0257_l04` |
 | **WRONG - restored** | cap32.xml | 3 | «come abbiam detto;» | 616 | `z_0622_l03` |

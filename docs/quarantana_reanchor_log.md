@@ -16,7 +16,7 @@ old and new files and, where it mattered, against the facsimile image:
 | `cap9` | token merge — `s'uni` + `formavano,` → `s'uniformavano,` |
 | `cap24` | dittography — `come ha fatto a quest'altro` occurred twice, now once |
 | `cap1`, `cap27` | single words absent from the print (`il Signor`, `sicuramente`) |
-| `cap38` | removal, not yet checked against the facsimile — see the open item below |
+| `cap38` | genuine removal — **verified on the facsimile** (p.745): the print runs the two *ho imparato* clauses together |
 
 **A dead id is a question, not a verdict.** Only one of the ten was a plain deletion of text
 the print lacks. The rest were moves, merges, or duplicate removals — and one was an error.
@@ -107,9 +107,13 @@ shape, classified as a deletion instead.
    not only its own, before "absent from the print" is concluded. Same for the collation
    table's context column.
 3. Re-run the check over the other 32 certified deletions — the multi-token ones especially,
-   since a moved phrase is exactly what the current window misses. `cap38`
-   («ho imparato a guardar con chi parlo:», 7 tokens, p. 745 `z_0751_l15`–`l20`) is the
-   largest and carries identical certification wording.
+   since a moved phrase is exactly what the current window misses. Two have since been
+   checked by eye and are **correct**: `cap24` (the `come ha fatto a quest'altro`
+   dittography) and `cap38` («ho imparato a guardar con chi parlo:», 7 tokens, p. 745 —
+   the print runs the two *ho imparato* clauses straight together, so nothing is missing
+   there). `cap12` was correctly detected as a transposition by the pipeline itself. That
+   leaves the remaining single-token deletions unverified; a downstream checklist with page
+   and line for each is at `docs/quarantana_deletion_audit.md`.
 
 **Patch applied downstream**, following the print and the `_b/_c/_d` convention:
 
@@ -162,42 +166,49 @@ order and the Italian order now genuinely cross. That flag is a correct report o
 transposition, not a data error. Forcing monotonicity here would mean falsifying the
 alignment to satisfy the checker.
 
-## Left open — one segment
+## cap38 — removal verified against the facsimile, German segment repaired
 
-| file | line | anchor | segment text | Italian removed |
-|---|--:|---|---|---|
-| translations/German_1880s/cap38.xml | 934 | `c38_15786..c38_15792` | ich habe gelernt, | «ho imparato a guardar con chi parlo:» |
+**Checked on the page (2026-07-30), page 745, `z_0751_l15`–`l20`. The print reads:**
 
-`ho imparato a guardar` occurs nowhere else in the novel (1→0), so unlike cap32 and cap12
-there is no position to re-anchor to. **But cap38 carries the same "certified 2026-07-25:
-the surrounding line matches the verified ground truth" wording that proved unreliable for
-cap32, so it deserves the same check against the facsimile** — page 745, `z_0751_l15`–`l20`,
-before anything is concluded. The evidence currently available points the other way from
-cap32: French, Polish, Russian and Finnish all skip `c38_15785` → `c38_15793`, so no
-translation renders the clause.
+> ho imparato a non predicare in piazza: ho imparato a non alzar…
+
+There is no «ho imparato a guardar con chi parlo:» — the two *ho imparato* clauses run
+straight into each other. **The upstream removal of `c38_15786`–`c38_15792` is correct**,
+and cap38 is not a second cap32. This is the check that had to be done by eye: the phrase
+occurs nowhere else in the novel (1→0), and four of five translations already skipped the
+span, but after cap32 neither of those was sufficient to conclude on.
+
+What remained was a defect on our side, older than this update. The German 1880 rendering
+of the passage is an anaphora, *ich habe gelernt, …* repeated for each clause, and the
+aligner had split one instance of the opener onto the deleted span, leaving the following
+segment without it:
+
+| | before | after |
+|---|---|---|
+| `c38_15779..15785` | ich habe gelernt, auf offener Straße nicht zu predigen, | unchanged |
+| `c38_15786..15792` | *ich habe gelernt,* ← orphan on deleted text | **removed** |
+| `c38_15793..15800` | nicht über den Durst zu trinken; | **ich habe gelernt,** nicht über den Durst zu trinken; |
+
+The Italian at `c38_15793..15800` is «ho imparato a non alzar troppo il gomito:», so the
+merged segment is now a complete and correct rendering of it, and the German anaphora runs
+unbroken across `n898`, `n900`, `n901`, `n903` as it does in the source. `note`
+`german_1880_cap38-n899` is removed; it was referenced nowhere.
+
+**With this, no broken reference remains from the update.** The validator reports 15
+issues: 12 pre-existing malformed refs in `commenti/Nigro/` (unrelated, see below) and 3
+monotonicity flags that correctly describe real transpositions (Polish cap12, French and
+Russian cap32).
 
 A note on a look-alike: the surviving «come abbiam **veduto**,» later in cap32
 (`c32_14261`–`14263`) is a *different* phrase in a different place, untouched throughout. It
 is easy to mistake for the restored one; the French and Russian segments read *dit* /
 *сказали* — **said**, not seen.
 
-Three options, all needing a philologist:
-
-1. **Merge** each segment into its neighbour. Preserves every translated word but
-   misaligns it — the French *comme nous l'avons dit* would end up anchored to *sopra
-   questi e quelli eran delegati*, which is not what it translates.
-2. **Drop** the anchor and keep the segment unaligned, recording why.
-3. **Reconsider the removal** — but the evidence does not support this, and for cap38 it
-   runs the other way. See below.
-
-Until one is chosen the validator reports 6 broken references (3 segments × target +
-targetEnd), plus the one monotonicity flag above. That is intended, not an oversight.
-
 ### What the other translations say
 
 Checked across all five translation sets rather than only the broken ones.
 
-**cap38 — the translations corroborate the removal.** French, Polish, Russian and Finnish
+**cap38 — the translations corroborate the removal, and the facsimile confirms it.** French, Polish, Russian and Finnish
 all jump straight from `c38_15785` to `c38_15793`: none of them has a segment over the
 removed clause, exactly as the new edition has no text there. Only German does, and its
 content is not a rendering of «ho imparato a guardar con chi parlo:» — it is the stock
