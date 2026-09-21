@@ -1,0 +1,449 @@
+/* Collaziono — Ventisettana 1827 / Quarantana 1840, synoptic view.
+ *
+ * Page-scoped only. Nothing here may leak: the site's global rules turn
+ * .row into a 100vh white-text flexbox (styles-optimized.css:1325) and
+ * .container into a flexbox (:1586), so this page uses its own .coll-*
+ * namespace throughout and never restyles a shared class.
+ *
+ * Deliberately NOT set: font-family on the reading surface. It inherits
+ * Cormorant Garamond from body, which keeps the site's accessible-font
+ * toggle able to override it. See docs/collazione_viewer_review.md §2.3.
+ */
+
+.coll-page {
+    /* Witness hues. Kept from the prototype: every colour in the site palette
+     * is already semantically claimed (yellow = commented span / search hit,
+     * green = active, terracotta = comment underline). Review §3.2. */
+    /* Tints are stronger than the prototype's (1F / 26). The prototype sat on
+     * #FBFAF7 paper inside a page with no other colour; here the surface is
+     * white inside a green page, and at 12% the two witnesses read as the same
+     * grey. Raised until the columns are tellable apart at a glance. */
+    --v27: #5D6E8C;
+    --v27-tint: #5D6E8C33;
+    --q40: #8A7B4F;
+    --q40-tint: #8A7B4F3D;
+
+    --coll-surface: #fff;
+    --coll-ink: #212529;
+    --coll-ink-soft: #555;
+    --coll-ink-faint: #888;
+    --coll-rule: #e0e0e0;
+    --coll-rule-strong: #ccc;
+    --coll-accent: #73978B;
+
+    /* #mainNav is fixed-top and ~79px tall; nothing else reserves room for it. */
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+/* The site's .container is display:flex globally; restore a normal block box
+ * and the width concordanza settled on. */
+.coll-page .container {
+    display: block;
+    max-width: 1400px;
+}
+
+.coll-page h1 {
+    font-size: 2rem;
+    color: var(--coll-ink);
+    margin-bottom: 1.5rem;
+}
+
+.coll-page h2 {
+    color: var(--coll-ink);
+}
+
+.coll-label {
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    font-size: 0.8rem;
+    color: var(--coll-ink-faint);
+}
+
+/* ---- control rail ---- */
+.coll-rail {
+    position: sticky;
+    top: 100px;                 /* matches .conc-sidebar-inner, the only sticky
+                                   offset that actually clears the fixed navbar */
+    z-index: 20;
+    background: var(--coll-surface);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.25rem;
+}
+
+/* #mainNav is 79px tall and the rail sticks at 100px, so scrolling text shows
+ * through the 21px gap between them. Fill it with the page background, under
+ * the navbar (z 1030) and over the text. Desktop only: the mobile navbar is
+ * shorter and the rail is not sticky there. */
+@media (min-width: 769px) {
+    .coll-page::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        background: #DDEBDD;
+        z-index: 19;
+        pointer-events: none;
+    }
+}
+
+.coll-rail-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.5rem;
+    padding: 12px 20px;
+}
+
+.coll-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Segmented control. Bootstrap's .btn-group is outside the purge safelist,
+ * so this is hand-built from the site's own button vocabulary. */
+.coll-seg {
+    display: flex;
+    border: 1px solid var(--coll-rule-strong);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.coll-seg button {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    background: #f8f8f8;
+    color: var(--coll-ink-soft);
+    border: 0;
+    border-right: 1px solid var(--coll-rule);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.coll-seg button:last-child {
+    border-right: 0;
+}
+
+.coll-seg button[aria-pressed="true"] {
+    background: var(--coll-accent);
+    color: #fff;
+}
+
+.coll-seg button:focus-visible,
+.coll-chapter-link:focus-visible {
+    outline: 2px solid var(--coll-accent);
+    outline-offset: 1px;
+}
+
+/* One line saying what the active choice means. "Solo le riscritture" hides
+ * ~97% of the marks, which is startling without a stated threshold. */
+.coll-hint {
+    margin: 0;
+    padding: 0 20px 12px;
+    font-size: 0.95rem;
+    text-align: left;
+    color: var(--coll-ink-faint);
+}
+
+.coll-counter {
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+    color: var(--coll-ink-soft);
+    white-space: nowrap;
+}
+
+.coll-counter b {
+    color: var(--coll-ink);
+    font-weight: 700;
+}
+
+/* ---- reading surface ---- */
+.coll-surface {
+    background: var(--coll-surface);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+}
+
+.coll-chapter-head {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.coll-chapter-head .coll-label {
+    display: block;
+}
+
+.coll-chapter-head h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0.35rem 0 0;
+}
+
+/* Column headers, sticky under the rail. */
+.coll-syn-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2.5rem;
+    position: sticky;
+    /* rail sticky offset + rail height, measured at runtime: the rail grows a
+     * line taller when the filtered mode shows its explanation. */
+    top: var(--coll-head-top, 168px);
+    z-index: 10;
+    background: var(--coll-surface);
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--coll-rule);
+}
+
+/* The grid is the whole point: cells are emitted in pairs, so each row is as
+ * tall as its taller cell and the two columns cannot drift apart. */
+.coll-syn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2.5rem;
+}
+
+.coll-col {
+    line-height: 2;
+}
+
+/* styles-optimized.css:222-225 styles bare `p` globally (justify, 21px), so
+ * these have to be set on the element, not inherited from .coll-col. */
+.coll-col p {
+    margin: 0 0 1.15rem;
+    font-size: 17px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* A row's two cells, separated so long rows stay readable as a pair. */
+.coll-row-rule {
+    grid-column: 1 / -1;
+    border-top: 1px solid #f0f0f0;
+    margin: 0 0 1.15rem;
+}
+
+/* ---- loci ---- *
+ * <span>, never <mark>: styles-optimized.css:196 gives mark 0.2em of padding,
+ * which would inflate line boxes differently in each column and destroy the
+ * row alignment this mode exists for. */
+.coll-rd {
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.coll-rd-v27 {
+    background: var(--v27-tint);
+    box-shadow: 0 1px 0 var(--v27);
+}
+
+.coll-rd-q40 {
+    background: var(--q40-tint);
+    box-shadow: 0 1px 0 var(--q40);
+}
+
+.coll-rd:hover {
+    background: #eceff3;
+}
+
+.coll-rd[aria-current="true"] {
+    outline: 2px solid var(--coll-accent);
+    outline-offset: 1px;
+}
+
+.coll-rd:focus-visible {
+    outline: 2px solid var(--coll-accent);
+    outline-offset: 1px;
+}
+
+/* Absent reading. Never italic alone: Cormorant Garamond loads at weight 400
+ * only, so every italic here is synthesized. Review §2.4. */
+.coll-caret {
+    font-weight: 700;
+    color: var(--coll-ink-faint);
+    padding: 0 0.15em;
+}
+
+.coll-absent {
+    color: var(--coll-ink-faint);
+    font-size: 0.85rem;
+}
+
+.coll-loading {
+    color: var(--coll-ink-faint);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.coll-error {
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+/* ---- readout ---- */
+.coll-readout {
+    position: sticky;
+    bottom: 0;
+    z-index: 15;
+    background: #DDDCDA;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-top: 1.25rem;
+    min-height: 6rem;
+}
+
+.coll-empty {
+    color: var(--coll-ink-soft);
+    margin: 0;
+}
+
+.coll-rd-grid {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 0.35rem 1rem;
+    align-items: baseline;
+}
+
+.coll-siglum {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.coll-siglum-v27 { color: var(--v27); }
+.coll-siglum-q40 { color: var(--q40); }
+
+.coll-rdg {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+.coll-rdg-none {
+    color: var(--coll-ink-faint);
+    font-size: 0.9rem;
+}
+
+.coll-rd-meta {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.75rem;
+    color: var(--coll-ink-faint);
+}
+
+/* ---- legend and notes ---- */
+.coll-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    color: var(--coll-ink-soft);
+}
+
+.coll-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.coll-sw {
+    width: 1.6rem;
+    height: 0.9rem;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.coll-sw-v27 {
+    background: var(--v27-tint);
+    box-shadow: 0 1px 0 var(--v27);
+}
+
+.coll-sw-q40 {
+    background: var(--q40-tint);
+    box-shadow: 0 1px 0 var(--q40);
+}
+
+.coll-note {
+    margin-top: 1.25rem;
+    color: var(--coll-ink-soft);
+    max-width: 70ch;
+}
+
+.coll-note p {
+    margin-bottom: 0.75rem;
+}
+
+.coll-provvisorio {
+    border-left: 3px solid var(--coll-accent);
+    padding-left: 0.75rem;
+    color: var(--coll-ink-faint);
+}
+
+/* ---- mobile ---- *
+ * Follows concordanza: media queries only, no mobile-tabs machinery.
+ * Stacking the grid would hide which witness you are reading, so each cell
+ * announces its siglum and the pair is ruled off. Review §6. */
+@media (max-width: 768px) {
+    .coll-syn-head {
+        display: none;
+    }
+
+    .coll-syn {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* Justified text in a 336px column with no hyphenation opens rivers. */
+    .coll-col p {
+        text-align: left;
+        hyphens: none;
+    }
+
+    .coll-col::before {
+        content: attr(data-siglum);
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        font-size: 0.75rem;
+        color: var(--coll-ink-faint);
+        margin-bottom: 0.25rem;
+    }
+
+    .coll-col-v27 {
+        padding-bottom: 0.75rem;
+    }
+
+    .coll-col-q40 {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--coll-rule);
+        margin-bottom: 1rem;
+    }
+
+    .coll-row-rule {
+        display: none;
+    }
+
+    .coll-rail {
+        position: static;
+    }
+
+    .coll-surface {
+        padding: 1.25em;
+    }
+
+    .coll-readout {
+        position: static;
+    }
+}
