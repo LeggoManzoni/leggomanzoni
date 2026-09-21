@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm install && nodemon app.js",
-    "build-concordance": "scripts/venv/bin/python scripts/build_concordance.py"
+    "build-concordance": "scripts/venv/bin/python scripts/build_concordance.py",
+    "check-collazione": "scripts/venv/bin/python scripts/check_comma_alignment.py",
+    "build-collazione": "npm run check-collazione && scripts/venv/bin/python scripts/collate_tei.py"
   },
   "keywords": [],
   "author": "",

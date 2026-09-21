@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<!-- Head-->
+<%- include ("partials/head"); %>
+<link href="./assets/css/collaziono.css" rel="stylesheet" />
+
+    <body id="page-top" class="normalFont">
+        <!-- Navigation-->
+        <%- include("partials/navbar"); %>
+
+            <div class="coll-page">
+
+                <header>
+                    <div class="container px-4 px-lg-5">
+                        <h1 class="text-center" id="collazioneTitle">Collaziono &mdash; Ventisettana 1827 / Quarantana 1840</h1>
+                    </div>
+                </header>
+
+                <!-- Control rail: everything here applies to both columns at once.
+                     Inside the same .container as the reading surface, so the two
+                     cards share the px-4/px-lg-5 gutter and line up. -->
+                <div class="container px-4 px-lg-5">
+                    <div class="coll-rail">
+                        <div class="coll-rail-inner">
+                        <div class="coll-group">
+                            <span class="coll-label">Capitolo</span>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    id="toggle-capitoli" data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="text-align: left">Capitolo I</button>
+                                <ul class="dropdown-menu" aria-labelledby="toggle-capitoli">
+                                    <% chapters.forEach((entry)=> { %>
+                                        <li>
+                                            <a class="dropdown-item coll-chapter-link"
+                                                data-chapter="<%= entry.chapter %>" href="#">
+                                                <%= entry.chapter === 'intro' ? entry.roman : 'Capitolo ' + entry.roman %>
+                                            </a>
+                                        </li>
+                                    <% }); %>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="coll-group">
+                            <span class="coll-label">Mostra</span>
+                            <div class="coll-seg" id="coll-preset">
+                                <button type="button" data-v="tutto" aria-pressed="true"
+                                    title="Ogni differenza fra le due edizioni, punteggiatura compresa.">Tutte le varianti</button>
+                                <button type="button" data-v="riscritture" aria-pressed="false"
+                                    title="Solo i loci che coinvolgono cinque parole o più.">Solo le riscritture</button>
+                            </div>
+                        </div>
+
+                        <div class="coll-counter" id="coll-counter">&mdash; loci visibili su &mdash;</div>
+                        </div>
+                        <p class="coll-hint" id="coll-hint" hidden></p>
+                    </div>
+
+                    <div class="coll-surface">
+                        <div class="coll-chapter-head">
+                            <span class="coll-label">I promessi sposi</span>
+                            <h2 id="coll-chaptitle">Capitolo I</h2>
+                        </div>
+
+                        <div class="coll-syn-head">
+                            <div class="coll-label">Ventisettana &middot; 1827</div>
+                            <div class="coll-label">Quarantana &middot; 1840</div>
+                        </div>
+
+                        <div id="coll-surface" aria-live="polite">
+                            <p class="coll-loading">Caricamento del capitolo&hellip;</p>
+                        </div>
+                    </div>
+
+                    <!-- Readout: the primary disclosure. Always populated, works on touch. -->
+                    <div class="coll-readout" id="coll-readout">
+                        <p class="coll-empty">Selezionate un locus nel testo &mdash; con il mouse, con
+                            <kbd>Tab</kbd>, o con le frecce <kbd>&larr;</kbd> <kbd>&rarr;</kbd> &mdash;
+                            per leggerne le due lezioni.</p>
+                    </div>
+
+                    <div class="coll-legend">
+                        <span><i class="coll-sw coll-sw-v27"></i> Ventisettana (1827)</span>
+                        <span><i class="coll-sw coll-sw-q40"></i> Quarantana (1840)</span>
+                        <span><b class="coll-caret">&#8248;</b> lezione assente da questo testimone</span>
+                    </div>
+
+                    <div class="coll-note">
+                        <p>Il colore distingue i testimoni, non il giusto dallo sbagliato: nessuna delle due
+                            edizioni è la versione corretta dell'altra. La direzione dei dati è sempre
+                            cronologica (1827 &rarr; 1840). L'unica grandezza esposta è la
+                            <b>salienza</b>, cioè l'ampiezza in parole del locus: si misura, non si giudica.</p>
+                        <p class="coll-provvisorio">Versione di lavoro: quattro capitoli (I, X, XX, XXVIII),
+                            collazionati dalle trascrizioni allineate per paragrafo. La collazione completa
+                            sui testimoni TEI è in preparazione.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer-->
+            <%- include("partials/footer"); %>
+                <!-- Scripts-->
+                <%- include("partials/scripts"); %>
+
+                    <script src="./assets/js/collaziono.js"></script>
+    </body>
+</html>

@@ -89,6 +89,10 @@ app.use("/", traduco);
 const confronta = require("./routes/confronta");
 app.use("/", confronta);
 
+/* collaziono */
+const collaziono = require("./routes/collaziono");
+app.use("/", collaziono);
+
 /* vedo */
 const vedo = require("./routes/vedo");
 app.use("/", vedo);
