@@ -88,6 +88,10 @@ def collate_row(chapter, comma, va, vids, qb, qids, counter):
             size = max(len(a), len(b))
             cls = R.classify(seg["t"], a, b)
             entry = {
+                # "op" is the collator's own verdict — sub / add / del. The
+                # viewer used to re-derive it from which reading was empty,
+                # which duplicated the logic in segments().
+                "op": seg["t"],
                 "sal": R.salience(cls, size),
                 "size": size,
                 "cls": cls,

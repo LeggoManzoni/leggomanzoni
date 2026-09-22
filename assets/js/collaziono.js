@@ -178,6 +178,42 @@
     // -------------------------------------------------------------------------
 
     /**
+     * Describe a locus where no word changed, only punctuation — «Como» /
+     * «Como,». Calling that a "sostituzione di 1 parola" is simply wrong: the
+     * word is identical on both sides. 11.5% of the corpus is this case.
+     *
+     * This reads locus.cls, which the readout otherwise avoids, but only for
+     * the one value that is MEASURED rather than inferred: "punteggiatura"
+     * means core(a) === core(b), i.e. the two tokens differ only at their
+     * edges. That is a fact. "sintassi" and the rest are heuristics and stay
+     * out of the UI.
+     *
+     * @param {Object} locus entry from DATA.loci
+     * @returns {?string} the line to show, or null if a word did change
+     */
+    function punctuationOnly(locus) {
+        if (locus.cls !== 'punteggiatura') return null;
+
+        var q = function (s) { return '«' + s + '»'; };
+
+        // A whole token that is nothing but punctuation, added or dropped.
+        if (locus.op === 'add') return 'punteggiatura · aggiunta ' + q(locus.rdg.Q40);
+        if (locus.op === 'del') return 'punteggiatura · soppressa ' + q(locus.rdg.V27);
+
+        // A substitution: the character diff says exactly what moved.
+        if (!locus.cd) return 'solo punteggiatura';
+        var added = '', removed = '';
+        locus.cd.forEach(function (part) {
+            if (part[0] === 1) added += part[1];
+            else if (part[0] === -1) removed += part[1];
+        });
+        if (added && !removed) return 'punteggiatura · aggiunta ' + q(added);
+        if (removed && !added) return 'punteggiatura · soppressa ' + q(removed);
+        if (added || removed) return 'punteggiatura · ' + q(removed) + ' → ' + q(added);
+        return 'solo punteggiatura';
+    }
+
+    /**
      * Mark a locus as current in both columns at once.
      * @param {string} id locus id
      */
@@ -223,21 +259,19 @@
                 grid.appendChild(reading);
             });
 
+        // Only what is measured. The variant class is a rule-generated guess
+        // and stays out of the UI by decision; salienza is an internal 0-3
+        // code derived from class and size, so it would say the same thing a
+        // third time. Joined into one node with real separators, because
+        // flex gaps vanish when the line is copied.
+        var operation = { sub: 'sostituzione', add: 'aggiunta 1840', del: 'soppressione 1840' };
+
         var meta = document.createElement('div');
         meta.className = 'coll-rd-meta';
-
-        var operation = { sub: 'sostituzione', add: 'aggiunta 1840', del: 'soppressione 1840' };
-        var kind = !locus.rdg.V27 ? 'add' : (!locus.rdg.Q40 ? 'del' : 'sub');
-
-        [operation[kind],
-         locus.cls,
-         'salienza ' + locus.sal,
-         locus.size + (locus.size === 1 ? ' parola' : ' parole')
-        ].forEach(function (bit) {
-            var span = document.createElement('span');
-            span.textContent = bit;
-            meta.appendChild(span);
-        });
+        meta.textContent = punctuationOnly(locus) || [
+            operation[locus.op] || 'variante',
+            locus.size + (locus.size === 1 ? ' parola' : ' parole')
+        ].join(' · ');
 
         grid.appendChild(meta);
         readout.appendChild(grid);

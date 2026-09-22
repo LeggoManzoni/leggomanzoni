@@ -304,9 +304,15 @@
     margin: 0;
 }
 
+/* The siglum column sizes itself to its content rather than a fixed 5rem.
+ * "Q40 · 1840" is wider than "V27 · 1827" (Q/4/0 against V/2/7) and needs
+ * 78px in Cormorant Garamond, 87px in the fallback serif and 94px in
+ * Montserrat — so a fixed 80px wrapped the Quarantana label, but not the
+ * Ventisettana one, during the web-font swap and whenever the accessible
+ * font is on. */
 .coll-rd-grid {
     display: grid;
-    grid-template-columns: 5rem 1fr;
+    grid-template-columns: max-content 1fr;
     gap: 0.35rem 1rem;
     align-items: baseline;
 }
@@ -316,6 +322,7 @@
     letter-spacing: 0.05em;
     font-weight: 700;
     font-size: 0.85rem;
+    white-space: nowrap;
 }
 
 .coll-siglum-v27 { color: var(--v27); }
@@ -331,11 +338,10 @@
     font-size: 0.9rem;
 }
 
+/* One text node with real "·" separators, not flex children with a gap:
+ * a gap is not copied, so the line has to read correctly when quoted. */
 .coll-rd-meta {
     grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.9rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
