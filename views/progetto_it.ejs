@@ -36,14 +36,14 @@
                             l’edizione dei <i>Promessi sposi</i> del 1840-42 corredata dalle immagini e da quaranta commenti critici per 
                             consentire una lettura “immersiva” del romanzo, con la guida dei principali studiosi dell’opera manzoniana.</p>
                         <p>Leggo Manzoni non è solo un progetto scientifico, ma un laboratorio condiviso tra Università e Scuola superiore. 
-                            Il progetto si è sviluppato infatti grazie all’attiva partecipazione di <a href="./credits#scuole">20 scuole</a> 
+                            Il progetto si è sviluppato infatti grazie all’attiva partecipazione di <a href="#scuole">20 scuole</a> 
                             secondarie di secondo grado di tutta Italia a due cicli di PCTO (Percorso per le Competenze Trasversali e l’Orientamento): 
                             “Adotta un commento ai <i> Promessi Sposi”</i>, organizzati da <a href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia</a> 
                             con <a href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/" target="_blank">Beatrice Nava</a> ed 
                             <a href="https://www.letterefilosofia.unifi.it/vp-960-ersilia-russo.html" target="_blank">Ersilia Russo</a>, nel 2019-2020 e nel 2021-2022, 
                             dedicati alla formazione di <i>competenze testuali e digitali</i>, per imparare a riconoscere in rete fonti e testi autorevoli, 
                             e apprendere i primi rudimenti della filologia digitale. In 30 ore di lezione, svolte in presenza e on line, guidati dai tutor 
-                            dell’Università: Beatrice Nava ed Ersilia Russo, più di <a href="./credits#insegnanti">30 insegnanti e 500 studenti</a> 
+                            dell’Università: Beatrice Nava ed Ersilia Russo, più di <a href="#insegnanti">30 insegnanti e 500 studenti</a> 
                             hanno contribuito alla digitalizzazione e codifica XML/TEI dei commenti critici ai <i>Promessi sposi</i>.
                             Il progetto è proseguito poi con la collaborazione di due allieve del Corso di 
                             <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">Digital Humanities and Digital Knowlegde</a> 
@@ -120,6 +120,33 @@
                         <a class="btn btn-primary btn-intro" href="./vedo">Vai a Vedo</a>
                         <br>
                         <br>
+                    <h2 class="text-center mt-0">COLLAZIONO MANZONI</h2>
+                    <hr class="divider" />
+                    <p><i>Collaziono Manzoni</i> mette a confronto le due edizioni d’autore dei <i>Promessi sposi</i>:
+                        la <b>Ventisettana</b> (1827) e la <b>Quarantana</b> (1840-42), il testo che Manzoni riscrisse
+                        dopo la cosiddetta «risciacquatura in Arno».</p>
+                    <p>Le due edizioni sono presentate in <b>sinottico</b>, su due colonne affiancate e allineate
+                        comma per comma, così che ogni passo del 1827 stia di fronte al passo corrispondente del 1840.
+                        Le differenze fra i due testimoni sono calcolate automaticamente e segnalate nel testo:
+                        cliccando su un luogo variante si leggono le due lezioni a confronto, con l’indicazione
+                        dell’ampiezza dell’intervento. Dove una delle due edizioni non ha un passo corrispondente —
+                        perché il 1840 aggiunge —, la colonna lo dichiara invece di tacere.</p>
+                    <p>La collazione copre tutti i 39 capitoli e registra oltre <b>30.000 luoghi variante</b>. A questa
+                        densità il romanzo non si legge più come un romanzo, e due modalità permettono di scegliere
+                        quanto mostrare:</p>
+                    <ul>
+                        <li><b>TUTTE LE VARIANTI</b>: ogni differenza fra le due edizioni, punteggiatura compresa.</li>
+                        <li><b>SOLO LE RISCRITTURE</b>: i soli luoghi che coinvolgono cinque parole o più, circa
+                            duemila in tutto il romanzo, che restituiscono la revisione nei suoi interventi più estesi
+                            lasciando il testo leggibile.</li>
+                    </ul>
+                    <p>L’unica grandezza esposta è l’ampiezza in parole del luogo variante: si misura, non si giudica.
+                        Il colore distingue i testimoni, non il giusto dallo sbagliato — nessuna delle due edizioni è
+                        la versione corretta dell’altra.</p>
+                    <a class="btn btn-primary btn-intro" href="./collaziono">Vai a Collaziono</a>
+                    <br>
+                    <br>
+                    <%- include("partials/crediti"); %>
                     <h2 class="text-center mt-0">DOCUMENTAZIONE</h2>
                     <hr class="divider" />
                     <p>La documentazione tecnica del progetto è disponibile nel <a href="https://github.com/LeggoManzoni/leggomanzoni/blob/main/Docs.md" target="_blank">repository GitHub</a>.</p>
@@ -132,5 +159,6 @@
         <%- include("partials/footer"); %>
         <!-- Scripts-->
         <%- include("partials/scripts"); %>
+        <%- include("partials/crediti-scripts"); %>
     </body>
 </html>

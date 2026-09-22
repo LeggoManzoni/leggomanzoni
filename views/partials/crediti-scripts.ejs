@@ -1,0 +1,326 @@
+<!-- amCharts + the two maps used by the credits section (schoolMapDiv, chartdiv). -->
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script>
+  am5.ready(function() {
+  // Create root element
+  var root = am5.Root.new("schoolMapDiv");
+
+  // Set themes
+  root.setThemes([am5themes_Animated.new(root)]);
+
+  // Create the map chart
+  var chart = root.container.children.push(am5map.MapChart.new(root, {
+    projection: am5map.geoMercator()
+  }));
+
+  // Create polygon series for countries
+  var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+    geoJSON: am5geodata_worldLow,
+    include: ["IT"],
+    fill: am5.color(0xDDDDDD),
+    fillOpacity: 0.6
+  }));
+
+  // Create point series for markers
+  var pointSeries = chart.series.push(am5map.MapPointSeries.new(root, {}));
+
+  // Define how markers look
+  pointSeries.bullets.push(function() {
+    var circle = am5.Circle.new(root, {
+      radius: 6,
+      fill: am5.color(0xFF0000),
+      stroke: am5.color(0xFFFFFF),
+      strokeWidth: 2,
+      tooltipText: "[bold]{title}[/]\n{students}\nDocenti: {teachers}"
+    });
+
+    return am5.Bullet.new(root, {
+      sprite: circle
+    });
+  });
+
+  // Add data
+  pointSeries.data.setAll([
+    {
+      geometry: { type: "Point", coordinates: [9.3977, 45.8557] },
+      title: "I.I.S. V. BACHELET (Lecco)",
+      students: "40 studenti",
+      teachers: "Marianna Villa"
+    },
+    {
+      geometry: { type: "Point", coordinates: [8.6227, 45.4465] },
+      title: "Liceo Classico e Linguistico Carlo Alberto (Novara)",
+      students: "19 studenti",
+      teachers: "Federica Mingozzi"
+    },
+    {
+      geometry: { type: "Point", coordinates: [11.2558, 43.7696] },
+      title: "ISS A. CHECCHI (Firenze)",
+      students: "36 studenti",
+      teachers: "Nella Frediani, Fiorina Izzo"
+    },
+    {
+      geometry: { type: "Point", coordinates: [13.5764, 37.3109] },
+      title: "IIS Ugo Foscolo (Agrigento)",
+      students: "42 studenti",
+      teachers: "Rafaela Lo Brutto, Carla Carafa"
+    },
+    {
+      geometry: { type: "Point", coordinates: [10.7914, 45.1564] },
+      title: "Istituto S. F. Gonzaga (Mantova)",
+      students: "1 studente",
+      teachers: "Ottavio Baldi, Cristina Remelli"
+    },
+    {
+      geometry: { type: "Point", coordinates: [11.3396, 44.4891] },
+      title: "Istituto S. Alberto Magno (Bologna)",
+      students: "6 studenti",
+      teachers: "Benedetto Sbaraglia"
+    },
+    {
+      geometry: { type: "Point", coordinates: [11.3391, 44.4942] },
+      title: "Liceo Classico Marco Minghetti (Bologna)",
+      students: "2 studenti",
+      teachers: "Filomena Maria Paolicelli"
+    },
+    {
+      geometry: { type: "Point", coordinates: [11.3428, 44.5013] },
+      title: "Liceo Sabin (Bologna)",
+      students: "25 studenti",
+      teachers: "Caterina Scrimali, Grazia Silvestri"
+    },
+    {
+      geometry: { type: "Point", coordinates: [15.0830, 37.5079] },
+      title: "Liceo scientifico E. Majorana (Catania)",
+      students: "52 studenti",
+      teachers: "Maria Belfiore, Antonia Lo Brutto, Maria Rita Giansanti, Rosa Petralia, Maria Teresa Rizzo"
+    },
+    {
+      geometry: { type: "Point", coordinates: [10.9917, 45.4384] },
+      title: "Liceo scientifico statale Angelo Messedaglia (Verona)",
+      students: "15 studenti",
+      teachers: "Claudia Mizzotti, Lucia Olini"
+    },
+    {
+      geometry: { type: "Point", coordinates: [18.1718, 40.3516] },
+      title: "Liceo Classico Musicale G. Palmieri (Lecce)",
+      students: "36 studenti",
+      teachers: "Annamaria Masciullo"
+    },
+    {
+      geometry: { type: "Point", coordinates: [16.8719, 41.1171] },
+      title: "I.I.S.S. Domenico Romanazzi (Bari)",
+      students: "24 studenti",
+      teachers: "Domenica Virgilio"
+    },
+    {
+      geometry: { type: "Point", coordinates: [12.5151, 41.8851] },
+      title: "Liceo Bertrand Russell (Roma)",
+      students: "36 studenti",
+      teachers: "Emanuela Brescia, Paolo Grazioli, Rita Sepe"
+    },
+    {
+      geometry: { type: "Point", coordinates: [12.4833, 41.8619] },
+      title: "Liceo Socrate (Roma)",
+      students: "42 studenti",
+      teachers: "Giovanna Colone"
+    },
+    {
+      geometry: { type: "Point", coordinates: [12.4932, 41.9098] },
+      title: "Liceo classico statale Torquato Tasso (Roma)",
+      students: "30 studenti",
+      teachers: "Fabio De Propris"
+    },
+    {
+      geometry: { type: "Point", coordinates: [12.5695, 44.0678] },
+      title: "Liceo Giulio Cesare Valgimigli (Rimini)",
+      students: "45 studenti",
+      teachers: "Carlotta Frenquellucci, Rossella Pogliaghi, Paola Zanini"
+    },
+    {
+      geometry: { type: "Point", coordinates: [10.0242, 45.1367] },
+      title: "Liceo Vida (Cremona)",
+      students: "19 studenti",
+      teachers: "Marco Baroni, Valeria Picazzi"
+    },
+    {
+      geometry: { type: "Point", coordinates: [14.2681, 40.8518] },
+      title: "Liceo Statale Villari (Napoli)",
+      students: "20 studenti",
+      teachers: "Loredana Palma"
+    },
+    {
+      geometry: { type: "Point", coordinates: [10.9252, 44.6471] },
+      title: "Liceo Scientifico Statale Wiligelmo (Modena)",
+      students: "23 studenti",
+      teachers: "Francesca Magelli"
+    }
+  ]);
+
+  // Set zoom control
+  var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+
+  // Frame Italy. amCharts 5 has no chart.setZoom(): the old call threw, which
+  // silently killed the rest of this callback (maxZoomLevel, goHome, appear).
+  // The series only contains "IT", so zooming to its own geographic bounds
+  // frames the country exactly, whatever the container size.
+  chart.set("centerMapOnZoomOut", true);
+  chart.set("maxZoomLevel", 32);
+
+  polygonSeries.events.once("datavalidated", function () {
+    polygonSeries.zoomToDataItems(polygonSeries.dataItems);
+  });
+
+  // Make map animated
+  chart.appear(1000, 100);
+});
+  </script>
+
+<!-- Google Analytics API Script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('./visitors')
+            .then(response => response.json())
+            .then(data => {
+                const activeUsers = data.rows.reduce((acc, row) => acc + parseInt(row.metricValues[0].value), 0);
+                document.getElementById('active-users').innerText = activeUsers;
+
+                const mapData = [];
+
+                data.rows.forEach(row => {
+                    const country = row.dimensionValues[0].value;
+                    const users = parseInt(row.metricValues[0].value);
+                    if (users > 0 && countryCodes[country]) {
+                        mapData.push({
+                            id: countryCodes[country],
+                            name: country,
+                            value: users
+                        });
+                    }
+                });
+
+                // Create the map
+                am5.ready(function() {
+                    var root = am5.Root.new("chartdiv");
+
+                    root.setThemes([
+                        am5themes_Animated.new(root)
+                    ]);
+
+                    var chart = root.container.children.push(am5map.MapChart.new(root, {
+                        panX: "none",
+                        panY: "none",
+                        wheelX: "none",
+                        wheelY: "none",
+                        projection: am5map.geoMercator()
+                    }));
+
+                    var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+                        geoJSON: am5geodata_worldLow,
+                        exclude: ["AQ"], // Exclude Antarctica
+                        calculateAggregates: true
+                    }));
+
+                    // Add data to the polygon series
+                    polygonSeries.data.setAll(mapData);
+
+                    polygonSeries.mapPolygons.template.setAll({
+                        tooltipText: "{name}: {value} users",
+                        interactive: true
+                    });
+
+                    polygonSeries.set("heatRules", [{
+                        target: polygonSeries.mapPolygons.template,
+                        dataField: "value",
+                        min: am5.color(0xe5dc36),
+                        max: am5.color(0x5faa46),
+                        key: "fill"
+                    }]);
+
+                    // Default color for countries with no data
+                    polygonSeries.mapPolygons.template.set("fill", am5.color(0xe0e0e0));
+
+                    // Update each polygon to set fill and tooltip for countries with data
+                    polygonSeries.mapPolygons.each(function(polygon) {
+                        const dataItem = polygon.dataItem.dataContext;
+                        if (dataItem && dataItem.value) {
+                            polygon.set("tooltipText", `${dataItem.name}: ${dataItem.value} users`);
+                            polygon.set("fill", am5.color(0x73978B));
+                        } else {
+                            polygon.set("tooltipText", null);
+                            polygon.set("fill", am5.color(0xe0e0e0));
+                        }
+                    });
+
+                    // Zoom the map
+                //     chart.zoomToPoint({ longitude: 0, latitude: 40 }, 1.5, true);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching visitors data:', error);
+                document.getElementById('active-users').innerText = 'Error loading data';
+            });
+    });
+
+    // Mapping country names to their respective ISO 3166-1 alpha-2 country codes
+    const countryCodes = {
+        "Italy": "IT",
+        "United States": "US",
+        "France": "FR",
+        "Austria": "AT",
+        "Mexico": "MX",
+        "Finland": "FI",
+        "Switzerland": "CH",
+        "Germany": "DE",
+        "Netherlands": "NL",
+        "United Kingdom": "GB",
+        "Belgium": "BE",
+        "Chile": "CL",
+        "China": "CN",
+        "Hong Kong": "HK",
+        "Indonesia": "ID",
+        "Ireland": "IE",
+        "Romania": "RO",
+        "Spain": "ES",
+        "Azerbaijan": "AZ",
+        "Denmark": "DK",
+        "Greece": "GR",
+        "India": "IN",
+        "Japan": "JP",
+        "Kazakhstan": "KZ",
+        "Luxembourg": "LU",
+        "Norway": "NO",
+        "Poland": "PL",
+        "Portugal": "PT",
+        "Russia": "RU",
+        "Sweden": "SE",
+        "Turkey": "TR",
+        "Ukraine": "UA",
+        "Australia": "AU",
+        "Brazil": "BR",
+        "Canada": "CA",
+        "Colombia": "CO",
+        "Czech Republic": "CZ",
+        "Jamaica": "JM",
+        "Albania": "AL",
+        "Belarus": "BY",
+        "Bulgaria": "BG",
+        "Croatia": "HR",
+        "Estonia": "EE",
+        "Hungary": "HU",
+        "Iceland": "IS",
+        "Latvia": "LV",
+        "Lithuania": "LT",
+        "Malta": "MT",
+        "Moldova": "MD",
+        "Montenegro": "ME",
+        "North Macedonia": "MK",
+        "Serbia": "RS",
+        "Slovakia": "SK",
+        "Slovenia": "SI",
+        // Add more countries as needed
+    };
+</script>

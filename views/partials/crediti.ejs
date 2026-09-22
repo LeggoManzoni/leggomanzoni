@@ -1,0 +1,236 @@
+<!-- Credits. Was its own /credits page; now a block inside the project
+     page's existing .testo panel, which is the element that scrolls.
+     Must NOT reintroduce a <section>/.testo wrapper of its own, or it
+     becomes a second, separately-scrolling box. i18n via __('credits.*'),
+     so this one partial serves both languages. -->
+<h2 class="text-center mt-0" id="credits">Credits</h2>
+<hr class="divider" />
+<p>
+    <b><%= __('credits.scientific') %></b><br>
+    <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
+        target="_blank">Paola Italia</a>, <a class="creditsLink"
+        href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca
+        Tomasi</a>
+</p>
+<p>
+    <b><%= __('credits.design') %></b><br>
+    <a class="creditsLink" href="https://www.unibo.it/sitoweb/paola.italia"
+        target="_blank">Paola Italia</a>, <a class="creditsLink"
+        href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
+        target="_blank">Beatrice Nava</a>, <a class="creditsLink"
+        href="https://www.letterefilosofia.unifi.it/vp-960-ersilia-russo.html" target="_blank">Ersilia
+        Russo</a>
+</p>
+<p>
+    <b><%= __('credits.webDevelopment') %></b><br>
+    <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
+        target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
+        href="https://www.linkedin.com/in/giulia-menna-340606233/"
+        target="_blank">Giulia Menna</a>, con la collaborazione di <a
+        class="creditsLink" href="https://www.unibo.it/sitoweb/martina.dellobuono2"
+        target="_blank">Martina Dello Buono</a> e <a class="creditsLink" href="https://site.unibo.it/adlab/it/laboratorio/chi-siamo-2"
+        target="_blank">Tommaso Vitale</a>.
+</p>
+<p>
+    <b><%= __('credits.xmlDevelopment') %></b><br>
+    <a class="creditsLink" href="https://www.linkedin.com/in/maria-levchenko-39953284/"
+        target="_blank">Mariia Levchenko</a>, <a class="creditsLink"
+        href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/"
+        target="_blank">Beatrice Nava</a>, <a class="creditsLink"
+        href="https://www.letterefilosofia.unifi.it/vp-960-ersilia-russo.html" target="_blank">Ersilia
+        Russo</a>
+</p>
+<p>
+    <b><%= __('credits.textCorrection') %></b><br>
+    Alice Caputa, Isabella Greco, Ludovica Grillini, Lorenzo Laconi, Matilde
+    Lallbahadoor, Chiara Leali, Guido Manfredini, Beatrice Nava, Alessia Panebianco,
+    Stefania Paolino, Filippo Pelacci, Jacopo Pesaresi, Arianna Roffi, Rachele Rossi,
+    Ersilia Russo, Isabel Zamboni, Luca Ciarfella, Irene Gloria Piattoni, Laura Trombini, Monica Valentini.
+</p>
+<p><b><%= __('credits.chinese_correction_title') %></b><br>
+    <%= __('credits.chinese_correction_text') %>
+</p>
+<p><b id="scuole"><%= __('credits.schools.title') %></b><br>
+    IIS Bachelet (Lecco), Liceo Carlo Alberto (Novara), ISS A. Checchi (Firenze), IIS
+    Ugo Foscolo (Agrigento), Liceo Gonzaga (Mantova), Liceo Sant’Alberto Magno
+    (Bologna), Liceo Ettore Majorana (Catania), Liceo Angelo Messedaglia (Verona), Liceo
+    Minghetti (Bologna), Liceo G. Palmieri (Lecce), ISS Domenico Romanazzi (Bari), Liceo
+    Bertrand Russell (Roma), Liceo Sabin (Bologna), Liceo Socrate (Roma), Liceo Torquato
+    Tasso (Roma), Liceo Giulio Cesare Valgimigli (Rimini), Liceo Vida (Cremona), Liceo
+    Villari (Napoli), Liceo Wiligelmo (Modena)
+
+</p>
+<div class="centered-container">
+        <h3 class="text-center"><%= __('credits.schools.participating') %></h3>
+        <div id="schoolMapDiv" style="width: 100%; height: 500px;"></div>
+    </div>
+
+<p><b id="insegnanti"><%= __('credits.teachers') %></b><br>
+    Ottavio Baldi, Marco Baroni, Maria Belfiore, Emanuela Brescia, Antonia Lo Brutto,
+    Rafaela Lo Brutto, Giovanna Colone, Carla Carafa, Fabio De Propris, Nella Frediani,
+    Carlotta Frenquellucci, Maria Rita Giansanti, Paolo Grazioli, Fiorina Izzo,
+    Francesca Magelli, Annamaria Masciullo, Federica Mingozzi, Claudia Mizzotti, Lucia
+    Olini, Loredana Palma, Filomena Maria Paolicelli, Rosa Petralia, Valeria Picazzi,
+    Rossella Pogliaghi, Cristina Remelli, Maria Teresa Rizzo, Benedetto Sbaraglia,
+    Caterina Scrimali, Grazia Silvestri, Rita Sepe, Marianna Villa, Domenica Virgilio,
+    Paola Zanini
+</p>
+<details class="studentList-details">
+    <summary><b><%= __('credits.schools.students') %></b></summary>
+    <p>
+
+    Simona Maria Abate, Beatrice Abbafati, Daniele Abbate, Giulia Abbrescia, Anna Gaia
+    Acito, Stefano Albini, Matilda Alippi, Gaia Amati, Clivia Pia Amato, Valerio
+    Amizzoni, Ylenia Anastasi, Federico Angeloni, Fabrizio Aniello, Elisa Aponte,
+    Claudia Arena, Greta Ariolfo, Filippo Armenio, Leonardo Armocida, Francesco
+    Attanasio, Francesca Attolico, Sofia Aureli, Alessio Avellino, Luca Averna, Luigi
+    Maria Azzoni, Alessandro Bagnoli, Letizia Ballarin, Chiara Ballirano, Luca Ballone,
+    Francesca Barani, Luca Barbangelo, Matteo Barbieri, Flavia Bardelloni, Marco Baroni,
+    Samuele Baronti, Francesca Bassi, Alice Beddini, Steffy Rinzel Bejasa, Maria
+    Belfiore, Lucilla Belletti, Federica Anna Rita Bellomo, Federico Benatti, Martina
+    Benciolini, Simone Bendazzoli, Leila Benevento, Carolina Benfenati, Sofia
+    Bernardini, Enu Bertolani, Clara Bertoletti, Leonardo Bertone, Gabriele Bettarini,
+    Elena Biagi, Salvatore Biagione, Edoardo Bigazzi, Tommaso Blasutta, Luca Boccù,
+    Sabrina Bocedi, Sara Boco, Benedetta Bonaccorso, Niccolò Bonino, Giorgia Borghesi,
+    Riccardo Borgiani, Lorenzo Bosco, Martina Bottani, Federico Brambilla, Martina
+    Brunelli, Andrea Bruno, Gaia Bruschi, Ilaria Bucci, Elisa Sofia Buffa, Marta
+    Bugarini, Emanuele Buoni, Giovanni Buscemi, Davide Campeti, Camilla Campigli, Giulia
+    Campoli, Valeria Canni, Martina Cannizzaro, Lucio Ennio Caprioli, Carla Carafa, Anna
+    Carbonelli, Daniele Carpentieri, Leonardo Carugi, Abigaille Caruso, Martina Casadei,
+    Gabriele Castellano, Alessandro Castorina, Giuseppe Castorina, Vittoria Catinella,
+    Giuseppe Cavaliere, Maria Cavallaro, Asia Cavallaro, Gabriele Alfio Cavallaro,
+    Cristina Cazzato, Giorgia Ceccarini, Lorenzo Maria Celano, Simone Cerami, Lorenzo
+    Cerioli, Michele Cerofolini, Valentina Cerri, Claudia Cesarano, Vittorio Cioni,
+    Kleide Ciotta, Ginevra Ciuffreda, Sofia Cocciolo, Martina Cogliati, Celeste
+    Collevecchio, Giovanna Colone, Christian Colucci, Costanza Comella, Valeria Maria
+    Laura Compagnini, Clara Comparato, Pietro Cornia, Fiorenza Corrieri, Roberto Pio
+    Cortese, Martina Costarella, Claudia Cucurachi, Eleonora D Angelo, Francesca
+    D'Antimi, Lucia Damiani, Martina De Canale, Giuseppe De Luca, Simone De Nicolò,
+    Linda De Petris, Giorgia De Santis, Davide De Simone, Giulia De Simone, Sofia De
+    Vitis, Serena Dell'Anna, Cristian Francesco Depalo, Kevin Daniele Attilio Di Bilio,
+    Gabriele Di Dio, Beatrice Di Gesù, Elena Di Gravio, Matteo Di Staso, Denise
+    Dispenza, Anna Donati, Melica Esmaili, Francesco Esposito, Roberta Esposto,
+    Valentina Fabbri, Chiara Fabbri, Valentina Fabbri, Luigi Facenti, Giulia Fadda,
+    Giulio Falorni, Gaetano Falsone, Miriam Farrugio, Aurora Farrugio, Camilla Ferì,
+    Matteo Ferlisi, Giulia Ferrario, Sara Lucia Ferrigno, Irene Formica, Gioia
+    Fornasari, Silvia Franchi, Giacomo Franci, Alessia Maria Frangiamone, Luigi
+    Frangiamone, Martina Frattali, Nella Frediani, Carolina Freschi, Francesca Frisenda,
+    Rosemary Frisina, Tommaso Gallerini Pulga, Francesco Gamba, Filippo Gambini, Giada
+    Gambino, Vera Garattoni, Adriana Garlisi, Maria Ilaria Gattei, Tommaso Geronimo,
+    Leonardo Giampaia, Alice Giampieretti, Maria Giardina, Federica Giardina, Alessandro
+    Gibellini, Simone Gigli, Gabriella Gigliano, Leonardo Giordani, Irene Giordano,
+    Chiara Giordano, Alice Giordano, Daniele Giorgi, Antonino Giuppa, Samuele Giussani,
+    Rosleydi Gonzalez, Francesca Gostoli, Giulia Grana, Pietro Grasselli, Marta
+    Grattagliano, Leonardo Gravagnola, Valentina Graziani, Lucia Greco, Elisa Greco,
+    Lucia Grenzi, Ludovica Grillini, Gaia Letizia Grippaldi, Michele Guardì, Ludovica
+    Guarino, Cecilia Guarino, Nico Guidi, Nicolò Gulizia, Giulia Gullotta, Daniele
+    Gullotta, Laura Denisa Iacob, Davide Iannello, Viola Iattarelli, Alberto Iossa,
+    Fiorina Izzo, Gurpreet Kaur, Francesca Kiptiu, Alessandro Kottas, Liza Kumar,
+    Giovanni Pietro Maria La Greca, Diego La Monaca, Savio Gioacchino La Vecchia,
+    Lorenzo Laconi, Matilde Lallbahadoor, Carlotta Lana, Filippo Lanzoni, Giulia
+    Laurenti, Maria Grazia Legrottaglie, Francesco Lentini, Maria Chiara Leonardi, Anna
+    Fara Leone, Elvira Lika, Michela Liuzzi, Raffaela Lo Brutto, Giuseppe Carmelo Lo
+    Faro, Giovanni Marco Lo Verde, Pietro Locci, Paola Lombardo, Alessandra Lonardelli,
+    Ylenia Lonero, Matilde Lonigro, Gabriele Lops, Tommaso Losi, Francesco Losurdo,
+    Leonardo Lucarelli, Leonardo Lucarelli, Alessio Lucchesi, Ludovica Luminelli,
+    Vittorio Maceo, Gaia Maceroni, Aurora Macrì, Francesca Magelli, Iris Mainetti,
+    Letizia Malossi, Lucrezia Manca, Marco Mancini, Annanives Manco, Flavia Mancuso,
+    Guido Manfredini, Mia Mangano, Anja Mannella, Riccardo Manzini, Bianca Marchi,
+    Samuele Maria Marcì, Alessia Marianelli, Gianni Mariniello, Ludovica Marsiglio,
+    Giorgia Martellotta, Laura Martin, Annamaria Masciullo, Virginia Masiello, Filippo
+    Masotti, Elisa Mastrorilli, Elena Mazzetti, Beatrice Melandri, Cristina Mele, Elena
+    Melotto, Vincenzo Merulla, Laura Mesiti, Fabio Messina, Maria Adoralise Michetti,
+    Federica Mingozzi, Maria Grazia Mistretta, Claudia Mizzotti, Elisa Monari, Bruno
+    Tommaso Montanaro, Marco Montemaggi, Filippo Moretti, Michela Moretti, Andrea
+    Moroni, Michele Morri, Michela Mungiguerra, Edoardo Murciano, Girolamo Napoli,
+    Angelica Napoli, Simone Nardelli, Cristiana Negro, Catherine Ngom, Giulio Nicola,
+    Morena Nicolosi, Chiara Nicosia, Rossella Nicosia, Serenella Nigro, Giuliana Anna
+    Noce, Giorgia Novati, Iacopo Nunziato, Lucia Olini, Mattia Olivieri, Alice Olivieri,
+    Nicolò Paci, Edoardo Pagano, Rossella Maria Palermo, Loredana Palma, Filippo
+    Palmieri, Giulia Pantanelli, Edoardo Panza, Sara Panzanaro, Maria Paparella, Roberto
+    Salvatore Pappalardo, Mattia Paratore, Chiara Pari, Federica Vanda Paris, Aurora
+    Parlato, Jacopo Pasqualini, Maria Vittoria Pasquini, Marta Pasquini, Sofia Passini,
+    Francesco Pastorelli, Dalila Stefania Patermo, Caterina Pavesi, Giulia Peduto,
+    Giulio Pellizzoni, Giacomo Perli, Asia Pesaresi, Flor Del Mar Libera Pescetti
+    Favale, Bianca Pettorano, Sofia Piastra, Mattia Piazza, Davide Piazza, Valeria
+    Picazzi, Gaia Piccolo, Tommaso Pieretti, Edoardo Pinzani, Sofia Piovani, Alice
+    Piroli, Marta Pisanu, Giuliafrancesca Piscopiello, Carlo Andrea Poggi, Rossella
+    Pogliaghi, Gaia Pojaghi, Salvo Polizzi Salamone, Chiara Porciani, Sofia Porta,
+    Filippo Porzio, Giulia Pozzi, Giulia Principi, Ettore Privitera, Leonardo Johannes
+    Pugiotto, Martina Puglisi, Nele Quarantelli, Greta Quarta, Alice Quattrone,
+    Gabriella Meggie Rago, Giada Raimondi, Heron Joseph Ramos, Beatrice Rausa, Lisa
+    Ravegnini, Rosario Ravo, Elena Ricci, Maria Ricci, Sebastian Ricciato, Niccolò Righi
+    Riva, Alice Rinaldi, Aurora Ritirossi, Maddalena Rizzi, Viola Rizzoli, Arianna
+    Roffi, Andeira Antonia Romanello, Lorenzo Romeo, Elena Rossi, Rachele Rossi,
+    Francesco Ruffetta, Alessia Russo, Mattia Russo, Giulia Saccone, Eugenio Sallustio,
+    Massimo Sammarco, Lara Sanfilippo, Aurora Sangalli, Chiara Sani, Laura Sansone,
+    Sofia Santapaola, Asia Santi, Matteeo Sapienza, Sofia Sapigni, Carlo Alberto Sappa,
+    Valeria Maddalena Savarese, Damiano Scaletta, Giorgia Scardino, Alessandra Scarpa,
+    Davide Sciacca, Giada Arianna Scialpi, Alessia Scigliano, Filomena Scirocco, Alessia
+    Scorrano, Stefania Scuderi, Lucrezia Sebastiani, Erika Selva, Emma Semprebon, Rita
+    Sepe, Francesca Serpe, Matteo Sestini, Jihan Sidki, Francesco Silvestri, Lidia
+    Simeoli, Sara Smeriglio, Andrea Spedone, Sara Spigarelli, Ines Spreafico, Emma
+    Squadrani, Eleonora Stabile, Arianna Stanco, Ludovica Stasi, Karen Succi, Alessia
+    Suppressa, Annachiara Suppressa, Monica Suraci, Anna Taddei, Alex Tamagnini, Dalì
+    Maria Tamburella, Delia Tamma, Giulia Tampieri, Elisa Tantari, Chiara Tartaglia,
+    Alessia Tassinari, Giulia Tedeschi, Sofia Terranova, Veronica Testa, Simone Tiseo,
+    Gian Marco Tognetti, Manuela Tomasello, Luigi Tommasi, Alessia Toneatti, Alice
+    Tonti, Elena Torre, Samoa Torrisi, Alba Torti, Alberto Tranchina, Lorenzo Traù,
+    Davide Luigi Trioni, Francesco Trotta, Denise Truffarelli, Chiara Tuorto, Alice
+    Ugolini, Mauro Urso, Francesco Vacca, Beatrice Valagussa, Manuela Valcarenghi,
+    Emanuele Valore, Elisabetta Varriale, Francesco Lorenzo Vasta, Deborah Vella,
+    Rossana Pia Vella, Margherita Venturi, Stella Vergani, Marco Veronesi, Alessandro
+    Vesentini, Elena Vicinanza, Flavia Maria Matilde Viglianti, Marianna Villa, Domenica
+    Giuseppina Virgilio, Francesco Volpi, Sofiena Xia, Elisa Zaccarelli, Filippo
+    Zangari, Paola Zanini, Alessio Zanoboni, Stella Zanotti, Beatrice Zavalloni, Alberto
+    Zerbini, Valentina Zezza, Elenia José Zizi, Nicole Zoppi.
+    </p>
+</details>
+
+<p><b><%= __('credits.title') %></b><br>
+  <%- __('credits.students') %><br>
+  <%= __('credits.development') %><br>
+  <%= __('credits.translation') %><br>
+  <%= __('credits.deployment') %><p>
+  <%- __('credits.department') %></p>
+</p>
+<p><b>Sezione Vedo Manzoni</b><br>
+  <%= __('credits.coordination_science') %>: <a class="creditsLink"
+        href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
+        Italia</a><br>
+        <%= __('credits.coordination_technic') %>: <a class="creditsLink"
+        href="https://www.unibo.it/sitoweb/paolo.bonora" target="_blank"> Paolo
+        Bonora</a>, <a class="creditsLink"
+        href="https://site.unibo.it/adlab/it/laboratorio/collaboratori-tirocinanti" target="_blank">Enrica Iemmi
+    </a>, <a class="creditsLink" href="https://www.unibo.it/sitoweb/marco.serra"
+        target="_blank">Marco Serra</a>, <a class="creditsLink" href="https://site.unibo.it/adlab/it/laboratorio/chi-siamo-2"
+        target="_blank">Tommaso Vitale</a> e il <a class="creditsLink"
+        href="https://site.unibo.it/adlab/it" target="_blank">Laboratorio AD Lab </a>
+    <br><%= __('credits.development_name') %>: <a class="creditsLink"
+        href="https://www.unibo.it/sitoweb/sara.obbiso2" target="_blank">Sara
+        Obbiso</a>, <a class="creditsLink"
+        href="https://www.linkedin.com/in/matilde-passafaro-2b7271291/"
+        target="_blank">Matilde Passafaro </a>
+<p><b>Sezione Traduco Manzoni</b><br>
+        <%= __('credits.coordination_science') %>: <a class="creditsLink"
+        href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola
+        Italia</a>, <a class="creditsLink" href="https://www.linkedin.com/in/silvanocheng/" target="_blank">Silvano Cheng</a><br>
+        <%= __('credits.coordination_technic') %>: <a class="creditsLink"
+        href="https://www.linkedin.com/in/maria-levchenko-39953284/" target="_blank">Mariia Levchenko</a>
+<p><b><a href="./commenti"><%= __('credits.published_comments') %></a></b></p>
+<p><b><a href="./traduzione"><%= __('credits.published_translations') %></a></b></p>
+<div class="centered-container">
+        <p><b id="visitors-count"><%= __('credits.stats_title') %> <span id="active-users">Loading...</span> <%= __('credits.stats_text') %></b></p>
+        <div id="chartdiv" style="width: 100%; height: 500px;"></div>
+    </div>
+
+
+<!-- Citation, licence and documentation close the page, after the map. -->
+<p><b><%= __('credits.citations') %> </b><br>
+    Leggo Manzoni, a cura del DH.arc, versione 1.0, 2023.
+</p>
+<p><b><%= __('credits.license') %></b><br>
+    Leggo Manzoni® is licensed under a <a class="creditsLink"
+        href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
+        Commons Attribution 4.0 International License</a>.
+</p>

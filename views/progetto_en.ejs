@@ -37,7 +37,7 @@
                             with the guidance of the main scholars of Manzoni's work.</p>
 
                             <p>Leggo Manzoni is not only a scientific project, but also a shared workshop between the University and High Schools. The project has developed thanks to the active participation of
-                                 <a href="./credits#scuole">20 secondary schools</a> 
+                                 <a href="#scuole">20 secondary schools</a> 
                                  throughout Italy in two PCTO (Percorso per le Competenze Trasversali e l'Orientamento) cycles: 
                             “Adopt a commentary on the <i> Promessi Sposi”</i>, organized by <a href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia</a> 
                             with <a href="https://www.huygens.knaw.nl/en/medewerkers/beatrice-nava/" target="_blank">Beatrice Nava</a> and 
@@ -46,7 +46,7 @@
                             how to recognise authoritative sources and texts on the web, and to introducing them to the basics 
                             of digital philology. In 30 hours of lessons, carried out in presence and online, 
                             guided by University tutors Beatrice Nava and Ersilia Russo, 
-                            more than <a href="./credits#insegnanti">30 teachers and 500 students</a> 
+                            more than <a href="#insegnanti">30 teachers and 500 students</a> 
                             contributed to the digitisation and XML/TEI encoding of critical comments on <i>The Betrothed</i>.
                             The project then continued with the collaboration of two students from the University of Bologna's
                             <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">Digital Humanities and Digital Knowlegde</a> 
@@ -127,6 +127,32 @@
                         <a class="btn btn-primary btn-intro" href="./vedo">Go to Vedo</a>
                         <br>
                         <br>
+                    <h2 class="text-center mt-0">COLLAZIONO / I COLLATE MANZONI</h2>
+                    <hr class="divider" />
+                    <p><i>Collaziono Manzoni</i> sets the two authorial editions of <i>The Betrothed</i> side by side:
+                        the <b>Ventisettana</b> (1827) and the <b>Quarantana</b> (1840-42), the text Manzoni rewrote
+                        after the so-called <i>risciacquatura in Arno</i>, the “rinsing of his rags in the Arno”.</p>
+                    <p>The two editions are shown <b>synoptically</b>, in facing columns aligned comma by comma, so
+                        that each passage of 1827 stands opposite its 1840 counterpart. Differences between the two
+                        witnesses are computed automatically and marked in the text: clicking on a variant shows the
+                        two readings together with the extent of the revision. Where one edition has no corresponding
+                        passage — because 1840 adds material — the column says so rather than leaving a silent gap.</p>
+                    <p>The collation covers all 39 chapters and records more than <b>30,000 variant loci</b>. At that
+                        density the novel no longer reads as a novel, so two display modes let you choose how much to
+                        show:</p>
+                    <ul>
+                        <li><b>ALL VARIANTS</b>: every difference between the two editions, punctuation included.</li>
+                        <li><b>REWRITINGS ONLY</b>: just those involving five words or more, some two thousand across
+                            the novel, which show the revision at its most substantial while leaving the text
+                            readable.</li>
+                    </ul>
+                    <p>The only quantity displayed is the extent of the variant in words: it is measured, not judged.
+                        Colour distinguishes the witnesses, not right from wrong — neither edition is the corrected
+                        version of the other.</p>
+                    <a class="btn btn-primary btn-intro" href="./collaziono">Go to Collaziono</a>
+                    <br>
+                    <br>
+                    <%- include("partials/crediti"); %>
                     <h2 class="text-center mt-0">DOCUMENTATION</h2>
                     <hr class="divider" />
                     <p>The technical documentation of the project is available in the <a href="https://github.com/LeggoManzoni/leggomanzoni/blob/main/Docs.md" target="_blank">GitHub repository</a>.</p>
@@ -139,5 +165,6 @@
         <%- include("partials/footer"); %>
         <!-- Scripts-->
         <%- include("partials/scripts"); %>
+        <%- include("partials/crediti-scripts"); %>
     </body>
 </html>
