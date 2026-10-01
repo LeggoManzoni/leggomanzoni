@@ -53,10 +53,6 @@ app.get(process.env.URL_PATH, (req, res) => {
   });
 });
 
-/* introduzione */
-const introduzione = require("./routes/introduzione");
-app.use("/", introduzione);
-
 /* progetto */
 const progetto = require("./routes/progetto");
 app.use("/", progetto);
@@ -77,33 +73,21 @@ app.use("/", commenti);
 const traduzione = require("./routes/traduzione");
 app.use("/", traduzione);
 
-/* reader */
-const reader = require("./routes/reader");
-app.use("/", reader);
-
 /* traduco */
 const traduco = require("./routes/traduco");
 app.use("/", traduco);
 
-/* confronta */
+/* reader (Leggo) — served by the confronta view; /confronta redirects here */
 const confronta = require("./routes/confronta");
 app.use("/", confronta);
 
-/* collaziono */
+/* confronto — served by the collaziono view; /collaziono redirects here */
 const collaziono = require("./routes/collaziono");
 app.use("/", collaziono);
 
 /* vedo */
 const vedo = require("./routes/vedo");
 app.use("/", vedo);
-
-/* vignette */
-const vignette = require("./routes/vignette");
-app.use("/", vignette);
-
-/* credits */
-const credits = require("./routes/credits");
-app.use("/", credits);
 
 /* analisi */
 const analisi = require("./routes/analisi");

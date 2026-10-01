@@ -6,8 +6,15 @@ const fs = require('fs');
 /* router */
 const router = express.Router();
 
-/* confronta */
+/* the page used to live at /confronta: keep old links (and their ?cap=&word=
+   query) working */
 router.get("/confronta", (req, res) => {
+    const query = req.originalUrl.split("?")[1];
+    res.redirect(301, "./reader" + (query ? "?" + query : ""));
+});
+
+/* reader — text with the combined commentaries (the "confronta" view) */
+router.get("/reader", (req, res) => {
     var chapters = ["Introduzione", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38"];
 
     const jsonFilePath = 'commenti/output.json';

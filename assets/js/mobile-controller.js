@@ -207,7 +207,7 @@ class MobileTabController {
       // Update secondary label
       const label = document.getElementById('currentSecondaryLabel');
       if (label) {
-        label.textContent = value;
+        label.textContent = item.dataset.label || value;
       }
 
       // Load the selected content using existing functions
@@ -366,6 +366,11 @@ class MobileTabController {
         } else {
           fetchAndDisplayData(endpoint, '#bottomDiv .text-comment-bottom');
         }
+      }
+    } else if (type === 'curator') {
+      // Confronta: the comments are already loaded, the selection only filters them
+      if (typeof setCuratorFilter === 'function') {
+        setCuratorFilter(value);
       }
     }
   }
@@ -562,10 +567,13 @@ class MobileTabController {
 
     if (desktopTextContent && mobileTextContent) {
       mobileTextContent.innerHTML = desktopTextContent.innerHTML;
+      this.scrollToRequestedWord(mobileTextContent);
     }
 
     // Sync comment content from desktop to mobile - simplified approach
-    const desktopCommentTop = document.querySelector('#upperDiv .text-comment-top');
+    // (confronta keeps its combined comments in #destra instead of #upperDiv)
+    const desktopCombinedComments = document.querySelector('#destra .text-combined-comments');
+    const desktopCommentTop = document.querySelector('#upperDiv .text-comment-top') || desktopCombinedComments;
     const mobileSecondaryContent = document.querySelector('#mobileSecondaryContent .text-comment-top');
 
     if (desktopCommentTop && mobileSecondaryContent) {
@@ -574,9 +582,28 @@ class MobileTabController {
     }
 
     // Auto-switch to secondary tab if there's content and we're not already there
-    if (desktopCommentTop && desktopCommentTop.innerHTML.trim().length > 50 && this.activeTab === 'text') {
+    if (!desktopCombinedComments && desktopCommentTop && desktopCommentTop.innerHTML.trim().length > 50 && this.activeTab === 'text') {
       // Update the secondary label to show what's currently loaded
       this.updateSecondaryLabel();
+    }
+  }
+
+  /**
+   * Scroll the mobile text to the word passed as ?word= (links from Ricerco).
+   * Done once, on the first sync that contains the word.
+   * @param {HTMLElement} mobileTextContent - the mobile copy of the chapter text
+   */
+  scrollToRequestedWord(mobileTextContent) {
+    if (this.scrolledToRequestedWord) return;
+
+    const word = new URLSearchParams(window.location.search).get('word');
+    const target = word ? mobileTextContent.querySelector(`span[data-id="${word}"]`) : null;
+    const scroller = document.getElementById('mobileTextContent');
+    if (target && scroller) {
+      // Scroll the text pane itself (scrollIntoView would also move the page)
+      const offset = target.getBoundingClientRect().top - scroller.getBoundingClientRect().top;
+      scroller.scrollTop += offset - scroller.clientHeight / 2;
+      this.scrolledToRequestedWord = true;
     }
   }
 
@@ -605,7 +632,11 @@ class MobileTabController {
   observeContentChanges() {
     // Watch for changes in desktop content and sync to mobile
     const desktopTextContent = document.getElementById('whichpage');
-    const desktopCommentTop = document.querySelector('.text-comment-top');
+    // Confronta keeps its combined comments in #destra; there the only
+    // .text-comment-top is the mobile copy itself, which must not be observed
+    // (every sync rewrites it, so the sync would re-trigger itself forever)
+    const desktopCombinedComments = document.querySelector('#destra .text-combined-comments');
+    const desktopCommentTop = desktopCombinedComments ? null : document.querySelector('.text-comment-top');
     const desktopCommentBottom = document.querySelector('.text-comment-bottom');
 
     // Throttle sync to prevent excessive calls
@@ -637,6 +668,15 @@ class MobileTabController {
         childList: true,
         subtree: true,
         characterData: true
+      });
+    }
+
+    // Confronta: the combined comments are re-rendered on chapter and filter changes
+    if (desktopCombinedComments) {
+      const combinedObserver = new MutationObserver(throttledSync);
+
+      combinedObserver.observe(desktopCombinedComments, {
+        childList: true
       });
     }
   }

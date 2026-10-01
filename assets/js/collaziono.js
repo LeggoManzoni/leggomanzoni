@@ -298,7 +298,7 @@
 
         surface.innerHTML = '<p class="coll-loading">Caricamento del capitolo&hellip;</p>';
 
-        fetch('./collaziono/data/' + chapter)
+        fetch('./confronto/data/' + chapter)
             .then(function (response) {
                 if (!response.ok) throw new Error('HTTP ' + response.status);
                 return response.json();

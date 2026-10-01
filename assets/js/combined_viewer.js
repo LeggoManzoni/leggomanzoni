@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Set initial button text
     document.getElementById('toggle-capitoli').innerText = getDisplayChapterName(defaultChapter);
+    const mobileChapterLabel = document.getElementById('currentChapterLabel');
+    if (mobileChapterLabel) {
+        mobileChapterLabel.textContent = getDisplayChapterName(defaultChapter);
+    }
 
     // Mark initial chapter as active
     markActiveChapter(defaultChapter);
@@ -351,24 +355,38 @@ function setupCuratorFilterListener() {
     document.querySelectorAll('.curator-filter-link').forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
-            const curator = this.getAttribute('data-curator');
-
-            // Update selected curator
-            selectedCurator = curator;
-
-            // Update button text
-            const buttonText = curator === 'all' ? 'Tutti i commenti' : curator;
-            document.getElementById('toggle-curators').innerText = buttonText;
-
-            // Mark as active
-            document.querySelectorAll('.curator-filter-link').forEach(l => l.classList.remove('active'));
-            this.classList.add('active');
-
-            // Re-fetch and re-display comments with filter
-            const currentChapter = getCurrentChapter();
-            fetchCombinedComments(currentChapter);
+            setCuratorFilter(this.getAttribute('data-curator'));
         });
     });
+}
+
+/**
+ * Applies a curator filter ('all' or a curator name) and keeps the desktop
+ * and mobile selectors in sync
+ */
+function setCuratorFilter(curator) {
+    // Update selected curator
+    selectedCurator = curator;
+
+    // Update button text (desktop button and mobile label)
+    const buttonText = curator === 'all' ? 'Tutti i commenti' : curator;
+    document.getElementById('toggle-curators').innerText = buttonText;
+    const mobileLabel = document.getElementById('currentSecondaryLabel');
+    if (mobileLabel) {
+        mobileLabel.textContent = buttonText;
+    }
+
+    // Mark as active
+    document.querySelectorAll('.curator-filter-link').forEach(l => {
+        l.classList.toggle('active', l.getAttribute('data-curator') === curator);
+    });
+    document.querySelectorAll('#secondaryDropdown .mobile-control-item[data-type="curator"]').forEach(l => {
+        l.classList.toggle('active', l.getAttribute('data-value') === curator);
+    });
+
+    // Re-fetch and re-display comments with filter
+    const currentChapter = getCurrentChapter();
+    fetchCombinedComments(currentChapter);
 }
 
 /**
@@ -402,7 +420,8 @@ function changeClassAndFetchData() {
  */
 function highlightHoveredItem() {
     const hoverItems = document.querySelectorAll('.hover-item');
-    const commentGroups = document.querySelectorAll('.comment-group');
+    // Only the desktop column: the mobile copy may still hold the previous comments
+    const commentGroups = document.querySelectorAll('#destra .comment-group');
 
     // First, remove all existing highlights
     hoverItems.forEach(item => item.classList.remove('highlight'));
@@ -461,8 +480,13 @@ function setupHoverScrolling() {
             event.target.classList.add('active-highlight');
             currentHighlightedWord = event.target;
 
+            // The mobile tabs hold a copy of the text and of the comments:
+            // look for the groups in the copy that belongs to the tapped text
+            const inMobileTabs = !!event.target.closest('#mobileInterface');
+            const commentsRoot = document.getElementById(inMobileTabs ? 'mobileSecondaryContent' : 'destra');
+
             // Find ALL comment groups that match the clicked word
-            const commentGroups = document.querySelectorAll('.comment-group');
+            const commentGroups = commentsRoot ? commentsRoot.querySelectorAll('.comment-group') : [];
             let matchingGroups = [];
             let scrollTarget = null;  // Only scroll to START matches (precise comments)
 
@@ -511,6 +535,20 @@ function setupHoverScrolling() {
                 matchingGroups.forEach(group => {
                     group.classList.add('highlighted');
                 });
+
+                if (inMobileTabs) {
+                    // Mobile: the comments are on the other tab, so open it at the matching group
+                    if (window.mobileController) {
+                        window.mobileController.switchTab('secondary');
+                    }
+                    // Scroll the comments pane itself (scrollIntoView would also move the page)
+                    const groupRect = (scrollTarget || matchingGroups[0]).getBoundingClientRect();
+                    commentsRoot.scrollTo({
+                        top: commentsRoot.scrollTop + groupRect.top - commentsRoot.getBoundingClientRect().top,
+                        behavior: 'instant'
+                    });
+                    return;
+                }
 
                 // Scroll only to START matches (most precise comments)
                 // This avoids scrolling to long-range comments where the clicked word is just the end

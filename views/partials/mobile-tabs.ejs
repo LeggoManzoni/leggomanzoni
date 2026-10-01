@@ -1,5 +1,7 @@
 <!-- Mobile Tab Interface - Shared Component -->
-<!-- Can be used for both reader (comments) and traduco (translations) -->
+<!-- Can be used for reader (one commentary), confronta (combined commentaries,
+     filtered by curator) and traduco (translations) -->
+<% const isComments = pageType === 'reader' || pageType === 'confronta'; %>
 
 <div class="mobile-reader-interface" id="mobileInterface">
   <!-- Mobile Tab Navigation -->
@@ -13,9 +15,9 @@
 
       <!-- Dynamic Second Tab (Comments or Translations) - Simplified -->
       <button class="mobile-tab-btn" data-tab="secondary" id="secondaryTabBtn">
-        <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+        <i class="<%= isComments ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
         <span>
-          <%= pageType === 'reader' ? 'Commenti' : 'Traduzioni' %>
+          <%= isComments ? 'Commenti' : 'Traduzioni' %>
         </span>
       </button>
     </div>
@@ -61,14 +63,29 @@
         <!-- Secondary Selection Dropdown -->
         <div class="control-group">
           <button class="mobile-control-btn dropdown-toggle" id="mobileSecondaryBtn">
-            <i class="<%= pageType === 'reader' ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
+            <i class="<%= isComments ? 'bi bi-chat-quote' : 'bi bi-translate' %>"></i>
             <span id="currentSecondaryLabel">
-              <%= pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Commenti') : (translations && translations[0] ? translations[0] : 'Traduzioni') %>
+              <%= pageType === 'confronta' ? 'Tutti i commenti' : pageType === 'reader' ? (commenti && commenti[0] ? commenti[0] : 'Commenti') : (translations && translations[0] ? translations[0] : 'Traduzioni') %>
             </span>
             <i class="bi bi-chevron-down"></i>
           </button>
           <div class="mobile-control-dropdown" id="secondaryDropdown">
-            <% if (pageType === 'reader' && commenti) { %>
+            <% if (pageType === 'confronta' && commenti) { %>
+              <a class="mobile-control-item active"
+                 data-type="curator"
+                 data-value="all"
+                 data-label="Tutti i commenti">
+                Tutti i commenti
+              </a>
+              <div class="mobile-control-divider"></div>
+              <% commenti.forEach((curator) => { %>
+                <a class="mobile-control-item"
+                   data-type="curator"
+                   data-value="<%= curator %>">
+                  <%= curator %>
+                </a>
+              <% }); %>
+            <% } else if (pageType === 'reader' && commenti) { %>
               <% commenti.forEach((comment, index) => { %>
                 <a class="mobile-control-item <%= index === 0 ? 'active' : '' %>"
                    data-type="comment"
@@ -88,12 +105,14 @@
               <% }); %>
             <% } %>
 
-            <!-- Option for comparison -->
+            <!-- Option for comparison (confronta already shows all commentaries together) -->
+            <% if (pageType !== 'confronta') { %>
             <div class="mobile-control-divider"></div>
             <a class="mobile-control-item secondary-option" id="addComparisonOption">
               <i class="bi bi-plus-circle"></i>
               <%= pageType === 'reader' ? 'Confronta commentatori' : 'Confronta traduzioni' %>
             </a>
+            <% } %>
           </div>
         </div>
       </div>

@@ -25,16 +25,22 @@ function readManifest() {
     }
 }
 
-/* collaziono — the V27/Q40 synoptic viewer */
+/* the page used to live at /collaziono: keep old links working */
 router.get("/collaziono", (req, res) => {
+    res.redirect(301, "./confronto");
+});
+
+/* confronto — the V27/Q40 synoptic viewer (the "collaziono" view) */
+router.get("/confronto", (req, res) => {
     res.render("collaziono", {
         chapters: readManifest(),
         currentLang: req.getLocale()
     });
 });
 
-/* chapter payload — one file per chapter, loaded on demand */
-router.get("/collaziono/data/:chapter", (req, res) => {
+/* chapter payload — one file per chapter, loaded on demand
+   (the old path stays for pages still running a cached collaziono.js) */
+router.get(["/confronto/data/:chapter", "/collaziono/data/:chapter"], (req, res) => {
     const name = String(req.params.chapter).replace(/[^a-z0-9]/gi, "");
     const file = path.join(lociDir, name + ".json");
 

@@ -732,7 +732,7 @@
 
     title.textContent = formatChapter(chapter);
     body.innerHTML = '<div class="conc-loading">Caricamento...</div>';
-    link.href = './confronta?cap=' + encodeURIComponent(readerParam)
+    link.href = './reader?cap=' + encodeURIComponent(readerParam)
       + '&word=' + encodeURIComponent(numericId);
     modal.style.display = 'flex';
 
