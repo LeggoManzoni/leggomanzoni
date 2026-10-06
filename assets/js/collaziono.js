@@ -12,7 +12,7 @@
     var DATA = null;                 // the loaded chapter payload
     var CACHE = {};                  // chapter -> payload
     var CHAPTER = 'cap1';
-    var PRESET = 'tutto';            // 'tutto' | 'riscritture'
+    var PRESET = 'tutto';            // 'tutto' | 'sostanziali'
     var CURRENT = null;              // selected locus id
     var ORDER = [];                  // visible locus ids, in reading order
 
@@ -30,15 +30,59 @@
     // -------------------------------------------------------------------------
 
     /**
+     * A reading reduced to the bare word: lower case, straight apostrophe,
+     * no punctuation around it (a final apostrophe is part of the word).
+     * @param {string} reading
+     * @returns {string}
+     */
+    function bare(reading) {
+        return reading.toLowerCase().replace(/’/g, "'")
+            .replace(/^[^a-zà-ÿ']+|[^a-zà-ÿ']+$/g, '');
+    }
+
+    /**
+     * Edit distance between two words: letters added, dropped or replaced.
+     * @param {string} a
+     * @param {string} b
+     * @returns {number}
+     */
+    function distance(a, b) {
+        var prev = [], i, j;
+        for (j = 0; j <= b.length; j++) prev.push(j);
+        for (i = 1; i <= a.length; i++) {
+            var row = [i];
+            for (j = 1; j <= b.length; j++) {
+                row.push(Math.min(prev[j] + 1, row[j - 1] + 1,
+                    prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)));
+            }
+            prev = row;
+        }
+        return prev[b.length];
+    }
+
+    /**
+     * Whether a locus is a small change: punctuation and the collation's own
+     * formal set (salience 0), or one word against one word differing by at
+     * most two letters. A threshold on size, as "riscritture" was — it does
+     * not judge what kind of change it is (di/a and giovane/giovine both pass).
+     * @param {Object} locus entry from DATA.loci
+     * @returns {boolean}
+     */
+    function minor(locus) {
+        if (locus.sal === 0) return true;
+        if (locus.op !== 'sub' || locus.size !== 1) return false;
+        return distance(bare(locus.rdg.V27), bare(locus.rdg.Q40)) <= 2;
+    }
+
+    /**
      * Whether a locus is marked under the active choice.
      * Filtered-out loci still render, as plain text, out of the tab order.
-     * Salience 3 means the locus involves five words or more.
      * @param {Object} locus entry from DATA.loci
      * @returns {boolean}
      */
     function visible(locus) {
         if (!locus) return false;
-        if (PRESET === 'riscritture') return locus.sal === 3;
+        if (PRESET === 'sostanziali') return !minor(locus);
         return true;
     }
 
@@ -158,11 +202,13 @@
         var total = Object.keys(DATA.loci).length;
         counter.innerHTML = '<b>' + ORDER.length + '</b> loci visibili su <b>' + total + '</b>';
 
-        // Only the filtered mode needs explaining: it hides ~97% of the marks.
+        // Only the filtered mode needs explaining: the page must say where
+        // the threshold is, since the split is made by rule, not by hand.
         // What the default shows is said in the Mostra buttons' tooltips.
-        if (PRESET === 'riscritture') {
-            hint.textContent = 'Riscrittura = un locus che coinvolge cinque parole o più: ' +
-                ORDER.length + ' sui ' + total + ' di questo capitolo. Le altre varianti restano ' +
+        if (PRESET === 'sostanziali') {
+            hint.textContent = 'Sostanziali = tutte le varianti tranne la punteggiatura e le parole ' +
+                'che cambiano di una o due lettere: ' +
+                ORDER.length + ' sui ' + total + ' di questo capitolo. Le altre restano ' +
                 'nel testo, senza marca.';
             hint.hidden = false;
         } else {

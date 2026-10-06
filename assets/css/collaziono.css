@@ -139,8 +139,8 @@
     outline-offset: 1px;
 }
 
-/* One line saying what the active choice means. "Solo le riscritture" hides
- * ~97% of the marks, which is startling without a stated threshold. */
+/* One line saying what the active choice means: "Sostanziali" is a size
+ * threshold, so the page states where it is. */
 .coll-hint {
     margin: 0;
     padding: 0 20px 12px;
