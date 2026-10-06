@@ -2,10 +2,10 @@
 <style>
     /* Ten items no longer fit between the lg expand breakpoint and ~1150px:
        the bar overflows its container and the language switch is clipped.
-       Tighten the links just in that band. */
+       Tighten the links just in that band. Padding only: the text must stay
+       19px bold to keep its contrast on the green band. */
     @media (min-width: 992px) and (max-width: 1199.98px) {
         #mainNav .navbar-nav .nav-item .nav-link {
-            font-size: 0.95rem;
             padding-left: 0.3rem;
             padding-right: 0.3rem;
         }

@@ -1105,3 +1105,108 @@
 }
 
 
+/* Menu band on phones (October 2026) */
+@media (max-width: 991.98px) {
+  #mainNav {
+    background: #73978B !important;
+    border-bottom: 0;
+  }
+  /* body#page-top: must outrank the #333 brand rule of the mobile home block */
+  body#page-top #mainNav .navbar-brand {
+    color: #FFFFFF !important;
+  }
+  #mainNav .firmaNav {
+    filter: brightness(0) invert(1);
+  }
+  #mainNav .navbar-toggler {
+    border-color: rgba(255, 255, 255, .6);
+  }
+  #mainNav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+}
+
+/* Leggo: the page title sits hidden behind the fixed navbar but still takes
+   its height, leaving an empty strip under the band. Collapse it on phones;
+   on tablets and desktop that height is what clears the navbar. */
+@media (max-width: 768px) and (orientation: portrait) {
+  #confrontaTitle {
+    height: 0;
+    overflow: hidden;
+  }
+
+  /* The two dropdowns share the row instead of pushing the second one
+     off the right edge */
+  .text-controls-mobile {
+    gap: 8px;
+  }
+  .text-controls-mobile .control-group {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .text-controls-mobile .mobile-control-btn {
+    width: 100%;
+    min-width: 0;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* the button already carries a chevron icon */
+  .text-controls-mobile .mobile-control-btn::after {
+    display: none;
+  }
+  /* the right-hand list opens leftwards, or it runs off the screen */
+  .text-controls-mobile .control-group:last-child .mobile-control-dropdown {
+    left: auto;
+    right: 0;
+  }
+  .text-controls-mobile .mobile-control-btn span {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+  }
+}
+
+/* Landscape: the dropdown bars stick right under the navbar, so drop the
+   title's bottom margin too (Leggo and Traduco) */
+@media (max-width: 991.98px) and (orientation: landscape) {
+  #confrontaTitle,
+  #readerTitle {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+/* Progetto: the 72.5% left margin pushes the long buttons out of the card */
+@media (max-width: 991.98px) {
+  .btn-intro {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+  }
+}
+
+/* Hamburger menu: hang it from the container, so it opens under the button
+   instead of at the screen edge when the container is narrower than the
+   screen (tablets, phones in landscape), and let it scroll when the screen is
+   too short for all ten items. */
+@media (max-width: 991.98px) {
+  #mainNav .container {
+    position: relative;
+  }
+  #mainNav .navbar-collapse {
+    right: 1.5rem !important;
+    margin-top: 1.25rem !important;
+    max-height: calc(100vh - 5.5rem) !important;
+    max-height: calc(100dvh - 5.5rem) !important;
+    overflow-y: auto !important;
+  }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+  #mainNav .navbar-collapse {
+    right: 1rem !important;
+  }
+}

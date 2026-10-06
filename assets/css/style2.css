@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .normalFont{
@@ -134,4 +134,60 @@
 /* Foreign-language passages (TEI foreign rend="italic") */
 .foreign {
     font-style: italic;
+}
+
+/* Menu band shared with LeggoLeopardi (October 2026) */
+@media (min-width: 992px) {
+  #mainNav,
+  #mainNav.navbar-shrink {
+    background-color: #73978B;
+    box-shadow: none;
+  }
+  #mainNav .navbar-brand,
+  #mainNav.navbar-shrink .navbar-brand,
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #FFFFFF;
+  }
+  #mainNav .firmaNav {
+    filter: brightness(0) invert(1); /* white signature */
+  }
+  #mainNav .navbar-nav .nav-item .nav-link,
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: 19px; /* 19px bold = WCAG large text */
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    /* darker, not lighter: a pale patch drops the white text below 3:1 */
+    background-color: rgba(0, 0, 0, .15);
+    color: #FFFFFF !important;
+  }
+  /* the older focus rule paints the item green, which is the band itself */
+  #mainNav .navbar-nav .nav-item .nav-link:focus-visible {
+    background-color: rgba(0, 0, 0, .15) !important;
+    outline: 2px solid #FFFFFF;
+    outline-offset: 2px;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.activeNav {
+    background-color: #FFFFFF;
+    color: #5E8377 !important;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.activeNav:focus-visible {
+    background-color: #FFFFFF !important;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.language-link {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+  }
+}
+
+/* Traduco: its page title is empty, so nothing pushes the dropdowns clear of
+   the fixed navbar as the (hidden) title does on Leggo. Give it one line of
+   height. Phones have their own layout (mobile-optimization.css). */
+@media (min-width: 769px) and (orientation: portrait), (min-width: 992px) {
+  #readerTitle:empty::before {
+    content: "\00a0";
+  }
 }
