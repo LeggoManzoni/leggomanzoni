@@ -13,6 +13,9 @@
 
     <xsl:template match="div">
         <div>
+            <xsl:if test="@type = 'notes'">
+                <xsl:attribute name="class">footnotes</xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="./*" />
         </div>
     </xsl:template>
@@ -40,6 +43,31 @@
                     </xsl:attribute>
                     <xsl:apply-templates />
                 </span>
+        </xsl:when>
+        <xsl:when test="@type = 'fn'">
+            <!-- footnote text, in <div type="notes"> at the end of the chapter -->
+            <p class="footnote"><sup><xsl:value-of select="@n" /></sup><xsl:text> </xsl:text><xsl:value-of select="." /></p>
+        </xsl:when>
+        <xsl:when test="@type = 'insertion'">
+            <!-- translator's addition: translated text with no Italian counterpart -->
+            <span class="insertion" title="Aggiunta del traduttore"><xsl:value-of select="normalize-space(.)" /></span>
+            <xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:when test="@type = 'omission'">
+            <!-- Italian left untranslated: a marker linked to the Italian words, so hovering it shows them -->
+            <span class="scroll-item omission" title="Non tradotto">
+                <xsl:attribute name="data-related-id">
+                    <xsl:call-template name="getNumbers">
+                        <xsl:with-param name="string" select="substring-after(@target, '#')"/>
+                    </xsl:call-template>
+                </xsl:attribute>
+                <xsl:attribute name="data-end-id">
+                    <xsl:call-template name="getNumbers">
+                        <xsl:with-param name="string" select="substring-after(@targetEnd, '#')"/>
+                    </xsl:call-template>
+                </xsl:attribute>
+                <xsl:text>[…]</xsl:text>
+            </span>
         </xsl:when>
         <xsl:otherwise>
             <xsl:apply-templates/>
@@ -71,6 +99,12 @@
     <xsl:template match="note/text()">
         <xsl:value-of select="." />
     </xsl:template>
+
+    <!-- footnote mark: <ref type="fn" n="1"/> in the text -->
+    <xsl:template match="ref[@type='fn']">
+        <sup class="fn-ref"><xsl:value-of select="@n" /></sup>
+    </xsl:template>
+
 
     <xsl:template match="hi[@rend='italic'] | rs[@rend='italic'] | bibl | rs | persName | placeName ">
         <em>

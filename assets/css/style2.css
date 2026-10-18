@@ -191,3 +191,27 @@
     content: "\00a0";
   }
 }
+
+/* Translator's additions (type="insertion"): light green-grey tint and a small "+" */
+.insertion {
+  background-color: #e6efe9;
+  padding: 0 .15em;
+  border-radius: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.insertion::after {
+  content: "+";
+  font-size: .62em;
+  vertical-align: super;
+  color: #5f8478;
+  margin-left: 2px;
+}
+
+/* Untranslated Italian (type="omission"): a "[…]" marker; hovering it highlights the Italian */
+.omission {
+  color: #BE5749;
+  font-size: .85em;
+  white-space: nowrap;
+  cursor: help;
+}

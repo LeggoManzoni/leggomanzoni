@@ -7,12 +7,14 @@
  * Two passes:
  *   1. Existence — every referenced xml:id must exist in the quarantana
  *      file it points at (comments and translations).
- *   2. Monotonicity — translation segment anchors must advance through the
- *      text: no inverted ranges (target after targetEnd) and no segment
- *      starting at or before the previous segment's end. This catches
- *      valid-but-wrong ids the existence check cannot see (e.g. a repeated
- *      dialogue line anchored to its first occurrence). Applied to
- *      translations only: comment lemmas legitimately nest and overlap.
+ *   2. Ranges — translation segment anchors must not be inverted (target
+ *      after targetEnd) and no two segments may share a word. Segments may
+ *      follow the translation's order when the translator moved a passage,
+ *      so a segment may start before the previous one; it may not overlap
+ *      another. This catches valid-but-wrong ids the existence check cannot
+ *      see (e.g. a repeated dialogue line anchored to its first occurrence).
+ *      Applied to translations only: comment lemmas legitimately nest and
+ *      overlap.
  *
  * Run after any edit to quarantana/*.xml or to alignment files.
  *
@@ -107,10 +109,10 @@ function checkFile(file, idSets) {
 }
 
 /**
- * Checks that a translation file's segment anchors advance through the text:
- * ranges must not be inverted and each segment must start after the previous
- * one's end (per quarantana chapter). Only meaningful for translations —
- * comment lemmas legitimately nest and overlap.
+ * Checks a translation file's segment anchors: ranges must not be inverted
+ * and no two segments may overlap (per quarantana chapter). Segments out of
+ * Italian order are allowed (the translator moved a passage). Only meaningful
+ * for translations — comment lemmas legitimately nest and overlap.
  * @param {string} file - Path of the translation XML file.
  * @param {Object<string, Map<string, number>>} idSets - Ids per quarantana file.
  * @returns {Array<{line: number, attr: string, value: string, reason: string}>}
@@ -118,11 +120,11 @@ function checkFile(file, idSets) {
 function checkMonotonicity(file, idSets) {
   const xml = fs.readFileSync(file, 'utf8');
   const issues = [];
-  const prevEnd = {};
+  const ranges = {};
 
   const anchorRe = /target="(?:\.\/)?quarantana\/([a-z0-9]+\.xml)#([^"]+)"(?:\s+targetEnd="(?:\.\/)?quarantana\/[a-z0-9]+\.xml#([^"]+)")?/g;
   for (const m of xml.matchAll(anchorRe)) {
-    const [full, fileRef, t, eRaw] = m;
+    const [, fileRef, t, eRaw] = m;
     const order = idSets[fileRef];
     if (!order) continue;
     const e = eRaw || t;
@@ -136,11 +138,17 @@ function checkMonotonicity(file, idSets) {
       issues.push({ line, attr: 'range', value: `${t}..${e}`, reason: 'inverted range (target after targetEnd)' });
       continue;
     }
-    const p = prevEnd[fileRef];
-    if (p !== undefined && ti <= p) {
-      issues.push({ line, attr: 'range', value: `${t}..${e}`, reason: 'non-monotonic (starts at or before previous segment\'s end)' });
+    (ranges[fileRef] ??= []).push({ line, t, e, ti, ei });
+  }
+  for (const list of Object.values(ranges)) {
+    list.sort((x, y) => x.ti - y.ti || x.ei - y.ei);
+    let prev = null;
+    for (const r of list) {
+      if (prev && r.ti <= prev.ei) {
+        issues.push({ line: r.line, attr: 'range', value: `${r.t}..${r.e}`, reason: `overlaps the segment at line ${prev.line} (${prev.t}..${prev.e})` });
+      }
+      if (!prev || r.ei > prev.ei) prev = r;
     }
-    prevEnd[fileRef] = Math.max(p ?? -1, ei);
   }
   return issues;
 }

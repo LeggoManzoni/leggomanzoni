@@ -140,7 +140,7 @@ def load_edition(dirname):
 
         chapter_segments = []
         for note in root.iter(TEI + "note"):
-            if note.get("type") != "comm":
+            if note.get("type") not in ("comm", "translation"):
                 continue
             target, target_end = note.get("target"), note.get("targetEnd")
             if not target or "#" not in target:
