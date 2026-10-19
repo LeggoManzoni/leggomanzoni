@@ -178,7 +178,7 @@ function extractNotesFromXML(xmlContent) {
   try {
     // Use regex to extract note elements since DOM parsing isn't working well
     // Support both single and double quotes for attribute values
-    const noteRegex = /<note[^>]*xml:id=["']([^"']*)["'][^>]*type=["']comm["'][^>]*target=["']([^"']*)["'](?:[^>]*targetEnd=["']([^"']*)["'])?[^>]*>(.*?)<\/note>/gs;
+    const noteRegex = /<note[^>]*xml:id=["']([^"']*)["'][^>]*type=["']comment["'][^>]*target=["']([^"']*)["'](?:[^>]*targetEnd=["']([^"']*)["'])?[^>]*>(.*?)<\/note>/gs;
     const notes = [];
 
     let match;

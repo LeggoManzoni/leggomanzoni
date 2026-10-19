@@ -19,8 +19,8 @@
 
    <xsl:template match="note">
     <xsl:choose>
-        <xsl:when test="@type = 'comm'">
-            <!-- For type='comm', wrap inside <p> tags -->
+        <xsl:when test="@type = 'comment'">
+            <!-- For type='comment', wrap inside <p> tags -->
             <p>
                 <span class="scroll-item">
                     <xsl:attribute name="data-related-id">
