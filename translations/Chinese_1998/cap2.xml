@@ -6,16 +6,22 @@
     <fileDesc>
       <titleStmt>
         <title>第二章</title>
-        <author>孟佐尼</author>
+        <respStmt>
+          <resp>Codifica automatizzata</resp>
+          <persName xml:id="P1">Maria Levchenko</persName>
+        </respStmt>
         <respStmt>
           <resp>Annotazione digitale</resp>
           <persName xml:id="Me">Me</persName>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <p>Scheda editoriale</p>
+      </editionStmt>
       <publicationStmt>
-        <publisher>Leggo Manzoni. Quaranta commenti alla Quarantana</publisher>
-        <pubPlace>Università di Bologna "Alma mater studiorum"</pubPlace>
-        <date>2025</date>
+        <publisher>译林出版社</publisher>
+        <pubPlace>南京</pubPlace>
+        <date>1998</date>
         <availability>
           <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
         </availability>
@@ -27,9 +33,16 @@
           <pubPlace>南京</pubPlace>
           <publisher>译林出版社</publisher>
           <date>1998</date>
+          <respStmt>
+            <resp>Translated by</resp>
+            <persName>Zhang Shihua</persName>
+          </respStmt>
         </bibl>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <p>Introduzione, cap. 1</p>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change who="Me" when="2025-03-18">Annotazione digitale</change>
