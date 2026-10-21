@@ -1,6 +1,19 @@
 // Global state for selected curator filter
 let selectedCurator = 'all';
 
+/**
+ * Order key of a Quarantana token id, the data-id the chapter XSLT gives the word (getNumbers in
+ * assets/js/chapter.xslt): chapter digits + 5-digit token number + 2-digit suffix rank
+ * (none 00, a or _1 01, b or _b 02, ...). c13_11456 -> '131145600', c13_11456b -> '131145602'.
+ */
+function idKey(id) {
+    const m = /^[a-z]+(\d*)_(\d{5})_?([a-z0-9]?)$/.exec(id);
+    if (!m) return id.replace(/\D/g, '');
+    const s = m[3];
+    const rank = !s ? 0 : /\d/.test(s) ? parseInt(s, 10) : 'abcdefghi'.indexOf(s) + 1;
+    return m[1] + m[2] + String(rank).padStart(2, '0');
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const defaultChapter = params.get('cap') || 'intro';
@@ -58,7 +71,9 @@ function fetchChapter(chapter, scrollToWord) {
                 // Scroll to specific word if requested, otherwise scroll to top
                 if (scrollToWord) {
                     setTimeout(() => {
-                        const target = chapterElement.querySelector(`span[data-id="${scrollToWord}"]`);
+                        // links made before the 2-digit suffix rank was added to data-id carry the key without it
+                        const target = chapterElement.querySelector(`span[data-id="${scrollToWord}"]`)
+                            || chapterElement.querySelector(`span[data-id="${scrollToWord}00"]`);
                         if (target && promessisposiElement) {
                             target.style.background = '#FAEEDA';
                             target.style.fontWeight = '700';
@@ -214,9 +229,8 @@ function displayCombinedComments(commentsData) {
             const target = isEnd && parts.length > 1 ? parts[parts.length - 1] : parts[0];
             const match = target.match(/#(.+)/);
             if (match) {
-                // Extract all digits (matches XSLT getNumbers: 'c2_10001' -> '210001')
-                const allDigits = match[1].replace(/\D/g, '');
-                return parseInt(allDigits) || 0;
+                // the key the XSLT getNumbers gives the word ('c2_10001' -> 21000100)
+                return parseInt(idKey(match[1])) || 0;
             }
             return 0;
         };
@@ -442,8 +456,8 @@ function highlightHoveredItem() {
 
             const idMatch = firstTarget.match(/#(.+)/);
             if (idMatch) {
-                // Extract only digits from the ID part, matching XSLT getNumbers template
-                const allDigits = idMatch[1].replace(/\D/g, '');
+                // the key of the ID part, matching the XSLT getNumbers template
+                const allDigits = idKey(idMatch[1]);
                 if (allDigits) {
                     idsWithComments.add(allDigits);
                 }
@@ -501,7 +515,7 @@ function setupHoverScrolling() {
                 // Check if the clicked word matches the START of this comment
                 const firstMatch = firstTarget.match(/#(.+)/);
                 if (firstMatch) {
-                    const firstDigits = firstMatch[1].replace(/\D/g, '');
+                    const firstDigits = idKey(firstMatch[1]);
                     if (firstDigits === dataId) {
                         matchingGroups.push(group);
                         // Only scroll to the first START match (most precise comment)
@@ -518,7 +532,7 @@ function setupHoverScrolling() {
                     const lastTarget = targets[targets.length - 1];
                     const lastMatch = lastTarget.match(/#(.+)/);
                     if (lastMatch) {
-                        const lastDigits = lastMatch[1].replace(/\D/g, '');
+                        const lastDigits = idKey(lastMatch[1]);
                         if (lastDigits === dataId) {
                             matchingGroups.push(group);
                             // Don't set scrollTarget for END matches

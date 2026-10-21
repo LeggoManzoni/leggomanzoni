@@ -35,18 +35,26 @@
 
 
   <xsl:template name="getNumbers">
-    <xsl:param name="string" />
-        <xsl:if test="string-length($string) &gt; 0">
-      <xsl:variable name="char" select="substring($string, 1, 1)" />
-            <xsl:choose>
-        <xsl:when test="$char &gt;= '0' and $char &lt;= '9'">
-          <xsl:value-of select="$char" />
+    <!-- Order key of a Quarantana token id: the chapter digits, the 5-digit token number, and a 2-digit
+         rank for an id suffix (none 00, a or _1 01, b or _b 02, ...). Ids with a suffix (c13_11456b, the
+         word restored after c13_11456; c18_14815_1, a split) so keep reading order and never share the
+         key of their base word. c13_11456 -> 131145600, c13_11456b -> 131145602, intro_10001 -> 1000100.
+         The same rule is idKey() in combined_viewer.js and concordanza.js. -->
+    <xsl:param name="string"/>
+    <xsl:if test="string-length($string) &gt; 0">
+      <xsl:variable name="tail" select="substring-after($string, '_')"/>
+      <xsl:variable name="suffix" select="translate(substring($tail, 6), '_', '')"/>
+      <xsl:value-of select="translate(substring-before($string, '_'), 'abcdefghijklmnopqrstuvwxyz', '')"/>
+      <xsl:value-of select="substring($tail, 1, 5)"/>
+      <xsl:choose>
+        <xsl:when test="$suffix = ''">00</xsl:when>
+        <xsl:when test="string-length($suffix) = 1 and contains('123456789', $suffix)">
+          <xsl:value-of select="concat('0', $suffix)"/>
         </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="concat('0', string-length(substring-before('abcdefghi', $suffix)) + 1)"/>
+        </xsl:otherwise>
       </xsl:choose>
-            <xsl:call-template
-        name="getNumbers">
-        <xsl:with-param name="string" select="substring($string, 2)" />
-      </xsl:call-template>
     </xsl:if>
   </xsl:template>
   <xsl:template match="hi[@rend='italic']">

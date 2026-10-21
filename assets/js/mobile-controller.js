@@ -597,7 +597,9 @@ class MobileTabController {
     if (this.scrolledToRequestedWord) return;
 
     const word = new URLSearchParams(window.location.search).get('word');
-    const target = word ? mobileTextContent.querySelector(`span[data-id="${word}"]`) : null;
+    // links made before the 2-digit suffix rank was added to data-id carry the key without it
+    const target = word ? (mobileTextContent.querySelector(`span[data-id="${word}"]`)
+                           || mobileTextContent.querySelector(`span[data-id="${word}00"]`)) : null;
     const scroller = document.getElementById('mobileTextContent');
     if (target && scroller) {
       // Scroll the text pane itself (scrollIntoView would also move the page)

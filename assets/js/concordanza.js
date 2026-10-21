@@ -722,8 +722,19 @@
   // ---------------------------------------------------------------------------
   // Context modal
   // ---------------------------------------------------------------------------
+  // Order key of a Quarantana token id, the data-id the chapter XSLT gives the word (getNumbers in
+  // assets/js/chapter.xslt): chapter digits + 5-digit token number + 2-digit suffix rank
+  // (none 00, a or _1 01, b or _b 02, ...). c13_11456 -> 131145600, c13_11456b -> 131145602.
+  function idKey(id) {
+    var m = /^[a-z]+(\d*)_(\d{5})_?([a-z0-9]?)$/.exec(id);
+    if (!m) return id.replace(/\D/g, '');
+    var s = m[3];
+    var rank = !s ? 0 : /\d/.test(s) ? parseInt(s, 10) : 'abcdefghi'.indexOf(s) + 1;
+    return m[1] + m[2] + (rank < 10 ? '0' : '') + rank;
+  }
+
   function openContextModal(chapter, wordId) {
-    var numericId = wordId.replace(/\D/g, '');
+    var numericId = idKey(wordId);
     var modal = document.getElementById('conc-context-modal');
     var body = document.getElementById('conc-modal-body');
     var title = document.getElementById('conc-modal-title');
