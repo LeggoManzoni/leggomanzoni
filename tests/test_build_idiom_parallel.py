@@ -203,7 +203,7 @@ def test_straddle_rows_keep_the_idioms_span_not_the_merged_span(rows):
 
 
 def test_translators_are_attached_to_every_row(rows):
-    expected = {"1845": "Henry Francis C. Logan", "1972": "Bruce Penman", "2022": "Michael Moore"}
+    expected = {"1845": "Anonymous", "1972": "Bruce Penman", "2022": "Michael Moore"}
     for row in rows:
         assert row["translator"] == expected[row["edition"]]
 

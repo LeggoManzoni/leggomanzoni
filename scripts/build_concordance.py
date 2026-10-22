@@ -31,6 +31,8 @@ EXCEL_PATH = os.path.join(BASE_DIR, "Locuzioni Leggo Manzoni.xlsx")
 OUTPUT_PATH = os.path.join(BASE_DIR, "data", "concordance.json")
 UNRESOLVED_PATH = os.path.join(BASE_DIR, "scripts", "unresolved_idioms.txt")
 STANZA_MODEL_DIR = os.path.join(BASE_DIR, "scripts", "stanza_resources")
+# Reviewed Stanza errors: form, the wrong lemma Stanza gives it, the right lemma
+LEMMA_FIXES_PATH = os.path.join(BASE_DIR, "scripts", "lemma_fixes.tsv")
 
 CHAPTER_ORDER = ["intro"] + [f"cap{i}" for i in range(1, 39)]
 CONTEXT_WINDOW = 5
@@ -52,6 +54,24 @@ LEMMA_OVERRIDES = {
     "hauendo": "avere",    # archaic "avendo" (gerund of avere)
     "pag": "pagina",       # abbreviation "pag." (the lemmatiser sees it without its full stop)
     "etc": "eccetera",     # abbreviation "etc."
+}
+
+# Articulated and apocopated prepositions take the simple preposition as lemma.
+# Stanza's word splitting garbles them on pretokenised input («col» → cossemél,
+# «alla» → allo, «dal» → dare, «ai» → avere). Keyed on the lower-cased word with
+# its apostrophe. «collo» is left out: in the novel it is always the noun.
+PREPOSITION_LEMMAS = {
+    form: prep
+    for prep, forms in {
+        "di": "del dello della dei degli delle de' dell' degl'",
+        "a": "al allo alla ai agli alle a' all' agl'",
+        "da": "dal dallo dalla dai dagli dalle da' dall' dagl'",
+        "in": "nel nello nella nei negli nelle ne' nell' negl'",
+        "con": "col coi co'",
+        "su": "sul sullo sulla sui sugli sulle su' sull' sugl'",
+        "per": "pel pei pe'",
+    }.items()
+    for form in forms.split()
 }
 
 # Roman numeral to integer mapping for Excel chapter column
@@ -107,6 +127,21 @@ def split_punct(surface: str):
     while j > i and surface[j - 1] in EDGE_PUNCT:
         j -= 1
     return marks(surface[:i]), surface[i:j], marks(surface[j:])
+
+
+def split_elision(core: str):
+    """Split an elided word («c'era», «dell'uomo», «tutt'a») into the parts given to
+    the lemmatiser, and return (parts, k): k is the part whose lemma the token takes,
+    the same part normalise() files the token under (the right one unless it is a
+    single letter)."""
+    m = re.match(r"^(.*\w['’])(\w.*)$", core)
+    if not m:
+        return [core], 0
+    left, right = m.group(1), m.group(2)
+    if len(right.strip("'’")) >= 2:
+        return [left, right], 1
+    first = re.match(r"^(\w+['’])(.*)$", core)
+    return [first.group(1), first.group(2)], 0
 
 
 # ---------------------------------------------------------------------------
@@ -174,8 +209,22 @@ def load_all_chapters():
 # Step 2: Lemmatisation with Stanza
 # ---------------------------------------------------------------------------
 
+def load_lemma_fixes():
+    """(form, wrong Stanza lemma) -> right lemma, from LEMMA_FIXES_PATH. A fix applies
+    only where Stanza gives exactly that wrong lemma, so its right readings stay."""
+    fixes = {}
+    with open(LEMMA_FIXES_PATH, encoding="utf-8") as f:
+        for line in f:
+            if line.startswith("#") or not line.strip():
+                continue
+            form, wrong, right = line.rstrip("\n").split("\t")[:3]
+            fixes[(form, wrong)] = right
+    return fixes
+
+
 def lemmatise_tokens(all_tokens):
     """Run Stanza lemmatiser on all tokens and add lemma field."""
+    lemma_fixes = load_lemma_fixes()
     log.info("Loading Stanza Italian model...")
     nlp = stanza.Pipeline(
         lang="it",
@@ -197,14 +246,19 @@ def lemmatise_tokens(all_tokens):
         # Each TEI token carries its punctuation («parole,», «disse:»). Stanza gets the
         # punctuation as separate tokens and the lemma is read from the word itself;
         # otherwise «parole,» is unknown to it and comes back as its own lemma.
+        # Elided words are split the same way («c'era» → c' + era, lemma of «era»).
         all_lemmas = []
         for i in range(0, len(surfaces), STANZA_CHUNK_SIZE):
             chunk, core_at = [], []
             for s in surfaces[i:i + STANZA_CHUNK_SIZE]:
                 lead, core, trail = split_punct(s)
                 chunk += lead
-                core_at.append(len(chunk) if core else None)
-                chunk += [core] if core else []
+                if core:
+                    parts, k = split_elision(core)
+                    core_at.append(len(chunk) + k)
+                    chunk += [p for p in parts if p]
+                else:
+                    core_at.append(None)
                 chunk += trail
             doc = nlp([chunk])
             stanza_tokens = [t for sent in doc.sentences for t in sent.tokens]
@@ -231,8 +285,12 @@ def lemmatise_tokens(all_tokens):
             # Apply manual lemma overrides for known Stanza errors
             surface = token["surface"]
             norm_surface = normalise(surface)
+            token["lemma"] = lemma_fixes.get((norm_surface, token["lemma"]), token["lemma"])
             if norm_surface and norm_surface in LEMMA_OVERRIDES:
                 token["lemma"] = LEMMA_OVERRIDES[norm_surface]
+            word = split_punct(surface)[1].lower().replace("’", "'")
+            if word in PREPOSITION_LEMMAS:
+                token["lemma"] = PREPOSITION_LEMMAS[word]
 
             # Fix character names: if surface is capitalised and normalised
             # form matches a known character name, override the lemma
